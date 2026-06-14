@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Middle of the Linked List
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/?envType=problem-list-v2&envId=dxlq3az1
+ * Language: Grind 75 (Copy-rab78cw1)
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T06:16:50.239Z
+ */
+
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null && fast.next !=null ){
+            fast=fast.next.next;
+            slow=slow.next;
+        }
+       return slow; 
+    }
+}
