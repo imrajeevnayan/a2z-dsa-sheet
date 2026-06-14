@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 44.53 MB
 - Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032528097/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:57:38.615Z
+- Synced: 2026-06-14T06:59:39.077Z
 
 ## Problem Description
 
