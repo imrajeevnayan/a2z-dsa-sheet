@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/set-matrix-zeroes/description/?utm=codolio
-- Synced: 2026-06-14T10:29:11.081Z
+- Synced: 2026-06-14T10:29:59.074Z
 
 ## Problem Description
 
