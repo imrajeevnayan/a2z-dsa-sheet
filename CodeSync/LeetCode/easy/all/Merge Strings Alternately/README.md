@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Uncategorized
 - Runtime: 1 ms
-- Memory: 43.02 MB
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032464456/?utm=codolio
-- Synced: 2026-06-14T05:33:12.282Z
+- Memory: 42.87 MB
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032465928/?utm=codolio
+- Synced: 2026-06-14T05:33:58.463Z
 
 ## Problem Description
 
