@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:46:05.421Z
+ * Synced: 2026-06-14T03:46:07.220Z
  */
 
 class Solution {
@@ -18,7 +18,7 @@ class Solution {
          maxCount=Math.max(maxCount,count);
       }
         else count=0;
-       }
+         }
        return  maxCount;
     }
 }
