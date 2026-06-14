@@ -4,10 +4,10 @@
 - Language: Striver SDE Sheet (Copy-eeudwo2i)
 - Difficulty: Medium
 - Topics: String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/string-to-integer-atoi/description/?envType=problem-list-v2&envId=dm01ftag
-- Synced: 2026-06-14T16:43:17.733Z
+- Runtime: 0 ms
+- Memory: 43.64 MB
+- Problem URL: https://leetcode.com/problems/string-to-integer-atoi/submissions/2033031972/?envType=problem-list-v2&envId=dm01ftag
+- Synced: 2026-06-14T16:44:03.702Z
 
 ## Problem Description
 
