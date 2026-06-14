@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-14T15:23:09.964Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Striver SDE Sheet (Copy-eeudwo2i)",
+  "problemTitle": "Longest Palindromic Substring",
+  "problemUrl": "https://leetcode.com/problems/longest-palindromic-substring/?envType=problem-list-v2&envId=dm01ftag",
+  "submissionId": "l0i4g0"
+}
