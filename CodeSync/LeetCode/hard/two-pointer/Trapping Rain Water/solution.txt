@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Trapping Rain Water
- * URL: https://leetcode.com/problems/trapping-rain-water/submissions/2032376627/
+ * URL: https://leetcode.com/problems/trapping-rain-water/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
- * Memory: 47.64 MB
- * Synced: 2026-06-14T03:44:03.925Z
+ * Memory: N/A
+ * Synced: 2026-06-14T03:44:20.757Z
  */
 
 leftMax = height[left];
@@ -24,10 +24,16 @@ leftMax = height[left];
         
         while (left < right) {
         int water = 0;
-        int left = 0, right = n - 1;
         int leftMax = 0, rightMax = 0;
+                    water += rightMax - height[right];
+                }
+                right--;
+            }
+        }
+        return water;
+        int left = 0, right = n - 1;
         int n = height.length;
         
-        if (height.length == 0) return 0;
-    public int trap(int[] height) {
 class Solution {
+    public int trap(int[] height) {
+        if (height.length == 0) return 0;
