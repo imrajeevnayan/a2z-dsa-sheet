@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T11:25:02.081Z
+ * Synced: 2026-06-14T11:26:00.086Z
  */
 
 class Solution {
