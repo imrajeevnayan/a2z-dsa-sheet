@@ -4,10 +4,10 @@
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:30:38.414Z
+- Runtime: 0 ms
+- Memory: 43.46 MB
+- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/2032514763/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:31:26.171Z
 
 ## Problem Description
 
