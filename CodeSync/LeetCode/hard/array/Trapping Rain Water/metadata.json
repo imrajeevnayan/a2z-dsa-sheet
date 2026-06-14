@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T03:44:00.724Z",
+  "submissionTimestamp": "2026-06-14T03:44:03.925Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "47.64 MB",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -14,5 +14,5 @@
   "language": "Problem List",
   "problemTitle": "Trapping Rain Water",
   "problemUrl": "https://leetcode.com/problems/trapping-rain-water/submissions/2032376627/",
-  "submissionId": "sytq3"
+  "submissionId": "aqmcs9"
 }
