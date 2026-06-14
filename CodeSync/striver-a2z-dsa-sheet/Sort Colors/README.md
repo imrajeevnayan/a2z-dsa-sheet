@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-colors/description/
-- Synced: 2026-06-14T18:18:44.327Z
+- Runtime: 0 ms
+- Memory: 43.29 MB
+- Problem URL: https://leetcode.com/problems/sort-colors/submissions/2033132196/
+- Synced: 2026-06-14T18:19:31.218Z
 
 ## Problem Description
 
