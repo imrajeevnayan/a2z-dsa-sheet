@@ -1,13 +1,13 @@
 # Longest Substring Without Repeating Characters
 
 - Platform: LeetCode
-- Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+- Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Medium
 - Topics: Hash Table, String, Sliding Window
-- Runtime: 0 ms
-- Memory: 46.34 MB
-- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2032469068/?envType=problem-list-v2&envId=dxlqos71
-- Synced: 2026-06-14T05:39:15.152Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T07:02:04.903Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, find the length of the longest substring without duplicate cha
 
 ## Explanation
 
-This solution was accepted on LeetCode using Blind 75 Must Do Leetcode (Copy-xi4ci4ig). The detected topics are Hash Table, String, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Hash Table, String, Sliding Window. Review the synced source file for the implementation details.
