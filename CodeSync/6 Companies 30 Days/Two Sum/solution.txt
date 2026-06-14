@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Two Sum
+ * URL: https://leetcode.com/problems/two-sum/submissions/?envType=problem-list-v2&envId=dxlq3az1
+ * Language: Grind 75 (Copy-rab78cw1)
+ * Difficulty: Easy
+ * Topics: Array, Hash Table
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-14T07:06:09.939Z
+ */
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int rem=target-nums[i];
+            if(map.containsKey(rem)) return new int[]{rem,i};
+        }
+        return new int[]{-1,-1};
+    }
+            else map.put(nums[i],i);
+}
