@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smartest Approach | Optimized Code | You won't regret Babygirl!
+ * URL: https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1
+ * Language: class Solution { public void setMatrixZeroes(int[][] mat) { // code here boolean firstRow = false; boolean firstCol = false; for(int i=0; i<mat.length; i++) { for(int j=0; j<mat[0].length; j++) { if(mat[i][j] == 0) { if(i == 0) firstRow = true; if(j == 0) firstCol = true; mat[0][j] = 0; mat[i][0] = 0; } } } for(int i=1; i<mat.length; i++) { for(int j=1; j<mat[0].length; j++) { if(mat[0][j] == 0 || mat[i][0] == 0) { mat[i][j] = 0; } } } if(firstRow) { for(int j=0; j<mat[0].length; j++) { mat[0][j] = 0; } } if(firstCol) { for(int i=0; i<mat.length; i++) { mat[i][0] = 0; } } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Expedia, Amazon, Yahoo, TCS, Service Now, Google
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T10:34:23.717Z
+ */
+
+// 3. Use first row and column as markers for the rest of the matrix
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (mat[i][j] == 0) {
+                    mat[i][0] = 0; // Mark row
+                    mat[0][j] = 0; // Mark column
+                }
+            }
+        }
+        
+        // 4. Set zeros based on markers
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (mat[i][0] == 0 || mat[0][j] == 0) {
+                    mat[i][j] = 0;
+                }
+            }
+        }
+        
+        // 5. Handle first row
+        if (firstRowHasZero) {
+            for (int j = 0; j < n; j++) {
+                mat[0][j] = 0;
+            }
+        }
+        
+        // 6. Handle first column
+        if (firstColHasZero) {
+            for (int i = 0; i < m; i++) {
+                mat[i][0] = 0;
+            }
+        }
+    }
+}
