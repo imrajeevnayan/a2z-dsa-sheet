@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.64 MB
 - Problem URL: https://leetcode.com/problems/string-to-integer-atoi/submissions/2033031972/?envType=problem-list-v2&envId=dm01ftag
-- Synced: 2026-06-14T16:44:03.702Z
+- Synced: 2026-06-14T16:44:57.154Z
 
 ## Problem Description
 
