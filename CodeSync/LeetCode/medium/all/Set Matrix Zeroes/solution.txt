@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Set Matrix Zeroes
- * URL: https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio
+ * URL: https://leetcode.com/problems/set-matrix-zeroes/description/?utm=codolio
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Matrix
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T11:21:25.083Z
+ * Synced: 2026-06-14T11:23:27.081Z
  */
 
 class Solution {
