@@ -6,19 +6,21 @@
  * Difficulty: Medium
  * Topics: Array, Hash Table, Matrix
  * Runtime: 0 ms
- * Memory: 47.63 MB
- * Synced: 2026-06-14T11:18:12.263Z
+ * Memory: N/A
+ * Synced: 2026-06-14T11:18:58.998Z
  */
 
-}
-            }
-                }
-                    zeroCols.add(j);
-                    zeroRows.add(i);
-                if (matrix[i][j] == 0) {
-        // 2. Set entire rows to 0
-        for (int row : zeroRows) {
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        Set<Integer> zeroRows = new HashSet<>();
+        Set<Integer> zeroCols = new HashSet<>();
+        
+        int m = matrix.length;
+        int n = matrix[0].length;
+        
+        // 1. Find all zeros and store their row/col indices
+        for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                matrix[row][j] = 0;
-            }
-        }
+                if (matrix[i][j] == 0) {
+                    zeroRows.add(i);
+                    zeroCols.add(j);
