@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
- * Runtime: 0 ms
- * Memory: 52.78 MB
- * Synced: 2026-06-06T08:42:57.095Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T03:45:43.486Z
  */
 
 class Solution {
@@ -16,9 +16,8 @@ class Solution {
        for(int n:nums){
         if(n==1){count++;
         maxCount=Math.max(maxCount,count);
+        }
+        else count=0;
        }
     return  maxCount;
     }
-        else count=0;
-        }
-}
