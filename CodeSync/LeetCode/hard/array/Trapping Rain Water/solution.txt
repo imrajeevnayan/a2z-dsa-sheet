@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:43:47.774Z
+ * Synced: 2026-06-14T03:43:50.524Z
  */
 
 while (left < right) {
