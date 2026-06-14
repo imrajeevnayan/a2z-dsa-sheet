@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.88 MB
 - Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2032502429/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:29:20.156Z
+- Synced: 2026-06-14T06:30:06.165Z
 
 ## Problem Description
 
