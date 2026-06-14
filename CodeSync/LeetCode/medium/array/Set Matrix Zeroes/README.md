@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.63 MB
 - Problem URL: https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio
-- Synced: 2026-06-14T10:40:28.353Z
+- Synced: 2026-06-14T10:41:22.087Z
 
 ## Problem Description
 
