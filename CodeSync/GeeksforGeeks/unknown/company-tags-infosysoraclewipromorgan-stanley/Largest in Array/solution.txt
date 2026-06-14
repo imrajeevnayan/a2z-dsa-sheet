@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Largest in Array
+ * URL: https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags InfosysOracleWiproMorgan Stanley, Company Tags, Infosys, Oracle, Wipro, Morgan Stanley, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T06:14:02.397Z
+ */
+
+class Solution {
+    public static int largest(int[] arr) {
+     int max=0;
+     for(int i=0;i<arr.length;i++){
+         if(arr[i]> max) max=arr[i];
+     }
+    return max;    
+    }
+}
