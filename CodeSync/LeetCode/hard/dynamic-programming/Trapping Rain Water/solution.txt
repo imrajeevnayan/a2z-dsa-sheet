@@ -5,12 +5,17 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T09:45:11.560Z
+ * Synced: 2026-06-14T03:43:31.832Z
  */
 
-for (int i = 0; i < height.length; i++) {
+public class Solution {
+    public int trap(int[] height) {
+    int ans = 0;
+    Deque<Integer> stack = new ArrayDeque<>();
+    
+    for (int i = 0; i < height.length; i++) {
         while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
             int top = stack.pop();
             if (stack.isEmpty()) break;
@@ -23,8 +28,4 @@ for (int i = 0; i < height.length; i++) {
     }
     return ans;
     }
-    
-    int ans = 0;
-    Deque<Integer> stack = new ArrayDeque<>();
-public class Solution {
-    public int trap(int[] height) {
+}
