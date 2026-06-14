@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Set Matrix Zeroes
- * URL: https://leetcode.com/problems/set-matrix-zeroes/description/?utm=codolio
+ * URL: https://leetcode.com/problems/set-matrix-zeroes/submissions/2032709608/?utm=codolio
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Matrix
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-14T10:31:36.075Z
+ * Runtime: 0 ms
+ * Memory: 47.63 MB
+ * Synced: 2026-06-14T10:32:26.213Z
  */
 
-class Solution {
-    public void setZeroes(int[][] matrix) {
+if (matrix[i][j] == 0) {
+            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < m; i++) {
+        // 1. Find all zeros and store their row/col indices
         
-    }
-}
+        int n = matrix[0].length;
+        int m = matrix.length;
+        
+        Set<Integer> zeroCols = new HashSet<>();
+        Set<Integer> zeroRows = new HashSet<>();
+    public void setZeroes(int[][] matrix) {
+class Solution {
+                    zeroRows.add(i);
+                    zeroCols.add(j);
