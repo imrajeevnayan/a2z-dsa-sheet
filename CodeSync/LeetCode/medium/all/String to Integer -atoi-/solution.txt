@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: String to Integer (atoi)
+ * URL: https://leetcode.com/problems/string-to-integer-atoi/description/?envType=problem-list-v2&envId=dm01ftag
+ * Language: Striver SDE Sheet (Copy-eeudwo2i)
+ * Difficulty: Medium
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T16:43:17.733Z
+ */
+
+class Solution {
+    public int myAtoi(String s) {
+        
+    }
+}
