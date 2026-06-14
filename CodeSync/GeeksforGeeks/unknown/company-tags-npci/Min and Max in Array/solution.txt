@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T05:25:03.545Z
+ * Synced: 2026-06-14T05:25:51.547Z
  */
 
 class Solution {
