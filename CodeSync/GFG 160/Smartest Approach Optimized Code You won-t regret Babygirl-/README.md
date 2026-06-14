@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1
-- Synced: 2026-06-14T10:43:25.082Z
+- Synced: 2026-06-14T10:44:25.082Z
 
 ## Problem Description
 
