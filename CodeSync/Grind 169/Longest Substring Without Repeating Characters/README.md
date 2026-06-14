@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T07:02:04.903Z
+- Synced: 2026-06-14T07:07:52.170Z
 
 ## Problem Description
 
