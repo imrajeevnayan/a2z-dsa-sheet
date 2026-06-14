@@ -1,26 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Colors
- * URL: https://leetcode.com/problems/sort-colors/description/
+ * URL: https://leetcode.com/problems/sort-colors/submissions/2033132196/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-14T18:18:44.327Z
+ * Runtime: 0 ms
+ * Memory: 43.29 MB
+ * Synced: 2026-06-14T18:19:31.218Z
  */
 
-class Solution {
-    public void sortColors(int[] nums) {
-        int zeroCount=0,oneCount=0,twoCount=0;
-        for(int n :nums){
-            if(n==0)zeroCount++;
-            else if(n==1)oneCount++;
-            else twoCount++;
+mid++;
+            } else {
+                swap(nums, mid, high--);
+            }
         }
-        int i=0;
-        while(zeroCount-- >0)nums[i++]=0;
-        while(oneCount-- >0)nums[i++]=1;
-        while(twoCount-- >0)nums[i++]=2;
+    }
+    void swap(int[] nums, int i, int j) {
+        int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
     }
 }
