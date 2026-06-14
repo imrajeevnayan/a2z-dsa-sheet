@@ -7,12 +7,10 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:43:31.832Z
+ * Synced: 2026-06-14T03:43:41.174Z
  */
 
-public class Solution {
-    public int trap(int[] height) {
-    int ans = 0;
+int ans = 0;
     Deque<Integer> stack = new ArrayDeque<>();
     
     for (int i = 0; i < height.length; i++) {
