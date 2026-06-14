@@ -102,7 +102,16 @@
     "LoveBabbar450",
     "StriverSDE"
   ],
-  "leetcode:set-matrix-zeroes": [],
+  "leetcode:set-matrix-zeroes": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "LoveBabbar450",
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150"
+  ],
   "geeksforgeeks:set-matrix-zeroes": [
     "GFG160"
   ]
