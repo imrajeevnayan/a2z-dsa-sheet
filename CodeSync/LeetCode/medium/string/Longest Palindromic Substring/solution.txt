@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Palindromic Substring
- * URL: https://leetcode.com/problems/longest-palindromic-substring/?envType=problem-list-v2&envId=dm01ftag
+ * URL: https://leetcode.com/problems/longest-palindromic-substring/submissions/2032954047/?envType=problem-list-v2&envId=dm01ftag
  * Language: Striver SDE Sheet (Copy-eeudwo2i)
  * Difficulty: Medium
  * Topics: Two Pointers, String, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-14T15:23:09.964Z
+ * Memory: 46.76 MB
+ * Synced: 2026-06-14T15:23:55.163Z
  */
 
 return res;
@@ -18,9 +18,8 @@ return res;
         }
             if (longer.length() > res.length()) res = longer;
             String longer = odd.length() > even.length() ? odd : even;
-            String even = expand(s, i, i + 1);
-            String odd = expand(s, i, i);
-        for (int i = 0; i < s.length(); i++) {
-        String res = "";
-    public String longestPalindrome(String s) {
-class Solution {
+            l--; r++;
+        }
+        return s.substring(l + 1, r);
+    }
+}
