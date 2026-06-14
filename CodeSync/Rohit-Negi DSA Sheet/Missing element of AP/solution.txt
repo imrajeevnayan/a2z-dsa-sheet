@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Missing element of AP
+ * URL: https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Data Structures, Algorithms, Binary Search, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T16:48:54.302Z
+ */
+
+class Solution {
+    public int findMissing(int[] arr) {
+
+        int n = arr.length;
+
+        int d = (arr[n - 1] - arr[0]) / n;
+
+        for (int i = 1; i < n; i++) {
+            if (arr[i] - arr[i - 1] != d)
+                return arr[i - 1] + d;
+        }
+
+        return arr[0] + d; 
+    }
+}
