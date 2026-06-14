@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-14T11:21:25.083Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-14T11:23:27.081Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Set Matrix Zeroes",
-  "problemUrl": "https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio",
+  "problemUrl": "https://leetcode.com/problems/set-matrix-zeroes/description/?utm=codolio",
   "submissionId": "d9ewvh"
 }
