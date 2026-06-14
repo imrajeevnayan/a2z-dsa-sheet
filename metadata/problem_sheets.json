@@ -130,5 +130,12 @@
     "Top100Liked",
     "StriverA2Z",
     "StriverSDE"
+  ],
+  "leetcode:string-to-integer-atoi": [
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
