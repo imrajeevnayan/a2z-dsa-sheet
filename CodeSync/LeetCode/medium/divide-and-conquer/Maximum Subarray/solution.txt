@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Dynamic Programming
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T07:04:39.842Z
+ * Synced: 2026-06-14T17:35:05.277Z
  */
 
 class Solution {
