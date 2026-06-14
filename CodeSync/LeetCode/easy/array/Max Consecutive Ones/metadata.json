@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T08:42:57.095Z",
-  "runtime": "0 ms",
-  "memoryUsage": "52.78 MB",
+  "submissionTimestamp": "2026-06-14T03:45:43.486Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array"
@@ -10,5 +10,5 @@
   "language": "Problem List",
   "problemTitle": "Max Consecutive Ones",
   "problemUrl": "https://leetcode.com/problems/max-consecutive-ones/",
-  "submissionId": "xig45g"
+  "submissionId": "f8fqvr"
 }
