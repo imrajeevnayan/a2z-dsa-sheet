@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/trapping-rain-water/
-- Synced: 2026-06-02T09:45:11.560Z
+- Problem URL: https://leetcode.com/problems/trapping-rain-water/description/
+- Synced: 2026-06-14T03:43:05.847Z
 
 ## Problem Description
 
