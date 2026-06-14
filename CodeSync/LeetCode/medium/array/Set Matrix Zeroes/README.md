@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Matrix
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio
-- Synced: 2026-06-14T11:22:12.074Z
+- Problem URL: https://leetcode.com/problems/set-matrix-zeroes/description/?utm=codolio
+- Synced: 2026-06-14T11:23:27.081Z
 
 ## Problem Description
 
