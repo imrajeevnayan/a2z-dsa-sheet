@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: ✅ 1. In-place (O(n²)) — Shifting Approach (Simpler)
+ * URL: https://www.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T17:19:47.244Z
+ */
+
+class Solution {
+    public void segregateElements(int[] arr) {
+        int n = arr.length;
+        int[] temp = new int[n];
+        int j = 0;
+
+        for (int x : arr)
+            if (x >= 0) temp[j++] = x;
+
+        for (int x : arr)
+            if (x < 0) temp[j++] = x;
+
+        for (int i = 0; i < n; i++)
+            arr[i] = temp[i];
+    }
+}
