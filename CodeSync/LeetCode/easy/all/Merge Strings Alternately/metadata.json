@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-14T05:22:53.163Z",
+  "submissionTimestamp": "2026-06-14T05:32:05.851Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.82 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Two Pointers",
     "String"
   ],
   "platform": "LeetCode",
-  "language": "LeetCode 75",
+  "language": "Problem List",
   "problemTitle": "Merge Strings Alternately",
-  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/submissions/2032452273/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "hp2u6v"
+  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/submissions/2032464456/?utm=codolio",
+  "submissionId": "ib78wh"
 }
