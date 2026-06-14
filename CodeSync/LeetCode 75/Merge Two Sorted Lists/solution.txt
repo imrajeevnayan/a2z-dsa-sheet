@@ -7,15 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 44.53 MB
- * Synced: 2026-06-14T06:51:05.182Z
+ * Synced: 2026-06-14T06:57:38.615Z
  */
 
-class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        if (list1 == null) return list2;
-        if (list2 == null) return list1;
-        
-        if (list1.val <= list2.val) {
+if (list1.val <= list2.val) {
             list1.next = mergeTwoLists(list1.next, list2);
             return list1;
         } 
@@ -24,3 +19,8 @@ class Solution {
             return list2;
         }   
     }
+        
+        if (list1 == null) return list2;
+        if (list2 == null) return list1;
+class Solution {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
