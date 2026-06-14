@@ -7,19 +7,20 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T15:15:33.814Z
+ * Synced: 2026-06-14T15:16:20.662Z
  */
 
-class Solution {
-    public int pairSum(ListNode head) {
-        ListNode slow=head,fast=head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
-        }
+}
         ListNode prev=null;
         while(slow!=null){
-            ListNode next
+            ListNode next=slow.next;
         }
-    }
-}
+            slow.next=prev;
+            prev=slow;
+            slow=next;
+            slow=slow.next;
+            fast=fast.next.next;
+        while(fast!=null && fast.next!=null){
+        ListNode slow=head,fast=head;
+    public int pairSum(ListNode head) {
+class Solution {
