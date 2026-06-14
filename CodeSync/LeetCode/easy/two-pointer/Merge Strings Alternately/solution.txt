@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-14T05:14:30.333Z
+ * Synced: 2026-06-14T05:15:16.333Z
  */
 
 int i = 0, j = 0;
