@@ -7,20 +7,11 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T15:17:05.843Z
+ * Synced: 2026-06-14T15:17:51.414Z
  */
 
-*     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-    }
 class Solution {
     public int pairSum(ListNode head) {
         
- *     ListNode next;
- *     ListNode() {}
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
-/**
+    }
+}
