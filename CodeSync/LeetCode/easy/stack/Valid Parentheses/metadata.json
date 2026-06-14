@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-04T16:39:08.877Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-14T06:30:38.414Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Stack"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Grind 75 (Copy-rab78cw1)",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/submissions/2022490165/",
-  "submissionId": "uznnkz"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/?envType=problem-list-v2&envId=dxlq3az1",
+  "submissionId": "o706yk"
 }
