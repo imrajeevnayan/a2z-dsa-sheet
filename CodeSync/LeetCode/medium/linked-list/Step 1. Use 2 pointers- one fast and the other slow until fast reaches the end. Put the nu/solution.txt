@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Step 1. Use 2 pointers, one fast and the other slow until fast reaches the end. Put the numbers into the stack while traversing slow pointer. Step 2. Move slow pointer further, and pop the stack
+ * URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=daily-question&envId=2026-06-14
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T04:28:57.839Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public int pairSum(ListNode head) {
+        
+    }
