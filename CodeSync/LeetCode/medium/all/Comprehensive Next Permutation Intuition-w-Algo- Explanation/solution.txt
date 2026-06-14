@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-14T17:32:59.941Z
+ * Memory: 44.52 MB
+ * Synced: 2026-06-14T17:34:32.925Z
  */
 
 }
@@ -15,8 +15,12 @@
     } 
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
-    }
-    private void reverse(int[] nums, int start, int end) {
-        while (start < end) swap(nums, start++, end--);
-    }
-}
+            while (nums[j] <= nums[i]) j--;
+            swap(nums, i, j);
+            int j = n - 1;
+        if (i >= 0) {
+       while (i >= 0 && nums[i] >= nums[i + 1]) i--;
+        
+        int n = nums.length,i = n - 2;
+    public void nextPermutation(int[] nums) {
+class Solution {
