@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-14T03:45:19.397Z
+ * Synced: 2026-06-14T03:45:34.742Z
  */
 
 class Solution {
