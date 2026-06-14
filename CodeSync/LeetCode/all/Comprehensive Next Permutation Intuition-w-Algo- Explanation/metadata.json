@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T17:32:59.941Z",
+  "submissionTimestamp": "2026-06-14T17:34:32.925Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.52 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Comprehensive Next Permutation Intuition(w/Algo) Explanation",
   "problemUrl": "https://leetcode.com/problems/next-permutation/",
-  "submissionId": "726do8"
+  "submissionId": "14f00z"
 }
