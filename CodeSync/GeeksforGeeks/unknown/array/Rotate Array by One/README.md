@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
-- Synced: 2026-06-14T16:55:59.154Z
+- Synced: 2026-06-14T16:56:50.201Z
 
 ## Problem Description
 
