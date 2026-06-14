@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Matrix
 - Runtime: 0 ms
-- Memory: 47.63 MB
+- Memory: N/A
 - Problem URL: https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio
-- Synced: 2026-06-14T11:18:12.263Z
+- Synced: 2026-06-14T11:18:58.998Z
 
 ## Problem Description
 
