@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T07:02:23.761Z
+ * Synced: 2026-06-14T17:35:05.277Z
  */
 
 class Solution {
@@ -15,9 +15,9 @@ class Solution {
         int maxsum=Integer.MIN_VALUE,curr=0;
         for(int n:nums){
             curr+=n;
+            if(curr >maxsum)maxsum=curr;
             if(curr <0) curr=0;
         }
-        return maxsum
+        return maxsum;
     }
-            if(curr >maxsum)curr=maxsum;
 }
