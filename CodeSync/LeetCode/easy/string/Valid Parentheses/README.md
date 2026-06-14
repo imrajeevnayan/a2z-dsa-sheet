@@ -1,13 +1,13 @@
 # Valid Parentheses
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/2022490165/
-- Synced: 2026-06-04T16:39:08.877Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:30:38.414Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are String, Stack. Review the synced source file for the implementation details.
