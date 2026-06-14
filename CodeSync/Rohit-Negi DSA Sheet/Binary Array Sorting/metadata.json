@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-14T17:04:41.003Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Sorting",
+    "Arrays",
+    "two-pointer-algorithm"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public void binSort(int[] arr) { int count1 = 0, count0 = 0; for(int i = 0; i < arr.length; i++){ if(arr[i] == 1){ count1++; } else { count0++; } } for(int i = 0; i < count0; i++){ arr[i] = 0; } for(int i = count0; i < arr.length; i++){ arr[i] = 1; } } }",
+  "problemTitle": "Binary Array Sorting",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/binary-array-sorting-1587115620/1",
+  "submissionId": "csorge"
+}
