@@ -4,10 +4,10 @@
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
 - Topics: Linked List, Recursion
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:42:59.065Z
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:45:32.530Z
 
 ## Problem Description
 
