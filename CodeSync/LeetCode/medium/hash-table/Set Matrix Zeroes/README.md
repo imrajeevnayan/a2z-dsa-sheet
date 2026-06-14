@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Matrix
 - Runtime: 0 ms
 - Memory: 47.63 MB
-- Problem URL: https://leetcode.com/problems/set-matrix-zeroes/submissions/2032709608/?utm=codolio
-- Synced: 2026-06-14T10:32:26.213Z
+- Problem URL: https://leetcode.com/problems/set-matrix-zeroes/?utm=codolio
+- Synced: 2026-06-14T10:33:14.082Z
 
 ## Problem Description
 
