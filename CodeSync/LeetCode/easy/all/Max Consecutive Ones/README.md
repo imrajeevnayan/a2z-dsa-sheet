@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-consecutive-ones/
-- Synced: 2026-06-14T03:46:25.219Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones/description/
+- Synced: 2026-06-14T03:46:32.691Z
 
 ## Problem Description
 
