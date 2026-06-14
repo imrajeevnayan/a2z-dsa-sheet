@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.76 MB
 - Problem URL: https://leetcode.com/problems/longest-palindromic-substring/submissions/2032954047/?envType=problem-list-v2&envId=dm01ftag
-- Synced: 2026-06-14T15:29:36.156Z
+- Synced: 2026-06-14T15:58:36.577Z
 
 ## Problem Description
 
