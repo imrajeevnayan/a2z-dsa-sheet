@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T16:44:57.154Z",
+  "submissionTimestamp": "2026-06-14T16:45:42.556Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.64 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "String"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Striver SDE Sheet (Copy-eeudwo2i)",
   "problemTitle": "String to Integer (atoi)",
-  "problemUrl": "https://leetcode.com/problems/string-to-integer-atoi/submissions/2033031972/?envType=problem-list-v2&envId=dm01ftag",
-  "submissionId": "vasmdr"
+  "problemUrl": "https://leetcode.com/problems/string-to-integer-atoi/description/?envType=problem-list-v2&envId=dm01ftag",
+  "submissionId": "ru96b4"
 }
