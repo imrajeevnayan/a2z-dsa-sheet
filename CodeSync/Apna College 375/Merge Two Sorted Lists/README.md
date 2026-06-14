@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
-- Topics: Linked List, Recursion
+- Topics: Uncategorized
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:45:32.530Z
+- Memory: 44.53 MB
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032528097/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:57:38.615Z
 
 ## Problem Description
 
-You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). Review the synced source file for the implementation details.
