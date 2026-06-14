@@ -1,11 +1,10 @@
 {
-  "submissionTimestamp": "2026-06-14T05:32:05.851Z",
-  "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-14T05:33:12.282Z",
+  "runtime": "1 ms",
+  "memoryUsage": "43.02 MB",
   "difficulty": "Easy",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
