@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-14T03:46:14.286Z
+ * Synced: 2026-06-14T03:46:25.219Z
  */
 
 class Solution {
@@ -21,5 +21,5 @@ class Solution {
          }
        return  maxCount;
     }
-            count++;
+         count++;
 }
