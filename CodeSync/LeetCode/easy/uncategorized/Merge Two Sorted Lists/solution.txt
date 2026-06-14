@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Merge Two Sorted Lists
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032528097/?envType=problem-list-v2&envId=dxlq3az1
+ * Language: Grind 75 (Copy-rab78cw1)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 0 ms
+ * Memory: 44.53 MB
+ * Synced: 2026-06-14T06:59:39.077Z
+ */
+
+if (list1.val <= list2.val) {
+            list1.next = mergeTwoLists(list1.next, list2);
+            return list1;
+        } 
+        else {
+            list2.next = mergeTwoLists(list1, list2.next);
+            return list2;
+        }   
+    }
+}
