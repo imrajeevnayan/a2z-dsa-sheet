@@ -102,5 +102,8 @@
     "LoveBabbar450",
     "StriverSDE"
   ],
-  "leetcode:set-matrix-zeroes": []
+  "leetcode:set-matrix-zeroes": [],
+  "geeksforgeeks:set-matrix-zeroes": [
+    "GFG160"
+  ]
 }
