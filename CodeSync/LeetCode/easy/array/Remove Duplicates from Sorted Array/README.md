@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-- Synced: 2026-06-14T03:44:54.826Z
+- Synced: 2026-06-14T03:45:00.622Z
 
 ## Problem Description
 
