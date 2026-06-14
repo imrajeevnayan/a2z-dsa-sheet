@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 43.46 MB
- * Synced: 2026-06-14T06:39:26.164Z
+ * Synced: 2026-06-14T06:40:14.163Z
  */
 
 if (st.isEmpty()) return false; 
