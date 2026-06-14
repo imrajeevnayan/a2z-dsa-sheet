@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 46.84 MB
- * Synced: 2026-06-14T05:55:06.728Z
+ * Synced: 2026-06-14T05:59:44.506Z
  */
 
 public boolean hasCycle(ListNode head) {
@@ -22,3 +22,4 @@ public boolean hasCycle(ListNode head) {
       return false;
     }
 }
+public class Solution {
