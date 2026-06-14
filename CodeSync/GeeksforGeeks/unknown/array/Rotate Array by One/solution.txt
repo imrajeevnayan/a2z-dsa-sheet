@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, implementation, Related Articles, C Program Cyclically Rotate Array One
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T16:55:59.154Z
+ * Synced: 2026-06-14T16:56:50.201Z
  */
 
 class Solution {
