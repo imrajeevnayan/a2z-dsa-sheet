@@ -7,7 +7,7 @@
  * Topics: Arrays, Summer SkillUp Explore, Summer SkillUp, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T05:24:59.191Z
+ * Synced: 2026-06-14T05:28:05.485Z
  */
 
 import java.util.ArrayList;
