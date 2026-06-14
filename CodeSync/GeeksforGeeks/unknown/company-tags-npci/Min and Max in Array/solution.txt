@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Min and Max in Array
+ * URL: https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T05:20:16.576Z
+ */
+
+class Solution {
+    public ArrayList<Integer> getMinMax(int[] arr) {
+      int min=Integer.MAX_VALUE;
+      int max=Integer.MIN_VALUE;
+      for(int n :arr){
+          if(n < min) min=n;
+          if(n > max) max=n;
+      }
+       return new ArrayList<>(Arrays.asList(min,max));
+    }
+}
