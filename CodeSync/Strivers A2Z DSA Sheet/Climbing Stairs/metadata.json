@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-14T10:01:29.366Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Grind 75 (Copy-rab78cw1)",
+  "problemTitle": "Climbing Stairs",
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dxlq3az1",
+  "submissionId": "pq556u"
+}
