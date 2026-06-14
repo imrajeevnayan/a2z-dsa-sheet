@@ -1,15 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Subarray
- * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * URL: https://leetcode.com/problems/maximum-subarray/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T16:03:52.206Z
+ * Synced: 2026-06-14T17:35:05.277Z
  */
 
-Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
-Output: 6
-Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int maxsum=Integer.MIN_VALUE,curr=0;
+        for(int n:nums){
+            curr+=n;
+            if(curr >maxsum)maxsum=curr;
+            if(curr <0) curr=0;
+        }
+        return maxsum;
+    }
+}
