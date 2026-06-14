@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 44.52 MB
 - Problem URL: https://leetcode.com/problems/next-permutation/
-- Synced: 2026-06-14T17:32:59.941Z
+- Synced: 2026-06-14T17:34:32.925Z
 
 ## Problem Description
 
