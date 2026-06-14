@@ -4,10 +4,10 @@
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:16:50.239Z
+- Runtime: 0 ms
+- Memory: 42.88 MB
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2032502429/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:17:39.168Z
 
 ## Problem Description
 
