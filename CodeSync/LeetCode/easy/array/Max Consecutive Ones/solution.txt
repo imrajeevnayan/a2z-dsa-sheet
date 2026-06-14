@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:45:55.168Z
+ * Synced: 2026-06-14T03:45:59.336Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
        int count=0,maxCount=0;
        for(int n:nums){
          if(n==1){count++;
-        maxCount=Math.max(maxCount,count);
+         maxCount=Math.max(maxCount,count);
         }
         else count=0;
        }
