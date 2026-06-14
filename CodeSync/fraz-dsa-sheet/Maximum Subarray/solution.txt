@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Subarray
+ * URL: https://leetcode.com/problems/maximum-subarray/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T17:35:05.277Z
+ */
+
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int maxsum=Integer.MIN_VALUE,curr=0;
+        for(int n:nums){
+            curr+=n;
+            if(curr >maxsum)maxsum=curr;
+            if(curr <0) curr=0;
+        }
+        return maxsum;
+    }
+}
