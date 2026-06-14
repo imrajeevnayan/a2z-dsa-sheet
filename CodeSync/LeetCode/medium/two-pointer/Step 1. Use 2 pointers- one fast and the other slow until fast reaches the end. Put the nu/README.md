@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=daily-question&envId=2026-06-14
-- Synced: 2026-06-14T04:29:11.573Z
+- Synced: 2026-06-14T04:29:16.573Z
 
 ## Problem Description
 
