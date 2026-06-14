@@ -7,23 +7,27 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:43:41.174Z
+ * Synced: 2026-06-14T03:43:47.774Z
  */
 
-int ans = 0;
-    Deque<Integer> stack = new ArrayDeque<>();
-    
-    for (int i = 0; i < height.length; i++) {
-        while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
-            int top = stack.pop();
-            if (stack.isEmpty()) break;
-            
-            int distance = i - stack.peek() - 1;
-            int boundedHeight = Math.min(height[i], height[stack.peek()]) - height[top];
-            ans += distance * boundedHeight;
-        }
-        stack.push(i);
-    }
-    return ans;
-    }
-}
+while (left < right) {
+            if (height[left] < height[right]) {
+                if (height[left] >= leftMax) {
+                    leftMax = height[left];
+                } else {
+                    water += leftMax - height[left];
+                }
+                left++;
+            } else {
+                if (height[right] >= rightMax) {
+                    rightMax = height[right];
+                } else {
+        int leftMax = 0, rightMax = 0;
+        int water = 0;
+        
+        int n = height.length;
+        int left = 0, right = n - 1;
+        
+    public int trap(int[] height) {
+        if (height.length == 0) return 0;
+class Solution {
