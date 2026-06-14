@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Merge Strings Alternately
+ * URL: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Easy
+ * Topics: Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-14T05:12:58.527Z
+ */
+
+int i = 0, j = 0;
+        while (i < word1.length() || j < word2.length()) {
+            if (i < word1.length())
+                sb.append(word1.charAt(i++));
+            if (j < word2.length())
+                sb.append(word2.charAt(j++));
+        }
+        return sb.toString();
+    }
+}
+        StringBuilder sb = new StringBuilder();
+class Solution {
+    public String mergeAlternately(String word1, String word2) {
