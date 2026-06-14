@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-14T06:00:29.923Z",
+  "submissionTimestamp": "2026-06-14T06:01:22.187Z",
   "runtime": "0 ms",
   "memoryUsage": "46.72 MB",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Blind 75 Must Do Leetcode (Copy-xi4ci4ig)",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/submissions/2032487850/?envType=problem-list-v2&envId=dxlqos71",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=dxlqos71",
   "submissionId": "mb609d"
 }
