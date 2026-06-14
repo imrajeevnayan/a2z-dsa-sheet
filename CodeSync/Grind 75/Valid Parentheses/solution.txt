@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Parentheses
+ * URL: https://leetcode.com/problems/valid-parentheses/?envType=problem-list-v2&envId=dxlq3az1
+ * Language: Grind 75 (Copy-rab78cw1)
+ * Difficulty: Easy
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T06:30:38.414Z
+ */
+
+if (st.isEmpty()) return false; 
+                char top = st.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) return false;
+            }
+        }
+        return st.isEmpty();
+            else {
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+    public boolean isValid(String s) {
+        Deque<Character> st = new ArrayDeque<>();
+class Solution {
