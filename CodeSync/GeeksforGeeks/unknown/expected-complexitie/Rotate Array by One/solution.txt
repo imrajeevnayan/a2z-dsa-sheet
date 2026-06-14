@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Rotate Array by One
+ * URL: https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, implementation, Related Articles, C Program Cyclically Rotate Array One
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T16:55:10.973Z
+ */
+
+class Solution {
+    public void rotate(int[] arr) {
+        if (arr == null || arr.length <= 1) return;
+        int last = arr[arr.length - 1];
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[0] = last;
+    }
+}
