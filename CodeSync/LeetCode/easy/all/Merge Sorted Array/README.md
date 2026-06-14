@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-sorted-array/?utm=codolio
-- Synced: 2026-06-14T06:15:26.115Z
+- Memory: 44.05 MB
+- Problem URL: https://leetcode.com/problems/merge-sorted-array/submissions/2032501042/?utm=codolio
+- Synced: 2026-06-14T06:16:11.968Z
 
 ## Problem Description
 
