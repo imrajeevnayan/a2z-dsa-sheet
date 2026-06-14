@@ -6,8 +6,8 @@
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-14T03:44:00.724Z
+ * Memory: 47.64 MB
+ * Synced: 2026-06-14T03:44:03.925Z
  */
 
 leftMax = height[left];
@@ -19,11 +19,15 @@ leftMax = height[left];
                 if (height[right] >= rightMax) {
                     rightMax = height[right];
                 } else {
-                    water += rightMax - height[right];
-                }
-                right--;
-            }
-        }
-        return water;
-    }
-}
+            if (height[left] < height[right]) {
+                if (height[left] >= leftMax) {
+        
+        while (left < right) {
+        int water = 0;
+        int left = 0, right = n - 1;
+        int leftMax = 0, rightMax = 0;
+        int n = height.length;
+        
+        if (height.length == 0) return 0;
+    public int trap(int[] height) {
+class Solution {
