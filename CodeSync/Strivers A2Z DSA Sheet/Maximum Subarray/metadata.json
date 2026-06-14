@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-14T17:35:05.277Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Subarray",
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/",
+  "submissionId": "5js0ly"
+}
