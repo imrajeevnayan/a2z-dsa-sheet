@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Linked List, Recursion
 - Runtime: 0 ms
-- Memory: 44.61 MB
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032526157/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:43:44.160Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-14T06:45:32.530Z
 
 ## Problem Description
 
