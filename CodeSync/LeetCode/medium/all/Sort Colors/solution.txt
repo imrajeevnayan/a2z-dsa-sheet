@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: 43.29 MB
- * Synced: 2026-06-14T18:24:29.068Z
+ * Synced: 2026-06-14T18:31:20.249Z
  */
 
 mid++;
@@ -16,7 +16,11 @@ mid++;
             }
         }
     }
-    void swap(int[] nums, int i, int j) {
-        int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
-    }
-}
+                swap(nums, low++, mid++);
+            } else if (nums[mid] == 1) {
+            if (nums[mid] == 0) {
+        while (mid <= high) {
+        
+        int low = 0, mid = 0, high = nums.length - 1;
+    public void sortColors(int[] nums) {
+class Solution {
