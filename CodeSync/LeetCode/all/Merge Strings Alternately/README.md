@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-14T05:16:01.344Z
+- Memory: 42.82 MB
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032452273/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-06-14T05:16:47.156Z
 
 ## Problem Description
 
