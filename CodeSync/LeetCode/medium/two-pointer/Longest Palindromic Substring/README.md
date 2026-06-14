@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Two Pointers, String, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-palindromic-substring/?envType=problem-list-v2&envId=dm01ftag
-- Synced: 2026-06-14T15:23:09.964Z
+- Memory: 46.76 MB
+- Problem URL: https://leetcode.com/problems/longest-palindromic-substring/submissions/2032954047/?envType=problem-list-v2&envId=dm01ftag
+- Synced: 2026-06-14T15:23:55.163Z
 
 ## Problem Description
 
