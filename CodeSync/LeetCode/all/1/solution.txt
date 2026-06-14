@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1
+ * URL: https://leetcode.com/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=dxlqos71
+ * Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+ * Difficulty: Easy
+ * Topics: Hash Table, Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-14T05:41:44.195Z
+ */
+
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+    if (head == null || head.next == null) return false;
+    
+     ListNode slow = head, fast = head;
+     while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+        if (slow == fast) return true;
+      }
+      return false;
+    }
+}
