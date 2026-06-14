@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/maximum-and-minimum-in-an-array/
-- Synced: 2026-06-14T05:20:03.534Z
+- Synced: 2026-06-14T05:21:03.206Z
 
 ## Problem Description
 
