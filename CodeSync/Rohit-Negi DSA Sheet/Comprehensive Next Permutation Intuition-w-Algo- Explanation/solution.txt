@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Comprehensive Next Permutation Intuition(w/Algo) Explanation
+ * URL: https://leetcode.com/problems/next-permutation/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-14T17:32:59.941Z
+ */
+
+}
+        reverse(nums, i + 1, n - 1);
+    } 
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
+    }
+    private void reverse(int[] nums, int start, int end) {
+        while (start < end) swap(nums, start++, end--);
+    }
+}
