@@ -7,11 +7,15 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T15:14:00.210Z
+ * Synced: 2026-06-14T15:14:47.183Z
  */
 
 class Solution {
     public int pairSum(ListNode head) {
         ListNode slow=head,fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+        }
     }
+            fast=fast.next.next;
 }
