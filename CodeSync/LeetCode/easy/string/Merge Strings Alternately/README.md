@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-14T05:14:30.333Z
+- Synced: 2026-06-14T05:15:16.333Z
 
 ## Problem Description
 
