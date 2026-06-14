@@ -1,13 +1,13 @@
 # Merge Strings Alternately
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: 42.82 MB
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032452273/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-14T05:22:53.163Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032464456/?utm=codolio
+- Synced: 2026-06-14T05:32:05.851Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two strings word1 and word2. Merge the strings by adding letters i
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
