@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:45:48.841Z
+ * Synced: 2026-06-14T03:45:50.830Z
  */
 
 class Solution {
@@ -19,6 +19,6 @@ class Solution {
         }
         else count=0;
        }
-    return  maxCount;
+       return  maxCount;
     }
 }
