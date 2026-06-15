@@ -7,10 +7,8 @@
  * Topics: Expected Complexities, Company Tags FlipkartAccoliteMicrosoftNPCI, Company Tags, Flipkart, Accolite, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T02:38:28.242Z
+ * Synced: 2026-06-15T02:39:33.941Z
  */
-
-import java.util.*;
 
 class Solution {
     public ArrayList<Integer> jobSequencing(int[] deadline, int[] profit) {
@@ -23,11 +21,7 @@ class Solution {
             jobs[i][1] = profit[i];
             maxDeadline = Math.max(maxDeadline, deadline[i]);
         }
-
-        // Sort by profit descending
         Arrays.sort(jobs, (a, b) -> b[1] - a[1]);
-
-        // DSU: parent[i] points to the latest available slot <= i
         int[] parent = new int[maxDeadline + 1];
         for (int i = 0; i <= maxDeadline; i++) {
             parent[i] = i;
@@ -45,3 +39,9 @@ class Solution {
         }
 
         ArrayList<Integer> result = new ArrayList<>();
+        result.add(count);
+        result.add(totalProfit);
+        return result;
+    }
+
+    private int find(int[] parent, int x) {
