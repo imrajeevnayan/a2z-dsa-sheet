@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:32:30.999Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Flipkart",
+    "Morgan Stanley",
+    "Amazon",
+    "Microsoft",
+    "Samsung",
+    "D-E-Shaw"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Find median in a stream",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160/problem/find-median-in-a-stream-1587115620",
+  "submissionId": "3aov4z"
+}
