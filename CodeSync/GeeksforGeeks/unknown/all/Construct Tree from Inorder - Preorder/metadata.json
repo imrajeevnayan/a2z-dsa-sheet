@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:24:40.351Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AccoliteAmazonMicrosoft",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "Topic Tags",
+    "Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Construct Tree from Inorder & Preorder",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal",
+  "submissionId": "6p02w7"
+}
