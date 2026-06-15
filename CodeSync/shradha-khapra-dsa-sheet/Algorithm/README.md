@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
-- Synced: 2026-06-15T02:37:18.591Z
+- Synced: 2026-06-15T02:38:28.242Z
 
 ## Problem Description
 
