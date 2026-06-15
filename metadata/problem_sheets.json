@@ -338,5 +338,16 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:k-closest-points-to-origin": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "GFG160"
   ]
 }
