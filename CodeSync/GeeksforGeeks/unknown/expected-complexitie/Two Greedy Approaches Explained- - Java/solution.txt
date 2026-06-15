@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Two Greedy Approaches Explained! - Java
+ * URL: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
+ * Language: class Solution { public int minPlatform(int arr[], int dep[]) { int n = arr.length; // Approach 1 : Greedy, but gives TLE // int[][] intervals = new int[n][2]; // for(int i=0; i<n; i++){ // intervals[i][0] = arr[i]; // intervals[i][1] = dep[i]; // } // Arrays.sort(intervals, (a, b) -> { // if(a[0]==b[0]) return a[1]-b[1]; // return a[0]-b[0]; // }); // List<Integer> pf = new ArrayList<>(); // for(int i=0; i<n; i++){ // int j = 0; // while(j<pf.size()){ // if(pf.get(j)<intervals[i][0]) break; // j++; // } // if(j==pf.size()){ // nahi available h koi platform // pf.add(0, intervals[i][1]); // add kro platform // }else{ // mil gya h, j idx pr // pf.set(j, intervals[i][1]); // } // } // return pf.size(); // Approach 2 : Greedy + Two Pointers // here we will deal as per time passes -> what event occurs first? Arrays.sort(arr); Arrays.sort(dep); int count = 0; int maxPF = 0; int i = 0; // on arrival time int j = 0; // on dept time while(i<arr.length && j<dep.length){ if(arr[i]<=dep[j]){ count++; // increase pf requirement maxPF = Math.max(maxPF, count); // update max PF needed at any instance i++; }else{ count--; j++; } } return maxPF; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, D-E-Shaw, Hike, Walmart
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T02:34:24.055Z
+ */
+
+class Solution {
+    public int minPlatform(int arr[], int dep[]) {
+        Arrays.sort(arr);
+        Arrays.sort(dep);
+        
+        int n = arr.length;
+        int platforms = 0, maxPlatforms = 0;
+        int i = 0, j = 0; 
+        while (i < n && j < n) {
+            if (arr[i] <= dep[j]) {
+                platforms++;      
+                i++;
+            } else {
+                platforms--;
+                j++;
+            }
+            maxPlatforms = Math.max(maxPlatforms, platforms);
+        }
+        return maxPlatforms;
+    }
+}
