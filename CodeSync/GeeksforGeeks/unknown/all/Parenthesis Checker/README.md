@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160/problem/stock-span-problem-1587115621
-- Synced: 2026-06-15T16:20:32.573Z
+- Synced: 2026-06-15T16:24:03.609Z
 
 ## Problem Description
 
