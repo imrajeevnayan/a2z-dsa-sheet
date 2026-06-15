@@ -7,7 +7,7 @@
  * Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:52:31.481Z
+ * Synced: 2026-06-15T12:19:57.657Z
  */
 
 // User function Template for Java
