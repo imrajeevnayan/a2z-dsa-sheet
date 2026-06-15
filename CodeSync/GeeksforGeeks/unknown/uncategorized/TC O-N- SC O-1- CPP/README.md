@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/greater-on-right-side4305/1
-- Synced: 2026-06-15T11:25:37.749Z
+- Synced: 2026-06-15T11:26:37.675Z
 
 ## Problem Description
 
