@@ -1,13 +1,13 @@
 # k-th Smallest in BST
 
 - Platform: GeeksforGeeks
-- Language: Text
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AccoliteAmazonGoogle, Company Tags, Accolite, Amazon, Google, Topic Tags, Binary Search Tree
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
-- Synced: 2026-06-15T11:26:07.333Z
+- Synced: 2026-06-15T11:27:00.963Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a BST and an integer k, find the kth smallest element in the B
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Text. The detected topics are Expected Complexities, Company Tags AccoliteAmazonGoogle, Company Tags, Accolite, Amazon, Google, Topic Tags, Binary Search Tree. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags AccoliteAmazonGoogle, Company Tags, Accolite, Amazon, Google, Topic Tags, Binary Search Tree. Review the synced source file for the implementation details.
