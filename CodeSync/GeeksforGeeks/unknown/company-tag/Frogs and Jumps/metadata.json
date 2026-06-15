@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-15T11:50:08.931Z",
+  "submissionTimestamp": "2026-06-15T16:19:25.863Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Algorithms"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "Text",
   "problemTitle": "Frogs and Jumps",
   "problemUrl": "https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1",
-  "submissionId": "wtgfss"
+  "submissionId": "pxe49m"
 }
