@@ -304,5 +304,21 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:construct-tree-from-inorder-preorder": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "GFG160"
   ]
 }
