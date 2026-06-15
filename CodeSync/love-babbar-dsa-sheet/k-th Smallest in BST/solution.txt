@@ -7,32 +7,26 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonGoogle, Company Tags, Accolite, Amazon, Google, Topic Tags, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:27:00.963Z
+ * Synced: 2026-06-15T11:27:46.424Z
  */
 
 class Solution {
-    private int count = 0;
-    private int result = -1;
-
     public int kthSmallest(Node root, int k) {
-        count = 0;      // Reset for each call
-        result = -1;
-        inorder(root, k);
-        return result;
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        inorderTraversal(root, maxHeap, k);
+        return maxHeap.peek();
     }
 
-    private void inorder(Node node, int k) {
-        if (node == null || result != -1) {
+    private void inorderTraversal(Node node, PriorityQueue<Integer> maxHeap, int k) {
+        if (node == null) {
             return;
         }
-
-        inorder(node.left, k);
-
-        count++;
-        if (count == k) {
-            result = node.data;
-            return;  // Early termination
+        inorderTraversal(node.left, maxHeap, k);
+        maxHeap.add(node.data);
+        
+        if (maxHeap.size() > k) {
+            maxHeap.poll();
         }
-        inorder(node.right, k);
+        inorderTraversal(node.right, maxHeap, k);
     }
 }
