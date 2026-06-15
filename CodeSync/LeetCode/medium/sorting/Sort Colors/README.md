@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-colors/description/
-- Synced: 2026-06-14T18:34:29.248Z
+- Synced: 2026-06-14T18:35:15.247Z
 
 ## Problem Description
 
