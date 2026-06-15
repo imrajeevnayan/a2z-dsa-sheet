@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-15T11:25:08.468Z",
+  "submissionTimestamp": "2026-06-15T11:26:07.333Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Binary Search Tree"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "Text",
   "problemTitle": "k-th Smallest in BST",
   "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal",
-  "submissionId": "figder"
+  "submissionId": "mxwyuu"
 }
