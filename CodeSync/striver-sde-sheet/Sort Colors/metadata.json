@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T18:31:20.249Z",
+  "submissionTimestamp": "2026-06-14T18:33:39.262Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.29 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort Colors",
-  "problemUrl": "https://leetcode.com/problems/sort-colors/submissions/2033132196/",
+  "problemUrl": "https://leetcode.com/problems/sort-colors/description/",
   "submissionId": "b8aoyt"
 }
