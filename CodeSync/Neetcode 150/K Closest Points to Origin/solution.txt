@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: K Closest Points to Origin
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonGoogle, Company Tags, Amazon, Google, Topic Tags, Sorting, Heap
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:28:52.904Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> kClosest(int[][] points, int k) {
+        // code here
+        
+    }
+}
