@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Duplicates Sorted Array
+ * URL: https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1
+ * Language: class Solution: def removeDuplicates(self, arr): # code here l = 0 i = 0 while i < len(arr): if arr[l] == arr[i]: i += 1 else: l += 1 arr[l] = arr[i] return arr[:l+1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Morgan Stanley, Microsoft, Samsung, Google, Wipro
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:19:35.856Z
+ */
+
+class Solution {
+    ArrayList<Integer> removeDuplicates(int[] arr) {
+        TreeSet<Integer>s=new TreeSet<>();
+        for(int n:arr) s.add(n);
+        return new ArrayList<>(s);
+    }
+}
