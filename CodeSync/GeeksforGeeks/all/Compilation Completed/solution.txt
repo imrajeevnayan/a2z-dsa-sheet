@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Compilation Completed
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:33:41.605Z
+ */
+
+class Solution {
+    static int maxLength(String s) {
+     int maxLen=0,left=0,right=0;
+     for(int i=0;i<s.length();i++){
+         if(s.charAt(i)=='(')left++;
+         else right++;
+         if(left==right)maxLen=Math.max(maxLen,2*right);
+         else if(right>left)left=right=0;
+     }
+     left=right=0;
+     for(int i=s.length()-1;i>=0;i--){
+         if(s.charAt(i)=='(')left++;
+         else right++;
+         if(left==right)maxLen=Math.max(maxLen,2*right);
+         else if(left>right) left=right=0;
+     }
+     return maxLen;
+        
+    }
+}
