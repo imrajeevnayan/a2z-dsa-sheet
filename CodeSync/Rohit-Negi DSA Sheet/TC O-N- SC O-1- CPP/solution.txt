@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: TC: O(N) SC: O(1) || CPP
+ * URL: https://www.geeksforgeeks.org/problems/greater-on-right-side4305/1
+ * Language: class Solution { public: vector<int> nextGreatest(vector<int> arr) { int maxi=-1; for(int i=arr.size()-1; i>=0; i--){ int curr = arr[i]; arr[i] = maxi; maxi = max(maxi,curr); } return arr; } };
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:20:55.553Z
+ */
+
+class Solution {
+    static ArrayList<Integer> nextGreatest(int arr[]) {
+        int n = arr.length;
+        ArrayList<Integer> result = new ArrayList<>();
+        int maxRight = -1;
+
+        for (int i = n - 1; i >= 0; i--) {
+            int current = arr[i];
+            result.add(maxRight); 
+            maxRight = Math.max(maxRight, current);
+        }
+        Collections.reverse(result);
+        return result;
+    }
+}
