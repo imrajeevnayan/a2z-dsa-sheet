@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:19:35.856Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Zoho",
+    "Morgan Stanley",
+    "Microsoft",
+    "Samsung",
+    "Google",
+    "Wipro"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def removeDuplicates(self, arr): # code here l = 0 i = 0 while i < len(arr): if arr[l] == arr[i]: i += 1 else: l += 1 arr[l] = arr[i] return arr[:l+1]",
+  "problemTitle": "Remove Duplicates Sorted Array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1",
+  "submissionId": "msgmwr"
+}
