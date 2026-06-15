@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1
-- Synced: 2026-06-15T02:29:36.340Z
+- Synced: 2026-06-15T02:32:38.158Z
 
 ## Problem Description
 
