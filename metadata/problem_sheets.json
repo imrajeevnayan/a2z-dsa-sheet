@@ -252,5 +252,6 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
-  ]
+  ],
+  "leetcode:delete-the-middle-node-of-a-linked-list": []
 }
