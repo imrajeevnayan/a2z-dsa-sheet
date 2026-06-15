@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:33:27.786Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MicrosoftGoogle",
+    "Company Tags",
+    "Microsoft",
+    "Google",
+    "Topic Tags",
+    "Strings",
+    "Dynamic Programming"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Longest valid Parentheses",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160",
+  "submissionId": "o27r01"
+}
