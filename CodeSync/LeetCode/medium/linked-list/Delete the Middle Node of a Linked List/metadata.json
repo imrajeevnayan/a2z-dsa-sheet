@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-15T02:15:26.178Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-15T02:16:12.791Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Daily Question",
   "problemTitle": "Delete the Middle Node of a Linked List",
   "problemUrl": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=daily-question&envId=2026-06-15",
-  "submissionId": "cwooyi"
+  "submissionId": "but2ud"
 }
