@@ -30,7 +30,17 @@
   "geeksforgeeks:largest-element-in-array4009": [
     "GFG160"
   ],
-  "leetcode:merge-sorted-array": [],
+  "leetcode:merge-sorted-array": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ],
   "leetcode:middle-of-the-linked-list": [
     "Grind75",
     "Grind169",
