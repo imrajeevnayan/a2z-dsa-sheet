@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: k-th Smallest in BST
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteAmazonGoogle, Company Tags, Accolite, Amazon, Google, Topic Tags, Binary Search Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:25:08.468Z
+ */
+
+/*
+Definition for Node
+class Node {
+    int data;
+    Node left, right;
+
+    public Node(int val)
+    {
+        data = val;
+        left = right = null;
+    }
+}
+*/
+
+class Solution {
+    public int kthSmallest(Node root, int k) {
+        // code here
+        
+    }
+}
