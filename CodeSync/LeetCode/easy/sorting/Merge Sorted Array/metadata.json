@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T06:16:11.968Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.05 MB",
+  "submissionTimestamp": "2026-06-14T18:35:38.434Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/submissions/2032501042/?utm=codolio",
+  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/",
   "submissionId": "7ta7x9"
 }
