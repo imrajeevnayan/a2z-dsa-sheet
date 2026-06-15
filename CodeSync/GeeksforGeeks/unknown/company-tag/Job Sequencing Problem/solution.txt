@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Job Sequencing Problem
+ * URL: https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags FlipkartAccoliteMicrosoftNPCI, Company Tags, Flipkart, Accolite, Microsoft, NPCI, Topic Tags, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T02:35:26.558Z
+ */
+
+Input: deadline[] = [4, 1, 1, 1], profit[] = [20, 10, 40, 30]
+Output: [2, 60]
+Explanation: Job1 and Job3 can be done with maximum profit of 60 (20+40).
