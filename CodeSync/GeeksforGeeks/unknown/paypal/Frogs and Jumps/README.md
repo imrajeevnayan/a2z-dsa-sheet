@@ -1,13 +1,13 @@
 # Frogs and Jumps
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Text
 - Difficulty: Unknown
 - Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
-- Synced: 2026-06-15T11:50:08.931Z
+- Synced: 2026-06-15T16:19:25.863Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ N frogs are positioned at one end of the pond. All frogs want to reach the other
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms. Review the synced source file for the implementation details.
