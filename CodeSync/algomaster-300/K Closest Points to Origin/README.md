@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160
-- Synced: 2026-06-15T11:28:52.904Z
+- Synced: 2026-06-15T11:30:00.858Z
 
 ## Problem Description
 
