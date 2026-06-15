@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Frogs and Jumps
+ * URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:50:08.931Z
+ */
+
+// User function Template for Java
+
+class Solution {
+    public int unvisitedLeaves(int N, int leaves, int frogs[]) {
+        // Code here
+        
+    }
+}
