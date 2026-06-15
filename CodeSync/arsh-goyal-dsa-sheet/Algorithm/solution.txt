@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAccoliteMicrosoftNPCI, Company Tags, Flipkart, Accolite, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T02:36:27.157Z
+ * Synced: 2026-06-15T02:37:18.591Z
  */
 
 class Solution {
