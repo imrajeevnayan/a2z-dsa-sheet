@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Parenthesis Checker
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal, Oracle
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:33:05.665Z
+ */
+
+class Solution {
+    public boolean isBalanced(String s) {
+        Stack<Character>st=new Stack<>();
+        for(char c:s.toCharArray()){
+            if(c=='(' || c=='{' || c=='[') st.push(c);
+            else{
+                if(st.isEmpty()) return false;
+                char top=st.pop();
+            if(  c==')' && top!='(' ||
+                 c=='}'&& top!='{'||
+                 c==']'&& top!='[') return false;
+            }
+        }
+        return st.isEmpty();
+    }
+}
