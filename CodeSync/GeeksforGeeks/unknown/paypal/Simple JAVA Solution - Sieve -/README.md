@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
-- Synced: 2026-06-15T11:52:31.481Z
+- Synced: 2026-06-15T12:19:57.657Z
 
 ## Problem Description
 
