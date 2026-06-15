@@ -7,21 +7,8 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:23:00.708Z
+ * Synced: 2026-06-15T11:23:48.870Z
  */
-
-/*
-class Node
-{
-    int data;
-    Node left, right;
-    Node(int item)
-    {
-        data = item;
-        left = right = null;
-    }
-}
-*/
 
 class Solution {
     void mirror(Node root) {
