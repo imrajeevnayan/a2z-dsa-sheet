@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:51:07.678Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Company Tags PayPal",
+    "Company Tags",
+    "PayPal",
+    "Topic Tags",
+    "Arrays",
+    "sieve",
+    "Data Structures",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public int unvisitedLeaves(int N, int leaves, int frogs[]) { // Code here // Create a BitSet with a size of `leaves+1` BitSet visited = new BitSet(leaves + 1); // Loop through the frogs array for (int frog : frogs) { // If the frog is within the range of leaves and has not been visited yet if (frog <= leaves && !visited.get(frog)) { // Loop through every multiple of the frog and mark it as visited for (int j = frog; j <= leaves; j += frog) { visited.set(j); } } } // Count the number of unvisited leaves int unvisited = leaves- visited.cardinality(); // Return the number of unvisited leaves return unvisited; }",
+  "problemTitle": "Simple JAVA Solution ( Sieve )",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1",
+  "submissionId": "f0ymio"
+}
