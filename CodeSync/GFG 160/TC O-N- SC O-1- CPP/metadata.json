@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-15T11:20:55.553Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> nextGreatest(vector<int> arr) { int maxi=-1; for(int i=arr.size()-1; i>=0; i--){ int curr = arr[i]; arr[i] = maxi; maxi = max(maxi,curr); } return arr; } };",
+  "problemTitle": "TC: O(N) SC: O(1) || CPP",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/greater-on-right-side4305/1",
+  "submissionId": "q6bx8j"
+}
