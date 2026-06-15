@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:28:52.904Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonGoogle",
+    "Company Tags",
+    "Amazon",
+    "Google",
+    "Topic Tags",
+    "Sorting",
+    "Heap"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "K Closest Points to Origin",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160",
+  "submissionId": "md94a7"
+}
