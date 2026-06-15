@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal, Oracle
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
-- Synced: 2026-06-15T11:33:05.665Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160/problem/stock-span-problem-1587115621
+- Synced: 2026-06-15T16:20:32.573Z
 
 ## Problem Description
 
