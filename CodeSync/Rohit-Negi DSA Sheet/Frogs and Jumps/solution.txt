@@ -2,19 +2,18 @@
  * Platform: GeeksforGeeks
  * Problem: Frogs and Jumps
  * URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
- * Language: Java (21)
+ * Language: Text
  * Difficulty: Unknown
  * Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:50:08.931Z
+ * Synced: 2026-06-15T16:19:25.863Z
  */
 
-// User function Template for Java
-
-class Solution {
-    public int unvisitedLeaves(int N, int leaves, int frogs[]) {
-        // Code here
-        
-    }
-}
+Input:
+N = 3
+leaves = 4
+frogs[] = {3, 2, 4} 
+Output: 1
+Explanation:
+Leaf 1 will not be visited by any frog.
