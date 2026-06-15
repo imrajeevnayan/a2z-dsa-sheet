@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-15T02:16:12.791Z
+ * Synced: 2026-06-15T02:16:59.178Z
  */
 
 while (fast != null && fast.next != null) {
