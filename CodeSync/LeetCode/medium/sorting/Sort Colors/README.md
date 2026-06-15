@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 0 ms
-- Memory: 43.29 MB
-- Problem URL: https://leetcode.com/problems/sort-colors/submissions/2033132196/
-- Synced: 2026-06-14T18:31:20.249Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/sort-colors/description/
+- Synced: 2026-06-14T18:34:29.248Z
 
 ## Problem Description
 
