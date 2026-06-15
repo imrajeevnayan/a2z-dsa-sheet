@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
-- Synced: 2026-06-15T11:25:11.172Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
+- Synced: 2026-06-15T11:33:31.001Z
 
 ## Problem Description
 
