@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T02:40:06.223Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Greedy",
+    "Algorithms",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: #Function to sort and merge the two subarrays def merge(self, arr : list[list[float, int, int]], low : int, mid : int, high : int): n1 : int = low n2 : int = mid + 1 #Initializing an auxiliary array temp : list[list[float, int, int]] = [] while n1 <= mid and n2 <= high: #Sort in decreasing order of ratio if arr[n1][2] < arr[n2][2]: temp.append(arr[n2]) n2 += 1 else: temp.append(arr[n1]) n1 += 1 #Add the remaining elements of left half while n1 <= mid: temp.append(arr[n1]) n1 += 1 #Add the remaining elements of right half while n2 <= high: temp.append(arr[n2]) n2 += 1 for i in range(high - low + 1): arr[i + low] = temp[i] #Function to implement merge sort def mergeSort(self, arr : list[list[float, int, int]], low : int, high : int): if low < high: mid : int = low + (high - low) // 2 self.mergeSort(arr, low, mid) self.mergeSort(arr, mid + 1, high) self.merge(arr, low, mid, high) def fractionalKnapsack(self, val : list[int], wt : list[int], capacity : int) -> float: n : int = len(val) #Initialzing a list to store the val, wt and val/wt ratio of items items = [] #Store the details for i in range(n): #Calculate the ratio ratio : float = val[i] / wt[i] items.append([val[i], wt[i], ratio]) #Sort the items in decreasing order of their val/wt ratio self.mergeSort(items, 0, n - 1) totalProfit : float = 0.0 for i in range(n): #If capacity becomes 0, no need to add if capacity == 0: break #If the current weight is smaller than or equal to capacity, add the whole item if items[i][1] <= capacity: totalProfit += items[i][0] capacity -= items[i][1] #If the current weight exceeds the left capacity, add its fraction else: fraction : float = capacity / items[i][1] totalProfit += items[i][0] * fraction capacity = 0 return float(f\"{totalProfit : .6f}\")",
+  "problemTitle": "Fractional Knapsack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+  "submissionId": "1bzdiq"
+}
