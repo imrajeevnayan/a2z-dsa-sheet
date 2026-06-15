@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T11:31:24.602Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags VMWareAmazonMicrosoftOracleNPCI",
+    "Company Tags",
+    "VMWare",
+    "Amazon",
+    "Microsoft",
+    "Oracle",
+    "NPCI"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Merge K sorted linked lists",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160",
+  "submissionId": "hylgmp"
+}
