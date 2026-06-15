@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Find median in a stream
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160/problem/find-median-in-a-stream-1587115620
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Amazon, Microsoft, Samsung, D-E-Shaw
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-15T11:32:30.999Z
+ */
+
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+
+class Solution {
+    public ArrayList<Double> getMedian(int[] arr) {
+        PriorityQueue<Integer> left = new PriorityQueue<>((a, b) -> b - a); // Max-heap
+        PriorityQueue<Integer> right = new PriorityQueue<>();               // Min-heap
+        ArrayList<Double> result = new ArrayList<>();
+
+        for (int num : arr) {
+            // Add to appropriate heap
+            if (left.isEmpty() || num <= left.peek()) {
+                left.offer(num);
+            } else {
+                right.offer(num);
+            }
+
+            // Balance heaps: size difference should be at most 1
+            if (left.size() > right.size() + 1) {
+                right.offer(left.poll());
+            } else if (right.size() > left.size()) {
+                left.offer(right.poll());
+            }
+
+            // Calculate current median
+            double median;
+            if (left.size() == right.size()) {
+                median = (left.peek() + right.peek()) / 2.0;
+            } else {
+                median = left.peek();
+            }
+            result.add(median);
+        }
+
+        return result;
