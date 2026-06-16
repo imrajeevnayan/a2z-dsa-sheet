@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Math
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
-- Synced: 2026-06-16T18:03:50.809Z
+- Memory: 44.69 MB
+- Problem URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/submissions/2035518914/
+- Synced: 2026-06-16T18:04:58.168Z
 
 ## Problem Description
 
