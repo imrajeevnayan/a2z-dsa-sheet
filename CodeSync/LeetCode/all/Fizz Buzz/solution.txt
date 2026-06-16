@@ -7,11 +7,20 @@
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:24:19.899Z
+ * Synced: 2026-06-16T17:25:05.066Z
  */
 
-class Solution {
+for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                answer.add("FizzBuzz");
+            } else if (i % 3 == 0) {
+                answer.add("Fizz");
+            } else if (i % 5 == 0) {
+                answer.add("Buzz");
+            } else {
+                answer.add(String.valueOf(i));
+        List<String> answer = new ArrayList<>();
     public List<String> fizzBuzz(int n) {
-        
-    }
-}
+class Solution {
+            }
+        }
