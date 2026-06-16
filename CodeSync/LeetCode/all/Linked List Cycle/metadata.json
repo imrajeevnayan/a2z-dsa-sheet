@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-14T06:03:51.648Z",
-  "runtime": "0 ms",
-  "memoryUsage": "46.72 MB",
+  "submissionTimestamp": "2026-06-16T07:17:48.685Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -9,8 +9,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Blind 75 Must Do Leetcode (Copy-xi4ci4ig)",
+  "language": "Problem List",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=dxlqos71",
-  "submissionId": "mb609d"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/description/",
+  "submissionId": "nbidh8"
 }
