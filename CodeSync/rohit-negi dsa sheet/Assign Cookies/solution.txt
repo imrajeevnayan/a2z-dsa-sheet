@@ -7,11 +7,22 @@
  * Topics: Array, Two Pointers, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T18:24:42.165Z
+ * Synced: 2026-06-16T18:25:27.191Z
  */
 
+Arrays.sort(s);
+        
+        int i = 0; // Pointer for children
+        int j = 0; // Pointer for cookies
+        
+        while (i < g.length && j < s.length) {
+            // If current cookie satisfies current child
+            if (s[j] >= g[i]) {
+                i++; // Move to next child
+            }
+        Arrays.sort(g);
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
-        
-    }
-}
+
+            j++; // Always move to next cookie (whether used or too small)
+        }
