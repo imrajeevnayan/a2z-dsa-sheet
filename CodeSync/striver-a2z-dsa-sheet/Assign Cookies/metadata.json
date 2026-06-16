@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-16T18:25:27.191Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-16T18:26:15.156Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Assign Cookies",
   "problemUrl": "https://leetcode.com/problems/assign-cookies/",
-  "submissionId": "3nr1xo"
+  "submissionId": "lmdqkz"
 }
