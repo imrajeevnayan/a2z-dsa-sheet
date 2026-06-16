@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-16T18:29:03.159Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Subsets II",
+  "problemUrl": "https://leetcode.com/problems/subsets-ii/",
+  "submissionId": "p5q2ax"
+}
