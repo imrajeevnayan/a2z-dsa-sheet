@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-16T17:40:13.200Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-16T17:47:09.877Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Number of Steps to Reduce a Number to Zero",
   "problemUrl": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/",
-  "submissionId": "dv6swb"
+  "submissionId": "v1mtw8"
 }
