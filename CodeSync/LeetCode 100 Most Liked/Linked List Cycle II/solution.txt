@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-16T07:18:22.576Z
+ * Memory: 46.76 MB
+ * Synced: 2026-06-16T07:19:12.165Z
  */
 
 class Solution {
