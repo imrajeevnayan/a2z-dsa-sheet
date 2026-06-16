@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, String, Simulation
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 46.72 MB
 - Problem URL: https://leetcode.com/problems/fizz-buzz/
-- Synced: 2026-06-16T17:25:52.131Z
+- Synced: 2026-06-16T17:26:42.864Z
 
 ## Problem Description
 
