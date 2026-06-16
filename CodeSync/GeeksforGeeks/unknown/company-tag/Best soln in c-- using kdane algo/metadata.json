@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-15T17:05:26.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonFacebookGoogleVisa",
+    "Company Tags",
+    "Amazon",
+    "Facebook",
+    "Google",
+    "Visa",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<int> subarraySum(vector<int> &arr, int target) { // code here int sum=0; vector<int>v; int j=0; for(int i=0;i<arr.size();i++) { //chekc sum+=arr[i]; //work while(sum>target && j<i) { sum-=arr[j]; j++; } if(sum==target) { v.push_back(i+1); break; } } if(v.size()!=0) { v.push_back(j+1); reverse(v.begin(),v.end()); return v; } return {-1}; }",
+  "problemTitle": "Best soln in c++ using kdane algo...",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1",
+  "submissionId": "a0yrsv"
+}
