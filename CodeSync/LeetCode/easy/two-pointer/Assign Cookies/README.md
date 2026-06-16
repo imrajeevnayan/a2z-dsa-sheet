@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Greedy, Sorting
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/assign-cookies/
-- Synced: 2026-06-16T18:25:27.191Z
+- Synced: 2026-06-16T18:26:15.156Z
 
 ## Problem Description
 
