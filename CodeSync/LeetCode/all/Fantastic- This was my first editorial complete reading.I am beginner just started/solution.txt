@@ -7,17 +7,19 @@
  * Topics: Array, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:58:53.252Z
+ * Synced: 2026-06-16T17:59:38.706Z
  */
 
 class Solution {
     static int countdigit(int num){
         while(num<0){
-            
+            int d=n%10;
         }
     }
     public int findNumbers(int[] nums) {
         int count =0;
 
     }
+    
+        int count=0;
 }
