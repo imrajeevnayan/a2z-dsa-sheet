@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-16T18:10:11.822Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Coin Change",
+  "problemUrl": "https://leetcode.com/problems/coin-change/",
+  "submissionId": "r9rzgh"
+}
