@@ -1,22 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2034785785/
+ * URL: https://leetcode.com/submissions/detail/2034801875/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 43.08 MB
- * Synced: 2026-06-16T07:17:14.632Z
+ * Memory: 46.56 MB
+ * Synced: 2026-06-16T07:18:10.716Z
  */
 
 1class Solution {
-2    public ListNode middleNode(ListNode head) {
-3        ListNode slow=head,fast=head;
-4        while(fast!=null && fast.next!=null){
-5            fast=fast.next.next;
-6            slow=slow.next;
-7        }
-8        return slow;
-9    }
-10}
+2    public ListNode detectCycle(ListNode head) {
+3        ListNode slow = head,fast = head;
+4        while (fast != null && fast.next != null) {
+5            slow = slow.next;
+6            fast = fast.next.next;
+7            if (slow == fast) {
+8                slow = head;
+9                while (slow != fast) {
+10                    slow = slow.next;
+11                    fast = fast.next;
+12                }
+13                return slow;
+14            }
+15        }
+16        return null;
+17    }
+18}
