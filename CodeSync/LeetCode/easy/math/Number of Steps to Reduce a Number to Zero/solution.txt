@@ -5,24 +5,22 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Bit Manipulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-16T17:40:13.200Z
+ * Synced: 2026-06-16T17:47:09.877Z
  */
 
-class Solution {
-    public int numberOfSteps(int num) {
-        int count=0;
-        while(n <0){
-            if(n % 2==0){
-                n/=2;
+int count = 0;
+        while (num > 0) {
+            if (num % 2 == 0) {
+                num /= 2;
+            } else {
+                num -= 1;
             }
+            count++;
         }
-        
-                count++;
-            else if( n%2!=0){
-                n=n-1;
-            }
+        return count;
+    public int numberOfSteps(int num) {
+class Solution {
     }
-                count++;
 }
