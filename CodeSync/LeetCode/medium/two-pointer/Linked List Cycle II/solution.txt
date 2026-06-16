@@ -1,16 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle II
- * URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?utm_source=chatgpt.com
+ * URL: https://leetcode.com/problems/linked-list-cycle-ii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-12T03:12:39.401Z
+ * Memory: 46.76 MB
+ * Synced: 2026-06-16T07:19:12.165Z
  */
 
-while (fast != null && fast.next != null) {
+class Solution {
+    public ListNode detectCycle(ListNode head) {
+        ListNode slow = head,fast = head;
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) {
@@ -19,12 +22,7 @@ while (fast != null && fast.next != null) {
                     slow = slow.next;
                     fast = fast.next;
                 }
-        ListNode slow = head,fast = head;
-    public ListNode detectCycle(ListNode head) {
-class Solution {
                 return slow;
             }
         }
         return null;
-    }
-}
