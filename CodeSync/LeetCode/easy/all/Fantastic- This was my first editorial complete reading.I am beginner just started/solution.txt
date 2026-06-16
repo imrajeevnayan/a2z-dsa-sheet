@@ -5,24 +5,19 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-16T18:01:09.892Z
+ * Synced: 2026-06-16T18:03:50.809Z
  */
 
-class Solution {
-    static int countdigit(int num){
-        while(num> 0){
-            int d=n%10;
-        }
-    }
+for (int i = 0; i < nums.length; i++) {
     public int findNumbers(int[] nums) {
-        for(int i=0;i<nums.length;i++){
-
-        int count=0;
-            count++;
-            n/=10;
-        return count;
-            if(countdigit)
-        }
+        int c = 0;
     }
+            if (countdigit(nums[i]) % 2 == 0) {
+                c++;
+            }
+        }
+        return c;
+    }
+}
