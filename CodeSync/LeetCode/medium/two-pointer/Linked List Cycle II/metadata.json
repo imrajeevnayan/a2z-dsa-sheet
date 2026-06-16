@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-12T03:11:41.153Z",
+  "submissionTimestamp": "2026-06-16T07:19:12.165Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.76 MB",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Linked List Cycle II",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?utm_source=chatgpt.com",
-  "submissionId": "rxggmq"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/",
+  "submissionId": "vn0hlo"
 }
