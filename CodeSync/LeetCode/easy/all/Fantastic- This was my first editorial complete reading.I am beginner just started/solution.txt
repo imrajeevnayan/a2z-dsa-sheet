@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fantastic, This was my first editorial complete reading.I am beginner just started.
- * URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+ * URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/submissions/2035518914/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Math
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-16T18:03:50.809Z
+ * Memory: 44.69 MB
+ * Synced: 2026-06-16T18:04:58.168Z
  */
 
 for (int i = 0; i < nums.length; i++) {
@@ -16,8 +16,12 @@ for (int i = 0; i < nums.length; i++) {
     }
             if (countdigit(nums[i]) % 2 == 0) {
                 c++;
-            }
+        return count;
         }
-        return c;
-    }
-}
+            count++;
+            num /= 10;
+        while (num > 0) {
+        if (num == 0) return 1; 
+        int count = 0;
+    static int countdigit(int num) {
+class Solution {
