@@ -6,8 +6,8 @@
 - Topics: Math, String, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fizz-buzz/description/
-- Synced: 2026-06-16T17:23:31.283Z
+- Problem URL: https://leetcode.com/problems/fizz-buzz/
+- Synced: 2026-06-16T17:24:19.899Z
 
 ## Problem Description
 
