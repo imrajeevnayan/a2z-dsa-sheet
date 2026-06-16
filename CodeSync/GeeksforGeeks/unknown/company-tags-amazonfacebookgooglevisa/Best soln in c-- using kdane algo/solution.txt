@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonFacebookGoogleVisa, Company Tags, Amazon, Facebook, Google, Visa, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T17:05:26.909Z
+ * Synced: 2026-06-15T17:04:37.302Z
  */
 
 class Solution {
