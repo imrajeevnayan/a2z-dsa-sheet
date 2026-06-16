@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-16T17:23:31.283Z",
+  "submissionTimestamp": "2026-06-16T17:24:19.899Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fizz Buzz",
-  "problemUrl": "https://leetcode.com/problems/fizz-buzz/description/",
+  "problemUrl": "https://leetcode.com/problems/fizz-buzz/",
   "submissionId": "71lyiz"
 }
