@@ -7,12 +7,12 @@
  * Topics: Array, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:59:38.706Z
+ * Synced: 2026-06-16T18:00:24.073Z
  */
 
 class Solution {
     static int countdigit(int num){
-        while(num<0){
+        while(num> 0){
             int d=n%10;
         }
     }
@@ -20,6 +20,8 @@ class Solution {
         int count =0;
 
     }
-    
         int count=0;
+            count++;
+            n/=10;
+        return count;
 }
