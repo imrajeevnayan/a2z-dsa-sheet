@@ -7,15 +7,21 @@
  * Topics: Math, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:37:57.128Z
+ * Synced: 2026-06-16T17:38:42.452Z
  */
 
 class Solution {
     public int numberOfSteps(int num) {
-        
         int count=0;
         while(n <0){
-            if(n % 2==0)n=n/2
+            if(n % 2==0){
+                n/=2;
+            }
         }
+        
+                count++;
+            else if( n%2!=0){
+                n=n-1;
+            }
     }
 }
