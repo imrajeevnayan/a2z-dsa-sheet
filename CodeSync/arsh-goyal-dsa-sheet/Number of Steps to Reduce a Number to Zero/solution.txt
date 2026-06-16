@@ -7,7 +7,7 @@
  * Topics: Math, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:29:37.948Z
+ * Synced: 2026-06-16T17:30:37.174Z
  */
 
 class Solution {
