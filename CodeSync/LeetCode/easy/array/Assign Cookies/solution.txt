@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Assign Cookies
+ * URL: https://leetcode.com/problems/assign-cookies/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-16T18:23:56.608Z
+ */
+
+class Solution {
+    public int findContentChildren(int[] g, int[] s) {
+        
+    }
+}
