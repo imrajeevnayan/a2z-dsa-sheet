@@ -1,13 +1,13 @@
 # Linked List Cycle
 
 - Platform: LeetCode
-- Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
-- Runtime: 0 ms
-- Memory: 46.72 MB
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=dxlqos71
-- Synced: 2026-06-14T06:03:51.648Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/linked-list-cycle/description/
+- Synced: 2026-06-16T07:17:48.685Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given head, the head of a linked list, determine if the linked list has a cycle 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Blind 75 Must Do Leetcode (Copy-xi4ci4ig). The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
