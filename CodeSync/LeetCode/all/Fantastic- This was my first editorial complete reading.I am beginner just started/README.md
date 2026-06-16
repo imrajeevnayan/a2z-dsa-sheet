@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Math
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
-- Synced: 2026-06-16T18:01:09.892Z
+- Synced: 2026-06-16T18:03:50.809Z
 
 ## Problem Description
 
