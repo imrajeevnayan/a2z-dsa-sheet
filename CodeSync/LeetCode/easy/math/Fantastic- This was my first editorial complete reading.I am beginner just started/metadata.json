@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-16T18:03:50.809Z",
+  "submissionTimestamp": "2026-06-16T18:04:58.168Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.69 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fantastic, This was my first editorial complete reading.I am beginner just started.",
-  "problemUrl": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/",
-  "submissionId": "1jnh22"
+  "problemUrl": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/submissions/2035518914/",
+  "submissionId": "dskqy2"
 }
