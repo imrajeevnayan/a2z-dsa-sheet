@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-16T18:29:03.159Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-16T18:29:53.382Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Subsets II",
   "problemUrl": "https://leetcode.com/problems/subsets-ii/",
-  "submissionId": "p5q2ax"
+  "submissionId": "d93636"
 }
