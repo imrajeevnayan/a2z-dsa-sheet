@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-16T18:15:46.160Z
+ * Synced: 2026-06-16T18:16:36.181Z
  */
 
 Arrays.fill(dp, amount + 1);
