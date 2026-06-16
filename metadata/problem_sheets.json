@@ -426,5 +426,11 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:fizz-buzz": []
+  "leetcode:fizz-buzz": [],
+  "leetcode:palindrome-number": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
