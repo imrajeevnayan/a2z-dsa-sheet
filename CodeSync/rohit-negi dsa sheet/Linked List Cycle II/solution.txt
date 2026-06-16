@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Linked List Cycle II
+ * URL: https://leetcode.com/problems/linked-list-cycle-ii/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, Linked List, Two Pointers
+ * Runtime: 0 ms
+ * Memory: 46.76 MB
+ * Synced: 2026-06-16T07:19:12.165Z
+ */
+
+class Solution {
+    public ListNode detectCycle(ListNode head) {
+        ListNode slow = head,fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                slow = head;
+                while (slow != fast) {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+                return slow;
+            }
+        }
+        return null;
