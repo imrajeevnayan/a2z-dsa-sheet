@@ -1,13 +1,13 @@
 # Middle of the Linked List
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
-- Memory: 42.88 MB
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2032502429/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T06:30:06.165Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2034824389/
+- Synced: 2026-06-16T07:17:29.809Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, return the middle node of the linked lis
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
