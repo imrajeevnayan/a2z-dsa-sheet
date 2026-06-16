@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 44.03 MB
 - Problem URL: https://leetcode.com/problems/running-sum-of-1d-array/
-- Synced: 2026-06-16T17:47:57.128Z
+- Synced: 2026-06-16T17:48:44.152Z
 
 ## Problem Description
 
