@@ -446,5 +446,6 @@
   ],
   "leetcode:running-sum-of-1d-array": [
     "custom:fraz-dsa-sheet"
-  ]
+  ],
+  "leetcode:find-numbers-with-even-number-of-digits": []
 }
