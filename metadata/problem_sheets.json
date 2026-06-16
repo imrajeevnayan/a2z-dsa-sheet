@@ -443,5 +443,8 @@
     "custom:fraz-dsa-sheet",
     "custom:arsh-goyal-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:running-sum-of-1d-array": [
+    "custom:fraz-dsa-sheet"
   ]
 }
