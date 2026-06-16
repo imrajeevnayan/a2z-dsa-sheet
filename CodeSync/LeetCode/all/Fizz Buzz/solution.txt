@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Fizz Buzz
+ * URL: https://leetcode.com/problems/fizz-buzz/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-16T17:23:31.283Z
+ */
+
+class Solution {
+    public List<String> fizzBuzz(int n) {
+        
+    }
+}
