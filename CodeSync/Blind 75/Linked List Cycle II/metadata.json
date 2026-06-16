@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-16T07:18:22.576Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Two Pointers"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Linked List Cycle II",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/",
+  "submissionId": "vn0hlo"
+}
