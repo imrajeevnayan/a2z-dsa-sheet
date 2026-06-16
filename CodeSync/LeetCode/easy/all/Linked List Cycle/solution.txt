@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle
- * URL: https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=dxlqos71
- * Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+ * URL: https://leetcode.com/problems/linked-list-cycle/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
- * Runtime: 0 ms
- * Memory: 46.72 MB
- * Synced: 2026-06-14T06:03:51.648Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-16T07:17:48.685Z
  */
 
 public class Solution {
