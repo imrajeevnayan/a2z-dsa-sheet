@@ -7,28 +7,21 @@
  * Topics: Expected Complexities, Company Tags AmazonFacebookGoogleVisa, Company Tags, Amazon, Facebook, Google, Visa, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T17:08:14.879Z
+ * Synced: 2026-06-15T17:28:51.159Z
  */
 
 class Solution {
     static ArrayList<Integer> subarraySum(int[] arr, int target) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        int left = 0,sum = 0;
-        for (int  right= 0; right < arr.length; right++) {
+        int left = 0, sum = 0;
+        for (int right = 0; right < arr.length; right++) {
             sum += arr[right];
-
-            while (sum > target) {
-                sum -= arr[left];
-                left++;
+            while (sum > target && left <= right) {
+                sum -= arr[left++];
             }
             if (sum == target) {
-                ans.add(left + 1); 
-                ans.add(right + 1);   
-                return ans;
+                return new ArrayList<>(Arrays.asList(left + 1, right + 1));
             }
         }
-
-        ans.add(-1);
-        return ans;
+        return new ArrayList<>(Arrays.asList(-1));
     }
 }
