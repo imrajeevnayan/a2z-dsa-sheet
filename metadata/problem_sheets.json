@@ -475,5 +475,13 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:richest-customer-wealth": []
+  "leetcode:richest-customer-wealth": [],
+  "leetcode:subsets-ii": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet"
+  ]
 }
