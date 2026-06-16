@@ -5,24 +5,24 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Backtracking, Bit Manipulation
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-16T18:29:03.159Z
+ * Synced: 2026-06-16T18:29:53.382Z
  */
 
-// Add the current subset to the result
-        result.add(new ArrayList<>(current));
-
-    }
-
-    private void backtrack(List<List<Integer>> result, List<Integer> current, int[] nums, int start) {
-        backtrack(result, new ArrayList<>(), nums, 0);
-        return result;
-        List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums); // Step 1: Sort to handle duplicates
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-
-import java.util.List;
-import java.util.Arrays;
-import java.util.ArrayList;
+        List<List<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
+        backtrack(result, new ArrayList<>(), nums, 0);
+        return result;
+    }
+ private void backtrack(List<List<Integer>> result, List<Integer> current, int[] nums, int start) {
+        result.add(new ArrayList<>(current));
+        for (int i = start; i < nums.length; i++) {
+            if (i > start && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            
+            current.add(nums[i]);
+            backtrack(result, current, nums, i + 1);
