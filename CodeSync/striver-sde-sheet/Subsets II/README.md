@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Backtracking, Bit Manipulation
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subsets-ii/
-- Synced: 2026-06-16T18:29:03.159Z
+- Synced: 2026-06-16T18:29:53.382Z
 
 ## Problem Description
 
