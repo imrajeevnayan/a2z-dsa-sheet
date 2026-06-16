@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Bit Manipulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
-- Synced: 2026-06-16T17:40:13.200Z
+- Synced: 2026-06-16T17:47:09.877Z
 
 ## Problem Description
 
