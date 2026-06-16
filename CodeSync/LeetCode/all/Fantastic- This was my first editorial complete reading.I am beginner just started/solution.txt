@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Fantastic, This was my first editorial complete reading.I am beginner just started.
+ * URL: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-16T17:48:58.093Z
+ */
+
+class Solution {
+    public int findNumbers(int[] nums) {
+        
+    }
+}
