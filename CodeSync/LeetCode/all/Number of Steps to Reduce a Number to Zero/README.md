@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
-- Synced: 2026-06-16T17:33:15.165Z
+- Synced: 2026-06-16T17:35:37.168Z
 
 ## Problem Description
 
