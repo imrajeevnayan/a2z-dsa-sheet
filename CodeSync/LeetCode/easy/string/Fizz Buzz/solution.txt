@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fizz Buzz
- * URL: https://leetcode.com/problems/fizz-buzz/description/
+ * URL: https://leetcode.com/problems/fizz-buzz/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:23:31.283Z
+ * Synced: 2026-06-16T17:24:19.899Z
  */
 
 class Solution {
