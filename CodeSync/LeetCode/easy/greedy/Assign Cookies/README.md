@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/assign-cookies/
-- Synced: 2026-06-16T18:24:42.165Z
+- Synced: 2026-06-16T18:25:27.191Z
 
 ## Problem Description
 
