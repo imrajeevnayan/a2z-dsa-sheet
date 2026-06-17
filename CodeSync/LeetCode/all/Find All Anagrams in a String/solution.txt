@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find All Anagrams in a String
- * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/
+ * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/solutions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
- * Runtime: N/A
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-07T07:02:27.411Z
+ * Synced: 2026-06-17T11:29:08.721Z
  */
 
 class Solution {
