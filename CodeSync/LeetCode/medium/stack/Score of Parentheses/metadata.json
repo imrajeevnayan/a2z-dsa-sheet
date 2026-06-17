@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T11:33:36.974Z",
+  "submissionTimestamp": "2026-06-17T11:34:23.369Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Score of Parentheses",
-  "problemUrl": "https://leetcode.com/problems/score-of-parentheses/description/",
-  "submissionId": "4ztgai"
+  "problemUrl": "https://leetcode.com/problems/score-of-parentheses/",
+  "submissionId": "l0avm3"
 }
