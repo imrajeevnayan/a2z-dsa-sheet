@@ -7,18 +7,19 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T11:39:54.390Z
+ * Synced: 2026-06-17T11:41:25.989Z
  */
 
-class Solution {
-    public boolean isValid(String s) {
+public boolean isValid(String s) {
         Stack<Character>st=new Stack<>();
         for(char c:s.toCharArray()){
             if(c=='('|| c=='{'|| c=='[') st.push(c);
             else {
                 if(st.isEmpty())return true;
+                char top=st.pop();
+                if(c==')' && top !='(' ||
             }
         }
-    }
-                char top
-}
+
+                )
+                   c==
