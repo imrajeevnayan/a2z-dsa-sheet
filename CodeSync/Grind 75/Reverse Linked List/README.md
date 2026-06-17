@@ -6,8 +6,8 @@
 - Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:26:52.321Z
+- Problem URL: https://leetcode.com/problems/reverse-linked-list/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T07:27:47.135Z
 
 ## Problem Description
 
