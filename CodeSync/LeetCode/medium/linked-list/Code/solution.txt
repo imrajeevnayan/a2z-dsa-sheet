@@ -1,30 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Medium
- * Topics: Linked List, Stack, Recursion, Monotonic Stack
- * Runtime: 0 ms
+ * Topics: Linked List
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:13:59.016Z
+ * Synced: 2026-06-17T09:31:38.198Z
  */
 
-}
-            stack.push(curr);
-            curr = curr.next;
-        }
-        
-        // Rebuild result list from stack (top of stack = last surviving node)
-        ListNode next = null;
-        while (!stack.isEmpty()) {
-                stack.pop();
-            // Remove all nodes smaller than current (they have greater node to right)
-            while (!stack.isEmpty() && stack.peek().val < curr.val) {
-        ListNode curr = head;
-        while (curr != null) {
-        
-        // Traverse and maintain monotonic decreasing stack
-    public ListNode removeNodes(ListNode head) {
-        Deque<ListNode> stack = new ArrayDeque<>();
+* public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
+    public ListNode[] splitListToParts(ListNode head, int k) {
+        
+    }
