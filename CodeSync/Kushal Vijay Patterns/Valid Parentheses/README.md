@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/
-- Synced: 2026-06-17T11:35:50.163Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/
+- Synced: 2026-06-17T11:36:35.752Z
 
 ## Problem Description
 
