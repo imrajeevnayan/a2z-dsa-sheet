@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Find All Anagrams in a String
- * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/1960809153/
+ * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/solutions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
- * Runtime: 9 ms
- * Memory: 46.72 MB
- * Synced: 2026-06-07T07:02:30.010Z
+ * Runtime: . S
+ * Memory: N/A
+ * Synced: 2026-06-17T11:29:08.721Z
  */
 
-Input: s = "cbaebabacd", p = "abc"
-Output: [0,6]
-Explanation:
-The substring with start index = 0 is "cba", which is an anagram of "abc".
-The substring with start index = 6 is "bac", which is an anagram of "abc".
+class Solution {
+    public List<Integer> findAnagrams(String s, String p) {
+        
+    }
+}
