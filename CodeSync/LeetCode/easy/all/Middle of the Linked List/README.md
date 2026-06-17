@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:38:27.129Z
+- Synced: 2026-06-17T07:39:21.088Z
 
 ## Problem Description
 
