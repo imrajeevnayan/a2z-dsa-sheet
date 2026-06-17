@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-09T10:03:27.765Z",
-  "runtime": "0 ms",
-  "memoryUsage": "45.42 MB",
+  "submissionTimestamp": "2026-06-17T07:23:02.741Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "Remove Duplicates from Sorted List",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/2027370701/",
-  "submissionId": "vx8upj"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "ubu2up"
 }
