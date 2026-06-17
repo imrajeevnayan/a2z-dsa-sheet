@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Recursion, Queue, Simulation
 - Runtime: 0 ms
-- Memory: 42.22 MB
-- Problem URL: https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:23:42.008Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-the-winner-of-the-circular-game/submissions/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T09:24:29.131Z
 
 ## Problem Description
 
