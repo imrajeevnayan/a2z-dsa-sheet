@@ -1,23 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Middle of the Linked List
- * URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2034824389/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T07:17:29.809Z
+ * Synced: 2026-06-17T07:33:22.778Z
  */
 
 class Solution {
     public ListNode middleNode(ListNode head) {
-        ListNode slow=head;
-        ListNode fast=head;
-        while(fast!=null && fast.next !=null ){
+       ListNode slow=head,fast=head;
+        while(fast!=null && fast.next!=null){
             fast=fast.next.next;
             slow=slow.next;
         }
-       return slow; 
+        return slow;
     }
 }
