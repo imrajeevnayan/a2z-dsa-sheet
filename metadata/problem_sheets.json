@@ -504,5 +504,6 @@
   "leetcode:sort-list": [],
   "leetcode:design-linked-list": [],
   "leetcode:lfu-cache": [],
-  "leetcode:remove-zero-sum-consecutive-nodes-from-linked-list": []
+  "leetcode:remove-zero-sum-consecutive-nodes-from-linked-list": [],
+  "leetcode:split-linked-list-in-parts": []
 }
