@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List II
- * URL: https://leetcode.com/problems/reverse-linked-list-ii/
+ * URL: https://leetcode.com/problems/reverse-linked-list-ii/submissions/2036253630/
  * Language: Linked List
  * Difficulty: Medium
  * Topics: Linked List
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-17T10:33:54.812Z
+ * Memory: 43.01 MB
+ * Synced: 2026-06-17T10:34:41.086Z
  */
 
 // Step 2: start reversing
