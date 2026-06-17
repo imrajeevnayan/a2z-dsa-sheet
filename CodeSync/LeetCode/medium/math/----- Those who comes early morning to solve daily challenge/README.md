@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.22 MB
 - Problem URL: https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:20:25.024Z
+- Synced: 2026-06-17T09:21:19.999Z
 
 ## Problem Description
 
