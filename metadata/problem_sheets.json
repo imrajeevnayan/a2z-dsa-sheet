@@ -503,5 +503,6 @@
   "leetcode:find-the-winner-of-the-circular-game": [],
   "leetcode:sort-list": [],
   "leetcode:design-linked-list": [],
-  "leetcode:lfu-cache": []
+  "leetcode:lfu-cache": [],
+  "leetcode:remove-zero-sum-consecutive-nodes-from-linked-list": []
 }
