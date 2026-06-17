@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T09:05:26.407Z",
+  "submissionTimestamp": "2026-06-17T09:06:13.117Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Nodes From Linked List",
-  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/description/",
-  "submissionId": "yxs5sy"
+  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+  "submissionId": "tchzzi"
 }
