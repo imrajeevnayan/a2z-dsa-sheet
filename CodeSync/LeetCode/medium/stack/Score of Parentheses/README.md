@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/score-of-parentheses/description/
-- Synced: 2026-06-17T11:33:36.974Z
+- Problem URL: https://leetcode.com/problems/score-of-parentheses/
+- Synced: 2026-06-17T11:34:23.369Z
 
 ## Problem Description
 
