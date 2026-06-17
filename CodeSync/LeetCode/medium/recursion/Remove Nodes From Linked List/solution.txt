@@ -1,25 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Nodes From Linked List
- * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/description/
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:05:26.407Z
+ * Synced: 2026-06-17T09:06:13.117Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public ListNode removeNodes(ListNode head) {
         
