@@ -1,24 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/
+ * URL: https://leetcode.com/problems/valid-parentheses/submissions/2032514763/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-17T11:42:58.459Z
+ * Runtime: 0 ms
+ * Memory: 43.46 MB
+ * Synced: 2026-06-17T11:43:44.676Z
  */
 
-else {
-                if(st.isEmpty())return true;
-                char top=st.pop();
-                if(c==')' && top !='(' ||
-                ) return false;
-                   c=='}'  && top !='}' ||
-                   c==']'   && top !=']'
-            if(c=='('|| c=='{'|| c=='[') st.push(c);
-        for(char c:s.toCharArray()){
-        Stack<Character>st=new Stack<>();
-class Solution {
-    public boolean isValid(String s) {
+"()"
+"()[]{}"
+"(]"
+"([])"
+"([)]"
+true
+false
+false
+false
+false
+true
+true
+false
+true
+false
