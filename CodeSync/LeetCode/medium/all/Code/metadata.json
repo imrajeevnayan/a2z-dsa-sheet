@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-17T09:31:38.198Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-17T09:32:25.434Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "8z2xhh"
+  "problemUrl": "https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "q6j5nk"
 }
