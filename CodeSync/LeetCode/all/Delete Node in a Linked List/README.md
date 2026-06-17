@@ -1,13 +1,13 @@
 # Delete Node in a Linked List
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T03:52:33.174Z
+- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T08:49:22.381Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There is a singly-linked list head and we want to delete a node node in it. You 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List. Review the synced source file for the implementation details.
