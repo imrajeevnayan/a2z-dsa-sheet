@@ -4,10 +4,10 @@
 - Language: Online Interview
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 3 ms
-- Memory: 11.25 MB
-- Problem URL: https://leetcode.com/submissions/detail/2009852956/
-- Synced: 2026-06-05T17:14:01.069Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
+- Synced: 2026-06-17T08:48:53.102Z
 
 ## Problem Description
 
