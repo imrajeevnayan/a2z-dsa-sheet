@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:33:22.778Z
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T07:34:10.481Z
 
 ## Problem Description
 
