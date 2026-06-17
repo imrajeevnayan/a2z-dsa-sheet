@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Score of Parentheses
- * URL: https://leetcode.com/problems/score-of-parentheses/description/
+ * URL: https://leetcode.com/problems/score-of-parentheses/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T11:33:36.974Z
+ * Synced: 2026-06-17T11:34:23.369Z
  */
 
-class Solution {
+int v = stack.pop();
+                stack.push(0); // start new frame
+            } else {
+            if (c == '(') {
+        stack.push(0); // base score
+
+        for (char c : s.toCharArray()) {
+        Stack<Integer> stack = new Stack<>();
     public int scoreOfParentheses(String s) {
-        
-    }
-}
+class Solution {
+                int top = stack.pop();
