@@ -1,13 +1,13 @@
 # Sort List
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-list/
-- Synced: 2026-06-09T09:59:38.084Z
+- Problem URL: https://leetcode.com/problems/sort-list/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T09:26:33.384Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a linked list, return the list after sorting it in ascending o
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort. Review the synced source file for the implementation details.
