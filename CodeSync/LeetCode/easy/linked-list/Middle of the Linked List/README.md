@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:34:56.265Z
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T07:35:45.292Z
 
 ## Problem Description
 
