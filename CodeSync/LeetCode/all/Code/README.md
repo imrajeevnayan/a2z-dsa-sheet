@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:31:38.198Z
+- Problem URL: https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T09:32:25.434Z
 
 ## Problem Description
 
