@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort List
- * URL: https://leetcode.com/problems/sort-list/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/sort-list/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T09:59:43.094Z
+ * Synced: 2026-06-17T09:26:33.384Z
  */
 
 class Solution {
