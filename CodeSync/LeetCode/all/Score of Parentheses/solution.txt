@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Score of Parentheses
+ * URL: https://leetcode.com/problems/score-of-parentheses/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T11:33:36.974Z
+ */
+
+class Solution {
+    public int scoreOfParentheses(String s) {
+        
+    }
+}
