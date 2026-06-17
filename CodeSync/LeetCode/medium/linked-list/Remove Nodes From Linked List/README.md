@@ -6,8 +6,8 @@
 - Topics: Linked List, Stack, Recursion, Monotonic Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nodes-from-linked-list/description/
-- Synced: 2026-06-17T09:05:26.407Z
+- Problem URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
+- Synced: 2026-06-17T09:06:13.117Z
 
 ## Problem Description
 
