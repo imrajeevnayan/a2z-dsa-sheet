@@ -7,13 +7,13 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T07:25:22.333Z
+ * Synced: 2026-06-17T07:26:08.420Z
  */
 
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode curr=head;
-        while(curr!=null){
+        while(curr!=null && curr){
             if(curr.val==curr.next.val)curr.next=curr.next.next;
             else curr=curr.next;
         }
