@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-17T10:33:54.812Z",
+  "submissionTimestamp": "2026-06-17T10:34:41.086Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.01 MB",
   "difficulty": "Medium",
   "tags": [
     "Linked List"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Linked List",
   "problemTitle": "Reverse Linked List II",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list-ii/",
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list-ii/submissions/2036253630/",
   "submissionId": "2yqcrm"
 }
