@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-12T03:06:58.717Z",
+  "submissionTimestamp": "2026-06-17T07:20:58.961Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,8 +10,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/description/?utm_source=chatgpt.com",
-  "submissionId": "go7c3z"
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "kig623"
 }
