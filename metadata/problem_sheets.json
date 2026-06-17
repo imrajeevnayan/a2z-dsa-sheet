@@ -496,5 +496,6 @@
     "StriverSDE"
   ],
   "leetcode:unknown-problem": [],
-  "leetcode:delete-node-in-a-linked-list": []
+  "leetcode:delete-node-in-a-linked-list": [],
+  "leetcode:insertion-sort-list": []
 }
