@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/insertion-sort-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:00:42.024Z
+- Synced: 2026-06-17T09:02:35.006Z
 
 ## Problem Description
 
