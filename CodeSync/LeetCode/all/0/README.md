@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
-- Synced: 2026-06-17T10:31:04.427Z
+- Problem URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
+- Synced: 2026-06-17T10:32:31.628Z
 
 ## Problem Description
 
