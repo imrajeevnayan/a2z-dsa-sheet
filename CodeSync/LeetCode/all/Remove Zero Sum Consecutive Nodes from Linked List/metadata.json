@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-17T09:30:53.334Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Linked List (Copy-9gvhzx23)",
+  "problemTitle": "Remove Zero Sum Consecutive Nodes from Linked List",
+  "problemUrl": "https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "nbyr63"
+}
