@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-17T06:33:19.787Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Common Patterns Questions",
+  "problemTitle": "Merge Two Binary Trees",
+  "problemUrl": "https://leetcode.com/problems/merge-two-binary-trees/description/?envType=problem-list-v2&envId=xksb9pgr",
+  "submissionId": "8z1eps"
+}
