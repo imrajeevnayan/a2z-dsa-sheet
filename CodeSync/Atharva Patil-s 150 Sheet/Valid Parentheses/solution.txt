@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Parentheses
+ * URL: https://leetcode.com/problems/valid-parentheses/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T11:36:35.752Z
+ */
+
+class Solution {
+    public boolean isValid(String s) {
+        Stack<Character>st=new Stack<>();
+        for(char c:s.toCharArray()){
+            if(c=='('|| c=='{'|| c=='')
+        }
+    }
+}
