@@ -495,5 +495,17 @@
   ],
   "leetcode:0": [],
   "leetcode:palindrome-linked-list": [],
-  "leetcode:remove-duplicates-from-sorted-list": []
+  "leetcode:remove-duplicates-from-sorted-list": [],
+  "leetcode:reverse-linked-list": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "LeetCode75",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "LoveBabbar450",
+    "StriverSDE"
+  ]
 }
