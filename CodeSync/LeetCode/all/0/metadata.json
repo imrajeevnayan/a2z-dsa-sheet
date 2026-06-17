@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-17T09:25:35.006Z",
+  "submissionTimestamp": "2026-06-17T09:27:11.486Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Two Pointers",
-    "Divide and Conquer",
-    "Sorting",
-    "Merge Sort"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Linked List (Copy-9gvhzx23)",
+  "language": "Online Interview",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/sort-list/description/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "4asfvn"
+  "problemUrl": "https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/",
+  "submissionId": "2n6up"
 }
