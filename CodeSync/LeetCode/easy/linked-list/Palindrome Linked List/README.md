@@ -1,13 +1,13 @@
 # Palindrome Linked List
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers, Stack, Recursion
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/description/?utm_source=chatgpt.com
-- Synced: 2026-06-12T03:06:58.717Z
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T07:20:58.961Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, return true if it is a palindrome or fal
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers, Stack, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List, Two Pointers, Stack, Recursion. Review the synced source file for the implementation details.
