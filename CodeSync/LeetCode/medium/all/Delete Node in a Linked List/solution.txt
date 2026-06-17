@@ -7,12 +7,10 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T08:50:30.196Z
+ * Synced: 2026-06-17T08:51:18.409Z
  */
 
 class Solution {
     public void deleteNode(ListNode node) {
-        ListNode curr=head;
     }
-        
 }
