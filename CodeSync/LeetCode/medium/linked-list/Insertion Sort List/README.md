@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Linked List, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/insertion-sort-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:11:33.662Z
+- Runtime: 0 ms
+- Memory: 46.21 MB
+- Problem URL: https://leetcode.com/problems/insertion-sort-list/submissions/2036163323/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T09:12:19.013Z
 
 ## Problem Description
 
