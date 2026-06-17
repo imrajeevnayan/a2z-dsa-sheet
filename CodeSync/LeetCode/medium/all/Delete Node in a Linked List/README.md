@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T08:51:18.409Z
+- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/2036142330/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T08:52:03.410Z
 
 ## Problem Description
 
