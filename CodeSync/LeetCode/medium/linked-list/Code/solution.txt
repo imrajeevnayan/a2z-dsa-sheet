@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=da95pk23
+ * URL: https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23
  * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T09:31:38.198Z
+ * Synced: 2026-06-17T09:32:25.434Z
  */
 
-* public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode[] splitListToParts(ListNode head, int k) {
-        
-    }
+// move to end of current part
+
+            extra--;
+            int partSize = baseSize + (extra > 0 ? 1 : 0);
+
+            ListNode partHead = curr;
+
+        for (int i = 0; i < k; i++) {
+
+        curr = head;
+        ListNode[] result = new ListNode[k];
+
+        int extra = n % k;
