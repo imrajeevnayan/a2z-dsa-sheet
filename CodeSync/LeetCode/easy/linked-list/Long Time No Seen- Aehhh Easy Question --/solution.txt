@@ -1,25 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Long Time No Seen, Aehhh Easy Question !!
- * URL: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
+ * URL: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:07:04.406Z
+ * Synced: 2026-06-17T09:07:57.021Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public int getDecimalValue(ListNode head) {
         
