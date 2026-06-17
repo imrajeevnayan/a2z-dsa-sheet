@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-09T11:13:59.016Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-17T09:31:38.198Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Stack",
-    "Recursion",
-    "Monotonic Stack"
+    "Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/description/",
-  "submissionId": "thsi4r"
+  "problemUrl": "https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "8z2xhh"
 }
