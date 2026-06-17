@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/settings/profile/
-- Synced: 2026-06-05T18:32:04.287Z
+- Problem URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
+- Synced: 2026-06-17T07:12:10.358Z
 
 ## Problem Description
 
