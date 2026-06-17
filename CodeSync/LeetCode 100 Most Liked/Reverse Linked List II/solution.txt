@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Linked List II
+ * URL: https://leetcode.com/problems/reverse-linked-list-ii/
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Linked List
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-17T10:33:54.812Z
+ */
+
+// Step 2: start reversing
+        }
+            prev = prev.next;
+        for (int i = 1; i < left; i++) {
+        // Step 1: move prev to node before left
+        ListNode prev = dummy;
+        dummy.next = head;
+        ListNode dummy = new ListNode(0);
+        if (head == null || left == right) return head;
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+class Solution {
