@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=xksb9pgr
-- Synced: 2026-06-17T09:30:47.008Z
+- Synced: 2026-06-17T09:31:52.018Z
 
 ## Problem Description
 
