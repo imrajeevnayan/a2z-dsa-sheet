@@ -7,15 +7,16 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T07:24:36.767Z
+ * Synced: 2026-06-17T07:25:22.333Z
  */
 
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode curr=head;
         while(curr!=null){
-            if(curr.val==curr.next.data)curr.next=curr.next.next;
+            if(curr.val==curr.next.val)curr.next=curr.next.next;
+            else curr=curr.next;
         }
-    }
         return head;
+    }
 }
