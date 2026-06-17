@@ -1,25 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: LFU Cache
- * URL: https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=da95pk23
+ * URL: https://leetcode.com/problems/lfu-cache/submissions/2036182677/?envType=problem-list-v2&envId=da95pk23
  * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Hard
  * Topics: Hash Table, Linked List, Design, Doubly-Linked List
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-17T09:28:36.512Z
+ * Runtime: 1 ms
+ * Memory: 137.53 MB
+ * Synced: 2026-06-17T09:29:23.615Z
  */
 
 }
-    
-    public void put(int key, int value) {
-        
+
+    private void update(Node node) {
+        int freq = node.freq;
+        LinkedHashSet<Node> set = freqMap.get(freq);
+
+        set.remove(node);
+
+        if (freq == minFreq && set.isEmpty()) {
+            minFreq++;
+        }
+
+        node.freq++;
+
+        freqMap.computeIfAbsent(node.freq, k -> new LinkedHashSet<>()).add(node);
     }
 }
-
-/**
- * Your LFUCache object will be instantiated and called as such:
- * LFUCache obj = new LFUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
