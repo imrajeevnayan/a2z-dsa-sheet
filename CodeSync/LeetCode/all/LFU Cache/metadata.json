@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-17T09:28:36.512Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Design",
+    "Doubly-Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Linked List (Copy-9gvhzx23)",
+  "problemTitle": "LFU Cache",
+  "problemUrl": "https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "qug8ae"
+}
