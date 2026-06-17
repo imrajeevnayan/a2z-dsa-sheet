@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Generate Parentheses
+ * URL: https://leetcode.com/problems/generate-parentheses/submissions/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming, Backtracking
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T11:33:14.391Z
+ */
+
+class Solution {
+    public List<String> generateParenthesis(int n) {
+        
+    }
+}
