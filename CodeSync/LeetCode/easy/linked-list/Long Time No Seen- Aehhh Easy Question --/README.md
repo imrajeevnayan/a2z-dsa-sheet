@@ -6,8 +6,8 @@
 - Topics: Linked List, Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
-- Synced: 2026-06-17T09:07:04.406Z
+- Problem URL: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+- Synced: 2026-06-17T09:07:57.021Z
 
 ## Problem Description
 
