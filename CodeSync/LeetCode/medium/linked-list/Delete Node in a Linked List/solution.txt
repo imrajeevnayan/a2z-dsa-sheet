@@ -1,15 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Delete Node in a Linked List
- * URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
- * Language: Problem List
+ * URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Medium
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-11T03:52:33.174Z
+ * Synced: 2026-06-17T08:49:22.381Z
  */
 
-Input: head = [4,5,1,9], node = 5
-Output: [4,1,9]
-Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public void deleteNode(ListNode node) {
+        
+    }
