@@ -484,5 +484,13 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:merge-two-binary-trees": []
+  "leetcode:merge-two-binary-trees": [],
+  "leetcode:remove-nth-node-from-end-of-list": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE"
+  ]
 }
