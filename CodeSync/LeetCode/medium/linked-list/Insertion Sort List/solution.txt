@@ -7,7 +7,7 @@
  * Topics: Linked List, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T08:58:41.037Z
+ * Synced: 2026-06-17T08:59:52.009Z
  */
 
 class Solution {
