@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T07:02:27.411Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-17T11:29:08.721Z",
+  "runtime": ". S",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find All Anagrams in a String",
-  "problemUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/",
-  "submissionId": "n73h8u"
+  "problemUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/solutions/",
+  "submissionId": "baykoi"
 }
