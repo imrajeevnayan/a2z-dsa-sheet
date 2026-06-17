@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-17T11:33:14.391Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Generate Parentheses",
+  "problemUrl": "https://leetcode.com/problems/generate-parentheses/submissions/",
+  "submissionId": "lv1ahb"
+}
