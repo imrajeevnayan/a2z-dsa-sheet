@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Design Linked List
+ * URL: https://leetcode.com/problems/design-linked-list/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
+ * Difficulty: Medium
+ * Topics: Linked List, Design
+ * Runtime: 39 ms
+ * Memory: N/A
+ * Synced: 2026-06-17T09:27:35.845Z
+ */
+
+class MyLinkedList {
+
+    public MyLinkedList() {
+        
+    }
+    
+    public int get(int index) {
+        
+    }
+    
+    public void addAtHead(int val) {
+        
+    }
+    
+    public void addAtTail(int val) {
+        
+    }
