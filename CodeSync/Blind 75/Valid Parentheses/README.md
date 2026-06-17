@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/
-- Synced: 2026-06-17T11:42:58.459Z
+- Runtime: 0 ms
+- Memory: 43.46 MB
+- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/2032514763/
+- Synced: 2026-06-17T11:43:44.676Z
 
 ## Problem Description
 
