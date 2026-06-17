@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-17T09:28:36.512Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-17T09:29:23.615Z",
+  "runtime": "1 ms",
+  "memoryUsage": "137.53 MB",
   "difficulty": "Hard",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "LFU Cache",
-  "problemUrl": "https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "qug8ae"
+  "problemUrl": "https://leetcode.com/problems/lfu-cache/submissions/2036182677/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "e9muwq"
 }
