@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T11:40:40.628Z
+ * Synced: 2026-06-17T11:41:25.989Z
  */
 
 public boolean isValid(String s) {
@@ -17,9 +17,9 @@ public boolean isValid(String s) {
             else {
                 if(st.isEmpty())return true;
                 char top=st.pop();
-                if(c==
+                if(c==')' && top !='(' ||
             }
         }
 
                 )
-    }
+                   c==
