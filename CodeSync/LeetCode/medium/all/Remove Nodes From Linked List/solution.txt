@@ -7,24 +7,21 @@
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:24:00.477Z
+ * Synced: 2026-06-17T09:05:26.407Z
  */
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode removeNodes(ListNode head) {
-        Deque<ListNode> stack = new ArrayDeque<>();
         
-        // Traverse and maintain monotonic decreasing stack
-        ListNode curr = head;
-        while (curr != null) {
-            // Remove all nodes smaller than current (they have greater node to right)
-            while (!stack.isEmpty() && stack.peek().val < curr.val) {
-                stack.pop();
-            }
-            stack.push(curr);
-            curr = curr.next;
-        }
-        
-        // Rebuild result list from stack (top of stack = last surviving node)
-        ListNode next = null;
-        while (!stack.isEmpty()) {
+    }
+}
