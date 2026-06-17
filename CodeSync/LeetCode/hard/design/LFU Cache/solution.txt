@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: LFU Cache
+ * URL: https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
+ * Difficulty: Hard
+ * Topics: Hash Table, Linked List, Design, Doubly-Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T09:28:36.512Z
+ */
+
+}
+    
+    public void put(int key, int value) {
+        
+    }
+}
+
+/**
+ * Your LFUCache object will be instantiated and called as such:
+ * LFUCache obj = new LFUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
