@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
-- Synced: 2026-06-17T09:08:59.026Z
+- Synced: 2026-06-17T09:09:46.012Z
 
 ## Problem Description
 
