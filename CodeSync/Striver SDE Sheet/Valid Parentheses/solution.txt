@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T11:39:05.157Z
+ * Synced: 2026-06-17T11:39:54.390Z
  */
 
 class Solution {
@@ -16,8 +16,9 @@ class Solution {
         for(char c:s.toCharArray()){
             if(c=='('|| c=='{'|| c=='[') st.push(c);
             else {
-                if(st.isEmpty())
+                if(st.isEmpty())return true;
             }
         }
     }
+                char top
 }
