@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-10T07:00:34.222Z",
+  "submissionTimestamp": "2026-06-17T08:55:18.157Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87",
-  "submissionId": "4okw1p"
+  "problemUrl": "https://leetcode.com/problems/delete-node-in-a-linked-list/description/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "c5ayzs"
 }
