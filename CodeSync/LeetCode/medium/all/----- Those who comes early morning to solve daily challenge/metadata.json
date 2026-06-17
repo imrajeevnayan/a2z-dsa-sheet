@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-17T09:23:42.008Z",
+  "submissionTimestamp": "2026-06-17T09:24:29.131Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.22 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "🙋‍♂️ Those who comes early morning to solve daily challenge",
-  "problemUrl": "https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "e06snp"
+  "problemUrl": "https://leetcode.com/problems/find-the-winner-of-the-circular-game/submissions/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "ri3pu4"
 }
