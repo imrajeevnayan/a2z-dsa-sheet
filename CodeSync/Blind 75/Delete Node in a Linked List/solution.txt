@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Delete Node in a Linked List
+ * URL: https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=da95pk23
+ * Language: Linked List (Copy-9gvhzx23)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T08:55:29.515Z
+ */
+
+class Solution {
+    public void deleteNode(ListNode node) {
+        node.val=node.next.val;
+        node.next=node.next.next;
+    }
+}
