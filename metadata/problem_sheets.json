@@ -497,5 +497,6 @@
   ],
   "leetcode:unknown-problem": [],
   "leetcode:delete-node-in-a-linked-list": [],
-  "leetcode:insertion-sort-list": []
+  "leetcode:insertion-sort-list": [],
+  "leetcode:remove-nodes-from-linked-list": []
 }
