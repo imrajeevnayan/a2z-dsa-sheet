@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Medium
 - Topics: Array, Math, Recursion, Queue, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:14:17.169Z
+- Synced: 2026-06-17T09:15:02.212Z
 
 ## Problem Description
 
