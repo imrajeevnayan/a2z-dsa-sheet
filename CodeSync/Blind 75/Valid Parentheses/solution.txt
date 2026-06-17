@@ -1,27 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/submissions/2032514763/?envType=problem-list-v2&envId=dxlq3az1
- * Language: Grind 75 (Copy-rab78cw1)
+ * URL: https://leetcode.com/problems/valid-parentheses/submissions/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 0 ms
- * Memory: 43.46 MB
- * Synced: 2026-06-14T06:41:53.371Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T11:35:50.163Z
  */
 
-if (st.isEmpty()) return false; 
-                char top = st.pop();
-                if ((c == ')' && top != '(') ||
-                    (c == '}' && top != '{') ||
-                    (c == ']' && top != '[')) return false;
-            }
-        }
-        return st.isEmpty();
-            else {
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') st.push(c);
+class Solution {
     public boolean isValid(String s) {
-        Deque<Character> st = new ArrayDeque<>();
+        Stack<Character>st=new Stack<>();
     }
+        for(char c:s.toCharArray())
 }
