@@ -498,5 +498,6 @@
   "leetcode:unknown-problem": [],
   "leetcode:delete-node-in-a-linked-list": [],
   "leetcode:insertion-sort-list": [],
-  "leetcode:remove-nodes-from-linked-list": []
+  "leetcode:remove-nodes-from-linked-list": [],
+  "leetcode:convert-binary-number-in-a-linked-list-to-integer": []
 }
