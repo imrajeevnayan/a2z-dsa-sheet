@@ -502,5 +502,6 @@
   "leetcode:convert-binary-number-in-a-linked-list-to-integer": [],
   "leetcode:find-the-winner-of-the-circular-game": [],
   "leetcode:sort-list": [],
-  "leetcode:design-linked-list": []
+  "leetcode:design-linked-list": [],
+  "leetcode:lfu-cache": []
 }
