@@ -1,13 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
+ * URL: https://leetcode.com/discuss/post/1905453/master-in-two-pointer-by-rakibhasan1030-ku1j/
  * Language: Online Interview
  * Difficulty: Unknown
- * Topics: Uncategorized
+ * Topics: ALL TWO POINTERS PROBLEMS
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T10:19:59.383Z
+ * Synced: 2026-06-17T10:21:27.916Z
  */
 
-Following article contains the list of questions topic wise
+bool pairExists(int arr[], int n, int S)
+{
+    for(i = 0 to n-2)
+        for(j = i+1 to n-1)
+            if(arr[i] + arr[j] == S)
+                return true
+    return false
+}
