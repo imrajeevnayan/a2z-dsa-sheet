@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T06:33:19.787Z",
+  "submissionTimestamp": "2026-06-17T06:34:32.499Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Common Patterns Questions",
   "problemTitle": "Merge Two Binary Trees",
-  "problemUrl": "https://leetcode.com/problems/merge-two-binary-trees/description/?envType=problem-list-v2&envId=xksb9pgr",
-  "submissionId": "8z1eps"
+  "problemUrl": "https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=xksb9pgr",
+  "submissionId": "ey38pf"
 }
