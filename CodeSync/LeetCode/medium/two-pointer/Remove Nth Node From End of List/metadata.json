@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-17T07:05:32.158Z",
+  "submissionTimestamp": "2026-06-17T07:06:17.971Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.13 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "DSA Patterns by anubhav0910",
   "problemTitle": "Remove Nth Node From End of List",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=problem-list-v2&envId=a0b4xdj1",
-  "submissionId": "r9esjp"
+  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?envType=problem-list-v2&envId=a0b4xdj1",
+  "submissionId": "7jqi4l"
 }
