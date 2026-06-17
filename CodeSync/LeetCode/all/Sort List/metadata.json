@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T09:59:38.084Z",
+  "submissionTimestamp": "2026-06-17T09:26:33.384Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,8 +11,8 @@
     "Merge Sort"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List (Copy-9gvhzx23)",
   "problemTitle": "Sort List",
-  "problemUrl": "https://leetcode.com/problems/sort-list/",
-  "submissionId": "7iqvrx"
+  "problemUrl": "https://leetcode.com/problems/sort-list/?envType=problem-list-v2&envId=da95pk23",
+  "submissionId": "djolk9"
 }
