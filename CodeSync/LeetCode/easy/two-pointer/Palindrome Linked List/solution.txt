@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Linked List
- * URL: https://leetcode.com/problems/palindrome-linked-list/submissions/?envType=problem-list-v2&envId=da95pk23
+ * URL: https://leetcode.com/problems/palindrome-linked-list/submissions/2036055487/?envType=problem-list-v2&envId=da95pk23
  * Language: Linked List (Copy-9gvhzx23)
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T07:21:45.227Z
+ * Synced: 2026-06-17T07:22:31.644Z
  */
 
 ListNode curr=head;
@@ -16,10 +16,10 @@ ListNode curr=head;
             curr=curr.next;
          }
          while(!st.isEmpty()){
-            if(st.pop()==curr.val)return true;
+            if(st.pop()!=curr.val)return false;
          }
     }
-         return false;
+         return true;
             curr=curr.next;
          curr=head;
 }
