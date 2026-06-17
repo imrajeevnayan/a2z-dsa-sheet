@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-binary-trees/description/?envType=problem-list-v2&envId=xksb9pgr
-- Synced: 2026-06-17T06:33:19.787Z
+- Problem URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=xksb9pgr
+- Synced: 2026-06-17T06:34:32.499Z
 
 ## Problem Description
 
