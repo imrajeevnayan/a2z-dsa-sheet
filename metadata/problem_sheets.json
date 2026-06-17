@@ -494,5 +494,6 @@
     "StriverSDE"
   ],
   "leetcode:0": [],
-  "leetcode:palindrome-linked-list": []
+  "leetcode:palindrome-linked-list": [],
+  "leetcode:remove-duplicates-from-sorted-list": []
 }
