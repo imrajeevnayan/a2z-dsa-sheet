@@ -493,5 +493,6 @@
     "StriverA2Z",
     "StriverSDE"
   ],
-  "leetcode:0": []
+  "leetcode:0": [],
+  "leetcode:palindrome-linked-list": []
 }
