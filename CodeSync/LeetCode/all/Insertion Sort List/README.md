@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.21 MB
 - Problem URL: https://leetcode.com/problems/insertion-sort-list/submissions/2036163323/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:12:19.013Z
+- Synced: 2026-06-17T09:13:18.563Z
 
 ## Problem Description
 
