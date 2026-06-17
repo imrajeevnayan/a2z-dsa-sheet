@@ -4,10 +4,10 @@
 - Language: Linked List (Copy-9gvhzx23)
 - Difficulty: Hard
 - Topics: Hash Table, Linked List, Design, Doubly-Linked List
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:28:36.512Z
+- Runtime: 1 ms
+- Memory: 137.53 MB
+- Problem URL: https://leetcode.com/problems/lfu-cache/submissions/2036182677/?envType=problem-list-v2&envId=da95pk23
+- Synced: 2026-06-17T09:29:23.615Z
 
 ## Problem Description
 
