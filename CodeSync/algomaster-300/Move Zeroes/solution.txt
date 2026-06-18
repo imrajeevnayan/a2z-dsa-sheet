@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-18T16:52:35.481Z
+ * Memory: 47.90 MB
+ * Synced: 2026-06-18T16:53:31.156Z
  */
 
 class Solution {
