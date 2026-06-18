@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-18T04:02:21.688Z",
+  "submissionTimestamp": "2026-06-18T04:03:09.296Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Linked List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=9gvhzx23",
-  "submissionId": "x1ogrj"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/?envType=problem-list-v2&envId=9gvhzx23",
+  "submissionId": "8c14pe"
 }
