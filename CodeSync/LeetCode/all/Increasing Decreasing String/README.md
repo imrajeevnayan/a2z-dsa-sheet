@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/description/
-- Synced: 2026-06-17T12:12:06.069Z
+- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/
+- Synced: 2026-06-17T12:12:52.386Z
 
 ## Problem Description
 
