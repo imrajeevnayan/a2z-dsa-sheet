@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Buddy Strings
+ * URL: https://leetcode.com/problems/buddy-strings/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T12:09:21.664Z
+ */
+
+class Solution {
+    public boolean buddyStrings(String s, String goal) {
+        
+    }
+}
