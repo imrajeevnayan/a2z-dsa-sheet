@@ -7,13 +7,15 @@
  * Topics: Array, Two Pointers
  * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-18T16:49:34.228Z
+ * Synced: 2026-06-18T16:50:20.120Z
  */
 
 class Solution {
     public void moveZeroes(int[] nums) {
         
-    }
         int i=0;
-        for(int j=0;j<nums.length;j++)
+        for(int j=0;j<nums.length;j++){
+            if(arr[i])
+        }
+    }
 }
