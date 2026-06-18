@@ -4,22 +4,22 @@
  * URL: https://leetcode.com/problems/richest-customer-wealth/submissions/2035572062/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Matrix
+ * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 44.85 MB
- * Synced: 2026-06-16T18:55:10.149Z
+ * Synced: 2026-06-17T12:22:17.158Z
  */
 
-class Solution {
-    public int maximumWealth(int[][] accounts) {
-        int maxWealth = 0;
-        for (int[] customer : accounts) {
-            int wealth = 0;
-            for (int balance : customer) {
-                wealth += balance;
-            }
-            maxWealth = Math.max(maxWealth, wealth);
-        }
-        return maxWealth;
-    }
-}
+1class Solution {
+2    public int maximumWealth(int[][] accounts) {
+3        int maxWealth = 0;
+4        for (int[] customer : accounts) {
+5            int wealth = 0;
+6            for (int balance : customer) {
+7                wealth += balance;
+8            }
+9            maxWealth = Math.max(maxWealth, wealth);
+10        }
+11        return maxWealth;
+12    }
+13}
