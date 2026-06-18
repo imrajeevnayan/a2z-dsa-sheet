@@ -6,8 +6,8 @@
 - Topics: Array, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
-- Synced: 2026-06-17T12:14:49.130Z
+- Problem URL: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+- Synced: 2026-06-17T12:15:34.883Z
 
 ## Problem Description
 
