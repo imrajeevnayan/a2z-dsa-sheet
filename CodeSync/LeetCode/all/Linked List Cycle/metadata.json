@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-17T08:55:52.597Z",
+  "submissionTimestamp": "2026-06-18T03:49:06.518Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Linked List (Copy-9gvhzx23)",
+  "language": "Linked List",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/insertion-sort-list/description/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "s6jgbf"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=9gvhzx23",
+  "submissionId": "n9seiz"
 }
