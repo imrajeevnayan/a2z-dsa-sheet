@@ -546,5 +546,12 @@
   ],
   "geeksforgeeks:pair-with-given-sum-in-a-sorted-array4940": [
     "GFG160"
+  ],
+  "leetcode:two-sum-ii-input-array-is-sorted": [
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet"
   ]
 }
