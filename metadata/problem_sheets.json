@@ -522,5 +522,6 @@
   "leetcode:find-all-anagrams-in-a-string": [],
   "leetcode:all-leetcode-articles-on-coding-patterns-summarized-in-one-page": [],
   "leetcode:generate-parentheses": [],
-  "leetcode:score-of-parentheses": []
+  "leetcode:score-of-parentheses": [],
+  "leetcode:remove-outermost-parentheses": []
 }
