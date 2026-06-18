@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-16T18:55:10.149Z",
+  "submissionTimestamp": "2026-06-17T12:22:17.158Z",
   "runtime": "0 ms",
   "memoryUsage": "44.85 MB",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Matrix"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Richest Customer Wealth",
   "problemUrl": "https://leetcode.com/problems/richest-customer-wealth/submissions/2035572062/",
-  "submissionId": "o784id"
+  "submissionId": "5zrss"
 }
