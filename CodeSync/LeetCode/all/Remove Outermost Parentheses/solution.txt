@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T11:57:52.150Z
+ * Synced: 2026-06-17T11:58:45.032Z
  */
 
 for (char c : s.toCharArray()) {
