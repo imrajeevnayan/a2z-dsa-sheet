@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-- Synced: 2026-06-18T17:18:49.909Z
+- Synced: 2026-06-18T17:20:22.083Z
 
 ## Problem Description
 
