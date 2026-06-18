@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=9gvhzx23
-- Synced: 2026-06-18T04:09:08.185Z
+- Synced: 2026-06-18T04:09:56.154Z
 
 ## Problem Description
 
