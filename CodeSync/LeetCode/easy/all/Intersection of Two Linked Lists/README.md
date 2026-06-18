@@ -1,13 +1,13 @@
 # Intersection of Two Linked Lists
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Linked List
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-12T07:21:21.161Z
+- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=9gvhzx23
+- Synced: 2026-06-18T04:02:21.688Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the heads of two singly linked-lists headA and headB, return the node at w
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
