@@ -7,7 +7,7 @@
  * Topics: Array, Backtracking, Bit Manipulation
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-16T18:30:44.166Z
+ * Synced: 2026-06-16T18:34:48.160Z
  */
 
 backtrack(result, new ArrayList<>(), nums, 0);
