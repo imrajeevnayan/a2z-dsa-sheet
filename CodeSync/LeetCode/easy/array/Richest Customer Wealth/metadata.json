@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-16T18:51:19.364Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-16T18:52:07.197Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Richest Customer Wealth",
-  "problemUrl": "https://leetcode.com/problems/richest-customer-wealth/description/",
-  "submissionId": "4dygp3"
+  "problemUrl": "https://leetcode.com/problems/richest-customer-wealth/submissions/2035572062/",
+  "submissionId": "o784id"
 }
