@@ -523,5 +523,6 @@
   "leetcode:all-leetcode-articles-on-coding-patterns-summarized-in-one-page": [],
   "leetcode:generate-parentheses": [],
   "leetcode:score-of-parentheses": [],
-  "leetcode:remove-outermost-parentheses": []
+  "leetcode:remove-outermost-parentheses": [],
+  "leetcode:isomorphic-strings": []
 }
