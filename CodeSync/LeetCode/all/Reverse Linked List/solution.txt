@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/?envType=problem-list-v2&envId=da95pk23
- * Language: Linked List (Copy-9gvhzx23)
+ * URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=9gvhzx23
+ * Language: Linked List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T07:29:20.868Z
+ * Synced: 2026-06-18T04:06:43.776Z
  */
 
 class Solution {
@@ -15,7 +15,10 @@ class Solution {
         ListNode prev=null,curr=head;
         while(curr!=null){
             ListNode temp=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=temp;
         }
+        return prev;
     }
-            curr.next=prev
 }
