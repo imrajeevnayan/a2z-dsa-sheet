@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Stack
 - Runtime: 0 ms
-- Memory: 43.46 MB
-- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/2032514763/
-- Synced: 2026-06-17T11:43:44.676Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/valid-parentheses/
+- Synced: 2026-06-17T11:44:35.307Z
 
 ## Problem Description
 
