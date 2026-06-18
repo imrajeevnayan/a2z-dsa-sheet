@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-18T16:54:32.207Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Adobe",
+    "Company Tags",
+    "Adobe",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Pair with given sum in a sorted array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1",
+  "submissionId": "m9ich4"
+}
