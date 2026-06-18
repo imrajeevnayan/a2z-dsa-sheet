@@ -7,7 +7,7 @@
  * Topics: Array, Matrix
  * Runtime: 0 ms
  * Memory: 44.85 MB
- * Synced: 2026-06-16T18:53:49.347Z
+ * Synced: 2026-06-16T18:55:10.149Z
  */
 
 class Solution {
