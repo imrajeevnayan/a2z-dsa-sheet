@@ -1,18 +1,21 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Editor Settings
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1
+ * Language: class Solution: def countPairs(self, arr, target): n = len(arr) left = 0 right = n - 1 count = 0 while left < right: current_sum = arr[left] + arr[right] if current_sum < target: left += 1 elif current_sum > target: right -= 1 else: # Trường hợp tìm thấy tổng bằng target # Case A: Hai số ở 2 đầu bằng nhau (Vd: 1 ... 1) # Nghĩa là tất cả số ở giữa cũng bằng 1 if arr[left] == arr[right]: temp_n = right - left + 1 count += (temp_n * (temp_n - 1)) // 2 break # Đã đếm xong hết đoạn này # Case B: Hai số ở 2 đầu khác nhau (Vd: 1 ... 5) else: cnt_left = 1 cnt_right = 1 # Đếm số lượng phần tử trùng với arr[left] while left + 1 < right and arr[left] == arr[left + 1]: cnt_left += 1 left += 1 # Đếm số lượng phần tử trùng với arr[right] while right - 1 > left and arr[right] == arr[right - 1]: cnt_right += 1 right -= 1 count += (cnt_left * cnt_right) # Dịch chuyển tiếp tục để tìm cặp mới left += 1 right -= 1 return count
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:33:31.001Z
+ * Synced: 2026-06-18T17:07:39.873Z
  */
 
 class Solution {
-    static int maxLength(String s) {
-        // code here
-        
+    int countPairs(int arr[], int target) {
+        int count=0;
+      HashMap<Integer,Integer>map=new HashMap<>()
+      for(int i=0;i<arr.length;i++){
+          int rem=target-nums[i];
+      }
     }
 }
