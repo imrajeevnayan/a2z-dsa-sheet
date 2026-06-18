@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Increasing Decreasing String
- * URL: https://leetcode.com/problems/increasing-decreasing-string/description/
+ * URL: https://leetcode.com/problems/increasing-decreasing-string/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T12:12:06.069Z
+ * Synced: 2026-06-17T12:12:52.386Z
  */
 
-class Solution {
-    public String sortString(String s) {
-        
+for (int i = 25; i >= 0; i--) {
+                if (freq[i] > 0) {
+                    ans.append((char) ('a' + i));
+                    freq[i]--;
+                }
+            }
+        }
+
+        return ans.toString();
     }
 }
