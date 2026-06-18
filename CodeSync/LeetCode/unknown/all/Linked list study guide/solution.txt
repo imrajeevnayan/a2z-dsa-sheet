@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Linked list study guide
+ * URL: https://leetcode.com/discuss/post/2725900/linked-list-study-guide-by-sunyingbao-yi2w/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-18T03:35:19.233Z
+ */
+
+dummy = ListNode()
+    dummy.next = head
+	prev = dummy
+	while head:
+		if hashmap[head.val] > 1:
+			prev.next = head.next
+		else:
+			prev = head
+		head = head.next
+	return dummy.next
