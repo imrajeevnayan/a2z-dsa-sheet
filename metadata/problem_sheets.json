@@ -528,5 +528,6 @@
   "leetcode:buddy-strings": [],
   "leetcode:substring-with-concatenation-of-all-words": [],
   "leetcode:increasing-decreasing-string": [],
-  "leetcode:check-if-two-string-arrays-are-equivalent": []
+  "leetcode:check-if-two-string-arrays-are-equivalent": [],
+  "leetcode:check-if-one-string-swap-can-make-strings-equal": []
 }
