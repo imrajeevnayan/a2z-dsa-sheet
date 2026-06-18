@@ -5,21 +5,24 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T11:42:12.574Z
+ * Synced: 2026-06-17T11:44:35.307Z
  */
 
-public boolean isValid(String s) {
-        Stack<Character>st=new Stack<>();
-        for(char c:s.toCharArray()){
-            if(c=='('|| c=='{'|| c=='[') st.push(c);
+if(c=='('|| c=='{'|| c=='[') st.push(c);
             else {
-                if(st.isEmpty())return true;
+                if(st.isEmpty())return false;
                 char top=st.pop();
                 if(c==')' && top !='(' ||
-            }
-
-                )
                    c=='}'  && top !='}' ||
-                   c==']'
+                   c==']'   && top !=']'
+                ) return false;
+        for(char c:s.toCharArray()){
+        Stack<Character>st=new Stack<>();
+    public boolean isValid(String s) {
+            }
+        }
+        return st.isEmpty();
+    }
+}
