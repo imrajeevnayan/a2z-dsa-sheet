@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers
  * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-18T16:50:20.120Z
+ * Synced: 2026-06-18T16:51:07.093Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         
         int i=0;
         for(int j=0;j<nums.length;j++){
-            if(arr[i])
+            if(arr[]!)
         }
     }
 }
