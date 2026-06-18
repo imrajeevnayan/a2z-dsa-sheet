@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/buddy-strings/description/
-- Synced: 2026-06-17T12:10:13.154Z
+- Synced: 2026-06-17T12:11:19.150Z
 
 ## Problem Description
 
