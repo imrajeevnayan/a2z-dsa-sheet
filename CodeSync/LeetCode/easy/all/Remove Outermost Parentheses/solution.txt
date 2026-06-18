@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T11:55:31.165Z
+ * Synced: 2026-06-17T11:56:16.166Z
  */
 
 for (char c : s.toCharArray()) {
@@ -20,5 +20,6 @@ for (char c : s.toCharArray()) {
         
         StringBuilder res = new StringBuilder();
         Stack<Character> st = new Stack<>();
-class Solution {
     public String removeOuterParentheses(String s) {
+                    res.append(c);
+                }
