@@ -529,5 +529,9 @@
   "leetcode:substring-with-concatenation-of-all-words": [],
   "leetcode:increasing-decreasing-string": [],
   "leetcode:check-if-two-string-arrays-are-equivalent": [],
-  "leetcode:check-if-one-string-swap-can-make-strings-equal": []
+  "leetcode:check-if-one-string-swap-can-make-strings-equal": [],
+  "leetcode:longest-palindrome": [
+    "Grind75",
+    "Grind169"
+  ]
 }
