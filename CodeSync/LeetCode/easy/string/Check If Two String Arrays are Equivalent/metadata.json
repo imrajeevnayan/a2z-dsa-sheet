@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T12:14:49.130Z",
+  "submissionTimestamp": "2026-06-17T12:15:34.883Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Check If Two String Arrays are Equivalent",
-  "problemUrl": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/",
-  "submissionId": "6orgtp"
+  "problemUrl": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/",
+  "submissionId": "4edz8c"
 }
