@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Check If Two String Arrays are Equivalent
- * URL: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
+ * URL: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T12:14:49.130Z
+ * Synced: 2026-06-17T12:15:34.883Z
  */
 
+for (String s : word1) {
+            s1.append(s);
+        }
+
+        for (String s : word2) {
+            s2.append(s);
+        }
+        StringBuilder s2 = new StringBuilder();
+
+        StringBuilder s1 = new StringBuilder();
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
-        
-    }
-}
