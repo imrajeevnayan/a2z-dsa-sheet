@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Substring with Concatenation of All Words
+ * URL: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T12:11:14.209Z
+ */
+
+class Solution {
+    public List<Integer> findSubstring(String s, String[] words) {
+        
+    }
+}
