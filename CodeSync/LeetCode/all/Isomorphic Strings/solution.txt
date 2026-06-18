@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Isomorphic Strings
+ * URL: https://leetcode.com/problems/isomorphic-strings/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T11:59:14.182Z
+ */
+
+class Solution {
+    public boolean isIsomorphic(String s, String t) {
+        
+    }
+}
