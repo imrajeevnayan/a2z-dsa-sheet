@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Some Testcases if you are too lazy
+ * URL: https://leetcode.com/problems/longest-palindrome/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T12:18:10.107Z
+ */
+
+class Solution {
+    public int longestPalindrome(String s) {
+        
+    }
+}
