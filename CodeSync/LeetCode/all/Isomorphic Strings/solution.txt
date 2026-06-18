@@ -7,10 +7,11 @@
  * Topics: Hash Table, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T12:00:00.283Z
+ * Synced: 2026-06-17T12:08:08.323Z
  */
 
-public boolean isIsomorphic(String s, String t) {
+class Solution {
+    public boolean isIsomorphic(String s, String t) {
         int[] map1 = new int[256];
         int[] map2 = new int[256];
         for (int i = 0; i < s.length(); i++) {
