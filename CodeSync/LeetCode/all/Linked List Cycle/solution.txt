@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle
- * URL: https://leetcode.com/problems/insertion-sort-list/description/?envType=problem-list-v2&envId=da95pk23
- * Language: Linked List (Copy-9gvhzx23)
+ * URL: https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=9gvhzx23
+ * Language: Linked List
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T08:55:52.597Z
+ * Synced: 2026-06-18T03:49:06.518Z
  */
 
 public class Solution {
