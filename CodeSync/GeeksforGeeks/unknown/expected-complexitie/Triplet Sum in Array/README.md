@@ -1,13 +1,13 @@
 # Triplet Sum in Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public boolean hasTripletSum(int arr[], int target) { Arrays.sort(arr); for(int i=0;i<arr.length-2;i++){ int left = i+1; int right = arr.length-1; while(left<right){ int sum = arr[i]+arr[left]+arr[right]; if(sum == target){ return true; } else if(sum<target){ left++; } else right--; } } return false; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, OYO Rooms, Samsung, CarWale
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-bonus-problems
-- Synced: 2026-06-09T18:26:11.659Z
+- Problem URL: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
+- Synced: 2026-06-18T17:31:39.440Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[] and an integer target, determine if there exists a triplet 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, OYO Rooms, Samsung, CarWale. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public boolean hasTripletSum(int arr[], int target) { Arrays.sort(arr); for(int i=0;i<arr.length-2;i++){ int left = i+1; int right = arr.length-1; while(left<right){ int sum = arr[i]+arr[left]+arr[right]; if(sum == target){ return true; } else if(sum<target){ left++; } else right--; } } return false; } }. The detected topics are Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, OYO Rooms, Samsung, CarWale. Review the synced source file for the implementation details.
