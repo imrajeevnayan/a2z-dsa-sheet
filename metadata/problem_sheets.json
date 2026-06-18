@@ -524,5 +524,6 @@
   "leetcode:generate-parentheses": [],
   "leetcode:score-of-parentheses": [],
   "leetcode:remove-outermost-parentheses": [],
-  "leetcode:isomorphic-strings": []
+  "leetcode:isomorphic-strings": [],
+  "leetcode:buddy-strings": []
 }
