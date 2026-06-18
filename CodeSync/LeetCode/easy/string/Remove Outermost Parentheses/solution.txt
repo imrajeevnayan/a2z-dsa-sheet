@@ -5,20 +5,20 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-17T11:52:48.346Z
+ * Synced: 2026-06-17T11:53:35.832Z
  */
 
-stack.push(c);
-            } else { // c == ')'
-                }
-                    res.append(c);
-                if (!st.isEmpty()) {
-        for (char c : s.toCharArray()) {
+for (char c : s.toCharArray()) {
             if (c == '(') {
+                if (!st.isEmpty()) res.append(c);  
+                st.push(c);
+            } else { // c == ')'
+                st.pop();
+                if (!st.isEmpty()) {
         
+        StringBuilder res = new StringBuilder();
         Stack<Character> st = new Stack<>();
-                stack.pop();
-                if (!stack.isEmpty()) {
-                    result.append(c);
+class Solution {
+    public String removeOuterParentheses(String s) {
