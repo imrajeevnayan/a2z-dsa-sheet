@@ -7,11 +7,17 @@
  * Topics: Hash Table, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T11:59:14.182Z
+ * Synced: 2026-06-17T12:00:00.283Z
  */
 
-class Solution {
-    public boolean isIsomorphic(String s, String t) {
-        
+public boolean isIsomorphic(String s, String t) {
+        int[] map1 = new int[256];
+        int[] map2 = new int[256];
+        for (int i = 0; i < s.length(); i++) {
+         if (map1[s.charAt(i)] != map2[t.charAt(i)]) return false;
+            map1[s.charAt(i)] = i + 1;
+            map2[t.charAt(i)] = i + 1;
+        }
+        return true; 
     }
 }
