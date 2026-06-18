@@ -4,10 +4,10 @@
 - Language: Linked List
 - Difficulty: Easy
 - Topics: Linked List, Recursion
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=9gvhzx23
-- Synced: 2026-06-18T03:58:18.590Z
+- Runtime: 0 ms
+- Memory: 44.53 MB
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032528097/?envType=problem-list-v2&envId=9gvhzx23
+- Synced: 2026-06-18T03:59:05.155Z
 
 ## Problem Description
 
