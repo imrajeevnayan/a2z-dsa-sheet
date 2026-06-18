@@ -7,13 +7,16 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-18T03:49:54.193Z
+ * Synced: 2026-06-18T03:50:40.381Z
  */
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        
-    }
         ListNode slow=head,fast=head;
-        while
+        while(fast!=null && fast.next!=null){
+        
+            slow=slow.next;
+        }
+    }
+            fast
 }
