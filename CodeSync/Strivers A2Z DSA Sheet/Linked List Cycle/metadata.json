@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-16T07:17:48.685Z",
+  "submissionTimestamp": "2026-06-18T03:49:06.518Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/description/",
-  "submissionId": "nbidh8"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=problem-list-v2&envId=9gvhzx23",
+  "submissionId": "n9seiz"
 }
