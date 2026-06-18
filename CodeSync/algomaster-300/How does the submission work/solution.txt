@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-18T17:21:57.069Z
+ * Synced: 2026-06-18T17:22:48.080Z
  */
 
 if (sum == target) {
