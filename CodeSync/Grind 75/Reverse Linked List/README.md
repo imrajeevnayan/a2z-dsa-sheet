@@ -1,13 +1,13 @@
 # Reverse Linked List
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Linked List
 - Difficulty: Easy
 - Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:29:20.868Z
+- Problem URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=9gvhzx23
+- Synced: 2026-06-18T04:06:43.776Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
