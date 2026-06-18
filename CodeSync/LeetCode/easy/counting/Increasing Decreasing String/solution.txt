@@ -1,16 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Increasing Decreasing String
- * URL: https://leetcode.com/problems/increasing-decreasing-string/
+ * URL: https://leetcode.com/problems/increasing-decreasing-string/submissions/2036345569/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-17T12:12:52.386Z
+ * Runtime: 0 ms
+ * Memory: 45.01 MB
+ * Synced: 2026-06-17T12:14:03.153Z
  */
 
-for (int i = 25; i >= 0; i--) {
+// decreasing pass
+            for (int i = 25; i >= 0; i--) {
                 if (freq[i] > 0) {
                     ans.append((char) ('a' + i));
                     freq[i]--;
