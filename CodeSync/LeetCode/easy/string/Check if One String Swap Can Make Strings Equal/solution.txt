@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Check if One String Swap Can Make Strings Equal
+ * URL: https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-17T12:17:41.908Z
+ */
+
+class Solution {
+    public boolean areAlmostEqual(String s1, String s2) {
+        
+    }
+}
