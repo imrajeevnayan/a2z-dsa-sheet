@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-18T16:41:12.505Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles",
+    "Move Ve Elements End Order Extra Space Allowed"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "✅ 1. In-place (O(n²)) — Shifting Approach (Simpler)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1",
+  "submissionId": "dtbi13"
+}
