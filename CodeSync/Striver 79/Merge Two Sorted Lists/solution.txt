@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-18T04:03:54.164Z
+ * Synced: 2026-06-18T04:04:42.160Z
  */
 
 list2 = list2.next;
