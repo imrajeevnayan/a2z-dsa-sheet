@@ -525,5 +525,6 @@
   "leetcode:score-of-parentheses": [],
   "leetcode:remove-outermost-parentheses": [],
   "leetcode:isomorphic-strings": [],
-  "leetcode:buddy-strings": []
+  "leetcode:buddy-strings": [],
+  "leetcode:substring-with-concatenation-of-all-words": []
 }
