@@ -527,5 +527,6 @@
   "leetcode:isomorphic-strings": [],
   "leetcode:buddy-strings": [],
   "leetcode:substring-with-concatenation-of-all-words": [],
-  "leetcode:increasing-decreasing-string": []
+  "leetcode:increasing-decreasing-string": [],
+  "leetcode:check-if-two-string-arrays-are-equivalent": []
 }
