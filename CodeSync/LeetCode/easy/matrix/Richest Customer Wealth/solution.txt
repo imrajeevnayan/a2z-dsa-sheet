@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Matrix
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-16T18:52:07.197Z
+ * Memory: 44.85 MB
+ * Synced: 2026-06-16T18:53:04.263Z
  */
 
 class Solution {
