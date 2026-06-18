@@ -537,5 +537,11 @@
   ],
   "leetcode:linked-list-study-guide": [],
   "leetcode:sliding-window-technique-and-question-bank": [],
-  "leetcode:intersection-of-two-linked-lists": []
+  "leetcode:intersection-of-two-linked-lists": [],
+  "leetcode:move-zeroes": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
