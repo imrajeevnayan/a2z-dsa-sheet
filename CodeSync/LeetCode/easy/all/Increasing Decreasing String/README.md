@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/
-- Synced: 2026-06-17T12:12:52.386Z
+- Runtime: 0 ms
+- Memory: 45.01 MB
+- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/submissions/2036345569/
+- Synced: 2026-06-17T12:14:03.153Z
 
 ## Problem Description
 
