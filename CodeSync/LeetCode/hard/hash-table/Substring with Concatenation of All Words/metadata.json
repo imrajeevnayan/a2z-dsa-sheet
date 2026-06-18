@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-17T12:11:14.209Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Substring with Concatenation of All Words",
+  "problemUrl": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/",
+  "submissionId": "699j13"
+}
