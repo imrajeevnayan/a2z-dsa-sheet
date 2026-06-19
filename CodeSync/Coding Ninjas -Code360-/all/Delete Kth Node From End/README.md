@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (17)
-- Difficulty: Unknown
+- Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 13014 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
-- Synced: 2026-06-19T06:35:29.714Z
+- Synced: 2026-06-19T06:57:00.016Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Problem statement Send feedback
 
 ## Explanation
 
