@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-18T16:32:15.925Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-18T16:34:37.157Z",
+  "runtime": "2 ms",
+  "memoryUsage": "44.73 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Generate Parentheses",
-  "problemUrl": "https://leetcode.com/problems/generate-parentheses/submissions/",
-  "submissionId": "lv1ahb"
+  "problemUrl": "https://leetcode.com/problems/generate-parentheses/submissions/2037799662/",
+  "submissionId": "xtucvv"
 }
