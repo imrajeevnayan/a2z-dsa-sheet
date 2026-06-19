@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-19T03:35:22.599Z",
-  "runtime": "2689 ms",
-  "memoryUsage": "55.70 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-06-19T03:38:02.172Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/submissions/2037885580/",
+  "problemUrl": "https://leetcode.com/problems/3sum/",
   "submissionId": "ipxuhn"
 }
