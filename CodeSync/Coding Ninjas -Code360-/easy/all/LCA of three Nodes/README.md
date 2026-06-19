@@ -7,7 +7,7 @@
 - Runtime: 7736 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
-- Synced: 2026-06-19T08:02:19.849Z
+- Synced: 2026-06-19T08:03:05.525Z
 
 ## Problem Description
 
