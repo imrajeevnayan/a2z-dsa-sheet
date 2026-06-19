@@ -3,11 +3,11 @@
  * Problem: Longest Subarray Zero Sum
  * URL: https://www.naukri.com/code360/problems/longest-subarray-zero-sum_757507
  * Language: Java (17)
- * Difficulty: Unknown
+ * Difficulty: Medium
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T05:34:52.153Z
+ * Synced: 2026-06-19T06:21:43.349Z
  */
 
 import java.util.*;
