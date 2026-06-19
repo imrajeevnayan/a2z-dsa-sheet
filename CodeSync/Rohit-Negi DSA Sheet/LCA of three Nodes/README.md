@@ -7,7 +7,7 @@
 - Runtime: 12175 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
-- Synced: 2026-06-19T06:30:19.390Z
+- Synced: 2026-06-19T06:32:42.845Z
 
 ## Problem Description
 
