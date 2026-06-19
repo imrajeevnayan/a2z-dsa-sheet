@@ -5,26 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-19T03:38:49.296Z
+ * Synced: 2026-06-19T03:39:35.400Z
  */
 
 if (set.contains(third)) {
-
                 int third = -(nums[i] + nums[j]);
-
             for (int j = i + 1; j < nums.length; j++) {
             Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length - 2; i++) {
         Arrays.sort(nums);
         Set<List<Integer>> result = new HashSet<>();
     public List<List<Integer>> threeSum(int[] nums) {
+                    result.add(Arrays.asList(nums[i],third,nums[j]));
+                }
+                set.add(nums[j]);
+            }
+        }
+        return new ArrayList<>(result);
+    }
+}
 class Solution {
-                    result.add(
-                        Arrays.asList(
-                            nums[i],
-                            third,
-                            nums[j]
-                        )
-                    );
