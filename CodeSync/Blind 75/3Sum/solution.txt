@@ -7,13 +7,10 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2304 ms
  * Memory: 61.30 MB
- * Synced: 2026-06-19T04:28:44.155Z
+ * Synced: 2026-06-19T04:29:30.619Z
  */
 
-class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>> res = new HashSet<>();
-        Arrays.sort(nums);
+Arrays.sort(nums);
         for (int i = 0; i < nums.length - 2; i++) {
             Set<Integer> set = new HashSet<>();
             for (int j = i + 1; j < nums.length; j++) {
@@ -27,3 +24,6 @@ class Solution {
         return new ArrayList<>(res);
     }
 }
+        Set<List<Integer>> res = new HashSet<>();
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
