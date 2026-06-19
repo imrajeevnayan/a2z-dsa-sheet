@@ -1,0 +1,23 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sum of Even Numbers till N
+ * URL: https://www.naukri.com/code360/problems/sum-of-even-numbers-till-n_624930
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T06:25:25.141Z
+ */
+
+import java.util.*;
+ 
+    public static void main(String[] args) {
+        int sum=0;
+        for(int i=0;i<N;i=i+2)sum+=i;
+    }
+    
+ 
+public class Solution {
+        System.out.println(sum);
+}
