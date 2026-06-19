@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sum of even & odd
+ * URL: https://www.naukri.com/code360/problems/sum-of-even-odd_1115708
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T05:28:25.644Z
+ */
+
+class Solution {
+    public static void main(String args[]) {
+        int evensum=0,oddsum=0;
+        
+    }
+        for(int i=0;i<)
+}
