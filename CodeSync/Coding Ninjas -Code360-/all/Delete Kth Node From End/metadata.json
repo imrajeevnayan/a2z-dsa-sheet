@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-06-19T06:35:29.714Z",
-  "runtime": "13014 ms",
+  "submissionTimestamp": "2026-06-19T06:57:00.016Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
     "Uncategorized"
   ],
@@ -10,5 +10,5 @@
   "language": "Java (17)",
   "problemTitle": "Delete Kth Node From End",
   "problemUrl": "https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912",
-  "submissionId": "xaj3tv"
+  "submissionId": "7rrwmb"
 }
