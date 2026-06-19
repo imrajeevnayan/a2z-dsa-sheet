@@ -7,7 +7,7 @@
 - Runtime: 722 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/pair-sum_1171154
-- Synced: 2026-06-19T04:20:59.253Z
+- Synced: 2026-06-19T04:28:22.824Z
 
 ## Problem Description
 
