@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 12175 ms
+- Runtime: 13014 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
-- Synced: 2026-06-19T06:32:42.845Z
+- Problem URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
+- Synced: 2026-06-19T06:40:12.249Z
 
 ## Problem Description
 
