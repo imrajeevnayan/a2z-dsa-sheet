@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Palindrome Partitioning
+ * URL: https://www.naukri.com/code360/problems/palindrome-partitioning_799931
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T06:28:19.664Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static List<List<String>> partition(String s) {
+        // Write your code here.
+    }
+}
