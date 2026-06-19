@@ -1,22 +1,22 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1
- * Language: class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))
+ * URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False
  * Difficulty: Unknown
- * Topics: Topic Tags, pattern-printing
+ * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:24:31.356Z
+ * Synced: 2026-06-19T08:52:52.442Z
  */
 
 class Solution {
-    void printTriangle(int n) {
-        for (int i = n; i >= 1; i--) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
+    public boolean searchKey(Node head, int key) {
+        Node curr=head;
+        while(curr!=null){
+            if(key==curr.data)return true;
+            curr=curr.next;
         }
+        return false;
     }
 }
