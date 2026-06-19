@@ -1,32 +1,22 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
- * Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
+ * URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
+ * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:43:30.299Z
+ * Synced: 2026-06-19T08:52:52.442Z
  */
 
 class Solution {
-    public int gcd(int n, int arr[]) {
-        int result = arr[0];
-
-        for (int i = 1; i < n; i++) {
-            result = findGCD(result, arr[i]);
+    public boolean searchKey(Node head, int key) {
+        Node curr=head;
+        while(curr!=null){
+            if(key==curr.data)return true;
+            curr=curr.next;
         }
-
-        return result;
-    }
-
-    private int findGCD(int a, int b) {
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
-        }
-        return a;
+        return false;
     }
 }
