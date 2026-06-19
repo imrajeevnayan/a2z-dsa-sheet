@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-19T08:29:11.231Z",
-  "runtime": "11443 ms",
+  "submissionTimestamp": "2026-06-19T08:43:56.906Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "Linked List Cycle II",
   "problemUrl": "https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628",
-  "submissionId": "nn7m9n"
+  "submissionId": "2uehy1"
 }
