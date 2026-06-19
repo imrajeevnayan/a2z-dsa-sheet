@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
+- Language: class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
+- Topics: Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
-- Synced: 2026-06-03T16:43:21.077Z
+- Problem URL: https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1
+- Synced: 2026-06-19T08:53:48.137Z
 
 ## Problem Description
 
-Given an array of n positive integers, find the GCD of all the array elements. Example : Input: n = 3, arr = [1, 2, 3] Output: 1 Explanation: GCD of 1,2,3 is 1. Input: n = 4, arr = [2, 4, 6, 8] Output: 2 Explanation: Greatest common divisor of all the numbers is 2. Constraints: 1 ≤ N, arr[i] ≤ 105
+You are given the head of a Singly Linked List and a value x, insert that value x at the end of the LinkedList and return the head of the modified Linked List. Examples : Input: x = 6, Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6 Explanation: We can see that 6 is inserted at the end of the linkedlist. Input: x = 1, Output: 4 -> 5 -> 1 Explanation: We can see that 1 is inserted at the end of the linked list. Constraints: 0 ≤ number of nodes ≤ 105 0 ≤ node->data , x ≤ 103
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr). The detected topics are Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head. The detected topics are Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List. Review the synced source file for the implementation details.
