@@ -7,16 +7,14 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T06:57:00.016Z
+ * Synced: 2026-06-19T06:58:51.441Z
  */
 
 public class Solution {
     public static Node removeKthNode(Node head, int K) {
         Node fast = head,slow = head;
-        for (int i = 0; i < K; i++)fast =fast.next;
-        // Remove head node
+       for (int i = 0; i < K; i++)fast =fast.next;
        if (fast == null) return head.next;
-        
         while (fast.next != null) {
             slow = slow.next;
             fast = fast.next;
