@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-19T03:39:35.400Z",
-  "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-19T03:40:21.448Z",
+  "runtime": "2354 ms",
+  "memoryUsage": "57.11 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "3Sum",
   "problemUrl": "https://leetcode.com/problems/3sum/",
-  "submissionId": "zh8fir"
+  "submissionId": "vl5d50"
 }
