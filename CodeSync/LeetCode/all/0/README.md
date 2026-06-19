@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
-- Synced: 2026-06-18T16:37:36.362Z
+- Synced: 2026-06-19T03:36:21.180Z
 
 ## Problem Description
 
