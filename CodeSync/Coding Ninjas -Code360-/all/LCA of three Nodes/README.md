@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 13014 ms
+- Runtime: 7736 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
-- Synced: 2026-06-19T06:40:12.249Z
+- Problem URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+- Synced: 2026-06-19T07:08:00.156Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
