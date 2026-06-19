@@ -1,27 +1,32 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/sum-of-max-and-min_1081476
+ * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
- * Runtime: 2109 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:43:03.475Z
+ * Synced: 2026-06-19T08:25:49.244Z
  */
 
-import java.util.* ;
-import java.io.*; 
 public class Solution {
-    public static int sumOfMaxMin(int[] arr, int n) {
-        int max = arr[0];
-        int min = arr[0];
+    public static Node rotate(Node head, int k) {
+       if (head == null || head.next == null || k == 0) return head;
+        Node fast = head,slow = head;
         
-        for (int i = 1; i < n; i++) {
-            if (arr[i] > max)  max = arr[i];
-            if (arr[i] < min) min = arr[i];
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+            if (fast == null) fast = head; 
         }
-        
-        return max + min;
+       if (fast == head) return head;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+       Node newHead = slow.next;
+        slow.next = null;
+        fast.next = head;       
+        return newHead;
     }
 }
