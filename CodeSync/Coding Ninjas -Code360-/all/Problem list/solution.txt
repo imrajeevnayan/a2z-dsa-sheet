@@ -1,41 +1,32 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/find-subarray_2656181
- * Language: Java (SE 1.8)
+ * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+ * Language: All languages
  * Difficulty: Hard
- * Topics: Easy Clear all
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T19:01:02.855Z
+ * Synced: 2026-06-19T08:25:49.244Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
-    public static int[] findSubarray(int[] arr) {
-        Map<Integer, Integer> prefixMap = new HashMap<>();
-        prefixMap.put(0, -1); // Handle subarrays starting from index 0
+    public static Node rotate(Node head, int k) {
+       if (head == null || head.next == null || k == 0) return head;
+        Node fast = head,slow = head;
         
-        int maxLen = 0;
-        int startIdx = -1;
-        int prefixSum = 0;
-        
-        for (int i = 0; i < arr.length; i++) {
-            prefixSum += arr[i];
-            
-            if (prefixMap.containsKey(prefixSum)) {
-                int len = i - prefixMap.get(prefixSum);
-                if (len > maxLen) {
-                    maxLen = len;
-                    startIdx = prefixMap.get(prefixSum) + 1;
-                }
-            } else {
-                prefixMap.put(prefixSum, i);
-            }
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+            if (fast == null) fast = head; 
         }
-        
-        return new int[]{startIdx, startIdx + maxLen - 1};
+       if (fast == head) return head;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+       Node newHead = slow.next;
+        slow.next = null;
+        fast.next = head;       
+        return newHead;
     }
 }
