@@ -1,21 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-19T04:36:32.041Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-19T04:37:25.160Z",
+  "runtime": "2304 ms",
+  "memoryUsage": "61.30 MB",
   "difficulty": "Medium",
   "tags": [
-    "Medium Topics Company Tags Hints",
-    "Topics",
-    "Company Tags",
-    "Hints",
-    "Array Two Pointers Sorting",
     "Array",
     "Two Pointers",
     "Sorting"
   ],
-  "platform": "NeetCode",
-  "language": "nums",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://neetcode.io/problems/three-integer-sum/question",
-  "submissionId": "b14lod"
+  "problemUrl": "https://leetcode.com/problems/3sum/submissions/2038174914/",
+  "submissionId": "ghl44o"
 }
