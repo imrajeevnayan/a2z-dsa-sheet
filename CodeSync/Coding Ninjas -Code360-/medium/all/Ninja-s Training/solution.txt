@@ -1,26 +1,28 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/first-repeated-character_1214646
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/maximum-sum-of-non-adjacent-elements_843261
+ * Language: Java (17)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 917 ms
+ * Runtime: 6357 ms
  * Memory: N/A
- * Synced: 2026-06-13T17:38:43.111Z
+ * Synced: 2026-06-19T05:32:18.879Z
  */
 
 import java.util.*;
- 
 public class Solution {
-    public static char repeatedCharacter(String str) {
-        if (str == null || str.length() == 0) return '%';
-        int[] freq = new int[26];
-        for (char c : str.toCharArray())freq[c - 'a']++;
-        
-        for (char c : str.toCharArray()) {
-            if (freq[c - 'a'] > 1)return c;
-        } 
-        return '%';
+    public static int maximumNonAdjacentSum(ArrayList<Integer> nums) {
+        int n = nums.size();
+        if (n == 1) return nums.get(0);
+        int[] dp = new int[n];
+        dp[0] = nums.get(0);
+        for (int i = 1; i < n; i++) {
+            int pick = nums.get(i);
+            if (i > 1) pick += dp[i - 2];
+            int notPick = dp[i - 1];
+            dp[i] = Math.max(pick, notPick);
+        }
+        return dp[n - 1];
     }
 }
