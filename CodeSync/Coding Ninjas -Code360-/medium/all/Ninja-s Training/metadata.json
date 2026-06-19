@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-13T17:38:43.111Z",
-  "runtime": "917 ms",
+  "submissionTimestamp": "2026-06-19T05:32:18.879Z",
+  "runtime": "6357 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/first-repeated-character_1214646",
-  "submissionId": "38b794"
+  "problemUrl": "https://www.naukri.com/code360/problems/maximum-sum-of-non-adjacent-elements_843261",
+  "submissionId": "4iocjp"
 }
