@@ -1,15 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-08T12:24:19.347Z",
+  "submissionTimestamp": "2026-06-19T08:52:52.442Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Expected Complexities",
     "Topic Tags",
-    "pattern-printing"
+    "Linked List",
+    "Data Structures",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1",
-  "submissionId": "fvtb82"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
+  "submissionId": "6eowct"
 }
