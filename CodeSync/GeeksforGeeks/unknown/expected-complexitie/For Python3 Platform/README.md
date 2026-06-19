@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
+- Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
+- Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
-- Synced: 2026-06-03T16:43:30.299Z
+- Problem URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+- Synced: 2026-06-19T08:52:52.442Z
 
 ## Problem Description
 
-Given an array of n positive integers, find the GCD of all the array elements. Example : Input: n = 3, arr = [1, 2, 3] Output: 1 Explanation: GCD of 1,2,3 is 1. Input: n = 4, arr = [2, 4, 6, 8] Output: 2 Explanation: Greatest common divisor of all the numbers is 2. Constraints: 1 ≤ N, arr[i] ≤ 105
+Given a linked list with the head node and a key, the task is to check if the key is present in the linked list or not. Return true if key is present, else return false. Example: Input: key = 3, Output: true Explanation: 3 is present in Linked List. Input: key = 4, Output: false Explanation: 4 is not present in Linked List. Constraint: 1 ≤ Number of nodes ≤ 105 1 ≤ node.data, key ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr). The detected topics are Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False. The detected topics are Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles. Review the synced source file for the implementation details.
