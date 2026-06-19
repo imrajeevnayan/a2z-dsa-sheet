@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-list/description/
-- Synced: 2026-06-19T07:10:18.484Z
+- Problem URL: https://leetcode.com/problems/rotate-list/
+- Synced: 2026-06-19T07:11:51.271Z
 
 ## Problem Description
 
