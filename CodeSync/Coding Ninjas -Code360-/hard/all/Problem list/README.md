@@ -1,13 +1,13 @@
 # Problem list
 
 - Platform: Coding Ninjas (Code360)
-- Language: Java (SE 1.8)
+- Language: All languages
 - Difficulty: Hard
-- Topics: Easy Clear all
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/find-subarray_2656181
-- Synced: 2026-06-07T19:01:02.855Z
+- Problem URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+- Synced: 2026-06-19T08:25:49.244Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Total problems solved
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). The detected topics are Easy Clear all. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
