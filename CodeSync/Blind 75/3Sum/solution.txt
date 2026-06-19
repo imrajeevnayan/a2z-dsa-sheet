@@ -1,18 +1,29 @@
 /*
- * Platform: NeetCode
+ * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://neetcode.io/problems/three-integer-sum/question
- * Language: nums
+ * URL: https://leetcode.com/problems/3sum/submissions/2038174914/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Array Two Pointers Sorting, Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-19T04:36:32.041Z
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: 2304 ms
+ * Memory: 61.30 MB
+ * Synced: 2026-06-19T04:37:25.160Z
  */
 
+Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 2; i++) {
+            Set<Integer> set = new HashSet<>();
+            for (int j = i + 1; j < nums.length; j++) {
+                int third = -(nums[i] + nums[j]);
+                if (set.contains(third)) {
+                    res.add(Arrays.asList(nums[i], third, nums[j]));
+                }
+                set.add(nums[j]);
+            }
+        }
+        return new ArrayList<>(res);
+    }
+}
+        Set<List<Integer>> res = new HashSet<>();
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>>res=new HashSet<>();
-        Arrays.sort(nums);
-        for(int i=0;i<nums.length-2;i++){
-            Set<Integer>set=new HashSet<>();
