@@ -1,19 +1,22 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1
- * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def deleteHead(self, head): temp = head head = head.next temp.next = None return head
+ * URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles, Remove First Node Of The Linked List
+ * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:40:45.816Z
+ * Synced: 2026-06-19T08:52:52.442Z
  */
 
 class Solution {
-    public Node deleteHead(Node head) {
-        if (head == null) return null;
-        head = head.next;
-        return head;
+    public boolean searchKey(Node head, int key) {
+        Node curr=head;
+        while(curr!=null){
+            if(key==curr.data)return true;
+            curr=curr.next;
+        }
+        return false;
     }
 }
