@@ -606,5 +606,13 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "coding ninjas (code360):rotate-linked-list_920454": []
+  "coding ninjas (code360):rotate-linked-list_920454": [],
+  "leetcode:rotate-list": [
+    "custom:algomaster-300",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet"
+  ]
 }
