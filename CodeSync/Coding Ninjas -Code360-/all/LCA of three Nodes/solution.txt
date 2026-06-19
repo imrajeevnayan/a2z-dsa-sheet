@@ -1,32 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 7736 ms
+ * Runtime: 11443 ms
  * Memory: N/A
- * Synced: 2026-06-19T08:03:52.209Z
+ * Synced: 2026-06-19T08:30:04.553Z
  */
 
 public class Solution {
-    public static Node rotate(Node head, int k) {
-       if (head == null || head.next == null || k == 0) return head;
-        Node fast = head,slow = head;
-        
-        for (int i = 0; i < k; i++) {
-            fast = fast.next;
-            if (fast == null) fast = head; 
-        }
-       if (fast == head) return head;
-        while (fast.next != null) {
+    public static Node firstNode(Node head) {
+        if (head == null || head.next == null) return null;
+        Node slow = head,fast = head;
+ 
+        // Detect Cycle
+        while (fast != null && fast.next != null) {
             slow = slow.next;
-            fast = fast.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                Node ptr1 = head;
+                Node ptr2 = slow;
+                while (ptr1 != ptr2) {
+                    ptr1 = ptr1.next;
+                    ptr2 = ptr2.next;
+                }
+                return ptr1;
+            }
         }
-       LNode newHead = slow.next;
-        slow.next = null;
-        fast.next = head;       
-        return newHead;
+        return null;
     }
+ 
 }
