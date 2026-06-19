@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))
+- Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False
 - Difficulty: Unknown
-- Topics: Topic Tags, pattern-printing
+- Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1
-- Synced: 2026-06-08T12:24:31.356Z
+- Problem URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+- Synced: 2026-06-19T08:52:52.442Z
 
 ## Problem Description
 
-Geek is very fond of patterns. Once, his teacher gave him a pattern to solve. He gave Geek an integer n and asked him to build a pattern. Help Geek to build a pattern. Example 1: Input: 5 Output: 1 2 3 4 5 1 2 3 4 1 2 3 1 2 1 Your Task: You don't need to input anything. Complete the function printTriangle() which takes an integer n as the input parameter and print the pattern. Constraints: 1<= N <= 20
+Given a linked list with the head node and a key, the task is to check if the key is present in the linked list or not. Return true if key is present, else return false. Example: Input: key = 3, Output: true Explanation: 3 is present in Linked List. Input: key = 4, Output: false Explanation: 4 is not present in Linked List. Constraint: 1 ≤ Number of nodes ≤ 105 1 ≤ node.data, key ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1)). The detected topics are Topic Tags, pattern-printing. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False. The detected topics are Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles. Review the synced source file for the implementation details.
