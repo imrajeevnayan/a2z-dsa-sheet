@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (17)
-- Difficulty: Unknown
+- Difficulty: Medium
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/longest-subarray-zero-sum_757507
-- Synced: 2026-06-19T05:34:52.153Z
+- Synced: 2026-06-19T06:21:43.349Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Problem statement Send feedback
 
 ## Explanation
 
