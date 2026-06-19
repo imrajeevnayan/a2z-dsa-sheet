@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 11443 ms
  * Memory: N/A
- * Synced: 2026-06-19T08:30:04.553Z
+ * Synced: 2026-06-19T08:30:49.839Z
  */
 
 public class Solution {
@@ -20,16 +20,14 @@ public class Solution {
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) {
-                Node ptr1 = head;
-                Node ptr2 = slow;
-                while (ptr1 != ptr2) {
-                    ptr1 = ptr1.next;
-                    ptr2 = ptr2.next;
+                Node A = head,B= slow;
+                while (A != B) {
+                   A = A.next;
+                   B = B.next;
                 }
-                return ptr1;
+                return ;
             }
         }
         return null;
     }
- 
 }
