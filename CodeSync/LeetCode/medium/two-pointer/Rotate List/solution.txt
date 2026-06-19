@@ -5,12 +5,18 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:25:55.997Z
+ * Synced: 2026-06-19T07:10:18.484Z
  */
 
-fast = fast.next;
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || head.next == null || k == 0) return head;
+        ListNode fast = head,slow = head;
+        
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
             if (fast == null) fast = head; 
         }
        if (fast == head) return head;
@@ -19,14 +25,6 @@ fast = fast.next;
             fast = fast.next;
         }
        ListNode newHead = slow.next;
-        
-        for (int i = 0; i < k; i++) {
-        ListNode fast = head,slow = head;
-    public ListNode rotateRight(ListNode head, int k) {
-        if (head == null || head.next == null || k == 0) return head;
-class Solution {
         slow.next = null;
         fast.next = head;       
         return newHead;
-    }
-}
