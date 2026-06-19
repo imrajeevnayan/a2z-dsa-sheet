@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Delete Node In A Linked List
+ * URL: https://www.naukri.com/code360/problems/delete-node-in-a-linked-list_1105578
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 2632 ms
+ * Memory: N/A
+ * Synced: 2026-06-19T07:00:49.292Z
+ */
+
+import java.io.*;
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static void deleteNode(LinkedListNode<Integer> node) {
+        node.data = node.next.data;
+        node.next = node.next.next;
+    }
+}
