@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Delete Kth Node From End
+ * URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T06:57:00.016Z
+ */
+
+public class Solution {
+    public static Node removeKthNode(Node head, int K) {
+        Node fast = head,slow = head;
+        for (int i = 0; i < K; i++)fast =fast.next;
+        // Remove head node
+       if (fast == null) return head.next;
+        
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        slow.next = slow.next.next;
+        return head;
+    }
+}
