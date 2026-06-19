@@ -1,29 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://leetcode.com/problems/3sum/
+ * URL: https://leetcode.com/problems/3sum/submissions/2038174051/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: 2354 ms
- * Memory: 57.11 MB
- * Synced: 2026-06-19T03:41:07.166Z
+ * Runtime: 1 ms
+ * Memory: N/A
+ * Synced: 2026-06-19T03:41:52.515Z
  */
 
 if (set.contains(third)) {
-                int third = -(nums[i] + nums[j]);
-            for (int j = i + 1; j < nums.length; j++) {
-            Set<Integer> set = new HashSet<>();
+             int third = -(nums[i] + nums[j]);
+           for (int j = i + 1; j < nums.length; j++) {
+          Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length - 2; i++) {
         Arrays.sort(nums);
-        Set<List<Integer>> result = new HashSet<>();
+        Set<List<Integer>> res = new HashSet<>();
     public List<List<Integer>> threeSum(int[] nums) {
                 }
                 set.add(nums[j]);
             }
         }
-     return new ArrayList<>(result);
+     return new ArrayList<>(res);
     }
 class Solution {
-                    result.add(Arrays.asList(nums[i],third,nums[j]));
+                    res.add(Arrays.asList(nums[i],third,nums[j]));
 }
