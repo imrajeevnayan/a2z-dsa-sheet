@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/profile/neoNitya
-- Synced: 2026-06-19T03:56:23.811Z
+- Synced: 2026-06-19T03:57:24.162Z
 
 ## Problem Description
 
