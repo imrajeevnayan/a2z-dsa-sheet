@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T03:36:21.180Z
+ * Synced: 2026-06-19T04:49:50.546Z
  */
 
 public int lengthOfLongestSubstring(String s) {
