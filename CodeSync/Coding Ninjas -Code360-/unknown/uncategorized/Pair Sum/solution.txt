@@ -1,0 +1,25 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Pair Sum
+ * URL: https://www.naukri.com/code360/problems/pair-sum_1171154
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 722 ms
+ * Memory: N/A
+ * Synced: 2026-06-19T04:20:59.253Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static int pairSum(int arr[], int n, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            int rem = target - arr[i];
+            if (map.containsKey(rem))count += map.get(rem);
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        }
+        return count == 0 ? -1 : count;
+    }
+}
