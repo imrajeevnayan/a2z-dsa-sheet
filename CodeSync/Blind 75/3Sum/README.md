@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/3sum/
-- Synced: 2026-06-18T17:36:59.080Z
+- Synced: 2026-06-18T17:37:45.086Z
 
 ## Problem Description
 
