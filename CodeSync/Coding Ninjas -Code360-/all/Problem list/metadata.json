@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T19:01:02.855Z",
+  "submissionTimestamp": "2026-06-19T08:25:49.244Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Easy Clear all"
+    "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-subarray_2656181",
-  "submissionId": "uamm9i"
+  "problemUrl": "https://www.naukri.com/code360/problems/rotate-linked-list_920454",
+  "submissionId": "injz7d"
 }
