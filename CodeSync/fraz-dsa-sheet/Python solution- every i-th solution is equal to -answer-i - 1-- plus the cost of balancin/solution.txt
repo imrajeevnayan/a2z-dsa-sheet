@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python solution, every i-th solution is equal to `answer[i - 1]` plus the cost of balancing element `arr[i]` to the new median `arr[i - 1]` (for even length arrays either middle element works):
+ * URL: https://www.geeksforgeeks.org/problems/optimal-array--170647/1
+ * Language: def optimalArray(self, arr): n = len(arr) ans = [0] * n for i in range(1, n): ans[i] = ans[i - 1] + arr[i] - arr[i // 2] return ans
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Data Structures, Algorithms, Related Articles, Optimal Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T03:51:05.267Z
+ */
+
+class Solution {
+    public ArrayList<Integer> optimalArray(int[] arr) {
+        int n = arr.length;
+        ArrayList<Integer> ans = new ArrayList<>();
+        ans.add(0);
+        long curr = 0;
+        for (int i = 1; i < n; i++) {
+            curr += arr[i] - arr[i / 2];
+            ans.add((int) curr);
+        }
+        return ans;
+    }
+}
