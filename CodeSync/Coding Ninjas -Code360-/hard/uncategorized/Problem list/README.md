@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: 2109 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/sum-of-max-and-min_1081476
-- Synced: 2026-06-03T11:43:03.475Z
+- Problem URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+- Synced: 2026-06-19T08:25:49.244Z
 
 ## Problem Description
 
