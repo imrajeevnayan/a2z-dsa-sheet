@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
-- Synced: 2026-06-19T06:57:00.016Z
+- Synced: 2026-06-19T06:58:51.441Z
 
 ## Problem Description
 
