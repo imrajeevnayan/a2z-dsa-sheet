@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2304 ms
  * Memory: 61.30 MB
- * Synced: 2026-06-19T04:44:34.163Z
+ * Synced: 2026-06-19T04:45:21.157Z
  */
 
 Arrays.sort(nums);
