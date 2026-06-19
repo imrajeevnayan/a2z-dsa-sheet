@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-19T04:46:16.112Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-19T05:17:21.918Z",
+  "runtime": "748 ms",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "Number Of Pairs With Given Sum",
   "problemUrl": "https://www.naukri.com/code360/problems/number-of-pairs-with-given-sum_630509",
-  "submissionId": "zhlyxa"
+  "submissionId": "pm44j1"
 }
