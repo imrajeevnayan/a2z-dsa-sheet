@@ -7,35 +7,26 @@
  * Topics: Uncategorized
  * Runtime: 7736 ms
  * Memory: N/A
- * Synced: 2026-06-19T08:02:19.849Z
+ * Synced: 2026-06-19T08:03:05.525Z
  */
 
 public class Solution {
- 
     public static Node rotate(Node head, int k) {
- 
-        if (head == null || head.next == null || k == 0)
-            return head;
- 
-        // Find length and tail
-        Node tail = head;
-        int len = 1;
- 
-        while (tail.next != null) {
-            tail = tail.next;
-            len++;
+       if (head == null || head.next == null || k == 0) return head;
+        ListNode fast = head,slow = head;
+        
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+            if (fast == null) fast = head; 
         }
- 
-        k = k % len;
- 
-        if (k == 0) return head;
- 
-        // Make circular
-        tail.next = head;
- 
-        int steps = len - k;
- 
-        Node newTail = head;
- 
-        for (int i = 1; i < steps; i++) {
-            newTail = newTail.next;
+       if (fast == head) return head;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+       ListNode newHead = slow.next;
+        slow.next = null;
+        fast.next = head;       
+        return newHead;
+    }
+}
