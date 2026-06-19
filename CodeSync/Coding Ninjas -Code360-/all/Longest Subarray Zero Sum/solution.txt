@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Longest Subarray Zero Sum
+ * URL: https://www.naukri.com/code360/problems/longest-subarray-zero-sum_757507
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T05:34:52.153Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static int lengthOfLongestSubarray(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int sum = 0,maxLen = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+            if (sum == 0) maxLen = i + 1;
+            if (map.containsKey(sum)) {
+                maxLen = Math.max(maxLen,i - map.get(sum));
+            } else map.put(sum, i);    
+        }
+        return maxLen;
+    }
+}
