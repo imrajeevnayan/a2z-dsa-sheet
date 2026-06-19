@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Two Sorted Lists
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=problem-list-v2&envId=9gvhzx23
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=9gvhzx23
  * Language: Linked List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-18T04:21:46.157Z
+ * Synced: 2026-06-18T04:22:34.098Z
  */
 
 list2 = list2.next;
@@ -19,9 +19,7 @@ list2 = list2.next;
             if (list1.val <= list2.val) {
         ListNode current = temp;
         
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode temp = new ListNode(0);
-class Solution {
             }
             current = current.next;
         }
@@ -29,3 +27,5 @@ class Solution {
          return temp.next;
     }
 }
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+class Solution {
