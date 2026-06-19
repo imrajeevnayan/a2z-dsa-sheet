@@ -1,0 +1,17 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Maximum Consecutive Ones
+ * URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
+ * Language: Javascript (node v10.20.0)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T06:27:33.515Z
+ */
+
+function longestSubSeg(arr, n, k) {
+    // Write your code here.
+}
+ 
+module.exports.longestSubSeg = longestSubSeg;
