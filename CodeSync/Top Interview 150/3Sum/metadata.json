@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-18T17:39:18.756Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-19T03:39:35.400Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "3Sum",
   "problemUrl": "https://leetcode.com/problems/3sum/",
-  "submissionId": "m1skqn"
+  "submissionId": "zh8fir"
 }
