@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Linked List Cycle II
+ * URL: https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T08:43:56.906Z
+ */
+
+public class Solution {
+    public static Node firstNode(Node head) {
+        if (head == null || head.next == null) return null;
+        Node slow = head,fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                Node A = head,B= slow;
+                while (A != B) {
+                   A = A.next;
+                   B = B.next;
+                }
+                return B;
+            }
+        }
+        return null;
+    }
+}
