@@ -1,0 +1,32 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Problem list
+ * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+ * Language: All languages
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-19T08:25:49.244Z
+ */
+
+public class Solution {
+    public static Node rotate(Node head, int k) {
+       if (head == null || head.next == null || k == 0) return head;
+        Node fast = head,slow = head;
+        
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+            if (fast == null) fast = head; 
+        }
+       if (fast == head) return head;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+       Node newHead = slow.next;
+        slow.next = null;
+        fast.next = head;       
+        return newHead;
+    }
+}
