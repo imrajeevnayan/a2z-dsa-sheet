@@ -7,13 +7,13 @@
  * Topics: Uncategorized
  * Runtime: 7736 ms
  * Memory: N/A
- * Synced: 2026-06-19T08:03:05.525Z
+ * Synced: 2026-06-19T08:03:52.209Z
  */
 
 public class Solution {
     public static Node rotate(Node head, int k) {
        if (head == null || head.next == null || k == 0) return head;
-        ListNode fast = head,slow = head;
+        Node fast = head,slow = head;
         
         for (int i = 0; i < k; i++) {
             fast = fast.next;
@@ -24,7 +24,7 @@ public class Solution {
             slow = slow.next;
             fast = fast.next;
         }
-       ListNode newHead = slow.next;
+       LNode newHead = slow.next;
         slow.next = null;
         fast.next = head;       
         return newHead;
