@@ -1,27 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912
+ * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 13014 ms
+ * Runtime: 7736 ms
  * Memory: N/A
- * Synced: 2026-06-19T06:40:12.249Z
+ * Synced: 2026-06-19T07:08:00.156Z
  */
 
 public class Solution {
-    public static Node removeKthNode(Node head, int K) {
-        Node fast = head,slow = head;
-        for (int i = 0; i < K; i++)fast =fast.next;
-        // Remove head node
-        if (fast == null) return head.next;
-        
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
+ 
+    public static Node rotate(Node head, int k) {
+ 
+        if (head == null || head.next == null || k == 0)
+            return head;
+ 
+        // Find length and tail
+        Node tail = head;
+        int len = 1;
+ 
+        while (tail.next != null) {
+            tail = tail.next;
+            len++;
         }
-        slow.next = slow.next.next;
-        return head;
-    }
-}
+ 
+        k = k % len;
+ 
+        if (k == 0) return head;
+ 
+        // Make circular
+        tail.next = head;
+ 
+        int steps = len - k;
+ 
+        Node newTail = head;
+ 
+        for (int i = 1; i < steps; i++) {
+            newTail = newTail.next;
