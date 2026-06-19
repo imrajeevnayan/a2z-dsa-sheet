@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-19T03:56:23.811Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Interview problems"
+  ],
+  "platform": "Coding Ninjas (Code360)",
+  "language": "import java.util.* ; import java.io.*; public class Solution { public static boolean checkUnique(String s){ // Write your code here. char[] ch = s.toCharArray(); int[] ans = new int[256]; for(int i = 0; i < ch.length; i++) { ans[ch[i]]++; if(ans[ch[i]]>1) return false; } return true; } }",
+  "problemTitle": "neoNitya",
+  "problemUrl": "https://www.naukri.com/code360/profile/neoNitya",
+  "submissionId": "ig8urh"
+}
