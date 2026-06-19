@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-19T06:40:12.249Z",
-  "runtime": "13014 ms",
+  "submissionTimestamp": "2026-06-19T07:08:00.156Z",
+  "runtime": "7736 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/delete-kth-node-from-end-in-linked-list_799912",
-  "submissionId": "twpkng"
+  "problemUrl": "https://www.naukri.com/code360/problems/rotate-linked-list_920454",
+  "submissionId": "qfpnnb"
 }
