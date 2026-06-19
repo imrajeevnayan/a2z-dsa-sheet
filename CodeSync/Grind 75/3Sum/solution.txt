@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-18T17:38:31.080Z
+ * Synced: 2026-06-18T17:39:18.756Z
  */
 
 for(int j=i+1;j<n;j++){
