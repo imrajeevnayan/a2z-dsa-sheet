@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:26:43.002Z
+ * Synced: 2026-06-19T08:27:28.995Z
  */
 
 fast = fast.next;
