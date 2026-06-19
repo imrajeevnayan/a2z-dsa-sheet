@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: 0 1 Knapsack
+ * URL: https://www.naukri.com/code360/problems/two-sum_13863418
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 913 ms
+ * Memory: N/A
+ * Synced: 2026-06-19T04:45:00.992Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static String read(int n, int []book, int target){
+        Map<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<n;i++){
+            int rem=target-book[i];
+            if(map.containsKey(rem))return "YES";
+            map.put(book[i],i);
+        }
+        return "NO";
+    }
+}
