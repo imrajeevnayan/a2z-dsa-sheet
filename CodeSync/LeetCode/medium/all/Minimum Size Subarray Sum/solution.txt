@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Size Subarray Sum
- * URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2042557552/?envType=study-plan-v2&envId=top-interview-150
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150
  * Language: Top Interview 150
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T18:26:59.572Z
+ * Synced: 2026-06-22T18:27:56.091Z
  */
 
 sum+=nums[j];
@@ -19,7 +19,7 @@ sum+=nums[j];
         return min ==Integer.MAX_VALUE ?0:min;
     }
 }
-        int i=0,sum=0,min=Integer.MAX_VALUE;
         for(int j=0;j<nums.length;j++){
+        int i=0,sum=0,min=Integer.MAX_VALUE;
     public int minSubArrayLen(int target, int[] nums) {
 class Solution {
