@@ -1,27 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Nth Node From End of List
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?envType=problem-list-v2&envId=a0b4xdj1
- * Language: DSA Patterns by anubhav0910
+ * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:58:35.777Z
+ * Synced: 2026-06-21T18:51:12.224Z
  */
 
-class Solution {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode temp=new ListNode (0);
-        temp.next=head;
-        ListNode slow=temp;
-        ListNode fast=temp;
-        for(int i=0;i<=n;i++)fast=fast.next;
-        while(fast!=null){
-            fast=fast.next;
-            slow=slow.next;
-        }
-        slow.next=slow.next.next;
-        return temp.next;
-    }
-}
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
