@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Text
+- Language: Java
 - Difficulty: Unknown
-- Topics: Linked ListSimulation, Linked List, Simulation
+- Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/167/
-- Synced: 2026-06-22T17:00:12.421Z
+- Synced: 2026-06-22T17:00:58.849Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description You have two numbers represented by a linked list, where each node c
 
 ## Explanation
 
-This solution was accepted on LintCode using Text. The detected topics are Linked ListSimulation, Linked List, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Linked ListSimulation, Linked List, Simulation, Test Data Test Output. Review the synced source file for the implementation details.
