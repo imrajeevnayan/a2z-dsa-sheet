@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-18T09:13:16.086Z",
+  "submissionTimestamp": "2026-06-22T06:23:11.386Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Linked List",
+    "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/",
-  "submissionId": "gtt41j"
+  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
+  "submissionId": "iglrwm"
 }
