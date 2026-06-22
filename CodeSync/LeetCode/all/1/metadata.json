@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-22T09:17:23.903Z",
-  "runtime": "3 ms",
-  "memoryUsage": "46.36 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-06-22T18:26:14.270Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Top Interview 150",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2041900839/",
-  "submissionId": "bcxt2f"
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "bm860c"
 }
