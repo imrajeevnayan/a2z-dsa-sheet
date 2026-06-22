@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Linked ListSimulation, Linked List, Simulation
+- Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/167/
-- Synced: 2026-06-22T09:04:15.013Z
+- Synced: 2026-06-22T09:05:18.423Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description You have two numbers represented by a linked list, where each node c
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Linked ListSimulation, Linked List, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Linked ListSimulation, Linked List, Simulation, Test Data Test Output. Review the synced source file for the implementation details.
