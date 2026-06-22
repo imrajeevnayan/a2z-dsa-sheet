@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-22T06:56:22.652Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Maximum Number of Balloons",
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22",
+  "submissionId": "yswrha"
+}
