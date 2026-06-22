@@ -7,14 +7,12 @@
  * Topics: Linked List, Math, Stack
  * Runtime: 0 ms
  * Memory: 46.44 MB
- * Synced: 2026-06-22T08:35:41.886Z
+ * Synced: 2026-06-22T08:36:40.969Z
  */
 
 s2.push(l2.val);
         while (l2 != null) {
 
-        }
-            l1 = l1.next;
             l2 = l2.next;
         }
 
@@ -23,4 +21,6 @@ s2.push(l2.val);
 
         while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
             int sum = carry;
-            s1.push(l1.val);
+            if (!s1.isEmpty()) {
+                sum += s1.pop();
+            }
