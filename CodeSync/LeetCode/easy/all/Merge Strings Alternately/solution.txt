@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Strings Alternately
- * URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032465928/?utm=codolio
+ * URL: https://leetcode.com/problems/merge-strings-alternately/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 42.87 MB
- * Synced: 2026-06-14T05:33:58.463Z
+ * Topics: Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-22T18:11:35.923Z
  */
 
 class Solution {
