@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse a linked list
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T06:58:41.938Z
+ */
+
+class Solution {
+    Node reverseList(Node head) {
+        Node curr=head;
+        Node prev=null;
+        while(curr!=null){
+            Node temp=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=temp;
+        }
+        return prev;
+    }
+}
