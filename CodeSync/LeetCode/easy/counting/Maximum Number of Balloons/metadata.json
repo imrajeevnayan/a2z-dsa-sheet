@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-22T06:57:55.340Z",
+  "submissionTimestamp": "2026-06-22T18:25:01.174Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Maximum Number of Balloons",
-  "problemUrl": "https://leetcode.com/problems/maximum-number-of-balloons/?envType=daily-question&envId=2026-06-22",
-  "submissionId": "zgn9gp"
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22",
+  "submissionId": "3g7189"
 }
