@@ -676,5 +676,13 @@
   "coding ninjas (code360):add-two-linked-lists_799487": [],
   "lintcode:eng": [],
   "leetcode:untitled-problem": [],
-  "leetcode:greatest-common-divisor-of-strings": []
+  "leetcode:greatest-common-divisor-of-strings": [],
+  "leetcode:minimum-size-subarray-sum": [
+    "custom:algomaster-300",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
