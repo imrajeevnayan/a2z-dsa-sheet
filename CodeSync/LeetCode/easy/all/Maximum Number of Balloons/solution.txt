@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Number of Balloons
+ * URL: https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T06:56:22.652Z
+ */
+
+class Solution {
+    public int maxNumberOfBalloons(String text) {
+        
+    }
+}
