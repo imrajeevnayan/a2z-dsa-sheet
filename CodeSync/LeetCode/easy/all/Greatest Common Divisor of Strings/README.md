@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, String
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.38 MB
 - Problem URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?utm=codolio
-- Synced: 2026-06-22T18:12:28.531Z
+- Synced: 2026-06-22T18:13:15.564Z
 
 ## Problem Description
 
