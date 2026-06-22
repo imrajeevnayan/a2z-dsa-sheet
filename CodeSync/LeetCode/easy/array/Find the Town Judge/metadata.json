@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-31T12:11:39.194Z",
+  "submissionTimestamp": "2026-06-22T19:20:28.417Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Graph Theory",
   "problemTitle": "Find the Town Judge",
-  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph",
-  "submissionId": "ymrunp"
+  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "3w6n2j"
 }
