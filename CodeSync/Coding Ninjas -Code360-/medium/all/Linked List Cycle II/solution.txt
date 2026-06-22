@@ -7,13 +7,15 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:43:56.906Z
+ * Synced: 2026-06-22T08:38:46.508Z
  */
 
 public class Solution {
     public static Node firstNode(Node head) {
         if (head == null || head.next == null) return null;
         Node slow = head,fast = head;
+ 
+        // Detect Cycle
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
