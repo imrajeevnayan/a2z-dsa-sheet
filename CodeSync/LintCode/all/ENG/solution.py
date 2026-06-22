@@ -6,7 +6,7 @@
 # Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-22T09:14:59.185Z
+# Synced: 2026-06-22T09:15:44.821Z
 
 public·class·Solution·{
 ····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
@@ -20,10 +20,13 @@ public·class·Solution·{
 ········while(l2!=null){
 ············s2.push(l2.val);
 ········}
-····}
 ············l2=l2.next;
 ········int·carry=0;
 ·······ListNode·head=null;
 
-·······while(!s1.isEmpty()·||·!s2.isEmpty()||·carry)
+·······while(!s1.isEmpty()·||·!s2.isEmpty()||·carry=0){
+···········int·sum=carry;
+·······}
+····}
+···········if(!s1.)
 }
