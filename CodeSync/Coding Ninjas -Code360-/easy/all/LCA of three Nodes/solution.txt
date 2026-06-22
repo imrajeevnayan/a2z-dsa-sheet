@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T09:08:18.886Z
+ * Synced: 2026-06-22T09:09:25.417Z
  */
 
-import java.util.*;
- 
 public class Solution {
     public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
         Stack<Integer> s1 = new Stack<>();
@@ -39,3 +37,4 @@ public class Solution {
         }
         return head;
     }
+}
