@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-height-trees/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-22T19:27:58.921Z
+- Synced: 2026-06-22T19:28:46.922Z
 
 ## Problem Description
 
