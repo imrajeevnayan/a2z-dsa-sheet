@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-14T05:33:58.463Z",
-  "runtime": "1 ms",
-  "memoryUsage": "42.87 MB",
+  "submissionTimestamp": "2026-06-22T18:11:35.923Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Strings Alternately",
-  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/submissions/2032465928/?utm=codolio",
+  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/?utm=codolio",
   "submissionId": "ib78wh"
 }
