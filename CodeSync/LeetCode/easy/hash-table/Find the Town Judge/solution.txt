@@ -5,26 +5,25 @@
  * Language: Graph Theory
  * Difficulty: Easy
  * Topics: Array, Hash Table, Graph Theory
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-22T19:21:59.624Z
+ * Runtime: 0 ms
+ * Memory: 53.20 MB
+ * Synced: 2026-06-22T19:22:48.646Z
  */
 
-int b = t[1];
-
-            outdegree[a]++;
+outdegree[a]++;
             indegree[b]++;
         }
 
         for (int i = 1; i <= n; i++) {
 
-            int a = t[0];
-        for (int[] t : trust) {
-
-        int[] outdegree = new int[n + 1];
-
-
-        int[] indegree = new int[n + 1];
-    public int findJudge(int n, int[][] trust) {
-class Solution {
             if (indegree[i] == n - 1 &&
+                outdegree[i] == 0) {
+            int b = t[1];
+
+                return i;
+            }
+        }
+
+        return -1;
+    }
+}
