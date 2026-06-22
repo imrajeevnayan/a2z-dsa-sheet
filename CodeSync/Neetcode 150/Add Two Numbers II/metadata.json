@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-22T08:52:43.563Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-22T09:13:20.389Z",
+  "runtime": "3 ms",
   "memoryUsage": "46.36 MB",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Math",
-    "Stack"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Online Interview",
   "problemTitle": "Add Two Numbers II",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
-  "submissionId": "djfqk8"
+  "problemUrl": "https://leetcode.com/submissions/detail/2041900839/",
+  "submissionId": "axq57l"
 }
