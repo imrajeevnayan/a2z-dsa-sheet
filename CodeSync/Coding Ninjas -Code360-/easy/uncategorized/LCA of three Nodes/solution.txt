@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T08:54:33.877Z
+ * Synced: 2026-06-22T08:55:56.028Z
  */
 
 s2.push(second.data);
@@ -35,8 +35,7 @@ s2.push(second.data);
         while (first != null) {
             s1.push(first.data);
             first = first.next;
+ 
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
- 
     public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
-public class Solution {
