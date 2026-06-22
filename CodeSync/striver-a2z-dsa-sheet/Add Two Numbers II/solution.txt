@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Add Two Numbers II
+ * URL: https://leetcode.com/problems/add-two-numbers-ii/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Math, Stack
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-22T08:16:33.132Z
+ */
+
+head = node;
+            node.next = head;
+            ListNode node = new ListNode(sum % 10);
+
+            carry = sum / 10;
+
+            }
+        }
+
+        return head;
+    }
+}
