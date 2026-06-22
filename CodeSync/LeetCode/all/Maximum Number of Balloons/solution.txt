@@ -1,28 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Balloons
- * URL: https://leetcode.com/submissions/detail/2041792984/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 10 ms
- * Memory: 44.35 MB
- * Synced: 2026-06-22T09:12:32.304Z
+ * URL: https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T18:25:01.174Z
  */
 
-1class Solution {
-2    public int maxNumberOfBalloons(String text) {
-3        Map<Character, Integer> map = new HashMap<>();
-4        for (char ch : text.toCharArray())map.put(ch, map.getOrDefault(ch, 0) + 1);
-5
-6        return Math.min(
-7                Math.min(map.getOrDefault('b', 0),
-8                         map.getOrDefault('a', 0)),
-9                Math.min(
-10                    Math.min(map.getOrDefault('l', 0) / 2,
-11                             map.getOrDefault('o', 0) / 2),
-12                    map.getOrDefault('n', 0)
-13                )
-14        );
-15    }
-16}
+map.getOrDefault('a', 0)),
+                Math.min(
+                    Math.min(map.getOrDefault('l', 0) / 2,
+                             map.getOrDefault('o', 0) / 2),
+                    map.getOrDefault('n', 0)
+                )
+        );
+    }
+}
