@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-22T19:24:20.919Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Topological Sort"
+  ],
+  "platform": "LeetCode",
+  "language": "Graph Theory",
+  "problemTitle": "Minimum Height Trees",
+  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/?envType=problem-list-v2&envId=graph",
+  "submissionId": "qebytu"
+}
