@@ -1,33 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/add-two-linked-lists_799487
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 11443 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:30:49.839Z
+ * Synced: 2026-06-22T08:40:14.439Z
  */
 
-public class Solution {
-    public static Node firstNode(Node head) {
-        if (head == null || head.next == null) return null;
-        Node slow = head,fast = head;
+import java.util.*;
  
-        // Detect Cycle
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-            if (slow == fast) {
-                Node A = head,B= slow;
-                while (A != B) {
-                   A = A.next;
-                   B = B.next;
-                }
-                return ;
-            }
+public class Solution {
+    public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
+ 
+        Stack<Integer> s1 = new Stack<>();
+        Stack<Integer> s2 = new Stack<>();
+ 
+        while (first != null) {
+            s1.push(first.data);
+            first = first.next;
         }
-        return null;
-    }
-}
+ 
+        while (second != null) {
+            s2.push(second.data);
+            second = second.next;
+        }
+ 
+        int carry = 0;
+        ListNode<Integer> head = null;
+ 
+        while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
+ 
+            int sum = carry;
+ 
+            if (!s1.isEmpty()) {
+                sum += s1.pop();
+            }
