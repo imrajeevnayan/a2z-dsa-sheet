@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/add-two-linked-lists_799487
-- Synced: 2026-06-22T09:08:18.886Z
+- Synced: 2026-06-22T09:09:25.417Z
 
 ## Problem Description
 
