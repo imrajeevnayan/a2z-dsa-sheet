@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-22T17:00:12.421Z",
+  "submissionTimestamp": "2026-06-22T17:00:58.849Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Linked ListSimulation",
     "Linked List",
-    "Simulation"
+    "Simulation",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Text",
+  "language": "Java",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/167/",
-  "submissionId": "a5ylgz"
+  "submissionId": "kjkzeb"
 }
