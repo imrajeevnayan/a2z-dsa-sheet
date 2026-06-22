@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Nth Node From End of List
+ * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-21T18:51:12.224Z
+ */
+
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
