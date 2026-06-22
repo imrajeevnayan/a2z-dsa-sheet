@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Math, String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-22T18:12:28.531Z
+ * Memory: 43.38 MB
+ * Synced: 2026-06-22T18:13:15.564Z
  */
 
 class Solution {
