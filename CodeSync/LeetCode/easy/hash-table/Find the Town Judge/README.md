@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Graph Theory
 - Runtime: 0 ms
-- Memory: 53.20 MB
-- Problem URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-22T19:23:34.924Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-06-22T19:24:21.053Z
 
 ## Problem Description
 
