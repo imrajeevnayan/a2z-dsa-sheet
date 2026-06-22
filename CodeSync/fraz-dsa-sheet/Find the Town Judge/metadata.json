@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-22T19:22:48.646Z",
+  "submissionTimestamp": "2026-06-22T19:23:34.924Z",
   "runtime": "0 ms",
   "memoryUsage": "53.20 MB",
   "difficulty": "Easy",
@@ -12,5 +12,5 @@
   "language": "Graph Theory",
   "problemTitle": "Find the Town Judge",
   "problemUrl": "https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph",
-  "submissionId": "764a43"
+  "submissionId": "axd80d"
 }
