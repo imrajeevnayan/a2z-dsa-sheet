@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-22T09:12:32.304Z",
-  "runtime": "10 ms",
-  "memoryUsage": "44.35 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-06-22T18:25:01.174Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "String",
+    "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Daily Question",
   "problemTitle": "Maximum Number of Balloons",
-  "problemUrl": "https://leetcode.com/submissions/detail/2041792984/",
-  "submissionId": "1jg0hp"
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22",
+  "submissionId": "3g7189"
 }
