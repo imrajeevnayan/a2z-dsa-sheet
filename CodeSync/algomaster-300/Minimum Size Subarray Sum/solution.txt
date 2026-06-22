@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T18:27:56.091Z
+ * Synced: 2026-06-22T18:28:41.917Z
  */
 
 sum+=nums[j];
