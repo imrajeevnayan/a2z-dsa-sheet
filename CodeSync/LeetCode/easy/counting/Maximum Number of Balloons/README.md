@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-number-of-balloons/?envType=daily-question&envId=2026-06-22
-- Synced: 2026-06-22T06:57:55.340Z
+- Problem URL: https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question&envId=2026-06-22
+- Synced: 2026-06-22T18:25:01.174Z
 
 ## Problem Description
 
