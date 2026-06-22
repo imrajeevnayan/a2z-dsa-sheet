@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.36 MB
 - Problem URL: https://leetcode.com/problems/add-two-numbers-ii/
-- Synced: 2026-06-22T08:45:43.649Z
+- Synced: 2026-06-22T08:46:39.639Z
 
 ## Problem Description
 
