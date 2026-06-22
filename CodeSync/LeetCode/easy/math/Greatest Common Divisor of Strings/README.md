@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?utm=codolio
-- Synced: 2026-06-22T18:22:55.260Z
+- Synced: 2026-06-22T18:24:28.784Z
 
 ## Problem Description
 
