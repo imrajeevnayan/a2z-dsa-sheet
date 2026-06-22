@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-19T08:30:49.839Z",
-  "runtime": "11443 ms",
+  "submissionTimestamp": "2026-06-22T08:40:14.439Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628",
-  "submissionId": "maf4a8"
+  "problemUrl": "https://www.naukri.com/code360/problems/add-two-linked-lists_799487",
+  "submissionId": "3342db"
 }
