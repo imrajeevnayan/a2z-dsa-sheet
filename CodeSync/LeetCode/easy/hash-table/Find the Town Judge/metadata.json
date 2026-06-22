@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-22T19:23:34.924Z",
+  "submissionTimestamp": "2026-06-22T19:24:21.053Z",
   "runtime": "0 ms",
-  "memoryUsage": "53.20 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Graph Theory",
   "problemTitle": "Find the Town Judge",
-  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph",
+  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph",
   "submissionId": "axd80d"
 }
