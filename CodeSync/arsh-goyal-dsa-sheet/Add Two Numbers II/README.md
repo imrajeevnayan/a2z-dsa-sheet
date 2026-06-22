@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List, Math, Stack
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 46.44 MB
 - Problem URL: https://leetcode.com/problems/add-two-numbers-ii/
-- Synced: 2026-06-22T08:16:33.132Z
+- Synced: 2026-06-22T08:18:03.514Z
 
 ## Problem Description
 
