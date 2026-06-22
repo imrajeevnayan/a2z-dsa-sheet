@@ -7,19 +7,19 @@
  * Topics: Linked List, Math, Stack
  * Runtime: 0 ms
  * Memory: 46.44 MB
- * Synced: 2026-06-22T08:30:49.568Z
+ * Synced: 2026-06-22T08:34:53.586Z
  */
 
-while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
-            int sum = carry;
-            if (!s1.isEmpty()) {
-                sum += s1.pop();
-            }
-            if (!s2.isEmpty()) {
-                sum += s2.pop();
-            }
-            carry = sum / 10;
+s2.push(l2.val);
+        while (l2 != null) {
 
+        }
+            l1 = l1.next;
+        while (l1 != null) {
+            s1.push(l1.val);
 
-            
-            ListNode node = new ListNode(sum % 10);
+        Stack<Integer> s1 = new Stack<>();
+        Stack<Integer> s2 = new Stack<>();
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+class Solution {
