@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-22T18:26:14.270Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "1",
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "bm860c"
+}
