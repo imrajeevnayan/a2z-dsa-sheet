@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-22T18:26:59.572Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "Minimum Size Subarray Sum",
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2042557552/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "2dhrlz"
+}
