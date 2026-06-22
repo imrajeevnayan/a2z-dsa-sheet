@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-21T18:51:12.224Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Remove Nth Node From End of List",
+  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
+  "submissionId": "c28n05"
+}
