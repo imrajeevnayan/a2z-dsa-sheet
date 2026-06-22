@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Town Judge
- * URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
+ * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
  * Language: Graph Theory
  * Difficulty: Easy
  * Topics: Array, Hash Table, Graph Theory
  * Runtime: 0 ms
- * Memory: 53.20 MB
- * Synced: 2026-06-22T19:23:34.924Z
+ * Memory: N/A
+ * Synced: 2026-06-22T19:24:21.053Z
  */
 
 outdegree[a]++;
