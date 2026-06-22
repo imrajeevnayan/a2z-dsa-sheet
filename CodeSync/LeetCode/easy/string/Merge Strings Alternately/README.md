@@ -6,8 +6,8 @@
 - Topics: Two Pointers, String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/submissions/2032464456/?utm=codolio
-- Synced: 2026-06-14T05:32:05.851Z
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/?utm=codolio
+- Synced: 2026-06-22T18:11:35.923Z
 
 ## Problem Description
 
