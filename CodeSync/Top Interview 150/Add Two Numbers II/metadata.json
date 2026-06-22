@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-22T08:14:31.882Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-22T08:16:33.132Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Add Two Numbers II",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers-ii/description/",
-  "submissionId": "f9zem9"
+  "problemUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+  "submissionId": "tl230b"
 }
