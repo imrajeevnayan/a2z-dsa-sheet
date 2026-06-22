@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-06-22T18:32:07.909Z
+- Synced: 2026-06-22T18:32:53.914Z
 
 ## Problem Description
 
