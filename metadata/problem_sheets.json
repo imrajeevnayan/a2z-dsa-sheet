@@ -657,5 +657,8 @@
   ],
   "leetcode:maximum-number-of-balloons": [
     "custom:algomaster-300"
+  ],
+  "geeksforgeeks:add-number-linked-lists": [
+    "GFG160"
   ]
 }
