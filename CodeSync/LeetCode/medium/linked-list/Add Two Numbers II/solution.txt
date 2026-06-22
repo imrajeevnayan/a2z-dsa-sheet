@@ -6,19 +6,20 @@
  * Difficulty: Medium
  * Topics: Linked List, Math, Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-22T08:16:33.132Z
+ * Memory: 46.44 MB
+ * Synced: 2026-06-22T08:18:03.514Z
  */
 
-head = node;
-            node.next = head;
-            ListNode node = new ListNode(sum % 10);
+s2.push(l2.val);
+        while (l2 != null) {
 
-            carry = sum / 10;
-
-            }
         }
+            l1 = l1.next;
+            s1.push(l1.val);
+        while (l1 != null) {
+        Stack<Integer> s2 = new Stack<>();
 
-        return head;
-    }
-}
+        Stack<Integer> s1 = new Stack<>();
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+class Solution {
