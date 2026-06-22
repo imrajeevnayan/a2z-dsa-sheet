@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Substring Without Repeating Characters
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T18:30:05.813Z
+ */
+
+Set<Character>set=new HashSet<>();
+        int left=0,maxLen=0;
+        for(int right=0;right<s.length();right++){
+            char c=s.charAt(right);
+            while(set.contains(c)){
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(c);
+            maxLen=Math.max(maxLen,right-left+1);
+        }
+        return maxLen;
+        
+    }
