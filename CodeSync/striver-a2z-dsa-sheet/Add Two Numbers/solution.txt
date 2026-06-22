@@ -1,0 +1,18 @@
+/*
+ * Platform: NeetCode
+ * Problem: Add Two Numbers
+ * URL: https://neetcode.io/problems/add-two-numbers/question
+ * Language: l1
+ * Difficulty: Medium
+ * Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Math Recursion, Linked List, Math, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T17:58:55.071Z
+ */
+
+int carry = 0;
+        ListNode curr = dummy;
+        ListNode dummy = new ListNode(0);
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+class Solution {
+        while (l1 != null || l2 != null || carry != 0) {
