@@ -688,5 +688,10 @@
   "leetcode:greatest-common-divisor-of-strings": [],
   "leetcode:minimum-size-subarray-sum": [
     "custom:algomaster-300"
+  ],
+  "leetcode:find-the-town-judge": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
