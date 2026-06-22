@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-22T18:26:14.270Z",
+  "submissionTimestamp": "2026-06-22T19:23:27.252Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Topological Sort"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Graph Theory",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "bm860c"
+  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "836c2h"
 }
