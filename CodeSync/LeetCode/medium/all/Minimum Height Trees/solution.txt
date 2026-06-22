@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Height Trees
+ * URL: https://leetcode.com/problems/minimum-height-trees/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-22T19:24:20.919Z
+ */
+
+class Solution {
+    public List<Integer> findMinHeightTrees(int n, int[][] edges) {
+        
+    }
+}
