@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/detect-the-first-node-of-the-loop_1112628
-- Synced: 2026-06-19T08:43:56.906Z
+- Synced: 2026-06-22T08:38:46.508Z
 
 ## Problem Description
 
