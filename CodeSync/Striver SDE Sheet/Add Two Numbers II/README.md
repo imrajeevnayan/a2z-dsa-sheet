@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Math, Stack
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-two-numbers-ii/description/
-- Synced: 2026-06-22T08:14:31.882Z
+- Problem URL: https://leetcode.com/problems/add-two-numbers-ii/
+- Synced: 2026-06-22T08:16:33.132Z
 
 ## Problem Description
 
