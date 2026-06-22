@@ -2,40 +2,40 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/add-two-linked-lists_799487
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T08:55:56.028Z
+ * Synced: 2026-06-22T09:08:18.886Z
  */
 
-s2.push(second.data);
+import java.util.*;
+ 
+public class Solution {
+    public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
+        Stack<Integer> s1 = new Stack<>();
+        Stack<Integer> s2 = new Stack<>();
+ 
+        while (first != null) {
+            s1.push(first.data);
+            first = first.next;
+        }
+        while (second != null) {
+            s2.push(second.data);
             second = second.next;
         }
         int carry = 0;
         ListNode<Integer> head = null;
         while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
- 
             int sum = carry;
- 
-            if (!s1.isEmpty()) {
-                sum += s1.pop();
-            }
- 
-            if (!s2.isEmpty()) {
-        }
-        while (second != null) {
-                sum += s2.pop();
-            }
- 
+            if (!s1.isEmpty()) sum += s1.pop();
+            if (!s2.isEmpty()) sum += s2.pop();
+        
             carry = sum / 10;
- 
             ListNode<Integer> node = new ListNode<>(sum % 10);
-        while (first != null) {
-            s1.push(first.data);
-            first = first.next;
- 
-        Stack<Integer> s1 = new Stack<>();
-        Stack<Integer> s2 = new Stack<>();
-    public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
+            node.next = head;
+            head = node;
+        }
+        return head;
+    }
