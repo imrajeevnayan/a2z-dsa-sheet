@@ -6,14 +6,13 @@
  * Difficulty: Easy
  * Topics: Math, String
  * Runtime: 0 ms
- * Memory: 43.38 MB
- * Synced: 2026-06-22T18:13:15.564Z
+ * Memory: N/A
+ * Synced: 2026-06-22T18:22:55.260Z
  */
 
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
-        if (str1.length() < str2.length()) return gcdOfStrings(str2, str1);
-        
+        if (str1.length() < str2.length()) return gcdOfStrings(str2, str1);     
         if (str2.length() == 0) return str1;
         if (!str1.startsWith(str2))  return "";
         return gcdOfStrings(str1.substring(str2.length()), str2);
