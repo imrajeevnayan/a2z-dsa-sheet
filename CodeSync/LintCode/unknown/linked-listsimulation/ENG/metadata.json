@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-22T09:18:01.100Z",
+  "submissionTimestamp": "2026-06-22T17:00:12.421Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Linked ListSimulation",
     "Linked List",
-    "Simulation",
-    "Test Data Test Output"
+    "Simulation"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Text",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/167/",
-  "submissionId": "t8yuda"
+  "submissionId": "a5ylgz"
 }
