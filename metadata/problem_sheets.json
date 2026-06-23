@@ -698,5 +698,6 @@
     "custom:algomaster-300"
   ],
   "leetcode:number-of-zigzag-arrays-i": [],
-  "leetcode:maximum-manhattan-distance-after-all-moves": []
+  "leetcode:maximum-manhattan-distance-after-all-moves": [],
+  "leetcode:valid-subarrays-with-matching-sum-digits-i": []
 }
