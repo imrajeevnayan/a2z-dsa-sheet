@@ -4,10 +4,10 @@
 - Language: Graph Theory
 - Difficulty: Easy
 - Topics: Array, Hash Table, Graph Theory
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-22T19:37:50.797Z
+- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-06-23T05:36:22.329Z
 
 ## Problem Description
 
