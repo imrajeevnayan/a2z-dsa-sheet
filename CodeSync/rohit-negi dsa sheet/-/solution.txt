@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Linked List, Two Pointers
+ * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+ * Language: -
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:23:11.386Z
+ * Synced: 2026-06-23T05:35:26.167Z
  */
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+Input: n = 2, trust = [[1,2]]
+Output: 2
