@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T19:37:02.942Z
+ * Synced: 2026-06-22T19:37:50.797Z
  */
 
 }
@@ -21,11 +21,10 @@
             }
         }
 
-        return -1;
-    }
-}
             int b = t[1];
             int a = t[0];
         for (int[] t : trust) {
         int[] outdegree = new int[n + 1]; 
         int[] indegree = new int[n + 1];
+    public int findJudge(int n, int[][] trust) {
+class Solution {
