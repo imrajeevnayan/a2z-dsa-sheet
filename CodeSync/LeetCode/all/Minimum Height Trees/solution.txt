@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T19:37:12.907Z
+ * Synced: 2026-06-22T19:38:01.911Z
  */
 
 class Solution {
