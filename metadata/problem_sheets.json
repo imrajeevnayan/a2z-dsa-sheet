@@ -544,12 +544,7 @@
   "leetcode:score-of-parentheses": [],
   "leetcode:remove-outermost-parentheses": [],
   "leetcode:isomorphic-strings": [],
-  "leetcode:buddy-strings": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
-  ],
+  "leetcode:buddy-strings": [],
   "leetcode:substring-with-concatenation-of-all-words": [],
   "leetcode:increasing-decreasing-string": [],
   "leetcode:check-if-two-string-arrays-are-equivalent": [],
