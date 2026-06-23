@@ -1,17 +1,95 @@
 /*
  * Platform: LeetCode
  * Problem: Shortest Path With At Most K Consecutive Identical Characters
- * URL: https://leetcode.com/contest/weekly-contest-507/problems/shortest-path-with-at-most-k-consecutive-identical-characters/
+ * URL: https://leetcode.com/contest/weekly-contest-507/problems/shortest-path-with-at-most-k-consecutive-identical-characters/submissions/2043809397/
  * Language: Weekly Contest 507
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-23T19:04:51.929Z
+ * Runtime: 4 ms
+ * Memory: 0.00 MB
+ * Synced: 2026-06-23T19:06:20.927Z
  */
+
+import java.util.*;
+
 
 class Solution {
     public int shortestPath(int n, int[][] edges, String labels, int k) {
-        
+        // Build adjacency list
+        List<List<int[]>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        for (int[] e : edges) {
+            adj.get(e[0]).add(new int[]{e[1], e[2]});
+        }
+
+
+        // State key: encode (node, consec, lastChar) into a single long
+        // node: up to 10^5 → 17 bits | consec: up to 10^5 → 17 bits | char: 5 bits
+        Map<Long, Integer> dist = new HashMap<>();
+
+
+        PriorityQueue<long[]> pq = new PriorityQueue<>(Comparator.comparingLong(a -> a[0]));
+        int startChar = labels.charAt(0) - 'a';
+        long startKey = encode(0, 1, startChar);
+        dist.put(startKey, 0);
+        pq.offer(new long[]{0, 0, 1, startChar});
+
+
+        while (!pq.isEmpty()) {
+            long[] cur = pq.poll();
+            long cost = cur[0];
+            int u = (int) cur[1];
+            int consec = (int) cur[2];
+            int lastCh = (int) cur[3];
+
+
+            if (u == n - 1) return (int) cost;
+
+
+            long key = encode(u, consec, lastCh);
+            if (cost > dist.getOrDefault(key, Integer.MAX_VALUE)) continue;
+
+
+            for (int[] edge : adj.get(u)) {
+                int v = edge[0], w = edge[1];
+                int ch = labels.charAt(v) - 'a';
+                int newConsec = (ch == lastCh) ? consec + 1 : 1;
+
+
+                if (newConsec > k) continue;
+
+
+                long newCost = cost + w;
+                long newKey = encode(v, newConsec, ch);
+                int existing = dist.getOrDefault(newKey, Integer.MAX_VALUE);
+
+
+                if (newCost < existing) {
+                    dist.put(newKey, (int) newCost);
+                    pq.offer(new long[]{newCost, v, newConsec, ch});
+                }
+            }
+        }
+        return -1;
+    }
+
+
+    private long encode(int node, int consec, int ch) {
+        return ((long) node << 35) | ((long) consec << 5) | ch;
     }
 }
+3
+[[0,1,1],[1,2,1],[0,2,3]]
+"aab"
+1
+3
+[[0,1,1],[1,2,1],[0,2,3]]
+"aab"
+2
+3
+[[0,1,1],[1,2,1]]
+"aaa"
+2
+3
+2
+-1
