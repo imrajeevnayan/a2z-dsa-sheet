@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-23T06:00:31.157Z",
+  "submissionTimestamp": "2026-06-23T06:02:49.750Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -13,5 +13,5 @@
   "language": "Graph Theory",
   "problemTitle": "Minimum Height Trees",
   "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "ktwpnt"
+  "submissionId": "g125ro"
 }
