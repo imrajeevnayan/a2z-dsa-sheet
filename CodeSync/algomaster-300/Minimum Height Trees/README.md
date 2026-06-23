@@ -6,8 +6,8 @@
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-height-trees/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-22T19:38:01.911Z
+- Problem URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-06-23T05:36:07.194Z
 
 ## Problem Description
 
