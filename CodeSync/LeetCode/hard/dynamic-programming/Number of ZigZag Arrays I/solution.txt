@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Number of ZigZag Arrays I
- * URL: https://leetcode.com/problems/number-of-zigzag-arrays-i/description/?envType=daily-question&envId=2026-06-23
+ * URL: https://leetcode.com/problems/number-of-zigzag-arrays-i/?envType=daily-question&envId=2026-06-23
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Dynamic Programming, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-23T18:52:01.127Z
+ * Synced: 2026-06-23T18:53:03.728Z
  */
 
-class Solution {
-    public int zigZagArrays(int n, int l, int r) {
-        
-    }
 }
+            dpGreaterPrev[v] = 1;
+            dpLessPrev[v] = 1;
+        for (int v = 0; v < range; v++) {
+        long[] dpLessPrev = new long[range];
+        long[] dpGreaterPrev = new long[range];
+        // dpLessPrev[v] = number of sequences of length i-1 ending with v and last comparison '<'
+        // dpGreaterPrev[v] = number of sequences of length i-1 ending with v and last comparison '>'
+
+        if (n == 1) return range % MOD;
+        int range = r - l + 1;
+        if (n <= 0 || l > r) return 0;
+        // Edge cases
+    public int zigZagArrays(int n, int l, int r) {
+
+    private static final int MOD = 1_000_000_007;
+class Solution {
