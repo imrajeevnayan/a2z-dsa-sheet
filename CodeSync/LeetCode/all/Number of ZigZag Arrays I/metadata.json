@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-23T18:52:01.127Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Dynamic Programming",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Number of ZigZag Arrays I",
+  "problemUrl": "https://leetcode.com/problems/number-of-zigzag-arrays-i/description/?envType=daily-question&envId=2026-06-23",
+  "submissionId": "2bjmrs"
+}
