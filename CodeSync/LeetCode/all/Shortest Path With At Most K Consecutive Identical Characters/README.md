@@ -7,7 +7,7 @@
 - Runtime: 4 ms
 - Memory: 0.00 MB
 - Problem URL: https://leetcode.com/contest/weekly-contest-507/problems/shortest-path-with-at-most-k-consecutive-identical-characters/submissions/2043809397/
-- Synced: 2026-06-23T19:06:20.927Z
+- Synced: 2026-06-23T19:07:51.762Z
 
 ## Problem Description
 
