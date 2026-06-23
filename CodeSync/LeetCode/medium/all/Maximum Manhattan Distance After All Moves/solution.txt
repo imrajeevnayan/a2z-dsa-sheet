@@ -7,11 +7,18 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T18:55:11.111Z
+ * Synced: 2026-06-23T19:01:10.375Z
  */
 
 class Solution {
     public int maxDistance(String moves) {
-        
+         int x = 0, y = 0;
+        for (char c : moves.toCharArray()) {
+            if (c == 'E') x++;
+            else if (c == 'W') x--;
+            else if (c == 'N') y++;
+            else if (c == 'S') y--;
+        }
+        return Math.abs(x) + Math.abs(y);
     }
 }
