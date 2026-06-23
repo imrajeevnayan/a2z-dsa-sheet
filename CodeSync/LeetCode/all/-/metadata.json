@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-22T17:00:41.117Z",
-  "runtime": "3 ms",
-  "memoryUsage": "46.36 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-06-23T05:35:26.167Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table",
+    "Graph Theory"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "-",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2041900839/",
-  "submissionId": "49cdqt"
+  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "lc06cn"
 }
