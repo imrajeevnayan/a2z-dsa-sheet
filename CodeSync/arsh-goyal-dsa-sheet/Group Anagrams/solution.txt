@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Group Anagrams
+ * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
+ * Language: 60 questions to solve (Copy-9xpbvcmc)
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, String, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T19:14:50.083Z
+ */
+
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        
+    }
+}
