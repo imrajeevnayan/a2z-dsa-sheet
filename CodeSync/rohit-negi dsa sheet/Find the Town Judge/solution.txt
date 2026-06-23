@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T19:29:32.908Z
+ * Synced: 2026-06-22T19:30:31.937Z
  */
 
 outdegree[a]++;
