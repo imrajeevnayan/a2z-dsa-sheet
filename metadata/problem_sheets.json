@@ -696,5 +696,6 @@
   ],
   "leetcode:minimum-height-trees": [
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:number-of-zigzag-arrays-i": []
 }
