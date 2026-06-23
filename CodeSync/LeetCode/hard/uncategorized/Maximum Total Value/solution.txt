@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Total Value
+ * URL: https://leetcode.com/contest/weekly-contest-507/problems/maximum-total-value/
+ * Language: Weekly Contest 507
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T19:05:29.017Z
+ */
+
+class Solution {
+    public int maxTotalValue(int[] value, int[] decay, int m) {
+        
+    }
+}
