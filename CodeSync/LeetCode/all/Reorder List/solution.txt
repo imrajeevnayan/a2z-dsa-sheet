@@ -7,20 +7,23 @@
  * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:09:25.083Z
+ * Synced: 2026-06-23T19:10:10.141Z
  */
 
-* Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public void reorderList(ListNode head) {
-        
+}
+
+        curr = head;
+        for (int i = 0; i < count / 2; i++) {
+            ListNode next = curr.next;      
+            count++;
+            curr = curr.next;
+            ListNode fromStack = stack.pop(); // Get node from end
+
+            curr.next = fromStack;            // Link front → back
+            fromStack.next = next;            // Link back → next front
+
+            curr = next;                      // Advance to next front node
+        }
+        curr.next = null;
     }
 }
