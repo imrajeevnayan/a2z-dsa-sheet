@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Manhattan Distance After All Moves
+ * URL: https://leetcode.com/contest/weekly-contest-507/problems/maximum-manhattan-distance-after-all-moves/description/
+ * Language: Weekly Contest 507
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T18:55:11.111Z
+ */
+
+class Solution {
+    public int maxDistance(String moves) {
+        
+    }
+}
