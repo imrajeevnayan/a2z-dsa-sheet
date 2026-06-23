@@ -1,40 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2041900839/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 3 ms
- * Memory: 46.36 MB
- * Synced: 2026-06-22T17:00:41.117Z
+ * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+ * Language: -
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T05:35:26.167Z
  */
 
-1class Solution {
-2    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-3        Stack<Integer> s1 = new Stack<>();
-4        Stack<Integer> s2 = new Stack<>();
-5        while (l1 != null) {
-6            s1.push(l1.val);
-7            l1 = l1.next;
-8        }
-9        while (l2 != null) {
-10            s2.push(l2.val);
-11            l2 = l2.next;
-12        }
-13        int carry = 0;
-14        ListNode head = null;
-15
-16        while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
-17            int sum = carry;
-18            if (!s1.isEmpty())  sum += s1.pop();
-19            if (!s2.isEmpty())  sum += s2.pop();
-20            carry = sum / 10;
-21
-22            ListNode node = new ListNode(sum % 10);
-23            node.next = head;
-24            head = node;
-25        }
-26        return head;
-27    }
-28}
+Input: n = 2, trust = [[1,2]]
+Output: 2
