@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Shortest Path With At Most K Consecutive Identical Characters
+ * URL: https://leetcode.com/contest/weekly-contest-507/problems/shortest-path-with-at-most-k-consecutive-identical-characters/
+ * Language: Weekly Contest 507
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T19:04:51.929Z
+ */
+
+class Solution {
+    public int shortestPath(int n, int[][] edges, String labels, int k) {
+        
+    }
+}
