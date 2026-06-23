@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-23T19:05:29.017Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-23T19:06:36.788Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Weekly Contest 507",
   "problemTitle": "Maximum Total Value",
   "problemUrl": "https://leetcode.com/contest/weekly-contest-507/problems/maximum-total-value/",
-  "submissionId": "ycc45r"
+  "submissionId": "kivoop"
 }
