@@ -1,24 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1
- * Language: class Solution: def countPairs(self, arr, target): n = len(arr) left = 0 right = n - 1 count = 0 while left < right: current_sum = arr[left] + arr[right] if current_sum < target: left += 1 elif current_sum > target: right -= 1 else: # Trường hợp tìm thấy tổng bằng target # Case A: Hai số ở 2 đầu bằng nhau (Vd: 1 ... 1) # Nghĩa là tất cả số ở giữa cũng bằng 1 if arr[left] == arr[right]: temp_n = right - left + 1 count += (temp_n * (temp_n - 1)) // 2 break # Đã đếm xong hết đoạn này # Case B: Hai số ở 2 đầu khác nhau (Vd: 1 ... 5) else: cnt_left = 1 cnt_right = 1 # Đếm số lượng phần tử trùng với arr[left] while left + 1 < right and arr[left] == arr[left + 1]: cnt_left += 1 left += 1 # Đếm số lượng phần tử trùng với arr[right] while right - 1 > left and arr[right] == arr[right - 1]: cnt_right += 1 right -= 1 count += (cnt_left * cnt_right) # Dịch chuyển tiếp tục để tìm cặp mới left += 1 right -= 1 return count
+ * URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-18T17:14:26.126Z
+ * Synced: 2026-06-23T18:02:49.345Z
  */
 
 class Solution {
-    int countPairs(int arr[], int target) {
-       int count=0;
-      HashMap<Integer,Integer>map=new HashMap<>();
-      for(int n:arr){
-          int rem=target-n;
-          if(map.containsKey(rem))count+=map.get(rem);
-          map.put(n,map.getOrDefault(n,0)+1);
+    int maxSubarraySum(int[] arr) {
+      int curr=0,maxSum=Integer.MIN_VALUE;
+      for(int n :arr){
+          curr+=n;
+          if(curr >maxSum)maxSum=curr;
+          if(curr < 0)curr=0;
       }
-      return count;
+      return maxSum;
+        
     }
 }
