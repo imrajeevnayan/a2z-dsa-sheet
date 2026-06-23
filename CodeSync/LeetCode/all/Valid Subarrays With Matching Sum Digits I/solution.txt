@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Subarrays With Matching Sum Digits I
+ * URL: https://leetcode.com/contest/weekly-contest-507/problems/valid-subarrays-with-matching-sum-digits-i/description/
+ * Language: Weekly Contest 507
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T18:56:55.710Z
+ */
+
+class Solution {
+    public int countValidSubarrays(int[] nums, int x) {
+        
+    }
+}
