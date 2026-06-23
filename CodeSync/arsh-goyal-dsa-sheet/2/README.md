@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: Two Pointers (Copy-two-pointers)
+- Language: 60 questions to solve (Copy-9xpbvcmc)
 - Difficulty: Medium
-- Topics: Linked List, Two Pointers, Stack, Recursion
+- Topics: Array, Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-06-23T19:08:39.339Z
+- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-06-23T19:14:01.516Z
 
 ## Problem Description
 
-You are given the head of a singly linked-list. The list can be represented as: L0 → L1 → … → Ln - 1 → Ln Reorder the list to be on the following form: L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … You may not modify the values in the list's nodes. Only nodes themselves may be changed. Example 1: Input: head = [1,2,3,4] Output: [1,4,2,3] Example 2: Input: head = [1,2,3,4,5] Output: [1,5,2,4,3] Constraints: The number of nodes in the list is in the range [1, 5 * 104]. 1 <= Node.val <= 1000
+Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Linked List, Two Pointers, Stack, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
