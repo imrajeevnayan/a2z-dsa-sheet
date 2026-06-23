@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: Strings (Copy-ehkbkaxt)
-- Difficulty: Easy
-- Topics: Hash Table, String
+- Language: 60 questions to solve (Copy-9xpbvcmc)
+- Difficulty: Medium
+- Topics: Array, Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/buddy-strings/description/?envType=problem-list-v2&envId=da2hb3jj
-- Synced: 2026-06-23T19:11:41.167Z
+- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-06-23T19:14:01.516Z
 
 ## Problem Description
 
-Given two strings s and goal, return true if you can swap two letters in s so the result is equal to goal, otherwise, return false. Swapping letters is defined as taking two indices i and j (0-indexed) such that i != j and swapping the characters at s[i] and s[j]. For example, swapping at indices 0 and 2 in "abcd" results in "cbad". Example 1: Input: s = "ab", goal = "ba" Output: true Explanation: You can swap s[0] = 'a' and s[1] = 'b' to get "ba", which is equal to goal. Example 2: Input: s = "ab", goal = "ab" Output: false Explanation: The only letters you can swap are s[0] = 'a' and s[1] = 'b', which results in "ba" != goal. Example 3: Input: s = "aa", goal = "aa" Output: true Explanation: You can swap s[0] = 'a' and s[1] = 'a' to get "aa", which is equal to goal. Constraints: 1 <= s.length, goal.length <= 2 * 104 s and goal consist of lowercase letters.
+Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Strings (Copy-ehkbkaxt). The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
