@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-23T19:09:25.083Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers (Copy-two-pointers)",
+  "problemTitle": "Reorder List",
+  "problemUrl": "https://leetcode.com/problems/reorder-list/?envType=problem-list-v2&envId=da2mv5gs",
+  "submissionId": "glujuz"
+}
