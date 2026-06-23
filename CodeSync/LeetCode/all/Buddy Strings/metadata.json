@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T12:11:19.150Z",
+  "submissionTimestamp": "2026-06-23T19:12:35.380Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Strings (Copy-ehkbkaxt)",
   "problemTitle": "Buddy Strings",
-  "problemUrl": "https://leetcode.com/problems/buddy-strings/description/",
-  "submissionId": "oiqugj"
+  "problemUrl": "https://leetcode.com/problems/buddy-strings/?envType=problem-list-v2&envId=da2hb3jj",
+  "submissionId": "rp502b"
 }
