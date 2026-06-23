@@ -1,27 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Two Pointers (Copy-two-pointers)
- * Difficulty: Medium
- * Topics: Linked List, Two Pointers, Stack, Recursion
+ * URL: https://leetcode.com/problems/buddy-strings/description/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
+ * Difficulty: Easy
+ * Topics: Hash Table, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:08:39.339Z
+ * Synced: 2026-06-23T19:11:41.167Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public void reorderList(ListNode head) {
+    public boolean buddyStrings(String s, String goal) {
         
     }
 }
