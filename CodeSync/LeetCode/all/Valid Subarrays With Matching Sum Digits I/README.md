@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-507/problems/valid-subarrays-with-matching-sum-digits-i/description/
-- Synced: 2026-06-23T18:56:55.710Z
+- Synced: 2026-06-23T19:04:01.261Z
 
 ## Problem Description
 
