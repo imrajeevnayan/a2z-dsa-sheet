@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Problem Solved Successfully
+ * URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-23T18:02:49.345Z
+ */
+
+class Solution {
+    int maxSubarraySum(int[] arr) {
+      int curr=0,maxSum=Integer.MIN_VALUE;
+      for(int n :arr){
+          curr+=n;
+          if(curr >maxSum)maxSum=curr;
+          if(curr < 0)curr=0;
+      }
+      return maxSum;
+        
+    }
+}
