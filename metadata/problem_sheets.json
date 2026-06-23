@@ -697,5 +697,6 @@
   "leetcode:minimum-height-trees": [
     "custom:algomaster-300"
   ],
-  "leetcode:number-of-zigzag-arrays-i": []
+  "leetcode:number-of-zigzag-arrays-i": [],
+  "leetcode:maximum-manhattan-distance-after-all-moves": []
 }
