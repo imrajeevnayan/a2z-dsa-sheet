@@ -5,13 +5,77 @@
  * Language: Weekly Contest 507
  * Difficulty: Hard
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-23T19:05:29.017Z
+ * Synced: 2026-06-23T19:06:36.788Z
  */
 
 class Solution {
+    private static final int MOD = 1_000_000_007;
+
+
     public int maxTotalValue(int[] value, int[] decay, int m) {
+        int n = value.length;
         
+        // Binary search for the minimum value included in our top-m picks
+        long lo = 0, hi = 0;
+        for (int v : value) hi = Math.max(hi, v);
+        
+        while (lo < hi) {
+            long mid = (lo + hi + 1) / 2;
+            if (countPicks(value, decay, n, mid) >= m) {
+                lo = mid;
+            } else {
+                hi = mid - 1;
+            }
+        }
+        
+        long threshold = lo;
+        long totalCount = 0;
+        long totalSum = 0;
+        
+        // Calculate sum of all picks with value >= threshold
+        for (int i = 0; i < n; i++) {
+            if (value[i] < threshold) continue;
+            
+            // Number of times this item contributes value >= threshold
+            long cnt = (long)(value[i] - threshold) / decay[i] + 1;
+            
+            // Arithmetic series: first=value[i], last=value[i]-(cnt-1)*decay[i]
+            long lastVal = value[i] - (cnt - 1L) * decay[i];
+            long sum = cnt * (value[i] + lastVal) / 2;
+            
+            totalCount += cnt;
+            totalSum = (totalSum + sum % MOD) % MOD;
+        }
+        
+        // Remove excess picks that are exactly equal to threshold
+        long excess = totalCount - m;
+        totalSum = (totalSum - (excess % MOD) * (threshold % MOD) % MOD + MOD) % MOD;
+        
+        return (int) totalSum;
+    }
+    
+    private long countPicks(int[] value, int[] decay, int n, long threshold) {
+        long total = 0;
+        for (int i = 0; i < n; i++) {
+            if (value[i] >= threshold) {
+                total += (long)(value[i] - threshold) / decay[i] + 1;
+                if (total >= 1e18) return total; // Prevent overflow
+            }
+        }
+        return total;
     }
 }
+[6,5,4]
+[2,1,1]
+4
+[7,2,2]
+[3,2,1]
+2
+[4,3]
+[5,4]
+5
+19
+11
+7
