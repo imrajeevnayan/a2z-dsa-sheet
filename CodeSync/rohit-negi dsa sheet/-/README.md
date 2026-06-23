@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Linked List, Two Pointers
+- Language: -
+- Difficulty: Easy
+- Topics: Array, Hash Table, Graph Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
-- Synced: 2026-06-22T06:23:11.386Z
+- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-06-23T05:35:26.167Z
 
 ## Problem Description
 
-Given the head of a linked list, remove the nth node from the end of the list and return its head. Example 1: Input: head = [1,2,3,4,5], n = 2 Output: [1,2,3,5] Example 2: Input: head = [1], n = 1 Output: [] Example 3: Input: head = [1,2], n = 1 Output: [1] Constraints: The number of nodes in the list is sz. 1 <= sz <= 30 0 <= Node.val <= 100 1 <= n <= sz Follow up: Could you do this in one pass?
+In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge. If the town judge exists, then: The town judge trusts nobody. Everybody (except for the town judge) trusts the town judge. There is exactly one person that satisfies properties 1 and 2. You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. If a trust relationship does not exist in trust array, then such a trust relationship does not exist. Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise. Example 1: Input: n = 2, trust = [[1,2]] Output: 2 Example 2: Input: n = 3, trust = [[1,3],[2,3]] Output: 3 Example 3: Input: n = 3, trust = [[1,3],[2,3],[3,1]] Output: -1 Constraints: 1 <= n <= 1000 0 <= trust.length <= 104 trust[i].length == 2 All the pairs of trust are unique. ai != bi 1 <= ai, bi <= n
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using -. The detected topics are Array, Hash Table, Graph Theory. Review the synced source file for the implementation details.
