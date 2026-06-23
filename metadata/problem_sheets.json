@@ -699,5 +699,6 @@
   ],
   "leetcode:number-of-zigzag-arrays-i": [],
   "leetcode:maximum-manhattan-distance-after-all-moves": [],
-  "leetcode:valid-subarrays-with-matching-sum-digits-i": []
+  "leetcode:valid-subarrays-with-matching-sum-digits-i": [],
+  "leetcode:shortest-path-with-at-most-k-consecutive-identical-characters": []
 }
