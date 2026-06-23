@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-507/problems/maximum-manhattan-distance-after-all-moves/description/
-- Synced: 2026-06-23T19:02:42.146Z
+- Synced: 2026-06-23T19:04:09.888Z
 
 ## Problem Description
 
