@@ -1,13 +1,13 @@
 # Buddy Strings
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Strings (Copy-ehkbkaxt)
 - Difficulty: Easy
 - Topics: Hash Table, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/buddy-strings/description/
-- Synced: 2026-06-17T12:11:19.150Z
+- Problem URL: https://leetcode.com/problems/buddy-strings/?envType=problem-list-v2&envId=da2hb3jj
+- Synced: 2026-06-23T19:12:35.380Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two strings s and goal, return true if you can swap two letters in s so th
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Strings (Copy-ehkbkaxt). The detected topics are Hash Table, String. Review the synced source file for the implementation details.
