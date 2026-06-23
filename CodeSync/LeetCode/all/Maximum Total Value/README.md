@@ -4,10 +4,10 @@
 - Language: Weekly Contest 507
 - Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-507/problems/maximum-total-value/
-- Synced: 2026-06-23T19:05:29.017Z
+- Synced: 2026-06-23T19:06:36.788Z
 
 ## Problem Description
 
