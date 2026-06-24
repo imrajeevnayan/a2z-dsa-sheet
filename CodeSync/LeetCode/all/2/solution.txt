@@ -1,37 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: N/A
+ * URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, String, Trie, String Matching
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-23T19:22:32.072Z
+ * Synced: 2026-06-24T07:03:05.315Z
  */
 
-public int lengthOfLongestSubstring(String s) {
-	var n = s.length();
-	
-	if (n < 2)
-		return n;
-		
-	var left = 0;
-	var right = 0;
-	var maxLength = 0;
-	var map = new HashMap<Character, Integer>(); // map of char to its latest index
-
-	while (right < n) {
-		var ch = s.charAt(right);
-		
-		if (map.containsKey(ch)) {
-			maxLength = Math.max(maxLength, right - left); // record max window size
-			left = Math.max(left, map.get(ch) + 1); // shrink window from left
-		}
-		
-		map.put(ch, right); 
-		right++ // expand window to the right
-	}
-	
-	return Math.max(maxLength, right - left);
+class Solution {
+    public List<Boolean> camelMatch(String[] queries, String pattern) {
+        
+    }
 }
