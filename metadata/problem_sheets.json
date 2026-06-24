@@ -725,5 +725,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:2": []
+  "leetcode:2": [],
+  "geeksforgeeks:geeksforgeeks-practice-leading-online-coding-platform": [
+    "GFG160"
+  ]
 }
