@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Print in Order
+ * URL: https://leetcode.com/problems/print-in-order/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Concurrency
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T06:57:35.665Z
+ */
+
+}
+
+    public void second(Runnable printSecond) throws InterruptedException {
+        
+        // printSecond.run() outputs "second". Do not change or remove this line.
+        printSecond.run();
+    }
+
+    public void third(Runnable printThird) throws InterruptedException {
+        
+        // printThird.run() outputs "third". Do not change or remove this line.
+        printThird.run();
+    }
+}
