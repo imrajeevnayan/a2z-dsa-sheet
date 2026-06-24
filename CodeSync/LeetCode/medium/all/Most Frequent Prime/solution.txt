@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Most Frequent Prime
+ * URL: https://leetcode.com/problems/most-frequent-prime/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Math, Matrix, Counting, Enumeration, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T06:56:34.682Z
+ */
+
+class Solution {
+    public int mostFrequentPrime(int[][] mat) {
+        
+    }
+}
