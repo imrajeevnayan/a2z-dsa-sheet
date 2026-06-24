@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2
+ * URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
+ * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T07:04:11.013Z
+ */
+
+class Solution {
+    public int totalFruit(int[] fruits) {
+        
+    }
+}
