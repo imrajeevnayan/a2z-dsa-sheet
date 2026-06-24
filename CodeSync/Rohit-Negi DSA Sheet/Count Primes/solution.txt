@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/description/
+ * URL: https://leetcode.com/problems/most-frequent-prime/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Math, Enumeration, Number Theory
+ * Difficulty: Easy
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:55:41.794Z
+ * Synced: 2026-06-24T06:55:50.349Z
  */
 
 prime[0] = false;
