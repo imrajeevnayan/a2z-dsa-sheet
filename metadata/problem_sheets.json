@@ -747,5 +747,8 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:fruit-into-baskets": []
+  "leetcode:fruit-into-baskets": [],
+  "leetcode:count-number-of-nice-subarrays": [
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
