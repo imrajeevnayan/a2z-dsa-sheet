@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
+ * URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2044276962/?envType=problem-list-v2&envId=da2h7mkv
  * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
- * Difficulty: Medium
- * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-24T07:04:11.013Z
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 54 ms
+ * Memory: 70.42 MB
+ * Synced: 2026-06-24T07:07:00.795Z
  */
 
 class Solution {
     public int totalFruit(int[] fruits) {
-        
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int left = 0,maxLen = 0;
+        for (int right = 0; right < fruits.length; right++) {
+            map.put(fruits[right],map.getOrDefault(fruits[right], 0) + 1 );
+            while (map.size() > 2) {
+                map.put(fruits[left],map.get(fruits[left]) - 1);
+                if (map.get(fruits[left]) == 0)map.remove(fruits[left]);
+                left++;
+            }
+            maxLen = Math.max(maxLen,right - left + 1 );
+        }
+        return maxLen;
     }
 }
