@@ -747,10 +747,5 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:fruit-into-baskets": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
-  ]
+  "leetcode:fruit-into-baskets": []
 }
