@@ -5,13 +5,26 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Math, Counting, Number Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-24T06:58:57.379Z
+ * Synced: 2026-06-24T06:59:43.227Z
  */
 
-class Solution {
-    public boolean checkPrimeFrequency(int[] nums) {
-        
-    }
 }
+        return false;
+    }
+            if (isPrime(freq)) return true;
+        for (int freq : map.values()) {
+        for (int num : nums)map.put(num, map.getOrDefault(num, 0) + 1);
+        HashMap<Integer, Integer> map = new HashMap<>();
+    public boolean checkPrimeFrequency(int[] nums) {
+class Solution {
+    private boolean isPrime(int n) {
+        if (n < 2)return false;
+
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0)
+                return false;
+        }
+
+        return true;
