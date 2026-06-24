@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
- * Language: -
- * Difficulty: Easy
- * Topics: Array, Hash Table, Graph Theory
+ * URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T05:35:26.167Z
+ * Synced: 2026-06-24T05:51:52.449Z
  */
 
-Input: n = 2, trust = [[1,2]]
-Output: 2
+Input: n = 4, edges = [[1,0],[1,2],[1,3]]
+Output: [1]
+Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT.
