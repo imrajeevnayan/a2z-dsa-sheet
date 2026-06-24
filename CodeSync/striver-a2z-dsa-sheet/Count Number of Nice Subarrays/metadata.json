@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-24T07:09:32.158Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
+  "problemTitle": "Count Number of Nice Subarrays",
+  "problemUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv",
+  "submissionId": "igio4x"
+}
