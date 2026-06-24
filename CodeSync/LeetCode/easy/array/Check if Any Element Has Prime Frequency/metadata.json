@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-24T06:58:57.379Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-24T06:59:43.227Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -14,5 +14,5 @@
   "language": "Problem List",
   "problemTitle": "Check if Any Element Has Prime Frequency",
   "problemUrl": "https://leetcode.com/problems/check-if-any-element-has-prime-frequency/",
-  "submissionId": "hhskzq"
+  "submissionId": "yctfi0"
 }
