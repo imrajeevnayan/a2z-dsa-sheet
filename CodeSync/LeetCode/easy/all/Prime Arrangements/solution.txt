@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime Arrangements
+ * URL: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T06:58:07.082Z
+ */
+
+class Solution {
+    public int numPrimeArrangements(int n) {
+        
+    }
+}
