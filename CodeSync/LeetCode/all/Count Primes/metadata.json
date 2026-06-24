@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-24T06:30:33.657Z",
+  "submissionTimestamp": "2026-06-24T06:31:19.991Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
-  "submissionId": "oarpoe"
+  "problemUrl": "https://leetcode.com/problems/count-primes/",
+  "submissionId": "gzny9m"
 }
