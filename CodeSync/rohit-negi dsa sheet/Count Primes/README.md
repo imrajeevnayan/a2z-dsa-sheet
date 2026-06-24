@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-primes/description/
-- Synced: 2026-06-24T06:51:04.880Z
+- Synced: 2026-06-24T06:51:58.370Z
 
 ## Problem Description
 
