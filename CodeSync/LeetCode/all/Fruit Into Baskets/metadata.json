@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-24T07:05:46.277Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-06-24T07:07:55.188Z",
+  "runtime": "54 ms",
+  "memoryUsage": "70.42 MB",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Sliding Window"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
   "problemTitle": "Fruit Into Baskets",
   "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/?envType=problem-list-v2&envId=da2h7mkv",
-  "submissionId": "lszdey"
+  "submissionId": "dv7t6e"
 }
