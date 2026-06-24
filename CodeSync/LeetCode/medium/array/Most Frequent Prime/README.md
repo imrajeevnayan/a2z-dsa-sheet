@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Math, Matrix, Counting, Enumeration, Number Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/most-frequent-prime/
-- Synced: 2026-06-24T06:56:34.682Z
+- Runtime: 0 ms
+- Memory: 45.15 MB
+- Problem URL: https://leetcode.com/problems/most-frequent-prime/submissions/2044266261/
+- Synced: 2026-06-24T06:57:22.412Z
 
 ## Problem Description
 
