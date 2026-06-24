@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Check if Any Element Has Prime Frequency
+ * URL: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Math, Counting, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T06:58:57.379Z
+ */
+
+class Solution {
+    public boolean checkPrimeFrequency(int[] nums) {
+        
+    }
+}
