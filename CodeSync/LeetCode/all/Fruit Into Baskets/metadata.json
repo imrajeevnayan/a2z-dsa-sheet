@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-24T07:07:55.188Z",
-  "runtime": "54 ms",
-  "memoryUsage": "70.42 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-06-24T07:08:30.016Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
   "problemTitle": "Fruit Into Baskets",
-  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/?envType=problem-list-v2&envId=da2h7mkv",
+  "problemUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv",
   "submissionId": "dv7t6e"
 }
