@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T18:20:48.110Z",
-  "runtime": "0 ms",
-  "memoryUsage": "51.04 MB",
+  "submissionTimestamp": "2026-06-24T06:30:33.657Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/submissions/2024644557/",
-  "submissionId": "70mow"
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "submissionId": "oarpoe"
 }
