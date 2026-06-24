@@ -1,17 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Most Frequent Prime
- * URL: https://leetcode.com/problems/most-frequent-prime/
+ * URL: https://leetcode.com/problems/most-frequent-prime/submissions/2044266261/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Math, Matrix, Counting, Enumeration, Number Theory
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-24T06:56:34.682Z
+ * Runtime: 0 ms
+ * Memory: 45.15 MB
+ * Synced: 2026-06-24T06:57:22.412Z
  */
 
-class Solution {
-    public int mostFrequentPrime(int[][] mat) {
-        
+private boolean isPrime(int num) {
+
+        if(num < 2) return false;
+
+        for(int i=2;i*i<=num;i++) {
+
+            if(num % i == 0)
+                return false;
+        }
+
+        return true;
     }
 }
