@@ -740,5 +740,11 @@
   "leetcode:most-frequent-prime": [],
   "leetcode:print-in-order": [],
   "leetcode:prime-arrangements": [],
-  "leetcode:check-if-any-element-has-prime-frequency": []
+  "leetcode:check-if-any-element-has-prime-frequency": [],
+  "leetcode:camelcase-matching": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
