@@ -739,5 +739,6 @@
   ],
   "leetcode:most-frequent-prime": [],
   "leetcode:print-in-order": [],
-  "leetcode:prime-arrangements": []
+  "leetcode:prime-arrangements": [],
+  "leetcode:check-if-any-element-has-prime-frequency": []
 }
