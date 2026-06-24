@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Print in Order
- * URL: https://leetcode.com/problems/print-in-order/description/
+ * URL: https://leetcode.com/problems/prime-arrangements/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Concurrency
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:57:35.665Z
+ * Synced: 2026-06-24T06:57:47.080Z
  */
 
 }
