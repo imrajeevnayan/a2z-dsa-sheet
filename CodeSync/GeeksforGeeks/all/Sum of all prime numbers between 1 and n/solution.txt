@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:59:30.081Z
+ * Synced: 2026-06-24T07:00:30.106Z
  */
 
 class Solution {
