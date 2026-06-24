@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-23T19:11:41.167Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-24T07:07:00.795Z",
+  "runtime": "54 ms",
+  "memoryUsage": "70.42 MB",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Strings (Copy-ehkbkaxt)",
+  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/buddy-strings/description/?envType=problem-list-v2&envId=da2hb3jj",
-  "submissionId": "tdec8n"
+  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/submissions/2044276962/?envType=problem-list-v2&envId=da2h7mkv",
+  "submissionId": "v5w4rj"
 }
