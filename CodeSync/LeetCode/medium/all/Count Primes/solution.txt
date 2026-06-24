@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:54:55.823Z
+ * Synced: 2026-06-24T06:55:41.794Z
  */
 
 prime[0] = false;
