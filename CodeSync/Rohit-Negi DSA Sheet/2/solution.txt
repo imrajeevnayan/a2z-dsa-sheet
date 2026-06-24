@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Two Pointers (Copy-two-pointers)
+ * URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
+ * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
  * Difficulty: Medium
- * Topics: Array, Two Pointers, String, Trie, String Matching
- * Runtime: . S
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T07:03:05.315Z
+ * Synced: 2026-06-24T07:04:11.013Z
  */
 
 class Solution {
-    public List<Boolean> camelMatch(String[] queries, String pattern) {
+    public int totalFruit(int[] fruits) {
         
     }
 }
