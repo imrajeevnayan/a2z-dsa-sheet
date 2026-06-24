@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: -
-- Difficulty: Easy
-- Topics: Array, Hash Table, Graph Theory
+- Language: Text
+- Difficulty: Medium
+- Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-23T05:35:26.167Z
+- Problem URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-06-24T05:51:52.449Z
 
 ## Problem Description
 
-In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge. If the town judge exists, then: The town judge trusts nobody. Everybody (except for the town judge) trusts the town judge. There is exactly one person that satisfies properties 1 and 2. You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. If a trust relationship does not exist in trust array, then such a trust relationship does not exist. Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise. Example 1: Input: n = 2, trust = [[1,2]] Output: 2 Example 2: Input: n = 3, trust = [[1,3],[2,3]] Output: 3 Example 3: Input: n = 3, trust = [[1,3],[2,3],[3,1]] Output: -1 Constraints: 1 <= n <= 1000 0 <= trust.length <= 104 trust[i].length == 2 All the pairs of trust are unique. ai != bi 1 <= ai, bi <= n
+A tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree. Given a tree of n nodes labelled from 0 to n - 1, and an array of n - 1 edges where edges[i] = [ai, bi] indicates that there is an undirected edge between the two nodes ai and bi in the tree, you can choose any node of the tree as the root. When you select a node x as the root, the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h)) are called minimum height trees (MHTs). Return a list of all MHTs' root labels. You can return the answer in any order. The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf. Example 1: Input: n = 4, edges = [[1,0],[1,2],[1,3]] Output: [1] Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT. Example 2: Input: n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]] Output: [3,4] Constraints: 1 <= n <= 2 * 104 edges.length == n - 1 0 <= ai, bi < n ai != bi All the pairs (ai, bi) are distinct. The given input is guaranteed to be a tree and there will be no repeated edges.
 
 ## Explanation
 
-This solution was accepted on LeetCode using -. The detected topics are Array, Hash Table, Graph Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort. Review the synced source file for the implementation details.
