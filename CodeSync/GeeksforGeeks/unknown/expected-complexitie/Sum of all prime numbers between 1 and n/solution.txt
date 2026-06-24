@@ -7,30 +7,32 @@
  * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:26:53.794Z
+ * Synced: 2026-06-24T06:28:37.501Z
  */
 
 class Solution {
     public int prime_Sum(int n) {
-        if (n < 2) return 0;
-        
-        boolean[] isPrime = new boolean[n + 1];
-        Arrays.fill(isPrime, true);
-        isPrime[0] = isPrime[1] = false;
-        
-        for (int i = 2; i * i <= n; i++) {
-            if (isPrime[i]) {
-                for (int j = i * i; j <= n; j += i) {
-                    isPrime[j] = false;
-                }
+    boolean[] prime = new boolean[n + 1];
+    Arrays.fill(prime, true);
+
+    prime[0] = false;
+    prime[1] = false;
+
+    for (int i = 2; i * i <= n; i++) {
+
+        if (prime[i]) {
+
+            for (int j = i * i; j <= n; j += i) {
+                prime[j] = false;
             }
         }
-        
-        int sum = 0;
-        for (int i = 2; i <= n; i++) {
-            if (isPrime[i]) sum += i;
-        }
-        
-        return sum;
     }
+    int sum=0;
+    for (int i = 2; i <= n; i++) {
+        if (prime[i]) {
+           sum+=i;
+        }
+    }
+    return sum;
+  }
 }
