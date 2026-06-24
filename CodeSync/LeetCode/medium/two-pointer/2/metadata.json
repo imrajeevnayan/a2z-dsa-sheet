@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-23T19:08:39.339Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-24T07:03:05.315Z",
+  "runtime": ". S",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
+    "Array",
     "Two Pointers",
-    "Stack",
-    "Recursion"
+    "String",
+    "Trie",
+    "String Matching"
   ],
   "platform": "LeetCode",
   "language": "Two Pointers (Copy-two-pointers)",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=da2mv5gs",
-  "submissionId": "ls8977"
+  "problemUrl": "https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs",
+  "submissionId": "fnf8db"
 }
