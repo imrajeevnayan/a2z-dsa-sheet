@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:31:19.991Z
+ * Synced: 2026-06-24T06:32:05.548Z
  */
 
 class Solution {
