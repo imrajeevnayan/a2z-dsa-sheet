@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
- * Language: 60 questions to solve (Copy-9xpbvcmc)
+ * URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
  * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
- * Runtime: N/A
+ * Topics: Array, Two Pointers, String, Trie, String Matching
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-23T19:14:01.516Z
+ * Synced: 2026-06-24T07:03:05.315Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
+    public List<Boolean> camelMatch(String[] queries, String pattern) {
         
     }
 }
