@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Number of Nice Subarrays
+ * URL: https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv
+ * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Math, Sliding Window, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T07:09:32.158Z
+ */
+
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        
+    }
+}
