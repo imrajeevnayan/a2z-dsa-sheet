@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
+ * Language: Text
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers
+ * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:23:11.386Z
+ * Synced: 2026-06-24T05:51:52.449Z
  */
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+Input: n = 4, edges = [[1,0],[1,2],[1,3]]
+Output: [1]
+Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT.
