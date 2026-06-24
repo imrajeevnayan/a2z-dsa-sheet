@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: Two Pointers (Copy-two-pointers)
+- Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
 - Difficulty: Medium
-- Topics: Array, Two Pointers, String, Trie, String Matching
-- Runtime: . S
+- Topics: Array, Hash Table, Sliding Window
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-06-24T07:03:05.315Z
+- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
+- Synced: 2026-06-24T07:04:11.013Z
 
 ## Problem Description
 
-Given an array of strings queries and a string pattern, return a boolean array answer where answer[i] is true if queries[i] matches pattern, and false otherwise. A query word queries[i] matches pattern if you can insert lowercase English letters into the pattern so that it equals the query. You may insert a character at any position in pattern or you may choose not to insert any characters at all. Example 1: Input: queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FB" Output: [true,false,true,true,false] Explanation: "FooBar" can be generated like this "F" + "oo" + "B" + "ar". "FootBall" can be generated like this "F" + "oot" + "B" + "all". "FrameBuffer" can be generated like this "F" + "rame" + "B" + "uffer". Example 2: Input: queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBa" Output: [true,false,true,false,false] Explanation: "FooBar" can be generated like this "Fo" + "o" + "Ba" + "r". "FootBall" can be generated like this "Fo" + "ot" + "Ba" + "ll". Example 3: Input: queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBaT" Output: [false,true,false,false,false] Explanation: "FooBarTest" can be generated like this "Fo" + "o" + "Ba" + "r" + "T" + "est". Constraints: 1 <= pattern.length, queries.length <= 100 1 <= queries[i].length <= 100 queries[i] and pattern consist of English letters.
+You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces. You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow: You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold. Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets. Once you reach a tree with fruit that cannot fit in your baskets, you must stop. Given the integer array fruits, return the maximum number of fruits you can pick. Example 1: Input: fruits = [1,2,1] Output: 3 Explanation: We can pick from all 3 trees. Example 2: Input: fruits = [0,1,2,2] Output: 3 Explanation: We can pick from trees [1,2,2]. If we had started at the first tree, we would only pick from trees [0,1]. Example 3: Input: fruits = [1,2,3,2,2] Output: 4 Explanation: We can pick from trees [2,3,2,2]. If we had started at the first tree, we would only pick from trees [1,2]. Constraints: 1 <= fruits.length <= 105 0 <= fruits[i] < fruits.length
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Array, Two Pointers, String, Trie, String Matching. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window Problems (Copy-x1lbzfk3)Zj. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
