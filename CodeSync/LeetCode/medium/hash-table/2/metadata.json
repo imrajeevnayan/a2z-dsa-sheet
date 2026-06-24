@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-23T19:14:01.516Z",
+  "submissionTimestamp": "2026-06-24T07:04:11.013Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Hash Table",
-    "String",
-    "Sorting"
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "60 questions to solve (Copy-9xpbvcmc)",
+  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "u9qd6x"
+  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv",
+  "submissionId": "53bcvx"
 }
