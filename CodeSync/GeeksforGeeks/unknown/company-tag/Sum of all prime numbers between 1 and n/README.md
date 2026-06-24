@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-all-prime-numbers-between-1-and-n4404/1
-- Synced: 2026-06-24T07:02:30.089Z
+- Synced: 2026-06-24T07:03:30.081Z
 
 ## Problem Description
 
