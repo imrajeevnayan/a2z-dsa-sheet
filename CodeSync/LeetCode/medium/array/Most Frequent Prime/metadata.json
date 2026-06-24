@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-24T06:56:34.682Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Matrix",
+    "Counting",
+    "Enumeration",
+    "Number Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Most Frequent Prime",
+  "problemUrl": "https://leetcode.com/problems/most-frequent-prime/",
+  "submissionId": "mjclhj"
+}
