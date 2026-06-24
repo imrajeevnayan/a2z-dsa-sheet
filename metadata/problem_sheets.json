@@ -737,5 +737,6 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:most-frequent-prime": []
+  "leetcode:most-frequent-prime": [],
+  "leetcode:print-in-order": []
 }
