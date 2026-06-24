@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: 60 questions to solve (Copy-9xpbvcmc)
+- Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
 - Difficulty: Medium
-- Topics: Array, Hash Table, String, Sorting
+- Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-06-23T19:14:01.516Z
+- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
+- Synced: 2026-06-24T07:04:11.013Z
 
 ## Problem Description
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
+You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces. You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow: You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold. Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets. Once you reach a tree with fruit that cannot fit in your baskets, you must stop. Given the integer array fruits, return the maximum number of fruits you can pick. Example 1: Input: fruits = [1,2,1] Output: 3 Explanation: We can pick from all 3 trees. Example 2: Input: fruits = [0,1,2,2] Output: 3 Explanation: We can pick from trees [1,2,2]. If we had started at the first tree, we would only pick from trees [0,1]. Example 3: Input: fruits = [1,2,3,2,2] Output: 4 Explanation: We can pick from trees [2,3,2,2]. If we had started at the first tree, we would only pick from trees [1,2]. Constraints: 1 <= fruits.length <= 105 0 <= fruits[i] < fruits.length
 
 ## Explanation
 
-This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window Problems (Copy-x1lbzfk3)Zj. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
