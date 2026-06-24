@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-23T05:35:26.167Z",
+  "submissionTimestamp": "2026-06-24T05:51:52.449Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Graph Theory"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Topological Sort"
   ],
   "platform": "LeetCode",
-  "language": "-",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "lc06cn"
+  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "ukvcqk"
 }
