@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv
-- Synced: 2026-06-24T07:09:32.158Z
+- Synced: 2026-06-24T07:10:17.548Z
 
 ## Problem Description
 
