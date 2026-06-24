@@ -1,18 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-24T07:03:05.315Z",
-  "runtime": ". S",
+  "submissionTimestamp": "2026-06-24T07:04:11.013Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers",
-    "String",
-    "Trie",
-    "String Matching"
+    "Hash Table",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Two Pointers (Copy-two-pointers)",
+  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs",
-  "submissionId": "fnf8db"
+  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv",
+  "submissionId": "53bcvx"
 }
