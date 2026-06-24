@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:35:21.092Z
+ * Synced: 2026-06-24T06:55:57.287Z
  */
 
 Input: n = 4, edges = [[1,0],[1,2],[1,3]]
