@@ -7,11 +7,20 @@
  * Topics: Array, Hash Table, Math, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T07:09:32.158Z
+ * Synced: 2026-06-24T07:10:17.548Z
  */
 
-class Solution {
-    public int numberOfSubarrays(int[] nums, int k) {
-        
+if (nums[right] % 2 == 1)
+                k--;
+            while (k < 0) {
+        for (int right = 0; right < nums.length; right++) {
+        int left = 0, count = 0;
+                if (nums[left] % 2 == 1)
+                    k++;
+                left++;
+            }
+            count += right - left + 1;
+        }
+        return count;
     }
 }
