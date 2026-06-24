@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-24T06:56:34.682Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-24T06:57:22.412Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.15 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Most Frequent Prime",
-  "problemUrl": "https://leetcode.com/problems/most-frequent-prime/",
-  "submissionId": "mjclhj"
+  "problemUrl": "https://leetcode.com/problems/most-frequent-prime/submissions/2044266261/",
+  "submissionId": "imtn1n"
 }
