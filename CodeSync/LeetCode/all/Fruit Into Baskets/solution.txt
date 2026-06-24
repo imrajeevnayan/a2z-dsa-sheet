@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fruit Into Baskets
- * URL: https://leetcode.com/problems/fruit-into-baskets/?envType=problem-list-v2&envId=da2h7mkv
+ * URL: https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv
  * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
- * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 54 ms
- * Memory: 70.42 MB
- * Synced: 2026-06-24T07:07:55.188Z
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-24T07:08:30.016Z
  */
 
 class Solution {
