@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math, Enumeration, Number Theory
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-primes/
-- Synced: 2026-06-24T06:36:39.827Z
+- Problem URL: https://leetcode.com/problems/count-primes/description/
+- Synced: 2026-06-24T06:38:17.539Z
 
 ## Problem Description
 
