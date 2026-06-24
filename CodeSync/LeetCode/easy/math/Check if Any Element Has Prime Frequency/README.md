@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Math, Counting, Number Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/
-- Synced: 2026-06-24T06:58:57.379Z
+- Synced: 2026-06-24T06:59:43.227Z
 
 ## Problem Description
 
