@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-27T10:17:18.162Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Reverse A String In C Cpp Different Methods",
+    "Reverse A String In Java",
+    "String Reverse"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def reverseString(self, input_word): word_length = len(input_word) if word_length < 2: return input_word char_list = list(input_word) left_ptr, right_ptr = 0, word_length - 1 while left_ptr <= right_ptr: char_list[left_ptr], char_list[right_ptr] = char_list[right_ptr], char_list[left_ptr] left_ptr, right_ptr = left_ptr + 1, right_ptr - 1 return \"\".join(char_list)",
+  "problemTitle": "75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 3/75)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-string/1",
+  "submissionId": "da4oyb"
+}
