@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-28T18:31:11.553Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Max Consecutive Ones III",
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/?utm_source=chatgpt.com",
+  "submissionId": "4aulz4"
+}
