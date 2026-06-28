@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-18T17:14:26.126Z",
+  "submissionTimestamp": "2026-06-28T12:19:19.804Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def countPairs(self, arr, target): n = len(arr) left = 0 right = n - 1 count = 0 while left < right: current_sum = arr[left] + arr[right] if current_sum < target: left += 1 elif current_sum > target: right -= 1 else: # Trường hợp tìm thấy tổng bằng target # Case A: Hai số ở 2 đầu bằng nhau (Vd: 1 ... 1) # Nghĩa là tất cả số ở giữa cũng bằng 1 if arr[left] == arr[right]: temp_n = right - left + 1 count += (temp_n * (temp_n - 1)) // 2 break # Đã đếm xong hết đoạn này # Case B: Hai số ở 2 đầu khác nhau (Vd: 1 ... 5) else: cnt_left = 1 cnt_right = 1 # Đếm số lượng phần tử trùng với arr[left] while left + 1 < right and arr[left] == arr[left + 1]: cnt_left += 1 left += 1 # Đếm số lượng phần tử trùng với arr[right] while right - 1 > left and arr[right] == arr[right - 1]: cnt_right += 1 right -= 1 count += (cnt_left * cnt_right) # Dịch chuyển tiếp tục để tìm cặp mới left += 1 right -= 1 return count",
+  "language": "Java (21)",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1",
-  "submissionId": "hva00l"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1",
+  "submissionId": "p3p2rb"
 }
