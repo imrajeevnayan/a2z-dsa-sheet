@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-22T18:32:53.914Z",
+  "submissionTimestamp": "2026-06-28T18:04:06.612Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Sliding Window",
   "problemTitle": "Minimum Size Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "p7u391"
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "r4idkp"
 }
