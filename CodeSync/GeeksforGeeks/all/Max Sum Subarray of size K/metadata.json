@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-28T18:13:34.010Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags OYO RoomsNPCI",
+    "Company Tags",
+    "OYO Rooms",
+    "NPCI",
+    "Topic Tags",
+    "prefix-sum",
+    "sliding-window"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def maxSubarraySum(self, arr, k): # code here n = len(arr) mxSum = 0 currSum = 0 l = 0 for r in range(n): currSum += arr[r] if r - l + 1 > k: currSum -= arr[l] l += 1 if r - l + 1 == k: mxSum = max(mxSum, currSum) return mxSum",
+  "problemTitle": "Max Sum Subarray of size K",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+  "submissionId": "1no19d"
+}
