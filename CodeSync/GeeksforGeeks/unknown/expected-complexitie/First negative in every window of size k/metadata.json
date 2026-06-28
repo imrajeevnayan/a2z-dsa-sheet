@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-28T18:49:47.822Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "sliding-window",
+    "two-pointer-algorithm",
+    "Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def firstNegInt(self, arr, k): # code here l, r = 0, k - 1 res = [] while r < len(arr): # this maintains the window [k] if r - l + 1 > k: l += 1 # in the current window, shrink from left side # if the left most element is not negative while l <= r and arr[l] >= 0: l += 1 # has negative in current window if l <= r: res.append(arr[l]) # no negative in current window else: res.append(0) r += 1 return res",
+  "problemTitle": "First negative in every window of size k",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1",
+  "submissionId": "2r0shk"
+}
