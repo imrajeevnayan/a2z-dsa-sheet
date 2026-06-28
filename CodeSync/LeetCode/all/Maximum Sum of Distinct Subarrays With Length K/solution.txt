@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Sum of Distinct Subarrays With Length K
+ * URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T17:54:34.180Z
+ */
+
+class Solution {
+    public long maximumSubarraySum(int[] nums, int k) {
+        
+    }
+}
