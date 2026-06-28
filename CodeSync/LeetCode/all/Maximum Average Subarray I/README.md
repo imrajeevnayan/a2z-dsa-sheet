@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/
-- Synced: 2026-06-06T05:21:58.866Z
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com
+- Synced: 2026-06-28T18:27:51.571Z
 
 ## Problem Description
 
