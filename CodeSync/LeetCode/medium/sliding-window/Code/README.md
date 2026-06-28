@@ -4,10 +4,10 @@
 - Language: Sliding Window
 - Difficulty: Medium
 - Topics: Array, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-06-28T18:19:55.470Z
+- Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-06-28T18:20:41.926Z
 
 ## Problem Description
 
