@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First negative in every window of size k
+ * URL: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
+ * Language: class Solution: def firstNegInt(self, arr, k): # code here l, r = 0, k - 1 res = [] while r < len(arr): # this maintains the window [k] if r - l + 1 > k: l += 1 # in the current window, shrink from left side # if the left most element is not negative while l <= r and arr[l] >= 0: l += 1 # has negative in current window if l <= r: res.append(arr[l]) # no negative in current window else: res.append(0) r += 1 return res
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T18:49:47.822Z
+ */
+
+class Solution {
+    static List<Integer> firstNegInt(int arr[], int k) {
+
+        List<Integer> ans = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+
+            // Store index of negative numbers
+            if (arr[i] < 0) {
+                q.offer(i);
+            }
+
+            // Window of size k is formed
+            if (i >= k - 1) {
+
+                // Remove indices outside the current window
+                while (!q.isEmpty() && q.peek() < i - k + 1) {
+                    q.poll();
+                }
+
+                // First negative in current window
+                if (q.isEmpty()) {
+                    ans.add(0);
+                } else {
+                    ans.add(arr[q.peek()]);
+                }
+            }
+        }
+
+        return ans;
+    }
+}
