@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-28T17:54:34.180Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Sum of Distinct Subarrays With Length K",
+  "problemUrl": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/",
+  "submissionId": "mvdrkk"
+}
