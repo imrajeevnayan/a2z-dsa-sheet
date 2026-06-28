@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-17T09:32:25.434Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-28T18:18:13.226Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List"
+    "Array",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Linked List (Copy-9gvhzx23)",
+  "language": "Sliding Window",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "q6j5nk"
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "2wzbtr"
 }
