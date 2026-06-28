@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
  * Memory: 69.84 MB
- * Synced: 2026-06-28T18:29:27.157Z
+ * Synced: 2026-06-28T18:30:14.157Z
  */
 
 class Solution {
