@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-28T18:27:51.571Z",
+  "submissionTimestamp": "2026-06-28T18:29:27.157Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "69.84 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Average Subarray I",
-  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com",
+  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/submissions/2049263618/?utm_source=chatgpt.com",
   "submissionId": "7i8eea"
 }
