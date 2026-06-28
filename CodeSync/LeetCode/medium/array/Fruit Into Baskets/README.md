@@ -1,13 +1,13 @@
 # Fruit Into Baskets
 
 - Platform: LeetCode
-- Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv
-- Synced: 2026-06-24T07:08:30.016Z
+- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/?utm_source=chatgpt.com
+- Synced: 2026-06-28T18:30:41.689Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are visiting a farm that has a single row of fruit trees arranged from left 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window Problems (Copy-x1lbzfk3)Zj. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
