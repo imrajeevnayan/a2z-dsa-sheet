@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com
-- Synced: 2026-06-28T18:27:51.571Z
+- Memory: 69.84 MB
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/submissions/2049263618/?utm_source=chatgpt.com
+- Synced: 2026-06-28T18:29:27.157Z
 
 ## Problem Description
 
