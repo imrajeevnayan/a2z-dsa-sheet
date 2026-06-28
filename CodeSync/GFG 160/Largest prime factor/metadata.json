@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-28T12:20:27.723Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Yahoo",
+    "Company Tags",
+    "Yahoo",
+    "Topic Tags",
+    "Mathematical",
+    "Prime Number",
+    "sieve"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def largestPrimeFactor(self, n): largest = 1 while n % 2 == 0: largest = 2 n //= 2 for i in range(3, int(n**0.5) + 1, 2): while n % i == 0: largest = i n //= i if n > 1: largest = n return largest",
+  "problemTitle": "Largest prime factor",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-prime-factor2601/1",
+  "submissionId": "le59ng"
+}
