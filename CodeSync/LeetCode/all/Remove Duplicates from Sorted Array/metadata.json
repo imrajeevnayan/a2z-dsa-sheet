@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-14T03:45:19.397Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-28T17:36:26.456Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Remove Duplicates from Sorted Array",
   "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
-  "submissionId": "2p44io"
+  "submissionId": "bt3dpc"
 }
