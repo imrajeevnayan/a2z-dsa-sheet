@@ -7,33 +7,34 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-28T19:03:26.169Z
+ * Synced: 2026-06-28T19:14:36.880Z
  */
 
 class Solution {
     static List<Integer> firstNegInt(int arr[], int k) {
         List<Integer> ans = new ArrayList<>();
         Queue<Integer> q = new LinkedList<>();
-        // First window
-        for (int i = 0; i < k; i++) {
-            if (arr[i] < 0) q.offer(arr[i]);
-        }
-        ans.add(q.isEmpty() ? 0 : q.peek());
+        int left = 0;
+        for (int right = 0; right < arr.length; right++) {
+            if (arr[right] < 0) q.offer(right);
+            // Window size becomes k
+            if (right - left + 1 == k) {
 
-        // Remaining windows
-        for (int i = k; i < arr.length; i++) {
+               // Remove expired negative indices
+                while (!q.isEmpty() && q.peek() < left) {
+                    q.poll();
+                }
 
-            // Remove outgoing negative
-            if (!q.isEmpty() && arr[i - k] == q.peek()) {
-                q.poll();
+                // First negative element
+                if (q.isEmpty()) {
+                    ans.add(0);
+                } else {
+                    ans.add(arr[q.peek()]);
+                }
+
+                // Slide window
+                left++;
             }
-
-            // Add incoming negative
-            if (arr[i] < 0) {
-                q.offer(arr[i]);
-            }
-
-            ans.add(q.isEmpty() ? 0 : q.peek());
         }
 
         return ans;
