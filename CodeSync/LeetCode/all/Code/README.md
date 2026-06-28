@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Sliding Window
 - Difficulty: Medium
-- Topics: Linked List
-- Runtime: 0 ms
+- Topics: Array, Sliding Window
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:32:25.434Z
+- Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-06-28T18:18:13.226Z
 
 ## Problem Description
 
-Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts. The length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null. The parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later. Return an array of the k parts. Example 1: Input: head = [1,2,3], k = 5 Output: [[1],[2],[3],[],[]] Explanation: The first element output[0] has output[0].val = 1, output[0].next = null. The last element output[4] is null, but its string representation as a ListNode is []. Example 2: Input: head = [1,2,3,4,5,6,7,8,9,10], k = 3 Output: [[1,2,3,4],[5,6,7],[8,9,10]] Explanation: The input has been split into consecutive parts with size difference at most 1, and earlier parts are a larger size than the later parts. Constraints: The number of nodes in the list is in the range [0, 1000]. 0 <= Node.val <= 1000 1 <= k <= 50
+There is a bookstore owner that has a store open for n minutes. You are given an integer array customers of length n where customers[i] is the number of the customers that enter the store at the start of the ith minute and all those customers leave after the end of that minute. During certain minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise. When the bookstore owner is grumpy, the customers entering during that minute are not satisfied. Otherwise, they are satisfied. The bookstore owner knows a secret technique to remain not grumpy for minutes consecutive minutes, but this technique can only be used once. Return the maximum number of customers that can be satisfied throughout the day. Example 1: Input: customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], minutes = 3 Output: 16 Explanation: The bookstore owner keeps themselves not grumpy for the last 3 minutes. The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 16. Example 2: Input: customers = [1], grumpy = [0], minutes = 1 Output: 1 Constraints: n == customers.length == grumpy.length 1 <= minutes <= n <= 2 * 104 0 <= customers[i] <= 1000 grumpy[i] is either 0 or 1.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
