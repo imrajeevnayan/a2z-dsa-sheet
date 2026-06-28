@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/1905451492/
-- Synced: 2026-06-28T17:59:42.255Z
+- Problem URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
+- Synced: 2026-06-28T18:00:27.489Z
 
 ## Problem Description
 
