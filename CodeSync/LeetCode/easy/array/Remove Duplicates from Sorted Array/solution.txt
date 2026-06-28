@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T03:45:34.742Z
+ * Synced: 2026-06-28T17:36:26.456Z
  */
 
 class Solution {
