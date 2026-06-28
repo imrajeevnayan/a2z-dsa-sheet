@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Code
+ * URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Medium
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T18:18:13.226Z
+ */
+
+class Solution {
+    public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+        
+    }
+}
