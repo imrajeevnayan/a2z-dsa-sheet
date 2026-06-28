@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
-- Synced: 2026-06-28T19:00:59.160Z
+- Synced: 2026-06-28T19:02:04.684Z
 
 ## Problem Description
 
