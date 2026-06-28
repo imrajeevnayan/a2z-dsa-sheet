@@ -1,13 +1,13 @@
 # Minimum Size Subarray Sum
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: Sliding Window
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-06-22T18:32:53.914Z
+- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-06-28T18:04:06.612Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of positive integers nums and a positive integer target, return t
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
