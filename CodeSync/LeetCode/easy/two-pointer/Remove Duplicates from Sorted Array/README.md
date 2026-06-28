@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.76 MB
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-- Synced: 2026-06-28T17:53:59.147Z
+- Synced: 2026-06-28T17:54:46.164Z
 
 ## Problem Description
 
