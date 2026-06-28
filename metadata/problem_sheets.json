@@ -822,5 +822,9 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "geeksforgeeks:first-negative-integer-in-every-window-of-size-k3345": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
