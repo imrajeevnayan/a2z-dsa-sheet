@@ -1,25 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23
- * Language: Linked List (Copy-9gvhzx23)
+ * URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
- * Topics: Linked List
- * Runtime: 0 ms
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:32:25.434Z
+ * Synced: 2026-06-28T18:18:13.226Z
  */
 
-// move to end of current part
-
-            extra--;
-            int partSize = baseSize + (extra > 0 ? 1 : 0);
-
-            ListNode partHead = curr;
-
-        for (int i = 0; i < k; i++) {
-
-        curr = head;
-        ListNode[] result = new ListNode[k];
-
-        int extra = n % k;
+class Solution {
+    public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+        
+    }
+}
