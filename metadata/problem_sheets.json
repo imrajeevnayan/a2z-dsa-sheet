@@ -816,5 +816,11 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:max-consecutive-ones-iii": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
