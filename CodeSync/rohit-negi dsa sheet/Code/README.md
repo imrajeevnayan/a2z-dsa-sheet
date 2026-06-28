@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-06-28T18:19:08.162Z
+- Synced: 2026-06-28T18:19:55.470Z
 
 ## Problem Description
 
