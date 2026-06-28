@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-28T18:18:13.226Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window",
+  "problemTitle": "Code",
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "2wzbtr"
+}
