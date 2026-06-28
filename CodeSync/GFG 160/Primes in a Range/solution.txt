@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Primes in a Range
+ * URL: https://www.geeksforgeeks.org/problems/find-prime-numbers-in-a-range4718/1
+ * Language: **JAVA** class Solution { ArrayList<Integer> primeRange(int M, int N) { ArrayList<Integer> al = new ArrayList<>(); // Create a boolean array for marking non-prime numbers boolean arr[] = new boolean[N + 1]; // Mark 1 as non-prime explicitly arr[1] = true; // Implement Sieve of Eratosthenes for (int i = 2; i<=Math.sqrt(N); i++) { if (!arr[i]) { // If i is prime for (int j = i * i; j <= N; j += i) { arr[j] = true; // Mark multiples of i as non-prime } } } // Collect primes in the range [M, N] for (int i = M; i <= N; i++) { if (!arr[i]) { al.add(i); } } return al; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags VMWareQualcommGEWalmart, Company Tags, VMWare, Qualcomm, GE, Walmart, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T12:22:22.404Z
+ */
+
+class Solution {
+    public List<Integer> primeRange(int l, int r) {
+
+        boolean[] prime = new boolean[r + 1];
+        Arrays.fill(prime, true);
+
+        if (r >= 0) prime[0] = false;
+        if (r >= 1) prime[1] = false;
+
+        for (int i = 2; i * i <= r; i++) {
+
+            if (prime[i]) {
+
+                for (int j = i * i; j <= r; j += i) {
+                    prime[j] = false;
+                }
+            }
+        }
+
+        List<Integer> ans = new ArrayList<>();
+
+        for (int i = Math.max(2, l); i <= r; i++) {
+
+            if (prime[i]) {
+                ans.add(i);
+            }
+        }
+
+        return ans;
+    }
+}
