@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Average Subarray I
- * URL: https://leetcode.com/problems/maximum-average-subarray-i/
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-06T05:21:58.866Z
+ * Synced: 2026-06-28T18:27:51.571Z
  */
 
 class Solution {
