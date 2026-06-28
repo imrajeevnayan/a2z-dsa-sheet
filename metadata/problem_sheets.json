@@ -786,5 +786,8 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:maximum-sum-of-distinct-subarrays-with-length-k": [
+    "custom:algomaster-300"
   ]
 }
