@@ -1,22 +1,28 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
+ * URL: https://www.geeksforgeeks.org/problems/second-largest3735/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-28T12:19:19.804Z
+ * Synced: 2026-06-28T17:58:16.763Z
  */
 
 class Solution {
-    public static int gcd(int a, int b) {
-        while(b !=0){
-            int temp=b;
-            b=a % b;
-            a=temp;
+    public int getSecondLargest(int[] arr) {
+        int max = Integer.MIN_VALUE,second = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                second = max;
+                max = arr[i];
+            } 
+            else if (arr[i] < max && arr[i] > second) second = arr[i];
         }
-        return a;
+
+        if (second == Integer.MIN_VALUE) return -1;
+
+        return second;
     }
 }
