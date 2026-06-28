@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-28T18:13:34.010Z
+ * Synced: 2026-06-28T18:14:23.483Z
  */
 
 class Solution {
