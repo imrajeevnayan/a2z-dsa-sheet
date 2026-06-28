@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T05:21:58.866Z",
+  "submissionTimestamp": "2026-06-28T18:27:51.571Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Average Subarray I",
-  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/",
-  "submissionId": "i0o50e"
+  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com",
+  "submissionId": "7i8eea"
 }
