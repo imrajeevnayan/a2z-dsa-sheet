@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Max Consecutive Ones III
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/?utm_source=chatgpt.com
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T18:31:11.553Z
+ */
+
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+        int left=0,zeros=0,maxLen=0;
+        for(int right=0;right<nums.length;right++){
+            if(nums[right]==0)zeros++;
+            while(zeros >k){
+                if(nums[left]==0)zeros--;
+                left++;
+            }
+            maxLen=Math.max(maxLen,right-left+1);
+        }
+        return maxLen;
+        
+    }
+}
