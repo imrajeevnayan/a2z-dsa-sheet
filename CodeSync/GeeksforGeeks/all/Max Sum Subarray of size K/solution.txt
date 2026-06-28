@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Sum Subarray of size K
+ * URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+ * Language: class Solution: def maxSubarraySum(self, arr, k): # code here n = len(arr) mxSum = 0 currSum = 0 l = 0 for r in range(n): currSum += arr[r] if r - l + 1 > k: currSum -= arr[l] l += 1 if r - l + 1 == k: mxSum = max(mxSum, currSum) return mxSum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T18:13:34.010Z
+ */
+
+class Solution {
+    public int maxSubarraySum(int[] arr, int k) {
+        int n=arr.length;
+        int maxSum=0,curr=0;
+        for(int i=0;i<k;i++) curr+=arr[i];
+        maxSum=curr;
+        for(int i=k;i<n;i++){
+            curr+=arr[i]-arr[i-k];
+            maxSum=Math.max(maxSum,curr);
+        }
+        return maxSum;
+    }
+}
