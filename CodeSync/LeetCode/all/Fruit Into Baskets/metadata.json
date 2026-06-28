@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-24T07:08:30.016Z",
+  "submissionTimestamp": "2026-06-28T18:30:41.689Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,8 +9,8 @@
     "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
+  "language": "Problem List",
   "problemTitle": "Fruit Into Baskets",
-  "problemUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/?envType=problem-list-v2&envId=da2h7mkv",
-  "submissionId": "dv7t6e"
+  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/description/?utm_source=chatgpt.com",
+  "submissionId": "n0p1th"
 }
