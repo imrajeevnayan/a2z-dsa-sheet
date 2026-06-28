@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
-- Synced: 2026-06-28T12:19:19.804Z
+- Problem URL: https://www.geeksforgeeks.org/problems/second-largest3735/1
+- Synced: 2026-06-28T17:58:16.763Z
 
 ## Problem Description
 
