@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Largest prime factor
+ * URL: https://www.geeksforgeeks.org/problems/largest-prime-factor2601/1
+ * Language: def largestPrimeFactor(self, n): largest = 1 while n % 2 == 0: largest = 2 n //= 2 for i in range(3, int(n**0.5) + 1, 2): while n % i == 0: largest = i n //= i if n > 1: largest = n return largest
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Yahoo, Company Tags, Yahoo, Topic Tags, Mathematical, Prime Number, sieve
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-28T12:20:27.723Z
+ */
+
+class Solution {
+    static int largestPrimeFactor(int n) {
+        int largest = -1;
+
+        while (n % 2 == 0) {
+            largest = 2;
+            n /= 2;
+        }
+
+        for (int i = 3; i * i <= n; i += 2) {
+
+            while (n % i == 0) {
+                largest = i;
+                n /= i;
+            }
+        }
+
+        if (n > 1)
+            largest = n;
+
+        return largest;
+    }
+}
