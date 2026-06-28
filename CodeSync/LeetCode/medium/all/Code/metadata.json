@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-28T18:19:55.470Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-28T18:20:41.926Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Sliding Window",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "2wzbtr"
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "14xtug"
 }
