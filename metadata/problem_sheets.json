@@ -871,5 +871,8 @@
   "leetcode:valid-triangle-number": [
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet"
+  ],
+  "geeksforgeeks:count-possible-triangles-1587115620": [
+    "GFG160"
   ]
 }
