@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-29T10:12:05.399Z",
+  "submissionTimestamp": "2026-06-29T10:12:50.844Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/description/",
-  "submissionId": "ox7j14"
+  "problemUrl": "https://leetcode.com/problems/3sum/",
+  "submissionId": "flgcvu"
 }
