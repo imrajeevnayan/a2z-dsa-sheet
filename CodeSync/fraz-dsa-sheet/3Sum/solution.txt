@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T10:30:12.266Z
+ * Synced: 2026-06-29T10:30:57.855Z
  */
 
 class Solution {
@@ -16,7 +16,8 @@ class Solution {
         Arrays.sort(nums);
         for(int i=0;i<nums.length-2;i++){
            if(i >0 && nums[i]==nums[i-1])continue;
-           int le
+           int left=i+1,right=nums.length-1;
         }
     }
+           while
 }
