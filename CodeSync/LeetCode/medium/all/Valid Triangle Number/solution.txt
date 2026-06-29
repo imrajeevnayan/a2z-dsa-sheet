@@ -5,25 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Greedy, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-29T15:31:58.048Z
+ * Synced: 2026-06-29T15:33:06.303Z
  */
 
-int left = 0;
-            int right = k - 1;
-
+int left = 0,right = k - 1;
             while (left < right) {
-
                 if (arr[left] + arr[right] > arr[k]) {
-
                     count += (right - left);
                     right--;
         for (int k = n - 1; k >= 2; k--) {
-
         int n = arr.length,count = 0;
-    public int triangleNumber(int[] nums) {
+    public int triangleNumber(int[] arr) {
         Arrays.sort(arr);
+                }
+            }
+        }
+        return count; 
+                 else left++;   
+    }
+}
 class Solution {
-
-                } else {
