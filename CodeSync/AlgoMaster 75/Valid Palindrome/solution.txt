@@ -5,13 +5,20 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-29T09:20:24.499Z
+ * Synced: 2026-06-29T09:27:33.068Z
  */
 
 class Solution {
     public boolean isPalindrome(String s) {
+        String s1=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(left<right){
+            if(s1.charAt(left)!=s1.charAt(right))return false;
+            left++;
+            right--;
+        }
+        return true;
     }
-        String s1=s.replaceA
 }
