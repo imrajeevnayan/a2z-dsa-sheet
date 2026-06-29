@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Two Pointers, String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-palindrome/submissions/
-- Synced: 2026-06-29T09:05:03.760Z
+- Runtime: 15 ms
+- Memory: 46.39 MB
+- Problem URL: https://leetcode.com/problems/valid-palindrome/submissions/2012809337/
+- Synced: 2026-06-29T09:06:40.674Z
 
 ## Problem Description
 
