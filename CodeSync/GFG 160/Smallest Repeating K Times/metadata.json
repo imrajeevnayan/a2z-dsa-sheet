@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-29T16:34:16.298Z",
+  "runtime": ". S",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "Data Structures",
+    "Related Articles",
+    "C++",
+    "cpp-unordered_map"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int findDuplicate(int[] arr, int k) { // code here int[] freq = new int[10001]; for ( int i : arr ) { freq[i]++; } for ( int i = 0 ; i < 10001 ; i++ ) { if ( freq[i] == k ) { return i; } } return -1; } }",
+  "problemTitle": "Smallest Repeating K Times",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/smallest-number-repeating-k-times3239/1",
+  "submissionId": "j9cf14"
+}
