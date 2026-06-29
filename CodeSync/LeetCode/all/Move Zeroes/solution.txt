@@ -1,21 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Move Zeroes
- * URL: https://leetcode.com/problems/move-zeroes/
+ * URL: https://leetcode.com/problems/move-zeroes/submissions/2050249740/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers
- * Runtime: . S
- * Memory: N/A
- * Synced: 2026-06-18T16:51:07.093Z
+ * Runtime: 0 ms
+ * Memory: 47.76 MB
+ * Synced: 2026-06-29T15:56:22.157Z
  */
 
 class Solution {
-    public void moveZeroes(int[] nums) {
-        
+    public void moveZeroes(int[] arr) {
         int i=0;
-        for(int j=0;j<nums.length;j++){
-            if(arr[]!)
+        for(int j=0;j<arr.length;j++){
+            if(arr[j]!=0)arr[i++]=arr[j];
         }
+        while(i<arr.length)arr[i++]=0;
     }
 }
