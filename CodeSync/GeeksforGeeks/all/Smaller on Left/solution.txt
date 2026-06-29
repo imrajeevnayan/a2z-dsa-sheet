@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T15:59:50.551Z
+ * Synced: 2026-06-29T16:00:55.457Z
  */
 
 class Complete {
@@ -18,10 +18,8 @@ class Complete {
         for (int i = 1; i < n; i++) {
             if (min < arr[i])  ans[i] = min;
             else  ans[i] = -1;
-
             min = Math.min(min, arr[i]);
         }
-
         return ans;
     }
 }
