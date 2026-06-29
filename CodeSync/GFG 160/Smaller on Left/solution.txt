@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smaller on Left
+ * URL: https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T15:58:05.670Z
+ */
+
+class Complete {
+
+    // Function for finding maximum and value pair
+    public static int[] Smallestonleft(int arr[], int n) {
+        // Complete the function
+    }
+}
