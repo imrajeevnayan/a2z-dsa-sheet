@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-29T16:30:32.157Z",
+  "submissionTimestamp": "2026-06-29T16:31:17.215Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "class Solution { public int findUnique(int k, int[] arr) { HashMap<Integer, Integer> mp = new HashMap<>(); for (int num : arr) { mp.put(num, mp.getOrDefault(num, 0) + 1); } // Find element which does NOT occur k times for (int key : mp.keySet()) { if (mp.get(key) % k != 0) { return key; } } return -1; } }",
   "problemTitle": "🎯 Find the Unique Element | HashMap Approach",
   "problemUrl": "https://www.geeksforgeeks.org/problems/find-unique-element2632/1",
-  "submissionId": "lm6o62"
+  "submissionId": "if5v15"
 }
