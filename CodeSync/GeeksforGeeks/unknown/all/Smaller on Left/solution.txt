@@ -7,10 +7,21 @@
  * Topics: Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T15:59:04.750Z
+ * Synced: 2026-06-29T15:59:50.551Z
  */
 
 class Complete {
     public static int[] Smallestonleft(int arr[], int n) {
+        int[] ans = new int[n];
+        int min = arr[0];
+        ans[0] = -1;
+        for (int i = 1; i < n; i++) {
+            if (min < arr[i])  ans[i] = min;
+            else  ans[i] = -1;
+
+            min = Math.min(min, arr[i]);
+        }
+
+        return ans;
     }
 }
