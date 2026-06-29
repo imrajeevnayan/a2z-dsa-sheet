@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-05-31T06:58:40.221Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-29T09:05:03.760Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Palindrome",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2017913035/",
-  "submissionId": "fugl2s"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/",
+  "submissionId": "nlumgf"
 }
