@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-29T10:34:48.084Z
+ * Synced: 2026-06-29T10:35:36.073Z
  */
 
 ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
