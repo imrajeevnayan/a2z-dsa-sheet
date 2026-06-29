@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/system-design/what-is-low-level-design-or-lld-learn-system-design/
-- Synced: 2026-06-29T15:33:18.164Z
+- Synced: 2026-06-29T15:34:19.160Z
 
 ## Problem Description
 
