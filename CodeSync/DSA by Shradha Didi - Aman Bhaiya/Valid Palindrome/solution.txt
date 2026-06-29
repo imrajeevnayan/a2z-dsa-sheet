@@ -7,11 +7,13 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T09:20:24.499Z
+ * Synced: 2026-06-29T09:21:58.647Z
  */
 
 class Solution {
     public boolean isPalindrome(String s) {
     }
-        String s1=s.replaceA
+        String s1=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(())
 }
