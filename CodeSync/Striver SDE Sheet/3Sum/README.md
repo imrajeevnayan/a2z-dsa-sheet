@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/3sum/description/
-- Synced: 2026-06-29T10:12:05.399Z
+- Problem URL: https://leetcode.com/problems/3sum/
+- Synced: 2026-06-29T10:12:50.844Z
 
 ## Problem Description
 
