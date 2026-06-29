@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-29T18:18:23.451Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Hash",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "from collections import Counter class Solution: def KthDistinct(self, nums, k): freq = Counter(nums) distinct = [x for x in nums if freq[x] == 1] return distinct[k - 1] if k <= len(distinct) else -1",
+  "problemTitle": "K-th distinct element",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/k-th-distinct-element4510/1",
+  "submissionId": "sp831b"
+}
