@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-19T04:42:15.159Z",
-  "runtime": "2304 ms",
-  "memoryUsage": "61.30 MB",
+  "submissionTimestamp": "2026-06-29T10:12:50.844Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/submissions/2038174914/",
-  "submissionId": "ghl44o"
+  "problemUrl": "https://leetcode.com/problems/3sum/",
+  "submissionId": "flgcvu"
 }
