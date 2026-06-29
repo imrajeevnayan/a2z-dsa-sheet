@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: K-th distinct element
+ * URL: https://www.geeksforgeeks.org/problems/k-th-distinct-element4510/1
+ * Language: from collections import Counter class Solution: def KthDistinct(self, nums, k): freq = Counter(nums) distinct = [x for x in nums if freq[x] == 1] return distinct[k - 1] if k <= len(distinct) else -1
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T18:18:23.451Z
+ */
+
+class Solution {
+    public int kthDistinctElement(int[] arr, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int num : arr) map.put(num, map.getOrDefault(num, 0) + 1);
+        int count = 0;
+        for (int num : arr) {
+            if (map.get(num) == 1) count++;
+                if (count == k)  return num;
+        }
+        return -1;
+    }
+}
