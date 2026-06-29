@@ -7,11 +7,13 @@
  * Topics: Array, Two Pointers, Binary Search, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T15:29:41.186Z
+ * Synced: 2026-06-29T15:30:26.766Z
  */
 
 class Solution {
     public int triangleNumber(int[] nums) {
         Arrays.sort(nums);
     }
+        int n=nums.length,count=0;
+        for(int )
 }
