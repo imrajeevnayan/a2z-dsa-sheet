@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-unique-element2632/1
-- Synced: 2026-06-29T16:29:41.243Z
+- Synced: 2026-06-29T16:30:32.157Z
 
 ## Problem Description
 
