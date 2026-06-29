@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Find element at a given Index
+ * URL: https://www.geeksforgeeks.org/problems/c-array-print-an-element-set-25933/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, CPP, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T17:48:30.343Z
+ */
+
+class Solution {
+    public int findElementAtIndex(int i, int[] arr) {
+        for(int j=0;j<arr.length;j++){
+            if(j==i)return arr[j];
+        }
+        return -1;
+    }
+}
