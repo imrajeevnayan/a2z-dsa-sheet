@@ -1,13 +1,13 @@
 # Smaller on Left
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: vector<int> Smallestonleft(int arr[], int n) { vector<int> res; set<int> s; for (int i = 0; i < n; i++) { auto it = s.lower_bound(arr[i]); if (it == s.begin()) { res.push_back(-1); } else { it--; res.push_back(*it); } s.insert(arr[i]); } return res; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1
-- Synced: 2026-06-29T15:58:05.670Z
+- Synced: 2026-06-29T15:59:04.750Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[ ] of n positive integers, the task is to find the greatest e
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using vector<int> Smallestonleft(int arr[], int n) { vector<int> res; set<int> s; for (int i = 0; i < n; i++) { auto it = s.lower_bound(arr[i]); if (it == s.begin()) { res.push_back(-1); } else { it--; res.push_back(*it); } s.insert(arr[i]); } return res; }. The detected topics are Expected Complexities, Topic Tags, set, Arrays, Hash, Map, Data Structures, Related Articles. Review the synced source file for the implementation details.
