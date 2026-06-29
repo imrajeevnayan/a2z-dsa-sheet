@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-29T09:22:44.039Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-29T09:23:31.093Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Valid Palindrome",
   "problemUrl": "https://leetcode.com/problems/valid-palindrome/",
-  "submissionId": "epipgz"
+  "submissionId": "9c4zhw"
 }
