@@ -5,12 +5,15 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: 1 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T04:48:35.159Z
+ * Synced: 2026-06-29T10:12:05.399Z
  */
 
-Arrays.sort(nums);
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Set<List<Integer>> res = new HashSet<>();
+        Arrays.sort(nums);
         for (int i = 0; i < nums.length - 2; i++) {
             Set<Integer> set = new HashSet<>();
             for (int j = i + 1; j < nums.length; j++) {
@@ -24,6 +27,3 @@ Arrays.sort(nums);
         return new ArrayList<>(res);
     }
 }
-        Set<List<Integer>> res = new HashSet<>();
-class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
