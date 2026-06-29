@@ -908,5 +908,8 @@
   "geeksforgeeks:unique-numbers3019": [
     "custom:algomaster-300",
     "GFG160"
+  ],
+  "geeksforgeeks:count-distinct-vowels-in-string": [
+    "GFG160"
   ]
 }
