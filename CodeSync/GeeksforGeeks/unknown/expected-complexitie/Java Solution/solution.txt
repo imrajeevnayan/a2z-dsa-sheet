@@ -1,34 +1,43 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Java Solution
- * URL: https://www.geeksforgeeks.org/problems/max-and-min-in-arraylist/1
- * Language: class Solution { public static int maximumElement(ArrayList<Integer> arr) { // Your code here int max = Integer.MIN_VALUE; for ( int i : arr ) if ( i > max ) max = i; return max; } public static int minimumElement(ArrayList<Integer> arr) { int min = Integer.MAX_VALUE; for ( int i : arr ) if ( i < min ) min = i; return min; // Your code here } }
+ * URL: https://www.geeksforgeeks.org/problems/even-occurring-elements4332/1
+ * Language: class Solution { public List<Integer> findEvenOccurrences(int[] arr) { HashMap<Integer, Integer> map = new LinkedHashMap<>(); for (int i = 0, n = arr.length; i < n; ++i) map.put(arr[i], map.getOrDefault(arr[i], 0) + 1); List<Integer> res = new ArrayList<>(); for (int val : map.keySet()) if ((map.get(val) & 1) == 0) res.add(val); if (res.isEmpty()) res.add(-1); return res; } } // Solution class
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Topics: Expected Complexities, Topic Tags, Arrays, Bit Magic, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:11:10.252Z
+ * Synced: 2026-06-29T16:21:37.954Z
  */
 
 class Solution {
-    public static int maximumElement(ArrayList<Integer> arr) {
-        int max = arr.get(0);
-        for (int i = 1; i < arr.size(); i++) {
-            if (arr.get(i) > max) {
-                max = arr.get(i);
+    public ArrayList<Integer> findEvenOccurrences(int[] arr) {
+
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        // Count frequency of each element
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+        HashSet<Integer> visited = new HashSet<>();
+
+        // Add elements having even frequency
+        // in the order of their first occurrence
+        for (int num : arr) {
+
+            if (freq.get(num) % 2 == 0 && !visited.contains(num)) {
+                ans.add(num);
+                visited.add(num);
             }
         }
-        return max;
-    }
 
-    public static int minimumElement(ArrayList<Integer> arr) {
-        int min = arr.get(0);
-
-        for (int i = 1; i < arr.size(); i++) {
-            if (arr.get(i) < min) {
-                min = arr.get(i);
-            }
+        // If no such element exists
+        if (ans.isEmpty()) {
+            ans.add(-1);
         }
-        return min;
+
+        return ans;
     }
 }
