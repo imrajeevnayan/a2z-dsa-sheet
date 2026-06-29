@@ -7,18 +7,18 @@
  * Topics: Array, Two Pointers, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-18T17:31:45.080Z
+ * Synced: 2026-06-29T08:59:33.013Z
  */
 
-if (sum == target) {
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int left = 0, right = numbers.length - 1;
+        while (left < right) {
+            int sum = numbers[left] + numbers[right];
+            if (sum == target) {
                 return new int[]{left + 1,right + 1};
             }
             if (sum < target) left++;
-            int sum = numbers[left] + numbers[right];
-        while (left < right) {
-        int left = 0, right = numbers.length - 1;
-    public int[] twoSum(int[] numbers, int target) {
-class Solution {
             else right--;
         }
         return new int[]{-1, -1};
