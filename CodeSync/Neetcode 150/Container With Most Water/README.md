@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/container-with-most-water/
-- Synced: 2026-06-29T10:56:45.077Z
+- Problem URL: https://leetcode.com/problems/container-with-most-water/description/
+- Synced: 2026-06-29T15:27:11.601Z
 
 ## Problem Description
 
