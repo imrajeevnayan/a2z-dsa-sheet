@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://leetcode.com/problems/3sum/submissions/2049937546/
+ * URL: https://leetcode.com/problems/3sum/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
- * Memory: 58.92 MB
- * Synced: 2026-06-29T10:33:59.069Z
+ * Memory: N/A
+ * Synced: 2026-06-29T10:34:48.084Z
  */
 
 ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
@@ -18,9 +18,6 @@ ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
                     // Skip duplicate right
                     while (left < right &&  nums[right] == nums[right + 1]) right--;
 
-                }
-                else if (sum < 0)  left++;
-                else right--;
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
@@ -30,3 +27,4 @@ ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
         for (int i = 0; i < nums.length - 2; i++) {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
+class Solution {
