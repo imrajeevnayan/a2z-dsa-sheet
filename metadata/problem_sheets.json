@@ -830,5 +830,28 @@
   "geeksforgeeks:low-level-design-or-lld": [
     "GFG160"
   ],
-  "leetcode:number-of-strings-that-appear-as-substrings-in-word": []
+  "leetcode:number-of-strings-that-appear-as-substrings-in-word": [],
+  "leetcode:valid-palindrome": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "NishantChahar151",
+    "ApnaCollege375",
+    "FrazBhaiya",
+    "AlgoMaster75",
+    "SixComp30Days",
+    "Striver79",
+    "AtharvaPatil150",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
