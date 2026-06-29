@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smallest Repeating K Times
+ * URL: https://www.geeksforgeeks.org/problems/smallest-number-repeating-k-times3239/1
+ * Language: class Solution { public int findDuplicate(int[] arr, int k) { // code here int[] freq = new int[10001]; for ( int i : arr ) { freq[i]++; } for ( int i = 0 ; i < 10001 ; i++ ) { if ( freq[i] == k ) { return i; } } return -1; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Data Structures, Related Articles, C++, cpp-unordered_map
+ * Runtime: . S
+ * Memory: N/A
+ * Synced: 2026-06-29T16:34:16.298Z
+ */
+
+class Solution {
+    public int findDuplicate(int[] arr, int k) {
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        // Count frequency
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+        int ans = Integer.MAX_VALUE;
+
+        // Find smallest element with frequency k
+        for (int num : map.keySet()) {
+
+            if (map.get(num) == k) {
+                ans = Math.min(ans, num);
+            }
+        }
+
+        return ans == Integer.MAX_VALUE ? -1 : ans;
+    }
+}
