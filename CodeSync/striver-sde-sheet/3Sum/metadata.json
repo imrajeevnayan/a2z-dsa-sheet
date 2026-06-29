@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-29T10:33:59.069Z",
+  "submissionTimestamp": "2026-06-29T10:34:48.084Z",
   "runtime": "1 ms",
-  "memoryUsage": "58.92 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/submissions/2049937546/",
-  "submissionId": "h6m72f"
+  "problemUrl": "https://leetcode.com/problems/3sum/",
+  "submissionId": "ne5kt2"
 }
