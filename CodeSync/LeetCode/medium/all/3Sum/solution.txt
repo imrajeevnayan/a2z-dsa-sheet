@@ -7,14 +7,14 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T10:27:55.352Z
+ * Synced: 2026-06-29T10:29:26.106Z
  */
 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-        for(int i=0;i<n-3;i++){
-
+        for(int i=0;i<nums.length-2;i++){
+           if(i >0 && nums[i]==nums[i-1])
         }
     }
         List<List<Integer>>ans=new ArrayList<>();
