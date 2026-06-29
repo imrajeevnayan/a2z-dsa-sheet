@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Triangle Number
- * URL: https://leetcode.com/problems/valid-triangle-number/description/
+ * URL: https://leetcode.com/problems/valid-triangle-number/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T15:27:05.122Z
+ * Synced: 2026-06-29T15:28:08.187Z
  */
 
 class Solution {
