@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/container-with-most-water/
-- Synced: 2026-06-29T10:36:53.081Z
+- Synced: 2026-06-29T10:38:26.921Z
 
 ## Problem Description
 
