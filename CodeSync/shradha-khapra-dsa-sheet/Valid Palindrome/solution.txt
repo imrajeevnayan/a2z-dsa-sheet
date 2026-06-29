@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 15 ms
  * Memory: 46.39 MB
- * Synced: 2026-06-29T09:08:13.357Z
+ * Synced: 2026-06-29T09:09:02.080Z
  */
 
 Input: s = "A man, a plan, a canal: Panama"
