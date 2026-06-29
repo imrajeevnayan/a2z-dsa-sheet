@@ -7,17 +7,24 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T10:30:57.855Z
+ * Synced: 2026-06-29T10:31:43.136Z
  */
 
-class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>>ans=new ArrayList<>();
+while (left < right) {
+
+            int right = nums.length - 1;
+            int left = i + 1;
+
+                continue;
+            if (i > 0 && nums[i] == nums[i - 1])
+            // Skip duplicate first element
+
+        for (int i = 0; i < nums.length - 2; i++) {
+
+        List<List<Integer>> ans = new ArrayList<>();
+
+
         Arrays.sort(nums);
-        for(int i=0;i<nums.length-2;i++){
-           if(i >0 && nums[i]==nums[i-1])continue;
-           int left=i+1,right=nums.length-1;
-        }
-    }
-           while
-}
+
+    public List<List<Integer>> threeSum(int[] nums) {
+class Solution {
