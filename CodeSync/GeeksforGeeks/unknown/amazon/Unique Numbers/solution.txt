@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Unique Numbers
+ * URL: https://www.geeksforgeeks.org/problems/unique-numbers3019/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags Amazon, Company Tags, Amazon, Topic Tags, Hash, Data Structures, Related Interview Experiences, Amazon Interview Experience Set 315
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T18:05:35.404Z
+ */
+
+Input:
+L = 10
+R = 20
+
+Output:
+10 12 13 14 15 16 17 18 19 20
+
+Explanation:
+The number 11 has two 1 therefore
+11 is not a unique number.
