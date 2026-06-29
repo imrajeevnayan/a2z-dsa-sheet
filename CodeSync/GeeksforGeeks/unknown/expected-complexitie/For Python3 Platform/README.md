@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head
+- Language: class Solution { int findSum(int arr[]){ int n = arr.length; Arrays.sort(arr); int sum=arr[0]; for(int i=0;i<n-1;i++){ if(arr[i]==arr[i+1]){ continue; } sum=sum+arr[i+1]; } return sum; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List
+- Topics: Expected Complexities, Company Tags Oxigen Wallet, Company Tags, Oxigen Wallet, Topic Tags, Arrays, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1
-- Synced: 2026-06-19T08:53:48.137Z
+- Problem URL: https://www.geeksforgeeks.org/problems/sum-of-distinct-elements4801/1
+- Synced: 2026-06-29T16:08:35.796Z
 
 ## Problem Description
 
-You are given the head of a Singly Linked List and a value x, insert that value x at the end of the LinkedList and return the head of the modified Linked List. Examples : Input: x = 6, Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6 Explanation: We can see that 6 is inserted at the end of the linkedlist. Input: x = 1, Output: 4 -> 5 -> 1 Explanation: We can see that 1 is inserted at the end of the linked list. Constraints: 0 ≤ number of nodes ≤ 105 0 ≤ node->data , x ≤ 103
+You are given an array arr. Find the sum of distinct elements in an array. Examples: Input: arr[] = [1, 2, 3, 4, 5] Output: 15 Explanation: Distinct elements are 1, 2, 3, 4, 5. So sum is 15. Input: arr[] = [5, 5, 5, 5, 5] Output: 5 Explanation: Only Distinct element is 5. So sum is 5. Constraints: 1 ≤ arr.size() ≤ 106 0 ≤ arr[i] ≤ 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head. The detected topics are Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { int findSum(int arr[]){ int n = arr.length; Arrays.sort(arr); int sum=arr[0]; for(int i=0;i<n-1;i++){ if(arr[i]==arr[i+1]){ continue; } sum=sum+arr[i+1]; } return sum; } }. The detected topics are Expected Complexities, Company Tags Oxigen Wallet, Company Tags, Oxigen Wallet, Topic Tags, Arrays, Data Structures, Related Articles. Review the synced source file for the implementation details.
