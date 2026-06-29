@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Binary Search, Greedy, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/valid-triangle-number/
-- Synced: 2026-06-29T15:31:58.048Z
+- Synced: 2026-06-29T15:33:06.303Z
 
 ## Problem Description
 
