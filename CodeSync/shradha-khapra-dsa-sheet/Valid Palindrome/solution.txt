@@ -1,30 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Palindrome
- * URL: https://leetcode.com/problems/valid-palindrome/submissions/
+ * URL: https://leetcode.com/problems/valid-palindrome/submissions/2012809337/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-29T09:05:03.760Z
+ * Runtime: 15 ms
+ * Memory: 46.39 MB
+ * Synced: 2026-06-29T09:06:40.674Z
  */
 
-return check(s, start + 1, end);
-        }
-
-        if (!Character.isLetterOrDigit(right)) {
-            return check(s, start, end - 1);
-        }
-
-        if (Character.toLowerCase(left) != Character.toLowerCase(right)) {
-        if (!Character.isLetterOrDigit(left)) {
-        char right = s.charAt(end);
-        if (start >= end) return true;
-        char left = s.charAt(start);
-    private boolean check(String s, int start, int end) {
-
-    }
-        return check(s, 0, s.length() - 1);
-    public boolean isPalindrome(String s) {
-class Solution {
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
