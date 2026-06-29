@@ -1,23 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://leetcode.com/problems/3sum/
+ * URL: https://leetcode.com/problems/3sum/submissions/2049937546/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-29T10:30:57.855Z
+ * Runtime: 1 ms
+ * Memory: 58.92 MB
+ * Synced: 2026-06-29T10:33:59.069Z
  */
 
-class Solution {
+ans.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                    left++;
+                    right--;
+                    // Skip duplicate left
+                    while (left < right && nums[left] == nums[left - 1])left++;
+                    // Skip duplicate right
+                    while (left < right &&  nums[right] == nums[right + 1]) right--;
+
+                }
+                else if (sum < 0)  left++;
+                else right--;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0) {
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            int left = i + 1,right = nums.length - 1;
+        List<List<Integer>> ans = new ArrayList<>();
+        for (int i = 0; i < nums.length - 2; i++) {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>>ans=new ArrayList<>();
         Arrays.sort(nums);
-        for(int i=0;i<nums.length-2;i++){
-           if(i >0 && nums[i]==nums[i-1])continue;
-           int left=i+1,right=nums.length-1;
-        }
-    }
-           while
-}
