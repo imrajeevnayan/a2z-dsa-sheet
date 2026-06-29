@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1
-- Synced: 2026-06-29T15:59:04.750Z
+- Synced: 2026-06-29T15:59:50.551Z
 
 ## Problem Description
 
