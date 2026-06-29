@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T10:51:06.086Z
+ * Synced: 2026-06-29T10:51:56.085Z
  */
 
 int max = 0;
