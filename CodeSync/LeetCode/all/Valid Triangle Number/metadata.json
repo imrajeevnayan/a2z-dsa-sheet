@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-29T15:27:05.122Z",
+  "submissionTimestamp": "2026-06-29T15:28:08.187Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Triangle Number",
-  "problemUrl": "https://leetcode.com/problems/valid-triangle-number/description/",
+  "problemUrl": "https://leetcode.com/problems/valid-triangle-number/",
   "submissionId": "9srpci"
 }
