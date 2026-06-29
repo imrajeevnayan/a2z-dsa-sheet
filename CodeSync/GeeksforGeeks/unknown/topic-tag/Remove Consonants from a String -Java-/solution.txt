@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Consonants from a String (Java)
+ * URL: https://www.geeksforgeeks.org/problems/c-program-to-remove-consonants-from-a-string1945/1
+ * Language: class Solution: def removeConsonants(self, s): vowels = "aeiou" res = "" for i in s: if(i.lower() in vowels): res = res + i return res if res else "No Vowel"
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Searching, Strings, Data Structures, Algorithms, Related Articles, Program To Remove Consonants From A String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T18:05:11.582Z
+ */
+
+class Solution {
+    String remConsonants(String s) {
+        String ans = s.replaceAll("(?i)[^aeiou]", "");
+        return ans.length() == 0 ? "" : ans;
+    }
+}
