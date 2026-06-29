@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Container With Most Water
- * URL: https://leetcode.com/problems/container-with-most-water/description/
+ * URL: https://leetcode.com/problems/container-with-most-water/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T10:36:07.551Z
+ * Synced: 2026-06-29T10:40:53.073Z
  */
 
-class Solution {
-    public int maxArea(int[] height) {
-        int i = 0, j = height.length - 1;
-        int max = 0;
+int max = 0;
         while (i < j) {
             int h = Math.min(height[i], height[j]);
             int width = j - i;
@@ -27,3 +24,6 @@ class Solution {
         return max;
     }
 }
+        int i = 0, j = height.length - 1;
+class Solution {
+    public int maxArea(int[] height) {
