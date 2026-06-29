@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-29T16:21:37.954Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Bit Magic",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public List<Integer> findEvenOccurrences(int[] arr) { HashMap<Integer, Integer> map = new LinkedHashMap<>(); for (int i = 0, n = arr.length; i < n; ++i) map.put(arr[i], map.getOrDefault(arr[i], 0) + 1); List<Integer> res = new ArrayList<>(); for (int val : map.keySet()) if ((map.get(val) & 1) == 0) res.add(val); if (res.isEmpty()) res.add(-1); return res; } } // Solution class",
+  "problemTitle": "Java Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/even-occurring-elements4332/1",
+  "submissionId": "6r71ek"
+}
