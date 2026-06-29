@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-29T15:27:05.122Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Greedy",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Valid Triangle Number",
+  "problemUrl": "https://leetcode.com/problems/valid-triangle-number/description/",
+  "submissionId": "9srpci"
+}
