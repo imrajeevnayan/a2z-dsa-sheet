@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Container With Most Water
+ * URL: https://leetcode.com/problems/container-with-most-water/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-29T10:36:07.551Z
+ */
+
+class Solution {
+    public int maxArea(int[] height) {
+        int i = 0, j = height.length - 1;
+        int max = 0;
+        while (i < j) {
+            int h = Math.min(height[i], height[j]);
+            int width = j - i;
+            int area = h * width;
+            max = Math.max(max, area);
+
+            // move smaller height
+            if (height[i] < height[j])  i++;
+            else j--;
+        }
+        return max;
+    }
+}
