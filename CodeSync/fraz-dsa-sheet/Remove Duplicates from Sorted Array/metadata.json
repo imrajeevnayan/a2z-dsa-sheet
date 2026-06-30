@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-28T17:54:46.164Z",
-  "runtime": "0 ms",
-  "memoryUsage": "46.76 MB",
+  "submissionTimestamp": "2026-06-30T05:08:39.652Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Duplicates from Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
   "submissionId": "bt3dpc"
 }
