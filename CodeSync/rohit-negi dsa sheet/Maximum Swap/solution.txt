@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Swap
+ * URL: https://leetcode.com/problems/maximum-swap/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Greedy
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-30T09:06:58.736Z
+ */
+
+for (int i = 0; i < n; i++) {
+            lastIdx[digits[i] - '0'] = i;
+        }
+        
+        for (int i = 0; i < n; i++) {
+            for (int d = 9; d > digits[i] - '0'; d--) {
+                if (lastIdx[d] > i) {
+                    char temp = digits[i];
+                    digits[i] = digits[lastIdx[d]];
+                    digits[lastIdx[d]] = temp;
+                    return Integer.parseInt(new String(digits));
+                }
+        
+        int[] lastIdx = new int[10];
+    public int maximumSwap(int num) {
+        char[] digits = String.valueOf(num).toCharArray();
+        int n = digits.length;
+class Solution {
