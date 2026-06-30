@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-30T09:09:18.839Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Amazon",
+    "Visa",
+    "Binary Search",
+    "two-pointer-algorithm",
+    "Summer SkillUp Explore",
+    "Summer SkillUp",
+    "Explore"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// C++ program to find a pair with the given difference #include <bits/stdc++.h> using namespace std; bool findPair(vector<int> &arr, int x) { int n = arr.size(); // Compare each element with every other element for (int i = 0; i < n; i++) { for (int j = i + 1; j < n; j++) { // Check if absolute difference matches target if (abs(arr[i] - arr[j]) == x) { return true; } } } return false; } int main() { vector<int> arr = {5, 20, 3, 2, 50, 80}; int x = 78; if (findPair(arr, x)) { cout << \"true\"; } else { cout << \"false\"; } return 0; }",
+  "problemTitle": "Pair with the given difference",
+  "problemUrl": "https://www.geeksforgeeks.org/dsa/find-a-pair-with-the-given-difference/",
+  "submissionId": "cn1423"
+}
