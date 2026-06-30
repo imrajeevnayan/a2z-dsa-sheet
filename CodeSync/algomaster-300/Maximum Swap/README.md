@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Math, Greedy
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-swap/
-- Synced: 2026-06-30T09:06:58.736Z
+- Memory: 42.28 MB
+- Problem URL: https://leetcode.com/problems/maximum-swap/submissions/2051009094/
+- Synced: 2026-06-30T09:07:45.000Z
 
 ## Problem Description
 
