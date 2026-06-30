@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-21T18:51:12.224Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-30T16:52:23.890Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Nth Node From End of List",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
-  "submissionId": "c28n05"
+  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+  "submissionId": "pam0ye"
 }
