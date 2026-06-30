@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
+ * URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
  * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
- * Difficulty: Medium
- * Topics: Array, Hash Table
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:49:35.862Z
+ * Synced: 2026-06-30T18:55:10.563Z
  */
 
 class Solution {
-    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+    public boolean checkAlmostEquivalent(String word1, String word2) {
         
     }
 }
