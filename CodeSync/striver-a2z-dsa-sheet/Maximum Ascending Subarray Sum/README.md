@@ -1,13 +1,13 @@
 # Maximum Ascending Subarray Sum
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Dsa Question For Interview (Copy-vdyfzxft)mj
 - Difficulty: Easy
 - Topics: Array
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-ascending-subarray-sum/description/
-- Synced: 2026-06-14T17:34:58.272Z
+- Problem URL: https://leetcode.com/problems/maximum-ascending-subarray-sum/?envType=problem-list-v2&envId=daaf5ssv
+- Synced: 2026-06-30T18:51:54.725Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of positive integers nums, return the maximum possible sum of an 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dsa Question For Interview (Copy-vdyfzxft)mj. The detected topics are Array. Review the synced source file for the implementation details.
