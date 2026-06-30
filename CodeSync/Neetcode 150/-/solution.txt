@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * URL: https://leetcode.com/problems/valid-palindrome/description/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Linked List, Two Pointers
+ * Difficulty: Easy
+ * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:23:11.386Z
+ * Synced: 2026-06-30T09:32:20.018Z
  */
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
