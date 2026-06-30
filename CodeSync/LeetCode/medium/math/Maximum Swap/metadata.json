@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:06:58.736Z",
+  "submissionTimestamp": "2026-06-30T09:07:45.000Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.28 MB",
   "difficulty": "Medium",
   "tags": [
     "Math",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Swap",
-  "problemUrl": "https://leetcode.com/problems/maximum-swap/",
+  "problemUrl": "https://leetcode.com/problems/maximum-swap/submissions/2051009094/",
   "submissionId": "264ajq"
 }
