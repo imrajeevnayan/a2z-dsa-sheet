@@ -1,13 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * URL: https://leetcode.com/problems/valid-palindrome/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T08:48:32.459Z
+ * Synced: 2026-06-30T09:32:20.018Z
  */
 
-Following article contains the list of questions topic wise
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
