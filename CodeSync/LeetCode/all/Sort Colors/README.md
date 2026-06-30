@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.67 MB
 - Problem URL: https://leetcode.com/problems/sort-colors/
-- Synced: 2026-06-30T09:24:35.001Z
+- Synced: 2026-06-30T09:25:20.991Z
 
 ## Problem Description
 
