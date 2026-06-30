@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
-- Synced: 2026-06-21T18:51:12.224Z
+- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- Synced: 2026-06-30T16:52:23.890Z
 
 ## Problem Description
 
