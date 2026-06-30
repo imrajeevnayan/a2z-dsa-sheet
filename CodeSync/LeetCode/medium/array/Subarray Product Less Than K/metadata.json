@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T08:20:14.812Z",
+  "submissionTimestamp": "2026-06-30T08:21:46.519Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarray Product Less Than K",
-  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/",
-  "submissionId": "34ah7y"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+  "submissionId": "ty7ix"
 }
