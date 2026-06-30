@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T10:24:50.397Z",
+  "submissionTimestamp": "2026-06-30T10:25:35.806Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
-  "submissionId": "m5vyvy"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "submissionId": "7g5aoj"
 }
