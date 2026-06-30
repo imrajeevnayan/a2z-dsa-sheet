@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-30T08:48:32.459Z",
+  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/",
-  "submissionId": "kqnwx8"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
+  "submissionId": "jxik4p"
 }
