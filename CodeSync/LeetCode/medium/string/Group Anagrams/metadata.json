@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T10:22:30.432Z",
+  "submissionTimestamp": "2026-06-30T10:23:17.342Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/submissions/",
-  "submissionId": "6qmv28"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
+  "submissionId": "wfe3cd"
 }
