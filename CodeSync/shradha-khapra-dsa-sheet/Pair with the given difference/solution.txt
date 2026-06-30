@@ -7,7 +7,7 @@
  * Topics: Amazon, Visa, Binary Search, two-pointer-algorithm, Summer SkillUp Explore, Summer SkillUp, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:10:19.013Z
+ * Synced: 2026-06-30T09:18:55.510Z
  */
 
 // Java program to find a pair with the given difference
