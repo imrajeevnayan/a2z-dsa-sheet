@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Occurrences of an Element in an Array
+ * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/?envType=problem-list-v2&envId=daaf5ssv
+ * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * Difficulty: Medium
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T18:50:23.308Z
+ */
+
+class Solution {
+    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+        
+    }
+}
