@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Backspace String Compare
+ * URL: https://leetcode.com/problems/backspace-string-compare/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Two Pointers, String, Stack, Simulation
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-30T09:29:04.565Z
+ */
+
+return process(s).equals(process(t));
+    }
+    private String process(String str) {
+        StringBuilder sb = new StringBuilder();
+        for (char c : str.toCharArray()) {
+            if (c == '#') {
+                if (sb.length() > 0) {
+                    sb.deleteCharAt(sb.length() - 1);
+                }
+            } else {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+}
