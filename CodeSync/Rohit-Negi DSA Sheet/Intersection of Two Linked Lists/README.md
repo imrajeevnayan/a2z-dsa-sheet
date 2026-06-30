@@ -6,8 +6,8 @@
 - Topics: Hash Table, Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/
-- Synced: 2026-06-30T17:00:40.521Z
+- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- Synced: 2026-06-30T16:56:55.374Z
 
 ## Problem Description
 
