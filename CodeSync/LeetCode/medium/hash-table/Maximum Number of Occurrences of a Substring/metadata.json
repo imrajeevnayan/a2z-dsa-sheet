@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-30T18:48:46.094Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Strings (Copy-ehkbkaxt)",
+  "problemTitle": "Maximum Number of Occurrences of a Substring",
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/?envType=problem-list-v2&envId=da2hb3jj",
+  "submissionId": "firocf"
+}
