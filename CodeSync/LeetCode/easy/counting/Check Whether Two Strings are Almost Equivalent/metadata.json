@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-30T18:55:57.286Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-30T18:56:42.692Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
   "problemTitle": "Check Whether Two Strings are Almost Equivalent",
   "problemUrl": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/?envType=problem-list-v2&envId=daaf5ssv",
-  "submissionId": "a8ux3z"
+  "submissionId": "vjq2mi"
 }
