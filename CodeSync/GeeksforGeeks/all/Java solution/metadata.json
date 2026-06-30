@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-08T12:07:30.662Z",
+  "submissionTimestamp": "2026-06-30T11:50:04.669Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "Expected Complexities",
+    "Company Tags Adobe",
+    "Company Tags",
+    "Adobe",
+    "Topic Tags",
+    "CPP",
+    "Related Articles",
+    "Program Binary Decimal Conversion"
   ],
   "platform": "GeeksforGeeks",
   "language": "// User function Template for Java class Solution { public int binaryToDecimal(String b) { int decimalValue = Integer.parseInt(b, 2); return decimalValue; } }",
   "problemTitle": "Java solution",
   "problemUrl": "https://www.geeksforgeeks.org/problems/binary-number-to-decimal-number3525/1",
-  "submissionId": "t1iyqz"
+  "submissionId": "6ex2yr"
 }
