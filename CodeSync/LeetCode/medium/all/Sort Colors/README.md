@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-colors/description/
-- Synced: 2026-06-30T09:23:02.498Z
+- Problem URL: https://leetcode.com/problems/sort-colors/
+- Synced: 2026-06-30T09:23:47.945Z
 
 ## Problem Description
 
