@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:27:13.542Z",
+  "submissionTimestamp": "2026-06-30T09:28:00.029Z",
   "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "47.85 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "4Sum",
-  "problemUrl": "https://leetcode.com/problems/4sum/description/",
-  "submissionId": "ce475o"
+  "problemUrl": "https://leetcode.com/problems/4sum/submissions/2051032277/",
+  "submissionId": "sncupr"
 }
