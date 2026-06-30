@@ -1,13 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
+ * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * Difficulty: Medium
+ * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T15:09:04.872Z
+ * Synced: 2026-06-30T18:49:35.862Z
  */
 
-Following article contains the list of questions topic wise
+class Solution {
+    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+        
+    }
+}
