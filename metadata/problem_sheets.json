@@ -508,7 +508,10 @@
     "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:palindrome-linked-list": [],
-  "leetcode:remove-duplicates-from-sorted-list": [],
+  "leetcode:remove-duplicates-from-sorted-list": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:algomaster-300"
+  ],
   "leetcode:reverse-linked-list": [
     "Blind75",
     "Grind75",
