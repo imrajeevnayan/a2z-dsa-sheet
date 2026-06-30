@@ -1,29 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2050224723/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 30 ms
- * Memory: 45.83 MB
- * Synced: 2026-06-29T15:55:23.563Z
+ * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
+ * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * Difficulty: Medium
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T18:49:35.862Z
  */
 
-1class Solution {
-2    public int triangleNumber(int[] arr) {
-3        Arrays.sort(arr);
-4        int n = arr.length,count = 0;
-5        for (int k = n - 1; k >= 2; k--) {
-6            int left = 0,right = k - 1;
-7            while (left < right) {
-8                if (arr[left] + arr[right] > arr[k]) {
-9                    count += (right - left);
-10                    right--;
-11                }
-12                 else left++;   
-13            }
-14        }
-15        return count; 
-16    }
-17}
+class Solution {
+    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+        
+    }
+}
