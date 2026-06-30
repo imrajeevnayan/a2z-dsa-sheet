@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2304 ms
  * Memory: 61.30 MB
- * Synced: 2026-06-30T05:34:41.162Z
+ * Synced: 2026-06-30T05:36:18.166Z
  */
 
 Input: nums = [-1,0,1,2,-1,-4]
