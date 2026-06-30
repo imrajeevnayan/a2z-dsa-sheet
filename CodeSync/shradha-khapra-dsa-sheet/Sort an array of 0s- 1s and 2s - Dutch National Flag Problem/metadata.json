@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-30T08:57:09.760Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Microsoft",
+    "Amazon",
+    "Adobe",
+    "Morgan Stanley",
+    "Qualcomm",
+    "Walmart",
+    "Yatra.com",
+    "Snapdeal"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <iostream> #include <vector> #include <algorithm> using namespace std; void sort012(vector<int> &arr) { // standard sorting function sort(arr.begin(), arr.end()); } int main() { vector<int> arr = {0, 1, 2, 0, 1, 2}; sort012(arr); for (int i = 0; i < arr.size(); i++) cout << arr[i] << \" \"; return 0; }",
+  "problemTitle": "Sort an array of 0s, 1s and 2s - Dutch National Flag Problem",
+  "problemUrl": "https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/",
+  "submissionId": "vkszte"
+}
