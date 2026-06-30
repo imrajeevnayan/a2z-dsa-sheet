@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Consecutive Characters | String as Stack (One Pass)
+ * URL: https://www.geeksforgeeks.org/problems/consecutive-elements2306/1
+ * Language: class Solution { public: string removeDuplicates(string& s) { // code here. stack<char> stk; string res=""; for(int i=0; i<s.length(); i++){ if(!stk.empty() && stk.top() == s[i]){ continue; } stk.push(s[i]); } while(!stk.empty()){ res+=stk.top(); stk.pop(); } reverse(res.begin(), res.end()); return res; } };
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:46:01.035Z
+ */
+
+class Solution {
+    public String removeDuplicates(String s) {
+       if(s.length()==0) return s;
+       StringBuilder sb=new StringBuilder();
+       sb.append(s.charAt(0));
+       for(int i=1;i<s.length();i++){
+          if(s.charAt(i)!=s.charAt(i-1))sb.append(s.charAt(i));
+       }
+       return sb.toString();
+    }
+}
