@@ -7,24 +7,25 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T08:21:46.519Z
+ * Synced: 2026-06-30T08:22:31.812Z
  */
 
-// Expand window by including nums[right]
-            product *= nums[right];
-            
-            // Shrink window from the left until product < k
-            while (product >= k && left <= right) {
+product *= nums[right];
+                        while (product >= k && left <= right) {
         for (int right = 0; right < nums.length; right++) {
-        int product = 1;
-        int left = 0;
         
-        
-        int count = 0;
-            return 0;
+        int count = 0, product = 1,left = 0;
+        if (k <= 1) return 0;
+                product /= nums[left];
+                left++;
+            }
+            
+            // All subarrays ending at 'right' and starting from 'left' to 'right'
+            // have product less than k
+            // Number of such subarrays = right - left + 1
+            count += right - left + 1;
         }
-        if (k <= 1) {
-        // since all elements are positive integers (>= 1)
-        // Edge case: if k <= 1, no subarray can have product less than k
-    public int numSubarrayProductLessThanK(int[] nums, int k) {
-class Solution {
+        
+        return count;
+    }
+}
