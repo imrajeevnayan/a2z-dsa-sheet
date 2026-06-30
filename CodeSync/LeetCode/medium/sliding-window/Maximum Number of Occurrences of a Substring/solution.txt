@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Number of Occurrences of a Substring
+ * URL: https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T18:48:46.094Z
+ */
+
+class Solution {
+    public int maxFreq(String s, int maxLetters, int minSize, int maxSize) {
+        
+    }
+}
