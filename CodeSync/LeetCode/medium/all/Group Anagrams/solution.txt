@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Group Anagrams
- * URL: https://leetcode.com/problems/group-anagrams/description/
+ * URL: https://leetcode.com/problems/group-anagrams/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:25:35.806Z
+ * Synced: 2026-06-30T10:26:21.595Z
  */
 
 class Solution {
@@ -15,7 +15,8 @@ class Solution {
         HashMap<String,List<String>>ans=new ArrayList<>();
         for(String s:strs){
             char c[]=s.toCharArray();
+            Arrays.sort(c);
+            String key=Str
         }
     }
-            Arrays.sort(c);
 }
