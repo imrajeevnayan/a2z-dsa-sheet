@@ -959,5 +959,10 @@
   "geeksforgeeks:sieve-of-eratosthenes5242": [
     "GFG160"
   ],
-  "spoj:www-spoj-com": []
+  "spoj:www-spoj-com": [],
+  "leetcode:maximum-swap": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
