@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Palindrome
- * URL: https://leetcode.com/problems/valid-palindrome/
+ * URL: https://leetcode.com/problems/valid-palindrome/submissions/2051037239/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
  * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-06-29T09:45:49.143Z
+ * Memory: 46.38 MB
+ * Synced: 2026-06-30T09:33:13.992Z
  */
 
 class Solution {
