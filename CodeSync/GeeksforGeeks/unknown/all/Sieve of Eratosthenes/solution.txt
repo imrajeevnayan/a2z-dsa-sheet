@@ -1,93 +1,38 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Sieve of Eratosthenes
- * URL: https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/
- * Language: #include <iostream> #include <vector> using namespace std; bool isPrime(int num) { if (num < 2) return false; for (int i = 2; i * i <= num; i++) { if (num % i == 0) return false; } return true; } vector<int> sieve(int n) { vector<int> res; for (int i = 2; i <= n; i++) { if (isPrime(i)) { res.push_back(i); } } return res; } int main() { int n = 35; vector<int> res = sieve(n); for (auto ele : res) { cout << ele << ' '; } return 0; }
+ * URL: https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1
+ * Language: class Solution: def sieve(self, n): # code here primes = [1] * (n+1) # 0 & 1 not a primes primes[0] = primes[1] = 0 # sieve - eliminate mulitiples of primes for i in range(2, int(n**0.5) + 1): if primes[i] == 1: for j in range(i*i, n+1, i): primes[j] = 0 # collect primes return [i for i in range(2, n+1) if primes[i] == 1]
  * Difficulty: Unknown
- * Topics: Qualcomm, VMWare, MAQ Software, GE, sieve, Prime Number, number-theory, Summer SkillUp Explore
+ * Topics: Expected Complexities, Company Tags VMWareMAQ SoftwareSAP Labs, Company Tags, VMWare, MAQ Software, SAP Labs, Topic Tags, Mathematical
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:04:47.001Z
+ * Synced: 2026-06-30T09:05:20.996Z
  */
 
-import java.util.ArrayList;
-import java.util.List;
-​
-public class GFG {
-    // Check if a number is prime
-    public static boolean isPrime(int num) {
-        if (num < 2)
-            return false;
-​
-        for (int i = 2; i * i <= num; i++) {
-            if (num % i == 0)
-                return false;
-        }
-​
-        return true;
-    }
-    
-    public static ArrayList<Integer> sieve(int n) {
-        ArrayList<Integer> res = new ArrayList<>();
-​
-        for (int i = 2; i <= n; i++) {
-            if (isPrime(i)) {
-                res.add(i);
-            }
-        }
-​
-        return res;
-    }
-​
-    public static void main(String[] args) {
-        int n = 35;
-​
-        List<Integer> res = sieve(n);
-​
-        for (int ele : res) {
-            System.out.print(ele + " ");
-        }
-    }
-}
-import java.util.ArrayList;
-​
-class GFG {
-    static ArrayList<Integer> sieve(int n) {
-​
-        // creation of boolean array
-        boolean[] prime = new boolean[n + 1];
-        for (int i = 0; i <= n; i++) {
-            prime[i] = true;
-        }
-​
-        for (int p = 2; p * p <= n; p++) {
-            if (prime[p]) {
-                // marking multiples as false
-                for (int i = p * p; i <= n; i += p) {
-                    prime[i] = false;
+class Solution {
+    public ArrayList<Integer> sieve(int n) {
+        ArrayList<Integer> primes = new ArrayList<>();
+        if (n < 2) return primes;
+        boolean[] isComposite = new boolean[n + 1];
+        
+        isComposite[0] = true;
+        isComposite[1] = true;
+        
+        for (int i = 2; i * i <= n; i++) {
+            if (!isComposite[i]) {
+                for (int j = i * i; j <= n; j += i) {
+                    isComposite[j] = true;
                 }
             }
         }
-​
-        // Store primes in an ArrayList
-        ArrayList<Integer> res = new ArrayList<>();
-​
-        for (int p = 2; p <= n; p++) {
-            if (prime[p]) {
-                res.add(p);
+        
+        for (int i = 2; i <= n; i++) {
+            if (!isComposite[i]) {
+                primes.add(i);
             }
         }
-​
-        return res;
-    }
-​
-    public static void main(String[] args) {
-        int n = 35;
-​
-        ArrayList<Integer> res = sieve(n);
-​
-        for (int ele : res) {
-            System.out.print(ele + " ");
-        }
+        
+        return primes;
     }
 }
