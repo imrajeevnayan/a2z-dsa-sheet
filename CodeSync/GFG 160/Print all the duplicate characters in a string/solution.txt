@@ -1,0 +1,86 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Print all the duplicate characters in a string
+ * URL: https://www.geeksforgeeks.org/dsa/print-all-the-duplicates-in-the-input-string/
+ * Language: // C++ Code to print duplicate characters // and their counts using Sorting #include <bits/stdc++.h> using namespace std; // Function to print duplicate characters with their count void printDuplicates(string s) { // Sort the string to group same characters together sort(s.begin(), s.end()); // Traverse the sorted string to count duplicates for (int i = 0; i < s.length();) { int count = 1; // Count occurrences of current character while (i + count < s.length() && s[i] == s[i + count]) { count++; } // If count > 1, print the character and its count if (count > 1) { cout << "['" << s[i] << "', " << count << "], "; } // Move to the next different character i += count; } } int main() { string s = "geeksforgeeks"; printDuplicates(s); return 0; }
+ * Difficulty: Unknown
+ * Topics: String Duplicates, Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:48:58.452Z
+ */
+
+// Java Code to print duplicate characters 
+// and their counts using Sorting 
+import java.util.*;
+​
+class GfG {
+​
+    // Function to print duplicate characters with their count
+    static void printDuplicates(String s) {
+​
+        // Convert string to character array
+        char[] arr = s.toCharArray();
+​
+        // Sort the string to group same characters together
+        Arrays.sort(arr);
+​
+        // Traverse the sorted string to count duplicates
+        for (int i = 0; i < arr.length;) {
+​
+            int count = 1;
+​
+            // Count occurrences of current character
+            while (i + count < arr.length && arr[i] == arr[i + count]) {
+                count++;
+            }
+​
+            // If count > 1, print the character and its count
+            if (count > 1) {
+                System.out.print("['" + arr[i] + "', " + count + "], ");
+            }
+​
+            // Move to the next different character
+            i += count;
+        }
+    }
+​
+    public static void main(String[] args) {
+​
+        String s = "geeksforgeeks";
+​
+        printDuplicates(s);
+    }
+}
+// Java Code to print duplicate characters 
+// and their counts using Hashing
+import java.util.*;
+​
+class GfG {
+​
+    // Function to print duplicate characters with their count
+    public static void printDuplicates(String s) {
+​
+        // Hash map to store frequency of each character
+        HashMap<Character, Integer> freq = new HashMap<>();
+​
+        // Count frequency of each character
+        for (char c : s.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+​
+        // Traverse the map and print characters with count > 1
+        for (Map.Entry<Character, Integer> it : freq.entrySet()) {
+            if (it.getValue() > 1) {
+                System.out.print("['" + it.getKey() + "', " + it.getValue() + "], ");
+            }
+        }
+    }
+​
+    public static void main(String[] args) {
+​
+        String s = "geeksforgeeks";
+​
+        printDuplicates(s);
+    }
+}
