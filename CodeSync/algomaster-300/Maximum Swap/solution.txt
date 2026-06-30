@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Swap
- * URL: https://leetcode.com/problems/maximum-swap/
+ * URL: https://leetcode.com/problems/maximum-swap/submissions/2051009094/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Greedy
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-30T09:06:58.736Z
+ * Memory: 42.28 MB
+ * Synced: 2026-06-30T09:07:45.000Z
  */
 
 for (int i = 0; i < n; i++) {
