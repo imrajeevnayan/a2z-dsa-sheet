@@ -1,13 +1,13 @@
 # Remove Duplicates from Sorted List
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T07:26:08.420Z
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+- Synced: 2026-06-30T05:06:45.755Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a sorted linked list, delete all duplicates such that each ele
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List. Review the synced source file for the implementation details.
