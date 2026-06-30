@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/find-a-pair-with-the-given-difference/
-- Synced: 2026-06-30T09:10:19.013Z
+- Synced: 2026-06-30T09:18:55.510Z
 
 ## Problem Description
 
