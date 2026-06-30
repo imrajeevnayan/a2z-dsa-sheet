@@ -1,13 +1,13 @@
 # Group Anagrams
 
 - Platform: LeetCode
-- Language: 60 questions to solve (Copy-9xpbvcmc)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-06-23T19:14:50.083Z
+- Problem URL: https://leetcode.com/problems/group-anagrams/description/
+- Synced: 2026-06-30T10:19:10.789Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of strings strs, group the anagrams together. You can return the 
 
 ## Explanation
 
-This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
