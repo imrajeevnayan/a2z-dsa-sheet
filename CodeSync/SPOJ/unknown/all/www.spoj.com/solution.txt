@@ -1,0 +1,13 @@
+/*
+ * Platform: SPOJ
+ * Problem: www.spoj.com
+ * URL: https://www.spoj.com/problems/PRIME1/cstart=10
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:05:57.360Z
+ */
+
+a13c02f61dcb0abd
