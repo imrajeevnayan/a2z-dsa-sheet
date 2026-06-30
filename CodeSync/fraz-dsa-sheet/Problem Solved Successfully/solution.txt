@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Problem Solved Successfully
+ * URL: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T11:58:40.973Z
+ */
+
+class Solution {
+    int missingNum(int arr[]) {
+        int n=arr.length+1;
+        int res=0;
+        for(int i=0;i<=n;i++){
+            res^=i;
+        }
+        for(int num :arr) res^=num;
+        return res;
+        
+    }
+}
