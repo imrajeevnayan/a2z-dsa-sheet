@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: 46.76 MB
- * Synced: 2026-06-16T07:53:25.163Z
+ * Memory: N/A
+ * Synced: 2026-06-30T09:58:34.003Z
  */
 
 class Solution {
@@ -26,3 +26,5 @@ class Solution {
             }
         }
         return null;
+    }
+}
