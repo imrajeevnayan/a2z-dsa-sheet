@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-30T18:59:42.095Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Flipkart",
+    "Morgan Stanley",
+    "Accolite",
+    "Amazon",
+    "Microsoft"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int count(vector<int>& coins, int sum) { // code here. int n=coins.size(); vector<vector<int>> dp(n+1, vector<int> (sum+1, 0)); //sum=0 isme for all 'n' hum empty subset le sakte hai for(int i=0;i<=n;i++) dp[i][0]=1; for(int i=1;i<=n;i++){ for(int j=1;j<=sum;j++){ if(coins[i-1]<=j){ dp[i][j]=dp[i-1][j]+dp[i][j-coins[i-1]]; //dp[i-1][j] -> dont include and aage check kro more subsets //dp[i][j-coins[i-1]] -> include and same index pr rho or use include kro } else dp[i][j]=dp[i-1][j]; } } return dp[n][sum]; } };",
+  "problemTitle": "Coin Change (Count Ways)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/coin-change2448/1",
+  "submissionId": "a4z2hi"
+}
