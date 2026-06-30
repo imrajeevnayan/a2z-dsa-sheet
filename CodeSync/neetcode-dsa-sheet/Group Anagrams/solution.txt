@@ -1,20 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Group Anagrams
- * URL: https://leetcode.com/problems/group-anagrams/
+ * URL: https://leetcode.com/problems/group-anagrams/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:24:50.397Z
+ * Synced: 2026-06-30T10:25:35.806Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,List<String>>ans=new ArrayList<>();
         for(String s:strs){
-            char c
+            char c[]=s.toCharArray();
         }
     }
+            Arrays.sort(c);
 }
