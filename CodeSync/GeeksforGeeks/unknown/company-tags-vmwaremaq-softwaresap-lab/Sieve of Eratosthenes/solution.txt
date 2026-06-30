@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareMAQ SoftwareSAP Labs, Company Tags, VMWare, MAQ Software, SAP Labs, Topic Tags, Mathematical
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:04:32.269Z
+ * Synced: 2026-06-30T09:05:20.996Z
  */
 
 class Solution {
