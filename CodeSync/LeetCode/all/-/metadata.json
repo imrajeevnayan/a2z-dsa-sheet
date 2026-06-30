@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-24T05:51:52.449Z",
+  "submissionTimestamp": "2026-06-30T08:48:32.459Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Graph Theory",
-    "Topological Sort"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "ukvcqk"
+  "problemUrl": "https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/",
+  "submissionId": "kqnwx8"
 }
