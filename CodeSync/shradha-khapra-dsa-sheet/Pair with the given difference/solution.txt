@@ -1,0 +1,111 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pair with the given difference
+ * URL: https://www.geeksforgeeks.org/dsa/find-a-pair-with-the-given-difference/
+ * Language: // C++ program to find a pair with the given difference #include <bits/stdc++.h> using namespace std; bool findPair(vector<int> &arr, int x) { int n = arr.size(); // Compare each element with every other element for (int i = 0; i < n; i++) { for (int j = i + 1; j < n; j++) { // Check if absolute difference matches target if (abs(arr[i] - arr[j]) == x) { return true; } } } return false; } int main() { vector<int> arr = {5, 20, 3, 2, 50, 80}; int x = 78; if (findPair(arr, x)) { cout << "true"; } else { cout << "false"; } return 0; }
+ * Difficulty: Unknown
+ * Topics: Amazon, Visa, Binary Search, two-pointer-algorithm, Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:09:18.839Z
+ */
+
+// Java program to find a pair with the given difference
+import java.util.*;
+​
+class GfG {
+    static boolean findPair(int[] arr, int x) {
+        int n = arr.length;
+        
+        // Compare each element with every other element
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                
+                // Check if absolute difference matches target
+                if (Math.abs(arr[i] - arr[j]) == x) {
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 20, 3, 2, 50, 80};
+        int x = 78;
+        if (findPair(arr, x)) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+// Java program to find a pair with the given difference
+import java.util.Arrays;
+​
+class GfG {
+​
+    static boolean findPair(int[] arr, int x) {
+        int n = arr.length;
+        
+        // Sort the array.
+        Arrays.sort(arr);
+        
+        int j = 1;
+        
+        for (int i = 0; i < n; i++) {
+            
+            // Increment j till difference is 
+            // less than x.
+            while (j < n && arr[j] - arr[i] < x) j++;
+            
+            // If difference is x
+            if (j < n && i != j && arr[j] - arr[i] == x) return true;
+        }
+        
+        return false;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 20, 3, 2, 50, 80};
+        int x = 78;
+        if (findPair(arr, x)) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
+// Java program to find a pair with the given difference
+import java.util.HashSet;
+​
+class GfG {
+​
+    static boolean findPair(int[] arr, int x) {
+        
+        HashSet<Integer> st = new HashSet<>();
+        
+        for (int num : arr) {
+            
+            // Check if complement exists
+            if (st.contains(num + x) || st.contains(num - x)) {
+                return true;
+            }
+            
+            st.add(num);
+        }
+        
+        return false;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 20, 3, 2, 50, 80};
+        int x = 78;
+        if (findPair(arr, x)) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
