@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-30T15:46:04.588Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Bloomberg",
+    "Facebook",
+    "TCS",
+    "Adobe",
+    "Google",
+    "Infosys"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Time complexity - O(N) Space complexity - O(1) class Solution { public void reverseArray(int arr[]) { // code here int start = 0; int end = arr.length -1; while(start<end){ int temp = arr[start]; arr[start] = arr[end]; arr[end] = temp; start++; end--; } } }",
+  "problemTitle": "Reverse an Array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-an-array/1",
+  "submissionId": "oj0xfs"
+}
