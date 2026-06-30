@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Interesting Queries
+ * URL: https://www.geeksforgeeks.org/problems/interesting-queries4742/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Map, Sqrt Decomposition, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:02:26.974Z
+ */
+
+class Solution {
+    public int[] solveQueries(int[] nums, int[][] Queries, int k) {
+        // Code here
+        
+    }
+}
