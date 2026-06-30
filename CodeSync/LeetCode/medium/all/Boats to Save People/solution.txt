@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Greedy, Sorting
  * Runtime: 1 ms
  * Memory: 56.45 MB
- * Synced: 2026-06-30T09:14:03.994Z
+ * Synced: 2026-06-30T09:15:00.993Z
  */
 
 class Solution {
