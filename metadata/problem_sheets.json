@@ -952,5 +952,8 @@
   "leetcode:count-subarrays-with-score-less-than-k": [],
   "geeksforgeeks:interesting-queries4742": [
     "GFG160"
+  ],
+  "geeksforgeeks:sieve-of-eratosthenes": [
+    "GFG160"
   ]
 }
