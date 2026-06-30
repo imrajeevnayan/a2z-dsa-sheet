@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, String, Trie
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-common-prefix/description/
-- Synced: 2026-06-30T09:46:37.009Z
+- Runtime: 0 ms
+- Memory: 43.05 MB
+- Problem URL: https://leetcode.com/problems/longest-common-prefix/
+- Synced: 2026-06-30T09:47:23.369Z
 
 ## Problem Description
 
