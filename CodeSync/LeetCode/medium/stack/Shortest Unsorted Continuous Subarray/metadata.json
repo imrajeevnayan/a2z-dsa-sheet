@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-30T09:30:55.358Z",
+  "runtime": "2 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Stack",
+    "Greedy",
+    "Sorting",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Shortest Unsorted Continuous Subarray",
+  "problemUrl": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
+  "submissionId": "g9o5df"
+}
