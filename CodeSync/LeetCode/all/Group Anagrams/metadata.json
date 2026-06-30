@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T10:19:10.789Z",
+  "submissionTimestamp": "2026-06-30T10:20:01.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
   "submissionId": "drn945"
 }
