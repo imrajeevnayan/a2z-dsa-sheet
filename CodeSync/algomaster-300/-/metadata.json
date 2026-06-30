@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-24T05:51:52.449Z",
+  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Graph Theory",
-    "Topological Sort"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "ukvcqk"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
+  "submissionId": "jxik4p"
 }
