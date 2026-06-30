@@ -1,15 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-28T18:20:41.926Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-30T09:20:24.930Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Hard",
   "tags": [
     "Array",
-    "Sliding Window"
+    "Hash Table",
+    "Greedy",
+    "Sliding Window",
+    "Sorting",
+    "Heap (Priority Queue)"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "14xtug"
+  "problemUrl": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/",
+  "submissionId": "ihs036"
 }
