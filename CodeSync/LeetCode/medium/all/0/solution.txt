@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/sort-list/description/?envType=problem-list-v2&envId=da95pk23
- * Language: Linked List (Copy-9gvhzx23)
+ * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
+ * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
+ * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:25:35.006Z
+ * Synced: 2026-06-30T18:49:35.862Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public ListNode sortList(ListNode head) {
+    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+        
+    }
+}
