@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-23T19:14:50.083Z",
+  "submissionTimestamp": "2026-06-30T10:19:10.789Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "60 questions to solve (Copy-9xpbvcmc)",
+  "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "59kimc"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "submissionId": "drn945"
 }
