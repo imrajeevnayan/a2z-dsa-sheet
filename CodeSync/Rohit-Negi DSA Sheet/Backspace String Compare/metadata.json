@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-30T09:29:04.565Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Stack",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Backspace String Compare",
+  "problemUrl": "https://leetcode.com/problems/backspace-string-compare/",
+  "submissionId": "4m2cfr"
+}
