@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-22T06:23:11.386Z",
+  "submissionTimestamp": "2026-06-30T10:30:08.266Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
-  "submissionId": "iglrwm"
+  "problemUrl": "https://leetcode.com/problems/longest-palindromic-substring/description/",
+  "submissionId": "27x1do"
 }
