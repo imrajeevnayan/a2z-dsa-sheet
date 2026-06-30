@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Code
+ * URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36
+ * Language: Common Patterns Questions (Copy-xksb9pgr)DJ
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Backtracking
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T18:57:16.098Z
+ */
+
+class Solution {
+    public int findTargetSumWays(int[] nums, int target) {
+        
+    }
+}
