@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: BEST C++ SOLUTION
+ * URL: https://www.geeksforgeeks.org/problems/word-with-maximum-frequency0120/1
+ * Language: class Solution { public: string maximumFrequency(string& s) { vector<string> words; string temp = ""; for (char c : s) { if (c == ' ') { if (!temp.empty()) { words.push_back(temp); temp = ""; } } else { temp += c; } } if (!temp.empty()) { words.push_back(temp); } unordered_map<string, int> mp; for (string w : words) { mp[w]++; } int maxFreq = 0; string ans = ""; for (string w : words) { if (mp[w] > maxFreq) { maxFreq = mp[w]; ans = w; } } return ans + " " + to_string(maxFreq); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonAdobeMicrosoftCitrix, Company Tags, Amazon, Adobe, Microsoft, Citrix, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T12:08:29.182Z
+ */
+
+class Solution {
+    public String maximumFrequency(String s) {
+        String[] words = s.split("\\s+");
+        Map<String, Integer> freq = new LinkedHashMap<>();
+        
+        for (String word : words) {
+            freq.put(word, freq.getOrDefault(word, 0) + 1);
+        }
+        
+        int maxFreq = 0;
+        String result = "";
+        
+        for (String word : freq.keySet()) {
+            int count = freq.get(word);
+            if (count > maxFreq) {
+                maxFreq = count;
+                result = word;
+            }
+        }
+        
+        return result + " " + maxFreq;
+    }
+}
