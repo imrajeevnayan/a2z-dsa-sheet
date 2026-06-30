@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-14T18:35:15.247Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-30T09:23:02.498Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Sort Colors",
   "problemUrl": "https://leetcode.com/problems/sort-colors/description/",
-  "submissionId": "b8aoyt"
+  "submissionId": "arepli"
 }
