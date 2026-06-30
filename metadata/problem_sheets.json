@@ -949,5 +949,8 @@
     "custom:striver-sde-sheet"
   ],
   "leetcode:subarray-product-less-than-k": [],
-  "leetcode:count-subarrays-with-score-less-than-k": []
+  "leetcode:count-subarrays-with-score-less-than-k": [],
+  "geeksforgeeks:interesting-queries4742": [
+    "GFG160"
+  ]
 }
