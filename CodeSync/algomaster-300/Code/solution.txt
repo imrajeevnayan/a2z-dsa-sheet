@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Code
+ * URL: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Greedy, Sliding Window, Sorting, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:20:24.930Z
+ */
+
+class Solution {
+    public int[] smallestRange(List<List<Integer>> nums) {
+        
+    }
+}
