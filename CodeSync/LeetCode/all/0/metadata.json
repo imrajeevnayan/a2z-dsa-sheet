@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-30T15:09:04.872Z",
+  "submissionTimestamp": "2026-06-30T18:49:35.862Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/",
-  "submissionId": "2n6up"
+  "problemUrl": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv",
+  "submissionId": "gkhorb"
 }
