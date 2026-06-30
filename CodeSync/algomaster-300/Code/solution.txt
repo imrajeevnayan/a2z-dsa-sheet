@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
- * Language: Problem List
- * Difficulty: Hard
- * Topics: Array, Hash Table, Greedy, Sliding Window, Sorting, Heap (Priority Queue)
+ * URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36
+ * Language: Common Patterns Questions (Copy-xksb9pgr)DJ
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Backtracking
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:20:24.930Z
+ * Synced: 2026-06-30T18:57:16.098Z
  */
 
 class Solution {
-    public int[] smallestRange(List<List<Integer>> nums) {
+    public int findTargetSumWays(int[] nums, int target) {
         
     }
 }
