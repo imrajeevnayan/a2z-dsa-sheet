@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T16:56:12.791Z",
+  "submissionTimestamp": "2026-06-30T16:56:55.374Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
+  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
   "submissionId": "dp1f8t"
 }
