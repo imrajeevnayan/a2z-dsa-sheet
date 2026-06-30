@@ -1,16 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Squares of a Sorted Array
- * URL: https://leetcode.com/problems/squares-of-a-sorted-array/description/
+ * URL: https://leetcode.com/problems/squares-of-a-sorted-array/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-30T05:20:40.181Z
+ * Synced: 2026-06-30T05:21:25.332Z
  */
 
-Input: nums = [-4,-1,0,3,10]
-Output: [0,1,9,16,100]
-Explanation: After squaring, the array becomes [16,1,0,9,100].
-After sorting, it becomes [0,1,9,16,100].
+int rightSquare = nums[j] * nums[j];
+            
+            if (leftSquare > rightSquare) {
+                result[index] = leftSquare;
+                i++;
+            } else {
+                result[index] = rightSquare;
+            int leftSquare = nums[i] * nums[i];
+        while (i <= j) {
+        int index = n - 1; 
+        
+        int j = n - 1;   
+        
+        int i = 0;
+        int[] result = new int[n];
+        int n = nums.length;
+    public int[] sortedSquares(int[] nums) {
+public class Solution {
