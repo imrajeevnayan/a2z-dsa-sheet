@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Decimal to binary
+ * URL: https://www.geeksforgeeks.org/problems/decimal-to-binary-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Practice-Problems, Bit Magic, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T11:54:03.883Z
+ */
+
+class Solution {
+    static String decToBinary(int n) {
+    if(n==0)return "0";
+    StringBuilder sb=new StringBuilder();
+    while(n >0){
+        sb.append(n %2);
+        n/=2;
+    }
+    return sb.reverse().toString();
+    }
+}
