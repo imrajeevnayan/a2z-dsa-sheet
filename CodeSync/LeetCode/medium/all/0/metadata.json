@@ -1,18 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-17T09:25:35.006Z",
+  "submissionTimestamp": "2026-06-30T18:49:35.862Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Two Pointers",
-    "Divide and Conquer",
-    "Sorting",
-    "Merge Sort"
+    "Array",
+    "Hash Table"
   ],
   "platform": "LeetCode",
-  "language": "Linked List (Copy-9gvhzx23)",
+  "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/sort-list/description/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "4asfvn"
+  "problemUrl": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv",
+  "submissionId": "gkhorb"
 }
