@@ -5,13 +5,20 @@
  * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-30T18:55:57.286Z
+ * Synced: 2026-06-30T18:56:42.692Z
  */
 
+for (char c : word1.toCharArray()) freq[c - 'a']++;
+        for (char c : word2.toCharArray()) freq[c - 'a']--;
+
+        for (int count : freq) {
+            if (Math.abs(count) > 3)return false;
+        }
+        int[] freq = new int[26];
 class Solution {
     public boolean checkAlmostEquivalent(String word1, String word2) {
-        
+        return true;
     }
 }
