@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-30T05:53:15.160Z
+ * Synced: 2026-06-30T05:54:02.155Z
  */
 
 class Solution {
