@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Climbing Stairs
+ * URL: https://leetcode.com/problems/climbing-stairs/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Dynamic Programming, Memoization
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-30T18:44:31.391Z
+ */
+
+class Solution {
+    public int climbStairs(int n) {
+        if (n <= 2) return n;
+        int a = 1; 
+        int b = 2;
+        for (int i = 3; i <= n; i++) {
+            int c = a + b;
+            a = b;
+            b = c;
+        }
+        return b;
+    }
+}
