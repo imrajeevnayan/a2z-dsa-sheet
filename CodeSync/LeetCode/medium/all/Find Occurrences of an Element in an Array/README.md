@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:50:23.308Z
+- Problem URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
+- Synced: 2026-06-30T18:54:45.174Z
 
 ## Problem Description
 
