@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Product Less Than K
- * URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
+ * URL: https://leetcode.com/problems/subarray-product-less-than-k/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T08:27:08.079Z
+ * Synced: 2026-06-30T08:39:43.076Z
  */
 
 class Solution {
