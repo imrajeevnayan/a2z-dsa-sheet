@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Boats to Save People
- * URL: https://leetcode.com/problems/boats-to-save-people/description/
+ * URL: https://leetcode.com/problems/boats-to-save-people/submissions/2051014401/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-30T09:11:19.301Z
+ * Runtime: 1 ms
+ * Memory: 56.45 MB
+ * Synced: 2026-06-30T09:12:07.154Z
  */
 
 class Solution {
