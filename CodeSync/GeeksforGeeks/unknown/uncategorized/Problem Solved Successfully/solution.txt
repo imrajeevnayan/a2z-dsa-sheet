@@ -1,28 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/second-largest3735/1
+ * URL: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-28T17:58:16.763Z
+ * Synced: 2026-06-30T11:58:40.973Z
  */
 
 class Solution {
-    public int getSecondLargest(int[] arr) {
-        int max = Integer.MIN_VALUE,second = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
-                second = max;
-                max = arr[i];
-            } 
-            else if (arr[i] < max && arr[i] > second) second = arr[i];
+    int missingNum(int arr[]) {
+        int n=arr.length+1;
+        int res=0;
+        for(int i=0;i<=n;i++){
+            res^=i;
         }
-
-        if (second == Integer.MIN_VALUE) return -1;
-
-        return second;
+        for(int num :arr) res^=num;
+        return res;
+        
     }
 }
