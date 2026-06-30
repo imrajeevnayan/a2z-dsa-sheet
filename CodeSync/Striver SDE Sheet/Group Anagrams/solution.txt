@@ -7,11 +7,11 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:23:17.342Z
+ * Synced: 2026-06-30T10:24:03.139Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        HashMap<
+        HashMap<String,List<String>>ans=new ArrayList<>();
     }
 }
