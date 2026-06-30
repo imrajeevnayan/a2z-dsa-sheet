@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-28T18:20:41.926Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-30T18:57:16.098Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Sliding Window"
+    "Dynamic Programming",
+    "Backtracking"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Common Patterns Questions (Copy-xksb9pgr)DJ",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "14xtug"
+  "problemUrl": "https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36",
+  "submissionId": "if8v5t"
 }
