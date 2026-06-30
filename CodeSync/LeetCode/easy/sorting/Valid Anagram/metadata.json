@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:01:24.169Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-30T09:36:54.769Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Anagram",
-  "problemUrl": "https://leetcode.com/problems/valid-anagram/submissions/2021163311/",
-  "submissionId": "pdk5zq"
+  "problemUrl": "https://leetcode.com/problems/valid-anagram/description/",
+  "submissionId": "8cubs"
 }
