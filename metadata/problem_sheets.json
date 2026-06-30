@@ -59,5 +59,12 @@
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:0": []
+  "leetcode:0": [],
+  "geeksforgeeks:boyer-moore-algorithm-for-pattern-searching": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:algomaster-300",
+    "GFG160"
+  ]
 }
