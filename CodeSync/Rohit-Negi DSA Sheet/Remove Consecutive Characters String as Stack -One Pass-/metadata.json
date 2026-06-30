@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-30T09:46:01.035Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: string removeDuplicates(string& s) { // code here. stack<char> stk; string res=\"\"; for(int i=0; i<s.length(); i++){ if(!stk.empty() && stk.top() == s[i]){ continue; } stk.push(s[i]); } while(!stk.empty()){ res+=stk.top(); stk.pop(); } reverse(res.begin(), res.end()); return res; } };",
+  "problemTitle": "Remove Consecutive Characters | String as Stack (One Pass)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/consecutive-elements2306/1",
+  "submissionId": "q9fn2e"
+}
