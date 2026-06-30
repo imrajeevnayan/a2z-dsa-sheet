@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/
-- Synced: 2026-06-30T10:21:44.045Z
+- Problem URL: https://leetcode.com/problems/group-anagrams/submissions/
+- Synced: 2026-06-30T10:22:30.432Z
 
 ## Problem Description
 
