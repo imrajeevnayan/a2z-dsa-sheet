@@ -128,5 +128,12 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:maximum-number-of-occurrences-of-a-substring": []
+  "leetcode:maximum-number-of-occurrences-of-a-substring": [],
+  "leetcode:find-occurrences-of-an-element-in-an-array": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
