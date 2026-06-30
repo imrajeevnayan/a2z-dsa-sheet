@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Sliding Window
+- Language: Common Patterns Questions (Copy-xksb9pgr)DJ
 - Difficulty: Medium
-- Topics: Array, Sliding Window
-- Runtime: 0 ms
+- Topics: Array, Dynamic Programming, Backtracking
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-06-28T18:20:41.926Z
+- Problem URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36
+- Synced: 2026-06-30T18:57:16.098Z
 
 ## Problem Description
 
-There is a bookstore owner that has a store open for n minutes. You are given an integer array customers of length n where customers[i] is the number of the customers that enter the store at the start of the ith minute and all those customers leave after the end of that minute. During certain minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise. When the bookstore owner is grumpy, the customers entering during that minute are not satisfied. Otherwise, they are satisfied. The bookstore owner knows a secret technique to remain not grumpy for minutes consecutive minutes, but this technique can only be used once. Return the maximum number of customers that can be satisfied throughout the day. Example 1: Input: customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], minutes = 3 Output: 16 Explanation: The bookstore owner keeps themselves not grumpy for the last 3 minutes. The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 16. Example 2: Input: customers = [1], grumpy = [0], minutes = 1 Output: 1 Constraints: n == customers.length == grumpy.length 1 <= minutes <= n <= 2 * 104 0 <= customers[i] <= 1000 grumpy[i] is either 0 or 1.
+You are given an integer array nums and an integer target. You want to build an expression out of nums by adding one of the symbols '+' and '-' before each integer in nums and then concatenate all the integers. For example, if nums = [2, 1], you can add a '+' before 2 and a '-' before 1 and concatenate them to build the expression "+2-1". Return the number of different expressions that you can build, which evaluates to target. Example 1: Input: nums = [1,1,1,1,1], target = 3 Output: 5 Explanation: There are 5 ways to assign symbols to make the sum of nums be target 3. -1 + 1 + 1 + 1 + 1 = 3 +1 - 1 + 1 + 1 + 1 = 3 +1 + 1 - 1 + 1 + 1 = 3 +1 + 1 + 1 - 1 + 1 = 3 +1 + 1 + 1 + 1 - 1 = 3 Example 2: Input: nums = [1], target = 1 Output: 1 Constraints: 1 <= nums.length <= 20 0 <= nums[i] <= 1000 0 <= sum(nums[i]) <= 1000 -1000 <= target <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Common Patterns Questions (Copy-xksb9pgr)DJ. The detected topics are Array, Dynamic Programming, Backtracking. Review the synced source file for the implementation details.
