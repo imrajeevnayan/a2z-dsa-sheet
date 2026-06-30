@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 4Sum
+ * URL: https://leetcode.com/problems/4sum/submissions/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:26:26.840Z
+ */
+
+class Solution {
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        
+    }
+}
