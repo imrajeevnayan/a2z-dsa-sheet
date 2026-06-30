@@ -1,13 +1,13 @@
 # Climbing Stairs
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: 0 ms
-- Memory: 42.26 MB
-- Problem URL: https://leetcode.com/problems/climbing-stairs/submissions/2032686190/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T10:12:15.092Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/climbing-stairs/
+- Synced: 2026-06-30T18:44:31.391Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are climbing a staircase. It takes n steps to reach the top. Each time you c
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
