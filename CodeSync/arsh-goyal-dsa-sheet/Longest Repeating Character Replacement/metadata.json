@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-30T09:50:21.436Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Longest Repeating Character Replacement",
+  "problemUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
+  "submissionId": "xkwv9v"
+}
