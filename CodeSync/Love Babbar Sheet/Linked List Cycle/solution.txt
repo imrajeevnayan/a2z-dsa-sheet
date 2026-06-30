@@ -1,23 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle
- * URL: https://leetcode.com/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=9gvhzx23
- * Language: Linked List
+ * URL: https://leetcode.com/problems/linked-list-cycle/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-18T03:51:26.019Z
+ * Synced: 2026-06-30T09:57:37.757Z
  */
 
-ListNode slow=head,fast=head;
-        while(fast!=null && fast.next!=null){
-        return false;
-            slow=slow.next;
-        }
-    }
-            fast=fast.next.next;
-            if(fast==slow)return true;
-}
-    public boolean hasCycle(ListNode head) {
 public class Solution {
+    public boolean hasCycle(ListNode head) {
+    if (head == null || head.next == null) return false;
+    ListNode slow = head, fast = head;
+     while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+        if (slow == fast) return true;
+      }
+      return false;
+    }
+}
