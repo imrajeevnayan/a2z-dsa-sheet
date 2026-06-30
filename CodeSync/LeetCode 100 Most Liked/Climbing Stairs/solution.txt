@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/submissions/2032686190/?envType=problem-list-v2&envId=dxlq3az1
- * Language: Grind 75 (Copy-rab78cw1)
+ * URL: https://leetcode.com/problems/climbing-stairs/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
- * Memory: 42.26 MB
- * Synced: 2026-06-14T10:13:06.080Z
+ * Memory: N/A
+ * Synced: 2026-06-30T18:44:31.391Z
  */
 
 class Solution {
