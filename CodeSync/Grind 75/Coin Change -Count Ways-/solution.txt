@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Coin Change (Count Ways)
+ * URL: https://www.geeksforgeeks.org/problems/coin-change2448/1
+ * Language: class Solution { public: int count(vector<int>& coins, int sum) { // code here. int n=coins.size(); vector<vector<int>> dp(n+1, vector<int> (sum+1, 0)); //sum=0 isme for all 'n' hum empty subset le sakte hai for(int i=0;i<=n;i++) dp[i][0]=1; for(int i=1;i<=n;i++){ for(int j=1;j<=sum;j++){ if(coins[i-1]<=j){ dp[i][j]=dp[i-1][j]+dp[i][j-coins[i-1]]; //dp[i-1][j] -> dont include and aage check kro more subsets //dp[i][j-coins[i-1]] -> include and same index pr rho or use include kro } else dp[i][j]=dp[i-1][j]; } } return dp[n][sum]; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T18:59:42.095Z
+ */
+
+class Solution {
+    public long count(int coins[], int sum) {
+        int n = coins.length;
+        long[] dp = new long[sum + 1];
+        dp[0] = 1;
+        for (int i = 0; i < n; i++) {
+            int coin = coins[i];
+           for (int j = coin; j <= sum; j++) {
+                dp[j] += dp[j - coin];
+            }
+        }
+        return dp[sum];
+    }
+}
