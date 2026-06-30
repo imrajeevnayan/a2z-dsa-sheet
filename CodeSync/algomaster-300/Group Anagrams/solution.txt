@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Group Anagrams
- * URL: https://leetcode.com/problems/group-anagrams/
+ * URL: https://leetcode.com/problems/group-anagrams/submissions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:21:44.045Z
+ * Synced: 2026-06-30T10:22:30.432Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        
+        List<String,List
     }
 }
