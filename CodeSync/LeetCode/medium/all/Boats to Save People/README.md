@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 56.45 MB
 - Problem URL: https://leetcode.com/problems/boats-to-save-people/submissions/2051014401/
-- Synced: 2026-06-30T09:18:36.999Z
+- Synced: 2026-06-30T09:21:10.270Z
 
 ## Problem Description
 
