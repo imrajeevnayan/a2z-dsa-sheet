@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:26:21.595Z
+ * Synced: 2026-06-30T10:27:07.929Z
  */
 
 class Solution {
@@ -16,7 +16,8 @@ class Solution {
         for(String s:strs){
             char c[]=s.toCharArray();
             Arrays.sort(c);
-            String key=Str
+            String key=String.valueOf(c);
+            ans.computeIfAbse
         }
     }
 }
