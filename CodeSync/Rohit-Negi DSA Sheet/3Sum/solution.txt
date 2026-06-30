@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T05:47:28.752Z
+ * Synced: 2026-06-30T05:49:01.151Z
  */
 
 class Solution {
@@ -18,8 +18,10 @@ class Solution {
             Set<Integer>set=new HashSet<>();
             for(int j=i+1;j<nums.length;j++){
                 int third=-(nums[i]-nums[j]);
-                if(set.contains(third))res.add()
+                if(set.contains(third))res.add(Arrays.asList(nums[i],nums[j],third));
+                set.add(nums[j]);
             }
         }
     }
+        return new ArrayList
 }
