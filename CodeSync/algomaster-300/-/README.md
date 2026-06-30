@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
-- Difficulty: Medium
-- Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Two Pointers, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-24T05:51:52.449Z
+- Problem URL: https://leetcode.com/problems/valid-palindrome/description/
+- Synced: 2026-06-30T09:32:20.018Z
 
 ## Problem Description
 
-A tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree. Given a tree of n nodes labelled from 0 to n - 1, and an array of n - 1 edges where edges[i] = [ai, bi] indicates that there is an undirected edge between the two nodes ai and bi in the tree, you can choose any node of the tree as the root. When you select a node x as the root, the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h)) are called minimum height trees (MHTs). Return a list of all MHTs' root labels. You can return the answer in any order. The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf. Example 1: Input: n = 4, edges = [[1,0],[1,2],[1,3]] Output: [1] Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT. Example 2: Input: n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]] Output: [3,4] Constraints: 1 <= n <= 2 * 104 edges.length == n - 1 0 <= ai, bi < n ai != bi All the pairs (ai, bi) are distinct. The given input is guaranteed to be a tree and there will be no repeated edges.
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise. Example 1: Input: s = "A man, a plan, a canal: Panama" Output: true Explanation: "amanaplanacanalpanama" is a palindrome. Example 2: Input: s = "race a car" Output: false Explanation: "raceacar" is not a palindrome. Example 3: Input: s = " " Output: true Explanation: s is an empty string "" after removing non-alphanumeric characters. Since an empty string reads the same forward and backward, it is a palindrome. Constraints: 1 <= s.length <= 2 * 105 s consists only of printable ASCII characters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
