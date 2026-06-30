@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse an Array
+ * URL: https://www.geeksforgeeks.org/problems/reverse-an-array/1
+ * Language: Time complexity - O(N) Space complexity - O(1) class Solution { public void reverseArray(int arr[]) { // code here int start = 0; int end = arr.length -1; while(start<end){ int temp = arr[start]; arr[start] = arr[end]; arr[end] = temp; start++; end--; } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T15:46:04.588Z
+ */
+
+class Solution {
+    public void reverseArray(int arr[]) {
+        int n =arr.length;
+        int left=0,right=n-1;
+        while(left < right){
+            int temp=arr[left];
+            arr[left++]=arr[right];
+            arr[right--]=temp;
+        }
+    }
+}
