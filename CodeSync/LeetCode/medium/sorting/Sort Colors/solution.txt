@@ -5,15 +5,14 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-30T09:23:47.945Z
+ * Runtime: 0 ms
+ * Memory: 43.67 MB
+ * Synced: 2026-06-30T09:24:35.001Z
  */
 
 class Solution {
     public void sortColors(int[] nums) {
         int low = 0, mid = 0, high = nums.length - 1;
-    
         while (mid <= high) {
             if (nums[mid] == 0) swap(nums, low++, mid++);
             else if (nums[mid] == 1) mid++;
