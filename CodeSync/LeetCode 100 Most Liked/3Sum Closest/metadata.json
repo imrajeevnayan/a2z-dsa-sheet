@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-30T05:55:56.926Z",
+  "runtime": "1 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "3Sum Closest",
+  "problemUrl": "https://leetcode.com/problems/3sum-closest/",
+  "submissionId": "f6sds3"
+}
