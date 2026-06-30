@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Greedy, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/boats-to-save-people/description/
-- Synced: 2026-06-30T09:11:19.301Z
+- Runtime: 1 ms
+- Memory: 56.45 MB
+- Problem URL: https://leetcode.com/problems/boats-to-save-people/submissions/2051014401/
+- Synced: 2026-06-30T09:12:07.154Z
 
 ## Problem Description
 
