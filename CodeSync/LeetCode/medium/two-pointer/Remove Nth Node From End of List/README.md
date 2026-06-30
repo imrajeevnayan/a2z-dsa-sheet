@@ -1,13 +1,13 @@
 # Remove Nth Node From End of List
 
 - Platform: LeetCode
-- Language: DSA Patterns by anubhav0910
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?envType=problem-list-v2&envId=a0b4xdj1
-- Synced: 2026-06-17T09:58:35.777Z
+- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- Synced: 2026-06-30T16:52:23.890Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a linked list, remove the nth node from the end of the list an
 
 ## Explanation
 
-This solution was accepted on LeetCode using DSA Patterns by anubhav0910. The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
