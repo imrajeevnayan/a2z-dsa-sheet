@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 4Sum
- * URL: https://leetcode.com/problems/4sum/submissions/
+ * URL: https://leetcode.com/problems/4sum/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-30T09:26:26.840Z
+ * Synced: 2026-06-30T09:27:13.542Z
  */
 
-class Solution {
+while (left < right) {
+                    long sum = (long) nums[i] + nums[j] + nums[left] + nums[right];
+                int right = n - 1;
+
+                int left = j + 1;
+
+                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+
+            for (int j = i + 1; j < n - 2; j++) {
+        for (int i = 0; i < n - 3; i++) {
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+        int n = nums.length;
+
+        Arrays.sort(nums);
+        List<List<Integer>> result = new ArrayList<>();
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        
-    }
-}
+class Solution {
