@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * URL: https://leetcode.com/problems/longest-palindromic-substring/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers
+ * Topics: Two Pointers, String, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:23:11.386Z
+ * Synced: 2026-06-30T10:30:08.266Z
  */
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
