@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-18T04:19:28.162Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-30T16:56:12.791Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,8 +9,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/?envType=problem-list-v2&envId=9gvhzx23",
-  "submissionId": "acqjom"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
+  "submissionId": "dp1f8t"
 }
