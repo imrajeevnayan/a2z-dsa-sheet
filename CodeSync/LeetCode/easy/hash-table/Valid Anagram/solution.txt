@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Anagram
- * URL: https://leetcode.com/problems/valid-anagram/submissions/2021163311/
+ * URL: https://leetcode.com/problems/valid-anagram/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Sorting
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:01:24.169Z
+ * Synced: 2026-06-30T09:36:54.769Z
  */
 
 class Solution {
@@ -17,8 +17,8 @@ class Solution {
         for(char c:s.toCharArray())freq[c-'a']++;
         for(char c:t.toCharArray())freq[c-'a']--;
         for(int f:freq){
-        return true;
             if(f!=0)return false;
         }
+        return true;
     }
 }
