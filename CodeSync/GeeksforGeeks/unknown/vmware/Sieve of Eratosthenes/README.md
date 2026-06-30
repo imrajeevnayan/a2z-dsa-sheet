@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/
-- Synced: 2026-06-30T09:04:47.001Z
+- Synced: 2026-06-30T09:05:44.249Z
 
 ## Problem Description
 
