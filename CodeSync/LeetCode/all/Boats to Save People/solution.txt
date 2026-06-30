@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Boats to Save People
+ * URL: https://leetcode.com/problems/boats-to-save-people/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:11:19.301Z
+ */
+
+class Solution {
+    public int numRescueBoats(int[] people, int limit) {
+        Arrays.sort(people);
+        int left = 0, right = people.length - 1;
+        int boats = 0;
+        while (left <= right) {
+            if (people[left] + people[right] <= limit) {
+                left++;
+            } 
+            right--;
+            boats++;
+        }
+         return boats;
+    }
+}
