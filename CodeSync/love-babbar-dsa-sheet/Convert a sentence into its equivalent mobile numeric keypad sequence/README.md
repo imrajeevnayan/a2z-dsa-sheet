@@ -1,18 +1,18 @@
 # Convert a sentence into its equivalent mobile numeric keypad sequence
 
 - Platform: GeeksforGeeks
-- Language: // C++ implementation to convert a // sentence into its equivalent // mobile numeric keypad sequence #include <bits/stdc++.h> using namespace std; // Function which computes the sequence string printSequence(string arr[], string input) { string output = ""; // length of input string int n = input.length(); for (int i = 0; i < n; i++) { // Checking for space if (input[i] == ' ') output = output + "0"; else { // Calculating index for each // character int position = input[i] - 'A'; output = output + arr[position]; } } // Output sequence return output; } // Driver Code int main() { // storing the sequence in array string str[] = { "2", "22", "222", "3", "33", "333", "4", "44", "444", "5", "55", "555", "6", "66", "666", "7", "77", "777", "7777", "8", "88", "888", "9", "99", "999", "9999" }; string input = "GEEKSFORGEEKS"; cout << printSequence(str, input); return 0; }
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Summer SkillUp Explore, Summer SkillUp, Explore
+- Topics: Topic Tags Related Articles, Topic Tags, Hash, Strings, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/dsa/convert-sentence-equivalent-mobile-numeric-keypad-sequence/
-- Synced: 2026-06-30T09:48:03.268Z
+- Problem URL: https://www.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence0547/1
+- Synced: 2026-06-30T09:48:10.843Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given a sentence in the form of a string in uppercase, convert it into its equivalent mobile numeric keypad sequence. Please note there might be spaces in between the words in a sentence and we can print spaces by pressing 0. Example 1: Input: S = "GFG" Output: 43334 Explanation: For 'G' press '4' one time. For 'F' press '3' three times. Example 2: Input: S = "HEY U" Output: 4433999088 Explanation: For 'H' press '4' two times. For 'E' press '3' two times. For 'Y' press '9' three times. For white space press '0' one time. For 'U' press '8' two times. Your Task: You dont need to read input or print anything. Complete the function printSequence() which takes a string as input parameter and returns its equivalent mobile numeric keypad sequence as a string. Expected Time Complexity: O(Length of String) Expected Auxiliary Space: O(Length of String) Constraints: 1 <= Length of String <= 105 Characters of string can be empty space or capital alphabets.
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using // C++ implementation to convert a // sentence into its equivalent // mobile numeric keypad sequence #include <bits/stdc++.h> using namespace std; // Function which computes the sequence string printSequence(string arr[], string input) { string output = ""; // length of input string int n = input.length(); for (int i = 0; i < n; i++) { // Checking for space if (input[i] == ' ') output = output + "0"; else { // Calculating index for each // character int position = input[i] - 'A'; output = output + arr[position]; } } // Output sequence return output; } // Driver Code int main() { // storing the sequence in array string str[] = { "2", "22", "222", "3", "33", "333", "4", "44", "444", "5", "55", "555", "6", "66", "666", "7", "77", "777", "7777", "8", "88", "888", "9", "99", "999", "9999" }; string input = "GEEKSFORGEEKS"; cout << printSequence(str, input); return 0; }. The detected topics are Summer SkillUp Explore, Summer SkillUp, Explore. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Topic Tags Related Articles, Topic Tags, Hash, Strings, Data Structures, Related Articles. Review the synced source file for the implementation details.
