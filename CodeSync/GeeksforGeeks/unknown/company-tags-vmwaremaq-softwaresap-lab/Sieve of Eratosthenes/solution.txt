@@ -1,0 +1,38 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sieve of Eratosthenes
+ * URL: https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1
+ * Language: class Solution: def sieve(self, n): # code here primes = [1] * (n+1) # 0 & 1 not a primes primes[0] = primes[1] = 0 # sieve - eliminate mulitiples of primes for i in range(2, int(n**0.5) + 1): if primes[i] == 1: for j in range(i*i, n+1, i): primes[j] = 0 # collect primes return [i for i in range(2, n+1) if primes[i] == 1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags VMWareMAQ SoftwareSAP Labs, Company Tags, VMWare, MAQ Software, SAP Labs, Topic Tags, Mathematical
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-30T09:04:32.269Z
+ */
+
+class Solution {
+    public ArrayList<Integer> sieve(int n) {
+        ArrayList<Integer> primes = new ArrayList<>();
+        if (n < 2) return primes;
+        boolean[] isComposite = new boolean[n + 1];
+        
+        isComposite[0] = true;
+        isComposite[1] = true;
+        
+        for (int i = 2; i * i <= n; i++) {
+            if (!isComposite[i]) {
+                for (int j = i * i; j <= n; j += i) {
+                    isComposite[j] = true;
+                }
+            }
+        }
+        
+        for (int i = 2; i <= n; i++) {
+            if (!isComposite[i]) {
+                primes.add(i);
+            }
+        }
+        
+        return primes;
+    }
+}
