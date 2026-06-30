@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-30T09:26:26.840Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-30T09:27:13.542Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "4Sum",
-  "problemUrl": "https://leetcode.com/problems/4sum/submissions/",
-  "submissionId": "kem505"
+  "problemUrl": "https://leetcode.com/problems/4sum/description/",
+  "submissionId": "ce475o"
 }
