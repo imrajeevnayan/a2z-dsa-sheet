@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T10:25:35.806Z",
+  "submissionTimestamp": "2026-06-30T10:26:21.595Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
-  "submissionId": "7g5aoj"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
+  "submissionId": "akntir"
 }
