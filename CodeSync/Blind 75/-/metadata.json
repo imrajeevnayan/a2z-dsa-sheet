@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
+  "submissionTimestamp": "2026-06-30T10:30:08.266Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Two Pointers",
-    "String"
+    "String",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "jxik4p"
+  "problemUrl": "https://leetcode.com/problems/longest-palindromic-substring/description/",
+  "submissionId": "27x1do"
 }
