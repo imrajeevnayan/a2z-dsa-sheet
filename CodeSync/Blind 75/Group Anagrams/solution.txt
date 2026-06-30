@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Group Anagrams
- * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
- * Language: 60 questions to solve (Copy-9xpbvcmc)
+ * URL: https://leetcode.com/problems/group-anagrams/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:14:50.083Z
+ * Synced: 2026-06-30T10:19:10.789Z
  */
 
 class Solution {
