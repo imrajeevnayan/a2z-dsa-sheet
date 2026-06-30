@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/sde-sheet-a-complete-guide-for-sde-preparation/
-- Synced: 2026-06-30T06:02:14.184Z
+- Synced: 2026-06-30T06:19:56.188Z
 
 ## Problem Description
 
