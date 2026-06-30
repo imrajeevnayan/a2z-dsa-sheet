@@ -4,10 +4,10 @@
 - Language: Dsa Question For Interview (Copy-vdyfzxft)mj
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:55:57.286Z
+- Synced: 2026-06-30T18:56:42.692Z
 
 ## Problem Description
 
