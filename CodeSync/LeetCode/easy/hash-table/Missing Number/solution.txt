@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Missing Number
- * URL: https://leetcode.com/problems/missing-number/submissions/2024027071/
+ * URL: https://leetcode.com/problems/missing-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:31:39.962Z
+ * Synced: 2026-06-30T15:46:27.943Z
  */
 
 class Solution {
