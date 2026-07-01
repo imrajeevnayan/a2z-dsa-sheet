@@ -148,5 +148,9 @@
   ],
   "leetcode:check-whether-two-strings-are-almost-equivalent": [],
   "leetcode:all-leetcode-articles-on-coding-patterns-summarized-in-one-page": [],
-  "leetcode:sliding-window-technique-and-question-bank": []
+  "leetcode:sliding-window-technique-and-question-bank": [],
+  "leetcode:remove-duplicates-from-sorted-list": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:algomaster-300"
+  ]
 }
