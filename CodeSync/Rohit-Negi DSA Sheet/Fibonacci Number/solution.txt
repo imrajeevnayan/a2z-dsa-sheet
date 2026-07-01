@@ -7,13 +7,14 @@
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-01T05:12:10.878Z
+ * Synced: 2026-07-01T05:13:01.147Z
  */
 
 class Solution {
     public int fib(int n) {
+        int dp[]=new int[n+1];
+        if(n <=1)return n;
+        
         
     }
-        int dp[]=new int[n+1];
-        if(n <=1)
 }
