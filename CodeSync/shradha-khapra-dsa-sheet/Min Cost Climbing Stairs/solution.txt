@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-01T05:41:38.768Z
+ * Synced: 2026-07-01T05:42:29.165Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
         int b = cost[1]; 
         for (int i = 2; i < n; i++) {
             int c = cost[i] + Math.min(a, b);
-            a = b;21
+            a = b;
             b = c;
         }
         return Math.min(a, b);
