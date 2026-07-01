@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Min Cost Climbing Stairs
+ * URL: https://leetcode.com/problems/min-cost-climbing-stairs/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-01T05:41:38.768Z
+ */
+
+class Solution {
+    public int minCostClimbingStairs(int[] cost) {
+        int n = cost.length;
+        int a = cost[0]; 
+        int b = cost[1]; 
+        for (int i = 2; i < n; i++) {
+            int c = cost[i] + Math.min(a, b);
+            a = b;21
+            b = c;
+        }
+        return Math.min(a, b);
+    }
+}
