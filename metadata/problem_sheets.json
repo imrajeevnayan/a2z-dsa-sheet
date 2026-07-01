@@ -146,5 +146,6 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:check-whether-two-strings-are-almost-equivalent": []
+  "leetcode:check-whether-two-strings-are-almost-equivalent": [],
+  "leetcode:all-leetcode-articles-on-coding-patterns-summarized-in-one-page": []
 }
