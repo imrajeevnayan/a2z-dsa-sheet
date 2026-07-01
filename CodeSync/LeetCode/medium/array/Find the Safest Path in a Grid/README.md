@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01
-- Synced: 2026-07-01T04:09:15.153Z
+- Synced: 2026-07-01T04:10:00.160Z
 
 ## Problem Description
 
