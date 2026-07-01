@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-01T05:11:24.710Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Recursion",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Fibonacci Number",
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/",
+  "submissionId": "rkau5z"
+}
