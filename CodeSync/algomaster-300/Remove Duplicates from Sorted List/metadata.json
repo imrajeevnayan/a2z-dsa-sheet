@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-01T04:11:53.515Z",
+  "submissionTimestamp": "2026-07-01T04:11:54.564Z",
   "runtime": "0 ms",
   "memoryUsage": "44.96 MB",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Duplicates from Sorted List",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+  "problemUrl": "https://leetcode.com/problems/rotate-list/",
   "submissionId": "q5vccp"
 }
