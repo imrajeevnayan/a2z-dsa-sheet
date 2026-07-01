@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Safest Path in a Grid
- * URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01
+ * URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/submissions/2051832737/?envType=daily-question&envId=2026-07-01
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Binary Search, Breadth-First Search, Union-Find, Heap (Priority Queue), Matrix
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-01T04:10:00.160Z
+ * Runtime: 0 ms
+ * Memory: 115.10 MB
+ * Synced: 2026-07-01T04:10:47.551Z
  */
 
-class Solution {
-    public int maximumSafenessFactor(List<List<Integer>> grid) {
+for (int[] dir : dirs) {
+                int nr = r + dir[0], nc = c + dir[1];
+                if (nr >= 0 && nr < n && nc >= 0 && nc < n && dist[nr][nc] == -1) {
+                    dist[nr][nc] = dist[r][c] + 1;
+                    queue.offer(new int[]{nr, nc});
+                }
+            }
+        }
+            
+            int r = cell[0], c = cell[1];
+            int[] cell = queue.poll();
+        while (!queue.isEmpty()) {
         
-    }
-}
+        
+        int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        }
+            }
+                }
+                    dist[i][j] = 0;
