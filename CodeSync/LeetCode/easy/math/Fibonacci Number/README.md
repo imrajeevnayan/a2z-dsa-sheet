@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Recursion, Memoization
 - Runtime: 0 ms
-- Memory: 41.76 MB
-- Problem URL: https://leetcode.com/problems/fibonacci-number/submissions/2010760862/
-- Synced: 2026-07-01T05:14:33.326Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/fibonacci-number/
+- Synced: 2026-07-01T05:15:29.158Z
 
 ## Problem Description
 
