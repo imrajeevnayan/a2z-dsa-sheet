@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-01T05:21:10.498Z",
-  "runtime": "0 ms",
-  "memoryUsage": "41.93 MB",
+  "submissionTimestamp": "2026-07-01T05:21:59.018Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Dynamic Programming",
-    "Recursion",
-    "Memoization"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/",
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/submissions/",
   "submissionId": "47jsa0"
 }
