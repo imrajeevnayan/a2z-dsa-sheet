@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: . S
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fibonacci-number/submissions/
-- Synced: 2026-07-01T05:21:59.018Z
+- Problem URL: https://leetcode.com/problems/fibonacci-number/solutions/
+- Synced: 2026-07-01T05:41:32.227Z
 
 ## Problem Description
 
