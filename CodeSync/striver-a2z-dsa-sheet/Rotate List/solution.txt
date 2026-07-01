@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:47:29.325Z
+ * Synced: 2026-07-01T04:12:45.154Z
  */
 
 fast = fast.next;
@@ -22,9 +22,5 @@ fast = fast.next;
         slow.next = null;
         fast.next = head;       
         return newHead;
-        for (int i = 0; i < k; i++) {
-        
-        if (head == null || head.next == null || k == 0) return head;
-        ListNode fast = head,slow = head;
-class Solution {
-    public ListNode rotateRight(ListNode head, int k) {
+    }
+}
