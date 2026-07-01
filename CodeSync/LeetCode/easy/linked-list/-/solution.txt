@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-01T04:07:48.793Z
+ */
+
+Input: head = [1,1,2]
+Output: [1,2]
