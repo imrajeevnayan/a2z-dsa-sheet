@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicates from Sorted List
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+ * URL: https://leetcode.com/problems/rotate-list/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List
  * Runtime: 0 ms
  * Memory: 44.96 MB
- * Synced: 2026-07-01T04:11:53.515Z
+ * Synced: 2026-07-01T04:11:54.564Z
  */
 
 class Solution {
