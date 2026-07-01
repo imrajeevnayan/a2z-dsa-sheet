@@ -1,21 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/submissions/2010760862/
+ * URL: https://leetcode.com/problems/fibonacci-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: 0 ms
- * Memory: 41.76 MB
- * Synced: 2026-07-01T05:14:33.326Z
+ * Memory: N/A
+ * Synced: 2026-07-01T05:15:29.158Z
  */
 
-2
-3
-4
-0
-0
-0
-1
-2
-3
+class Solution {
+    public int fib(int n) {
+        
+    }
+}
