@@ -1,13 +1,10 @@
 {
-  "submissionTimestamp": "2026-07-01T05:36:29.414Z",
+  "submissionTimestamp": "2026-07-01T05:41:32.227Z",
   "runtime": ". S",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Dynamic Programming",
-    "Recursion",
-    "Memoization"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
