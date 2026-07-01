@@ -152,5 +152,6 @@
   "leetcode:remove-duplicates-from-sorted-list": [
     "custom:arsh-goyal-dsa-sheet",
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:find-the-safest-path-in-a-grid": []
 }
