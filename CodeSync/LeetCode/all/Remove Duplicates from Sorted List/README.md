@@ -6,8 +6,8 @@
 - Topics: Linked List
 - Runtime: 0 ms
 - Memory: 44.96 MB
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-- Synced: 2026-07-01T04:11:53.515Z
+- Problem URL: https://leetcode.com/problems/rotate-list/
+- Synced: 2026-07-01T04:11:54.564Z
 
 ## Problem Description
 
