@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/submissions/
+ * URL: https://leetcode.com/problems/fibonacci-number/solutions/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-07-01T05:21:59.018Z
+ * Synced: 2026-07-01T05:41:32.227Z
  */
 
 class Solution {
