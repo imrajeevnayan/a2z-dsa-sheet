@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Duplicates from Sorted List
+ * URL: https://leetcode.com/problems/rotate-list/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List
+ * Runtime: 0 ms
+ * Memory: 44.96 MB
+ * Synced: 2026-07-01T04:11:54.564Z
+ */
+
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode curr = head;
+        while (curr != null && curr.next != null) {
+            if (curr.val == curr.next.val) curr.next = curr.next.next; 
+            else  curr = curr.next;
+        }
+        return head;
+    }
+}
