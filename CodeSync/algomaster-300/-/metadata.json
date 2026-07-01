@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
+  "submissionTimestamp": "2026-07-01T04:07:48.793Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Linked List"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "jxik4p"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/",
+  "submissionId": "5km1si"
 }
