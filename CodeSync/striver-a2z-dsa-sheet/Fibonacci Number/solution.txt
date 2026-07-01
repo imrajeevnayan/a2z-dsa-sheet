@@ -4,10 +4,10 @@
  * URL: https://leetcode.com/problems/fibonacci-number/solutions/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, Dynamic Programming, Recursion, Memoization
+ * Topics: Uncategorized
  * Runtime: . S
  * Memory: N/A
- * Synced: 2026-07-01T05:36:29.414Z
+ * Synced: 2026-07-01T05:41:32.227Z
  */
 
 class Solution {
