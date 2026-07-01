@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Array, Binary Search, Breadth-First Search, Union-Find, Heap (Priority Queue), Matrix
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01
-- Synced: 2026-07-01T04:10:00.160Z
+- Runtime: 0 ms
+- Memory: 115.10 MB
+- Problem URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/submissions/2051832737/?envType=daily-question&envId=2026-07-01
+- Synced: 2026-07-01T04:10:47.551Z
 
 ## Problem Description
 
