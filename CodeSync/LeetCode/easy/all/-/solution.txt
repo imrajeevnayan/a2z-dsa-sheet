@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/valid-palindrome/description/
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Two Pointers, String
+ * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:32:20.018Z
+ * Synced: 2026-07-01T04:07:48.793Z
  */
 
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
-Explanation: "amanaplanacanalpanama" is a palindrome.
+Input: head = [1,1,2]
+Output: [1,2]
