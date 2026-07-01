@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-01T04:08:29.147Z",
+  "submissionTimestamp": "2026-07-01T04:09:15.153Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Find the Safest Path in a Grid",
-  "problemUrl": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/?envType=daily-question&envId=2026-07-01",
+  "problemUrl": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01",
   "submissionId": "9t5azi"
 }
