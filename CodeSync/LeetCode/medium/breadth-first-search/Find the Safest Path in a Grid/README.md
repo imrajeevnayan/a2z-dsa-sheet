@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Breadth-First Search, Union-Find, Heap (Priority Queue), Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/?envType=daily-question&envId=2026-07-01
-- Synced: 2026-07-01T04:08:29.147Z
+- Problem URL: https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01
+- Synced: 2026-07-01T04:09:15.153Z
 
 ## Problem Description
 
