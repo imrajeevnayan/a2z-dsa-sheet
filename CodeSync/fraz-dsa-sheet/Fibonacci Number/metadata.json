@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-01T05:14:33.326Z",
+  "submissionTimestamp": "2026-07-01T05:15:29.158Z",
   "runtime": "0 ms",
-  "memoryUsage": "41.76 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/submissions/2010760862/",
-  "submissionId": "x5ulk4"
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/",
+  "submissionId": "6x98sb"
 }
