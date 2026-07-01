@@ -7,8 +7,12 @@
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:30:59.856Z
+ * Synced: 2026-07-01T05:11:24.710Z
  */
 
-F(0) = 0, F(1) = 1
-F(n) = F(n - 1) + F(n - 2), for n > 1.
+class Solution {
+    public int fib(int n) {
+        if(n <= 1) return n;
+      return fib(n-1)+fib(n-2);
+    }
+}
