@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-01T04:08:29.147Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Heap (Priority Queue)",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Find the Safest Path in a Grid",
+  "problemUrl": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/?envType=daily-question&envId=2026-07-01",
+  "submissionId": "9t5azi"
+}
