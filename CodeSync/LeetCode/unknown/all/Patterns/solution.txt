@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Patterns
+ * URL: https://leetcode.com/discuss/post/458695/dynamic-programming-patterns-by-aatalyk-pmgr/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-01T06:41:23.017Z
+ */
+
+routes[i] = min(routes[i-1], routes[i-2], ... , routes[i-k]) + cost[i]
