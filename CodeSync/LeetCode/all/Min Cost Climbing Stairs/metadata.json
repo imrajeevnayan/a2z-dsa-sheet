@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-01T05:41:38.768Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Min Cost Climbing Stairs",
+  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/description/",
+  "submissionId": "mhthts"
+}
