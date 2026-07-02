@@ -1,22 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Easy
- * Topics: Array, Dynamic Programming
+ * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T16:49:38.947Z
+ * Synced: 2026-07-02T17:00:37.296Z
  */
 
 class Solution {
-    public int maxProfit(int[] prices) {
-     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-     for(int n :prices){
-        min=Math.min(min,n);
-        max=Math.max(max,n-min);
-     }
-     return max;   
+    public int tribonacci(int n) {
+        
     }
 }
