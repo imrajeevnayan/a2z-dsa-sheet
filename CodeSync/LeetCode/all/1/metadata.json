@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-22T19:23:27.252Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-01T06:34:15.615Z",
+  "runtime": "1 ms",
+  "memoryUsage": "44.58 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Graph Theory",
-    "Topological Sort"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Online Interview",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "836c2h"
+  "problemUrl": "https://leetcode.com/submissions/detail/2051980374/",
+  "submissionId": "9srngj"
 }
