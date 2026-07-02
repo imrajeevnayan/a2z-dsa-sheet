@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 44.08 MB
 - Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:56:15.313Z
+- Synced: 2026-07-02T16:57:01.342Z
 
 ## Problem Description
 
