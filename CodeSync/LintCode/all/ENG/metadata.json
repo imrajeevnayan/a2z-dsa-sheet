@@ -1,19 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-02T15:43:46.442Z",
+  "submissionTimestamp": "2026-07-02T15:44:33.674Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Dynamic Programming",
-    "DPCoordinate DP",
-    "DP",
-    "Coordinate DP",
-    "366 Fibonacci Naive 392 House Robber Medium",
+    "EnumerateArraySimulation",
+    "Enumerate",
+    "Array",
+    "Simulation",
+    "NetEase",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/111/",
-  "submissionId": "kykjbf"
+  "problemUrl": "https://www.lintcode.com/problem/366",
+  "submissionId": "o5e43h"
 }
