@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum number of Coins
+ * URL: https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1
+ * Language: class Solution: def findMin(self, n): # code here count=0 mul_10=n/10 count+=mul_10 rem=n%10 if(rem==1 or rem==2 or rem==5 ): count+=1 elif(rem==3 or rem==4 or rem==6): count+=2 elif(rem==8): count+=3 elif(rem==7): count+=2 # print(int(count)) elif(rem==9): count+=3 # print(int(count)) return int(count)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Visa, Company Tags, Visa, Topic Tags, Dynamic Programming, Greedy, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T18:25:30.250Z
+ */
+
+class Solution {
+    public int findMin(int n) {
+        int[] coins = { 10, 5, 2, 1};
+        int count = 0;
+        for (int c : coins) {
+            count += n / c;
+            n %= c;
+        }
+    return count;
+    }
+}
