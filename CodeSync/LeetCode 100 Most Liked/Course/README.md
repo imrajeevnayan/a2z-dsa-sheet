@@ -2,12 +2,12 @@
 
 - Platform: LintCode
 - Language: Java
-- Difficulty: Unknown
-- Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
+- Difficulty: Medium
+- Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/366/description
-- Synced: 2026-07-02T15:49:15.980Z
+- Synced: 2026-07-02T16:33:01.408Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Find the Nth number in Fibonacci sequence. (N starts at 1) A Fibonac
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Commit Output. Review the synced source file for the implementation details.
