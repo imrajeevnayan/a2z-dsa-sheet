@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T11:58:40.973Z",
+  "submissionTimestamp": "2026-07-02T18:29:32.157Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "fib(n) = fib(n-1) + fib(n-2)",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1",
-  "submissionId": "utb2tk"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1",
+  "submissionId": "8lavhb"
 }
