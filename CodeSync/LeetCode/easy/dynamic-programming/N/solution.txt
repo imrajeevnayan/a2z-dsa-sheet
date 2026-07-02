@@ -1,17 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: N
- * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T17:11:37.997Z
+ * Synced: 2026-07-02T17:14:03.677Z
  */
 
 class Solution {
     public int tribonacci(int n) {
         
     }
+        if(n==0)return 0;
+        if(n==1|| n==2)return 1;
+        int dp[]=new int[n+1]
 }
