@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-02T17:01:29.714Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "N",
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "zdw2ha"
+}
