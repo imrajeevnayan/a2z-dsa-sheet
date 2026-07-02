@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T16:58:17.008Z",
+  "submissionTimestamp": "2026-07-02T16:59:02.819Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Number of Ways to Reach the K",
-  "problemUrl": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/description/",
-  "submissionId": "6bclzy"
+  "problemUrl": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/",
+  "submissionId": "7gng58"
 }
