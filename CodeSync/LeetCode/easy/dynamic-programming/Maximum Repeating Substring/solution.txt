@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Repeating Substring
+ * URL: https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Easy
+ * Topics: String, Dynamic Programming, String Matching
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T17:23:11.006Z
+ */
+
+class Solution {
+    public int maxRepeating(String sequence, String word) {
+        
+    }
+}
