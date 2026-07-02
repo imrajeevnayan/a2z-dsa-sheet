@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Bit Manipulation, Memoization, Combinatorics
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/description/
-- Synced: 2026-07-02T16:58:17.008Z
+- Problem URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/
+- Synced: 2026-07-02T16:59:02.819Z
 
 ## Problem Description
 
