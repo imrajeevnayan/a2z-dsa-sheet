@@ -3,17 +3,16 @@
  * Problem: Course
  * URL: https://www.lintcode.com/problem/366/description
  * Language: Java
- * Difficulty: Unknown
- * Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
+ * Difficulty: Medium
+ * Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T15:49:15.980Z
+ * Synced: 2026-07-02T16:33:01.408Z
  */
 
 public·class·Solution·{
 ····public·int·fibonacci(int·n)·{
-·········if(n·<1)return·0;
-········if·(n·==·1)·return·0;
+········if·(n·<=·1)·return·0;
 ········if·(n·==·2)·return·1;
 ········int·dp[]=new·int[n+1];
 ········dp[0]=0;
