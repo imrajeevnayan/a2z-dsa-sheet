@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T18:44:31.391Z",
+  "submissionTimestamp": "2026-07-02T15:38:08.100Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Dynamic Programming",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/",
-  "submissionId": "prcr57"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "u94bpf"
 }
