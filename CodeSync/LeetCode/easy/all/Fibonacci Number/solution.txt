@@ -1,25 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/solutions/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/fibonacci-number/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: . S
+ * Topics: Math, Dynamic Programming, Recursion, Memoization
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-01T05:41:32.227Z
+ * Synced: 2026-07-02T15:31:25.695Z
  */
 
 class Solution {
     public int fib(int n) {
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-        return helper(n, dp);
+        
     }
-    private int helper(int n, int[] dp) {
-        if (n <= 1) return n; 
-        if (dp[n] != -1) return dp[n];
-        dp[n] = helper(n - 1, dp) + helper(n - 2, dp);
-        return dp[n];
-    }
+        if
 }
