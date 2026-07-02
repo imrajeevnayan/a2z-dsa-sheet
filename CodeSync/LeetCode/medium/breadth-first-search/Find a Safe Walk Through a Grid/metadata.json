@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-02T16:59:38.154Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Heap (Priority Queue)",
+    "Matrix",
+    "Shortest Path"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Find a Safe Walk Through a Grid",
+  "problemUrl": "https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question&envId=2026-07-02",
+  "submissionId": "vwbd61"
+}
