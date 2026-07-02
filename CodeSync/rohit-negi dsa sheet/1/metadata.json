@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-02T17:00:37.296Z",
+  "submissionTimestamp": "2026-07-02T17:22:18.056Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
+    "String",
     "Dynamic Programming",
-    "Memoization"
+    "String Matching"
   ],
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "bpcm3z"
+  "problemUrl": "https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "mvti46"
 }
