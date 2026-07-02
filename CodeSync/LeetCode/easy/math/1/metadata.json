@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-02T15:47:16.003Z",
+  "submissionTimestamp": "2026-07-02T17:00:37.296Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
     "Dynamic Programming",
-    "Recursion",
     "Memoization"
   ],
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "qbgcqi"
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "bpcm3z"
 }
