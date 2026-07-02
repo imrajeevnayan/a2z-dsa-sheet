@@ -1,31 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2051980374/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 44.58 MB
- * Synced: 2026-07-01T06:34:14.811Z
+ * URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T16:47:29.015Z
  */
 
-1class Solution {
-2    public int minCostClimbingStairs(int[] cost) {
-3        int n = cost.length;
-4        int[] dp = new int[n + 1];
-5        Arrays.fill(dp, -1);
-6        return helper(cost, n, dp);
-7    }
-8    
-9    private int helper(int[] cost, int i, int[] dp) {
-10        if (i <= 1) return 0;
-11        if (dp[i] != -1) return dp[i];
-12        dp[i] = Math.min(
-13            helper(cost, i - 1, dp) + cost[i - 1],
-14            helper(cost, i - 2, dp) + cost[i - 2]
-15        );
-16        
-17        return dp[i];
-18    }
-19}
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
