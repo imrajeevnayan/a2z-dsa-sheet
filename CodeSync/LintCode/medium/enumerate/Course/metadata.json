@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-02T16:33:01.408Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "EnumerateArraySimulation",
+    "Enumerate",
+    "Array",
+    "Simulation",
+    "NetEase",
+    "Test Data Commit Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/366/description",
+  "submissionId": "ps7vlx"
+}
