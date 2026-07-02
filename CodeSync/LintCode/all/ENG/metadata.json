@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T15:46:10.437Z",
+  "submissionTimestamp": "2026-07-02T15:46:57.856Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -9,11 +9,11 @@
     "Array",
     "Simulation",
     "NetEase",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/366",
-  "submissionId": "p674ck"
+  "submissionId": "dqahzy"
 }
