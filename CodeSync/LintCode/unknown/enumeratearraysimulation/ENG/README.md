@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/366
-- Synced: 2026-07-02T15:47:50.892Z
+- Synced: 2026-07-02T15:48:37.292Z
 
 ## Problem Description
 
