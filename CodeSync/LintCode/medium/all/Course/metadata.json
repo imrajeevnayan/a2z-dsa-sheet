@@ -1,15 +1,19 @@
 {
-  "submissionTimestamp": "2026-05-29T15:42:49.202Z",
+  "submissionTimestamp": "2026-07-02T16:33:01.408Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Algorithms Medium",
-    "View Problem"
+    "EnumerateArraySimulation",
+    "Enumerate",
+    "Array",
+    "Simulation",
+    "NetEase",
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/submission/34586558/?action_type=1",
-  "submissionId": "c5tck"
+  "problemUrl": "https://www.lintcode.com/problem/366/description",
+  "submissionId": "ps7vlx"
 }
