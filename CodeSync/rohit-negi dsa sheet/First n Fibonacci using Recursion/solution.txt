@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First n Fibonacci using Recursion
+ * URL: https://www.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1
+ * Language: class Solution { // Function to return list containing first n fibonacci numbers. public static int[] fibonacciNumbers(int n) { int[] fib=new int[n]; fib[0]=0; if(n==1) return fib; fib[1]=1; for(int i=2;i<n;i++){ fib[i]=fib[i-1]+fib[i-2]; } return fib; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags InfosysWiproTCSAccenture, Company Tags, Infosys, Wipro, TCS, Accenture, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T18:18:38.264Z
+ */
+
+class Solution {
+    public static int[] fibonacciNumbers(int n) {
+        int[] fib = new int[n];
+        
+        if (n >= 1) fib[0] = 0;
+        if (n >= 2) fib[1] = 1;
+        
+        for (int i = 2; i < n; i++) {
+            fib[i] = fib[i - 1] + fib[i - 2];
+        }
+        
+        return fib;
+    }
+}
