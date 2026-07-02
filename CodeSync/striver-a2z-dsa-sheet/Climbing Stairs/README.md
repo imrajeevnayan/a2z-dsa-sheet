@@ -1,18 +1,18 @@
 # Climbing Stairs
 
-- Platform: LeetCode
-- Language: Dynamic Programming
+- Platform: NeetCode
+- Language: n
 - Difficulty: Easy
-- Topics: Math, Dynamic Programming, Memoization
-- Runtime: 0 ms
+- Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, Math Dynamic Programming Memoization, Math, Dynamic Programming, Memoization
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T15:38:08.100Z
+- Problem URL: https://neetcode.io/problems/climbing-stairs/question
+- Synced: 2026-07-02T15:40:33.352Z
 
 ## Problem Description
 
-You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Example 1: Input: n = 2 Output: 2 Explanation: There are two ways to climb to the top. 1. 1 step + 1 step 2. 2 steps Example 2: Input: n = 3 Output: 3 Explanation: There are three ways to climb to the top. 1. 1 step + 1 step + 1 step 2. 1 step + 2 steps 3. 2 steps + 1 step Constraints: 1 <= n <= 45
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on NeetCode using n. The detected topics are Easy Topics Company Tags Hints, Topics, Company Tags, Hints, Math Dynamic Programming Memoization, Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
