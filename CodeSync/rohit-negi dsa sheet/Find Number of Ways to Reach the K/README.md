@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Math, Dynamic Programming, Bit Manipulation, Memoization, Combinatorics
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/
-- Synced: 2026-07-02T16:59:02.819Z
+- Runtime: 0 ms
+- Memory: 45.75 MB
+- Problem URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/submissions/2053786683/
+- Synced: 2026-07-02T17:00:16.992Z
 
 ## Problem Description
 
