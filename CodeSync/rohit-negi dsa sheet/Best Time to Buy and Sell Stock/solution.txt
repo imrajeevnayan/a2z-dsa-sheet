@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Best Time to Buy and Sell Stock
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 94.44 MB
- * Synced: 2026-06-14T18:18:33.330Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T16:50:26.014Z
  */
 
 class Solution {
