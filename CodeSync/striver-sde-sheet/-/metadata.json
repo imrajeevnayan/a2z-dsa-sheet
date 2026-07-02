@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-22T06:23:11.386Z",
+  "submissionTimestamp": "2026-07-02T16:47:29.015Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
-  "submissionId": "iglrwm"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "fldxf4"
 }
