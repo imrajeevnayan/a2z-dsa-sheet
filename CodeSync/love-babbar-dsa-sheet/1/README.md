@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Online Interview
-- Difficulty: Unknown
-- Topics: Uncategorized
-- Runtime: 1 ms
-- Memory: 44.58 MB
-- Problem URL: https://leetcode.com/submissions/detail/2051980374/
-- Synced: 2026-07-01T06:36:27.116Z
+- Language: Dynamic Programming
+- Difficulty: Easy
+- Topics: Math, Dynamic Programming, Recursion, Memoization
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T15:47:16.003Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is, F(0) = 0, F(1) = 1 F(n) = F(n - 1) + F(n - 2), for n > 1. Given n, calculate F(n). Example 1: Input: n = 2 Output: 1 Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1. Example 2: Input: n = 3 Output: 2 Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2. Example 3: Input: n = 4 Output: 3 Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3. Constraints: 0 <= n <= 30
 
 ## Explanation
 
-This solution was accepted on LeetCode using Online Interview. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Math, Dynamic Programming, Recursion, Memoization. Review the synced source file for the implementation details.
