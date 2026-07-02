@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Online Interview
-- Difficulty: Unknown
-- Topics: Uncategorized
-- Runtime: 1 ms
-- Memory: 44.58 MB
-- Problem URL: https://leetcode.com/submissions/detail/2051980374/
-- Synced: 2026-07-01T06:34:14.811Z
+- Language: Text
+- Difficulty: Easy
+- Topics: Array, Dynamic Programming
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T16:47:29.015Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
 
 ## Explanation
 
-This solution was accepted on LeetCode using Online Interview. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
