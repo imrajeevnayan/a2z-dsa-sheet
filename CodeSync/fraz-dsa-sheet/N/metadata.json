@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T17:11:37.997Z",
+  "submissionTimestamp": "2026-07-02T17:12:33.293Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "N",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "zdw2ha"
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "8tfx7r"
 }
