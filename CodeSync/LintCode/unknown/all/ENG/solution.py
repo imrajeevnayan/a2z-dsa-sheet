@@ -1,35 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/167/
+# URL: https://www.lintcode.com/problem/366
 # Language: Python
 # Difficulty: Unknown
-# Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
+# Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-22T09:18:01.100Z
+# Synced: 2026-07-02T15:44:33.674Z
 
 public·class·Solution·{
-····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
-······
-········Stack<Integer>s1=new·Stack<>();
-········Stack<Integer>s2=new·Stack<>();
-········while(l1!=null){
-············s1.push(li.val);
-········}
-············l1=l1.next;
-········while(l2!=null){
-············s2.push(l2.val);
-········}
-············l2=l2.next;
-········int·carry=0;
-·······ListNode·head=null;
-
-·······while(!s1.isEmpty()·||·!s2.isEmpty()||·carry=0){
-···········int·sum=carry;
-·······}
+····/**
+·····*·@param·n:·an·integer
+·····*·@return:·an·integer·f(n)
+·····*/
+····public·int·fibonacci(int·n)·{
+········//·write·your·code·here
 ····}
-···········if(!s1.isEmpty())sum+=s1.pop();
-···········if(!s2.isEmpty())sum+=s2.pop();
-···········carry=sum/10;
-···········ListNode·node=new·ListNode(sum%1)
 }
