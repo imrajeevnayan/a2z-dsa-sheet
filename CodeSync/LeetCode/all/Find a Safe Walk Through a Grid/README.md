@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question&envId=2026-07-02
-- Synced: 2026-07-02T16:59:38.154Z
+- Synced: 2026-07-02T19:12:18.949Z
 
 ## Problem Description
 
