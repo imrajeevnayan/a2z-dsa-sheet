@@ -1,27 +1,25 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/392/?showListFe=false&page=1&problemTypeId=4&pageSize=50
+ * URL: https://www.lintcode.com/problem/111/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Dynamic Programming, DPCoordinate DP, DP, Coordinate DP, LinkedIn Airbnb, LinkedIn, Airbnb, Test Data Test Output
+ * Topics: Dynamic Programming, DPCoordinate DP, DP, Coordinate DP, 366 Fibonacci Naive 392 House Robber Medium, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T06:49:04.592Z
+ * Synced: 2026-07-02T15:42:15.610Z
  */
 
 public·class·Solution·{
-····public·long·houseRobber(int[]·a)·{
-········if·(a·==·null·||·a.length·==·0)·return·0;
-········if·(a.length·==·1)·return·a[0];
-········
-········int·n·=·a.length;
-········
-········long·prev2·=·0;
-········long·prev1·=·0;
-········
-········for·(int·i·=·0;·i·<·n;·i++)·{
-············//·Either·skip·current·house·(prev1)·or·rob·it·(prev2·+·a[i])
-············long·curr·=·Math.max(prev1,·prev2·+·a[i]);
-············
-············//·Shift·variables·forward
+····public·int·climbStairs(int·n)·{
+········if(n·<=2)·return·n;
+········int·a=1;
+········int·b=2;
+········for(int·i=3;i<=n;i++){
+············int·c=a+b;
+············a=b;
+············b=c;
+········}
+········return·b;
+····}
+}
