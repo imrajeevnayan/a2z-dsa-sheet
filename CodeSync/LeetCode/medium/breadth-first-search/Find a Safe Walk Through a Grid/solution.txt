@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find a Safe Walk Through a Grid
+ * URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question&envId=2026-07-02
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T16:59:38.154Z
+ */
+
+class Solution {
+    public boolean findSafeWalk(List<List<Integer>> grid, int health) {
+        
+    }
+}
