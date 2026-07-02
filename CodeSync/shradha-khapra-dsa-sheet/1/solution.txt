@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Easy
- * Topics: Math, Dynamic Programming, Memoization
+ * Topics: String, Dynamic Programming, String Matching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T17:00:37.296Z
+ * Synced: 2026-07-02T17:22:18.056Z
  */
 
 class Solution {
-    public int tribonacci(int n) {
+    public int maxRepeating(String sequence, String word) {
         
     }
 }
