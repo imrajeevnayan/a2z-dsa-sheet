@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-02T18:25:30.250Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Visa",
+    "Company Tags",
+    "Visa",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Greedy",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def findMin(self, n): # code here count=0 mul_10=n/10 count+=mul_10 rem=n%10 if(rem==1 or rem==2 or rem==5 ): count+=1 elif(rem==3 or rem==4 or rem==6): count+=2 elif(rem==8): count+=3 elif(rem==7): count+=2 # print(int(count)) elif(rem==9): count+=3 # print(int(count)) return int(count)",
+  "problemTitle": "Minimum number of Coins",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1",
+  "submissionId": "o57i2a"
+}
