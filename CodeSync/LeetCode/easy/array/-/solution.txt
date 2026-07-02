@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
- * Language: -
+ * URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Text
  * Difficulty: Easy
- * Topics: Array, Hash Table, Graph Theory
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T05:35:26.167Z
+ * Synced: 2026-07-02T16:47:29.015Z
  */
 
-Input: n = 2, trust = [[1,2]]
-Output: 2
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
