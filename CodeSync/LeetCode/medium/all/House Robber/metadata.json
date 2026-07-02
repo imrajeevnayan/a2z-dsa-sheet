@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-01T06:48:13.794Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-01T06:49:47.344Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber",
-  "problemUrl": "https://leetcode.com/problems/house-robber/",
-  "submissionId": "wwcti9"
+  "problemUrl": "https://leetcode.com/problems/house-robber/submissions/2052005888/",
+  "submissionId": "bp34of"
 }
