@@ -1,24 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Easy
- * Topics: Math, Dynamic Programming, Recursion, Memoization
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T15:47:16.003Z
+ * Synced: 2026-07-02T16:49:38.947Z
  */
 
 class Solution {
-    public int fib(int n) {
-        if(n <1)return 0;
-        int dp[]=new int[n+1];
-        dp[0]=0;
-        dp[1]=1;
-        for(int i=2;i<=n;i++){
-            dp[i]=dp[i-1]+dp[i-2];
-        }
-        return dp[n];
+    public int maxProfit(int[] prices) {
+     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
+     for(int n :prices){
+        min=Math.min(min,n);
+        max=Math.max(max,n-min);
+     }
+     return max;   
     }
 }
