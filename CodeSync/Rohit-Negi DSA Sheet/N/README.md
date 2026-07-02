@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T17:01:29.714Z
+- Synced: 2026-07-02T17:02:42.678Z
 
 ## Problem Description
 
