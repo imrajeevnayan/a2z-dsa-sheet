@@ -307,5 +307,6 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "custom:arsh-goyal-dsa-sheet"
-  ]
+  ],
+  "leetcode:maximum-repeating-substring": []
 }
