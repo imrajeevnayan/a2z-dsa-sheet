@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: 0 ms
 - Memory: 42.01 MB
-- Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/submissions/2053807465/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T17:15:34.850Z
+- Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T17:16:29.935Z
 
 ## Problem Description
 
