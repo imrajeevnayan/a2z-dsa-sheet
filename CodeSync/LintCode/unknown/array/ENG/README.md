@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: Python
 - Difficulty: Unknown
-- Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
+- Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/943/
-- Synced: 2026-06-10T17:22:18.179Z
+- Problem URL: https://www.lintcode.com/problem/366
+- Synced: 2026-07-02T15:44:33.674Z
 
 ## Problem Description
 
-Description Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.The elements corresponding to i and j are also included. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information You may assume that the array does not change. There are many calls to sumRange function. Example Example1 Input: nums = [-2, 0, 3, -5, 2, -1] sumRange(0, 2) sumRange(2, 5) sumRange(0, 5) Output: 1 -1 -3 Explanation: sumRange(0, 2) -> (-2) + 0 + 3 = 1 sumRange(2, 5) -> 3 + (-5) + 2 + (-1) = -1 sumRange(0, 5) -> (-2) + 0 + 3 + (-5) + 2 + (-1) = -3 Example2 Input: nums = [-4, -5] sumRange(0, 0) sumRange(1, 1) sumRange(0, 1) sumRange(1, 1) sumRange(0, 0) Output: -4 -5 -9 -5 -4 Explanation: sumRange(0, 0) -> -4 sumRange(1, 1) -> -5 sumRange(0, 1) -> (-4) + (-5) = -9 sumRange(1, 1) -> -5 sumRange(0, 0) -> -4 Tags Company OpenAI Related Problems 665 Range Sum Query 2D - Immutable Medium 817 Range Sum Query 2D - Mutable Medium 840 Range Sum Query - Mutable Medium Recommend Courses 系统设计 System Design 2024版 数据库、API、GFS、视频流等16大系统设计详解，实战练习拿下面试/晋升“拦路虎”
+Description Find the Nth number in Fibonacci sequence. (N starts at 1) A Fibonacci sequence is defined as follow: The first two numbers are 0 and 1. The i th number is the sum of i-1 th number and i-2 th number. The first ten numbers in Fibonacci sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ... LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The Nth fibonacci number won't exceed the max value of signed 32-bit integer in the test cases. Example Example 1: Input: 1 Output: 0 Explanation: return the first number in Fibonacci sequence . Example 2: Input: 2 Output: 1 Explanation: return the second number in Fibonacci sequence . Related Knowledge 学习《九章算法班随课教程》课程中的3.7通过 Fibonacci 数列入门递归相关内容 ，了解更多相关知识！ Tags Company NetEase Related Problems 949 Fibonacci II Medium 3 Digit Counts Easy 111 Climbing Stairs Easy 392 House Robber Medium 734 Number of Subsequences of Form a^i b^j c^k Medium 735 Replace With Greatest From Right Medium Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output. Review the synced source file for the implementation details.
