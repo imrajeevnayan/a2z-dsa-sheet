@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-02T15:49:15.980Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "EnumerateArraySimulation",
+    "Enumerate",
+    "Array",
+    "Simulation",
+    "NetEase",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/366/description",
+  "submissionId": "wwnwvr"
+}
