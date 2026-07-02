@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-01T06:36:27.116Z",
-  "runtime": "1 ms",
-  "memoryUsage": "44.58 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-02T15:47:16.003Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Math",
+    "Dynamic Programming",
+    "Recursion",
+    "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Dynamic Programming",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2051980374/",
-  "submissionId": "9srngj"
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "qbgcqi"
 }
