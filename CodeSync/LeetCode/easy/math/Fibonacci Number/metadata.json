@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-01T05:36:29.414Z",
-  "runtime": ". S",
+  "submissionTimestamp": "2026-07-02T15:31:25.695Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,8 +10,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Dynamic Programming",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/solutions/",
-  "submissionId": "47jsa0"
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "6o9asd"
 }
