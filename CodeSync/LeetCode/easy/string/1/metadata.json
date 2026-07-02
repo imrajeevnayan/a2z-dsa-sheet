@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-02T17:22:18.056Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "String Matching"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "1",
+  "problemUrl": "https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "mvti46"
+}
