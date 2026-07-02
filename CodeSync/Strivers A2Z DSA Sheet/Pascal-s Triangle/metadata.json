@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T16:48:14.991Z",
+  "submissionTimestamp": "2026-07-02T16:49:00.561Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "Pascal's Triangle",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "kfkbxk"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "b7qm0l"
 }
