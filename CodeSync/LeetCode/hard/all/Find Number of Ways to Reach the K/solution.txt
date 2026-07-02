@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Number of Ways to Reach the K
- * URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/
+ * URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/submissions/2053786683/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Math, Dynamic Programming, Bit Manipulation, Memoization, Combinatorics
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-02T16:59:02.819Z
+ * Runtime: 0 ms
+ * Memory: 45.75 MB
+ * Synced: 2026-07-02T17:00:16.992Z
  */
 
 long forward = 1L << i; // 2^i
@@ -18,14 +18,9 @@ long forward = 1L << i; // 2^i
         }
 
                 comb[i][j] = comb[i - 1][j - 1] + comb[i - 1][j];
-            comb[i][0] = 1;
-            for (int j = 1; j <= i; j++) {
-        for (int i = 0; i < 35; i++) {
             long b = forward - k;
             
-            // b must be non-negative and we can have at most i+1 backward jumps
             if (b >= 0 && b <= i + 1) {
-                // Choose b positions out of (i+1) possible backward opportunities
                 result += comb[i + 1][(int) b];
             }
         }
