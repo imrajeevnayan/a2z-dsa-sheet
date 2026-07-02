@@ -1,18 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-10T17:21:13.948Z",
+  "submissionTimestamp": "2026-07-02T15:44:33.674Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Prefix Sum ArrayArray",
-    "Prefix Sum Array",
+    "EnumerateArraySimulation",
+    "Enumerate",
     "Array",
-    "OpenAI",
+    "Simulation",
+    "NetEase",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/943/",
-  "submissionId": "i8zhn0"
+  "problemUrl": "https://www.lintcode.com/problem/366",
+  "submissionId": "o5e43h"
 }
