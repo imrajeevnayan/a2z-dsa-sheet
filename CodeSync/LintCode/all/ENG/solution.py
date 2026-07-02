@@ -6,7 +6,7 @@
 # Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-07-02T15:47:50.892Z
+# Synced: 2026-07-02T15:48:37.292Z
 
 public·class·Solution·{
 ····public·int·fibonacci(int·n)·{
@@ -19,4 +19,6 @@ public·class·Solution·{
 ········}
 ····}
 ········return·dp[n];
+········if·(n·==·1)·return·0;
+········if·(n·==·2)·return·1;
 }
