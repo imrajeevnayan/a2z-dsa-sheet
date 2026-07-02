@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/fibonacci-number/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T15:57:26.081Z
+- Synced: 2026-07-02T15:58:19.086Z
 
 ## Problem Description
 
