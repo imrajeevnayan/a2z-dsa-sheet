@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Number of Ways to Reach the K
+ * URL: https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Math, Dynamic Programming, Bit Manipulation, Memoization, Combinatorics
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T16:57:29.777Z
+ */
+
+class Solution {
+    public int waysToReachStair(int k) {
+        
+    }
+}
