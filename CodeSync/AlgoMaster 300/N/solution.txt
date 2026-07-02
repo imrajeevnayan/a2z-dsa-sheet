@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: N
- * URL: https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/n-th-tribonacci-number/submissions/2053807465/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-02T17:14:48.982Z
+ * Runtime: 0 ms
+ * Memory: 42.01 MB
+ * Synced: 2026-07-02T17:15:34.850Z
  */
 
 class Solution {
@@ -17,10 +17,10 @@ class Solution {
         int dp[]=new int[n+1];
         dp[0]=0;
         dp[1]=1;
-        
+        return dp[n];
         dp[2]=1;
         for(int i=3;i<=n;i++){
-            dp
+            dp[i]=dp[i-1]+dp[i-2]+dp[i-3];
         }
     }
 }
