@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-23T05:35:26.167Z",
+  "submissionTimestamp": "2026-07-02T16:47:29.015Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Hash Table",
-    "Graph Theory"
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "-",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "lc06cn"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "fldxf4"
 }
