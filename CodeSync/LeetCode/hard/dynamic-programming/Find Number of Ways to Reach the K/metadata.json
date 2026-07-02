@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-02T16:57:29.777Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Memoization",
+    "Combinatorics"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find Number of Ways to Reach the K",
+  "problemUrl": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/description/",
+  "submissionId": "6bclzy"
+}
