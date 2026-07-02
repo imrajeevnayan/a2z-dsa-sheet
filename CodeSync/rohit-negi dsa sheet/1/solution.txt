@@ -1,31 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2051980374/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 44.58 MB
- * Synced: 2026-07-01T06:36:27.116Z
+ * URL: https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Easy
+ * Topics: Math, Dynamic Programming, Recursion, Memoization
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T15:47:16.003Z
  */
 
-1class Solution {
-2    public int minCostClimbingStairs(int[] cost) {
-3        int n = cost.length;
-4        int[] dp = new int[n + 1];
-5        Arrays.fill(dp, -1);
-6        return helper(cost, n, dp);
-7    }
-8    
-9    private int helper(int[] cost, int i, int[] dp) {
-10        if (i <= 1) return 0;
-11        if (dp[i] != -1) return dp[i];
-12        dp[i] = Math.min(
-13            helper(cost, i - 1, dp) + cost[i - 1],
-14            helper(cost, i - 2, dp) + cost[i - 2]
-15        );
-16        
-17        return dp[i];
-18    }
-19}
+class Solution {
+    public int fib(int n) {
+        if(n <1)return 0;
+        int dp[]=new int[n+1];
+        dp[0]=0;
+        dp[1]=1;
+        for(int i=2;i<=n;i++){
+            dp[i]=dp[i-1]+dp[i-2];
+        }
+        return dp[n];
+    }
+}
