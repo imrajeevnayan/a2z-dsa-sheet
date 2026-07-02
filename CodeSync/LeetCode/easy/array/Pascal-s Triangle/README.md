@@ -1,13 +1,13 @@
 # Pascal's Triangle
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Dynamic Programming
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
-- Memory: 43.56 MB
-- Problem URL: https://leetcode.com/problems/pascals-triangle/
-- Synced: 2026-06-04T07:18:13.082Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T16:48:14.991Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer numRows, return the first numRows of Pascal's triangle. In Pasc
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
