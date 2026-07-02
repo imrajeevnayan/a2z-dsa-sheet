@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T17:13:18.397Z
+ * Synced: 2026-07-02T17:14:03.677Z
  */
 
 class Solution {
@@ -15,4 +15,6 @@ class Solution {
         
     }
         if(n==0)return 0;
+        if(n==1|| n==2)return 1;
+        int dp[]=new int[n+1]
 }
