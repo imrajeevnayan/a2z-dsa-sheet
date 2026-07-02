@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-01T06:34:14.811Z",
-  "runtime": "1 ms",
-  "memoryUsage": "44.58 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-02T16:47:29.015Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2051980374/",
-  "submissionId": "tnorcx"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "fldxf4"
 }
