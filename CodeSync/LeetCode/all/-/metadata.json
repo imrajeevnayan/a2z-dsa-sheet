@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-01T04:07:48.793Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-07-01T06:34:14.811Z",
+  "runtime": "1 ms",
+  "memoryUsage": "44.58 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/",
-  "submissionId": "5km1si"
+  "problemUrl": "https://leetcode.com/submissions/detail/2051980374/",
+  "submissionId": "tnorcx"
 }
