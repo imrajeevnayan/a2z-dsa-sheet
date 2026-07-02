@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Pascal's Triangle
+ * URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-02T16:48:14.991Z
+ */
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> res = new ArrayList<>();
+
+        for (int i = 0; i < numRows; i++) {
+            List<Integer> row = new ArrayList<>();
+            long ans = 1; 
+
+            for (int j = 0; j <= i; j++) {
+                row.add((int) ans);
+                ans = ans * (i - j) / (j + 1);
+            }
+            res.add(row);
+        }
+        return res;
+    }
+}
