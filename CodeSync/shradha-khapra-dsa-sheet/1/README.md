@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Dynamic Programming
 - Difficulty: Easy
-- Topics: Math, Dynamic Programming, Memoization
+- Topics: String, Dynamic Programming, String Matching
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T17:00:37.296Z
+- Problem URL: https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T17:22:18.056Z
 
 ## Problem Description
 
-The Tribonacci sequence Tn is defined as follows: T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0. Given n, return the value of Tn. Example 1: Input: n = 4 Output: 4 Explanation: T_3 = 0 + 1 + 1 = 2 T_4 = 1 + 1 + 2 = 4 Example 2: Input: n = 25 Output: 1389537 Constraints: 0 <= n <= 37 The answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.
+For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. The word's maximum k-repeating value is the highest value k where word is k-repeating in sequence. If word is not a substring of sequence, word's maximum k-repeating value is 0. Given strings sequence and word, return the maximum k-repeating value of word in sequence. Example 1: Input: sequence = "ababc", word = "ab" Output: 2 Explanation: "abab" is a substring in "ababc". Example 2: Input: sequence = "ababc", word = "ba" Output: 1 Explanation: "ba" is a substring in "ababc". "baba" is not a substring in "ababc". Example 3: Input: sequence = "ababc", word = "ac" Output: 0 Explanation: "ac" is not a substring in "ababc". Constraints: 1 <= sequence.length <= 100 1 <= word.length <= 100 sequence and word contains only lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dynamic Programming. The detected topics are String, Dynamic Programming, String Matching. Review the synced source file for the implementation details.
