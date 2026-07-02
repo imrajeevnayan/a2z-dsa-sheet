@@ -6,8 +6,8 @@
 - Topics: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question&envId=2026-07-02
-- Synced: 2026-07-02T19:12:18.949Z
+- Problem URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/?envType=daily-question&envId=2026-07-02
+- Synced: 2026-07-02T19:13:04.943Z
 
 ## Problem Description
 
