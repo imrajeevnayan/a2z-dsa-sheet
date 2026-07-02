@@ -7,7 +7,7 @@
  * Topics: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T16:59:38.154Z
+ * Synced: 2026-07-02T19:12:18.949Z
  */
 
 class Solution {
