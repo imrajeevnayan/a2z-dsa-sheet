@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-02T17:14:03.677Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-02T17:16:29.935Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.01 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -12,5 +12,5 @@
   "language": "Dynamic Programming",
   "problemTitle": "N",
   "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "5cfewp"
+  "submissionId": "t1tize"
 }
