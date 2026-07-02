@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-02T16:59:02.819Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-02T17:00:16.992Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.75 MB",
   "difficulty": "Hard",
   "tags": [
     "Math",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Number of Ways to Reach the K",
-  "problemUrl": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/",
-  "submissionId": "7gng58"
+  "problemUrl": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/submissions/2053786683/",
+  "submissionId": "jn4ktp"
 }
