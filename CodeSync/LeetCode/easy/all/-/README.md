@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Text
 - Difficulty: Easy
-- Topics: Linked List
+- Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
-- Synced: 2026-07-01T04:07:48.793Z
+- Problem URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-02T16:47:29.015Z
 
 ## Problem Description
 
-Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well. Example 1: Input: head = [1,1,2] Output: [1,2] Example 2: Input: head = [1,1,2,3,3] Output: [1,2,3] Constraints: The number of nodes in the list is in the range [0, 300]. -100 <= Node.val <= 100 The list is guaranteed to be sorted in ascending order.
+Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
