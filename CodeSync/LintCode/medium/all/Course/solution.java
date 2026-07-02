@@ -1,26 +1,25 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/submission/34586558/?action_type=1
+ * URL: https://www.lintcode.com/problem/366/description
  * Language: Java
  * Difficulty: Medium
- * Topics: Algorithms Medium, View Problem
+ * Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T15:42:49.202Z
+ * Synced: 2026-07-02T16:33:01.408Z
  */
 
-public class Solution {
-    public int findMin(int[] nums) {
-        int start=0,end=nums.length-1,ans=nums[0];
-        while(start<=end){
-            int mid=start+(end-start)/2;
-            if(nums[mid]>=nums[0])start=mid+1;
-            else{
-                ans=nums[mid];
-                end=mid-1;
-            }
-        }
-        return ans;
-    }
+public·class·Solution·{
+····public·int·fibonacci(int·n)·{
+········if·(n·<=·1)·return·0;
+········if·(n·==·2)·return·1;
+········int·dp[]=new·int[n+1];
+········dp[0]=0;
+········dp[1]=1;
+········for(int·i=2;i<=n;i++){
+············dp[i]=dp[i-1]+dp[i-2];
+········}
+········return·dp[n-1];
+····}
 }
