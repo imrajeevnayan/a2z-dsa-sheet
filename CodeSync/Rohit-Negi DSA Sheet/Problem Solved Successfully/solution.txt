@@ -1,24 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+ * Language: fib(n) = fib(n-1) + fib(n-2)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T18:02:49.345Z
+ * Synced: 2026-07-02T18:29:32.157Z
  */
 
 class Solution {
-    int maxSubarraySum(int[] arr) {
-      int curr=0,maxSum=Integer.MIN_VALUE;
-      for(int n :arr){
-          curr+=n;
-          if(curr >maxSum)maxSum=curr;
-          if(curr < 0)curr=0;
-      }
-      return maxSum;
-        
+    public int nthFibonacci(int n) {
+        if (n <= 1) return n;
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
     }
 }
