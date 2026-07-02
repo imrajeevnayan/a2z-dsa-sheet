@@ -1,17 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-22T17:20:09.641Z",
+  "submissionTimestamp": "2026-07-02T15:42:15.610Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Linked ListSimulation",
-    "Linked List",
-    "Simulation",
+    "Dynamic Programming",
+    "DPCoordinate DP",
+    "DP",
+    "Coordinate DP",
+    "366 Fibonacci Naive 392 House Robber Medium",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/167/",
-  "submissionId": "hdz3z8"
+  "problemUrl": "https://www.lintcode.com/problem/111/",
+  "submissionId": "fzamym"
 }
