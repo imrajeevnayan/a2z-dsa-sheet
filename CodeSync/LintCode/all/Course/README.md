@@ -1,18 +1,18 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
+- Language: Java
 - Difficulty: Unknown
-- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
+- Topics: EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/228/solution/56541
-- Synced: 2026-06-09T11:49:50.290Z
+- Problem URL: https://www.lintcode.com/problem/366/description
+- Synced: 2026-07-02T15:49:15.980Z
 
 ## Problem Description
 
-Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection School Institution Enterprise Service Gift ENG
+Description Find the Nth number in Fibonacci sequence. (N starts at 1) A Fibonacci sequence is defined as follow: The first two numbers are 0 and 1. The i th number is the sum of i-1 th number and i-2 th number. The first ten numbers in Fibonacci sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ... LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The Nth fibonacci number won't exceed the max value of signed 32-bit integer in the test cases. Example Example 1: Input: 1 Output: 0 Explanation: return the first number in Fibonacci sequence . Example 2: Input: 2 Output: 1 Explanation: return the second number in Fibonacci sequence . Related Knowledge 学习《九章算法班随课教程》课程中的3.7通过 Fibonacci 数列入门递归相关内容 ，了解更多相关知识！ Tags Company NetEase Related Problems 949 Fibonacci II Medium 3 Digit Counts Easy 111 Climbing Stairs Easy 392 House Robber Medium 734 Number of Subsequences of Form a^i b^j c^k Medium 735 Replace With Greatest From Right Medium Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are EnumerateArraySimulation, Enumerate, Array, Simulation, NetEase, Test Data Test Output. Review the synced source file for the implementation details.
