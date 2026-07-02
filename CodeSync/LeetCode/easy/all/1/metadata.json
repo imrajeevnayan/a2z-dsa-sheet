@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-02T15:47:16.003Z",
+  "submissionTimestamp": "2026-07-02T16:49:38.947Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Dynamic Programming",
-    "Recursion",
-    "Memoization"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "qbgcqi"
+  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "z2w5ne"
 }
