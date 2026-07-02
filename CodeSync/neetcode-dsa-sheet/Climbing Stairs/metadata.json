@@ -1,16 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-02T15:38:08.100Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-02T15:40:33.352Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Easy Topics Company Tags Hints",
+    "Topics",
+    "Company Tags",
+    "Hints",
+    "Math Dynamic Programming Memoization",
     "Math",
     "Dynamic Programming",
     "Memoization"
   ],
-  "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "platform": "NeetCode",
+  "language": "n",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "u94bpf"
+  "problemUrl": "https://neetcode.io/problems/climbing-stairs/question",
+  "submissionId": "8ukoii"
 }
