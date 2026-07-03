@@ -309,5 +309,16 @@
     "custom:arsh-goyal-dsa-sheet"
   ],
   "leetcode:maximum-repeating-substring": [],
-  "leetcode:sample-solutions-for-each-of-above-problem-type": []
+  "leetcode:sample-solutions-for-each-of-above-problem-type": [],
+  "leetcode:triangle": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
