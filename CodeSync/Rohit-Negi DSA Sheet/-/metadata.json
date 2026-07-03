@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-07-02T16:47:29.015Z",
+  "submissionTimestamp": "2026-07-03T08:37:02.201Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
     "Dynamic Programming"
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "fldxf4"
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
+  "submissionId": "qholk7"
 }
