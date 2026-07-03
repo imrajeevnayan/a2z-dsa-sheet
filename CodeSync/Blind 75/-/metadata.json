@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T19:11:39.554Z",
+  "submissionTimestamp": "2026-07-03T08:37:02.201Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
   "submissionId": "qholk7"
 }
