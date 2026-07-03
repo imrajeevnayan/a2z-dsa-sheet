@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-03T12:38:12.392Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Contains Duplicate II",
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/description/",
+  "submissionId": "3fbq99"
+}
