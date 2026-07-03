@@ -1,17 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Find a Safe Walk Through a Grid
- * URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/?envType=daily-question&envId=2026-07-02
+ * URL: https://leetcode.com/problems/find-a-safe-walk-through-a-grid/submissions/2053939952/?envType=daily-question&envId=2026-07-02
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-02T19:13:04.943Z
+ * Runtime: 1 ms
+ * Memory: 46.89 MB
+ * Synced: 2026-07-02T19:13:55.924Z
  */
 
-class Solution {
-    public boolean findSafeWalk(List<List<Integer>> grid, int health) {
+for (int[] dir : dirs) {
+                int nr = r + dir[0];
+                int nc = c + dir[1];
+                
+                if (nr >= 0 && nr < n && nc >= 0 && nc < m) {
+                    int newDamage = d + grid.get(nr).get(nc);
+                    
+                    if (newDamage < dist[nr][nc]) {
+                        dist[nr][nc] = newDamage;
+                        pq.offer(new int[]{newDamage, nr, nc});
+                    }
+                }
+            }
+        }
         
+        return false;
     }
 }
