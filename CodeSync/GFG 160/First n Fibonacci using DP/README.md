@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/fibonacci-series-up-to-nth-term/1
-- Synced: 2026-07-03T09:02:33.076Z
+- Synced: 2026-07-03T09:03:57.081Z
 
 ## Problem Description
 
