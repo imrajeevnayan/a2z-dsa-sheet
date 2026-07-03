@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-01T07:24:32.609Z",
+  "submissionTimestamp": "2026-07-03T08:40:34.470Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.68 MB",
-  "difficulty": "Easy",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber",
   "problemUrl": "https://leetcode.com/problems/house-robber/",
-  "submissionId": "qs0el1"
+  "submissionId": "d0v8eb"
 }
