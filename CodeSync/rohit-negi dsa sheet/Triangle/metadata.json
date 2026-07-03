@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-03T08:36:33.757Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "DP for Beginners",
+  "problemTitle": "Triangle",
+  "problemUrl": "https://leetcode.com/problems/triangle/description/?envType=problem-list-v2&envId=x1k8lxi5",
+  "submissionId": "f5auc5"
+}
