@@ -320,5 +320,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "geeksforgeeks:geeksforgeeks-practice-leading-online-coding-platform": [
+    "GFG160"
   ]
 }
