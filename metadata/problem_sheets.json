@@ -308,5 +308,6 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:arsh-goyal-dsa-sheet"
   ],
-  "leetcode:maximum-repeating-substring": []
+  "leetcode:maximum-repeating-substring": [],
+  "leetcode:sample-solutions-for-each-of-above-problem-type": []
 }
