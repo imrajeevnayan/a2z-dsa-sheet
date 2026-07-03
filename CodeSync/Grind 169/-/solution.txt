@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/house-robber/description/
  * Language: Text
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T19:11:39.554Z
+ * Synced: 2026-07-03T08:37:02.201Z
  */
 
 Input: nums = [1,2,3,1]
