@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Bloomberg, Company Tags, Bloomberg, Topic Tags, Recursion, Fibonacci, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-03T09:04:57.203Z
+ * Synced: 2026-07-03T09:05:57.088Z
  */
 
 class Solution {
