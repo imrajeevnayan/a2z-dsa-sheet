@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/coin-change2448/1
-- Synced: 2026-06-30T18:59:42.095Z
+- Synced: 2026-07-03T09:39:15.939Z
 
 ## Problem Description
 
