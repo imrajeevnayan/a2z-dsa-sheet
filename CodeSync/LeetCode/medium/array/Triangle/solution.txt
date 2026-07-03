@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Triangle
+ * URL: https://leetcode.com/problems/triangle/description/?envType=problem-list-v2&envId=x1k8lxi5
+ * Language: DP for Beginners
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-03T08:36:33.757Z
+ */
+
+class Solution {
+    public int minimumTotal(List<List<Integer>> triangle) {
+        
+    }
+}
