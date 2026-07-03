@@ -2,16 +2,16 @@
 
 - Platform: LeetCode
 - Language: Text
-- Difficulty: Easy
+- Difficulty: Medium
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:47:29.015Z
+- Problem URL: https://leetcode.com/problems/house-robber/description/
+- Synced: 2026-07-03T08:37:02.201Z
 
 ## Problem Description
 
-Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police. Example 1: Input: nums = [1,2,3,1] Output: 4 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4. Example 2: Input: nums = [2,7,9,3,1] Output: 12 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1). Total amount you can rob = 2 + 9 + 1 = 12. Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 400
 
 ## Explanation
 
