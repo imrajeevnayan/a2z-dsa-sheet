@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber II
- * URL: https://leetcode.com/problems/house-robber-ii/
+ * URL: https://leetcode.com/problems/house-robber-ii/submissions/2054655793/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-03T12:38:33.445Z
+ * Runtime: 0 ms
+ * Memory: 42.67 MB
+ * Synced: 2026-07-03T12:39:19.745Z
  */
 
-class Solution {
-    public int rob(int[] nums) {
-        if (nums == null || nums.length == 0) return 0;
-        if (nums.length == 1) return nums[0];
+int option1 = robLinear(nums, 0, nums.length - 2);
         
-        // Scenario 1: Exclude the last house
-        int option1 = robLinear(nums, 0, nums.length - 2);
-        
-        // Scenario 2: Exclude the first house
         int option2 = robLinear(nums, 1, nums.length - 1);
         
         return Math.max(option1, option2);
@@ -32,3 +25,9 @@ class Solution {
             prev2 = prev1;
             prev1 = current;
         }
+        return prev1;
+    }
+        if (nums.length == 1) return nums[0];
+        if (nums == null || nums.length == 0) return 0;
+class Solution {
+    public int rob(int[] nums) {
