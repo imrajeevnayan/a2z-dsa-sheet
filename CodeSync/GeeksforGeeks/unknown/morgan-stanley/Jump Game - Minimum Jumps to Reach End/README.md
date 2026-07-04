@@ -1,0 +1,18 @@
+# Jump Game - Minimum Jumps to Reach End
+
+- Platform: GeeksforGeeks
+- Language: #include <iostream> #include <vector> #include <climits> using namespace std; // Returns minimum jumps needed from index i to reach end int minJumpsRecur(int i, vector<int> &arr) { if (i >= arr.size() - 1) return 0; int ans = INT_MAX; // Try all reachable positions from i for (int j = i + 1; j <= i + arr[i]; j++) { int val = minJumpsRecur(j, arr); if (val != INT_MAX) ans = min(ans, 1 + val); } return ans; } int minJumps(vector<int>& arr) { int ans = minJumpsRecur(0, arr); return (ans == INT_MAX) ? -1 : ans; } int main() { vector<int> arr = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}; cout << minJumps(arr); return 0; }
+- Difficulty: Unknown
+- Topics: Amazon, Adobe, Morgan Stanley, Walmart, SAP Labs, Housing.com, Moonfrog Labs, OYO
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/dsa/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+- Synced: 2026-07-04T17:24:33.952Z
+
+## Problem Description
+
+Problem description was not available on the page at sync time.
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using #include <iostream> #include <vector> #include <climits> using namespace std; // Returns minimum jumps needed from index i to reach end int minJumpsRecur(int i, vector<int> &arr) { if (i >= arr.size() - 1) return 0; int ans = INT_MAX; // Try all reachable positions from i for (int j = i + 1; j <= i + arr[i]; j++) { int val = minJumpsRecur(j, arr); if (val != INT_MAX) ans = min(ans, 1 + val); } return ans; } int minJumps(vector<int>& arr) { int ans = minJumpsRecur(0, arr); return (ans == INT_MAX) ? -1 : ans; } int main() { vector<int> arr = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}; cout << minJumps(arr); return 0; }. The detected topics are Amazon, Adobe, Morgan Stanley, Walmart, SAP Labs, Housing.com, Moonfrog Labs, OYO. Review the synced source file for the implementation details.
