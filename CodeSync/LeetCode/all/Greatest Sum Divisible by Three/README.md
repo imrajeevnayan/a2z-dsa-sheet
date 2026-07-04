@@ -4,10 +4,10 @@
 - Language: DP for Beginners (Copy-x1k8lxi5)
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Greedy, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/greatest-sum-divisible-by-three/?envType=problem-list-v2&envId=dwgzxnyj
-- Synced: 2026-07-04T16:31:45.114Z
+- Runtime: 0 ms
+- Memory: 49.81 MB
+- Problem URL: https://leetcode.com/problems/greatest-sum-divisible-by-three/submissions/2056025362/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T16:32:34.098Z
 
 ## Problem Description
 
