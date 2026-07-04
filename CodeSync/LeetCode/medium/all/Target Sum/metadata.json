@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-04T16:26:16.100Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-04T16:27:01.774Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.92 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "DP for Beginners (Copy-x1k8lxi5)",
   "problemTitle": "Target Sum",
-  "problemUrl": "https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=dwgzxnyj",
-  "submissionId": "u6huyb"
+  "problemUrl": "https://leetcode.com/problems/target-sum/submissions/2056019588/?envType=problem-list-v2&envId=dwgzxnyj",
+  "submissionId": "khluvf"
 }
