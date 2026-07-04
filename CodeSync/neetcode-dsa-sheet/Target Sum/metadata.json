@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-04T16:25:26.112Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "platform": "LeetCode",
+  "language": "DP for Beginners (Copy-x1k8lxi5)",
+  "problemTitle": "Target Sum",
+  "problemUrl": "https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=dwgzxnyj",
+  "submissionId": "u6huyb"
+}
