@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.92 MB
 - Problem URL: https://leetcode.com/problems/target-sum/submissions/2056019588/?envType=problem-list-v2&envId=dwgzxnyj
-- Synced: 2026-07-04T16:30:43.076Z
+- Synced: 2026-07-04T16:31:29.075Z
 
 ## Problem Description
 
