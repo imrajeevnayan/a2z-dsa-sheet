@@ -342,5 +342,12 @@
     "custom:neetcode-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:greatest-sum-divisible-by-three": []
+  "leetcode:greatest-sum-divisible-by-three": [],
+  "leetcode:number-of-dice-rolls-with-target-sum": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
