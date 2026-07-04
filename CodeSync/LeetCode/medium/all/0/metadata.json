@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-30T18:49:35.862Z",
+  "submissionTimestamp": "2026-07-04T17:23:47.727Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Hash Table"
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
+  "language": "DP for Beginners (Copy-x1k8lxi5)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv",
-  "submissionId": "gkhorb"
+  "problemUrl": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
+  "submissionId": "aqc2yv"
 }
