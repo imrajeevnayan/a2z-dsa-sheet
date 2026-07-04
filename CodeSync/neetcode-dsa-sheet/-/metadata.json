@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
+  "submissionTimestamp": "2026-07-04T16:24:32.279Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Array",
+    "Dynamic Programming",
+    "Backtracking"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "jxik4p"
+  "problemUrl": "https://leetcode.com/problems/target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
+  "submissionId": "1li4by"
 }
