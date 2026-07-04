@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Text
 - Difficulty: Medium
-- Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
+- Topics: Array, Dynamic Programming, Backtracking
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-24T05:51:52.449Z
+- Problem URL: https://leetcode.com/problems/target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T16:24:32.279Z
 
 ## Problem Description
 
-A tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree. Given a tree of n nodes labelled from 0 to n - 1, and an array of n - 1 edges where edges[i] = [ai, bi] indicates that there is an undirected edge between the two nodes ai and bi in the tree, you can choose any node of the tree as the root. When you select a node x as the root, the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h)) are called minimum height trees (MHTs). Return a list of all MHTs' root labels. You can return the answer in any order. The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf. Example 1: Input: n = 4, edges = [[1,0],[1,2],[1,3]] Output: [1] Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT. Example 2: Input: n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]] Output: [3,4] Constraints: 1 <= n <= 2 * 104 edges.length == n - 1 0 <= ai, bi < n ai != bi All the pairs (ai, bi) are distinct. The given input is guaranteed to be a tree and there will be no repeated edges.
+You are given an integer array nums and an integer target. You want to build an expression out of nums by adding one of the symbols '+' and '-' before each integer in nums and then concatenate all the integers. For example, if nums = [2, 1], you can add a '+' before 2 and a '-' before 1 and concatenate them to build the expression "+2-1". Return the number of different expressions that you can build, which evaluates to target. Example 1: Input: nums = [1,1,1,1,1], target = 3 Output: 5 Explanation: There are 5 ways to assign symbols to make the sum of nums be target 3. -1 + 1 + 1 + 1 + 1 = 3 +1 - 1 + 1 + 1 + 1 = 3 +1 + 1 - 1 + 1 + 1 = 3 +1 + 1 + 1 - 1 + 1 = 3 +1 + 1 + 1 + 1 - 1 = 3 Example 2: Input: nums = [1], target = 1 Output: 1 Constraints: 1 <= nums.length <= 20 0 <= nums[i] <= 1000 0 <= sum(nums[i]) <= 1000 -1000 <= target <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Dynamic Programming, Backtracking. Review the synced source file for the implementation details.
