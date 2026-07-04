@@ -341,5 +341,6 @@
     "custom:algomaster-300",
     "custom:neetcode-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
-  ]
+  ],
+  "leetcode:greatest-sum-divisible-by-three": []
 }
