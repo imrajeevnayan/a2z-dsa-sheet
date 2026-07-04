@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-04T16:30:01.816Z",
+  "submissionTimestamp": "2026-07-04T16:30:51.351Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "DP for Beginners (Copy-x1k8lxi5)",
   "problemTitle": "Greatest Sum Divisible by Three",
-  "problemUrl": "https://leetcode.com/problems/greatest-sum-divisible-by-three/?envType=problem-list-v2&envId=dwgzxnyj",
+  "problemUrl": "https://leetcode.com/problems/greatest-sum-divisible-by-three/description/?envType=problem-list-v2&envId=dwgzxnyj",
   "submissionId": "njhyqy"
 }
