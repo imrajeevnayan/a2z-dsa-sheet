@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+- Language: DP for Beginners (Copy-x1k8lxi5)
 - Difficulty: Medium
-- Topics: Array, Hash Table
+- Topics: Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:49:35.862Z
+- Problem URL: https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T17:23:47.727Z
 
 ## Problem Description
 
-You are given an integer array nums, an integer array queries, and an integer x. For each queries[i], you need to find the index of the queries[i]th occurrence of x in the nums array. If there are fewer than queries[i] occurrences of x, the answer should be -1 for that query. Return an integer array answer containing the answers to all queries. Example 1: Input: nums = [1,3,1,7], queries = [1,3,2,4], x = 1 Output: [0,-1,2,-1] Explanation: For the 1st query, the first occurrence of 1 is at index 0. For the 2nd query, there are only two occurrences of 1 in nums, so the answer is -1. For the 3rd query, the second occurrence of 1 is at index 2. For the 4th query, there are only two occurrences of 1 in nums, so the answer is -1. Example 2: Input: nums = [1,2,3], queries = [10], x = 5 Output: [-1] Explanation: For the 1st query, 5 doesn't exist in nums, so the answer is -1. Constraints: 1 <= nums.length, queries.length <= 105 1 <= queries[i] <= 105 1 <= nums[i], x <= 104
+You have n dice, and each dice has k faces numbered from 1 to k. Given three integers n, k, and target, return the number of possible ways (out of the kn total ways) to roll the dice, so the sum of the face-up numbers equals target. Since the answer may be too large, return it modulo 109 + 7. Example 1: Input: n = 1, k = 6, target = 3 Output: 1 Explanation: You throw one die with 6 faces. There is only one way to get a sum of 3. Example 2: Input: n = 2, k = 6, target = 7 Output: 6 Explanation: You throw two dice, each with 6 faces. There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1. Example 3: Input: n = 30, k = 30, target = 500 Output: 222616187 Explanation: The answer must be returned modulo 109 + 7. Constraints: 1 <= n, k <= 30 1 <= target <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dsa Question For Interview (Copy-vdyfzxft)mj. The detected topics are Array, Hash Table. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using DP for Beginners (Copy-x1k8lxi5). The detected topics are Dynamic Programming. Review the synced source file for the implementation details.
