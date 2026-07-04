@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/662866/dp-for-beginners-problems-patterns-sampl-atdb/
-- Synced: 2026-07-03T11:37:51.023Z
+- Synced: 2026-07-04T06:34:24.187Z
 
 ## Problem Description
 
