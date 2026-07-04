@@ -1,0 +1,118 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Jump Game - Minimum Jumps to Reach End
+ * URL: https://www.geeksforgeeks.org/dsa/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+ * Language: #include <iostream> #include <vector> #include <climits> using namespace std; // Returns minimum jumps needed from index i to reach end int minJumpsRecur(int i, vector<int> &arr) { if (i >= arr.size() - 1) return 0; int ans = INT_MAX; // Try all reachable positions from i for (int j = i + 1; j <= i + arr[i]; j++) { int val = minJumpsRecur(j, arr); if (val != INT_MAX) ans = min(ans, 1 + val); } return ans; } int minJumps(vector<int>& arr) { int ans = minJumpsRecur(0, arr); return (ans == INT_MAX) ? -1 : ans; } int main() { vector<int> arr = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}; cout << minJumps(arr); return 0; }
+ * Difficulty: Unknown
+ * Topics: Amazon, Adobe, Morgan Stanley, Walmart, SAP Labs, Housing.com, Moonfrog Labs, OYO
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-04T17:24:33.952Z
+ */
+
+import java.util.List;
+import java.util.Arrays;
+​
+class GFG {
+​
+    // Returns minimum jumps needed from index i to reach end
+    static int minJumpsRecur(int i, List<Integer> arr) {
+        if (i >= arr.size() - 1)
+            return 0;
+​
+        int ans = Integer.MAX_VALUE;
+​
+        // Try all reachable positions from i
+        for (int j = i + 1; j <= i + arr.get(i) && j < arr.size(); j++) {
+            int val = minJumpsRecur(j, arr);
+            if (val != Integer.MAX_VALUE)
+                ans = Math.min(ans, 1 + val);
+        }
+​
+        return ans;
+    }
+​
+    static int minJumps(List<Integer> arr) {
+        int ans = minJumpsRecur(0, arr);
+        return (ans == Integer.MAX_VALUE) ? -1 : ans; 
+    }
+​
+    public static void main(String[] args) {
+        List<Integer> arr = Arrays.asList(1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9);
+        System.out.println(minJumps(arr));
+    }
+}
+import java.util.List;
+import java.util.Arrays;
+​
+class GFG {
+​
+    // Returns minimum jumps needed to reach end
+    static int minJumps(List<Integer> arr) {
+        int n = arr.size();
+        int[] dp = new int[n];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+​
+        dp[n - 1] = 0;
+​
+        for (int i = n - 2; i >= 0; i--) {
+            // Try all reachable positions from i
+            for (int j = i + 1; j <= i + arr.get(i) && j < n; j++) {
+                if (dp[j] != Integer.MAX_VALUE)
+                    dp[i] = Math.min(dp[i], 1 + dp[j]);
+            }
+        }
+​
+        return (dp[0] == Integer.MAX_VALUE) ? -1 : dp[0];
+    }
+​
+    public static void main(String[] args) {
+        List<Integer> arr = Arrays.asList(1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9);
+        System.out.println(minJumps(arr));
+    }
+}
+class GfG {
+​
+    static int minJumps(int[] arr){
+        int n = arr.length;
+        if (arr[0] == 0)
+            return -1;
+        int maxReach = 0;
+        int currReach = 0;
+        int jump = 0;
+        for (int i = 0; i < n; i++) {
+            maxReach = Math.max(maxReach, i + arr[i]);
+​
+            if (maxReach >= n - 1) {
+                return jump + 1;
+            }
+​
+            // Increment the Jump as we reached the
+            // Current Reachable index
+            if (i == currReach) {
+​
+                // If Max reach is same as current index
+                // then we can not jump further
+                if (i == maxReach) {
+                    return -1;
+                }
+​
+                // If Max reach > current index then
+                // increment jump and update current
+                // reachable index
+                else {
+                    jump++;
+                    currReach = maxReach;
+                }
+            }
+        }
+​
+        return -1;
+    }
+​
+    public static void main(String[] args)
+    {
+        int[] arr = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9};
+        System.out.println(minJumps(arr));
+    }
+}
