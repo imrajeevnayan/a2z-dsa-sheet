@@ -4,10 +4,10 @@
 - Language: DP for Beginners (Copy-x1k8lxi5)
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Backtracking
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=dwgzxnyj
-- Synced: 2026-07-04T16:26:16.100Z
+- Runtime: 0 ms
+- Memory: 42.92 MB
+- Problem URL: https://leetcode.com/problems/target-sum/submissions/2056019588/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T16:27:01.774Z
 
 ## Problem Description
 
