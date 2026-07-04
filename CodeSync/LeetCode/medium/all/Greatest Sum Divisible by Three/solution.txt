@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Greatest Sum Divisible by Three
+ * URL: https://leetcode.com/problems/greatest-sum-divisible-by-three/?envType=problem-list-v2&envId=dwgzxnyj
+ * Language: DP for Beginners (Copy-x1k8lxi5)
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-04T16:30:01.816Z
+ */
+
+class Solution {
+    public int maxSumDivThree(int[] nums) {
+        
+    }
+}
