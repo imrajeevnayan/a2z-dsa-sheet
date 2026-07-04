@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-02T16:47:29.015Z",
+  "submissionTimestamp": "2026-07-04T16:24:32.279Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
-    "Dynamic Programming"
+    "Dynamic Programming",
+    "Backtracking"
   ],
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "fldxf4"
+  "problemUrl": "https://leetcode.com/problems/target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
+  "submissionId": "1li4by"
 }
