@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/minimum-number-of-jumps-to-reach-end-of-a-given-array/
-- Synced: 2026-07-04T17:24:33.952Z
+- Synced: 2026-07-04T17:25:33.199Z
 
 ## Problem Description
 
