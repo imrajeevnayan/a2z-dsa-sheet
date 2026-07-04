@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Backtracking
  * Runtime: 0 ms
  * Memory: 42.92 MB
- * Synced: 2026-07-04T16:28:07.619Z
+ * Synced: 2026-07-04T16:28:54.135Z
  */
 
 if ((sum + target) % 2 != 0 || sum < Math.abs(target)) {
