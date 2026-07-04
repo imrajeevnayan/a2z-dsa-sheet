@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Dsa Question For Interview (Copy-vdyfzxft)mj
-- Difficulty: Easy
-- Topics: Hash Table, String, Counting
+- Language: DP for Beginners (Copy-x1k8lxi5)
+- Difficulty: Medium
+- Topics: Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:55:10.563Z
+- Problem URL: https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T17:23:47.727Z
 
 ## Problem Description
 
-Two strings word1 and word2 are considered almost equivalent if the differences between the frequencies of each letter from 'a' to 'z' between word1 and word2 is at most 3. Given two strings word1 and word2, each of length n, return true if word1 and word2 are almost equivalent, or false otherwise. The frequency of a letter x is the number of times it occurs in the string. Example 1: Input: word1 = "aaaa", word2 = "bccb" Output: false Explanation: There are 4 'a's in "aaaa" but 0 'a's in "bccb". The difference is 4, which is more than the allowed 3. Example 2: Input: word1 = "abcdeef", word2 = "abaaacc" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 1 time in word1 and 4 times in word2. The difference is 3. - 'b' appears 1 time in word1 and 1 time in word2. The difference is 0. - 'c' appears 1 time in word1 and 2 times in word2. The difference is 1. - 'd' appears 1 time in word1 and 0 times in word2. The difference is 1. - 'e' appears 2 times in word1 and 0 times in word2. The difference is 2. - 'f' appears 1 time in word1 and 0 times in word2. The difference is 1. Example 3: Input: word1 = "cccddabba", word2 = "babababab" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 2 times in word1 and 4 times in word2. The difference is 2. - 'b' appears 2 times in word1 and 5 times in word2. The difference is 3. - 'c' appears 3 times in word1 and 0 times in word2. The difference is 3. - 'd' appears 2 times in word1 and 0 times in word2. The difference is 2. Constraints: n == word1.length == word2.length 1 <= n <= 100 word1 and word2 consist only of lowercase English letters.
+You have n dice, and each dice has k faces numbered from 1 to k. Given three integers n, k, and target, return the number of possible ways (out of the kn total ways) to roll the dice, so the sum of the face-up numbers equals target. Since the answer may be too large, return it modulo 109 + 7. Example 1: Input: n = 1, k = 6, target = 3 Output: 1 Explanation: You throw one die with 6 faces. There is only one way to get a sum of 3. Example 2: Input: n = 2, k = 6, target = 7 Output: 6 Explanation: You throw two dice, each with 6 faces. There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1. Example 3: Input: n = 30, k = 30, target = 500 Output: 222616187 Explanation: The answer must be returned modulo 109 + 7. Constraints: 1 <= n, k <= 30 1 <= target <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dsa Question For Interview (Copy-vdyfzxft)mj. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using DP for Beginners (Copy-x1k8lxi5). The detected topics are Dynamic Programming. Review the synced source file for the implementation details.
