@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=dwgzxnyj
-- Synced: 2026-07-04T16:25:26.112Z
+- Synced: 2026-07-04T16:26:16.100Z
 
 ## Problem Description
 
