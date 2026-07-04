@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming, Greedy, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/greatest-sum-divisible-by-three/?envType=problem-list-v2&envId=dwgzxnyj
-- Synced: 2026-07-04T16:30:01.816Z
+- Problem URL: https://leetcode.com/problems/greatest-sum-divisible-by-three/description/?envType=problem-list-v2&envId=dwgzxnyj
+- Synced: 2026-07-04T16:30:51.351Z
 
 ## Problem Description
 
