@@ -1,17 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
- * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
- * Difficulty: Easy
- * Topics: Hash Table, String, Counting
+ * URL: https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj
+ * Language: DP for Beginners (Copy-x1k8lxi5)
+ * Difficulty: Medium
+ * Topics: Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:55:10.563Z
+ * Synced: 2026-07-04T17:23:47.727Z
  */
 
-class Solution {
-    public boolean checkAlmostEquivalent(String word1, String word2) {
-        
-    }
-}
+Input: n = 1, k = 6, target = 3
+Output: 1
+Explanation: You throw one die with 6 faces.
+There is only one way to get a sum of 3.
