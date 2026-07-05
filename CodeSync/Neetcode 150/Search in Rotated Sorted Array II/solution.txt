@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Search in Rotated Sorted Array II
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/?envType=problem-list-v2&envId=array
+ * Language: Array
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-05T10:27:21.117Z
+ */
+
+right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            // Right half is sorted
+            else {
+                if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+        }
+        
+        return false;
+    }
+}
