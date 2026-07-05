@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-04T16:24:32.279Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Dynamic Programming",
-    "Backtracking"
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
-  "submissionId": "1li4by"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
