@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+ * URL: https://leetcode.com/problems/coin-change/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Linked List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-01T04:07:48.793Z
+ * Synced: 2026-07-05T16:24:10.897Z
  */
 
-Input: head = [1,1,2]
-Output: [1,2]
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
