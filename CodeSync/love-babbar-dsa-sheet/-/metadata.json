@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-30T10:30:08.266Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Two Pointers",
-    "String",
-    "Dynamic Programming"
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/longest-palindromic-substring/description/",
-  "submissionId": "27x1do"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
