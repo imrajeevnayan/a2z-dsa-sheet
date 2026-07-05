@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
-- Difficulty: Easy
-- Topics: Array, Dynamic Programming
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Array, Dynamic Programming, Breadth-First Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/pascals-triangle/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:47:29.015Z
+- Problem URL: https://leetcode.com/problems/coin-change/description/
+- Synced: 2026-07-05T16:24:10.897Z
 
 ## Problem Description
 
-Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money. Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1. You may assume that you have an infinite number of each kind of coin. Example 1: Input: coins = [1,2,5], amount = 11 Output: 3 Explanation: 11 = 5 + 5 + 1 Example 2: Input: coins = [2], amount = 3 Output: -1 Example 3: Input: coins = [1], amount = 0 Output: 0 Constraints: 1 <= coins.length <= 12 1 <= coins[i] <= 231 - 1 0 <= amount <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming, Breadth-First Search. Review the synced source file for the implementation details.
