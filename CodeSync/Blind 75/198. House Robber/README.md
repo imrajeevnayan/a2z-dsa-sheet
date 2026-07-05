@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber/submissions/2053938941/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T19:15:08.049Z
+- Problem URL: https://leetcode.com/problems/house-robber/description/
+- Synced: 2026-07-05T16:12:10.839Z
 
 ## Problem Description
 
