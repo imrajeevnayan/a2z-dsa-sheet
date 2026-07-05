@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.21 MB
 - Problem URL: https://leetcode.com/problems/coin-change/submissions/2057114011/
-- Synced: 2026-07-05T16:26:33.965Z
+- Synced: 2026-07-05T16:27:19.701Z
 
 ## Problem Description
 
