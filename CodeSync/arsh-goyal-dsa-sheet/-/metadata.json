@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-01T04:07:48.793Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Linked List"
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/",
-  "submissionId": "5km1si"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
