@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-05T16:12:10.839Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "198. House Robber",
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
+  "submissionId": "vwbh7c"
+}
