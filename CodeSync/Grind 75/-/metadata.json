@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "jxik4p"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
