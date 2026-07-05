@@ -1,15 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-palindromic-substring/description/
+ * URL: https://leetcode.com/problems/coin-change/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Two Pointers, String, Dynamic Programming
+ * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T10:30:08.266Z
+ * Synced: 2026-07-05T16:24:10.897Z
  */
 
-Input: s = "babad"
-Output: "bab"
-Explanation: "aba" is also a valid answer.
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
