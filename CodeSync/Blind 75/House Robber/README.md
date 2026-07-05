@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber/submissions/2054434264/
-- Synced: 2026-07-03T08:42:09.582Z
+- Problem URL: https://leetcode.com/problems/house-robber/submissions/
+- Synced: 2026-07-05T16:14:39.735Z
 
 ## Problem Description
 
