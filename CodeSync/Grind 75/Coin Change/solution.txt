@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/submissions/2057114011/
+ * URL: https://leetcode.com/problems/coin-change/submissions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: 0 ms
- * Memory: 46.21 MB
- * Synced: 2026-07-05T16:27:19.701Z
+ * Memory: N/A
+ * Synced: 2026-07-05T16:28:05.215Z
  */
 
 class Solution {
