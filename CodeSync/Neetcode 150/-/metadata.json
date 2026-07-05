@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-03T08:37:02.201Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Dynamic Programming"
+    "Dynamic Programming",
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
-  "submissionId": "qholk7"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
