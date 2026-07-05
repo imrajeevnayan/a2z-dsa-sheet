@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-24T05:51:52.449Z",
+  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Graph Theory",
-    "Topological Sort"
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "ukvcqk"
+  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "submissionId": "iiurpq"
 }
