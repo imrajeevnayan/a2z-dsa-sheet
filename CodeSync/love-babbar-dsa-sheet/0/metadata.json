@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-04T17:23:47.727Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-05T16:11:31.653Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.96 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Dynamic Programming"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "DP for Beginners (Copy-x1k8lxi5)",
+  "language": "Online Interview",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
-  "submissionId": "aqc2yv"
+  "problemUrl": "https://leetcode.com/submissions/detail/2054434541/",
+  "submissionId": "qstbtp"
 }
