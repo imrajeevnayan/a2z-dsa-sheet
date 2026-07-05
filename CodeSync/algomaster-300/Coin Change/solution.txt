@@ -1,27 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/description/
+ * URL: https://leetcode.com/problems/coin-change/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-16T18:22:34.157Z
+ * Synced: 2026-07-05T16:24:56.516Z
  */
 
-Arrays.fill(dp, amount + 1);
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1);
         dp[0] = 0;
         for (int i = 1; i <= amount; i++) {
             for (int c : coins) {
-                if (c <= i) {
-                    dp[i] = Math.min(dp[i], dp[i - c] + 1);
-                }
+            if (c <= i)  dp[i] = Math.min(dp[i], dp[i - c] + 1);
             }
         }
         return dp[amount] > amount ? -1 : dp[amount];
     }
 }
-    public int coinChange(int[] coins, int amount) {
-        int[] dp = new int[amount + 1];
-class Solution {
