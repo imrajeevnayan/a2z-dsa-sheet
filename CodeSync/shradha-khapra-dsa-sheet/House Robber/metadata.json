@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-05T16:21:54.720Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.96 MB",
+  "submissionTimestamp": "2026-07-05T17:27:02.663Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber",
-  "problemUrl": "https://leetcode.com/problems/house-robber/submissions/2054434541/",
-  "submissionId": "j3ql8y"
+  "problemUrl": "https://leetcode.com/problems/house-robber/",
+  "submissionId": "fnsvf4"
 }
