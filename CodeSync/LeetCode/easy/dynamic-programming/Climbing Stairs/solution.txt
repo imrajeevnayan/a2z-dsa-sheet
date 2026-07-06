@@ -7,14 +7,16 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:33:34.959Z
+ * Synced: 2026-07-06T06:34:28.154Z
  */
 
 class Solution {
-    public int climbStairs(int n) {
-        return solve(n);
     static int solve(int n){
+        if(n==0)return 1;
+        if(n <0)return 0;
         
     }
+    public int climbStairs(int n) {
+        return solve(n);
     }
 }
