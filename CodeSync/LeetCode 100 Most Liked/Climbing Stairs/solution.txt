@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:39:56.155Z
+ * Synced: 2026-07-06T06:40:46.691Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
         return dp[n]= solve(n-1,dp)+solve(n-2,dp);
     }
     public int climbStairs(int n) {
-        return solve(n);
+        return solve(n,dp );
     }
         int dp[]=new int[n+1];
         Arrays.fill(dp,-1);
