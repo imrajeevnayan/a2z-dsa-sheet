@@ -1,20 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/
+ * URL: https://leetcode.com/problems/climbing-stairs/submissions/2057661068/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T06:35:13.154Z
+ * Synced: 2026-07-06T06:35:58.207Z
  */
 
 class Solution {
     static int solve(int n){
         if(n==0)return 1;
         if(n <0)return 0;
-        
+        return solve(n-1)+solve(n-2);
     }
     public int climbStairs(int n) {
         return solve(n);
