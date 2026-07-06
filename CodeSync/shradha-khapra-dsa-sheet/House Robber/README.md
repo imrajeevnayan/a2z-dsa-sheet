@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/house-robber/
-- Synced: 2026-07-05T17:27:02.663Z
+- Synced: 2026-07-05T17:27:48.278Z
 
 ## Problem Description
 
