@@ -1,24 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
+ * URL: https://leetcode.com/problems/climbing-stairs/submissions/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T15:38:08.100Z
+ * Synced: 2026-07-06T06:31:15.183Z
  */
 
 class Solution {
     public int climbStairs(int n) {
-        if(n <=2)return n;
-        int dp[]=new int[n+1];
-        dp[1]=1;
-        dp[2]=2;
-        for(int i=3;i<=n;i++){
-            dp[i]=dp[i-1]+dp[i-2];
-        }
     }
-        return dp[n];
+        
+    
 }
