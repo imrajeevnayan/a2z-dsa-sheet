@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/description/
+ * URL: https://leetcode.com/problems/house-robber/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming, Breadth-First Search
- * Runtime: 0 ms
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T17:26:05.167Z
+ * Synced: 2026-07-05T17:26:17.552Z
  */
 
 class Solution {
