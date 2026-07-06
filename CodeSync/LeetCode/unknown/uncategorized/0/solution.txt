@@ -1,29 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2054434541/
+ * URL: https://leetcode.com/submissions/detail/2057192431/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 42.96 MB
- * Synced: 2026-07-05T16:11:31.653Z
+ * Memory: 42.89 MB
+ * Synced: 2026-07-05T17:38:32.133Z
  */
 
 1class Solution {
-2    public int rob(int[] nums) {
-3        int n = nums.length;
-4        if (n == 0) return 0;
-5        if (n == 1) return nums[0];
-6        
-7        int[] dp = new int[n];
-8        dp[0] = nums[0];
-9        dp[1] = Math.max(nums[0], nums[1]);
-10        
-11        for (int i = 2; i < n; i++) {
-12            dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);
-13        }
-14        
-15        return dp[n - 1];
-16    }
-17}
+2    public int amount(int[] nums,int i,int[]dp){
+3        if(i>=nums.length)return 0;
+4        if(dp[i]!=-1)return dp[i];
+5        int take=nums[i]+amount(nums,i+2,dp);
+6        int skip=0+amount(nums,i+1,dp);
+7        return dp[i]= Math.max(take,skip);
+8    }
+9    public int rob(int[] nums) {
+10        int dp[]=new int[nums.length];Arrays.fill(dp,-1);
+11        return amount(nums,0,dp);
+12    }
+13}
