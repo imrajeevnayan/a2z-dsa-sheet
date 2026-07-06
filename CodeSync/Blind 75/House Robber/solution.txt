@@ -7,16 +7,16 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T17:29:20.247Z
+ * Synced: 2026-07-05T17:30:06.029Z
  */
 
 class Solution {
-    public int amount(int[] nums,,i){
+    public int amount(int[] nums,int i){
         int take=nums[i]+amount(nums,i+2);
         int skip=0+amount(nums,i+2);
         return Math.min(take,skip);
     }
     public int rob(int[] nums) {
-        return amount(nums,)
+        return amount(nums,0);
     }
 }
