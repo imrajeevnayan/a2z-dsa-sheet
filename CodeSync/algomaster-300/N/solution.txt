@@ -5,16 +5,12 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T06:26:43.156Z
+ * Synced: 2026-07-06T06:27:34.171Z
  */
 
-class Solution {
-    public int tribonacci(int n) {
-        if(n==0)return 0;
-        if(n==1|| n==2)return 1;
-        int dp[]=new int[n+1];
+int dp[]=new int[n+1];
         dp[0]=0;
         dp[1]=1;
         dp[2]=1;
@@ -24,3 +20,7 @@ class Solution {
         return dp[n];
     }
 }
+        if(n==0)return 0;
+        if(n==1|| n==2)return 1;
+    public int tribonacci(int n) {
+class Solution {
