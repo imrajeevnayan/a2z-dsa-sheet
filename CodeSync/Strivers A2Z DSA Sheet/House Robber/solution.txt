@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/
+ * URL: https://leetcode.com/problems/house-robber/submissions/2057191513/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-05T17:35:27.036Z
+ * Synced: 2026-07-05T17:36:12.032Z
  */
 
 class Solution {
@@ -21,5 +21,5 @@ class Solution {
     }
         if(i>=nums.length)return 0;
         int dp[]=new int[nums.length];Arrays.fill(dp,-1);
-        if(dp[i]!=-1)return dp[-1];
+        if(dp[i]!=-1)return dp[i];
 }
