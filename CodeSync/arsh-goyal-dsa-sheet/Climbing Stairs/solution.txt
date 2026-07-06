@@ -1,18 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/submissions/
+ * URL: https://leetcode.com/problems/climbing-stairs/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:31:15.183Z
+ * Synced: 2026-07-06T06:32:04.169Z
  */
 
 class Solution {
-    public int climbStairs(int n) {
-    }
-        
     
+    public int climbStairs(int n) {
+        
+    }
 }
