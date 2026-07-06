@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-06T06:26:43.156Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-06T06:27:34.171Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "N",
   "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
-  "submissionId": "oowab5"
+  "submissionId": "v8eg5n"
 }
