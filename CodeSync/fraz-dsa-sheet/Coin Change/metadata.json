@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-05T17:26:05.167Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-05T17:26:17.552Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Dynamic Programming",
-    "Breadth-First Search"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Coin Change",
-  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
+  "problemUrl": "https://leetcode.com/problems/house-robber/",
   "submissionId": "7t8yx4"
 }
