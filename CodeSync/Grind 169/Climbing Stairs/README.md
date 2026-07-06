@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Memoization
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/climbing-stairs/
-- Synced: 2026-07-06T06:40:46.691Z
+- Runtime: 0 ms
+- Memory: 42.07 MB
+- Problem URL: https://leetcode.com/problems/climbing-stairs/submissions/2057667797/
+- Synced: 2026-07-06T06:41:34.777Z
 
 ## Problem Description
 
