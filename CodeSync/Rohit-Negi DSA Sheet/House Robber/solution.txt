@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/submissions/2057187002/
+ * URL: https://leetcode.com/problems/house-robber/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-05T17:32:24.051Z
+ * Synced: 2026-07-05T17:33:10.482Z
  */
 
 class Solution {
@@ -20,4 +20,5 @@ class Solution {
         return amount(nums,0);
     }
         if(i>=nums.length)return 0;
+        int do[]=new int
 }
