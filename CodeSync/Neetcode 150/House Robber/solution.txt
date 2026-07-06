@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-05T17:33:10.482Z
+ * Synced: 2026-07-05T17:33:56.035Z
  */
 
 class Solution {
@@ -20,5 +20,5 @@ class Solution {
         return amount(nums,0);
     }
         if(i>=nums.length)return 0;
-        int do[]=new int
+        int do[]=new int[nums.length];Arrays.fill(dp,-1);
 }
