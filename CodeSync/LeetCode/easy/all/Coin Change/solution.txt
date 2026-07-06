@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Coin Change
+ * URL: https://leetcode.com/problems/house-robber/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-05T17:26:17.552Z
+ */
+
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        
+    }
+        
+}
