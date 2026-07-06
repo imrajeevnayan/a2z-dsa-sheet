@@ -5,20 +5,21 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:38:21.392Z
+ * Synced: 2026-07-06T06:40:46.691Z
  */
 
 class Solution {
     static int solve(int n){
         if(n==0)return 1;
         if(n <0)return 0;
-        return solve(n-1)+solve(n-2);
+        return dp[n]= solve(n-1,dp)+solve(n-2,dp);
     }
     public int climbStairs(int n) {
-        return solve(n);
+        return solve(n,dp );
     }
         int dp[]=new int[n+1];
-        Arrays
+        Arrays.fill(dp,-1);
+        if(dp[n]!=-1)return dp[n];
 }
