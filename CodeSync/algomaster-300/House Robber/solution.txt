@@ -7,12 +7,14 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T17:27:02.663Z
+ * Synced: 2026-07-05T17:27:48.278Z
  */
 
 class Solution {
     public int rob(int[] nums) {
         
+    public int amount(int[] nums,,i){
+        int take=nums[i]+an
     }
-    public int amount(int nums)
+    }
 }
