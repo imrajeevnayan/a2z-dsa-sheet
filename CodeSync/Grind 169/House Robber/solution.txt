@@ -1,20 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/submissions/2057191513/
+ * URL: https://leetcode.com/problems/house-robber/submissions/2057192431/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-05T17:36:12.032Z
+ * Memory: 42.89 MB
+ * Synced: 2026-07-05T17:36:59.590Z
  */
 
 class Solution {
     public int amount(int[] nums,int i,int[]dp){
         int take=nums[i]+amount(nums,i+2,dp);
         int skip=0+amount(nums,i+1,dp);
-        return Math.max(take,skip);
+        return dp[i]= Math.max(take,skip);
     }
     public int rob(int[] nums) {
         return amount(nums,0,dp);
