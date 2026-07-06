@@ -7,18 +7,19 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-05T17:33:56.035Z
+ * Synced: 2026-07-05T17:34:41.051Z
  */
 
 class Solution {
-    public int amount(int[] nums,int i){
-        int take=nums[i]+amount(nums,i+2);
-        int skip=0+amount(nums,i+1);
+    public int amount(int[] nums,int i,int[]dp){
+        int take=nums[i]+amount(nums,i+2,dp);
+        int skip=0+amount(nums,i+1,dp);
         return Math.max(take,skip);
     }
     public int rob(int[] nums) {
-        return amount(nums,0);
+        return amount(nums,0,dp);
     }
         if(i>=nums.length)return 0;
         int do[]=new int[nums.length];Arrays.fill(dp,-1);
+        if(s)
 }
