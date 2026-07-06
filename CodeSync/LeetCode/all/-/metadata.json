@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-06T06:22:40.799Z",
+  "submissionTimestamp": "2026-07-06T06:24:04.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
-  "submissionId": "o1rn6v"
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
+  "submissionId": "w490p1"
 }
