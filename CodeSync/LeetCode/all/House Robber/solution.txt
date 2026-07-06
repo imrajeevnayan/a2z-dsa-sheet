@@ -5,19 +5,19 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-05T17:30:52.030Z
+ * Synced: 2026-07-05T17:31:38.313Z
  */
 
 class Solution {
     public int amount(int[] nums,int i){
         int take=nums[i]+amount(nums,i+2);
-        int skip=0+amount(nums,i+2);
+        int skip=0amount(nums,i+2);
         return Math.min(take,skip);
     }
     public int rob(int[] nums) {
         return amount(nums,0);
     }
-        if(i>=nums.length)return 
+        if(i>=nums.length)return 0;
 }
