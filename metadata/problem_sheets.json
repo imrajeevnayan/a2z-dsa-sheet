@@ -299,21 +299,7 @@
     "custom:rohit-negi_dsa_sheet"
   ],
   "leetcode:find-a-safe-walk-through-a-grid": [],
-  "leetcode:n-th-tribonacci-number": [
-    "StriverSDE",
-    "StriverA2Z",
-    "AlgoMaster300",
-    "custom:algomaster-300",
-    "custom:fraz-dsa-sheet",
-    "custom:neetcode-dsa-sheet",
-    "custom:striver-a2z-dsa-sheet",
-    "custom:striver-sde-sheet",
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet",
-    "custom:arsh-goyal-dsa-sheet"
-  ],
+  "leetcode:n-th-tribonacci-number": [],
   "leetcode:maximum-repeating-substring": [],
   "leetcode:sample-solutions-for-each-of-above-problem-type": [],
   "leetcode:triangle": [
