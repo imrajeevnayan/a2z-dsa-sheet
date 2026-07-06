@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-02T17:16:29.935Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.01 MB",
+  "submissionTimestamp": "2026-07-06T06:26:43.156Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -9,8 +9,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "N",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "t1tize"
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
+  "submissionId": "oowab5"
 }
