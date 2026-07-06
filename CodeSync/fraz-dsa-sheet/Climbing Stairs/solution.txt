@@ -1,18 +1,18 @@
 /*
- * Platform: NeetCode
+ * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://neetcode.io/problems/climbing-stairs/question
- * Language: n
+ * URL: https://leetcode.com/problems/climbing-stairs/submissions/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, Math Dynamic Programming Memoization, Math, Dynamic Programming, Memoization
+ * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T15:40:33.352Z
+ * Synced: 2026-07-06T06:31:15.183Z
  */
 
 class Solution {
     public int climbStairs(int n) {
-        if(n<=2)return n;
-        int dp[]=new int[n+1];
-        dp[1]=1;
-        dp[2]=2;
+    }
+        
+    
+}
