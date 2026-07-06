@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T17:30:06.029Z
+ * Synced: 2026-07-05T17:30:52.030Z
  */
 
 class Solution {
@@ -19,4 +19,5 @@ class Solution {
     public int rob(int[] nums) {
         return amount(nums,0);
     }
+        if(i>=nums.length)return 
 }
