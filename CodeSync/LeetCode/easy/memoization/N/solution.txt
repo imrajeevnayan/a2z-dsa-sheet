@@ -5,22 +5,13 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T07:12:38.156Z
+ * Synced: 2026-07-07T11:10:41.934Z
  */
 
-int dp[]=new int[n+1];
-        dp[0]=0;
-        dp[1]=1;
-        dp[2]=1;
-        for(int i=3;i<=n;i++){
-            dp[i]=dp[i-1]+dp[i-2]+dp[i-3];
-        }
-        return dp[n];
-    }
-}
-        if(n==0)return 0;
-        if(n==1|| n==2)return 1;
-class Solution {
-    public int tribonacci(int n) {
+Input: n = 4
+Output: 4
+Explanation:
+T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
