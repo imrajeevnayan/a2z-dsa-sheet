@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Swap kth elements
+ * URL: https://www.geeksforgeeks.org/problems/swap-kth-elements5500/1
+ * Language: class Solution: def swapKth(self, arr, k): arr[k-1], arr[-k] = arr[-k], arr[k-1] return arr
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Morgan StanleyRockstand, Company Tags, Morgan Stanley, Rockstand, Topic Tags, Arrays, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:52:15.719Z
+ */
+
+class Solution {
+    public void swapKth(List<Integer> arr, int k) {
+        int n = arr.size();
+
+        int first = k - 1;
+        int second = n - k;
+
+        int temp = arr.get(first);
+        arr.set(first, arr.get(second));
+        arr.set(second, temp);
+    }
+}
