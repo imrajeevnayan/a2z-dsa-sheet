@@ -440,5 +440,16 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:number-of-steps-to-reduce-a-number-to-zero": [
+    "CSESSet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
