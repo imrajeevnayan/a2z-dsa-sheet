@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
  * Memory: 171.16 MB
- * Synced: 2026-07-07T08:44:44.990Z
+ * Synced: 2026-07-07T08:45:38.991Z
  */
 
 int n = index;
