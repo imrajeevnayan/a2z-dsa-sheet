@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Odd Sum
+ * URL: https://www.geeksforgeeks.org/problems/max-odd-sum0651/1
+ * Language: # Easy-Python Solution class Solution: def findMaxOddSum(self, arr): res = 0 min_odd = float("inf") for num in arr: if num > 0: res += num if num % 2 != 0: min_odd = min(min_odd, abs(num)) if min_odd == float("inf"): return -1 if res % 2 != 0: return res return res - min_odd
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Subsequence Maximum Odd Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:50:46.765Z
+ */
+
+int sum = 0;
+        int smallestOdd = Integer.MAX_VALUE;
+        int largestNegativeOdd = Integer.MIN_VALUE;
+
+        for (int x : arr) {
+            if (x > 0) {
+                sum += x;
+                if (x % 2 != 0) {
+                    smallestOdd = Math.min(smallestOdd, x);
+                }
+            } else {
+                if (x % 2 != 0) {
+                    largestNegativeOdd = Math.max(largestNegativeOdd, x);
+                }
+            }
+        }
+
+        if (sum % 2 != 0) {
+            return sum;
+        }
+
+        int remove = Integer.MAX_VALUE;
+
+        if (smallestOdd != Integer.MAX_VALUE) {
+            remove = Math.min(remove, smallestOdd);
+        }
+
+        if (largestNegativeOdd != Integer.MIN_VALUE) {
+            remove = Math.min(remove, Math.abs(largestNegativeOdd));
+        }
+
+        return remove == Integer.MAX_VALUE ? 0 : sum - remove;
+    }
+}
