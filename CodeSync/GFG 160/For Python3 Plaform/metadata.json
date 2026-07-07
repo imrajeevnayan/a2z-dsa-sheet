@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-07T19:21:19.821Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def countWords(self, s): return len(s.split())",
+  "problemTitle": "For Python3 Plaform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-words-in-string/1",
+  "submissionId": "mzoj4z"
+}
