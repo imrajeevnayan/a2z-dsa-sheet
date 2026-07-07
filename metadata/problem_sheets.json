@@ -565,5 +565,6 @@
   "leetcode:sort-integers-by-the-number-of-1-bits": [
     "custom:algomaster-300",
     "custom:neetcode-dsa-sheet"
-  ]
+  ],
+  "leetcode:generate-binary-strings-without-adjacent-zeros": []
 }
