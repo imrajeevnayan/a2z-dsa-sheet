@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T16:57:24.877Z",
+  "submissionTimestamp": "2026-07-07T18:05:43.045Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,8 +10,8 @@
     "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "Sort Integers by The Number of 1 Bits",
-  "problemUrl": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
-  "submissionId": "8b7nfb"
+  "problemUrl": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/?envType=daily-question&envId=2026-07-07",
+  "submissionId": "71vyzv"
 }
