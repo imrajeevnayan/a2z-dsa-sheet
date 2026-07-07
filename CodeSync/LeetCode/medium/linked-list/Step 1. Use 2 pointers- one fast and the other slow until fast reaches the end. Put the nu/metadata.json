@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-07T08:51:29.496Z",
+  "submissionTimestamp": "2026-07-07T08:54:09.004Z",
   "runtime": "0 ms",
   "memoryUsage": "101.06 MB",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Step 1. Use 2 pointers, one fast and the other slow until fast reaches the end. Put the numbers into the stack while traversing slow pointer. Step 2. Move slow pointer further, and pop the stack",
-  "problemUrl": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/submissions/2059042525/",
+  "problemUrl": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
   "submissionId": "xg9tvw"
 }
