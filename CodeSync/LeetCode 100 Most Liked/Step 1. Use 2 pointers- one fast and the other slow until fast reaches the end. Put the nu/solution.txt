@@ -7,18 +7,20 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T06:49:31.327Z
+ * Synced: 2026-07-07T06:50:17.881Z
  */
 
-class Solution {
-    public int pairSum(ListNode head) {
-        int currSum=0,maxSum=0,len=0;
-        ListNode curr=head;
+ListNode curr=head;
         while(curr!=null){
             len++;
             curr=curr.next;
         }
-    }
         curr=head;
-        int slow=0
+        int slow=0,fast=len;
+        while(slow<fast){
+            currSum
+        }
+    }
 }
+        int currSum=0,maxSum=0,len=0;
+    public int pairSum(ListNode head) {
