@@ -1,18 +1,18 @@
 # Python
 
 - Platform: GeeksforGeeks
-- Language: class Solution { void helper(Node root, ArrayList<Integer> ans){ if(root == null) return; ans.add(root.data); helper(root.left, ans); helper(root.right, ans); } public ArrayList<Integer> preOrder(Node root) { // code here // preorder - Root Left Right ArrayList<Integer>ans = new ArrayList<>(); helper(root,ans); return ans; } }
+- Language: class Solution: def missingPanagram(self, s): alpha = 'abcdefghijklmnopqrstuvwxyz' panagram = dict.fromkeys(s.lower(),0) missing = '' for c in alpha: if c not in panagram: missing += c return missing if len(missing) else -1
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags
+- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Data Structures
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/preorder-traversal/1
-- Synced: 2026-05-30T16:55:23.292Z
+- Problem URL: https://www.geeksforgeeks.org/problems/missing-characters-in-panagram/1
+- Synced: 2026-07-07T19:22:46.734Z
 
 ## Problem Description
 
-Given the root of a binary tree, your task is to return its Preorder traversal. Note: A preorder traversal first visits the node, then visits the left child (including its entire subtree), and finally visits the right child (including its entire subtree). Examples: Input: root = [1, 4, N, 4, 2] Output: [1, 4, 4, 2] Explanation: The preorder traversal of the given binary tree is [1, 4, 4, 2] Input: root = [6, 3, 2, N, 1, 2, N] Output: [6, 3, 1, 2, 2] Explanation: The preorder traversal of the given binary tree is [6, 3, 1, 2, 2] Constraints: 1 ≤ number of nodes ≤ 3*104 0 ≤ node->data ≤ 105
+Given a string s, find the missing characters required to make it a pangram (a sentence containing every letter of the English alphabet at least once). Return all missing characters in lowercase and in lexicographical order. If the given string is already a pangram, return -1. Examples: Input: s = Abcdefghijklmnopqrstuvwxy Output: z Explanation: All alphabets except "z" are present in the string. Input: s = Abc Output: defghijklmnopqrstuvwxyz Constraints: 1 <= |s| <= 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { void helper(Node root, ArrayList<Integer> ans){ if(root == null) return; ans.add(root.data); helper(root.left, ans); helper(root.right, ans); } public ArrayList<Integer> preOrder(Node root) { // code here // preorder - Root Left Right ArrayList<Integer>ans = new ArrayList<>(); helper(root,ans); return ans; } }. The detected topics are Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def missingPanagram(self, s): alpha = 'abcdefghijklmnopqrstuvwxyz' panagram = dict.fromkeys(s.lower(),0) missing = '' for c in alpha: if c not in panagram: missing += c return missing if len(missing) else -1. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Data Structures. Review the synced source file for the implementation details.
