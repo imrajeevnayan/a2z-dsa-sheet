@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-07-07T19:26:15.007Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
+  "submissionId": "ozyyzn"
+}
