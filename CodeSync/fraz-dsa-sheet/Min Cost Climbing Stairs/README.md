@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/description/
-- Synced: 2026-07-06T06:59:57.174Z
+- Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/
+- Synced: 2026-07-06T07:03:13.355Z
 
 ## Problem Description
 
