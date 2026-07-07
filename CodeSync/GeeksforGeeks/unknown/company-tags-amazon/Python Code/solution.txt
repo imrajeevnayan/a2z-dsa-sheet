@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Code
+ * URL: https://www.geeksforgeeks.org/problems/reverse-sub-array5620/1
+ * Language: class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:04:58.429Z
+ */
+
+class Solution {
+    public static ArrayList<Integer> reverseSubArray(ArrayList<Integer> arr, int l,
+                                                     int r) {
+        l--; // convert to 0-based indexing
+        r--;
+
+        while (l < r) {
+            int temp = arr.get(l);
+            arr.set(l, arr.get(r));
+            arr.set(r, temp);
+
+            l++;
+            r--;
+        }
+
+        return arr;
+    }
+}
