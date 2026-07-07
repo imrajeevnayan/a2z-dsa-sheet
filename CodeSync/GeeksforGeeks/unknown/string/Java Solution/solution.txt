@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Solution
+ * URL: https://www.geeksforgeeks.org/problems/zero-number2158/1
+ * Language: class Solution: def check_duck(self, N): return True if "0" in N.lstrip("0") else False
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Data Structures, Related Articles, Check Whether Number Duck Number Not
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:23:49.634Z
+ */
+
+class Solution {
+    static boolean check_duck(String num) {
+
+        boolean foundNonZero = false;
+
+        for (int i = 0; i < num.length(); i++) {
+
+            char ch = num.charAt(i);
+
+            if (ch != '0') {
+                foundNonZero = true;
+            }
+
+            else if (foundNonZero) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
