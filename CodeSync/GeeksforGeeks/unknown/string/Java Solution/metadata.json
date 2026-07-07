@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T19:23:49.634Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Check Whether Number Duck Number Not"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def check_duck(self, N): return True if \"0\" in N.lstrip(\"0\") else False",
+  "problemTitle": "Java Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/zero-number2158/1",
+  "submissionId": "1okf62"
+}
