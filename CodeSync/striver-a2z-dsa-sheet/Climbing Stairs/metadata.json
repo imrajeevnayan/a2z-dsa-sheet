@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-06T06:49:04.159Z",
+  "submissionTimestamp": "2026-07-06T06:49:50.048Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.07 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/",
-  "submissionId": "pwzg6q"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/description/",
+  "submissionId": "gvjsu4"
 }
