@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T19:17:11.355Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Java",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def delAlternate (ob, S): # code here return S[::2]",
+  "problemTitle": "Delete alternate characters",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/java-delete-alternate-characters4036/1",
+  "submissionId": "xdt80d"
+}
