@@ -5,20 +5,17 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T07:08:04.308Z
+ * Synced: 2026-07-06T07:08:57.154Z
  */
 
-}
-    public int minCostClimbingStairs(int[] cost) {
-        return cost[i] + Math.min( solve(i + 1, cost), solve(i + 2, cost) );
+class Solution {
     static int solve(int i, int[] cost) {
         if (i >= cost.length) return 0;
-class Solution {
-        return Math.min(
-    solve(0, cost),
-                solve(1, cost)
-        );
+        return cost[i] + Math.min( solve(i + 1, cost), solve(i + 2, cost) );
+    }
+    public int minCostClimbingStairs(int[] cost) {
+        return Math.min( solve(0, cost),solve(1, cost));
     }
 }
