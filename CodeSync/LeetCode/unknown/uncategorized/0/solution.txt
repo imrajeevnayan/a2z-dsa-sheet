@@ -1,25 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2057192431/
+ * URL: https://leetcode.com/submissions/detail/2057667797/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 42.89 MB
- * Synced: 2026-07-05T17:38:32.133Z
+ * Memory: 42.07 MB
+ * Synced: 2026-07-06T07:14:46.457Z
  */
 
 1class Solution {
-2    public int amount(int[] nums,int i,int[]dp){
-3        if(i>=nums.length)return 0;
-4        if(dp[i]!=-1)return dp[i];
-5        int take=nums[i]+amount(nums,i+2,dp);
-6        int skip=0+amount(nums,i+1,dp);
-7        return dp[i]= Math.max(take,skip);
-8    }
-9    public int rob(int[] nums) {
-10        int dp[]=new int[nums.length];Arrays.fill(dp,-1);
-11        return amount(nums,0,dp);
+2    static int solve(int n ,int[]dp){
+3        if(n==0)return 1;
+4        if(n <0)return 0;
+5        if(dp[n]!=-1)return dp[n];
+6        return dp[n]= solve(n-1,dp)+solve(n-2,dp);
+7    }
+8    public int climbStairs(int n) {
+9        int dp[]=new int[n+1];
+10        Arrays.fill(dp,-1);
+11        return solve(n,dp );
 12    }
 13}
