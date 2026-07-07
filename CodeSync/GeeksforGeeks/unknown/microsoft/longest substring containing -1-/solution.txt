@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: longest substring containing '1'
+ * URL: https://www.geeksforgeeks.org/problems/longest-substring-containing-1/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Strings, Data Structures, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:15:24.993Z
+ */
+
+/*Complete the function below*/
+class GfG {
+    public int count(String s) {
+        // add code here.
+    }
+}
