@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: easy code java
+ * URL: https://www.geeksforgeeks.org/problems/odd-to-even0537/1
+ * Language: class Solution: def makeEven(self, s): s = list(map(int,s)) # Right-most highest, left-most lowest n = len(s) odd_digit = s[-1] mid_idx = -1 max_idx = -1 flag = True for i in range(n-2, -1, -1): if s[i] % 2 == 0: # Left-most lowest if s[i] < odd_digit: mid_idx = i # Right-most highest elif s[i] > odd_digit: if flag: flag = False max_idx = i idx_to_swap = max_idx if mid_idx != -1: idx_to_swap = mid_idx # Swap s[idx_to_swap], s[-1] = s[-1], s[idx_to_swap] return "".join(map(str,s))
+ * Difficulty: Unknown
+ * Topics: Company Tags Morgan Stanley, Company Tags, Morgan Stanley, Topic Tags, Strings, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:56:10.435Z
+ */
+
+class Solution {
+    public String makeEven(String s) {
+        // code here.
+    }
+}
