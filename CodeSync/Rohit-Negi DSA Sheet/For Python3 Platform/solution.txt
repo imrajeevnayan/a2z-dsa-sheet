@@ -1,25 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1
- * Language: class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head
+ * URL: https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1
+ * Language: class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:53:48.137Z
+ * Synced: 2026-07-07T19:26:15.007Z
  */
 
 class Solution {
-    public Node insertAtEnd(Node head, int x) {
-        Node newNode =new Node(x);
-        if(head==null)return newNode; 
-        Node curr=head;
-        while(curr.next!=null){
-            curr=curr.next;
-        }
-        curr.next=newNode;
-        return head;
+    public static boolean isPowerofTwo(int n) {
+        return n>0 && (n & (n-1))==0;
         
     }
 }
