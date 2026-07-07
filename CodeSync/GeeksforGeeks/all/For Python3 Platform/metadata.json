@@ -1,19 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-07T19:18:21.681Z",
+  "submissionTimestamp": "2026-07-07T19:26:15.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
-    "Topic Tags",
-    "Strings",
-    "Java",
-    "Data Structures",
-    "Related Articles"
+    "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }",
+  "language": "class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1",
-  "submissionId": "5rt5s7"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
+  "submissionId": "ozyyzn"
 }
