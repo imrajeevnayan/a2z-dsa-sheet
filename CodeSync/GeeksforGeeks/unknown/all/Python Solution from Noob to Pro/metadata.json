@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T19:29:15.872Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftAdobe",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Adobe",
+    "Topic Tags",
+    "Mathematical"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int isDivisible(string s){ //complete the function here int i,odd=0,eve=0,n=s.size(); for(i=0;i<n;i++){ if(s[i]=='1'){ if(i%2)odd++; else eve++; } } return (odd-eve)%3==0; }",
+  "problemTitle": "Python Solution from Noob to Pro",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/is-binary-number-multiple-of-30654/1",
+  "submissionId": "lh41l0"
+}
