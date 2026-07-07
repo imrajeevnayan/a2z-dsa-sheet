@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Last Duplicate in a Sorted Array
+ * URL: https://www.geeksforgeeks.org/problems/last-duplicate-element-in-a-sorted-array5539/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Last Duplicate Element Sorted Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T15:32:14.730Z
+ */
+
+class Solution {
+    public int[] dupLastIndex(int[] arr) {
+        // Complete the function
+    }
+}
