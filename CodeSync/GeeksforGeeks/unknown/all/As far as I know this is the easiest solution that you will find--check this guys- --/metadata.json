@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-07T16:08:48.710Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// User function Template for Java class Solution { public ArrayList<Integer> customSort(int[] arr) { // your code ArrayList<Integer> list = new ArrayList<>(); int mid = arr.length/2; int start = 0; int end = arr.length-1; Arrays.sort(arr, 0, mid); Arrays.sort(arr, mid, arr.length); while( start < mid ) list.add(arr[start++]); while ( end >= mid ) list.add(arr[end--]); return list; } }",
+  "problemTitle": "As far as I know this is the easiest solution that you will find!!check this guys! =)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sort-first-half-in-ascending-and-second-half-in-descending1714/1",
+  "submissionId": "b8gz82"
+}
