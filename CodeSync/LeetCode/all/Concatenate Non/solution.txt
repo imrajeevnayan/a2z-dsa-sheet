@@ -1,17 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Concatenate Non
- * URL: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/?envType=daily-question&envId=2026-07-07
+ * URL: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/?envType=daily-question&envId=2026-07-07
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T18:02:45.084Z
+ * Synced: 2026-07-07T18:03:30.578Z
  */
 
-class Solution {
+if (d != 0) {
+                x += digit * p;
+                p *= 10;
+            int d = n % 10;
+        while (n > 0) {
+        int x = 0, sum = 0,p = 1;
     public long sumAndMultiply(int n) {
-        
-    }
-}
+class Solution {
+                sum += digit;
+            }
+
+            n /= 10;
+        }
