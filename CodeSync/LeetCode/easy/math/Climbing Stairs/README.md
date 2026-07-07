@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: 0 ms
 - Memory: 42.07 MB
-- Problem URL: https://leetcode.com/problems/climbing-stairs/submissions/2057667797/
-- Synced: 2026-07-06T06:43:51.154Z
+- Problem URL: https://leetcode.com/problems/climbing-stairs/
+- Synced: 2026-07-06T06:44:51.711Z
 
 ## Problem Description
 
