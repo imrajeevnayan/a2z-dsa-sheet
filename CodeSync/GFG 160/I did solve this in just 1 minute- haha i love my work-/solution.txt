@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: I did solve this in just 1 minute! haha i love my work!
+ * URL: https://www.geeksforgeeks.org/problems/remove-all-characters-other-than-alphabets4923/1
+ * Language: // User function Template for Java class Solution { String removeSpecialCharacter(String s) { // code here StringBuilder sb = new StringBuilder(); for ( char c : s.toCharArray() ) { if ( Character.isLetter(c) ) { sb.append(c); } } if ( sb.length() == 0 ) return "-1"; return sb.toString(); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Data Structures, Related Articles, Remove Characters Alphabets String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:54:06.259Z
+ */
+
+class Solution {
+    public String removeChars(String s) {
+        StringBuilder ans = new StringBuilder();
+
+        for (char ch : s.toCharArray()) {
+            if ((ch >= 'A' && ch <= 'Z') || 
+                (ch >= 'a' && ch <= 'z')) {
+                ans.append(ch);
+            }
+        }
+
+        return ans.toString();
+    }
+}
