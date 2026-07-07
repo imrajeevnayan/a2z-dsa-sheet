@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-07T08:43:54.955Z
+ * Memory: 171.16 MB
+ * Synced: 2026-07-07T08:44:44.990Z
  */
 
 int n = index;
