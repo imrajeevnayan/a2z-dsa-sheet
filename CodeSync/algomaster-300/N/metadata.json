@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-07T11:10:41.934Z",
+  "submissionTimestamp": "2026-07-07T18:07:43.152Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "N",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
-  "submissionId": "h4dqrq"
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "4bgnch"
 }
