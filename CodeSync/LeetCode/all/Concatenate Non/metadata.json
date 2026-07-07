@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-07T18:03:30.578Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-07T18:04:16.135Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.84 MB",
   "difficulty": "Easy",
   "tags": [
     "Math"
@@ -10,5 +10,5 @@
   "language": "Daily Question",
   "problemTitle": "Concatenate Non",
   "problemUrl": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/?envType=daily-question&envId=2026-07-07",
-  "submissionId": "u1gype"
+  "submissionId": "8p71do"
 }
