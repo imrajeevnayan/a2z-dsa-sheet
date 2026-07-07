@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution {
+ * URL: https://www.geeksforgeeks.org/problems/remove-duplicates-from-unsorted-array4141/1
+ * Language: #User function Template for python3 class Solution: def removeDuplicate(self, arr): # code here freq={} for num in arr: if num not in freq: freq[num]=1 return freq
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Print Distinct Elements Given Integer Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T15:30:46.180Z
+ */
+
+class Solution {
+    static ArrayList<Integer> removeDuplicate(int arr[]) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int x : arr) {
+            if (!set.contains(x)) {
+                set.add(x);
+                ans.add(x);
+            }
+        }
+
+        return ans;
+    }
+}
