@@ -1,18 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-19T08:52:52.442Z",
+  "submissionTimestamp": "2026-07-07T19:18:21.681Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Linked List",
+    "Strings",
+    "Java",
     "Data Structures",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def searchKey(self, head, key): while(head is not None): if(head.data == key): return True break head = head.next else: return False",
+  "language": "static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
-  "submissionId": "6eowct"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1",
+  "submissionId": "5rt5s7"
 }
