@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Min Cost Climbing Stairs
- * URL: https://leetcode.com/problems/min-cost-climbing-stairs/submissions/2051988019/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
+ * URL: https://leetcode.com/problems/min-cost-climbing-stairs/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 44.62 MB
- * Synced: 2026-07-02T16:58:44.087Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-06T06:58:20.443Z
  */
 
 class Solution {
@@ -24,4 +24,3 @@ class Solution {
         }
        return Math.min(dp[n - 1], dp[n - 2]);
     }
-}
