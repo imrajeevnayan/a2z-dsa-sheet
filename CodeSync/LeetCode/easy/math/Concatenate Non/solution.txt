@@ -5,21 +5,20 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-07T18:03:30.578Z
+ * Runtime: 0 ms
+ * Memory: 42.84 MB
+ * Synced: 2026-07-07T18:04:16.135Z
  */
 
 if (d != 0) {
-                x += digit * p;
+                x += d * p;
                 p *= 10;
             int d = n % 10;
         while (n > 0) {
-        int x = 0, sum = 0,p = 1;
-    public long sumAndMultiply(int n) {
-class Solution {
-                sum += digit;
+                sum += d;
             }
-
             n /= 10;
         }
+        return 1L * x * sum;
+    }
+}
