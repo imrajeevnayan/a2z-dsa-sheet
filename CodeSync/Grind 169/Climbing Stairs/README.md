@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.07 MB
 - Problem URL: https://leetcode.com/problems/climbing-stairs/
-- Synced: 2026-07-06T06:47:20.146Z
+- Synced: 2026-07-06T06:48:12.163Z
 
 ## Problem Description
 
