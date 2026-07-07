@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Min Cost Climbing Stairs
- * URL: https://leetcode.com/problems/min-cost-climbing-stairs/
+ * URL: https://leetcode.com/problems/min-cost-climbing-stairs/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T07:11:38.255Z
+ * Synced: 2026-07-06T07:12:23.272Z
  */
 
 class Solution {
-    static int solve(int i, int[] cost,int) {
+    static int solve(int i, int[] cost,int[]dp) {
         if (i >= cost.length) return 0;
-        return  dp[i]=cost[i] + Math.min( solve(i + 1, cost), solve(i + 2, cost) );
+        if(dp[i]!=-1)return dp[i];
+        return  dp[i]=cost[i] + Math.min( solve(i + 1, cost,dp), solve(i + 2, cost,dp) );
     }
     public int minCostClimbingStairs(int[] cost) {
         int dp[]=new int[cost.length];Arrays.fill(dp,-1);
         return Math.min( solve(0, cost,dp),solve(1, cost,dp));
     }
-        if(dp[i]!=-1)return dp[i];
 }
