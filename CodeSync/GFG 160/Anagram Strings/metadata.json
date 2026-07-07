@@ -1,10 +1,10 @@
 {
-  "submissionTimestamp": "2026-07-07T19:17:32.444Z",
+  "submissionTimestamp": "2026-07-07T19:19:27.975Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
+    "Topic Tags Related Articles",
     "Topic Tags",
     "Strings",
     "Java",
@@ -12,8 +12,8 @@
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "Text",
   "problemTitle": "Anagram Strings",
   "problemUrl": "https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1",
-  "submissionId": "l47els"
+  "submissionId": "pfmp5p"
 }
