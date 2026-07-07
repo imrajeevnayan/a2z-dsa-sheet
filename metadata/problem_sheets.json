@@ -505,5 +505,9 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:butterfly-pattern": [
+    "custom:algomaster-300",
+    "GFG160"
   ]
 }
