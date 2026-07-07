@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T16:50:46.765Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles",
+    "Subsequence Maximum Odd Sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "# Easy-Python Solution class Solution: def findMaxOddSum(self, arr): res = 0 min_odd = float(\"inf\") for num in arr: if num > 0: res += num if num % 2 != 0: min_odd = min(min_odd, abs(num)) if min_odd == float(\"inf\"): return -1 if res % 2 != 0: return res return res - min_odd",
+  "problemTitle": "Max Odd Sum",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/max-odd-sum0651/1",
+  "submissionId": "haea0p"
+}
