@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Odd to Even
+ * URL: https://www.geeksforgeeks.org/problems/odd-to-even0537/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags Morgan Stanley, Company Tags, Morgan Stanley, Topic Tags, Strings, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:55:25.321Z
+ */
+
+Input:
+s = 4543
+Output: 4534
+Explanation: Swap 4(3rd pos) and 3.
