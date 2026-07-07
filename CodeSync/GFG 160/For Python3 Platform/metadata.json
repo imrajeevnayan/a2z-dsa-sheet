@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-29T16:08:35.796Z",
+  "submissionTimestamp": "2026-07-07T15:42:09.269Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Oxigen Wallet",
+    "Company Tags Adobe",
     "Company Tags",
-    "Oxigen Wallet",
+    "Adobe",
     "Topic Tags",
     "Arrays",
     "Data Structures",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { int findSum(int arr[]){ int n = arr.length; Arrays.sort(arr); int sum=arr[0]; for(int i=0;i<n-1;i++){ if(arr[i]==arr[i+1]){ continue; } sum=sum+arr[i+1]; } return sum; } }",
+  "language": "class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-distinct-elements4801/1",
-  "submissionId": "5mriwn"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1",
+  "submissionId": "eeosgi"
 }
