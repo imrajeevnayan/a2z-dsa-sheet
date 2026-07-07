@@ -7,16 +7,18 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T07:07:18.160Z
+ * Synced: 2026-07-06T07:08:04.308Z
  */
 
-class Solution {
-    static int solve(int i, int cost[]){
-        if(i >=cost.length)return 0;
-        return Math.min(solve(cost[i],i+2),solve(cost[i],i+1));
-    }
+}
     public int minCostClimbingStairs(int[] cost) {
-       return  solve(0,cost);
-        
+        return cost[i] + Math.min( solve(i + 1, cost), solve(i + 2, cost) );
+    static int solve(int i, int[] cost) {
+        if (i >= cost.length) return 0;
+class Solution {
+        return Math.min(
+    solve(0, cost),
+                solve(1, cost)
+        );
     }
 }
