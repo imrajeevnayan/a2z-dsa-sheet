@@ -7,19 +7,16 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
  * Memory: 171.16 MB
- * Synced: 2026-07-07T08:46:24.727Z
+ * Synced: 2026-07-07T08:47:11.213Z
  */
 
-// Process only first half
+int maxSum = 0;
+        // Process only first half
         for (int i = 0; i < length / 2; i++) {
-
             int currSum = curr.val + stack.pop();
-
             maxSum = Math.max(maxSum, currSum);
-
             curr = curr.next;
         }
-
         return maxSum;
     }
 }
