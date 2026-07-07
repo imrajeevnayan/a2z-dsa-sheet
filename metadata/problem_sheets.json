@@ -516,5 +516,8 @@
   "geeksforgeeks:pyramid-patterns": [
     "custom:algomaster-300",
     "GFG160"
+  ],
+  "geeksforgeeks:solid-rectangle": [
+    "GFG160"
   ]
 }
