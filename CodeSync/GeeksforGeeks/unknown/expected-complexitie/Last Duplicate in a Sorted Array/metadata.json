@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T15:32:14.730Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles",
+    "Last Duplicate Element Sorted Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Last Duplicate in a Sorted Array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/last-duplicate-element-in-a-sorted-array5539/1",
+  "submissionId": "4thggp"
+}
