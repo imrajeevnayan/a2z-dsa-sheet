@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T15:30:46.180Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles",
+    "Print Distinct Elements Given Integer Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#User function Template for python3 class Solution: def removeDuplicate(self, arr): # code here freq={} for num in arr: if num not in freq: freq[num]=1 return freq",
+  "problemTitle": "class Solution {",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-duplicates-from-unsorted-array4141/1",
+  "submissionId": "yyl921"
+}
