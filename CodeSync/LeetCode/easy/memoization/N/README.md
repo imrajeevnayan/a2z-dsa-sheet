@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Memoization
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
-- Synced: 2026-07-06T07:12:38.156Z
+- Synced: 2026-07-07T11:10:41.934Z
 
 ## Problem Description
 
