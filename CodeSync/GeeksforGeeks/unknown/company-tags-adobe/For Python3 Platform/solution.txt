@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: For Python3 Platform
+ * URL: https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1
+ * Language: class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T15:42:09.269Z
+ */
+
+class Solution {
+
+    public long minMaxProduct(int[] arr1, int[] arr2) {
+         int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for (int x : arr1) {
+            max = Math.max(max, x);
+        }
+
+        for (int x : arr2) {
+            min = Math.min(min, x);
+        }
+
+        return (long) max * min;
+        
+    }
+}
