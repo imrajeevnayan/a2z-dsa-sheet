@@ -1,26 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Step 1. Use 2 pointers, one fast and the other slow until fast reaches the end. Put the numbers into the stack while traversing slow pointer. Step 2. Move slow pointer further, and pop the stack
- * URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+ * URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers, Stack
- * Runtime: 0 ms
- * Memory: 101.06 MB
- * Synced: 2026-07-07T09:00:26.004Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T17:42:05.267Z
  */
 
-ListNode next = slow.next;
-        while (slow != null) {
-        ListNode prev = null;
-
-        }
-        // Step 2: Reverse the second half
-            slow = slow.next;
-            fast = fast.next.next;
-        ListNode fast = head;
-        while (fast != null && fast.next != null) {
+class Solution {
+    public int pairSum(ListNode head) {
         // Step 1: Find the middle of the linked list
         ListNode slow = head;
-    public int pairSum(ListNode head) {
-class Solution {
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        // Step 2: Reverse the second half
+        ListNode prev = null;
+
+        while (slow != null) {
+            ListNode next = slow.next;
