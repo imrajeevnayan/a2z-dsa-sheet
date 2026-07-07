@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-02T16:58:44.087Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.62 MB",
+  "submissionTimestamp": "2026-07-06T06:58:20.443Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
     "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "Min Cost Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/submissions/2051988019/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "ojd560"
+  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/description/",
+  "submissionId": "gtass4"
 }
