@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T06:45:52.164Z
+ * Synced: 2026-07-06T06:46:45.163Z
  */
 
 int dp[]=new int[n+1];
