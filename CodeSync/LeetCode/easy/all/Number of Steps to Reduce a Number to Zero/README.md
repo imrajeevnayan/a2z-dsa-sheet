@@ -6,8 +6,8 @@
 - Topics: Math, Bit Manipulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
-- Synced: 2026-07-07T10:56:19.645Z
+- Problem URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+- Synced: 2026-07-07T10:57:11.901Z
 
 ## Problem Description
 
