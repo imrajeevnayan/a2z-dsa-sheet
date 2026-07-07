@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T16:48:43.569Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonSnapdeal",
+    "Company Tags",
+    "Amazon",
+    "Snapdeal",
+    "Topic Tags",
+    "Arrays",
+    "Hash"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def getOddOccurrence(self, arr): dic = {} for value in arr: if value in dic: dic[value] += 1 else: dic[value] = 1 for value,key in dic.items(): if key%2 != 0: return value",
+  "problemTitle": "Using Xor ^ O(N) TC ->",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-the-odd-occurence4820/1",
+  "submissionId": "si5q1f"
+}
