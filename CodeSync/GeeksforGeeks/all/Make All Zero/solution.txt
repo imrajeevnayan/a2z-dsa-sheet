@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Make All Zero
+ * URL: https://www.geeksforgeeks.org/problems/make-all-zero--150104/1
+ * Language: class Solution { public boolean makeZero(int arr[]) { // Code here int x=0; int l=arr.length; for(int i=0;i<l;i++){ x=x^arr[i]; } if(x==0){ return false; }else if(l%2==1){ return true; }else{ return false; } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T15:28:41.272Z
+ */
+
+class Solution {
+    public boolean makeZero(int arr[]) {
+        int xor = 0;
+        for (int x : arr) {
+            xor ^= x;
+        }
+
+        if (xor == 0) {
+            return false;   // First player wins immediately
+        }
+
+        return (arr.length % 2 == 1);   // Second wins iff n is odd
+    }
+}
