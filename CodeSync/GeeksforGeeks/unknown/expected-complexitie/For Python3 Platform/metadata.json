@@ -1,21 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-07T15:42:09.269Z",
+  "submissionTimestamp": "2026-07-07T19:18:21.681Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Adobe",
-    "Company Tags",
-    "Adobe",
     "Topic Tags",
-    "Arrays",
+    "Strings",
+    "Java",
     "Data Structures",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };",
+  "language": "static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1",
-  "submissionId": "eeosgi"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1",
+  "submissionId": "5rt5s7"
 }
