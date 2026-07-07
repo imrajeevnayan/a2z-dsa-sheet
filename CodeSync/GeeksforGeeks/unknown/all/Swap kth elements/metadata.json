@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T16:52:15.719Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Morgan StanleyRockstand",
+    "Company Tags",
+    "Morgan Stanley",
+    "Rockstand",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def swapKth(self, arr, k): arr[k-1], arr[-k] = arr[-k], arr[k-1] return arr",
+  "problemTitle": "Swap kth elements",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/swap-kth-elements5500/1",
+  "submissionId": "ojlrvh"
+}
