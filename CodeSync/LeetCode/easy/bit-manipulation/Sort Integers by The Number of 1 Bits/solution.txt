@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Integers by The Number of 1 Bits
- * URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/?envType=daily-question&envId=2026-07-07
+ * URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/?envType=daily-question&envId=2026-07-07
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation, Sorting, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T18:05:43.045Z
+ * Synced: 2026-07-07T18:06:30.163Z
  */
 
 class Solution {
