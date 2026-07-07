@@ -7,20 +7,21 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
  * Memory: 101.12 MB
- * Synced: 2026-07-07T07:01:17.842Z
+ * Synced: 2026-07-07T07:03:42.896Z
  */
 
-ListNode prev = null;
-        // Reverse second half
+}
+        int max = 0;
 
+        ListNode first = head;
+        ListNode second = prev;
+
+        while (second != null) {
+            max = Math.max(max, first.val + second.val);
+            first = first.next;
+            second = second.next;
         }
-            fast = fast.next.next;
-            slow = slow.next;
-        while (fast != null && fast.next != null) {
 
-        ListNode fast = head;
-        ListNode slow = head;
-        // Find middle
-
-    public int pairSum(ListNode head) {
-class Solution {
+        return max;
+    }
+}
