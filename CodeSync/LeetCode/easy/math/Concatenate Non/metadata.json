@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-07T18:04:16.135Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.84 MB",
+  "submissionTimestamp": "2026-07-07T18:04:51.230Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Concatenate Non",
-  "problemUrl": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/?envType=daily-question&envId=2026-07-07",
-  "submissionId": "8p71do"
+  "problemUrl": "https://leetcode.com/problems/equal-sum-grid-partition-i/?envType=daily-question&envId=2026-07-07",
+  "submissionId": "8a4tkk"
 }
