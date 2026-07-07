@@ -577,5 +577,6 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:concatenate-non-zero-digits-and-multiply-by-sum-i": []
+  "leetcode:concatenate-non-zero-digits-and-multiply-by-sum-i": [],
+  "leetcode:equal-sum-grid-partition-i": []
 }
