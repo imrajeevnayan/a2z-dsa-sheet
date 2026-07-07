@@ -7,15 +7,10 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:58:20.443Z
+ * Synced: 2026-07-06T06:59:10.161Z
  */
 
-class Solution {
-    public int minCostClimbingStairs(int[] cost) {
-        int n = cost.length;
-        if (n == 2) return Math.min(cost[0], cost[1]);
-        
-        int[] dp = new int[n];
+int[] dp = new int[n];
         dp[0] = cost[0];
         dp[1] = cost[1];
         
@@ -24,3 +19,8 @@ class Solution {
         }
        return Math.min(dp[n - 1], dp[n - 2]);
     }
+        
+class Solution {
+    public int minCostClimbingStairs(int[] cost) {
+        int n = cost.length;
+        if (n == 2) return Math.min(cost[0], cost[1]);
