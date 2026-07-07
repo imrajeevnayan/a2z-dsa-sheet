@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-06T07:12:23.272Z",
+  "submissionTimestamp": "2026-07-06T07:13:11.275Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Min Cost Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/description/",
+  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
   "submissionId": "a9vcbu"
 }
