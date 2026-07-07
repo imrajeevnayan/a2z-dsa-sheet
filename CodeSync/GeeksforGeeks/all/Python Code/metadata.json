@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-04T17:27:01.401Z",
+  "submissionTimestamp": "2026-07-07T16:04:58.429Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
+    "Company Tags Amazon",
     "Company Tags",
-    "Moonfrog Labs",
-    "Flipkart",
     "Amazon",
-    "Microsoft",
-    "Housing.com",
-    "Walmart"
+    "Topic Tags",
+    "Arrays",
+    "Data Structures",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
-  "problemTitle": "Python Code :",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1",
-  "submissionId": "h9vjld"
+  "language": "class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr",
+  "problemTitle": "Python Code",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-sub-array5620/1",
+  "submissionId": "6wn7eg"
 }
