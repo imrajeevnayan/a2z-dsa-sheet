@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Elements in the Range
+ * URL: https://www.geeksforgeeks.org/problems/elements-in-the-range2834/1
+ * Language: class Solution: def checkElements(self, start, end, arr): # code here found = [False for i in range(start, end+1)] for i in arr: if i in range(start, end+1): found[i-start] = True return all(found)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Searching, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:12:33.628Z
+ */
+
+class Solution {
+    public boolean checkElements(int start, int end, int[] arr) {
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int x : arr) {
+            set.add(x);
+        }
+
+        for (int i = start; i <= end; i++) {
+            if (!set.contains(i)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
