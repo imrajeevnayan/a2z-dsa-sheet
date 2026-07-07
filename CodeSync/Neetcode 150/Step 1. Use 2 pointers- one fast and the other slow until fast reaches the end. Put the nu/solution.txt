@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
  * Memory: 101.06 MB
- * Synced: 2026-07-07T08:53:23.029Z
+ * Synced: 2026-07-07T08:54:09.004Z
  */
 
 ListNode next = slow.next;
