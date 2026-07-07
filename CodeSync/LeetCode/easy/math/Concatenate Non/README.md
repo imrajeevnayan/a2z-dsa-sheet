@@ -6,8 +6,8 @@
 - Topics: Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/?envType=daily-question&envId=2026-07-07
-- Synced: 2026-07-07T18:01:09.627Z
+- Problem URL: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/?envType=daily-question&envId=2026-07-07
+- Synced: 2026-07-07T18:01:58.794Z
 
 ## Problem Description
 
