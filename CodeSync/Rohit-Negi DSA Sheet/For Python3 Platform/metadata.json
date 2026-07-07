@@ -1,21 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-19T08:53:48.137Z",
+  "submissionTimestamp": "2026-07-07T19:26:15.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
-    "Company Tags HikeWiproTCS",
-    "Company Tags",
-    "Hike",
-    "Wipro",
-    "TCS",
-    "Topic Tags",
-    "Linked List"
+    "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Node: def __init__(self, data): self.data = data self.next = None class Solution: def insertAtEnd(self, head, x): new_node = Node(x) if(head is None): head = new_node return head temp = head while(temp.next is not None): temp = temp.next temp.next = new_node return head",
+  "language": "class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1",
-  "submissionId": "aaycdj"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
+  "submissionId": "ozyyzn"
 }
