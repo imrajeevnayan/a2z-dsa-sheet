@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T12:33:58.272Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "pattern-printing",
+    "Algorithms",
+    "Related Articles",
+    "Printing Pyramid Patterns"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { static void printPyramid(int n) { StringBuilder result = new StringBuilder(); int blankSpaces = n - 1; for(int i = 0; i < n; i++) { result.append(setCharacters(blankSpaces, ' ')); result.append(setCharacters((n * 2 - 1) - blankSpaces * 2, '*')); result.append(\"\\n\"); blankSpaces--; } System.out.print(result); } static String setCharacters(int charsNumber, char character) { StringBuilder result = new StringBuilder(); for(int i = 0; i < charsNumber; i++) { result.append(character); } return result.toString(); } }",
+  "problemTitle": "Pyramid Pattern",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/pyramid-patterns/1",
+  "submissionId": "dhiotw"
+}
