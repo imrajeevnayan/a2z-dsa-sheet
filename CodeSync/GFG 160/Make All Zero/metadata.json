@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-07-07T15:28:41.272Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public boolean makeZero(int arr[]) { // Code here int x=0; int l=arr.length; for(int i=0;i<l;i++){ x=x^arr[i]; } if(x==0){ return false; }else if(l%2==1){ return true; }else{ return false; } } }",
+  "problemTitle": "Make All Zero",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/make-all-zero--150104/1",
+  "submissionId": "lga6ja"
+}
