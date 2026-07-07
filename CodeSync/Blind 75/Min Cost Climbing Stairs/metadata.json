@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-06T07:13:58.163Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-07T18:08:14.415Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Min Cost Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
-  "submissionId": "a9vcbu"
+  "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "m2gazq"
 }
