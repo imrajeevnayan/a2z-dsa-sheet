@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Solid Rectangle
+ * URL: https://www.geeksforgeeks.org/problems/solid-rectangle/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, pattern-printing, Algorithms, Related Articles, Print Solid Rectangle Star Pattern
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T12:34:59.135Z
+ */
+
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        sc.close();
+    }
+}
