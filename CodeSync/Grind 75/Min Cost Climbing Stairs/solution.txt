@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T07:10:07.154Z
+ * Synced: 2026-07-06T07:10:52.723Z
  */
 
 class Solution {
@@ -16,6 +16,7 @@ class Solution {
         return cost[i] + Math.min( solve(i + 1, cost), solve(i + 2, cost) );
     }
     public int minCostClimbingStairs(int[] cost) {
+        int dp[]=new int[cost.length];Arrays.fill(dp,-1);
         return Math.min( solve(0, cost),solve(1, cost));
     }
 }
