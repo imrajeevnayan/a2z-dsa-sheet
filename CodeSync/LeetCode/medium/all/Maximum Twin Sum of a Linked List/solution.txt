@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Twin Sum of a Linked List
+ * URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T18:09:09.833Z
+ */
+
+class Solution {
+    public int pairSum(ListNode head) {
+        // Step 1: Find the middle of the linked list
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        // Step 2: Reverse the second half
+        ListNode prev = null;
+
+        while (slow != null) {
+            ListNode next = slow.next;
