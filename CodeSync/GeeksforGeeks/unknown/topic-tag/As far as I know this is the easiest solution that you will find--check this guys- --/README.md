@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sort-first-half-in-ascending-and-second-half-in-descending1714/1
-- Synced: 2026-07-07T16:08:48.710Z
+- Synced: 2026-07-07T16:09:39.162Z
 
 ## Problem Description
 
