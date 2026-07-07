@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Anagram Strings
+ * URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:17:32.444Z
+ */
+
+class Solution {
+    static int areAnagram(String S1, String S2) {
+        // code here
+        
+    }
+}
