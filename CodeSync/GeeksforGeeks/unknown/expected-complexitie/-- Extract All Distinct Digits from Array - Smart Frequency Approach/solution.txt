@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔢 Extract All Distinct Digits from Array - Smart Frequency Approach
+ * URL: https://www.geeksforgeeks.org/problems/make-a-distinct-digit-array2007/1
+ * Language: vector<int> common_digits(vector<int> nums) { unordered_set<int> st; for(int num : nums) { if(num == 0) st.insert(0); else { while(num > 0) { st.insert(num%10); num = num/10; } } } vector<int> ans(st.begin(), st.end()); sort(ans.begin(), ans.end()); return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoAmazonMakeMyTrip, Company Tags, Zoho, Amazon, MakeMyTrip, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T16:03:58.141Z
+ */
+
+class Solution {
+  public:
+    vector<int> distDigit(vector<int>& arr) {
+        vector<int> ans;
+        vector<bool> seen(10, false);
+
+        for (int num : arr) {
+            while (num > 0) {
+                int digit = num % 10;
+                seen[digit] = true;
+                num /= 10;
+            }
+        }
+
+        for (int i = 0; i <= 9; i++) {
+            if (seen[i]) {
+                ans.push_back(i);
+            }
+        }
+
+        return ans;
+    }
+};
