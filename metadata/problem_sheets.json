@@ -509,5 +509,8 @@
   "geeksforgeeks:butterfly-pattern": [
     "custom:algomaster-300",
     "GFG160"
+  ],
+  "geeksforgeeks:hollow-rectangle-or-square": [
+    "GFG160"
   ]
 }
