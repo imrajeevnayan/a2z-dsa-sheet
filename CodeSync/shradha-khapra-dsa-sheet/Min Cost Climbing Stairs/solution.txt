@@ -7,12 +7,13 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T07:03:13.355Z
+ * Synced: 2026-07-06T07:04:01.990Z
  */
 
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         
     }
-       return  solve(cost)
+       return  solve(0,cost);
+    static int solve(int cost,)
 }
