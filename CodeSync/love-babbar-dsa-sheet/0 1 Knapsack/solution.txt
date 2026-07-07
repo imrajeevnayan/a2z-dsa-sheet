@@ -1,0 +1,28 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: 0 1 Knapsack
+ * URL: https://www.naukri.com/code360/problems/0-1-knapsack_920542
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T11:19:06.026Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution{
+    static int knapsack(int[] weight, int[] value, int n, int maxWeight) {
+ 
+            /* Your class should be named Solution
+            * Don't write main().
+            * Don't read input, it is passed as function argument.
+            * Change in the given tree itself.
+            * No need to return or print the output.
+            * Taking input and printing output is handled automatically.
+            */
+ 
+    }
+}
