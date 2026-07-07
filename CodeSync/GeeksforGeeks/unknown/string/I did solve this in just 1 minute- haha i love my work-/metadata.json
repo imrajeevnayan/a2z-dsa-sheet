@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-07T16:54:06.259Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Remove Characters Alphabets String"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// User function Template for Java class Solution { String removeSpecialCharacter(String s) { // code here StringBuilder sb = new StringBuilder(); for ( char c : s.toCharArray() ) { if ( Character.isLetter(c) ) { sb.append(c); } } if ( sb.length() == 0 ) return \"-1\"; return sb.toString(); } }",
+  "problemTitle": "I did solve this in just 1 minute! haha i love my work!",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-all-characters-other-than-alphabets4923/1",
+  "submissionId": "k1185u"
+}
