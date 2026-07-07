@@ -1,30 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1
- * Language: class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };
+ * URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
+ * Language: static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Data Structures, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T15:42:09.269Z
+ * Synced: 2026-07-07T19:18:21.681Z
  */
 
 class Solution {
-
-    public long minMaxProduct(int[] arr1, int[] arr2) {
-         int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-
-        for (int x : arr1) {
-            max = Math.max(max, x);
-        }
-
-        for (int x : arr2) {
-            min = Math.min(min, x);
-        }
-
-        return (long) max * min;
+    static int areAnagram(String S1, String S2) {
+        // code here
         
     }
 }
