@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java O(N)-Time Complexity
+ * URL: https://www.geeksforgeeks.org/problems/last-duplicate-element-in-a-sorted-array5539/1
+ * Language: // User function Template for Java class Solution { public int[] dupLastIndex(int[] arr) { // Complete the function int l = arr.length-1; int l1 = arr.length-2; while(l1 >=0){ if(arr[l]==arr[l1])return new int []{l,arr[l]}; else l--; l1--; } return new int [] {-1,-1}; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Last Duplicate Element Sorted Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T15:33:07.578Z
+ */
+
+class Solution {
+    public int[] dupLastIndex(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        int index = -1;
+        int value = -1;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (map.containsKey(arr[i])) {
+                index = i;
+                value = arr[i];
+            }
+            map.put(arr[i], i);
+        }
+
+        return new int[]{index, value};
+    }
+}
