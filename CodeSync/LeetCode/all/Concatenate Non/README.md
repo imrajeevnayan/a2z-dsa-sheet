@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Math
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 42.84 MB
 - Problem URL: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/?envType=daily-question&envId=2026-07-07
-- Synced: 2026-07-07T18:03:30.578Z
+- Synced: 2026-07-07T18:04:16.135Z
 
 ## Problem Description
 
