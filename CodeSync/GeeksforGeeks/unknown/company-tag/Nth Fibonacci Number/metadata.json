@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T11:52:35.676Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "OYO Rooms",
+    "Snapdeal",
+    "MakeMyTrip",
+    "Goldman Sachs"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "fib(n) = fib(n-1) + fib(n-2)",
+  "problemTitle": "Nth Fibonacci Number",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1",
+  "submissionId": "dezl3l"
+}
