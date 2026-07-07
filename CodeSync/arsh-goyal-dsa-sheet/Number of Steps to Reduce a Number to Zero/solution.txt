@@ -7,14 +7,15 @@
  * Topics: Math, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T10:57:57.127Z
+ * Synced: 2026-07-07T10:58:43.082Z
  */
 
 class Solution {
     public int numberOfSteps(int num) {
         return helper(num,0);
     static int helper(int num,int step){
-        if(num==0)return stel
+        if(num==0)return step;
     }
     }
+        if(num%2==0) return helper(num/2,ste)
 }
