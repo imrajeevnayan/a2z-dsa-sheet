@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-07T19:22:46.734Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def missingPanagram(self, s): alpha = 'abcdefghijklmnopqrstuvwxyz' panagram = dict.fromkeys(s.lower(),0) missing = '' for c in alpha: if c not in panagram: missing += c return missing if len(missing) else -1",
+  "problemTitle": "Python",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-characters-in-panagram/1",
+  "submissionId": "ea45ra"
+}
