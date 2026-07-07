@@ -569,5 +569,8 @@
   "leetcode:generate-binary-strings-without-adjacent-zeros": [],
   "geeksforgeeks:longest-substring-containing-1": [
     "GFG160"
+  ],
+  "geeksforgeeks:java-delete-alternate-characters4036": [
+    "GFG160"
   ]
 }
