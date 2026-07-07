@@ -1,20 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-06T09:04:25.916Z",
+  "submissionTimestamp": "2026-07-07T19:23:49.634Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Modular Arithmetic",
-    "Algorithms",
-    "Recursion",
+    "Strings",
+    "Data Structures",
     "Related Articles",
-    "Friends Pairing Problem"
+    "Check Whether Number Duck Number Not"
   ],
   "platform": "GeeksforGeeks",
-  "language": "#User function Template for python3 class Solution: def noOfWays(self,i:int, dp)->int: if i == 0 or i == 1 or i == 2 : return i; if dp[i] != -1: return dp[i] dp[i] = self.noOfWays(i-1, dp) + (i-1) * self.noOfWays(i-2, dp) return dp[i] def countFriendsPairings(self, n): # code here # dp = [-1]*(n+1) # return self.noOfWays(n, dp) if n == 0 or n == 1 or n == 2 : return n; dp = [0]*(n+1) dp[0] = 0 dp[1] = 1 dp[2] = 2 for i in range(3, n+1): dp[i] = dp[i-1] + (i-1)*dp[i-2] return dp[n]",
+  "language": "class Solution: def check_duck(self, N): return True if \"0\" in N.lstrip(\"0\") else False",
   "problemTitle": "Java Solution",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1",
-  "submissionId": "g2hm2k"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/zero-number2158/1",
+  "submissionId": "1okf62"
 }
