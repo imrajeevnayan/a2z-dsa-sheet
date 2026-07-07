@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pyramid Pattern
+ * URL: https://www.geeksforgeeks.org/problems/pyramid-patterns/1
+ * Language: class Solution { static void printPyramid(int n) { StringBuilder result = new StringBuilder(); int blankSpaces = n - 1; for(int i = 0; i < n; i++) { result.append(setCharacters(blankSpaces, ' ')); result.append(setCharacters((n * 2 - 1) - blankSpaces * 2, '*')); result.append("\n"); blankSpaces--; } System.out.print(result); } static String setCharacters(int charsNumber, char character) { StringBuilder result = new StringBuilder(); for(int i = 0; i < charsNumber; i++) { result.append(character); } return result.toString(); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, pattern-printing, Algorithms, Related Articles, Printing Pyramid Patterns
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T12:33:58.272Z
+ */
+
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            // Print spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // Print stars
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        sc.close();
+    }
+}
