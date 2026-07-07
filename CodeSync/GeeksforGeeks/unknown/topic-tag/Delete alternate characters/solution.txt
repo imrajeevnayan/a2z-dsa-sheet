@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Delete alternate characters
+ * URL: https://www.geeksforgeeks.org/problems/java-delete-alternate-characters4036/1
+ * Language: class Solution: def delAlternate (ob, S): # code here return S[::2]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:17:11.355Z
+ */
+
+class Solution {
+    static String delAlternate(String s) {
+        return helper(s, 0);
+    }
+    static String helper(String s, int index) {
+        if (index == s.length()) return "";
+        
+        if (index % 2 == 0) {
+            return s.charAt(index) + helper(s, index + 1);
+        }
+        return helper(s, index + 1);
+    }
+}
