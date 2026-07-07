@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python
+ * URL: https://www.geeksforgeeks.org/problems/missing-characters-in-panagram/1
+ * Language: class Solution: def missingPanagram(self, s): alpha = 'abcdefghijklmnopqrstuvwxyz' panagram = dict.fromkeys(s.lower(),0) missing = '' for c in alpha: if c not in panagram: missing += c return missing if len(missing) else -1
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:22:46.734Z
+ */
+
+public static String missingPanagram(String s) {
+
+        boolean[] present = new boolean[26];
+
+        // Mark existing characters
+        for (int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+
+            if (ch >= 'a' && ch <= 'z') {
+                present[ch - 'a'] = true;
+            }
+
+            else if (ch >= 'A' && ch <= 'Z') {
+                present[ch - 'A'] = true;
+            }
+        }
+
+        StringBuilder ans = new StringBuilder();
+
+        // Find missing characters
+        for (int i = 0; i < 26; i++) {
+
+            if (!present[i]) {
+                ans.append((char)(i + 'a'));
+            }
+        }
+
+        if (ans.length() == 0)
+            return "-1";
+
+        return ans.toString();
+    }
+}
