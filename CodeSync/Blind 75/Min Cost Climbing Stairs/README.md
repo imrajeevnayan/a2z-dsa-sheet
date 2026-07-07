@@ -1,13 +1,13 @@
 # Min Cost Climbing Stairs
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/
-- Synced: 2026-07-06T07:13:58.163Z
+- Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-07T18:08:14.415Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array cost where cost[i] is the cost of ith step on a s
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
