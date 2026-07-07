@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-07-07T19:26:41.211Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def checkKthBit(self, n, k): return (n & (1 << k))",
+  "problemTitle": "Checking K-th Bit",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
+  "submissionId": "n87puc"
+}
