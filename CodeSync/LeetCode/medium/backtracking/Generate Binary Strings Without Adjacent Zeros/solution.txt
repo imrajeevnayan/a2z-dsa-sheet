@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Generate Binary Strings Without Adjacent Zeros
+ * URL: https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Backtracking, Bit Manipulation
+ * Runtime: 2 ms
+ * Memory: N/A
+ * Synced: 2026-07-07T19:04:54.933Z
+ */
+
+return;
+        }
+        // Always allowed to add 1
+        backtrack(n, current + "1", ans);
+        // Add 0 only if previous character isn't 0
+        if (current.isEmpty() || current.charAt(current.length() - 1) != '0') {
+            backtrack(n, current + "0", ans);
+        }
+    }
+}
