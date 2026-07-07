@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-06T06:56:48.283Z
+ * Synced: 2026-07-06T06:57:40.159Z
  */
 
 int dp[]=new int[n+1];
@@ -22,5 +22,5 @@ int dp[]=new int[n+1];
 }
         if(n==0)return 0;
         if(n==1|| n==2)return 1;
-    public int tribonacci(int n) {
 class Solution {
+    public int tribonacci(int n) {
