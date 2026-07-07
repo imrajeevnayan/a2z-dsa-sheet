@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T19:04:35.178Z",
-  "runtime": "850 ms",
+  "submissionTimestamp": "2026-07-07T11:19:06.026Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "Java (17)",
   "problemTitle": "0 1 Knapsack",
-  "problemUrl": "https://www.naukri.com/code360/problems/sort-array-of-0s-and-1s_2656186",
-  "submissionId": "jwi23i"
+  "problemUrl": "https://www.naukri.com/code360/problems/0-1-knapsack_920542",
+  "submissionId": "3j1r95"
 }
