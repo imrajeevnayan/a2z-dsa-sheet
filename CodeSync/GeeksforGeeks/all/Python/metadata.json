@@ -1,21 +1,18 @@
 {
-  "submissionTimestamp": "2026-05-30T16:55:23.292Z",
+  "submissionTimestamp": "2026-07-07T19:22:46.734Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Expected Complexities Topic Tags",
     "Expected Complexities",
-    "Company Tags FlipkartAmazonMicrosoftWalmart",
-    "Company Tags",
-    "Flipkart",
-    "Amazon",
-    "Microsoft",
-    "Walmart",
-    "Topic Tags"
+    "Topic Tags",
+    "Strings",
+    "Data Structures"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { void helper(Node root, ArrayList<Integer> ans){ if(root == null) return; ans.add(root.data); helper(root.left, ans); helper(root.right, ans); } public ArrayList<Integer> preOrder(Node root) { // code here // preorder - Root Left Right ArrayList<Integer>ans = new ArrayList<>(); helper(root,ans); return ans; } }",
+  "language": "class Solution: def missingPanagram(self, s): alpha = 'abcdefghijklmnopqrstuvwxyz' panagram = dict.fromkeys(s.lower(),0) missing = '' for c in alpha: if c not in panagram: missing += c return missing if len(missing) else -1",
   "problemTitle": "Python",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/preorder-traversal/1",
-  "submissionId": "sjhc3i"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-characters-in-panagram/1",
+  "submissionId": "ea45ra"
 }
