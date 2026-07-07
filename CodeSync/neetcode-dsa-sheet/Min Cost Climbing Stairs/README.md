@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/
-- Synced: 2026-07-06T07:10:52.723Z
+- Synced: 2026-07-06T07:11:38.255Z
 
 ## Problem Description
 
