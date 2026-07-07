@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1137. N-th Tribonacci Number
+ * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Math, Dynamic Programming, Memoization
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T06:28:48.168Z
+ */
+
+Input: n = 4
+Output: 4
+Explanation:
+T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
