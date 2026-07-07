@@ -1,13 +1,13 @@
 # Sort Integers by The Number of 1 Bits
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Bit Manipulation, Sorting, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/
-- Synced: 2026-06-06T16:57:24.877Z
+- Problem URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/?envType=daily-question&envId=2026-07-07
+- Synced: 2026-07-07T18:05:43.045Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array arr. Sort the integers in the array in ascending 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Bit Manipulation, Sorting, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Bit Manipulation, Sorting, Counting. Review the synced source file for the implementation details.
