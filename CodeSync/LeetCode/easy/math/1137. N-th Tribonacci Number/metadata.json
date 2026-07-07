@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-07T06:28:48.168Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "1137. N-th Tribonacci Number",
+  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
+  "submissionId": "ntu6ok"
+}
