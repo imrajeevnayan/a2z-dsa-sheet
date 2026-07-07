@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T16:03:58.141Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags ZohoAmazonMakeMyTrip",
+    "Company Tags",
+    "Zoho",
+    "Amazon",
+    "MakeMyTrip",
+    "Topic Tags",
+    "Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<int> common_digits(vector<int> nums) { unordered_set<int> st; for(int num : nums) { if(num == 0) st.insert(0); else { while(num > 0) { st.insert(num%10); num = num/10; } } } vector<int> ans(st.begin(), st.end()); sort(ans.begin(), ans.end()); return ans; }",
+  "problemTitle": "🔢 Extract All Distinct Digits from Array - Smart Frequency Approach",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/make-a-distinct-digit-array2007/1",
+  "submissionId": "pxm5h"
+}
