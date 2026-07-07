@@ -1,23 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Java Solution
- * URL: https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
- * Language: #User function Template for python3 class Solution: def noOfWays(self,i:int, dp)->int: if i == 0 or i == 1 or i == 2 : return i; if dp[i] != -1: return dp[i] dp[i] = self.noOfWays(i-1, dp) + (i-1) * self.noOfWays(i-2, dp) return dp[i] def countFriendsPairings(self, n): # code here # dp = [-1]*(n+1) # return self.noOfWays(n, dp) if n == 0 or n == 1 or n == 2 : return n; dp = [0]*(n+1) dp[0] = 0 dp[1] = 1 dp[2] = 2 for i in range(3, n+1): dp[i] = dp[i-1] + (i-1)*dp[i-2] return dp[n]
+ * URL: https://www.geeksforgeeks.org/problems/zero-number2158/1
+ * Language: class Solution: def check_duck(self, N): return True if "0" in N.lstrip("0") else False
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Recursion, Related Articles, Friends Pairing Problem
+ * Topics: Expected Complexities, Topic Tags, Strings, Data Structures, Related Articles, Check Whether Number Duck Number Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T09:04:25.916Z
+ * Synced: 2026-07-07T19:23:49.634Z
  */
 
 class Solution {
-     static int pair(int n, int[] dp) { 
-       if(n<=2) return n;
-       if(dp[n]!=-1) return dp[n];
-       return dp[n] = pair(n-1,dp) + (n-1)*pair(n-2,dp);
-}
-    public long countFriendsPairings(int n) {
-         int[] dp = new int[n+1]; Arrays.fill(dp,-1);
-         return pair(n,dp);
+    static boolean check_duck(String num) {
+
+        boolean foundNonZero = false;
+
+        for (int i = 0; i < num.length(); i++) {
+
+            char ch = num.charAt(i);
+
+            if (ch != '0') {
+                foundNonZero = true;
+            }
+
+            else if (foundNonZero) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
