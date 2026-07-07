@@ -7,11 +7,12 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T06:47:14.033Z
+ * Synced: 2026-07-07T06:48:00.561Z
  */
 
 class Solution {
     public int pairSum(ListNode head) {
-        int cr
+        int currSum=0,maxSum=0;
     }
+        Node curr=heaf
 }
