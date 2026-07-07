@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Divisor Game
+ * URL: https://leetcode.com/problems/divisor-game/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Dynamic Programming, Brainteaser, Game Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T17:42:12.188Z
+ */
+
+class Solution {
+    public boolean divisorGame(int n) {
+        
+    }
+}
