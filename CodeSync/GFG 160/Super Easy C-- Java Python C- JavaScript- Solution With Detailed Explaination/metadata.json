@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T11:52:13.976Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Drishti-Soft",
+    "Company Tags",
+    "Drishti-Soft",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Mathematical",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public static int countNumberswith4(int n) { int count = 0; // Step 1: Initialize a counter to zero for (int i = 1; i <= n; i++) { // Step 2: Loop through each number from 1 to n String numStr = Integer.toString(i); // Step 3: Convert the current number to a string if (numStr.contains(\"4\")) { // Step 4: Check if the string contains the character '4' count++; // Step 5: If it does, increment the counter } } return count; // Step 6: Return the counter after the loop ends } }",
+  "problemTitle": "Super Easy C++ || Java || Python || C# || JavaScript, Solution With Detailed Explaination",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-numbers-containing-43022/1",
+  "submissionId": "o30bjy"
+}
