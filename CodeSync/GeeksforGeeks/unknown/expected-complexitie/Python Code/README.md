@@ -1,18 +1,18 @@
-# Python Code :
+# Python Code
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
+- Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
-- Synced: 2026-07-04T17:27:01.401Z
+- Problem URL: https://www.geeksforgeeks.org/problems/reverse-sub-array5620/1
+- Synced: 2026-07-07T16:04:58.429Z
 
 ## Problem Description
 
-You are given an array arr[] of non-negative numbers. Each number tells you the maximum number of steps you can jump forward from that position. For example: If arr[i] = 3, you can jump to index i + 1, i + 2, or i + 3 from position i. If arr[i] = 0, you cannot jump forward from that position. Your task is to find the minimum number of jumps needed to move from the first position in the array to the last position. Note: Return -1 if you can't reach the end of the array. Examples : Input: arr[] = [1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9] Output: 3 Explanation: First jump from 1st element to 2nd element with value 3. From here we jump to 5th element with value 9, and from here we will jump to the last. Input: arr = [1, 4, 3, 2, 6, 7] Output: 2 Explanation: First we jump from the 1st to 2nd element and then jump to the last element. Input: arr = [0, 10, 20] Output: -1 Explanation: We cannot go anywhere from the 1st element. Constraints: 2 ≤ arr.size() ≤ 105 0 ≤ arr[i] ≤ 105
+Given an array arr, you need to reverse a subarray of that array. The range of this subarray is given by indices l and r (1-based indexing). Examples: Input: arr[] = [1, 2, 3, 4, 5, 6, 7], l = 2, r = 4 Output: [1, 4, 3, 2, 5, 6, 7] Explanation: After reversing the elements in range 2 to 4 (2, 3, 4), modified array is 1, 4, 3, 2, 5, 6, 7. Input: arr[] = [1, 6, 7, 4], l = 1, r = 4 Output: [4, 7, 6, 1] Explanation: After reversing the elements in range 1 to 4 (1, 6, 7, 4), modified array is 4, 7, 6, 1. Constraints: 1 ≤ arr.size() ≤ 106 1 ≤ arr[i] ≤ 106 1 ≤ l ≤ r ≤ arr.size()
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr. The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles. Review the synced source file for the implementation details.
