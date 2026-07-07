@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-07T16:12:33.628Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "Arrays",
+    "Searching",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def checkElements(self, start, end, arr): # code here found = [False for i in range(start, end+1)] for i in arr: if i in range(start, end+1): found[i-start] = True return all(found)",
+  "problemTitle": "Elements in the Range",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/elements-in-the-range2834/1",
+  "submissionId": "huo765"
+}
