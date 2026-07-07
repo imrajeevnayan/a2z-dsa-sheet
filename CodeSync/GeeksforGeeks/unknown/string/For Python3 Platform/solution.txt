@@ -1,23 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
- * Language: class Solution: def to_upper(self, str): return str.upper()
+ * URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
+ * Language: static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }
  * Difficulty: Unknown
- * Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact
+ * Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:18:10.662Z
+ * Synced: 2026-07-07T19:18:21.681Z
  */
 
 class Solution {
-    String to_upper(String str) {
-        char[]ch=str.toCharArray();
-        for(int i=0;i<ch.length;i++){
-            if(ch[i] >='a'&& ch[i]<='z'){
-                ch[i]=(char)(ch[i]-32);
-            }
-        }
-        return new String(ch);
+    static int areAnagram(String S1, String S2) {
+        // code here
+        
     }
 }
