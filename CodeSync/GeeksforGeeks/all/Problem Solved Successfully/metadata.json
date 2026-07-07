@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T11:58:40.973Z",
+  "submissionTimestamp": "2026-07-06T16:12:25.927Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution: def countWays(self,n): a,b,c=0,0,1 for i in range(n): a,b,c=b,c,a+b+c return c",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1",
-  "submissionId": "utb2tk"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1",
+  "submissionId": "1ffo4d"
 }
