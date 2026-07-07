@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-07T18:09:09.833Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Maximum Twin Sum of a Linked List",
+  "problemUrl": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "1u3c3r"
+}
