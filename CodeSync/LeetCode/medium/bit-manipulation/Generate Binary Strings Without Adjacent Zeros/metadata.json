@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-07T19:04:54.933Z",
+  "runtime": "2 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Generate Binary Strings Without Adjacent Zeros",
+  "problemUrl": "https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/",
+  "submissionId": "vxdlnl"
+}
