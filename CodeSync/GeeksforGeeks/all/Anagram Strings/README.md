@@ -1,13 +1,13 @@
 # Anagram Strings
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Text
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
+- Topics: Topic Tags Related Articles, Topic Tags, Strings, Java, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
-- Synced: 2026-07-07T19:17:32.444Z
+- Synced: 2026-07-07T19:19:27.975Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two strings S1 and S2 . Return "1" if both strings are anagrams otherwise 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Topic Tags Related Articles, Topic Tags, Strings, Java, Data Structures, Related Articles. Review the synced source file for the implementation details.
