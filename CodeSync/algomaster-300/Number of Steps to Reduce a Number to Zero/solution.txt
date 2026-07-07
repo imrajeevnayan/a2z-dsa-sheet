@@ -1,16 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Steps to Reduce a Number to Zero
- * URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+ * URL: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Bit Manipulation
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-16T17:47:09.877Z
+ * Synced: 2026-07-07T10:56:19.645Z
  */
 
-int count = 0;
+class Solution {
+    public int numberOfSteps(int num) {
+        int count = 0;
         while (num > 0) {
             if (num % 2 == 0) {
                 num /= 2;
@@ -20,7 +22,5 @@ int count = 0;
             count++;
         }
         return count;
-    public int numberOfSteps(int num) {
-class Solution {
     }
 }
