@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers, Stack
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 171.16 MB
 - Problem URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/submissions/2059034537/
-- Synced: 2026-07-07T08:43:54.955Z
+- Synced: 2026-07-07T08:44:44.990Z
 
 ## Problem Description
 
