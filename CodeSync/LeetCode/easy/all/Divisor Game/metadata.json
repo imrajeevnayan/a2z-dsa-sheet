@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-07T17:42:12.188Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Brainteaser",
+    "Game Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Divisor Game",
+  "problemUrl": "https://leetcode.com/problems/divisor-game/",
+  "submissionId": "a4elyk"
+}
