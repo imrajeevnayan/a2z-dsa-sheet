@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Anagram Strings
+ * URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Strings, Java, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-07T19:19:27.975Z
+ */
+
+Input: S1 = "cdbkdub" , S2 = "dsbkcsdn"
+Output: 0 
+Explanation: Length of S1 is not same
+as length of S2.
