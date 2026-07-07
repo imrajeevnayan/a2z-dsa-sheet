@@ -566,5 +566,8 @@
     "custom:algomaster-300",
     "custom:neetcode-dsa-sheet"
   ],
-  "leetcode:generate-binary-strings-without-adjacent-zeros": []
+  "leetcode:generate-binary-strings-without-adjacent-zeros": [],
+  "geeksforgeeks:longest-substring-containing-1": [
+    "GFG160"
+  ]
 }
