@@ -1,13 +1,13 @@
 # Step 1. Use 2 pointers, one fast and the other slow until fast reaches the end. Put the numbers into the stack while traversing slow pointer. Step 2. Move slow pointer further, and pop the stack
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/?envType=daily-question&envId=2026-06-14
-- Synced: 2026-06-14T15:18:38.522Z
+- Problem URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+- Synced: 2026-07-07T06:34:41.057Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ In a linked list of size n, where n is even, the ith node (0-indexed) of the lin
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Linked List, Two Pointers, Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers, Stack. Review the synced source file for the implementation details.
