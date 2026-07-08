@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-08T19:09:49.825Z",
+  "runtime": "0 ms",
+  "memoryUsage": "49.15 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Subarray Sum Equals K",
+  "problemUrl": "https://leetcode.com/problems/subarray-sum-equals-k/submissions/2060961334/",
+  "submissionId": "sp96wk"
+}
