@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java code with O(n) and O(n) using prefix sum + hasmap : Simple way
+ * URL: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
+ * Language: class Solution { int maxLength(int arr[]) { // code here int sum = 0; Map<Integer,Integer> map = new HashMap<>(); int maxi=0; for(int i=0;i<arr.length;i++){ sum+=arr[i]; if(sum==0){ maxi= Math.max(maxi,i+1); } else if(map.containsKey(sum)){ maxi= Math.max(maxi,i-map.get(sum)); } else{ map.put(sum,i); } } return maxi; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTripNPCI, Company Tags, Amazon, Microsoft, MakeMyTrip, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T11:34:30.661Z
+ */
+
+class Solution {
+    int maxLength(int arr[]) {
+    HashMap<Integer,Integer>map=new HashMap<>();
+    map.put(0,-1);
+    int psum=0,ans=0;
+    for(int i=0;i<arr.length;i++){
+        psum+=arr[i];
+        if(map.containsKey(psum)){
+         ans=Math.max(ans,i-map.get(psum));
+        }
+        else{
+            map.put(psum,i);
+        }
+    }
+       return ans; 
+    }
+}
