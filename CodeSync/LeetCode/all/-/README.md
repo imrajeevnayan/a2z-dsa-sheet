@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
-- Difficulty: Easy
-- Topics: Math, Dynamic Programming, Memoization
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Hash Table, String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
-- Synced: 2026-07-08T04:05:45.157Z
+- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+- Synced: 2026-07-08T05:38:12.434Z
 
 ## Problem Description
 
-The Tribonacci sequence Tn is defined as follows: T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0. Given n, return the value of Tn. Example 1: Input: n = 4 Output: 4 Explanation: T_3 = 0 + 1 + 1 = 2 T_4 = 1 + 1 + 2 = 4 Example 2: Input: n = 25 Output: 1389537 Constraints: 0 <= n <= 37 The answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.
+Given a string s, find the length of the longest substring without duplicate characters. Example 1: Input: s = "abcabcbb" Output: 3 Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers. Example 2: Input: s = "bbbbb" Output: 1 Explanation: The answer is "b", with the length of 1. Example 3: Input: s = "pwwkew" Output: 3 Explanation: The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring. Constraints: 0 <= s.length <= 5 * 104 s consists of English letters, digits, symbols and spaces.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String, Sliding Window. Review the synced source file for the implementation details.
