@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-- Synced: 2026-07-08T16:46:03.820Z
+- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- Synced: 2026-07-08T16:46:50.162Z
 
 ## Problem Description
 
