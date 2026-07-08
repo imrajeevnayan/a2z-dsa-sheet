@@ -1,0 +1,141 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check if array elements are consecutive
+ * URL: https://www.geeksforgeeks.org/dsa/check-if-array-elements-are-consecutive/
+ * Language: // C++ program to check if array elements are consecutive #include <bits/stdc++.h> using namespace std; // Function to Check if array // elements are consecutive bool areConsecutives(vector<int> &arr) { int n = arr.size(); // Sort the array sort(arr.begin(), arr.end()); // checking the adjacent elements for (int i = 1; i < n; i++) { if (arr[i] != arr[i - 1] + 1) { return false; } } return true; } int main() { vector<int> arr = { 5, 2, 3, 1, 4 }; if (areConsecutives(arr)) { cout << "Yes" << endl; } else { cout << "No" << endl; } return 0; }
+ * Difficulty: Unknown
+ * Topics: Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T12:14:37.040Z
+ */
+
+// Java program to check if array elements are consecutive
+import java.util.Arrays;
+​
+class GfG {
+​
+    // Function to Check if array elements are consecutive
+    static boolean areConsecutives(int[] arr) {
+        int n = arr.length;
+        
+        // Sort the array
+        Arrays.sort(arr);
+        
+        // checking the adjacent elements
+        for (int i = 1; i < n; i++) {
+            if (arr[i] != arr[i - 1] + 1) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 2, 3, 1, 4};
+        if (areConsecutives(arr)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+// Java program to check if array elements are consecutive
+import java.util.Arrays;
+​
+class GfG {
+​
+    // Function to Check if array elements are consecutive
+    static boolean areConsecutives(int[] arr) {
+        int n = arr.length;
+        
+        int mini = Integer.MAX_VALUE;
+        int maxi = Integer.MIN_VALUE;
+        
+        // Find the minimum and maximum 
+        // element in the array.
+        for (int num : arr) {
+            mini = Math.min(mini, num);
+            maxi = Math.max(maxi, num);
+        }
+        
+        // If elements are consecutive, then 
+        // there should be maxi-mini+1 elements.
+        if (maxi - mini + 1 != n) return false;
+        
+        boolean[] visited = new boolean[n];
+        
+        for (int num : arr) {
+            
+            // If element is already marked
+            if (visited[num - mini]) {
+                return false;
+            }
+            
+            // Mark the element.
+            visited[num - mini] = true;
+        }
+        
+        return true;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 2, 3, 1, 4};
+        if (areConsecutives(arr)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+// Java program to check if array elements are consecutive
+import java.util.Arrays;
+​
+class GfG {
+​
+    // Function to Check if array elements are consecutive
+    static boolean areConsecutives(int[] arr) {
+        int n = arr.length;
+        
+        int mini = Integer.MAX_VALUE;
+        int maxi = Integer.MIN_VALUE;
+        
+        // Find the minimum and maximum 
+        // element in the array.
+        for (int num : arr) {
+            mini = Math.min(mini, num);
+            maxi = Math.max(maxi, num);
+        }
+        
+        // If elements are consecutive, then 
+        // there should be maxi-mini+1 elements.
+        if (maxi - mini + 1 != n) return false;
+        
+        for (int i = 0; i < n; i++) {
+            
+            int val = Math.abs(arr[i]);
+            
+            // If value is already marked
+            // as negative, return false 
+            // as it is already present.
+            if (arr[val - mini] < 0) {
+                return false;
+            }
+            
+            // Mark the value 
+            arr[val - mini] *= -1;
+        }
+        
+        return true;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {5, 2, 3, 1, 4};
+        if (areConsecutives(arr)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
