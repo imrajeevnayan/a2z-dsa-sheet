@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-06T06:22:40.799Z",
+  "submissionTimestamp": "2026-07-08T05:38:12.434Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/",
-  "submissionId": "o1rn6v"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "5dzr8"
 }
