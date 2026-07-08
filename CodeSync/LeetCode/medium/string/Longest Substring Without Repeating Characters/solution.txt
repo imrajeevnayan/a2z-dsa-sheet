@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:49:38.400Z
+ * Synced: 2026-07-08T05:39:57.071Z
  */
 
 class Solution {
@@ -24,6 +24,3 @@ class Solution {
             maxLen=Math.max(maxLen,right-left+1);
         }
         return maxLen;
-        
-    }
-}
