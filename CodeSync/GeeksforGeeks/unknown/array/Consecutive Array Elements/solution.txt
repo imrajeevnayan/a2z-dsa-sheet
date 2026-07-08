@@ -7,21 +7,16 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Check If Array Elements Are Consecutive
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T12:25:18.297Z
+ * Synced: 2026-07-08T12:27:57.189Z
  */
 
 class Solution {
     public boolean areConsecutives(int[] arr) {
-        HashSet<Integer>set=new HashSet<>();
-        int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-        for(int i=0;i<arr.length;i++){
-            if(set.contains(arr[i]))return false;
-            set.add(arr[i]);
-            max=Math.max(max,arr[i]);
-            min=Math.min(min,arr[i]);
-        }
-        for(int i=min;i<=max;i++){
-            if(!set.contains(i)) return false;
+        Arrays.sort(arr);
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] == arr[i - 1])  return false;
+
+            if (arr[i] != arr[i - 1] + 1) return false;
         }
         return true;
     }
