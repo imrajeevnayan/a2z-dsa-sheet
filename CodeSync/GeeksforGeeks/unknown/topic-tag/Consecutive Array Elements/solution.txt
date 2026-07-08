@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Consecutive Array Elements
+ * URL: https://www.geeksforgeeks.org/problems/consecutive-array-elements2711/1
+ * Language: class Solution: def areConsecutive(self, arr): n = len(arr) high = 0 ans = 0 for i in range(n): ans += arr[i] high = max(high, arr[i]) rsum = (high * (high + 1)) // 2 return ans == rsum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Check If Array Elements Are Consecutive
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T12:25:18.297Z
+ */
+
+class Solution {
+    public boolean areConsecutives(int[] arr) {
+        HashSet<Integer>set=new HashSet<>();
+        int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
+        for(int i=0;i<arr.length;i++){
+            if(set.contains(arr[i]))return false;
+            set.add(arr[i]);
+            max=Math.max(max,arr[i]);
+            min=Math.min(min,arr[i]);
+        }
+        for(int i=min;i<=max;i++){
+            if(!set.contains(i)) return false;
+        }
+        return true;
+    }
+}
