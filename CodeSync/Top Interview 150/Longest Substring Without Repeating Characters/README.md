@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, String, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-- Synced: 2026-07-08T17:04:32.369Z
+- Synced: 2026-07-08T17:05:52.071Z
 
 ## Problem Description
 
