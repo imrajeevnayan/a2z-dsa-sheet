@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-02T17:22:18.056Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-07-08T16:45:52.097Z",
+  "runtime": "7 ms",
+  "memoryUsage": "46.33 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "String",
-    "Dynamic Programming",
-    "String Matching"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Online Interview",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "mvti46"
+  "problemUrl": "https://leetcode.com/submissions/detail/2060140862/",
+  "submissionId": "4pa2lv"
 }
