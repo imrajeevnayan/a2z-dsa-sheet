@@ -6,8 +6,8 @@
 - Topics: Two Pointers, String, String Matching
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
-- Synced: 2026-07-08T07:08:32.081Z
+- Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+- Synced: 2026-07-08T07:09:25.501Z
 
 ## Problem Description
 
