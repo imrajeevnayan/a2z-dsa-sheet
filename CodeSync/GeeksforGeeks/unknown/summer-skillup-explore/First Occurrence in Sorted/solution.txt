@@ -1,0 +1,92 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Occurrence in Sorted
+ * URL: https://www.geeksforgeeks.org/dsa/find-first-occurrence-in-sorted/
+ * Language: #include <bits/stdc++.h> using namespace std; // Function to find the first occurrence of k in the array int firstSearch(vector<int> &arr, int k) { // Traverse the array from left to right for (int i = 0; i < arr.size(); i++) { // If current element matches k, return index if (arr[i] == k) { return i; // first occurrence found } } // If k is not present in the array, return -1 return -1; }; // Driver Code int main() { vector<int> arr = {1, 2, 3, 4, 5}; int k = 4; int result = firstSearch(arr, k); cout << "First Occurrence: " << result << endl; return 0; }
+ * Difficulty: Unknown
+ * Topics: Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T07:11:59.350Z
+ */
+
+public class Main {
+​
+    // Function to find the first occurrence of k in the array
+    public static int firstSearch(int[] arr, int k) {
+​
+        // Traverse the array from left to right
+        for (int i = 0; i < arr.length; i++) {
+​
+            // If current element matches k, return index
+            if (arr[i] == k) {
+                return i; // first occurrence found
+            }
+        }
+​
+        // If k is not present in the array, return -1
+        return -1;
+    }
+​
+    // Driver Code
+    public static void main(String[] args) {
+​
+        int[] arr = {1, 2, 3, 4, 5};
+        int k = 4;
+        int result = firstSearch(arr, k);
+        System.out.println("First Occurrence: " + result);
+    }
+}
+public class GfG {
+    public static int firstSearch(int[] arr, int k) {
+        int low = 0, high = arr.length - 1;
+        int ans = -1;
+​
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+​
+            if (arr[mid] == k) {
+                ans = mid;        // store index
+                high = mid - 1;   // move left to find earlier occurrence
+            }
+            else if (arr[mid] < k) {
+                low = mid + 1;    // move right
+            }
+            else {
+                high = mid - 1;   // move left
+            }
+        }
+​
+        return ans;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int k = 4;
+​
+        System.out.println("First Occurrence: " + firstSearch(arr, k));
+    }
+}
+import java.util.Arrays;
+​
+public class GfG {
+    public static int firstSearch(int[] arr, int k) {
+        // Find iterator to first occurrence
+        int it = Arrays.binarySearch(arr, k);
+​
+        // Check if k is present
+        if (it >= 0) {
+            return it;
+        }
+​
+        return -1; // not found
+    }
+​
+    // Driver Code
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int k = 4;
+​
+        System.out.println("First Occurrence: " + firstSearch(arr, k));
+    }
+}
