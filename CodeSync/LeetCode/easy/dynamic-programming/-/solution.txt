@@ -2,12 +2,12 @@
  * Platform: LeetCode
  * Problem: -
  * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
- * Language: Problem List
+ * Language: Text
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T06:24:04.745Z
+ * Synced: 2026-07-08T04:05:45.157Z
  */
 
 Input: n = 4
