@@ -625,7 +625,12 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:subarray-sum-equals-k": [],
+  "leetcode:subarray-sum-equals-k": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ],
   "interviewbit:sort-by-color": [
     "InterviewBitSet"
   ]
