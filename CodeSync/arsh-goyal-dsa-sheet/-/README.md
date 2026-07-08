@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Dynamic Programming, Breadth-First Search
+- Topics: Array, Hash Table, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/coin-change/description/
-- Synced: 2026-07-05T16:24:10.897Z
+- Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
+- Synced: 2026-07-08T19:08:18.441Z
 
 ## Problem Description
 
-You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money. Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1. You may assume that you have an infinite number of each kind of coin. Example 1: Input: coins = [1,2,5], amount = 11 Output: 3 Explanation: 11 = 5 + 5 + 1 Example 2: Input: coins = [2], amount = 3 Output: -1 Example 3: Input: coins = [1], amount = 0 Output: 0 Constraints: 1 <= coins.length <= 12 1 <= coins[i] <= 231 - 1 0 <= amount <= 104
+Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k. A subarray is a contiguous non-empty sequence of elements within an array. Example 1: Input: nums = [1,1,1], k = 2 Output: 2 Example 2: Input: nums = [1,2,3], k = 3 Output: 2 Constraints: 1 <= nums.length <= 2 * 104 -1000 <= nums[i] <= 1000 -107 <= k <= 107
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming, Breadth-First Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Prefix Sum. Review the synced source file for the implementation details.
