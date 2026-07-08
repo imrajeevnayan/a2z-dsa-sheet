@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-08T16:41:54.667Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-08T16:42:41.029Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
-  "submissionId": "2uidby"
+  "problemUrl": "https://leetcode.com/problems/count-primes/",
+  "submissionId": "5q1c85"
 }
