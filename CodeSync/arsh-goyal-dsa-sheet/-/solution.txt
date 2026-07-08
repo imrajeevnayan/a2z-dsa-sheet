@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/coin-change/description/
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Dynamic Programming, Breadth-First Search
+ * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T16:24:10.897Z
+ * Synced: 2026-07-08T19:08:18.441Z
  */
 
-Input: coins = [1,2,5], amount = 11
-Output: 3
-Explanation: 11 = 5 + 5 + 1
+Input: nums = [1,1,1], k = 2
+Output: 2
