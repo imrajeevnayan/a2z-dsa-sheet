@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String, String Matching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T06:53:00.078Z
+ * Synced: 2026-07-08T06:53:54.079Z
  */
 
 int n = haystack.length();
