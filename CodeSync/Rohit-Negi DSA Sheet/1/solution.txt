@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
- * Difficulty: Easy
- * Topics: String, Dynamic Programming, String Matching
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-02T17:22:18.056Z
+ * URL: https://leetcode.com/submissions/detail/2060140862/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 7 ms
+ * Memory: 46.33 MB
+ * Synced: 2026-07-08T16:45:52.097Z
  */
 
-class Solution {
-    public int maxRepeating(String sequence, String word) {
-        
-    }
-}
+1class Solution {
+2    public int lengthOfLongestSubstring(String s) {
+3        Set<Character>set=new HashSet<>();
+4        int left=0,maxLen=0;
+5        for(int right=0;right<s.length();right++){
+6            char c=s.charAt(right);
+7            while(set.contains(c)){
+8                set.remove(s.charAt(left));
+9                left++;
+10            }
+11            set.add(c);
+12            maxLen=Math.max(maxLen,right-left+1);
+13        }
+14        return maxLen;
+15        
+16    }
+17}
