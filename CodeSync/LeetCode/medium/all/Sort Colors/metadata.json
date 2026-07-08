@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:25:20.991Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.67 MB",
+  "submissionTimestamp": "2026-07-08T19:10:44.088Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort Colors",
-  "problemUrl": "https://leetcode.com/problems/sort-colors/",
-  "submissionId": "rgvt3y"
+  "problemUrl": "https://leetcode.com/problems/sort-colors/description/",
+  "submissionId": "n0lypz"
 }
