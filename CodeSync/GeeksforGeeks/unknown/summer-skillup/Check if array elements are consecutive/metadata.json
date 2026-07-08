@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-08T12:14:37.040Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Summer SkillUp Explore",
+    "Summer SkillUp",
+    "Explore"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// C++ program to check if array elements are consecutive #include <bits/stdc++.h> using namespace std; // Function to Check if array // elements are consecutive bool areConsecutives(vector<int> &arr) { int n = arr.size(); // Sort the array sort(arr.begin(), arr.end()); // checking the adjacent elements for (int i = 1; i < n; i++) { if (arr[i] != arr[i - 1] + 1) { return false; } } return true; } int main() { vector<int> arr = { 5, 2, 3, 1, 4 }; if (areConsecutives(arr)) { cout << \"Yes\" << endl; } else { cout << \"No\" << endl; } return 0; }",
+  "problemTitle": "Check if array elements are consecutive",
+  "problemUrl": "https://www.geeksforgeeks.org/dsa/check-if-array-elements-are-consecutive/",
+  "submissionId": "vyh5bb"
+}
