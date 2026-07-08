@@ -7,7 +7,7 @@
  * Topics: Summer SkillUp Explore, Summer SkillUp, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T12:14:37.040Z
+ * Synced: 2026-07-08T12:15:36.776Z
  */
 
 // Java program to check if array elements are consecutive
