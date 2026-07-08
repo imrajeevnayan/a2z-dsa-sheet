@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-08T12:25:18.297Z",
+  "submissionTimestamp": "2026-07-08T12:27:57.189Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "class Solution: def areConsecutive(self, arr): n = len(arr) high = 0 ans = 0 for i in range(n): ans += arr[i] high = max(high, arr[i]) rsum = (high * (high + 1)) // 2 return ans == rsum",
   "problemTitle": "Consecutive Array Elements",
   "problemUrl": "https://www.geeksforgeeks.org/problems/consecutive-array-elements2711/1",
-  "submissionId": "og00yo"
+  "submissionId": "hiibke"
 }
