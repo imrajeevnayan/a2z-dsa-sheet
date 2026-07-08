@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/consecutive-array-elements2711/1
-- Synced: 2026-07-08T12:25:18.297Z
+- Synced: 2026-07-08T12:27:57.189Z
 
 ## Problem Description
 
