@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T05:38:12.434Z
+ * Synced: 2026-07-08T19:08:18.441Z
  */
 
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+Input: nums = [1,1,1], k = 2
+Output: 2
