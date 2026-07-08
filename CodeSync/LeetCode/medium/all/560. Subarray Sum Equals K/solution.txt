@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 560. Subarray Sum Equals K
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T18:13:18.380Z
+ */
+
+Input: nums = [1,1,1], k = 2
+Output: 2
