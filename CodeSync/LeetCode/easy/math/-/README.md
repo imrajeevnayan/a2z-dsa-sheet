@@ -1,13 +1,13 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Text
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
-- Synced: 2026-07-06T06:24:04.745Z
+- Synced: 2026-07-08T04:05:45.157Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ The Tribonacci sequence Tn is defined as follows: T0 = 0, T1 = 1, T2 = 1, and Tn
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Math, Dynamic Programming, Memoization. Review the synced source file for the implementation details.
