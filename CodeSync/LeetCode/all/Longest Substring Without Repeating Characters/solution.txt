@@ -7,11 +7,11 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T16:54:07.151Z
+ * Synced: 2026-07-08T16:59:12.176Z
  */
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        
+        HashMap
     }
 }
