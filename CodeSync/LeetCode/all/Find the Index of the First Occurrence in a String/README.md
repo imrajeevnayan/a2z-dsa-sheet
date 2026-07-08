@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
-- Synced: 2026-07-08T06:50:36.082Z
+- Synced: 2026-07-08T06:51:22.096Z
 
 ## Problem Description
 
