@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-24T06:55:50.349Z",
+  "submissionTimestamp": "2026-07-08T16:41:54.667Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Math",
+    "Enumeration",
+    "Number Theory"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/most-frequent-prime/",
-  "submissionId": "mm1azv"
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "submissionId": "2uidby"
 }
