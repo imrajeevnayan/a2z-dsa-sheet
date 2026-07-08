@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-05T16:24:10.897Z",
+  "submissionTimestamp": "2026-07-08T05:38:12.434Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Dynamic Programming",
-    "Breadth-First Search"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/coin-change/description/",
-  "submissionId": "iiurpq"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "5dzr8"
 }
