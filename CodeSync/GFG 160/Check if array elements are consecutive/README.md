@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/check-if-array-elements-are-consecutive/
-- Synced: 2026-07-08T12:16:36.651Z
+- Synced: 2026-07-08T12:17:33.660Z
 
 ## Problem Description
 
