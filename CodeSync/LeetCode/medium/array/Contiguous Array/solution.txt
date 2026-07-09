@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Contiguous Array
+ * URL: https://leetcode.com/problems/contiguous-array/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T05:36:20.588Z
+ */
+
+class Solution {
+    public int findMaxLength(int[] nums) {
+        
+    }
+}
