@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T05:58:50.293Z
+ * Synced: 2026-07-09T05:59:36.071Z
  */
 
 int mid=start+(end-start)/2;
