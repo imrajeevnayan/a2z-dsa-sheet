@@ -1,13 +1,13 @@
 # Product of Array Except Self
 
 - Platform: LeetCode
-- Language: Prefix Sum
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Prefix Sum
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:29:16.481Z
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/
+- Synced: 2026-07-08T19:32:51.160Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums, return an array answer such that answer[i] is equal
 
 ## Explanation
 
-This solution was accepted on LeetCode using Prefix Sum. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
