@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming, Breadth-First Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/coin-change/description/
-- Synced: 2026-07-09T09:53:09.079Z
+- Problem URL: https://leetcode.com/problems/coin-change/
+- Synced: 2026-07-09T09:55:25.810Z
 
 ## Problem Description
 
