@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.74 MB
 - Problem URL: https://leetcode.com/problems/house-robber/submissions/2061527624/
-- Synced: 2026-07-09T09:29:03.158Z
+- Synced: 2026-07-09T09:29:52.471Z
 
 ## Problem Description
 
