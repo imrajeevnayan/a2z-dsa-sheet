@@ -5,13 +5,20 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-09T09:16:06.165Z
+ * Synced: 2026-07-09T09:16:51.181Z
  */
 
-class Solution {
-    public int rob(int[] nums) {
-        
-    }
+Arrays.fill(memo, -1);
+    return helper(nums, 0);
+}
+
+private int helper(int[] nums, int i) {
+    if (i >= nums.length) return 0;
+    if (memo[i] != -1) return memo[i];
+    
+    memo[i] = Math.max(nums[i] + helper(nums, i + 2), helper(nums, i + 1));
+    
+}
 }
