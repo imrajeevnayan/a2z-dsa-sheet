@@ -7,12 +7,15 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-07-08T19:28:15.887Z
+ * Synced: 2026-07-08T19:29:08.187Z
  */
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer>set=new Hash
-    }
+        HashSet<Integer>set=new HashSet<>();
 
+        for(int n :nums){
+            if(set.contains())
+        }
+    }
 }
