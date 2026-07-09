@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: 1 ms
-- Memory: 76.66 MB
-- Problem URL: https://leetcode.com/problems/contains-duplicate/submissions/2025046582/
-- Synced: 2026-06-07T06:03:39.398Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/contains-duplicate/
+- Synced: 2026-07-08T19:18:41.500Z
 
 ## Problem Description
 
