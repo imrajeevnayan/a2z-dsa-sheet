@@ -669,5 +669,15 @@
   "leetcode:contiguous-array": [
     "custom:algomaster-300"
   ],
-  "leetcode:find-the-longest-substring-containing-vowels-in-even-counts": []
+  "leetcode:find-the-longest-substring-containing-vowels-in-even-counts": [],
+  "leetcode:find-minimum-in-rotated-sorted-array": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
