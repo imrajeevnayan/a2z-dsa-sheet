@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.92 MB
- * Synced: 2026-07-09T09:22:34.084Z
+ * Synced: 2026-07-09T09:23:22.085Z
  */
 
 int[] dp = new int[n + 1];
