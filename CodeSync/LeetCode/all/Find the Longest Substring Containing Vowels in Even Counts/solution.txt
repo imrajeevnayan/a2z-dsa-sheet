@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Longest Substring Containing Vowels in Even Counts
- * URL: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+ * URL: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Bit Manipulation, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T05:38:32.831Z
+ * Synced: 2026-07-09T05:39:19.173Z
  */
 
 class Solution {
