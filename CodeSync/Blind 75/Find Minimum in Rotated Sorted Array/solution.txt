@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T05:59:36.071Z
+ * Synced: 2026-07-09T06:00:25.749Z
  */
 
 int mid=start+(end-start)/2;
@@ -20,3 +20,7 @@ int mid=start+(end-start)/2;
         return ans;
     }
 }
+        int start=0,end=nums.length-1,ans=nums[0];
+        while(start<=end){
+    public int findMin(int[] nums) {
+class Solution {
