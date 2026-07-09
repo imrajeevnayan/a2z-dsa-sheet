@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:56:10.893Z
+ * Synced: 2026-07-09T09:56:56.086Z
  */
 
 class Solution {
@@ -20,5 +20,6 @@ class Solution {
         return solve(coins,amount);
     }
         if(amount<0) return Integer.MAX_VALUE-1;
-        
+        if(dp[amount]!=-1)return dp[amount];
+        return dp
 }
