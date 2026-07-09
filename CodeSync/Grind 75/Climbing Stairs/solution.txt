@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:14:28.164Z
+ * Synced: 2026-07-09T09:15:13.216Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         
     }
 
-    static int solve()
+    static int solve(int )
 }
