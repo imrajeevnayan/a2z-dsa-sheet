@@ -7,11 +7,12 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-07-08T19:27:30.083Z
+ * Synced: 2026-07-08T19:28:15.887Z
  */
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer>se
+        HashSet<Integer>set=new Hash
     }
+
 }
