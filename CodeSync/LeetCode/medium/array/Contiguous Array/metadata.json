@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-09T05:36:20.588Z",
+  "submissionTimestamp": "2026-07-09T05:37:06.019Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Contiguous Array",
-  "problemUrl": "https://leetcode.com/problems/contiguous-array/description/",
-  "submissionId": "7bzoua"
+  "problemUrl": "https://leetcode.com/problems/contiguous-array/",
+  "submissionId": "2pzfd9"
 }
