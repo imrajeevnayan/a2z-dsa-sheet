@@ -6,16 +6,12 @@
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
- * Memory: 81.51 MB
- * Synced: 2026-07-08T19:19:27.293Z
+ * Memory: N/A
+ * Synced: 2026-07-08T19:20:16.533Z
  */
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1]) return true;
-        }
-        return false;
+        HashSet<Integer>se
     }
 }
