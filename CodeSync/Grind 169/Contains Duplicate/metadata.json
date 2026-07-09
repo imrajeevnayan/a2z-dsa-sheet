@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-08T19:18:41.500Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-08T19:19:27.293Z",
+  "runtime": "2 ms",
+  "memoryUsage": "81.51 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
