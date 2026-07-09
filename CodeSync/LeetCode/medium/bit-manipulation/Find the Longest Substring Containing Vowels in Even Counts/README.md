@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, String, Bit Manipulation, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/
-- Synced: 2026-07-09T05:39:19.173Z
+- Problem URL: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+- Synced: 2026-07-09T05:40:10.066Z
 
 ## Problem Description
 
