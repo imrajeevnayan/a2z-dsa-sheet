@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Minimum in Rotated Sorted Array
- * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+ * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2061317331/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-09T06:00:25.749Z
+ * Runtime: 0 ms
+ * Memory: 43.76 MB
+ * Synced: 2026-07-09T06:01:11.161Z
  */
 
 int mid=start+(end-start)/2;
