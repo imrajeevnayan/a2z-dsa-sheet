@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-06T07:14:57.707Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-09T09:13:42.330Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/",
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/description/",
   "submissionId": "3vgym2"
 }
