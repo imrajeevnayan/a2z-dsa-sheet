@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Colors
- * URL: https://leetcode.com/problems/sort-colors/description/
+ * URL: https://leetcode.com/problems/sort-colors/submissions/2060966830/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-08T19:15:25.088Z
+ * Runtime: 0 ms
+ * Memory: 43.36 MB
+ * Synced: 2026-07-08T19:17:01.084Z
  */
 
 class Solution {
