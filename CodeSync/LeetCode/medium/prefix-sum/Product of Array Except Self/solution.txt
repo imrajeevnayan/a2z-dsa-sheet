@@ -1,17 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Product of Array Except Self
- * URL: https://leetcode.com/problems/product-of-array-except-self/?envType=problem-list-v2&envId=prefix-sum
- * Language: Prefix Sum
+ * URL: https://leetcode.com/problems/product-of-array-except-self/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Prefix Sum
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T18:29:16.481Z
+ * Synced: 2026-07-08T19:32:51.160Z
  */
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
+        int n=nums.length;
         int ans[]=new int[n];
         ans[0]=1;
         for(int i=1;i<n;i++){
@@ -22,7 +23,4 @@ class Solution {
             ans[i]*=right;
             right*=nums[i];
         }
-       return ans; 
-    }
-        int n=nums.length;
-}
+       return ans;
