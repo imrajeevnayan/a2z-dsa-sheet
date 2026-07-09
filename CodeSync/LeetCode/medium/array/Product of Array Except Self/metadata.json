@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-10T18:29:16.481Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-08T19:32:51.160Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -8,8 +8,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Prefix Sum",
+  "language": "Problem List",
   "problemTitle": "Product of Array Except Self",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "ftfbrj"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/",
+  "submissionId": "if0no1"
 }
