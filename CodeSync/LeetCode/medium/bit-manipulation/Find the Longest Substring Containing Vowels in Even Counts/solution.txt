@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Longest Substring Containing Vowels in Even Counts
+ * URL: https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T05:37:47.395Z
+ */
+
+class Solution {
+    public int findTheLongestSubstring(String s) {
+        
+    }
+}
