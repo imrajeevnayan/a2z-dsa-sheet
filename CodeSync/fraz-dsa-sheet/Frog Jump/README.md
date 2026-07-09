@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/frog-jump/description/
-- Synced: 2026-07-09T09:30:43.378Z
+- Synced: 2026-07-09T09:31:31.089Z
 
 ## Problem Description
 
