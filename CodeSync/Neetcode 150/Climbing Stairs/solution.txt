@@ -1,25 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/description/
+ * URL: https://leetcode.com/problems/climbing-stairs/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:13:42.330Z
+ * Synced: 2026-07-09T09:14:28.164Z
  */
 
 class Solution {
-    static int solve(int n ,int[]dp){
-        if(n==0)return 1;
-        if(n <0)return 0;
-        if(dp[n]!=-1)return dp[n];
-        return dp[n]= solve(n-1,dp)+solve(n-2,dp);
-    } 
     public int climbStairs(int n) {
-        int dp[]=new int[n+1];
-        Arrays.fill(dp,-1);
-        return solve(n,dp );
+        
     }
+
+    static int solve()
 }
