@@ -1,18 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/house-robber/
+ * URL: https://leetcode.com/problems/coin-change/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Uncategorized
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-05T17:26:17.552Z
+ * Synced: 2026-07-09T09:32:16.729Z
  */
 
 class Solution {
     public int coinChange(int[] coins, int amount) {
         
-    }
         
+    }
 }
