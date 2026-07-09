@@ -679,5 +679,9 @@
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "leetcode:frog-jump": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
   ]
 }
