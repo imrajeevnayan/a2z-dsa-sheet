@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-09T09:18:40.300Z
+ * Memory: 42.74 MB
+ * Synced: 2026-07-09T09:19:29.081Z
  */
 
 Arrays.fill(dp, -1);
