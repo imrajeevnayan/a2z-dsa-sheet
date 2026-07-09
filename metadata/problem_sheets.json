@@ -665,5 +665,8 @@
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:contiguous-array": [
+    "custom:algomaster-300"
   ]
 }
