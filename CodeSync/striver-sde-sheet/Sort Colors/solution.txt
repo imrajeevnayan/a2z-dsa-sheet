@@ -7,19 +7,8 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: 43.36 MB
- * Synced: 2026-07-08T19:21:19.078Z
+ * Synced: 2026-07-09T05:20:53.163Z
  */
 
-class Solution {
-    public void sortColors(int[] nums) {
-        int low = 0, mid = 0, high = nums.length - 1;
-        while (mid <= high) {
-            if (nums[mid] == 0) swap(nums, low++, mid++);
-            else if (nums[mid] == 1) mid++;
-            else swap(nums, mid, high--);
-        }
-    }
-    void swap(int[] nums, int i, int j) {
-        int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
-    }
-}
+Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
