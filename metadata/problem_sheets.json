@@ -668,5 +668,6 @@
   ],
   "leetcode:contiguous-array": [
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:find-the-longest-substring-containing-vowels-in-even-counts": []
 }
