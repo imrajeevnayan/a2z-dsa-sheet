@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-09T05:36:20.588Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Contiguous Array",
+  "problemUrl": "https://leetcode.com/problems/contiguous-array/description/",
+  "submissionId": "7bzoua"
+}
