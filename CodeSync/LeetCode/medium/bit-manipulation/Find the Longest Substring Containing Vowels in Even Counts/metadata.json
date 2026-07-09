@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-09T05:37:47.395Z",
+  "submissionTimestamp": "2026-07-09T05:38:32.831Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Longest Substring Containing Vowels in Even Counts",
-  "problemUrl": "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/",
+  "problemUrl": "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/",
   "submissionId": "hjait3"
 }
