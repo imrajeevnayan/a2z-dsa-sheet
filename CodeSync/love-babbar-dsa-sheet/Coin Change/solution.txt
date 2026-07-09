@@ -1,18 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/description/
+ * URL: https://leetcode.com/problems/coin-change/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:53:09.079Z
+ * Synced: 2026-07-09T09:54:40.080Z
  */
 
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        
-        
+        int dp[]=new int[amount+1];
     }
+        Arrays.fill(dp,-1);
+        return solve(coins,amount);
+    static int 
 }
