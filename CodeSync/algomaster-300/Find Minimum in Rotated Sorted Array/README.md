@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-- Synced: 2026-07-09T06:00:25.749Z
+- Runtime: 0 ms
+- Memory: 43.76 MB
+- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2061317331/
+- Synced: 2026-07-09T06:01:11.161Z
 
 ## Problem Description
 
