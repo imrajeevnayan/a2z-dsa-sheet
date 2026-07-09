@@ -7,20 +7,20 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-09T09:17:36.616Z
+ * Synced: 2026-07-09T09:18:40.300Z
  */
 
 Arrays.fill(dp, -1);
     return helper(nums, 0);
 }
 
-static int helper(int[] nums, int i) {
+private int helper(int[] nums, int i) {
     if (i >= nums.length) return 0;
-    if (dp[i] != -1) return memo[i];
+    if (dp[i] != -1) return dp[i];
     
-    return memo[i] = Math.max(nums[i] + helper(nums, i + 2), helper(nums, i + 1));
+    return dp[i] = Math.max(nums[i] + helper(nums, i + 2), helper(nums, i + 1));
     
    dp= new int[nums.length];
 public int rob(int[] nums) {
-class Solution {
 int[] dp;
+class Solution {
