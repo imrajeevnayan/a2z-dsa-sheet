@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-08T19:19:27.293Z",
+  "submissionTimestamp": "2026-07-08T19:20:16.533Z",
   "runtime": "2 ms",
-  "memoryUsage": "81.51 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Contains Duplicate",
   "problemUrl": "https://leetcode.com/problems/contains-duplicate/",
-  "submissionId": "xjudoy"
+  "submissionId": "6j087j"
 }
