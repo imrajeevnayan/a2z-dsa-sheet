@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/contiguous-array/description/
-- Synced: 2026-07-09T05:36:20.588Z
+- Problem URL: https://leetcode.com/problems/contiguous-array/
+- Synced: 2026-07-09T05:37:06.019Z
 
 ## Problem Description
 
