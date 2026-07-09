@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-08T19:32:51.160Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Product of Array Except Self",
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/",
+  "submissionId": "if0no1"
+}
