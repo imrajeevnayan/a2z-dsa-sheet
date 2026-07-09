@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:37:19.080Z
+ * Synced: 2026-07-09T09:38:12.075Z
  */
 
 class Solution {
