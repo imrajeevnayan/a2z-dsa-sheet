@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-08T19:18:41.500Z
+ * Runtime: 2 ms
+ * Memory: 81.51 MB
+ * Synced: 2026-07-08T19:19:27.293Z
  */
 
 class Solution {
