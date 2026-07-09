@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-08T19:29:55.993Z",
-  "runtime": "2 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-08T19:31:06.956Z",
+  "runtime": "0 ms",
+  "memoryUsage": "81.51 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Contains Duplicate",
-  "problemUrl": "https://leetcode.com/problems/contains-duplicate/",
-  "submissionId": "eb6eq2"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate/submissions/2060969460/",
+  "submissionId": "fneuxs"
 }
