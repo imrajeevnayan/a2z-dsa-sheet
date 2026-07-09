@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Contains Duplicate
+ * URL: https://leetcode.com/problems/contains-duplicate/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-08T19:18:41.500Z
+ */
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        Arrays.sort(nums);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) return true;
+        }
+        return false;
+    }
+}
