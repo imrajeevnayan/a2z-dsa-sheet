@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T11:28:48.564Z",
+  "submissionTimestamp": "2026-07-10T17:25:50.432Z",
   "runtime": "0 ms",
-  "memoryUsage": "51.66 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarray Sums Divisible by K",
-  "problemUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/submissions/2062797241/",
-  "submissionId": "c39jo2"
+  "problemUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
+  "submissionId": "hi9wa2"
 }
