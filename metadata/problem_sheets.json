@@ -10,5 +10,6 @@
   ],
   "leetcode:maximum-matrix-sum": [
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:design-neighbor-sum-service": []
 }
