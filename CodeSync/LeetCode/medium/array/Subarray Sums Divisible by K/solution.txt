@@ -5,17 +5,12 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T10:35:57.822Z
+ * Synced: 2026-07-10T10:36:48.737Z
  */
 
-class Solution {
-    public int subarraysDivByK(int[] nums, int k) {
-    HashMap<Integer,Integer>map=new HashMap<>();
-    map.put(0,1);
-    int count=0,sum=0;
-    for(int n:nums){
+for(int n:nums){
         sum+=n;
         int rem=sum %k;
         if(rem <0) rem+=k;
@@ -24,3 +19,4 @@ class Solution {
     } 
      return count;   
     }
+}
