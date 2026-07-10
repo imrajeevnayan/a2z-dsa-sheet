@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T05:38:12.434Z
+ * Synced: 2026-07-10T14:48:26.022Z
  */
 
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
