@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T17:13:37.294Z
+ * Synced: 2026-07-10T17:14:22.599Z
  */
 
 class Solution {
@@ -16,7 +16,6 @@ class Solution {
         int left = 0;
         for (int right = 0; right < nums.length; right++) {
             sum += nums[right];
-            int len=right-left+1;
             while (sum * (right-left+1)>= k) {
                 sum -= nums[left];
                 left++;
