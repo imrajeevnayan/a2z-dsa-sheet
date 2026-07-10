@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-zero-filled-subarrays/description/
-- Synced: 2026-07-10T09:48:59.192Z
+- Runtime: 0 ms
+- Memory: 115.59 MB
+- Problem URL: https://leetcode.com/problems/maximum-matrix-sum/
+- Synced: 2026-07-10T09:50:58.613Z
 
 ## Problem Description
 
