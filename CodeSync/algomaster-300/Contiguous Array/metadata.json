@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T12:27:37.459Z",
+  "submissionTimestamp": "2026-07-10T12:42:12.518Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Contiguous Array",
-  "problemUrl": "https://leetcode.com/problems/contiguous-array/",
-  "submissionId": "lj3vo"
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/2062840382/",
+  "submissionId": "ux7ph3"
 }
