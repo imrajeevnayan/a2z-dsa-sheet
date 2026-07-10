@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.06 MB
 - Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T16:11:35.005Z
+- Synced: 2026-07-10T16:12:21.994Z
 
 ## Problem Description
 
