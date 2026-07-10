@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
-- Synced: 2026-07-10T10:01:24.981Z
+- Synced: 2026-07-10T10:03:03.837Z
 
 ## Problem Description
 
