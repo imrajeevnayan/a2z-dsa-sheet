@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Zero
+ * URL: https://leetcode.com/problems/number-of-zero-filled-subarrays/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T09:48:59.192Z
+ */
+
+class Solution {
+    public long zeroFilledSubarray(int[] nums) {
+        long count = 0;
+        long consecutiveZeros = 0;
+        for (int num : nums) {
+            if (num == 0) {
+                consecutiveZeros++;
+                count += consecutiveZeros;
+            } else  consecutiveZeros = 0;
+        }
+        return count;
+    }
+}
