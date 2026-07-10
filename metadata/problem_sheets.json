@@ -52,5 +52,21 @@
   ],
   "leetcode:minimum-size-subarray-sum": [
     "custom:algomaster-300"
+  ],
+  "leetcode:search-in-rotated-sorted-array": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
