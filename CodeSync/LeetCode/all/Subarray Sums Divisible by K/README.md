@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
-- Synced: 2026-07-10T17:25:50.432Z
+- Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/
+- Synced: 2026-07-10T17:26:38.711Z
 
 ## Problem Description
 
