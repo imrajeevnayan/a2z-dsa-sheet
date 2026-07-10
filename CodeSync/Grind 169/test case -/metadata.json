@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-09T11:31:00.914Z",
+  "submissionTimestamp": "2026-07-09T11:29:24.712Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.76 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "test case :-",
   "problemUrl": "https://leetcode.com/problems/house-robber-ii/",
-  "submissionId": "9f1i9w"
+  "submissionId": "kai39u"
 }
