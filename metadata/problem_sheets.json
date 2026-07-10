@@ -68,5 +68,10 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:find-first-and-last-position-of-element-in-sorted-array": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
