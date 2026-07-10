@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
-- Synced: 2026-07-10T17:20:36.224Z
+- Synced: 2026-07-10T17:21:27.364Z
 
 ## Problem Description
 
