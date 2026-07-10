@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T13:17:24.975Z
+ * Synced: 2026-07-10T13:18:10.187Z
  */
 
 while (sum * (right-left+1)>= k) {
