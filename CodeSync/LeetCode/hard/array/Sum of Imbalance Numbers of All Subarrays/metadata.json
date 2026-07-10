@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-10T12:02:55.546Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Sum of Imbalance Numbers of All Subarrays",
+  "problemUrl": "https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/",
+  "submissionId": "87qmtn"
+}
