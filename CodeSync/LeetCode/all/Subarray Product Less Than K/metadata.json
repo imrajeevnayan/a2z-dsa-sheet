@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-10T17:22:45.296Z",
-  "runtime": "2 ms",
-  "memoryUsage": "48.16 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-10T17:23:32.324Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "Subarray Product Less Than K",
-  "problemUrl": "https://leetcode.com/submissions/detail/2062820293/",
-  "submissionId": "i7an2g"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/",
+  "submissionId": "75770r"
 }
