@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T12:27:53.297Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-10T12:28:43.575Z",
+  "runtime": "0 ms",
+  "memoryUsage": "135.70 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Continuous Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/continuous-subarray-sum/description/",
-  "submissionId": "g0rtk8"
+  "problemUrl": "https://leetcode.com/problems/continuous-subarray-sum/submissions/1880677752/",
+  "submissionId": "v1hqfa"
 }
