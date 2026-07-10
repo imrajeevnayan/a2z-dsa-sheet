@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAmazon, Company Tags, Paytm, Amazon, Topic Tags, Arrays, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T11:15:49.547Z
+ * Synced: 2026-07-10T11:16:44.551Z
  */
 
 class Solution {
