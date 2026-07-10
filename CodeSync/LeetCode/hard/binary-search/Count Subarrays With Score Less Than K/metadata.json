@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T17:18:59.345Z",
+  "submissionTimestamp": "2026-07-10T17:19:02.059Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Subarrays With Score Less Than K",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/",
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/",
   "submissionId": "r0vkpq"
 }
