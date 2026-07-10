@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-10T14:48:26.022Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-10T17:26:54.929Z",
+  "runtime": "24 ms",
+  "memoryUsage": "49.21 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "8zld95"
+  "problemUrl": "https://leetcode.com/submissions/detail/2062711299/",
+  "submissionId": "7ctkx5"
 }
