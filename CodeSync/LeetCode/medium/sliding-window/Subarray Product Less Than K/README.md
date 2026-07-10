@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
-- Synced: 2026-07-10T17:23:32.324Z
+- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/
+- Synced: 2026-07-10T17:24:17.524Z
 
 ## Problem Description
 
