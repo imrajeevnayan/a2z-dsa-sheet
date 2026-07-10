@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-09T10:05:34.767Z",
+  "submissionTimestamp": "2026-07-09T10:06:22.813Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.20 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Coin Change",
-  "problemUrl": "https://leetcode.com/problems/coin-change/",
-  "submissionId": "z7uf8o"
+  "problemUrl": "https://leetcode.com/problems/coin-change/submissions/1949457473/",
+  "submissionId": "uonbvw"
 }
