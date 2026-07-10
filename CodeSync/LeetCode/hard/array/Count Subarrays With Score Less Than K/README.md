@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
-- Synced: 2026-07-10T10:16:41.843Z
+- Synced: 2026-07-10T10:17:27.069Z
 
 ## Problem Description
 
