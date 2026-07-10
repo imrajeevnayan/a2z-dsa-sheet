@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-10T10:04:54.834Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Subarrays with K Different Integers",
+  "problemUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+  "submissionId": "852p2m"
+}
