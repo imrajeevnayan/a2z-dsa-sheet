@@ -7,7 +7,7 @@
  * Topics: Paytm, MakeMyTrip, prefix-sum, STL, subarray, Hash, cpp-unordered_set, subarray-sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T09:46:22.706Z
+ * Synced: 2026-07-10T09:54:26.849Z
  */
 
 import java.util.ArrayList;
