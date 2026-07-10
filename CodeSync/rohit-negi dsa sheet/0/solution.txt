@@ -1,26 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2062797731/
+ * URL: https://leetcode.com/submissions/detail/2062711299/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 26 ms
- * Memory: 51.50 MB
- * Synced: 2026-07-10T17:25:03.791Z
+ * Runtime: 24 ms
+ * Memory: 49.21 MB
+ * Synced: 2026-07-10T17:26:55.729Z
  */
 
 1class Solution {
-2    public int subarraysDivByK(int[] nums, int k) {
-3    HashMap<Integer,Integer>map=new HashMap<>();
-4    map.put(0,1);
-5    int count=0,sum=0;
-6    for(int n:nums){
-7        sum+=n;
-8        int rem=((sum %k)+k)%k;//it handle negative as well as positive number
-9        if(map.containsKey(rem))count+=map.get(rem);
-10        map.put(rem,map.getOrDefault(rem,0)+1);
-11    } 
-12     return count;   
-13    }
-14}
+2      public int subarraySum(int[] arr, int k) {
+3        Map<Integer, Integer> map = new HashMap<>();
+4          map.put(0, 1);
+5         int sum = 0, count = 0;
+6          for (int n : arr) {
+7                 sum += n;
+8            if(map.containsKey(sum-k)){
+9                count+=map.get(sum-k);
+10            } 
+11            map.put(sum,map.getOrDefault(sum,0)+1); 
+12         }
+13         return count;
+14    }
+15}
