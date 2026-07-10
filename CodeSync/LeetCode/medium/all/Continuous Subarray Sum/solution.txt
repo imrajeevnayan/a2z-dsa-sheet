@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Continuous Subarray Sum
- * URL: https://leetcode.com/problems/continuous-subarray-sum/
+ * URL: https://leetcode.com/problems/continuous-subarray-sum/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Math, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T11:49:16.316Z
+ * Synced: 2026-07-10T12:27:53.297Z
  */
 
 class Solution {
