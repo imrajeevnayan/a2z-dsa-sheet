@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T08:23:34.725Z",
+  "submissionTimestamp": "2026-07-10T12:16:47.128Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "😇 Actually Good Hints",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/",
-  "submissionId": "rtk4hx"
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/",
+  "submissionId": "2vhk"
 }
