@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/subset-sums2234/1
-- Synced: 2026-07-09T12:02:50.921Z
+- Synced: 2026-07-09T12:03:39.983Z
 
 ## Problem Description
 
