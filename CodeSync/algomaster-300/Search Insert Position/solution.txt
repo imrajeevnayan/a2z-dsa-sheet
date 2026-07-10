@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Search Insert Position
+ * URL: https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
+ * Difficulty: Easy
+ * Topics: Array, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T16:25:45.196Z
+ */
+
+class Solution {
+    public int searchInsert(int[] nums, int target) {
+        int low=0,high=nums.length-1,idx=nums.length;
+        while(low <= high){
+            int mid=low+(high-low)/2;
+            if(nums[mid]==target) return mid;
+            else if(nums[mid]< target)low=mid+1;
+            else{
+                idx=mid;
+                high=mid-1;
+            }
+        }
+       return idx;
+    }
