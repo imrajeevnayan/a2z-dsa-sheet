@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 48.06 MB
- * Synced: 2026-07-10T15:03:44.157Z
+ * Synced: 2026-07-10T15:04:40.156Z
  */
 
 int low = 0, high = nums.length - 1,ans = -1;
