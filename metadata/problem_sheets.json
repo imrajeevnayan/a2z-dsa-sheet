@@ -19,9 +19,7 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:count-subarrays-with-median-k": [],
-  "leetcode:count-subarrays-with-score-less-than-k": [
-    "custom:algomaster-300"
-  ],
+  "leetcode:count-subarrays-with-score-less-than-k": [],
   "geeksforgeeks:zero-sum-subarrays1825": [
     "custom:love-babbar-dsa-sheet",
     "GFG160"
