@@ -4,10 +4,10 @@
 - Language: nums1
 - Difficulty: Hard
 - Topics: Hard Topics Company Tags Hints, Topics, Company Tags, Hints, Array Binary Search Divide and Conquer, Array, Binary Search, Divide and Conquer
-- Runtime: 84ms
-- Memory: 63.5 MB
+- Runtime: N/A
+- Memory: N/A
 - Problem URL: https://neetcode.io/problems/median-of-two-sorted-arrays/question
-- Synced: 2026-07-10T05:54:44.554Z
+- Synced: 2026-07-10T06:00:16.995Z
 
 ## Problem Description
 
