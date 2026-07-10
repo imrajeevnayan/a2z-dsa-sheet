@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math
-- Runtime: 0 ms
-- Memory: 115.59 MB
-- Problem URL: https://leetcode.com/problems/number-of-zero-filled-subarrays/submissions/2062707294/
-- Synced: 2026-07-10T09:50:30.421Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/number-of-zero-filled-subarrays/description/
+- Synced: 2026-07-10T09:48:59.192Z
 
 ## Problem Description
 
