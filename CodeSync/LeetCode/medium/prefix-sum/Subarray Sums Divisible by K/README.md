@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Prefix Sum
 - Runtime: 0 ms
-- Memory: 51.66 MB
-- Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/submissions/2062797241/
-- Synced: 2026-07-10T11:28:48.564Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
+- Synced: 2026-07-10T17:25:50.432Z
 
 ## Problem Description
 
