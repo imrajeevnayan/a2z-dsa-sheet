@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: test case :-
+ * URL: https://leetcode.com/problems/house-robber-ii/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T11:24:01.573Z
+ */
+
+class Solution {
+    public int rob(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        if (nums.length == 1) return nums[0];
+        
+        int option1 = robLinear(nums, 0, nums.length - 2);
+        
+        int option2 = robLinear(nums, 1, nums.length - 1);
+        
+        return Math.max(option1, option2);
+    }
+        private int robLinear(int[] nums, int start, int end) {
+        int prev1 = 0; // Max profit up to i-1
+        int prev2 = 0; // Max profit up to i-2
