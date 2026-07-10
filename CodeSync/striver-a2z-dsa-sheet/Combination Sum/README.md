@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/combination-sum/description/
-- Synced: 2026-07-09T13:23:58.326Z
+- Synced: 2026-07-09T13:24:44.429Z
 
 ## Problem Description
 
