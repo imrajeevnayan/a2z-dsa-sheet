@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sum Equals K
- * URL: https://leetcode.com/problems/subarray-sum-equals-k/submissions/
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-10T09:53:49.988Z
+ * Runtime: 0 ms
+ * Memory: 49.21 MB
+ * Synced: 2026-07-10T09:54:36.837Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
