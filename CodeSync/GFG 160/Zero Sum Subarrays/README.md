@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/zero-sum-subarrays1825/1
-- Synced: 2026-07-10T10:24:13.611Z
+- Synced: 2026-07-10T10:25:03.615Z
 
 ## Problem Description
 
