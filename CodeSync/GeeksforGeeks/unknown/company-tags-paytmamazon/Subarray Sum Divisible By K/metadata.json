@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-10T10:40:46.399Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags PaytmAmazon",
+    "Company Tags",
+    "Paytm",
+    "Amazon",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: # Function to count the number of subarrays with a sum that is divisible by K def subCount(self, arr, k): count = 0 prefix_sum = 0 mod_map = {0: 1} # Initialize with 0:1 to handle subarrays starting at index 0 for num in arr: prefix_sum += num mod = (prefix_sum % k + k) % k # Normalize mod to be non-negative count += mod_map.get(mod, 0) mod_map[mod] = mod_map.get(mod, 0) + 1 return count",
+  "problemTitle": "Subarray Sum Divisible By K",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1",
+  "submissionId": "mlnery"
+}
