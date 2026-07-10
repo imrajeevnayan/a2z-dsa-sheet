@@ -1,26 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sums Divisible by K
- * URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/submissions/2062797241/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Hash Table, Prefix Sum
- * Runtime: 0 ms
- * Memory: 51.66 MB
- * Synced: 2026-07-10T11:28:48.564Z
+ * URL: https://leetcode.com/submissions/detail/2062797731/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 26 ms
+ * Memory: 51.50 MB
+ * Synced: 2026-07-10T17:25:02.576Z
  */
 
-class Solution {
-    public int subarraysDivByK(int[] nums, int k) {
-    HashMap<Integer,Integer>map=new HashMap<>();
-    map.put(0,1);
-    int count=0,sum=0;
-    for(int n:nums){
-        sum+=n;
-        int rem=((sum %k)+k)%k;
-        if(map.containsKey(rem))count+=map.get(rem);
-        map.put(rem,map.getOrDefault(rem,0)+1);
-    } 
-     return count;   
-    }
-}
+1class Solution {
+2    public int subarraysDivByK(int[] nums, int k) {
+3    HashMap<Integer,Integer>map=new HashMap<>();
+4    map.put(0,1);
+5    int count=0,sum=0;
+6    for(int n:nums){
+7        sum+=n;
+8        int rem=((sum %k)+k)%k;//it handle negative as well as positive number
+9        if(map.containsKey(rem))count+=map.get(rem);
+10        map.put(rem,map.getOrDefault(rem,0)+1);
+11    } 
+12     return count;   
+13    }
+14}
