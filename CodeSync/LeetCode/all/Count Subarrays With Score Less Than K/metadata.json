@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T12:43:44.093Z",
+  "submissionTimestamp": "2026-07-10T12:44:42.829Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Count Subarrays With Score Less Than K",
   "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/",
-  "submissionId": "xoeaho"
+  "submissionId": "1gngq0"
 }
