@@ -7,14 +7,14 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T13:23:03.072Z
+ * Synced: 2026-07-10T13:23:49.853Z
  */
 
-int i=0,sum=0,min=Integer.MAX_VALUE;
-        for(int j=0;j<nums.length;j++){
-            sum+=nums[j];
+int left=0,sum=0,minSum=Integer.MAX_VALUE;
+        for(int right=0;right<nums.length;j++){
+            sum+=nums[right];
             while(sum >=target){
-               min=Math.min(min,j-i+1);
+               minSum=Math.min(minSum,j-i+1);
                sum-=nums[i++];
             }
         }
