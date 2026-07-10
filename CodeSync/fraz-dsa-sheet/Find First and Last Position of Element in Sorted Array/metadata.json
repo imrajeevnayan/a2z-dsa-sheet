@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T14:50:45.907Z",
+  "submissionTimestamp": "2026-07-10T14:51:48.840Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "48.06 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,5 +11,5 @@
   "language": "Top 100 Liked",
   "problemTitle": "Find First and Last Position of Element in Sorted Array",
   "problemUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "c35qj5"
+  "submissionId": "hhdi4a"
 }
