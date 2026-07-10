@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Subarrays with K Different Integers
+ * URL: https://leetcode.com/problems/subarrays-with-k-different-integers/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Sliding Window, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T10:04:54.834Z
+ */
+
+class Solution {
+    public int subarraysWithKDistinct(int[] nums, int k) {
+        
+    }
+}
