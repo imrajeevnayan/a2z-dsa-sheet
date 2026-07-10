@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T09:27:23.602Z",
+  "submissionTimestamp": "2026-07-10T09:29:21.862Z",
   "runtime": "0 ms",
-  "memoryUsage": "98.49 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Sum of Distinct Subarrays With Length K",
-  "problemUrl": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
+  "problemUrl": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/",
   "submissionId": "8trzq"
 }
