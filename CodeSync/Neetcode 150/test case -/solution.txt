@@ -7,18 +7,17 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-09T11:25:33.415Z
+ * Synced: 2026-07-09T11:26:22.006Z
  */
 
 return Math.max(robFirst, robLast);
 }
     
-// Standard recursive "House Robber" logic
+    int robLast = helper(nums, 1, n - 1);
 private int helper(int[] nums, int start, int end) {
     if (start > end) return 0;
     int rob = nums[start] + helper(nums, start + 2, end);
-        int skip = helper(nums, start + 1, end);
-    
+    int skip = helper(nums, start + 1, end);
     return Math.max(rob, skip);
 }
 }
