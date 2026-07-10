@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T16:25:45.196Z",
+  "submissionTimestamp": "2026-07-10T16:26:30.828Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Search Insert Position",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked",
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-100-liked",
   "submissionId": "a4yz3y"
 }
