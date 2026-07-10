@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-10T09:46:22.706Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Paytm",
+    "MakeMyTrip",
+    "prefix-sum",
+    "STL",
+    "subarray",
+    "Hash",
+    "cpp-unordered_set",
+    "subarray-sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <iostream> #include <vector> using namespace std; bool subArrayExists(vector<int>& arr) { for (int i = 0; i < arr.size(); i++) { // starting point of the sub arrray and // sum is initialized with first element of subarray // a[i] int sum = arr[i]; if (sum == 0) return true; for (int j = i + 1; j < arr.size(); j++) { // we are finding the sum till jth index // starting from ith index sum += arr[j]; if (sum == 0) return true; } } return false; } int main() { vector<int> arr = { -3, 2, 3, 1, 6 }; if (subArrayExists(arr)) cout << \"true\"; else cout << \"false\"; return 0; }",
+  "problemTitle": "Subarray with Sum Zero",
+  "problemUrl": "https://www.geeksforgeeks.org/dsa/find-if-there-is-a-subarray-with-0-sum/",
+  "submissionId": "4gvm0n"
+}
