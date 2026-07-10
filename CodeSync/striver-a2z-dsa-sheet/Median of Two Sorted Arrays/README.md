@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://neetcode.io/problems/median-of-two-sorted-arrays/question
-- Synced: 2026-07-10T05:52:04.143Z
+- Synced: 2026-07-10T06:00:16.995Z
 
 ## Problem Description
 
