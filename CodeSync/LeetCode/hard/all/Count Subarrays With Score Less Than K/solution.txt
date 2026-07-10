@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Subarrays With Score Less Than K
- * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+ * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T17:18:14.221Z
+ * Synced: 2026-07-10T17:18:59.345Z
  */
 
 class Solution {
