@@ -715,5 +715,6 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:sum-of-compatible-numbers-in-range-i": []
+  "leetcode:sum-of-compatible-numbers-in-range-i": [],
+  "leetcode:valid-binary-strings-with-cost-limit": []
 }
