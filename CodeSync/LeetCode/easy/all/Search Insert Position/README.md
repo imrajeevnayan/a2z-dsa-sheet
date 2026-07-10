@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T16:25:45.196Z
+- Problem URL: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-10T16:26:30.828Z
 
 ## Problem Description
 
