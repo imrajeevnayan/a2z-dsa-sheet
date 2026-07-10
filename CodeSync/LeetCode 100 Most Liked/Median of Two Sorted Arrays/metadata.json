@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T05:54:44.554Z",
-  "runtime": "84ms",
-  "memoryUsage": "63.5 MB",
+  "submissionTimestamp": "2026-07-10T06:00:16.995Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
     "Hard Topics Company Tags Hints",
@@ -17,5 +17,5 @@
   "language": "nums1",
   "problemTitle": "Median of Two Sorted Arrays",
   "problemUrl": "https://neetcode.io/problems/median-of-two-sorted-arrays/question",
-  "submissionId": "94pzjh"
+  "submissionId": "o9mr9i"
 }
