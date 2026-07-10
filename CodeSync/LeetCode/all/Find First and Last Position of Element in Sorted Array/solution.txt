@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-10T14:50:45.907Z
+ * Memory: 48.06 MB
+ * Synced: 2026-07-10T14:53:25.223Z
  */
 
 high = mid - 1;
@@ -18,9 +18,9 @@ high = mid - 1;
         int low = 0, high = nums.length - 1,ans = -1;
     int firstOcc(int[] nums, int target) {
     }
+            }
+            else if(nums[mid] < target)low = mid + 1;
+            else  high = mid - 1;
+        }
         return ans;
-        ans[1] = lastOcc(nums, target);
-        ans[0] = firstOcc(nums, target);
-        int[] ans = new int[2];
-    public int[] searchRange(int[] nums, int target) {
-class Solution {
+    }
