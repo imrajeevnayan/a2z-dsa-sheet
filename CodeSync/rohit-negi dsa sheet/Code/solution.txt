@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-10T11:57:44.389Z
+ * Memory: 48.16 MB
+ * Synced: 2026-07-10T11:58:49.672Z
  */
 
 class Solution {
