@@ -1,0 +1,84 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarrays having sum less than K
+ * URL: https://www.geeksforgeeks.org/dsa/number-subarrays-sum-less-k/
+ * Language: #include <vector> using namespace std; // Function to count subarrays having sum less than k int countsubarray(vector<int> &arr, int k) { int n = arr.size(); int count = 0; // Pick starting point for (int i = 0; i < n; i++) { int sum = 0; // Pick ending point for (int j = i; j < n; j++) { // If sum is less than k, update sum and count if (sum + arr[j] < k) { sum += arr[j]; count++; } else { break; } } } return count; } int main() { vector<int> arr = {1, 11, 2, 3, 15}; int k = 10; cout << countsubarray(arr, k); return 0; }
+ * Difficulty: Unknown
+ * Topics: sliding-window, Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T16:39:17.060Z
+ */
+
+class GFG {
+​
+    // Function to count subarrays having sum less than k
+    static int countsubarray(int[] arr, int k)
+    {
+        int n = arr.length;
+        int count = 0;
+​
+        // Pick starting point
+        for (int i = 0; i < n; i++) {
+            int sum = 0;
+​
+            // Pick ending point
+            for (int j = i; j < n; j++) {
+                // If sum is less than k, update sum and
+                // count
+                if (sum + arr[j] < k) {
+                    sum += arr[j];
+                    count++;
+                }
+                else {
+                    break;
+                }
+            }
+        }
+​
+        return count;
+    }
+​
+    public static void main(String[] args)
+    {
+        int[] arr = { 1, 11, 2, 3, 15 };
+        int k = 10;
+​
+        System.out.println(countsubarray(arr, k));
+    }
+}
+class GFG {
+​
+    // Function to count subarrays having sum less than k
+    static int countsubarray(int[] arr, int k)
+    {
+        int n = arr.length;
+        int start = 0;
+        int sum = 0;
+        int count = 0;
+​
+        // Move end pointer
+        for (int end = 0; end < n; end++) {
+            sum += arr[end];
+​
+            // If sum becomes too large, shrink the window
+            while (sum >= k) {
+                sum -= arr[start];
+                start++;
+            }
+​
+            // Count valid subarrays ending at end
+            count += (end - start + 1);
+        }
+​
+        return count;
+    }
+​
+    public static void main(String[] args)
+    {
+        int[] arr = { 1, 11, 2, 3, 15 };
+        int k = 10;
+​
+        System.out.println(countsubarray(arr, k));
+    }
+}
