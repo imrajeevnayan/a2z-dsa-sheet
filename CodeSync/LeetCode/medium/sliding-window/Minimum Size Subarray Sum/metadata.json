@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T13:27:35.462Z",
+  "submissionTimestamp": "2026-07-10T17:19:46.502Z",
   "runtime": "0 ms",
-  "memoryUsage": "69.48 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Size Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2062891823/",
-  "submissionId": "x6bugb"
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+  "submissionId": "2bsnn3"
 }
