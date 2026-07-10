@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Math, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/continuous-subarray-sum/description/
-- Synced: 2026-07-10T12:27:53.297Z
+- Runtime: 0 ms
+- Memory: 135.70 MB
+- Problem URL: https://leetcode.com/problems/continuous-subarray-sum/submissions/1880677752/
+- Synced: 2026-07-10T12:28:43.575Z
 
 ## Problem Description
 
