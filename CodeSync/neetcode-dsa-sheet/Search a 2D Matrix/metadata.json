@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T16:27:37.404Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-10T16:28:22.426Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.78 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Search a 2D Matrix",
-  "problemUrl": "https://leetcode.com/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "1q0gq0"
+  "problemUrl": "https://leetcode.com/problems/search-a-2d-matrix/submissions/2063070646/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "s0s0ly"
 }
