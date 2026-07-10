@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-10T09:58:38.140Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags PaytmAdobe",
+    "Company Tags",
+    "Paytm",
+    "Adobe",
+    "Topic Tags",
+    "sliding-window",
+    "Hash"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "class Solution { // Function to check whether there is a subarray present with 0-sum or not. static boolean findsum(int arr[]) { // Your code here Set<Integer> set = new HashSet<>(); int sum =0; for(int num : arr){ sum+=num; if(sum==0 || set.contains(sum))return true; set.add(sum); // need to add summ beo thts where this imp } return false; }}",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1",
+  "submissionId": "nozsfl"
+}
