@@ -17,5 +17,6 @@
   "leetcode:subarrays-with-k-different-integers": [
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
-  ]
+  ],
+  "leetcode:count-subarrays-with-median-k": []
 }
