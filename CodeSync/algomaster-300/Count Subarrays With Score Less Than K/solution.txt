@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Subarrays With Score Less Than K
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-10T17:19:02.059Z
+ */
+
+class Solution {
+    public long countSubarrays(int[] nums, long k) {
+        long count = 0, sum = 0;
+        int left = 0;
+        for (int right = 0; right < nums.length; right++) {
+            sum += nums[right];
+            while (sum * (right-left+1)>= k) {
+                sum -= nums[left];
+                left++;
+            }
+            count += right-left+1;
+        }
+        return count;
+    }
+}
