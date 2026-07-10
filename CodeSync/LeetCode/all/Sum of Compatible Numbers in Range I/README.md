@@ -4,10 +4,10 @@
 - Language: Weekly Contest 505
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/description/
-- Synced: 2026-07-09T13:39:48.918Z
+- Runtime: 0 ms
+- Memory: 42.58 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/submissions/2061779463/
+- Synced: 2026-07-09T13:40:34.302Z
 
 ## Problem Description
 
