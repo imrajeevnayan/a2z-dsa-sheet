@@ -1,17 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Search a 2D Matrix
- * URL: https://leetcode.com/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/search-a-2d-matrix/submissions/2063070646/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
  * Difficulty: Medium
  * Topics: Array, Binary Search, Matrix
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-10T16:27:37.404Z
+ * Runtime: 0 ms
+ * Memory: 43.78 MB
+ * Synced: 2026-07-10T16:28:22.426Z
  */
 
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        
+      for(int i=0;i<matrix.length;i++){
+         for(int j=0;j<matrix[i].length;j++){
+           if(matrix[i][j]==target)return true;
+        }
+      }
+      return false;  
     }
 }
