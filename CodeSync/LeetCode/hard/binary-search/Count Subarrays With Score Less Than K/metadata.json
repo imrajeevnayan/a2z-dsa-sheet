@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T10:26:50.428Z",
+  "submissionTimestamp": "2026-07-10T10:27:46.622Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "87.93 MB",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Subarrays With Score Less Than K",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/",
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/2062742845/",
   "submissionId": "1fzo5y"
 }
