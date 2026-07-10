@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: 0 ms
-- Memory: 99.39 MB
-- Problem URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/2062677413/
-- Synced: 2026-07-10T09:20:53.834Z
+- Memory: 98.49 MB
+- Problem URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/
+- Synced: 2026-07-10T09:22:22.451Z
 
 ## Problem Description
 
