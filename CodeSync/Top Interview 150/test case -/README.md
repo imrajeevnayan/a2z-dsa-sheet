@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-ii/description/
-- Synced: 2026-07-09T11:24:01.573Z
+- Problem URL: https://leetcode.com/problems/house-robber-ii/
+- Synced: 2026-07-09T11:24:48.117Z
 
 ## Problem Description
 
