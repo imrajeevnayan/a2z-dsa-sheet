@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/
-- Synced: 2026-07-10T12:02:55.546Z
+- Synced: 2026-07-10T12:03:54.204Z
 
 ## Problem Description
 
