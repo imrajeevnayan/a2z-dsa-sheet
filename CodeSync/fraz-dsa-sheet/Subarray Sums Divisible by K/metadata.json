@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T17:25:50.432Z",
+  "submissionTimestamp": "2026-07-10T17:26:38.711Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarray Sums Divisible by K",
-  "problemUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
+  "problemUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
   "submissionId": "hi9wa2"
 }
