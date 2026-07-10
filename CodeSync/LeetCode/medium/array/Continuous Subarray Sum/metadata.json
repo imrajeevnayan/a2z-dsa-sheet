@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T11:30:31.416Z",
+  "submissionTimestamp": "2026-07-10T11:31:17.687Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Continuous Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/continuous-subarray-sum/description/",
+  "problemUrl": "https://leetcode.com/problems/continuous-subarray-sum/",
   "submissionId": "g0rtk8"
 }
