@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum of Compatible Numbers in Range I
+ * URL: https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/description/
+ * Language: Weekly Contest 505
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T13:39:02.570Z
+ */
+
+class Solution {
+    public int sumOfGoodIntegers(int n, int k) {
+        
+    }
+}
