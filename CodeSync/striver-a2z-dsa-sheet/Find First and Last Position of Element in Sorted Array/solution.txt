@@ -7,13 +7,13 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 48.06 MB
- * Synced: 2026-07-10T15:04:40.156Z
+ * Synced: 2026-07-10T15:05:25.266Z
  */
 
 int low = 0, high = nums.length - 1,ans = -1;
         while(low <= high) {
             int mid = low + (high - low) / 2;
-            if(nums[mid] == target) {
+            if(nums[mid] == target) { 
                 ans = mid;
       int lastOcc(int[] nums, int target) {
         return ans;
