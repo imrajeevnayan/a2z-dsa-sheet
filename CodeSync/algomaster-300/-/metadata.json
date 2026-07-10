@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-10T13:18:17.560Z",
+  "submissionTimestamp": "2026-07-10T14:48:26.022Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top 100 Liked",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/",
-  "submissionId": "d0bk6x"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "8zld95"
 }
