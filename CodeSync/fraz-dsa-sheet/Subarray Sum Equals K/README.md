@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Prefix Sum
-- Runtime: 0 ms
-- Memory: 49.15 MB
-- Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/submissions/2060961334/
-- Synced: 2026-07-08T19:09:49.825Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
+- Synced: 2026-07-10T09:52:16.222Z
 
 ## Problem Description
 
