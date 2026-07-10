@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, Prefix Sum
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T19:08:18.441Z
+ * Synced: 2026-07-10T13:18:17.560Z
  */
 
-Input: nums = [1,1,1], k = 2
+Input: target = 7, nums = [2,3,1,2,4,3]
 Output: 2
+Explanation: The subarray [4,3] has the minimal length under the problem constraint.
