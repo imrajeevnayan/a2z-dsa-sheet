@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-10T11:57:44.389Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Code",
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+  "submissionId": "x2yrju"
+}
