@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Medium
 - Topics: Array, Binary Search, Matrix
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T16:27:37.404Z
+- Runtime: 0 ms
+- Memory: 43.78 MB
+- Problem URL: https://leetcode.com/problems/search-a-2d-matrix/submissions/2063070646/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-10T16:28:22.426Z
 
 ## Problem Description
 
