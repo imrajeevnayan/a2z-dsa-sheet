@@ -7,19 +7,20 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T10:04:03.363Z
+ * Synced: 2026-07-09T10:04:48.883Z
  */
 
-class Solution {
-    static int solve(int[]coins,int amount){
-        if(amount==0)return 0;
-    }
+}
     public int coinChange(int[] coins, int amount) {
         int dp[]=new int[amount+1];
         Arrays.fill(dp,-1);
         return solve(coins,amount);
     }
-        if(amount<0) return Integer.MAX_VALUE-1;
-        if(dp[amount]!=-1)return dp[amount];
-        return dp[amount]=1+Math.min()
 }
+    public int coinChange(int[] coins, int amount) {
+        return dp[amount]=1+Math.min()
+        if(dp[amount]!=-1)return dp[amount];
+        if(amount<0) return Integer.MAX_VALUE-1;
+        if(amount==0)return 0;
+    static int solve(int[]coins,int amount){
+    class Solution {
