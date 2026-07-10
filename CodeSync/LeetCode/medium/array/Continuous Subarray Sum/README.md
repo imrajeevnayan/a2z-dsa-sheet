@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Math, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/continuous-subarray-sum/
-- Synced: 2026-07-10T11:49:16.316Z
+- Problem URL: https://leetcode.com/problems/continuous-subarray-sum/description/
+- Synced: 2026-07-10T12:27:53.297Z
 
 ## Problem Description
 
