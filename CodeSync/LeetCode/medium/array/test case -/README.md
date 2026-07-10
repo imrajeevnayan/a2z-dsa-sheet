@@ -1,13 +1,13 @@
 # test case :-
 
 - Platform: LeetCode
-- Language: Blind 75 (Copy-oizxjoit)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
-- Memory: 43.01 MB
-- Problem URL: https://leetcode.com/problems/house-robber-ii/submissions/2026243411/?envType=problem-list-v2&envId=dxl0w3a1
-- Synced: 2026-06-08T10:13:58.544Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/house-robber-ii/description/
+- Synced: 2026-07-09T11:24:01.573Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are a professional robber planning to rob houses along a street. Each house 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Blind 75 (Copy-oizxjoit). The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
