@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1
-- Synced: 2026-07-10T11:26:38.827Z
+- Synced: 2026-07-10T11:27:27.547Z
 
 ## Problem Description
 
