@@ -31,5 +31,9 @@
   "leetcode:continuous-subarray-sum": [
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
+  ],
+  "leetcode:subarray-product-less-than-k": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
