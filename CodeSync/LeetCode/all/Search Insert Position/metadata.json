@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-07T07:01:12.569Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.65 MB",
+  "submissionTimestamp": "2026-07-10T16:25:45.196Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top 100 Liked",
   "problemTitle": "Search Insert Position",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/submissions/2025095809/",
-  "submissionId": "8twziz"
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "a4yz3y"
 }
