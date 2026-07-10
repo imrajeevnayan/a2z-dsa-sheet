@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
-- Memory: 69.48 MB
-- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2062891823/
-- Synced: 2026-07-10T13:27:35.462Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/
+- Synced: 2026-07-10T17:19:46.502Z
 
 ## Problem Description
 
