@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum of Imbalance Numbers of All Subarrays
+ * URL: https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T12:02:55.546Z
+ */
+
+class Solution {
+    public int sumImbalanceNumbers(int[] nums) {
+        
+    }
+}
