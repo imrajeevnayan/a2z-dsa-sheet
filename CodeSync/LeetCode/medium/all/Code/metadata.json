@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-28T18:20:41.926Z",
+  "submissionTimestamp": "2026-07-10T11:57:44.389Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Sliding Window"
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "14xtug"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+  "submissionId": "x2yrju"
 }
