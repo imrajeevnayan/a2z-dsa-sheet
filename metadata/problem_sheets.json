@@ -8,5 +8,10 @@
   ],
   "geeksforgeeks:subarray-with-sum-zero": [
     "GFG160"
+  ],
+  "leetcode:subarray-sums-divisible-by-k": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
   ]
 }
