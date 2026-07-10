@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T10:03:03.837Z
+ * Synced: 2026-07-10T10:03:48.847Z
  */
 
 for(int n:nums){
