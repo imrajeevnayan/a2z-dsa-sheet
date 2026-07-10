@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-09T10:04:48.883Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-09T10:05:34.767Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Coin Change",
   "problemUrl": "https://leetcode.com/problems/coin-change/",
-  "submissionId": "5yelkv"
+  "submissionId": "z7uf8o"
 }
