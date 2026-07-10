@@ -5,22 +5,22 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T10:25:44.371Z
+ * Synced: 2026-07-10T10:26:50.428Z
  */
 
-class Solution {
+while (sum * (right - left + 1) >= k) {
+                sum -= nums[left];
+                left++;
+            }
+            count += (right - left + 1);
+
+            sum += nums[right];
+        long count = 0,sum = 0;
+        for (int right = 0; right < nums.length; right++) {
     public long countSubarrays(int[] nums, long k) {
-     Map<Integer,Integer>map=new HashMap<>();
-     int sum=0,count=0;
-     for(int i=0;i<nums.length;i++){
-         sum+=arr[i];
-         if(map.containsKey(sum<k)){
-            count+=map.get(sum<k);
-         }
-         map.put(sum,map.getOrDefault(sum,0)+1);
-     }
-     return count;
-    }
-}
+class Solution {
+
+
+        int left = 0;
