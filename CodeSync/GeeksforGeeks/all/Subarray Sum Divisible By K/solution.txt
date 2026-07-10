@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAmazon, Company Tags, Paytm, Amazon, Topic Tags, Arrays, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T11:25:06.820Z
+ * Synced: 2026-07-10T11:25:52.127Z
  */
 
 class Solution {
@@ -17,9 +17,7 @@ class Solution {
         long sum = 0;int count = 0;
         for (int num : arr) {
             sum += num;
-            int rem =(int) (sum % k);
-            // Handle negative remainders
-        
+            int rem =(int) ((sum %k)+k)%k;
             count += map.getOrDefault(rem, 0);
             map.put(rem, map.getOrDefault(rem, 0) + 1);
         }
