@@ -5,22 +5,18 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-09T10:04:48.883Z
+ * Synced: 2026-07-09T10:05:34.767Z
  */
 
+}
+
+    return dp[amount] = minCoins;
 }
     public int coinChange(int[] coins, int amount) {
         int dp[]=new int[amount+1];
         Arrays.fill(dp,-1);
-        return solve(coins,amount);
+        return solve(coins,amount,dp);
     }
 }
-    public int coinChange(int[] coins, int amount) {
-        return dp[amount]=1+Math.min()
-        if(dp[amount]!=-1)return dp[amount];
-        if(amount<0) return Integer.MAX_VALUE-1;
-        if(amount==0)return 0;
-    static int solve(int[]coins,int amount){
-    class Solution {
