@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/continuous-subarray-sum/
-- Synced: 2026-07-10T11:35:57.537Z
+- Synced: 2026-07-10T11:36:48.544Z
 
 ## Problem Description
 
