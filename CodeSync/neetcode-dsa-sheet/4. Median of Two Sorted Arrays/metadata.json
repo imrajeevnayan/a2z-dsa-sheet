@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-10T14:47:23.151Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Divide and Conquer"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "4. Median of Two Sorted Arrays",
+  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "ut1i48"
+}
