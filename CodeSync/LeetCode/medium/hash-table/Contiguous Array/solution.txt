@@ -1,22 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Contiguous Array
- * URL: https://leetcode.com/problems/contiguous-array/description/
+ * URL: https://leetcode.com/problems/contiguous-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T12:23:57.616Z
+ * Synced: 2026-07-10T12:24:53.531Z
  */
 
-sum += nums[right];
-            while (sum * (right - left + 1) >= k) {
-                sum -= nums[left];
-                left++;
+for(int i=0;i<nums.length;i++){
+            sum+=(nums[i]==0) ? -1 :1;
+           if (map.containsKey(sum)) {
+                int prev = map.get(sum);
+                maxLen = Math.max(maxLen, i - prev);
             }
-            count += (right - left + 1);
+             else  map.put(sum, i);
         }
-        return count;
+        int maxLen = 0,sum = 0;
+        return maxLen;
     }
 }
