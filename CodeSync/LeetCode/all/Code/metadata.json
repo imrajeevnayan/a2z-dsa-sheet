@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T12:02:04.543Z",
+  "submissionTimestamp": "2026-07-10T12:02:22.468Z",
   "runtime": "0 ms",
   "memoryUsage": "48.16 MB",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/",
   "submissionId": "x2yrju"
 }
