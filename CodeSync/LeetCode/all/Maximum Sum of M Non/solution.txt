@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Sum of M Non
+ * URL: https://leetcode.com/contest/weekly-contest-505/problems/maximum-sum-of-m-non-overlapping-subarrays-i/description/
+ * Language: Weekly Contest 505
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T13:42:14.211Z
+ */
+
+class Solution {
+    public long maximumSum(int[] nums, int m, int l, int r) {
+        
+    }
+}
