@@ -107,7 +107,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Blind 75 | 44 | 75 |
 | Grind 75 | 31 | 75 |
 | Grind 169 | 37 | 169 |
-| NeetCode 150 | 47 | 150 |
+| NeetCode 150 | 48 | 150 |
 | LeetCode 75 | 12 | 75 |
 | Top Interview 150 | 38 | 150 |
 | Top 100 Liked | 4 | 100 |
