@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-07T16:04:58.429Z",
+  "submissionTimestamp": "2026-07-10T07:18:51.564Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Amazon",
+    "Company Tags OYO RoomsNPCI",
     "Company Tags",
-    "Amazon",
+    "OYO Rooms",
+    "NPCI",
     "Topic Tags",
-    "Arrays",
-    "Data Structures",
-    "Related Articles"
+    "prefix-sum",
+    "sliding-window"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr",
+  "language": "class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum",
   "problemTitle": "Python Code",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-sub-array5620/1",
-  "submissionId": "6wn7eg"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+  "submissionId": "5zurfj"
 }
