@@ -73,5 +73,9 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "leetcode:search-insert-position": [
+    "custom:algomaster-300",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
