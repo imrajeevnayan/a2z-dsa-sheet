@@ -1,0 +1,80 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarray with Sum Zero
+ * URL: https://www.geeksforgeeks.org/dsa/find-if-there-is-a-subarray-with-0-sum/
+ * Language: #include <iostream> #include <vector> using namespace std; bool subArrayExists(vector<int>& arr) { for (int i = 0; i < arr.size(); i++) { // starting point of the sub arrray and // sum is initialized with first element of subarray // a[i] int sum = arr[i]; if (sum == 0) return true; for (int j = i + 1; j < arr.size(); j++) { // we are finding the sum till jth index // starting from ith index sum += arr[j]; if (sum == 0) return true; } } return false; } int main() { vector<int> arr = { -3, 2, 3, 1, 6 }; if (subArrayExists(arr)) cout << "true"; else cout << "false"; return 0; }
+ * Difficulty: Unknown
+ * Topics: Paytm, MakeMyTrip, prefix-sum, STL, subarray, Hash, cpp-unordered_set, subarray-sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T09:46:22.706Z
+ */
+
+import java.util.ArrayList;
+​
+public class Main {
+    public static boolean subArrayExists(ArrayList<Integer> arr) {
+        for (int i = 0; i < arr.size(); i++) {
+            
+            // starting point of the sub arrray and
+            // sum is initialized with first element of subarray
+            // a[i]
+            int sum = arr.get(i);
+            if (sum == 0)
+                return true;
+            for (int j = i + 1; j < arr.size(); j++) {
+                
+                // we are finding the sum till jth index
+                // starting from ith index
+                sum += arr.get(j);
+                if (sum == 0)
+                    return true;
+            }
+        }
+        return false;
+    }
+​
+    public static void main(String[] args) {
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(-3);
+        arr.add(2);
+        arr.add(3);
+        arr.add(1);
+        arr.add(6);
+        if (subArrayExists(arr))
+            System.out.println("true");
+        else
+            System.out.println("false");
+    }
+}
+import java.util.HashSet;
+import java.util.Set;
+​
+public class Main {
+    public static boolean subArrayExists(int[] arr) {
+        Set<Integer> sumSet = new HashSet<>();
+​
+        // Traverse through array
+        // and track prefix sums
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+​
+            // If prefix sum is 0 or it is already present
+            if (sum == 0 || sumSet.contains(sum))
+                return true;
+​
+            sumSet.add(sum);
+        }
+        return false;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {-3, 2, 3, 1, 6};
+​
+        if (subArrayExists(arr))
+            System.out.println("true");
+        else
+            System.out.println("false");
+    }
+}
