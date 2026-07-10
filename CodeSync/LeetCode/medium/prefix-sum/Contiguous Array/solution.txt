@@ -1,16 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Contiguous Array
- * URL: https://leetcode.com/problems/contiguous-array/
+ * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/2062840382/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T12:27:37.459Z
+ * Synced: 2026-07-10T12:42:12.518Z
  */
 
-for(int i=0;i<nums.length;i++){
+class Solution {
+    public int findMaxLength(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
+        int maxLen = 0,sum = 0;
+        for(int i=0;i<nums.length;i++){
             sum+=(nums[i]==0) ? -1 :1;
            if (map.containsKey(sum)) {
                 int prev = map.get(sum);
@@ -18,7 +23,4 @@ for(int i=0;i<nums.length;i++){
             }
              else  map.put(sum, i);
         }
-        int maxLen = 0,sum = 0;
         return maxLen;
-    }
-}
