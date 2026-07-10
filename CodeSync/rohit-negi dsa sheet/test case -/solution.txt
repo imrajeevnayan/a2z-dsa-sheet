@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.76 MB
- * Synced: 2026-07-09T11:36:59.996Z
+ * Synced: 2026-07-09T11:37:46.608Z
  */
 
 int robFirst = helper(nums, 0, n - 2, memo1);
