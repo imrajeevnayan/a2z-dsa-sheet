@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Design Neighbor Sum Service
+ * URL: https://leetcode.com/problems/design-neighbor-sum-service/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Design, Matrix, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T09:51:28.134Z
+ */
+
+class NeighborSum {
+
+    public NeighborSum(int[][] grid) {
+        
+    }
+    
+    public int adjacentSum(int value) {
+        
+    }
+    
+    public int diagonalSum(int value) {
+        
+    }
+}
