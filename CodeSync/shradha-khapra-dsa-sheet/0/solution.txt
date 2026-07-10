@@ -1,27 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2062711299/
+ * URL: https://leetcode.com/submissions/detail/2062707294/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 24 ms
- * Memory: 49.21 MB
- * Synced: 2026-07-10T17:26:55.729Z
+ * Runtime: 3 ms
+ * Memory: 115.59 MB
+ * Synced: 2026-07-10T17:28:52.479Z
  */
 
 1class Solution {
-2      public int subarraySum(int[] arr, int k) {
-3        Map<Integer, Integer> map = new HashMap<>();
-4          map.put(0, 1);
-5         int sum = 0, count = 0;
-6          for (int n : arr) {
-7                 sum += n;
-8            if(map.containsKey(sum-k)){
-9                count+=map.get(sum-k);
-10            } 
-11            map.put(sum,map.getOrDefault(sum,0)+1); 
-12         }
-13         return count;
-14    }
-15}
+2    public long zeroFilledSubarray(int[] nums) {
+3        long count = 0;
+4        long consecutiveZeros = 0;
+5        for (int num : nums) {
+6            if (num == 0) {
+7                consecutiveZeros++;
+8                count += consecutiveZeros;
+9            } else  consecutiveZeros = 0;
+10        }
+11        return count;
+12    }
+13}
