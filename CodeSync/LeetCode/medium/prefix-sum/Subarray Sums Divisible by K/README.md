@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Prefix Sum
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
-- Synced: 2026-07-10T10:36:48.737Z
+- Synced: 2026-07-10T11:28:01.608Z
 
 ## Problem Description
 
