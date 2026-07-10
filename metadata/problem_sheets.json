@@ -1,15 +1,3 @@
 {
-  "leetcode:maximum-sum-of-distinct-subarrays-with-length-k": [
-    "custom:algomaster-300"
-  ],
-  "geeksforgeeks:max-sum-subarray-of-size-k5313": [
-    "GFG160"
-  ],
-  "geeksforgeeks:subarray-with-sum-zero": [
-    "GFG160"
-  ],
-  "leetcode:maximum-matrix-sum": [
-    "custom:algomaster-300"
-  ],
-  "leetcode:design-neighbor-sum-service": []
+  "leetcode:print-zero-even-odd": []
 }
