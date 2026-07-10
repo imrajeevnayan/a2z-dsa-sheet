@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/description/
-- Synced: 2026-07-09T13:39:02.570Z
+- Synced: 2026-07-09T13:39:48.918Z
 
 ## Problem Description
 
