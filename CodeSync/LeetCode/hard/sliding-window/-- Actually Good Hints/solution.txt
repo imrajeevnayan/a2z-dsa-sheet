@@ -1,26 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 😇 Actually Good Hints
- * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/
+ * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T12:16:47.128Z
+ * Synced: 2026-07-10T12:23:12.243Z
  */
 
-class Solution {
-    public long countSubarrays(int[] nums, long k) {
-        long count = 0,sum = 0;
-        int left = 0;
-
-        for (int right = 0; right < nums.length; right++) {
-            sum += nums[right];
-
+sum += nums[right];
             while (sum * (right - left + 1) >= k) {
                 sum -= nums[left];
                 left++;
             }
-
             count += (right - left + 1);
+        }
+        return count;
+    }
+}
