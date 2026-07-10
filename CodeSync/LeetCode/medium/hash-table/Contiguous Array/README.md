@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/contiguous-array/
-- Synced: 2026-07-10T12:25:43.963Z
+- Synced: 2026-07-10T12:26:48.465Z
 
 ## Problem Description
 
