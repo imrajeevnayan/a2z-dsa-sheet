@@ -7,10 +7,11 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T10:21:27.625Z
+ * Synced: 2026-07-10T10:25:44.371Z
  */
 
-public long countSubarrays(int[] nums, long k) {
+class Solution {
+    public long countSubarrays(int[] nums, long k) {
      Map<Integer,Integer>map=new HashMap<>();
      int sum=0,count=0;
      for(int i=0;i<nums.length;i++){
