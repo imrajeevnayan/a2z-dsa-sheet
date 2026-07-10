@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Zero
+ * URL: https://leetcode.com/problems/maximum-matrix-sum/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math
+ * Runtime: 0 ms
+ * Memory: 115.59 MB
+ * Synced: 2026-07-10T09:50:58.613Z
+ */
+
+class Solution {
+    public long zeroFilledSubarray(int[] nums) {
+        long count = 0;
+        long consecutiveZeros = 0;
+        for (int num : nums) {
+            if (num == 0) {
+                consecutiveZeros++;
+                count += consecutiveZeros;
+            } else  consecutiveZeros = 0;
+        }
+        return count;
+    }
+}
