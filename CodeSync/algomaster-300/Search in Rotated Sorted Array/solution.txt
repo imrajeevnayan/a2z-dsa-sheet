@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Search in Rotated Sorted Array
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2062969621/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
+ * Runtime: 0 ms
+ * Memory: 44.04 MB
+ * Synced: 2026-07-10T14:49:12.838Z
+ */
+
+else  high = mid - 1;
+            } 
+            else {
+                if (target < nums[mid] || target > nums[high])high = mid - 1;
+                else  low = mid + 1; 
+            }
+        }
+        return -1;
+    }
+}
