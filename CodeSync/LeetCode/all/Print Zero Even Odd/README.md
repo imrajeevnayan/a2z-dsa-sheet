@@ -1,13 +1,13 @@
 # Print Zero Even Odd
 
 - Platform: LeetCode
-- Language: Concurrency
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Concurrency
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/print-zero-even-odd/description/
-- Synced: 2026-05-30T17:11:11.292Z
+- Problem URL: https://leetcode.com/problems/print-zero-even-odd/
+- Synced: 2026-07-10T09:51:43.333Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You have a function printNumber that can be called with an integer parameter and
 
 ## Explanation
 
-This solution was accepted on LeetCode using Concurrency. The detected topics are Concurrency. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Concurrency. Review the synced source file for the implementation details.
