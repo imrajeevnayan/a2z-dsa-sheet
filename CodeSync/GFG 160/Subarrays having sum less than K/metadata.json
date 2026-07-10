@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-10T16:39:17.060Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "sliding-window",
+    "Summer SkillUp Explore",
+    "Summer SkillUp",
+    "Explore"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <vector> using namespace std; // Function to count subarrays having sum less than k int countsubarray(vector<int> &arr, int k) { int n = arr.size(); int count = 0; // Pick starting point for (int i = 0; i < n; i++) { int sum = 0; // Pick ending point for (int j = i; j < n; j++) { // If sum is less than k, update sum and count if (sum + arr[j] < k) { sum += arr[j]; count++; } else { break; } } } return count; } int main() { vector<int> arr = {1, 11, 2, 3, 15}; int k = 10; cout << countsubarray(arr, k); return 0; }",
+  "problemTitle": "Subarrays having sum less than K",
+  "problemUrl": "https://www.geeksforgeeks.org/dsa/number-subarrays-sum-less-k/",
+  "submissionId": "o89ja9"
+}
