@@ -18,5 +18,6 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:count-subarrays-with-median-k": []
+  "leetcode:count-subarrays-with-median-k": [],
+  "leetcode:count-subarrays-with-score-less-than-k": []
 }
