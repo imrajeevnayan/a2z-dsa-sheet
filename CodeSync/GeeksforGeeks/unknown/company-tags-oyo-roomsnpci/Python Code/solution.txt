@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Code
+ * URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+ * Language: class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T07:18:51.564Z
+ */
+
+class Solution {
+    public int maxSubarraySum(int[] arr, int k) {
+     int left=0,sum=0,max=Integer.MIN_VALUE;
+     for(int right=0;right<k;right++)sum+=arr[right];
+     max=sum;
+     for(int right=k;right<arr.length;right++){
+         sum+=arr[right]-arr[right-k];
+         max=Math.max(max,sum);
+     }
+     return max;
+    }
+}
