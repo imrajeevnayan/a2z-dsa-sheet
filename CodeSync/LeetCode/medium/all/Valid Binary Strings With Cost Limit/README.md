@@ -4,10 +4,10 @@
 - Language: Weekly Contest 505
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-505/problems/valid-binary-strings-with-cost-limit/
-- Synced: 2026-07-09T13:41:19.204Z
+- Runtime: 0 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-505/problems/valid-binary-strings-with-cost-limit/submissions/2061780959/
+- Synced: 2026-07-09T13:42:04.218Z
 
 ## Problem Description
 
