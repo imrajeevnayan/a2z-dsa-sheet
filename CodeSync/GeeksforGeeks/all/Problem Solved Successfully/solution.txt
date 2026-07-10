@@ -1,25 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1
- * Language: class Solution: def countWays(self,n): a,b,c=0,0,1 for i in range(n): a,b,c=b,c,a+b+c return c
+ * URL: https://www.geeksforgeeks.org/problems/subset-sums2234/1
+ * Language: class Solution { //BRUTE FORCE APPROACH:RECURSION+BACKTRACKING private void subsetSumsCheck(int index,int[] arr,int n,int sum,ArrayList<Integer> ans){ if(index >= n){ ans.add(sum); return; } subsetSumsCheck(index+1,arr,n,sum+arr[index],ans); subsetSumsCheck(index+1,arr,n,sum,ans); } public ArrayList<Integer> subsetSums(int[] arr) { ArrayList<Integer> ans = new ArrayList<>(); int n = arr.length; subsetSumsCheck(0,arr,n,0,ans); return ans; } } //T(n):T(n)=O(2^n) //Sc:T(n)=O(2^n)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-06T16:12:25.927Z
+ * Synced: 2026-07-09T12:02:50.921Z
  */
 
 class Solution {
-    static int solve(int n,int[]dp){
-        if(n==0)return 1;
-        if(n<0)return 0;
-        if(dp[n]!=-1)return dp[n];
-        return dp[n]=solve(n-1,dp)+solve(n-2,dp)+solve(n-3,dp);
+    public ArrayList<Integer> subsetSums(int[] arr) {
+        ArrayList<Integer> result = new ArrayList<>();
+        cal(0, 0, arr, result);
+        Collections.sort(result);
+        return result;
     }
-    static int countWays(int n) {
-        int dp[]=new int[n+1];Arrays.fill(dp,-1);
-        return solve(n,dp);
+    
+    private void cal(int index, int currentSum, int[] arr, ArrayList<Integer> result) {
+        if (index == arr.length) {
+            result.add(currentSum);
+            return;
+        }
         
+        cal(index + 1, currentSum + arr[index], arr, result);
+        cal(index + 1, currentSum, arr, result);
     }
 }
