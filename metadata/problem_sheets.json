@@ -5,5 +5,8 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "geeksforgeeks:subarray-with-sum-zero": [
+    "GFG160"
   ]
 }
