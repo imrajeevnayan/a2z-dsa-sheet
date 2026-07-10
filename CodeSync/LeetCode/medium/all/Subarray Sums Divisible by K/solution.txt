@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sums Divisible by K
- * URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
+ * URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T17:25:50.432Z
+ * Synced: 2026-07-10T17:26:38.711Z
  */
 
 class Solution {
