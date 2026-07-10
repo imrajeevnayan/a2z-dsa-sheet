@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sums Divisible by K
- * URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/submissions/2062797241/
+ * URL: https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: 0 ms
- * Memory: 51.66 MB
- * Synced: 2026-07-10T11:28:48.564Z
+ * Memory: N/A
+ * Synced: 2026-07-10T17:25:50.432Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
     int count=0,sum=0;
     for(int n:nums){
         sum+=n;
-        int rem=((sum %k)+k)%k;
+        int rem=((sum %k)+k)%k;//it handle negative as well as positive number
         if(map.containsKey(rem))count+=map.get(rem);
         map.put(rem,map.getOrDefault(rem,0)+1);
     } 
