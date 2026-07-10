@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 135.70 MB
 - Problem URL: https://leetcode.com/problems/continuous-subarray-sum/submissions/1880677752/
-- Synced: 2026-07-10T12:30:26.782Z
+- Synced: 2026-07-10T12:31:17.226Z
 
 ## Problem Description
 
