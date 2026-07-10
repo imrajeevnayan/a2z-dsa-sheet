@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarray Sum Divisible By K
+ * URL: https://www.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1
+ * Language: class Solution: # Function to count the number of subarrays with a sum that is divisible by K def subCount(self, arr, k): count = 0 prefix_sum = 0 mod_map = {0: 1} # Initialize with 0:1 to handle subarrays starting at index 0 for num in arr: prefix_sum += num mod = (prefix_sum % k + k) % k # Normalize mod to be non-negative count += mod_map.get(mod, 0) mod_map[mod] = mod_map.get(mod, 0) + 1 return count
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags PaytmAmazon, Company Tags, Paytm, Amazon, Topic Tags, Arrays, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T10:40:46.399Z
+ */
+
+class Solution {
+    public int subCount(int[] arr, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+        long sum = 0,count = 0;
+        for (int num : arr) {
+            sum += num;
+            int rem =(int) (sum % k);
+            // Handle negative remainders
+            if (rem < 0) rem += k;
+            count += map.getOrDefault(rem, 0);
+            map.put(rem, map.getOrDefault(rem, 0) + 1);
+        }
+        return (int)count;
+    }
+}
