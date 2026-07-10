@@ -7,10 +7,12 @@
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T09:53:04.467Z
+ * Synced: 2026-07-10T09:52:16.222Z
  */
 
-Map<Integer, Integer> map = new HashMap<>();
+class Solution {
+      public int subarraySum(int[] arr, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
           map.put(0, 1);
          int sum = 0, count = 0;
           for (int n : arr) {
@@ -22,4 +24,3 @@ Map<Integer, Integer> map = new HashMap<>();
          }
          return count;
     }
-}
