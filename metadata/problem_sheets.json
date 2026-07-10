@@ -49,5 +49,8 @@
   "leetcode:sum-of-imbalance-numbers-of-all-subarrays": [],
   "leetcode:contiguous-array": [
     "custom:algomaster-300"
+  ],
+  "leetcode:minimum-size-subarray-sum": [
+    "custom:algomaster-300"
   ]
 }
