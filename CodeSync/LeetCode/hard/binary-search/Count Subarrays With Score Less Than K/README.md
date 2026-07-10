@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
-- Synced: 2026-07-10T10:26:50.428Z
+- Memory: 87.93 MB
+- Problem URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/2062742845/
+- Synced: 2026-07-10T10:27:46.622Z
 
 ## Problem Description
 
