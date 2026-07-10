@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/
-- Synced: 2026-07-10T16:40:09.137Z
+- Synced: 2026-07-10T16:42:08.483Z
 
 ## Problem Description
 
