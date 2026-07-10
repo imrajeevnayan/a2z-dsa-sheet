@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T13:20:40.745Z",
+  "submissionTimestamp": "2026-07-10T13:21:27.593Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Size Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/",
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/",
   "submissionId": "8n254i"
 }
