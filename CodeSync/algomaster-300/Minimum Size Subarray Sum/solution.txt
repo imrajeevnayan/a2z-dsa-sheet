@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: 69.48 MB
- * Synced: 2026-07-10T13:26:49.635Z
+ * Synced: 2026-07-10T13:27:35.462Z
  */
 
 int left=0,sum=0,minSum=Integer.MAX_VALUE;
