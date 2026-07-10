@@ -46,5 +46,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:sum-of-imbalance-numbers-of-all-subarrays": []
+  "leetcode:sum-of-imbalance-numbers-of-all-subarrays": [],
+  "leetcode:contiguous-array": [
+    "custom:algomaster-300"
+  ]
 }
