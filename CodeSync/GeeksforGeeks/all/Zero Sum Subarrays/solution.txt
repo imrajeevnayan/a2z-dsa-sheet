@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Zero Sum Subarrays
+ * URL: https://www.geeksforgeeks.org/problems/zero-sum-subarrays1825/1
+ * Language: long long int findSubarray(vector<long long int> &arr, int n ) { long long int result = 0; map<long long int, int> freq; long long int sum = 0; freq[0]++; for(int i = 1; i <= n; i++){ sum += arr[i-1]; freq[sum]++; result += freq[sum] - 1; } return result; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftOYO Rooms, Company Tags, Amazon, Microsoft, OYO Rooms, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T10:24:13.611Z
+ */
+
+class Solution {
+    public int findSubarray(int[] arr) {
+        HashMap<Integer,Integer>map=new HashMap<>();
+        map.put(0,1);
+        int count=0,sum=0;
+        for(int i=0;i<arr.length;i++){
+             sum+=arr[i];
+            if(map.containsKey(sum))count+=map.get(sum);
+            map.put(sum,map.getOrDefault(sum,0)+1);
+        }
+        return count;
+    }
+}
