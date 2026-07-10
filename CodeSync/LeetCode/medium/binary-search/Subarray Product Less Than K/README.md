@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/
-- Synced: 2026-07-10T17:33:53.006Z
+- Synced: 2026-07-10T17:34:48.990Z
 
 ## Problem Description
 
