@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/find-if-there-is-a-subarray-with-0-sum/
-- Synced: 2026-07-10T09:57:23.837Z
+- Synced: 2026-07-10T09:58:21.846Z
 
 ## Problem Description
 
