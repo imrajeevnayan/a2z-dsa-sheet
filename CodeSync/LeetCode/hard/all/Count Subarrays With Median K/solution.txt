@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Subarrays With Median K
+ * URL: https://leetcode.com/problems/count-subarrays-with-median-k/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T10:16:26.042Z
+ */
+
+class Solution {
+    public int countSubarrays(int[] nums, int k) {
+        
+    }
+}
