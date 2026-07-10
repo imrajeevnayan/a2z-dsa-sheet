@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: COUNT THE SUBARRAYS HAVING PRODCUT LESS THAN K ????‍????????‍????
+ * URL: https://www.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1
+ * Language: int countSubArrayProductLessThanK(const vector<int>& a, int n, long long k) { long long i=0,j=0,cnt=0,pro=1,ans=0; for(i=0;i<n;i++){ pro=1,cnt=0,j=i; while(j<n && pro*a[j]<k){ cnt++; pro*=a[j]; j++; } ans+=cnt; } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Goldman Sachs, Facebook, Walmart, Yatra.com, Amazon, Linkedin
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T12:00:42.122Z
+ */
+
+class Solution {
+    public int countSubarray(int[] nums, int k) {
+         int  left =0,count=0,prod=1;
+        if(k <=1) return 0;
+        for(int right=0;right<nums.length;right++){
+            prod*=nums[right];
+            while(prod>=k){
+                prod/=nums[left];
+                left++;
+            }
+            count+=right-left+1;
+        }
+        return count;
+        
+    }
+}
