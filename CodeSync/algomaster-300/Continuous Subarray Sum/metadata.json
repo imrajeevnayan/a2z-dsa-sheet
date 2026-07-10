@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-10T11:30:31.416Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Continuous Subarray Sum",
+  "problemUrl": "https://leetcode.com/problems/continuous-subarray-sum/description/",
+  "submissionId": "g0rtk8"
+}
