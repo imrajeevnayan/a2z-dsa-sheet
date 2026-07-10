@@ -1,17 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Continuous Subarray Sum
- * URL: https://leetcode.com/problems/continuous-subarray-sum/description/
+ * URL: https://leetcode.com/problems/continuous-subarray-sum/submissions/1880677752/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Math, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-10T12:27:53.297Z
+ * Runtime: 0 ms
+ * Memory: 135.70 MB
+ * Synced: 2026-07-10T12:28:43.575Z
  */
 
-class Solution {
-    public boolean checkSubarraySum(int[] nums, int k) {
-        
-    }
-}
+Input: nums = [23,2,4,6,7], k = 6
+Output: true
+Explanation: [2, 4] is a continuous subarray of size 2 whose elements sum up to 6.
