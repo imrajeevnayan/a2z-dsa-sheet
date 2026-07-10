@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-06T16:12:25.927Z",
+  "submissionTimestamp": "2026-07-09T12:02:50.921Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def countWays(self,n): a,b,c=0,0,1 for i in range(n): a,b,c=b,c,a+b+c return c",
+  "language": "class Solution { //BRUTE FORCE APPROACH:RECURSION+BACKTRACKING private void subsetSumsCheck(int index,int[] arr,int n,int sum,ArrayList<Integer> ans){ if(index >= n){ ans.add(sum); return; } subsetSumsCheck(index+1,arr,n,sum+arr[index],ans); subsetSumsCheck(index+1,arr,n,sum,ans); } public ArrayList<Integer> subsetSums(int[] arr) { ArrayList<Integer> ans = new ArrayList<>(); int n = arr.length; subsetSumsCheck(0,arr,n,0,ans); return ans; } } //T(n):T(n)=O(2^n) //Sc:T(n)=O(2^n)",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1",
-  "submissionId": "1ffo4d"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subset-sums2234/1",
+  "submissionId": "x0j077"
 }
