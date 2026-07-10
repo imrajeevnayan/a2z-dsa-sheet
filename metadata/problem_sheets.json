@@ -77,5 +77,23 @@
   "leetcode:search-insert-position": [
     "custom:algomaster-300",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "leetcode:search-a-2d-matrix": [
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
