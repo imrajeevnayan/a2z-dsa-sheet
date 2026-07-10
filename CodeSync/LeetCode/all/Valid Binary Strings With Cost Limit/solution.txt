@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Binary Strings With Cost Limit
+ * URL: https://leetcode.com/contest/weekly-contest-505/problems/valid-binary-strings-with-cost-limit/
+ * Language: Weekly Contest 505
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-09T13:41:19.204Z
+ */
+
+class Solution {
+    public List<String> generateValidStrings(int n, int k) {
+        
+    }
+}
