@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/
-- Synced: 2026-07-10T17:18:59.345Z
+- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/
+- Synced: 2026-07-10T17:19:02.059Z
 
 ## Problem Description
 
