@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-10T10:16:26.042Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Count Subarrays With Median K",
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-median-k/description/",
+  "submissionId": "kmke1n"
+}
