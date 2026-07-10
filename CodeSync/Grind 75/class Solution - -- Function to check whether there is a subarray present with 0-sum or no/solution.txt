@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution { // Function to check whether there is a subarray present with 0-sum or not. static boolean findsum(int arr[]) { // Your code here Set<Integer> set = new HashSet<>(); int sum =0; for(int num : arr){ sum+=num; if(sum==0 || set.contains(sum))return true; set.add(sum); // need to add summ beo thts where this imp } return false; }}
+ * URL: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T09:58:38.140Z
+ */
+
+class Solution {
+    static boolean findsum(int arr[]) {
+        Map<Integer,Integer>map=new HashMap<>();
+        map.put(0,1);
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            sum+=arr[i];
+            if(map.containsKey(sum)) return true;
+            else map.put(sum, map.getOrDefault(sum, 0) + 1);
+        }
+        return false;
+    }
+}
