@@ -1,25 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2057667797/
+ * URL: https://leetcode.com/submissions/detail/2062820293/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 42.07 MB
- * Synced: 2026-07-06T07:14:46.457Z
+ * Runtime: 2 ms
+ * Memory: 48.16 MB
+ * Synced: 2026-07-10T17:22:46.095Z
  */
 
 1class Solution {
-2    static int solve(int n ,int[]dp){
-3        if(n==0)return 1;
-4        if(n <0)return 0;
-5        if(dp[n]!=-1)return dp[n];
-6        return dp[n]= solve(n-1,dp)+solve(n-2,dp);
-7    }
-8    public int climbStairs(int n) {
-9        int dp[]=new int[n+1];
-10        Arrays.fill(dp,-1);
-11        return solve(n,dp );
-12    }
-13}
+2    public int numSubarrayProductLessThanK(int[] nums, int k) {
+3        int  left =0,count=0,prod=1;
+4        if(k <=1) return 0;
+5        for(int right=0;right<nums.length;right++){
+6            prod*=nums[right];
+7            while(prod>=k){
+8                prod/=nums[left];
+9                left++;
+10            }
+11            count+=right-left+1;
+12        }
+13        return count;
+14    }
+15}
