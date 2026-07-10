@@ -716,5 +716,6 @@
     "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:sum-of-compatible-numbers-in-range-i": [],
-  "leetcode:valid-binary-strings-with-cost-limit": []
+  "leetcode:valid-binary-strings-with-cost-limit": [],
+  "leetcode:maximum-sum-of-m-non-overlapping-subarrays-i": []
 }
