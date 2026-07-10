@@ -4,10 +4,10 @@
 - Language: Online Interview
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 1 ms
-- Memory: 44.58 MB
-- Problem URL: https://leetcode.com/submissions/detail/2051980374/
-- Synced: 2026-07-01T06:34:14.811Z
+- Runtime: 24 ms
+- Memory: 49.21 MB
+- Problem URL: https://leetcode.com/submissions/detail/2062711299/
+- Synced: 2026-07-10T17:26:54.929Z
 
 ## Problem Description
 
