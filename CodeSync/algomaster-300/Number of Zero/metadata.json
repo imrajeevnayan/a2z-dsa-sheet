@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T09:50:30.421Z",
-  "runtime": "0 ms",
-  "memoryUsage": "115.59 MB",
+  "submissionTimestamp": "2026-07-10T09:48:59.192Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Number of Zero",
-  "problemUrl": "https://leetcode.com/problems/number-of-zero-filled-subarrays/submissions/2062707294/",
+  "problemUrl": "https://leetcode.com/problems/number-of-zero-filled-subarrays/description/",
   "submissionId": "b022ot"
 }
