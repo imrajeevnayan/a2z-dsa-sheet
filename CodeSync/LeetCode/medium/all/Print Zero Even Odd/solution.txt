@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Print Zero Even Odd
- * URL: https://leetcode.com/problems/print-zero-even-odd/description/
- * Language: Concurrency
+ * URL: https://leetcode.com/problems/print-zero-even-odd/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Concurrency
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T17:11:11.292Z
+ * Synced: 2026-07-10T09:51:43.333Z
  */
 
 class ZeroEvenOdd {
@@ -23,7 +23,3 @@ class ZeroEvenOdd {
     }
 
     public void even(IntConsumer printNumber) throws InterruptedException {
-        
-    }
-
-    public void odd(IntConsumer printNumber) throws InterruptedException {
