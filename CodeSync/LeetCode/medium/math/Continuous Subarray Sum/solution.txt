@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Math, Prefix Sum
  * Runtime: 0 ms
  * Memory: 135.70 MB
- * Synced: 2026-07-10T12:31:17.226Z
+ * Synced: 2026-07-10T12:32:05.251Z
  */
 
 Input: nums = [23,2,4,6,7], k = 6
