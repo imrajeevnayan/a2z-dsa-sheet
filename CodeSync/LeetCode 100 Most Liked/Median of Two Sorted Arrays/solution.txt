@@ -5,31 +5,14 @@
  * Language: nums1
  * Difficulty: Hard
  * Topics: Hard Topics Company Tags Hints, Topics, Company Tags, Hints, Array Binary Search Divide and Conquer, Array, Binary Search, Divide and Conquer
- * Runtime: 84ms
- * Memory: 63.5 MB
- * Synced: 2026-07-10T05:54:44.554Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-10T05:52:04.143Z
  */
 
 int[] arr = new int[m + n];
-        int m = nums1.length, n = nums2.length;
+
+        int m = nums1.length;
+        int n = nums2.length;
+
         int i = 0, j = 0, k = 0;
-
-        while (i < m && j < n) {
-            if (nums1[i] <= nums2[j]) arr[k++] = nums1[i++];
-            else  arr[k++] = nums2[j++];
-            
-        }
-
-        while (i < m) arr[k++] = nums1[i++];
-        while (j < n) arr[k++] = nums2[j++];
-
-        int len = m + n;
-
-        if (len % 2 == 0) {
-            return (arr[len / 2] + arr[len / 2 - 1]) / 2.0;
-        }
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-class Solution {
-
-        return arr[len / 2];
-    }
