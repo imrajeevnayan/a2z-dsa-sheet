@@ -123,5 +123,8 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:unknown-problem": []
+  "leetcode:unknown-problem": [],
+  "leetcode:number-of-zero-filled-subarrays": [
+    "custom:algomaster-300"
+  ]
 }
