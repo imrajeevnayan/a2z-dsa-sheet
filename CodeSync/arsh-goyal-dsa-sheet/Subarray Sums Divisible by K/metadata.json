@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-10T10:35:57.822Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-10T10:36:48.737Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Subarray Sums Divisible by K",
   "problemUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
-  "submissionId": "hk2pfd"
+  "submissionId": "thyubo"
 }
