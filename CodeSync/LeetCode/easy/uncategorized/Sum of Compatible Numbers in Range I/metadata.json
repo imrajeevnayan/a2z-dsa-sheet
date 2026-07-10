@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-09T13:39:48.918Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-09T13:40:34.302Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.58 MB",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 505",
   "problemTitle": "Sum of Compatible Numbers in Range I",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/description/",
-  "submissionId": "ftoagc"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-505/problems/sum-of-compatible-numbers-in-range-i/submissions/2061779463/",
+  "submissionId": "l6rtc6"
 }
