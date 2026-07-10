@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.76 MB
 - Problem URL: https://leetcode.com/problems/house-robber-ii/
-- Synced: 2026-07-09T11:36:11.997Z
+- Synced: 2026-07-09T11:36:59.996Z
 
 ## Problem Description
 
