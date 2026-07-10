@@ -7,5 +7,8 @@
   ],
   "geeksforgeeks:subarray-with-sum-zero": [
     "GFG160"
+  ],
+  "leetcode:maximum-matrix-sum": [
+    "custom:algomaster-300"
   ]
 }
