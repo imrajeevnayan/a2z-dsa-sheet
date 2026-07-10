@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
-- Synced: 2026-06-28T18:00:27.489Z
+- Synced: 2026-07-10T08:58:49.486Z
 
 ## Problem Description
 
