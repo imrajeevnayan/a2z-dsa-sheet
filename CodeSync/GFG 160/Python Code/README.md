@@ -1,18 +1,18 @@
 # Python Code
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr
+- Language: class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles
+- Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/reverse-sub-array5620/1
-- Synced: 2026-07-07T16:04:58.429Z
+- Problem URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+- Synced: 2026-07-10T07:18:51.564Z
 
 ## Problem Description
 
-Given an array arr, you need to reverse a subarray of that array. The range of this subarray is given by indices l and r (1-based indexing). Examples: Input: arr[] = [1, 2, 3, 4, 5, 6, 7], l = 2, r = 4 Output: [1, 4, 3, 2, 5, 6, 7] Explanation: After reversing the elements in range 2 to 4 (2, 3, 4), modified array is 1, 4, 3, 2, 5, 6, 7. Input: arr[] = [1, 6, 7, 4], l = 1, r = 4 Output: [4, 7, 6, 1] Explanation: After reversing the elements in range 1 to 4 (1, 6, 7, 4), modified array is 4, 7, 6, 1. Constraints: 1 ≤ arr.size() ≤ 106 1 ≤ arr[i] ≤ 106 1 ≤ l ≤ r ≤ arr.size()
+Given an array of integers arr[] and a number k. Return the maximum sum of a subarray of size k. Note: A subarray is a contiguous part of any given array. Examples: Input: arr[] = [100, 200, 300, 400], k = 2 Output: 700 Explanation: arr2 + arr3 = 700, which is maximum. Input: arr[] = [1, 4, 2, 10, 23, 3, 1, 0, 20], k = 4 Output: 39 Explanation: arr1 + arr2 + arr3 + arr4 = 39, which is maximum. Input: arr[] = [100, 200, 300, 400], k = 1 Output: 400 Explanation: arr3 = 400, which is maximum. Constraints: 1 ≤ arr.size() ≤ 106 0 ≤ arr[i] ≤ 106 1 ≤ k ≤ arr.size()
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def reverseSubArray(self,arr,l,r): left = l-1 # left index right = r-1 # right index while left < right: arr[left],arr[right] = arr[right],arr[left] left += 1 right -= 1 return arr. The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum. The detected topics are Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window. Review the synced source file for the implementation details.
