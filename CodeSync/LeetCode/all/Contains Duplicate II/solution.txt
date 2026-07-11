@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T17:03:48.210Z
+ * Synced: 2026-07-11T17:04:33.411Z
  */
 
 class Solution {
@@ -19,5 +19,6 @@ class Solution {
         }
       }
     }
-        ma
+        map.put(nums[i],i);
+            if(i-prev<=k)return true;
 }
