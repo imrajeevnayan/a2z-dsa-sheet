@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-10T14:48:26.022Z",
+  "submissionTimestamp": "2026-07-11T16:41:03.500Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "8zld95"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/",
+  "submissionId": "m684p6"
 }
