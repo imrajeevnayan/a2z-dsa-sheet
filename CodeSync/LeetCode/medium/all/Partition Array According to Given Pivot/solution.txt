@@ -7,11 +7,21 @@
  * Topics: Array, Two Pointers, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T18:54:14.016Z
+ * Synced: 2026-07-11T18:54:59.286Z
  */
 
-class Solution {
+// Equal to pivot
+        for (int num : nums) {
+            if (num == pivot)
+                ans[index++] = num;
+        }
+        for (int num : nums) {
+            if (num < pivot)  ans[index++] = num;
+
+        // Less than pivot
+        int index = 0;
+        int[] ans = new int[nums.length];
+
     public int[] pivotArray(int[] nums, int pivot) {
-        
-    }
-}
+class Solution {
+        }
