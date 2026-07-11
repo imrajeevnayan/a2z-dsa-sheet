@@ -1,22 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Partition Array According to Given Pivot
- * URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
+ * URL: https://leetcode.com/problems/return-length-of-arguments-passed/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T19:19:50.312Z
+ * Synced: 2026-07-11T19:20:34.936Z
  */
 
-class Solution {
-    public int[] pivotArray(int[] nums, int pivot) {
-        int[] ans = new int[nums.length];
-        int index = 0;
-
-        // Less than pivot
-        for (int num : nums) {
+for (int num : nums) {
             if (num < pivot)  ans[index++] = num;
         }
 
@@ -26,3 +20,10 @@ class Solution {
         }
 
         // Greater than pivot
+        // Less than pivot
+        int index = 0;
+
+        int[] ans = new int[nums.length];
+        for (int num : nums) {
+            if (num > pivot) ans[index++] = num;
+        }
