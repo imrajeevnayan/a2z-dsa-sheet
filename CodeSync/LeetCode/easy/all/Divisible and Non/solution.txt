@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Divisible and Non
+ * URL: https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/
+ * Language: Algorithms
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:06:25.613Z
+ */
+
+class Solution {
+    public int differenceOfSums(int n, int m) {
+        int divisibleSum = 0;
+        int nonDivisibleSum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (i % m == 0) divisibleSum += i;
+            else  nonDivisibleSum += i;
+            
+        }
+        return nonDivisibleSum - divisibleSum;
+    }
+}
