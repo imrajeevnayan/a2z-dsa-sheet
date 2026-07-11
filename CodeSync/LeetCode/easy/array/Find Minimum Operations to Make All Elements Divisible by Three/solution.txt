@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Minimum Operations to Make All Elements Divisible by Three
+ * URL: https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/
+ * Language: Algorithms
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:07:50.229Z
+ */
+
+class Solution {
+    public int minimumOperations(int[] nums) {
+        int count = 0;
+
+        for (int num : nums) {
+            if (num % 3 != 0) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
