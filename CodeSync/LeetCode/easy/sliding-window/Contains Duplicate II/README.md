@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 0.00 MB
 - Problem URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2064103272/
-- Synced: 2026-07-11T17:05:20.150Z
+- Synced: 2026-07-11T17:06:16.154Z
 
 ## Problem Description
 
