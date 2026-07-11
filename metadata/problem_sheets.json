@@ -184,5 +184,31 @@
   "leetcode:patterns": [],
   "leetcode:sort-list": [],
   "leetcode:sliding-window-technique-and-question-bank": [],
-  "leetcode:maximum-subsequence-score": []
+  "leetcode:maximum-subsequence-score": [],
+  "leetcode:two-sum-ii-input-array-is-sorted": [
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "LeetCode75",
+    "Top100Liked",
+    "LoveBabbar450",
+    "NishantChahar151",
+    "KushalVijay20",
+    "ApnaCollege375",
+    "FrazBhaiya",
+    "AlgoMaster75",
+    "SixComp30Days",
+    "Striver79",
+    "AtharvaPatil150",
+    "StriverSDE",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
