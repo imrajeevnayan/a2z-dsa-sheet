@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-words-containing-character/
-- Synced: 2026-07-11T09:58:02.933Z
+- Synced: 2026-07-11T09:58:51.885Z
 
 ## Problem Description
 
