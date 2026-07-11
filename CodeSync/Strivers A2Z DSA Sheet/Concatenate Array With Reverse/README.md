@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/concatenate-array-with-reverse/description/
-- Synced: 2026-07-11T19:09:08.947Z
+- Problem URL: https://leetcode.com/problems/concatenate-array-with-reverse/
+- Synced: 2026-07-11T19:11:14.726Z
 
 ## Problem Description
 
