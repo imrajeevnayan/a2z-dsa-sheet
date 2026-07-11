@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: 0 ms
  * Memory: 46.50 MB
- * Synced: 2026-07-11T17:15:47.160Z
+ * Synced: 2026-07-11T17:16:58.183Z
  */
 
 for (int i = k; i < s.length(); i++) {
