@@ -265,5 +265,9 @@
     "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:maximum-number-of-vowels-in-a-substring-of-given-length": [],
-  "leetcode:substrings-of-size-three-with-distinct-characters": []
+  "leetcode:substrings-of-size-three-with-distinct-characters": [],
+  "leetcode:partition-array-according-to-given-pivot": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
