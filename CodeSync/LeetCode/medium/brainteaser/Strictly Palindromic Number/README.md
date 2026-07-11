@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/strictly-palindromic-number/description/
-- Synced: 2026-07-11T18:58:37.083Z
+- Synced: 2026-07-11T19:00:32.073Z
 
 ## Problem Description
 
