@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Permutation in String
+ * URL: https://leetcode.com/problems/permutation-in-string/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, Two Pointers, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T16:48:19.211Z
+ */
+
+class Solution {
+    public boolean checkInclusion(String s1, String s2) {
+        
+    }
+}
