@@ -1,28 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Subarrays with K Different Integers
- * URL: https://leetcode.com/problems/subarrays-with-k-different-integers/description/
+ * URL: https://leetcode.com/problems/subarrays-with-k-different-integers/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Hash Table, Sliding Window, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T09:20:25.667Z
+ * Synced: 2026-07-11T09:21:15.000Z
  */
 
-for (int right = 0; right < nums.length; right++) {
-            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
-            while (map.size() > k) {
-                map.put(nums[left], map.get(nums[left]) - 1);
-
-                if (map.get(nums[left]) == 0) {
-                    map.remove(nums[left]);
-                }
-                left++;
-        int left = 0, ans = 0;
-    private int atMost(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-    }
-    public int subarraysWithKDistinct(int[] nums, int k) {
-        return atMost(nums, k) - atMost(nums, k - 1);
 class Solution {
+    public int subarraysWithKDistinct(int[] nums, int k) {
+        
+    }
+}
