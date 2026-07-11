@@ -6,8 +6,8 @@
  * Difficulty: Hard
  * Topics: Array, Hash Table, Sliding Window, Counting
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-10T19:07:29.767Z
+ * Memory: 50.00 MB
+ * Synced: 2026-07-10T19:08:15.912Z
  */
 
 map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
