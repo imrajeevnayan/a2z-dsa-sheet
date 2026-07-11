@@ -1,28 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Keep Going! 💪
- * URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+ * URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/2063236277/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-10T18:55:07.174Z
+ * Runtime: 0 ms
+ * Memory: 89.04 MB
+ * Synced: 2026-07-10T18:56:04.037Z
  */
 
-int left = 0,ans = 0;
-        for (int right = 0; right < nums.length; right++) {
-            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+count.put(number, count.getOrDefault(number, 0) + 1);
 
-            while (map.get(nums[right]) > k) {
-                map.put(nums[left],map.get(nums[left]) - 1);
+            while (count.get(number) > k) {
+                count.put(nums[left], count.get(nums[left]) - 1);
                 left++;
             }
-            ans = Math.max(ans, right - left + 1);
+            maxLength = Math.max(maxLength, right - left + 1);
+            right++;
         }
-        return ans;
+        return maxLength;
     }
 }
-    public int maxSubarrayLength(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-class Solution {
