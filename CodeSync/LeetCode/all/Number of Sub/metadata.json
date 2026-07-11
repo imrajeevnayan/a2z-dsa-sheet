@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-10T17:02:52.259Z",
-  "runtime": "0 ms",
-  "memoryUsage": "82.15 MB",
+  "submissionTimestamp": "2026-07-11T17:07:50.628Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Math",
-    "Dynamic Programming",
-    "Prefix Sum"
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Prefix Sum",
+  "language": "Problem List",
   "problemTitle": "Number of Sub",
-  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "qaa5fo"
+  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/",
+  "submissionId": "eykk51"
 }
