@@ -1,28 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Window Substring
- * URL: https://leetcode.com/problems/minimum-window-substring/
+ * URL: https://leetcode.com/problems/minimum-window-substring/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Hash Table, String, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T09:50:16.143Z
+ * Synced: 2026-07-11T09:51:49.983Z
  */
 
-char rightChar = s.charAt(right);
-        for (int right = 0; right < s.length(); right++) {
-        int[] windowMap = new int[128];
-        int matchCount = 0; 
-        int minStart = 0;
-        int minLen = Integer.MAX_VALUE;
-            windowMap[rightChar]++;
-
-            // If this character is needed and we haven't over-collected it yet
-            if (target[rightChar] > 0 && windowMap[rightChar] <= target[rightChar])matchCount++;
-            
-            while (matchCount == t.length()) {
-                if (right - left + 1 < minLen) {
-                    minLen = right - left + 1;
-                    minStart = left;
-                }
+int minLen = Integer.MAX_VALUE, start = 0;
+    for (int right = 0; right < s.length(); right++) {
+      if (freq[s.charAt(right)]-- > 0) count--;
+      while (count == 0) {
+        if (right - left + 1 < minLen) {
+          minLen = right - left + 1;
+          start = left;
+        }
+        if (freq[s.charAt(left++)]++ == 0) count++;
+    int left = 0, count = t.length();
+      }
+    }
+    for (char c : t.toCharArray()) freq[c]++;
+  public String minWindow(String s, String t) {
+    int[] freq = new int[128];
+class Solution {
