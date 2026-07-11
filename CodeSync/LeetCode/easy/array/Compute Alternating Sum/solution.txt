@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Compute Alternating Sum
- * URL: https://leetcode.com/problems/compute-alternating-sum/
+ * URL: https://leetcode.com/problems/compute-alternating-sum/submissions/2063741849/
  * Language: Algorithms
  * Difficulty: Easy
  * Topics: Array, Simulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-11T10:12:07.664Z
+ * Memory: 46.64 MB
+ * Synced: 2026-07-11T10:13:05.271Z
  */
 
 class Solution {
