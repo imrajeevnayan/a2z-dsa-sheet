@@ -270,5 +270,14 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:strictly-palindromic-number": []
+  "leetcode:strictly-palindromic-number": [],
+  "leetcode:concatenate-array-with-reverse": [
+    "StriverA2Z",
+    "LoveBabbar450",
+    "GFG160",
+    "StriverSDE",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
