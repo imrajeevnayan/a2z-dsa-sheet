@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-11T09:50:16.143Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Minimum Window Substring",
+  "problemUrl": "https://leetcode.com/problems/minimum-window-substring/",
+  "submissionId": "nl7d3m"
+}
