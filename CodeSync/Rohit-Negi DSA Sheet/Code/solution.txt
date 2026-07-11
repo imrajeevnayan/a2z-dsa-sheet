@@ -1,28 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
+ * URL: https://leetcode.com/problems/subarray-product-less-than-k/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T06:11:54.167Z
+ * Synced: 2026-07-11T16:42:03.346Z
  */
 
 class Solution {
-    public int numSubarrayProductLessThanK(int[] nums, 
-    int k) {
-        int  left =0,count=0,prod=1;
-        if(k <=1) return 0;
-        for(int right=0;right<nums.length;right++){
-            prod*=nums[right];
-            while(prod>=k){
-                prod/=nums[left];
-                left++;
+    public int numSubarrayProductLessThanK(int[] nums, int k) {
+        if (k <= 1) return 0;
+        int start = 0, count = 0, product = 1;
+        for (int end = 0; end < nums.length; end++) {
+            product *= nums[end];
+            while (product >= k) {
+                product /= nums[start];
+                start++;
             }
-            count+=right-left+1;
+            count += end - start + 1;
         }
-        return count;
+        return count;  
     }
 }
