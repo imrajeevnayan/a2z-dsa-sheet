@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/
-- Synced: 2026-07-11T18:54:59.286Z
+- Problem URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
+- Synced: 2026-07-11T19:19:50.312Z
 
 ## Problem Description
 
