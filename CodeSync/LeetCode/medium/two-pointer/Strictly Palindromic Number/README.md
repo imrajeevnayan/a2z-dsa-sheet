@@ -6,8 +6,8 @@
 - Topics: Math, Two Pointers, Brainteaser
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/strictly-palindromic-number/
-- Synced: 2026-07-11T18:56:40.078Z
+- Problem URL: https://leetcode.com/problems/strictly-palindromic-number/description/
+- Synced: 2026-07-11T18:57:49.077Z
 
 ## Problem Description
 
