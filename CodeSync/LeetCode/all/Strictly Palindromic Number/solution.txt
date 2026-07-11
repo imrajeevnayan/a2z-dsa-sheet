@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Strictly Palindromic Number
- * URL: https://leetcode.com/problems/strictly-palindromic-number/
+ * URL: https://leetcode.com/problems/strictly-palindromic-number/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Two Pointers, Brainteaser
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T18:56:40.078Z
+ * Synced: 2026-07-11T18:57:49.077Z
  */
 
 class Solution {
