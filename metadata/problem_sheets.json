@@ -128,5 +128,11 @@
     "custom:algomaster-300"
   ],
   "leetcode:length-of-longest-subarray-with-at-most-k-frequency": [],
-  "leetcode:count-subarrays-where-max-element-appears-at-least-k-times": []
+  "leetcode:count-subarrays-where-max-element-appears-at-least-k-times": [],
+  "leetcode:max-consecutive-ones-iii": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
