@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Element After Replacement With Digit Sum
+ * URL: https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T19:25:26.548Z
+ */
+
+}
+        return sum;
+    }
+    public int minElement(int[] nums) {
+        int min = Integer.MAX_VALUE;
+            sum += num % 10;
+            num /= 10;
+        while (num > 0) {
+    private int digitSum(int num) {
+        int sum = 0;
+class Solution {
+        for (int num : nums) {
+            min = Math.min(min, digitSum(num));
+        }
+        return min;
+    }
