@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 35/75)
+ * URL: https://www.geeksforgeeks.org/problems/wave-array-1587115621/1
+ * Language: from typing import List class Solution: def convertToWave(self, array_length: int, array: List[int]) -> None: # Loop through the array with a step of 2 (starting from index 1) for i in range(1, array_length, 2): # Swap the current element with the next element array[i - 1], array[i] = array[i], array[i - 1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, FactSet, Goldman Sachs
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T06:47:54.824Z
+ */
+
+class Solution {
+    public void sortInWave(int arr[]) {
+        for (int i = 0; i < arr.length - 1; i += 2) {
+            int temp = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = temp;
+        }
+    }
+}
