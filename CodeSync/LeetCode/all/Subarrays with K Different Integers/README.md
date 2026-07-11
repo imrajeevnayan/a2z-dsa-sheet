@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 50.00 MB
 - Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/2063245326/
-- Synced: 2026-07-10T19:09:01.910Z
+- Synced: 2026-07-10T19:16:02.729Z
 
 ## Problem Description
 
