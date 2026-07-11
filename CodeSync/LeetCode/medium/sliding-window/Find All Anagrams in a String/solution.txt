@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Find All Anagrams in a String
- * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+ * URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/2064084719/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-11T16:47:16.566Z
+ * Runtime: 0 ms
+ * Memory: 46.88 MB
+ * Synced: 2026-07-11T16:48:04.159Z
  */
 
-class Solution {
-    public List<Integer> findAnagrams(String s, String p) {
-        
+for (int i = p.length(); i < s.length(); i++) {
+            sCount[s.charAt(i) - 'a']++; // Add right element
+            sCount[s.charAt(i - p.length()) - 'a']--; // Remove left element
+
+            if (Arrays.equals(pCount, sCount)) {
+                result.add(i - p.length() + 1);
+            }
+        }
+        return result;
     }
 }
