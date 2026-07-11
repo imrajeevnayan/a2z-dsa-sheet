@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Two Sum II
+ * URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T16:42:48.158Z
+ */
+
+class Solution {
+    public int numSubarrayProductLessThanK(int[] nums, int k) {
+        if (k <= 1) return 0;
+        int start = 0, count = 0, product = 1;
+        for (int end = 0; end < nums.length; end++) {
+            product *= nums[end];
+            while (product >= k) {
+                product /= nums[start];
+                start++;
+            }
+            count += end - start + 1;
+        }
+        return count;  
+    }
+}
