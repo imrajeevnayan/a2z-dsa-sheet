@@ -269,5 +269,6 @@
   "leetcode:partition-array-according-to-given-pivot": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
-  ]
+  ],
+  "leetcode:strictly-palindromic-number": []
 }
