@@ -185,5 +185,6 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
-  ]
+  ],
+  "leetcode:convert-date-to-binary": []
 }
