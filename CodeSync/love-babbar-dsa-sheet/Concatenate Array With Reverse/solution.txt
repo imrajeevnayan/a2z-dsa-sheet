@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Concatenate Array With Reverse
- * URL: https://leetcode.com/problems/concatenate-array-with-reverse/description/
+ * URL: https://leetcode.com/problems/concatenate-array-with-reverse/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T19:09:08.947Z
+ * Synced: 2026-07-11T19:11:14.726Z
  */
 
 class Solution {
     public int[] concatWithReverse(int[] nums) {
         int n = nums.length;
         int[] ans = new int[2 * n];
-        int j=0
+        int j=0;
         for (int i = 0; i < n; i++) ans[j++] = nums[i];
         
-        for (int i = n-1; i >0; i--)  ans[j++] = nums[i];
+        for (int i = n-1; i >=0; i--)  ans[j++] = nums[i];
         return ans;
     }
 }
