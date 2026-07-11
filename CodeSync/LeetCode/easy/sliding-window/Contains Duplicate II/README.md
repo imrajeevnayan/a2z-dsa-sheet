@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/contains-duplicate-ii/
-- Synced: 2026-07-11T16:56:10.893Z
+- Synced: 2026-07-11T16:57:00.538Z
 
 ## Problem Description
 
