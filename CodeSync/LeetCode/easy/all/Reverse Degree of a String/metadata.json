@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-11T10:17:54.317Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Algorithms",
+  "problemTitle": "Reverse Degree of a String",
+  "problemUrl": "https://leetcode.com/problems/reverse-degree-of-a-string/",
+  "submissionId": "3muxjd"
+}
