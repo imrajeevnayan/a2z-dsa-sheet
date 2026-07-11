@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 80.96 MB
 - Problem URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2064086957/
-- Synced: 2026-07-11T16:49:53.190Z
+- Synced: 2026-07-11T16:50:39.167Z
 
 ## Problem Description
 
