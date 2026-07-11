@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-11T10:02:44.259Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "platform": "LeetCode",
+  "language": "Algorithms",
+  "problemTitle": "Minimum Operations to Make Array Sum Divisible by K",
+  "problemUrl": "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/",
+  "submissionId": "chhkm7"
+}
