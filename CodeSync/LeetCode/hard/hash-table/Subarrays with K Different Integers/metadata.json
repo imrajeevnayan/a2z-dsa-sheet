@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T10:15:00.846Z",
+  "submissionTimestamp": "2026-07-10T19:05:54.171Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarrays with K Different Integers",
-  "problemUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+  "problemUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/description/",
   "submissionId": "852p2m"
 }
