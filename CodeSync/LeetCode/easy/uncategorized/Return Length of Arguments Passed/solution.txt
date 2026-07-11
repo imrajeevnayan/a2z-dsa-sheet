@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Return Length of Arguments Passed
+ * URL: https://leetcode.com/problems/return-length-of-arguments-passed/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T19:11:53.134Z
+ */
+
+/**
+ * @param {...(null|boolean|number|string|Array|Object)} args
+ * @return {number}
+ */
+var argumentsLength = function(...args) {
+    
+};
+
+/**
+ * argumentsLength(1, 2, 3); // 3
+ */
