@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-11T18:54:14.016Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Partition Array According to Given Pivot",
+  "problemUrl": "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
+  "submissionId": "r3ae1b"
+}
