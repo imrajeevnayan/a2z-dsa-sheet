@@ -7,7 +7,7 @@
  * Topics: Math, Two Pointers, Brainteaser
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T19:01:42.076Z
+ * Synced: 2026-07-11T19:03:19.081Z
  */
 
 class Solution {
