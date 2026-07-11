@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-11T19:13:17.082Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Substrings With Distinct Start",
+  "problemUrl": "https://leetcode.com/problems/maximum-substrings-with-distinct-start/",
+  "submissionId": "lbf57q"
+}
