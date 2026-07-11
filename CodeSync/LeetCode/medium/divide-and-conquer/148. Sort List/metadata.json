@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-11T16:25:19.506Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Divide and Conquer",
+    "Sorting",
+    "Merge Sort"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "148. Sort List",
+  "problemUrl": "https://leetcode.com/problems/sort-list/description/",
+  "submissionId": "yvzhcy"
+}
