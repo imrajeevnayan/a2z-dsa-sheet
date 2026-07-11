@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/
-- Synced: 2026-07-10T18:56:37.562Z
+- Synced: 2026-07-10T18:57:48.224Z
 
 ## Problem Description
 
