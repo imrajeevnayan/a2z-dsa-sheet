@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Permutation in String
- * URL: https://leetcode.com/problems/permutation-in-string/description/
+ * URL: https://leetcode.com/problems/permutation-in-string/submissions/2064085573/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Two Pointers, String, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-11T16:48:19.211Z
+ * Runtime: 0 ms
+ * Memory: 44.14 MB
+ * Synced: 2026-07-11T16:49:05.112Z
  */
+
+s1Count[s1.charAt(i) - 'a']++;
+            s2Count[s2.charAt(i) - 'a']++;
+        }
+
+        if (Arrays.equals(s1Count, s2Count)) return true;
+
+        for (int i = s1.length(); i < s2.length(); i++) {
+            s2Count[s2.charAt(i) - 'a']++;
+
+        for (int i = 0; i < s1.length(); i++) {
+        int[] s1Count = new int[26];
+        int[] s2Count = new int[26];
+        if (s1.length() > s2.length()) return false;
 
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        
-    }
-}
