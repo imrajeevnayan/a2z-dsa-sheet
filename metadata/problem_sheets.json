@@ -177,5 +177,6 @@
   "leetcode:find-minimum-operations-to-make-all-elements-divisible-by-three": [],
   "leetcode:jewels-and-stones": [],
   "leetcode:compute-alternating-sum": [],
-  "leetcode:count-number-of-maximum-bitwise-or-subsets": []
+  "leetcode:count-number-of-maximum-bitwise-or-subsets": [],
+  "leetcode:count-the-number-of-consistent-strings": []
 }
