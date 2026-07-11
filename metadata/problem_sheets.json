@@ -171,5 +171,6 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:find-words-containing-character": [],
-  "leetcode:minimum-operations-to-make-array-sum-divisible-by-k": []
+  "leetcode:minimum-operations-to-make-array-sum-divisible-by-k": [],
+  "leetcode:find-the-maximum-achievable-number": []
 }
