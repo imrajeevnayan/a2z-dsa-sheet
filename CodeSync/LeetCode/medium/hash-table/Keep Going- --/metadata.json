@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-10T18:40:36.247Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Keep Going! 💪",
+  "problemUrl": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/",
+  "submissionId": "futed8"
+}
