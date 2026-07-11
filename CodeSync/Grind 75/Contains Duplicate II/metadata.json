@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-11T17:04:33.411Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-11T17:05:20.150Z",
+  "runtime": "0 ms",
+  "memoryUsage": "0.00 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Contains Duplicate II",
-  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/",
-  "submissionId": "8sd13l"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/submissions/2064103272/",
+  "submissionId": "maxt3l"
 }
