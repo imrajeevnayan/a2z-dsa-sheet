@@ -5,22 +5,24 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-10T18:45:56.106Z
+ * Synced: 2026-07-10T18:47:41.169Z
  */
 
 for (int right = 0; right < nums.length; right++) {
-            freq.put(nums[right], freq.getOrDefault(nums[right], 0) + 1);
+            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 
-            while (freq.get(nums[right]) > k) {
-                freq.put(nums[left], freq.get(nums[left]) - 1);
+            while (map.get(nums[right]) > k) {
+                map.put(nums[left],map.get(nums[left]) - 1);
                 left++;
             }
-
             ans = Math.max(ans, right - left + 1);
-        int left = 0;ans = 0;
+        int left = 0,ans = 0;
     public int maxSubarrayLength(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
 class Solution {
         }
+        return ans;
+    }
+}
