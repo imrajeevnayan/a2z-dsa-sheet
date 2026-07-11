@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-10T18:56:37.562Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Count Subarrays Where Max Element Appears at Least K Times",
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/",
+  "submissionId": "t7s3hp"
+}
