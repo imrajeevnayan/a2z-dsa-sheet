@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
-- Synced: 2026-07-10T18:52:27.875Z
+- Synced: 2026-07-10T18:53:15.006Z
 
 ## Problem Description
 
