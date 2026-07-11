@@ -4,10 +4,10 @@
 - Language: Algorithms
 - Difficulty: Easy
 - Topics: Hash Table, String
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/permutation-difference-between-two-strings/
-- Synced: 2026-07-11T10:15:27.618Z
+- Problem URL: https://leetcode.com/problems/permutation-difference-between-two-strings/description/
+- Synced: 2026-07-11T10:16:21.409Z
 
 ## Problem Description
 
