@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
-- Synced: 2026-07-11T19:19:50.312Z
+- Problem URL: https://leetcode.com/problems/return-length-of-arguments-passed/
+- Synced: 2026-07-11T19:20:34.936Z
 
 ## Problem Description
 
