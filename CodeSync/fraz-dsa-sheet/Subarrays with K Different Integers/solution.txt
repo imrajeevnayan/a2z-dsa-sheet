@@ -7,17 +7,10 @@
  * Topics: Array, Hash Table, Sliding Window, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T09:18:09.668Z
+ * Synced: 2026-07-11T09:18:54.670Z
  */
 
-class Solution {
-    public int subarraysWithKDistinct(int[] nums, int k) {
-        return atMost(nums, k) - atMost(nums, k - 1);
-    }
-    private int atMost(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int left = 0, ans = 0;
-        for (int right = 0; right < nums.length; right++) {
+for (int right = 0; right < nums.length; right++) {
             map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
             while (map.size() > k) {
                 map.put(nums[left], map.get(nums[left]) - 1);
@@ -26,3 +19,10 @@ class Solution {
                     map.remove(nums[left]);
                 }
                 left++;
+        int left = 0, ans = 0;
+    private int atMost(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+    }
+    public int subarraysWithKDistinct(int[] nums, int k) {
+        return atMost(nums, k) - atMost(nums, k - 1);
+class Solution {
