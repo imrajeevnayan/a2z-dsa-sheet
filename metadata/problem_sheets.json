@@ -178,5 +178,6 @@
   "leetcode:jewels-and-stones": [],
   "leetcode:compute-alternating-sum": [],
   "leetcode:count-number-of-maximum-bitwise-or-subsets": [],
-  "leetcode:count-the-number-of-consistent-strings": []
+  "leetcode:count-the-number-of-consistent-strings": [],
+  "leetcode:permutation-difference-between-two-strings": []
 }
