@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-11T16:44:39.158Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-11T16:45:28.171Z",
+  "runtime": "0 ms",
+  "memoryUsage": "77.41 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Container With Most Water",
-  "problemUrl": "https://leetcode.com/problems/container-with-most-water/",
-  "submissionId": "x5p1yb"
+  "problemUrl": "https://leetcode.com/problems/container-with-most-water/submissions/2064081896/",
+  "submissionId": "k2jm5h"
 }
