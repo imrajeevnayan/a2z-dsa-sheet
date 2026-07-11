@@ -180,5 +180,6 @@
     "custom:love-babbar-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:convert-date-to-binary": []
+  "leetcode:convert-date-to-binary": [],
+  "leetcode:patterns": []
 }
