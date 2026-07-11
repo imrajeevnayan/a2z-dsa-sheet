@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Permutation in String
- * URL: https://leetcode.com/problems/permutation-in-string/submissions/2064085573/
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2064086957/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Two Pointers, String, Sliding Window
  * Runtime: 10 ms
  * Memory: 44.14 MB
- * Synced: 2026-07-11T16:52:52.000Z
+ * Synced: 2026-07-11T16:52:54.026Z
  */
 
 Input: s1 = "ab", s2 = "eidbaooo"
