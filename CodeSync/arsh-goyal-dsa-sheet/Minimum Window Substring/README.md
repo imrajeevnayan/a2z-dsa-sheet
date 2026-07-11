@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sliding Window
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-window-substring/
-- Synced: 2026-07-11T09:50:16.143Z
+- Problem URL: https://leetcode.com/problems/minimum-window-substring/description/
+- Synced: 2026-07-11T09:51:49.983Z
 
 ## Problem Description
 
