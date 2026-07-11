@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-11T06:47:06.533Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "VMWare",
+    "Amazon",
+    "Microsoft",
+    "MakeMyTrip",
+    "Google",
+    "Snapdeal"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int maxIndexDiff(vector<int>& arr) { // Your code here int n = arr.size(); vector<int> leftMin(n), rightMax(n); leftMin[0] = arr[0]; for(int i = 1; i < n; i++){ leftMin[i] = min(arr[i], leftMin[i - 1]); } rightMax[n - 1] = arr[n - 1]; for(int i = n - 2; i > -1; i--){ rightMax[i] = max(arr[i], rightMax[i + 1]); } int left = 0, right = 0, ans = -1; while(left < n && right < n){ if(leftMin[left] <= rightMax[right]){ ans = max(ans, right - left); right++; //To maximize j - i, we try to push j forward (larger j means bigger range) } else left++; } return ans; }",
+  "problemTitle": "// Easiest Solution Ever🐱‍🐉, I'm 4 Years Old! 🌈🦄",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-index-1587115620/1",
+  "submissionId": "r1hufu"
+}
