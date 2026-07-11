@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T19:19:50.312Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-11T19:20:34.936Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Partition Array According to Given Pivot",
-  "problemUrl": "https://leetcode.com/problems/partition-array-according-to-given-pivot/description/",
-  "submissionId": "6wklsd"
+  "problemUrl": "https://leetcode.com/problems/return-length-of-arguments-passed/",
+  "submissionId": "1lbi93"
 }
