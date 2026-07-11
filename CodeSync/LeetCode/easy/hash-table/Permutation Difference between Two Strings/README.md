@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/permutation-difference-between-two-strings/description/
-- Synced: 2026-07-11T10:16:21.409Z
+- Synced: 2026-07-11T10:17:08.717Z
 
 ## Problem Description
 
