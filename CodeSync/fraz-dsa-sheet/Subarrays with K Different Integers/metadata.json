@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T19:16:02.729Z",
-  "runtime": "0 ms",
-  "memoryUsage": "50.00 MB",
+  "submissionTimestamp": "2026-07-11T09:18:09.668Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarrays with K Different Integers",
-  "problemUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/2063245326/",
-  "submissionId": "jrovoj"
+  "problemUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/description/",
+  "submissionId": "of4pce"
 }
