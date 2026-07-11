@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-11T10:07:50.229Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "platform": "LeetCode",
+  "language": "Algorithms",
+  "problemTitle": "Find Minimum Operations to Make All Elements Divisible by Three",
+  "problemUrl": "https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/",
+  "submissionId": "kr96cb"
+}
