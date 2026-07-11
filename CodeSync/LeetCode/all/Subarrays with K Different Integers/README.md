@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sliding Window, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/
-- Synced: 2026-07-10T10:12:55.023Z
+- Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/description/
+- Synced: 2026-07-10T19:05:54.171Z
 
 ## Problem Description
 
