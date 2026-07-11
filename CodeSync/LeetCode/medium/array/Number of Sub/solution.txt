@@ -1,29 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Sub
- * URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum
- * Language: Prefix Sum
+ * URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Math, Dynamic Programming, Prefix Sum
- * Runtime: 0 ms
- * Memory: 82.15 MB
- * Synced: 2026-06-10T17:02:52.259Z
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T17:07:50.628Z
  */
 
-int prefix = 0;
-
-        for (int num : arr) {
-            prefix += num;
-
-            if ((prefix & 1) == 0) {
-                ans += odd;
-                even++;
-            } else {
-                ans += even;
-                odd++;
-            }
-        }
-
-        return (int)(ans % mod);
+class Solution {
+    public int numOfSubarrays(int[] arr, int k, int threshold) {
+        
     }
 }
