@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/description/
-- Synced: 2026-07-11T09:28:48.665Z
+- Synced: 2026-07-11T09:29:34.667Z
 
 ## Problem Description
 
