@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T18:33:54.296Z
+ * Synced: 2026-07-11T18:35:29.085Z
  */
 
 int currentSum = 0,count = 0;
@@ -22,3 +22,5 @@ int currentSum = 0,count = 0;
     }
 }
         int targetSum = threshold * k;
+    public int numOfSubarrays(int[] arr, int k, int threshold) {
+class Solution {
