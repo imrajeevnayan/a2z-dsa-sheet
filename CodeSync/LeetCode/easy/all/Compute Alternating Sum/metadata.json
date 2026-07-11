@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-11T10:12:07.664Z",
+  "submissionTimestamp": "2026-07-11T10:13:05.271Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.64 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Algorithms",
   "problemTitle": "Compute Alternating Sum",
-  "problemUrl": "https://leetcode.com/problems/compute-alternating-sum/",
+  "problemUrl": "https://leetcode.com/problems/compute-alternating-sum/submissions/2063741849/",
   "submissionId": "3looj5"
 }
