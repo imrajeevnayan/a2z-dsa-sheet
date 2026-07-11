@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Find the Frequency
+ * URL: https://www.geeksforgeeks.org/problems/find-the-frequency/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, STL, Related Articles, Find Frequency Number Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T06:45:18.734Z
+ */
+
+class Solution {
+    int findFrequency(int arr[], int x) {
+        int count=0;
+        for(int a: arr){
+            if(a==x)count++;
+        }
+    return count;
+    }
+}
