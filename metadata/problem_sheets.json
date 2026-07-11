@@ -181,5 +181,6 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:convert-date-to-binary": [],
-  "leetcode:patterns": []
+  "leetcode:patterns": [],
+  "leetcode:sort-list": []
 }
