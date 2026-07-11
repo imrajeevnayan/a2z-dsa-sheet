@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T13:18:17.560Z",
+  "submissionTimestamp": "2026-07-11T16:41:03.500Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/",
-  "submissionId": "d0bk6x"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/",
+  "submissionId": "m684p6"
 }
