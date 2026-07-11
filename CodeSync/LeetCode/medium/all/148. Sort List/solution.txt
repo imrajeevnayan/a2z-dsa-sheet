@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: 148. Sort List
+ * URL: https://leetcode.com/problems/sort-list/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T16:25:19.506Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode sortList(ListNode head) {
+        
+    }
+}
