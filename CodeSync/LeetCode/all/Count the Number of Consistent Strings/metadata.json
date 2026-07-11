@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-11T10:14:45.048Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Bit Manipulation",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Algorithms",
+  "problemTitle": "Count the Number of Consistent Strings",
+  "problemUrl": "https://leetcode.com/problems/count-the-number-of-consistent-strings/",
+  "submissionId": "74nfpk"
+}
