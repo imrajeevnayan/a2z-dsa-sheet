@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/
-- Synced: 2026-07-10T18:57:48.224Z
+- Problem URL: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/
+- Synced: 2026-07-10T18:58:33.937Z
 
 ## Problem Description
 
