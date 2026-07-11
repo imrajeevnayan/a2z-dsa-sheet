@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-window-substring/description/
-- Synced: 2026-07-11T07:06:23.986Z
+- Synced: 2026-07-11T09:46:08.540Z
 
 ## Problem Description
 
