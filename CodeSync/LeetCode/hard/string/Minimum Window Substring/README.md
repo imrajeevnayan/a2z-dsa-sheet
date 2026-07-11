@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Hash Table, String, Sliding Window
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-window-substring/description/
-- Synced: 2026-07-11T09:54:19.511Z
+- Synced: 2026-07-11T16:14:49.185Z
 
 ## Problem Description
 
