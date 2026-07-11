@@ -281,5 +281,6 @@
     "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:return-length-of-arguments-passed": [],
-  "leetcode:maximum-substrings-with-distinct-start": []
+  "leetcode:maximum-substrings-with-distinct-start": [],
+  "leetcode:count-the-number-of-complete-components": []
 }
