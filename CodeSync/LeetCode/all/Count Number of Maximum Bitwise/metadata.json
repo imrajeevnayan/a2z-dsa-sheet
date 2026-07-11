@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-11T10:13:59.766Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Bit Manipulation",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Algorithms",
+  "problemTitle": "Count Number of Maximum Bitwise",
+  "problemUrl": "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/",
+  "submissionId": "cbre08"
+}
