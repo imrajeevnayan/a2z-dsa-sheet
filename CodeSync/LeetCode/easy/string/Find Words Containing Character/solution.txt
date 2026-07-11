@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Find Words Containing Character
- * URL: https://leetcode.com/problems/find-words-containing-character/
+ * URL: https://leetcode.com/problems/find-words-containing-character/description/
  * Language: Algorithms
  * Difficulty: Easy
  * Topics: Array, String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T09:58:51.885Z
+ * Synced: 2026-07-11T09:59:49.140Z
  */
 
 class Solution {
     public List<Integer> findWordsContaining(String[] words, char x) {
-        
+        List<Integer> res = new ArrayList<>();
+
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].indexOf(x) != -1)res.add(i);
+            
+        }
+        return res;
     }
 }
