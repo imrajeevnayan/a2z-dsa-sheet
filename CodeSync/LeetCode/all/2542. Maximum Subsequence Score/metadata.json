@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-11T16:27:50.628Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "2542. Maximum Subsequence Score",
+  "problemUrl": "https://leetcode.com/problems/maximum-subsequence-score/description/",
+  "submissionId": "lb0m8m"
+}
