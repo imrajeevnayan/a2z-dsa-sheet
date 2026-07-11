@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Number of Maximum Bitwise
+ * URL: https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/
+ * Language: Algorithms
+ * Difficulty: Medium
+ * Topics: Array, Backtracking, Bit Manipulation, Enumeration
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:13:59.766Z
+ */
+
+private void dfs(int[] nums, int index, int currentOr) {
+        if (index == nums.length) {
+            if (currentOr == maxOr) {
+        return count;
+    }
+        dfs(nums, 0, 0);
+        
+        }
+            maxOr |= num;
+        for (int num : nums) {
+    public int countMaxOrSubsets(int[] nums) {
+
+    int maxOr = 0;
+    int count = 0;
+class Solution {
