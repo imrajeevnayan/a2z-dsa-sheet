@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Container With Most Water
- * URL: https://leetcode.com/problems/container-with-most-water/description/
+ * URL: https://leetcode.com/problems/container-with-most-water/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-29T15:29:32.168Z
+ * Synced: 2026-07-11T16:44:39.158Z
  */
 
 class Solution {
@@ -26,4 +26,3 @@ class Solution {
         }
         return max;
     }
-}
