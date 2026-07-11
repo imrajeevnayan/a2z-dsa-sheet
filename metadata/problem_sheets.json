@@ -175,5 +175,6 @@
   "leetcode:find-the-maximum-achievable-number": [],
   "leetcode:divisible-and-non-divisible-sums-difference": [],
   "leetcode:find-minimum-operations-to-make-all-elements-divisible-by-three": [],
-  "leetcode:jewels-and-stones": []
+  "leetcode:jewels-and-stones": [],
+  "leetcode:compute-alternating-sum": []
 }
