@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Jewels and Stones
+ * URL: https://leetcode.com/problems/jewels-and-stones/
+ * Language: Algorithms
+ * Difficulty: Easy
+ * Topics: Hash Table, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:09:19.497Z
+ */
+
+class Solution {
+    public int numJewelsInStones(String jewels, String stones) {
+        int count = 0;
+
+        for (int i = 0; i < stones.length(); i++) {
+            if (jewels.indexOf(stones.charAt(i)) != -1) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
