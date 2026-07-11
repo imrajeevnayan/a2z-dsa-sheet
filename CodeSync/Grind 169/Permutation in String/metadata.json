@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-11T16:52:54.026Z",
+  "runtime": "10 ms",
+  "memoryUsage": "44.14 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Two Pointers",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Permutation in String",
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/submissions/2064086957/",
+  "submissionId": "104az7"
+}
