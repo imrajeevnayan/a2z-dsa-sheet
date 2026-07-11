@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Maximum Achievable Number
+ * URL: https://leetcode.com/problems/find-the-maximum-achievable-number/
+ * Language: Algorithms
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:03:36.126Z
+ */
+
+class Solution {
+    public int theMaximumAchievableX(int num, int t) {
+        return num + 2 * t;
+    }
+}
