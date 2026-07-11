@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-11T19:22:53.715Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Math",
+    "Number Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Insert Greatest Common Divisors in Linked List",
+  "problemUrl": "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/",
+  "submissionId": "mrhijl"
+}
