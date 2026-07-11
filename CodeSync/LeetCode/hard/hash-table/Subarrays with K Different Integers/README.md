@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Array, Hash Table, Sliding Window, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/description/
-- Synced: 2026-07-10T19:06:43.602Z
+- Problem URL: https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/2063245326/
+- Synced: 2026-07-10T19:07:29.767Z
 
 ## Problem Description
 
