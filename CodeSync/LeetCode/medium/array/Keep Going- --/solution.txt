@@ -7,13 +7,10 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T18:52:27.875Z
+ * Synced: 2026-07-10T18:53:15.006Z
  */
 
-class Solution {
-    public int maxSubarrayLength(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int left = 0,ans = 0;
+int left = 0,ans = 0;
         for (int right = 0; right < nums.length; right++) {
             map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 
