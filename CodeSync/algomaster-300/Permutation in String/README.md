@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, Two Pointers, String, Sliding Window
-- Runtime: 0 ms
+- Runtime: 10 ms
 - Memory: 44.14 MB
 - Problem URL: https://leetcode.com/problems/permutation-in-string/submissions/2064085573/
-- Synced: 2026-07-11T16:49:05.112Z
+- Synced: 2026-07-11T16:52:52.000Z
 
 ## Problem Description
 
