@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 992. Subarrays with K Different Integers
+ * URL: https://leetcode.com/problems/subarrays-with-k-different-integers/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Sliding Window, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T09:17:53.037Z
+ */
+
+Input: nums = [1,2,1,2,3], k = 2
+Output: 7
+Explanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2]
