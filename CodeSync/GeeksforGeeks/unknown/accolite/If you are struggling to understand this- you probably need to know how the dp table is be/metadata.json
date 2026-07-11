@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-11T06:57:41.731Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "OYO Rooms",
+    "Adobe",
+    "Drishti-Soft"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "If you are struggling to understand this, you probably need to know how the dp table is being filled cell-by-cell, I built a quick visualizer that does exactly this for you, visit: https://01-knapsack-visualizer.netlify.app/",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1",
+  "submissionId": "nrqhuy"
+}
