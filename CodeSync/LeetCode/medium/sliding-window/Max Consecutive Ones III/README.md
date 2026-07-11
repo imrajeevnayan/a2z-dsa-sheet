@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/?utm_source=chatgpt.com
-- Synced: 2026-06-28T18:31:57.403Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+- Synced: 2026-07-10T19:09:15.995Z
 
 ## Problem Description
 
