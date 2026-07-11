@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Sub
+ * URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T17:07:50.628Z
+ */
+
+class Solution {
+    public int numOfSubarrays(int[] arr, int k, int threshold) {
+        
+    }
+}
