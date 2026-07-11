@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-11T16:52:52.000Z",
+  "submissionTimestamp": "2026-07-11T16:52:54.026Z",
   "runtime": "10 ms",
   "memoryUsage": "44.14 MB",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Permutation in String",
-  "problemUrl": "https://leetcode.com/problems/permutation-in-string/submissions/2064085573/",
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/submissions/2064086957/",
   "submissionId": "104az7"
 }
