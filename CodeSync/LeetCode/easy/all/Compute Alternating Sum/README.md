@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Simulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/compute-alternating-sum/
-- Synced: 2026-07-11T10:12:07.664Z
+- Memory: 46.64 MB
+- Problem URL: https://leetcode.com/problems/compute-alternating-sum/submissions/2063741849/
+- Synced: 2026-07-11T10:13:05.271Z
 
 ## Problem Description
 
