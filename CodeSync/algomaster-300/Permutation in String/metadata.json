@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-11T16:48:19.211Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Two Pointers",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Permutation in String",
+  "problemUrl": "https://leetcode.com/problems/permutation-in-string/description/",
+  "submissionId": "b9q8xs"
+}
