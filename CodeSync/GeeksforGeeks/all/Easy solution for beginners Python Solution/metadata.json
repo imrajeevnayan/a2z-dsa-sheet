@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-11T06:40:51.346Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Hash",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def cntSubarrays(self, arr, k): # code here count = 0 prefix_sum = 0 seen = {} seen[0] = 1 for i in range(len(arr)): prefix_sum += arr[i] remove = prefix_sum - k if remove in seen: count += seen[remove] seen[prefix_sum] = seen.get(prefix_sum, 0) + 1 return count",
+  "problemTitle": "Easy solution for beginners | Python Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1",
+  "submissionId": "62u63e"
+}
