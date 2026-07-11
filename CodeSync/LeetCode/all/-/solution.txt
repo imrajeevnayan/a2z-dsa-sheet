@@ -1,27 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2062711299/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 24 ms
- * Memory: 49.21 MB
- * Synced: 2026-07-10T17:26:54.929Z
+ * URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T16:41:03.500Z
  */
 
-1class Solution {
-2      public int subarraySum(int[] arr, int k) {
-3        Map<Integer, Integer> map = new HashMap<>();
-4          map.put(0, 1);
-5         int sum = 0, count = 0;
-6          for (int n : arr) {
-7                 sum += n;
-8            if(map.containsKey(sum-k)){
-9                count+=map.get(sum-k);
-10            } 
-11            map.put(sum,map.getOrDefault(sum,0)+1); 
-12         }
-13         return count;
-14    }
-15}
+Input: nums = [10,5,2,6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are:
+[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
