@@ -1,18 +1,18 @@
 # Number of Sub
 
 - Platform: LeetCode
-- Language: Prefix Sum
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Math, Dynamic Programming, Prefix Sum
-- Runtime: 0 ms
-- Memory: 82.15 MB
-- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:02:52.259Z
+- Topics: Array, Sliding Window
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+- Synced: 2026-07-11T17:07:50.628Z
 
 ## Problem Description
 
-Given an array of integers arr, return the number of subarrays with an odd sum. Since the answer can be very large, return it modulo 109 + 7. Example 1: Input: arr = [1,3,5] Output: 4 Explanation: All subarrays are [[1],[1,3],[1,3,5],[3],[3,5],[5]] All sub-arrays sum are [1,4,9,3,8,5]. Odd sums are [1,9,3,5] so the answer is 4. Example 2: Input: arr = [2,4,6] Output: 0 Explanation: All subarrays are [[2],[2,4],[2,4,6],[4],[4,6],[6]] All sub-arrays sum are [2,6,12,4,10,6]. All sub-arrays have even sum and the answer is 0. Example 3: Input: arr = [1,2,3,4,5,6,7] Output: 16 Constraints: 1 <= arr.length <= 105 1 <= arr[i] <= 100
+Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold. Example 1: Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4 Output: 3 Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold). Example 2: Input: arr = [11,13,17,23,29,31,7,5,2,3], k = 3, threshold = 5 Output: 6 Explanation: The first 6 sub-arrays of size 3 have averages greater than 5. Note that averages are not integers. Constraints: 1 <= arr.length <= 105 1 <= arr[i] <= 104 1 <= k <= arr.length 0 <= threshold <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Prefix Sum. The detected topics are Array, Math, Dynamic Programming, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
