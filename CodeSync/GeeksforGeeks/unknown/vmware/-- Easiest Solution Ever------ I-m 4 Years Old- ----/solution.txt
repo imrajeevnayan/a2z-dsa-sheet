@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: // Easiest Solution Ever🐱‍🐉, I'm 4 Years Old! 🌈🦄
+ * URL: https://www.geeksforgeeks.org/problems/maximum-index-1587115620/1
+ * Language: int maxIndexDiff(vector<int>& arr) { // Your code here int n = arr.size(); vector<int> leftMin(n), rightMax(n); leftMin[0] = arr[0]; for(int i = 1; i < n; i++){ leftMin[i] = min(arr[i], leftMin[i - 1]); } rightMax[n - 1] = arr[n - 1]; for(int i = n - 2; i > -1; i--){ rightMax[i] = max(arr[i], rightMax[i + 1]); } int left = 0, right = 0, ans = -1; while(left < n && right < n){ if(leftMin[left] <= rightMax[right]){ ans = max(ans, right - left); right++; //To maximize j - i, we try to push j forward (larger j means bigger range) } else left++; } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Amazon, Microsoft, MakeMyTrip, Google, Snapdeal
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T06:47:06.533Z
+ */
+
+class Solution {
+    int maxIndexDiff(int[] arr) {
+        int n = arr.length;
+
+        int[] leftMin = new int[n];
+        int[] rightMax = new int[n];
+
+        // leftMin[i] = minimum element from 0 to i
+        leftMin[0] = arr[0];
+        for (int i = 1; i < n; i++) {
+            leftMin[i] = Math.min(leftMin[i - 1], arr[i]);
+        }
+
+        // rightMax[i] = maximum element from i to n-1
+        rightMax[n - 1] = arr[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(rightMax[i + 1], arr[i]);
+        }
+
+        int i = 0, j = 0;
+        int maxDiff = -1;
+
+        while (i < n && j < n) {
+            if (leftMin[i] <= rightMax[j]) {
+                maxDiff = Math.max(maxDiff, j - i);
+                j++;
+            } else {
+                i++;
+            }
+        }
+
+        return maxDiff;
+    }
+}
