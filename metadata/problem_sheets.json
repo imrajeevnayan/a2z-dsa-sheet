@@ -279,5 +279,6 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
-  ]
+  ],
+  "leetcode:return-length-of-arguments-passed": []
 }
