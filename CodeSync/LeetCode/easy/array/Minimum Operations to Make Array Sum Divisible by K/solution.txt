@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Operations to Make Array Sum Divisible by K
+ * URL: https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/
+ * Language: Algorithms
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T10:02:44.259Z
+ */
+
+class Solution {
+    public int minOperations(int[] nums, int k) {
+        long sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        return (int)(sum % k);
+    }
+}
