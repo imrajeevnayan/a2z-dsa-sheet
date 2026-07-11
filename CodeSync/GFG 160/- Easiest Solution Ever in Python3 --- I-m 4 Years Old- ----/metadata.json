@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-11T06:52:27.231Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "Data Structures",
+    "prefix-sum",
+    "Related Articles",
+    "Count Subarrays Equal Number 1s 0s"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def countSubarrWithEqualZeroAndOne(self,arr, n): for i in range(n): if arr[i]==0: arr[i]=-1 count=0 curr_sum=0 d={0:1} for a in arr: curr_sum+=a count+=d.get(curr_sum,0) d[curr_sum]=d.get(curr_sum,0)+1 return count",
+  "problemTitle": "# Easiest Solution Ever in Python3 🍄, I'm 4 Years Old! 🦄🥑",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1",
+  "submissionId": "f2m1vh"
+}
