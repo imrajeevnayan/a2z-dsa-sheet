@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-11T18:52:36.920Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Substrings of Size Three with Distinct Characters",
+  "problemUrl": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/",
+  "submissionId": "5zcu5k"
+}
