@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T07:06:23.986Z
+ * Synced: 2026-07-11T09:46:08.540Z
  */
 
 Input: s = "ADOBECODEBANC", t = "ABC"
