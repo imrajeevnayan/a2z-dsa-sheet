@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T09:58:51.885Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-11T09:59:49.140Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Algorithms",
   "problemTitle": "Find Words Containing Character",
-  "problemUrl": "https://leetcode.com/problems/find-words-containing-character/",
-  "submissionId": "xcjsnr"
+  "problemUrl": "https://leetcode.com/problems/find-words-containing-character/description/",
+  "submissionId": "qpho9e"
 }
