@@ -174,5 +174,6 @@
   "leetcode:minimum-operations-to-make-array-sum-divisible-by-k": [],
   "leetcode:find-the-maximum-achievable-number": [],
   "leetcode:divisible-and-non-divisible-sums-difference": [],
-  "leetcode:find-minimum-operations-to-make-all-elements-divisible-by-three": []
+  "leetcode:find-minimum-operations-to-make-all-elements-divisible-by-three": [],
+  "leetcode:jewels-and-stones": []
 }
