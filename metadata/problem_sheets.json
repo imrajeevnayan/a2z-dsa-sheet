@@ -127,5 +127,6 @@
   "leetcode:number-of-zero-filled-subarrays": [
     "custom:algomaster-300"
   ],
-  "leetcode:length-of-longest-subarray-with-at-most-k-frequency": []
+  "leetcode:length-of-longest-subarray-with-at-most-k-frequency": [],
+  "leetcode:count-subarrays-where-max-element-appears-at-least-k-times": []
 }
