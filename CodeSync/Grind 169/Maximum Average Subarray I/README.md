@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Sliding Window
-- Runtime: 0 ms
-- Memory: 69.84 MB
-- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/submissions/2049263618/?utm_source=chatgpt.com
-- Synced: 2026-06-28T18:30:14.157Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/description/
+- Synced: 2026-07-11T16:46:34.139Z
 
 ## Problem Description
 
