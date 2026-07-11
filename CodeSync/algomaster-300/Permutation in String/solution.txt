@@ -5,24 +5,11 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Two Pointers, String, Sliding Window
- * Runtime: 0 ms
+ * Runtime: 10 ms
  * Memory: 44.14 MB
- * Synced: 2026-07-11T16:49:05.112Z
+ * Synced: 2026-07-11T16:52:52.000Z
  */
 
-s1Count[s1.charAt(i) - 'a']++;
-            s2Count[s2.charAt(i) - 'a']++;
-        }
-
-        if (Arrays.equals(s1Count, s2Count)) return true;
-
-        for (int i = s1.length(); i < s2.length(); i++) {
-            s2Count[s2.charAt(i) - 'a']++;
-
-        for (int i = 0; i < s1.length(); i++) {
-        int[] s1Count = new int[26];
-        int[] s2Count = new int[26];
-        if (s1.length() > s2.length()) return false;
-
-class Solution {
-    public boolean checkInclusion(String s1, String s2) {
+Input: s1 = "ab", s2 = "eidbaooo"
+Output: true
+Explanation: s2 contains one permutation of s1 ("ba").
