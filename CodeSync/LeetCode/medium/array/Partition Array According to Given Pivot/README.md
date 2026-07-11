@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/
-- Synced: 2026-07-11T18:54:14.016Z
+- Synced: 2026-07-11T18:54:59.286Z
 
 ## Problem Description
 
