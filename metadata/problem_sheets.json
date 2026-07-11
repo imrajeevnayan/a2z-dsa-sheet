@@ -258,5 +258,10 @@
     "custom:algomaster-300",
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
