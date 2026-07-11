@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T17:07:50.628Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-11T17:08:35.716Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Number of Sub",
-  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/",
-  "submissionId": "eykk51"
+  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/",
+  "submissionId": "tcidjh"
 }
