@@ -1,25 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Contains Duplicate II
- * URL: https://leetcode.com/problems/contains-duplicate-ii/description/
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2064086957/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T16:49:07.793Z
+ * Synced: 2026-07-11T16:49:53.190Z
  */
 
-class Solution {
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
-        HashMap<Integer,Integer>map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            if(map.containsKey(nums[i])){
-                int prevIndex=map.get(nums[i]);
-                if(i-prevIndex <=k) return true;
-            }
-            map.put(nums[i],i);
+public boolean containsNearbyDuplicate(int[] nums, int k) {
+        Set<Integer> s = new HashSet<>();
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (i > k)  s.remove(nums[i - k - 1]);
+            
+            if (!s.add(nums[i])) return true;   
         }
         return false;
     }
+class Solution {
 }
