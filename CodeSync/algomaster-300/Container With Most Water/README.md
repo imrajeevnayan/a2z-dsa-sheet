@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 77.41 MB
 - Problem URL: https://leetcode.com/problems/container-with-most-water/submissions/2064081896/
-- Synced: 2026-07-11T16:46:15.161Z
+- Synced: 2026-07-11T16:45:28.171Z
 
 ## Problem Description
 
