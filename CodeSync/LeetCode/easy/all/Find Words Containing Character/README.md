@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-words-containing-character/description/
-- Synced: 2026-07-11T09:59:49.140Z
+- Synced: 2026-07-11T10:00:35.747Z
 
 ## Problem Description
 
