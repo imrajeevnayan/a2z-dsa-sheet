@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T19:09:08.947Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-11T19:11:14.726Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Concatenate Array With Reverse",
-  "problemUrl": "https://leetcode.com/problems/concatenate-array-with-reverse/description/",
-  "submissionId": "vg898l"
+  "problemUrl": "https://leetcode.com/problems/concatenate-array-with-reverse/",
+  "submissionId": "vcuso9"
 }
