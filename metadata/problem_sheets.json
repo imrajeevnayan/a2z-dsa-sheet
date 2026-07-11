@@ -280,5 +280,6 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:return-length-of-arguments-passed": []
+  "leetcode:return-length-of-arguments-passed": [],
+  "leetcode:maximum-substrings-with-distinct-start": []
 }
