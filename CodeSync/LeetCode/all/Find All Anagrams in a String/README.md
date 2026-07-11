@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, String, Sliding Window
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
-- Synced: 2026-07-11T16:47:16.566Z
+- Runtime: 0 ms
+- Memory: 46.88 MB
+- Problem URL: https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/2064084719/
+- Synced: 2026-07-11T16:48:04.159Z
 
 ## Problem Description
 
