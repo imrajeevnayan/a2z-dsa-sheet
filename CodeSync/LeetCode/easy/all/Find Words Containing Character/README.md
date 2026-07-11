@@ -4,10 +4,10 @@
 - Language: Algorithms
 - Difficulty: Easy
 - Topics: Array, String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-words-containing-character/
-- Synced: 2026-07-11T09:58:02.933Z
+- Problem URL: https://leetcode.com/problems/find-words-containing-character/description/
+- Synced: 2026-07-11T09:59:49.140Z
 
 ## Problem Description
 
