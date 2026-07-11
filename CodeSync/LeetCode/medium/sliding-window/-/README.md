@@ -6,12 +6,12 @@
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
-- Synced: 2026-07-10T13:18:17.560Z
+- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
+- Synced: 2026-07-11T16:41:03.500Z
 
 ## Problem Description
 
-Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead. Example 1: Input: target = 7, nums = [2,3,1,2,4,3] Output: 2 Explanation: The subarray [4,3] has the minimal length under the problem constraint. Example 2: Input: target = 4, nums = [1,4,4] Output: 1 Example 3: Input: target = 11, nums = [1,1,1,1,1,1,1,1] Output: 0 Constraints: 1 <= target <= 109 1 <= nums.length <= 105 1 <= nums[i] <= 104 Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n)).
+Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k. Example 1: Input: nums = [10,5,2,6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6] Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k. Example 2: Input: nums = [1,2,3], k = 0 Output: 0 Constraints: 1 <= nums.length <= 3 * 104 1 <= nums[i] <= 1000 0 <= k <= 106
 
 ## Explanation
 
