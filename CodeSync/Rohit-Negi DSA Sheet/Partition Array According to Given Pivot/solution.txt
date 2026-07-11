@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Partition Array According to Given Pivot
+ * URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T18:54:14.016Z
+ */
+
+class Solution {
+    public int[] pivotArray(int[] nums, int pivot) {
+        
+    }
+}
