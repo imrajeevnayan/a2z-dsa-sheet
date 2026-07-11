@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 76. Minimum Window Substring
+ * URL: https://leetcode.com/problems/minimum-window-substring/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-11T07:06:23.986Z
+ */
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
