@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
-- Synced: 2026-07-10T18:45:56.106Z
+- Synced: 2026-07-10T18:47:41.169Z
 
 ## Problem Description
 
