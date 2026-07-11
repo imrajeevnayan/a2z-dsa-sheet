@@ -169,5 +169,6 @@
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
-  ]
+  ],
+  "leetcode:find-words-containing-character": []
 }
