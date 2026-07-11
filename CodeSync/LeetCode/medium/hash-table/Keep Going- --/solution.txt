@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Keep Going! 💪
- * URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+ * URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T18:44:22.208Z
+ * Synced: 2026-07-10T18:45:08.920Z
  */
 
 class Solution {
