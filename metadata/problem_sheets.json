@@ -243,5 +243,10 @@
   ],
   "leetcode:find-all-anagrams-in-a-string": [
     "custom:algomaster-300"
+  ],
+  "leetcode:permutation-in-string": [
+    "NeetCode150",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet"
   ]
 }
