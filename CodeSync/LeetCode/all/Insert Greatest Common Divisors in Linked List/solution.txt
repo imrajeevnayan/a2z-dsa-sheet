@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Insert Greatest Common Divisors in Linked List
+ * URL: https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Math, Number Theory
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-11T19:22:53.715Z
+ */
+
+while (curr != null && curr.next != null) {
+
+
+        ListNode curr = head;
+    public ListNode insertGreatestCommonDivisors(ListNode head) {
+
+            int g = gcd(curr.val, curr.next.val);
+    }
+        }
+        return a;
+            a = t;
+            b = a % b;
+            int t = b;
+            ListNode node = new ListNode(g);
+            node.next = curr.next;
+            curr.next = node;
+            curr = node.next;
