@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-11T18:37:49.101Z
+ * Synced: 2026-07-11T18:39:06.086Z
  */
 
 int currentSum = 0,count = 0;
