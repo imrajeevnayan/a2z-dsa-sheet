@@ -162,13 +162,7 @@
     "NeetCode150",
     "TopInterview150",
     "StriverA2Z",
-    "StriverSDE",
-    "custom:algomaster-300",
-    "custom:arsh-goyal-dsa-sheet",
-    "custom:fraz-dsa-sheet",
-    "custom:neetcode-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet",
-    "custom:striver-a2z-dsa-sheet"
+    "StriverSDE"
   ],
   "leetcode:find-words-containing-character": [],
   "leetcode:minimum-operations-to-make-array-sum-divisible-by-k": [],
