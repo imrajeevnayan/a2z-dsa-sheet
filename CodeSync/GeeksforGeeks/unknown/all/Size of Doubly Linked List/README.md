@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/size-of-doubly-linked-list--114556/1
-- Synced: 2026-05-30T19:45:26.091Z
+- Synced: 2026-07-12T10:53:44.802Z
 
 ## Problem Description
 
