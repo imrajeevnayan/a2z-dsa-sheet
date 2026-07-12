@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Length of Circular Linked List
+ * URL: https://www.geeksforgeeks.org/problems/length-of-circular-linked-list/1
+ * Language: /* class Node { int data; Node next; Node(int data) { this.data = data; this.next = null; } } */ class Solution { public static int getLength(Node head) { // code here Node node = head; int len =0; do{ node = node.next; len++; }while(node != head); return len; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:01:56.630Z
+ */
+
+class Solution {
+    public static int getLength(Node head) {
+        if (head == null) return 0;
+        int count = 1;
+        Node curr = head.next;
+        while (curr != head) {
+            count++;
+            curr = curr.next;
+        }
+        return count;
+    }
+}
