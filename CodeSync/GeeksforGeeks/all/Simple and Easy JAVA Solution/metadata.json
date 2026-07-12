@@ -1,20 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-06T11:51:37.447Z",
+  "submissionTimestamp": "2026-07-12T10:56:36.565Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Queue",
     "Data Structures",
-    "Related Articles",
-    "Queue Data Structure",
-    "Queue Operations"
+    "doubly-linked-list",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };",
+  "language": "class Solution { public Node createDLL(int arr[]) { Node head = new Node(arr[0]); Node temp = head; for(int i = 1; i < arr.length; i++) { Node newNode = new Node(arr[i]); newNode.prev = temp; temp.next = newNode; temp = temp.next; } return head; } }",
   "problemTitle": "Simple and Easy JAVA Solution ::",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/queue-operations/1",
-  "submissionId": "wg6plt"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/create-a-doubly-linked-list-from-a-given-array/1",
+  "submissionId": "ffwr3v"
 }
