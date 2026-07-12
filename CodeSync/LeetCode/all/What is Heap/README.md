@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/
-- Synced: 2026-07-12T17:07:11.174Z
+- Synced: 2026-07-12T18:37:59.097Z
 
 ## Problem Description
 
