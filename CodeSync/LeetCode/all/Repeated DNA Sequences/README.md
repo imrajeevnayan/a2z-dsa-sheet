@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 55.53 MB
 - Problem URL: https://leetcode.com/problems/repeated-dna-sequences/
-- Synced: 2026-07-12T09:50:15.217Z
+- Synced: 2026-07-12T09:51:06.989Z
 
 ## Problem Description
 
