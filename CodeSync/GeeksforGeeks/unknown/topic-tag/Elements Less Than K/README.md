@@ -1,13 +1,13 @@
 # Elements Less Than K
 
 - Platform: GeeksforGeeks
-- Language: C++ (17)
+- Language: vector<int> list_less_than_k(vector<int> a,int n,int k) { // Your code here //Return a vector with elements less than k vector<int>::iterator it; for(it=a.begin();it!=a.end();it++){ if(*it>=k){ a.erase(it); it--; } } return a; }
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/elements-less-than-k/1
-- Synced: 2026-07-12T11:03:06.568Z
+- Synced: 2026-07-12T11:03:51.896Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A vector arr[] and an element k are given to you.You need to return the list(vec
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using C++ (17). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using vector<int> list_less_than_k(vector<int> a,int n,int k) { // Your code here //Return a vector with elements less than k vector<int>::iterator it; for(it=a.begin();it!=a.end();it++){ if(*it>=k){ a.erase(it); it--; } } return a; }. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL. Review the synced source file for the implementation details.
