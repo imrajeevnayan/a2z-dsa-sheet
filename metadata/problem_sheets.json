@@ -286,5 +286,10 @@
   "leetcode:insert-greatest-common-divisors-in-linked-list": [],
   "leetcode:minimum-element-after-replacement-with-digit-sum": [],
   "leetcode:what-is-heap": [],
-  "leetcode:repeated-dna-sequences": []
+  "leetcode:repeated-dna-sequences": [],
+  "geeksforgeeks:subarray-with-given-sum-1587115621": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
