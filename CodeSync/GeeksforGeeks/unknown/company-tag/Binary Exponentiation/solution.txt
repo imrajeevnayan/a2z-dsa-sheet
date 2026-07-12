@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MakeMyTripWalmart, Company Tags, MakeMyTrip, Walmart, Topic Tags, Mathematical, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T18:06:15.526Z
+ * Synced: 2026-07-12T18:47:34.972Z
  */
 
 class Solution {
