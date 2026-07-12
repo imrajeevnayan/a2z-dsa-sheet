@@ -7,11 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Data Structures, Algorithms, Related Articles, Product Of Two Numbers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T11:49:31.375Z
+ * Synced: 2026-07-12T11:00:08.765Z
  */
 
 class Solution {
     static int product(int x, int y) {
-        return x * y;
+        return x *y;
+        
     }
 }
