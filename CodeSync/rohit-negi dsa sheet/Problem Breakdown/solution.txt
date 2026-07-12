@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Problem Breakdown:
+ * URL: https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: GeeksforGeeks, Problem of the Day, Problem Solving Streak
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:06:46.829Z
+ */
+
+class Solution {
+    public String reverseWords(String s) {
+        String[] words = s.split("\\.");
+        StringBuilder result = new StringBuilder();
+        for (int i = words.length - 1; i >= 0; i--) {
+            if (!words[i].isEmpty()) {
+                if (result.length() > 0) result.append(".");
+                result.append(words[i]);
+            }
+        }
+        return result.toString();
+    }
+}
