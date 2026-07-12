@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
-- Synced: 2026-07-12T09:53:20.999Z
+- Synced: 2026-07-12T09:54:15.466Z
 
 ## Problem Description
 
