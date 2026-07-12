@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-12T10:58:46.751Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Flipkart",
+    "Company Tags",
+    "Flipkart",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Interview Experiences"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Easy C++ vector<int> printPalindromes(int m, int n) { vector<int> v ; string s1 , s2 ; for(int i = m ; i <= n ; i++){ s1 = to_string(i); s2 = s1; reverse(s2.begin() , s2.end()); if(s1 == s2){ v.push_back(i) ; } } return v ; }",
+  "problemTitle": "Palindrome Numbers in a Range",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-all-palindromes-in-the-given-range/1",
+  "submissionId": "79xafr"
+}
