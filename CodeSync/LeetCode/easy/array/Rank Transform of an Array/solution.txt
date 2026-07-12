@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Rank Transform of an Array
- * URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
+ * URL: https://leetcode.com/problems/rank-transform-of-an-array/?envType=daily-question&envId=2026-07-12
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T20:05:52.440Z
+ * Synced: 2026-07-12T20:06:38.165Z
  */
 
-class Solution {
+for (int num : temp) {
+            if (!map.containsKey(num)) {
+                map.put(num, rank++);
+            }
+        }
+
+        int[] ans = new int[arr.length];
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int rank = 1;
+
+        int[] temp = arr.clone();
+        Arrays.sort(temp);
     public int[] arrayRankTransform(int[] arr) {
-        
-    }
-}
+class Solution {
