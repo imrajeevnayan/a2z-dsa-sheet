@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Binary Search, Sliding Window, Prefix Sum
+- Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
-- Synced: 2026-07-11T16:41:03.500Z
+- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+- Synced: 2026-07-12T07:17:48.147Z
 
 ## Problem Description
 
-Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k. Example 1: Input: nums = [10,5,2,6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6] Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k. Example 2: Input: nums = [1,2,3], k = 0 Output: 0 Constraints: 1 <= nums.length <= 3 * 104 1 <= nums[i] <= 1000 0 <= k <= 106
+Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold. Example 1: Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4 Output: 3 Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold). Example 2: Input: arr = [11,13,17,23,29,31,7,5,2,3], k = 3, threshold = 5 Output: 6 Explanation: The first 6 sub-arrays of size 3 have averages greater than 5. Note that averages are not integers. Constraints: 1 <= arr.length <= 105 1 <= arr[i] <= 104 1 <= k <= arr.length 0 <= threshold <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
