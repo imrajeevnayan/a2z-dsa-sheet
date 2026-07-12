@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-12T11:01:56.630Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "/* class Node { int data; Node next; Node(int data) { this.data = data; this.next = null; } } */ class Solution { public static int getLength(Node head) { // code here Node node = head; int len =0; do{ node = node.next; len++; }while(node != head); return len; } }",
+  "problemTitle": "Length of Circular Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/length-of-circular-linked-list/1",
+  "submissionId": "gsmci9"
+}
