@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Binary Search, Sliding Window, Prefix Sum
-- Runtime: 0 ms
+- Language: Daily Question
+- Difficulty: Easy
+- Topics: Array, Hash Table, Sorting
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/
-- Synced: 2026-07-11T16:42:03.346Z
+- Problem URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
+- Synced: 2026-07-12T11:23:35.503Z
 
 ## Problem Description
 
-Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k. Example 1: Input: nums = [10,5,2,6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6] Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k. Example 2: Input: nums = [1,2,3], k = 0 Output: 0 Constraints: 1 <= nums.length <= 3 * 104 1 <= nums[i] <= 1000 0 <= k <= 106
+Given an array of integers arr, replace each element with its rank. The rank represents how large the element is. The rank has the following rules: Rank is an integer starting from 1. The larger the element, the larger the rank. If two elements are equal, their rank must be the same. Rank should be as small as possible. Example 1: Input: arr = [40,10,20,30] Output: [4,1,2,3] Explanation: 40 is the largest element. 10 is the smallest. 20 is the second smallest. 30 is the third smallest. Example 2: Input: arr = [100,100,100] Output: [1,1,1] Explanation: Same elements share the same rank. Example 3: Input: arr = [37,12,28,9,100,56,80,5,12] Output: [5,3,4,2,8,6,7,1,3] Constraints: 0 <= arr.length <= 105 -109 <= arr[i] <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
