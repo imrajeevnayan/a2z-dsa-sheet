@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
-- Synced: 2026-07-07T19:25:42.438Z
+- Synced: 2026-07-12T10:41:32.913Z
 
 ## Problem Description
 
