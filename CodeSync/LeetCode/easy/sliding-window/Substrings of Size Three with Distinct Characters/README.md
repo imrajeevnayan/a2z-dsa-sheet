@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sliding Window, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/
-- Synced: 2026-07-11T18:52:36.920Z
+- Problem URL: https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
+- Synced: 2026-07-12T09:54:23.988Z
 
 ## Problem Description
 
