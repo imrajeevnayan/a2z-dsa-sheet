@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Distinct Substrings
+ * URL: https://www.geeksforgeeks.org/problems/distinct-substrings2516/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Linkedin Topic Tags, Company Tags Linkedin, Company Tags, Linkedin, Topic Tags, Hash, Strings, Map
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:14:26.139Z
+ */
+
+class Solution {
+    int fun(String s) {
+        // code here
+        
+    }
+}
