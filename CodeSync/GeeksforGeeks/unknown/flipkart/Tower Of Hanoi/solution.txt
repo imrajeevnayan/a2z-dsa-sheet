@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Tower Of Hanoi
+ * URL: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T18:47:52.569Z
+ */
+
+Input: n = 2
+Output: 3
+Explanation: For n = 2, total 3 steps will be taken. Steps are as follows -
+move disk 1 from rod 1 to rod 2
+move disk 2 from rod 1 to rod 3
+move disk 1 from rod 2 to rod 3
