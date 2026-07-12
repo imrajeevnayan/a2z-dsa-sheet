@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-12T11:10:50.318Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Java",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { static String conRevstr(String S1, String S2) { // code here return new StringBuilder(S1.concat(S2)).reverse().toString(); } }",
+  "problemTitle": "One Line Code for Java : -",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/java-strings-set-15112/1",
+  "submissionId": "nabt3i"
+}
