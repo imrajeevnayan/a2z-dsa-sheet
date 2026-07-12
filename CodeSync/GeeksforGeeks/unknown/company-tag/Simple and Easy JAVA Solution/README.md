@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/repeating-character-first-appearance-leftmost/1
-- Synced: 2026-07-12T11:08:57.173Z
+- Synced: 2026-07-12T11:09:46.922Z
 
 ## Problem Description
 
