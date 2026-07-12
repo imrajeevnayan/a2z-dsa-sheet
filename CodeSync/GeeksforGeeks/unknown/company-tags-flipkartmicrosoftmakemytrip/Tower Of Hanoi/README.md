@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
-- Synced: 2026-07-12T18:48:37.702Z
+- Synced: 2026-07-12T18:49:45.029Z
 
 ## Problem Description
 
