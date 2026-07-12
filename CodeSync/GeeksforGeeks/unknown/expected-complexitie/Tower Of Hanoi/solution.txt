@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Tower Of Hanoi
+ * URL: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
+ * Language: class Solution { public: int towerOfHanoi(int n, int from, int to, int aux) { return (1<<n)-1; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T18:48:37.702Z
+ */
+
+class Solution {
+    public int towerOfHanoi(int n, int from, int to, int aux) {
+        if (n == 0) {
+            return 0;
+        }
+
+        int count = 0;
+
+        count += towerOfHanoi(n - 1, from, aux, to);
+
+        System.out.println("move disk " + n + " from rod " + from + " to rod " + to);
+        count++;
+
+        count += towerOfHanoi(n - 1, aux, to, from);
+
+        return count;
+    }
+}
