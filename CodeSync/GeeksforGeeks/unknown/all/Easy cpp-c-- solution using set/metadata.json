@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-12T11:14:10.504Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Company Tags ZohoAmazon",
+    "Company Tags",
+    "Zoho",
+    "Amazon",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: string removeChars(string str1, string str2) { unordered_set<char> h2; for(auto x : str2){ h2.insert(x); } string ans = \"\"; for(auto x : str1){ if(h2.find(x) == h2.end()){ ans += x; } else{ continue; } } return ans; } };",
+  "problemTitle": "Easy cpp/c++ solution using set",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-character3815/1",
+  "submissionId": "rg826m"
+}
