@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Sum Path in Two Arrays
+ * URL: https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1
+ * Language: def maxPathSum(self, a, b): sum1=sum2=0 ans=0 i=j=0 n,m = len(a),len(b) while i<n and j<m: if a[i]<b[j]: sum1+=a[i] i+=1 elif b[j]<a[i]: sum2+=b[j] j+=1 else: sum1+=a[i] sum2+=b[j] sum1=sum2=max(sum1,sum2) i+=1 j+=1 while i<n: sum1+=a[i] i+=1 while j<m: sum2+=b[j] j+=1 return max(sum1,sum2)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T18:47:03.400Z
+ */
+
+class Solution {
+    public int maxPathSum(int[] a, int[] b) {
+        int i = 0, j = 0;
+        int sum1 = 0, sum2 = 0, ans = 0;
+
+        while (i < a.length && j < b.length) {
+            if (a[i] < b[j]) {
+                sum1 += a[i++];
+            } else if (a[i] > b[j]) {
+                sum2 += b[j++];
+            } else {
+                ans += Math.max(sum1, sum2) + a[i];
+                sum1 = 0;
+                sum2 = 0;
+                i++;
+                j++;
+            }
+        }
+
+        while (i < a.length) {
+            sum1 += a[i++];
+        }
+
+        while (j < b.length) {
+            sum2 += b[j++];
+        }
+
+        ans += Math.max(sum1, sum2);
+
+        return ans;
+    }
+}
