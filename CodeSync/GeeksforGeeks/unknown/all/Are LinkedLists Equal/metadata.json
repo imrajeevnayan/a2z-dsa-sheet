@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-12T11:02:50.490Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Java",
+    "Java-Collections"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "boolean b=false; if(ll1.equals(ll2)){ b=true; } return b;",
+  "problemTitle": "Are LinkedLists Equal",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/are-linkedlists-equal/1",
+  "submissionId": "6yohdc"
+}
