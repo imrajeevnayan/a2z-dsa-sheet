@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 1 to n Without Loops
+ * URL: https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops3621/1
+ * Language: void printTillN(int n) { if(n>1) printTillN(n-1); printf("%d ", n); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Recursion, Algorithms, Related Articles, Output Of C Program Set 18 3, Print 1 To N Without Using Loops, Print Numbers 1 N Using Indirect Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T17:59:24.646Z
+ */
+
+class Solution {
+    public void printTillN(int n) {
+        if(n==0) return  ;
+        printTillN(n-1);
+       System.out.print(n+" ");
+        
+    }
+}
