@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Elements Less Than K
+ * URL: https://www.geeksforgeeks.org/problems/elements-less-than-k/1
+ * Language: C++ (17)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:03:06.568Z
+ */
+
+//Back-end complete function Template for C++
+class Solution {
+  public:
+    vector<int> list_less_than_k(vector<int> &arr, int k) {
+        // code here
+        
+    }
+};
