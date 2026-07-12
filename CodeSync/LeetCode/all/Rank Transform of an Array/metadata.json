@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T20:05:52.440Z",
+  "submissionTimestamp": "2026-07-12T20:06:38.165Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Rank Transform of an Array",
-  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12",
-  "submissionId": "c9qfkm"
+  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/?envType=daily-question&envId=2026-07-12",
+  "submissionId": "q9acqy"
 }
