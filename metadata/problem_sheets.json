@@ -285,5 +285,6 @@
   "leetcode:count-the-number-of-complete-components": [],
   "leetcode:insert-greatest-common-divisors-in-linked-list": [],
   "leetcode:minimum-element-after-replacement-with-digit-sum": [],
-  "leetcode:what-is-heap": []
+  "leetcode:what-is-heap": [],
+  "leetcode:repeated-dna-sequences": []
 }
