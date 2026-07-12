@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:08:57.173Z
+ * Synced: 2026-07-12T11:09:46.922Z
  */
 
 class Solution {
