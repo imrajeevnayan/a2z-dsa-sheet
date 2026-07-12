@@ -316,5 +316,9 @@
   ],
   "geeksforgeeks:are-linkedlists-equal": [
     "GFG160"
+  ],
+  "geeksforgeeks:elements-less-than-k": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
