@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Distinct Permutations of a String
+ * URL: https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1
+ * Language: class Solution { public ArrayList<String> findPermutation(String s) { // Code here Set<String> ans = new HashSet<>(); genPer(s, "", ans); return new ArrayList<>(ans); } public void genPer(String s, String a, Set<String> result) { if (s.isEmpty()) { result.add(a); return; } for (int i = 0; i < s.length(); i++) { char ch = s.charAt(i); String nq = s.substring(0,i) + s.substring(i + 1); genPer(nq, a + ch, result); } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Accolite, Amazon, Microsoft, OYO Rooms, Samsung
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T18:41:34.349Z
+ */
+
+permute(arr, 0, ans);
+        Collections.sort(ans);
+
+        return ans;
+    }
+
+    static void permute(char[] arr, int index, ArrayList<String> ans) {
+        if (index == arr.length) {
+            ans.add(new String(arr));
+            return;
+        }
+
+        HashSet<Character> used = new HashSet<>();
+
+        for (int i = index; i < arr.length; i++) {
+            if (used.contains(arr[i])) {
+                continue;
+            }
+
+            used.add(arr[i]);
+
+            swap(arr, index, i);
+            permute(arr, index + 1, ans);
+            swap(arr, index, i); // backtrack
+        }
+    }
+
+    static void swap(char[] arr, int i, int j) {
+        char temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
