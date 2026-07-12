@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-12T09:50:15.217Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Bit Manipulation",
+    "Sliding Window",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Repeated DNA Sequences",
+  "problemUrl": "https://leetcode.com/problems/repeated-dna-sequences/",
+  "submissionId": "678zn7"
+}
