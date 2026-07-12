@@ -1,17 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/subarray-product-less-than-k/description/
+ * URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T16:41:03.500Z
+ * Synced: 2026-07-12T07:17:48.147Z
  */
 
-Input: nums = [10,5,2,6], k = 100
-Output: 8
-Explanation: The 8 subarrays that have product less than 100 are:
-[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
-Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
+Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4
+Output: 3
+Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold).
