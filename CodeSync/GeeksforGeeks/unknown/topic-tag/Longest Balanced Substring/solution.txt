@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Longest Balanced Substring
+ * URL: https://www.geeksforgeeks.org/problems/longest-even-length-substring--113837/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, constructive algo, Data Structures, Algorithms, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:13:04.753Z
+ */
+
+class Solution {
+    public int findLength(String s) {
+        int n = s.length();
+        int[] prefix = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + (s.charAt(i) - '0');
+        }
+
+        int maxLen = 0;
+
+        for (int len = 2; len <= n; len += 2) {
+            for (int i = 0; i + len <= n; i++) {
+                int mid = i + len / 2;
+
+                int left = prefix[mid] - prefix[i];
+                int right = prefix[i + len] - prefix[mid];
+
+                if (left == right) {
+                    maxLen = len;
+                }
+            }
+        }
+
+        return maxLen;
+    }
+}
