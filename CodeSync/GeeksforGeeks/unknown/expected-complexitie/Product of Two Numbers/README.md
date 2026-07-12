@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/product-of-two-numbers/1
-- Synced: 2026-06-08T11:49:31.375Z
+- Synced: 2026-07-12T11:00:08.765Z
 
 ## Problem Description
 
