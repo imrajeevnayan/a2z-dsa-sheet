@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-12T18:06:15.526Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MakeMyTripWalmart",
+    "Company Tags",
+    "MakeMyTrip",
+    "Walmart",
+    "Topic Tags",
+    "Mathematical",
+    "Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution{ public: int mod=1000000007; long long power(int N,int R) { if(R==1) return N; if(R==0) return 1; long long val=power(N,R/2)%mod; val=(val*val)%mod; if(R&1) val=(val*N)%mod; return val; }",
+  "problemTitle": "Binary Exponentiation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1",
+  "submissionId": "gmfaa7"
+}
