@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Palindrome with minimum sum
+ * URL: https://www.geeksforgeeks.org/problems/palindrome-with-minimum-sum--170648/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:11:21.869Z
+ */
+
+class Solution {
+    public static int minimumSum(String s) {
+        // code here
+        
+    }
+}
