@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T11:03:06.568Z",
+  "submissionTimestamp": "2026-07-12T11:03:51.896Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "STL"
   ],
   "platform": "GeeksforGeeks",
-  "language": "C++ (17)",
+  "language": "vector<int> list_less_than_k(vector<int> a,int n,int k) { // Your code here //Return a vector with elements less than k vector<int>::iterator it; for(it=a.begin();it!=a.end();it++){ if(*it>=k){ a.erase(it); it--; } } return a; }",
   "problemTitle": "Elements Less Than K",
   "problemUrl": "https://www.geeksforgeeks.org/problems/elements-less-than-k/1",
-  "submissionId": "vl611d"
+  "submissionId": "9fwuh9"
 }
