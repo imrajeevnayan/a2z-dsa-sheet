@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T18:48:37.702Z
+ * Synced: 2026-07-12T18:49:45.029Z
  */
 
 class Solution {
