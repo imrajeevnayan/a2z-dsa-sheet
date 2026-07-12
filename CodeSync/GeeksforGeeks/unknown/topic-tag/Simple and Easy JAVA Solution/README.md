@@ -1,18 +1,18 @@
 # Simple and Easy JAVA Solution ::
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };
+- Language: class Solution { public Node createDLL(int arr[]) { Node head = new Node(arr[0]); Node temp = head; for(int i = 1; i < arr.length; i++) { Node newNode = new Node(arr[i]); newNode.prev = temp; temp.next = newNode; temp = temp.next; } return head; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Queue, Data Structures, Related Articles, Queue Data Structure, Queue Operations
+- Topics: Expected Complexities, Topic Tags, Data Structures, doubly-linked-list, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/queue-operations/1
-- Synced: 2026-06-06T11:51:37.447Z
+- Problem URL: https://www.geeksforgeeks.org/problems/create-a-doubly-linked-list-from-a-given-array/1
+- Synced: 2026-07-12T10:56:36.565Z
 
 ## Problem Description
 
-The task is to write two functions for a queue, enqueue(k) and findFrequency(k). The first function inserts a given item k and the second function finds frequency of a given item k. Every test case has two arrays. The first arrays is, insert[] which contains elements to be inserted in the queue. The second array is findFreq[] which contains items whose frequencies need to be found out. Note: enqueue(k) will be called for every element k in insert[]. findFrequency(k) will be called for every element k in findFreq[]; Examples: Input: insert[] = 1 2 3 4 5 2 3 1 , findFreq[] = 1 3 2 9 10 Output: 2 2 2 -1 -1 Explanation: After inserting 1, 2, 3, 4, 5, 2, 3 and 1 into the queue, frequency of 1 is 2, 3 is 2 and 2 is 2. Since 9 and 10 are not there in the queue we output -1 for them. Input: insert[] = 1 2 1 1 1 4 , findFreq[] = 1 5 4 3 Output: 4 -1 1 -1 Explanation: After inserting 1, 2, 1, 1, 1 and 4 into the queue, frequency of 1 is 4 and that of 4 is 1. Since 5 and 3 are not there in the queue we output -1 for them. Constraints: 1 <= n <= 103 1 <= m <= 103 1 <= Elements of Queue <= 106
+Given an array arr[] of integers, the goal is to create a Doubly Linked List (DLL) where each element of the array is represented as a node. The nodes must be linked in the same sequence as the array, maintaining both forward (next) and backward (prev) connections. Return the head of the constructed doubly linked list. Examples: Input: arr[] = [1, 2, 3, 4] Output: 1 <-> 2 <-> 3 <-> 4 Explanation: Each array element becomes a node in the doubly linked list. Node 1 connects forward to 2, and node 2 connects back to 1, and so on. Input: arr[] = [10, 20] Output: 10 <-> 20 Explanation: The list has two nodes. Node 10 points to 20, and node 20 points back to 10. Constraints: 1 ≤ arr.size() ≤ 104 0 ≤ arr[i] ≤ 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };. The detected topics are Expected Complexities, Topic Tags, Queue, Data Structures, Related Articles, Queue Data Structure, Queue Operations. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public Node createDLL(int arr[]) { Node head = new Node(arr[0]); Node temp = head; for(int i = 1; i < arr.length; i++) { Node newNode = new Node(arr[i]); newNode.prev = temp; temp.next = newNode; temp = temp.next; } return head; } }. The detected topics are Expected Complexities, Topic Tags, Data Structures, doubly-linked-list, Related Articles. Review the synced source file for the implementation details.
