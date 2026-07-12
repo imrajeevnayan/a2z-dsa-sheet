@@ -7,20 +7,9 @@
  * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T09:50:10.983Z
+ * Synced: 2026-07-12T09:52:27.992Z
  */
 
-class Solution {
-    public int numOfSubarrays(int[] arr, int k, int threshold) {
-        int targetSum = threshold * k;
-        int currentSum = 0,count = 0;
-        for (int i = 0; i < k; i++)currentSum += arr[i];
-        if (currentSum >= targetSum) count++;
-
-        for (int i = k; i < arr.length; i++) {
-            currentSum += arr[i] - arr[i - k];
-            if (currentSum >= targetSum) count++;
-        }
-        return count;
-    }
-}
+Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4
+Output: 3
+Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold).
