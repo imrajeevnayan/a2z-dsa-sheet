@@ -1,18 +1,18 @@
-# Simple and Easy JAVA Solution:
+# Simple and Easy JAVA Solution ::
 
 - Platform: GeeksforGeeks
-- Language: Java
+- Language: class Solution { repeatedCharacter(s) { // 1) count frequencies const freq = new Map(); for (const ch of s) { freq.set(ch, (freq.get(ch) || 0) + 1); } // 2) find leftmost character whose frequency > 1 for (let i = 0; i < s.length; ++i) { if (freq.get(s[i]) > 1) return i; } return -1; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, CPP, Related Articles, Program Binary Decimal Conversion
+- Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Data Structures, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/binary-to-decimal-1611122504--161115/1
-- Synced: 2026-06-08T11:56:33.655Z
+- Problem URL: https://www.geeksforgeeks.org/problems/repeating-character-first-appearance-leftmost/1
+- Synced: 2026-07-12T11:08:57.173Z
 
 ## Problem Description
 
-Given a string b representing a Binary Number, The problem is to find its decimal equivalent. Examples: Input : b = 111 Output : 7 Explanation : The decimal equivalent of the binary number 111 is 22 + 21 + 20 = 7. Input : b = 1010 Output : 10 Explanation : The decimal equivalent of the binary number 1010 is 23 + 21 = 10. Input: b = 100001 Output: 33 Explanation : The decimal equivalent of the binary number 100001 is 25 + 20 = 33. Constraints: 1 <= number of bits in binary number <= 16
+Given a string s, return the index of the first character that appears more than once in the string. If there is no repeated character, return -1. Examples: Input: s = "geeksforgeeks" Output: 0 Explanation: We see that both 'e' and 'g' repeat as we move from left to right.But the leftmost is 'g' so we return leftmost index of 'g' that is 0. Input: s = "abcd" Output: -1 Explanation: No character repeats so we return -1. Constraints: 1 ≤ |s| ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java. The detected topics are Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, CPP, Related Articles, Program Binary Decimal Conversion. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { repeatedCharacter(s) { // 1) count frequencies const freq = new Map(); for (const ch of s) { freq.set(ch, (freq.get(ch) || 0) + 1); } // 2) find leftmost character whose frequency > 1 for (let i = 0; i < s.length; ++i) { if (freq.get(s[i]) > 1) return i; } return -1; } }. The detected topics are Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Data Structures, Related Articles. Review the synced source file for the implementation details.
