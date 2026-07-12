@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-08T11:56:33.655Z",
+  "submissionTimestamp": "2026-07-12T11:08:57.173Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Adobe",
+    "Company Tags Goldman Sachs",
     "Company Tags",
-    "Adobe",
+    "Goldman Sachs",
     "Topic Tags",
-    "CPP",
-    "Related Articles",
-    "Program Binary Decimal Conversion"
+    "Strings",
+    "Data Structures",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java",
-  "problemTitle": "Simple and Easy JAVA Solution:",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/binary-to-decimal-1611122504--161115/1",
-  "submissionId": "cjskk5"
+  "language": "class Solution { repeatedCharacter(s) { // 1) count frequencies const freq = new Map(); for (const ch of s) { freq.set(ch, (freq.get(ch) || 0) + 1); } // 2) find leftmost character whose frequency > 1 for (let i = 0; i < s.length; ++i) { if (freq.get(s[i]) > 1) return i; } return -1; } }",
+  "problemTitle": "Simple and Easy JAVA Solution ::",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/repeating-character-first-appearance-leftmost/1",
+  "submissionId": "fxnovl"
 }
