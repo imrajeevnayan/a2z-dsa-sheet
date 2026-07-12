@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Binary Exponentiation
+ * URL: https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1
+ * Language: class Solution{ public: int mod=1000000007; long long power(int N,int R) { if(R==1) return N; if(R==0) return 1; long long val=power(N,R/2)%mod; val=(val*val)%mod; if(R&1) val=(val*N)%mod; return val; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags MakeMyTripWalmart, Company Tags, MakeMyTrip, Walmart, Topic Tags, Mathematical, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T18:06:15.526Z
+ */
+
+class Solution {
+    static int reverse(int n, int rev) {
+        if (n == 0) return rev;
+        return reverse(n / 10, rev * 10 + n % 10);
+    }
+
+    static long power(long a, long b) {
+        if (b == 0) return 1;
+        return a * power(a, b - 1);
+    }
+    public int reverseExponentiation(int n) {
+        int rev = reverse(n, 0);
+        return (int)power(n, rev);
+        
+    }
+}
