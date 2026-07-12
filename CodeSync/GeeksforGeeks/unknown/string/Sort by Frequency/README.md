@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1
-- Synced: 2026-07-12T11:29:11.858Z
+- Synced: 2026-07-12T11:29:57.304Z
 
 ## Problem Description
 
