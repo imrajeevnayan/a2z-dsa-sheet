@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-11T16:42:03.346Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-12T11:23:35.503Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Hash Table",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
-  "submissionId": "cjfl7i"
+  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12",
+  "submissionId": "48h2xo"
 }
