@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Are LinkedLists Equal
+ * URL: https://www.geeksforgeeks.org/problems/are-linkedlists-equal/1
+ * Language: boolean b=false; if(ll1.equals(ll2)){ b=true; } return b;
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:02:50.490Z
+ */
+
+class Solution {
+    public static boolean areEqual(LinkedList<Integer> ll1, LinkedList<Integer> ll2) {
+        if (ll1.size() != ll2.size()) {
+            return false;
+        }
+
+        for (int i = 0; i < ll1.size(); i++) {
+            if (!ll1.get(i).equals(ll2.get(i))) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
