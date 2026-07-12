@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Indexes of Subarray Sum
+ * URL: https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonFacebookGoogleVisa, Company Tags, Amazon, Facebook, Google, Visa, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T10:40:22.728Z
+ */
+
+class Solution {
+    static ArrayList<Integer> subarraySum(int[] arr, int target) {
+        int left = 0, sum = 0;
+        for (int right = 0; right < arr.length; right++) {
+            sum += arr[right];
+            while (sum > target && left <= right) {
+                sum -= arr[left++];
+            }
+            if (sum == target) {
+                return new ArrayList<>(Arrays.asList(left + 1, right + 1));
+            }
+        }
+        return new ArrayList<>(Arrays.asList(-1));
+    }
+}
