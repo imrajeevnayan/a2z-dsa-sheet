@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Palindrome Numbers in a Range
+ * URL: https://www.geeksforgeeks.org/problems/print-all-palindromes-in-the-given-range/1
+ * Language: Easy C++ vector<int> printPalindromes(int m, int n) { vector<int> v ; string s1 , s2 ; for(int i = m ; i <= n ; i++){ s1 = to_string(i); s2 = s1; reverse(s2.begin() , s2.end()); if(s1 == s2){ v.push_back(i) ; } } return v ; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Data Structures, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T10:58:46.751Z
+ */
+
+class Solution {
+     private boolean isPalindrome(int num) {
+        int original = num;
+        int rev = 0;
+        while (num > 0) {
+            rev = rev * 10 + (num % 10);
+            num /= 10;
+        }
+        return original == rev;
+    }
+    public ArrayList<Integer> printPalindromes(int m, int n) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int i = m; i <= n; i++) {
+            if (isPalindrome(i)) ans.add(i);
+        }
+        return ans;
+    }
+}
