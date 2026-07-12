@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1
-- Synced: 2026-07-12T18:06:15.526Z
+- Synced: 2026-07-12T18:47:34.972Z
 
 ## Problem Description
 
