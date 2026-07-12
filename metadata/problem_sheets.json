@@ -280,5 +280,6 @@
   "leetcode:maximum-substrings-with-distinct-start": [],
   "leetcode:count-the-number-of-complete-components": [],
   "leetcode:insert-greatest-common-divisors-in-linked-list": [],
-  "leetcode:minimum-element-after-replacement-with-digit-sum": []
+  "leetcode:minimum-element-after-replacement-with-digit-sum": [],
+  "leetcode:what-is-heap": []
 }
