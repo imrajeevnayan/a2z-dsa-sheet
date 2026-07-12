@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
-- Synced: 2026-07-12T20:05:52.440Z
+- Problem URL: https://leetcode.com/problems/rank-transform-of-an-array/?envType=daily-question&envId=2026-07-12
+- Synced: 2026-07-12T20:06:38.165Z
 
 ## Problem Description
 
