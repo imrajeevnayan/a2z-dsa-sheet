@@ -7,21 +7,17 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:45:26.091Z
+ * Synced: 2026-07-12T10:53:44.802Z
  */
 
 class Solution {
     public int findSize(Node head) {
-
         int count = 0;
-
         Node curr = head;
-
         while (curr != null) {
             count++;
             curr = curr.next;
         }
-
         return count;
     }
 }
