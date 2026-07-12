@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Repeated DNA Sequences
+ * URL: https://leetcode.com/problems/repeated-dna-sequences/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T09:50:15.217Z
+ */
+
+class Solution {
+    public List<String> findRepeatedDnaSequences(String s) {
+        
+    }
+}
