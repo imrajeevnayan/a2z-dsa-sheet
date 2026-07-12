@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-11T18:52:36.920Z",
+  "submissionTimestamp": "2026-07-12T09:54:23.988Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Substrings of Size Three with Distinct Characters",
-  "problemUrl": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/",
-  "submissionId": "5zcu5k"
+  "problemUrl": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
+  "submissionId": "f8hii1"
 }
