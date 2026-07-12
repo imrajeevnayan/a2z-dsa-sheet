@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Rank Transform of an Array
+ * URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T20:05:52.440Z
+ */
+
+class Solution {
+    public int[] arrayRankTransform(int[] arr) {
+        
+    }
+}
