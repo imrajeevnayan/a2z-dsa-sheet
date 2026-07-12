@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple and Easy JAVA Solution ::
+ * URL: https://www.geeksforgeeks.org/problems/repeating-character-first-appearance-leftmost/1
+ * Language: class Solution { repeatedCharacter(s) { // 1) count frequencies const freq = new Map(); for (const ch of s) { freq.set(ch, (freq.get(ch) || 0) + 1); } // 2) find leftmost character whose frequency > 1 for (let i = 0; i < s.length; ++i) { if (freq.get(s[i]) > 1) return i; } return -1; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T11:08:57.173Z
+ */
+
+class Solution {
+    static int repeatedCharacter(String S) {
+        int[] freq = new int[256];
+
+        for (int i = 0; i < S.length(); i++) {
+            freq[S.charAt(i)]++;
+        }
+
+        // Find leftmost repeated character
+        for (int i = 0; i < S.length(); i++) {
+            if (freq[S.charAt(i)] > 1) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+}
