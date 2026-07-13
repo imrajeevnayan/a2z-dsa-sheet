@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-07-13T12:40:05.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Queue",
+    "Sliding Window",
+    "Heap (Priority Queue)",
+    "Prefix Sum",
+    "Monotonic Queue"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Shortest Subarray with Sum at Least K",
+  "problemUrl": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/",
+  "submissionId": "mz2oeu"
+}
