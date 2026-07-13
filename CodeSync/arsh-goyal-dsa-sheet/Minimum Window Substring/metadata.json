@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T09:54:19.511Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-13T17:09:36.072Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Window Substring",
-  "problemUrl": "https://leetcode.com/problems/minimum-window-substring/description/",
-  "submissionId": "fpz4sa"
+  "problemUrl": "https://leetcode.com/problems/minimum-window-substring/",
+  "submissionId": "kok75r"
 }
