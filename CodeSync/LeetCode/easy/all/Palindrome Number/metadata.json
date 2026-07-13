@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-13T15:32:19.512Z",
+  "submissionTimestamp": "2026-07-13T15:33:06.192Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.13 MB",
   "difficulty": "Easy",
   "tags": [
     "Math"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Number",
-  "problemUrl": "https://leetcode.com/problems/palindrome-number/",
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/submissions/2066308512/",
   "submissionId": "yr21k1"
 }
