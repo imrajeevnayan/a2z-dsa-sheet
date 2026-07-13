@@ -1,15 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Substring Without Repeating Characters
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2060807385/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
- * Runtime: 6 ms
- * Memory: 46.42 MB
- * Synced: 2026-07-09T12:20:32.181Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T15:48:56.087Z
  */
 
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        
+    }
+}
