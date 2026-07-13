@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Shortest Subarray with Sum at Least K
+ * URL: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T12:40:05.909Z
+ */
+
+class Solution {
+    public int shortestSubarray(int[] nums, int k) {
+        
+    }
+}
