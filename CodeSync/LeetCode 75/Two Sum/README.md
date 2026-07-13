@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/two-sum/description/
-- Synced: 2026-07-13T15:41:59.231Z
+- Problem URL: https://leetcode.com/problems/two-sum/
+- Synced: 2026-07-13T15:47:37.772Z
 
 ## Problem Description
 
