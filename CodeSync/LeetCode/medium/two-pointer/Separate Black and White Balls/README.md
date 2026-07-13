@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/separate-black-and-white-balls/
-- Synced: 2026-07-13T17:13:46.592Z
+- Synced: 2026-07-13T17:14:42.320Z
 
 ## Problem Description
 
