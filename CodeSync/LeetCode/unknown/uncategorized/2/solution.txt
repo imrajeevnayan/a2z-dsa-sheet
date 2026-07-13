@@ -1,37 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
+ * URL: https://leetcode.com/submissions/detail/2066124860/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-23T19:22:32.072Z
+ * Runtime: 21 ms
+ * Memory: 66.04 MB
+ * Synced: 2026-07-13T16:25:08.374Z
  */
 
-public int lengthOfLongestSubstring(String s) {
-	var n = s.length();
-	
-	if (n < 2)
-		return n;
-		
-	var left = 0;
-	var right = 0;
-	var maxLength = 0;
-	var map = new HashMap<Character, Integer>(); // map of char to its latest index
-
-	while (right < n) {
-		var ch = s.charAt(right);
-		
-		if (map.containsKey(ch)) {
-			maxLength = Math.max(maxLength, right - left); // record max window size
-			left = Math.max(left, map.get(ch) + 1); // shrink window from left
-		}
-		
-		map.put(ch, right); 
-		right++ // expand window to the right
-	}
-	
-	return Math.max(maxLength, right - left);
-}
+1class Solution {
+2    public int shortestSubarray(int[] nums, int k) {
+3        int n = nums.length;
+4        int minLen = Integer.MAX_VALUE;
+5        long[] prefixSums = new long[n + 1];
+6        for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
+7
+8        Deque<Integer> dq = new ArrayDeque<>();
+9
+10        for (int i = 0; i <= n; i++) {
+11            while (!dq.isEmpty() && prefixSums[i] - prefixSums[dq.peekFirst()] >= k) {
+12                minLen = Math.min(minLen, i - dq.pollFirst());
+13            }
+14            while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
+15                dq.pollLast();
+16            }
+17            dq.addLast(i);
+18        }
+19        return minLen == Integer.MAX_VALUE ? -1 : minLen;
+20    }
+21}
