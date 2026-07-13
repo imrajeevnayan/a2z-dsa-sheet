@@ -7,12 +7,14 @@
  * Topics: Math
  * Runtime: 0 ms
  * Memory: 46.13 MB
- * Synced: 2026-07-13T15:38:34.730Z
+ * Synced: 2026-07-13T15:39:25.149Z
  */
 
 class Solution {
     public boolean isPalindrome(int x) {
         return x==rev(x);
+    static int rev(int x){
+        
     }
-
+    }
 }
