@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-13T17:14:42.320Z",
+  "submissionTimestamp": "2026-07-13T17:15:36.006Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "47.48 MB",
   "difficulty": "Medium",
   "tags": [
     "Two Pointers",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Separate Black and White Balls",
-  "problemUrl": "https://leetcode.com/problems/separate-black-and-white-balls/",
+  "problemUrl": "https://leetcode.com/problems/separate-black-and-white-balls/submissions/2066444750/",
   "submissionId": "rqyqdb"
 }
