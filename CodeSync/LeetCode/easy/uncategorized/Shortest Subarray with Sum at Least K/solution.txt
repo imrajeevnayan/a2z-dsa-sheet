@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Shortest Subarray with Sum at Least K
+ * URL: https://leetcode.com/problems/count-good-triplets/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T16:54:31.543Z
+ */
+
+for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
+
+        Deque<Integer> dq = new ArrayDeque<>();
+
+        for (int i = 0; i <= n; i++) {
+            while (!dq.isEmpty() && prefixSums[i] - prefixSums[dq.peekFirst()] >= k) {
+                minLen = Math.min(minLen, i - dq.pollFirst());
+            }
+            while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
+                dq.pollLast();
+            }
+        long[] prefixSums = new long[n + 1];
+        int minLen = Integer.MAX_VALUE;
+        int n = nums.length;
+            dq.addLast(i);
+        }
+        return minLen == Integer.MAX_VALUE ? -1 : minLen;
