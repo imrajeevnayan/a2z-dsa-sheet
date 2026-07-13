@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Math, Greedy
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/rabbits-in-forest/description/
-- Synced: 2026-07-13T17:36:51.818Z
+- Runtime: 0 ms
+- Memory: 43.95 MB
+- Problem URL: https://leetcode.com/problems/rabbits-in-forest/submissions/2066476929/
+- Synced: 2026-07-13T17:38:24.775Z
 
 ## Problem Description
 
