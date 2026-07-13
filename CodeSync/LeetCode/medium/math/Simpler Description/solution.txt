@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Math, Greedy
  * Runtime: 0 ms
  * Memory: 43.95 MB
- * Synced: 2026-07-13T17:38:24.775Z
+ * Synced: 2026-07-13T17:39:19.003Z
  */
 
 int total=0;
