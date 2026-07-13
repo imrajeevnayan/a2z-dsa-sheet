@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-13T15:47:37.772Z
+ * Memory: 47.35 MB
+ * Synced: 2026-07-13T15:48:27.153Z
  */
 
 class Solution {
