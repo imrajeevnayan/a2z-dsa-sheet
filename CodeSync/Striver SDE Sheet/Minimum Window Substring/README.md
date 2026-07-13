@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-window-substring/submissions/
-- Synced: 2026-07-13T17:11:45.036Z
+- Problem URL: https://leetcode.com/problems/separate-black-and-white-balls/
+- Synced: 2026-07-13T17:11:50.078Z
 
 ## Problem Description
 
