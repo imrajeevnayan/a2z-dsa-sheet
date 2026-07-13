@@ -7,14 +7,18 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T15:26:56.993Z
+ * Synced: 2026-07-13T15:27:42.992Z
  */
 
 class Solution {
+    static int reverse(int x){
+        while(x>9){
+            int rev=rev*10+(rev%10);
+        }
+    }
     public boolean isPalindrome(int x) {
         return x==reverse(x);
-    static int reverse(int x){
-        while(x>9)
     }
-    }
+            x/=10;
+        return 
 }
