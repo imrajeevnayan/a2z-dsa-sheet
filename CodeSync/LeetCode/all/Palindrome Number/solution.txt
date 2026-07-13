@@ -5,20 +5,21 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-13T15:27:42.992Z
+ * Synced: 2026-07-13T15:32:19.512Z
  */
 
 class Solution {
     static int reverse(int x){
-        while(x>9){
-            int rev=rev*10+(rev%10);
-        }
+      while(x>0){
+         rev=rev*10+(x%10);
+      }
     }
     public boolean isPalindrome(int x) {
         return x==reverse(x);
     }
-            x/=10;
-        return 
+        int rev=0;
+         x/=10;
+      return rev;
 }
