@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sequential Digits
+ * URL: https://leetcode.com/problems/sequential-digits/description/?envType=daily-question&envId=2026-07-13
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T12:32:15.028Z
+ */
+
+class Solution {
+    public List<Integer> sequentialDigits(int low, int high) {
+        
+    }
+}
