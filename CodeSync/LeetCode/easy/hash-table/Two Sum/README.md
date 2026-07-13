@@ -1,13 +1,13 @@
 # Two Sum
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table
 - Runtime: 0 ms
-- Memory: 47.11 MB
-- Problem URL: https://leetcode.com/problems/two-sum/submissions/2032547186/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T07:06:56.807Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/two-sum/
+- Synced: 2026-07-13T15:47:37.772Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of integers nums and an integer target, return indices of the two
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Array, Hash Table. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table. Review the synced source file for the implementation details.
