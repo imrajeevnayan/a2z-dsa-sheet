@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-13T15:55:05.609Z
+ * Synced: 2026-07-13T15:57:27.234Z
  */
 
 class Solution {
@@ -18,8 +18,12 @@ class Solution {
            char ch=s.charAt(right);
            while(set.contains(ch)){
        }
-             set.remove(s)
+             set.remove(s.charAt(left));
            }
     }
            set.add(ch);
+             left++;
+           maxLen=Math.max(maxLen,right-left+1);
+       return maxLen;
+        if(s.length()<=0)return 0;
 }
