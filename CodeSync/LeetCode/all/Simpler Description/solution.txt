@@ -1,22 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Simpler Description
- * URL: https://leetcode.com/problems/rabbits-in-forest/description/
+ * URL: https://leetcode.com/problems/rabbits-in-forest/submissions/2066476929/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Math, Greedy
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-13T17:36:51.818Z
+ * Runtime: 0 ms
+ * Memory: 43.95 MB
+ * Synced: 2026-07-13T17:38:24.775Z
  */
 
-class Solution {
-    public int numRabbits(int[] answers) {
-    HashMap<Integer,Integer>map=new HashMap<>();
-    for(int n :answers){
-        map.put(n,map.getOrDefault(n,0)+1);
-    }
-    int total=0;
+int total=0;
      for (int x : map.keySet()) {
             int v = map.get(x);
             int groupSize = x + 1;
@@ -26,3 +20,4 @@ class Solution {
         return total;
     }
 }
+    for(int n :answers)map.put(n,map.getOrDefault(n,0)+1);
