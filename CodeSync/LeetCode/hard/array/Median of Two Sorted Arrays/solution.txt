@@ -7,13 +7,15 @@
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T16:02:05.368Z
+ * Synced: 2026-07-13T16:02:51.001Z
  */
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int merge[]=new int[nums1.length+nums2.length];
+        while(i<nums1.length && j<nums2.length ){
+        int i=0,j=0,k=0;
+            
+        }
     }
-        while(i )
-        int i
 }
