@@ -466,5 +466,15 @@
   "leetcode:separate-black-and-white-balls": [],
   "leetcode:check-if-array-pairs-are-divisible-by-k": [
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:find-minimum-in-rotated-sorted-array": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
