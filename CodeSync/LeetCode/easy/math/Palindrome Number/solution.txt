@@ -1,25 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Number
- * URL: https://leetcode.com/problems/palindrome-number/submissions/2066308512/
+ * URL: https://leetcode.com/problems/palindrome-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: 0 ms
  * Memory: 46.13 MB
- * Synced: 2026-07-13T15:33:53.165Z
+ * Synced: 2026-07-13T15:34:39.495Z
  */
 
 class Solution {
     static int reverse(int x){
-      while(x>0){
-         rev=rev*10+(x%10);
-      }
+       if(x <0)return 
     }
     public boolean isPalindrome(int x) {
         return x==reverse(x);
     }
-        int rev=0;
-         x/=10;
-      return rev;
 }
