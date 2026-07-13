@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: None of the test cases are wrong. They're just confusing.
+ * URL: https://leetcode.com/problems/shuffle-string/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-12T20:09:42.722Z
+ */
+
+class Solution {
+    public String restoreString(String s, int[] indices) {
+        
+    }
+}
