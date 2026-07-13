@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Sliding Window
+- Language: Online Interview
+- Difficulty: Unknown
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
-- Synced: 2026-07-12T07:17:48.147Z
+- Problem URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
+- Synced: 2026-07-13T15:20:24.196Z
 
 ## Problem Description
 
-Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold. Example 1: Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4 Output: 3 Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold). Example 2: Input: arr = [11,13,17,23,29,31,7,5,2,3], k = 3, threshold = 5 Output: 6 Explanation: The first 6 sub-arrays of size 3 have averages greater than 5. Note that averages are not integers. Constraints: 1 <= arr.length <= 105 1 <= arr[i] <= 104 1 <= k <= arr.length 0 <= threshold <= 104
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Online Interview. Review the synced source file for the implementation details.
