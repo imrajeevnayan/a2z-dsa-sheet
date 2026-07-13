@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T17:28:52.479Z",
-  "runtime": "3 ms",
-  "memoryUsage": "115.59 MB",
+  "submissionTimestamp": "2026-07-13T15:19:50.207Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2062707294/",
-  "submissionId": "k2pza7"
+  "problemUrl": "https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/",
+  "submissionId": "lxq1n7"
 }
