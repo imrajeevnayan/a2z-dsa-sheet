@@ -1,25 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2062707294/
+ * URL: https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 3 ms
- * Memory: 115.59 MB
- * Synced: 2026-07-10T17:28:52.479Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T15:19:50.207Z
  */
 
-1class Solution {
-2    public long zeroFilledSubarray(int[] nums) {
-3        long count = 0;
-4        long consecutiveZeros = 0;
-5        for (int num : nums) {
-6            if (num == 0) {
-7                consecutiveZeros++;
-8                count += consecutiveZeros;
-9            } else  consecutiveZeros = 0;
-10        }
-11        return count;
-12    }
-13}
+import heapq as hq
+# Simple array is heap
+minHeap = []
+# Adding an element to the heap
+hq.heappush(minHeap, 5)
