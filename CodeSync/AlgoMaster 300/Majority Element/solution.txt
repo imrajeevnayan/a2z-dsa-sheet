@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Majority Element
+ * URL: https://leetcode.com/problems/majority-element/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T15:25:08.423Z
+ */
+
+class Solution {
+    public int majorityElement(int[] nums) {
+        
+    }
+}
