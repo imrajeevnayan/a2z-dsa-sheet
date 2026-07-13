@@ -4,10 +4,10 @@
 - Language: Online Interview
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
-- Synced: 2026-07-13T15:20:24.196Z
+- Runtime: 21 ms
+- Memory: 66.04 MB
+- Problem URL: https://leetcode.com/submissions/detail/2066124860/
+- Synced: 2026-07-13T16:25:07.573Z
 
 ## Problem Description
 
