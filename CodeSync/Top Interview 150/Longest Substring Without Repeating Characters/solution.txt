@@ -7,15 +7,13 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T15:52:48.534Z
+ * Synced: 2026-07-13T15:52:02.845Z
  */
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-       Set<Character>s
-       int left=0,maxLen=Integer.MIN_VALUE;
-       for(int right=0;right<s.length();right++){
-           char c=s.charAt(right);
-       }
+       Map<Character,Integer>map=new HashMap<>();
     }
+       int left=0,maxLen=Integer.MIN_VALUE;
+       for(int right=0;right<s.length();right++)
 }
