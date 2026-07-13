@@ -4,10 +4,10 @@
 - Language: Online Interview
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 3 ms
-- Memory: 115.59 MB
-- Problem URL: https://leetcode.com/submissions/detail/2062707294/
-- Synced: 2026-07-10T17:28:52.479Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/
+- Synced: 2026-07-13T15:19:50.207Z
 
 ## Problem Description
 
