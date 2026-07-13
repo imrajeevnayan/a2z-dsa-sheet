@@ -420,5 +420,6 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:sequential-digits": [],
-  "leetcode:rotated-digits": []
+  "leetcode:rotated-digits": [],
+  "leetcode:boats-to-save-people": []
 }
