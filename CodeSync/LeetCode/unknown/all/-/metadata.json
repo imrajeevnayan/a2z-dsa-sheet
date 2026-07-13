@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-13T15:20:24.196Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-13T16:25:07.573Z",
+  "runtime": "21 ms",
+  "memoryUsage": "66.04 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/",
-  "submissionId": "gtt41j"
+  "problemUrl": "https://leetcode.com/submissions/detail/2066124860/",
+  "submissionId": "vjczmi"
 }
