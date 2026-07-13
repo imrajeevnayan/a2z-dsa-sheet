@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-13T12:33:52.948Z",
+  "submissionTimestamp": "2026-07-13T12:34:37.257Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Enumeration"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Sequential Digits",
-  "problemUrl": "https://leetcode.com/problems/sequential-digits/description/?envType=daily-question&envId=2026-07-13",
-  "submissionId": "yjp8ep"
+  "problemUrl": "https://leetcode.com/problems/rotated-digits/description/?envType=daily-question&envId=2026-07-13",
+  "submissionId": "jpl9hw"
 }
