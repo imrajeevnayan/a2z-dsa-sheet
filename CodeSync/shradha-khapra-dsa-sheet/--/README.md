@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/
-- Synced: 2026-07-13T17:16:30.665Z
+- Synced: 2026-07-13T17:17:23.428Z
 
 ## Problem Description
 
