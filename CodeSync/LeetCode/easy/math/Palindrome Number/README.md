@@ -6,8 +6,8 @@
 - Topics: Math
 - Runtime: 0 ms
 - Memory: 46.13 MB
-- Problem URL: https://leetcode.com/problems/palindrome-number/submissions/2066308512/
-- Synced: 2026-07-13T15:33:53.165Z
+- Problem URL: https://leetcode.com/problems/palindrome-number/
+- Synced: 2026-07-13T15:34:39.495Z
 
 ## Problem Description
 
