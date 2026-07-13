@@ -1,28 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2044276962/?envType=problem-list-v2&envId=da2h7mkv
- * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
- * Difficulty: Easy
+ * URL: https://leetcode.com/submissions/detail/2066124860/
+ * Language: Online Interview
+ * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 54 ms
- * Memory: 70.42 MB
- * Synced: 2026-06-24T07:07:00.795Z
+ * Runtime: 21 ms
+ * Memory: 66.04 MB
+ * Synced: 2026-07-13T16:25:08.374Z
  */
 
-class Solution {
-    public int totalFruit(int[] fruits) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int left = 0,maxLen = 0;
-        for (int right = 0; right < fruits.length; right++) {
-            map.put(fruits[right],map.getOrDefault(fruits[right], 0) + 1 );
-            while (map.size() > 2) {
-                map.put(fruits[left],map.get(fruits[left]) - 1);
-                if (map.get(fruits[left]) == 0)map.remove(fruits[left]);
-                left++;
-            }
-            maxLen = Math.max(maxLen,right - left + 1 );
-        }
-        return maxLen;
-    }
-}
+1class Solution {
+2    public int shortestSubarray(int[] nums, int k) {
+3        int n = nums.length;
+4        int minLen = Integer.MAX_VALUE;
+5        long[] prefixSums = new long[n + 1];
+6        for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
+7
+8        Deque<Integer> dq = new ArrayDeque<>();
+9
+10        for (int i = 0; i <= n; i++) {
+11            while (!dq.isEmpty() && prefixSums[i] - prefixSums[dq.peekFirst()] >= k) {
+12                minLen = Math.min(minLen, i - dq.pollFirst());
+13            }
+14            while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
+15                dq.pollLast();
+16            }
+17            dq.addLast(i);
+18        }
+19        return minLen == Integer.MAX_VALUE ? -1 : minLen;
+20    }
+21}
