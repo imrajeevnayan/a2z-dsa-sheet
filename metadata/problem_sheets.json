@@ -418,5 +418,14 @@
   "leetcode:boats-to-save-people": [],
   "leetcode:shortest-subarray-with-sum-at-least-k": [
     "custom:fraz-dsa-sheet"
+  ],
+  "leetcode:majority-element": [
+    "Grind75",
+    "Grind169",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE",
+    "AlgoMaster300"
   ]
 }
