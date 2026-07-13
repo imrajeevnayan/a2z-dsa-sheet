@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1
-- Synced: 2026-07-11T06:40:51.346Z
+- Synced: 2026-07-13T18:25:10.739Z
 
 ## Problem Description
 
