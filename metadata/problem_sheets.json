@@ -462,5 +462,18 @@
   ],
   "leetcode:count-good-triplets": [
     "custom:fraz-dsa-sheet"
+  ],
+  "leetcode:separate-black-and-white-balls": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
