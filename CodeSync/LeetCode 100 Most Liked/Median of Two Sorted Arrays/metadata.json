@@ -1,21 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-10T06:00:16.995Z",
+  "submissionTimestamp": "2026-07-13T16:15:52.650Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Hard Topics Company Tags Hints",
-    "Topics",
-    "Company Tags",
-    "Hints",
-    "Array Binary Search Divide and Conquer",
     "Array",
     "Binary Search",
     "Divide and Conquer"
   ],
-  "platform": "NeetCode",
-  "language": "nums1",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Median of Two Sorted Arrays",
-  "problemUrl": "https://neetcode.io/problems/median-of-two-sorted-arrays/question",
-  "submissionId": "o9mr9i"
+  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
+  "submissionId": "yqpfg4"
 }
