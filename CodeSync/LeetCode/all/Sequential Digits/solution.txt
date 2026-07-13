@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Sequential Digits
- * URL: https://leetcode.com/problems/sequential-digits/description/?envType=daily-question&envId=2026-07-13
+ * URL: https://leetcode.com/problems/rotated-digits/description/?envType=daily-question&envId=2026-07-13
  * Language: Daily Question
- * Difficulty: Medium
- * Topics: Enumeration
+ * Difficulty: Easy
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T12:33:52.948Z
+ * Synced: 2026-07-13T12:34:37.257Z
  */
 
-class Solution {
+for (int len = lowLen; len <= highLen; len++) {
+            for (int i = 0; i + len <= 9; i++) {
+                int num = Integer.parseInt(digits.substring(i, i + len));
+
+                if (num >= low && num <= high) {
+                    ans.add(num);
+                }
+            }
+        int highLen = String.valueOf(high).length();
+        int lowLen = String.valueOf(low).length();
+
+        String digits = "123456789";
+        List<Integer> ans = new ArrayList<>();
     public List<Integer> sequentialDigits(int low, int high) {
-        
-    }
-}
+class Solution {
