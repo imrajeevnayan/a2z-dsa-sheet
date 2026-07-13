@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:21:10.270Z",
-  "runtime": "1 ms",
-  "memoryUsage": "56.45 MB",
+  "submissionTimestamp": "2026-07-13T12:37:19.694Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Boats to Save People",
-  "problemUrl": "https://leetcode.com/problems/boats-to-save-people/submissions/2051014401/",
+  "problemUrl": "https://leetcode.com/problems/boats-to-save-people/description/",
   "submissionId": "8vht1u"
 }
