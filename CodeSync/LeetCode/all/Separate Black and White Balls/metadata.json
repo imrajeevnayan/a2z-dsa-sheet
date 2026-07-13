@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-13T17:13:46.592Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Separate Black and White Balls",
+  "problemUrl": "https://leetcode.com/problems/separate-black-and-white-balls/",
+  "submissionId": "winpll"
+}
