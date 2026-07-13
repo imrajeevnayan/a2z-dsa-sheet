@@ -7,14 +7,15 @@
  * Topics: Math
  * Runtime: 0 ms
  * Memory: 46.13 MB
- * Synced: 2026-07-13T15:35:26.080Z
+ * Synced: 2026-07-13T15:36:12.266Z
  */
 
 class Solution {
-    static int reverse(int x){
-       if(x <0)return  vv
-    }
+    static int reverse(int x}{
     public boolean isPalindrome(int x) {
         return x==reverse(x);
+        if(x<0)return ;
     }
+    }
+        return
 }
