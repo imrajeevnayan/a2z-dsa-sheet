@@ -1,19 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Median of Two Sorted Arrays
- * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/2066363472/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-13T16:02:05.368Z
+ * Runtime: 0 ms
+ * Memory: 48.52 MB
+ * Synced: 2026-07-13T16:16:50.163Z
  */
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int merge[]=new int[nums1.length+nums2.length];
+        int i=0,j=0,k=0;
+        while(i<nums1.length && j<nums2.length ){
+            if(nums1[i]<nums2[j])merge[k++]=nums1[i++];
+            else merge[k++]=nums2[j++];
+        }
+        while(i<nums1.length)merge[k++]=nums1[i++];
+        while(j<nums2.length)merge[k++]=nums2[j++];
+        int total=merge.length;
+        if(total %2==1)return (double)merge[total/2];
+        else return (merge[total/2-1]+merge[total/2])/2.0;
     }
-        while(i )
-        int i
 }
