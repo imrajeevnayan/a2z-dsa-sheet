@@ -463,5 +463,8 @@
   "leetcode:count-good-triplets": [
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:separate-black-and-white-balls": []
+  "leetcode:separate-black-and-white-balls": [],
+  "leetcode:check-if-array-pairs-are-divisible-by-k": [
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
