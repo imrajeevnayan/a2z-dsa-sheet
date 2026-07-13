@@ -1,21 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Shortest Subarray with Sum at Least K
- * URL: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/
+ * URL: https://leetcode.com/problems/count-good-triplets/
  * Language: Problem List
- * Difficulty: Hard
- * Topics: Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue
+ * Difficulty: Easy
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T16:25:27.386Z
+ * Synced: 2026-07-13T16:54:31.543Z
  */
 
-class Solution {
-    public int shortestSubarray(int[] nums, int k) {
-        int n = nums.length;
-        int minLen = Integer.MAX_VALUE;
-        long[] prefixSums = new long[n + 1];
-        for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
+for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
 
         Deque<Integer> dq = new ArrayDeque<>();
 
@@ -26,3 +21,9 @@ class Solution {
             while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
                 dq.pollLast();
             }
+        long[] prefixSums = new long[n + 1];
+        int minLen = Integer.MAX_VALUE;
+        int n = nums.length;
+            dq.addLast(i);
+        }
+        return minLen == Integer.MAX_VALUE ? -1 : minLen;
