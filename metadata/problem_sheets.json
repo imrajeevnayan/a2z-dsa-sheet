@@ -421,5 +421,8 @@
   ],
   "leetcode:sequential-digits": [],
   "leetcode:rotated-digits": [],
-  "leetcode:boats-to-save-people": []
+  "leetcode:boats-to-save-people": [],
+  "leetcode:shortest-subarray-with-sum-at-least-k": [
+    "custom:fraz-dsa-sheet"
+  ]
 }
