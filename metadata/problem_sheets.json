@@ -459,5 +459,8 @@
     "StriverA2Z",
     "LoveBabbar450",
     "StriverSDE"
+  ],
+  "leetcode:count-good-triplets": [
+    "custom:fraz-dsa-sheet"
   ]
 }
