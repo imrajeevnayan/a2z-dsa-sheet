@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-13T15:27:42.992Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-13T15:32:19.512Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Problem List",
   "problemTitle": "Palindrome Number",
   "problemUrl": "https://leetcode.com/problems/palindrome-number/",
-  "submissionId": "qx4bww"
+  "submissionId": "yr21k1"
 }
