@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Two Pointers, String, Greedy
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/separate-black-and-white-balls/
-- Synced: 2026-07-13T17:14:42.320Z
+- Memory: 47.48 MB
+- Problem URL: https://leetcode.com/problems/separate-black-and-white-balls/submissions/2066444750/
+- Synced: 2026-07-13T17:15:36.006Z
 
 ## Problem Description
 
