@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Window Substring
- * URL: https://leetcode.com/problems/minimum-window-substring/submissions/
+ * URL: https://leetcode.com/problems/separate-black-and-white-balls/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T17:11:45.036Z
+ * Synced: 2026-07-13T17:11:50.078Z
  */
 
 class Solution {
