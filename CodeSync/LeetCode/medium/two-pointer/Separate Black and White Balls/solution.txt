@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Separate Black and White Balls
- * URL: https://leetcode.com/problems/separate-black-and-white-balls/
+ * URL: https://leetcode.com/problems/separate-black-and-white-balls/submissions/2066444750/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Two Pointers, String, Greedy
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-13T17:14:42.320Z
+ * Memory: 47.48 MB
+ * Synced: 2026-07-13T17:15:36.006Z
  */
 
 public long minimumSteps(String s) {
