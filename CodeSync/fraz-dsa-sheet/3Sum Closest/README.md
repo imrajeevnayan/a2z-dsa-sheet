@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/3sum-closest/description/
-- Synced: 2026-07-13T12:38:33.332Z
+- Runtime: 1 ms
+- Memory: 45.54 MB
+- Problem URL: https://leetcode.com/problems/3sum-closest/
+- Synced: 2026-07-13T12:39:43.921Z
 
 ## Problem Description
 
