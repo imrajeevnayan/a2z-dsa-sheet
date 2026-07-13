@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-13T15:41:59.231Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-13T15:47:37.772Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Two Sum",
-  "problemUrl": "https://leetcode.com/problems/two-sum/description/",
-  "submissionId": "ht0hda"
+  "problemUrl": "https://leetcode.com/problems/two-sum/",
+  "submissionId": "ajalob"
 }
