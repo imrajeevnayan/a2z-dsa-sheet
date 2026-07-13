@@ -1,13 +1,13 @@
 # Find Minimum in Rotated Sorted Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: 0 ms
-- Memory: 43.76 MB
-- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2061317331/
-- Synced: 2026-07-09T09:13:31.728Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-13T17:19:06.269Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Suppose an array of length n sorted in ascending order is rotated between 1 and 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
