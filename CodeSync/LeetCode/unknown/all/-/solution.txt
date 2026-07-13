@@ -1,27 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2062711299/
+ * URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 24 ms
- * Memory: 49.21 MB
- * Synced: 2026-07-10T17:26:54.929Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-13T15:20:24.196Z
  */
 
-1class Solution {
-2      public int subarraySum(int[] arr, int k) {
-3        Map<Integer, Integer> map = new HashMap<>();
-4          map.put(0, 1);
-5         int sum = 0, count = 0;
-6          for (int n : arr) {
-7                 sum += n;
-8            if(map.containsKey(sum-k)){
-9                count+=map.get(sum-k);
-10            } 
-11            map.put(sum,map.getOrDefault(sum,0)+1); 
-12         }
-13         return count;
-14    }
-15}
+public int lengthOfLongestSubstring(String s) {
+	var n = s.length();
+	
+	if (n < 2)
+		return n;
+		
+	var left = 0;
+	var right = 0;
+	var maxLength = 0;
+	var map = new HashMap<Character, Integer>(); // map of char to its latest index
+
+	while (right < n) {
+		var ch = s.charAt(right);
+		
+		if (map.containsKey(ch)) {
+			maxLength = Math.max(maxLength, right - left); // record max window size
+			left = Math.max(left, map.get(ch) + 1); // shrink window from left
+		}
+		
+		map.put(ch, right); 
+		right++ // expand window to the right
+	}
+	
+	return Math.max(maxLength, right - left);
+}
