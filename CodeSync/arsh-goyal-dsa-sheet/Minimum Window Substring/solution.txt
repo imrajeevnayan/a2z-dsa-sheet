@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Window Substring
- * URL: https://leetcode.com/problems/minimum-window-substring/
+ * URL: https://leetcode.com/problems/separate-black-and-white-balls/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T17:09:36.072Z
+ * Synced: 2026-07-13T17:11:50.078Z
  */
 
 class Solution {
-    public long minimumSteps(String s) {
+    public String minWindow(String s, String t) {
         
     }
 }
