@@ -7,20 +7,16 @@
  * Topics: Two Pointers, String, Greedy
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-13T17:13:46.592Z
+ * Synced: 2026-07-13T17:14:42.320Z
  */
 
 public long minimumSteps(String s) {
-        long ans = 0;
-        long ones = 0;
+        long ans = 0,ones = 0;
 
         for (char ch : s.toCharArray()) {
             if (ch == '1')  ones++;
-            } else {
-                ans += ones;
-            }
+             else ans += ones;
         }
-
         return ans;
     }
 }
