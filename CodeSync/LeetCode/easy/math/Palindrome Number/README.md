@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-number/
-- Synced: 2026-07-13T15:32:19.512Z
+- Memory: 46.13 MB
+- Problem URL: https://leetcode.com/problems/palindrome-number/submissions/2066308512/
+- Synced: 2026-07-13T15:33:06.192Z
 
 ## Problem Description
 
