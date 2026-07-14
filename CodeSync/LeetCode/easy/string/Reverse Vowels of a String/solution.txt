@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T14:00:09.687Z
+ * Synced: 2026-07-14T14:00:55.301Z
  */
 
 class Solution {
@@ -22,5 +22,7 @@ class Solution {
             while(left < right && !isVowels(ch[left]))left++;
         }
     }
-            while(left < right && !isVowels(ch[left]))left++;
+            while(left < right && !isVowels(ch[right]))right--;
+            char temp=ch[left];
+            ch[]
 }
