@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
-- Synced: 2026-07-14T13:35:21.992Z
+- Synced: 2026-07-14T13:36:17.002Z
 
 ## Problem Description
 
