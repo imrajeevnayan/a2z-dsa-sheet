@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
-- Synced: 2026-07-14T07:58:10.470Z
+- Synced: 2026-07-14T09:32:41.040Z
 
 ## Problem Description
 
