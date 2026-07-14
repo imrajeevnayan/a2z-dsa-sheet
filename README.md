@@ -104,12 +104,12 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 
 | Coding Sheet | Solved | Total |
 | :--- | :--- | :--- |
-| Blind 75 | 53 | 75 |
+| Blind 75 | 54 | 75 |
 | Grind 75 | 36 | 75 |
 | Grind 169 | 42 | 169 |
-| NeetCode 150 | 59 | 150 |
+| NeetCode 150 | 60 | 150 |
 | LeetCode 75 | 16 | 75 |
-| Top Interview 150 | 47 | 150 |
+| Top Interview 150 | 48 | 150 |
 | Top 100 Liked | 4 | 100 |
 | SQL 50 | 0 | 50 |
 | Striver A2Z DSA | 5 | 450 |
