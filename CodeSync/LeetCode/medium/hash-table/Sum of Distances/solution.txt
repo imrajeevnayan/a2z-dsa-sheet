@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T16:49:10.170Z
+ * Synced: 2026-07-14T16:50:01.159Z
  */
 
 class Solution {
