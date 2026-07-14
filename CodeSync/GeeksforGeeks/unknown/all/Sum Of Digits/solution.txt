@@ -2,17 +2,19 @@
  * Platform: GeeksforGeeks
  * Problem: Sum Of Digits
  * URL: https://www.geeksforgeeks.org/problems/sum-of-digits1742/1
- * Language: Java (21)
+ * Language: class Solution { static int sumOfDigits(int n) { // code here int sum = 0; while(n != 0){ sum += n % 10; n = n / 10; } return sum; } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags Drishti-Soft, Company Tags, Drishti-Soft, Topic Tags, number-theory, Related Articles, Program For Sum Of The Digits Of A Given Number
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:21:12.889Z
+ * Synced: 2026-07-14T15:21:58.351Z
  */
 
 class Solution {
     static int sumOfDigits(int n) {
-        // code here
-        
+        int sum=0;
+      while(n >0){
+          int digit=n%1
+      }
     }
 }
