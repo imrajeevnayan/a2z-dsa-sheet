@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:19:08.340Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-14T14:06:16.371Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.69 MB",
   "difficulty": "Easy",
   "tags": [
     "Two Pointers",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Vowels of a String",
-  "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/description/",
-  "submissionId": "3f75ug"
+  "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/2067443195/",
+  "submissionId": "khg64f"
 }
