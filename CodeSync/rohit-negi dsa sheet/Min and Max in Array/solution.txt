@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:16:24.496Z
+ * Synced: 2026-07-14T15:17:10.951Z
  */
 
 class Solution {
@@ -18,6 +18,6 @@ class Solution {
             if(a>max)max=a;
             if(a<min)min=a;
         }
-        return newAAA
+        return new ArrayList<>(Arrays.asList(min,max));
     }
 }
