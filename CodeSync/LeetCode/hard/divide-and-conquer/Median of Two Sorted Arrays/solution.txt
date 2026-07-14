@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T16:04:23.267Z
+ * Synced: 2026-07-13T16:05:08.858Z
  */
 
 class Solution {
@@ -19,5 +19,6 @@ class Solution {
             else merge[k++]=nums2[j++];
         }
     }
-        while(i<nums1.length)merge[j]
+        while(i<nums1.length)merge[k++]=nums1[i++];
+        while(j<nums2.length)merge[k++]=nums2[j++]
 }
