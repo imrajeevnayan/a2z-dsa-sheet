@@ -1,13 +1,13 @@
 # Sum of Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: int arraySum(vector<int>& arr) { // code here int res=0; for(int i=0; i<arr.size(); i++){ res+=arr[i]; } return res; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-all-array-elements/1
-- Synced: 2026-07-14T15:17:29.154Z
+- Synced: 2026-07-14T15:18:15.266Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array arr[], return the sum of all elements of arr. Examples: I
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: int arraySum(vector<int>& arr) { // code here int res=0; for(int i=0; i<arr.size(); i++){ res+=arr[i]; } return res; } };. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures. Review the synced source file for the implementation details.
