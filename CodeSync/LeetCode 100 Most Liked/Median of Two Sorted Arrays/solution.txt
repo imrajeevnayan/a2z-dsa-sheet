@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-13T16:03:37.535Z
+ * Synced: 2026-07-13T16:04:23.267Z
  */
 
 class Solution {
@@ -15,8 +15,9 @@ class Solution {
         int merge[]=new int[nums1.length+nums2.length];
         int i=0,j=0,k=0;
         while(i<nums1.length && j<nums2.length ){
-            if(nums[i]<nums[j])merge[k++]=nums[i++];
-            else me
+            if(nums[i]<nums[j])merge[k++]=nums1[i++];
+            else merge[k++]=nums2[j++];
         }
     }
+        while(i<nums1.length)merge[j]
 }
