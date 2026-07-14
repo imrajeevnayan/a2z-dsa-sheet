@@ -7,12 +7,10 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-14T14:40:25.435Z
+ * Synced: 2026-07-14T14:41:11.780Z
  */
 
-}
-    public String reverseVowels(String s) {
-        char[] a = s.toCharArray();
+char[] a = s.toCharArray();
         int i = 0, j = a.length - 1;
         while (i < j) {
             while (i < j && !isVowel(a[i])) i++;
@@ -23,6 +21,7 @@
         }
         return new String(a);
     }
+}
+    public String reverseVowels(String s) {
+    }
         return "aeiouAEIOU".indexOf(c) != -1;
-    boolean isVowel(char c) {
-class Solution {
