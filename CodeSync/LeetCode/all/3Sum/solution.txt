@@ -7,13 +7,15 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T12:34:26.928Z
+ * Synced: 2026-07-14T12:35:12.152Z
  */
 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        Set<Integer>set=new HashSet<>();
-    }
+    Set<List<Integer
 
-        for(int i=0;i<nums.length;i++)
+        for(int i=0;i<nums.length;i++){
+            
+        }
+    }
 }
