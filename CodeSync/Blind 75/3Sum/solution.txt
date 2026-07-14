@@ -5,21 +5,22 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-14T12:42:59.329Z
+ * Synced: 2026-07-14T12:46:02.361Z
  */
 
-int third=-(nums[i]+nums[j]);
-            }
-                if(set.contains(third)){
-                List<Integer>triplet=Arrays.asList<>(nums[i],nums[j],third);
+}
                 }
                 set.add(nums[j]);
-                Collections.sort(third);
+                Collections.sort(triplet);
                 list.add(triplet);
+                List<Integer>triplet=Arrays.asList(nums[i],nums[j],third);
+                if(set.contains(third)){
             
         }
-
+      return new ArrayList<>(list);
     }
-}
+                int third=-(nums[i]+nums[j]);
+            for(int j=i+1;j<nums.length;j++){
+            Set<Integer>set=new HashSet<>();
