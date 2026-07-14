@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Searching using all loops of Javascript
+ * URL: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
+ * Language: class Solution { search(arr, x) { // code here for(const [key,value] of arr.entries()){ if(value===x){ return key } } return -1; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Algorithms, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T15:04:35.629Z
+ */
+
+class Solution {
+    public int search(int arr[], int x) {
+     for(int i=0;i)
+    }
+}
