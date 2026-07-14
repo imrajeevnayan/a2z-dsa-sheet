@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: 50.25 MB
 - Problem URL: https://leetcode.com/problems/generate-parentheses/submissions/2067485719/
-- Synced: 2026-07-14T14:49:03.949Z
+- Synced: 2026-07-14T14:49:53.913Z
 
 ## Problem Description
 
