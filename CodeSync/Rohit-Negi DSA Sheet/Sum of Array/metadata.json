@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T15:18:15.266Z",
+  "submissionTimestamp": "2026-07-14T15:19:10.013Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,5 +14,5 @@
   "language": "class Solution { public: int arraySum(vector<int>& arr) { // code here int res=0; for(int i=0; i<arr.size(); i++){ res+=arr[i]; } return res; } };",
   "problemTitle": "Sum of Array",
   "problemUrl": "https://www.geeksforgeeks.org/problems/sum-all-array-elements/1",
-  "submissionId": "qglm98"
+  "submissionId": "1wejqe"
 }
