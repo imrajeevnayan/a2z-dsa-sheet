@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-07-14T11:38:34.774Z
+ * Synced: 2026-07-14T11:39:21.468Z
  */
 
 class Solution {
@@ -17,8 +17,8 @@ class Solution {
             char ch[]=s.toCharArray();
             Arrays.sort(ch);
         }
-        
+        return new ArrayList<>(map.values());
     }
             String key=String.valueOf(ch);
-            map.computeIfAbsent(key,k->new A)
+            map.computeIfAbsent(key,k->new ArrayList<>()).add(s);
 }
