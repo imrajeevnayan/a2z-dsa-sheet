@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Backtracking
  * Runtime: 2 ms
- * Memory: 50.49 MB
- * Synced: 2026-07-14T14:59:54.910Z
+ * Memory: N/A
+ * Synced: 2026-07-14T15:00:42.995Z
  */
 
 for (int i = 1; i <= n; i++) {
