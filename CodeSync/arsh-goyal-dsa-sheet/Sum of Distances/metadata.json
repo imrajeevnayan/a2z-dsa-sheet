@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-14T15:36:35.036Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Sum of Distances",
+  "problemUrl": "https://leetcode.com/problems/sum-of-distances/description/",
+  "submissionId": "nkmgss"
+}
