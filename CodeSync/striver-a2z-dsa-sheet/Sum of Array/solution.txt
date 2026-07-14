@@ -7,12 +7,13 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:18:15.266Z
+ * Synced: 2026-07-14T15:19:58.010Z
  */
 
 class Solution {
     public int arraySum(int arr[]) {
         int sum=0;
-        for(int i=0;i<nums.length;i++)sum+=arr
+        for(int i=0;i<arr.length;i++)sum+=arr[i];
+        return sum;
     }
 }
