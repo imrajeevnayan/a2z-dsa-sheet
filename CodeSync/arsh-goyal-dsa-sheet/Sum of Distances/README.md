@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sum-of-distances/description/
-- Synced: 2026-07-14T16:45:19.191Z
+- Problem URL: https://leetcode.com/problems/sum-of-distances/
+- Synced: 2026-07-14T16:46:51.170Z
 
 ## Problem Description
 
