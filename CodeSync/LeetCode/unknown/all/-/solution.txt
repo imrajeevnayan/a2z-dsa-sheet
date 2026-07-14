@@ -1,33 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2066124860/
+ * URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 21 ms
- * Memory: 66.04 MB
- * Synced: 2026-07-13T16:25:07.573Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T07:58:10.470Z
  */
 
-1class Solution {
-2    public int shortestSubarray(int[] nums, int k) {
-3        int n = nums.length;
-4        int minLen = Integer.MAX_VALUE;
-5        long[] prefixSums = new long[n + 1];
-6        for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
-7
-8        Deque<Integer> dq = new ArrayDeque<>();
-9
-10        for (int i = 0; i <= n; i++) {
-11            while (!dq.isEmpty() && prefixSums[i] - prefixSums[dq.peekFirst()] >= k) {
-12                minLen = Math.min(minLen, i - dq.pollFirst());
-13            }
-14            while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
-15                dq.pollLast();
-16            }
-17            dq.addLast(i);
-18        }
-19        return minLen == Integer.MAX_VALUE ? -1 : minLen;
-20    }
-21}
+Following article contains the list of questions topic wise
