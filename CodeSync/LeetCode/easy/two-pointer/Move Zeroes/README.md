@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers
 - Runtime: . S
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/move-zeroes/description/
-- Synced: 2026-07-14T11:14:29.406Z
+- Problem URL: https://leetcode.com/problems/move-zeroes/
+- Synced: 2026-07-14T11:15:14.831Z
 
 ## Problem Description
 
