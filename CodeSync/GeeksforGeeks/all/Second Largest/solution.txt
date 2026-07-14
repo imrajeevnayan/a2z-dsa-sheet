@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags SAP LabsRockstand, Company Tags, SAP Labs, Rockstand, Topic Tags, Arrays, Searching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:37:37.448Z
+ * Synced: 2026-07-14T15:38:30.028Z
  */
 
 class Solution {
