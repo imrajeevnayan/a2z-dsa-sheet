@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-18T04:13:57.162Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-14T14:42:30.063Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Problem List",
   "problemTitle": "Merge Two Sorted Lists",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=problem-list-v2&envId=9gvhzx23",
-  "submissionId": "lkw6cu"
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
+  "submissionId": "l5kchn"
 }
