@@ -5,24 +5,24 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-14T14:00:55.301Z
+ * Synced: 2026-07-14T14:02:31.833Z
  */
 
-class Solution {
-    static boolean isVowels(char c){
+static boolean isVowels(char c){
         return "aeiouAEIOU".indexOf(c)!=-1;
     }
     public String reverseVowels(String s) {
         char ch[]=s.toCharArray();
-        int  left=0,right=ch.length()-1;
-
+        int  left=0,right=ch.length-1;
+       return new String(ch);
         while(left<right){
             while(left < right && !isVowels(ch[left]))left++;
         }
     }
             while(left < right && !isVowels(ch[right]))right--;
             char temp=ch[left];
-            ch[]
+            ch[left++]=ch[right];
+            ch[right--]=temp;
 }
