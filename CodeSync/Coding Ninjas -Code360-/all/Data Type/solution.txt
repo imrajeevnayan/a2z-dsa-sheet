@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Data Type
+ * URL: https://www.naukri.com/code360/problems/data-type_8357232
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:17:13.991Z
+ */
+
+public class Solution {
+    public static int dataTypes(String type) {
+        switch (type) {
+            case "Integer":
+                return 4;
+            case "Long":
+                return 8;
+            case "Float":
+                return 4;
+            case "Double":
+                return 8;
+            case "Character":
+                return 1;
+            default:
+                return -1; // Not needed as per constraints
+        }
+    }
+}
