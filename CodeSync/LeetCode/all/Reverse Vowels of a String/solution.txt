@@ -7,14 +7,15 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T13:46:47.994Z
+ * Synced: 2026-07-14T13:49:18.190Z
  */
 
 class Solution {
     public String reverseVowels(String s) {
-        
+        char ch=s.toCharArray();
     static boolean isVowels(char c){
         return "aeiouAEIOU".indexOf(c)!=-1;
     }
     }
+        int 
 }
