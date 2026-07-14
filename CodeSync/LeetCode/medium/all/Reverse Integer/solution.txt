@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Integer
- * URL: https://leetcode.com/problems/reverse-integer/
+ * URL: https://leetcode.com/problems/reverse-integer/submissions/2067786574/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-14T18:39:04.323Z
+ * Runtime: 0 ms
+ * Memory: 42.40 MB
+ * Synced: 2026-07-14T18:39:51.491Z
  */
 
 class Solution {
@@ -17,13 +17,9 @@ class Solution {
             int digit = x % 10;
             x = x / 10;
             // Check for overflow/underflow
-            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) {
-                return 0;
-            
-
+            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) return 0;
             rev = rev * 10 + digit;
         }
-
         return rev;
     }
 }
