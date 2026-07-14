@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-14T11:43:39.558Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Go",
+  "problemTitle": "153. Find Minimum in Rotated Sorted Array",
+  "problemUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2066450688/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "nirju2"
+}
