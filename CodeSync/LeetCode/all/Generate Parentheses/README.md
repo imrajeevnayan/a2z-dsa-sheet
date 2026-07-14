@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Dynamic Programming, Backtracking
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/generate-parentheses/
-- Synced: 2026-07-14T14:44:02.665Z
+- Runtime: 2 ms
+- Memory: 50.25 MB
+- Problem URL: https://leetcode.com/problems/generate-parentheses/submissions/2067485719/
+- Synced: 2026-07-14T14:44:51.629Z
 
 ## Problem Description
 
