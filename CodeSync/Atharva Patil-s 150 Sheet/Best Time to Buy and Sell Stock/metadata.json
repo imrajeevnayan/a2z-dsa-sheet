@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T16:50:26.014Z",
+  "submissionTimestamp": "2026-07-14T15:01:57.195Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "Best Time to Buy and Sell Stock",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "yk4mym"
+  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+  "submissionId": "w2mkz5"
 }
