@@ -2,17 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Sum of Array
  * URL: https://www.geeksforgeeks.org/problems/sum-all-array-elements/1
- * Language: Java (21)
+ * Language: class Solution { public: int arraySum(vector<int>& arr) { // code here int res=0; for(int i=0; i<arr.size(); i++){ res+=arr[i]; } return res; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:17:29.154Z
+ * Synced: 2026-07-14T15:18:15.266Z
  */
 
 class Solution {
     public int arraySum(int arr[]) {
-        // code here
-        
+        int sum=0;
+        for(int i=0;i<nums.length;i++)sum+=arr
     }
 }
