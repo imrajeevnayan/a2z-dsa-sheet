@@ -7,22 +7,16 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:01:57.195Z
+ * Synced: 2026-07-14T15:02:43.000Z
  */
 
 class Solution {
     public int maxProfit(int[] prices) {
-        if (prices.length == 0) return 0;
-        
-        int n = prices.length;
-        int[] dp = new int[n];
-        int minPrice = prices[0];
-        dp[0] = 0;
-        
-        for (int i = 1; i < n; i++) {
-            minPrice = Math.min(minPrice, prices[i]);
-            dp[i] = Math.max(dp[i - 1], prices[i] - minPrice);
-        }
-        return dp[n - 1];
+     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
+     for(int n :prices){
+        min=Math.min(min,n);
+        max=Math.max(max,n-min);
+     }
+     return max;   
     }
 }
