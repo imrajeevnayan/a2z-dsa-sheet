@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/
-- Synced: 2026-07-14T15:35:16.925Z
+- Memory: 46.63 MB
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2067543536/
+- Synced: 2026-07-14T15:36:48.911Z
 
 ## Problem Description
 
