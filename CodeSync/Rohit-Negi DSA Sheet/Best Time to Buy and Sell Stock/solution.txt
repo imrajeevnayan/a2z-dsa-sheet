@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-14T15:02:43.000Z
+ * Runtime: 0 ms
+ * Memory: 94.30 MB
+ * Synced: 2026-07-14T15:03:30.929Z
  */
 
 class Solution {
