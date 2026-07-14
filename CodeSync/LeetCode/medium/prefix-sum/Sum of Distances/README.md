@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sum-of-distances/description/
-- Synced: 2026-07-14T15:45:00.930Z
+- Synced: 2026-07-14T15:46:58.936Z
 
 ## Problem Description
 
