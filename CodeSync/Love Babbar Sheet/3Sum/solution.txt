@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T12:38:25.245Z
+ * Synced: 2026-07-14T12:39:56.344Z
  */
 
 class Solution {
@@ -18,5 +18,8 @@ class Solution {
             
         }
 
+            for(int j=i+1;j<nums.length;j++){
+                int third=-(nums[i]+nums[])
+            }
     }
 }
