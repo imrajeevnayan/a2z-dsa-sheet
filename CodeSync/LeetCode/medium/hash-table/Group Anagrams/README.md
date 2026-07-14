@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/group-anagrams/
-- Synced: 2026-07-14T11:37:48.267Z
+- Synced: 2026-07-14T11:38:34.774Z
 
 ## Problem Description
 
