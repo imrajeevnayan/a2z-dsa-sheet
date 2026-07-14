@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/second-largest3735/1
-- Synced: 2026-07-14T15:37:37.448Z
+- Synced: 2026-07-14T15:38:30.028Z
 
 ## Problem Description
 
