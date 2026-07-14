@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T11:35:00.261Z",
+  "submissionTimestamp": "2026-07-14T11:39:59.905Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/description/",
+  "problemUrl": "https://leetcode.com/problems/3sum/",
   "submissionId": "s47czs"
 }
