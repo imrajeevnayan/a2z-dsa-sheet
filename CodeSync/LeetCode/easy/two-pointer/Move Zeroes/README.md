@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: . S
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/move-zeroes/
-- Synced: 2026-07-14T11:15:14.831Z
+- Synced: 2026-07-14T11:16:25.038Z
 
 ## Problem Description
 
