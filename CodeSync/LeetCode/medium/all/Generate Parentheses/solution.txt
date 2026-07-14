@@ -1,28 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Generate Parentheses
- * URL: https://leetcode.com/problems/generate-parentheses/submissions/2037799662/
+ * URL: https://leetcode.com/problems/generate-parentheses/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Backtracking
- * Runtime: 2 ms
- * Memory: 44.73 MB
- * Synced: 2026-06-18T16:34:37.157Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T14:44:02.665Z
  */
 
-int open, int close, int n) {
-        
-        if (current.length() == 2 * n) {
-            result.add(current);
-            return;
+for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                for (String left : dp.get(j)) {
+                    for (String right : dp.get(i - 1 - j)) {
+                        dp.get(i).add("(" + left + ")" + right);
+                    }
+                }
+            }
         }
-
-        if (open < n) {
-            backtrack(result, current + "(", open + 1, close, n);
-        }
-
-        if (close < open) {
-            backtrack(result, current + ")", open, close + 1, n);
-        }
+        return dp.get(n);
     }
 }
+        
+        dp.get(0).add("");
+        for (int i = 0; i <= n; i++)ndp.add(new ArrayList<>());
+        List<List<String>> dp = new ArrayList<>();
+    public List<String> generateParenthesis(int n) {
