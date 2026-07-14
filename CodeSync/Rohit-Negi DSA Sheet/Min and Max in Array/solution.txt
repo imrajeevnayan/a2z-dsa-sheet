@@ -7,13 +7,13 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:10:22.716Z
+ * Synced: 2026-07-14T15:14:44.652Z
  */
 
 class Solution {
     public ArrayList<Integer> getMinMax(int[] arr) {
         int min=Integer.MAX_VALUE;
-        int max=Int
+        int max=Integer.MIN_VALUE;
         
     }
 }
