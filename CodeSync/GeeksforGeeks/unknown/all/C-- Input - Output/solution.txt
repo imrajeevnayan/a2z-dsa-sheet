@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Input / Output
+ * URL: https://www.geeksforgeeks.org/problems/c-input-output2432/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, CPP, Operators, OOP, Related Articles, Basic Input Output C
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:10:49.315Z
+ */
+
+class Solution {
+    static int multiplication(int A, int B) {
+        // code here
+        
+    }
+}
