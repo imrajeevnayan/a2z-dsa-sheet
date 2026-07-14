@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Vowels of a String
- * URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
+ * URL: https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/2067439191/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-14T14:02:31.833Z
+ * Memory: 46.57 MB
+ * Synced: 2026-07-14T14:03:23.994Z
  */
 
 static boolean isVowels(char c){
