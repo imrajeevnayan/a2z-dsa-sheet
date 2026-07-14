@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T15:22:48.734Z",
+  "submissionTimestamp": "2026-07-14T15:23:38.618Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -13,8 +13,8 @@
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public: bool isSorted(vector<int>& arr) { // code here for(int i=0,j=i+1;i<arr.size(),j<arr.size();i++,j++){ if(arr[i]>arr[j]){ return false; } } return true; } };",
   "problemTitle": "Check if array is sorted",
   "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1",
-  "submissionId": "3hvtkx"
+  "submissionId": "w8vygl"
 }
