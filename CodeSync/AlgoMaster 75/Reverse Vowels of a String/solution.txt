@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Vowels of a String
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T14:41:44.334Z
+ */
+
+char[] a = s.toCharArray();
+        int i = 0, j = a.length - 1;
+        while (i < j) {
+            while (i < j && !isVowel(a[i])) i++;
+            while (i < j && !isVowel(a[j])) j--;
+            char t = a[i];
+            a[i++] = a[j];
+            a[j--] = t;
+        }
+        return new String(a);
+    }
+}
+    public String reverseVowels(String s) {
+    }
+        return "aeiouAEIOU".indexOf(c) != -1;
