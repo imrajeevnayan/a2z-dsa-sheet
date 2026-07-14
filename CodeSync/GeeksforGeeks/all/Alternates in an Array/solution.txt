@@ -7,12 +7,15 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Data Structures, Related Articles, Print Alternate Elements Of An Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:24:58.401Z
+ * Synced: 2026-07-14T15:25:43.820Z
  */
 
 class Solution {
     public ArrayList<Integer> getAlternates(int arr[]) {
        ArrayList<Integer>res=new ArrayList<>();
-       
+       for(int i=0;i<arr.length;i+=2){
+           ans+=ans[i];
+       }
+       return ans;
     }
 }
