@@ -1,13 +1,13 @@
 # Sum Of Digits
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { static int sumOfDigits(int n) { // code here int sum = 0; while(n != 0){ sum += n % 10; n = n / 10; } return sum; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags Drishti-Soft, Company Tags, Drishti-Soft, Topic Tags, number-theory, Related Articles, Program For Sum Of The Digits Of A Given Number
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-digits1742/1
-- Synced: 2026-07-14T15:21:12.889Z
+- Synced: 2026-07-14T15:21:58.351Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a positive number n. Find the sum of all the digits of n. Examples: Input:
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Drishti-Soft, Company Tags, Drishti-Soft, Topic Tags, number-theory, Related Articles, Program For Sum Of The Digits Of A Given Number. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { static int sumOfDigits(int n) { // code here int sum = 0; while(n != 0){ sum += n % 10; n = n / 10; } return sum; } }. The detected topics are Expected Complexities, Company Tags Drishti-Soft, Company Tags, Drishti-Soft, Topic Tags, number-theory, Related Articles, Program For Sum Of The Digits Of A Given Number. Review the synced source file for the implementation details.
