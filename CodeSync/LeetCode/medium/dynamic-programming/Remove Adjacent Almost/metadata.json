@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-14T18:49:33.975Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Remove Adjacent Almost",
+  "problemUrl": "https://leetcode.com/problems/remove-adjacent-almost-equal-characters/description/",
+  "submissionId": "4b777b"
+}
