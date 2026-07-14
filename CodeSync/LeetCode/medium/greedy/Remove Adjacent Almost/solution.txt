@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Adjacent Almost
+ * URL: https://leetcode.com/problems/remove-adjacent-almost-equal-characters/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:49:33.975Z
+ */
+
+class Solution {
+    public int removeAlmostEqualCharacters(String word) {
+        
+    }
+}
