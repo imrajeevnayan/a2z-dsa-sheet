@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T13:56:04.001Z
+ * Synced: 2026-07-14T13:55:17.005Z
  */
 
 class Solution {
