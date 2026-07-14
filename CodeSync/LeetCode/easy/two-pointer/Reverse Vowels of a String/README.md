@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
-- Synced: 2026-07-14T14:02:31.833Z
+- Memory: 46.57 MB
+- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/2067439191/
+- Synced: 2026-07-14T14:03:23.994Z
 
 ## Problem Description
 
