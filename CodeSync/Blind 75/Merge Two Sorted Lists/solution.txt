@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T14:42:30.063Z
+ * Synced: 2026-07-14T14:43:15.974Z
  */
 
 if (list1 == null) return list2;
