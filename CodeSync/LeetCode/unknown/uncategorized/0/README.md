@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
-- Synced: 2026-07-13T15:51:07.156Z
+- Problem URL: https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/
+- Synced: 2026-07-14T05:57:30.174Z
 
 ## Problem Description
 
