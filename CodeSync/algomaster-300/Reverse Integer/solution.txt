@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: 0 ms
  * Memory: 42.40 MB
- * Synced: 2026-07-14T18:46:35.419Z
+ * Synced: 2026-07-14T18:47:21.150Z
  */
 
 class Solution {
