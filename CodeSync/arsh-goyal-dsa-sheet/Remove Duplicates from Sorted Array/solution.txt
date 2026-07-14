@@ -7,12 +7,14 @@
  * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:32:16.131Z
+ * Synced: 2026-07-14T15:33:05.959Z
  */
 
 class Solution {
     public int removeDuplicates(int[] nums) {
      int k=0;
+     for(int i=1;i<nums.length;i++){
+        if(nums[i]!=nums[i-1])nums
+     }
     }
-     for(int i=1;i<nums.length;i++)
 }
