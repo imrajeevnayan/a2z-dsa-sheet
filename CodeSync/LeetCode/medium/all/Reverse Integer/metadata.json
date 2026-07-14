@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T18:42:16.073Z",
+  "submissionTimestamp": "2026-07-14T18:43:08.608Z",
   "runtime": "0 ms",
   "memoryUsage": "42.40 MB",
   "difficulty": "Medium",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Integer",
-  "problemUrl": "https://leetcode.com/problems/reverse-integer/submissions/2067786574/",
+  "problemUrl": "https://leetcode.com/problems/reverse-integer/",
   "submissionId": "6x6wml"
 }
