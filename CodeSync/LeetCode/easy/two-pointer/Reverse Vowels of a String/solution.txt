@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T13:51:39.147Z
+ * Synced: 2026-07-14T13:50:51.375Z
  */
 
 class Solution {
@@ -18,8 +18,6 @@ class Solution {
         char ch[]=s.toCharArray();
         int  left=0,right=ch.length()-1;
 
-        while(left<right){
-            
-        }
     }
+        while(left<right)
 }
