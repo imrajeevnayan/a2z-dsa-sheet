@@ -6,8 +6,8 @@
 - Topics: String, Dynamic Programming, Backtracking
 - Runtime: 2 ms
 - Memory: 50.49 MB
-- Problem URL: https://leetcode.com/problems/generate-parentheses/submissions/2067497560/
-- Synced: 2026-07-14T14:55:57.030Z
+- Problem URL: https://leetcode.com/problems/generate-parentheses/
+- Synced: 2026-07-14T14:56:44.799Z
 
 ## Problem Description
 
