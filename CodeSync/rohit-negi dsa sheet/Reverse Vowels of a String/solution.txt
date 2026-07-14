@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Vowels of a String
- * URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
+ * URL: https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/2067443195/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-14T14:05:30.238Z
+ * Runtime: 0 ms
+ * Memory: 46.69 MB
+ * Synced: 2026-07-14T14:06:16.371Z
  */
 
-class Solution {
-    boolean isVowel(char c) {
-        return "aeiouAEIOU".indexOf(c) != -1;
-    }
+}
     public String reverseVowels(String s) {
         char[] a = s.toCharArray();
         int i = 0, j = a.length - 1;
@@ -26,3 +23,6 @@ class Solution {
         }
         return new String(a);
     }
+        return "aeiouAEIOU".indexOf(c) != -1;
+    boolean isVowel(char c) {
+class Solution {
