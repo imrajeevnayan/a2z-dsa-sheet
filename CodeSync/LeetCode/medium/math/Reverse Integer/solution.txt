@@ -7,22 +7,23 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T18:37:33.619Z
+ * Synced: 2026-07-14T18:39:04.323Z
  */
 
 class Solution {
     public int reverse(int x) {
         int rev = 0;
-
         while (x != 0) {
             int digit = x % 10;
-
-            // overflow check
-            if (rev > Integer.MAX_VALUE / 10 || 
-               (rev == Integer.MAX_VALUE / 10 && digit > 7))
+            x = x / 10;
+            // Check for overflow/underflow
+            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) {
                 return 0;
+            
 
-            // underflow check
-            if (rev < Integer.MIN_VALUE / 10 || 
-               (rev == Integer.MIN_VALUE / 10 && digit < -8))
-                return 0;
+            rev = rev * 10 + digit;
+        }
+
+        return rev;
+    }
+}
