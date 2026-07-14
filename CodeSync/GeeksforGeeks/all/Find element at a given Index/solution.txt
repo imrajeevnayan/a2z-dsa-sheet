@@ -7,13 +7,14 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, CPP, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:08:33.039Z
+ * Synced: 2026-07-14T15:09:19.920Z
  */
 
 class Solution {
     public int findElementAtIndex(int i, int[] arr) {
        for(int j=0;j<arr.length;j++){
-           if()
+           if(i==j)return arr[j];
        }
+       return -1;
     }
 }
