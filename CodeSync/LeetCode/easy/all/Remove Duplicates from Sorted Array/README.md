@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-- Synced: 2026-07-14T15:29:53.899Z
+- Synced: 2026-07-14T15:30:42.624Z
 
 ## Problem Description
 
