@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 43.71 MB
- * Synced: 2026-07-14T11:45:11.358Z
+ * Synced: 2026-07-14T11:46:42.357Z
  */
 
 Input: nums = [3,4,5,1,2]
