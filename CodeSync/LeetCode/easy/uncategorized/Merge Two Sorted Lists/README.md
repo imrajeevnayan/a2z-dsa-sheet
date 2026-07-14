@@ -1,13 +1,13 @@
 # Merge Two Sorted Lists
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 0 ms
-- Memory: 44.53 MB
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2032528097/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-14T07:01:58.007Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/generate-parentheses/
+- Synced: 2026-07-14T14:43:16.964Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
