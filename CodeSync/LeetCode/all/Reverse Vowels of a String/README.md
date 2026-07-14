@@ -6,8 +6,8 @@
 - Topics: Two Pointers, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/description/
-- Synced: 2026-06-30T09:19:08.340Z
+- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
+- Synced: 2026-07-14T13:32:58.992Z
 
 ## Problem Description
 
