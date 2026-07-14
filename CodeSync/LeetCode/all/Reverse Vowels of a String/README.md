@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Uncategorized
-- Runtime: 3 ms
-- Memory: 46.57 MB
-- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/
-- Synced: 2026-07-14T14:05:43.000Z
+- Topics: Two Pointers, String
+- Runtime: 0 ms
+- Memory: 46.69 MB
+- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/submissions/2067443195/
+- Synced: 2026-07-14T14:06:16.371Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given a string s, reverse only all the vowels in the string and return it. The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once. Example 1: Input: s = "IceCreAm" Output: "AceCreIm" Explanation: The vowels in s are ['I', 'e', 'e', 'A']. On reversing the vowels, s becomes "AceCreIm". Example 2: Input: s = "leetcode" Output: "leotcede" Constraints: 1 <= s.length <= 3 * 105 s consist of printable ASCII characters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
