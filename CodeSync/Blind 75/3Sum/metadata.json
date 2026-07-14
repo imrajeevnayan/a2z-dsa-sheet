@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-30T06:02:28.402Z",
-  "runtime": "1 ms",
+  "submissionTimestamp": "2026-07-14T11:17:20.610Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/",
-  "submissionId": "5m76f4"
+  "problemUrl": "https://leetcode.com/problems/3sum/description/",
+  "submissionId": "s47czs"
 }
