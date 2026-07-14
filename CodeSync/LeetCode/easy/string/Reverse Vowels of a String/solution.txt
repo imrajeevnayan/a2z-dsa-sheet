@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T13:57:03.997Z
+ * Synced: 2026-07-14T13:58:37.497Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
         int  left=0,right=ch.length()-1;
 
         while(left<right){
-            whi
+            while(left < right)
         }
     }
 }
