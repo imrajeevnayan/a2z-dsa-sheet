@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Check if array is sorted
  * URL: https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
- * Language: Java (21)
+ * Language: class Solution { public: bool isSorted(vector<int>& arr) { // code here for(int i=0,j=i+1;i<arr.size(),j<arr.size();i++,j++){ if(arr[i]>arr[j]){ return false; } } return true; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:22:48.734Z
+ * Synced: 2026-07-14T15:23:38.618Z
  */
 
 class Solution {
