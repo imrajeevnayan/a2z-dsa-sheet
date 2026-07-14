@@ -502,5 +502,6 @@
     "Top100Liked",
     "StriverA2Z",
     "StriverSDE"
-  ]
+  ],
+  "leetcode:reverse-vowels-of-a-string": []
 }
