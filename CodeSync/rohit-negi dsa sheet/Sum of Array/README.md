@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-all-array-elements/1
-- Synced: 2026-07-14T15:19:10.013Z
+- Synced: 2026-07-14T15:19:58.010Z
 
 ## Problem Description
 
