@@ -1,13 +1,13 @@
 # Best Time to Buy and Sell Stock
 
 - Platform: LeetCode
-- Language: Dynamic Programming
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:50:26.014Z
+- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- Synced: 2026-07-14T15:01:57.195Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array prices where prices[i] is the price of a given stock on t
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
