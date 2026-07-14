@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T11:14:29.406Z",
+  "submissionTimestamp": "2026-07-14T11:15:14.831Z",
   "runtime": ". S",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Move Zeroes",
-  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/",
-  "submissionId": "xv8kt7"
+  "problemUrl": "https://leetcode.com/problems/move-zeroes/",
+  "submissionId": "8t49f8"
 }
