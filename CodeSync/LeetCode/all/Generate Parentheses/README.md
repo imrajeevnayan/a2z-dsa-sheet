@@ -6,8 +6,8 @@
 - Topics: String, Dynamic Programming, Backtracking
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/generate-parentheses/submissions/
-- Synced: 2026-06-18T16:32:15.925Z
+- Problem URL: https://leetcode.com/problems/generate-parentheses/
+- Synced: 2026-07-14T14:44:02.665Z
 
 ## Problem Description
 
