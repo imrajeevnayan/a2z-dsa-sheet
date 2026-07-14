@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-14T15:04:35.629Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Searching",
+    "Algorithms",
+    "Related Articles",
+    "Cpp Program For Linear Search",
+    "Java Program For Linear Search"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { search(arr, x) { // code here for(const [key,value] of arr.entries()){ if(value===x){ return key } } return -1; } }",
+  "problemTitle": "Searching using all loops of Javascript",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1",
+  "submissionId": "oqs5kh"
+}
