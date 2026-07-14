@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/1127238/master-heap-understanding-4-patterns-whe-fb8z/
-- Synced: 2026-07-14T05:57:30.174Z
+- Problem URL: https://leetcode.com/discuss/post/1773891/sliding-window-technique-and-question-ba-9tt4/
+- Synced: 2026-07-14T07:58:10.196Z
 
 ## Problem Description
 
