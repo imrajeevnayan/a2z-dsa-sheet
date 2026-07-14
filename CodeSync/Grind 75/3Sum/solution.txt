@@ -7,12 +7,12 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T12:33:37.839Z
+ * Synced: 2026-07-14T12:32:03.000Z
  */
 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<In
+        List<List<Integer>>list=new ArrayList<>();
     }
-
+        
 }
