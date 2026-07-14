@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-29T16:00:12.187Z",
-  "runtime": "0 ms",
-  "memoryUsage": "47.76 MB",
+  "submissionTimestamp": "2026-07-14T11:14:29.406Z",
+  "runtime": ". S",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Move Zeroes",
-  "problemUrl": "https://leetcode.com/problems/move-zeroes/submissions/2050249740/",
-  "submissionId": "uil0za"
+  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/",
+  "submissionId": "xv8kt7"
 }
