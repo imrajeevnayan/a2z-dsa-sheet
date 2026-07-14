@@ -630,5 +630,10 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:sum-of-distances": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
   ]
 }
