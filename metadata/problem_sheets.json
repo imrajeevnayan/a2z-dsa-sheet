@@ -477,5 +477,10 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:rabbits-in-forest": []
+  "leetcode:rabbits-in-forest": [],
+  "leetcode:median-of-two-sorted-arrays": [
+    "NeetCode150",
+    "Top100Liked",
+    "StriverA2Z"
+  ]
 }
