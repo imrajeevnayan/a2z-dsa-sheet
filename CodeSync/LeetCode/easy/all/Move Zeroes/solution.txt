@@ -5,16 +5,17 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers
- * Runtime: . S
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-14T11:15:14.831Z
+ * Synced: 2026-07-14T11:16:25.038Z
  */
 
 class Solution {
     public void moveZeroes(int[] nums) {
         int i=0;
         for(int j=0;j<nums.length;j++){
-            if(nums[j]!)
+            if(nums[j]!=0)nums[i++]=nums[j];
         }
+        while(i<nums.length)nums[i++]=0;
     }
 }
