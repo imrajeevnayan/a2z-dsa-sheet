@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-14T14:00:55.301Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-14T14:02:31.833Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Reverse Vowels of a String",
   "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/",
-  "submissionId": "u6t7id"
+  "submissionId": "xht0p9"
 }
