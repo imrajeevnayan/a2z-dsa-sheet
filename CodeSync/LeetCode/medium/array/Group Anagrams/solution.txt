@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T11:37:48.267Z
+ * Synced: 2026-07-14T11:38:34.774Z
  */
 
 class Solution {
@@ -15,8 +15,10 @@ class Solution {
         Map<String,List<String>>map=new HashMap<>();
         for(String s:strs){
             char ch[]=s.toCharArray();
-           Arrays.sort(ch);
+            Arrays.sort(ch);
         }
         
     }
+            String key=String.valueOf(ch);
+            map.computeIfAbsent(key,k->new A)
 }
