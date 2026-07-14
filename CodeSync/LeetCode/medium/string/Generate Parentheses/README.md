@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Dynamic Programming, Backtracking
 - Runtime: 2 ms
-- Memory: 50.49 MB
+- Memory: N/A
 - Problem URL: https://leetcode.com/problems/generate-parentheses/
-- Synced: 2026-07-14T14:59:54.910Z
+- Synced: 2026-07-14T15:00:42.995Z
 
 ## Problem Description
 
