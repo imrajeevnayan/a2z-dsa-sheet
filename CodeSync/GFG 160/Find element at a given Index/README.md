@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/c-array-print-an-element-set-25933/1
-- Synced: 2026-07-14T15:07:33.837Z
+- Synced: 2026-07-14T15:08:33.039Z
 
 ## Problem Description
 
