@@ -503,5 +503,10 @@
     "StriverA2Z",
     "StriverSDE"
   ],
-  "leetcode:reverse-vowels-of-a-string": []
+  "leetcode:reverse-vowels-of-a-string": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
