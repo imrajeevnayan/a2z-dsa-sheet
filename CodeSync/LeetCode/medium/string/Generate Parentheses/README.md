@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/generate-parentheses/
-- Synced: 2026-07-14T15:00:42.995Z
+- Synced: 2026-07-14T15:02:19.937Z
 
 ## Problem Description
 
