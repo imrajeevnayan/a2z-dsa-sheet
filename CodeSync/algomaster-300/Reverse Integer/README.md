@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.40 MB
 - Problem URL: https://leetcode.com/problems/reverse-integer/submissions/2067786574/
-- Synced: 2026-07-14T18:39:51.491Z
+- Synced: 2026-07-14T18:40:37.073Z
 
 ## Problem Description
 
