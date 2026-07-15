@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-characters-by-frequency/
-- Synced: 2026-07-15T09:46:09.867Z
+- Runtime: 1 ms
+- Memory: 46.91 MB
+- Problem URL: https://leetcode.com/problems/sort-characters-by-frequency/submissions/2009286647/
+- Synced: 2026-07-15T09:46:55.613Z
 
 ## Problem Description
 
