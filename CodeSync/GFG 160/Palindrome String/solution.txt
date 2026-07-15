@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Palindrome String
+ * URL: https://www.geeksforgeeks.org/problems/palindrome-string0817/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Morgan Stanley, Amazon, D-E-Shaw, FactSet
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:55:53.274Z
+ */
+
+class Solution {
+    boolean isPalindrome(String s) {
+        // code here
+        
+    }
+}
