@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-15T06:38:45.669Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Greedy",
+    "Sliding Window",
+    "Sorting",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Frequency of the Most Frequent Element",
+  "problemUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/",
+  "submissionId": "dyrbp"
+}
