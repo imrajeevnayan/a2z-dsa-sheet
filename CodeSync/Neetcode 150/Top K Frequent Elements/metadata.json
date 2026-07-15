@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-15T09:24:51.583Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Bucket Sort",
+    "Counting",
+    "Quickselect"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Top K Frequent Elements",
+  "problemUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+  "submissionId": "wwfsh2"
+}
