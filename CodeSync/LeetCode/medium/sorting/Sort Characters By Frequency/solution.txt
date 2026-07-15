@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-07-15T10:07:34.675Z
+ * Synced: 2026-07-15T10:08:21.433Z
  */
 
 while (!pq.isEmpty()) {
@@ -24,7 +24,7 @@ while (!pq.isEmpty()) {
         Map<Character, Integer> map = new HashMap<>();
     public String frequencySort(String s) {
 class Solution {
-            }
+            } 
         }
         return sb.toString();
     }
