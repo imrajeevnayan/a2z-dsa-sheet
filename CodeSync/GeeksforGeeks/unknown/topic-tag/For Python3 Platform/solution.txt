@@ -7,16 +7,16 @@
  * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Related Articles, Count Digits Given Number N Divide N, Find Count Digit Number Divide Number, Program Count Digits Integer 3 Different Methods
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:38:15.514Z
+ * Synced: 2026-07-15T04:40:47.165Z
  */
 
 class Solution {
-    static int evenlyDivides(int n) {\
-    int temp=n,count=0;
-        while(n >0){
-            int d=n %10;
-            if(temp %2==0)count++;
-            n/=10;
+    static int evenlyDivides(int n) {
+        int temp = n, count = 0;
+        while (n > 0) {
+            int d = n % 10;
+            if (d != 0 && temp % d == 0)  count++;
+            n = n / 10;
         }
         return count;
     }
