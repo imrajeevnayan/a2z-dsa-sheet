@@ -1,13 +1,13 @@
 # Fibonacci Number
 
 - Platform: LeetCode
-- Language: Dynamic Programming
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Recursion, Memoization
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fibonacci-number/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:33:03.200Z
+- Problem URL: https://leetcode.com/problems/fibonacci-number/description/
+- Synced: 2026-07-15T06:04:50.976Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonac
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Math, Dynamic Programming, Recursion, Memoization. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, Dynamic Programming, Recursion, Memoization. Review the synced source file for the implementation details.
