@@ -1,24 +1,24 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/check-prime_624934
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 5567 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:23:34.648Z
+ * Synced: 2026-07-15T05:58:25.159Z
  */
 
 public class Solution {
-    public static String isPrime(int num) {
-        if (num <= 1) return "NO";
-        if (num == 2) return "YES";
-        if (num % 2 == 0) return "NO";
-        
-        for (int i = 3; i * i <= num; i += 2) {
-            if (num % i == 0) return "NO";
+    public static boolean isPalindrome(String str) {
+        String s1=str.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(left<right){
+            if(s1.charAt(left)!=s1.charAt(right))return false;
+            left++;
+            right--;
         }
-        return "YES";
+        return true;
     }
 }
