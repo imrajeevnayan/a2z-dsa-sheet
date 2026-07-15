@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-15T09:43:57.503Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Hash TableSort",
+    "Hash Table",
+    "Sort",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/1883/description",
+  "submissionId": "kyeb3i"
+}
