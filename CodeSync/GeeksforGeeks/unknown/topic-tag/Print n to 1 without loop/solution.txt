@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Recursion, Algorithms, Related Articles, Print N To 1 Without Loop
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:36:49.154Z
+ * Synced: 2026-07-15T05:38:45.227Z
  */
 
 class Solution {
