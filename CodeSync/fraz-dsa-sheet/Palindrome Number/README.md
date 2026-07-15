@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-number/
-- Synced: 2026-06-16T17:27:20.085Z
+- Problem URL: https://leetcode.com/problems/palindrome-number/description/
+- Synced: 2026-07-15T04:49:44.280Z
 
 ## Problem Description
 
