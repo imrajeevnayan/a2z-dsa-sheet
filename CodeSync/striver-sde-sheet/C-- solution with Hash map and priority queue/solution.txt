@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T07:22:42.025Z
+ * Synced: 2026-07-15T07:23:38.601Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
             );
             pq.addAll(map.keySet());
         ArrayList<Integer>ans=new ArrayList<>();
-        for(int i=0;i<k;i++) ans.adpq.poll();
-        
+        for(int i=0;i<k;i++) ans.add(pq.poll());
+        return ans;
     }
 }
