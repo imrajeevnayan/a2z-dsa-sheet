@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T09:38:09.552Z",
+  "submissionTimestamp": "2026-07-15T09:39:17.085Z",
   "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -16,6 +16,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Top K Frequent Words",
-  "problemUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+  "problemUrl": "https://leetcode.com/problems/top-k-frequent-words/description/",
   "submissionId": "xmz98t"
 }
