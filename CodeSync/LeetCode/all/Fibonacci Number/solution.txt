@@ -1,24 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/
+ * URL: https://leetcode.com/problems/fibonacci-number/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T06:07:08.191Z
+ * Synced: 2026-07-15T06:10:30.554Z
  */
 
-public int fib(int n) {
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-        return solve(n, dp);
-    }
-    private int helper(int n, int[] dp) {
-        if (n <= 1) return n;
-        if (dp[n] != -1) return dp[n]; 
-        return dp[n] = solve(n - 1, dp) + solve(n - 2, dp);
-    }
 class Solution {
- }
+    public int fib(int n) {
+     if(n <=1)return n;
+     return fib(n-1)+fib(n-2);
+    }
+}
