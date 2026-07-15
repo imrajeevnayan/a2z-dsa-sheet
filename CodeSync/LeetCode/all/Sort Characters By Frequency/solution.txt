@@ -7,20 +7,25 @@
  * Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-07-15T09:56:48.084Z
+ * Synced: 2026-07-15T10:05:00.364Z
  */
 
-class Solution {
-    public String frequencySort(String s) {
-        Map<Character, Integer> map = new HashMap<>();
-        for (char c : s.toCharArray()) map.put(c, map.getOrDefault(c, 0) + 1);
+while (!pq.isEmpty()) {
+            char c = pq.poll();
+            int count = map.get(c);
+            
+            for (int i = 0; i < count; i++) {
+                sb.append(c);
+        StringBuilder sb = new StringBuilder();
+
         PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
         pq.addAll(map.keySet());
-        StringBuilder sb = new StringBuilder();
-        while (!pq.isEmpty()) {
-            char c = pq.poll();
-            sb.append(String.valueOf(c).repeat(map.get(c)));
+        for (char c : s.toCharArray())map.put(c, map.getOrDefault(c, 0) + 1);
+        Map<Character, Integer> map = new HashMap<>();
+    public String frequencySort(String s) {
+class Solution {
+            }
         }
-        return sb.toString(); 
+        return sb.toString();
     }
 }
