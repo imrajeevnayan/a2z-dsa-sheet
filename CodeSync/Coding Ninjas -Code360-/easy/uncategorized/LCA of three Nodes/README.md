@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
-- Synced: 2026-07-15T05:59:22.205Z
+- Synced: 2026-07-15T06:01:22.268Z
 
 ## Problem Description
 
