@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T19:12:35.142Z",
+  "submissionTimestamp": "2026-07-14T19:13:24.077Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Max Consecutive Ones III",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/",
   "submissionId": "4aulz4"
 }
