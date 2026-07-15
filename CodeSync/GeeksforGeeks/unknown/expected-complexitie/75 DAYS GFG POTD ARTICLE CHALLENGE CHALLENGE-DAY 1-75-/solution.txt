@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Morgan Stanley, Amazon, D-E-Shaw, FactSet
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:59:50.700Z
+ * Synced: 2026-07-15T06:02:58.833Z
  */
 
 class Solution {
