@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check Palindrome (recursive)
+ * URL: https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:57:40.090Z
+ */
+
+public class Solution {
+    public static boolean isPalindrome(String str) {
+        String s1=str.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(left<right){
+            if(s1.charAt(left)!=s1.charAt(right))return false;
+            left++;
+            right--;
+        }
+        return true;
+    }
+}
