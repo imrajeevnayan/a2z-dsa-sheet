@@ -428,7 +428,12 @@
     "StriverSDE",
     "AlgoMaster300"
   ],
-  "leetcode:palindrome-number": [],
+  "leetcode:palindrome-number": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ],
   "leetcode:two-sum": [
     "Blind75",
     "Grind75",
