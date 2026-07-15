@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/count-frequency-in-a-range_8365446
-- Synced: 2026-07-15T06:19:15.276Z
+- Synced: 2026-07-15T06:32:04.329Z
 
 ## Problem Description
 
