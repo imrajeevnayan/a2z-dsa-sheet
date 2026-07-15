@@ -1,13 +1,13 @@
 # Frequencies in a Limited Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def frequencyCount(self, arr, n, p): # Step 1: Identify and ignore elements greater than N for i in range(n): if arr[i] > n: arr[i] = 0 # Step 2: Encode frequency information into array elements for i in range(n): if arr[i] % (n + 1) > 0: arr[(arr[i] % (n + 1)) - 1] += (n + 1) # Step 3: Decode the frequency information for i in range(n): arr[i] //= (n + 1)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags PaytmVMWareZohoAmazonMicrosoft, Company Tags, Paytm, VMWare, Zoho, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1
-- Synced: 2026-07-15T06:14:42.060Z
+- Synced: 2026-07-15T06:37:28.145Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array arr[] containing positive integers. The elements in the a
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags PaytmVMWareZohoAmazonMicrosoft, Company Tags, Paytm, VMWare, Zoho, Amazon, Microsoft. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def frequencyCount(self, arr, n, p): # Step 1: Identify and ignore elements greater than N for i in range(n): if arr[i] > n: arr[i] = 0 # Step 2: Encode frequency information into array elements for i in range(n): if arr[i] % (n + 1) > 0: arr[(arr[i] % (n + 1)) - 1] += (n + 1) # Step 3: Decode the frequency information for i in range(n): arr[i] //= (n + 1). The detected topics are Expected Complexities, Company Tags PaytmVMWareZohoAmazonMicrosoft, Company Tags, Paytm, VMWare, Zoho, Amazon, Microsoft. Review the synced source file for the implementation details.
