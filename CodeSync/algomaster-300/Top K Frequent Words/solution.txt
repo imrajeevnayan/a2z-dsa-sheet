@@ -7,12 +7,13 @@
  * Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T09:27:11.442Z
+ * Synced: 2026-07-15T09:28:18.075Z
  */
 
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         
     }
-        HashMap<String,Integer>map=new HashMap<>
+        HashMap<String,Integer>map=new HashMap<>();
+        for(String s:words)
 }
