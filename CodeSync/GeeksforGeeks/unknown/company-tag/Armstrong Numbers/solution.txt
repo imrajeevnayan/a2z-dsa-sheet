@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Armstrong Numbers
+ * URL: https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags VMWareOracle, Company Tags, VMWare, Oracle, Topic Tags, Mathematical, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:12:47.341Z
+ */
+
+class Solution {
+    static boolean armstrongNumber(int n) {
+        int sum=0,temp=n;
+        while(n >0){
+            int d=n %10;
+            sum+=d*d*d;
+            n=n/10;
+        }
+        return temp==sum;
+    }
+}
