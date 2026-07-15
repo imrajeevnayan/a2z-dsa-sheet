@@ -1,13 +1,13 @@
 # Reverse an Array
 
 - Platform: GeeksforGeeks
-- Language: Time complexity - O(N) Space complexity - O(1) class Solution { public void reverseArray(int arr[]) { // code here int start = 0; int end = arr.length -1; while(start<end){ int temp = arr[start]; arr[start] = arr[end]; arr[end] = temp; start++; end--; } } }
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-an-array/1
-- Synced: 2026-06-30T15:46:04.588Z
+- Synced: 2026-07-15T05:51:05.782Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array of integers arr[]. You have to reverse the given array. N
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Time complexity - O(N) Space complexity - O(1) class Solution { public void reverseArray(int arr[]) { // code here int start = 0; int end = arr.length -1; while(start<end){ int temp = arr[start]; arr[start] = arr[end]; arr[end] = temp; start++; end--; } } }. The detected topics are Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys. Review the synced source file for the implementation details.
