@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T12:25:16.013Z",
+  "submissionTimestamp": "2026-07-15T12:48:46.316Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "Highest / Lowest Frequency Elements",
   "problemUrl": "https://www.naukri.com/code360/problems/k-most-occurrent-numbers_625382",
-  "submissionId": "mk9br2"
+  "submissionId": "l5uymx"
 }
