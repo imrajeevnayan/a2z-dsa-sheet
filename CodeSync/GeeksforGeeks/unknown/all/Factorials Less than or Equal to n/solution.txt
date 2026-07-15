@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Factorials Less than or Equal to n
+ * URL: https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Factorial Numbers Less Equal N
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:47:39.339Z
+ */
+
+class Solution {
+    static ArrayList<Long> factorialNumbers(long n) {
+        // code here
+        
+    }
+}
