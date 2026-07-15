@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-15T06:07:59.435Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-15T06:10:30.554Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/",
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/",
   "submissionId": "1qse4f"
 }
