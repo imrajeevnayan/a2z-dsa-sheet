@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-07T18:04:32.874Z",
+  "submissionTimestamp": "2026-07-15T09:40:43.868Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Hash TableString",
+    "HeapHash TableSort",
+    "Heap",
     "Hash Table",
-    "String",
-    "Bloomberg Amazon Microsoft Google",
-    "Bloomberg",
+    "Sort",
+    "Pocket Gems Amazon Bloomberg Yelp Uber",
+    "Pocket Gems",
     "Amazon",
-    "Microsoft",
-    "Google"
+    "Bloomberg"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/209/",
-  "submissionId": "p1pbyr"
+  "problemUrl": "https://www.lintcode.com/problem/471/",
+  "submissionId": "yrrj7x"
 }
