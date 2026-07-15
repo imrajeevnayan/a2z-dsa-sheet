@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-15T05:23:34.648Z",
-  "runtime": "5567 ms",
+  "submissionTimestamp": "2026-07-15T05:58:25.159Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/check-prime_624934",
-  "submissionId": "uteil8"
+  "problemUrl": "https://www.naukri.com/code360/problems/check-palindrome-recursive_624386",
+  "submissionId": "5rnpi1"
 }
