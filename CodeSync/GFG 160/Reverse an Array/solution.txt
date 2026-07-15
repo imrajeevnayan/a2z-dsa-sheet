@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:51:05.782Z
+ * Synced: 2026-07-15T05:52:02.638Z
  */
 
 class Solution {
