@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/reverse-an-array_8365444
-- Synced: 2026-07-15T05:54:29.338Z
+- Synced: 2026-07-15T05:55:45.122Z
 
 ## Problem Description
 
