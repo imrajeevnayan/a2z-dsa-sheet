@@ -5,19 +5,21 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-07-15T09:36:40.185Z
+ * Synced: 2026-07-15T09:38:09.552Z
  */
 
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         HashMap<String,Integer>map=new HashMap<>();
         for(String w:words)map.put(w,map.getOrDefault(w,0)+1);
-        PriorityQueue<String>pq=new PriorityQueue<>((a,b)->map.get(a)equals(map.get(b))?a-b:map.get(b)-map.get(a));
-        pq.addAll(map.keySet());
+        PriorityQueue<String> pq = new PriorityQueue<>((a, b) -> 
+            map.get(a).equals(map.get(b)) ? a.compareTo(b) : map.get(b) - map.get(a)
         List<String>ans=new ArrayList<>();
         
     }
-        for(int i=0)
+        for(int i=0;i<k;i++)ans.add(pq.poll());
+        return ans;
+        );        pq.addAll(map.keySet());
 }
