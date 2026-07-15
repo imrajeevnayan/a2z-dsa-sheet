@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Characters By Frequency
- * URL: https://leetcode.com/problems/sort-characters-by-frequency/description/
+ * URL: https://leetcode.com/problems/sort-characters-by-frequency/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-07-15T09:55:15.618Z
+ * Synced: 2026-07-15T09:56:02.086Z
  */
 
 class Solution {
