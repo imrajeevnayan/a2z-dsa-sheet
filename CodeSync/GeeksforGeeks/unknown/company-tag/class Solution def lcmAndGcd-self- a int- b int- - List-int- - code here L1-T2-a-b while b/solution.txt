@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution: def lcmAndGcd(self, a : int, b : int) -> List[int]: # code here L1,T2=a,b while b>0: r=a%b a=b b=r gcd=a lcm=int((L1*T2)/gcd) return lcm,gcd
+ * URL: https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Algorithms, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T04:53:14.686Z
+ */
+
+class Solution {
+    public static int[] lcmAndGcd(int a, int b) {
+        int x = a, y = b;
+        while (y != 0) {
+            int temp = y;
+            y = x % y;
+            x = temp;
+        }
+        int gcd = x;
+        int lcm = (a * b) / gcd;
+        return new int[]{lcm, gcd};
+    }
+}
