@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Max Consecutive Ones
+ * URL: https://leetcode.com/problems/max-consecutive-ones/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T19:08:35.088Z
+ */
+
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        if (nums.length == 0) return 0;
+        Arrays.sort(nums);
+        int count = 1, maxLen = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) continue; // Ignore duplicates
+            else if (nums[i] == nums[i - 1] + 1) count++;
+            else count = 1;
+            maxLen = Math.max(maxLen, count);
+        }
+        return maxLen;
+    }
+}
