@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Consecutive Sequence
+ * URL: https://leetcode.com/problems/longest-consecutive-sequence/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Union-Find
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:58:10.615Z
+ */
+
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        
+    }
+}
