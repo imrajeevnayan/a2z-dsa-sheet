@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-digit0316/1
-- Synced: 2026-07-15T04:46:35.075Z
+- Synced: 2026-07-15T04:47:26.152Z
 
 ## Problem Description
 
