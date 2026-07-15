@@ -1,23 +1,23 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: Coding Ninjas (Code360)
  * Problem: Reverse an Array
- * URL: https://www.geeksforgeeks.org/problems/reverse-an-array/1
- * Language: Java (21)
+ * URL: https://www.naukri.com/code360/problems/reverse-an-array_8365444
+ * Language: All languages
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:54:26.246Z
+ * Synced: 2026-07-15T05:54:29.338Z
  */
 
-class Solution {
-    public void reverseArray(int arr[]) {
-        int n =arr.length;
-        int left=0,right=n-1;
-        while(left < right){
-            int temp=arr[left];
-            arr[left++]=arr[right];
-            arr[right--]=temp;
+public class Solution {
+    public static int[] reverseArray(int n, int[] nums) {
+        int left = 0,right = n - 1;
+        while (left < right) {
+            int temp = nums[left];
+            nums[left++] = nums[right];
+            nums[right--] = temp;
         }
+        return nums;
     }
 }
