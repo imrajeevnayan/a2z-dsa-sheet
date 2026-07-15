@@ -7,12 +7,11 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program Cube Sum First N Natural Numbers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:40:16.483Z
+ * Synced: 2026-07-15T05:41:08.233Z
  */
 
 class Solution {
     int sumOfSeries(int n) {
-        // code here
-        
+        // code her
     }
 }
