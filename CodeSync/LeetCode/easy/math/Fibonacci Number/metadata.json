@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-02T16:33:03.200Z",
+  "submissionTimestamp": "2026-07-15T06:04:50.976Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,8 +10,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "tykzi2"
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/description/",
+  "submissionId": "4zybwv"
 }
