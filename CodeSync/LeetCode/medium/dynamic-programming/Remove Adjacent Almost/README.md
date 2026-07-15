@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-adjacent-almost-equal-characters/description/
-- Synced: 2026-07-14T18:49:33.975Z
+- Synced: 2026-07-14T18:51:05.539Z
 
 ## Problem Description
 
