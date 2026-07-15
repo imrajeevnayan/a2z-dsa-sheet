@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/c-input-output2432/1
-- Synced: 2026-07-14T18:10:49.315Z
+- Synced: 2026-07-15T04:33:12.460Z
 
 ## Problem Description
 
