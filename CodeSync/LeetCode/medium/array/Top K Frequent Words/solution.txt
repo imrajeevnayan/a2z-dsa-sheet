@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T09:32:08.081Z
+ * Synced: 2026-07-15T09:33:38.114Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         
     }
         HashMap<String,Integer>map=new HashMap<>();
-        for(String s:words)
+        for(String w:words)map.put(w,map.getOrDefault(w))
 }
