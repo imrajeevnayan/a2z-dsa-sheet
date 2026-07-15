@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareAmazonSAP Labs, Company Tags, VMWare, Amazon, SAP Labs, Topic Tags, Mathematical
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:22:06.340Z
+ * Synced: 2026-07-15T05:23:23.150Z
  */
 
 class Solution {
