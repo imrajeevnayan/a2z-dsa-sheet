@@ -2,16 +2,16 @@
 
 - Platform: LintCode
 - Language: Java
-- Difficulty: Unknown
+- Difficulty: Hard
 - Topics: Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/471/leaderboard
-- Synced: 2026-07-15T09:42:03.386Z
+- Problem URL: https://www.lintcode.com/problem/471/record
+- Synced: 2026-07-15T09:42:48.836Z
 
 ## Problem Description
 
-No Data
+Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection School Institution Enterprise Service Gift ENG
 
 ## Explanation
 
