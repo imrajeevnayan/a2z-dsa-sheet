@@ -7,7 +7,7 @@
 - Runtime: 5355 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/check-prime_624934
-- Synced: 2026-07-15T05:21:56.484Z
+- Synced: 2026-07-15T05:22:47.151Z
 
 ## Problem Description
 
