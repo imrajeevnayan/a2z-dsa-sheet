@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/palindrome-string0817/1
-- Synced: 2026-07-15T05:56:53.157Z
+- Synced: 2026-07-15T05:59:50.700Z
 
 ## Problem Description
 
