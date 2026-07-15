@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/selection-sort/1
-- Synced: 2026-07-15T13:03:43.320Z
+- Synced: 2026-07-15T13:13:04.734Z
 
 ## Problem Description
 
