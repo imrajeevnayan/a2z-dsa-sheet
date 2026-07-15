@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T05:28:44.797Z",
+  "submissionTimestamp": "2026-07-15T05:33:04.871Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -11,8 +11,8 @@
     "python-loops"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { void printGfg(int N) { // code here if(N<=0) return; System.out.print(\"GFG\"+\" \"); printGfg(N-1); } }",
+  "language": "Java (21)",
   "problemTitle": "Print GFG n times",
   "problemUrl": "https://www.geeksforgeeks.org/problems/print-gfg-n-times/1",
-  "submissionId": "v5lb7f"
+  "submissionId": "ojvzzs"
 }
