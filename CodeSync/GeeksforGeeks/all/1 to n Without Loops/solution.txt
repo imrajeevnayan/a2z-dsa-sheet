@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Recursion, Algorithms, Related Articles, Output Of C Program Set 18 3, Print 1 To N Without Using Loops, Print Numbers 1 N Using Indirect Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:26:01.153Z
+ * Synced: 2026-07-15T05:27:42.251Z
  */
 
 class Solution {
