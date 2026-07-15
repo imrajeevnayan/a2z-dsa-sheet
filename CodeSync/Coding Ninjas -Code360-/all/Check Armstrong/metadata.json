@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-15T05:15:34.811Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-15T05:17:12.123Z",
+  "runtime": "528 ms",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "C++ (g++ 5.4)",
+  "language": "Java (SE 1.8)",
   "problemTitle": "Check Armstrong",
   "problemUrl": "https://www.naukri.com/code360/problems/check-armstrong_589",
-  "submissionId": "d6j6jn"
+  "submissionId": "lkd8bg"
 }
