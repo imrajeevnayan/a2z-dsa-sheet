@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareOracle, Company Tags, VMWare, Oracle, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:13:47.163Z
+ * Synced: 2026-07-15T05:14:37.815Z
  */
 
 class Solution {
