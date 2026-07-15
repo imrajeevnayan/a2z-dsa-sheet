@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 5355 ms
+- Runtime: 5567 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/check-prime_624934
-- Synced: 2026-07-15T05:22:47.151Z
+- Synced: 2026-07-15T05:23:34.648Z
 
 ## Problem Description
 
