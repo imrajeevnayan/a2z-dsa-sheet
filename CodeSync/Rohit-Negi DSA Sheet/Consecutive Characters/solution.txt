@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Consecutive Characters
+ * URL: https://leetcode.com/problems/consecutive-characters/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:51:10.883Z
+ */
+
+class Solution {
+    public int maxPower(String s) {
+        
+    }
+}
