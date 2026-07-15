@@ -7,12 +7,11 @@
  * Topics: Topic Tags Related Articles, Topic Tags, CPP, Operators, OOP, Related Articles, Basic Input Output C
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T18:10:49.315Z
+ * Synced: 2026-07-15T04:33:12.460Z
  */
 
 class Solution {
     static int multiplication(int A, int B) {
-        // code here
-        
+        return A * B;
     }
 }
