@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T09:55:15.618Z",
+  "submissionTimestamp": "2026-07-15T09:56:02.086Z",
   "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort Characters By Frequency",
-  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/description/",
+  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/",
   "submissionId": "ky83ng"
 }
