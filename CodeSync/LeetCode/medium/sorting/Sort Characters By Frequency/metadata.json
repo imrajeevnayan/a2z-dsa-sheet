@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-15T09:45:23.710Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Bucket Sort",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Sort Characters By Frequency",
+  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/description/",
+  "submissionId": "9swfcq"
+}
