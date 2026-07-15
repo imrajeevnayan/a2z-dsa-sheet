@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-14T19:04:28.115Z",
-  "runtime": "1 ms",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-14T19:07:40.157Z",
+  "runtime": "22 ms",
+  "memoryUsage": "77.52 MB",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Union-Find"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Consecutive Sequence",
-  "problemUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
-  "submissionId": "iv84uz"
+  "problemUrl": "https://leetcode.com/problems/longest-consecutive-sequence/submissions/2067810200/",
+  "submissionId": "vcewf5"
 }
