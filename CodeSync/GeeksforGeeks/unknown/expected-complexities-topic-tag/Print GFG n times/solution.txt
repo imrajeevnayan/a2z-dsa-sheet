@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Print GFG n times
+ * URL: https://www.geeksforgeeks.org/problems/print-gfg-n-times/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:27:59.570Z
+ */
+
+import java.util.Scanner;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            System.out.print("GFG"+" ");
+        }
+    }
+}
