@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Two Pointers, String
  * Runtime: 1 ms
- * Memory: 46.58 MB
- * Synced: 2026-07-13T12:35:12.905Z
+ * Memory: N/A
+ * Synced: 2026-07-15T05:55:41.309Z
  */
 
 class Solution {
