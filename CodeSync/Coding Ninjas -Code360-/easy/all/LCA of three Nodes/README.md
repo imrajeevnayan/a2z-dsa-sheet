@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 534 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/add-two-linked-lists_799487
-- Synced: 2026-06-22T09:10:23.393Z
+- Problem URL: https://www.naukri.com/code360/problems/reverse-of-a-number_624652
+- Synced: 2026-07-15T04:49:07.169Z
 
 ## Problem Description
 
