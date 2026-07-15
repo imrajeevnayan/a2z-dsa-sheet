@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-14T18:57:24.642Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Union-Find"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Longest Consecutive Sequence",
+  "problemUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+  "submissionId": "xd5xhd"
+}
