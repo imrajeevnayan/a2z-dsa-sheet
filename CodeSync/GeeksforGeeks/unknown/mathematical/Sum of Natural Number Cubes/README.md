@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1
-- Synced: 2026-07-15T05:40:16.483Z
+- Synced: 2026-07-15T05:41:08.233Z
 
 ## Problem Description
 
