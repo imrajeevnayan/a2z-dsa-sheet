@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-15T09:46:55.613Z",
+  "submissionTimestamp": "2026-07-15T09:47:46.896Z",
   "runtime": "1 ms",
-  "memoryUsage": "46.91 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort Characters By Frequency",
-  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/submissions/2009286647/",
-  "submissionId": "81vfov"
+  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/description/",
+  "submissionId": "ky83ng"
 }
