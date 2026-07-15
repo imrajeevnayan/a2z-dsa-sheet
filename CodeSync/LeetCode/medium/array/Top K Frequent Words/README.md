@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/top-k-frequent-words/
-- Synced: 2026-07-15T09:34:23.977Z
+- Synced: 2026-07-15T09:35:09.063Z
 
 ## Problem Description
 
