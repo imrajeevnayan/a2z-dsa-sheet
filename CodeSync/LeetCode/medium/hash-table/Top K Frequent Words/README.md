@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/top-k-frequent-words/
-- Synced: 2026-07-15T09:36:40.185Z
+- Synced: 2026-07-15T09:38:09.552Z
 
 ## Problem Description
 
