@@ -7,11 +7,12 @@
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T18:51:10.883Z
+ * Synced: 2026-07-14T18:51:56.170Z
  */
 
 class Solution {
     public int maxPower(String s) {
-        
+        int count=0,maxLen=0;
     }
+        for(chaa)
 }
