@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MAQ Software, Company Tags, MAQ Software, Topic Tags, Mathematical, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:47:26.152Z
+ * Synced: 2026-07-15T04:48:23.154Z
  */
 
 class Solution {
