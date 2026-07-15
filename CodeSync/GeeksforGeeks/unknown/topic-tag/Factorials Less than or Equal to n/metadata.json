@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T05:48:26.632Z",
+  "submissionTimestamp": "2026-07-15T05:49:24.738Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "public static ArrayList<Long> arr = new ArrayList<>(); static void getFact(long fact,long n,long limit){ fact *= n; if(fact>limit) { return; } arr.add(fact); getFact(fact,++n,limit); return; } static ArrayList<Long> factorialNumbers(long n) { arr.clear(); getFact(1,1,n); return arr; }",
   "problemTitle": "Factorials Less than or Equal to n",
   "problemUrl": "https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1",
-  "submissionId": "21h39a"
+  "submissionId": "yfua0o"
 }
