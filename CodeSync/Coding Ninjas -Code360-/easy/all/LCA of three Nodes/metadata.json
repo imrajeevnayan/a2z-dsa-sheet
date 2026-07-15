@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-22T09:10:23.393Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-15T04:49:07.169Z",
+  "runtime": "534 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "All languages",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/add-two-linked-lists_799487",
-  "submissionId": "epuhj2"
+  "problemUrl": "https://www.naukri.com/code360/problems/reverse-of-a-number_624652",
+  "submissionId": "bipssu"
 }
