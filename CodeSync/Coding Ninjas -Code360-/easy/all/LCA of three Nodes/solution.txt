@@ -5,9 +5,9 @@
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 5355 ms
+ * Runtime: 5567 ms
  * Memory: N/A
- * Synced: 2026-07-15T05:22:47.151Z
+ * Synced: 2026-07-15T05:23:34.648Z
  */
 
 public class Solution {
@@ -17,9 +17,7 @@ public class Solution {
         if (num % 2 == 0) return "NO";
         
         for (int i = 3; i * i <= num; i += 2) {
-            if (num % i == 0) {
-                return "NO";
-            }
+            if (num % i == 0) return "NO";
         }
         return "YES";
     }
