@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
 - Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/top-k-frequent-words/description/
-- Synced: 2026-07-15T09:41:00.084Z
+- Problem URL: https://leetcode.com/problems/top-k-frequent-words/
+- Synced: 2026-07-15T09:41:47.068Z
 
 ## Problem Description
 
