@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/top-k-frequent-words/description/
-- Synced: 2026-07-15T09:40:06.084Z
+- Synced: 2026-07-15T09:41:00.084Z
 
 ## Problem Description
 
