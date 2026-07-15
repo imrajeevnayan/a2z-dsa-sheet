@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: GCD or HCF
+ * URL: https://www.naukri.com/code360/problems/hcf-and-lcm_840448
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T04:59:30.879Z
+ */
+
+public class Solution {
+    public static int calcGCD(int n, int m) {
+        while (m != 0) {
+            int temp = m;
+            m = n % m;
+            n = temp;
+        }
+        return n;
+    }
+}
