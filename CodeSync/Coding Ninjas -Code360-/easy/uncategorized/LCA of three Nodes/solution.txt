@@ -1,40 +1,32 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/add-two-linked-lists_799487
+ * URL: https://www.naukri.com/code360/problems/reverse-of-a-number_624652
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 534 ms
  * Memory: N/A
- * Synced: 2026-06-22T09:10:23.393Z
+ * Synced: 2026-07-15T04:49:07.169Z
  */
 
-public class Solution {
-    public static ListNode<Integer> addTwoLists(ListNode<Integer> first, ListNode<Integer> second) {
-        Stack<Integer> s1 = new Stack<>();
-        Stack<Integer> s2 = new Stack<>();
+import java.util.*;
  
-        while (first != null) {
-            s1.push(first.data);
-            first = first.next;
+public class Main {
+      static int reverse(int x) {
+        int rev = 0;
+        while (x != 0) {
+            int digit = x % 10;
+            x = x / 10;
+            // Check for overflow/underflow
+            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) return 0;
+            rev = rev * 10 + digit;
         }
-        while (second != null) {
-            s2.push(second.data);
-            second = second.next;
-        }
-        int carry = 0;
-        ListNode<Integer> head = null;
-        while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
-            int sum = carry;
-            if (!s1.isEmpty()) sum += s1.pop();
-            if (!s2.isEmpty()) sum += s2.pop();
-        
-            carry = sum / 10;
-            ListNode<Integer> node = new ListNode<>(sum % 10);
-            node.next = head;
-            head = node;
-        }
-        return head;
+        return rev;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println(reverse(n));
     }
 }
