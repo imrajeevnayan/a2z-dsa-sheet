@@ -2,12 +2,12 @@
 
 - Platform: LintCode
 - Language: Java
-- Difficulty: Unknown
-- Topics: Hash TableSort, Hash Table, Sort, Test Data Test Output
+- Difficulty: Medium
+- Topics: Hash TableSort, Hash Table, Sort, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/1883/description
-- Synced: 2026-07-15T09:43:57.503Z
+- Synced: 2026-07-15T09:44:58.605Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a list of reviews, a list of keywords and an integer k . Find 
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Hash TableSort, Hash Table, Sort, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Hash TableSort, Hash Table, Sort, Test Data Commit Output. Review the synced source file for the implementation details.
