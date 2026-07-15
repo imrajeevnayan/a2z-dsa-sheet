@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of Natural Number Cubes
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program Cube Sum First N Natural Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:40:16.483Z
+ */
+
+class Solution {
+    int sumOfSeries(int n) {
+        // code here
+        
+    }
+}
