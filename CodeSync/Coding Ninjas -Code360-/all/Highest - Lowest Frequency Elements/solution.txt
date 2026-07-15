@@ -2,37 +2,33 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Highest / Lowest Frequency Elements
  * URL: https://www.naukri.com/code360/problems/k-most-occurrent-numbers_625382
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T12:25:16.013Z
+ * Synced: 2026-07-15T12:48:46.316Z
  */
 
 import java.util.*;
  
 public class Solution {
-    public static int[] getFrequencies(int []v) {
+    public static int[] getFrequencies(int[] v) {
         Map<Integer, Integer> map = new HashMap<>();
-        for (int n: v) map.put(n, map.getOrDefault(n, 0) + 1);
-        int maxElement = -1, minElement = -1;
-        int maxFreq = 0, minFreq = Integer.MAX_VALUE;
+        for (int x : v)map.put(x, map.getOrDefault(x, 0) + 1);
+        int max = -1, min = -1, maxF = 0, minF = Integer.MAX_VALUE;
+        for (int k : map.keySet()) {
+            int f = map.get(k);
  
-        for (int key : map.keySet()) {
-            int freq = map.get(key);
-            
-            // Update max frequency element
-            if (freq > maxFreq || (freq == maxFreq && key < maxElement)) {
-                maxFreq = freq;
-                maxElement = key;
+            if (f > maxF || (f == maxF && k < max)) {
+                maxF = f;
+                max = k;
             }
-            // Update min frequency element
-            if (freq < minFreq || (freq == minFreq && key < minElement)) {
-                minFreq = freq;
-                minElement = key;
+            if (f < minF || (f == minF && k < min)) {
+                minF = f;
+                min = k;
             }
         }
-        return new int[]{maxElement, minElement};
+        return new int[]{max, min};
     }
 }
