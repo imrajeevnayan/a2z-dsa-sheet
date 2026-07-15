@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1
-- Synced: 2026-07-15T06:19:23.155Z
+- Synced: 2026-07-15T06:20:23.155Z
 
 ## Problem Description
 
