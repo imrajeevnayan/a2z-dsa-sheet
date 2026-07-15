@@ -1,0 +1,32 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Print n times
+ * URL: https://www.naukri.com/code360/problems/-print-n-times_8380707
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:34:28.550Z
+ */
+
+import java.util.List;
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+    public static List<String> printNtimes(int n) {
+        List<String> ans = new ArrayList<>();
+        helper(n, ans);
+        return ans;
+    }
+ 
+    static void helper(int n, List<String> ans) {
+        if (n == 0) {
+            return;
+        }
+ 
+        ans.add("Coding Ninjas");
+        helper(n - 1, ans);
+    }
+}
