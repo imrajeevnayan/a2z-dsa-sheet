@@ -1,24 +1,25 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/111/
+ * URL: https://www.lintcode.com/problem/471/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Dynamic Programming, DPCoordinate DP, DP, Coordinate DP, 366 Fibonacci Naive 392 House Robber Medium, Test Data Test Output
+ * Topics: HeapHash TableSort, Heap, Hash Table, Sort, Pocket Gems Amazon Bloomberg Yelp Uber, Pocket Gems, Amazon, Bloomberg
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T15:43:46.442Z
+ * Synced: 2026-07-15T09:40:43.868Z
  */
 
 public·class·Solution·{
-····public·int·climbStairs(int·n)·{
-········if(n·<=2)·return·n;
-········int·dp[]=new·int[n+1];
-········for(int·i=3;i<=n;i++){
-········dp[1]=1;
-········dp[2]=2;
-············dp[i]=dp[i-1]+dp[i-2];
-········}
+····public·String[]·topKFrequentWords(String[]·words,·int·k)·{
+·····HashMap<String,Integer>map=new·HashMap<>();
+·····for(String·s·:words)map.put(s,map.getOrDefault(s,0)+1);
+·····PriorityQueue<String>·pq·=·new·PriorityQueue<>((a,·b)·->·{
+······if·(map.get(a).equals(map.get(b)))·{return·a.compareTo(b);}
+·········return·map.get(b)·-·map.get(a);··});
+·······pq.addAll(map.keySet());
+·······String·ans[]=new·String[k];
+·······for(int·i=0;i<k;i++)·ans[i]=pq.poll();
+·······return·ans;
 ····}
-········return·dp[n]
 }
