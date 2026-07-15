@@ -1,21 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-02T08:05:29.468Z",
+  "submissionTimestamp": "2026-07-15T09:42:48.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Opposite Direction Two Pointers",
-    "Stack",
-    "Two Pointers",
-    "Monotonic Stack",
-    "Apple",
-    "Twitter",
-    "Airbnb",
-    "Amazon"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/363/description",
-  "submissionId": "xxmon6"
+  "problemUrl": "https://www.lintcode.com/problem/471/record",
+  "submissionId": "1spk45"
 }
