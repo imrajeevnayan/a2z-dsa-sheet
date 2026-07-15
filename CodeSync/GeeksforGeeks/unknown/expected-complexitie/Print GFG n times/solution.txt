@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Print GFG n times
  * URL: https://www.geeksforgeeks.org/problems/print-gfg-n-times/1
- * Language: Java (21)
+ * Language: class Solution { void printGfg(int N) { // code here if(N<=0) return; System.out.print("GFG"+" "); printGfg(N-1); } }
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:33:04.871Z
+ * Synced: 2026-07-15T05:34:23.154Z
  */
 
 class GFG {
