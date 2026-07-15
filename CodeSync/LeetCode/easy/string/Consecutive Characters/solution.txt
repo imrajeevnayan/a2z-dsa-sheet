@@ -1,18 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Consecutive Characters
- * URL: https://leetcode.com/problems/consecutive-characters/
+ * URL: https://leetcode.com/problems/consecutive-characters/submissions/1895691724/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-14T18:52:42.487Z
+ * Runtime: 1 ms
+ * Memory: 43.63 MB
+ * Synced: 2026-07-14T18:53:27.826Z
  */
 
-class Solution {
-    public int maxPower(String s) {
-        int count=0,maxLen=0;
-    }
-        for(char c:s.toCharArray())
-}
+Input: s = "leetcode"
+Output: 2
+Explanation: The substring "ee" is of length 2 with the character 'e' only.
