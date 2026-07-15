@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Union-Find
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-consecutive-sequence/
-- Synced: 2026-07-14T19:02:08.603Z
+- Synced: 2026-07-14T19:02:55.286Z
 
 ## Problem Description
 
