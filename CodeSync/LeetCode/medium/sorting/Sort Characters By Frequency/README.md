@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-characters-by-frequency/description/
-- Synced: 2026-07-15T09:45:23.710Z
+- Problem URL: https://leetcode.com/problems/sort-characters-by-frequency/
+- Synced: 2026-07-15T09:46:09.867Z
 
 ## Problem Description
 
