@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1
-- Synced: 2026-07-15T05:18:40.227Z
+- Synced: 2026-07-15T05:19:33.504Z
 
 ## Problem Description
 
