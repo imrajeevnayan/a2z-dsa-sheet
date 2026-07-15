@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Highest / Lowest Frequency Elements
+ * URL: https://www.naukri.com/code360/problems/k-most-occurrent-numbers_625382
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T12:24:26.415Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static int[] getFrequencies(int []v) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int n: v) map.put(n, map.getOrDefault(n, 0) + 1);
+        int maxElement = -1, minElement = -1;
+        int maxFreq = 0, minFreq = Integer.MAX_VALUE;
+ 
+        for (int key : map.keySet()) {
+            int freq = map.get(key);
+            
+            // Update max frequency element
+            if (freq > maxFreq || (freq == maxFreq && key < maxElement)) {
+                maxFreq = freq;
+                maxElement = key;
+            }
+            // Update min frequency element
+            if (freq < minFreq || (freq == minFreq && key < minElement)) {
+                minFreq = freq;
+                minElement = key;
+            }
+        }
+        return new int[]{maxElement, minElement};
+    }
+}
