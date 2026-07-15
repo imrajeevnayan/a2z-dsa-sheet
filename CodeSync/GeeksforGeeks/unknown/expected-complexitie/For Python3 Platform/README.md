@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }
+- Language: class Solution: def evenlyDivides(self, n): temp = n result = 0 while(temp > 0): digit = temp % 10 if(digit != 0 and n % digit == 0): result += 1 temp = temp // 10 return result
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
+- Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Related Articles, Count Digits Given Number N Divide N, Find Count Digit Number Divide Number, Program Count Digits Integer 3 Different Methods
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/java-anagram-strings3549/1
-- Synced: 2026-07-07T19:18:21.681Z
+- Problem URL: https://www.geeksforgeeks.org/problems/count-digits5716/1
+- Synced: 2026-07-15T04:34:56.733Z
 
 ## Problem Description
 
-Given two strings S1 and S2 . Return "1" if both strings are anagrams otherwise return "0" . Note: An anagram of a string is another string with exactly the same quantity of each character in it, in any order. Example 1: Input: S1 = "cdbkdub" , S2 = "dsbkcsdn" Output: 0 Explanation: Length of S1 is not same as length of S2. Example 2: Input: S1 = "geeks" , S2 = "skgee" Output: 1 Explanation: S1 has the same quantity of each character in it as S2. Your Task: You don't need to read input or print anything. Your task is to complete the function areAnagram() which takes S1 and S2 as input and returns "1" if both strings are anagrams otherwise returns "0". Expected Time Complexity: O(n) Expected Auxiliary Space: O(K) ,Where K= Contstant Constraints: 1 <= |S1| <= 1000 1 <= |S2| <= 1000
+Given a positive integer n, count the number of digits in n that divide n evenly (i.e., without leaving a remainder). Return the total number of such digits. A digit d of n divides n evenly if the remainder when n is divided by d is 0 (n % d == 0). Digits of n should be checked individually. If a digit is 0, it should be ignored because division by 0 is undefined. Examples : Input: n = 12 Output: 2 Explanation: 1, 2 when both divide 12 leaves remainder 0. Input: n = 2446 Output: 1 Explanation: Here among 2, 4, 6 only 2 divides 2446 evenly while 4 and 6 do not. Input: n = 23 Output: 0 Explanation: 2 and 3, none of them divide 23 evenly. Constraints: 1<= n <=106
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using static int areAnagram(String S1, String S2) { // code here if (S1 == null || S2 == null || S1.length() != S2.length()) return 0; var alphabet = new int[26]; for (int i = 0; i < S1.length(); i++) { alphabet[S1.charAt(i) - 'a']++; alphabet[S2.charAt(i) - 'a']--; } for (int letter : alphabet) if (letter > 0) return 0; return 1; }. The detected topics are Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def evenlyDivides(self, n): temp = n result = 0 while(temp > 0): digit = temp % 10 if(digit != 0 and n % digit == 0): result += 1 temp = temp // 10 return result. The detected topics are Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Related Articles, Count Digits Given Number N Divide N, Find Count Digit Number Divide Number, Program Count Digits Integer 3 Different Methods. Review the synced source file for the implementation details.
