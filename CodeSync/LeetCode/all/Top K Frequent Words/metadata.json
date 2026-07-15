@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-15T09:36:40.185Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-15T09:38:09.552Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -17,5 +17,5 @@
   "language": "Problem List",
   "problemTitle": "Top K Frequent Words",
   "problemUrl": "https://leetcode.com/problems/top-k-frequent-words/",
-  "submissionId": "d8eg9b"
+  "submissionId": "xmz98t"
 }
