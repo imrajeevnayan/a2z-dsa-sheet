@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/prime-number2314/1
-- Synced: 2026-07-15T05:22:06.340Z
+- Synced: 2026-07-15T05:23:23.150Z
 
 ## Problem Description
 
