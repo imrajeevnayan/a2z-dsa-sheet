@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/description/
-- Synced: 2026-07-15T13:20:19.923Z
+- Synced: 2026-07-15T13:21:10.005Z
 
 ## Problem Description
 
