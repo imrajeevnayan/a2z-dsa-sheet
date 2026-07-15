@@ -794,5 +794,8 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:top-k-frequent-words": [
+    "custom:algomaster-300"
   ]
 }
