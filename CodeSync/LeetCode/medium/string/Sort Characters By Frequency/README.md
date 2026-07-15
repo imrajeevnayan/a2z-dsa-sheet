@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-characters-by-frequency/
-- Synced: 2026-07-15T09:56:48.084Z
+- Synced: 2026-07-15T10:05:00.364Z
 
 ## Problem Description
 
