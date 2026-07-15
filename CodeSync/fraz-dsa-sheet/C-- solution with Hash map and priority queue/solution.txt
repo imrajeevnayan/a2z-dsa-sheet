@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ solution with Hash map and priority queue
+ * URL: https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1
+ * Language: import heapq class Solution: def topKFreq(self, arr, k): # Code here freq = {} for num in arr: freq[num] = freq.get(num, 0) + 1 max_heap = [] for num, fr in freq.items(): heapq.heappush(max_heap, (-fr, -num)) return [-heapq.heappop(max_heap)[1] for _ in range(k)]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T06:48:53.814Z
+ */
+
+class Solution {
+    public ArrayList<Integer> topKFreq(int[] arr, int k) {
+        // Code here
+        
+    }
+}
