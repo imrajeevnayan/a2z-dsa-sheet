@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
-- Synced: 2026-07-15T04:53:14.686Z
+- Synced: 2026-07-15T04:54:02.670Z
 
 ## Problem Description
 
