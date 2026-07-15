@@ -1,0 +1,29 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: 1 to N Without Loop
+ * URL: https://www.naukri.com/code360/problems/print-1-to-n_628290
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:26:28.160Z
+ */
+
+public class Solution {
+ 
+    public static int[] printNos(int x) {
+        int[] ans = new int[x];
+        helper(1, x, ans);
+        return ans;
+    }
+ 
+    private static void helper(int current, int x, int[] ans) {
+        if (current > x) {
+            return;
+        }
+ 
+        ans[current - 1] = current;
+        helper(current + 1, x, ans);
+    }
+}
