@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-consecutive-sequence/
-- Synced: 2026-07-14T19:03:43.095Z
+- Synced: 2026-07-14T19:04:28.115Z
 
 ## Problem Description
 
