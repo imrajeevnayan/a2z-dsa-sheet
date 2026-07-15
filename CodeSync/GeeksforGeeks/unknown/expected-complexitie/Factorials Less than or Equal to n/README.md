@@ -1,13 +1,13 @@
 # Factorials Less than or Equal to n
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: public static ArrayList<Long> arr = new ArrayList<>(); static void getFact(long fact,long n,long limit){ fact *= n; if(fact>limit) { return; } arr.add(fact); getFact(fact,++n,limit); return; } static ArrayList<Long> factorialNumbers(long n) { arr.clear(); getFact(1,1,n); return arr; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Factorial Numbers Less Equal N
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1
-- Synced: 2026-07-15T05:47:39.339Z
+- Synced: 2026-07-15T05:48:26.632Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A number n is called a factorial number if it is the factorial of a positive int
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Factorial Numbers Less Equal N. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using public static ArrayList<Long> arr = new ArrayList<>(); static void getFact(long fact,long n,long limit){ fact *= n; if(fact>limit) { return; } arr.add(fact); getFact(fact,++n,limit); return; } static ArrayList<Long> factorialNumbers(long n) { arr.clear(); getFact(1,1,n); return arr; }. The detected topics are Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Factorial Numbers Less Equal N. Review the synced source file for the implementation details.
