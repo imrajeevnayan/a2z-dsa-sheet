@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-05-31T19:07:35.401Z",
+  "submissionTimestamp": "2026-07-15T09:42:03.386Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Binary",
-    "Microsoft",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/365/description?showListFe=false&page=1&problemTypeId=4&pageSize=50",
-  "submissionId": "ctm7bt"
+  "problemUrl": "https://www.lintcode.com/problem/471/leaderboard",
+  "submissionId": "fks3fo"
 }
