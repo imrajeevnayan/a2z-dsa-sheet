@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T09:34:23.977Z
+ * Synced: 2026-07-15T09:35:09.063Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
     }
         HashMap<String,Integer>map=new HashMap<>();
         for(String w:words)map.put(w,map.getOrDefault(w,0)+1);
-        PriorityQueue<String>pq=new PriorityQueue<>((a,b)->m)
+        PriorityQueue<String>pq=new PriorityQueue<>((a,b)->map.get(a)equals(map.get(b))?a-b:map)
 }
