@@ -1,0 +1,15 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check Armstrong
+ * URL: https://www.naukri.com/code360/problems/check-armstrong_589
+ * Language: C++ (g++ 5.4)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:15:34.811Z
+ */
+
+bool checkArmstrong(int n){
+    //Write your code here
+}
