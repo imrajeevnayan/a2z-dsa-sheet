@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/hcf-and-lcm_840448
-- Synced: 2026-07-15T04:59:30.879Z
+- Synced: 2026-07-15T05:00:21.272Z
 
 ## Problem Description
 
