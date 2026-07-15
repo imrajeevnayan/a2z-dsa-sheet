@@ -658,5 +658,17 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:consecutive-numbers": []
+  "leetcode:consecutive-numbers": [],
+  "leetcode:longest-consecutive-sequence": [
+    "Blind75",
+    "NeetCode150",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
