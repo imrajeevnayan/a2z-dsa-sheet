@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-15T04:33:57.893Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Modular Arithmetic",
+    "Algorithms",
+    "Related Articles",
+    "Count Digits Given Number N Divide N",
+    "Find Count Digit Number Divide Number",
+    "Program Count Digits Integer 3 Different Methods"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count Digits that Divide",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-digits5716/1",
+  "submissionId": "4xmbg"
+}
