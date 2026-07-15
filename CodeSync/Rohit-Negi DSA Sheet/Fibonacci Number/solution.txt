@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T06:06:21.194Z
+ * Synced: 2026-07-15T06:07:08.191Z
  */
 
 public int fib(int n) {
@@ -18,8 +18,7 @@ public int fib(int n) {
     private int helper(int n, int[] dp) {
         if (n <= 1) return n;
         if (dp[n] != -1) return dp[n]; 
-        return dp[n] = helper(n - 1, dp) + helper(n - 2, dp);
+        return dp[n] = solve(n - 1, dp) + solve(n - 2, dp);
     }
 class Solution {
-  } 
-}
+ }
