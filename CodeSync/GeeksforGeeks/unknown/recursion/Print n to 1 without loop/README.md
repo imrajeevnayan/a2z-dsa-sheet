@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1
-- Synced: 2026-07-15T05:36:49.154Z
+- Synced: 2026-07-15T05:38:45.227Z
 
 ## Problem Description
 
