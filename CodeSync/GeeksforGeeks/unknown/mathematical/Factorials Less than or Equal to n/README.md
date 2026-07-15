@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1
-- Synced: 2026-07-15T05:48:26.632Z
+- Synced: 2026-07-15T05:49:24.738Z
 
 ## Problem Description
 
