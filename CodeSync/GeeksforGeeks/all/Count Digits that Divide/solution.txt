@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Digits that Divide
+ * URL: https://www.geeksforgeeks.org/problems/count-digits5716/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Related Articles, Count Digits Given Number N Divide N, Find Count Digit Number Divide Number, Program Count Digits Integer 3 Different Methods
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T04:33:57.893Z
+ */
+
+class Solution {
+    static int evenlyDivides(int n) {
+        // code here
+        
+    }
+}
