@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-15T09:26:25.296Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Trie",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Bucket Sort",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Top K Frequent Words",
+  "problemUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+  "submissionId": "k86mq5"
+}
