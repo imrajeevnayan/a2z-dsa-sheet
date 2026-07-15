@@ -1,0 +1,23 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count Digits
+ * URL: https://www.naukri.com/code360/problems/count-digits_8416387
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T04:44:55.093Z
+ */
+
+public class Solution {
+    public static int countDigits(int n){
+        int temp = n, count = 0;
+        while (n > 0) {
+            int d = n % 10;
+            if (d != 0 && temp % d == 0)  count++;
+            n = n / 10;
+        }
+        return count;
+    }
+}
