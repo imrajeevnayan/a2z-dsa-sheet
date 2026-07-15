@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/consecutive-characters/
-- Synced: 2026-07-14T18:52:42.487Z
+- Runtime: 1 ms
+- Memory: 43.63 MB
+- Problem URL: https://leetcode.com/problems/consecutive-characters/submissions/1895691724/
+- Synced: 2026-07-14T18:53:27.826Z
 
 ## Problem Description
 
