@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-15T09:43:02.269Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Hash TableSort",
+    "Hash Table",
+    "Sort",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/1883",
+  "submissionId": "4df64j"
+}
