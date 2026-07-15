@@ -1,19 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-02T16:33:01.408Z",
+  "submissionTimestamp": "2026-07-15T09:42:03.386Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "EnumerateArraySimulation",
-    "Enumerate",
-    "Array",
-    "Simulation",
-    "NetEase",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/366/description",
-  "submissionId": "ps7vlx"
+  "problemUrl": "https://www.lintcode.com/problem/471/leaderboard",
+  "submissionId": "fks3fo"
 }
