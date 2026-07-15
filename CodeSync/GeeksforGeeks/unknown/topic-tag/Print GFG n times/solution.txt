@@ -7,7 +7,7 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:34:23.154Z
+ * Synced: 2026-07-15T05:35:17.069Z
  */
 
 class GFG {
