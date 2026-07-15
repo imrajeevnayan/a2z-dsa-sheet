@@ -1,21 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-15T05:54:26.246Z",
+  "submissionTimestamp": "2026-07-15T05:54:29.338Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
-    "Company Tags",
-    "Bloomberg",
-    "Facebook",
-    "TCS",
-    "Adobe",
-    "Google",
-    "Infosys"
+    "Uncategorized"
   ],
-  "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "platform": "Coding Ninjas (Code360)",
+  "language": "All languages",
   "problemTitle": "Reverse an Array",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-an-array/1",
-  "submissionId": "1fpocg"
+  "problemUrl": "https://www.naukri.com/code360/problems/reverse-an-array_8365444",
+  "submissionId": "mtm91a"
 }
