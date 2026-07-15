@@ -7,15 +7,16 @@
  * Topics: Array, Hash Table, Union-Find
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T19:01:23.120Z
+ * Synced: 2026-07-14T19:02:08.603Z
  */
 
 class Solution {
     public int longestConsecutive(int[] nums) {
+        Arrays.sort(nums);
         int count=1,maxLen=1;
         for(int i=1;i<nums.length;i++){
-            if(nums[i]==nums[i-1])
+            if(nums[i]==nums[i-1]-1)count++;
+            else count=1
         }
     }
-        
 }
