@@ -7,12 +7,20 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Factorial Numbers Less Equal N
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:48:26.632Z
+ * Synced: 2026-07-15T05:49:24.738Z
  */
 
 class Solution {
     static ArrayList<Long> factorialNumbers(long n) {
-        // code here
-        
+        ArrayList<Long> ans = new ArrayList<>();
+        helper(1, 1, n, ans);
+        return ans;
+    }
+
+    static void helper(long fact, long i, long n, ArrayList<Long> ans) {
+        fact = fact * i;
+        if (fact > n)  return;
+        ans.add(fact);
+        helper(fact, i + 1, n, ans);
     }
 }
