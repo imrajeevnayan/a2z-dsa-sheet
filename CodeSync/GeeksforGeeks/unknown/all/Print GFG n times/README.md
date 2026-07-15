@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-gfg-n-times/1
-- Synced: 2026-07-15T05:34:23.154Z
+- Synced: 2026-07-15T05:35:17.069Z
 
 ## Problem Description
 
