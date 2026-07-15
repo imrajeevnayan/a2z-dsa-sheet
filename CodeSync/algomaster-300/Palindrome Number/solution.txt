@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Number
- * URL: https://leetcode.com/problems/palindrome-number/description/
+ * URL: https://leetcode.com/problems/palindrome-number/submissions/2068098505/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-15T04:49:44.280Z
+ * Runtime: 0 ms
+ * Memory: 45.62 MB
+ * Synced: 2026-07-15T04:50:36.159Z
  */
 
 class Solution {
