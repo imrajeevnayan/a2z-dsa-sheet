@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Sum Divisors 1 N
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:18:40.227Z
+ * Synced: 2026-07-15T05:19:33.504Z
  */
 
 class Solution {
