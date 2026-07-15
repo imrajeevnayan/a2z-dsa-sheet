@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Consecutive Characters
- * URL: https://leetcode.com/problems/consecutive-characters/
+ * URL: https://leetcode.com/problems/consecutive-characters/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-14T18:55:45.408Z
+ * Synced: 2026-07-14T18:56:31.305Z
  */
 
 class Solution {
@@ -15,9 +15,9 @@ class Solution {
         int count=1,max=1;
         for(int i=1;i<s.length();i++){
             if(s.charAt(i)==s.charAt(i-1))count++;
+            else count=1;
             max=Math.max(max,count);
         }
         return max;
     }
-            
 }
