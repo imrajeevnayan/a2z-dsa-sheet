@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-15T09:43:57.503Z",
+  "submissionTimestamp": "2026-07-15T09:44:58.605Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
     "Hash TableSort",
     "Hash Table",
     "Sort",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "Course",
   "problemUrl": "https://www.lintcode.com/problem/1883/description",
-  "submissionId": "kyeb3i"
+  "submissionId": "rkmz"
 }
