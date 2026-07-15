@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-15T04:49:44.280Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-15T04:50:36.159Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.62 MB",
   "difficulty": "Easy",
   "tags": [
     "Math"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Number",
-  "problemUrl": "https://leetcode.com/problems/palindrome-number/description/",
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/submissions/2068098505/",
   "submissionId": "dlfmud"
 }
