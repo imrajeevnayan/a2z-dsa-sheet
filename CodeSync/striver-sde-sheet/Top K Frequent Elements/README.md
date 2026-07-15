@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/top-k-frequent-elements/
-- Synced: 2026-07-15T09:24:51.583Z
+- Synced: 2026-07-15T09:25:39.215Z
 
 ## Problem Description
 
