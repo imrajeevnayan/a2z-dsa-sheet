@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-digits5716/1
-- Synced: 2026-07-15T04:34:56.733Z
+- Synced: 2026-07-15T04:36:43.170Z
 
 ## Problem Description
 
