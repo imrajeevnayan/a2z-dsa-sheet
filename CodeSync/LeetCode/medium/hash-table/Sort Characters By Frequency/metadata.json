@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T09:45:23.710Z",
+  "submissionTimestamp": "2026-07-15T09:46:09.867Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort Characters By Frequency",
-  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/description/",
-  "submissionId": "9swfcq"
+  "problemUrl": "https://leetcode.com/problems/sort-characters-by-frequency/",
+  "submissionId": "eseedt"
 }
