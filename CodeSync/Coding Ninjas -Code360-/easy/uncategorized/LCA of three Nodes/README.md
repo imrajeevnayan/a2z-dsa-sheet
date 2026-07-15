@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 534 ms
+- Runtime: 5355 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/reverse-of-a-number_624652
-- Synced: 2026-07-15T04:49:07.169Z
+- Problem URL: https://www.naukri.com/code360/problems/check-prime_624934
+- Synced: 2026-07-15T05:21:56.484Z
 
 ## Problem Description
 
