@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-16T17:27:20.085Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-15T04:49:44.280Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Number",
-  "problemUrl": "https://leetcode.com/problems/palindrome-number/",
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/description/",
   "submissionId": "dlfmud"
 }
