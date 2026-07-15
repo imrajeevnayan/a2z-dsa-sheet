@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T09:38:59.084Z",
+  "submissionTimestamp": "2026-07-15T09:39:52.073Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "import heapq class Solution: def topKFreq(self, arr, k): # Code here freq = {} for num in arr: freq[num] = freq.get(num, 0) + 1 max_heap = [] for num, fr in freq.items(): heapq.heappush(max_heap, (-fr, -num)) return [-heapq.heappop(max_heap)[1] for _ in range(k)]",
   "problemTitle": "C++ solution with Hash map and priority queue",
   "problemUrl": "https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1",
-  "submissionId": "s4vef2"
+  "submissionId": "3ykswc"
 }
