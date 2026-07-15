@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
-- Synced: 2026-07-14T19:12:35.142Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/
+- Synced: 2026-07-14T19:13:24.077Z
 
 ## Problem Description
 
