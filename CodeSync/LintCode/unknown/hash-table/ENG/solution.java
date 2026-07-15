@@ -1,25 +1,25 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1319/
+ * URL: https://www.lintcode.com/problem/471/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
+ * Topics: HeapHash TableSort, Heap, Hash Table, Sort, Pocket Gems Amazon Bloomberg Yelp Uber, Pocket Gems, Amazon, Bloomberg
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:43:32.012Z
+ * Synced: 2026-07-15T09:40:43.868Z
  */
 
 public·class·Solution·{
-····public·boolean·containsNearbyDuplicate(int[]·nums,·int·k)·{
-······Map<Integer,Integer>map=new·HashMap<>();
-······for(int·i=0;i<nums.length;i++){
-··········if(map.containsKey(nums[i])){
-······}
-··············int·prevIdx=map.get(nums[i]);
-··········}
+····public·String[]·topKFrequentWords(String[]·words,·int·k)·{
+·····HashMap<String,Integer>map=new·HashMap<>();
+·····for(String·s·:words)map.put(s,map.getOrDefault(s,0)+1);
+·····PriorityQueue<String>·pq·=·new·PriorityQueue<>((a,·b)·->·{
+······if·(map.get(a).equals(map.get(b)))·{return·a.compareTo(b);}
+·········return·map.get(b)·-·map.get(a);··});
+·······pq.addAll(map.keySet());
+·······String·ans[]=new·String[k];
+·······for(int·i=0;i<k;i++)·ans[i]=pq.poll();
+·······return·ans;
 ····}
-··············if(i-prevIdx·<=k)return·true;
-··········map.put(nums[i],i);
-······return·false;
 }
