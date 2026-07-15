@@ -1,0 +1,17 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sum Of First N Numbers
+ * URL: https://www.naukri.com/code360/problems/sum-of-first-n-numbers_8876068
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-15T05:47:02.167Z
+ */
+
+public class Solution {
+    public static long sumFirstN(long n) {
+      return n * (n + 1) / 2;    
+    }
+}
