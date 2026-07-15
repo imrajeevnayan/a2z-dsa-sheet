@@ -1,21 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-15T09:41:29.876Z",
+  "submissionTimestamp": "2026-07-15T09:43:02.269Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "HeapHash TableSort",
-    "Heap",
+    "Hash TableSort",
     "Hash Table",
     "Sort",
-    "Pocket Gems Amazon Bloomberg Yelp Uber",
-    "Pocket Gems",
-    "Amazon",
-    "Bloomberg"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/471/",
-  "submissionId": "s6w0dj"
+  "problemUrl": "https://www.lintcode.com/problem/1883",
+  "submissionId": "4df64j"
 }
