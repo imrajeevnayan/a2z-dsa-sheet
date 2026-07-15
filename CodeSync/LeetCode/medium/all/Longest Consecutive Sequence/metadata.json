@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-14T19:02:08.603Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-14T19:03:43.095Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Longest Consecutive Sequence",
   "problemUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
-  "submissionId": "78g06h"
+  "submissionId": "4906o6"
 }
