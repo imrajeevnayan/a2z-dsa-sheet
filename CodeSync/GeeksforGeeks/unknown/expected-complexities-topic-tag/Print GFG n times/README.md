@@ -1,13 +1,13 @@
 # Print GFG n times
 
 - Platform: GeeksforGeeks
-- Language: class Solution { void printGfg(int N) { // code here if(N<=0) return; System.out.print("GFG"+" "); printGfg(N-1); } }
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-gfg-n-times/1
-- Synced: 2026-07-15T05:28:44.797Z
+- Synced: 2026-07-15T05:33:04.871Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a positive number n, print the string "GFG" exactly n times separated by a
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { void printGfg(int N) { // code here if(N<=0) return; System.out.print("GFG"+" "); printGfg(N-1); } }. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Algorithms, python-loops. Review the synced source file for the implementation details.
