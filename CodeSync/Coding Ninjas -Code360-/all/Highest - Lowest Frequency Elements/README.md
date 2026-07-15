@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/k-most-occurrent-numbers_625382
-- Synced: 2026-07-15T12:24:26.415Z
+- Synced: 2026-07-15T12:25:16.013Z
 
 ## Problem Description
 
