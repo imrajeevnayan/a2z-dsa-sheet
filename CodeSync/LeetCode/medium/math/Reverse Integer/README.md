@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Math
-- Runtime: 0 ms
-- Memory: 42.40 MB
+- Runtime: N/A
+- Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-integer/
-- Synced: 2026-07-14T18:48:09.184Z
+- Synced: 2026-07-15T04:45:39.776Z
 
 ## Problem Description
 
