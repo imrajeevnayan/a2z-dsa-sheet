@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-15T13:18:43.350Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Quickselect"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Kth Largest Element in an Array",
+  "problemUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
+  "submissionId": "bgeypx"
+}
