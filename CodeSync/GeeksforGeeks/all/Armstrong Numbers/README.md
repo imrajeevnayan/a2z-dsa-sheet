@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1
-- Synced: 2026-07-15T05:13:47.163Z
+- Synced: 2026-07-15T05:14:37.815Z
 
 ## Problem Description
 
