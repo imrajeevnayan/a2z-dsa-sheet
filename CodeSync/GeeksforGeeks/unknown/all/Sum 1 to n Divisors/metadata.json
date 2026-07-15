@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-15T05:17:41.950Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Mathematical",
+    "Algorithms",
+    "Related Articles",
+    "Sum Divisors 1 N"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Sum 1 to n Divisors",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1",
+  "submissionId": "3mwm44"
+}
