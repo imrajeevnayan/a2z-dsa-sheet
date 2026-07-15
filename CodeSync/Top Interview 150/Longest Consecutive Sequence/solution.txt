@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Union-Find
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T18:59:03.535Z
+ * Synced: 2026-07-14T18:59:52.277Z
  */
 
 class Solution {
