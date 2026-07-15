@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T17:59:24.646Z",
+  "submissionTimestamp": "2026-07-15T05:24:11.945Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Print Numbers 1 N Using Indirect Recursion"
   ],
   "platform": "GeeksforGeeks",
-  "language": "void printTillN(int n) { if(n>1) printTillN(n-1); printf(\"%d \", n); }",
+  "language": "Java (21)",
   "problemTitle": "1 to n Without Loops",
   "problemUrl": "https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops3621/1",
-  "submissionId": "11f86t"
+  "submissionId": "rlu7eg"
 }
