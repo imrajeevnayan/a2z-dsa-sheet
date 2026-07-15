@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Print n to 1 without loop
  * URL: https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1
- * Language: Java (21)
+ * Language: class Solution { void printNos(int N) { // code here if(N==0){ return; } System.out.print(N+" "); printNos( N-1); } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Recursion, Algorithms, Related Articles, Print N To 1 Without Loop
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:35:49.000Z
+ * Synced: 2026-07-15T05:36:49.154Z
  */
 
 class Solution {
