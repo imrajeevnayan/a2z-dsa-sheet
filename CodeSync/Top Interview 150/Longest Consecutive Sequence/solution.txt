@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Consecutive Sequence
- * URL: https://leetcode.com/problems/longest-consecutive-sequence/
+ * URL: https://leetcode.com/problems/longest-consecutive-sequence/submissions/2067810200/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Hash Table, Union-Find
- * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-07-14T19:04:28.115Z
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 22 ms
+ * Memory: 77.52 MB
+ * Synced: 2026-07-14T19:07:40.157Z
  */
 
-for (int i = 1; i < nums.length; i++) {
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        if (nums.length == 0) return 0;
+        Arrays.sort(nums);
+        int count = 1, maxLen = 1;
+        for (int i = 1; i < nums.length; i++) {
             if (nums[i] == nums[i - 1]) continue; // Ignore duplicates
             else if (nums[i] == nums[i - 1] + 1) count++;
             else count = 1;
-        int count = 1, maxLen = 1;
-        Arrays.sort(nums);
-        if (nums.length == 0) return 0;
-    public int longestConsecutive(int[] nums) {
-class Solution {
             maxLen = Math.max(maxLen, count);
         }
         return maxLen;
