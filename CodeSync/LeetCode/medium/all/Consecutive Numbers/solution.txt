@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Consecutive Numbers
+ * URL: https://leetcode.com/problems/consecutive-numbers/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-14T18:57:10.279Z
+ */
+
+# Write your MySQL query statement below
