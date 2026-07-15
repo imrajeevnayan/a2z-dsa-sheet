@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-15T05:56:53.157Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Zoho",
+    "Morgan Stanley",
+    "Amazon",
+    "D-E-Shaw",
+    "FactSet"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def isPalindrome(self, s): left, right = 0, len(s) - 1 while left < right: if s[left] != s[right]: return 0 left, right = left+1, right-1 return 1",
+  "problemTitle": "75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 1/75)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/palindrome-string0817/1",
+  "submissionId": "xcgpu4"
+}
