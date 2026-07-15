@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-07T19:26:15.007Z",
+  "submissionTimestamp": "2026-07-15T04:34:56.733Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "Expected Complexities",
+    "Topic Tags",
+    "Modular Arithmetic",
+    "Algorithms",
+    "Related Articles",
+    "Count Digits Given Number N Divide N",
+    "Find Count Digit Number Divide Number",
+    "Program Count Digits Integer 3 Different Methods"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0",
+  "language": "class Solution: def evenlyDivides(self, n): temp = n result = 0 while(temp > 0): digit = temp % 10 if(digit != 0 and n % digit == 0): result += 1 temp = temp // 10 return result",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
-  "submissionId": "ozyyzn"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-digits5716/1",
+  "submissionId": "2dpzqn"
 }
