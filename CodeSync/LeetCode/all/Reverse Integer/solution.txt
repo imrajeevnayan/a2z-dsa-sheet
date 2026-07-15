@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:45:39.776Z
+ * Synced: 2026-07-15T04:46:35.154Z
  */
 
 class Solution {
