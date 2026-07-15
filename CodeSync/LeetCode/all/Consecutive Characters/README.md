@@ -6,8 +6,8 @@
 - Topics: String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/consecutive-characters/
-- Synced: 2026-07-14T18:55:45.408Z
+- Problem URL: https://leetcode.com/problems/consecutive-characters/description/
+- Synced: 2026-07-14T18:56:31.305Z
 
 ## Problem Description
 
