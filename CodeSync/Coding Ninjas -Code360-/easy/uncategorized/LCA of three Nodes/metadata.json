@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-15T05:22:47.151Z",
-  "runtime": "5355 ms",
+  "submissionTimestamp": "2026-07-15T05:23:34.648Z",
+  "runtime": "5567 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/check-prime_624934",
-  "submissionId": "bhi5dm"
+  "submissionId": "uteil8"
 }
