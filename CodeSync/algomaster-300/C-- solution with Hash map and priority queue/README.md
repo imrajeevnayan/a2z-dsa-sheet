@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1
-- Synced: 2026-07-15T09:54:17.081Z
+- Synced: 2026-07-15T09:55:17.080Z
 
 ## Problem Description
 
