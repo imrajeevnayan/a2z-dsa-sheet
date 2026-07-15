@@ -2,14 +2,39 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Check Armstrong
  * URL: https://www.naukri.com/code360/problems/check-armstrong_589
- * Language: C++ (g++ 5.4)
- * Difficulty: Medium
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 528 ms
  * Memory: N/A
- * Synced: 2026-07-15T05:15:34.811Z
+ * Synced: 2026-07-15T05:17:12.123Z
  */
 
-bool checkArmstrong(int n){
-    //Write your code here
-}
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+ 
+        int n = sc.nextInt();
+        int temp = n;
+ 
+        // Count digits
+        int count = 0;
+        int copy = n;
+        while (copy > 0) {
+            count++;
+            copy /= 10;
+        }
+ 
+        // Calculate sum of digits raised to 'count'
+        int sum = 0;
+        copy = n;
+        while (copy > 0) {
+            int digit = copy % 10;
+ 
+            int power = 1;
+            for (int i = 0; i < count; i++) {
+                power *= digit;
+            }
