@@ -1,32 +1,26 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/reverse-of-a-number_624652
+ * URL: https://www.naukri.com/code360/problems/check-prime_624934
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 534 ms
+ * Runtime: 5355 ms
  * Memory: N/A
- * Synced: 2026-07-15T04:49:07.169Z
+ * Synced: 2026-07-15T05:21:56.484Z
  */
 
-import java.util.*;
- 
-public class Main {
-      static int reverse(int x) {
-        int rev = 0;
-        while (x != 0) {
-            int digit = x % 10;
-            x = x / 10;
-            // Check for overflow/underflow
-            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) return 0;
-            rev = rev * 10 + digit;
+public class Solution {
+    public static String isPrime(int num) {
+        if (num <= 1) return "NO";
+        if (num == 2) return "YES";
+        if (num % 2 == 0) return "NO";
+        
+        for (int i = 3; i * i <= num; i += 2) {
+            if (num % i == 0) {
+                return "NO";
+            }
         }
-        return rev;
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(reverse(n));
+        return "YES";
     }
 }
