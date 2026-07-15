@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:55:40.165Z
+ * Synced: 2026-07-15T04:56:28.156Z
  */
 
 class Solution {
