@@ -1,21 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-15T11:30:48.674Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-16T05:33:47.423Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Expected Complexities",
-    "Company Tags AmazonGoogle",
-    "Company Tags",
-    "Amazon",
-    "Google",
-    "Topic Tags",
+    "Array",
+    "Math",
+    "Divide and Conquer",
+    "Geometry",
     "Sorting",
-    "Heap"
+    "Heap (Priority Queue)",
+    "Quickselect"
   ],
-  "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "K Closest Points to Origin",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160",
-  "submissionId": "md94a7"
+  "problemUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+  "submissionId": "v8c6nr"
 }
