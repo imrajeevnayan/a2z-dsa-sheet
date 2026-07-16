@@ -1,18 +1,24 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: LeetCode
  * Problem: K Closest Points to Origin
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160
- * Language: Java (21)
- * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AmazonGoogle, Company Tags, Amazon, Google, Topic Tags, Sorting, Heap
- * Runtime: N/A
+ * URL: https://leetcode.com/problems/k-closest-points-to-origin/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-15T11:30:48.674Z
+ * Synced: 2026-07-16T05:33:47.423Z
  */
 
 class Solution {
-    public ArrayList<ArrayList<Integer>> kClosest(int[][] points, int k) {
-        // code here
-        
+    public int[][] kClosest(int[][] points, int k) {
+    PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) ->(b[0]*b[0] + b[1]*b[1]) - (a[0]*a[0] + a[1]*a[1]));
+      for (int[] p : points) {
+            pq.add(p);
+            if (pq.size() > k) pq.poll();
+        }
+        int[][] ans = new int[k][2];
+        for (int i = 0; i < k; i++) ans[i] = pq.poll();
+        return ans;
     }
 }
