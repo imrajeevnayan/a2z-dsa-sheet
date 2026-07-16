@@ -431,8 +431,17 @@
     "TopInterview150",
     "Top100Liked",
     "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
     "StriverSDE",
-    "AlgoMaster300"
+    "AlgoMaster300",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:love-babbar-dsa-sheet"
   ],
   "leetcode:palindrome-number": [
     "custom:algomaster-300",
