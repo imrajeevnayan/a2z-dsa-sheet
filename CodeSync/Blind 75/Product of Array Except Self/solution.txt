@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Product of Array Except Self
- * URL: https://leetcode.com/problems/product-of-array-except-self/
+ * URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2069823753/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-16T12:03:00.071Z
+ * Runtime: 0 ms
+ * Memory: 72.40 MB
+ * Synced: 2026-07-16T12:03:49.937Z
  */
 
 class Solution {
@@ -22,5 +22,6 @@ class Solution {
             ans[i]*=right;
         }
     }
-            right*=nums
+            right*=nums[i];
+        return ans;
 }
