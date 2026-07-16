@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 53.82 MB
 - Problem URL: https://leetcode.com/problems/k-closest-points-to-origin/submissions/2069395202/
-- Synced: 2026-07-16T05:48:01.172Z
+- Synced: 2026-07-16T05:48:46.180Z
 
 ## Problem Description
 
