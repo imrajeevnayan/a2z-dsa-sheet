@@ -7,11 +7,13 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-16T12:00:42.934Z
+ * Synced: 2026-07-16T12:01:28.792Z
  */
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        
+        int ans[]=new int[nums.length];
     }
+        ans[0]=1;
+        for(int i=)
 }
