@@ -861,5 +861,20 @@
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
   ],
-  "leetcode:score-of-a-string": []
+  "leetcode:score-of-a-string": [],
+  "leetcode:product-of-array-except-self": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "LeetCode75",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "LoveBabbar450",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
