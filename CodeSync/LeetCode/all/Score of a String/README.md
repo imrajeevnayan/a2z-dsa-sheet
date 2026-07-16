@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/score-of-a-string/description/
-- Synced: 2026-07-16T10:07:29.023Z
+- Runtime: 0 ms
+- Memory: 43.35 MB
+- Problem URL: https://leetcode.com/problems/score-of-a-string/submissions/2069710383/
+- Synced: 2026-07-16T10:08:22.762Z
 
 ## Problem Description
 
