@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-07-16T05:33:47.423Z",
+  "runtime": "1 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Divide and Conquer",
+    "Geometry",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Quickselect"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "K Closest Points to Origin",
+  "problemUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+  "submissionId": "v8c6nr"
+}
