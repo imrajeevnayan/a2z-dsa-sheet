@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-14T09:32:41.040Z",
+  "submissionTimestamp": "2026-07-16T12:12:30.441Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Math"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/",
-  "submissionId": "kqnwx8"
+  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
+  "submissionId": "vfut33"
 }
