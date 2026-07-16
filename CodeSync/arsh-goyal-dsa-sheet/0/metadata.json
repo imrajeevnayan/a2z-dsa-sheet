@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-10T17:28:52.479Z",
-  "runtime": "3 ms",
-  "memoryUsage": "115.59 MB",
+  "submissionTimestamp": "2026-07-16T05:24:58.622Z",
+  "runtime": "14 ms",
+  "memoryUsage": "47.89 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2062707294/",
-  "submissionId": "k2pza7"
+  "problemUrl": "https://leetcode.com/submissions/detail/2068409401/",
+  "submissionId": "lbpm46"
 }
