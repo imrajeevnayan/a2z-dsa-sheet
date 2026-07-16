@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-10T14:48:26.022Z",
+  "submissionTimestamp": "2026-07-16T12:12:30.441Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Math"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "8zld95"
+  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
+  "submissionId": "vfut33"
 }
