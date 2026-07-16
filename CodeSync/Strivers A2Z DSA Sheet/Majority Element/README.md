@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/majority-element/description/
-- Synced: 2026-07-16T11:43:38.027Z
+- Problem URL: https://leetcode.com/problems/majority-element/
+- Synced: 2026-07-16T12:12:38.082Z
 
 ## Problem Description
 
