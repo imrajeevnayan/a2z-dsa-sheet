@@ -851,5 +851,6 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
-  ]
+  ],
+  "leetcode:score-of-a-string": []
 }
