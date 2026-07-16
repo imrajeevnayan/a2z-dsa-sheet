@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-16T11:43:38.027Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Sorting",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Majority Element",
+  "problemUrl": "https://leetcode.com/problems/majority-element/description/",
+  "submissionId": "a9ctyh"
+}
