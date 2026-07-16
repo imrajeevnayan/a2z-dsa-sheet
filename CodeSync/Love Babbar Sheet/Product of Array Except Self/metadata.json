@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-16T12:01:28.792Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-16T12:03:49.937Z",
+  "runtime": "0 ms",
+  "memoryUsage": "72.40 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Product of Array Except Self",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/",
-  "submissionId": "pqpl1"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/submissions/2069823753/",
+  "submissionId": "nbr96c"
 }
