@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Score of a String
+ * URL: https://leetcode.com/problems/score-of-a-string/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-16T10:07:29.023Z
+ */
+
+class Solution {
+    public int scoreOfString(String s) {
+        int score=0;
+        for(int i=1;i<s.length();i++){
+            score+=Math.abs(s.charAt(i)-s.charAt(i-1));
+        }
+        return score;
+    }
+}
