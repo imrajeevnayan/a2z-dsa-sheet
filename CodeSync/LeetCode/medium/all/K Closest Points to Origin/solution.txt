@@ -7,7 +7,7 @@
  * Topics: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect
  * Runtime: 1 ms
  * Memory: 53.82 MB
- * Synced: 2026-07-16T05:34:41.160Z
+ * Synced: 2026-07-16T05:35:30.158Z
  */
 
 class Solution {
