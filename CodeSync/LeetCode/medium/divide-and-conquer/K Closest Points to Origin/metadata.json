@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-16T05:33:47.423Z",
+  "submissionTimestamp": "2026-07-16T05:34:41.160Z",
   "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "53.82 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "K Closest Points to Origin",
-  "problemUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+  "problemUrl": "https://leetcode.com/problems/k-closest-points-to-origin/submissions/2069395202/",
   "submissionId": "v8c6nr"
 }
