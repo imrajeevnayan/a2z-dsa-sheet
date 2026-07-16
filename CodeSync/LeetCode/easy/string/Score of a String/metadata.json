@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-16T10:07:29.023Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-16T10:08:22.762Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.35 MB",
   "difficulty": "Easy",
   "tags": [
     "String"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Score of a String",
-  "problemUrl": "https://leetcode.com/problems/score-of-a-string/description/",
+  "problemUrl": "https://leetcode.com/problems/score-of-a-string/submissions/2069710383/",
   "submissionId": "bk33i6"
 }
