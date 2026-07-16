@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-16T11:46:01.936Z
+ * Synced: 2026-07-16T11:46:54.935Z
  */
 
 class Solution {
