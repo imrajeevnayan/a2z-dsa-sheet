@@ -841,5 +841,15 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:k-closest-points-to-origin": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
   ]
 }
