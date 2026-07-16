@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect
 - Runtime: 1 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/k-closest-points-to-origin/
-- Synced: 2026-07-16T05:33:47.423Z
+- Memory: 53.82 MB
+- Problem URL: https://leetcode.com/problems/k-closest-points-to-origin/submissions/2069395202/
+- Synced: 2026-07-16T05:34:41.160Z
 
 ## Problem Description
 
