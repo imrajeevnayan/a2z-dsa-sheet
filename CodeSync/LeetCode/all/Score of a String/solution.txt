@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Score of a String
- * URL: https://leetcode.com/problems/score-of-a-string/description/
+ * URL: https://leetcode.com/problems/score-of-a-string/submissions/2069710383/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-16T10:07:29.023Z
+ * Runtime: 0 ms
+ * Memory: 43.35 MB
+ * Synced: 2026-07-16T10:08:22.762Z
  */
 
 class Solution {
