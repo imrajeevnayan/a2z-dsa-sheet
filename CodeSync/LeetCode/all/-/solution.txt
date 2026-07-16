@@ -1,13 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * URL: https://leetcode.com/problems/reverse-integer/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T09:32:41.040Z
+ * Synced: 2026-07-16T12:12:30.441Z
  */
 
-Following article contains the list of questions topic wise
+Input: x = 123
+Output: 321
