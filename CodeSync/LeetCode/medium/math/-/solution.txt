@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/reverse-integer/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-16T12:12:30.441Z
+ */
+
+Input: x = 123
+Output: 321
