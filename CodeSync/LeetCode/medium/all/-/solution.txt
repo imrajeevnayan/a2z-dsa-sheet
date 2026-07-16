@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+ * URL: https://leetcode.com/problems/reverse-integer/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Sliding Window
+ * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T07:17:48.147Z
+ * Synced: 2026-07-16T12:12:30.441Z
  */
 
-Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4
-Output: 3
-Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold).
+Input: x = 123
+Output: 321
