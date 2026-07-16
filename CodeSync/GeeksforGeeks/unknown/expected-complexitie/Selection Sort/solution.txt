@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MicrosoftMedlife, Company Tags, Microsoft, Medlife, Topic Tags, Sorting, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-16T05:25:13.936Z
+ * Synced: 2026-07-16T09:45:11.621Z
  */
 
 class Solution {
