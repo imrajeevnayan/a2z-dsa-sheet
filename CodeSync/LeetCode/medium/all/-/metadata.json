@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-12T07:17:48.147Z",
+  "submissionTimestamp": "2026-07-16T12:12:30.441Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Sliding Window"
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/",
-  "submissionId": "x3nfuw"
+  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
+  "submissionId": "vfut33"
 }
