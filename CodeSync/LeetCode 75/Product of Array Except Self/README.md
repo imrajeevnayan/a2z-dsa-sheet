@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/product-of-array-except-self/
-- Synced: 2026-07-16T11:44:30.922Z
+- Synced: 2026-07-16T11:45:16.926Z
 
 ## Problem Description
 
