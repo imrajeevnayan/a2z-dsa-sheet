@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://cses.fi/problemset/result/17968965/
-- Synced: 2026-07-17T11:26:10.607Z
+- Synced: 2026-07-17T13:24:52.198Z
 
 ## Problem Description
 
