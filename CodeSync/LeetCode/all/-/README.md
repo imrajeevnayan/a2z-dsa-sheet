@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/rotate-array/description/
-- Synced: 2026-07-17T06:46:13.564Z
+- Synced: 2026-07-17T10:05:51.344Z
 
 ## Problem Description
 
