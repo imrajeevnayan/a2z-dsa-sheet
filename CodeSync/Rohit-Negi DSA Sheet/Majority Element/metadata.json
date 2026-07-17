@@ -1,18 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-16T12:15:17.923Z",
+  "submissionTimestamp": "2026-07-17T08:33:55.961Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Divide and Conquer",
-    "Sorting",
-    "Counting"
+    "Programming",
+    "Greedy Algorithm",
+    "Description",
+    "Discussion",
+    "Submissions",
+    "Hints",
+    "Bulbs 23 Minutes Easy Asked in:",
+    "Turn on the Bulbs 27 Minutes Very Easy Asked in:"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "InterviewBit",
+  "language": "Java",
   "problemTitle": "Majority Element",
-  "problemUrl": "https://leetcode.com/problems/majority-element/",
-  "submissionId": "a9ctyh"
+  "problemUrl": "https://www.interviewbit.com/problems/majority-element/",
+  "submissionId": "5pz7ud"
 }
