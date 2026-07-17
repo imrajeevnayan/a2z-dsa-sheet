@@ -1,0 +1,19 @@
+/*
+ * Platform: LeetCode
+ * Problem: GCD of Odd and Even Sums
+ * URL: https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-17
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Math, Number Theory
+ * Runtime: 0 ms
+ * Memory: 42.27 MB
+ * Synced: 2026-07-17T10:40:28.162Z
+ */
+
+class Solution {
+    public int gcdOfOddEvenSums(int n) {
+        return n;
+    }
+    static int gcd(int a,int b){
+        return b==0 ? a:gcd(b,a%b);
+}
