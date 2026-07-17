@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-17T10:39:35.199Z",
+  "submissionTimestamp": "2026-07-17T10:39:42.386Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -16,6 +16,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "ohh hell naaah again a gcd potd for today and a hard one",
-  "problemUrl": "https://leetcode.com/problems/sorted-gcd-pair-queries/description/?envType=daily-question&envId=2026-07-17",
+  "problemUrl": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-17",
   "submissionId": "16lezg"
 }
