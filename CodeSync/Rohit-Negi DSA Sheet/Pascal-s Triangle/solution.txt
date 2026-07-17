@@ -7,13 +7,15 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T07:56:13.239Z
+ * Synced: 2026-07-17T07:57:57.024Z
  */
 
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         
-    }
      List<List<Integer>>res=new ArrayList<>();
-     for(int i=0;i<numsRows;i++)
+     for(int i=0;i<numsRows;i++){
+        List<Integer>ans=new ArrayList<>();
+     }
+    }
 }
