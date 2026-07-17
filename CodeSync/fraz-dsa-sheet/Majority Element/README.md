@@ -1,18 +1,18 @@
 # Majority Element
 
-- Platform: LeetCode
-- Language: Problem List
+- Platform: InterviewBit
+- Language: Java
 - Difficulty: Easy
-- Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
+- Topics: Programming, Greedy Algorithm, Description, Discussion, Submissions, Hints, Bulbs 23 Minutes Easy Asked in:, Turn on the Bulbs 27 Minutes Very Easy Asked in:
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/majority-element/
-- Synced: 2026-07-16T13:39:34.219Z
+- Problem URL: https://www.interviewbit.com/problems/majority-element/
+- Synced: 2026-07-17T08:33:55.961Z
 
 ## Problem Description
 
-Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array. Example 1: Input: nums = [3,2,3] Output: 3 Example 2: Input: nums = [2,2,1,1,1,2,2] Output: 2 Constraints: n == nums.length 1 <= n <= 5 * 104 -109 <= nums[i] <= 109 The input is generated such that a majority element will exist in the array. Follow-up: Could you solve the problem in linear time and in O(1) space?
+Deloitte is hiring experienced Java engineers for Senior Consultant roles
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Divide and Conquer, Sorting, Counting. Review the synced source file for the implementation details.
+This solution was accepted on InterviewBit using Java. The detected topics are Programming, Greedy Algorithm, Description, Discussion, Submissions, Hints, Bulbs 23 Minutes Easy Asked in:, Turn on the Bulbs 27 Minutes Very Easy Asked in:. Review the synced source file for the implementation details.
