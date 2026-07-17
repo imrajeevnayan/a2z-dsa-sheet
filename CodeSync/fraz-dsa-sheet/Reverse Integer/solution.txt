@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Integer
- * URL: https://leetcode.com/problems/reverse-integer/
+ * URL: https://leetcode.com/problems/reverse-integer/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:49:03.164Z
+ * Synced: 2026-07-17T13:26:27.346Z
  */
 
 class Solution {
