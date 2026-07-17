@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:10:46.850Z
+ * Synced: 2026-07-17T10:11:31.870Z
  */
 
 }
@@ -23,5 +23,6 @@
         ans[1] = lastOcc(nums, target);
         ans[0] = firstOcc(nums, target);
         int[] ans = new int[2];
-    public int[] searchRange(int[] nums, int target) {
-class Solution {
+            else if(nums[mid] < target)low = mid + 1;
+            else  high = mid - 1;
+        }
