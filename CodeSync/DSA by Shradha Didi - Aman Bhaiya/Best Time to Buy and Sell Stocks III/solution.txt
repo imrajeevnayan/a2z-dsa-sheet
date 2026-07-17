@@ -1,0 +1,17 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Best Time to Buy and Sell Stocks III
+ * URL: https://www.interviewbit.com/problems/best-time-to-buy-and-sell-stocks-iii/
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Programming, Dynamic Programming, Description, Discussion, Submissions, Hints, Max edge queries! 56 Minutes Medium Asked in:, 23.6%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-17T08:33:37.944Z
+ */
+
+public class Solution {
+    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+    public int maxProfit(final int[] A) {
+    }
+}
