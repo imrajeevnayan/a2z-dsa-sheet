@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: ohh hell naaah again a gcd potd for today and a hard one
- * URL: https://leetcode.com/problems/sorted-gcd-pair-queries/description/?envType=daily-question&envId=2026-07-17
+ * URL: https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-17
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Hash Table, Math, Binary Search, Combinatorics, Counting, Number Theory, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:39:35.199Z
+ * Synced: 2026-07-17T10:39:42.386Z
  */
 
 class Solution {
