@@ -1,15 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+ * URL: https://leetcode.com/problems/rotate-array/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Sliding Window
+ * Topics: Array, Math, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T07:17:48.147Z
+ * Synced: 2026-07-17T06:46:13.564Z
  */
 
-Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4
-Output: 3
-Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold).
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
