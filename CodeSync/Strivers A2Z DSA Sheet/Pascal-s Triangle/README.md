@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/pascals-triangle/
-- Synced: 2026-07-17T07:52:37.008Z
+- Synced: 2026-07-17T07:53:29.002Z
 
 ## Problem Description
 
