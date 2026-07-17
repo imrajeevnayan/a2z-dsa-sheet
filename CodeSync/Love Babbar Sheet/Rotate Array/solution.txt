@@ -7,7 +7,7 @@
  * Topics: Array, Math, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T06:48:31.129Z
+ * Synced: 2026-07-17T06:49:17.097Z
  */
 
 nums[j--]=temp;
