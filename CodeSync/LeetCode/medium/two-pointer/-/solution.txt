@@ -1,14 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * URL: https://leetcode.com/problems/rotate-array/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers
+ * Topics: Array, Math, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:23:11.386Z
+ * Synced: 2026-07-17T06:46:13.564Z
  */
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
