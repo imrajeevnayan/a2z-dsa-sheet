@@ -7,10 +7,14 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:32:18.863Z
+ * Synced: 2026-07-17T10:33:08.845Z
  */
 
-else if(nums[mid] < target)low = mid + 1;
+high = mid - 1;
+            }
+            if(nums[mid] == target) {
+                ans = mid;
+            else if(nums[mid] < target)low = mid + 1;
             else  high = mid - 1;
         }
         return ans;
@@ -22,7 +26,3 @@ else if(nums[mid] < target)low = mid + 1;
             if(nums[mid] == target) { 
                 ans = mid;
                 low = mid+ 1;
-            }
-            else if(nums[mid] < target)low = mid + 1;
-            else  high = mid - 1;
-        }
