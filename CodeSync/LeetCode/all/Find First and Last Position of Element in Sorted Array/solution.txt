@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:17:51.863Z
+ * Synced: 2026-07-17T10:18:36.866Z
  */
 
 }
@@ -15,13 +15,14 @@
                 high = mid - 1;
             int mid = low + (high - low) / 2;
             if(nums[mid] == target) {
-        int low = 0, high = nums.length - 1,ans = -1;
         while(low <= high) {
-    int firstOcc(int[] nums, int target) {
-        return ans;
-    }
             else if(nums[mid] < target)low = mid + 1;
             else  high = mid - 1;
         }
         return ans;
     }
+      int lastOcc(int[] nums, int target) {
+        int low = 0, high = nums.length - 1,ans = -1;
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            if(nums[mid] == target) {
