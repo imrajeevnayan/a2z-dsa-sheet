@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/bubble-sort/1
-- Synced: 2026-07-17T17:56:08.856Z
+- Synced: 2026-07-17T17:57:06.447Z
 
 ## Problem Description
 
