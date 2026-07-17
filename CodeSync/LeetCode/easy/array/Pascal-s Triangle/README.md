@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/pascals-triangle/
-- Synced: 2026-07-17T08:03:06.161Z
+- Runtime: 0 ms
+- Memory: 43.22 MB
+- Problem URL: https://leetcode.com/problems/pascals-triangle/submissions/2070841337/
+- Synced: 2026-07-17T08:03:54.025Z
 
 ## Problem Description
 
