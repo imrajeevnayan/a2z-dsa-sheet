@@ -962,5 +962,10 @@
     "InterviewBitSet"
   ],
   "leetcode:sorted-gcd-pair-queries": [],
-  "leetcode:gcd-of-odd-and-even-sums": []
+  "leetcode:gcd-of-odd-and-even-sums": [],
+  "geeksforgeeks:bubble-sort": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
