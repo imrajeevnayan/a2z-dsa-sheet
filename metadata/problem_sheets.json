@@ -947,5 +947,6 @@
     "custom:love-babbar-dsa-sheet",
     "InterviewBitSet"
   ],
-  "leetcode:sorted-gcd-pair-queries": []
+  "leetcode:sorted-gcd-pair-queries": [],
+  "leetcode:gcd-of-odd-and-even-sums": []
 }
