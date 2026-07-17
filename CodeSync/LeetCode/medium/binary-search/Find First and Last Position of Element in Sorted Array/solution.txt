@@ -7,21 +7,22 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:31:33.843Z
+ * Synced: 2026-07-17T10:32:18.863Z
  */
 
-}
-                high = mid - 1;
-                ans = mid;
-            if(nums[mid] == target) {
-            int mid = low + (high - low) / 2;
-        while(low <= high) {
-        int low = 0, high = nums.length - 1,ans = -1;
-    int firstOcc(int[] nums, int target) {
-    }
+else if(nums[mid] < target)low = mid + 1;
+            else  high = mid - 1;
+        }
         return ans;
-        ans[1] = lastOcc(nums, target);
-        ans[0] = firstOcc(nums, target);
-        int[] ans = new int[2];
-    public int[] searchRange(int[] nums, int target) {
-class Solution {
+    }
+      int lastOcc(int[] nums, int target) {
+        int low = 0, high = nums.length - 1,ans = -1;
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            if(nums[mid] == target) { 
+                ans = mid;
+                low = mid+ 1;
+            }
+            else if(nums[mid] < target)low = mid + 1;
+            else  high = mid - 1;
+        }
