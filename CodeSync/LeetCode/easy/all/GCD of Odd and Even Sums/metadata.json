@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-17T10:40:28.162Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.27 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Number Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "GCD of Odd and Even Sums",
+  "problemUrl": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-17",
+  "submissionId": "wc9239"
+}
