@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-12T07:17:48.147Z",
+  "submissionTimestamp": "2026-07-17T06:46:13.564Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Sliding Window"
+    "Math",
+    "Two Pointers"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/",
-  "submissionId": "x3nfuw"
+  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
+  "submissionId": "t7h6vw"
 }
