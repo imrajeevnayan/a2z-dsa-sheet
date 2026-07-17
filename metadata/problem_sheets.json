@@ -885,5 +885,16 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:pascals-triangle": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
