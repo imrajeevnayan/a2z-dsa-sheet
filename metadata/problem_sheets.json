@@ -927,5 +927,24 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
     "InterviewBitSet"
+  ],
+  "interviewbit:majority-element": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "Grind75",
+    "Grind169",
+    "TopInterview150",
+    "Top100Liked",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "InterviewBitSet"
   ]
 }
