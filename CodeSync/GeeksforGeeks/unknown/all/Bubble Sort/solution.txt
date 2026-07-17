@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Company Tags, Microsoft, Wipro, SAP Labs, Cisco, Nagarro, redBus
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T17:56:08.856Z
+ * Synced: 2026-07-17T17:57:06.447Z
  */
 
 class Solution {
     public void bubbleSort(int[] arr) {
-        // code here
-        
+        int n=arr.length;
+     for(int i=0;i<)
     }
 }
