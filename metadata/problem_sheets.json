@@ -946,5 +946,6 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:love-babbar-dsa-sheet",
     "InterviewBitSet"
-  ]
+  ],
+  "leetcode:sorted-gcd-pair-queries": []
 }
