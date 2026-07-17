@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:28:10.851Z
+ * Synced: 2026-07-17T10:28:55.863Z
  */
 
 }
@@ -25,4 +25,3 @@
         int[] ans = new int[2];
     public int[] searchRange(int[] nums, int target) {
 class Solution {
-            else if(nums[mid] < target)low = mid + 1;
