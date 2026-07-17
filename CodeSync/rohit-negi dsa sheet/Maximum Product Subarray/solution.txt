@@ -7,11 +7,10 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T13:28:32.919Z
+ * Synced: 2026-07-17T13:29:21.693Z
  */
 
-for(int i=1;i<nums.length;i++){
-        int  curr=nums[i];
+int  curr=nums[i];
         if(curr < 0){
             int temp=max;
             max=min;
@@ -22,6 +21,5 @@ for(int i=1;i<nums.length;i++){
        res=Math.max(res,max);
       }
       return res;
-      int min=nums[0],max=nums[0],res=nums[0];
-public class Solution {
-    public int maxProduct(int[] nums) {
+    }
+}
