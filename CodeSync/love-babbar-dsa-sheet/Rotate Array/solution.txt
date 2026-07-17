@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate Array
- * URL: https://leetcode.com/problems/rotate-array/
+ * URL: https://leetcode.com/problems/rotate-array/submissions/2070782341/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Two Pointers
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-17T06:58:37.101Z
+ * Runtime: 0 ms
+ * Memory: 61.40 MB
+ * Synced: 2026-07-17T06:59:24.763Z
  */
 
 nums[j--]=temp;
@@ -22,6 +22,5 @@ nums[j--]=temp;
         
             nums[i++]=nums[j];
             int temp=nums[i];
-        while(i < j){
-    static void reverse(int nums[],int i,int j){
-class Solution {
+    }
+}
