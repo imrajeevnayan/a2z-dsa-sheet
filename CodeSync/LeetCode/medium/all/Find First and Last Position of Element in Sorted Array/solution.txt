@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:17:06.846Z
+ * Synced: 2026-07-17T10:17:51.863Z
  */
 
 }
@@ -20,9 +20,8 @@
     int firstOcc(int[] nums, int target) {
         return ans;
     }
-        ans[1] = lastOcc(nums, target);
-        ans[0] = firstOcc(nums, target);
-        int[] ans = new int[2];
             else if(nums[mid] < target)low = mid + 1;
             else  high = mid - 1;
         }
+        return ans;
+    }
