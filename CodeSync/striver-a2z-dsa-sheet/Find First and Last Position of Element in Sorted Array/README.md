@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-- Synced: 2026-07-17T10:33:08.845Z
+- Synced: 2026-07-17T10:33:57.845Z
 
 ## Problem Description
 
