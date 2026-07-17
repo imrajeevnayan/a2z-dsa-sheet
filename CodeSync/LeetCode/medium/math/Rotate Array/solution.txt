@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Rotate Array
+ * URL: https://leetcode.com/problems/rotate-array/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-17T06:47:45.310Z
+ */
+
+nums[j--]=temp;
+        }
+    }
+    public void rotate(int[] nums, int k) {
+        int n=nums.length;
+        k=k%n;
+        reverse(nums,0,n-1);
+        reverse(nums,0,k-1);
+        reverse(nums,k,n-1);
+        
+            nums[i++]=nums[j];
+            int temp=nums[i];
+        while(i < j){
+    static void reverse(int nums[],int i,int j){
+class Solution {
