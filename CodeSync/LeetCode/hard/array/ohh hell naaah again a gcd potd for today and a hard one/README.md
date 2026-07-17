@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Math, Binary Search, Combinatorics, Counting, Number Theory, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sorted-gcd-pair-queries/description/?envType=daily-question&envId=2026-07-17
-- Synced: 2026-07-17T10:39:35.199Z
+- Problem URL: https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-17
+- Synced: 2026-07-17T10:39:42.386Z
 
 ## Problem Description
 
