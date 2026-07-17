@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-17T13:26:32.667Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Product Subarray",
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+  "submissionId": "oxpcl1"
+}
