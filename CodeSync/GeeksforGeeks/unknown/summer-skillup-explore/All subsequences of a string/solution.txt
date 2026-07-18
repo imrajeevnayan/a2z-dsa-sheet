@@ -1,0 +1,144 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: All subsequences of a string
+ * URL: https://www.geeksforgeeks.org/dsa/print-subsequences-string/
+ * Language: #include <bits/stdc++.h> using namespace std; // Find all subsequences recursively void printSubRec(string s, string curr) { // Base Case : s is empty, print // current subsequence if (s.empty()) { cout << curr << endl; return; } // curr is passed with including // the first character of the string printSubRec(s.substr(1), curr + s[0]); // curr is passed without including // the first character of the string printSubRec(s.substr(1), curr); } // Wrapper method for printSubRec void printSubs(string s) { string curr = ""; printSubRec(s, curr); } // Driver code int main() { string s = "ab"; printSubs(s); return 0; }
+ * Difficulty: Unknown
+ * Topics: subsequence, Summer SkillUp Explore, Summer SkillUp, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-18T09:02:45.796Z
+ */
+
+// Java program for the above approach
+import java.util.*;
+class GFG {
+​
+    // Declare a global list
+    static List<String> al = new ArrayList<>();
+​
+    // Creating a public static Arraylist such that
+    // we can store values
+    // IF there is any question of returning the
+    // we can directly return too// public static
+    // ArrayList<String> al = new ArrayList<String>();
+    public static void main(String[] args)
+    {
+        String s = "abcd";
+        findsubsequences(s, ""); // Calling a function
+        System.out.println(al);
+    }
+​
+    private static void findsubsequences(String s,
+                                         String ans)
+    {
+        if (s.length() == 0) {
+            al.add(ans);
+            return;
+        }
+​
+        // We add adding 1st character in string
+        findsubsequences(s.substring(1), ans + s.charAt(0));
+​
+        // Not adding first character of the string
+        // because the concept of subsequence either
+        // character will present or not
+        findsubsequences(s.substring(1), ans);
+    }
+}
+// Java program to generate power set in
+// lexicographic order.
+class GFG {
+​
+    // str : Stores input string
+    // n : Length of str.
+    // curr : Stores current permutation
+    // index : Index in current permutation, curr
+    static void printSubSeqRec(String str, int n, int index,
+                               String curr)
+    {
+        // base case
+        if (index == n) {
+            return;
+        }
+        if (curr != null && !curr.trim().isEmpty()) {
+            System.out.println(curr);
+        }
+        for (int i = index + 1; i < n; i++) {
+            curr += str.charAt(i);
+            printSubSeqRec(str, n, i, curr);
+​
+            // backtracking
+            curr = curr.substring(0, curr.length() - 1);
+        }
+    }
+​
+    // Generates power set in
+    // lexicographic order.
+    static void printSubSeq(String str)
+    {
+        int index = -1;
+        String curr = "";
+​
+        printSubSeqRec(str, str.length(), index, curr);
+    }
+​
+    // Driver code
+    public static void main(String[] args)
+    {
+        String str = "cab";
+        printSubSeq(str);
+    }
+}
+​
+// This code is contributed by PrinciRaj1992
+import java.util.*;
+​
+public class GFG {
+    
+    //function to find where the bit is set
+    public static String print(String s , int i){
+        
+        int j = 0;
+        String sub = "";
+        
+        //finding the bit is set
+        while(i>0){
+            if((i & 1) == 1){
+                sub += s.charAt(j);
+            }
+            j++;
+            i = i>>1;
+        }
+        return sub;
+    }
+    
+    //function to create sub-sets
+    public static List<String> createsubsets(String s){
+        
+        List<String> res = new ArrayList<>();
+        for(int i = 0 ; i < (1<<s.length()) ; i++){
+            //each time we create a subsequence for corresponding binary representation
+            res.add(print(s,i));
+        }
+        return res;
+    }
+    
+    //main function to call 
+    public static void main(String args[]) 
+    { 
+        String s = "abc";
+        
+        // vector of strings to store all sub-sequences 
+        List<String> print = createsubsets(s); 
+  
+        // print the subsets 
+        for (int i = 0; i < print.size(); i++) { 
+            for (int j = 0; j < print.get(i).length(); j++) { 
+                System.out.print(print.get(i).charAt(j) + " "); 
+            } 
+            System.out.println(); 
+        } 
+    } 
+}
+// This code contributed by Srj_27
