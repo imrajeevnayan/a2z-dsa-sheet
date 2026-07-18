@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: Display the First Three Rows
+ * URL: https://leetcode.com/problems/display-the-first-three-rows/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-18T18:09:57.411Z
+ */
+
+import pandas as pd
+
+def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
