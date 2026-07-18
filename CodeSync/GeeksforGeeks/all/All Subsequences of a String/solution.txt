@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: All Subsequences of a String
+ * URL: https://www.geeksforgeeks.org/problems/power-set4302/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-18T11:42:23.531Z
+ */
+
+class Solution {
+    public List<String> powerSet(String s) {
+        // Code here
+        
+    }
+}
