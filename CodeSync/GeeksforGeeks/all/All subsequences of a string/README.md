@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/print-subsequences-string/
-- Synced: 2026-07-18T11:48:57.863Z
+- Synced: 2026-07-18T11:49:56.858Z
 
 ## Problem Description
 
