@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Reverse a Stack
  * URL: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
- * Language: class Solution{ public: queue<int>ans; void Reverse(stack<int> &St){ if (!St.empty()){ ans.push(St.top()); St.pop(); } else{ return; } Reverse(St); while (!ans.empty()){ St.push(ans.front()); ans.pop(); } } };
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Stack
+ * Topics: Expected Complexities, Topic Tags, Recursion, Stack, Related Articles, Reverse A Stack Using Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T11:35:45.543Z
+ * Synced: 2026-07-18T18:24:54.787Z
  */
 
 class Solution {
