@@ -970,5 +970,8 @@
   ],
   "geeksforgeeks:count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum0733": [
     "GFG160"
+  ],
+  "cses:minimizing-coins": [
+    "CSESSet"
   ]
 }
