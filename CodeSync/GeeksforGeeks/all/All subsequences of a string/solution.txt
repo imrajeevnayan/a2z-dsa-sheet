@@ -7,7 +7,7 @@
  * Topics: subsequence, Summer SkillUp Explore, Summer SkillUp, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-18T11:44:54.479Z
+ * Synced: 2026-07-18T11:45:58.196Z
  */
 
 // Java program for the above approach
