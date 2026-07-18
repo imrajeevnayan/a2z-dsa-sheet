@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-18T05:06:00.558Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-18T05:07:35.034Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.02 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/submissions/?utm=codolio",
-  "submissionId": "gaz3ox"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/submissions/1918779185/?utm=codolio",
+  "submissionId": "lmlq06"
 }
