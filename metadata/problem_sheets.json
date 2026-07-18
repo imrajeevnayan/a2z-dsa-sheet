@@ -1017,5 +1017,8 @@
   "geeksforgeeks:reverse-a-stack": [
     "custom:love-babbar-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:occurence-of-an-integer-in-a-linked-list": [
+    "GFG160"
   ]
 }
