@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Even Letters
+ * URL: https://www.geeksforgeeks.org/problems/count-even-letters/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Hash, Mathematical, Related Articles, Counting Even Frequency Characters In A String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-18T18:23:01.556Z
+ */
+
+class Solution {
+    public int count(String s) {
+     int []freq=new int[26];
+     for(int c:s.toCharArray()){
+         freq[c-'a']++;
+     }
+     int count=0;
+     for(int i=0;i<26;i++){
+         if(freq[i] !=0 && freq[i] %2==0 )count++;
+     }
+       return count; 
+    }
+}
