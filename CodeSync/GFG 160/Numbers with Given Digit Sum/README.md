@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum0733/1
-- Synced: 2026-07-17T18:07:07.478Z
+- Synced: 2026-07-17T18:08:10.939Z
 
 ## Problem Description
 
