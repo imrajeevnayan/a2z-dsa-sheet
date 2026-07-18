@@ -1010,5 +1010,8 @@
   "leetcode:reverse-prefix-of-word": [],
   "geeksforgeeks:distinct-sorted--124713": [
     "GFG160"
+  ],
+  "geeksforgeeks:search-a-character-in-a-string": [
+    "GFG160"
   ]
 }
