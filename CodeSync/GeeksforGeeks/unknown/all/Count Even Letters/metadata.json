@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-07-18T18:23:01.556Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Hash",
+    "Mathematical",
+    "Related Articles",
+    "Counting Even Frequency Characters In A String"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count Even Letters",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-even-letters/1",
+  "submissionId": "rwstv4"
+}
