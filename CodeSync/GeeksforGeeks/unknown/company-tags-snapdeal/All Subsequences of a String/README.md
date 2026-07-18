@@ -1,13 +1,13 @@
 # All Subsequences of a String
 
 - Platform: GeeksforGeeks
-- Language: C
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles, Power Set
+- Topics: Expected Complexities, Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/power-set4302/1
-- Synced: 2026-07-18T09:02:55.354Z
+- Synced: 2026-07-18T11:42:23.531Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, generate all possible subsequences of the string (including th
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using C. The detected topics are Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles, Power Set. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles. Review the synced source file for the implementation details.
