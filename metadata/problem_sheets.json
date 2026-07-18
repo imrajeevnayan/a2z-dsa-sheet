@@ -1008,5 +1008,8 @@
   "leetcode:path-existence-queries-in-a-graph-ii": [],
   "leetcode:display-the-first-three-rows": [],
   "leetcode:maximum-number-of-words-found-in-sentences": [],
-  "leetcode:reverse-prefix-of-word": []
+  "leetcode:reverse-prefix-of-word": [],
+  "geeksforgeeks:distinct-sorted--124713": [
+    "GFG160"
+  ]
 }
