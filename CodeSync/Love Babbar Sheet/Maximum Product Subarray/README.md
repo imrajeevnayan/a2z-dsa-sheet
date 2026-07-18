@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-product-subarray/
-- Synced: 2026-07-17T17:59:58.153Z
+- Synced: 2026-07-17T18:00:47.152Z
 
 ## Problem Description
 
