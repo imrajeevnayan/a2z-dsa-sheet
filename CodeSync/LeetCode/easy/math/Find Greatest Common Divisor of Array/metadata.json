@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-18T18:08:50.539Z",
+  "submissionTimestamp": "2026-07-18T18:09:14.468Z",
   "runtime": "0 ms",
   "memoryUsage": "45.03 MB",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Find Greatest Common Divisor of Array",
-  "problemUrl": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2072672050/?envType=daily-question&envId=2026-07-18",
+  "problemUrl": "https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/?envType=daily-question&envId=2026-07-18",
   "submissionId": "luwfjx"
 }
