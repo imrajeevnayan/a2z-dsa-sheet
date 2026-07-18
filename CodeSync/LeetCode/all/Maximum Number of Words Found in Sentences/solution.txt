@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Number of Words Found in Sentences
+ * URL: https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-18T18:15:17.221Z
+ */
+
+class Solution {
+    public int mostWordsFound(String[] sentences) {
+        int maxWords = 0;
+        for (String sent : sentences) {
+            int words = 1;
+            for (char ch : sent.toCharArray()) {
+                if (ch == ' ') {
+                    words++;
+                }
+            }
+            maxWords = Math.max(maxWords, words);
+        }
+        return maxWords;
+    }
+}
