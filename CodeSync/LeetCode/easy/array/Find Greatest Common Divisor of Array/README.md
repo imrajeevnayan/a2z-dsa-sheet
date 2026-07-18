@@ -6,8 +6,8 @@
 - Topics: Array, Math, Number Theory
 - Runtime: 0 ms
 - Memory: 45.03 MB
-- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2072672050/?envType=daily-question&envId=2026-07-18
-- Synced: 2026-07-18T18:08:50.539Z
+- Problem URL: https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/?envType=daily-question&envId=2026-07-18
+- Synced: 2026-07-18T18:09:14.468Z
 
 ## Problem Description
 
