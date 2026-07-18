@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-18T18:31:21.142Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Samsung",
+    "Visa",
+    "Goldman Sachs",
+    "Kritikal Solutions"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: #Function to delete a node without any reference to head pointer. def deleteNode(self,del_node): #code here del_node.data = del_node.next.data del_node.next = del_node.next.next",
+  "problemTitle": "Delete without head pointer",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1",
+  "submissionId": "jrcn88"
+}
