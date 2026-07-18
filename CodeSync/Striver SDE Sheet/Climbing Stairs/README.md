@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/climbing-stairs/
-- Synced: 2026-07-09T09:15:13.216Z
+- Problem URL: https://leetcode.com/problems/climbing-stairs/submissions/?utm=codolio
+- Synced: 2026-07-18T05:06:00.558Z
 
 ## Problem Description
 
