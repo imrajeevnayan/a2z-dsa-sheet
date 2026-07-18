@@ -1,13 +1,13 @@
 # Find Greatest Common Divisor of Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Math, Number Theory
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
-- Synced: 2026-06-07T12:56:32.384Z
+- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/?envType=daily-question&envId=2026-07-18
+- Synced: 2026-07-18T18:07:11.374Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums, return the greatest common divisor of the smallest 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Number Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Math, Number Theory. Review the synced source file for the implementation details.
