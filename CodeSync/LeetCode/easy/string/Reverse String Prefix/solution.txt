@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse String Prefix
+ * URL: https://leetcode.com/problems/reverse-string-prefix/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-18T18:13:11.373Z
+ */
+
+class Solution {
+    public String reversePrefix(String s, int k) {
+        char[] arr = s.toCharArray();
+
+        int left = 0, right = k-1;
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+        return new String(arr);
+    }
+}
