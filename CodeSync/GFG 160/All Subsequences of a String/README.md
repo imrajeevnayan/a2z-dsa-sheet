@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/power-set4302/1
-- Synced: 2026-07-18T12:04:14.996Z
+- Synced: 2026-07-18T12:05:02.997Z
 
 ## Problem Description
 
