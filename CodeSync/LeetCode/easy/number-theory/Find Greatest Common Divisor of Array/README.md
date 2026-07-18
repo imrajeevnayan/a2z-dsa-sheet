@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Math, Number Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/?envType=daily-question&envId=2026-07-18
-- Synced: 2026-07-18T18:07:11.374Z
+- Runtime: 0 ms
+- Memory: 45.03 MB
+- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2072672050/?envType=daily-question&envId=2026-07-18
+- Synced: 2026-07-18T18:08:05.292Z
 
 ## Problem Description
 
