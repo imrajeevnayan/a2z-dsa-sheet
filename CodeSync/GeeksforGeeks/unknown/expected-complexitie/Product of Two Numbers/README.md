@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Mathematical, Data Structures, Algorithms, Related Articles, Product Of Two Numbers
+- Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Product Of Two Numbers
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/product-of-two-numbers/1
-- Synced: 2026-07-12T11:00:08.765Z
+- Synced: 2026-07-18T18:22:33.335Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two integers x and y, your task is to return the product of x and 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Mathematical, Data Structures, Algorithms, Related Articles, Product Of Two Numbers. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Mathematical, Related Articles, Product Of Two Numbers. Review the synced source file for the implementation details.
