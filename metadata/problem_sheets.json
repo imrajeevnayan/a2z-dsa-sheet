@@ -1004,5 +1004,6 @@
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
   ],
-  "leetcode:find-greatest-common-divisor-of-array": []
+  "leetcode:find-greatest-common-divisor-of-array": [],
+  "leetcode:path-existence-queries-in-a-graph-ii": []
 }
