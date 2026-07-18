@@ -1,14 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-06T11:35:45.543Z",
+  "submissionTimestamp": "2026-07-18T18:24:54.787Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Stack"
+    "Expected Complexities",
+    "Topic Tags",
+    "Recursion",
+    "Stack",
+    "Related Articles",
+    "Reverse A Stack Using Recursion"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution{ public: queue<int>ans; void Reverse(stack<int> &St){ if (!St.empty()){ ans.push(St.top()); St.pop(); } else{ return; } Reverse(St); while (!ans.empty()){ St.push(ans.front()); ans.pop(); } } };",
+  "language": "Java (21)",
   "problemTitle": "Reverse a Stack",
   "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-stack/1",
-  "submissionId": "60nvyk"
+  "submissionId": "hqm7do"
 }
