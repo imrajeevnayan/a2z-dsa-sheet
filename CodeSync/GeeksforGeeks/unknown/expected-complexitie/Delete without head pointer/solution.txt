@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Delete without head pointer
+ * URL: https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1
+ * Language: class Solution: #Function to delete a node without any reference to head pointer. def deleteNode(self,del_node): #code here del_node.data = del_node.next.data del_node.next = del_node.next.next
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Samsung, Visa, Goldman Sachs, Kritikal Solutions
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-18T18:31:21.142Z
+ */
+
+class Solution {
+    public void deleteNode(Node del_node) {
+        if (del_node == null || del_node.next == null) {
+            return;
+        }
+
+        del_node.data = del_node.next.data;
+        del_node.next = del_node.next.next;
+    }
+}
