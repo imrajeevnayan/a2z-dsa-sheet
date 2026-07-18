@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/submissions/1918779185/?utm=codolio
+ * URL: https://leetcode.com/problems/climbing-stairs/description/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
  * Memory: 42.02 MB
- * Synced: 2026-07-18T05:53:55.366Z
+ * Synced: 2026-07-18T05:54:45.205Z
  */
 
 2
