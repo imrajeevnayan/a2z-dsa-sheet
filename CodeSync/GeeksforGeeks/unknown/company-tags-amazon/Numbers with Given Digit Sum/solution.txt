@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Numbers with Given Digit Sum
+ * URL: https://www.geeksforgeeks.org/problems/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum0733/1
+ * Language: class Solution { public: static const int N=10; int memo[N][82]; int solve(int n, int digit, int sum){ if(digit==n) return sum==0; if(memo[digit][sum] != -1) return memo[digit][sum]; int cnt=0; for(int i=(digit==0); i<10; i++){ if(sum-i < 0) break; cnt+=solve(n, digit+1, sum-i); } if(digit==0 && cnt==0) return -1; return memo[digit][sum]=cnt; } int countWays(int n, int sum) { // code here memset(memo, -1, sizeof(memo)); return solve(n, 0, sum); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Dynamic Programming, Mathematical, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-17T18:07:07.478Z
+ */
+
+class Solution {
+    int n;
+    int[][] dp;
+    int solve(int pos, int sum) {
+        if (sum < 0)  return 0;
+        if (pos == n)  return sum == 0 ? 1 : 0;
+    
+        if (dp[pos][sum] != -1) return dp[pos][sum];
+
+        int start = (pos == 0) ? 1 : 0;
+        int ans = 0;
+        for (int digit = start; digit <= 9; digit++) {
+            ans += solve(pos + 1, sum - digit);
+        }
+        dp[pos][sum] = ans;
+        return ans;
+    }
+    public int countWays(int n, int sum) {
+        this.n = n;
+        dp = new int[n][sum + 1];
+        for (int i = 0; i < n; i++) {
+            java.util.Arrays.fill(dp[i], -1);
+        }
+        int ans = solve(0, sum);
+        return ans == 0 ? -1 : ans;
+    }
+}
