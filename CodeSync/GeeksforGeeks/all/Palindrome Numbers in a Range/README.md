@@ -1,13 +1,13 @@
 # Palindrome Numbers in a Range
 
 - Platform: GeeksforGeeks
-- Language: Easy C++ vector<int> printPalindromes(int m, int n) { vector<int> v ; string s1 , s2 ; for(int i = m ; i <= n ; i++){ s1 = to_string(i); s2 = s1; reverse(s2.begin() , s2.end()); if(s1 == s2){ v.push_back(i) ; } } return v ; }
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Data Structures, Related Interview Experiences
+- Topics: Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Related Interview Experiences, Flipkart Interview Set 10 Campus Sde 1
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-all-palindromes-in-the-given-range/1
-- Synced: 2026-07-12T10:58:46.751Z
+- Synced: 2026-07-18T18:19:48.343Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two integers m and n, find all palindrome numbers between m and n (inclusi
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Easy C++ vector<int> printPalindromes(int m, int n) { vector<int> v ; string s1 , s2 ; for(int i = m ; i <= n ; i++){ s1 = to_string(i); s2 = s1; reverse(s2.begin() , s2.end()); if(s1 == s2){ v.push_back(i) ; } } return v ; }. The detected topics are Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Data Structures, Related Interview Experiences. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Related Interview Experiences, Flipkart Interview Set 10 Campus Sde 1. Review the synced source file for the implementation details.
