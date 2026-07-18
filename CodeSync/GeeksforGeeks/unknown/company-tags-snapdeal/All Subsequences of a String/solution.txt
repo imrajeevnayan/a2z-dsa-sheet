@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Mathematical, Bit Magic, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-18T12:00:51.131Z
+ * Synced: 2026-07-18T12:01:51.017Z
  */
 
 class Solution {
@@ -23,6 +23,7 @@ class Solution {
     public List<String> powerSet(String s) {
         ArrayList<String> ans = new ArrayList<>();
         solve(s, 0, "", ans);
+        Collections.sort(ans);
         return ans;
     }
 }
