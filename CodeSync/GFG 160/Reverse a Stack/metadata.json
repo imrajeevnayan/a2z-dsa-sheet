@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-18T18:24:54.787Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Recursion",
+    "Stack",
+    "Related Articles",
+    "Reverse A Stack Using Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Reverse a Stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-stack/1",
+  "submissionId": "hqm7do"
+}
