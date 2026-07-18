@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.02 MB
 - Problem URL: https://leetcode.com/problems/climbing-stairs/description/?utm=codolio
-- Synced: 2026-07-18T05:56:20.331Z
+- Synced: 2026-07-18T05:57:08.179Z
 
 ## Problem Description
 
