@@ -1,25 +1,29 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/print-first-letter-of-every-word-in-the-string3632/1
- * Language: class Solution { String firstAlphabet(String S) { String res = "" + S.charAt(0); for (int i = 1; i < S.length(); i++) if (S.charAt(i - 1) == ' ') res += S.charAt(i); return res; } }
+ * URL: https://www.geeksforgeeks.org/problems/bubble-sort/1
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:27:16.725Z
+ * Synced: 2026-07-17T18:04:27.366Z
  */
 
 class Solution {
-    String firstAlphabet(String s) {
-        String[] words = s.split(" ");
-        StringBuilder res = new StringBuilder();
-
-        for (String w : words) {
-            if (w.length() > 0) {
-                res.append(w.charAt(0));
+    public void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            boolean swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
             }
+            if (!swapped)break;
         }
-        return res.toString();
     }
 }
