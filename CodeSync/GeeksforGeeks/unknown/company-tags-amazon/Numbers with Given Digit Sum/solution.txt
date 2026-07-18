@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Dynamic Programming, Mathematical, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T18:07:07.478Z
+ * Synced: 2026-07-17T18:08:10.939Z
  */
 
 class Solution {
