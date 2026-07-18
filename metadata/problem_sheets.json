@@ -1007,5 +1007,6 @@
   "leetcode:find-greatest-common-divisor-of-array": [],
   "leetcode:path-existence-queries-in-a-graph-ii": [],
   "leetcode:display-the-first-three-rows": [],
-  "leetcode:maximum-number-of-words-found-in-sentences": []
+  "leetcode:maximum-number-of-words-found-in-sentences": [],
+  "leetcode:reverse-prefix-of-word": []
 }
