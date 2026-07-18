@@ -4,10 +4,10 @@
  * URL: https://www.geeksforgeeks.org/problems/product-of-two-numbers/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Mathematical, Data Structures, Algorithms, Related Articles, Product Of Two Numbers
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Product Of Two Numbers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:00:08.765Z
+ * Synced: 2026-07-18T18:22:33.335Z
  */
 
 class Solution {
