@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-19T07:44:39.017Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-19T07:45:24.041Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Weekly Contest 511",
   "problemTitle": "Transform Binary String Using Subsequence Sort",
   "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/",
-  "submissionId": "esaal5"
+  "submissionId": "sj2rdf"
 }
