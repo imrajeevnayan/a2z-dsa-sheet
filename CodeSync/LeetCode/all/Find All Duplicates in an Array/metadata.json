@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-19T17:47:34.154Z",
+  "runtime": "0 ms",
+  "memoryUsage": "70.72 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find All Duplicates in an Array",
+  "problemUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/2073771170/",
+  "submissionId": "eqqgfc"
+}
