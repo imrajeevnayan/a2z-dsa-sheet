@@ -1,51 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2073217801/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 96 ms
- * Memory: 86.76 MB
- * Synced: 2026-07-19T08:05:20.832Z
+ * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T17:46:45.558Z
  */
 
-1class Solution {
-2    public boolean[] transformStr(String s, String[] strs) {
-3        int n = s.length();
-4        boolean[] ans = new boolean[strs.length];
-5        int[] pS = new int[n + 1]; 
-6        for (int i = 0; i < n; i++) {
-7            pS[i + 1] = pS[i] + (s.charAt(i) - '0');
-8        }
-9        for (int i = 0; i < strs.length; i++) {
-10            ans[i] = check(s, strs[i], pS, n);
-11        }
-12        return ans;
-13    }
-14    static boolean check(String s, String t, int[] pS, int n) {
-15        int ones = pS[n], fixed = 0;
-16        char[] arr = t.toCharArray();
-17        List<Integer> qPos = new ArrayList<>();
-18        for (int j = 0; j < n; j++) {
-19            if (arr[j] == '1') fixed++;
-20            else if (arr[j] == '?') {
-21                arr[j] = '0';
-22                qPos.add(j);
-23            }
-24        }
-25        int need = ones - fixed;
-26        if (need < 0 || need > qPos.size()) return false;
-27        for (int j = qPos.size() - 1; j >= qPos.size() - need; j--) {
-28            arr[qPos.get(j)] = '1';
-29        }  
-30        int[] pT = new int[n + 1];
-31        for (int j = 0; j < n; j++) {
-32            pT[j + 1] = pT[j] + (arr[j] - '0');
-33        }
-34        for (int i = 0; i <= n; i++) {
-35            if (pS[i] < pT[i]) return false;
-36        }
-37        return true;
-38    }
-39}
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [2,3]
