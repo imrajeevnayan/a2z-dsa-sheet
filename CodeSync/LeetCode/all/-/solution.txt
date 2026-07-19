@@ -1,18 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/rotate-array/description/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Math, Two Pointers
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-17T10:05:51.344Z
+ * URL: https://leetcode.com/submissions/detail/2073058651/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 0 ms
+ * Memory: 8.51 MB
+ * Synced: 2026-07-19T07:56:23.264Z
  */
 
-Input: nums = [1,2,3,4,5,6,7], k = 3
-Output: [5,6,7,1,2,3,4]
-Explanation:
-rotate 1 steps to the right: [7,1,2,3,4,5,6]
-rotate 2 steps to the right: [6,7,1,2,3,4,5]
-rotate 3 steps to the right: [5,6,7,1,2,3,4]
+1class Solution {
+2public:
+3    string smallestSubsequence(string text) {
+4        vector<int> v(26);
+5        for (char c : text) {
+6            ++v[c - 'a'];
+7        }
+8        string r;
+9        int have = 0;
+10        for (char c : text) {
+11            if (!(have & (1 << (c - 'a')))) {
+12                while (!r.empty() && v[r.back() - 'a'] && r.back() > c) { 
+13                    have ^= 1 << (r.back() - 'a'); 
+14                    r.pop_back();
+15                }
+16                r.push_back(c);
+17                have |= 1 << (c - 'a');
+18            }
+19            --v[c - 'a'];
+20        }
+21        return r;
+22        
+23    }
+24};
