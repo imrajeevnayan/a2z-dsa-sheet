@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T07:40:13.212Z",
+  "submissionTimestamp": "2026-07-19T07:40:59.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 511",
   "problemTitle": "Even Number of Knight Moves",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/",
   "submissionId": "p1ic4l"
 }
