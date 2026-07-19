@@ -1,47 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/submissions/detail/2065547722/
+ * URL: https://leetcode.com/submissions/detail/2073210621/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 104 ms
- * Memory: 85.67 MB
- * Synced: 2026-07-19T08:00:07.197Z
+ * Runtime: 1 ms
+ * Memory: 43.98 MB
+ * Synced: 2026-07-19T08:02:29.494Z
  */
 
 1class Solution {
-2    bool check(const string &s) {
-3        for (int i = 1; i < s.length(); ++i) {
-4            if (s[i] < s[i - 1]) return false;
-5        }
-6        return true;
+2    public boolean canReach(int[] start, int[] target) {
+3        int startColor = (start[0] + start[1]) % 2;
+4        int targetColor = (target[0] + target[1]) % 2;
+5        
+6        return startColor == targetColor;
 7    }
-8    
-9public:
-10    int sortArray(vector<int>& nums, vector<int>& pre) {
-11        string s;
-12        for (int x : nums) {
-13            s.push_back(x + '0');
-14        }
-15        if (check(s)) return 0;
-16        unordered_map<string, int> have;
-17        have[s] = 0;
-18        queue<string> q;
-19        for (q.push(s); !q.empty();) {
-20            s = q.front();
-21            q.pop();
-22            const int step = have[s] + 1;
-23            for (int x : pre) {
-24                reverse(s.begin(), s.begin() + x);
-25                if (have.count(s) == 0) {
-26                    if (check(s)) return step;
-27                    q.push(s);
-28                    have[s] = step;
-29                }
-30                reverse(s.begin(), s.begin() + x);
-31            }
-32        }
-33        return -1;
-34    }
-35};
+8}
