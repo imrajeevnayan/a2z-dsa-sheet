@@ -1,0 +1,70 @@
+/*
+ * Platform: LeetCode
+ * Problem: Transform Binary String Using Subsequence Sort
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/submissions/2073217183/
+ * Language: Weekly Contest 511
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 0 ms
+ * Memory: 0.00 MB
+ * Synced: 2026-07-19T07:49:22.559Z
+ */
+
+class Solution {
+    public boolean[] transformStr(String s, String[] strs) {
+        int n = s.length();
+        boolean[] ans = new boolean[strs.length];
+        int[] pS = new int[n + 1];
+        
+        for (int i = 0; i < n; i++) {
+            pS[i + 1] = pS[i] + (s.charAt(i) - '0');
+        }
+        
+        for (int i = 0; i < strs.length; i++) {
+            ans[i] = check(s, strs[i], pS, n);
+        }
+        
+        return ans;
+    }
+    
+    private boolean check(String s, String t, int[] pS, int n) {
+        int ones = pS[n], fixed = 0;
+        char[] arr = t.toCharArray();
+        List<Integer> qPos = new ArrayList<>();
+        
+        for (int j = 0; j < n; j++) {
+            if (arr[j] == '1') fixed++;
+            else if (arr[j] == '?') {
+                arr[j] = '0';
+                qPos.add(j);
+            }
+        }
+        
+        int need = ones - fixed;
+        if (need < 0 || need > qPos.size()) return false;
+        
+        for (int j = qPos.size() - 1; j >= qPos.size() - need; j--) {
+            arr[qPos.get(j)] = '1';
+        }
+        
+        int[] pT = new int[n + 1];
+        for (int j = 0; j < n; j++) {
+            pT[j + 1] = pT[j] + (arr[j] - '0');
+        }
+        
+        for (int i = 0; i <= n; i++) {
+            if (pS[i] < pT[i]) return false;
+        }
+        
+        return true;
+    }
+}
+"101"
+["1?1","0?1","0?0"]
+"1100"
+["0011","11?1","1?1?"]
+"1010"
+["0011"]
+[true,true,false]
+[true,false,true]
+[true]
