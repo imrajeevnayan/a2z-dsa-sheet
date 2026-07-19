@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 8.51 MB
 - Problem URL: https://leetcode.com/submissions/detail/2073058651/
-- Synced: 2026-07-19T07:56:24.063Z
+- Synced: 2026-07-19T07:57:34.610Z
 
 ## Problem Description
 
