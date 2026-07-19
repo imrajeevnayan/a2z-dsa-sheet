@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Even Number of Knight Moves
- * URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/
  * Language: Weekly Contest 511
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-19T07:40:59.007Z
+ * Synced: 2026-07-19T07:41:45.004Z
  */
 
 class Solution {
     public boolean canReach(int[] start, int[] target) {
+        int startColor = (start[0] + start[1]) % 2;
+        int targetColor = (target[0] + target[1]) % 2;
         
+        return startColor == targetColor;
     }
 }
+[1,1]
+[2,2]
+[4,5]
+[6,6]
+true
+false
