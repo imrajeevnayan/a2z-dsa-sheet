@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Smallest Subsequence of Distinct Characters
- * URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19
+ * URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/2073221835/?envType=daily-question&envId=2026-07-19
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-19T07:54:22.734Z
+ * Runtime: 0 ms
+ * Memory: 42.95 MB
+ * Synced: 2026-07-19T07:55:08.910Z
  */
 
 public String smallestSubsequence(String s) {
@@ -19,15 +19,15 @@ public String smallestSubsequence(String s) {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (seen[c - 'a']) continue;
-            while (!stack.isEmpty() && stack.peek() > c && last[stack.peek() - 'a'] > i) {
-                seen[stack.pop() - 'a'] = false;
+            while (!st.isEmpty() && st.peek() > c && last[st.peek() - 'a'] > i) {
+                seen[st.pop() - 'a'] = false;
             }
-            stack.push(c);
+            st.push(c);
             seen[c - 'a'] = true;
         }
         
         StringBuilder sb = new StringBuilder();
-        for (char c : stack) sb.append(c);
+        for (char c : st) sb.append(c);
         return sb.reverse().toString();
     }
 }
