@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Dominant Nodes in a Binary Tree
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/description/
+ * Language: Weekly Contest 511
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T07:41:59.588Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int countDominantNodes(TreeNode root) {
+        
+    }
+}
