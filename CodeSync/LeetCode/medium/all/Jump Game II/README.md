@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/jump-game-ii/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:40:29.426Z
+- Synced: 2026-07-19T20:41:15.406Z
 
 ## Problem Description
 
