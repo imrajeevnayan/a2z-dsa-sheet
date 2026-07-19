@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T05:12:14.697Z
+ * Synced: 2026-07-19T05:13:16.427Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
             take=solve(sum-coins[index],index,coins);
         }
         int skip=solve(sum,index+1,coins);
-        int total+in
+        int total=take+ skip;
     }
     public int count(int coins[], int sum) {
          solve(coins,0,sum);
