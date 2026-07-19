@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-19T12:12:05.847Z
+ * Synced: 2026-07-19T12:13:00.849Z
  */
 
 static boolean solve(int[] nums, int index, int target) {
