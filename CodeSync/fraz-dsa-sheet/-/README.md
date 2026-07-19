@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Math
+- Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-integer/description/
-- Synced: 2026-07-16T12:12:30.441Z
+- Problem URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+- Synced: 2026-07-19T17:46:45.558Z
 
 ## Problem Description
 
-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0. Assume the environment does not allow you to store 64-bit integers (signed or unsigned). Example 1: Input: x = 123 Output: 321 Example 2: Input: x = -123 Output: -321 Example 3: Input: x = 120 Output: 21 Constraints: -231 <= x <= 231 - 1
+Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears at most twice, return an array of all the integers that appears twice. You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, excluding the space needed to store the output Example 1: Input: nums = [4,3,2,7,8,2,3,1] Output: [2,3] Example 2: Input: nums = [1,1,2] Output: [1] Example 3: Input: nums = [1] Output: [] Constraints: n == nums.length 1 <= n <= 105 1 <= nums[i] <= n Each element in nums appears once or twice.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
