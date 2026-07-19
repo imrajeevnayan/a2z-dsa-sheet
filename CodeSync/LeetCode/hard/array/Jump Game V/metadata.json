@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-19T20:35:32.445Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "Jump Game V",
+  "problemUrl": "https://leetcode.com/problems/jump-game-v/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "lhu7tz"
+}
