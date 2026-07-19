@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Transform Binary String Using Subsequence Sort
- * URL: https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/submissions/2073217183/
  * Language: Weekly Contest 511
- * Difficulty: Medium
+ * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-19T07:45:24.041Z
+ * Memory: 0.00 MB
+ * Synced: 2026-07-19T07:49:22.559Z
  */
 
 class Solution {
@@ -34,7 +34,10 @@ class Solution {
         
         for (int j = 0; j < n; j++) {
             if (arr[j] == '1') fixed++;
-            else if (arr[j] == '?') qPos.add(j);
+            else if (arr[j] == '?') {
+                arr[j] = '0';
+                qPos.add(j);
+            }
         }
         
         int need = ones - fixed;
@@ -62,6 +65,6 @@ class Solution {
 ["0011","11?1","1?1?"]
 "1010"
 ["0011"]
-[false,true,false]
-[true,false,false]
+[true,true,false]
+[true,false,true]
 [true]
