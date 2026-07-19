@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Total Waviness of Numbers in Range I
+ * URL: https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Medium
+ * Topics: Math, Dynamic Programming, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T20:10:34.803Z
+ */
+
+class Solution {
+    public int totalWaviness(int num1, int num2) {
+        
+    }
+}
