@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/description/
-- Synced: 2026-07-19T07:41:59.588Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/
+- Synced: 2026-07-19T07:42:45.011Z
 
 ## Problem Description
 
