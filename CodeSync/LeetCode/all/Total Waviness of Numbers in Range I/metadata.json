@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-19T20:10:34.803Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "Total Waviness of Numbers in Range I",
+  "problemUrl": "https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "41i7xe"
+}
