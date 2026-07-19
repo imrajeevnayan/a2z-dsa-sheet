@@ -1093,5 +1093,15 @@
     "custom:algomaster-300"
   ],
   "leetcode:count-sorted-vowel-strings": [],
-  "leetcode:minimum-one-bit-operations-to-make-integers-zero": []
+  "leetcode:minimum-one-bit-operations-to-make-integers-zero": [],
+  "leetcode:jump-game-v": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
