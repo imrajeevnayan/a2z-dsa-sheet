@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 😇 Actually Good Hints
- * URL: https://leetcode.com/problems/partition-equal-subset-sum/
+ * URL: https://leetcode.com/problems/partition-equal-subset-sum/submissions/2073433686/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-19T12:10:29.282Z
+ * Synced: 2026-07-19T12:11:16.017Z
  */
 
 static boolean solve(int[] nums, int index, int target) {
@@ -20,13 +20,10 @@ static boolean solve(int[] nums, int index, int target) {
         int sum = 0;
     public boolean canPartition(int[] nums) {
 class Solution {
-        
-// Take 
+        // Take 
         boolean take = solve(nums, index + 1, target - nums[index]);
-
-        // Skip current element
+        // Skip
         boolean skip = solve(nums, index + 1, target);
-
         return take || skip;
     }
 }
