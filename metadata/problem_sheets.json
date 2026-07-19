@@ -1062,5 +1062,6 @@
     "custom:neetcode-dsa-sheet"
   ],
   "leetcode:transform-binary-string-using-subsequence-sort": [],
-  "leetcode:minimum-number-of-string-groups-through-transformations": []
+  "leetcode:minimum-number-of-string-groups-through-transformations": [],
+  "leetcode:smallest-subsequence-of-distinct-characters": []
 }
