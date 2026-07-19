@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19
-- Synced: 2026-07-19T07:53:37.101Z
+- Synced: 2026-07-19T07:54:22.734Z
 
 ## Problem Description
 
