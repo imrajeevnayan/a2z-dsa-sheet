@@ -1,31 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Jump Game
- * URL: https://leetcode.com/problems/jump-game/submissions/2073887106/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/jump-game/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Greedy
  * Runtime: 0 ms
- * Memory: 0.00 MB
- * Synced: 2026-07-19T20:29:53.535Z
+ * Memory: 48.06 MB
+ * Synced: 2026-07-19T20:30:50.401Z
  */
 
-if (i == nums.length - 1) return true;
-        if (i >= nums.length) return false;
-        if (dp[i] != -1)return dp[i] == 1;
-
-        boolean reAns = false;
-        for (int jump = 1; jump <= nums[i]; jump++) {
-            if (solve(nums, i + jump, dp)) {
-        // Base Cases--
-    private boolean solve(int[] nums, int i, int[] dp) {
-    }
-                break; 
-            }
-        }
-        dp[i] = reAns ? 1 : 0;
-        return reAns;
-                reAns = true;
-    }
-}
-        return solve(nums, 0,dp);
+[2,3,1,1,4]
+[3,2,1,0,4]
+true
+false
+true
+false
