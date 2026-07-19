@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/number-of-coins1824/1
-- Synced: 2026-07-19T05:35:29.994Z
+- Synced: 2026-07-19T05:39:26.589Z
 
 ## Problem Description
 
