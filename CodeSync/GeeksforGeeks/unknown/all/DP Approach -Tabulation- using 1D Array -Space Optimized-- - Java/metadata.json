@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T05:25:48.668Z",
+  "submissionTimestamp": "2026-07-19T05:26:34.000Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution: def minCoins(self, coins, sum): # code here n = len(coins) dp = [float('inf')]*(sum+1) dp[0] = 0 for s in range(1, sum+1): for c in coins: if s - c >= 0: dp[s] = min(dp[s], 1 + dp[s-c]) return dp[sum] if dp[sum] != float('inf') else -1",
   "problemTitle": "DP Approach (Tabulation) using 1D Array (Space Optimized)! - Java",
   "problemUrl": "https://www.geeksforgeeks.org/problems/number-of-coins1824/1",
-  "submissionId": "9c7cix"
+  "submissionId": "5l21o0"
 }
