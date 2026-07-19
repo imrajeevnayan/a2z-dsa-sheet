@@ -4,10 +4,10 @@
 - Language: Weekly Contest 511
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/
-- Synced: 2026-07-19T07:40:59.007Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/
+- Synced: 2026-07-19T07:41:45.004Z
 
 ## Problem Description
 
