@@ -1060,5 +1060,6 @@
     "NeetCode150",
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
-  ]
+  ],
+  "leetcode:transform-binary-string-using-subsequence-sort": []
 }
