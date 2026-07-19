@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-19T12:15:23.852Z
+ * Synced: 2026-07-19T12:16:17.685Z
  */
 
 static boolean solve(int[] nums, int index, int target, Boolean[][] dp) {
@@ -21,15 +21,12 @@ static boolean solve(int[] nums, int index, int target, Boolean[][] dp) {
         int sum = 0;
     public boolean canPartition(int[] nums) {
 class Solution {
-        if (index == nums.length || target < 0) {
-            return false;
-        }
-
-
-        // already calculated
-        if (dp[index][target] != null) {
-            return dp[index][target];
-        }
-
-
-        // take current element
+        if (index == nums.length || target < 0) return false;
+        if (dp[index][target] != null) return dp[index][target];
+        // take 
+        boolean take = solve(nums, index + 1, target - nums[index], dp);
+        // skip 
+        boolean skip = solve(nums, index + 1, target, dp);
+        return dp[index][target] = take || skip;
+    }
+}
