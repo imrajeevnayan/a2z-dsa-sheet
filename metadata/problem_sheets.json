@@ -1063,5 +1063,11 @@
   ],
   "leetcode:transform-binary-string-using-subsequence-sort": [],
   "leetcode:minimum-number-of-string-groups-through-transformations": [],
-  "leetcode:smallest-subsequence-of-distinct-characters": []
+  "leetcode:smallest-subsequence-of-distinct-characters": [],
+  "leetcode:2": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
