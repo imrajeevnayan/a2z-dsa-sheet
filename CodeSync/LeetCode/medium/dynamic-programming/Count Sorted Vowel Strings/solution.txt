@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Sorted Vowel Strings
+ * URL: https://leetcode.com/problems/count-sorted-vowel-strings/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Medium
+ * Topics: Math, Dynamic Programming, Combinatorics
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T20:32:46.968Z
+ */
+
+class Solution {
+    public int countVowelStrings(int n) {
+        
+    }
+}
