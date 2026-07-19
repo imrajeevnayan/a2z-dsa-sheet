@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-19T20:37:46.424Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "Jump Game II",
+  "problemUrl": "https://leetcode.com/problems/jump-game-ii/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "r06o23"
+}
