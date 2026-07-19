@@ -1,33 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/submissions/detail/2066124860/
+ * URL: https://leetcode.com/submissions/detail/2073058651/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 21 ms
- * Memory: 66.04 MB
- * Synced: 2026-07-13T16:25:08.374Z
+ * Runtime: 0 ms
+ * Memory: 8.51 MB
+ * Synced: 2026-07-19T07:56:24.063Z
  */
 
 1class Solution {
-2    public int shortestSubarray(int[] nums, int k) {
-3        int n = nums.length;
-4        int minLen = Integer.MAX_VALUE;
-5        long[] prefixSums = new long[n + 1];
-6        for (int i = 0; i < n; i++) prefixSums[i + 1] = prefixSums[i] + nums[i];
-7
-8        Deque<Integer> dq = new ArrayDeque<>();
-9
-10        for (int i = 0; i <= n; i++) {
-11            while (!dq.isEmpty() && prefixSums[i] - prefixSums[dq.peekFirst()] >= k) {
-12                minLen = Math.min(minLen, i - dq.pollFirst());
-13            }
-14            while (!dq.isEmpty() && prefixSums[i] <= prefixSums[dq.peekLast()]) {
-15                dq.pollLast();
-16            }
-17            dq.addLast(i);
-18        }
-19        return minLen == Integer.MAX_VALUE ? -1 : minLen;
-20    }
-21}
+2public:
+3    string smallestSubsequence(string text) {
+4        vector<int> v(26);
+5        for (char c : text) {
+6            ++v[c - 'a'];
+7        }
+8        string r;
+9        int have = 0;
+10        for (char c : text) {
+11            if (!(have & (1 << (c - 'a')))) {
+12                while (!r.empty() && v[r.back() - 'a'] && r.back() > c) { 
+13                    have ^= 1 << (r.back() - 'a'); 
+14                    r.pop_back();
+15                }
+16                r.push_back(c);
+17                have |= 1 << (c - 'a');
+18            }
+19            --v[c - 'a'];
+20        }
+21        return r;
+22        
+23    }
+24};
