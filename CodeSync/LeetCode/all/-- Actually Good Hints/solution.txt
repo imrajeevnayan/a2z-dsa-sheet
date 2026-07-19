@@ -1,22 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 😇 Actually Good Hints
- * URL: https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+ * URL: https://leetcode.com/problems/partition-equal-subset-sum/description/
  * Language: Problem List
- * Difficulty: Hard
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T12:23:12.243Z
+ * Synced: 2026-07-19T11:52:07.953Z
  */
 
-sum += nums[right];
-            while (sum * (right - left + 1) >= k) {
-                sum -= nums[left];
-                left++;
-            }
-            count += (right - left + 1);
-        }
-        return count;
+class Solution {
+    public boolean canPartition(int[] nums) {
+        
     }
 }
