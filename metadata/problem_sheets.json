@@ -1103,5 +1103,15 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:arsh-goyal-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:jump-game-ii": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
