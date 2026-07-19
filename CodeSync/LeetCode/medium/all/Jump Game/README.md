@@ -4,10 +4,10 @@
 - Language: Dynamic Programming
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Greedy
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/jump-game/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:25:58.566Z
+- Runtime: 0 ms
+- Memory: 47.83 MB
+- Problem URL: https://leetcode.com/problems/jump-game/submissions/2073885959/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-19T20:26:44.352Z
 
 ## Problem Description
 
