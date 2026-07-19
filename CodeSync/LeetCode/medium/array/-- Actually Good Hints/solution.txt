@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 😇 Actually Good Hints
+ * URL: https://leetcode.com/problems/partition-equal-subset-sum/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T11:52:07.953Z
+ */
+
+class Solution {
+    public boolean canPartition(int[] nums) {
+        
+    }
+}
