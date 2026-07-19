@@ -1080,5 +1080,6 @@
   "leetcode:find-all-duplicates-in-an-array": [
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet"
-  ]
+  ],
+  "leetcode:total-waviness-of-numbers-in-range-i": []
 }
