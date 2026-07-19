@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T17:46:45.558Z
+ */
+
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [2,3]
