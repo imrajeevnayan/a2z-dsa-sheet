@@ -1076,5 +1076,9 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:minimize-the-difference-between-target-and-chosen-elements": []
+  "leetcode:minimize-the-difference-between-target-and-chosen-elements": [],
+  "leetcode:find-all-duplicates-in-an-array": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
+  ]
 }
