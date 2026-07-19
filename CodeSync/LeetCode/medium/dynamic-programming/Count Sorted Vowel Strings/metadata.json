@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T20:32:46.968Z",
+  "submissionTimestamp": "2026-07-19T20:33:07.310Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "Count Sorted Vowel Strings",
-  "problemUrl": "https://leetcode.com/problems/count-sorted-vowel-strings/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "problemUrl": "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/?envType=problem-list-v2&envId=dynamic-programming",
   "submissionId": "na754f"
 }
