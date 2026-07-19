@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-10T14:48:26.022Z",
+  "submissionTimestamp": "2026-07-19T17:46:45.558Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Hash Table",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "8zld95"
+  "problemUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/description/",
+  "submissionId": "6kis5t"
 }
