@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Even Number of Knight Moves
- * URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/
  * Language: Weekly Contest 511
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T07:40:13.212Z
+ * Synced: 2026-07-19T07:40:59.007Z
  */
 
 class Solution {
