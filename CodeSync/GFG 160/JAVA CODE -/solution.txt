@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA CODE :-
+ * URL: https://www.geeksforgeeks.org/problems/find-anagrams-in-linked-list--170647/1
+ * Language: static boolean isAnagram(char[] a,char[] b) { Arrays.sort(a); Arrays.sort(b); if(String.valueOf(a).equals(String.valueOf(b))) return true; return false; } static Node append(char[]arr) { Node head = null; for(int i=0;i<arr.length;i++) { Node node = new Node(arr[i]); if(head==null) head=node; else { Node temp = head; while(temp.next!=null) temp=temp.next; temp.next=node; } } return head; } public static ArrayList<Node> findAnagrams(Node head, String s) { ArrayList<Node>al=new ArrayList<>(); Node fast=head; int n = s.length(); int i = 1; StringBuffer sb = new StringBuffer(); sb.append(fast.data); while(fast!=null && i<s.length()){ fast=fast.next; sb.append(fast.data); i++; } int prevAdd = 0; while(fast!=null) { if(i>prevAdd+n-1 && isAnagram(String.valueOf(sb).toCharArray(),s.toCharArray())){ prevAdd = i; al.add(append(String.valueOf(sb).toCharArray())); } i++; sb.delete(0,1); fast=fast.next; if(fast==null) break; sb.append(fast.data); } return al; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, sliding-window, Related Articles, Find Anagrams In Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T05:32:22.504Z
+ */
+
+int[] target = new int[26];
+        for (char ch : str.toCharArray()) {
+            target[ch - 'a']++;
+        }
+
+        int[] window = new int[26];
+
+        Node start = head;
+        Node end = head;
+        int count = 0;
+
+        while (end != null) {
+            window[end.data - 'a']++;
+            count++;
+
+            if (count == k) {
+                if (matches(target, window)) {
+                    ans.add(start);
+
+                    // Break the anagram from the original list
+                    Node next = end.next;
+                    end.next = null;
+                    start = next;
+                    end = next;
+                    window = new int[26];
+                    count = 0;
+                    continue;
+                }
+
+                // Slide the window
+                window[start.data - 'a']--;
+                start = start.next;
+                count--;
+            }
