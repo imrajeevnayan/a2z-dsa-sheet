@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Math, Two Pointers
+- Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-array/description/
-- Synced: 2026-07-17T10:05:51.344Z
+- Problem URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+- Synced: 2026-07-19T17:46:45.558Z
 
 ## Problem Description
 
-Given an integer array nums, rotate the array to the right by k steps, where k is non-negative. Example 1: Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4] Example 2: Input: nums = [-1,-100,3,99], k = 2 Output: [3,99,-1,-100] Explanation: rotate 1 steps to the right: [99,-1,-100,3] rotate 2 steps to the right: [3,99,-1,-100] Constraints: 1 <= nums.length <= 105 -231 <= nums[i] <= 231 - 1 0 <= k <= 105 Follow up: Try to come up with as many solutions as you can. There are at least three different ways to solve this problem. Could you do it in-place with O(1) extra space?
+Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears at most twice, return an array of all the integers that appears twice. You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, excluding the space needed to store the output Example 1: Input: nums = [4,3,2,7,8,2,3,1] Output: [2,3] Example 2: Input: nums = [1,1,2] Output: [1] Example 3: Input: nums = [1] Output: [] Constraints: n == nums.length 1 <= n <= 105 1 <= nums[i] <= n Each element in nums appears once or twice.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
