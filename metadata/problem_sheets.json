@@ -1061,5 +1061,6 @@
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
   ],
-  "leetcode:transform-binary-string-using-subsequence-sort": []
+  "leetcode:transform-binary-string-using-subsequence-sort": [],
+  "leetcode:minimum-number-of-string-groups-through-transformations": []
 }
