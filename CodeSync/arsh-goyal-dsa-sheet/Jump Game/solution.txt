@@ -7,11 +7,29 @@
  * Topics: Array, Dynamic Programming, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T20:23:40.973Z
+ * Synced: 2026-07-19T20:24:26.699Z
  */
 
-class Solution {
-    public boolean canJump(int[] nums) {
-        
+if (i == nums.length - 1) return true;
+        if (i >= nums.length) return false;
+        if (nums[i] == 0) return false;
+
+        // Check if we already calculated this index
+        if (memo[i] != -1) {
+            return memo[i] == 1;
+        }
+
+        boolean reAns = false;
+        for (int jump = 1; jump <= nums[i]; jump++) {
+            if (solve(nums, i + jump, memo)) {
+        // Base Cases
+
+    private boolean solve(int[] nums, int i, int[] memo) {
     }
-}
+        return solve(nums, 0, ;
+        Arrays.fill(dp, -1);
+        int[] dp = new int[nums.length];
+    public boolean canJump(int[] nums) {
+class Solution {
+                reAns = true;
+                break; // Optimization: stop if we found one valid path
