@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-13T16:25:08.374Z",
-  "runtime": "21 ms",
-  "memoryUsage": "66.04 MB",
+  "submissionTimestamp": "2026-07-19T07:56:24.063Z",
+  "runtime": "0 ms",
+  "memoryUsage": "8.51 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/submissions/detail/2066124860/",
-  "submissionId": "apqmxr"
+  "problemUrl": "https://leetcode.com/submissions/detail/2073058651/",
+  "submissionId": "xoza4v"
 }
