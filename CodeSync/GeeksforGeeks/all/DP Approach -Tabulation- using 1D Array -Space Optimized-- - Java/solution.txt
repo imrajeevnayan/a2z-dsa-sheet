@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-18T06:15:31.857Z
+ * Synced: 2026-07-19T05:24:05.158Z
  */
 
 class Solution {
