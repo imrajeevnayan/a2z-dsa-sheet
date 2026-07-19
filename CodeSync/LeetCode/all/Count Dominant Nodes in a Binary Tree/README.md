@@ -4,10 +4,10 @@
 - Language: Weekly Contest 511
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/
-- Synced: 2026-07-19T07:42:45.011Z
+- Runtime: 0 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/submissions/2073212296/
+- Synced: 2026-07-19T07:43:30.175Z
 
 ## Problem Description
 
