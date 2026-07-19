@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Transform Binary String Using Subsequence Sort
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/
+ * Language: Weekly Contest 511
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T07:43:53.229Z
+ */
+
+class Solution {
+    public boolean[] transformStr(String s, String[] strs) {
+        
+    }
+}
