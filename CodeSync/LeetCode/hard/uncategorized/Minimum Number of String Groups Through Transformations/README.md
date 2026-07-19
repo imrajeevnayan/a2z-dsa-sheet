@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/description/
-- Synced: 2026-07-19T07:50:46.960Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/
+- Synced: 2026-07-19T07:51:31.963Z
 
 ## Problem Description
 
