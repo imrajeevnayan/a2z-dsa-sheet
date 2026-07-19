@@ -1,13 +1,13 @@
 # Coin Change (Count Ways)
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: int count(vector<int>& coins, int sum) { // code here. int n=coins.size(); vector<vector<int>> dp(n+1, vector<int> (sum+1, 0)); //sum=0 isme for all 'n' hum empty subset le sakte hai for(int i=0;i<=n;i++) dp[i][0]=1; for(int i=1;i<=n;i++){ for(int j=1;j<=sum;j++){ if(coins[i-1]<=j){ dp[i][j]=dp[i-1][j]+dp[i][j-coins[i-1]]; //dp[i-1][j] -> dont include and aage check kro more subsets //dp[i][j-coins[i-1]] -> include and same index pr rho or use include kro } else dp[i][j]=dp[i-1][j]; } } return dp[n][sum]; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/coin-change2448/1
-- Synced: 2026-07-19T05:05:20.147Z
+- Synced: 2026-07-19T05:06:16.508Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array coins[ ] representing different denominations of currency
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Paytm, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: int count(vector<int>& coins, int sum) { // code here. int n=coins.size(); vector<vector<int>> dp(n+1, vector<int> (sum+1, 0)); //sum=0 isme for all 'n' hum empty subset le sakte hai for(int i=0;i<=n;i++) dp[i][0]=1; for(int i=1;i<=n;i++){ for(int j=1;j<=sum;j++){ if(coins[i-1]<=j){ dp[i][j]=dp[i-1][j]+dp[i][j-coins[i-1]]; //dp[i-1][j] -> dont include and aage check kro more subsets //dp[i][j-coins[i-1]] -> include and same index pr rho or use include kro } else dp[i][j]=dp[i-1][j]; } } return dp[n][sum]; } };. The detected topics are Expected Complexities, Company Tags, Paytm, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft. Review the synced source file for the implementation details.
