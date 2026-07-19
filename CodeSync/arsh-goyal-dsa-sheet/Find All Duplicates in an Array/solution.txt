@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find All Duplicates in an Array
+ * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/2073771170/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: 0 ms
+ * Memory: 70.72 MB
+ * Synced: 2026-07-19T17:47:34.154Z
+ */
+
+class Solution {
+    public List<Integer> findDuplicates(int[] nums) {
+        ArrayList<Integer>ans=new ArrayList<>();
+        Set<Integer>s=new HashSet<>();
+        for(int n:nums){
+            if(!s.add(n)){
+                ans.add(n);
+            }
+        }
+        return ans;
+    }
+}
