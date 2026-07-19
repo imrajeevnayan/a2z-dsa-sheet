@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/partition-equal-subset-sum/
-- Synced: 2026-07-19T12:10:29.282Z
+- Problem URL: https://leetcode.com/problems/partition-equal-subset-sum/submissions/2073433686/
+- Synced: 2026-07-19T12:11:16.017Z
 
 ## Problem Description
 
