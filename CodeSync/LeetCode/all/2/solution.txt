@@ -1,20 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/submissions/detail/2073210621/
+ * URL: https://leetcode.com/submissions/detail/2073212296/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 43.98 MB
- * Synced: 2026-07-19T08:03:47.412Z
+ * Runtime: 16 ms
+ * Memory: 187.02 MB
+ * Synced: 2026-07-19T08:05:09.840Z
  */
 
 1class Solution {
-2    public boolean canReach(int[] start, int[] target) {
-3        int startColor = (start[0] + start[1]) % 2;
-4        int targetColor = (target[0] + target[1]) % 2;
-5        
-6        return startColor == targetColor;
-7    }
-8}
+2    public int countDominantNodes(TreeNode root) {
+3        return dfs(root)[0];
+4    }
+5  static int[] dfs(TreeNode node) {
+6        if (node == null) {
+7            return new int[]{0, Integer.MIN_VALUE};
+8        }
+9        int[] left = dfs(node.left);
+10        int[] right = dfs(node.right);
+11        
+12        int maxVal = Math.max(node.val, Math.max(left[1], right[1]));
+13        int count = left[0] + right[0];
+14        if (node.val == maxVal) {
+15            count++;
+16        }
+17        return new int[]{count, maxVal};
+18    }
+19}
