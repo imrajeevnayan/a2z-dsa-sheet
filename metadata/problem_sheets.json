@@ -1092,5 +1092,6 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:algomaster-300"
   ],
-  "leetcode:count-sorted-vowel-strings": []
+  "leetcode:count-sorted-vowel-strings": [],
+  "leetcode:minimum-one-bit-operations-to-make-integers-zero": []
 }
