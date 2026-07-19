@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-19T07:41:45.004Z",
-  "runtime": "0 ms",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-07-19T08:02:28.693Z",
+  "runtime": "1 ms",
+  "memoryUsage": "43.98 MB",
+  "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Weekly Contest 511",
+  "language": "Online Interview",
   "problemTitle": "Even Number of Knight Moves",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/",
-  "submissionId": "b99eri"
+  "problemUrl": "https://leetcode.com/submissions/detail/2073210621/",
+  "submissionId": "bxa3l4"
 }
