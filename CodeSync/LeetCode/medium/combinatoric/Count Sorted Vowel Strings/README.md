@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Combinatorics
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-sorted-vowel-strings/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:32:46.968Z
+- Problem URL: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-19T20:33:07.310Z
 
 ## Problem Description
 
