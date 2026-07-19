@@ -1055,5 +1055,10 @@
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
   ],
-  "leetcode:even-number-of-knight-moves": []
+  "leetcode:even-number-of-knight-moves": [],
+  "leetcode:count-dominant-nodes-in-a-binary-tree": [
+    "NeetCode150",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
+  ]
 }
