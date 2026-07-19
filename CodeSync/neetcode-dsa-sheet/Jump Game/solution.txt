@@ -7,15 +7,14 @@
  * Topics: Array, Dynamic Programming, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T20:25:12.831Z
+ * Synced: 2026-07-19T20:25:58.566Z
  */
 
 if (i == nums.length - 1) return true;
         if (i >= nums.length) return false;
         if (nums[i] == 0) return false;
 
-        if (dp[i] != -1)return d[[i] == 1;
-        
+        if (dp[i] != -1)return dp[i] == 1;
 
         boolean reAns = false;
         for (int jump = 1; jump <= nums[i]; jump++) {
@@ -24,11 +23,11 @@ if (i == nums.length - 1) return true;
     private boolean solve(int[] nums, int i, int[] dp) {
     }
         return solve(nums, 0,dp);
-        Arrays.fill(dp, -1);
-        int[] dp = new int[nums.length];
-    public boolean canJump(int[] nums) {
-class Solution {
                 reAns = true;
                 break; // Optimization: stop if we found one valid path
             }
         }
+        [i] = reAns ? 1 : 0;
+        return reAns;
+    }
+}
