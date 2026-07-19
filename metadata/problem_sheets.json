@@ -1081,5 +1081,15 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:total-waviness-of-numbers-in-range-i": []
+  "leetcode:total-waviness-of-numbers-in-range-i": [],
+  "leetcode:jump-game": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300"
+  ]
 }
