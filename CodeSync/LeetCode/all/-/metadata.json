@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-17T10:05:51.344Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-19T07:56:23.264Z",
+  "runtime": "0 ms",
+  "memoryUsage": "8.51 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Math",
-    "Two Pointers"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
-  "submissionId": "t7h6vw"
+  "problemUrl": "https://leetcode.com/submissions/detail/2073058651/",
+  "submissionId": "f92hl8"
 }
