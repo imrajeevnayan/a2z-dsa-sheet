@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-19T12:45:39.574Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Minimize the Difference Between Target and Chosen Elements",
+  "problemUrl": "https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/",
+  "submissionId": "n2ol3w"
+}
