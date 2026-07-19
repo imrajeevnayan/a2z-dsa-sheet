@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-19T20:33:44.727Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Recursion",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Dynamic Programming",
+  "problemTitle": "Minimum One Bit Operations to Make Integers Zero",
+  "problemUrl": "https://leetcode.com/problems/jump-game-v/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "nx2kg"
+}
