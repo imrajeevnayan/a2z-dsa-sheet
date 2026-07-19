@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-10T12:23:12.243Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-19T11:52:07.953Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "😇 Actually Good Hints",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/",
-  "submissionId": "dttlot"
+  "problemUrl": "https://leetcode.com/problems/partition-equal-subset-sum/description/",
+  "submissionId": "pfp9pn"
 }
