@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:13:02.748Z
+- Synced: 2026-07-19T20:13:50.291Z
 
 ## Problem Description
 
