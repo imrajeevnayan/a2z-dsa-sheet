@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-19T07:54:22.734Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-19T07:55:08.910Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.95 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Smallest Subsequence of Distinct Characters",
-  "problemUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19",
-  "submissionId": "q9qc9p"
+  "problemUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/2073221835/?envType=daily-question&envId=2026-07-19",
+  "submissionId": "slc0nd"
 }
