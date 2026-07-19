@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: K-th Missing Element in Natural Numbers
+ * URL: https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1
+ * Language: class Solution { public int findKthSmall(int[] arr, int k) { // code here HashSet<Integer> set = new HashSet<>(); for(int num : arr){ set.add(num); } int sequenceNum = 0; int n = 0; while(k > n){ sequenceNum++; if(!set.contains(sequenceNum)){ n++; } } return sequenceNum; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Related Articles, Expected Complexities, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T05:35:21.404Z
+ */
+
+class Solution {
+    public int findKthSmall(int[] arr, int k) {
+        Arrays.sort(arr);
+
+        int prev = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            // Skip duplicates
+            if (i > 0 && arr[i] == arr[i - 1])
+                continue;
+
+            int missing = arr[i] - prev - 1;
+
+            if (k <= missing)
+                return prev + k;
+
+            k -= missing;
+            prev = arr[i];
+        }
+
+        // If not found before the last element
+        return prev + k;
+    }
+}
