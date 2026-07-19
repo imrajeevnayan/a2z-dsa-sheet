@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: String, Stack, Greedy, Monotonic Stack
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/?envType=daily-question&envId=2026-07-19
-- Synced: 2026-07-19T07:57:51.811Z
+- Runtime: 0 ms
+- Memory: 43.06 MB
+- Problem URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19
+- Synced: 2026-07-19T07:58:38.412Z
 
 ## Problem Description
 
