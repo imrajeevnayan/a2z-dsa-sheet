@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: Even Number of Knight Moves
+ * URL: https://leetcode.com/submissions/detail/2073210621/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1 ms
+ * Memory: 43.98 MB
+ * Synced: 2026-07-19T08:02:28.693Z
+ */
+
+1class Solution {
+2    public boolean canReach(int[] start, int[] target) {
+3        int startColor = (start[0] + start[1]) % 2;
+4        int targetColor = (target[0] + target[1]) % 2;
+5        
+6        return startColor == targetColor;
+7    }
+8}
