@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Dominant Nodes in a Binary Tree
- * URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/description/
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/count-dominant-nodes-in-a-binary-tree/
  * Language: Weekly Contest 511
  * Difficulty: Medium
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T07:41:59.588Z
+ * Synced: 2026-07-19T07:42:45.011Z
  */
 
 /**
@@ -27,6 +27,29 @@
  */
 class Solution {
     public int countDominantNodes(TreeNode root) {
+        return dfs(root)[0];
+    }
+    
+    // Returns an array where:
+    // [0] = count of dominant nodes in this subtree
+    // [1] = maximum value in this subtree
+    private int[] dfs(TreeNode node) {
+        if (node == null) {
+            return new int[]{0, Integer.MIN_VALUE};
+        }
         
+        int[] left = dfs(node.left);
+        int[] right = dfs(node.right);
+        
+        // Maximum value in current subtree
+        int maxVal = Math.max(node.val, Math.max(left[1], right[1]));
+        
+        // Count dominant nodes: sum from children + 1 if current node is dominant
+        int count = left[0] + right[0];
+        if (node.val == maxVal) {
+            count++;
+        }
+        
+        return new int[]{count, maxVal};
     }
 }
