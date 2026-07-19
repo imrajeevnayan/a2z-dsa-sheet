@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/even-number-of-knight-moves/description/
-- Synced: 2026-07-19T07:39:27.144Z
+- Synced: 2026-07-19T07:40:13.212Z
 
 ## Problem Description
 
