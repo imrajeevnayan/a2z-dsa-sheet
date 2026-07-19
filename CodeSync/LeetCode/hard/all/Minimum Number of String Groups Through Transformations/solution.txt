@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Number of String Groups Through Transformations
+ * URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/description/
+ * Language: Weekly Contest 511
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T07:50:46.960Z
+ */
+
+class Solution {
+    public int minimumGroups(String[] words) {
+        
+    }
+}
