@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum One Bit Operations to Make Integers Zero
+ * URL: https://leetcode.com/problems/jump-game-v/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Hard
+ * Topics: Math, Dynamic Programming, Bit Manipulation, Recursion, Memoization
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T20:33:44.727Z
+ */
+
+class Solution {
+    public int minimumOneBitOperations(int n) {
+        
+    }
+}
