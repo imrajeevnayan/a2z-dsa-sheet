@@ -1,34 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Smallest Subsequence of Distinct Characters
- * URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/?envType=daily-question&envId=2026-07-19
+ * URL: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-19T07:57:51.811Z
+ * Runtime: 0 ms
+ * Memory: 43.06 MB
+ * Synced: 2026-07-19T07:58:38.412Z
  */
 
-class Solution {
-    public String smallestSubsequence(String s) {
-        int[] last = new int[26];
-        boolean[] seen = new boolean[26];
-        Deque<Character> st = new ArrayDeque<>();
+int[] v = new int[26];
+        for (char c : text.toCharArray()) v[c - 'a']++;
+        StringBuilder r = new StringBuilder();
+        int have = 0;
         
-        for (int i = 0; i < s.length(); i++) last[s.charAt(i) - 'a'] = i;
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (seen[c - 'a']) continue;
-            while (!st.isEmpty() && st.peek() > c && last[st.peek() - 'a'] > i) {
-                seen[st.pop() - 'a'] = false;
+        for (char c : text.toCharArray()) {
+            if ((have & (1 << (c - 'a'))) == 0) {
+                while (r.length() > 0 && v[r.charAt(r.length() - 1) - 'a'] > 0 && r.charAt(r.length() - 1) > c) {
+                    have ^= 1 << (r.charAt(r.length() - 1) - 'a');
+                    r.deleteCharAt(r.length() - 1);
+                }
+                r.append(c);
+                have |= 1 << (c - 'a');
             }
-            st.push(c);
-            seen[c - 'a'] = true;
+            v[c - 'a']--;
         }
         
-        StringBuilder sb = new StringBuilder();
-        for (char c : st) sb.append(c);
-        return sb.reverse().toString();
+        return r.toString();
     }
 }
+    public String smallestSubsequence(String text) {
+class Solution {
