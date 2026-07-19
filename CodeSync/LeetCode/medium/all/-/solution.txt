@@ -1,18 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/rotate-array/description/
+ * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Math, Two Pointers
+ * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:05:51.344Z
+ * Synced: 2026-07-19T17:46:45.558Z
  */
 
-Input: nums = [1,2,3,4,5,6,7], k = 3
-Output: [5,6,7,1,2,3,4]
-Explanation:
-rotate 1 steps to the right: [7,1,2,3,4,5,6]
-rotate 2 steps to the right: [6,7,1,2,3,4,5]
-rotate 3 steps to the right: [5,6,7,1,2,3,4]
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [2,3]
