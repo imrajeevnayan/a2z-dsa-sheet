@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T12:16:17.685Z",
+  "submissionTimestamp": "2026-07-19T12:17:11.123Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "😇 Actually Good Hints",
-  "problemUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+  "problemUrl": "https://leetcode.com/problems/partition-equal-subset-sum/description/",
   "submissionId": "2vkbyu"
 }
