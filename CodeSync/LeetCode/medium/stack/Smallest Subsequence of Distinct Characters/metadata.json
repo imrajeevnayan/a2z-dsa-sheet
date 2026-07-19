@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T07:55:08.910Z",
+  "submissionTimestamp": "2026-07-19T07:55:54.164Z",
   "runtime": "0 ms",
   "memoryUsage": "42.95 MB",
   "difficulty": "Medium",
@@ -13,5 +13,5 @@
   "language": "Daily Question",
   "problemTitle": "Smallest Subsequence of Distinct Characters",
   "problemUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/2073221835/?envType=daily-question&envId=2026-07-19",
-  "submissionId": "slc0nd"
+  "submissionId": "o546df"
 }
