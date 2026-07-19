@@ -4,10 +4,10 @@
 - Language: Weekly Contest 511
 - Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/
-- Synced: 2026-07-19T07:51:31.963Z
+- Runtime: 3 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/submissions/2073219201/
+- Synced: 2026-07-19T07:52:16.988Z
 
 ## Problem Description
 
