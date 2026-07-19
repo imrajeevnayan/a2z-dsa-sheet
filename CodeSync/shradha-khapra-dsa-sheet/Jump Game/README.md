@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Greedy
 - Runtime: 0 ms
-- Memory: 0.00 MB
-- Problem URL: https://leetcode.com/problems/jump-game/submissions/2073887106/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:29:53.535Z
+- Memory: 48.06 MB
+- Problem URL: https://leetcode.com/problems/jump-game/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-07-19T20:30:50.401Z
 
 ## Problem Description
 
