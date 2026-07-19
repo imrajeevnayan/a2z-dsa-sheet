@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T20:36:09.218Z",
+  "submissionTimestamp": "2026-07-19T20:36:52.606Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "Jump Game V",
-  "problemUrl": "https://leetcode.com/problems/jump-game-v/?envType=problem-list-v2&envId=dynamic-programming",
+  "problemUrl": "https://leetcode.com/problems/jump-game-ii/?envType=problem-list-v2&envId=dynamic-programming",
   "submissionId": "lhu7tz"
 }
