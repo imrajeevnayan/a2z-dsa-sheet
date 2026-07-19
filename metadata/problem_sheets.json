@@ -1075,5 +1075,6 @@
     "custom:neetcode-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
-  ]
+  ],
+  "leetcode:minimize-the-difference-between-target-and-chosen-elements": []
 }
