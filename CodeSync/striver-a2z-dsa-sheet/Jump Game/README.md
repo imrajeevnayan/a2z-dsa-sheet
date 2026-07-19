@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.83 MB
 - Problem URL: https://leetcode.com/problems/jump-game/submissions/2073885959/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-19T20:27:35.077Z
+- Synced: 2026-07-19T20:28:20.078Z
 
 ## Problem Description
 
