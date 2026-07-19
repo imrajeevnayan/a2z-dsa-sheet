@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-19T07:50:46.960Z",
+  "submissionTimestamp": "2026-07-19T07:51:31.963Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 511",
   "problemTitle": "Minimum Number of String Groups Through Transformations",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/description/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/",
   "submissionId": "gobe6d"
 }
