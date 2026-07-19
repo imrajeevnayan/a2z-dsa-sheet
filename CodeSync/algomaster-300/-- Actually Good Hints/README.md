@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/partition-equal-subset-sum/
-- Synced: 2026-07-19T12:16:17.685Z
+- Problem URL: https://leetcode.com/problems/partition-equal-subset-sum/description/
+- Synced: 2026-07-19T12:17:11.123Z
 
 ## Problem Description
 
