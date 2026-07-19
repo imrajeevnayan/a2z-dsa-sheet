@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-19T20:29:08.082Z",
+  "submissionTimestamp": "2026-07-19T20:29:53.535Z",
   "runtime": "0 ms",
-  "memoryUsage": "47.83 MB",
+  "memoryUsage": "0.00 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "Jump Game",
-  "problemUrl": "https://leetcode.com/problems/jump-game/submissions/2073885959/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "ar5cgn"
+  "problemUrl": "https://leetcode.com/problems/jump-game/submissions/2073887106/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "mnet9z"
 }
