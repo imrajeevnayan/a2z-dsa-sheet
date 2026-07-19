@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/description/
-- Synced: 2026-07-19T12:45:39.574Z
+- Synced: 2026-07-19T19:39:17.108Z
 
 ## Problem Description
 
