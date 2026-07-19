@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/partition-equal-subset-sum/description/
-- Synced: 2026-07-19T11:58:52.983Z
+- Synced: 2026-07-19T11:59:40.111Z
 
 ## Problem Description
 
