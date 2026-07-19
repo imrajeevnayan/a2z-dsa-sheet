@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Jump Game V
+ * URL: https://leetcode.com/problems/jump-game-v/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Hard
+ * Topics: Array, Dynamic Programming, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-19T20:35:32.445Z
+ */
+
+class Solution {
+    public int maxJumps(int[] arr, int d) {
+        
+    }
+}
