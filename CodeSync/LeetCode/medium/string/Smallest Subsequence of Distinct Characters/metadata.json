@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-19T07:53:37.101Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Smallest Subsequence of Distinct Characters",
+  "problemUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/?envType=daily-question&envId=2026-07-19",
+  "submissionId": "73j7w5"
+}
