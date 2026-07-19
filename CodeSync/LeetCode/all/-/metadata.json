@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-19T08:05:20.832Z",
-  "runtime": "96 ms",
-  "memoryUsage": "86.76 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-19T17:46:45.558Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2073217801/",
-  "submissionId": "bczllx"
+  "problemUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/description/",
+  "submissionId": "6kis5t"
 }
