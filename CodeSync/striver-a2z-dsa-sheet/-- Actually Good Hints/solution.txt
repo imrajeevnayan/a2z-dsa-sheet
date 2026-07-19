@@ -7,11 +7,28 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T12:08:56.850Z
+ * Synced: 2026-07-19T12:09:43.662Z
  */
 
-class Solution {
-    public boolean canPartition(int[] nums) {
-        
+private boolean solve(int[] nums, int index, int target) {
+
+        // Target achieved
+        if (target == 0) {
+            return true;
+        }
+
     }
-}
+
+        return solve(nums, 0, sum / 2);
+        
+        if (sum % 2 != 0) return false;
+        for (int num : nums) sum += num;
+        int sum = 0;
+    public boolean canPartition(int[] nums) {
+class Solution {
+        // No elements left
+        if (index == nums.length || target < 0) {
+            return false;
+        }
+
+        // Take current element
