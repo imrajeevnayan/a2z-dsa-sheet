@@ -4,10 +4,10 @@
 - Language: Weekly Contest 511
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/transform-binary-string-using-subsequence-sort/
-- Synced: 2026-07-19T07:44:39.017Z
+- Synced: 2026-07-19T07:45:24.041Z
 
 ## Problem Description
 
