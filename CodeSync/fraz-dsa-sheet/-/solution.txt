@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/reverse-integer/description/
+ * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Math
+ * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-16T12:12:30.441Z
+ * Synced: 2026-07-19T17:46:45.558Z
  */
 
-Input: x = 123
-Output: 321
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [2,3]
