@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: test case :-
- * URL: https://leetcode.com/problems/house-robber-ii/
+ * URL: https://leetcode.com/problems/house-robber-ii/submissions/2074636118/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-20T13:58:04.250Z
+ * Memory: 42.60 MB
+ * Synced: 2026-07-20T13:59:00.566Z
  */
 
 if (n == 1) return nums[0];
