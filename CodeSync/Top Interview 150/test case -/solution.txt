@@ -7,29 +7,27 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-20T13:57:00.952Z
+ * Synced: 2026-07-20T13:58:04.250Z
  */
 
-int rob = nums[start] + helper(nums, start + 2, end, memo);
-    int skip = helper(nums, start + 1, end, memo);
-  return memo[start] = Math.max(rob, skip);
-   }
-   public int rob(int[] nums) {
-    int n = nums.length;
-    if (n == 1) return nums[0];
+if (n == 1) return nums[0];
 
-    int[] dp = new int[n];
-    int[] dp = new int[n];
-    Arrays.fill(dp, -1);
-    Arrays.fill(dp, -1);
+        return Math.max(
+            robRange(nums, 0, n - 2),
+            robRange(nums, 1, n - 1)
+        );
+    }
 
-    int robFirst = helper(nums, 0, n - 2,dp);
-    int robLast = helper(nums, 1, n - 1,dp);
-    return Math.max(robFirst, robLast);
- }
+    private int robRange(int[] nums, int start, int end) {
+        int prev1 = 0;
+        int prev2 = 0;
 
+        for (int i = start; i <= end; i++) {
+            int curr = Math.max(prev1, prev2 + nums[i]);
+            prev2 = prev1;
+            prev1 = curr;
+        }
+
+        return prev1;
+    }
 }
-    if (dp[start] != -1) return memo[start];
-    if (start > end) return 0;
-    private int helper(int[] nums, int start, int end, int[] memo) {
-class Solution{
