@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
-- Memory: 42.76 MB
-- Problem URL: https://leetcode.com/problems/house-robber-ii/
-- Synced: 2026-07-09T11:37:46.608Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/house-robber-ii/description/
+- Synced: 2026-07-20T13:55:28.855Z
 
 ## Problem Description
 
