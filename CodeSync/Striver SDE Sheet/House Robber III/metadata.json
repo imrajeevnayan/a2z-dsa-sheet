@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-21T13:48:09.906Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-21T13:48:55.441Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber III",
-  "problemUrl": "https://leetcode.com/problems/house-robber-iii/description/",
-  "submissionId": "d6va2n"
+  "problemUrl": "https://leetcode.com/problems/house-robber-iii/",
+  "submissionId": "xx9h1o"
 }
