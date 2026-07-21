@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Breadth-First Search
-- Runtime: 0 ms
-- Memory: 46.20 MB
-- Problem URL: https://leetcode.com/problems/coin-change/submissions/1949457473/
-- Synced: 2026-07-09T10:19:32.080Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/coin-change/submissions/
+- Synced: 2026-07-21T16:47:30.430Z
 
 ## Problem Description
 
