@@ -1140,5 +1140,6 @@
   "leetcode:delete-and-earn": [
     "custom:arsh-goyal-dsa-sheet",
     "custom:fraz-dsa-sheet"
-  ]
+  ],
+  "leetcode:maximum-alternating-subsequence-sum": []
 }
