@@ -1,19 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change II
- * URL: https://leetcode.com/problems/coin-change-ii/
+ * URL: https://leetcode.com/problems/coin-change-ii/submissions/2076143561/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-21T17:04:31.933Z
+ * Memory: 57.18 MB
+ * Synced: 2026-07-21T17:05:24.017Z
  */
 
-return solve(0, amount, coins,dp);
-    }
-
-    static int solve(int i, int amount, int[] coins, int[][] memo) {
+class Solution {
+    static int solve(int i, int amount, int[] coins, int[][] dp) {
         if (amount == 0) return 1;
         if (amount < 0 || i >= coins.length) return 0;
         if (dp[i][amount] != -1) return dp[i][amount];
@@ -22,5 +20,12 @@ return solve(0, amount, coins,dp);
         int skip = solve(i + 1, amount, coins, dp);
 
         return dp[i][amount] = take + skip;
+    }
+    public int change(int amount, int[] coins) {
+        int[][] dp = new int[coins.length][amount + 1];
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+        return solve(0, amount, coins,dp);
     }
 }
