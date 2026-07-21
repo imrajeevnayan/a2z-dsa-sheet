@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber III
- * URL: https://leetcode.com/problems/house-robber-iii/description/
+ * URL: https://leetcode.com/problems/house-robber-iii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T13:48:09.906Z
+ * Synced: 2026-07-21T13:48:55.441Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
+// Skip current node
+        int notRob = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+        // Rob current node
+        int rob = node.val + left[0] + right[0];
+        int[] right = solve(node.right);
+        int[] left = solve(node.left);
+        if (node == null)  return new int[]{0, 0};
+    int[] solve(TreeNode node) {
+    }
+        return Math.max(ans[0], ans[1]);
+        int[] ans = solve(root);
+    public int rob(TreeNode root) {
