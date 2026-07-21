@@ -1,22 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: test case :-
- * URL: https://leetcode.com/problems/house-robber-ii/description/
+ * URL: https://leetcode.com/problems/house-robber-ii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T12:42:01.554Z
+ * Synced: 2026-07-21T12:43:16.742Z
  */
 
-class Solution {
-    int solve(int i, int[] nums, int end,int[]dp) {
-        if (i > end) return 0;
-        
-        int take = nums[i] + solve(i + 2, nums, end);
-        int skip = solve(i + 1, nums, end);
-        return Math.max(take, skip);
+int take = nums[i] + solve(i + 2, nums, end,dp);
+        int skip = solve(i + 1, nums, end,dp);
+        return dp[i]=Math.max(take, skip);
     }
     public int rob(int[] nums) {
         int n = nums.length;
@@ -25,3 +21,8 @@ class Solution {
         int case1 = solve(0, nums, n - 2);
         // Case 2: exclude first house
         int case2 = solve(1, nums, n - 1);
+        return Math.max(case1, case2);
+    }
+        Arrays.fill(dp,-1);
+        int 
+}
