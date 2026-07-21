@@ -1,18 +1,18 @@
-# Python Code
+# Python Code :
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
+- Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
-- Synced: 2026-07-10T09:22:24.380Z
+- Problem URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
+- Synced: 2026-07-21T09:10:02.011Z
 
 ## Problem Description
 
-Given an array of integers arr[] and a number k. Return the maximum sum of a subarray of size k. Note: A subarray is a contiguous part of any given array. Examples: Input: arr[] = [100, 200, 300, 400], k = 2 Output: 700 Explanation: arr2 + arr3 = 700, which is maximum. Input: arr[] = [1, 4, 2, 10, 23, 3, 1, 0, 20], k = 4 Output: 39 Explanation: arr1 + arr2 + arr3 + arr4 = 39, which is maximum. Input: arr[] = [100, 200, 300, 400], k = 1 Output: 400 Explanation: arr3 = 400, which is maximum. Constraints: 1 ≤ arr.size() ≤ 106 0 ≤ arr[i] ≤ 106 1 ≤ k ≤ arr.size()
+You are given an array arr[] of non-negative numbers. Each number tells you the maximum number of steps you can jump forward from that position. For example: If arr[i] = 3, you can jump to index i + 1, i + 2, or i + 3 from position i. If arr[i] = 0, you cannot jump forward from that position. Your task is to find the minimum number of jumps needed to move from the first position in the array to the last position. Note: Return -1 if you can't reach the end of the array. Examples : Input: arr[] = [1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9] Output: 3 Explanation: First jump from 1st element to 2nd element with value 3. From here we jump to 5th element with value 9, and from here we will jump to the last. Input: arr = [1, 4, 3, 2, 6, 7] Output: 2 Explanation: First we jump from the 1st to 2nd element and then jump to the last element. Input: arr = [0, 10, 20] Output: -1 Explanation: We cannot go anywhere from the 1st element. Constraints: 2 ≤ arr.size() ≤ 105 0 ≤ arr[i] ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum. The detected topics are Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart. Review the synced source file for the implementation details.
