@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Alternating Subsequence Sum
+ * URL: https://leetcode.com/problems/maximum-alternating-subsequence-sum/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-21T13:19:49.336Z
+ */
+
+class Solution {
+    public long maxAlternatingSum(int[] nums) {
+        
+    }
+}
