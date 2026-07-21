@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 46.86 MB
 - Problem URL: https://leetcode.com/problems/delete-and-earn/submissions/2075845789/
-- Synced: 2026-07-21T13:17:20.088Z
+- Synced: 2026-07-21T13:18:10.684Z
 
 ## Problem Description
 
