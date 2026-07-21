@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-and-earn/description/
-- Synced: 2026-07-21T13:13:08.222Z
+- Synced: 2026-07-21T13:14:48.172Z
 
 ## Problem Description
 
