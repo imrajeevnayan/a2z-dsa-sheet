@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/solving-questions-with-brainpower/
-- Synced: 2026-07-21T13:47:22.222Z
+- Memory: 156.71 MB
+- Problem URL: https://leetcode.com/problems/solving-questions-with-brainpower/submissions/2075881012/
+- Synced: 2026-07-21T13:48:07.691Z
 
 ## Problem Description
 
