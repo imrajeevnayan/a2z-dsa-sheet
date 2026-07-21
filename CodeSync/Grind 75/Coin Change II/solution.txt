@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T17:01:28.919Z
+ * Synced: 2026-07-21T17:02:14.901Z
  */
 
 class Solution {
@@ -16,17 +16,9 @@ class Solution {
     }
     private int solve(int i, int amount, int[] coins) {
         if (amount == 0) return 1;
-
-        // Base Case 2: Out of bounds (invalid amount or ran out of coins)
         if (amount < 0 || i >= coins.length) return 0;
-
-        // Choice 1: Take the coin at current index (stay at index 'i' for unlimited supply)
         int take = solve(i, amount - coins[i], coins);
-
-        // Choice 2: Skip the coin at current index (move to index 'i + 1')
         int skip = solve(i + 1, amount, coins);
-
-        // Total ways is the sum of both choices
         return take + skip;
     }
 }
