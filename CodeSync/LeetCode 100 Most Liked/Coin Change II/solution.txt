@@ -7,18 +7,23 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T17:03:01.111Z
+ * Synced: 2026-07-21T17:03:46.332Z
  */
 
-class Solution {
-    private int solve(int i, int amount, int[] coins) {
+return solve(0, amount, coins,dp);
+    }
+
+    private int solve(int i, int amount, int[] coins, int[][] memo) {
         if (amount == 0) return 1;
         if (amount < 0 || i >= coins.length) return 0;
-        int take = solve(i, amount - coins[i], coins);
-        int skip = solve(i + 1, amount, coins);
-        return take + skip;
-    }
+
+        // Notebook check
+        if (memo[i][amount] != -1) return memo[i][amount];
+
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
     public int change(int amount, int[] coins) {
-        return solve(0, amount, coins);
-    }
-}
+        int[][] dp = new int[coins.length][amount + 1];
+        int take = solve(i, amount - coins[i], coins, memo);
+        int skip = solve(i + 1, amount, coins, memo);
