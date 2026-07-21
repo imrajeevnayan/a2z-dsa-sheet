@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-alternating-subsequence-sum/description/
-- Synced: 2026-07-21T13:19:49.336Z
+- Runtime: 0 ms
+- Memory: 98.16 MB
+- Problem URL: https://leetcode.com/problems/maximum-alternating-subsequence-sum/submissions/2075849344/
+- Synced: 2026-07-21T13:20:33.730Z
 
 ## Problem Description
 
