@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change II
- * URL: https://leetcode.com/problems/coin-change-ii/submissions/2076143561/
+ * URL: https://leetcode.com/problems/coin-change-ii/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: 57.18 MB
- * Synced: 2026-07-21T17:05:24.017Z
+ * Memory: N/A
+ * Synced: 2026-07-21T17:08:52.080Z
  */
 
 class Solution {
