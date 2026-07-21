@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/coin-change-ii/description/
-- Synced: 2026-07-21T17:08:52.080Z
+- Problem URL: https://leetcode.com/problems/coin-change-ii/
+- Synced: 2026-07-21T17:09:39.101Z
 
 ## Problem Description
 
