@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-21T17:00:42.986Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Coin Change II",
+  "problemUrl": "https://leetcode.com/problems/coin-change-ii/",
+  "submissionId": "ldo21l"
+}
