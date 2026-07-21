@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
-- Synced: 2026-07-21T10:24:48.104Z
+- Synced: 2026-07-21T10:28:01.244Z
 
 ## Problem Description
 
