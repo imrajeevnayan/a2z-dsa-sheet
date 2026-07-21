@@ -1142,5 +1142,11 @@
     "custom:fraz-dsa-sheet"
   ],
   "leetcode:maximum-alternating-subsequence-sum": [],
-  "leetcode:solving-questions-with-brainpower": []
+  "leetcode:solving-questions-with-brainpower": [],
+  "cses:coin-combinations-i": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "CSESSet"
+  ]
 }
