@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T07:14:19.704Z
+ * Synced: 2026-07-21T09:07:03.619Z
  */
 
 class Solution {
