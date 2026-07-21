@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-ii/submissions/2075813634/
-- Synced: 2026-07-21T12:46:51.341Z
+- Memory: 42.60 MB
+- Problem URL: https://leetcode.com/problems/house-robber-ii/
+- Synced: 2026-07-21T12:47:37.111Z
 
 ## Problem Description
 
