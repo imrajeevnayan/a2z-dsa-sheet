@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-21T13:48:09.906Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Dynamic Programming",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "House Robber III",
+  "problemUrl": "https://leetcode.com/problems/house-robber-iii/description/",
+  "submissionId": "d6va2n"
+}
