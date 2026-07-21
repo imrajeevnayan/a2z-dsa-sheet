@@ -1,31 +1,39 @@
 /*
  * Platform: LeetCode
  * Problem: test case :-
- * URL: https://leetcode.com/problems/house-robber-ii/
+ * URL: https://leetcode.com/problems/house-robber-ii/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 42.60 MB
- * Synced: 2026-07-21T12:47:37.111Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-21T12:49:04.883Z
  */
 
-int[] dp = new int[n];
+class Solution {
+    int solve(int i, int[] nums, int end, int[] dp) {
+        if (i > end) return 0;
+
+        if (dp[i] != -1) return dp[i];
+
+        int take = nums[i] + solve(i + 2, nums, end, dp);
+        int skip = solve(i + 1, nums, end, dp);
+
+        return dp[i] = Math.max(take, skip);
+    }
+
+    public int rob(int[] nums) {
+        int n = nums.length;
+        if (n == 1) return nums[0];
+
+        int[] dp = new int[n];
 
         Arrays.fill(dp, -1);
         int case1 = solve(0, nums, n - 2, dp);
-        if (n == 1) return nums[0];
-    public int rob(int[] nums) {
-        int n = nums.length;
 
+        Arrays.fill(dp, -1);      // Reset memoization
+        int case2 = solve(1, nums, n - 1, dp);
+
+        return Math.max(case1, case2);
     }
-        return dp[i] = Math.max(take, skip);
-
-        int skip = solve(i + 1, nums, end, dp);
-        int take = nums[i] + solve(i + 2, nums, end, dp);
-        if (dp[i] != -1) return dp[i];
-
-
-        if (i > end) return 0;
-class Solution {
-    int solve(int i, int[] nums, int end, int[] dp) {
+}
