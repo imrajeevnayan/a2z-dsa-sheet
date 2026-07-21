@@ -7,22 +7,26 @@
  * Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T10:24:48.104Z
+ * Synced: 2026-07-21T10:28:01.244Z
  */
 
 class Solution {
-    int solve(int i, int[] arr) {
+    int solve(int i, int[] arr, int[] dp) {
         int n = arr.length;
         if (i >= n - 1) return 0;
         if (arr[i] == 0) return (int)1e9;
+        if (dp[i] != -1)  return dp[i];
         int ans = (int)1e9;
         for (int jump = 1; jump <= arr[i] && i + jump < n; jump++) {
-            ans = Math.min(ans, 1 + solve(i + jump, arr));
+            ans = Math.min(ans, 1 + solve(i + jump, arr, dp));
         }
-        return ans;
+        return dp[i] = ans;
     }
     public int minJumps(int[] arr) {
-        int ans = solve(0, arr);
+        int n = arr.length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, -1);
+        int ans = solve(0, arr, dp);
         return ans >= (int)1e9 ? -1 : ans;
     }
 }
