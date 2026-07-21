@@ -7,28 +7,27 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T12:38:03.138Z
+ * Synced: 2026-07-21T12:38:48.492Z
  */
 
 public int rob(int[] nums) {
-
     }
-
-
         return Math.max(take, skip);
         int skip = solve(i + 1, nums, end);
-
-
-        // Skip current house
         int take = nums[i] + solve(i + 2, nums, end);
-
-        // Take current house
-
-
         if (start > end) return 0;
     int solve(int start, int[] nums, int end) {
 class Solution {
         int n = nums.length;
+        if (n == 1) return nums[0];
+        // exclude last house
+        int case1 = solve(0, nums, n - 2);
 
 
-        // only one house
+        // Case 2: exclude first house
+        int case2 = solve(1, nums, n - 1);
+
+
+        return Math.max(case1, case2);
+    }
+}
