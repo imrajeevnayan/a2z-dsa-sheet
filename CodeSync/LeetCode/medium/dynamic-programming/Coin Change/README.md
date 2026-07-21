@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/coin-change/description/
-- Synced: 2026-07-21T16:48:19.080Z
+- Synced: 2026-07-21T16:49:56.094Z
 
 ## Problem Description
 
