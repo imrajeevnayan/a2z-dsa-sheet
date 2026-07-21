@@ -1,24 +1,18 @@
 /*
  * Platform: GeeksforGeeks
- * Problem: Python Code
- * URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
- * Language: class Solution: def maxSubarraySum(self, arr, k): # code here curr_sum=sum(arr[:k]) max_sum=curr_sum for i in range(k,len(arr)): curr_sum+=arr[i]-arr[i-k] max_sum=max(curr_sum,max_sum) return max_sum
+ * Problem: Python Code :
+ * URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, prefix-sum, sliding-window
+ * Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T09:22:24.380Z
+ * Synced: 2026-07-21T09:10:02.011Z
  */
 
 class Solution {
-    public int maxSubarraySum(int[] arr, int k) {
-     int left=0,sum=0,max=Integer.MIN_VALUE;
-     for(int right=0;right<k;right++)sum+=arr[right];
-     max=sum;
-     for(int right=k;right<arr.length;right++){
-         sum+=arr[right]-arr[right-k];
-         max=Math.max(max,sum);
-     }
-     return max;
+    public int minJumps(int[] arr) {
+        // code here
+        
     }
 }
