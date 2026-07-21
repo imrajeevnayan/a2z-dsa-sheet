@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T16:49:56.094Z
+ * Synced: 2026-07-21T16:50:43.082Z
  */
 
 if (amount < 0) return Integer.MAX_VALUE - 1;
