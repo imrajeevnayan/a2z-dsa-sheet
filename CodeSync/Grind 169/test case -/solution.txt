@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.60 MB
- * Synced: 2026-07-20T14:01:23.167Z
+ * Synced: 2026-07-20T14:02:09.641Z
  */
 
 if (n == 1) return nums[0];
