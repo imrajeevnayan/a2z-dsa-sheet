@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-21T17:05:24.017Z",
+  "submissionTimestamp": "2026-07-21T17:08:52.080Z",
   "runtime": "0 ms",
-  "memoryUsage": "57.18 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Coin Change II",
-  "problemUrl": "https://leetcode.com/problems/coin-change-ii/submissions/2076143561/",
+  "problemUrl": "https://leetcode.com/problems/coin-change-ii/description/",
   "submissionId": "5xhuvs"
 }
