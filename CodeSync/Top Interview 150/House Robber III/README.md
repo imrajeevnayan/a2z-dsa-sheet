@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-iii/description/
-- Synced: 2026-07-21T13:48:09.906Z
+- Problem URL: https://leetcode.com/problems/house-robber-iii/
+- Synced: 2026-07-21T13:48:55.441Z
 
 ## Problem Description
 
