@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/submissions/
+ * URL: https://leetcode.com/problems/coin-change/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T16:47:30.430Z
+ * Synced: 2026-07-21T16:48:19.080Z
  */
 
 if (amount < 0) return Integer.MAX_VALUE - 1;
@@ -34,5 +34,3 @@ if (amount < 0) return Integer.MAX_VALUE - 1;
     }
 }
     if (amount == 0) return 0;
-    static int solve(int[] coins, int amount, int[] dp) {
-class Solution {
