@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-21T13:19:49.336Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Alternating Subsequence Sum",
+  "problemUrl": "https://leetcode.com/problems/maximum-alternating-subsequence-sum/description/",
+  "submissionId": "f3plg6"
+}
