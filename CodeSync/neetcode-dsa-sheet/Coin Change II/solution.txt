@@ -1,0 +1,36 @@
+/*
+ * Platform: LeetCode
+ * Problem: Coin Change II
+ * URL: https://leetcode.com/problems/coin-change-ii/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-21T17:00:42.986Z
+ */
+
+if (amount < 0) return Integer.MAX_VALUE - 1;
+    if (dp[amount] != -1) return dp[amount];
+
+    int minCoins = Integer.MAX_VALUE - 1;
+
+    // LOOP: This explores every possible "branch" in your tree
+    for (int coin : coins) {
+        int result = solve(coins, amount - coin, dp);
+        
+        // Only consider the result if it's a valid path
+        if (result != Integer.MAX_VALUE - 1) {
+            minCoins = Math.min(minCoins, 1 + result);
+        }
+    }
+
+    return dp[amount] = minCoins;
+}
+    public int coinChange(int[] coins, int amount) {
+        int dp[]=new int[amount+1];
+        Arrays.fill(dp,-1);
+        return solve(coins,amount,dp);
+    }
+}
+    if (amount == 0) return 0;
