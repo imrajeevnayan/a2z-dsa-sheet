@@ -1,14 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-19T17:46:45.558Z
+ * URL: https://leetcode.com/submissions/detail/2075849344/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 6 ms
+ * Memory: 98.16 MB
+ * Synced: 2026-07-21T13:34:28.122Z
  */
 
-Input: nums = [4,3,2,7,8,2,3,1]
-Output: [2,3]
+1class Solution {
+2    public long maxAlternatingSum(int[] nums) {
+3
+4        long even = 0;
+5        long odd = 0;
+6
+7        for (int x : nums) {
+8            long newEven = Math.max(even, odd + x);
+9            long newOdd = Math.max(odd, even - x);
+10
+11            even = newEven;
+12            odd = newOdd;
+13        }
+14
+15        return even;
+16    }
+17}
+18
