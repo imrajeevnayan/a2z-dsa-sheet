@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: Text
 - Difficulty: Unknown
-- Topics: Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Algorithms
+- Topics: Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Related Interview Experiences
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
-- Synced: 2026-07-12T18:47:52.569Z
+- Synced: 2026-07-21T16:13:28.781Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given n disks placed on a starting rod (from), with the smallest disk on
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Text. The detected topics are Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Related Interview Experiences. Review the synced source file for the implementation details.
