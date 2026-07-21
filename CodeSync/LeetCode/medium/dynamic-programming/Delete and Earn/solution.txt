@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Delete and Earn
- * URL: https://leetcode.com/problems/delete-and-earn/description/
+ * URL: https://leetcode.com/problems/delete-and-earn/submissions/2075845789/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T13:16:34.599Z
+ * Synced: 2026-07-21T13:17:20.088Z
  */
 
 class Solution {
     public int deleteAndEarn(int[] nums) {
-        
+        int max = 0;
+        for (int x : nums) max = Math.max(max, x);
+        int[] points = new int[max + 1];
+        for (int x : nums) points[x] += x;
+        int[] dp = new int[max + 1];
+        dp[0] = points[0];
+        if (max >= 1) dp[1] = Math.max(points[0], points[1]);
+        for (int i = 2; i <= max; i++) {
+            dp[i] = Math.max(dp[i - 1], dp[i - 2] + points[i]);
+        }
+        return dp[max];
     }
 }
