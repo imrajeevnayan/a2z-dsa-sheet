@@ -7,30 +7,26 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T17:00:42.986Z
+ * Synced: 2026-07-21T17:01:28.919Z
  */
 
-if (amount < 0) return Integer.MAX_VALUE - 1;
-    if (dp[amount] != -1) return dp[amount];
-
-    int minCoins = Integer.MAX_VALUE - 1;
-
-    // LOOP: This explores every possible "branch" in your tree
-    for (int coin : coins) {
-        int result = solve(coins, amount - coin, dp);
-        
-        // Only consider the result if it's a valid path
-        if (result != Integer.MAX_VALUE - 1) {
-            minCoins = Math.min(minCoins, 1 + result);
-        }
+class Solution {
+    public int change(int amount, int[] coins) {
+        return solve(0, amount, coins);
     }
+    private int solve(int i, int amount, int[] coins) {
+        if (amount == 0) return 1;
 
-    return dp[amount] = minCoins;
-}
-    public int coinChange(int[] coins, int amount) {
-        int dp[]=new int[amount+1];
-        Arrays.fill(dp,-1);
-        return solve(coins,amount,dp);
+        // Base Case 2: Out of bounds (invalid amount or ran out of coins)
+        if (amount < 0 || i >= coins.length) return 0;
+
+        // Choice 1: Take the coin at current index (stay at index 'i' for unlimited supply)
+        int take = solve(i, amount - coins[i], coins);
+
+        // Choice 2: Skip the coin at current index (move to index 'i + 1')
+        int skip = solve(i + 1, amount, coins);
+
+        // Total ways is the sum of both choices
+        return take + skip;
     }
 }
-    if (amount == 0) return 0;
