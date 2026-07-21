@@ -1,13 +1,13 @@
 # Tower Of Hanoi
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: int towerOfHanoi(int n, int from, int to, int aux) { return (1<<n)-1; } };
+- Language: Text
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion
+- Topics: Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Related Interview Experiences
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
-- Synced: 2026-07-12T18:48:37.702Z
+- Synced: 2026-07-21T16:13:28.781Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given n disks placed on a starting rod (from), with the smallest disk on
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: int towerOfHanoi(int n, int from, int to, int aux) { return (1<<n)-1; } };. The detected topics are Expected Complexities, Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Company Tags FlipkartMicrosoftMakeMyTrip, Company Tags, Flipkart, Microsoft, MakeMyTrip, Topic Tags, Recursion, Related Interview Experiences. Review the synced source file for the implementation details.
