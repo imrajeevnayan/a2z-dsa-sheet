@@ -7,18 +7,18 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T17:02:14.901Z
+ * Synced: 2026-07-21T17:03:01.111Z
  */
 
 class Solution {
-    public int change(int amount, int[] coins) {
-        return solve(0, amount, coins);
-    }
     private int solve(int i, int amount, int[] coins) {
         if (amount == 0) return 1;
         if (amount < 0 || i >= coins.length) return 0;
         int take = solve(i, amount - coins[i], coins);
         int skip = solve(i + 1, amount, coins);
         return take + skip;
+    }
+    public int change(int amount, int[] coins) {
+        return solve(0, amount, coins);
     }
 }
