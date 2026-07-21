@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Alternating Subsequence Sum
- * URL: https://leetcode.com/problems/maximum-alternating-subsequence-sum/description/
+ * URL: https://leetcode.com/problems/maximum-alternating-subsequence-sum/submissions/2075849344/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-21T13:19:49.336Z
+ * Runtime: 0 ms
+ * Memory: 98.16 MB
+ * Synced: 2026-07-21T13:20:33.730Z
  */
 
 class Solution {
     public long maxAlternatingSum(int[] nums) {
-        
+
+        long even = 0;
+        long odd = 0;
+
+        for (int x : nums) {
+            long newEven = Math.max(even, odd + x);
+            long newOdd = Math.max(odd, even - x);
+
+            even = newEven;
+            odd = newOdd;
+        }
+
+        return even;
     }
 }
