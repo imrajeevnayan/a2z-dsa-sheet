@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Delete and Earn
+ * URL: https://leetcode.com/problems/delete-and-earn/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-21T13:12:14.999Z
+ */
+
+class Solution {
+    public int deleteAndEarn(int[] nums) {
+        
+    }
+}
