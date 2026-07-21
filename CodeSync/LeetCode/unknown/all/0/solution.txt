@@ -1,23 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2068409401/
+ * URL: https://leetcode.com/submissions/detail/2075849344/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 14 ms
- * Memory: 47.89 MB
- * Synced: 2026-07-16T05:24:58.622Z
+ * Runtime: 6 ms
+ * Memory: 98.16 MB
+ * Synced: 2026-07-21T13:34:28.932Z
  */
 
 1class Solution {
-2    public int[] topKFrequent(int[] nums, int k) {
-3        HashMap<Integer,Integer>map=new HashMap<>();
-4        for(int n:nums)map.put(n,map.getOrDefault(n,0)+1);
-5        PriorityQueue<Integer>pq=new PriorityQueue<>((a,b)->map.get(b)-map.get(a));
-6        pq.addAll(map.keySet());
-7        int ans[]=new int[k];
-8        for(int i=0;i<k;i++) ans[i]=pq.poll();
-9        return ans;
-10    }
-11}
+2    public long maxAlternatingSum(int[] nums) {
+3
+4        long even = 0;
+5        long odd = 0;
+6
+7        for (int x : nums) {
+8            long newEven = Math.max(even, odd + x);
+9            long newOdd = Math.max(odd, even - x);
+10
+11            even = newEven;
+12            odd = newOdd;
+13        }
+14
+15        return even;
+16    }
+17}
+18
