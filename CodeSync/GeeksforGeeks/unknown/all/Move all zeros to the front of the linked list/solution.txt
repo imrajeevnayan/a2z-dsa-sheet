@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Move all zeros to the front of the linked list
+ * URL: https://www.geeksforgeeks.org/problems/move-all-zeros-to-the-front-of-the-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Move Zeroes Front Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T17:15:06.442Z
+ */
+
+/* Structure of linked list Node
+class Node{
+    int data;
+    Node next;
+    Node(int d){
+        data=d;
+        next=null;
+    }
+}
+*/
+class Solution {
+    public Node moveZeroes(Node head) {
+        // code here.
+    }
+}
