@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-22T17:23:56.315Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftMakeMyTripNPCI",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "MakeMyTrip",
+    "NPCI",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Sort a linked list of 0s, 1s and 2s",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1",
+  "submissionId": "sjdyc8"
+}
