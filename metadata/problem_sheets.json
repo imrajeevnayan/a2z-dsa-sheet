@@ -1224,5 +1224,9 @@
   "leetcode:maximize-active-section-with-trade-ii": [],
   "geeksforgeeks:easy-string2212": [
     "GFG160"
+  ],
+  "geeksforgeeks:check-if-two-strings-are-same-or-not--155406": [
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
