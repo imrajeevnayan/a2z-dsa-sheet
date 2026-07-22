@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-22T17:23:39.001Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "sliding-window",
+    "Related Articles",
+    "Find Anagrams In Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Anagrams in Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-anagrams-in-linked-list--170647/1",
+  "submissionId": "anfvp8"
+}
