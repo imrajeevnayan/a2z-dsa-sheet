@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: The most ever easiest C++ solution || Just 6 lines
+ * URL: https://www.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Tree, Related Articles, Flatten A Binary Tree Into Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T16:12:24.750Z
+ */
+
+class Solution {
+    public static void flatten(Node root) {
+        Node curr = root;
+        while (curr != null) {
+            if (curr.left != null) {
+                Node temp = curr.left;
+
+                while (temp.right != null) {
+                    temp = temp.right;
+                }
+                temp.right = curr.right;
+
+                curr.right = curr.left;
+                curr.left = null;
+            }
+            curr = curr.right;
+        }
+    }
+}
