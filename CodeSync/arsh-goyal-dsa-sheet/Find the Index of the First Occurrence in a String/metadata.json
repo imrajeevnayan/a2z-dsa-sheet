@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-08T07:11:02.074Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-22T10:56:39.469Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Find the Index of the First Occurrence in a String",
   "problemUrl": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
-  "submissionId": "e0w689"
+  "submissionId": "1hsugl"
 }
