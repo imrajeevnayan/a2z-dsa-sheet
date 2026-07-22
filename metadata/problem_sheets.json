@@ -1202,5 +1202,10 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:arsh-goyal-dsa-sheet",
     "CSESSet"
+  ],
+  "leetcode:find-the-index-of-the-first-occurrence-in-a-string": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
