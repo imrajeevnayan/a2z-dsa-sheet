@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/kth-missing-positive-number/
-- Synced: 2026-07-22T17:36:32.134Z
+- Synced: 2026-07-22T17:37:39.754Z
 
 ## Problem Description
 
