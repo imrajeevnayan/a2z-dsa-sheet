@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: String Compression
- * URL: https://leetcode.com/problems/string-compression/
+ * URL: https://leetcode.com/problems/string-compression/submissions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-22T12:28:16.819Z
+ * Synced: 2026-07-22T12:29:08.148Z
  */
 
 for (int i = 1; i <= chars.length; i++) {
