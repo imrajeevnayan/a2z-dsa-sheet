@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Encode and Decode Strings
+ * URL: https://www.geeksforgeeks.org/problems/encode-and-decode-strings/1
+ * Language: class Solution: def encode(self, s): # code here return f'{chr(249)}'.join(s) def decode(self, s): # code here return list(s.split(sep = chr(249)))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T12:45:43.128Z
+ */
+
+class Solution {
+    public String encode(String arr[]) {
+        StringBuilder sb = new StringBuilder();
+        for (String s : arr) {
+            sb.append(s.length()).append("#").append(s);
+        }
+        return sb.toString();
+    }
+    public ArrayList<String> decode(String s) {
+        ArrayList<String> ans = new ArrayList<>();
+        int i = 0;
+
+        while (i < s.length()) {
+            int len = 0;
+
+            while (s.charAt(i) != '#') {
+                len = len * 10 + (s.charAt(i) - '0');
+                i++;
+            }
+
+            i++; // skip #
+
+            ans.add(s.substring(i, i + len));
+            i += len;
+        }
+        return ans;
+    }
+}
