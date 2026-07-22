@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: String Compression
+ * URL: https://leetcode.com/problems/string-compression/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Two Pointers, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T11:00:39.263Z
+ */
+
+class Solution {
+    public int compress(char[] chars) {
+        
+    }
+}
