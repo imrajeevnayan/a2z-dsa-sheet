@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-22T12:52:34.928Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-22T15:23:40.181Z",
+  "runtime": "3 ms",
   "memoryUsage": "45.56 MB",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "Math",
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Integer to Roman",
   "problemUrl": "https://leetcode.com/problems/integer-to-roman/submissions/2077097018/",
-  "submissionId": "5yoael"
+  "submissionId": "6ejtzv"
 }
