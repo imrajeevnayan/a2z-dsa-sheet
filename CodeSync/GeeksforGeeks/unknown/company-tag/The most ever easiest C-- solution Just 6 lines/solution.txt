@@ -7,7 +7,7 @@
  * Topics: Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Tree, Related Articles, Flatten A Binary Tree Into Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T16:15:38.099Z
+ * Synced: 2026-07-22T16:20:56.156Z
  */
 
 class Solution {
