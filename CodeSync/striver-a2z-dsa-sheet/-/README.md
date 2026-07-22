@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Math, Two Pointers
+- Difficulty: Easy
+- Topics: Array, String, Trie
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-array/description/
-- Synced: 2026-07-17T10:05:51.344Z
+- Problem URL: https://leetcode.com/problems/longest-common-prefix/description/
+- Synced: 2026-07-22T18:09:24.753Z
 
 ## Problem Description
 
-Given an integer array nums, rotate the array to the right by k steps, where k is non-negative. Example 1: Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4] Example 2: Input: nums = [-1,-100,3,99], k = 2 Output: [3,99,-1,-100] Explanation: rotate 1 steps to the right: [99,-1,-100,3] rotate 2 steps to the right: [3,99,-1,-100] Constraints: 1 <= nums.length <= 105 -231 <= nums[i] <= 231 - 1 0 <= k <= 105 Follow up: Try to come up with as many solutions as you can. There are at least three different ways to solve this problem. Could you do it in-place with O(1) extra space?
+Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "". Example 1: Input: strs = ["flower","flow","flight"] Output: "fl" Example 2: Input: strs = ["dog","racecar","car"] Output: "" Explanation: There is no common prefix among the input strings. Constraints: 1 <= strs.length <= 200 0 <= strs[i].length <= 200 strs[i] consists of only lowercase English letters if it is non-empty.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, String, Trie. Review the synced source file for the implementation details.
