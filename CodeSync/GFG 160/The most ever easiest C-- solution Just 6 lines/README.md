@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1
-- Synced: 2026-07-22T16:13:14.092Z
+- Synced: 2026-07-22T16:14:02.105Z
 
 ## Problem Description
 
