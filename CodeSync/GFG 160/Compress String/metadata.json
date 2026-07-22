@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-22T12:38:10.753Z",
+  "submissionTimestamp": "2026-07-22T12:38:55.826Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,5 +14,5 @@
   "language": "string transform(string S) { // complete the function here for(char &x: S){ x=tolower(x); } string res=\"\"; for(int i=0; i<S.length(); i++){ int count=1; while(i+1 < S.length() && S[i] == S[i+1]){ count++; i++; } res+=to_string(count); res+=S[i]; } return res; }",
   "problemTitle": "Compress String",
   "problemUrl": "https://www.geeksforgeeks.org/problems/easy-string2212/1",
-  "submissionId": "fvn5dg"
+  "submissionId": "yd5uqt"
 }
