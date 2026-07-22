@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Anagrams in Linked List
+ * URL: https://www.geeksforgeeks.org/problems/find-anagrams-in-linked-list--170647/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, sliding-window, Related Articles, Find Anagrams In Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T17:23:39.001Z
+ */
+
+class Solution {
+    public ArrayList<Node> findAnagrams(Node head, String str) {
+        ArrayList<Node> ans = new ArrayList<>();
+
+        if (head == null || str.length() == 0)
+            return ans;
+
+        int k = str.length();
+
+        int[] target = new int[26];
+        for (char ch : str.toCharArray()) {
+            target[ch - 'a']++;
+        }
+
+        int[] window = new int[26];
+
+        Node start = head;
+        Node end = head;
+        int count = 0;
+
+        while (end != null) {
+            window[end.data - 'a']++;
+            count++;
+
+            if (count == k) {
+                if (matches(target, window)) {
+                    ans.add(start);
+
+                    // Break the anagram from the original list
+                    Node next = end.next;
+                    end.next = null;
+                    start = next;
+                    end = next;
+                    window = new int[26];
+                    count = 0;
