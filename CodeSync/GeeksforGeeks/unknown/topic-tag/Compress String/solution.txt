@@ -7,11 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Stack, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T12:36:18.462Z
+ * Synced: 2026-07-22T12:37:23.038Z
  */
 
 class Solution {
     public String compressString(String s) {
-        StringBuilder sb=new StringBuilder()
+        StringBuilder sb=new StringBuilder();
+        int c
     }
 }
