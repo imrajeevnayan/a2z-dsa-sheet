@@ -1,0 +1,18 @@
+# Coin Combinations II
+
+- Platform: CSES
+- Language: Java
+- Difficulty: Unknown
+- Topics: TASK, RESULTS, ANALYSIS, STATISTICS, TESTS, QUEUE, SHARE CODE TO OTHERS, Dice Combinations
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://cses.fi/problemset/result/18038718/
+- Synced: 2026-07-22T08:12:50.465Z
+
+## Problem Description
+
+Submission details Task: Coin Combinations II Sender: imrajeevnayan Submission time: 2026-07-22 11:12:45 +0300 Language: Java Status: READY Result: ACCEPTED Test results test verdict time #1 ACCEPTED 0.11 s details #2 ACCEPTED 0.12 s details #3 ACCEPTED 0.10 s details #4 ACCEPTED 0.56 s details #5 ACCEPTED 0.34 s details #6 ACCEPTED 0.10 s details #7 ACCEPTED 0.11 s details #8 ACCEPTED 0.64 s details #9 ACCEPTED 0.54 s details #10 ACCEPTED 0.11 s details #11 ACCEPTED 0.62 s details #12 ACCEPTED 0.12 s details #13 ACCEPTED 0.12 s details #14 ACCEPTED 0.64 s details #15 ACCEPTED 0.63 s details Code import java.util.Scanner; public class CombinationsII { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int n = sc.nextInt(); int x = sc.nextInt(); int[] coins = new int[n]; for (int i = 0; i < n; i++) { coins[i] = sc.nextInt(); } int MOD = 1_000_000_007; int[] dp = new int[x + 1]; dp[0] = 1; for (int coin : coins) { for (int j = coin; j <= x; j++) { dp[j] = (dp[j] + dp[j - coin]) % MOD; } } System.out.println(dp[x]); sc.close(); } } SHARE CODE TO OTHERS Test details Test 1 Verdict: ACCEPTED input 1 1 1 view save correct output 1 view save user output 1 view save Test 2 Verdict: ACCEPTED input 1 1000000 1 view save correct output 1 view save user output 1 view save Test 3 Verdict: ACCEPTED input 3 2000 1 1500 1000 view save correct output 4 view save user output 4 view save Test 4 Verdict: ACCEPTED input 100 1000000 27 69 68 13 1 63 28 44 45 67 5... view save correct output 869167734 view save user output 869167734 view save Test 5 Verdict: ACCEPTED input 100 1000000 649304 85832 159093 841262 930... view save correct output 7029 view save user output 7029 view save Test 6 Verdict: ACCEPTED input 1 1 1000000 view save correct output 0 view save user output 0 view save Test 7 Verdict: ACCEPTED input 100 1000 389 101 552 795 876 269 887 10... view save correct output 24369327 view save user output 24369327 view save Test 8 Verdict: ACCEPTED input 100 1000000 999 541 97 522 78 380 993 971 ... view save correct output 187405784 view save user output 187405784 view save Test 9 Verdict: ACCEPTED input 100 1000000 89384 30887 92778 36916 47794 ... view save correct output 205112015 view save user output 205112015 view save Test 10 Verdict: ACCEPTED input 2 123123 1 2 view save correct output 61562 view save user output 61562 view save Test 11 Verdict: ACCEPTED input 100 1000000 1 2 3 4 5 6 7 8 9 10 11 12 13 ... view save correct output 869167734 view save user output 869167734 view save Test 12 Verdict: ACCEPTED input 2 1000000 1 1000000 view save correct output 2 view save user output 2 view save Test 13 Verdict: ACCEPTED input 13 92342 1 2 3 4 67340 67335 67330 6732... view save correct output 0 view save user output 0 view save Test 14 Verdict: ACCEPTED input 100 1000000 50 51 52 53 54 55 56 57 58 59 ... view save correct output 241154683 view save user output 241154683 view save Test 15 Verdict: ACCEPTED input 100 1000000 10000 10001 10002 10003 10004 ... view save correct output 1 view save user output 1 view save
+
+## Explanation
+
+This solution was accepted on CSES using Java. The detected topics are TASK, RESULTS, ANALYSIS, STATISTICS, TESTS, QUEUE, SHARE CODE TO OTHERS, Dice Combinations. Review the synced source file for the implementation details.
