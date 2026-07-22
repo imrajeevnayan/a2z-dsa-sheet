@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-19T17:46:45.558Z",
+  "submissionTimestamp": "2026-07-22T18:09:24.753Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Hash Table",
-    "Sorting"
+    "String",
+    "Trie"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/description/",
-  "submissionId": "6kis5t"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
+  "submissionId": "gvllt8"
 }
