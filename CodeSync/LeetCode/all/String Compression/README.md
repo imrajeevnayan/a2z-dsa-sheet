@@ -6,8 +6,8 @@
 - Topics: Two Pointers, String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/string-compression/
-- Synced: 2026-07-22T12:28:16.819Z
+- Problem URL: https://leetcode.com/problems/string-compression/submissions/
+- Synced: 2026-07-22T12:29:08.148Z
 
 ## Problem Description
 
