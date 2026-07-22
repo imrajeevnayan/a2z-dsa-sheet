@@ -1,21 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-02T12:20:35.584Z",
+  "submissionTimestamp": "2026-07-22T12:44:46.370Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags",
-    "FactSet",
-    "Visa",
-    "Goldman Sachs",
-    "Qualcomm",
-    "Kritikal Solutions",
-    "Topic Tags"
+    "Topic Tags",
+    "Strings",
+    "Related Articles",
+    "Program To Check If Two Strings Are Same Or Not"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class myStack: def __init__(self, n): # Define Data Structures self.stack=[] self.n=n def isEmpty(self): # Check if stack is empty return len(self.stack)==0 def isFull(self): # Check if stack is full return len(self.stack)==self.n def push(self, x): # Insert x at the top of the stack if self.n > len(self.stack): self.stack.append(x) def pop(self): # Removes an element from the top of the stack if not self.isEmpty(): return self.stack.pop() return -1 def peek(self): # Returns the top element of the stack if self.isEmpty(): return -1 return self.stack[-1]",
+  "language": "Java (21)",
   "problemTitle": "Easy C++ Solution",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/implement-stack-using-array/1",
-  "submissionId": "nnh7k4"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1",
+  "submissionId": "adk8gp"
 }
