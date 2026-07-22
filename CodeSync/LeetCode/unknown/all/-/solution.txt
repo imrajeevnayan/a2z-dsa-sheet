@@ -1,30 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2075849344/
+ * URL: https://leetcode.com/submissions/detail/2076172484/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 6 ms
- * Memory: 98.16 MB
- * Synced: 2026-07-21T13:34:28.122Z
+ * Runtime: 0 ms
+ * Memory: 42.96 MB
+ * Synced: 2026-07-21T17:51:41.865Z
  */
 
 1class Solution {
-2    public long maxAlternatingSum(int[] nums) {
-3
-4        long even = 0;
-5        long odd = 0;
-6
-7        for (int x : nums) {
-8            long newEven = Math.max(even, odd + x);
-9            long newOdd = Math.max(odd, even - x);
-10
-11            even = newEven;
-12            odd = newOdd;
-13        }
-14
-15        return even;
+2    static int solve(int amount, int[] coins, int[] dp) {
+3        if (amount == 0) return 1;
+4        if (amount < 0) return 0;
+5        if (dp[amount] != -1) return dp[amount];
+6        int totalWays = 0;
+7        for (int c : coins) {
+8            totalWays += solve(amount - c, coins, dp);
+9        }
+10        return dp[amount] = totalWays;
+11    }
+12    public int combinationSum4(int[] coins, int amount) {
+13        int[] dp = new int[amount + 1];
+14        Arrays.fill(dp, -1);
+15        return solve(amount, coins, dp);
 16    }
 17}
-18
