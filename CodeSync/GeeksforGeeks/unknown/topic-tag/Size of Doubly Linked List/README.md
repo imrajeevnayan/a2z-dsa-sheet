@@ -1,13 +1,13 @@
 # Size of Doubly Linked List
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def findSize(self, head): sizee = 0 while head: sizee += 1 head = head.next return sizee
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/size-of-doubly-linked-list--114556/1
-- Synced: 2026-07-22T15:28:19.643Z
+- Synced: 2026-07-22T15:29:18.067Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a doubly linked list. The task is to find the number of nodes in the doubl
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def findSize(self, head): sizee = 0 while head: sizee += 1 head = head.next return sizee. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List. Review the synced source file for the implementation details.
