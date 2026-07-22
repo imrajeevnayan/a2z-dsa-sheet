@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-08T04:05:45.157Z",
+  "submissionTimestamp": "2026-07-22T18:09:24.753Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Dynamic Programming",
-    "Memoization"
+    "Array",
+    "String",
+    "Trie"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
-  "submissionId": "eje0xj"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
+  "submissionId": "gvllt8"
 }
