@@ -5,27 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T17:21:41.090Z
+ * Synced: 2026-07-21T18:00:13.733Z
  */
 
 class Solution {
-    static int solve(int i, int amount, int[] coins, int[][] dp) {
+    static int solve(int amount, int[] coins, int[] dp) {
         if (amount == 0) return 1;
-        if (amount < 0 || i >= coins.length) return 0;
-        if (dp[i][amount] != -1) return dp[i][amount];
-
-        int take = solve(i, amount - coins[i], coins, dp);
-        int skip = solve(i + 1, amount, coins, dp);
-
-        return dp[i][amount] = take + skip;
-    }
-    public int change(int amount, int[] coins) {
-        int[][] dp = new int[coins.length][amount + 1];
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
+        if (amount < 0) return 0;
+        if (dp[amount] != -1) return dp[amount];
+        int totalWays = 0;
+        for (int c : coins) {
+            totalWays += solve(amount - c, coins, dp);
         }
-        return solve(0, amount, coins,dp);
+        return dp[amount] = totalWays;
+    }
+    public int combinationSum4(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, -1);
+        return solve(amount, coins, dp);
     }
 }
