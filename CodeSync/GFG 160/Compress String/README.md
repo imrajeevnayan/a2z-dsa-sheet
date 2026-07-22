@@ -1,13 +1,13 @@
 # Compress String
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: string transform(string S) { // complete the function here for(char &x: S){ x=tolower(x); } string res=""; for(int i=0; i<S.length(); i++){ int count=1; while(i+1 < S.length() && S[i] == S[i+1]){ count++; i++; } res+=to_string(count); res+=S[i]; } return res; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Strings, Stack, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/easy-string2212/1
-- Synced: 2026-07-22T12:35:32.842Z
+- Synced: 2026-07-22T12:36:18.462Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, compress it by replacing each group of consecutive identical c
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, Stack, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using string transform(string S) { // complete the function here for(char &x: S){ x=tolower(x); } string res=""; for(int i=0; i<S.length(); i++){ int count=1; while(i+1 < S.length() && S[i] == S[i+1]){ count++; i++; } res+=to_string(count); res+=S[i]; } return res; }. The detected topics are Expected Complexities, Topic Tags, Strings, Stack, Related Articles. Review the synced source file for the implementation details.
