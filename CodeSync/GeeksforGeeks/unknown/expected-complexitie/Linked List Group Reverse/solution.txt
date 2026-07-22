@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T16:56:52.420Z
+ * Synced: 2026-07-22T16:57:38.636Z
  */
 
 class Solution {
