@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/coin-change-ii/
-- Synced: 2026-07-21T17:20:54.092Z
+- Synced: 2026-07-21T17:21:41.090Z
 
 ## Problem Description
 
