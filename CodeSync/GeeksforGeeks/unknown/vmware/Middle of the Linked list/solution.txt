@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Middle of the Linked list
+ * URL: https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
+ * Language: class Solution: def find_middle_brute_force(self): if not self.head: return None # Step 1: Count total nodes count = 0 current = self.head while current: count += 1 current = current.next # Step 2: Traverse to the middle mid_index = count // 2 current = self.head for _ in range(mid_index): current = current.next return current.data
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Flipkart, Morgan Stanley, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T16:48:32.004Z
+ */
+
+class Solution {
+    int getMiddle(Node head) {
+        Node fast=head,slow=head;
+        while(fast!=null )
+        
+    }
+}
