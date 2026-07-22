@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Union of Two Linked Lists✅✅
+ * URL: https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1
+ * Language: function merge(List a, List b) { if( list a is null ) return list b if(list b is null ) return list a List ans = null if(a.data<b.data) // add a node to answer { ans=a ans.next=merge(a.next,b) } else if(b.data<a.data) // add b node to answer { ans=b ans.next=merge(a,b.next) } else //This is important to handle duplicate elements { ans=b // you can write a or b(any) ans.next=merge(a.next,b.next) //move both pointers. } return ans }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, 24*7 Innovation Labs, Komli Media, Taxi4Sure
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T17:53:46.276Z
+ */
+
+class Solution {
+    public Node makeUnion(Node head1, Node head2) {
+        HashSet<Integer> set = new HashSet<>();
+
+        Node temp = new Node(0);
+        Node curr = temp;
+
+        while (head1 != null) {
+            if (!set.contains(head1.data)) {
+                set.add(head1.data);
+                curr.next = new Node(head1.data);
+                curr = curr.next;
+            }
+            head1 = head1.next;
+        }
+
+        while (head2 != null) {
+            if (!set.contains(head2.data)) {
+                set.add(head2.data);
+                curr.next = new Node(head2.data);
+                curr = curr.next;
+            }
+            head2 = head2.next;
+        }
+
+        return temp.next;
+    }
+}
