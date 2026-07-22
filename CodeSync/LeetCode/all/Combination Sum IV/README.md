@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/combination-sum-iv/
-- Synced: 2026-07-21T17:23:24.404Z
+- Problem URL: https://leetcode.com/problems/combination-sum-iv/submissions/2076172484/
+- Synced: 2026-07-21T17:24:09.413Z
 
 ## Problem Description
 
