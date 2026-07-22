@@ -7,16 +7,15 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-22T17:41:59.976Z
+ * Synced: 2026-07-22T17:42:51.938Z
  */
 
 public int findKthPositive(int[] arr, int k) {
         int num = 1, i = 0;
 
         while (k > 0) {
-            if (i < arr.length && arr[i] == num) {
-                i++;
-            } else {
+            if (i < arr.length && arr[i] == num) i++;
+            else {
                 k--;
                 if (k == 0) return num;
             }
