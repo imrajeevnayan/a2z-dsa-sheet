@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Stack, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T12:38:55.826Z
+ * Synced: 2026-07-22T12:39:41.040Z
  */
 
 class Solution {
@@ -16,7 +16,10 @@ class Solution {
         StringBuilder sb=new StringBuilder();
         int count=1;
         for(int i=1;i<=s.length();i++){
-            if(i<s.length()&& s.charAt(i)==s.charAt)
+            if(i<s.length()&& s.charAt(i)==s.charAt(i-1))count++;
+            else{
+                s.append(s.charAt(i-1)).append
+            }
         }
     }
 }
