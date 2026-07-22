@@ -1296,5 +1296,11 @@
   "geeksforgeeks:reverse-a-linked-list-in-groups-of-given-size": [
     "custom:love-babbar-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:circular-linked-list": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
   ]
 }
