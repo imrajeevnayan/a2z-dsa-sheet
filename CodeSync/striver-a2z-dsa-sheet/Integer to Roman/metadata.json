@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-22T12:33:48.682Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-22T12:34:41.183Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.56 MB",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Integer to Roman",
-  "problemUrl": "https://leetcode.com/problems/integer-to-roman/",
+  "problemUrl": "https://leetcode.com/problems/integer-to-roman/submissions/2077097018/",
   "submissionId": "5yoael"
 }
