@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Two Pointers, String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/string-compression/
-- Synced: 2026-07-22T12:27:28.830Z
+- Synced: 2026-07-22T12:28:16.819Z
 
 ## Problem Description
 
