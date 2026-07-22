@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
-- Synced: 2026-06-22T06:58:41.938Z
+- Problem URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
+- Synced: 2026-07-22T16:25:28.349Z
 
 ## Problem Description
 
