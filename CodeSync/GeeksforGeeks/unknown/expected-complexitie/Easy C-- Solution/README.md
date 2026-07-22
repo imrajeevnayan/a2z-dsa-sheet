@@ -1,18 +1,18 @@
 # Easy C++ Solution
 
 - Platform: GeeksforGeeks
-- Language: class myStack: def __init__(self, n): # Define Data Structures self.stack=[] self.n=n def isEmpty(self): # Check if stack is empty return len(self.stack)==0 def isFull(self): # Check if stack is full return len(self.stack)==self.n def push(self, x): # Insert x at the top of the stack if self.n > len(self.stack): self.stack.append(x) def pop(self): # Removes an element from the top of the stack if not self.isEmpty(): return self.stack.pop() return -1 def peek(self): # Returns the top element of the stack if self.isEmpty(): return -1 return self.stack[-1]
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
+- Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
-- Synced: 2026-06-02T12:20:35.584Z
+- Problem URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
+- Synced: 2026-07-22T12:44:46.370Z
 
 ## Problem Description
 
-Implement a Stack using an Array, where the size of the array, n is given. The Stack must support the following operations: (i) push(x): Insert an element x at the top of the stack. (ii) pop(): Remove the element from the top of the stack. (iii) peek(): Return the top element if not empty, else -1. (iv) isEmpty(): Return true if the stack is empty else return false. (v) isFull(): Return true if the stack is full else return false. There will be a sequence of queries queries[][]. The queries are represented in numeric form: 1 x : Call push(x) 2 : Call pop() 3 : Call peek() 4 : Call isEmpty() 5 : Call isFull() You just have to implement the functions push, pop, peek, isEmpty, and isFull. The driver code will handle the output. Note: All the queries are valid. Examples: Input: n = 3, q = 6, queries[][] = [[1, 5], [1, 3], [3], [2], [4], [5]] Output: [3, false, false] Explanation: Queries on stack are as follows: push(5) : Insert 5 at the top of the stack. push(3) : Insert 3 at the top of the stack. peek() : Return the top element i.e. 3. pop() : Remove the top element i.e. 3. isEmpty() : return false as the stack is not empty. isFull() : return false as the stack is not full. Capacity = 3. Input: n = 1, q = 5, queries[][] = [[2], [3], [4], [1, 9], [5]] Output: [-1, -1, true, true] Explanation: Queries on stack are as follows: pop(): Since stack is empty, nothing is popped. peek(): Return the top element. Since the stack is empty, return -1. isEmpty(): Return true as the stack is empty. push(9): Insert 9 at the top of the stack. The stack will be [9]. isFull(): Return true as the stack is full. Capacity = 1. Constraints: 1 ≤ n ≤ 103 1 ≤ q ≤ 103 0 ≤ x ≤ 105
+Given two strings s1 and s2, determine if they are exactly the same, considering case sensitivity. Examples: Input: s1 = "abc" , s2 = "abc" Output: true Input: s1 = " " , s2 = " " Output: true Input: s1 = "geeks", s2 = "Geeks" Output: false Constraints: 1 ≤ |s1|, |s2| ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class myStack: def __init__(self, n): # Define Data Structures self.stack=[] self.n=n def isEmpty(self): # Check if stack is empty return len(self.stack)==0 def isFull(self): # Check if stack is full return len(self.stack)==self.n def push(self, x): # Insert x at the top of the stack if self.n > len(self.stack): self.stack.append(x) def pop(self): # Removes an element from the top of the stack if not self.isEmpty(): return self.stack.pop() return -1 def peek(self): # Returns the top element of the stack if self.isEmpty(): return -1 return self.stack[-1]. The detected topics are Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not. Review the synced source file for the implementation details.
