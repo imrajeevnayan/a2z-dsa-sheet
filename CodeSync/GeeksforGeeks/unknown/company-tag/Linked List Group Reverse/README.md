@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
-- Synced: 2026-07-22T17:01:38.640Z
+- Synced: 2026-07-22T17:02:26.647Z
 
 ## Problem Description
 
