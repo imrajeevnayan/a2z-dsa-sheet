@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse a linked list
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T16:25:28.349Z
+ */
+
+class Solution {
+    Node reverseList(Node head) {
+        Node curr=head;
+        Node prev=null;
+        while(curr!=null){
+            Node temp=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=temp;
+        }
+        return prev;
+    }
+}
