@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Linked List, Related Articles, Insertion Sort For Singly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T15:59:00.160Z
+ * Synced: 2026-07-22T16:04:11.022Z
  */
 
 class Solution {
