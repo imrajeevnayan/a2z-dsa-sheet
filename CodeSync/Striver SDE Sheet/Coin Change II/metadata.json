@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-21T17:22:39.111Z",
+  "submissionTimestamp": "2026-07-21T18:00:13.733Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Coin Change II",
-  "problemUrl": "https://leetcode.com/problems/combination-sum-iv/description/",
-  "submissionId": "5xhuvs"
+  "problemUrl": "https://leetcode.com/problems/coin-change-ii/",
+  "submissionId": "ndbil"
 }
