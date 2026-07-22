@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/string-compression/
-- Synced: 2026-07-22T12:08:31.921Z
+- Synced: 2026-07-22T12:09:19.924Z
 
 ## Problem Description
 
