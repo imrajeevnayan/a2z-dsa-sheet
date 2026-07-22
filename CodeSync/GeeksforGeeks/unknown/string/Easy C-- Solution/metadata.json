@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T11:24:39.884Z",
+  "submissionTimestamp": "2026-07-22T12:44:46.370Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,11 +7,12 @@
     "Expected Complexities",
     "Topic Tags",
     "Strings",
-    "Related Articles"
+    "Related Articles",
+    "Program To Check If Two Strings Are Same Or Not"
   ],
   "platform": "GeeksforGeeks",
-  "language": "let l= s.length let str='' for(let i=0; i<l; i++){ if(s[i]!=c){ str=str+s[i] } } return str }",
+  "language": "Java (21)",
   "problemTitle": "Easy C++ Solution",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1",
-  "submissionId": "5rmpas"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1",
+  "submissionId": "adk8gp"
 }
