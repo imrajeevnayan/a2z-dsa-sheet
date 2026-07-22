@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Search in Linked List
+ * URL: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T17:23:19.138Z
+ */
+
+class Solution {
+    public boolean searchKey(Node head, int key) {
+        Node curr=head;
+        while(curr!=null){
+            if(key==curr.data)return true;
+            curr=curr.next;
+        }
+        return false;
+    }
+}
