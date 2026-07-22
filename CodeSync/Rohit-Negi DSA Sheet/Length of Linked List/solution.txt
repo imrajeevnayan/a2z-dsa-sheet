@@ -7,14 +7,17 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T16:05:09.357Z
+ * Synced: 2026-07-22T16:05:55.613Z
  */
 
 class Solution {
     public int getCount(Node head) {
         int len=0;
         Node curr=head;
-        while(curr!)
-        
+        while(curr!=null){
+            len++;
+            curr=curr.next;
+        }
+      return len
     }
 }
