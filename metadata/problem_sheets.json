@@ -1309,5 +1309,11 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "GFG160"
+  ],
+  "leetcode:kth-missing-positive-number": [
+    "custom:striver-a2z-dsa-sheet",
+    "CSESSet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
   ]
 }
