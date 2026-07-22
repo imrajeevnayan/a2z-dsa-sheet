@@ -116,7 +116,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Love Babbar 450 | 3 | 450 |
 | Coder Army DSA | 0 | 350 |
 | GFG 160 | 207 | 160 |
-| CSES Problem Set | 9 | 300 |
+| CSES Problem Set | 10 | 300 |
 | InterviewBit Sets | 5 | 200 |
 | Nishant Chahar 151 | 12 | 151 |
 | Kushal Vijay Patterns | 8 | 100 |
