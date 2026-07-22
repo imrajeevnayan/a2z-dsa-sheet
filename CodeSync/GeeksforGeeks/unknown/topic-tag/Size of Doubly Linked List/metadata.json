@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T10:53:44.802Z",
+  "submissionTimestamp": "2026-07-22T15:28:19.643Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def findSize(self, head): sizee = 0 while head: sizee += 1 head = head.next return sizee",
+  "language": "Java (21)",
   "problemTitle": "Size of Doubly Linked List",
   "problemUrl": "https://www.geeksforgeeks.org/problems/size-of-doubly-linked-list--114556/1",
-  "submissionId": "j2yhlz"
+  "submissionId": "8jzwhj"
 }
