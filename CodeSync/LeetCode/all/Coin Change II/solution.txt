@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change II
- * URL: https://leetcode.com/problems/coin-change-ii/
+ * URL: https://leetcode.com/problems/combination-sum-iv/description/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T17:21:41.090Z
+ * Synced: 2026-07-21T17:22:39.111Z
  */
 
 class Solution {
