@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-missing-positive-number/description/
-- Synced: 2026-07-22T17:21:44.173Z
+- Problem URL: https://leetcode.com/problems/kth-missing-positive-number/
+- Synced: 2026-07-22T17:22:35.223Z
 
 ## Problem Description
 
