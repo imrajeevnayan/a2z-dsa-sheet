@@ -1,25 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1
- * Language: let l= s.length let str='' for(let i=0; i<l; i++){ if(s[i]!=c){ str=str+s[i] } } return str }
+ * URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Strings, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:24:39.884Z
+ * Synced: 2026-07-22T12:44:46.370Z
  */
 
 class Solution {
-    public void removeCharacter(StringBuilder s, char c) {
-        int j= 0;
+    public static boolean areStringsSame(String s1, String s2) {
+        return s1.equals(s2);
         
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) != c) {
-                s.setCharAt(j, s.charAt(i));
-                j++;
-            }
-        }
-         s.setLength(j);
     }
 }
