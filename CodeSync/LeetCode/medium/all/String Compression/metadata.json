@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-22T12:27:28.830Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-22T12:28:16.819Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "String Compression",
   "problemUrl": "https://leetcode.com/problems/string-compression/",
-  "submissionId": "uza7wo"
+  "submissionId": "qrjfm8"
 }
