@@ -1,13 +1,13 @@
 # Delete without head pointer
 
 - Platform: GeeksforGeeks
-- Language: class Solution: #Function to delete a node without any reference to head pointer. def deleteNode(self,del_node): #code here del_node.data = del_node.next.data del_node.next = del_node.next.next
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Samsung, Visa, Goldman Sachs, Kritikal Solutions
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1
-- Synced: 2026-07-22T16:09:49.955Z
+- Synced: 2026-07-22T16:10:35.192Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a node del_node of a singly linked list. Delete this node from the list wi
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: #Function to delete a node without any reference to head pointer. def deleteNode(self,del_node): #code here del_node.data = del_node.next.data del_node.next = del_node.next.next. The detected topics are Expected Complexities, Company Tags, Amazon, Microsoft, Samsung, Visa, Goldman Sachs, Kritikal Solutions. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Amazon, Microsoft, Samsung, Visa, Goldman Sachs, Kritikal Solutions. Review the synced source file for the implementation details.
