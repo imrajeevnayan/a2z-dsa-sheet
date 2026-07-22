@@ -1,17 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Kth Missing Positive Number
- * URL: https://leetcode.com/problems/kth-missing-positive-number/
+ * URL: https://leetcode.com/problems/kth-missing-positive-number/submissions/2077475813/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-22T17:34:05.953Z
+ * Runtime: 0 ms
+ * Memory: 44.77 MB
+ * Synced: 2026-07-22T17:34:56.159Z
  */
 
-class Solution {
-    public int findKthPositive(int[] arr, int k) {
+public int findKthPositive(int[] arr, int k) {
         int num = 1, i = 0;
 
         while (k > 0) {
