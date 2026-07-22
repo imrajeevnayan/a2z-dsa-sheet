@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/longest-common-prefix/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, Dynamic Programming, Memoization
+ * Topics: Array, String, Trie
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T04:05:45.157Z
+ * Synced: 2026-07-22T18:09:24.753Z
  */
 
-Input: n = 4
-Output: 4
-Explanation:
-T_3 = 0 + 1 + 1 = 2
-T_4 = 1 + 1 + 2 = 4
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
