@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-22T17:34:56.159Z",
+  "submissionTimestamp": "2026-07-22T17:35:46.046Z",
   "runtime": "0 ms",
-  "memoryUsage": "44.77 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Kth Missing Positive Number",
-  "problemUrl": "https://leetcode.com/problems/kth-missing-positive-number/submissions/2077475813/",
-  "submissionId": "eiauza"
+  "problemUrl": "https://leetcode.com/problems/kth-missing-positive-number/",
+  "submissionId": "4y6jri"
 }
