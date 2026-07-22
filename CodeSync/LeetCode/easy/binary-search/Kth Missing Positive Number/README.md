@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Binary Search
 - Runtime: 0 ms
-- Memory: 44.77 MB
-- Problem URL: https://leetcode.com/problems/kth-missing-positive-number/submissions/2077475813/
-- Synced: 2026-07-22T17:34:56.159Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/kth-missing-positive-number/
+- Synced: 2026-07-22T17:35:46.046Z
 
 ## Problem Description
 
