@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/longest-common-prefix/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, String, Trie
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T18:09:24.753Z
+ */
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
