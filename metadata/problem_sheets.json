@@ -1207,5 +1207,9 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:shortest-palindrome": [
+    "custom:algomaster-300",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
