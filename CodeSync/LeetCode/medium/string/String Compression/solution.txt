@@ -5,27 +5,26 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Two Pointers, String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-22T12:27:28.830Z
+ * Synced: 2026-07-22T12:28:16.819Z
  */
 
 for (int i = 1; i <= chars.length; i++) {
-            if (i < chars.length && chars[i] == chars[i - 1]) {
-                count++;
-            } else {
+            if (i < chars.length && chars[i] == chars[i - 1]) count++;
+           else {
                 chars[idx++] = chars[i - 1];
-
                 if (count > 1) {
                     for (char c : String.valueOf(count).toCharArray()) {
                         chars[idx++] = c;
                     }
                 }
-
                 count = 1;
             }
         }
-
+    public int compress(char[] chars) {
+        int count = 1,idx = 0;
+class Solution {
         return idx;
     }
 }
