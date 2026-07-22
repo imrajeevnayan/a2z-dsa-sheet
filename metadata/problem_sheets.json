@@ -1221,5 +1221,8 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:maximize-active-section-with-trade-ii": []
+  "leetcode:maximize-active-section-with-trade-ii": [],
+  "geeksforgeeks:easy-string2212": [
+    "GFG160"
+  ]
 }
