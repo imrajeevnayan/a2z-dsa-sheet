@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 42.96 MB
- * Synced: 2026-07-21T17:51:42.679Z
+ * Synced: 2026-07-21T17:54:08.490Z
  */
 
 1class Solution {
