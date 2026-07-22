@@ -7,19 +7,19 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T15:32:22.822Z
+ * Synced: 2026-07-22T15:33:50.702Z
  */
 
 class Solution {
     public Node insertAtBeginning(Node tail, int key) {
-        Node newNode = new Node(key);
+        Node temp = new Node(key);
 
         if (tail == null) {
-            newNode.next = newNode;
-            return newNode;
+            temp.next = temp;
+            return temp;
         }
-        newNode.next = tail.next;
-        tail.next = newNode;
+        temp.next = tail.next;
+        tail.next = temp;
 
         return tail;
     }
