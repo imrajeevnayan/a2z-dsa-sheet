@@ -1,15 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Kth Missing Positive Number
- * URL: https://leetcode.com/problems/kth-missing-positive-number/description/
+ * URL: https://leetcode.com/problems/kth-missing-positive-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T17:21:44.173Z
+ * Synced: 2026-07-22T17:22:35.223Z
  */
 
-Input: arr = [2,3,4,7,11], k = 5
-Output: 9
-Explanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.
+class Solution {
+    public int findKthPositive(int[] arr, int k) {
+        int left = 0, right = arr.length - 1, ans=arr.length;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if(arr[mid]-mid-1 >=k){
+                ans=mid;
+                right=mid-1;
+            }
+           else   left = mid +1;
+        }
+       return ans+ k;
+    }
+}
