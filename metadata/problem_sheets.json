@@ -1239,5 +1239,8 @@
     "custom:neetcode-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:insertion-at-the-beginning-of-circular-linked-list": [
+    "GFG160"
   ]
 }
