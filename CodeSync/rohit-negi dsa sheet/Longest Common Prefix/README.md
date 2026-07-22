@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, String, Trie
 - Runtime: 0 ms
-- Memory: 43.05 MB
-- Problem URL: https://leetcode.com/problems/longest-common-prefix/
-- Synced: 2026-06-30T09:47:23.369Z
+- Memory: 43.36 MB
+- Problem URL: https://leetcode.com/problems/longest-common-prefix/submissions/2077526665/
+- Synced: 2026-07-22T18:10:14.164Z
 
 ## Problem Description
 
