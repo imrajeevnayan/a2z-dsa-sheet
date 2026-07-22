@@ -1,29 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
- * Language: class Solution { public: stack<int> insertAtBottom(stack<int> st, int x) { aadarsh(st,x); return st; } void aadarsh(stack<int> &st, int x) { if(st.empty()){ st.push(x); return; } int ans=st.top(); st.pop(); aadarsh(st,x); st.push(ans); } };
+ * URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Topic Tags Related Articles, Topic Tags, Recursion, Stack, implementation, Data Structures, Algorithms, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:40:15.983Z
+ * Synced: 2026-07-22T12:44:46.370Z
  */
 
-import java.util.*;
-
 class Solution {
-    public Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {
-
-        if (st.isEmpty()) {
-            st.push(x);
-            return st;
-        }
-
-        int top = st.pop();
-        insertAtBottom(st, x);
-        st.push(top);
-
-        return st;
+    public static boolean areStringsSame(String s1, String s2) {
+        return s1.equals(s2);
+        
     }
 }
