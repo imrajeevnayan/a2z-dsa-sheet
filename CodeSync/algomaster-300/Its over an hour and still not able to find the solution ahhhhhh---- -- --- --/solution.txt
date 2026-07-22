@@ -1,0 +1,31 @@
+/*
+ * Platform: LeetCode
+ * Problem: Its over an hour and still not able to find the solution ahhhhhh!!!! 🧠 🍽️ 🧠
+ * URL: https://leetcode.com/problems/shortest-palindrome/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: String, Rolling Hash, String Matching, Hash Function
+ * Runtime: 2 ms
+ * Memory: N/A
+ * Synced: 2026-07-22T10:57:29.588Z
+ */
+
+class Solution {
+    public String shortestPalindrome(String s) {
+        String rev = new StringBuilder(s).reverse().toString();
+        String str = s + "#" + rev;
+
+        int[] lps = new int[str.length()];
+
+        for (int i = 1; i < str.length(); i++) {
+            int j = lps[i - 1];
+            while (j > 0 && str.charAt(i) != str.charAt(j))
+                j = lps[j - 1];
+            if (str.charAt(i) == str.charAt(j))
+                j++;
+            lps[i] = j;
+        }
+
+        return rev.substring(0, s.length() - lps[str.length() - 1]) + s;
+    }
+}
