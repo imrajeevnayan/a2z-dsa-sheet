@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1
-- Synced: 2026-07-18T18:28:13.595Z
+- Synced: 2026-07-22T16:08:03.888Z
 
 ## Problem Description
 
