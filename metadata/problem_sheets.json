@@ -1211,5 +1211,6 @@
   "leetcode:shortest-palindrome": [
     "custom:algomaster-300",
     "custom:striver-a2z-dsa-sheet"
-  ]
+  ],
+  "leetcode:string-compression": []
 }
