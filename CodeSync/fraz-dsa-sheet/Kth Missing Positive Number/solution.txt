@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-22T17:44:53.054Z
+ * Synced: 2026-07-22T17:45:43.278Z
  */
 
 public int findKthPositive(int[] arr, int k) {
