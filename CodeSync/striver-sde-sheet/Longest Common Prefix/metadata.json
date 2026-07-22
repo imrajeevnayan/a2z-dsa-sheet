@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-30T09:47:23.369Z",
+  "submissionTimestamp": "2026-07-22T18:10:14.164Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.05 MB",
+  "memoryUsage": "43.36 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Common Prefix",
-  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/",
-  "submissionId": "rg4na3"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/submissions/2077526665/",
+  "submissionId": "cqunb6"
 }
