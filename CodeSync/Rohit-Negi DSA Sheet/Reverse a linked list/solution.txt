@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Reverse a linked list
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T06:58:41.938Z
+ * Synced: 2026-07-22T16:25:28.349Z
  */
 
 class Solution {
