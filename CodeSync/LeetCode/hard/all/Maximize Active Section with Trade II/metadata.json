@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-22T12:34:43.217Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "String",
+    "Binary Search",
+    "Segment Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Maximize Active Section with Trade II",
+  "problemUrl": "https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/?envType=daily-question&envId=2026-07-22",
+  "submissionId": "yz5rqf"
+}
