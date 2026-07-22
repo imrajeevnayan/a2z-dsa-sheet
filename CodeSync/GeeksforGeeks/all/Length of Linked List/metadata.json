@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-22T16:05:09.357Z",
+  "submissionTimestamp": "2026-07-22T16:05:55.613Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -13,5 +13,5 @@
   "language": "class Solution { public: int getCount(Node* head) { // Code here int count = 0; while(head != NULL){ count++; head = head->next; } return count; } };",
   "problemTitle": "Length of Linked List",
   "problemUrl": "https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1",
-  "submissionId": "16vy79"
+  "submissionId": "6vmg5j"
 }
