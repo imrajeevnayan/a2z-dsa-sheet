@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-22T16:56:03.245Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "VMWare",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "Snapdeal"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "\"\"\" class Node: def __init__(self, data): self.data = data self.next = None \"\"\" class Solution: def reverseKGroup(self, head, k): # Code here def reverse(node): curr = node prev = None l = 0 while curr and l < k: nxt = curr.next curr.next = prev prev = curr curr = nxt l += 1 return prev, curr dummy = Node(0) back = dummy while head: prev, front = reverse(head) back.next = prev back = head head.next = front head = front return dummy.next",
+  "problemTitle": "Linked List Group Reverse",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1",
+  "submissionId": "fh0x90"
+}
