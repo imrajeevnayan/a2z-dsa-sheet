@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-17T10:05:51.344Z",
+  "submissionTimestamp": "2026-07-22T18:09:24.753Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Math",
-    "Two Pointers"
+    "String",
+    "Trie"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
-  "submissionId": "t7h6vw"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
+  "submissionId": "gvllt8"
 }
