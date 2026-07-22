@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-22T17:15:06.442Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Related Articles",
+    "Move Zeroes Front Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Move all zeros to the front of the linked list",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/move-all-zeros-to-the-front-of-the-linked-list/1",
+  "submissionId": "n0c1n0"
+}
