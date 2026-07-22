@@ -1187,5 +1187,14 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "leetcode:combination-sum-iv": [
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:arsh-goyal-dsa-sheet"
   ]
 }
