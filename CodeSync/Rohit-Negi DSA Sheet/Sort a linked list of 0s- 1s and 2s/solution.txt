@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort a linked list of 0s, 1s and 2s
+ * URL: https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTripNPCI, Company Tags, Amazon, Microsoft, MakeMyTrip, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-22T17:23:56.315Z
+ */
+
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int d)
+    {
+        data = d;
+        next = null;
+    }
+}*/
+
+class Solution {
+    public Node segregate(Node head) {
+        // code here
+        
+    }
+}
