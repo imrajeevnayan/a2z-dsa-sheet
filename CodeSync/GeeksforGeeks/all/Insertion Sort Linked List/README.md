@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insertion-sort-list/1
-- Synced: 2026-07-22T15:54:28.724Z
+- Synced: 2026-07-22T16:04:11.022Z
 
 ## Problem Description
 
