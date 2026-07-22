@@ -2,17 +2,16 @@
  * Platform: GeeksforGeeks
  * Problem: Compress String
  * URL: https://www.geeksforgeeks.org/problems/easy-string2212/1
- * Language: Java (21)
+ * Language: string transform(string S) { // complete the function here for(char &x: S){ x=tolower(x); } string res=""; for(int i=0; i<S.length(); i++){ int count=1; while(i+1 < S.length() && S[i] == S[i+1]){ count++; i++; } res+=to_string(count); res+=S[i]; } return res; }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Strings, Stack, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T12:35:32.842Z
+ * Synced: 2026-07-22T12:36:18.462Z
  */
 
 class Solution {
     public String compressString(String s) {
-        // code here
-        
+        StringBuilder sb=new StringBuilder()
     }
 }
