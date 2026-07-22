@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-22T16:25:28.349Z",
+  "submissionTimestamp": "2026-07-22T16:39:28.035Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Microsoft"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Node: def __init__(self, val): self.data = val self.next = None class Solution: def reverseList(self, head): # Code here temp = head prev = None while temp is not None: front = temp.next temp.next = prev prev = temp temp = front return prev",
   "problemTitle": "Reverse a linked list",
   "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1",
-  "submissionId": "tql0e0"
+  "submissionId": "cek3ou"
 }
