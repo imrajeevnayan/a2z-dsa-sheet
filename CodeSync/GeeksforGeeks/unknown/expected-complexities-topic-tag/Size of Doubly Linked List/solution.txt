@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Size of Doubly Linked List
  * URL: https://www.geeksforgeeks.org/problems/size-of-doubly-linked-list--114556/1
- * Language: Java (21)
+ * Language: class Solution: def findSize(self, head): sizee = 0 while head: sizee += 1 head = head.next return sizee
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T15:28:19.643Z
+ * Synced: 2026-07-22T15:29:18.067Z
  */
 
 class Solution {
