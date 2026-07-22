@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-22T15:54:28.724Z",
+  "submissionTimestamp": "2026-07-22T15:58:01.035Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Insertion Sort For Singly Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public Node insertionSort(Node head) { ArrayList<Integer> lst = new ArrayList<>(); Node curr = head; while (curr != null) { lst.add(curr.val); curr = curr.next; } // Sorted the List using Collections.sort method Collections.sort(lst); //Boundary Condition:- if (lst.size() == 0) return null; Node newHead = new Node(lst.get(0)); Node dummy = newHead; for (int i = 1; i < lst.size(); i++) { dummy.next = new Node(lst.get(i)); dummy = dummy.next; } return newHead; } }",
+  "language": "Java (21)",
   "problemTitle": "Insertion Sort Linked List",
   "problemUrl": "https://www.geeksforgeeks.org/problems/insertion-sort-list/1",
-  "submissionId": "zeamd3"
+  "submissionId": "her3y0"
 }
