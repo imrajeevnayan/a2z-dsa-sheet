@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/easy-string2212/1
-- Synced: 2026-07-22T12:38:55.826Z
+- Synced: 2026-07-22T12:39:41.040Z
 
 ## Problem Description
 
