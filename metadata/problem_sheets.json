@@ -1212,5 +1212,13 @@
     "custom:algomaster-300",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:string-compression": []
+  "leetcode:string-compression": [],
+  "leetcode:integer-to-roman": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
