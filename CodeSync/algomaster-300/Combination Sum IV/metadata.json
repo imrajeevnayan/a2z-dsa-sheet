@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-21T17:23:24.404Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-21T17:24:09.413Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Combination Sum IV",
-  "problemUrl": "https://leetcode.com/problems/combination-sum-iv/",
-  "submissionId": "qrml0j"
+  "problemUrl": "https://leetcode.com/problems/combination-sum-iv/submissions/2076172484/",
+  "submissionId": "o5o9mt"
 }
