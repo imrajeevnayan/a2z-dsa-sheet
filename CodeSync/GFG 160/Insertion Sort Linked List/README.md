@@ -1,13 +1,13 @@
 # Insertion Sort Linked List
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public Node insertionSort(Node head) { ArrayList<Integer> lst = new ArrayList<>(); Node curr = head; while (curr != null) { lst.add(curr.val); curr = curr.next; } // Sorted the List using Collections.sort method Collections.sort(lst); //Boundary Condition:- if (lst.size() == 0) return null; Node newHead = new Node(lst.get(0)); Node dummy = newHead; for (int i = 1; i < lst.size(); i++) { dummy.next = new Node(lst.get(i)); dummy = dummy.next; } return newHead; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Linked List, Related Articles, Insertion Sort For Singly Linked List
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insertion-sort-list/1
-- Synced: 2026-07-22T15:58:01.035Z
+- Synced: 2026-07-22T15:59:00.160Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, sort the linked list in non-decreasing o
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Linked List, Related Articles, Insertion Sort For Singly Linked List. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public Node insertionSort(Node head) { ArrayList<Integer> lst = new ArrayList<>(); Node curr = head; while (curr != null) { lst.add(curr.val); curr = curr.next; } // Sorted the List using Collections.sort method Collections.sort(lst); //Boundary Condition:- if (lst.size() == 0) return null; Node newHead = new Node(lst.get(0)); Node dummy = newHead; for (int i = 1; i < lst.size(); i++) { dummy.next = new Node(lst.get(i)); dummy = dummy.next; } return newHead; } }. The detected topics are Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Linked List, Related Articles, Insertion Sort For Singly Linked List. Review the synced source file for the implementation details.
