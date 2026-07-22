@@ -1,21 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Combination Sum IV
- * URL: https://leetcode.com/problems/combination-sum-iv/
+ * URL: https://leetcode.com/problems/combination-sum-iv/submissions/2076172484/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-21T17:23:24.404Z
+ * Synced: 2026-07-21T17:24:09.413Z
  */
 
 class Solution {
+    static int solve(int amount, int[] coins, int[] dp) {
+        if (amount == 0) return 1;
+        if (amount < 0) return 0;
+        if (dp[amount] != -1) return dp[amount];
+        int totalWays = 0;
+        for (int c : coins) {
+            totalWays += solve(amount - c, coins, dp);
+        }
+        return dp[amount] = totalWays;
+    }
     public int combinationSum4(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, -1);
         return solve(amount, coins, dp);
     }
-
-    
 }
