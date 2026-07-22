@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-22T17:14:43.597Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MicrosoftMAQ SoftwareSAP Labs",
+    "Company Tags",
+    "Microsoft",
+    "MAQ Software",
+    "SAP Labs",
+    "Topic Tags",
+    "circular-linked-list"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Check If Circular Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/circular-linked-list/1",
+  "submissionId": "bypj4h"
+}
