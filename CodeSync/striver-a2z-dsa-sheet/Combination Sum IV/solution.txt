@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Combination Sum IV
+ * URL: https://leetcode.com/problems/combination-sum-iv/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-21T17:23:24.404Z
+ */
+
+class Solution {
+    public int combinationSum4(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, -1);
+        return solve(amount, coins, dp);
+    }
+
+    
+}
