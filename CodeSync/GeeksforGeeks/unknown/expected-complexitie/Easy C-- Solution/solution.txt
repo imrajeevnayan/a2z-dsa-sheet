@@ -1,42 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
- * Language: class myStack: def __init__(self, n): # Define Data Structures self.stack=[] self.n=n def isEmpty(self): # Check if stack is empty return len(self.stack)==0 def isFull(self): # Check if stack is full return len(self.stack)==self.n def push(self, x): # Insert x at the top of the stack if self.n > len(self.stack): self.stack.append(x) def pop(self): # Removes an element from the top of the stack if not self.isEmpty(): return self.stack.pop() return -1 def peek(self): # Returns the top element of the stack if self.isEmpty(): return -1 return self.stack[-1]
+ * URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:20:35.584Z
+ * Synced: 2026-07-22T12:44:46.370Z
  */
 
-class myStack {
-    int[] arr;
-    int top;
-
-    public myStack(int n) {
-        arr = new int[n];
-        top = -1;
-    }
-
-    public boolean isEmpty() {
-        return top == -1;
-    }
-
-    public boolean isFull() {
-        return top == arr.length - 1;
-    }
-
-    public void push(int x) {
-        if (!isFull()) arr[++top] = x;
-    }
-
-    public void pop() {
-        if (!isEmpty()) top--;
-    }
-
-    public int peek() {
-        if (!isEmpty())  return arr[top];
-        return -1;
+class Solution {
+    public static boolean areStringsSame(String s1, String s2) {
+        return s1.equals(s2);
+        
     }
 }
