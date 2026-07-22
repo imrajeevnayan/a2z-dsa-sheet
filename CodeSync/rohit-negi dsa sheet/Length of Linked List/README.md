@@ -1,13 +1,13 @@
 # Length of Linked List
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: int getCount(Node* head) { // Code here int count = 0; while(head != NULL){ count++; head = head->next; } return count; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
-- Synced: 2026-07-22T16:04:24.275Z
+- Synced: 2026-07-22T16:05:09.357Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given head of a singly linked list. Find the length of the linked list, where le
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Linked List, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: int getCount(Node* head) { // Code here int count = 0; while(head != NULL){ count++; head = head->next; } return count; } };. The detected topics are Expected Complexities, Topic Tags, Linked List, Related Articles. Review the synced source file for the implementation details.
