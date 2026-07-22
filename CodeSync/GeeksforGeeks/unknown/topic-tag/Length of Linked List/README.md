@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
-- Synced: 2026-07-22T16:05:09.357Z
+- Synced: 2026-07-22T16:05:55.613Z
 
 ## Problem Description
 
