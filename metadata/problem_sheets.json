@@ -1196,5 +1196,11 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
     "custom:arsh-goyal-dsa-sheet"
+  ],
+  "cses:coin-combinations-ii": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "CSESSet"
   ]
 }
