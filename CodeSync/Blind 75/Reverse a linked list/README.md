@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
-- Synced: 2026-07-22T16:37:22.915Z
+- Synced: 2026-07-22T16:39:28.035Z
 
 ## Problem Description
 
