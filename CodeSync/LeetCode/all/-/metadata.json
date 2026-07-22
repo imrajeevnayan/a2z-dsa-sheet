@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-21T17:54:27.566Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.96 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-22T18:09:24.753Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "String",
+    "Trie"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2076172484/",
-  "submissionId": "qtste9"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
+  "submissionId": "gvllt8"
 }
