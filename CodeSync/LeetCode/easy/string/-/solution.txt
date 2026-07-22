@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/valid-palindrome/description/
+ * URL: https://leetcode.com/problems/longest-common-prefix/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Two Pointers, String
+ * Topics: Array, String, Trie
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T09:32:20.018Z
+ * Synced: 2026-07-22T18:09:24.753Z
  */
 
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
-Explanation: "amanaplanacanalpanama" is a palindrome.
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
