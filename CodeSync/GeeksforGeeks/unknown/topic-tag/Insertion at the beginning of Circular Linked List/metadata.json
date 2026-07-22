@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-22T15:32:22.822Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "temp = tail.next tail.next = Node(key) tail.next.next = temp return tail",
+  "problemTitle": "Insertion at the beginning of Circular Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/insertion-at-the-beginning-of-circular-linked-list/1",
+  "submissionId": "m4g7ao"
+}
