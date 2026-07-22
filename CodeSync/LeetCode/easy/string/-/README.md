@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Two Pointers, String
+- Topics: Array, String, Trie
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-palindrome/description/
-- Synced: 2026-06-30T09:32:20.018Z
+- Problem URL: https://leetcode.com/problems/longest-common-prefix/description/
+- Synced: 2026-07-22T18:09:24.753Z
 
 ## Problem Description
 
-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise. Example 1: Input: s = "A man, a plan, a canal: Panama" Output: true Explanation: "amanaplanacanalpanama" is a palindrome. Example 2: Input: s = "race a car" Output: false Explanation: "raceacar" is not a palindrome. Example 3: Input: s = " " Output: true Explanation: s is an empty string "" after removing non-alphanumeric characters. Since an empty string reads the same forward and backward, it is a palindrome. Constraints: 1 <= s.length <= 2 * 105 s consists only of printable ASCII characters.
+Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "". Example 1: Input: strs = ["flower","flow","flight"] Output: "fl" Example 2: Input: strs = ["dog","racecar","car"] Output: "" Explanation: There is no common prefix among the input strings. Constraints: 1 <= strs.length <= 200 0 <= strs[i].length <= 200 strs[i] consists of only lowercase English letters if it is non-empty.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, String, Trie. Review the synced source file for the implementation details.
