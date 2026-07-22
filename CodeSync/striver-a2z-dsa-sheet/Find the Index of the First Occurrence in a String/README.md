@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Two Pointers, String, String Matching
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
-- Synced: 2026-07-08T07:11:02.074Z
+- Synced: 2026-07-22T10:56:39.469Z
 
 ## Problem Description
 
