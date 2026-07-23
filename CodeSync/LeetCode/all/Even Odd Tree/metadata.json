@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-23T07:56:44.834Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Even Odd Tree",
+  "problemUrl": "https://leetcode.com/problems/even-odd-tree/",
+  "submissionId": "1tedot"
+}
