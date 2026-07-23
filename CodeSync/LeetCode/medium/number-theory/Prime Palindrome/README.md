@@ -6,8 +6,8 @@
 - Topics: Math, Number Theory
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-palindrome/
-- Synced: 2026-07-23T10:38:57.183Z
+- Problem URL: https://leetcode.com/problems/prime-palindrome/submissions/2078274987/
+- Synced: 2026-07-23T10:39:43.267Z
 
 ## Problem Description
 
