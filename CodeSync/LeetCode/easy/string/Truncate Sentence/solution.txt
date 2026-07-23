@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Truncate Sentence
- * URL: https://leetcode.com/problems/truncate-sentence/
+ * URL: https://leetcode.com/problems/truncate-sentence/submissions/2078284443/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-23T10:49:26.768Z
+ * Memory: 42.85 MB
+ * Synced: 2026-07-23T10:50:29.471Z
  */
 
 class Solution {
