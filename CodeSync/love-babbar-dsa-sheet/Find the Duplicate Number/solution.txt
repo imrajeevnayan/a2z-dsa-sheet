@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Duplicate Number
- * URL: https://leetcode.com/problems/find-the-duplicate-number/description/
+ * URL: https://leetcode.com/problems/find-the-duplicate-number/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Bit Manipulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T12:03:54.067Z
+ * Synced: 2026-07-23T12:04:39.638Z
  */
 
 class Solution {
