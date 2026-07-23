@@ -6,19 +6,16 @@
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-23T10:04:01.555Z
+ * Memory: 51.34 MB
+ * Synced: 2026-07-23T10:04:49.144Z
  */
 
-for (int j = i * i; j < n; j += i) {
-                    prime[j] = false;
-                }
-            }
-        }
-        int count = 0;
-        for (int i = 2; i < n; i++) {
-            if (prime[i]) count++;
-        }
-        return count;
-    }
-}
+10
+0
+1
+4
+0
+0
+4
+0
+0
