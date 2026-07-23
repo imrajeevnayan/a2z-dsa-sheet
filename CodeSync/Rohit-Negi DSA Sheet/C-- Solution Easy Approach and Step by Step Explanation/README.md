@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1
-- Synced: 2026-07-23T11:24:44.149Z
+- Synced: 2026-07-23T11:25:51.133Z
 
 ## Problem Description
 
