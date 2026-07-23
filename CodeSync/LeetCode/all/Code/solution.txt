@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/symmetric-tree/
+ * URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Stack, Tree, Depth-First Search
+ * Difficulty: Medium
+ * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T07:55:24.864Z
+ * Synced: 2026-07-23T08:06:02.814Z
  */
 
-class Solution {
-    public List<Integer> postorder(Node root) {
-        List<Integer> result = new ArrayList<>();
-        traverse(root, result);
-        return result;
-    }
-    static void traverse(Node node, List<Integer> result) {
-        if (node == null) return;
-        for (Node child : node.children)traverse(child, result);
-        result.add(node.val);
-    }
-}
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
