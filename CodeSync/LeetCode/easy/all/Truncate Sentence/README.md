@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/truncate-sentence/
-- Synced: 2026-07-23T10:49:26.768Z
+- Memory: 42.85 MB
+- Problem URL: https://leetcode.com/problems/truncate-sentence/submissions/2078284443/
+- Synced: 2026-07-23T10:50:29.471Z
 
 ## Problem Description
 
