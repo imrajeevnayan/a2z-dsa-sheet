@@ -5,13 +5,23 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Number Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T10:38:11.808Z
+ * Synced: 2026-07-23T10:38:57.183Z
  */
 
-class Solution {
-    public int primePalindrome(int n) {
-        
+private boolean isPrime(int n) {
     }
-}
+        }
+            n++;
+            }
+            if (isPalindrome(n) && isPrime(n)) {
+                return n;
+        if (n < 2) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
