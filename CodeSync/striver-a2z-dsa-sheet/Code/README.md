@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Common Patterns Questions (Copy-xksb9pgr)DJ
-- Difficulty: Medium
-- Topics: Array, Dynamic Programming, Backtracking
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36
-- Synced: 2026-06-30T18:57:16.098Z
+- Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+- Synced: 2026-07-23T06:25:14.441Z
 
 ## Problem Description
 
-You are given an integer array nums and an integer target. You want to build an expression out of nums by adding one of the symbols '+' and '-' before each integer in nums and then concatenate all the integers. For example, if nums = [2, 1], you can add a '+' before 2 and a '-' before 1 and concatenate them to build the expression "+2-1". Return the number of different expressions that you can build, which evaluates to target. Example 1: Input: nums = [1,1,1,1,1], target = 3 Output: 5 Explanation: There are 5 ways to assign symbols to make the sum of nums be target 3. -1 + 1 + 1 + 1 + 1 = 3 +1 - 1 + 1 + 1 + 1 = 3 +1 + 1 - 1 + 1 + 1 = 3 +1 + 1 + 1 - 1 + 1 = 3 +1 + 1 + 1 + 1 - 1 = 3 Example 2: Input: nums = [1], target = 1 Output: 1 Constraints: 1 <= nums.length <= 20 0 <= nums[i] <= 1000 0 <= sum(nums[i]) <= 1000 -1000 <= target <= 1000
+Given the root of a binary tree, return the postorder traversal of its nodes' values. Example 1: Input: root = [1,null,2,3] Output: [3,2,1] Explanation: Example 2: Input: root = [1,2,3,4,5,null,8,null,null,6,7,9] Output: [4,6,7,5,2,9,8,3,1] Explanation: Example 3: Input: root = [] Output: [] Example 4: Input: root = [1] Output: [1] Constraints: The number of the nodes in the tree is in the range [0, 100]. -100 <= Node.val <= 100 Follow up: Recursive solution is trivial, could you do it iteratively?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Common Patterns Questions (Copy-xksb9pgr)DJ. The detected topics are Array, Dynamic Programming, Backtracking. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Stack, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
