@@ -1458,5 +1458,6 @@
     "custom:rohit-negi_dsa_sheet"
   ],
   "leetcode:find-first-palindromic-string-in-the-array": [],
-  "leetcode:truncate-sentence": []
+  "leetcode:truncate-sentence": [],
+  "leetcode:reverse-words-with-same-vowel-count": []
 }
