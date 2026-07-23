@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/same-tree/
-- Synced: 2026-06-04T06:58:55.737Z
+- Synced: 2026-07-23T06:39:26.324Z
 
 ## Problem Description
 
