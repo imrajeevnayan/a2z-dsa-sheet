@@ -1,12 +1,10 @@
 {
-  "submissionTimestamp": "2026-07-22T18:26:18.037Z",
+  "submissionTimestamp": "2026-07-23T04:10:57.117Z",
   "runtime": "0 ms",
   "memoryUsage": "43.36 MB",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "String",
-    "Trie"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
