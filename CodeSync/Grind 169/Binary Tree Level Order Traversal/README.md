@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Medium
 - Topics: Tree, Breadth-First Search, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:50:36.062Z
+- Runtime: 0 ms
+- Memory: 46.78 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2077877298/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-23T04:51:21.587Z
 
 ## Problem Description
 
