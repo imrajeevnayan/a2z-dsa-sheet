@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T13:02:31.048Z
+ * Synced: 2026-07-23T13:03:18.194Z
  */
 
 class Solution {
@@ -18,27 +18,17 @@ class Solution {
             if (a[i] < b[j])  m= a[i++];
             else m = b[j++];
             count++;
-            if (count == k) return ;
+            if (count == k) return m;
         }
-
-        while (i < a.length) {
-            count++;
-
-            if (count == k)
-                return a[i];
-
+        while (i < a.length){count++;
+            if (count == k) return a[i];
             i++;
         }
-
         while (j < b.length) {
             count++;
-
-            if (count == k)
-                return b[j];
-
+            if (count == k)return b[j];
             j++;
         }
-
         return -1;
     }
 }
