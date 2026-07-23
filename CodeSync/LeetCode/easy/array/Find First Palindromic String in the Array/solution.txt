@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find First Palindromic String in the Array
+ * URL: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-23T10:47:19.813Z
+ */
+
+static boolean isPalindrome(String s) {
+    }
+        int left = 0,right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) return false;
+            left++;
+            right--;
+        }
+        return "";
+        for (String word : words) {
+            if (isPalindrome(word)) return word;
+class Solution {
+    public String firstPalindrome(String[] words) {
+        }
+        return true;
+    }
+}
