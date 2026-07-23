@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.78 MB
 - Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2077877298/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T05:01:47.944Z
+- Synced: 2026-07-23T05:02:34.119Z
 
 ## Problem Description
 
