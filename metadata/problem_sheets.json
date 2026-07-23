@@ -1400,5 +1400,12 @@
     "custom:striver-sde-sheet",
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:binary-tree-postorder-traversal": [
+    "custom:algomaster-300",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
