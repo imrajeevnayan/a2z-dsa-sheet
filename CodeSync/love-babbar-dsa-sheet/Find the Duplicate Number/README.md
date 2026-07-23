@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-duplicate-number/description/
-- Synced: 2026-07-23T12:05:27.148Z
+- Synced: 2026-07-23T12:06:17.131Z
 
 ## Problem Description
 
