@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.44 MB
 - Problem URL: https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:45:35.218Z
+- Synced: 2026-07-23T04:46:35.273Z
 
 ## Problem Description
 
