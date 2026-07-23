@@ -1,38 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Nodes in k
- * URL: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+ * URL: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
  * Language: Problem List
- * Difficulty: Hard
- * Topics: Linked List, Recursion
- * Runtime: 0 ms
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-11T04:36:08.190Z
+ * Synced: 2026-07-23T10:46:16.800Z
  */
 
-curr = next;
-                prev = curr;
-                curr.next = prev;
-                ListNode next = curr.next;
-            while (curr != nextGroupStart) {
-            }
-            if (temp == null) newHead = prev;
-            ListNode prev = nextGroupStart, curr = head;
-            ListNode nextGroupStart = kthNode.next;
+class Solution {
+    public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null || k == 1) return head;
+        ListNode temp = null, newHead = null;
 
         while (true) {
             ListNode kthNode = head;
             for (int i = 1; i < k && kthNode != null; i++)  kthNode = kthNode.next;
             if (kthNode == null) break;
-        ListNode temp = null, newHead = null;
 
-        if (head == null || k == 1) return head;
-    public ListNode reverseKGroup(ListNode head, int k) {
-class Solution {
-            else temp.next = prev;
-            temp = head;
-            head = nextGroupStart;
-        }
-        return newHead != null ? newHead : head;
-    }
-}
+            ListNode nextGroupStart = kthNode.next;
+            ListNode prev = nextGroupStart, curr = head;
+            while (curr != nextGroupStart) {
