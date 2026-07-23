@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/even-odd-tree/
-- Synced: 2026-07-23T07:56:44.834Z
+- Synced: 2026-07-23T07:57:39.554Z
 
 ## Problem Description
 
