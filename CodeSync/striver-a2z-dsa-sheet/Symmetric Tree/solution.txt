@@ -5,9 +5,9 @@
  * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T04:43:16.505Z
+ * Synced: 2026-07-23T04:44:04.001Z
  */
 
 }
