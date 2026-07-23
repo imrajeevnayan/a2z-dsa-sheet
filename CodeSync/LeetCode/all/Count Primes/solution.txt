@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T06:57:29.082Z
+ * Synced: 2026-07-23T10:03:16.095Z
  */
 
 class Solution {
@@ -23,4 +23,3 @@ class Solution {
                     prime[j] = false;
                 }
             }
-        }
