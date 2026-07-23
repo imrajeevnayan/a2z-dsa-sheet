@@ -1445,5 +1445,6 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:prime-palindrome": [],
-  "leetcode:prime-arrangements": []
+  "leetcode:prime-arrangements": [],
+  "leetcode:sum-of-primes-between-number-and-its-reverse": []
 }
