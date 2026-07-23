@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Duplicate Number
+ * URL: https://leetcode.com/problems/find-the-duplicate-number/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Binary Search, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T12:03:54.067Z
+ */
+
+class Solution {
+    public int findDuplicate(int[] nums) {
+        Set<Integer>s=new HashSet<>();
+        for(int n :nums){
+            if(!s.add(n)) return n;
+        }
+        return -1;
+    }
+}
