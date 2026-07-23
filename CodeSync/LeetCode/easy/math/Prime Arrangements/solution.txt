@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime Arrangements
+ * URL: https://leetcode.com/problems/prime-arrangements/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T10:40:26.062Z
+ */
+
+class Solution {
+    public int numPrimeArrangements(int n) {
+        
+    }
+}
