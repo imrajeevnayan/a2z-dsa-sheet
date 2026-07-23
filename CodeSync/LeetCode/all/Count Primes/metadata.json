@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-23T10:34:50.146Z",
+  "submissionTimestamp": "2026-07-23T10:35:42.144Z",
   "runtime": "0 ms",
   "memoryUsage": "51.34 MB",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/submissions/2078235963/",
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
   "submissionId": "21iy9x"
 }
