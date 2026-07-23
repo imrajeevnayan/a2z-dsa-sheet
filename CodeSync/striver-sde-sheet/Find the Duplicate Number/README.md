@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 82.97 MB
 - Problem URL: https://leetcode.com/problems/find-the-duplicate-number/submissions/2078353493/
-- Synced: 2026-07-23T12:07:52.808Z
+- Synced: 2026-07-23T12:08:47.756Z
 
 ## Problem Description
 
