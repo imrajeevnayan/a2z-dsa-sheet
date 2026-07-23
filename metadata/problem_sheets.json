@@ -1434,5 +1434,9 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
   ],
-  "leetcode:even-odd-tree": []
+  "leetcode:even-odd-tree": [],
+  "leetcode:balance-a-binary-search-tree": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
