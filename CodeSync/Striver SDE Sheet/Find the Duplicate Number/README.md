@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Binary Search, Bit Manipulation
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/
-- Synced: 2026-07-23T12:04:39.638Z
+- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/description/
+- Synced: 2026-07-23T12:05:27.148Z
 
 ## Problem Description
 
