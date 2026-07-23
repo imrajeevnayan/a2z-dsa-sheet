@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-23T04:47:32.280Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
+  "problemTitle": "Binary Tree Level Order Traversal",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "5s9br9"
+}
