@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 46.78 MB
- * Synced: 2026-07-23T05:03:22.186Z
+ * Synced: 2026-07-23T05:04:10.699Z
  */
 
 for (int i = 0; i < size; i++) {
