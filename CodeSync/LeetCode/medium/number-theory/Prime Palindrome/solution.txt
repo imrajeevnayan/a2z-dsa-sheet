@@ -7,7 +7,7 @@
  * Topics: Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T10:37:18.006Z
+ * Synced: 2026-07-23T10:38:11.808Z
  */
 
 class Solution {
