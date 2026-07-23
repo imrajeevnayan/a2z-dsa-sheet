@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-23T12:04:39.638Z",
+  "submissionTimestamp": "2026-07-23T12:05:27.148Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Duplicate Number",
-  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/",
+  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/description/",
   "submissionId": "cuq7lm"
 }
