@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 42.73 MB
- * Synced: 2026-07-23T06:46:39.086Z
+ * Synced: 2026-07-23T06:47:33.083Z
  */
 
 class Solution {
