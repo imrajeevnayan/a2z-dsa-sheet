@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Truncate Sentence
+ * URL: https://leetcode.com/problems/truncate-sentence/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-23T10:49:26.768Z
+ */
+
+class Solution {
+    public String truncateSentence(String s, int k) {
+        String[] words = s.split(" ");
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < k; i++) {
+            if (i > 0) res.append(" ");
+            res.append(words[i]);
+        }
+        return res.toString();
+    }
+}
