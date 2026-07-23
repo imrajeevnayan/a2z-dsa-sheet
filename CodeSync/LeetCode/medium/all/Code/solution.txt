@@ -1,27 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/subarray-product-less-than-k/
+ * URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
+ * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T16:42:03.346Z
+ * Synced: 2026-07-23T08:06:02.814Z
  */
 
-class Solution {
-    public int numSubarrayProductLessThanK(int[] nums, int k) {
-        if (k <= 1) return 0;
-        int start = 0, count = 0, product = 1;
-        for (int end = 0; end < nums.length; end++) {
-            product *= nums[end];
-            while (product >= k) {
-                product /= nums[start];
-                start++;
-            }
-            count += end - start + 1;
-        }
-        return count;  
-    }
-}
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
