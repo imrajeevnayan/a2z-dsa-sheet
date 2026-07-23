@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum of Primes Between Number and Its Reverse
+ * URL: https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Number Theory
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-23T10:43:22.311Z
+ */
+
+if (prime[i]) {
+
+                for (int j = i * i; j <= n; j += i) {
+                    prime[j] = false;
+                }
+            }
+        }
+
+        return prime;
+    }
+}
