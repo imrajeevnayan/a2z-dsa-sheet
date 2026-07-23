@@ -1457,5 +1457,6 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:find-first-palindromic-string-in-the-array": []
+  "leetcode:find-first-palindromic-string-in-the-array": [],
+  "leetcode:truncate-sentence": []
 }
