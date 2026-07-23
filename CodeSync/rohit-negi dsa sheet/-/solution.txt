@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-common-prefix/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/
+ * Language: Text
  * Difficulty: Easy
- * Topics: Array, String, Trie
+ * Topics: Stack, Tree, Depth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T18:09:24.753Z
+ * Synced: 2026-07-23T06:32:17.691Z
  */
 
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
+Input: root = [1,null,3,2,4,null,5,6]
+Output: [5,6,3,2,4,1]
