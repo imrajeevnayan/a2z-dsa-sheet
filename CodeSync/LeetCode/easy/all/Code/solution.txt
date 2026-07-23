@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Hash Table, Sorting
+ * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:23:35.503Z
+ * Synced: 2026-07-23T06:25:14.441Z
  */
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    public int[] arrayRankTransform(int[] arr) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         
     }
-}
