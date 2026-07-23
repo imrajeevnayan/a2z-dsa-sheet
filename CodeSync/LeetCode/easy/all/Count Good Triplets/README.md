@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Enumeration
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-good-triplets/
-- Synced: 2026-07-23T04:17:10.404Z
+- Problem URL: https://leetcode.com/problems/count-good-triplets/description/
+- Synced: 2026-07-23T04:18:44.151Z
 
 ## Problem Description
 
