@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/
-- Synced: 2026-07-23T09:34:52.214Z
+- Synced: 2026-07-23T09:35:38.196Z
 
 ## Problem Description
 
