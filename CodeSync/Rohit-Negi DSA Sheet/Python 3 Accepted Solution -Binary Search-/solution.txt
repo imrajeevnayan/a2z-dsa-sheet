@@ -7,19 +7,40 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T13:00:58.799Z
+ * Synced: 2026-07-23T13:01:44.515Z
  */
 
 class Solution {
     public int kthElement(int a[], int b[], int k) {
-        int c[]=new int [a.length+b.length];
-        int i=0,j=0,l=0;
-        while(i<a.length && j<b.length ){
-            if(a[i]<b[j])c[l++]=a[i++];
-            else c[l++]=b[j++];
+        int i = 0, j = 0,count = 0;
+        while (i < a.length && j < b.length) {
+            int val;
+            if (a[i] < b[j]) {
+                val = a[i++];
+            } else {
+                val = b[j++];
+            }
+
+            count++;
+
+            if (count == k)
+                return val;
         }
-        while(i<a.length)c[l++]=a[i++];
-        while(j<b.length)c[l++]=b[j++];
-        return c[k-1];
-    }
-}
+
+        while (i < a.length) {
+            count++;
+
+            if (count == k)
+                return a[i];
+
+            i++;
+        }
+
+        while (j < b.length) {
+            count++;
+
+            if (count == k)
+                return b[j];
+
+            j++;
+        }
