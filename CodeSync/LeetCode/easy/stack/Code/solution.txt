@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Depth-First Search
  * Runtime: 1 ms
  * Memory: 46.65 MB
- * Synced: 2026-07-23T06:38:27.752Z
+ * Synced: 2026-07-23T06:39:13.736Z
  */
 
 Input: root = [1,null,3,2,4,null,5,6]
