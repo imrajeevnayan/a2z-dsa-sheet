@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Nodes in k
+ * URL: https://leetcode.com/problems/reverse-nodes-in-k-group/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Linked List, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T10:45:44.268Z
+ */
+
+class Solution {
+    public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null || k == 1) return head;
+        ListNode temp = null, newHead = null;
+
+        while (true) {
+            ListNode kthNode = head;
+            for (int i = 1; i < k && kthNode != null; i++)  kthNode = kthNode.next;
+            if (kthNode == null) break;
+
+            ListNode nextGroupStart = kthNode.next;
+            ListNode prev = nextGroupStart, curr = head;
+            while (curr != nextGroupStart) {
