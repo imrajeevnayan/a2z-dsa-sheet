@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-preorder-traversal/
-- Synced: 2026-07-23T06:22:39.330Z
+- Synced: 2026-07-23T06:23:26.789Z
 
 ## Problem Description
 
