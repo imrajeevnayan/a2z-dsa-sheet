@@ -6,8 +6,8 @@
 - Topics: Array, Enumeration
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-good-triplets/description/
-- Synced: 2026-07-23T04:18:44.151Z
+- Problem URL: https://leetcode.com/problems/count-good-triplets/
+- Synced: 2026-07-23T04:19:29.285Z
 
 ## Problem Description
 
