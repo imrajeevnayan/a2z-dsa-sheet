@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
- * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
- * Topics: Hash Table, String, Counting
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:55:10.563Z
+ * Synced: 2026-07-23T04:41:44.812Z
  */
 
-class Solution {
-    public boolean checkAlmostEquivalent(String word1, String word2) {
-        
-    }
-}
+Input: root = [1,2,2,3,4,4,3]
+Output: true
