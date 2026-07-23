@@ -1,15 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/
+ * URL: https://leetcode.com/problems/count-primes/submissions/2078242086/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
- * Memory: 51.34 MB
- * Synced: 2026-07-23T10:08:40.578Z
+ * Memory: 51.00 MB
+ * Synced: 2026-07-23T10:09:26.396Z
  */
 
-class Solution {
-    public int countPrimes(int n) {
-        if (n <=
+for (int i = 3; i * i < n; i += 2) {
+            if (!composite[i]) {
+                for (int j = i * i; j < n; j += 2 * i) {
+                    if (!composite[j]) {
+        int count = n / 2; // Assume all odd numbers are prime
+                        composite[j] = true;
+                        count--;
+                    }
+                }
+            }
+        }
+
+        return count;
+    }
