@@ -1,25 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Print in Order
- * URL: https://leetcode.com/problems/print-in-order/description/
+ * URL: https://leetcode.com/problems/n-queens/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Concurrency
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T10:44:36.177Z
+ * Synced: 2026-07-23T10:45:18.730Z
  */
 
-class Foo {
-
-    public Foo() {
-        
+printSecond.run();
     }
 
-    public void first(Runnable printFirst) throws InterruptedException {
+    public void third(Runnable printThird) throws InterruptedException {
         
-        // printFirst.run() outputs "first". Do not change or remove this line.
-        printFirst.run();
+        // printThird.run() outputs "third". Do not change or remove this line.
+        printThird.run();
     }
-
-    public void second(Runnable printSecond) throws InterruptedException {
+}
