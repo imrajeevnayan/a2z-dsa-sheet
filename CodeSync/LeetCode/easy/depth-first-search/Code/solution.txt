@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
+ * URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T07:54:32.967Z
+ * Synced: 2026-07-23T07:55:10.084Z
  */
 
 return res;
