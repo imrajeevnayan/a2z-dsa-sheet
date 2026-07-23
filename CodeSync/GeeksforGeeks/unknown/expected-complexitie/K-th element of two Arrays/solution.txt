@@ -7,15 +7,16 @@
  * Topics: Expected Complexities, Company Tags FlipkartMicrosoftNPCI, Company Tags, Flipkart, Microsoft, NPCI, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T12:57:24.405Z
+ * Synced: 2026-07-23T12:58:59.341Z
  */
 
 class Solution {
     public int kthElement(int a[], int b[], int k) {
         int c[]=new int [a.length+b.length];
-        int i=0,j=0;
+        int i=0,j=0,l=0;
         while(i<a.length && j<b.length ){
-            if(a[i]<b[j])
+            if(a[i]<b[j])c[l++]=a[i++];
+            else c[l++]=b[j++];
         }
         
     }
