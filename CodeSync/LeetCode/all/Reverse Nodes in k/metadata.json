@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-11T04:36:08.190Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-23T10:46:16.800Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Recursion"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Nodes in k",
-  "problemUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87",
-  "submissionId": "6i3d32"
+  "problemUrl": "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
+  "submissionId": "8kns0s"
 }
