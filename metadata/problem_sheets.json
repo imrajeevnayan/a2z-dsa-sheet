@@ -1459,5 +1459,10 @@
   ],
   "leetcode:find-first-palindromic-string-in-the-array": [],
   "leetcode:truncate-sentence": [],
-  "leetcode:reverse-words-with-same-vowel-count": []
+  "leetcode:reverse-words-with-same-vowel-count": [],
+  "geeksforgeeks:print-linked-list-elements": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
