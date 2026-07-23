@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
 - Memory: 42.73 MB
-- Problem URL: https://leetcode.com/problems/same-tree/submissions/2078016772/
-- Synced: 2026-07-23T06:40:57.780Z
+- Problem URL: https://leetcode.com/problems/same-tree/
+- Synced: 2026-07-23T06:41:43.197Z
 
 ## Problem Description
 
