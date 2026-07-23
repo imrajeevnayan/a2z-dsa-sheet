@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:27:46.163Z
+- Synced: 2026-07-23T04:28:32.164Z
 
 ## Problem Description
 
