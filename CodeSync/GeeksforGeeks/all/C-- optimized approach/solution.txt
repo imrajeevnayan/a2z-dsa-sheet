@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonOracle, Company Tags, Amazon, Oracle, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T12:16:52.337Z
+ * Synced: 2026-07-23T12:18:34.835Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
      HashMap<Integer,Integer>map=new HashMap<>();
      for(int n:arr)map.put(n,map.getOrDefault(n,0)+1);
      for(int n:map.keySet()){
-         if()
+         if(map.get(n)>1)return 
      }
     }
 }
