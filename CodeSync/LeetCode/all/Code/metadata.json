@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-23T07:54:32.967Z",
+  "submissionTimestamp": "2026-07-23T07:55:10.084Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+  "problemUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
   "submissionId": "wtivv"
 }
