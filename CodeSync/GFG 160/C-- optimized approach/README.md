@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/first-repeating-element4018/1
-- Synced: 2026-07-23T12:14:35.056Z
+- Synced: 2026-07-23T12:16:06.971Z
 
 ## Problem Description
 
