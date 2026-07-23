@@ -1,26 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Print in Order
- * URL: https://leetcode.com/problems/prime-arrangements/
+ * URL: https://leetcode.com/problems/print-in-order/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Concurrency
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:57:47.080Z
+ * Synced: 2026-07-23T10:44:36.177Z
  */
 
-}
+class Foo {
+
+    public Foo() {
+        
+    }
+
+    public void first(Runnable printFirst) throws InterruptedException {
+        
+        // printFirst.run() outputs "first". Do not change or remove this line.
+        printFirst.run();
+    }
 
     public void second(Runnable printSecond) throws InterruptedException {
-        
-        // printSecond.run() outputs "second". Do not change or remove this line.
-        printSecond.run();
-    }
-
-    public void third(Runnable printThird) throws InterruptedException {
-        
-        // printThird.run() outputs "third". Do not change or remove this line.
-        printThird.run();
-    }
-}
