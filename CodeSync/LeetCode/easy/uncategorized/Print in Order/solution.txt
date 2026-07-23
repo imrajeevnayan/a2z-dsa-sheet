@@ -1,21 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Print in Order
- * URL: https://leetcode.com/problems/prime-arrangements/
+ * URL: https://leetcode.com/problems/n-queens/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:57:47.080Z
+ * Synced: 2026-07-23T10:45:18.730Z
  */
 
-}
-
-    public void second(Runnable printSecond) throws InterruptedException {
-        
-        // printSecond.run() outputs "second". Do not change or remove this line.
-        printSecond.run();
+printSecond.run();
     }
 
     public void third(Runnable printThird) throws InterruptedException {
