@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-24T06:58:07.082Z",
+  "submissionTimestamp": "2026-07-23T10:41:16.414Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Arrangements",
-  "problemUrl": "https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/",
+  "problemUrl": "https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/",
   "submissionId": "ri8qzz"
 }
