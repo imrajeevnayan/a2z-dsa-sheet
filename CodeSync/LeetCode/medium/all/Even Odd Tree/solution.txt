@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Even Odd Tree
+ * URL: https://leetcode.com/problems/even-odd-tree/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Tree, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T07:56:44.834Z
+ */
+
+for (int i = 0; i < size; i++) {
+
+
+            int prev = (level % 2 == 0) ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+            int size = queue.size();
+        while (!queue.isEmpty()) {
+
+        int level = 0;
+
+        queue.offer(root);
+        Queue<TreeNode> queue = new LinkedList<>();
+    public boolean isEvenOddTree(TreeNode root) {
+class Solution {
