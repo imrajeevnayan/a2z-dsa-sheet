@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Binary Search, Bit Manipulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T12:05:27.148Z
+ * Synced: 2026-07-23T12:06:17.131Z
  */
 
 class Solution {
