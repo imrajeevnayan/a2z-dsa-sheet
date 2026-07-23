@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Prime Arrangements
- * URL: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/
+ * URL: https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T06:58:07.082Z
+ * Synced: 2026-07-23T10:41:16.414Z
  */
 
 class Solution {
