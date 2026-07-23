@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-23T06:11:06.020Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Binary Tree Preorder Traversal",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+  "submissionId": "1h7qk"
+}
