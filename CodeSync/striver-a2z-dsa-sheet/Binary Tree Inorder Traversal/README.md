@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:21:08.313Z
+- Runtime: 0 ms
+- Memory: 42.90 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/2077846425/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-23T04:21:54.403Z
 
 ## Problem Description
 
