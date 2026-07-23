@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Solution || Easy Approach and Step by Step Explanation
+ * URL: https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1
+ * Language: class Solution: def canRepresentBST(self, arr): # code here s = [(-sys.maxsize, sys.maxsize)] for i in arr: while s: pop = s.pop() if pop[0] < i < pop[1]: s.append((i, pop[1])) s.append((pop[0], i)) break return s != []
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Morgan StanleyMicrosoftAdobe, Company Tags, Morgan Stanley, Microsoft, Adobe, Topic Tags, Binary Search Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T11:21:28.944Z
+ */
+
+class Solution {
+    public boolean canRepresentBST(List<Integer> arr) {
+        Stack<Integer> st = new Stack<>();
+        int root = Integer.MIN_VALUE;
+        for (int value: arr) {
+            if (value < root) return false;
+            while (!st.isEmpty() && value >st.peek())root = st.pop();
+            st.push(value);
+        }
+        return true;
+    }
+}
