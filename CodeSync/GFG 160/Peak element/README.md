@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/peak-element/1
-- Synced: 2026-07-23T12:45:20.614Z
+- Synced: 2026-07-23T12:46:07.839Z
 
 ## Problem Description
 
