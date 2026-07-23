@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 46.65 MB
 - Problem URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/
-- Synced: 2026-07-23T06:37:41.739Z
+- Synced: 2026-07-23T06:38:27.752Z
 
 ## Problem Description
 
