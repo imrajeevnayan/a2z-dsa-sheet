@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T10:08:40.578Z",
+  "submissionTimestamp": "2026-07-23T10:09:26.396Z",
   "runtime": "0 ms",
-  "memoryUsage": "51.34 MB",
+  "memoryUsage": "51.00 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/",
-  "submissionId": "fpa0ep"
+  "problemUrl": "https://leetcode.com/problems/count-primes/submissions/2078242086/",
+  "submissionId": "23ld90"
 }
