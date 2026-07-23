@@ -7,19 +7,15 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: 51.00 MB
- * Synced: 2026-07-23T10:10:13.112Z
+ * Synced: 2026-07-23T10:10:58.362Z
  */
 
-for (int i = 3; i * i < n; i += 2) {
-            if (!composite[i]) {
-                for (int j = i * i; j < n; j += 2 * i) {
-                    if (!composite[j]) {
-        int count = n / 2; // Assume all odd numbers are prime
-        boolean[] composite = new boolean[n];
-    public int countPrimes(int n) {
-         if (n <= 2) return 0;
-class Solution {
-                        composite[j] = true;
-                        count--;
-                    }
-                }
+10
+0
+1
+4
+0
+0
+4
+0
+0
