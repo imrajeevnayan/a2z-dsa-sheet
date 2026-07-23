@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Print in Order
+ * URL: https://leetcode.com/problems/n-queens/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T10:45:18.730Z
+ */
+
+printSecond.run();
+    }
+
+    public void third(Runnable printThird) throws InterruptedException {
+        
+        // printThird.run() outputs "third". Do not change or remove this line.
+        printThird.run();
+    }
+}
