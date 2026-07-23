@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Math, Number Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/prime-palindrome/
-- Synced: 2026-07-23T10:38:11.808Z
+- Synced: 2026-07-23T10:38:57.183Z
 
 ## Problem Description
 
