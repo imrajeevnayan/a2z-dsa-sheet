@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T12:06:17.131Z",
+  "submissionTimestamp": "2026-07-23T12:07:02.965Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "82.97 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Duplicate Number",
-  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/description/",
-  "submissionId": "cuq7lm"
+  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/submissions/2078353493/",
+  "submissionId": "cehqtc"
 }
