@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-preorder-traversal/
-- Synced: 2026-07-23T06:21:54.038Z
+- Synced: 2026-07-23T06:22:39.330Z
 
 ## Problem Description
 
