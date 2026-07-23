@@ -1446,5 +1446,6 @@
   ],
   "leetcode:prime-palindrome": [],
   "leetcode:prime-arrangements": [],
-  "leetcode:sum-of-primes-between-number-and-its-reverse": []
+  "leetcode:sum-of-primes-between-number-and-its-reverse": [],
+  "leetcode:print-in-order": []
 }
