@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Decode XORed Array
- * URL: https://leetcode.com/problems/decode-xored-array/
+ * URL: https://leetcode.com/problems/decode-xored-array/submissions/2077837802/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-23T04:12:47.393Z
+ * Memory: 48.00 MB
+ * Synced: 2026-07-23T04:14:07.236Z
  */
 
 class Solution {
