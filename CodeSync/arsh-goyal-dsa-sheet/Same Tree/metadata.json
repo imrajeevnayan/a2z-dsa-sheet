@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T06:40:11.731Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-23T06:40:57.780Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.73 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Same Tree",
-  "problemUrl": "https://leetcode.com/problems/same-tree/",
+  "problemUrl": "https://leetcode.com/problems/same-tree/submissions/2078016772/",
   "submissionId": "rgn4r3"
 }
