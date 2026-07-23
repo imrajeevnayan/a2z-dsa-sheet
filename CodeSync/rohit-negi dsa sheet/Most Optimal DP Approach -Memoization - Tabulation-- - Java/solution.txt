@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Most Optimal DP Approach (Memoization + Tabulation)! - Java
+ * URL: https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1
+ * Language: class Solution: def lis(self, arr): # code here def binary_search(sub, num): ans = len(sub) # if not found left, right = 0, ans - 1 while left <= right: mid = (left+right)//2 if sub[mid] >= num: ans = mid right -= 1 else: left += 1 return ans sub = [] for num in arr: i = binary_search(sub, num) if i < len(sub): sub[i] = num else: sub.append(num) return len(sub)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, OYO Rooms, Samsung, BankBazaar
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T13:05:44.170Z
+ */
+
+class Solution {
+    static int lis(int arr[]) {
+        int n = arr.length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        int ans = 1;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (arr[i] > arr[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+            }
+            ans = Math.max(ans, dp[i]);
+        }
+        return ans;
+    }
+}
