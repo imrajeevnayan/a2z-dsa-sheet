@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Bit Manipulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-xored-array/
-- Synced: 2026-07-23T04:12:47.393Z
+- Memory: 48.00 MB
+- Problem URL: https://leetcode.com/problems/decode-xored-array/submissions/2077837802/
+- Synced: 2026-07-23T04:14:07.236Z
 
 ## Problem Description
 
