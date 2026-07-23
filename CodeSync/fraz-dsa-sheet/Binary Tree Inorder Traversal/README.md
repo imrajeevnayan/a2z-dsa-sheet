@@ -6,8 +6,8 @@
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:20:22.928Z
+- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-07-23T04:21:08.313Z
 
 ## Problem Description
 
