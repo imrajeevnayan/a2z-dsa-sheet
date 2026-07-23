@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
-- Synced: 2026-07-23T13:00:58.799Z
+- Synced: 2026-07-23T13:01:44.515Z
 
 ## Problem Description
 
