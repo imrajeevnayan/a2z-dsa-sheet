@@ -6,8 +6,8 @@
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
-- Synced: 2026-07-23T07:18:48.087Z
+- Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
+- Synced: 2026-07-23T07:19:33.303Z
 
 ## Problem Description
 
