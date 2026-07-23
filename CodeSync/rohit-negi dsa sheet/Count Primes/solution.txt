@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: 46.34 MB
- * Synced: 2026-07-23T10:12:41.141Z
+ * Synced: 2026-07-23T10:13:27.146Z
  */
 
 if (!composite[i / 2]) {
