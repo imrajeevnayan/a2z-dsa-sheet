@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
-- Synced: 2026-06-13T09:47:01.019Z
+- Synced: 2026-07-23T13:15:39.780Z
 
 ## Problem Description
 
