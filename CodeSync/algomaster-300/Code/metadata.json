@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T07:54:32.967Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-23T07:55:24.864Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Stack",
     "Tree",
-    "Depth-First Search",
-    "Binary Tree"
+    "Depth-First Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
-  "submissionId": "wtivv"
+  "problemUrl": "https://leetcode.com/problems/symmetric-tree/",
+  "submissionId": "j5471f"
 }
