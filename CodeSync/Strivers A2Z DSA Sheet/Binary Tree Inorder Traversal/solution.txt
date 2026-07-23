@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Inorder Traversal
- * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T04:29:17.165Z
+ * Synced: 2026-07-23T04:30:08.632Z
  */
 
 class Solution {
