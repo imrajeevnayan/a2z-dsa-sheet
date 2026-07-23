@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Binary Search, Bit Manipulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/description/
-- Synced: 2026-07-23T12:06:17.131Z
+- Memory: 82.97 MB
+- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/submissions/2078353493/
+- Synced: 2026-07-23T12:07:02.965Z
 
 ## Problem Description
 
