@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36
- * Language: Common Patterns Questions (Copy-xksb9pgr)DJ
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming, Backtracking
+ * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:57:16.098Z
+ * Synced: 2026-07-23T06:25:14.441Z
  */
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    public int findTargetSumWays(int[] nums, int target) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         
     }
-}
