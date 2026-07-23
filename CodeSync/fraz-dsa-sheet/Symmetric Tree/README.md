@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.44 MB
 - Problem URL: https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:44:49.276Z
+- Synced: 2026-07-23T04:45:35.218Z
 
 ## Problem Description
 
