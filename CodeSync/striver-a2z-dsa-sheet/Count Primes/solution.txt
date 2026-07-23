@@ -1,21 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/
+ * URL: https://leetcode.com/problems/count-primes/submissions/2078244140/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
- * Memory: 51.00 MB
- * Synced: 2026-07-23T10:10:58.362Z
+ * Memory: 46.34 MB
+ * Synced: 2026-07-23T10:11:50.147Z
  */
 
-10
-0
-1
-4
-0
-0
-4
-0
-0
+if (!composite[i / 2]) {
+                for (int j = i * i; j < n; j += 2 * i) {
+                    if (!composite[j / 2]) {
+                        composite[j / 2] = true;
+        for (int i = 3; i * i < n; i += 2) {
+        int count = size; // represents odd numbers
+
+        int size = n / 2;
+        boolean[] composite = new boolean[size];
+        if (n <= 2) return 0;
+    public int countPrimes(int n) {
+class Solution {
+                        count--;
