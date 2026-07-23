@@ -6,8 +6,8 @@
 - Topics: Array, Math, Enumeration, Number Theory
 - Runtime: 0 ms
 - Memory: 51.34 MB
-- Problem URL: https://leetcode.com/problems/count-primes/submissions/2078235963/
-- Synced: 2026-07-23T10:34:50.146Z
+- Problem URL: https://leetcode.com/problems/count-primes/description/
+- Synced: 2026-07-23T10:35:42.144Z
 
 ## Problem Description
 
