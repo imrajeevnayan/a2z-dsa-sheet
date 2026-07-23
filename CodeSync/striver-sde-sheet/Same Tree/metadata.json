@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-23T06:39:26.324Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Same Tree",
+  "problemUrl": "https://leetcode.com/problems/same-tree/",
+  "submissionId": "rgn4r3"
+}
