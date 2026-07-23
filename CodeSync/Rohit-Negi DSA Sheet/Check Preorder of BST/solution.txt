@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check Preorder of BST
+ * URL: https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Morgan StanleyMicrosoftAdobe, Company Tags, Morgan Stanley, Microsoft, Adobe, Topic Tags, Binary Search Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T12:17:24.015Z
+ */
+
+class Solution {
+    public boolean canRepresentBST(List<Integer> arr) {
+        Stack<Integer> st = new Stack<>();
+        int root = Integer.MIN_VALUE;
+        for (int value: arr) {
+            if (value < root) return false;
+            while (!st.isEmpty() && value >st.peek())root = st.pop();
+            st.push(value);
+        }
+        return true;
+    }
+}
