@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-24T06:57:47.080Z",
+  "submissionTimestamp": "2026-07-23T10:44:36.177Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Concurrency"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Print in Order",
-  "problemUrl": "https://leetcode.com/problems/prime-arrangements/",
-  "submissionId": "ood6il"
+  "problemUrl": "https://leetcode.com/problems/print-in-order/description/",
+  "submissionId": "tx6swa"
 }
