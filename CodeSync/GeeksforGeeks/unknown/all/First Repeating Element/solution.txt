@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Repeating Element
+ * URL: https://www.geeksforgeeks.org/problems/first-repeating-element4018/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonOracle, Company Tags, Amazon, Oracle, Topic Tags, Arrays, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T12:11:14.873Z
+ */
+
+class Solution {
+    public int firstRepeated(int[] arr) {
+        // code here
+        
+    }
+}
