@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-30T18:57:16.098Z",
+  "submissionTimestamp": "2026-07-23T06:25:14.441Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Dynamic Programming",
-    "Backtracking"
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Common Patterns Questions (Copy-xksb9pgr)DJ",
+  "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/target-sum/?envType=problem-list-v2&envId=daaf1a36",
-  "submissionId": "if8v5t"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/",
+  "submissionId": "qxjjgi"
 }
