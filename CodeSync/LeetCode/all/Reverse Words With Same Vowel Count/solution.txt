@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Words With Same Vowel Count
+ * URL: https://leetcode.com/problems/reverse-words-with-same-vowel-count/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Two Pointers, String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T10:49:46.964Z
+ */
+
+class Solution {
+    public String reverseWords(String s) {
+        
+    }
+}
