@@ -1,25 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+ * URL: https://leetcode.com/problems/symmetric-tree/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Stack, Tree, Depth-First Search, Binary Tree
- * Runtime: 0 ms
+ * Topics: Stack, Tree, Depth-First Search
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T07:55:10.084Z
+ * Synced: 2026-07-23T07:55:24.864Z
  */
 
-return res;
-    }
-    static void postorder(TreeNode root,List<Integer>res){
-        if(root==null)return ;
-    }
-        postorder(root.left,res);
-        postorder(root.right,res);
-        res.add(root.val);
-}
-        postorder(root,res);
-        List<Integer>res=new ArrayList<>();
-    public List<Integer> postorderTraversal(TreeNode root) {
 class Solution {
+    public List<Integer> postorder(Node root) {
+        List<Integer> result = new ArrayList<>();
+        traverse(root, result);
+        return result;
+    }
+    static void traverse(Node node, List<Integer> result) {
+        if (node == null) return;
+        for (Node child : node.children)traverse(child, result);
+        result.add(node.val);
+    }
+}
