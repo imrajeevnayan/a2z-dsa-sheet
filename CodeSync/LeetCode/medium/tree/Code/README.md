@@ -6,8 +6,8 @@
 - Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/
-- Synced: 2026-07-23T08:06:02.814Z
+- Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/
+- Synced: 2026-07-23T08:06:50.938Z
 
 ## Problem Description
 
