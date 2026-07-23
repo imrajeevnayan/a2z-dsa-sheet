@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
-- Synced: 2026-07-23T06:27:31.209Z
+- Synced: 2026-07-23T06:29:15.781Z
 
 ## Problem Description
 
