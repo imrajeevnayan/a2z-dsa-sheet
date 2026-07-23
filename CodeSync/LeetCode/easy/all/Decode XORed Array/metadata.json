@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T04:12:47.393Z",
+  "submissionTimestamp": "2026-07-23T04:14:07.236Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "48.00 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Decode XORed Array",
-  "problemUrl": "https://leetcode.com/problems/decode-xored-array/",
+  "problemUrl": "https://leetcode.com/problems/decode-xored-array/submissions/2077837802/",
   "submissionId": "wah12z"
 }
