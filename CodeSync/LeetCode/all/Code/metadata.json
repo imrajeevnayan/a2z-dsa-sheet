@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T06:35:26.080Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.16 MB",
+  "submissionTimestamp": "2026-07-23T06:36:09.033Z",
+  "runtime": "1 ms",
+  "memoryUsage": "46.65 MB",
   "difficulty": "Easy",
   "tags": [
     "Stack",
     "Tree",
-    "Depth-First Search",
-    "Binary Tree"
+    "Depth-First Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/2078001061/",
-  "submissionId": "rbdtk9"
+  "problemUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/",
+  "submissionId": "5p9yfl"
 }
