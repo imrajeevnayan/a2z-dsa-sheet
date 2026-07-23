@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime Palindrome
+ * URL: https://leetcode.com/problems/prime-palindrome/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T10:37:18.006Z
+ */
+
+class Solution {
+    public int primePalindrome(int n) {
+        
+    }
+}
