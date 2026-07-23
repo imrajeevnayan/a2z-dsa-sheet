@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 51.00 MB
 - Problem URL: https://leetcode.com/problems/count-primes/
-- Synced: 2026-07-23T10:10:13.112Z
+- Synced: 2026-07-23T10:10:58.362Z
 
 ## Problem Description
 
