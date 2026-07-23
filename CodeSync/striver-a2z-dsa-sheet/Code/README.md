@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: 43.16 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/2078001061/
-- Synced: 2026-07-23T07:17:13.525Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+- Synced: 2026-07-23T07:18:00.085Z
 
 ## Problem Description
 
