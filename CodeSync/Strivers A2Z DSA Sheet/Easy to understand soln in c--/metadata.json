@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-23T13:15:39.780Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Infosys",
+    "Oracle",
+    "Wipro",
+    "Linkedin",
+    "Qualcomm",
+    "TCS"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int firstSearch(vector<int> &arr, int k) { // code here int lo=0,hi=arr.size()-1; int ari=-1; while(lo<=hi)//binary search { int mid=lo+(hi-lo)/2; if(arr[mid]==k) { ari=mid; hi=mid-1;//keep searching left side } else if(arr[mid]<k) lo=mid+1; else hi=mid-1; } return ari; }",
+  "problemTitle": "Easy to understand soln in c++.....",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/binary-search-1587115620/1",
+  "submissionId": "j0d8gm"
+}
