@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Nodes in k
- * URL: https://leetcode.com/problems/reverse-nodes-in-k-group/description/
+ * URL: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
  * Language: Problem List
- * Difficulty: Hard
- * Topics: Linked List, Recursion
+ * Difficulty: Easy
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T10:45:44.268Z
+ * Synced: 2026-07-23T10:46:16.800Z
  */
 
 class Solution {
