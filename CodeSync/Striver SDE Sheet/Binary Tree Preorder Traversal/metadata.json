@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-23T06:22:39.330Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-23T06:23:26.789Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Binary Tree Preorder Traversal",
   "problemUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
-  "submissionId": "4l92m4"
+  "submissionId": "4exddj"
 }
