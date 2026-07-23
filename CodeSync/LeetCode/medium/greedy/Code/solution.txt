@@ -7,7 +7,7 @@
  * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T09:47:08.346Z
+ * Synced: 2026-07-23T09:47:55.310Z
  */
 
 *     TreeNode(int val) { this.val = val; }
@@ -16,10 +16,10 @@
  *         this.left = left;
  *         this.right = right;
  *     }
- * }
- */
-class Solution {
-    public TreeNode balanceBST(TreeNode root) {
-        
-    }
-}
+ *     TreeNode() {}
+ *     TreeNode right;
+ *     TreeNode left;
+ * public class TreeNode {
+ *     int val;
+ * Definition for a binary tree node.
+/**
