@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T04:41:44.812Z
+ */
+
+Input: root = [1,2,2,3,4,4,3]
+Output: true
