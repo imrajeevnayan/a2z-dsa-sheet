@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Code
+ * URL: https://leetcode.com/problems/symmetric-tree/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Stack, Tree, Depth-First Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T07:55:24.864Z
+ */
+
+class Solution {
+    public List<Integer> postorder(Node root) {
+        List<Integer> result = new ArrayList<>();
+        traverse(root, result);
+        return result;
+    }
+    static void traverse(Node node, List<Integer> result) {
+        if (node == null) return;
+        for (Node child : node.children)traverse(child, result);
+        result.add(node.val);
+    }
+}
