@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T04:51:18.804Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.44 MB",
+  "submissionTimestamp": "2026-07-23T07:55:33.926Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "Symmetric Tree",
-  "problemUrl": "https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "dzr5al"
+  "problemUrl": "https://leetcode.com/problems/tree-node/",
+  "submissionId": "wozmsx"
 }
