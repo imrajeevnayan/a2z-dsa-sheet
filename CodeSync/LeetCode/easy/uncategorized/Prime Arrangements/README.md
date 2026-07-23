@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/
-- Synced: 2026-06-24T06:58:07.082Z
+- Problem URL: https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/
+- Synced: 2026-07-23T10:41:16.414Z
 
 ## Problem Description
 
