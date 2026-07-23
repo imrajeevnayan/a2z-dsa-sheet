@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-23T04:17:10.404Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-23T04:18:44.151Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Good Triplets",
-  "problemUrl": "https://leetcode.com/problems/count-good-triplets/",
-  "submissionId": "7n6g2f"
+  "problemUrl": "https://leetcode.com/problems/count-good-triplets/description/",
+  "submissionId": "7sib5r"
 }
