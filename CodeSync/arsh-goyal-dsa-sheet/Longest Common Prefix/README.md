@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: 0 ms
 - Memory: 43.36 MB
-- Problem URL: https://leetcode.com/problems/longest-common-prefix/submissions/2077526665/
-- Synced: 2026-07-23T04:10:57.117Z
+- Problem URL: https://leetcode.com/problems/decode-xored-array/
+- Synced: 2026-07-23T04:11:57.829Z
 
 ## Problem Description
 
