@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T06:27:31.209Z
+ * Synced: 2026-07-23T06:29:15.781Z
  */
 
 class Solution {
@@ -17,8 +17,9 @@ class Solution {
         return res;
     }
     static void postorder(TreeNode root,List<Integer>res){
-        if(node==null)return null;
+        if(root==null)return ;
     }
         postorder(root.left,res);
-        res.add(node.vak)
+        postorder(root.right,res);
+        res.add(root.val);
 }
