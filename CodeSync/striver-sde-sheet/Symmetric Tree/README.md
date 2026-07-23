@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:42:30.920Z
+- Synced: 2026-07-23T04:43:16.505Z
 
 ## Problem Description
 
