@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T10:44:36.177Z",
+  "submissionTimestamp": "2026-07-23T10:45:18.730Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Concurrency"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Print in Order",
-  "problemUrl": "https://leetcode.com/problems/print-in-order/description/",
-  "submissionId": "tx6swa"
+  "problemUrl": "https://leetcode.com/problems/n-queens/",
+  "submissionId": "lazl7h"
 }
