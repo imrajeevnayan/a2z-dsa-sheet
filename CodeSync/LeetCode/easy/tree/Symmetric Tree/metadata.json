@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T04:44:49.276Z",
+  "submissionTimestamp": "2026-07-23T04:45:35.218Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.44 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -13,5 +13,5 @@
   "language": "Top 100 Liked",
   "problemTitle": "Symmetric Tree",
   "problemUrl": "https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "9nvlh1"
+  "submissionId": "dzr5al"
 }
