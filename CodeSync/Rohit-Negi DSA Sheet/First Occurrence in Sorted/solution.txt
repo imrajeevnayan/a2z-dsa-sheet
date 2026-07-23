@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Occurrence in Sorted
+ * URL: https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Infosys, Oracle, Wipro, Linkedin, Qualcomm, TCS
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T13:14:02.972Z
+ */
+
+class Solution {
+    public int firstSearch(int[] arr, int k) {
+        int lo=0,hi=arr.length-1,idx=-1;
+        while(lo<=hi){
+            int mid=lo+(hi-lo)/2;
+            if(arr[mid]>k) hi=mid-1;
+            else if(arr[mid]<k)lo=mid+1;
+            else{
+               idx=mid;
+               hi=mid-1;
+            }
+        }
+        return idx;
+    }
+}
