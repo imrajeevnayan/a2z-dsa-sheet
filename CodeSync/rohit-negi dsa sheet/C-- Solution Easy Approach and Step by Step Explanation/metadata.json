@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-23T11:21:28.944Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Morgan StanleyMicrosoftAdobe",
+    "Company Tags",
+    "Morgan Stanley",
+    "Microsoft",
+    "Adobe",
+    "Topic Tags",
+    "Binary Search Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def canRepresentBST(self, arr): # code here s = [(-sys.maxsize, sys.maxsize)] for i in arr: while s: pop = s.pop() if pop[0] < i < pop[1]: s.append((i, pop[1])) s.append((pop[0], i)) break return s != []",
+  "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1",
+  "submissionId": "jqk6mk"
+}
