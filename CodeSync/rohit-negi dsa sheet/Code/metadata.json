@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-23T07:18:48.087Z",
+  "submissionTimestamp": "2026-07-23T07:19:33.303Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
   "submissionId": "rbdtk9"
 }
