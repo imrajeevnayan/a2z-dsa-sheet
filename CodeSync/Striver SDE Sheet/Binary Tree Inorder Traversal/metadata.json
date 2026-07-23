@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T04:24:32.176Z",
+  "submissionTimestamp": "2026-07-23T04:25:21.643Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.90 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Stack",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Binary Tree Inorder Traversal",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/2077846425/?envType=study-plan-v2&envId=top-100-liked",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked",
   "submissionId": "n7c4a8"
 }
