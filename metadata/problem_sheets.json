@@ -1447,5 +1447,14 @@
   "leetcode:prime-palindrome": [],
   "leetcode:prime-arrangements": [],
   "leetcode:sum-of-primes-between-number-and-its-reverse": [],
-  "leetcode:print-in-order": []
+  "leetcode:print-in-order": [],
+  "leetcode:n-queens": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
