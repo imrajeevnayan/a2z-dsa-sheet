@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T04:38:34.417Z",
-  "runtime": "446 ms",
-  "memoryUsage": "209.72 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-07-23T06:32:17.691Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Stack",
+    "Tree",
+    "Depth-First Search"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2077816282/",
-  "submissionId": "cihnet"
+  "problemUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/",
+  "submissionId": "btb0fh"
 }
