@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Binary Search, Bit Manipulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/description/
-- Synced: 2026-07-23T12:03:54.067Z
+- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/
+- Synced: 2026-07-23T12:04:39.638Z
 
 ## Problem Description
 
