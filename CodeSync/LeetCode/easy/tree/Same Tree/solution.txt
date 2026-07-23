@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T06:39:26.324Z
+ * Synced: 2026-07-23T06:40:11.731Z
  */
 
 class Solution {
