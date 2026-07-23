@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T07:25:30.110Z
+ * Synced: 2026-07-23T07:39:51.045Z
  */
 
 class Solution {
