@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.73 MB
 - Problem URL: https://leetcode.com/problems/same-tree/
-- Synced: 2026-07-23T06:50:45.091Z
+- Synced: 2026-07-23T06:52:20.086Z
 
 ## Problem Description
 
