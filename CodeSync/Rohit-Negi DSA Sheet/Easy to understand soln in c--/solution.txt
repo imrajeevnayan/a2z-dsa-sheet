@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy to understand soln in c++.....
+ * URL: https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
+ * Language: int firstSearch(vector<int> &arr, int k) { // code here int lo=0,hi=arr.size()-1; int ari=-1; while(lo<=hi)//binary search { int mid=lo+(hi-lo)/2; if(arr[mid]==k) { ari=mid; hi=mid-1;//keep searching left side } else if(arr[mid]<k) lo=mid+1; else hi=mid-1; } return ari; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Infosys, Oracle, Wipro, Linkedin, Qualcomm, TCS
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T13:15:39.780Z
+ */
+
+class Solution {
+    public int firstSearch(int[] arr, int k) {
+         int left = 0,right = arr.length - 1,ans = -1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] == k) {
+                ans = mid;       // store answer
+                right = mid - 1; // search left side
+            }
+            else if (arr[mid] < k) left = mid + 1;
+            else right = mid - 1;
+        }
+        return ans;
+    }
+}
