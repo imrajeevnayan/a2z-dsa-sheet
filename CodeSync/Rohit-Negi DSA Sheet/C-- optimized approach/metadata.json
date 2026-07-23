@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-23T12:21:46.308Z",
+  "submissionTimestamp": "2026-07-23T12:22:43.140Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: int firstRepeated(vector<int> &arr) { // code here unordered_map<int, int> myMap; for(int val: arr) myMap[val]++; for(int i=0; i<arr.size(); i++){ if(myMap[arr[i]] > 1) return i+1; } return -1; } };",
   "problemTitle": "C++ optimized approach",
   "problemUrl": "https://www.geeksforgeeks.org/problems/first-repeating-element4018/1",
-  "submissionId": "f6k4x5"
+  "submissionId": "qt41i5"
 }
