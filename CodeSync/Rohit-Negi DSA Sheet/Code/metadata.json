@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-12T11:23:35.503Z",
+  "submissionTimestamp": "2026-07-23T06:25:14.441Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Sorting"
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12",
-  "submissionId": "48h2xo"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/",
+  "submissionId": "qxjjgi"
 }
