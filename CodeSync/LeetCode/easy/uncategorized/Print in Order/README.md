@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-arrangements/
-- Synced: 2026-06-24T06:57:47.080Z
+- Problem URL: https://leetcode.com/problems/n-queens/
+- Synced: 2026-07-23T10:45:18.730Z
 
 ## Problem Description
 
