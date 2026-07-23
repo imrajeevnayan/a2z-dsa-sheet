@@ -7,24 +7,18 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T13:01:44.515Z
+ * Synced: 2026-07-23T13:02:31.048Z
  */
 
 class Solution {
     public int kthElement(int a[], int b[], int k) {
         int i = 0, j = 0,count = 0;
         while (i < a.length && j < b.length) {
-            int val;
-            if (a[i] < b[j]) {
-                val = a[i++];
-            } else {
-                val = b[j++];
-            }
-
+            int m;
+            if (a[i] < b[j])  m= a[i++];
+            else m = b[j++];
             count++;
-
-            if (count == k)
-                return val;
+            if (count == k) return ;
         }
 
         while (i < a.length) {
@@ -44,3 +38,7 @@ class Solution {
 
             j++;
         }
+
+        return -1;
+    }
+}
