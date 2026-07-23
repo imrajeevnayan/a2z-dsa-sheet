@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-23T04:20:22.928Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
+  "problemTitle": "Binary Tree Inorder Traversal",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "mwmfzt"
+}
