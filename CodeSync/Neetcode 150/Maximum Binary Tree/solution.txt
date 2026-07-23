@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Binary Tree
+ * URL: https://leetcode.com/problems/maximum-binary-tree/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-23T04:14:46.369Z
+ */
+
+private TreeNode build(int[] nums, int left, int right) {
+        if (left > right)return null;
+    
+        int maxIndex = left;
+        for (int i = left + 1; i <= right; i++) {
+            if (nums[i] > nums[maxIndex]) {
+                maxIndex = i;
+            }
+        }
+        TreeNode root = new TreeNode(nums[maxIndex]);
+        root.left = build(nums, left, maxIndex - 1);
+        root.right = build(nums, maxIndex + 1, right);
+        return build(nums, 0, nums.length - 1);
+    }
+    public TreeNode constructMaximumBinaryTree(int[] nums) {
+class Solution {
+
+        return root;
+    }
+}
