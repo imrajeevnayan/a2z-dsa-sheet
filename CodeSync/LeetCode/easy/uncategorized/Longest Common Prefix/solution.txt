@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Common Prefix
+ * URL: https://leetcode.com/problems/decode-xored-array/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 0 ms
+ * Memory: 43.36 MB
+ * Synced: 2026-07-23T04:11:57.829Z
+ */
+
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+        String ch = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            while (!strs[i].startsWith(ch)) {
+                ch = ch.substring(0, ch.length() - 1);
+                if (ch.isEmpty()) return "";
+            }
+        }
+        return ch;
+    }
+}
