@@ -7,14 +7,10 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-23T07:39:51.045Z
+ * Synced: 2026-07-23T07:40:43.232Z
  */
 
-class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer>res=new ArrayList<>();
-        postorder(root,res);
-        return res;
+return res;
     }
     static void postorder(TreeNode root,List<Integer>res){
         if(root==null)return ;
@@ -23,3 +19,7 @@ class Solution {
         postorder(root.right,res);
         res.add(root.val);
 }
+        postorder(root,res);
+        List<Integer>res=new ArrayList<>();
+    public List<Integer> postorderTraversal(TreeNode root) {
+class Solution {
