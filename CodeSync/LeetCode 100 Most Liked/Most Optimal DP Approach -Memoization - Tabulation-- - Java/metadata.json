@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-23T13:05:44.170Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Amazon",
+    "Microsoft",
+    "OYO Rooms",
+    "Samsung",
+    "BankBazaar"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def lis(self, arr): # code here def binary_search(sub, num): ans = len(sub) # if not found left, right = 0, ans - 1 while left <= right: mid = (left+right)//2 if sub[mid] >= num: ans = mid right -= 1 else: left += 1 return ans sub = [] for num in arr: i = binary_search(sub, num) if i < len(sub): sub[i] = num else: sub.append(num) return len(sub)",
+  "problemTitle": "Most Optimal DP Approach (Memoization + Tabulation)! - Java",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1",
+  "submissionId": "rclyz6"
+}
