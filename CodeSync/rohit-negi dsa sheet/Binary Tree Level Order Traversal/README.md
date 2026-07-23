@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:47:32.280Z
+- Synced: 2026-07-23T04:48:19.484Z
 
 ## Problem Description
 
