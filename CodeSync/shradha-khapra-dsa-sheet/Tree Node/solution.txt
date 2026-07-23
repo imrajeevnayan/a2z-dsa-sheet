@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Tree Node
+ * URL: https://leetcode.com/problems/even-odd-tree/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-23T07:55:58.126Z
+ */
+
+# Write your MySQL query statement below
