@@ -7,12 +7,15 @@
  * Topics: Expected Complexities, Company Tags AmazonOracle, Company Tags, Amazon, Oracle, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T12:16:06.971Z
+ * Synced: 2026-07-23T12:16:52.337Z
  */
 
 class Solution {
     public int firstRepeated(int[] arr) {
      HashMap<Integer,Integer>map=new HashMap<>();
-     for(int n:arr)map
+     for(int n:arr)map.put(n,map.getOrDefault(n,0)+1);
+     for(int n:map.keySet()){
+         if()
+     }
     }
 }
