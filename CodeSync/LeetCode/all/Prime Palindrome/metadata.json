@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-23T10:38:11.808Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-23T10:38:57.183Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Prime Palindrome",
   "problemUrl": "https://leetcode.com/problems/prime-palindrome/",
-  "submissionId": "4ettj7"
+  "submissionId": "uaqysb"
 }
