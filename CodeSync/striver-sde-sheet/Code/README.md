@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
-- Synced: 2026-07-23T07:23:29.083Z
+- Synced: 2026-07-23T07:24:16.083Z
 
 ## Problem Description
 
