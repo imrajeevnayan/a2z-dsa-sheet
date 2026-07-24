@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum in Decreasing Increasing Array
+ * URL: https://www.geeksforgeeks.org/problems/ternary-search/1
+ * Language: class Solution { public int findMinIndex(int[] arr) { int left = 0; int right = arr.length - 1; while (left < right) { int mid = left + (right - left) / 2; // If mid element is greater than its next element, // the minimum lies to the right if (arr[mid] > arr[mid + 1]) { left = mid + 1; } else { // Minimum is at mid or to the left right = mid; } } // At the end, left == right pointing to the minimum return left; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:25:15.829Z
+ */
+
+class Solution {
+    public int findMinIndex(int[] arr) {
+        int minIndex = 0;
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < arr[minIndex]) {
+                minIndex = i;
+            }
+        }
+
+        return minIndex;
+    }
+}
