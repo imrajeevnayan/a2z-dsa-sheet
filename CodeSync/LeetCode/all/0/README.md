@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Binary Search
-- Difficulty: Easy
-- Topics: Array, Two Pointers, Binary Search, Sorting
+- Difficulty: Medium
+- Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:12:18.079Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:40:52.213Z
 
 ## Problem Description
 
-Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays. The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d. Example 1: Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2 Output: 2 Explanation: For arr1[0]=4 we have: |4-10|=6 > d=2 |4-9|=5 > d=2 |4-1|=3 > d=2 |4-8|=4 > d=2 For arr1[1]=5 we have: |5-10|=5 > d=2 |5-9|=4 > d=2 |5-1|=4 > d=2 |5-8|=3 > d=2 For arr1[2]=8 we have: |8-10|=2 <= d=2 |8-9|=1 <= d=2 |8-1|=7 > d=2 |8-8|=0 <= d=2 Example 2: Input: arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3 Output: 2 Example 3: Input: arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6 Output: 1 Constraints: 1 <= arr1.length, arr2.length <= 500 -1000 <= arr1[i], arr2[j] <= 1000 0 <= d <= 100
+There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
