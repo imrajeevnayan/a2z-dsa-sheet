@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:51:35.934Z
+ * Synced: 2026-07-24T12:52:23.934Z
  */
 
 else  high = mid - 1;
