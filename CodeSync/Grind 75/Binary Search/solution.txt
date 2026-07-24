@@ -1,24 +1,24 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: LeetCode
  * Problem: Binary Search
- * URL: https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1
- * Language: Java (21)
- * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Paytm, Company Tags, Paytm, Topic Tags, Searching, Binary Search, Related Articles
+ * URL: https://leetcode.com/problems/missing-number/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T13:03:55.973Z
+ * Synced: 2026-07-24T11:14:53.104Z
  */
 
 class Solution {
-    public boolean binarySearch(int[] arr, int k) {
-        int lo=0,hi=arr.length-1;
-        while(lo<=hi){
-            int mid=lo+(hi-lo)/2;
-            if(arr[mid]==k) return true;
-            else if(arr[mid]<k)lo=mid+1;
-            else hi=mid-1;
+    public int search(int[] nums, int target) {
+        int low=0,high=nums.length-1;
+        while(low <= high){
+            int mid=low+(high-low)/2;
+            if(nums[mid]==target) return mid;
+            else if( nums[mid]< target)low=mid+1;
+            else high=mid-1;
         }
-        return false;
+        return -1;
     }
 }
