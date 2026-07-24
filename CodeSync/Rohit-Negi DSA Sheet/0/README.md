@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Linked List
 - Difficulty: Medium
-- Topics: Linked List
+- Topics: Linked List, Math, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-07-24T13:04:10.882Z
+- Problem URL: https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list
+- Synced: 2026-07-24T13:05:22.392Z
 
 ## Problem Description
 
-A critical point in a linked list is defined as either a local maxima or a local minima. A node is a local maxima if the current node has a value strictly greater than the previous node and the next node. A node is a local minima if the current node has a value strictly smaller than the previous node and the next node. Note that a node can only be a local maxima/minima if there exists both a previous node and a next node. Given a linked list head, return an array of length 2 containing [minDistance, maxDistance] where minDistance is the minimum distance between any two distinct critical points and maxDistance is the maximum distance between any two distinct critical points. If there are fewer than two critical points, return [-1, -1]. Example 1: Input: head = [3,1] Output: [-1,-1] Explanation: There are no critical points in [3,1]. Example 2: Input: head = [5,3,1,2,5,1,2] Output: [1,3] Explanation: There are three critical points: - [5,3,1,2,5,1,2]: The third node is a local minima because 1 is less than 3 and 2. - [5,3,1,2,5,1,2]: The fifth node is a local maxima because 5 is greater than 2 and 1. - [5,3,1,2,5,1,2]: The sixth node is a local minima because 1 is less than 5 and 2. The minimum distance is between the fifth and the sixth node. minDistance = 6 - 5 = 1. The maximum distance is between the third and the sixth node. maxDistance = 6 - 3 = 3. Example 3: Input: head = [1,3,2,2,3,2,2,2,7] Output: [3,3] Explanation: There are two critical points: - [1,3,2,2,3,2,2,2,7]: The second node is a local maxima because 3 is greater than 1 and 2. - [1,3,2,2,3,2,2,2,7]: The fifth node is a local maxima because 3 is greater than 2 and 2. Both the minimum and maximum distances are between the second and the fifth node. Thus, minDistance and maxDistance is 5 - 2 = 3. Note that the last node is not considered a local maxima because it does not have a next node. Constraints: The number of nodes in the list is in the range [2, 105]. 1 <= Node.val <= 105
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example 1: Input: l1 = [2,4,3], l2 = [5,6,4] Output: [7,0,8] Explanation: 342 + 465 = 807. Example 2: Input: l1 = [0], l2 = [0] Output: [0] Example 3: Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9] Output: [8,9,9,9,0,0,0,1] Constraints: The number of nodes in each linked list is in the range [1, 100]. 0 <= Node.val <= 9 It is guaranteed that the list represents a number that does not have leading zeros.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List. The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
