@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Binary Search, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:13:04.389Z
+- Problem URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/submissions/2079545303/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:13:49.868Z
 
 ## Problem Description
 
