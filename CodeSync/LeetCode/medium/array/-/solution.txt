@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+ * URL: https://leetcode.com/problems/count-primes/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, Sorting
+ * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-19T17:46:45.558Z
+ * Synced: 2026-07-24T17:08:06.528Z
  */
 
-Input: nums = [4,3,2,7,8,2,3,1]
-Output: [2,3]
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
