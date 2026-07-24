@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T08:59:37.958Z",
+  "submissionTimestamp": "2026-07-24T12:26:07.476Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: int lowerBound(vector<int>& arr, int target) { // code here int low=0; int high=arr.size()-1; int lwb = -1; while(low <= high){ int mid = low + (high-low)/2; if(arr[mid] >= target){ lwb=mid; high=mid-1; } else if(arr[mid] < target){ low=mid+1; lwb=low; } } return lwb; } };",
+  "language": "class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }",
   "problemTitle": "Editor Settings",
   "problemUrl": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
-  "submissionId": "hb704i"
+  "submissionId": "rfiqir"
 }
