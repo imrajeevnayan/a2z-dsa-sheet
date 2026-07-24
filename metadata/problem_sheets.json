@@ -81,9 +81,7 @@
     "custom:neetcode-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
-    "custom:striver-sde-sheet",
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet"
+    "custom:striver-sde-sheet"
   ],
   "leetcode:find-first-and-last-position-of-element-in-sorted-array": [
     "custom:algomaster-300",
