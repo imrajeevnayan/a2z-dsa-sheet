@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-16T12:12:30.441Z",
+  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Math"
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
-  "submissionId": "vfut33"
+  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "q6yqko"
 }
