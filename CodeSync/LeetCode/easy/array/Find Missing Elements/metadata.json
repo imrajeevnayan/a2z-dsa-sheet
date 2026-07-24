@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T11:22:19.275Z",
+  "submissionTimestamp": "2026-07-24T11:23:08.997Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Missing Elements",
-  "problemUrl": "https://leetcode.com/problems/find-missing-elements/description/",
+  "problemUrl": "https://leetcode.com/problems/find-missing-elements/",
   "submissionId": "z5ul5j"
 }
