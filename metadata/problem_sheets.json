@@ -1670,5 +1670,12 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
