@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1
-- Synced: 2026-07-24T06:27:23.098Z
+- Synced: 2026-07-24T06:29:10.102Z
 
 ## Problem Description
 
