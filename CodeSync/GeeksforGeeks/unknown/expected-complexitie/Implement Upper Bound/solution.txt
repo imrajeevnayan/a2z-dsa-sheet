@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Implement Upper Bound
+ * URL: https://www.geeksforgeeks.org/problems/implement-upper-bound/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T05:16:26.925Z
+ */
+
+class Solution {
+    int upperBound(int[] arr, int target) {
+        int low = 0, high = arr.length, ans = arr.length; 
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] > target) {
+                ans = mid;      
+                high = mid;    
+            } 
+            else low = mid + 1;
+        }
+        return ans;
+    }
+}
