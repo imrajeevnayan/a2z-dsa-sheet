@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sorted and Rotated Minimum
+ * URL: https://www.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Morgan Stanley, Amazon, Microsoft, Samsung, Snapdeal, Adobe
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T05:22:48.206Z
+ */
+
+class Solution {
+    public int findMin(int[] arr) {
+        // code here
+        
+    }
+}
