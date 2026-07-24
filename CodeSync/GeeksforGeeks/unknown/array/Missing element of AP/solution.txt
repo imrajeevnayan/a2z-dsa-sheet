@@ -2,26 +2,14 @@
  * Platform: GeeksforGeeks
  * Problem: Missing element of AP
  * URL: https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1
- * Language: Java (21)
+ * Language: Text
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Data Structures, Algorithms, Binary Search, Hash
+ * Topics: Topic Tags Related Articles, Topic Tags, Arrays, Searching, Binary Search, Hash, Related Articles, Find Missing Number Arithmetic Progression
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T16:48:54.302Z
+ * Synced: 2026-07-24T06:26:24.319Z
  */
 
-class Solution {
-    public int findMissing(int[] arr) {
-
-        int n = arr.length;
-
-        int d = (arr[n - 1] - arr[0]) / n;
-
-        for (int i = 1; i < n; i++) {
-            if (arr[i] - arr[i - 1] != d)
-                return arr[i - 1] + d;
-        }
-
-        return arr[0] + d; 
-    }
-}
+Input: arr[] = [2, 4, 8, 10, 12, 14]
+Output: 6
+Explanation: Actual AP should be 2, 4, 6, 8, 10, 12, 14.
