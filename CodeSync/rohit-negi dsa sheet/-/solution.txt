@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/
- * Language: Text
- * Difficulty: Easy
- * Topics: Stack, Tree, Depth-First Search
+ * URL: https://leetcode.com/problems/count-primes/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T06:32:17.691Z
+ * Synced: 2026-07-24T17:08:06.528Z
  */
 
-Input: root = [1,null,3,2,4,null,5,6]
-Output: [5,6,3,2,4,1]
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
