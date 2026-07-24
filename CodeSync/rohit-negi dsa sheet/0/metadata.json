@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-24T12:12:18.079Z",
+  "submissionTimestamp": "2026-07-24T12:40:52.213Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers",
-    "Binary Search",
-    "Sorting"
+    "Binary Search"
   ],
   "platform": "LeetCode",
   "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "5t9m96"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "6aznf"
 }
