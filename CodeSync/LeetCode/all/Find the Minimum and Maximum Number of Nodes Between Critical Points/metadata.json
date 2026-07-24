@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-07-24T13:05:05.929Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Linked List",
+  "problemTitle": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+  "problemUrl": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "7sqkai"
+}
