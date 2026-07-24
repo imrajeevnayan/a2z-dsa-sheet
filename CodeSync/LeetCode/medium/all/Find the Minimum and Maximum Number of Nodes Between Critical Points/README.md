@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-07-24T13:05:05.929Z
+- Synced: 2026-07-24T13:05:54.457Z
 
 ## Problem Description
 
