@@ -1618,5 +1618,9 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:range-sum-of-sorted-subarray-sums": []
+  "leetcode:range-sum-of-sorted-subarray-sums": [],
+  "geeksforgeeks:ternary-search": [
+    "CSESSet",
+    "GFG160"
+  ]
 }
