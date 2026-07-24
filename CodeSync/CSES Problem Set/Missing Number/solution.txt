@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
  * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-07-24T11:19:34.457Z
+ * Memory: 47.89 MB
+ * Synced: 2026-07-24T11:20:23.658Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             if(nums[i]!=i) return i;
         }
-        return -1;
+        return nums.length;
     }
         Arrays.sort(nums);
 }
