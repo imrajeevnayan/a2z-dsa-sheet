@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-missing-elements/
-- Synced: 2026-07-24T11:24:46.974Z
+- Synced: 2026-07-24T11:27:20.978Z
 
 ## Problem Description
 
