@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-30T09:32:20.018Z",
+  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Array",
     "Two Pointers",
-    "String"
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "jxik4p"
+  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "q6yqko"
 }
