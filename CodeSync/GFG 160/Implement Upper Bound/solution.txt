@@ -7,22 +7,18 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T09:27:41.757Z
+ * Synced: 2026-07-24T09:28:27.006Z
  */
 
 class Solution {
     int upperBound(int[] arr, int target) {
-        int low = 0.high = arr.length;
+        int low = 0,high = arr.length;
         while (low < high) {
             int mid = low + (high - low) / 2;
 
-            if (arr[mid] <= target) {
-                low = mid + 1;      // move right
-            } else {
-                high = mid;         // possible answer
-            }
+            if (arr[mid] <= target) low = mid + 1; 
+            else high = mid;         
         }
-
         return low;
     }
 }
