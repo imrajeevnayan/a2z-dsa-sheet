@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T12:30:59.403Z",
+  "submissionTimestamp": "2026-07-24T12:32:07.026Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,5 +16,5 @@
   "language": "// User function Template for C++ class Solution { public: int findTarget(vector<int>& arr, int target) { int l = 0; // Left pointer int h = arr.size() - 1; // Right pointer int n = arr.size(); // Array size // Binary search until only 2 elements remain while (h > l + 1) { int mid = l + (h - l) / 2; // Check if target found at mid position if (arr[mid] == target) { return mid; } // Check if target found at mid-1 position (almost sorted property) else if (arr[mid - 1] == target && mid - 1 >= 0) { return mid - 1; } // Check if target found at mid+1 position (almost sorted property) else if (arr[mid + 1] == target && mid + 1 < n) { return mid + 1; } // Standard binary search logic else if (arr[mid] < target) { l = mid; // Target in right half } else { h = mid; // Target in left half } } // Check final 2 candidates if (arr[l] == target) { return l; } if (arr[h] == target) { return h; } return -1; // Target not found } }; /* Problem: Search in almost sorted array using binary search Template: while (h > l + 1) with neighbor checking Time: O(log n), Space: O(1) */",
   "problemTitle": "✅Beginner Friendly | Binary Search",
   "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-an-almost-sorted-array/1",
-  "submissionId": "px2q1p"
+  "submissionId": "ugfkef"
 }
