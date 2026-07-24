@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-search/description/
-- Synced: 2026-07-24T07:54:04.096Z
+- Runtime: 0 ms
+- Memory: 48.30 MB
+- Problem URL: https://leetcode.com/problems/binary-search/submissions/2079292669/
+- Synced: 2026-07-24T07:55:09.998Z
 
 ## Problem Description
 
