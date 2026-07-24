@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Morgan Stanley, Amazon, Microsoft, Samsung, Snapdeal, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T05:22:48.206Z
+ * Synced: 2026-07-24T05:28:21.929Z
  */
 
 class Solution {
