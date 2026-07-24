@@ -7,11 +7,19 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T11:23:08.997Z
+ * Synced: 2026-07-24T11:24:00.868Z
  */
 
-class Solution {
-    public List<Integer> findMissingElements(int[] nums) {
-        
-    }
 }
+
+            if (nums[index] > 0) {
+                nums[index] = -nums[index];
+        for (int i = 0; i < nums.length; i++) {
+            int index = Math.abs(nums[i]) - 1;
+
+    public List<Integer> findMissingElements(int[] nums) {
+        List<Integer> ans = new ArrayList<>();
+class Solution {
+        }
+
+        // Indices with positive values are missing
