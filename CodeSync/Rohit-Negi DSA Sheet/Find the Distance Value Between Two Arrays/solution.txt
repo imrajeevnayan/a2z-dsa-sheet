@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Distance Value Between Two Arrays
+ * URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:13:04.389Z
+ */
+
+}
+            if (isValid(arr2, num, d))  count++;
+        for (int num : arr1) {
+        int count = 0;
+        Arrays.sort(arr2);
+    public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
+class Solution {
+        return count;
+    }
+    private boolean isValid(int[] arr2, int target, int d) {
+        int left = 0;
+        int right = arr2.length - 1;
