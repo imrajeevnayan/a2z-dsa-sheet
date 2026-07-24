@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Missing Elements
- * URL: https://leetcode.com/problems/find-missing-elements/description/
+ * URL: https://leetcode.com/problems/find-missing-elements/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T11:22:19.275Z
+ * Synced: 2026-07-24T11:23:08.997Z
  */
 
 class Solution {
