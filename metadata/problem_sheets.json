@@ -1538,5 +1538,8 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:implement-lower-bound": [
+    "GFG160"
   ]
 }
