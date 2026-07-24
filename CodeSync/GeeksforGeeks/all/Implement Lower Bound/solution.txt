@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Implement Lower Bound
+ * URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T05:13:08.827Z
+ */
+
+class Solution {
+    int lowerBound(int[] arr, int target) {
+        int left = 0, right = arr.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] < target) left = mid + 1;
+            else right = mid;
+        }
+        return left;
+    }
+}
