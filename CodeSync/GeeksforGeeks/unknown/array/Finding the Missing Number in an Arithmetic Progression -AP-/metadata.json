@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-24T06:27:23.098Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Searching",
+    "Binary Search",
+    "Hash",
+    "Related Articles",
+    "Find Missing Number Arithmetic Progression"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int findMissing(int[] arr) { int n = arr.length; // Step 1: Compute the common difference d int d1 = (arr[n-1] - arr[0]) / n; int d2 = Math.min(Math.abs(arr[n-1] - arr[n-2]), Math.abs(arr[1] - arr[0])); int d = Math.max(Math.abs(d1), Math.abs(d2)); // Apply sign for descending AP if ((arr[n-1] - arr[n-2]) < 0) { d = -d; } // Step 2: Scan to find mismatch for (int i = 0; i < n - 1; i++) { if (arr[i+1] - arr[i] != d) { return arr[i] + d; } } // If nothing found, missing number is after last element return arr[n-1] + d; } }",
+  "problemTitle": "Finding the Missing Number in an Arithmetic Progression (AP)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1",
+  "submissionId": "me4u6b"
+}
