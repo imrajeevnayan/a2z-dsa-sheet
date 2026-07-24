@@ -1,17 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Find Smallest Letter Greater Than Target
- * URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
+ * URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T13:12:34.110Z
+ * Synced: 2026-07-24T13:13:21.348Z
  */
 
-class Solution {
+if (letters[mid] > target)right = mid - 1; // search for a smaller greater letter
+            } else {
+                left = mid + 1;
+            }
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+        int left = 0,right = letters.length - 1;
     public char nextGreatestLetter(char[] letters, char target) {
-        
-    }
-}
+class Solution {
+        }
+
+        // left will be the first index where letters[left] > target
+        // if left reaches length, wrap around
