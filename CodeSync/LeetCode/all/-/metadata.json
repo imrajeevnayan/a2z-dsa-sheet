@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
+  "submissionTimestamp": "2026-07-24T17:08:06.528Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers",
-    "Binary Search",
-    "Sorting"
+    "Math",
+    "Enumeration",
+    "Number Theory"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "q6yqko"
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "submissionId": "2x4c9m"
 }
