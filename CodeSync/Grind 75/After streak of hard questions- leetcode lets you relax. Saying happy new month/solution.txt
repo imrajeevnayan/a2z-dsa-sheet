@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 48.30 MB
- * Synced: 2026-07-24T09:15:32.775Z
+ * Synced: 2026-07-24T09:16:18.765Z
  */
 
 class Solution {
