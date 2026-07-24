@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Binary Search
+ * URL: https://leetcode.com/problems/missing-number/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T11:14:53.104Z
+ */
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int low=0,high=nums.length-1;
+        while(low <= high){
+            int mid=low+(high-low)/2;
+            if(nums[mid]==target) return mid;
+            else if( nums[mid]< target)low=mid+1;
+            else high=mid-1;
+        }
+        return -1;
+    }
+}
