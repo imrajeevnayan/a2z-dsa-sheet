@@ -1671,5 +1671,21 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": []
+  "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [],
+  "leetcode:add-two-numbers": [
+    "NeetCode150",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
