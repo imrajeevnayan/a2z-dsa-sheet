@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
-- Synced: 2026-07-24T08:53:23.235Z
+- Synced: 2026-07-24T08:57:28.469Z
 
 ## Problem Description
 
