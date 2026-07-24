@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-24T13:16:42.640Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-24T13:17:28.277Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Guess Number Higher or Lower",
-  "problemUrl": "https://leetcode.com/problems/guess-number-higher-or-lower/",
-  "submissionId": "uoxr9v"
+  "problemUrl": "https://leetcode.com/problems/guess-number-higher-or-lower/submissions/2079602885/",
+  "submissionId": "vr4zzl"
 }
