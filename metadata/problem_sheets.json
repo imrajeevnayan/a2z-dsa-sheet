@@ -1663,5 +1663,12 @@
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
   ],
-  "leetcode:merge-nodes-in-between-zeros": []
+  "leetcode:merge-nodes-in-between-zeros": [],
+  "leetcode:merge-in-between-linked-lists": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
