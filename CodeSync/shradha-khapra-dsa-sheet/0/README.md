@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Binary Search
+- Language: Linked List
 - Difficulty: Medium
-- Topics: Array, Binary Search
+- Topics: Linked List, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:40:52.213Z
+- Problem URL: https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=problem-list-v2&envId=linked-list
+- Synced: 2026-07-24T13:02:03.162Z
 
 ## Problem Description
 
-There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
+You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0. For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's. Return the head of the modified linked list. Example 1: Input: head = [0,3,1,0,4,5,2,0] Output: [4,11] Explanation: The above figure represents the given linked list. The modified list contains - The sum of the nodes marked in green: 3 + 1 = 4. - The sum of the nodes marked in red: 4 + 5 + 2 = 11. Example 2: Input: head = [0,1,0,3,0,2,2,0] Output: [1,3,4] Explanation: The above figure represents the given linked list. The modified list contains - The sum of the nodes marked in green: 1 = 1. - The sum of the nodes marked in red: 3 = 3. - The sum of the nodes marked in yellow: 2 + 2 = 4. Constraints: The number of nodes in the list is in the range [3, 2 * 105]. 0 <= Node.val <= 1000 There are no two consecutive nodes with Node.val == 0. The beginning and end of the linked list have Node.val == 0.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Simulation. Review the synced source file for the implementation details.
