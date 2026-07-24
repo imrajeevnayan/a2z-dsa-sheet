@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-10T14:49:12.838Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.04 MB",
+  "submissionTimestamp": "2026-07-24T12:41:45.922Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Binary Search",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2062969621/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "iagxu6"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "z3kqug"
 }
