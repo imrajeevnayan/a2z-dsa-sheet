@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smaller Sum✅✅
+ * URL: https://www.geeksforgeeks.org/problems/smaller-sum--170647/1
+ * Language: while(low<high) //low=0, high=len(a) { mid=(low+high)/2; if(arr[i]<mid) low=mid+1; else high=mid } return low
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Arrays, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:33:17.119Z
+ */
+
+class Solution {
+    public long[] smallerSum(int n, int arr[]) {
+        long[] ans = new long[n];
+
+        int[] sorted = arr.clone();
+        Arrays.sort(sorted);
+
+        long[] prefix = new long[n];
+
+        prefix[0] = sorted[0];
+        for (int i = 1; i < n; i++) {
+            prefix[i] = prefix[i - 1] + sorted[i];
+        }
+
+        for (int i = 0; i < n; i++) {
+            int index = lowerBound(sorted, arr[i]);
+
+            if (index == 0) {
+                ans[i] = 0;
+            } else {
+                ans[i] = prefix[index - 1];
+            }
+        }
+
+        return ans;
+    }
+
+    private int lowerBound(int[] arr, int target) {
+        int left = 0;
+        int right = arr.length;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] < target) {
