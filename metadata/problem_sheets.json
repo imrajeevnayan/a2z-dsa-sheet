@@ -1622,5 +1622,14 @@
   "geeksforgeeks:ternary-search": [
     "CSESSet",
     "GFG160"
+  ],
+  "geeksforgeeks:missing-number-in-sorted-array-of-natural-numbers": [
+    "StriverA2Z",
+    "GFG160",
+    "custom:shradha-khapra-dsa-sheet",
+    "CSESSet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
