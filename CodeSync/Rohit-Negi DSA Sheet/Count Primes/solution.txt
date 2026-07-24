@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T17:12:44.175Z
+ * Synced: 2026-07-24T17:13:30.810Z
  */
 
 Arrays.fill(prime,true);
@@ -20,6 +20,7 @@ Arrays.fill(prime,true);
                 }
             }
         }
+        int count=0;
+        for(int i=2;ii<n;i++)
     }
-        
 }
