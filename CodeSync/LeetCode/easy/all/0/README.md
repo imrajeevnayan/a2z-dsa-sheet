@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Binary Search
 - Difficulty: Easy
-- Topics: Array, Binary Search, Sorting
+- Topics: Array, Two Pointers, Binary Search, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:10:30.602Z
+- Problem URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:12:18.079Z
 
 ## Problem Description
 
-You are given a 0-indexed integer array nums and a target element target. A target index is an index i such that nums[i] == target. Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order. Example 1: Input: nums = [1,2,5,2,3], target = 2 Output: [1,2] Explanation: After sorting, nums is [1,2,2,3,5]. The indices where nums[i] == 2 are 1 and 2. Example 2: Input: nums = [1,2,5,2,3], target = 3 Output: [3] Explanation: After sorting, nums is [1,2,2,3,5]. The index where nums[i] == 3 is 3. Example 3: Input: nums = [1,2,5,2,3], target = 5 Output: [4] Explanation: After sorting, nums is [1,2,2,3,5]. The index where nums[i] == 5 is 4. Constraints: 1 <= nums.length <= 100 1 <= nums[i], target <= 100
+Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays. The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d. Example 1: Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2 Output: 2 Explanation: For arr1[0]=4 we have: |4-10|=6 > d=2 |4-9|=5 > d=2 |4-1|=3 > d=2 |4-8|=4 > d=2 For arr1[1]=5 we have: |5-10|=5 > d=2 |5-9|=4 > d=2 |5-1|=4 > d=2 |5-8|=3 > d=2 For arr1[2]=8 we have: |8-10|=2 <= d=2 |8-9|=1 <= d=2 |8-1|=7 > d=2 |8-8|=0 <= d=2 Example 2: Input: arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3 Output: 2 Example 3: Input: arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6 Output: 1 Constraints: 1 <= arr1.length, arr2.length <= 500 -1000 <= arr1[i], arr2[j] <= 1000 0 <= d <= 100
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
