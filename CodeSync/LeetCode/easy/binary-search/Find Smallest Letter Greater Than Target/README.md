@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
-- Synced: 2026-07-24T13:12:34.110Z
+- Problem URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+- Synced: 2026-07-24T13:13:21.348Z
 
 ## Problem Description
 
