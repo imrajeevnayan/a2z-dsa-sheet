@@ -1,18 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/rotate-array/description/
+ * URL: https://leetcode.com/problems/count-primes/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Math, Two Pointers
+ * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T10:05:51.344Z
+ * Synced: 2026-07-24T17:08:06.528Z
  */
 
-Input: nums = [1,2,3,4,5,6,7], k = 3
-Output: [5,6,7,1,2,3,4]
-Explanation:
-rotate 1 steps to the right: [7,1,2,3,4,5,6]
-rotate 2 steps to the right: [6,7,1,2,3,4,5]
-rotate 3 steps to the right: [5,6,7,1,2,3,4]
+Input: n = 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
