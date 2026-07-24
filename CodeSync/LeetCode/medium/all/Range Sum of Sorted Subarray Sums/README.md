@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Binary Search, Sorting, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:14:55.662Z
+- Runtime: 0 ms
+- Memory: 84.13 MB
+- Problem URL: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/submissions/2079546915/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:15:41.008Z
 
 ## Problem Description
 
