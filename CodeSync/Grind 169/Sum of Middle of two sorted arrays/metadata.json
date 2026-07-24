@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-24T12:34:53.865Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonD-E-Shaw",
+    "Company Tags",
+    "Amazon",
+    "D-E-Shaw",
+    "Topic Tags",
+    "Arrays",
+    "Divide and Conquer"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int SumofMiddleElements(int[] arr1, int[] arr2) { int i=0,n=arr1.length,m=arr2.length; int ans[]=new int[n+m]; for(int a:arr1){ ans[i++]=a; } for(int b:arr2){ ans[i++]=b; } Arrays.sort(ans); int len=n+m; int a=ans[len/2]; int b=ans[(len-1)/2]; return a+b; } }",
+  "problemTitle": "Sum of Middle of two sorted arrays",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1",
+  "submissionId": "m31ej9"
+}
