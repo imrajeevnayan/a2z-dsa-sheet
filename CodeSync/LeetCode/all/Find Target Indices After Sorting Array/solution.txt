@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Target Indices After Sorting Array
+ * URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Easy
+ * Topics: Array, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:11:16.186Z
+ */
+
+else if (num == target) equal++;
+        for (int num : nums) {
+            if (num < target)  less++;
+        int less = 0.equal = 0;
+    public List<Integer> targetIndices(int[] nums, int target) {
+class Solution {
+        }
+
+        List<Integer> ans = new ArrayList<>();
+
+        for (int i = 0; i < equal; i++) {
+            ans.add(less + i);
