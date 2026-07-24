@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Binary Search
 - Difficulty: Easy
-- Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+- Topics: Array, Binary Search, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:41:44.812Z
+- Problem URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:10:30.602Z
 
 ## Problem Description
 
-Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center). Example 1: Input: root = [1,2,2,3,4,4,3] Output: true Example 2: Input: root = [1,2,2,null,3,null,3] Output: false Constraints: The number of nodes in the tree is in the range [1, 1000]. -100 <= Node.val <= 100 Follow up: Could you solve it both recursively and iteratively?
+You are given a 0-indexed integer array nums and a target element target. A target index is an index i such that nums[i] == target. Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order. Example 1: Input: nums = [1,2,5,2,3], target = 2 Output: [1,2] Explanation: After sorting, nums is [1,2,2,3,5]. The indices where nums[i] == 2 are 1 and 2. Example 2: Input: nums = [1,2,5,2,3], target = 3 Output: [3] Explanation: After sorting, nums is [1,2,2,3,5]. The index where nums[i] == 3 is 3. Example 3: Input: nums = [1,2,5,2,3], target = 5 Output: [4] Explanation: After sorting, nums is [1,2,2,3,5]. The index where nums[i] == 5 is 4. Constraints: 1 <= nums.length <= 100 1 <= nums[i], target <= 100
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search, Sorting. Review the synced source file for the implementation details.
