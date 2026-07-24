@@ -1,25 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Guess Number Higher or Lower
- * URL: https://leetcode.com/problems/guess-number-higher-or-lower/
+ * URL: https://leetcode.com/problems/guess-number-higher-or-lower/submissions/2079602885/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Binary Search, Interactive
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-24T13:16:42.640Z
+ * Synced: 2026-07-24T13:17:28.277Z
  */
 
-return mid;
-            } 
-
-            if (result == 0) {
-            int result = guess(mid);
+while (left <= right) {
             int mid = left + (right - left) / 2;
-        while (left <= right) {
-        int left = 1,right = n;
-    public int guessNumber(int n) {
-public class Solution extends GuessGame {
-            else if (result == -1) {
-                right = mid - 1;
-            }
+            int result = guess(mid);
+            if (result == 0) return mid;
