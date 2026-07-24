@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: //Easy solution using compare function ----------->
+ * URL: https://www.geeksforgeeks.org/problems/k-closest-elements3619/1
+ * Language: import heapq class Solution: def printKClosest(self, arr, k, x): # code here res = [] min_heap = [] for num in arr: if num != x: heapq.heappush(min_heap, (-abs(num-x), num)) if len(min_heap) > k: heapq.heappop(min_heap) for _ in range(k): res.append(heapq.heappop(min_heap)[1]) return res[::-1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonOYO Rooms, Company Tags, Amazon, OYO Rooms, Topic Tags, Arrays, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T05:20:18.214Z
+ */
+
+} 
+            else low = mid + 1;
+        }
+        return ans;
+    }
+    int[] printKClosest(int[] arr, int k, int x) {
+        int n = arr.length;
+        int[] res = new int[k];
+        int right = upperBound(arr, x);
+        int left = right - 1;
+        int idx = 0;
+
+        while (k > 0) {
+            while (left >= 0 && arr[left] == x)left--;
+            while (right < n && arr[right] == x) right++;
+            if (left < 0) res[idx++] = arr[right++];
+            else if (right >= n)res[idx++] = arr[left--];
+            else {
+                int leftDiff = Math.abs(arr[left] - x);
+                int rightDiff = Math.abs(arr[right] - x);
+
+                if (leftDiff < rightDiff) {
+                    res[idx++] = arr[left--];
+                }
+                else {
+                    // If equal distance, choose larger element
+                    res[idx++] = arr[right++];
+                }
+            }
+            k--;
+        }
+        return res;
+    }
+}
