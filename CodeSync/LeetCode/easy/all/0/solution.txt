@@ -1,14 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
  * Difficulty: Easy
- * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Topics: Array, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T04:41:44.812Z
+ * Synced: 2026-07-24T12:10:30.602Z
  */
 
-Input: root = [1,2,2,3,4,4,3]
-Output: true
+class Solution {
+    public List<Integer> targetIndices(int[] nums, int target) {
+        
+    }
+}
