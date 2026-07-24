@@ -7,20 +7,18 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T17:13:30.810Z
+ * Synced: 2026-07-24T17:14:16.435Z
  */
 
-Arrays.fill(prime,true);
-        prime[0]=false;
-        prime[1]=false;
-        for(int i=2;i*i<n;i++){
-            if(prime[i]){
-                for(int j=i*i;j<n;j+=i;){
+for(int j=i*i;j<n;j+=i;){
                     prime[j]=false;
                 }
             }
         }
         int count=0;
-        for(int i=2;ii<n;i++)
+        for(int i=2;i<n;i++){
+            if(prime[i])count++
+        }
     }
+        return count;
 }
