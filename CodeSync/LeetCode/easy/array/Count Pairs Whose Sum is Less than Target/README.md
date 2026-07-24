@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Binary Search, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:08:59.320Z
+- Problem URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:09:47.252Z
 
 ## Problem Description
 
