@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smaller Sum
+ * URL: https://www.geeksforgeeks.org/problems/smaller-sum--170647/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Arrays, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:32:31.490Z
+ */
+
+class Solution {
+    public long[] smallerSum(int n, int arr[]) {}
+}
