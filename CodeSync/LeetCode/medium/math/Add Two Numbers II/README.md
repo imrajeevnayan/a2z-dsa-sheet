@@ -1,13 +1,13 @@
 # Add Two Numbers II
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Linked List
 - Difficulty: Medium
 - Topics: Linked List, Math, Stack
-- Runtime: 0 ms
-- Memory: 46.36 MB
-- Problem URL: https://leetcode.com/problems/add-two-numbers-ii/
-- Synced: 2026-06-22T08:48:36.652Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/add-two-numbers-ii/description/?envType=problem-list-v2&envId=linked-list
+- Synced: 2026-07-24T13:05:41.773Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Math, Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Math, Stack. Review the synced source file for the implementation details.
