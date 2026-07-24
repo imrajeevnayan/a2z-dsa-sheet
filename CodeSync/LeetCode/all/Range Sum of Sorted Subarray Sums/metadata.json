@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-24T12:14:55.662Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Binary Search",
+  "problemTitle": "Range Sum of Sorted Subarray Sums",
+  "problemUrl": "https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "fz008h"
+}
