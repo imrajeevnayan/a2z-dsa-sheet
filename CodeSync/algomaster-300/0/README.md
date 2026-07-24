@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Top 100 Liked
-- Difficulty: Easy
-- Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+- Language: Binary Search
+- Difficulty: Medium
+- Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:41:44.812Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-24T12:40:52.213Z
 
 ## Problem Description
 
-Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center). Example 1: Input: root = [1,2,2,3,4,4,3] Output: true Example 2: Input: root = [1,2,2,null,3,null,3] Output: false Constraints: The number of nodes in the tree is in the range [1, 1000]. -100 <= Node.val <= 100 Follow up: Could you solve it both recursively and iteratively?
+There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
