@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T13:03:46.700Z",
+  "submissionTimestamp": "2026-07-24T13:04:10.882Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Linked List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/merge-in-between-linked-lists/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "bgs1es"
+  "problemUrl": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "ksdmg3"
 }
