@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-24T13:14:56.428Z",
-  "runtime": "0 ms",
-  "memoryUsage": "45.83 MB",
+  "submissionTimestamp": "2026-07-24T13:15:48.641Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Smallest Letter Greater Than Target",
-  "problemUrl": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/2079599434/",
-  "submissionId": "y07ox4"
+  "problemUrl": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+  "submissionId": "8uwll5"
 }
