@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Range Sum of Sorted Subarray Sums
+ * URL: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Binary Search, Sorting, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:14:55.662Z
+ */
+
+class Solution {
+    public int rangeSum(int[] nums, int n, int left, int right) {
+        
+    }
+}
