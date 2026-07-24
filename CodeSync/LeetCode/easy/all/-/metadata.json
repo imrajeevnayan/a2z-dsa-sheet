@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-23T06:32:17.691Z",
+  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Stack",
-    "Tree",
-    "Depth-First Search"
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/",
-  "submissionId": "btb0fh"
+  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "q6yqko"
 }
