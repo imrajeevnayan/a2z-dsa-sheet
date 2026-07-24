@@ -1,13 +1,13 @@
 # Missing element of AP
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Text
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Arrays, Searching, Data Structures, Algorithms, Binary Search, Hash
+- Topics: Topic Tags Related Articles, Topic Tags, Arrays, Searching, Binary Search, Hash, Related Articles, Find Missing Number Arithmetic Progression
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1
-- Synced: 2026-06-14T16:48:54.302Z
+- Synced: 2026-07-24T06:26:24.319Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] that represents an Arithmetic Progression (AP) with e
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Arrays, Searching, Data Structures, Algorithms, Binary Search, Hash. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Topic Tags Related Articles, Topic Tags, Arrays, Searching, Binary Search, Hash, Related Articles, Find Missing Number Arithmetic Progression. Review the synced source file for the implementation details.
