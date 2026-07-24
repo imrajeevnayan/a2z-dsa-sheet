@@ -5,19 +5,21 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-24T11:24:46.974Z
+ * Synced: 2026-07-24T11:27:20.978Z
  */
 
-if (nums[index] > 0) nums[index] = -nums[index];
-        for (int i = 0; i < nums.length; i++) {
-            int index = Math.abs(nums[i]) - 1;
-    public List<Integer> findMissingElements(int[] nums) {
+set.add(num);
+        }
         List<Integer> ans = new ArrayList<>();
+        for (int i = min + 1; i < max; i++) {
+            if (!set.contains(i)) ans.add(i);
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+    public List<Integer> findMissingElements(int[] nums) {
 class Solution {
-        }
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > 0) ans.add(i + 1);
-
-        }
