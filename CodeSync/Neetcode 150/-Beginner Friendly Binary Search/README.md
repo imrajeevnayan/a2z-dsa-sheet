@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/search-in-an-almost-sorted-array/1
-- Synced: 2026-07-24T12:30:59.403Z
+- Synced: 2026-07-24T12:32:07.026Z
 
 ## Problem Description
 
