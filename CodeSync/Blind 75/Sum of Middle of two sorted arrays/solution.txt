@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of Middle of two sorted arrays
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1
+ * Language: class Solution { public int SumofMiddleElements(int[] arr1, int[] arr2) { int i=0,n=arr1.length,m=arr2.length; int ans[]=new int[n+m]; for(int a:arr1){ ans[i++]=a; } for(int b:arr2){ ans[i++]=b; } Arrays.sort(ans); int len=n+m; int a=ans[len/2]; int b=ans[(len-1)/2]; return a+b; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonD-E-Shaw, Company Tags, Amazon, D-E-Shaw, Topic Tags, Arrays, Divide and Conquer
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:34:53.865Z
+ */
+
+class Solution {
+    public int findMidSum(int[] arr1, int[] arr2) {
+        int n = arr1.length;
+        int i = 0, j = 0;
+        int prev = 0,curr = 0;
+        for (int count = 0; count <= n; count++) {
+            prev = curr;
+
+            if (i < n && j < n) {
+                if (arr1[i] <= arr2[j]) curr = arr1[i++];
+                else curr = arr2[j++];
+                
+            } else if (i < n) {
+                curr = arr1[i++];
+            } else {
+                curr = arr2[j++];
+            }
+        }
+
+        return prev + curr;
+    }
+}
