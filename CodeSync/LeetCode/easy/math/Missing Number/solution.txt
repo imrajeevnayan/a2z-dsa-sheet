@@ -7,15 +7,11 @@
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T15:46:27.943Z
+ * Synced: 2026-07-24T11:15:38.471Z
  */
 
 class Solution {
     public int missingNumber(int[] nums) {
-      int n=nums.length;
-        int total=n*(n+1)/2;
-        int sum=0;
-        for(int num:nums)sum+=num;
-        return total-sum;
+        for(int i=0;i<=n;i)
     }
 }
