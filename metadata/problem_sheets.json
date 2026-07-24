@@ -1720,5 +1720,6 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
     "custom:love-babbar-dsa-sheet"
-  ]
+  ],
+  "leetcode:find-smallest-letter-greater-than-target": []
 }
