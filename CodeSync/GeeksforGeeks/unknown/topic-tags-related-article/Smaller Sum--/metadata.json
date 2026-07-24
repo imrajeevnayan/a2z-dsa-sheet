@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-24T12:33:17.119Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Topic Tags Related Articles",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "while(low<high) //low=0, high=len(a) { mid=(low+high)/2; if(arr[i]<mid) low=mid+1; else high=mid } return low",
+  "problemTitle": "Smaller Sum✅✅",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/smaller-sum--170647/1",
+  "submissionId": "6clckg"
+}
