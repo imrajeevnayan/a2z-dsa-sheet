@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.30 MB
 - Problem URL: https://leetcode.com/problems/binary-search/submissions/2079292669/
-- Synced: 2026-07-24T09:26:47.810Z
+- Synced: 2026-07-24T11:14:39.128Z
 
 ## Problem Description
 
