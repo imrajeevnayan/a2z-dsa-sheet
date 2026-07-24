@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Binary Search
-- Runtime: 0 ms
-- Memory: 45.83 MB
-- Problem URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/2079599434/
-- Synced: 2026-07-24T13:14:56.428Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+- Synced: 2026-07-24T13:15:48.641Z
 
 ## Problem Description
 
