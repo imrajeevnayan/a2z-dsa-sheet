@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-24T13:02:48.692Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Linked List",
+  "problemTitle": "Merge Nodes in Between Zeros",
+  "problemUrl": "https://leetcode.com/problems/merge-nodes-in-between-zeros/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "ayg100"
+}
