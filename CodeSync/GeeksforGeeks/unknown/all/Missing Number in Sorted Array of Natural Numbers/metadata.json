@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-07-24T12:28:13.688Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Binary Search",
+    "Mathematical",
+    "Arrays",
+    "Related Articles",
+    "Find The Missing Number In A Sorted Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Missing Number in Sorted Array of Natural Numbers",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-number-in-sorted-array-of-natural-numbers/1",
+  "submissionId": "d8zelg"
+}
