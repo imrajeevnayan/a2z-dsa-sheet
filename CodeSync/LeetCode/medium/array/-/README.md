@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Hash Table, Sorting
+- Topics: Array, Math, Enumeration, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
-- Synced: 2026-07-19T17:46:45.558Z
+- Problem URL: https://leetcode.com/problems/count-primes/description/
+- Synced: 2026-07-24T17:08:06.528Z
 
 ## Problem Description
 
-Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears at most twice, return an array of all the integers that appears twice. You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, excluding the space needed to store the output Example 1: Input: nums = [4,3,2,7,8,2,3,1] Output: [2,3] Example 2: Input: nums = [1,1,2] Output: [1] Example 3: Input: nums = [1] Output: [] Constraints: n == nums.length 1 <= n <= 105 1 <= nums[i] <= n Each element in nums appears once or twice.
+Given an integer n, return the number of prime numbers that are strictly less than n. Example 1: Input: n = 10 Output: 4 Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7. Example 2: Input: n = 0 Output: 0 Example 3: Input: n = 1 Output: 0 Constraints: 0 <= n <= 5 * 106
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Enumeration, Number Theory. Review the synced source file for the implementation details.
