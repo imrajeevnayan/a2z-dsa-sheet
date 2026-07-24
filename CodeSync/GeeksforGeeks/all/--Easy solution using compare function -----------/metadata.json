@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-24T05:20:18.214Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonOYO Rooms",
+    "Company Tags",
+    "Amazon",
+    "OYO Rooms",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "import heapq class Solution: def printKClosest(self, arr, k, x): # code here res = [] min_heap = [] for num in arr: if num != x: heapq.heappush(min_heap, (-abs(num-x), num)) if len(min_heap) > k: heapq.heappop(min_heap) for _ in range(k): res.append(heapq.heappop(min_heap)[1]) return res[::-1]",
+  "problemTitle": "//Easy solution using compare function ----------->",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/k-closest-elements3619/1",
+  "submissionId": "qbhr0h"
+}
