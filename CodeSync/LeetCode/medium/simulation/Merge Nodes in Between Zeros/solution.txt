@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Merge Nodes in Between Zeros
+ * URL: https://leetcode.com/problems/merge-nodes-in-between-zeros/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Linked List, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T13:02:48.692Z
+ */
+
+curr = curr.next;
+                sum = 0;
+            } else {
+                sum += head.val;
+            }
+
+            head = head.next;
+        }
+
+        return dummy.next;
+    }
+}
