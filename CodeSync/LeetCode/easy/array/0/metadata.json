@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-10T18:25:20.770Z",
+  "submissionTimestamp": "2026-07-24T12:10:30.602Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Simulation",
-    "Prefix Sum"
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Prefix Sum",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "lo9ii2"
+  "problemUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "x9pra5"
 }
