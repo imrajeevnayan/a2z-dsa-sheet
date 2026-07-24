@@ -104,25 +104,25 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 
 | Coding Sheet | Solved | Total |
 | :--- | :--- | :--- |
-| Blind 75 | 76 | 75 |
-| Grind 75 | 50 | 75 |
-| Grind 169 | 58 | 169 |
-| NeetCode 150 | 85 | 150 |
-| LeetCode 75 | 23 | 75 |
-| Top Interview 150 | 66 | 150 |
+| Blind 75 | 77 | 75 |
+| Grind 75 | 51 | 75 |
+| Grind 169 | 59 | 169 |
+| NeetCode 150 | 86 | 150 |
+| LeetCode 75 | 24 | 75 |
+| Top Interview 150 | 67 | 150 |
 | Top 100 Liked | 4 | 100 |
 | SQL 50 | 0 | 50 |
 | Striver A2Z DSA | 5 | 450 |
 | Love Babbar 450 | 3 | 450 |
 | Coder Army DSA | 0 | 350 |
-| GFG 160 | 228 | 160 |
+| GFG 160 | 229 | 160 |
 | CSES Problem Set | 13 | 300 |
 | InterviewBit Sets | 5 | 200 |
-| Nishant Chahar 151 | 12 | 151 |
-| Kushal Vijay Patterns | 8 | 100 |
+| Nishant Chahar 151 | 13 | 151 |
+| Kushal Vijay Patterns | 9 | 100 |
 | Apna College 375 | 3 | 375 |
 | Fraz Bhaiya Sheet | 3 | 250 |
-| AlgoMaster 75 | 12 | 75 |
-| 6 Companies 30 Days | 11 | 90 |
-| Striver 79 | 12 | 79 |
+| AlgoMaster 75 | 13 | 75 |
+| 6 Companies 30 Days | 12 | 90 |
+| Striver 79 | 13 | 79 |
 | Atharva Patil 150 | 3 | 150 |
