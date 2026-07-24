@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
-- Difficulty: Easy
-- Topics: Stack, Tree, Depth-First Search
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Array, Math, Enumeration, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/n-ary-tree-postorder-traversal/submissions/2078002634/
-- Synced: 2026-07-23T06:32:17.691Z
+- Problem URL: https://leetcode.com/problems/count-primes/description/
+- Synced: 2026-07-24T17:08:06.528Z
 
 ## Problem Description
 
-Given the root of an n-ary tree, return the postorder traversal of its nodes' values. Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples) Example 1: Input: root = [1,null,3,2,4,null,5,6] Output: [5,6,3,2,4,1] Example 2: Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14] Output: [2,6,14,11,7,3,12,8,4,13,9,10,5,1] Constraints: The number of nodes in the tree is in the range [0, 104]. 0 <= Node.val <= 104 The height of the n-ary tree is less than or equal to 1000. Follow up: Recursive solution is trivial, could you do it iteratively?
+Given an integer n, return the number of prime numbers that are strictly less than n. Example 1: Input: n = 10 Output: 4 Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7. Example 2: Input: n = 0 Output: 0 Example 3: Input: n = 1 Output: 0 Constraints: 0 <= n <= 5 * 106
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Stack, Tree, Depth-First Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Enumeration, Number Theory. Review the synced source file for the implementation details.
