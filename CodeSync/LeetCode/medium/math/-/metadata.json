@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-17T10:05:51.344Z",
+  "submissionTimestamp": "2026-07-24T17:08:06.528Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Math",
-    "Two Pointers"
+    "Enumeration",
+    "Number Theory"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
-  "submissionId": "t7h6vw"
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "submissionId": "2x4c9m"
 }
