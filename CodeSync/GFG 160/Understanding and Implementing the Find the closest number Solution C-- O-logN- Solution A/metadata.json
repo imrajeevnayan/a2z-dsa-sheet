@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-24T05:31:26.317Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search",
+    "Related Articles",
+    "Find Closest Number Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int findClosest(int n, int k, int arr[]) { // Using lower_bound to find the position where 'k' would be inserted int lb = lower_bound(arr, arr + n, k) - arr; // If the element at the lower bound is exactly 'k', return 'k' if (arr[lb] == k) return k; // If the lower bound index is greater than 0, we need to compare with the previous element if (lb > 0) { // Compare the differences to find the closest element if (k - arr[lb - 1] < arr[lb] - k) return arr[lb - 1]; else return arr[lb]; } // If the lower bound index is 0, the only option is the first element return arr[lb]; } };",
+  "problemTitle": "Understanding and Implementing the \"Find the closest number\" Solution | C++ | O(logN) Solution | Approach + Intuition ✅✅✅",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-the-closest-number5513/1",
+  "submissionId": "d8joik"
+}
