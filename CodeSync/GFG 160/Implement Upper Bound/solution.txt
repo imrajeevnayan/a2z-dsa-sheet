@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T10:00:34.381Z
+ * Synced: 2026-07-24T10:01:21.921Z
  */
 
 class Solution {
