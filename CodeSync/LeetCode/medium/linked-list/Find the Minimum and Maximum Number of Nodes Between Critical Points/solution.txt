@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Minimum and Maximum Number of Nodes Between Critical Points
+ * URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T13:05:05.929Z
+ */
+
+*     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public int[] nodesBetweenCriticalPoints(ListNode head) {
+        
+    }
+}
