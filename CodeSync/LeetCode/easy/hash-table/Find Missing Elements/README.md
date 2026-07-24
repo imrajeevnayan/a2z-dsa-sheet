@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-missing-elements/description/
-- Synced: 2026-07-24T11:32:42.930Z
+- Synced: 2026-07-24T11:33:49.928Z
 
 ## Problem Description
 
