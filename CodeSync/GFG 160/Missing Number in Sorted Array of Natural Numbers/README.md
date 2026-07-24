@@ -1,13 +1,13 @@
 # Missing Number in Sorted Array of Natural Numbers
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { int missingNumber(int arr[]) { int left = 0; int right = arr.length - 1; while (left <= right) { int mid = left + (right - left) / 2; // Check if the missing number is on the left side if (arr[mid] != mid + 1) { right = mid - 1; } else { // Missing number is on the right side left = mid + 1; } } // left points to the position where the number is missing return left + 1; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Binary Search, Mathematical, Arrays, Related Articles, Find The Missing Number In A Sorted Array
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/missing-number-in-sorted-array-of-natural-numbers/1
-- Synced: 2026-07-24T12:28:13.688Z
+- Synced: 2026-07-24T12:29:00.711Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] of n-1 integers, these integers are in the range of 1
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Binary Search, Mathematical, Arrays, Related Articles, Find The Missing Number In A Sorted Array. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { int missingNumber(int arr[]) { int left = 0; int right = arr.length - 1; while (left <= right) { int mid = left + (right - left) / 2; // Check if the missing number is on the left side if (arr[mid] != mid + 1) { right = mid - 1; } else { // Missing number is on the right side left = mid + 1; } } // left points to the position where the number is missing return left + 1; } }. The detected topics are Expected Complexities, Topic Tags, Binary Search, Mathematical, Arrays, Related Articles, Find The Missing Number In A Sorted Array. Review the synced source file for the implementation details.
