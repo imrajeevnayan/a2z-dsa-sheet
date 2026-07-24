@@ -6,8 +6,8 @@
 - Topics: Binary Search, Interactive
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/description/
-- Synced: 2026-07-24T13:15:57.626Z
+- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/
+- Synced: 2026-07-24T13:16:42.640Z
 
 ## Problem Description
 
