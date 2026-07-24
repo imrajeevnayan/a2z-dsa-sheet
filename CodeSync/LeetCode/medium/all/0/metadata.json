@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-04T17:23:47.727Z",
+  "submissionTimestamp": "2026-07-24T12:40:52.213Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Dynamic Programming"
+    "Array",
+    "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "DP for Beginners (Copy-x1k8lxi5)",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/?envType=problem-list-v2&envId=dwgzxnyj",
-  "submissionId": "aqc2yv"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "6aznf"
 }
