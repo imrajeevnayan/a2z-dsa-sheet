@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T04:41:44.812Z",
+  "submissionTimestamp": "2026-07-24T12:10:30.602Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree"
+    "Array",
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "2z9a7j"
+  "problemUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "x9pra5"
 }
