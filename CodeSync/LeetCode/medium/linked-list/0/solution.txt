@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/sort-list/description/?envType=problem-list-v2&envId=da95pk23
- * Language: Linked List (Copy-9gvhzx23)
+ * URL: https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
+ * Topics: Linked List, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T09:25:35.006Z
+ * Synced: 2026-07-24T13:02:03.162Z
  */
 
 /**
@@ -21,4 +21,4 @@
  * }
  */
 class Solution {
-    public ListNode sortList(ListNode head) {
+    public ListNode mergeNodes(ListNode head) {
