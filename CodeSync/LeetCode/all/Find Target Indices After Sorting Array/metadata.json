@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-24T12:11:16.186Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Binary Search",
+  "problemTitle": "Find Target Indices After Sorting Array",
+  "problemUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "b3wew8"
+}
