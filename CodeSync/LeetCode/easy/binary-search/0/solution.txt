@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Easy
+ * Topics: Array, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-24T12:10:30.602Z
+ */
+
+class Solution {
+    public List<Integer> targetIndices(int[] nums, int target) {
+        
+    }
+}
