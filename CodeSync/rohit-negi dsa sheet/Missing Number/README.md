@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/missing-number/
-- Synced: 2026-07-24T11:17:09.640Z
+- Synced: 2026-07-24T11:17:55.508Z
 
 ## Problem Description
 
