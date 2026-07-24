@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-24T13:05:22.392Z",
+  "submissionTimestamp": "2026-07-24T13:07:56.409Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Math",
-    "Recursion"
+    "Array",
+    "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "ku8vf0"
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "hk5gcz"
 }
