@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-upper-bound/1
-- Synced: 2026-07-24T09:54:57.009Z
+- Synced: 2026-07-24T09:55:44.989Z
 
 ## Problem Description
 
