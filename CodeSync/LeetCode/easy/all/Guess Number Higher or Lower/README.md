@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/
-- Synced: 2026-07-24T13:16:42.640Z
+- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/submissions/2079602885/
+- Synced: 2026-07-24T13:17:28.277Z
 
 ## Problem Description
 
