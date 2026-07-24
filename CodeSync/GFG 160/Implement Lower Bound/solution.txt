@@ -7,17 +7,25 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T05:14:08.167Z
+ * Synced: 2026-07-24T05:14:53.343Z
  */
 
 class Solution {
     int lowerBound(int[] arr, int target) {
-        int left = 0, right = arr.length;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] < target) left = mid + 1;
-            else right = mid;
+        int low = 0, high = arr.length - 1;
+        int ans = arr.length;
+
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+
+        if (arr[mid] >= target) {
+            ans = mid;
+            high = mid - 1;
+        } else {
+            low = mid + 1;
         }
-        return left;
+    }
+    return ans;
+        
     }
 }
