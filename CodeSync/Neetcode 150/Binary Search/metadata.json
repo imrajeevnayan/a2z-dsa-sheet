@@ -1,21 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T13:03:55.973Z",
+  "submissionTimestamp": "2026-07-24T11:14:53.104Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
-    "Expected Complexities",
-    "Company Tags Paytm",
-    "Company Tags",
-    "Paytm",
-    "Topic Tags",
-    "Searching",
-    "Binary Search",
-    "Related Articles"
+    "Uncategorized"
   ],
-  "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Binary Search",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1",
-  "submissionId": "yigugh"
+  "problemUrl": "https://leetcode.com/problems/missing-number/description/",
+  "submissionId": "w8bov4"
 }
