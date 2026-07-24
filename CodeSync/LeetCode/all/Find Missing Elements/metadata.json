@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-24T11:24:46.974Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-24T11:27:20.978Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Find Missing Elements",
   "problemUrl": "https://leetcode.com/problems/find-missing-elements/",
-  "submissionId": "mvddph"
+  "submissionId": "j5bzhh"
 }
