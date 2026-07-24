@@ -1607,5 +1607,10 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:arsh-goyal-dsa-sheet"
   ],
-  "leetcode:find-missing-elements": []
+  "leetcode:find-missing-elements": [],
+  "leetcode:count-pairs-whose-sum-is-less-than-target": [
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
