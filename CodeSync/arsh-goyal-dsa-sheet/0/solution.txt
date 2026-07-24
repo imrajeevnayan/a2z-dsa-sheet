@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=problem-list-v2&envId=linked-list
+ * URL: https://leetcode.com/problems/merge-in-between-linked-lists/description/?envType=problem-list-v2&envId=linked-list
  * Language: Linked List
  * Difficulty: Medium
- * Topics: Linked List, Simulation
+ * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T13:02:03.162Z
+ * Synced: 2026-07-24T13:03:46.700Z
  */
 
 /**
@@ -21,4 +21,4 @@
  * }
  */
 class Solution {
-    public ListNode mergeNodes(ListNode head) {
+    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
