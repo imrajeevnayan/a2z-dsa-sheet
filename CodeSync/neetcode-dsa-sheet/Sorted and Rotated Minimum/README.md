@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1
-- Synced: 2026-07-24T05:22:48.206Z
+- Synced: 2026-07-24T05:23:46.864Z
 
 ## Problem Description
 
