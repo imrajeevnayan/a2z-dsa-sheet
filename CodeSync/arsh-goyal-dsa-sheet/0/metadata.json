@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T13:02:03.162Z",
+  "submissionTimestamp": "2026-07-24T13:03:46.700Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Simulation"
+    "Linked List"
   ],
   "platform": "LeetCode",
   "language": "Linked List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "pjafiy"
+  "problemUrl": "https://leetcode.com/problems/merge-in-between-linked-lists/description/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "bgs1es"
 }
