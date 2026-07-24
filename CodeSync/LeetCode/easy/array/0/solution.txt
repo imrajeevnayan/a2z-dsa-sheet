@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=problem-list-v2&envId=prefix-sum
- * Language: Prefix Sum
+ * URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
  * Difficulty: Easy
- * Topics: Array, Simulation, Prefix Sum
+ * Topics: Array, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T18:25:20.770Z
+ * Synced: 2026-07-24T12:10:30.602Z
  */
 
 class Solution {
-    public int countValidSelections(int[] nums) {
+    public List<Integer> targetIndices(int[] nums, int target) {
         
     }
 }
