@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-search/description/
-- Synced: 2026-07-24T07:53:17.643Z
+- Synced: 2026-07-24T07:54:04.096Z
 
 ## Problem Description
 
