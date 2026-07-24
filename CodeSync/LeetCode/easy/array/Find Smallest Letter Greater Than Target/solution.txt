@@ -1,25 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Find Smallest Letter Greater Than Target
- * URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+ * URL: https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/2079599434/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-24T13:13:21.348Z
+ * Runtime: 0 ms
+ * Memory: 45.83 MB
+ * Synced: 2026-07-24T13:14:56.428Z
  */
 
-if (letters[mid] > target)right = mid - 1; // search for a smaller greater letter
-            } else {
-                left = mid + 1;
-            }
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-        int left = 0,right = letters.length - 1;
-    public char nextGreatestLetter(char[] letters, char target) {
-class Solution {
-        }
-
-        // left will be the first index where letters[left] > target
-        // if left reaches length, wrap around
+Input: letters = ["c","f","j"], target = "a"
+Output: "c"
+Explanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.
