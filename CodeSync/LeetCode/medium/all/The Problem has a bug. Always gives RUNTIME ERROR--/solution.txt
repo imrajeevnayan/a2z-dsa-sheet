@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: 90 ms
  * Memory: N/A
- * Synced: 2026-07-25T18:05:46.611Z
+ * Synced: 2026-07-25T18:06:46.155Z
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
