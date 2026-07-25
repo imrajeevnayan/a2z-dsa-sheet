@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: Customers Who Never Order
+ * URL: https://leetcode.com/problems/customers-who-never-order/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 100 ms
+ * Memory: N/A
+ * Synced: 2026-07-25T18:14:47.096Z
+ */
+
+select c.name as Customers
+from Customers c left join Orders o
+on  c.id=o.customerId
+where o.customerId is null;
