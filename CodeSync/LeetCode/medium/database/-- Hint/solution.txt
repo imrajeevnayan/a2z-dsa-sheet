@@ -1,13 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 🔸 Hint :
- * URL: https://leetcode.com/problems/consecutive-numbers/description/
+ * URL: https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 93 ms
  * Memory: N/A
- * Synced: 2026-07-25T18:11:45.173Z
+ * Synced: 2026-07-25T18:12:37.710Z
  */
 
-# Write your MySQL query statement below
+SELECT DISTINCT Num AS ConsecutiveNums
+FROM (
+    SELECT Num,
+           LAG(Num,1) OVER(ORDER BY Id) AS PrevNum,
+           LEAD(Num,1) OVER(ORDER BY Id) AS NextNum
+    FROM Logs
+) t
+WHERE Num = PrevNum AND Num = NextNum;
