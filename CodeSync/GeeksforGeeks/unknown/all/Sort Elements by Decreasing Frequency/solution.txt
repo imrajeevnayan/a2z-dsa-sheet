@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort Elements by Decreasing Frequency
+ * URL: https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags OracleZycus, Company Tags, Oracle, Zycus, Topic Tags, Arrays, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-25T18:48:53.169Z
+ */
+
+class Solution {
+    // Function to sort the array according to frequency of elements.
+    public ArrayList<Integer> sortByFreq(int arr[]) {
+        // add your code here
+    }
+}
