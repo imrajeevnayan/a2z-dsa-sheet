@@ -1,28 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Solution
- * URL: https://leetcode.com/problems/department-top-three-salaries/submissions/2025066398/
+ * URL: https://leetcode.com/problems/combine-two-tables/submissions/2081083008/
  * Language: Problem List
- * Difficulty: Hard
+ * Difficulty: Easy
  * Topics: Database
- * Runtime: 90 ms
+ * Runtime: 142 ms
  * Memory: N/A
- * Synced: 2026-06-07T06:27:04.393Z
+ * Synced: 2026-07-25T17:54:44.167Z
  */
 
-SELECT
-    d.name AS Department,
-    t.name AS Employee,
-    t.salary AS Salary
-FROM (
-    SELECT
-        name,salary,departmentId,
-        DENSE_RANK() OVER(
-            PARTITION BY departmentId
-            ORDER BY salary DESC
-        ) AS rnk
-    FROM Employee
-) t
-JOIN Department d
-ON t.departmentId = d.id
-WHERE rnk <= 3
+select p.firstName,p.lastName,a.city,a.state From Person p
+Left join Address a on p.personId=a.personId;
