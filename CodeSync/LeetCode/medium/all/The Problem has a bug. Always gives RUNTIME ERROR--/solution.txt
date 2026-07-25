@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: The Problem has a bug. Always gives RUNTIME ERROR⚠️
+ * URL: https://leetcode.com/problems/nth-highest-salary/
+ * Language: Database
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: 90 ms
+ * Memory: N/A
+ * Synced: 2026-07-25T18:05:46.611Z
+ */
+
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN  SET N = N - 1;
+    RETURN (
+        SELECT DISTINCT salary
+        FROM Employee
+        ORDER BY salary DESC
+        LIMIT 1 OFFSET N
+    );
+END
