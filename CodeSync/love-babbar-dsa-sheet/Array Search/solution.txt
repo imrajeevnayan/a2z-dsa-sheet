@@ -4,15 +4,17 @@
  * URL: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Algorithms, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search
+ * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search, Linear Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:03:50.052Z
+ * Synced: 2026-07-25T17:54:17.574Z
  */
 
 class Solution {
     public int search(int arr[], int x) {
-        // code here
-        
+     for(int i=0;i<arr.length;i++){
+         if(arr[i]==x)return i;
+     }
+     return -1;
     }
 }
