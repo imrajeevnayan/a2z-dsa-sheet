@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: Solution
+ * URL: https://leetcode.com/problems/combine-two-tables/submissions/2081083008/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 142 ms
+ * Memory: N/A
+ * Synced: 2026-07-25T17:54:44.167Z
+ */
+
+select p.firstName,p.lastName,a.city,a.state From Person p
+Left join Address a on p.personId=a.personId;
