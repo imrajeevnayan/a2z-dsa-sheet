@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Arrays, Searching, Algorithms, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search
+- Topics: Expected Complexities, Topic Tags, Arrays, Searching, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search, Linear Search
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
-- Synced: 2026-07-14T15:03:50.052Z
+- Synced: 2026-07-25T17:54:17.574Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array, arr[] of n integers, and an integer element x, find whether elem
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Arrays, Searching, Algorithms, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Arrays, Searching, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search, Linear Search. Review the synced source file for the implementation details.
