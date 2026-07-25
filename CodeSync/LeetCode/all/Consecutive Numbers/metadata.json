@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-14T18:57:10.279Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-25T18:14:34.353Z",
+  "runtime": "655 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Database"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Database",
   "problemTitle": "Consecutive Numbers",
-  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/",
-  "submissionId": "vl8n55"
+  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/",
+  "submissionId": "78ai51"
 }
