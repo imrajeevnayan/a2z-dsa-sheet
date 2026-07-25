@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-25T18:48:53.169Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags OracleZycus",
+    "Company Tags",
+    "Oracle",
+    "Zycus",
+    "Topic Tags",
+    "Arrays",
+    "Hash"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Sort Elements by Decreasing Frequency",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1",
+  "submissionId": "wl7fk6"
+}
