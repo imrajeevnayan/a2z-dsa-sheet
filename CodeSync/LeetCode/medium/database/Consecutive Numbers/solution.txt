@@ -1,13 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: Consecutive Numbers
- * URL: https://leetcode.com/problems/consecutive-numbers/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/
+ * Language: Database
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 655 ms
  * Memory: N/A
- * Synced: 2026-07-14T18:57:10.279Z
+ * Synced: 2026-07-25T18:14:34.353Z
  */
 
-# Write your MySQL query statement below
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| num         | varchar |
++-------------+---------+
+In SQL, id is the primary key for this table.
+id is an autoincrement column starting from 1.
