@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-17T18:04:27.366Z",
+  "submissionTimestamp": "2026-07-25T18:52:30.932Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "#User function Template for python3 from collections import Counter class Solution: #Function to sort the array according to frequency of elements. def sortByFreq(self,arr): #code here freq = Counter(arr) arr.sort(key=lambda x: (-freq[x], x)) return arr",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/bubble-sort/1",
-  "submissionId": "ywss0n"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1",
+  "submissionId": "f6tc2o"
 }
