@@ -7,7 +7,7 @@
 - Runtime: 100 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/customers-who-never-order/
-- Synced: 2026-07-25T18:14:47.096Z
+- Synced: 2026-07-25T18:15:33.167Z
 
 ## Problem Description
 
