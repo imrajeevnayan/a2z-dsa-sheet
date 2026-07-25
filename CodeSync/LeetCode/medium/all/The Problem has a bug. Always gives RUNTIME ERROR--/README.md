@@ -7,7 +7,7 @@
 - Runtime: 90 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/nth-highest-salary/
-- Synced: 2026-07-25T18:05:46.611Z
+- Synced: 2026-07-25T18:06:46.155Z
 
 ## Problem Description
 
