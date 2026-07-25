@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-25T18:55:04.504Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Morgan StanleyMicrosoftAdobe",
+    "Company Tags",
+    "Morgan Stanley",
+    "Microsoft",
+    "Adobe",
+    "Topic Tags",
+    "Binary Search Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Check Preorder of BST",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1",
+  "submissionId": "48ugie"
+}
