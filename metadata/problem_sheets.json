@@ -1722,5 +1722,6 @@
     "custom:love-babbar-dsa-sheet"
   ],
   "leetcode:find-smallest-letter-greater-than-target": [],
-  "leetcode:guess-number-higher-or-lower": []
+  "leetcode:guess-number-higher-or-lower": [],
+  "leetcode:employees-earning-more-than-their-managers": []
 }
