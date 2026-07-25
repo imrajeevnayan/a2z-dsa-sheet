@@ -1,13 +1,13 @@
 # Consecutive Numbers
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Database
 - Difficulty: Medium
 - Topics: Database
-- Runtime: N/A
+- Runtime: 655 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/consecutive-numbers/
-- Synced: 2026-07-14T18:57:10.279Z
+- Problem URL: https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/
+- Synced: 2026-07-25T18:14:34.353Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Logs +-------------+---------+ | Column Name | Type | +-------------+----
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
