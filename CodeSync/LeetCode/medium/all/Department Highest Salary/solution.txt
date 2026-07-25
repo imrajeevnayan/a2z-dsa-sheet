@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Department Highest Salary
+ * URL: https://leetcode.com/problems/department-highest-salary/
+ * Language: Database
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: 125 ms
+ * Memory: N/A
+ * Synced: 2026-07-25T18:17:17.231Z
+ */
+
+SELECT Department, Employee, Salary
+FROM (
+    SELECT d.name AS Department,
+           e.name AS Employee,
+           e.salary AS Salary,
+           RANK() OVER (PARTITION BY d.id ORDER BY e.salary DESC) AS rnk
+    FROM Employee e
+    JOIN Department d
+    ON e.departmentId = d.id
+) t
+WHERE rnk = 1;
