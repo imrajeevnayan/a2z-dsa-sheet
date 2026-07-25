@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Medium
 - Topics: Database
-- Runtime: N/A
+- Runtime: 93 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/consecutive-numbers/description/
-- Synced: 2026-07-25T18:11:45.173Z
+- Problem URL: https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/
+- Synced: 2026-07-25T18:12:37.710Z
 
 ## Problem Description
 
