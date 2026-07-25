@@ -1751,5 +1751,6 @@
   "leetcode:second-highest-salary": [],
   "leetcode:nth-highest-salary": [],
   "leetcode:rank-scores": [],
-  "leetcode:duplicate-emails": []
+  "leetcode:duplicate-emails": [],
+  "leetcode:customers-who-never-order": []
 }
