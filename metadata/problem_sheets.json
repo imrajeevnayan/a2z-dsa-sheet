@@ -1752,5 +1752,6 @@
   "leetcode:nth-highest-salary": [],
   "leetcode:rank-scores": [],
   "leetcode:duplicate-emails": [],
-  "leetcode:customers-who-never-order": []
+  "leetcode:customers-who-never-order": [],
+  "leetcode:department-highest-salary": []
 }
