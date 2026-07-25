@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: Duplicate Emails
+ * URL: https://leetcode.com/problems/duplicate-emails/description/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-25T18:13:09.126Z
+ */
+
+select email as Email 
+from Person 
+group by email
+having count(email)>1;
