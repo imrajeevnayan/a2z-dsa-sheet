@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 4 Sum - All Quadruples
+ * URL: https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1
+ * Language: class Solution: def fourSum(self, arr, target): # code here arr.sort() res = [] for i in range(len(arr)): if i > 0 and arr[i] == arr[i-1]: continue for j in range(i+1, len(arr)): if j > i+1 and arr[j] == arr[j-1]: continue # two pointers left, right = j+1, len(arr)-1 while left < right: total = arr[i] + arr[j] + arr[left] + arr[right] if total == target: res.append([arr[i], arr[j], arr[left], arr[right]]) left += 1 right -= 1 while left < right and arr[left] == arr[left-1]: left += 1 while left < right and arr[right] == arr[right+1]: right -= 1 elif total < target: left += 1 else: right -= 1 return res
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, OYO Rooms, Adobe, Google, NPCI
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-25T18:54:33.168Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> fourSum(int[] arr, int target) {
+        Arrays.sort(arr);
+        Set<ArrayList<Integer>> result = new HashSet<>();
+        int n = arr.length;
+        for (int i = 0; i < n - 3; i++) {
+            for (int j = i + 1; j < n - 2; j++) {
+                HashSet<Integer> seen = new HashSet<>();
+                for (int k = j + 1; k < n; k++) {
+                    long fourth = (long) target - arr[i] - arr[j] - arr[k];
+                    if (seen.contains((int) fourth)) {
+                        ArrayList<Integer> temp = new ArrayList<>();
+                        temp.add(arr[i]);
+                        temp.add(arr[j]);
+                        temp.add((int) fourth);
+                        temp.add(arr[k]);
+
+                        Collections.sort(temp); // Ensure same order
+                        result.add(temp);
+                    }
+                    seen.add(arr[k]);
+                }
+            }
+        }
+        return new ArrayList<>(result);
+    }
+}
