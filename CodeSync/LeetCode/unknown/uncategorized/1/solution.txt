@@ -1,29 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2060140862/
+ * URL: https://leetcode.com/submissions/detail/2081073720/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 7 ms
- * Memory: 46.33 MB
- * Synced: 2026-07-08T16:45:52.097Z
+ * Runtime: 556 ms
+ * Memory: N/A
+ * Synced: 2026-07-25T17:52:58.711Z
  */
 
-1class Solution {
-2    public int lengthOfLongestSubstring(String s) {
-3        Set<Character>set=new HashSet<>();
-4        int left=0,maxLen=0;
-5        for(int right=0;right<s.length();right++){
-6            char c=s.charAt(right);
-7            while(set.contains(c)){
-8                set.remove(s.charAt(left));
-9                left++;
-10            }
-11            set.add(c);
-12            maxLen=Math.max(maxLen,right-left+1);
-13        }
-14        return maxLen;
-15        
-16    }
-17}
+1SELECT e.name AS Employee
+2FROM Employee e JOIN Employee m
+3ON e.managerId = m.id
+4WHERE e.salary > m.salary;
