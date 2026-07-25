@@ -1,29 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/bubble-sort/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1
+ * Language: #User function Template for python3 from collections import Counter class Solution: #Function to sort the array according to frequency of elements. def sortByFreq(self,arr): #code here freq = Counter(arr) arr.sort(key=lambda x: (-freq[x], x)) return arr
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-17T18:04:27.366Z
+ * Synced: 2026-07-25T18:52:30.932Z
  */
 
 class Solution {
-    public void bubbleSort(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n - 1; i++) {
-            boolean swapped = false;
-            for (int j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                    swapped = true;
-                }
+    public ArrayList<Integer> sortByFreq(int arr[]) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int num : arr)map.put(num, map.getOrDefault(num, 0) + 1);
+        ArrayList<Integer> keys = new ArrayList<>(map.keySet());
+        keys.sort((a, b) -> {
+            if (!map.get(a).equals(map.get(b))) {
+                return map.get(b) - map.get(a);
             }
-            if (!swapped)break;
+            return a - b;
+        });
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int key : keys) {
+            int freq = map.get(key);
+            while (freq-- > 0) {
+                ans.add(key);
+            }
         }
+        return ans;
     }
 }
