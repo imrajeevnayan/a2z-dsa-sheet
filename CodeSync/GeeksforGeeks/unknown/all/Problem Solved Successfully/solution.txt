@@ -1,23 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
- * Language: class Solution { public: int lowerBound(vector<int>& arr, int target) { // code here int low=0; int high=arr.size()-1; int lwb = -1; while(low <= high){ int mid = low + (high-low)/2; if(arr[mid] >= target){ lwb=mid; high=mid-1; } else if(arr[mid] < target){ low=mid+1; lwb=low; } } return lwb; } };
+ * URL: https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1
+ * Language: #User function Template for python3 from collections import Counter class Solution: #Function to sort the array according to frequency of elements. def sortByFreq(self,arr): #code here freq = Counter(arr) arr.sort(key=lambda x: (-freq[x], x)) return arr
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T09:01:14.672Z
+ * Synced: 2026-07-25T18:52:30.932Z
  */
 
 class Solution {
-    int lowerBound(int[] arr, int target) {
-        int low = 0,high = arr.length;
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (arr[mid] >= target)  high = mid;
-            else  low = mid + 1;
+    public ArrayList<Integer> sortByFreq(int arr[]) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int num : arr)map.put(num, map.getOrDefault(num, 0) + 1);
+        ArrayList<Integer> keys = new ArrayList<>(map.keySet());
+        keys.sort((a, b) -> {
+            if (!map.get(a).equals(map.get(b))) {
+                return map.get(b) - map.get(a);
+            }
+            return a - b;
+        });
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int key : keys) {
+            int freq = map.get(key);
+            while (freq-- > 0) {
+                ans.add(key);
+            }
         }
-        return low;
+        return ans;
     }
 }
