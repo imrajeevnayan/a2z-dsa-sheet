@@ -1723,5 +1723,13 @@
   ],
   "leetcode:find-smallest-letter-greater-than-target": [],
   "leetcode:guess-number-higher-or-lower": [],
-  "leetcode:employees-earning-more-than-their-managers": []
+  "leetcode:employees-earning-more-than-their-managers": [],
+  "leetcode:1": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
