@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: The Problem has a bug. Always gives RUNTIME ERROR⚠️
- * URL: https://leetcode.com/problems/nth-highest-salary/
+ * URL: https://leetcode.com/problems/nth-highest-salary/description/
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
  * Runtime: 90 ms
  * Memory: N/A
- * Synced: 2026-07-25T18:06:46.155Z
+ * Synced: 2026-07-25T18:07:33.191Z
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
