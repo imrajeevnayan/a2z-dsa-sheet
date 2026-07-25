@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Morgan StanleyMicrosoftAdobe, Company Tags, Morgan Stanley, Microsoft, Adobe, Topic Tags, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T12:17:24.015Z
+ * Synced: 2026-07-25T18:55:04.504Z
  */
 
 class Solution {
