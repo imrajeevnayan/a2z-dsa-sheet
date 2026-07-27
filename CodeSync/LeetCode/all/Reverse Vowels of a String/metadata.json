@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-14T14:41:44.334Z",
+  "submissionTimestamp": "2026-07-27T10:38:41.517Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Reverse Vowels of a String",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
-  "submissionId": "sy8h9q"
+  "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "6mvsp5"
 }
