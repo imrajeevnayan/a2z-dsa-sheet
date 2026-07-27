@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math, Bit Manipulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/
-- Synced: 2026-07-27T16:02:57.014Z
+- Runtime: 0 ms
+- Memory: 125.32 MB
+- Problem URL: https://leetcode.com/problems/number-of-unique-xor-triplets-i/
+- Synced: 2026-07-27T16:03:43.024Z
 
 ## Problem Description
 
