@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Math, Enumeration, Number Theory
+- Language: LeetCode 75
+- Difficulty: Easy
+- Topics: Two Pointers, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-primes/description/
-- Synced: 2026-07-24T17:08:06.528Z
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T10:33:17.832Z
 
 ## Problem Description
 
-Given an integer n, return the number of prime numbers that are strictly less than n. Example 1: Input: n = 10 Output: 4 Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7. Example 2: Input: n = 0 Output: 0 Example 3: Input: n = 1 Output: 0 Constraints: 0 <= n <= 5 * 106
+You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string. Example 1: Input: word1 = "abc", word2 = "pqr" Output: "apbqcr" Explanation: The merged string will be merged as so: word1: a b c word2: p q r merged: a p b q c r Example 2: Input: word1 = "ab", word2 = "pqrs" Output: "apbqrs" Explanation: Notice that as word2 is longer, "rs" is appended to the end. word1: a b word2: p q r s merged: a p b q r s Example 3: Input: word1 = "abcd", word2 = "pq" Output: "apbqcd" Explanation: Notice that as word1 is longer, "cd" is appended to the end. word1: a b c d word2: p q merged: a p b q c d Constraints: 1 <= word1.length, word2.length <= 100 word1 and word2 consist of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Enumeration, Number Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
