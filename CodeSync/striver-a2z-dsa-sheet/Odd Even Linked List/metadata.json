@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-27T08:31:07.744Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-07-27T08:32:03.016Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.31 MB",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Odd Even Linked List",
-  "problemUrl": "https://leetcode.com/problems/odd-even-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+  "problemUrl": "https://leetcode.com/problems/odd-even-linked-list/submissions/2083071203/?envType=study-plan-v2&envId=leetcode-75",
   "submissionId": "bcu2hc"
 }
