@@ -1,40 +1,27 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/search-in-a-2d-matrix_980531
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2037 ms
+ * Runtime: 696 ms
  * Memory: N/A
- * Synced: 2026-07-27T08:38:12.796Z
+ * Synced: 2026-07-27T08:55:58.892Z
  */
 
 import java.util.ArrayList;
 public class Solution {
- 
-    static boolean searchMatrix(ArrayList<ArrayList<Integer>> mat, int target) {
- 
-        int m = mat.size();
-        int n = mat.get(0).size();
- 
-        int low = 0;
-        int high = m * n - 1;
- 
-        while (low <= high) {
- 
-            int mid = low + (high - low) / 2;
- 
-            int row = mid / n;
-            int col = mid % n;
- 
-            int val = mat.get(row).get(col);
- 
-            if (val == target) {
-                return true;
-            } else if (val < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
+    public static int longestSubSeg(ArrayList<Integer> arr, int n, int k) {
+        int left = 0,zeroCount = 0,maxLen = 0;
+        for (int right = 0; right < n; right++) {
+            if (arr.get(right) == 0) zeroCount++;
+            while (zeroCount > k) {
+                if (arr.get(left) == 0)zeroCount--;
+                left++;
             }
+            maxLen = Math.max(maxLen, right - left + 1);
         }
+        return maxLen;
+    }
+}
