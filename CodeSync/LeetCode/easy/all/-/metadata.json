@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
+  "submissionTimestamp": "2026-07-27T10:33:17.832Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
     "Two Pointers",
-    "Binary Search",
-    "Sorting"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "LeetCode 75",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "q6yqko"
+  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "l3rh4c"
 }
