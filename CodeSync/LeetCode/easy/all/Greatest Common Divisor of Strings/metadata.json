@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-22T18:24:28.784Z",
+  "submissionTimestamp": "2026-07-27T10:34:18.472Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Greatest Common Divisor of Strings",
-  "problemUrl": "https://leetcode.com/problems/greatest-common-divisor-of-strings/?utm=codolio",
-  "submissionId": "k76xqe"
+  "problemUrl": "https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "2791xk"
 }
