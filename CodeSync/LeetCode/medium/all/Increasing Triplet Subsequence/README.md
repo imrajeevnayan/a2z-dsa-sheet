@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 122.34 MB
 - Problem URL: https://leetcode.com/problems/increasing-triplet-subsequence/submissions/2083275230/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:28:24.242Z
+- Synced: 2026-07-27T11:29:23.166Z
 
 ## Problem Description
 
