@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-15T06:04:27.396Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-27T08:38:12.796Z",
+  "runtime": "2037 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/check-palindrome-recursive_624386",
-  "submissionId": "5rnpi1"
+  "problemUrl": "https://www.naukri.com/code360/problems/search-in-a-2d-matrix_980531",
+  "submissionId": "q11muc"
 }
