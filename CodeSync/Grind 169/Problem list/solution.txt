@@ -1,32 +1,27 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+ * URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:25:49.244Z
+ * Synced: 2026-07-27T09:04:02.337Z
  */
 
+import java.util.ArrayList;
 public class Solution {
-    public static Node rotate(Node head, int k) {
-       if (head == null || head.next == null || k == 0) return head;
-        Node fast = head,slow = head;
-        
-        for (int i = 0; i < k; i++) {
-            fast = fast.next;
-            if (fast == null) fast = head; 
+    public static int longestSubSeg(ArrayList<Integer> arr, int n, int k) {
+        int left = 0,zeroCount = 0,maxLen = 0;
+        for (int right = 0; right < n; right++) {
+            if (arr.get(right) == 0) zeroCount++;
+            while (zeroCount > k) {
+                if (arr.get(left) == 0)zeroCount--;
+                left++;
+            }
+            maxLen = Math.max(maxLen, right - left + 1);
         }
-       if (fast == head) return head;
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-        }
-       Node newHead = slow.next;
-        slow.next = null;
-        fast.next = head;       
-        return newHead;
+        return maxLen;
     }
 }
