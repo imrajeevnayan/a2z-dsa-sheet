@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Words in a String
+ * URL: https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-07-27T11:25:03.075Z
+ */
+
+class Solution {
+    public String reverseWords(String s) {
+        String []word=s.trim().split("\\s+");
+        StringBuilder sb=new StringBuilder();
+        for(int i=word.length-1;i>=0;i--){
+            sb.append(word[i]);
+            if(i>0) sb.append(" ");
+        }
+        return sb.toString();
+    }
+}
