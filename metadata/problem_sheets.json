@@ -1804,5 +1804,6 @@
     "custom:love-babbar-dsa-sheet"
   ],
   "leetcode:merge-strings-alternately": [],
-  "leetcode:greatest-common-divisor-of-strings": []
+  "leetcode:greatest-common-divisor-of-strings": [],
+  "leetcode:kids-with-the-greatest-number-of-candies": []
 }
