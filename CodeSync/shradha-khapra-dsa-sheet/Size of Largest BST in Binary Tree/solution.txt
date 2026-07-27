@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Size of Largest BST in Binary Tree
+ * URL: https://www.naukri.com/code360/problems/largest-bst-subtree_893103
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 12188 ms
+ * Memory: N/A
+ * Synced: 2026-07-27T09:10:53.713Z
+ */
+
+class NodeInfo {
+    int min;
+    int max;
+    int size;
+ 
+    NodeInfo(int min, int max, int size) {
+        this.min = min;
+        this.max = max;
+        this.size = size;
+    }
+}
+ 
+public class Solution {
+ 
+    public static int largestBST(TreeNode root) {
+        return solve(root).size;
+    }
+ 
+    private static NodeInfo solve(TreeNode root) {
+ 
+        // Empty tree is a BST
+        if (root == null) {
+            return new NodeInfo(Integer.MAX_VALUE,
+                                Integer.MIN_VALUE,
+                                0);
+        }
+ 
+        NodeInfo left = solve(root.left);
+        NodeInfo right = solve(root.right);
