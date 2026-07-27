@@ -1,14 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-common-prefix/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Easy
- * Topics: Array, String, Trie
+ * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T18:09:24.753Z
+ * Synced: 2026-07-27T10:33:17.832Z
  */
 
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
+Input: word1 = "abc", word2 = "pqr"
+Output: "apbqcr"
+Explanation: The merged string will be merged as so:
+word1:  a   b   c
+word2:    p   q   r
+merged: a p b q c r
