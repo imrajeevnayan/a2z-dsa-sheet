@@ -1,13 +1,13 @@
 # Greatest Common Divisor of Strings
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Math, String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?utm=codolio
-- Synced: 2026-06-22T18:24:28.784Z
+- Problem URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T10:34:18.472Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ For two strings s and t, we say "t divides s" if and only if s = t + t + t + ...
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Math, String. Review the synced source file for the implementation details.
