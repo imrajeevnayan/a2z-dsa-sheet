@@ -1,24 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
+ * URL: https://www.naukri.com/code360/problems/search-in-a-2d-matrix_980531
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 2037 ms
  * Memory: N/A
- * Synced: 2026-07-15T06:04:27.396Z
+ * Synced: 2026-07-27T08:38:12.796Z
  */
 
+import java.util.ArrayList;
 public class Solution {
-    public static boolean isPalindrome(String str) {
-        String s1=str.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
-        int left=0,right=s1.length()-1;
-        while(left<right){
-            if(s1.charAt(left)!=s1.charAt(right))return false;
-            left++;
-            right--;
+ 
+    static boolean searchMatrix(ArrayList<ArrayList<Integer>> mat, int target) {
+ 
+        int m = mat.size();
+        int n = mat.get(0).size();
+ 
+        int low = 0;
+        int high = m * n - 1;
+ 
+        while (low <= high) {
+ 
+            int mid = low + (high - low) / 2;
+ 
+            int row = mid / n;
+            int col = mid % n;
+ 
+            int val = mat.get(row).get(col);
+ 
+            if (val == target) {
+                return true;
+            } else if (val < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
         }
-        return true;
-    }
-}
