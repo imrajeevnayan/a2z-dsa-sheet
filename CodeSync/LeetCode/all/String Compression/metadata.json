@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-22T12:33:21.632Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-27T11:28:10.891Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -8,8 +8,8 @@
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "String Compression",
-  "problemUrl": "https://leetcode.com/problems/string-compression/description/",
-  "submissionId": "qrjfm8"
+  "problemUrl": "https://leetcode.com/problems/string-compression/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "jkutfy"
 }
