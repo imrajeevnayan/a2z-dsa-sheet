@@ -7,7 +7,7 @@
 - Runtime: 12188 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/largest-bst-subtree_893103
-- Synced: 2026-07-27T09:12:01.959Z
+- Synced: 2026-07-27T09:15:33.034Z
 
 ## Problem Description
 
