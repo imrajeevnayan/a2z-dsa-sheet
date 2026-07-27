@@ -1822,5 +1822,6 @@
   ],
   "leetcode:increasing-triplet-subsequence": [
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:largest-integer-with-given-digit-sum": []
 }
