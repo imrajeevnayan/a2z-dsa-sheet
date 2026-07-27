@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Greedy
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:27:23.033Z
+- Runtime: 0 ms
+- Memory: 122.34 MB
+- Problem URL: https://leetcode.com/problems/increasing-triplet-subsequence/submissions/2083275230/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T11:28:24.242Z
 
 ## Problem Description
 
