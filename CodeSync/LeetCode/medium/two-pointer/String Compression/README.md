@@ -1,13 +1,13 @@
 # String Compression
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Two Pointers, String
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/string-compression/description/
-- Synced: 2026-07-22T12:33:21.632Z
+- Problem URL: https://leetcode.com/problems/string-compression/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T11:28:10.891Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of characters chars, compress it using the following algorithm: B
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
