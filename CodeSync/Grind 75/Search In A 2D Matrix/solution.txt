@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Search In A 2D Matrix
+ * URL: https://www.naukri.com/code360/problems/search-in-a-2d-matrix_980531
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2037 ms
+ * Memory: N/A
+ * Synced: 2026-07-27T08:36:40.850Z
+ */
+
+import java.util.ArrayList;
+public class Solution {
+ 
+    static boolean searchMatrix(ArrayList<ArrayList<Integer>> mat, int target) {
+ 
+        int m = mat.size();
+        int n = mat.get(0).size();
+ 
+        int low = 0;
+        int high = m * n - 1;
+ 
+        while (low <= high) {
+ 
+            int mid = low + (high - low) / 2;
+ 
+            int row = mid / n;
+            int col = mid % n;
+ 
+            int val = mat.get(row).get(col);
+ 
+            if (val == target) {
+                return true;
+            } else if (val < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
