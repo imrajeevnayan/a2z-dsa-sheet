@@ -1769,5 +1769,6 @@
   "leetcode:maximum-product-of-two-elements-in-an-array": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
-  ]
+  ],
+  "leetcode:delete-the-middle-node-of-a-linked-list": []
 }
