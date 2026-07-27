@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-27T11:27:23.033Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Increasing Triplet Subsequence",
+  "problemUrl": "https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "2ttukk"
+}
