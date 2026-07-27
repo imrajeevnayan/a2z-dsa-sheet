@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Min Stack
+ * URL: https://www.naukri.com/code360/problems/min-stack_3843991
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 3266 ms
+ * Memory: N/A
+ * Synced: 2026-07-27T09:17:36.426Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    static class MinStack {
+        Stack<Integer> stack;
+        Stack<Integer> minStack;
+        MinStack() {
+            stack = new Stack<>();
+            minStack = new Stack<>();
+        }
+        void push(int num) {
+            stack.push(num);
+            if (minStack.isEmpty() || num <= minStack.peek()) {
+                minStack.push(num);
+            }
+        }
+        int pop() {
+            if (stack.isEmpty())
+                return -1;
+ 
+            int x = stack.pop();
+ 
+            if (x == minStack.peek()) {
+                minStack.pop();
+            }
+ 
+            return x;
+        }
