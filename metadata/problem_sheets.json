@@ -1803,5 +1803,6 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:merge-strings-alternately": []
+  "leetcode:merge-strings-alternately": [],
+  "leetcode:greatest-common-divisor-of-strings": []
 }
