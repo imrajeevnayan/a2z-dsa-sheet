@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-27T11:26:16.426Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-27T11:27:01.625Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Product of Array Except Self",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "1cvqj2"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/submissions/2083274604/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "7llez6"
 }
