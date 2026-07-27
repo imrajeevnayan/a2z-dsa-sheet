@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Array
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T10:34:55.180Z
+- Problem URL: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T10:35:43.534Z
 
 ## Problem Description
 
