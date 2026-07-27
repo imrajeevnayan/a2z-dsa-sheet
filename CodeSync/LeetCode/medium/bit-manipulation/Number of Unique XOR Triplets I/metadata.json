@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-27T16:02:57.014Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Number of Unique XOR Triplets I",
+  "problemUrl": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/",
+  "submissionId": "emq12z"
+}
