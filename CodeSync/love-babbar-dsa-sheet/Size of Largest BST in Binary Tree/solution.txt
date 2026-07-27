@@ -7,28 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 12188 ms
  * Memory: N/A
- * Synced: 2026-07-27T09:10:53.713Z
+ * Synced: 2026-07-27T09:12:01.959Z
  */
 
-class NodeInfo {
-    int min;
-    int max;
-    int size;
- 
-    NodeInfo(int min, int max, int size) {
-        this.min = min;
-        this.max = max;
-        this.size = size;
-    }
-}
- 
-public class Solution {
- 
-    public static int largestBST(TreeNode root) {
-        return solve(root).size;
-    }
- 
-    private static NodeInfo solve(TreeNode root) {
+private static NodeInfo solve(TreeNode root) {
  
         // Empty tree is a BST
         if (root == null) {
@@ -39,3 +21,20 @@ public class Solution {
  
         NodeInfo left = solve(root.left);
         NodeInfo right = solve(root.right);
+ 
+        // Current subtree is BST
+        if (left.max < root.data && root.data < right.min) {
+ 
+            int min = Math.min(root.data, left.min);
+            int max = Math.max(root.data, right.max);
+            int size = left.size + right.size + 1;
+ 
+            return new NodeInfo(min, max, size);
+        }
+ 
+        // Not a BST
+        return new NodeInfo(Integer.MIN_VALUE,
+                            Integer.MAX_VALUE,
+                            Math.max(left.size, right.size));
+    }
+}
