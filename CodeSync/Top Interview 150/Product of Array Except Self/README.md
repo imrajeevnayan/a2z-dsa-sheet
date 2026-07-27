@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:25:22.512Z
+- Synced: 2026-07-27T11:26:16.426Z
 
 ## Problem Description
 
