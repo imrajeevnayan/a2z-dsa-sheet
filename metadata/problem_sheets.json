@@ -1805,5 +1805,9 @@
   ],
   "leetcode:merge-strings-alternately": [],
   "leetcode:greatest-common-divisor-of-strings": [],
-  "leetcode:kids-with-the-greatest-number-of-candies": []
+  "leetcode:kids-with-the-greatest-number-of-candies": [],
+  "leetcode:can-place-flowers": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
