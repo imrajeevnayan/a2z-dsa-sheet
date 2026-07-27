@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: Increasing Triplet Subsequence
+ * URL: https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-27T11:27:23.033Z
+ */
+
+Input: nums = [1,2,3,4,5]
+Output: true
+Explanation: Any triplet where i < j < k is valid.
