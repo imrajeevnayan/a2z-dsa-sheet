@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-27T10:34:55.180Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-27T10:35:43.534Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Kids With the Greatest Number of Candies",
-  "problemUrl": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "2larmr"
+  "problemUrl": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "p1eyx3"
 }
