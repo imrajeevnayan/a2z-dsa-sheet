@@ -1,0 +1,42 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Merge K Sorted Arrays
+ * URL: https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Heap
+ * Runtime: 2636 ms
+ * Memory: N/A
+ * Synced: 2026-07-27T09:19:22.609Z
+ */
+
+int row;
+        int col;
+        Node(int value, int row, int col) {
+            this.value = value;
+            this.row = row;
+            this.col = col;
+        }
+    }
+    public static ArrayList<Integer> mergeKSortedArrays(
+            ArrayList<ArrayList<Integer>> kArrays, int k) {
+        ArrayList<Integer> ans = new ArrayList<>();
+ 
+        PriorityQueue<Node> pq =
+                new PriorityQueue<>((a, b) -> a.value - b.value);  
+ 
+            if (!kArrays.get(i).isEmpty()) {
+                pq.offer(new Node(
+                        kArrays.get(i).get(0),
+                        i,
+                        0));
+            }
+        }
+ 
+        while (!pq.isEmpty()) {
+ 
+            Node cur = pq.poll();
+ 
+            ans.add(cur.value);
+ 
+                      for (int i = 0; i < k; i++) {
