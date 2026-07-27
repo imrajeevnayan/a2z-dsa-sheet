@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Odd Even Linked List
- * URL: https://leetcode.com/problems/odd-even-linked-list/submissions/2027369894/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/odd-even-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T10:02:37.316Z
+ * Synced: 2026-07-27T08:31:07.744Z
  */
 
 class Solution {
@@ -23,9 +23,3 @@ class Solution {
             odd = odd.next;
             even.next = odd.next;
             even = even.next;
-        }
-        
-        odd.next = evenHead;
-        return head;
-    }
-}
