@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Largest Integer With Given Digit Sum
+ * URL: https://leetcode.com/problems/largest-integer-with-given-digit-sum/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-27T13:28:08.139Z
+ */
+
+class Solution {
+    public int largestInteger(int n, int s) {
+        
+    }
+}
