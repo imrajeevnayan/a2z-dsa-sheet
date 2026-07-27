@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Medium
- * Topics: Array, Hash Table, Prefix Sum
+ * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T19:08:18.441Z
+ * Synced: 2026-07-27T11:24:33.736Z
  */
 
-Input: nums = [1,1,1], k = 2
-Output: 2
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
