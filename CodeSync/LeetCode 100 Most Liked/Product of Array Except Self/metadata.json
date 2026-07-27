@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-16T12:03:49.937Z",
-  "runtime": "0 ms",
-  "memoryUsage": "72.40 MB",
+  "submissionTimestamp": "2026-07-27T11:25:22.512Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Product of Array Except Self",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/submissions/2069823753/",
-  "submissionId": "nbr96c"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "1cvqj2"
 }
