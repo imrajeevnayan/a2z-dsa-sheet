@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T06:27:33.515Z
+ * Synced: 2026-07-27T08:53:23.215Z
  */
 
 function longestSubSeg(arr, n, k) {
