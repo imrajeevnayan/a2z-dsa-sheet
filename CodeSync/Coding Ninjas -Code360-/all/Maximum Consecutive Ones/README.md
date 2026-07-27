@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
-- Synced: 2026-06-19T06:27:33.515Z
+- Synced: 2026-07-27T08:53:23.215Z
 
 ## Problem Description
 
