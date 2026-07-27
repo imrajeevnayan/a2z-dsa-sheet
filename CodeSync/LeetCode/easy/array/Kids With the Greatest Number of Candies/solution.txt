@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Kids With the Greatest Number of Candies
+ * URL: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Easy
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-27T10:34:55.180Z
+ */
+
+class Solution {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        
+    }
+}
