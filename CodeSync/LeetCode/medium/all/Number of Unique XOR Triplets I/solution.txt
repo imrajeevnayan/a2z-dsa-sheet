@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Unique XOR Triplets I
+ * URL: https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-27T16:02:57.014Z
+ */
+
+class Solution {
+    public int uniqueXorTriplets(int[] nums) {
+        
+    }
+}
