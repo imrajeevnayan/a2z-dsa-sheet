@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
+- Language: LeetCode 75
 - Difficulty: Easy
-- Topics: Array, Two Pointers, Binary Search, Sorting
+- Topics: Two Pointers, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:08:12.772Z
+- Problem URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T10:33:17.832Z
 
 ## Problem Description
 
-Given a 0-indexed integer array nums of length n and an integer target, return the number of pairs (i, j) where 0 <= i < j < n and nums[i] + nums[j] < target. Example 1: Input: nums = [-1,1,2,3,1], target = 2 Output: 3 Explanation: There are 3 pairs of indices that satisfy the conditions in the statement: - (0, 1) since 0 < 1 and nums[0] + nums[1] = 0 < target - (0, 2) since 0 < 2 and nums[0] + nums[2] = 1 < target - (0, 4) since 0 < 4 and nums[0] + nums[4] = 0 < target Note that (0, 3) is not counted since nums[0] + nums[3] is not strictly less than the target. Example 2: Input: nums = [-6,2,5,-2,-7,-1,3], target = -2 Output: 10 Explanation: There are 10 pairs of indices that satisfy the conditions in the statement: - (0, 1) since 0 < 1 and nums[0] + nums[1] = -4 < target - (0, 3) since 0 < 3 and nums[0] + nums[3] = -8 < target - (0, 4) since 0 < 4 and nums[0] + nums[4] = -13 < target - (0, 5) since 0 < 5 and nums[0] + nums[5] = -7 < target - (0, 6) since 0 < 6 and nums[0] + nums[6] = -3 < target - (1, 4) since 1 < 4 and nums[1] + nums[4] = -5 < target - (3, 4) since 3 < 4 and nums[3] + nums[4] = -9 < target - (3, 5) since 3 < 5 and nums[3] + nums[5] = -3 < target - (4, 5) since 4 < 5 and nums[4] + nums[5] = -8 < target - (4, 6) since 4 < 6 and nums[4] + nums[6] = -4 < target Constraints: 1 <= nums.length == n <= 50 -50 <= nums[i], target <= 50
+You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string. Example 1: Input: word1 = "abc", word2 = "pqr" Output: "apbqcr" Explanation: The merged string will be merged as so: word1: a b c word2: p q r merged: a p b q c r Example 2: Input: word1 = "ab", word2 = "pqrs" Output: "apbqrs" Explanation: Notice that as word2 is longer, "rs" is appended to the end. word1: a b word2: p q r s merged: a p b q r s Example 3: Input: word1 = "abcd", word2 = "pq" Output: "apbqcd" Explanation: Notice that as word1 is longer, "cd" is appended to the end. word1: a b c d word2: p q merged: a p b q c d Constraints: 1 <= word1.length, word2.length <= 100 word1 and word2 consist of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Array, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
