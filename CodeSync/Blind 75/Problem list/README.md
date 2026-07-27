@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
-- Synced: 2026-06-19T08:25:49.244Z
+- Problem URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
+- Synced: 2026-07-27T09:04:02.337Z
 
 ## Problem Description
 
