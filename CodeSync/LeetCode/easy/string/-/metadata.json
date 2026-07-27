@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-22T18:09:24.753Z",
+  "submissionTimestamp": "2026-07-27T10:33:17.832Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "String",
-    "Trie"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
-  "submissionId": "gvllt8"
+  "problemUrl": "https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "l3rh4c"
 }
