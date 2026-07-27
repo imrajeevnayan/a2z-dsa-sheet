@@ -1770,5 +1770,8 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:delete-the-middle-node-of-a-linked-list": []
+  "leetcode:delete-the-middle-node-of-a-linked-list": [],
+  "leetcode:odd-even-linked-list": [
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
