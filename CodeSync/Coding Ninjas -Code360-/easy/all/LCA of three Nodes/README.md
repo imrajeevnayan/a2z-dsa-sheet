@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 2037 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
-- Synced: 2026-07-15T06:04:27.396Z
+- Problem URL: https://www.naukri.com/code360/problems/search-in-a-2d-matrix_980531
+- Synced: 2026-07-27T08:38:12.796Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Total problems solved
 
 ## Explanation
 
