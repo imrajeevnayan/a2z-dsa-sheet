@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:26:16.426Z
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2083274604/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T11:27:01.625Z
 
 ## Problem Description
 
