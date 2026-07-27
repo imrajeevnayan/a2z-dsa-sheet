@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-08T05:38:12.434Z
+ * Synced: 2026-07-27T11:24:33.736Z
  */
 
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
