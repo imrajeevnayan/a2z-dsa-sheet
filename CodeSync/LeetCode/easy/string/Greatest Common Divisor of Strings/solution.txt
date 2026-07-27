@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Greatest Common Divisor of Strings
- * URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?utm=codolio
- * Language: Problem List
+ * URL: https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Easy
  * Topics: Math, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T18:24:28.784Z
+ * Synced: 2026-07-27T10:34:18.472Z
  */
 
 class Solution {
