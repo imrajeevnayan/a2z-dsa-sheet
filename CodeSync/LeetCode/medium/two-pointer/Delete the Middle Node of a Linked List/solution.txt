@@ -1,26 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Delete the Middle Node of a Linked List
- * URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=daily-question&envId=2026-06-15
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T02:16:59.178Z
+ * Synced: 2026-07-27T08:30:30.433Z
  */
 
-while (fast != null && fast.next != null) {
+class Solution {
+    public ListNode deleteMiddle(ListNode head) {
+        if (head == null || head.next == null) return null;
+        ListNode slow = head;
+        ListNode fast = head.next.next;
+        
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
         
         slow.next = slow.next.next;
         return head;
-    }
-        ListNode fast = head.next.next;
-        if (head == null || head.next == null) return null;
-        ListNode slow = head;
-    public ListNode deleteMiddle(ListNode head) {
-class Solution {
-}
