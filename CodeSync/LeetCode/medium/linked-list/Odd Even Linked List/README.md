@@ -1,13 +1,13 @@
 # Odd Even Linked List
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/odd-even-linked-list/submissions/2027369894/
-- Synced: 2026-06-09T10:02:37.316Z
+- Problem URL: https://leetcode.com/problems/odd-even-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-27T08:31:07.744Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, group all the nodes with odd indices tog
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Linked List. Review the synced source file for the implementation details.
