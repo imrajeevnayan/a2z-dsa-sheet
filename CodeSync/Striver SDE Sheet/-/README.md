@@ -1,13 +1,13 @@
 # -
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T14:48:26.022Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+- Synced: 2026-07-28T09:43:43.353Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There is an integer array nums sorted in ascending order (with distinct values).
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
