@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-28T09:15:50.717Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Google",
+    "Company Tags",
+    "Google",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def splitArray(self, arr, k): # code here n = len(arr) low = max(arr) high = sum(arr) ans = -1 while low <= high: mid = (low+high)//2 sub_array = 1 curr_sum = 0 for num in arr: if curr_sum + num > mid: curr_sum = num sub_array += 1 else: curr_sum += num if sub_array <= k: ans = mid high = mid - 1 else: low = mid + 1 return ans",
+  "problemTitle": "// code here int start=0, end=0, n=arr.size(), mid; int i=0; while(i<n) { start=max(arr[i],start); end+=arr[i]; i++; } while(start<=end) { mid=start+(end-start)/2; int sum=0, count=1; for(int i=0; i<n; i++) { sum+=arr[i]; if(sum>mid) { count++; sum=arr[i]; } } if(count<=k) end=mid-1; else start=mid+1; } return start;",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/split-array-largest-sum--141634/1",
+  "submissionId": "nsqsaw"
+}
