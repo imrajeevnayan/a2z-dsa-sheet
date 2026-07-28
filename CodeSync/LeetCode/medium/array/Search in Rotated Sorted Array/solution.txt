@@ -7,8 +7,11 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T11:47:35.673Z
+ * Synced: 2026-07-28T12:44:06.313Z
  */
 
-Input: nums = [4,5,6,7,0,1,2], target = 0
-Output: 4
+class Solution {
+    public int search(int[] nums, int target) {
+        
+    }
+}
