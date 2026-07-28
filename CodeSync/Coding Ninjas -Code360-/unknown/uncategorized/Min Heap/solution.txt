@@ -1,0 +1,37 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Min Heap
+ * URL: https://www.naukri.com/code360/problems/min-heap_4691801
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2783 ms
+ * Memory: N/A
+ * Synced: 2026-07-28T13:15:49.137Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    static int[] minHeap(int n, int[][] q) {
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        ArrayList<Integer> result = new ArrayList<>();
+ 
+        for (int i = 0; i < n; i++) {
+            if (q[i][0] == 0) {
+                heap.add(q[i][1]);
+            } else {
+                result.add(heap.poll());
+            }
+        }
+ 
+        int[] ans = new int[result.size()];
+ 
+        for (int i = 0; i < result.size(); i++) {
+            ans[i] = result.get(i);
+        }
+ 
+        return ans;
+    }
+}
