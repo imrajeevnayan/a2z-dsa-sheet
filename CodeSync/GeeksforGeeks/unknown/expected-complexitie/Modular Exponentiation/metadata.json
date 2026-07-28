@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-28T09:14:29.721Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags GoogleMakeMyTrip",
+    "Company Tags",
+    "Google",
+    "MakeMyTrip",
+    "Topic Tags",
+    "Divide and Conquer",
+    "Binary Search"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int powMod(int x, int n, int M) { long res = 1; x %= M; while (n) { if (n & 1) res = res * x % M; x = (long)x * x % M; n >>= 1; } return res; } };",
+  "problemTitle": "Modular Exponentiation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1",
+  "submissionId": "y3m01j"
+}
