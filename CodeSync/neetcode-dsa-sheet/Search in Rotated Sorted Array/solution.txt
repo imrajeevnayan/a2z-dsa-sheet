@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T11:46:01.662Z
+ * Synced: 2026-07-28T11:46:49.661Z
  */
 
 Input: nums = [4,5,6,7,0,1,2], target = 0
