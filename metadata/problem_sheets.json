@@ -1885,5 +1885,12 @@
   ],
   "geeksforgeeks:search-in-rotated-array-2": [
     "GFG160"
+  ],
+  "leetcode:find-peak-element": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
