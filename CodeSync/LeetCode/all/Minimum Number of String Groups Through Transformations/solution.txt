@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-28T08:38:50.624Z
+ * Runtime: 177 ms
+ * Memory: 70.77 MB
+ * Synced: 2026-07-28T08:39:38.750Z
  */
 
 class Solution {
@@ -23,3 +23,20 @@ class Solution {
             if (i % 2 == 0) e.append(s.charAt(i));
             else o.append(s.charAt(i));
         }
+        return minRot(e.toString()) + "|" + minRot(o.toString());
+    }
+    
+    private String minRot(String s) {
+        if (s.isEmpty()) return s;
+        int n = s.length();
+        String d = s + s;
+        int i = 0, j = 1, k = 0;
+        while (i < n && j < n && k < n) {
+            char a = d.charAt(i + k), b = d.charAt(j + k);
+            if (a == b) k++;
+            else {
+                if (a > b) i += k + 1;
+                else j += k + 1;
+                if (i == j) i++;
+                k = 0;
+            }
