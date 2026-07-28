@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-28T08:41:56.422Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Max Number of K",
+  "problemUrl": "https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "hynutn"
+}
