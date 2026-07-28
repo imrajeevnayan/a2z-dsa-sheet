@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-28T08:46:33.156Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.12 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Stack",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Asteroid Collision",
+  "problemUrl": "https://leetcode.com/problems/asteroid-collision/submissions/2084477160/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "nqsah0"
+}
