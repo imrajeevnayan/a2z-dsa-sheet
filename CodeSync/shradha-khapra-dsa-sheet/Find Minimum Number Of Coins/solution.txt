@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find Minimum Number Of Coins
+ * URL: https://www.naukri.com/code360/problems/find-minimum-number-of-coins_975277
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 11780 ms
+ * Memory: N/A
+ * Synced: 2026-07-28T13:06:58.012Z
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class Solution {
+    public static List<Integer> MinimumCoins(int n) {
+        List<Integer> result = new ArrayList<>();
+ 
+        int[] coins = {1000, 500, 100, 50, 20, 10, 5, 2, 1};
+ 
+        for (int coin : coins) {
+            while (n >= coin) {
+                result.add(coin);
+                n -= coin;
+            }
+        }
+ 
+        return result;
+    }
+}
