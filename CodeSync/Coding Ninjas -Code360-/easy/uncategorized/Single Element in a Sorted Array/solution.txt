@@ -1,0 +1,25 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Single Element in a Sorted Array
+ * URL: https://www.naukri.com/code360/problems/unique-element-in-sorted-array_1112654
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:14:54.570Z
+ */
+
+import java.util.ArrayList;
+public class Solution {
+    public static int singleNonDuplicate(ArrayList<Integer> arr) {
+        int left = 0,right = arr.size() - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (mid % 2 == 1) mid--;
+            if (arr.get(mid).equals(arr.get(mid + 1)))left = mid + 2;
+            else  right = mid;
+        }
+        return arr.get(left);
+    }
+}
