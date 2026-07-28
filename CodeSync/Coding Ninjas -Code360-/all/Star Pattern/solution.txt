@@ -1,0 +1,26 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Star Pattern
+ * URL: https://www.naukri.com/code360/problems/star-pattern_893204
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2961 ms
+ * Memory: N/A
+ * Synced: 2026-07-28T13:21:46.899Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static void printPattern(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
