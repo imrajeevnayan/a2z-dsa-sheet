@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Peak Element
- * URL: https://leetcode.com/problems/find-peak-element/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T12:42:38.756Z
+ * Synced: 2026-07-28T12:45:12.222Z
  */
 
 class Solution {
@@ -16,13 +16,9 @@ class Solution {
         while (left < right) {
             int mid = left + (right - left) / 2;
 
-            if (nums[mid] > nums[mid + 1]) {
-                right = mid;
-            } else {
-                left = mid + 1;
-            
+            if (nums[mid] > nums[mid + 1]) right = mid;
+            else  left = mid + 1;
         }
-
         return left;
     }
 }
