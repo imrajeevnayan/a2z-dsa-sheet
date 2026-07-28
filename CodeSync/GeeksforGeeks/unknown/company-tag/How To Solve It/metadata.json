@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-28T09:15:12.997Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags GoogleCodenation",
+    "Company Tags",
+    "Google",
+    "Codenation",
+    "Topic Tags",
+    "Arrays",
+    "Sorting"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def constructLowerArray(self,arr): ans=[0]*len(arr) def mergeSort(arr): if len(arr)<2: return arr mid=len(arr)//2 left=mergeSort(arr[:mid]) right=mergeSort(arr[mid:]) return merge(left,right) def merge(left,right): nonlocal ans ll,rr=0,0 while ll<len(left): while rr<len(right) and right[rr]<left[ll]: rr+=1 ans[left[ll][1]]+=rr ll+=1 l,r=0,0 result=[] while l<len(left) and r<len(right): if left[l][0]<=right[r][0]: result.append(left[l]) l+=1 else: result.append(right[r]) r+=1 result.extend(left[l:]) result.extend(right[r:]) return result newArr=[] for i in range(len(arr)): newArr.append((arr[i],i)) mergeSort(newArr) return ans",
+  "problemTitle": "How To Solve It?",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-smaller-elements2214/1",
+  "submissionId": "m9icv8"
+}
