@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Modular Exponentiation
+ * URL: https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1
+ * Language: class Solution { public: int powMod(int x, int n, int M) { long res = 1; x %= M; while (n) { if (n & 1) res = res * x % M; x = (long)x * x % M; n >>= 1; } return res; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags GoogleMakeMyTrip, Company Tags, Google, MakeMyTrip, Topic Tags, Divide and Conquer, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T09:14:29.721Z
+ */
+
+class Solution {
+    public int powMod(int x, int n, int M) {
+        long ans = 1;
+        long base = x % M;
+
+        while (n > 0) {
+            if ((n & 1) == 1)
+                ans = (ans * base) % M;
+
+            base = (base * base) % M;
+            n >>= 1;
+        }
+
+        return (int) ans;
+    }
+}
