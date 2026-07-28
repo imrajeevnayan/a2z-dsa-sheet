@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=problem-list-v2&envId=daajjpf2
-- Synced: 2026-07-28T08:59:19.540Z
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=daajjpf2
+- Synced: 2026-07-28T09:00:05.790Z
 
 ## Problem Description
 
