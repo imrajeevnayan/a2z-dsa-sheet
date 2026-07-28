@@ -1863,5 +1863,6 @@
   "leetcode:remove-outermost-parentheses": [
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:increasing-decreasing-string": []
+  "leetcode:increasing-decreasing-string": [],
+  "leetcode:explore": []
 }
