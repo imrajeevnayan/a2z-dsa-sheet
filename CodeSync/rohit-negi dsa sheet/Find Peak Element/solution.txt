@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Peak Element
+ * URL: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T12:41:52.492Z
+ */
+
+class Solution {
+    public int findPeakElement(int[] nums) {
+        
+    }
+}
