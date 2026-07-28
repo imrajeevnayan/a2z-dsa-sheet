@@ -1828,5 +1828,6 @@
   "leetcode:peak-index-in-a-mountain-array": [
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:smallest-palindromic-rearrangement-i": []
+  "leetcode:smallest-palindromic-rearrangement-i": [],
+  "leetcode:max-number-of-k-sum-pairs": []
 }
