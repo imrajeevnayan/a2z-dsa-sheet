@@ -4,10 +4,10 @@
 - Language: String for placement (Copy-5yz5vikt)ne
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=daajjpf2
-- Synced: 2026-07-28T09:02:53.029Z
+- Synced: 2026-07-28T09:03:39.029Z
 
 ## Problem Description
 
