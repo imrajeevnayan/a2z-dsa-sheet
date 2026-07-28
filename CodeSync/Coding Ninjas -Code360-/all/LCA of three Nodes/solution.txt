@@ -1,41 +1,28 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/kthlargestnumber_800301
+ * URL: https://www.naukri.com/code360/problems/binary-numbers_975493
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T13:08:19.138Z
+ * Synced: 2026-07-28T16:35:08.153Z
  */
 
-import java.util.PriorityQueue;
+import java.util.*;
  
 public class Solution {
-    public static class Kthlargest {
  
-        private PriorityQueue<Integer> minHeap;
-        private int k;
+    public static int countSetBits(int n) {
  
-        Kthlargest(int k, int[] arr) {
-            this.k = k;
-            minHeap = new PriorityQueue<>();
+        int count = 0;
  
-            for (int num : arr) {
-                minHeap.offer(num);
- 
-                if (minHeap.size() > k) {
-                    minHeap.poll();
-                }
-            }
+        while (n > 0) {
+            n = n & (n - 1);
+            count++;
         }
  
-        int add(int num) {
-            minHeap.offer(num);
- 
-            if (minHeap.size() > k) {
-                minHeap.poll();
-            }
- 
-            return minHeap.peek();
+        return count;
+    }
+}
