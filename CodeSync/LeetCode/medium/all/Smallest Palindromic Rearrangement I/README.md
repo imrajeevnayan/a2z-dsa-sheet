@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: 48.53 MB
 - Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/submissions/2084423477/?envType=daily-question&envId=2026-07-28
-- Synced: 2026-07-28T07:56:53.487Z
+- Synced: 2026-07-28T07:57:43.413Z
 
 ## Problem Description
 
