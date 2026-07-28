@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-11T16:41:03.500Z",
+  "submissionTimestamp": "2026-07-28T09:43:43.353Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Binary Search"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/",
-  "submissionId": "m684p6"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+  "submissionId": "ks0eht"
 }
