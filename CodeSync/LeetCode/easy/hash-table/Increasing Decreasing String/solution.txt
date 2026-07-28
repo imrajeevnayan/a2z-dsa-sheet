@@ -5,9 +5,9 @@
  * Language: String for placement (Copy-5yz5vikt)ne
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T09:02:53.029Z
+ * Synced: 2026-07-28T09:03:39.029Z
  */
 
 for (int i = 0; i < 26; i++)
@@ -15,9 +15,9 @@ for (int i = 0; i < 26; i++)
 
         while (sb.length() < s.length()) {
         StringBuilder sb = new StringBuilder();
-        int[] freq = new int[26];
-        for (char c : s.toCharArray()) freq[c - 'a']++;
-class Solution {
-    public String sortString(String s) {
             for (int i = 25; i >= 0; i--)
                 if (freq[i]-- > 0) sb.append((char) (i + 'a'));
+        }
+        return sb.toString();
+    }
+}
