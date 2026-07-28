@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-28T09:07:54.729Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Binary Search",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public boolean canPlace(int []arr,int mid,int k){ int count=1,lastPlaced=arr[0]; for(int i=1;i<arr.length;i++){ if(arr[i]>=lastPlaced+mid){ lastPlaced=arr[i]; count++; if(count==k) return true; } } return false; } public int aggressiveCows(int[] stalls, int k) { int n=stalls.length; Arrays.sort(stalls); int l=1; int h=(stalls[n-1]-stalls[0]); while(l<=h){ int mid=l+(h-l)/2; if(canPlace(stalls,mid,k)){ l=mid+1; }else{ h=mid-1; } } return h; } }",
+  "problemTitle": "Idea",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+  "submissionId": "84b8xd"
+}
