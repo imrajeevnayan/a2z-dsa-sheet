@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-28T08:42:42.451Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-28T08:43:29.153Z",
+  "runtime": "37 ms",
+  "memoryUsage": "70.27 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -13,5 +13,5 @@
   "language": "LeetCode 75",
   "problemTitle": "Max Number of K",
   "problemUrl": "https://leetcode.com/problems/max-number-of-k-sum-pairs/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "3p7bmx"
+  "submissionId": "seeueb"
 }
