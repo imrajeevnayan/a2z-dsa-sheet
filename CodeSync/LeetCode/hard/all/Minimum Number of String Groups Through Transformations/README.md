@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 177 ms
+- Memory: 70.77 MB
 - Problem URL: https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/
-- Synced: 2026-07-28T08:38:50.624Z
+- Synced: 2026-07-28T08:39:38.750Z
 
 ## Problem Description
 
