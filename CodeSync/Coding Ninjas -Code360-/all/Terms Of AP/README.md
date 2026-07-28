@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/terms-of-ap_893269
-- Synced: 2026-07-28T13:21:59.952Z
+- Synced: 2026-07-28T13:22:45.386Z
 
 ## Problem Description
 
