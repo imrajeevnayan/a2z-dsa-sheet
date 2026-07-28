@@ -1,13 +1,13 @@
 # Increasing Decreasing String
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: String for placement (Copy-5yz5vikt)ne
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
-- Runtime: 0 ms
-- Memory: 45.01 MB
-- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/submissions/2036345569/
-- Synced: 2026-06-17T12:14:03.153Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=daajjpf2
+- Synced: 2026-07-28T09:02:53.029Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string s. Reorder the string using the following algorithm: Remo
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using String for placement (Copy-5yz5vikt)ne. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
