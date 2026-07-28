@@ -1892,5 +1892,8 @@
     "custom:striver-a2z-dsa-sheet",
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:running-sum-of-1d-array": [
+    "custom:fraz-dsa-sheet"
   ]
 }
