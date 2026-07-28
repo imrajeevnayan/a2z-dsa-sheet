@@ -1,0 +1,34 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Monotone Increasing Digits
+ * URL: https://www.naukri.com/code360/problems/monotone-increase_1402896
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:26:38.237Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static int monotoneIncreasingDigits(int n) {
+ 
+        char[] digits = String.valueOf(n).toCharArray();
+        int mark = digits.length;
+ 
+        for (int i = digits.length - 1; i > 0; i--) {
+            if (digits[i] < digits[i - 1]) {
+                digits[i - 1]--;
+                mark = i;
+            }
+        }
+ 
+        for (int i = mark; i < digits.length; i++) {
+            digits[i] = '9';
+        }
+ 
+        return Integer.parseInt(new String(digits));
+    }
+}
