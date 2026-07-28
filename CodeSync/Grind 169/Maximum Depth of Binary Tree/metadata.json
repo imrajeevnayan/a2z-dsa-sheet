@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-28T08:48:28.158Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-28T08:49:15.487Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Maximum Depth of Binary Tree",
-  "problemUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "51iel"
+  "problemUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "shzfz5"
 }
