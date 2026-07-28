@@ -1,16 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-17T10:05:51.344Z",
+  "submissionTimestamp": "2026-07-28T09:46:36.933Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Math",
-    "Two Pointers"
+    "Expected Complexities",
+    "Company Tags AdobeBloombergYahooUber",
+    "Company Tags",
+    "Adobe",
+    "Bloomberg",
+    "Yahoo",
+    "Uber",
+    "Topic Tags"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
-  "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
-  "submissionId": "t7h6vw"
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public boolean search(int[] arr, int key) { //Search the pivot index int low = 0, high = arr.length - 1; //Initializing pivot to zero. If pivot remains zero, array is not rotated int pivot = 0; while(low <= high) { int mid = low + (high - low) / 2; //When the element in the right becomes smaller than in the left in a sorted array, the array is rotated if(mid < high && arr[mid] > arr[mid + 1]) { pivot = mid + 1; break; } //When the element in the left becomes larger than in the right in a sorted array, the array is rotated if(mid > low && arr[mid] < arr[mid - 1]) { pivot = mid; break; } if(arr[mid] >= arr[low]) low = mid + 1; else high = mid - 1; } //Select the range to find key low = 0; high = arr.length - 1; if(key >= arr[pivot] && key <= arr[high]) low = pivot; else high = pivot - 1; //Search the key while(low <= high) { int mid = low + (high - low) / 2; if(arr[mid] == key) return true; else if(arr[mid] > key) high = mid - 1; else low = mid + 1; } return false; } } //This code is contributed by Soumyadip Banerjee",
+  "problemTitle": "}",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-rotated-array-2/1",
+  "submissionId": "kvv4dx"
 }
