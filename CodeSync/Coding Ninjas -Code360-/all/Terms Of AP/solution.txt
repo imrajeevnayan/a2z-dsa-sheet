@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Terms Of AP
+ * URL: https://www.naukri.com/code360/problems/terms-of-ap_893269
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:21:59.952Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int[] termsOfAP(int x){
+        // Write your code here.
+    }
+}
