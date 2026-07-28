@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T09:46:58.990Z",
+  "submissionTimestamp": "2026-07-28T11:33:37.738Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-  "submissionId": "53surw"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+  "submissionId": "dr25iq"
 }
