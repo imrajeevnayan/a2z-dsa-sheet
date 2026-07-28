@@ -1,13 +1,13 @@
 # Complete Binary Tree Traversal with Array Input
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: vector<vector<int>> levelSort(vector<int>& arr) { // code here int n=arr.size(); int cnt=1; vector<vector<int>>ans; priority_queue<int>pq; for(int i=0;i<n;){ while(i<n && pq.size()<cnt){ pq.push(-1*arr[i]); i++; } vector<int>ds; while(!pq.empty()){ ds.push_back(-1*pq.top()); pq.pop(); } ans.push_back(ds); cnt=(cnt<<1); } return ans; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Sorting, Queue, Tree, priority-queue, Related Articles, Print Binary Tree Levels Sorted Order
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1
-- Synced: 2026-07-28T08:52:06.204Z
+- Synced: 2026-07-28T08:52:52.395Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array arr[] representing the nodes of a Complete Binary Tree in
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Sorting, Queue, Tree, priority-queue, Related Articles, Print Binary Tree Levels Sorted Order. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: vector<vector<int>> levelSort(vector<int>& arr) { // code here int n=arr.size(); int cnt=1; vector<vector<int>>ans; priority_queue<int>pq; for(int i=0;i<n;){ while(i<n && pq.size()<cnt){ pq.push(-1*arr[i]); i++; } vector<int>ds; while(!pq.empty()){ ds.push_back(-1*pq.top()); pq.pop(); } ans.push_back(ds); cnt=(cnt<<1); } return ans; } };. The detected topics are Expected Complexities, Topic Tags, Sorting, Queue, Tree, priority-queue, Related Articles, Print Binary Tree Levels Sorted Order. Review the synced source file for the implementation details.
