@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Max Number of K
+ * URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T08:41:56.422Z
+ */
+
+class Solution {
+    public int maxOperations(int[] nums, int k) {
+        
+    }
+}
