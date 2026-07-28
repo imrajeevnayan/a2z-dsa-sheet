@@ -1,13 +1,13 @@
 # Running Sum of 1d Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
-- Memory: 44.03 MB
-- Problem URL: https://leetcode.com/problems/running-sum-of-1d-array/
-- Synced: 2026-06-16T17:48:44.152Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/running-sum-of-1d-array/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-07-28T12:49:47.712Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array nums. We define a running sum of an array as runningSum[i] = sum(
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Prefix Sum. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
