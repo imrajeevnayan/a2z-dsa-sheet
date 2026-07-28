@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Increasing Decreasing String
- * URL: https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=daajjpf2
+ * URL: https://leetcode.com/problems/increasing-decreasing-string/description/?envType=problem-list-v2&envId=daajjpf2
  * Language: String for placement (Copy-5yz5vikt)ne
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T09:03:39.029Z
+ * Synced: 2026-07-28T09:04:24.677Z
  */
 
 for (int i = 0; i < 26; i++)
@@ -17,7 +17,7 @@ for (int i = 0; i < 26; i++)
         StringBuilder sb = new StringBuilder();
             for (int i = 25; i >= 0; i--)
                 if (freq[i]-- > 0) sb.append((char) (i + 'a'));
-        }
-        return sb.toString();
-    }
-}
+        for (char c : s.toCharArray()) freq[c - 'a']++;
+        int[] freq = new int[26];
+    public String sortString(String s) {
+class Solution {
