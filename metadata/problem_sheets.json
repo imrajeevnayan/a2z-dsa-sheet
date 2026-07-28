@@ -1829,5 +1829,6 @@
     "custom:fraz-dsa-sheet"
   ],
   "leetcode:smallest-palindromic-rearrangement-i": [],
-  "leetcode:max-number-of-k-sum-pairs": []
+  "leetcode:max-number-of-k-sum-pairs": [],
+  "leetcode:determine-if-two-strings-are-close": []
 }
