@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-28T08:52:06.204Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Sorting",
+    "Queue",
+    "Tree",
+    "priority-queue",
+    "Related Articles",
+    "Print Binary Tree Levels Sorted Order"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Complete Binary Tree Traversal with Array Input",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1",
+  "submissionId": "m16odi"
+}
