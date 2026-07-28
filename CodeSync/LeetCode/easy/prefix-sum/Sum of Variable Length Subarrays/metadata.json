@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-28T12:50:58.998Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Sum of Variable Length Subarrays",
+  "problemUrl": "https://leetcode.com/problems/sum-of-variable-length-subarrays/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "800aia"
+}
