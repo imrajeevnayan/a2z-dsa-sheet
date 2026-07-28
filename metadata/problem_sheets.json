@@ -1830,5 +1830,10 @@
   ],
   "leetcode:smallest-palindromic-rearrangement-i": [],
   "leetcode:max-number-of-k-sum-pairs": [],
-  "leetcode:determine-if-two-strings-are-close": []
+  "leetcode:determine-if-two-strings-are-close": [],
+  "leetcode:asteroid-collision": [
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
