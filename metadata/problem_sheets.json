@@ -1864,5 +1864,8 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:increasing-decreasing-string": [],
-  "leetcode:explore": []
+  "leetcode:explore": [],
+  "geeksforgeeks:aggressive-cows": [
+    "GFG160"
+  ]
 }
