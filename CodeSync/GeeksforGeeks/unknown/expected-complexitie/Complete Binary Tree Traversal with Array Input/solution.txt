@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Complete Binary Tree Traversal with Array Input
+ * URL: https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Sorting, Queue, Tree, priority-queue, Related Articles, Print Binary Tree Levels Sorted Order
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T08:52:06.204Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> levelSort(int[] arr) {
+        // code here
+        
+    }
+}
