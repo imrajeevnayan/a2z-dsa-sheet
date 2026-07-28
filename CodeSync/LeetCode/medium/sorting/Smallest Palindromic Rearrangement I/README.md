@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Sorting, Counting Sort
 - Runtime: 2 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/?envType=daily-question&envId=2026-07-28
-- Synced: 2026-07-28T07:56:08.466Z
+- Memory: 48.53 MB
+- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/submissions/2084423477/?envType=daily-question&envId=2026-07-28
+- Synced: 2026-07-28T07:56:53.487Z
 
 ## Problem Description
 
