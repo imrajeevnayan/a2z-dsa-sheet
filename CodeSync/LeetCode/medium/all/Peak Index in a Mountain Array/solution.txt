@@ -7,12 +7,15 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T07:49:18.758Z
+ * Synced: 2026-07-28T07:50:04.409Z
  */
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
         int left=0,right=arr.length-1,ans=-1;
+        while(left<right){
+            int mid=left+(right-left)/2;
+        }
     }
-        while(left<right)
+            if(arr[mid])
 }
