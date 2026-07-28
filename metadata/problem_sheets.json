@@ -1827,5 +1827,6 @@
   "leetcode:number-of-unique-xor-triplets-i": [],
   "leetcode:peak-index-in-a-mountain-array": [
     "custom:fraz-dsa-sheet"
-  ]
+  ],
+  "leetcode:smallest-palindromic-rearrangement-i": []
 }
