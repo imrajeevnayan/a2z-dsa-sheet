@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Determine if Two Strings Are Close
+ * URL: https://leetcode.com/problems/determine-if-two-strings-are-close/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sorting, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T08:44:19.121Z
+ */
+
+class Solution {
+    public boolean closeStrings(String word1, String word2) {
+        
+    }
+}
