@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-07-28T13:22:45.386Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-28T13:23:31.176Z",
+  "runtime": "3545 ms",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Hard",
   "tags": [
     "Uncategorized"
   ],
@@ -10,5 +10,5 @@
   "language": "Java (17)",
   "problemTitle": "Terms Of AP",
   "problemUrl": "https://www.naukri.com/code360/problems/terms-of-ap_893269",
-  "submissionId": "bbh72w"
+  "submissionId": "zgt2i9"
 }
