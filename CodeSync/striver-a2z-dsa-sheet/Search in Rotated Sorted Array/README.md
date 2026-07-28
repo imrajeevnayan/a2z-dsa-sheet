@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-- Synced: 2026-07-28T11:45:10.668Z
+- Synced: 2026-07-28T11:46:01.662Z
 
 ## Problem Description
 
