@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Maximum XOR With an Element From Array
+ * URL: https://www.naukri.com/code360/problems/max-xor-queries_1382020
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:17:37.589Z
+ */
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+ 
+public class Solution {
+ 
+    static class TrieNode {
+        TrieNode[] child = new TrieNode[2];
+    }
+ 
+    static void insert(TrieNode root, int num) {
+        TrieNode node = root;
+ 
+        for (int i = 31; i >= 0; i--) {
+            int bit = (num >> i) & 1;
+ 
+            if (node.child[bit] == null) {
+                node.child[bit] = new TrieNode();
+            }
+ 
+            node = node.child[bit];
+        }
+    }
+ 
+    static int getMaxXor(TrieNode root, int num) {
+        TrieNode node = root;
+        int ans = 0;
+ 
+        for (int i = 31; i >= 0; i--) {
