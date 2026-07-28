@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Hash Table, String, Sorting, Counting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/determine-if-two-strings-are-close/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-28T08:45:04.136Z
+- Runtime: 1 ms
+- Memory: 48.02 MB
+- Problem URL: https://leetcode.com/problems/asteroid-collision/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-28T08:45:48.012Z
 
 ## Problem Description
 
