@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/peak-index-in-a-mountain-array/
-- Synced: 2026-07-28T07:52:28.082Z
+- Synced: 2026-07-28T07:54:00.280Z
 
 ## Problem Description
 
