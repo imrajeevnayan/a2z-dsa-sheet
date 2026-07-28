@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: String, Sorting, Counting Sort
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/?envType=daily-question&envId=2026-07-28
-- Synced: 2026-07-28T07:55:22.422Z
+- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/?envType=daily-question&envId=2026-07-28
+- Synced: 2026-07-28T07:56:08.466Z
 
 ## Problem Description
 
