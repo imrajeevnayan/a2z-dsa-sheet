@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/binary-search_975480
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:25:21.588Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static List<Integer> searchInSortedArray(int[] arr, int n, int[] queries, int q) {
+ 
+        List<Integer> ans = new ArrayList<>();
+ 
+        for (int i = 0; i < q; i++) {
+            int left = 0;
+            int right = n - 1;
+            int target = queries[i];
+            int found = 0;
+ 
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+ 
+                if (arr[mid] == target) {
+                    found = 1;
+                    break;
+                } else if (arr[mid] < target) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+ 
+            ans.add(found);
+        }
