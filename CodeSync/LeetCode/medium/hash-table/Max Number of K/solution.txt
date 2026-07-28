@@ -1,17 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Max Number of K
- * URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T08:41:56.422Z
+ * Synced: 2026-07-28T08:42:42.451Z
  */
 
 class Solution {
     public int maxOperations(int[] nums, int k) {
-        
+        Map<Integer, Integer> map = new HashMap<>();
+        int count = 0;
+        for (int num : nums) {
+            int complement = k - num;
+
+            if (map.getOrDefault(complement, 0) > 0) {
+                count++;
+                map.put(complement, map.get(complement) - 1);
+            } else {
+                map.put(num, map.getOrDefault(num, 0) + 1);
+            }
+        }
+
+        return count;
     }
 }
