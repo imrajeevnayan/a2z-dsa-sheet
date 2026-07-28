@@ -1,18 +1,18 @@
-# -
+# }
 
-- Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Math, Two Pointers
+- Platform: GeeksforGeeks
+- Language: class Solution { public boolean search(int[] arr, int key) { //Search the pivot index int low = 0, high = arr.length - 1; //Initializing pivot to zero. If pivot remains zero, array is not rotated int pivot = 0; while(low <= high) { int mid = low + (high - low) / 2; //When the element in the right becomes smaller than in the left in a sorted array, the array is rotated if(mid < high && arr[mid] > arr[mid + 1]) { pivot = mid + 1; break; } //When the element in the left becomes larger than in the right in a sorted array, the array is rotated if(mid > low && arr[mid] < arr[mid - 1]) { pivot = mid; break; } if(arr[mid] >= arr[low]) low = mid + 1; else high = mid - 1; } //Select the range to find key low = 0; high = arr.length - 1; if(key >= arr[pivot] && key <= arr[high]) low = pivot; else high = pivot - 1; //Search the key while(low <= high) { int mid = low + (high - low) / 2; if(arr[mid] == key) return true; else if(arr[mid] > key) high = mid - 1; else low = mid + 1; } return false; } } //This code is contributed by Soumyadip Banerjee
+- Difficulty: Unknown
+- Topics: Expected Complexities, Company Tags AdobeBloombergYahooUber, Company Tags, Adobe, Bloomberg, Yahoo, Uber, Topic Tags
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-array/description/
-- Synced: 2026-07-17T10:05:51.344Z
+- Problem URL: https://www.geeksforgeeks.org/problems/search-in-rotated-array-2/1
+- Synced: 2026-07-28T09:46:36.933Z
 
 ## Problem Description
 
-Given an integer array nums, rotate the array to the right by k steps, where k is non-negative. Example 1: Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4] Example 2: Input: nums = [-1,-100,3,99], k = 2 Output: [3,99,-1,-100] Explanation: rotate 1 steps to the right: [99,-1,-100,3] rotate 2 steps to the right: [3,99,-1,-100] Constraints: 1 <= nums.length <= 105 -231 <= nums[i] <= 231 - 1 0 <= k <= 105 Follow up: Try to come up with as many solutions as you can. There are at least three different ways to solve this problem. Could you do it in-place with O(1) extra space?
+Given a sorted and rotated array arr[] and a target key. Check whether the key is present in the array or not. Note: The array may contains duplicate elements. Examples: Input: arr[] = [3, 3, 3, 1, 2, 3], key = 3 Output: true Explanation: 3 is present in the array. Input: arr[] = [4, 5, 8, 1, 1, 1, 2], key = 6 Output: false Explanation: 6 is not present in the array. Constraints: 1 ≤ arr.size() ≤ 106 0 ≤ arr[i], key ≤ 108
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public boolean search(int[] arr, int key) { //Search the pivot index int low = 0, high = arr.length - 1; //Initializing pivot to zero. If pivot remains zero, array is not rotated int pivot = 0; while(low <= high) { int mid = low + (high - low) / 2; //When the element in the right becomes smaller than in the left in a sorted array, the array is rotated if(mid < high && arr[mid] > arr[mid + 1]) { pivot = mid + 1; break; } //When the element in the left becomes larger than in the right in a sorted array, the array is rotated if(mid > low && arr[mid] < arr[mid - 1]) { pivot = mid; break; } if(arr[mid] >= arr[low]) low = mid + 1; else high = mid - 1; } //Select the range to find key low = 0; high = arr.length - 1; if(key >= arr[pivot] && key <= arr[high]) low = pivot; else high = pivot - 1; //Search the key while(low <= high) { int mid = low + (high - low) / 2; if(arr[mid] == key) return true; else if(arr[mid] > key) high = mid - 1; else low = mid + 1; } return false; } } //This code is contributed by Soumyadip Banerjee. The detected topics are Expected Complexities, Company Tags AdobeBloombergYahooUber, Company Tags, Adobe, Bloomberg, Yahoo, Uber, Topic Tags. Review the synced source file for the implementation details.
