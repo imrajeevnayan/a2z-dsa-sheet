@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Math, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 43.28 MB
 - Problem URL: https://leetcode.com/problems/sum-of-all-odd-length-subarrays/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-07-28T12:52:59.814Z
+- Synced: 2026-07-28T12:54:30.908Z
 
 ## Problem Description
 
