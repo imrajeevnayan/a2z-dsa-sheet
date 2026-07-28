@@ -5,13 +5,25 @@
  * Language: Prefix Sum
  * Difficulty: Easy
  * Topics: Array, Math, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-28T12:52:59.814Z
+ * Runtime: 0 ms
+ * Memory: 43.28 MB
+ * Synced: 2026-07-28T12:54:30.908Z
  */
 
-class Solution {
+prefix[i + 1] = prefix[i] + arr[i];
+        }
+        int sum = 0;
+
+        for (int start = 0; start < n; start++) {
+            for (int end = start; end < n; end += 2) {
+                sum += prefix[end + 1] - prefix[start];
     public int sumOddLengthSubarrays(int[] arr) {
-        
+        int n = arr.length;
+        int[] prefix = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            }
+        }
+
+        return sum;
     }
-}
