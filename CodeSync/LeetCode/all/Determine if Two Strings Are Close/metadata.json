@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-28T08:45:04.136Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-28T08:45:48.012Z",
+  "runtime": "1 ms",
+  "memoryUsage": "48.02 MB",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Determine if Two Strings Are Close",
-  "problemUrl": "https://leetcode.com/problems/determine-if-two-strings-are-close/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "c21iod"
+  "problemUrl": "https://leetcode.com/problems/asteroid-collision/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "m22tz0"
 }
