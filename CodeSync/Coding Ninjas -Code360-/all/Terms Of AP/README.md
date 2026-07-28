@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (17)
-- Difficulty: Easy
+- Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 3545 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/terms-of-ap_893269
-- Synced: 2026-07-28T13:22:45.386Z
+- Synced: 2026-07-28T13:23:31.176Z
 
 ## Problem Description
 
-Problem statement Send feedback
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
