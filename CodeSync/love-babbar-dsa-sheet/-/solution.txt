@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/longest-common-prefix/description/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Array, String, Trie
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T18:09:24.753Z
+ * Synced: 2026-07-28T09:43:43.353Z
  */
 
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
