@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
-- Synced: 2026-07-28T07:48:32.814Z
+- Problem URL: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+- Synced: 2026-07-28T07:49:18.758Z
 
 ## Problem Description
 
