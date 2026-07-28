@@ -1,13 +1,13 @@
 # Kth Largest Element in an Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/description/
-- Synced: 2026-07-15T13:21:10.005Z
+- Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-28T12:40:16.667Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums and an integer k, return the kth largest element in 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect. Review the synced source file for the implementation details.
