@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-27T08:55:58.892Z",
-  "runtime": "696 ms",
+  "submissionTimestamp": "2026-07-28T13:08:19.138Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994",
-  "submissionId": "8oh6w2"
+  "problemUrl": "https://www.naukri.com/code360/problems/kthlargestnumber_800301",
+  "submissionId": "lmmavr"
 }
