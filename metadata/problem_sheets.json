@@ -1897,5 +1897,8 @@
     "custom:fraz-dsa-sheet"
   ],
   "leetcode:sum-of-variable-length-subarrays": [],
-  "leetcode:sum-of-all-odd-length-subarrays": []
+  "leetcode:sum-of-all-odd-length-subarrays": [],
+  "coding ninjas (code360):find-minimum-number-of-coins_975277": [
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
