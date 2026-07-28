@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Running Sum of 1d Array
- * URL: https://leetcode.com/problems/running-sum-of-1d-array/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/running-sum-of-1d-array/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
  * Difficulty: Easy
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
- * Memory: 44.03 MB
- * Synced: 2026-06-16T17:48:44.152Z
+ * Memory: N/A
+ * Synced: 2026-07-28T12:49:47.712Z
  */
 
 class Solution {
