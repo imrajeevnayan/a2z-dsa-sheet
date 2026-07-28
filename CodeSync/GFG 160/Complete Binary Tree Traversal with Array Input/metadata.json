@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T08:52:52.395Z",
+  "submissionTimestamp": "2026-07-28T08:53:38.115Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: vector<vector<int>> levelSort(vector<int>& arr) { // code here int n=arr.size(); int cnt=1; vector<vector<int>>ans; priority_queue<int>pq; for(int i=0;i<n;){ while(i<n && pq.size()<cnt){ pq.push(-1*arr[i]); i++; } vector<int>ds; while(!pq.empty()){ ds.push_back(-1*pq.top()); pq.pop(); } ans.push_back(ds); cnt=(cnt<<1); } return ans; } };",
   "problemTitle": "Complete Binary Tree Traversal with Array Input",
   "problemUrl": "https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1",
-  "submissionId": "godl2i"
+  "submissionId": "v3ftwn"
 }
