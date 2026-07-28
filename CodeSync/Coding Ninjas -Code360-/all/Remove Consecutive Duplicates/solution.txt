@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove Consecutive Duplicates
+ * URL: https://www.naukri.com/code360/problems/remove-consecutive-duplicates_893195
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1031 ms
+ * Memory: N/A
+ * Synced: 2026-07-28T13:20:12.993Z
+ */
+
+public class Solution {
+    public static String removeConsecutiveDuplicates(String s) {
+        StringBuilder result = new StringBuilder();
+        result.append(s.charAt(0));
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                result.append(s.charAt(i));
+            }
+        }
+        return result.toString();
+    }
+}
