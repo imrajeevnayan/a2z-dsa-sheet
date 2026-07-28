@@ -1896,5 +1896,6 @@
   "leetcode:running-sum-of-1d-array": [
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:sum-of-variable-length-subarrays": []
+  "leetcode:sum-of-variable-length-subarrays": [],
+  "leetcode:sum-of-all-odd-length-subarrays": []
 }
