@@ -1,13 +1,13 @@
 # Implement Lower Bound
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: int lowerBound(vector<int>& arr, int target) { // code here int low=0; int high=arr.size()-1; int lwb = -1; while(low <= high){ int mid = low + (high-low)/2; if(arr[mid] >= target){ lwb=mid; high=mid-1; } else if(arr[mid] < target){ low=mid+1; lwb=low; } } return lwb; } };
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
-- Synced: 2026-07-24T08:57:28.469Z
+- Synced: 2026-07-28T09:13:00.798Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] (following 0-based indexing) and a number target, fin
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: int lowerBound(vector<int>& arr, int target) { // code here int low=0; int high=arr.size()-1; int lwb = -1; while(low <= high){ int mid = low + (high-low)/2; if(arr[mid] >= target){ lwb=mid; high=mid-1; } else if(arr[mid] < target){ low=mid+1; lwb=low; } } return lwb; } };. The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound. Review the synced source file for the implementation details.
