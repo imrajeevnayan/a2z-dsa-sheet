@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-17T12:14:03.153Z",
-  "runtime": "0 ms",
-  "memoryUsage": "45.01 MB",
+  "submissionTimestamp": "2026-07-28T09:02:53.029Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -9,8 +9,8 @@
     "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "String for placement (Copy-5yz5vikt)ne",
   "problemTitle": "Increasing Decreasing String",
-  "problemUrl": "https://leetcode.com/problems/increasing-decreasing-string/submissions/2036345569/",
-  "submissionId": "30plkv"
+  "problemUrl": "https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=daajjpf2",
+  "submissionId": "bf0jyd"
 }
