@@ -1,0 +1,18 @@
+# Idea
+
+- Platform: GeeksforGeeks
+- Language: class Solution { public boolean canPlace(int []arr,int mid,int k){ int count=1,lastPlaced=arr[0]; for(int i=1;i<arr.length;i++){ if(arr[i]>=lastPlaced+mid){ lastPlaced=arr[i]; count++; if(count==k) return true; } } return false; } public int aggressiveCows(int[] stalls, int k) { int n=stalls.length; Arrays.sort(stalls); int l=1; int h=(stalls[n-1]-stalls[0]); while(l<=h){ int mid=l+(h-l)/2; if(canPlace(stalls,mid,k)){ l=mid+1; }else{ h=mid-1; } } return h; } }
+- Difficulty: Unknown
+- Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/problems/aggressive-cows/1
+- Synced: 2026-07-28T09:07:54.729Z
+
+## Problem Description
+
+Given an integer array arr[], which denotes the positions of stalls. All the positions are distinct. There are k aggressive cows. Assign the cows to the stalls such that the minimum distance between any two cows is maximized. Examples: Input: arr[] = [1, 2, 4, 8, 9], k = 3 Output: 3 Explanation: The first cow can be placed at arr[0], the second at arr[2], and the third at arr[3]. The minimum distance between any two cows is 3 (between arr[0] and arr[2]), which is the maximum possible among all valid arrangements. Input: arr[] = [10, 1, 2, 7, 5], k = 3 Output: 4 Explanation: The first cow can be placed at arr[0], the second at arr[1], and the third at arr[4]. In this arrangement, the minimum distance between any two cows is 4 (between arr[1] and arr[4]), which is the maximum possible among all valid arrangements. Constraints: 2 ≤ arr.size() ≤ 106 0 ≤ arr[i] ≤ 108 2 ≤ k ≤ arr.size()
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using class Solution { public boolean canPlace(int []arr,int mid,int k){ int count=1,lastPlaced=arr[0]; for(int i=1;i<arr.length;i++){ if(arr[i]>=lastPlaced+mid){ lastPlaced=arr[i]; count++; if(count==k) return true; } } return false; } public int aggressiveCows(int[] stalls, int k) { int n=stalls.length; Arrays.sort(stalls); int l=1; int h=(stalls[n-1]-stalls[0]); while(l<=h){ int mid=l+(h-l)/2; if(canPlace(stalls,mid,k)){ l=mid+1; }else{ h=mid-1; } } return h; } }. The detected topics are Expected Complexities, Topic Tags, Binary Search, Related Articles. Review the synced source file for the implementation details.
