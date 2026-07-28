@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-peak-element/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-28T12:42:38.756Z
+- Problem URL: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-28T12:45:12.222Z
 
 ## Problem Description
 
