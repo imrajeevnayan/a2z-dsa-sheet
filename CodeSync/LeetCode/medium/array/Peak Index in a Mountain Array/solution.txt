@@ -5,17 +5,21 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T07:52:28.082Z
+ * Synced: 2026-07-28T07:54:00.280Z
  */
 
-class Solution {
-    public int peakIndexInMountainArray(int[] arr) {
-        int left=0,right=arr.length-1,ans=-1;
+int left=0,right=arr.length-1,ans=-1;
         while(left<right){
             int mid=left+(right-left)/2;
+            if(arr[mid]<arr[mid+1]) left=mid+1;
+            else{
         }
+                ans=mid;
+            }
     }
-            if(arr[mid])
-}
+                right=mid-1;
+        return ans;
+    public int peakIndexInMountainArray(int[] arr) {
+class Solution {
