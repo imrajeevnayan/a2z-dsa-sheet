@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum of Variable Length Subarrays
+ * URL: https://leetcode.com/problems/sum-of-variable-length-subarrays/description/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Easy
+ * Topics: Array, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T12:50:58.998Z
+ */
+
+class Solution {
+    public int subarraySum(int[] nums) {
+        
+    }
+}
