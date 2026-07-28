@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Determine if Two Strings Are Close
+ * URL: https://leetcode.com/problems/asteroid-collision/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sorting, Counting
+ * Runtime: 1 ms
+ * Memory: 48.02 MB
+ * Synced: 2026-07-28T08:45:48.012Z
+ */
+
+for (char c : word2.toCharArray()) f2[c - 'a']++;
+
+        for (int i = 0; i < 26; i++) if ((f1[i] == 0) != (f2[i] == 0)) return false;
+        Arrays.sort(f1);
+        Arrays.sort(f2);
+        return Arrays.equals(f1, f2);
+    }
+}
+        for (char c : word1.toCharArray()) f1[c - 'a']++;
+
+        int[] f2 = new int[26];
+        int[] f1 = new int[26];
