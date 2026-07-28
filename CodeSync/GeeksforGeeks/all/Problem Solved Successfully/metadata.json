@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-25T18:52:30.932Z",
+  "submissionTimestamp": "2026-07-28T09:13:49.458Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "#User function Template for python3 from collections import Counter class Solution: #Function to sort the array according to frequency of elements. def sortByFreq(self,arr): #code here freq = Counter(arr) arr.sort(key=lambda x: (-freq[x], x)) return arr",
+  "language": "class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1",
-  "submissionId": "f6tc2o"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
+  "submissionId": "w7tj3r"
 }
