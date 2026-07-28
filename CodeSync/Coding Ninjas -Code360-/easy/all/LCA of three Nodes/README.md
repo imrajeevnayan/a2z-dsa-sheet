@@ -6,12 +6,12 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/kthlargestnumber_800301
-- Synced: 2026-07-28T13:08:19.138Z
+- Problem URL: https://www.naukri.com/code360/problems/binary-numbers_975493
+- Synced: 2026-07-28T16:35:08.153Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
