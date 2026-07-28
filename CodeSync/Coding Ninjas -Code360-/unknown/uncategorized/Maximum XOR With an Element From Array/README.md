@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/max-xor-queries_1382020
-- Synced: 2026-07-28T13:17:37.589Z
+- Synced: 2026-07-28T13:18:44.605Z
 
 ## Problem Description
 
