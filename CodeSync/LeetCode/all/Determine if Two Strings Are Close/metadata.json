@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T08:44:19.121Z",
+  "submissionTimestamp": "2026-07-28T08:45:04.136Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Determine if Two Strings Are Close",
-  "problemUrl": "https://leetcode.com/problems/determine-if-two-strings-are-close/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "j8u14a"
+  "problemUrl": "https://leetcode.com/problems/determine-if-two-strings-are-close/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "c21iod"
 }
