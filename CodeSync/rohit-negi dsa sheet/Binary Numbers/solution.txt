@@ -1,0 +1,28 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Binary Numbers
+ * URL: https://www.naukri.com/code360/problems/binary-numbers_975493
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T13:29:19.122Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static int countSetBits(int n) {
+ 
+        int count = 0;
+ 
+        while (n > 0) {
+            n = n & (n - 1);
+            count++;
+        }
+ 
+        return count;
+    }
+}
