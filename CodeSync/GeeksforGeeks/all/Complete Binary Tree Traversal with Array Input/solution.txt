@@ -7,21 +7,26 @@
  * Topics: Expected Complexities, Topic Tags, Sorting, Queue, Tree, priority-queue, Related Articles, Print Binary Tree Levels Sorted Order
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T08:52:52.395Z
+ * Synced: 2026-07-28T08:53:38.115Z
  */
+
+import java.util.*;
 
 class Solution {
     public ArrayList<ArrayList<Integer>> levelSort(int[] arr) {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
-        int n = arr.length, i = 0;
-        while (i < n) {
-            int size = Math.min(1 << ans.size(), n - i);
-            ArrayList<Integer> level = new ArrayList<>();
+        int i = 0, level = 1;
 
-            for (int j = 0; j < size; j++)
-                level.add(arr[i++]);
+        while (i < arr.length) {
+            ArrayList<Integer> curr = new ArrayList<>();
 
-            ans.add(level);
+            for (int j = 0; j < level && i < arr.length; j++) {
+                curr.add(arr[i++]);
+            }
+
+            Collections.sort(curr);
+            ans.add(curr);
+            level *= 2;
         }
 
         return ans;
