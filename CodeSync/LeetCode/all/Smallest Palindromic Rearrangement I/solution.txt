@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Smallest Palindromic Rearrangement I
- * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/?envType=daily-question&envId=2026-07-28
+ * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/?envType=daily-question&envId=2026-07-28
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Sorting, Counting Sort
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-07-28T07:55:22.422Z
+ * Synced: 2026-07-28T07:56:08.466Z
  */
 
-class Solution {
-    public String smallestPalindrome(String s) {
-        
+while(cnt[c-'a'] > 1){
+                cnt[c-'a'] -= 2;
+                sb.append(c);
+        for(char c = 'a';c<='z';c++){
+            }
+            if(cnt[c-'a'] == 1){
+                extra = c;
+            }
+        }
+        return sb.toString() + (extra == ' ' ? "" : extra) + sb.reverse().toString();
     }
 }
