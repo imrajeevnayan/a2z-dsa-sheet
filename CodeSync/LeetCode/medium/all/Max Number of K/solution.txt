@@ -5,26 +5,24 @@
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-28T08:42:42.451Z
+ * Runtime: 37 ms
+ * Memory: 70.27 MB
+ * Synced: 2026-07-28T08:43:29.153Z
  */
 
 class Solution {
     public int maxOperations(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
-        int count = 0;
-        for (int num : nums) {
-            int complement = k - num;
+        int ans = 0;
 
-            if (map.getOrDefault(complement, 0) > 0) {
-                count++;
-                map.put(complement, map.get(complement) - 1);
+        for (int num : nums) {
+            if (map.getOrDefault(k - num, 0) > 0) {
+                ans++;
+                map.put(k - num, map.get(k - num) - 1);
             } else {
                 map.put(num, map.getOrDefault(num, 0) + 1);
             }
         }
-
-        return count;
+        return ans;
     }
 }
