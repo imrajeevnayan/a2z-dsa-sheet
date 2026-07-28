@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-15T13:21:10.005Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-28T12:40:16.667Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,8 +11,8 @@
     "Quickselect"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Kth Largest Element in an Array",
-  "problemUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
-  "submissionId": "bgeypx"
+  "problemUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "mzq35d"
 }
