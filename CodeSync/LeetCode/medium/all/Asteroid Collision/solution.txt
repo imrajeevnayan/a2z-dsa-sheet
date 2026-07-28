@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Asteroid Collision
+ * URL: https://leetcode.com/problems/asteroid-collision/submissions/2084477160/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Stack, Simulation
+ * Runtime: 0 ms
+ * Memory: 47.12 MB
+ * Synced: 2026-07-28T08:46:33.156Z
+ */
+
+} else a = 0;
+                    a = 0;
+                    stack.pop();
+                else if (stack.peek() == -a) {
+                if (stack.peek() < -a) stack.pop();
+            while (!stack.isEmpty() && a < 0 && stack.peek() > 0) {
+        for (int a : asteroids) {
+
+        Stack<Integer> stack = new Stack<>();
+    public int[] asteroidCollision(int[] asteroids) {
+class Solution {
