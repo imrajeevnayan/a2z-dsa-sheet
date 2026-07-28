@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-28T08:38:50.624Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-28T08:39:38.750Z",
+  "runtime": "177 ms",
+  "memoryUsage": "70.77 MB",
   "difficulty": "Hard",
   "tags": [
     "Uncategorized"
@@ -10,5 +10,5 @@
   "language": "Problem List",
   "problemTitle": "Minimum Number of String Groups Through Transformations",
   "problemUrl": "https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/",
-  "submissionId": "z1sr53"
+  "submissionId": "dj2b4n"
 }
