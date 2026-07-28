@@ -4,10 +4,10 @@
 - Language: String for placement (Copy-5yz5vikt)ne
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=daajjpf2
-- Synced: 2026-07-28T09:00:05.790Z
+- Runtime: 0 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2084495853/?envType=problem-list-v2&envId=daajjpf2
+- Synced: 2026-07-28T09:00:50.838Z
 
 ## Problem Description
 
