@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Idea
+ * URL: https://www.geeksforgeeks.org/problems/aggressive-cows/1
+ * Language: class Solution { public boolean canPlace(int []arr,int mid,int k){ int count=1,lastPlaced=arr[0]; for(int i=1;i<arr.length;i++){ if(arr[i]>=lastPlaced+mid){ lastPlaced=arr[i]; count++; if(count==k) return true; } } return false; } public int aggressiveCows(int[] stalls, int k) { int n=stalls.length; Arrays.sort(stalls); int l=1; int h=(stalls[n-1]-stalls[0]); while(l<=h){ int mid=l+(h-l)/2; if(canPlace(stalls,mid,k)){ l=mid+1; }else{ h=mid-1; } } return h; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T09:07:54.729Z
+ */
+
+class Solution {
+    public int aggressiveCows(int[] arr, int k) {
+        Arrays.sort(arr);
+        int low = 1, high = arr[arr.length - 1] - arr[0];
+        int ans = 0;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (canPlace(arr, k, mid)) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return ans;
+    }
+
+    private boolean canPlace(int[] arr, int k, int dist) {
+        int count = 1;
+        int last = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] - last >= dist) {
+                count++;
+                last = arr[i];
+            }
+        }
+
+        return count >= k;
+    }
+}
