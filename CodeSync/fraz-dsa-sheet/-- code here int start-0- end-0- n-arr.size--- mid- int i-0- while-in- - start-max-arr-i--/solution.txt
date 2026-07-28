@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: // code here int start=0, end=0, n=arr.size(), mid; int i=0; while(i<n) { start=max(arr[i],start); end+=arr[i]; i++; } while(start<=end) { mid=start+(end-start)/2; int sum=0, count=1; for(int i=0; i<n; i++) { sum+=arr[i]; if(sum>mid) { count++; sum=arr[i]; } } if(count<=k) end=mid-1; else start=mid+1; } return start;
+ * URL: https://www.geeksforgeeks.org/problems/split-array-largest-sum--141634/1
+ * Language: class Solution: def splitArray(self, arr, k): # code here n = len(arr) low = max(arr) high = sum(arr) ans = -1 while low <= high: mid = (low+high)//2 sub_array = 1 curr_sum = 0 for num in arr: if curr_sum + num > mid: curr_sum = num sub_array += 1 else: curr_sum += num if sub_array <= k: ans = mid high = mid - 1 else: low = mid + 1 return ans
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Arrays, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-28T09:15:50.717Z
+ */
+
+}
+
+        int ans = high;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (canSplit(arr, k, mid)) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+
+    private boolean canSplit(int[] arr, int k, int maxSum) {
+        int count = 1;
+        int sum = 0;
+
+        for (int x : arr) {
+            if (sum + x > maxSum) {
+                count++;
+                sum = x;
+            } else {
+                sum += x;
+            }
+        }
+
+        return count <= k;
+    }
+}
