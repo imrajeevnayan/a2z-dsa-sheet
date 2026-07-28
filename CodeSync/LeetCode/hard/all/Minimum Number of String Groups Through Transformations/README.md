@@ -1,13 +1,13 @@
 # Minimum Number of String Groups Through Transformations
 
 - Platform: LeetCode
-- Language: Weekly Contest 511
+- Language: Problem List
 - Difficulty: Hard
 - Topics: Uncategorized
-- Runtime: 3 ms
-- Memory: 0.00 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-511/problems/minimum-number-of-string-groups-through-transformations/submissions/2073219201/
-- Synced: 2026-07-19T08:08:45.090Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/
+- Synced: 2026-07-28T08:38:50.624Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array of strings words. Define a transformation on a string s a
 
 ## Explanation
 
-This solution was accepted on LeetCode using Weekly Contest 511. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
