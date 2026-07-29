@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Map of Highest Peak
+ * URL: https://leetcode.com/problems/map-of-highest-peak/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Breadth-First Search, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T08:45:31.880Z
+ */
+
+class Solution {
+    public int[][] highestPeak(int[][] isWater) {
+        
+    }
+}
