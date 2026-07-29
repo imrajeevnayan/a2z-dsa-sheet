@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 42.08 MB
 - Problem URL: https://leetcode.com/problems/first-bad-version/submissions/2085965795/?utm=codolio
-- Synced: 2026-07-29T10:17:20.010Z
+- Synced: 2026-07-29T10:18:11.016Z
 
 ## Problem Description
 
