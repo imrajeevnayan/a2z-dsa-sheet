@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Square Root of a number
+ * URL: https://www.naukri.com/code360/problems/square-root-integral_893351
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2552 ms
+ * Memory: N/A
+ * Synced: 2026-07-29T11:50:17.039Z
+ */
+
+import java.util.*;
+import java.io.*;
+public class Solution {
+    public static int sqrtN(long N) {
+        long left = 1, right = N,ans = 0;
+        while (left <= right) {
+            long mid = left + (right - left) / 2;
+            if (mid * mid <= N) {
+                ans = mid;
+                left = mid + 1;
+            } 
+            else {
+                right = mid - 1;
+            }
+        }
+        return (int) ans;
+    }
+}
