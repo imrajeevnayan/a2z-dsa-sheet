@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-29T09:03:22.494Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Flipkart",
+    "Amazon",
+    "Microsoft",
+    "Snapdeal",
+    "D-E-Shaw"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Search in Rotated Sorted Array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1",
+  "submissionId": "cgunul"
+}
