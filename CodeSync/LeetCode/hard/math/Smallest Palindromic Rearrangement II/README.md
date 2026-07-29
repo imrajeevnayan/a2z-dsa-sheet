@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question&envId=2026-07-29
-- Synced: 2026-07-29T07:24:26.871Z
+- Synced: 2026-07-29T07:25:13.942Z
 
 ## Problem Description
 
