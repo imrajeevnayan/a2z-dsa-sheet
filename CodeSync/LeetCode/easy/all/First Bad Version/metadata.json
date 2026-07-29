@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-03T20:05:01.227Z",
-  "runtime": "2 ms",
-  "memoryUsage": "41.99 MB",
+  "submissionTimestamp": "2026-07-29T10:15:42.549Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Binary Search",
     "Interactive"
   ],
   "platform": "LeetCode",
-  "language": "Grind 75 (Copy-rab78cw1)",
+  "language": "Problem List",
   "problemTitle": "First Bad Version",
-  "problemUrl": "https://leetcode.com/problems/first-bad-version/submissions/2021644102/?envType=problem-list-v2&envId=dxlq3az1",
-  "submissionId": "aigehd"
+  "problemUrl": "https://leetcode.com/problems/first-bad-version/description/?utm=codolio",
+  "submissionId": "cq8c78"
 }
