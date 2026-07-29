@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Peaks in Array
+ * URL: https://leetcode.com/problems/peaks-in-array/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Binary Indexed Tree, Segment Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T08:44:37.906Z
+ */
+
+class Solution {
+    public List<Integer> countOfPeaks(int[] nums, int[][] queries) {
+        
+    }
+}
