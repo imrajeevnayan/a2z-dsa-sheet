@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-29T07:25:13.942Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-29T07:25:59.934Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Smallest Palindromic Rearrangement II",
-  "problemUrl": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question&envId=2026-07-29",
-  "submissionId": "9jh1qs"
+  "problemUrl": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/submissions/2085769491/?envType=daily-question&envId=2026-07-29",
+  "submissionId": "ykucmc"
 }
