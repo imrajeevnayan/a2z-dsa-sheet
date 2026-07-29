@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-29T08:49:23.342Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Design",
+    "Heap (Priority Queue)",
+    "Ordered Set"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Smallest Number in Infinite Set",
+  "problemUrl": "https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "vfbas1"
+}
