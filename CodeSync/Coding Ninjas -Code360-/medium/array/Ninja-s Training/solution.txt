@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Ninja’s Training
+ * URL: https://www.naukri.com/code360/problems/split-array_2663297
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Greedy, Binary Search, Arrays, Dynamic Programming, Topics (Covered in this problem), Topics, (Covered in this problem), Arrays 92 Specialist
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T10:05:44.759Z
+ */
+
+int mid = low + (high - low) / 2;
+            if (canSplit(arr, m, mid)) {
+                ans = mid;
+                high = mid - 1;
+            } 
+            else {
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+    private static boolean canSplit(int[] arr, int m, int maxSum) {
+        int count = 1;
+        int sum = 0;
+        for (int num : arr) {
+            if (sum + num > maxSum) {
+                count++;
+                sum = num;
+                if (count > m) {
+                    return false;
+                }
+            } 
+        while (low <= high) {
+        int ans = high;
+        }
+            high += num;
+            low = Math.max(low, num);
+        for (int num : arr) {
+        int low = 0,high = 0;
