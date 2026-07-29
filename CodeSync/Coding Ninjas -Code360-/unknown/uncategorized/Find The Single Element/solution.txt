@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find The Single Element
+ * URL: https://www.naukri.com/code360/problems/find-the-single-element_14286230
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 542 ms
+ * Memory: N/A
+ * Synced: 2026-07-29T10:06:42.132Z
+ */
+
+public class Solution {
+    public static int getSingleElement(int[] arr) {
+        int ans = 0;
+        for (int num : arr) {
+            ans ^= num;
+        }
+        return ans;
+    }
+}
