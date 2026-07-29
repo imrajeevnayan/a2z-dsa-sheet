@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Split Array
+ * URL: https://www.naukri.com/code360/problems/split-array_2663297
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T10:04:58.584Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static int splitArray(int[] arr, int m) {
+        int low = 0,high = 0;
+        for (int num : arr) {
+            low = Math.max(low, num);
+            high += num;
+        }
+        int ans = high;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (canSplit(arr, m, mid)) {
+                ans = mid;
+                high = mid - 1;
+            } 
+            else {
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+    private static boolean canSplit(int[] arr, int m, int maxSum) {
+        int count = 1;
+        int sum = 0;
+        for (int num : arr) {
+            if (sum + num > maxSum) {
+                count++;
+                sum = num;
+                if (count > m) {
