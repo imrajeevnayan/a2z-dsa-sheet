@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-29T08:48:34.387Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-29T08:49:44.097Z",
+  "runtime": "0 ms",
+  "memoryUsage": "55.69 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Equal Row and Column Pairs",
-  "problemUrl": "https://leetcode.com/problems/equal-row-and-column-pairs/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "frv7n0"
+  "problemUrl": "https://leetcode.com/problems/equal-row-and-column-pairs/submissions/2085851963/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "7k606d"
 }
