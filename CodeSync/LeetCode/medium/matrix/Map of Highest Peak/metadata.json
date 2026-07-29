@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-29T08:45:31.880Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Map of Highest Peak",
+  "problemUrl": "https://leetcode.com/problems/map-of-highest-peak/description/",
+  "submissionId": "jacnef"
+}
