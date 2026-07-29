@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-28T12:46:42.239Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-29T08:32:26.184Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -8,8 +8,8 @@
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "LeetCode 75",
+  "language": "Problem List",
   "problemTitle": "Find Peak Element",
-  "problemUrl": "https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "d1v3w6"
+  "problemUrl": "https://leetcode.com/problems/find-peak-element/description/",
+  "submissionId": "zb95uf"
 }
