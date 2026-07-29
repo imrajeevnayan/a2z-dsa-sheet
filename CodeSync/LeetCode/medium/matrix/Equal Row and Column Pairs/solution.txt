@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Equal Row and Column Pairs
+ * URL: https://leetcode.com/problems/equal-row-and-column-pairs/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Matrix, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T08:47:47.465Z
+ */
+
+class Solution {
+    public int equalPairs(int[][] grid) {
+        
+    }
+}
