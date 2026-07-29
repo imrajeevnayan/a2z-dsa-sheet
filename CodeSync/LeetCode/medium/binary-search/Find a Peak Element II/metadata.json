@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-29T08:43:49.686Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find a Peak Element II",
+  "problemUrl": "https://leetcode.com/problems/find-a-peak-element-ii/description/",
+  "submissionId": "e8ke2c"
+}
