@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Smallest Palindromic Rearrangement II
+ * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question&envId=2026-07-29
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Hash Table, Math, String, Combinatorics, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T07:24:26.871Z
+ */
+
+class Solution {
+    public String smallestPalindrome(String s, int k) {
+        
+    }
+}
