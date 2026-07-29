@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-29T10:20:10.002Z",
+  "submissionTimestamp": "2026-07-29T11:13:56.231Z",
   "runtime": "1 ms",
   "memoryUsage": "42.08 MB",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "First Bad Version",
-  "problemUrl": "https://leetcode.com/problems/first-bad-version/submissions/2085965795/?utm=codolio",
+  "problemUrl": "https://leetcode.com/problems/first-bad-version/?utm=codolio",
   "submissionId": "oqhw0"
 }
