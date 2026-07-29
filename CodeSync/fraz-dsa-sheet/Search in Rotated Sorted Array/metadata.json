@@ -1,21 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-29T09:03:22.494Z",
+  "submissionTimestamp": "2026-07-29T12:02:47.858Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Expected Complexities",
-    "Company Tags",
-    "Paytm",
-    "Flipkart",
-    "Amazon",
-    "Microsoft",
-    "Snapdeal",
-    "D-E-Shaw"
+    "Array",
+    "Binary Search"
   ],
-  "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "platform": "LeetCode",
+  "language": "Binary Search",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1",
-  "submissionId": "cgunul"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "coa4cq"
 }
