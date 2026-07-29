@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-19T05:32:18.879Z",
-  "runtime": "6357 ms",
+  "submissionTimestamp": "2026-07-29T10:05:44.759Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Greedy",
+    "Binary Search",
+    "Arrays",
+    "Dynamic Programming",
+    "Topics (Covered in this problem)",
+    "Topics",
+    "(Covered in this problem)",
+    "Arrays 92 Specialist"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/maximum-sum-of-non-adjacent-elements_843261",
-  "submissionId": "4iocjp"
+  "problemUrl": "https://www.naukri.com/code360/problems/split-array_2663297",
+  "submissionId": "c9j555"
 }
