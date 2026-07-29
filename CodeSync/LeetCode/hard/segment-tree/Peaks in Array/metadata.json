@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-29T08:44:37.906Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Indexed Tree",
+    "Segment Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Peaks in Array",
+  "problemUrl": "https://leetcode.com/problems/peaks-in-array/description/",
+  "submissionId": "77uqzc"
+}
