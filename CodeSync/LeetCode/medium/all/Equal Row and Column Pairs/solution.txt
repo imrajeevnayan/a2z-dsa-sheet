@@ -7,11 +7,23 @@
  * Topics: Array, Hash Table, Matrix, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T08:47:47.465Z
+ * Synced: 2026-07-29T08:48:34.387Z
  */
 
-class Solution {
-    public int equalPairs(int[][] grid) {
-        
-    }
 }
+
+        int ans = 0;
+            String row = sb.toString();
+            map.put(row, map.getOrDefault(row, 0) + 1);
+            for (int j = 0; j < n; j++)sb.append(grid[i][j]).append(",");
+            
+            StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+        Map<String, Integer> map = new HashMap<>();
+        int n = grid.length;
+    public int equalPairs(int[][] grid) {
+class Solution {
+
+        // Compare each column
+        for (int j = 0; j < n; j++) {
+            StringBuilder sb = new StringBuilder();
