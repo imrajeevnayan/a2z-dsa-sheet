@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 55.69 MB
 - Problem URL: https://leetcode.com/problems/equal-row-and-column-pairs/submissions/2085851963/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-29T08:49:44.097Z
+- Synced: 2026-07-29T08:50:38.605Z
 
 ## Problem Description
 
