@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-28T16:35:08.153Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-29T09:56:44.545Z",
+  "runtime": "2695 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/binary-numbers_975493",
-  "submissionId": "pmrlbx"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-all-anagrams_975387",
+  "submissionId": "ul4yzw"
 }
