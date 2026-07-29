@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (SE 1.8)
-- Difficulty: Unknown
+- Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 542 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/find-the-single-element_14286230
-- Synced: 2026-07-29T10:06:42.132Z
+- Synced: 2026-07-29T11:32:55.403Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Problem statement Send feedback
 
 ## Explanation
 
