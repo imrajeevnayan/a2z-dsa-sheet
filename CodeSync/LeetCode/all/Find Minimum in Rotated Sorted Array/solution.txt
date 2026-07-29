@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-29T09:07:49.844Z
+ * Synced: 2026-07-29T09:08:42.085Z
  */
 
 class Solution {
