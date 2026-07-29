@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Hash Table, Matrix, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/equal-row-and-column-pairs/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-29T08:48:34.387Z
+- Runtime: 0 ms
+- Memory: 55.69 MB
+- Problem URL: https://leetcode.com/problems/equal-row-and-column-pairs/submissions/2085851963/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-29T08:49:44.097Z
 
 ## Problem Description
 
