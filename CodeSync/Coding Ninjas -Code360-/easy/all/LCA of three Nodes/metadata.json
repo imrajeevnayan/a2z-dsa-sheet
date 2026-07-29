@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-29T09:56:44.545Z",
-  "runtime": "2695 ms",
+  "submissionTimestamp": "2026-07-29T10:07:34.023Z",
+  "runtime": "542 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-all-anagrams_975387",
-  "submissionId": "ul4yzw"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-the-single-element_14286230",
+  "submissionId": "4q21k9"
 }
