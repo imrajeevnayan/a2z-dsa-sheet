@@ -3,19 +3,28 @@
  * Problem: Find The Single Element
  * URL: https://www.naukri.com/code360/problems/find-the-single-element_14286230
  * Language: Java (SE 1.8)
- * Difficulty: Unknown
+ * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 542 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T10:06:42.132Z
+ * Synced: 2026-07-29T11:32:55.403Z
  */
 
 public class Solution {
     public static int getSingleElement(int[] arr) {
-        int ans = 0;
-        for (int num : arr) {
-            ans ^= num;
+        int left = 0,right = arr.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (mid % 2 == 0) {
+                if (arr[mid] == arr[mid + 1]) left = mid + 2;
+                 else right = mid;
+            } 
+            else {
+ 
+                if (arr[mid] == arr[mid - 1]) left = mid + 1;
+                else  right = mid - 1;
+            }
         }
-        return ans;
+        return arr[left];
     }
 }
