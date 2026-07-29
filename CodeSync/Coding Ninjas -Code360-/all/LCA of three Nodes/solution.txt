@@ -1,28 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/binary-numbers_975493
+ * URL: https://www.naukri.com/code360/problems/find-all-anagrams_975387
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 2695 ms
  * Memory: N/A
- * Synced: 2026-07-28T16:35:08.153Z
+ * Synced: 2026-07-29T09:56:44.545Z
  */
 
-import java.util.*;
- 
+import java.util.ArrayList;
 public class Solution {
- 
-    public static int countSetBits(int n) {
- 
-        int count = 0;
- 
-        while (n > 0) {
-            n = n & (n - 1);
-            count++;
+    public static ArrayList<Integer> findAnagramsIndices(String str, int n, String ptr, int m) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        int[] count = new int[256];
+        for (char ch : ptr.toCharArray())count[ch]++;
+        int[] window = new int[256];
+        int left = 0;
+        for (int right = 0; right < n; right++) {
+            window[str.charAt(right)]++;
+            if (right - left + 1 > m) {
+                window[str.charAt(left)]--;
+                left++;
+            }
+            if (right - left + 1 == m && same(count, window)) {
+                ans.add(left);
+            }
         }
- 
-        return count;
+        return ans;
     }
-}
+ 
+    private static boolean same(int[] a, int[] b) {
+        for (int i = 0; i < 256; i++) {
+            if (a[i] != b[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
