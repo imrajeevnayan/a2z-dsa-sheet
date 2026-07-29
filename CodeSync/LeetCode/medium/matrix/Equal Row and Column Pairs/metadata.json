@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-29T08:47:47.465Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Equal Row and Column Pairs",
+  "problemUrl": "https://leetcode.com/problems/equal-row-and-column-pairs/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "r3mvpm"
+}
