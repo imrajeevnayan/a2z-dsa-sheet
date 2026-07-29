@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-29T08:51:36.538Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Edit Distance",
+  "problemUrl": "https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "f92m5r"
+}
