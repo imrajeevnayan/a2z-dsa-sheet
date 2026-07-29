@@ -1,18 +1,18 @@
 # Search in Rotated Sorted Array
 
-- Platform: GeeksforGeeks
-- Language: Java (21)
-- Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, Snapdeal, D-E-Shaw
+- Platform: LeetCode
+- Language: Binary Search
+- Difficulty: Medium
+- Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
-- Synced: 2026-07-29T09:03:22.494Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-29T12:02:47.858Z
 
 ## Problem Description
 
-Given an array arr[] of distinct elements, which was initially sorted in ascending order but then rotated at some unknown pivot, the task is to find the index of a target key. If the key is not present in the array, return -1. Examples : Input: arr[] = [5, 6, 7, 8, 9, 10, 1, 2, 3], key = 3 Output: 8 Explanation: 3 is found at index 8. Input: arr[] = [3, 5, 1, 2], key = 6 Output: -1 Explanation: There is no element that has value 6. Input: arr[] = [33, 42, 72, 99], key = 42 Output: 1 Explanation: 42 is found at index 1. Constraints: 1 ≤ arr.size() ≤ 106 0 ≤ arr[i] ≤ 106 0 ≤ key ≤ 106
+There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, Snapdeal, D-E-Shaw. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
