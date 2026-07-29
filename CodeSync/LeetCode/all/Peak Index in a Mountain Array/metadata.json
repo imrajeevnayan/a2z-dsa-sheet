@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-28T07:54:00.280Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-29T08:43:27.208Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Peak Index in a Mountain Array",
-  "problemUrl": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
-  "submissionId": "y12nqo"
+  "problemUrl": "https://leetcode.com/problems/peak-index-in-a-mountain-array/description/",
+  "submissionId": "hv0ngj"
 }
