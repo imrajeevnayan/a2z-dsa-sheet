@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Fruits Into Baskets II
+ * URL: https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Easy
+ * Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T12:05:13.857Z
+ */
+
+class Solution {
+    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
+        
+    }
+}
