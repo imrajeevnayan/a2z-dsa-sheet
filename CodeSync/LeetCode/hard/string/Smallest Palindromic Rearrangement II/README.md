@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Hard
 - Topics: Hash Table, Math, String, Combinatorics, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question&envId=2026-07-29
-- Synced: 2026-07-29T07:25:13.942Z
+- Problem URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/submissions/2085769491/?envType=daily-question&envId=2026-07-29
+- Synced: 2026-07-29T07:25:59.934Z
 
 ## Problem Description
 
