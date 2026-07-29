@@ -1935,5 +1935,6 @@
     "custom:fraz-dsa-sheet"
   ],
   "leetcode:peaks-in-array": [],
-  "leetcode:map-of-highest-peak": []
+  "leetcode:map-of-highest-peak": [],
+  "leetcode:equal-row-and-column-pairs": []
 }
