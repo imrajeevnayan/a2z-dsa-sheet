@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-peak-element/description/
-- Synced: 2026-07-29T08:33:15.093Z
+- Problem URL: https://leetcode.com/problems/find-peak-element/
+- Synced: 2026-07-29T08:34:00.111Z
 
 ## Problem Description
 
