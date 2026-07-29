@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/equal-row-and-column-pairs/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-29T08:47:47.465Z
+- Synced: 2026-07-29T08:48:34.387Z
 
 ## Problem Description
 
