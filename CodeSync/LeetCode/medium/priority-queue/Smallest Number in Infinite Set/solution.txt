@@ -1,29 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Smallest Number in Infinite Set
- * URL: https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/smallest-number-in-infinite-set/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Hash Table, Design, Heap (Priority Queue), Ordered Set
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-29T08:49:23.342Z
+ * Synced: 2026-07-29T08:50:09.303Z
  */
 
-class SmallestInfiniteSet {
-
-    public SmallestInfiniteSet() {
-        
+return curr++;
     }
-    
+        }
+            return set.pollFirst();
+        if (!set.isEmpty()) {
     public int popSmallest() {
-        
     }
-    
+        set = new TreeSet<>();
     public void addBack(int num) {
-        
+        if (num < curr) {
+            set.add(num);
+        }
     }
 }
-
-/**
- * Your SmallestInfiniteSet object will be instantiated and called as such:
