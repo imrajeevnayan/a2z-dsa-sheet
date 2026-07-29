@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-29T10:15:42.549Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-29T10:17:20.010Z",
+  "runtime": "1 ms",
+  "memoryUsage": "42.08 MB",
   "difficulty": "Easy",
   "tags": [
     "Binary Search",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "First Bad Version",
-  "problemUrl": "https://leetcode.com/problems/first-bad-version/description/?utm=codolio",
-  "submissionId": "cq8c78"
+  "problemUrl": "https://leetcode.com/problems/first-bad-version/submissions/2085965795/?utm=codolio",
+  "submissionId": "oqhw0"
 }
