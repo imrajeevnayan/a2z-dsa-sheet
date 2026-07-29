@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 2695 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/binary-numbers_975493
-- Synced: 2026-07-28T16:35:08.153Z
+- Problem URL: https://www.naukri.com/code360/problems/find-all-anagrams_975387
+- Synced: 2026-07-29T09:56:44.545Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVE Get key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
