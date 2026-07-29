@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-peak-element/
-- Synced: 2026-07-29T08:34:00.111Z
+- Synced: 2026-07-29T08:34:48.102Z
 
 ## Problem Description
 
