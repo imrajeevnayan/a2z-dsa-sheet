@@ -1,26 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Find Minimum in Rotated Sorted Array
- * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?utm_source=chatgpt.com
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T14:39:18.913Z
+ * Synced: 2026-07-29T09:06:15.106Z
  */
 
-class Solution {
-    public int findMin(int[] nums) {
-        int start=0,end=nums.length-1,ans=nums[0];
-        while(start<=end){
-            int mid=start+(end-start)/2;
-            if(nums[mid]>= nums[0])start=mid+1;
-            else{
-                ans=nums[mid];
-                end=mid-1;
-            }
-        }
-        return ans;
-    }
-}
+Input: nums = [3,4,5,1,2]
+Output: 1
+Explanation: The original array was [1,2,3,4,5] rotated 3 times.
