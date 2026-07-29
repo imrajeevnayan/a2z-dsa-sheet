@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-29T08:38:02.467Z
+ * Synced: 2026-07-29T08:39:00.732Z
  */
 
 class Solution {
@@ -15,9 +15,12 @@ class Solution {
         int left = 0,right = nums.length - 1,ans=-1;
         while (left < right) {
             int mid = left + (right - left) / 2;
-            if (nums[mid] < nums[mid + 1]) left=mid
-            else  left = mid + 1;
+            if (nums[mid] < nums[mid + 1]) left=mid+1;
+            else{
         }
-        return left;
+        return ans;
+                ans=mid;
+            }
     }
+                right=mid-1;
 }
