@@ -1,18 +1,17 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
- * Language: Java (21)
- * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, Snapdeal, D-E-Shaw
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T09:03:22.494Z
+ * Synced: 2026-07-29T12:02:47.858Z
  */
 
 class Solution {
-    int search(int[] arr, int key) {
-        // code here
+    public int search(int[] nums, int target) {
         
     }
 }
