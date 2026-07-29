@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-peak-element/
-- Synced: 2026-07-29T08:38:02.467Z
+- Synced: 2026-07-29T08:39:00.732Z
 
 ## Problem Description
 
