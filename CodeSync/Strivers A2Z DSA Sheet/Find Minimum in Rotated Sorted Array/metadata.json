@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-29T10:09:19.001Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-07-29T16:05:52.175Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Minimum in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?utm_source=chatgpt.com",
+  "problemUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?utm_source=chatgpt.com",
   "submissionId": "m0yjfl"
 }
