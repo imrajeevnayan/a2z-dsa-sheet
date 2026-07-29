@@ -1948,5 +1948,11 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:counting-bits": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
   ]
 }
