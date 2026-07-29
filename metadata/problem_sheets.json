@@ -1937,5 +1937,16 @@
   "leetcode:peaks-in-array": [],
   "leetcode:map-of-highest-peak": [],
   "leetcode:equal-row-and-column-pairs": [],
-  "leetcode:smallest-number-in-infinite-set": []
+  "leetcode:smallest-number-in-infinite-set": [],
+  "leetcode:edit-distance": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
