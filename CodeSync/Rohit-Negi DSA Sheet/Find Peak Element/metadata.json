@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-29T08:33:15.093Z",
+  "submissionTimestamp": "2026-07-29T08:34:00.111Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Peak Element",
-  "problemUrl": "https://leetcode.com/problems/find-peak-element/description/",
-  "submissionId": "zb95uf"
+  "problemUrl": "https://leetcode.com/problems/find-peak-element/",
+  "submissionId": "a7hewi"
 }
