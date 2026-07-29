@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Text
 - Difficulty: Easy
-- Topics: Two Pointers, String
+- Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T10:33:17.832Z
+- Problem URL: https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-29T12:04:20.417Z
 
 ## Problem Description
 
-You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string. Example 1: Input: word1 = "abc", word2 = "pqr" Output: "apbqcr" Explanation: The merged string will be merged as so: word1: a b c word2: p q r merged: a p b q c r Example 2: Input: word1 = "ab", word2 = "pqrs" Output: "apbqrs" Explanation: Notice that as word2 is longer, "rs" is appended to the end. word1: a b word2: p q r s merged: a p b q r s Example 3: Input: word1 = "abcd", word2 = "pq" Output: "apbqcd" Explanation: Notice that as word1 is longer, "cd" is appended to the end. word1: a b c d word2: p q merged: a p b q c d Constraints: 1 <= word1.length, word2.length <= 100 word1 and word2 consist of lowercase English letters.
+You are given two arrays of integers, fruits and baskets, each of length n, where fruits[i] represents the quantity of the ith type of fruit, and baskets[j] represents the capacity of the jth basket. From left to right, place the fruits according to these rules: Each fruit type must be placed in the leftmost available basket with a capacity greater than or equal to the quantity of that fruit type. Each basket can hold only one type of fruit. If a fruit type cannot be placed in any basket, it remains unplaced. Return the number of fruit types that remain unplaced after all possible allocations are made. Example 1: Input: fruits = [4,2,5], baskets = [3,5,4] Output: 1 Explanation: fruits[0] = 4 is placed in baskets[1] = 5. fruits[1] = 2 is placed in baskets[0] = 3. fruits[2] = 5 cannot be placed in baskets[2] = 4. Since one fruit type remains unplaced, we return 1. Example 2: Input: fruits = [3,6,1], baskets = [6,4,7] Output: 0 Explanation: fruits[0] = 3 is placed in baskets[0] = 6. fruits[1] = 6 cannot be placed in baskets[1] = 4 (insufficient capacity) but can be placed in the next available basket, baskets[2] = 7. fruits[2] = 1 is placed in baskets[1] = 4. Since all fruits are successfully placed, we return 0. Constraints: n == fruits.length == baskets.length 1 <= n <= 100 1 <= fruits[i], baskets[i] <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Binary Search, Segment Tree, Simulation, Ordered Set. Review the synced source file for the implementation details.
