@@ -1,13 +1,13 @@
 # Find Peak Element
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-28T12:46:42.239Z
+- Problem URL: https://leetcode.com/problems/find-peak-element/description/
+- Synced: 2026-07-29T08:32:26.184Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A peak element is an element that is strictly greater than its neighbors. Given 
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
