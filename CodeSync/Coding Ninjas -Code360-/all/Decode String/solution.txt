@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Decode String
+ * URL: https://www.naukri.com/code360/problems/decode-string_696319
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T09:53:59.992Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static String decodeString(String s) {
+ 
+        Stack<Integer> nums = new Stack<>();
+        Stack<StringBuilder> strs = new Stack<>();
+ 
+        StringBuilder curr = new StringBuilder();
+        int num = 0;
+ 
+        for (char ch : s.toCharArray()) {
+ 
+            if (Character.isDigit(ch)) {
+                num = num * 10 + (ch - '0');
+            } 
+            else if (ch == '[') {
+                nums.push(num);
+                strs.push(curr);
+                curr = new StringBuilder();
+                num = 0;
+            } 
+            else if (ch == ']') {
+                int k = nums.pop();
+                StringBuilder temp = strs.pop();
+ 
+                while (k-- > 0) {
+                    temp.append(curr);
+                }
