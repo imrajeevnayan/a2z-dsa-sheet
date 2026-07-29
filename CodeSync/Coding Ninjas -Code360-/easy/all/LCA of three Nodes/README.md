@@ -7,7 +7,7 @@
 - Runtime: 542 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/find-the-single-element_14286230
-- Synced: 2026-07-29T10:07:34.023Z
+- Synced: 2026-07-29T10:08:19.395Z
 
 ## Problem Description
 
