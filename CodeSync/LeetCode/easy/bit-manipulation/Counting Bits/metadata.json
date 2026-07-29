@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-07-29T08:52:00.598Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Dynamic Programming",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Counting Bits",
+  "problemUrl": "https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "cqdhw2"
+}
