@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-29T12:04:20.417Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Segment Tree",
+    "Simulation",
+    "Ordered Set"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "-",
+  "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "o383go"
+}
