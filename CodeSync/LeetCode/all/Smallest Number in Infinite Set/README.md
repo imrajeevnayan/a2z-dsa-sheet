@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Hash Table, Design, Heap (Priority Queue), Ordered Set
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-29T08:49:23.342Z
+- Problem URL: https://leetcode.com/problems/smallest-number-in-infinite-set/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-07-29T08:50:09.303Z
 
 ## Problem Description
 
