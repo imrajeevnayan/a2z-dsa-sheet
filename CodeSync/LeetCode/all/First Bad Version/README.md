@@ -1,13 +1,13 @@
 # First Bad Version
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: 2 ms
-- Memory: 41.99 MB
-- Problem URL: https://leetcode.com/problems/first-bad-version/submissions/2021644102/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:05:01.227Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/first-bad-version/description/?utm=codolio
+- Synced: 2026-07-29T10:15:42.549Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are a product manager and currently leading a team to develop a new product.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Binary Search, Interactive. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Binary Search, Interactive. Review the synced source file for the implementation details.
