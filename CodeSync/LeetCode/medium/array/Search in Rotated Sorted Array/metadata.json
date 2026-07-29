@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T12:44:06.313Z",
+  "submissionTimestamp": "2026-07-29T12:02:47.858Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -8,8 +8,8 @@
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Binary Search",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "53surw"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "coa4cq"
 }
