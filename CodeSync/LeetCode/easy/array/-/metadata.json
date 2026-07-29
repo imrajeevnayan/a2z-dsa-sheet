@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-07-24T12:08:12.772Z",
+  "submissionTimestamp": "2026-07-29T12:04:20.417Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Two Pointers",
     "Binary Search",
-    "Sorting"
+    "Segment Tree",
+    "Simulation",
+    "Ordered Set"
   ],
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "q6yqko"
+  "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "o383go"
 }
