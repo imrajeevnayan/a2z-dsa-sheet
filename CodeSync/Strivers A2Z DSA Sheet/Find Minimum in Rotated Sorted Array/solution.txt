@@ -7,9 +7,20 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T09:06:15.106Z
+ * Synced: 2026-07-29T09:07:03.569Z
  */
 
-Input: nums = [3,4,5,1,2]
-Output: 1
-Explanation: The original array was [1,2,3,4,5] rotated 3 times.
+class Solution {
+    public int findMin(int[] nums) {
+        int start=0,end=nums.length-1,ans=nums[0];
+        while(start<=end){
+            int mid=start+(end-start)/2;
+            if(nums[mid]>= nums[0])start=mid+1;
+            else{
+                ans=nums[mid];
+                end=mid-1;
+            }
+        }
+        return ans;
+    }
+}
