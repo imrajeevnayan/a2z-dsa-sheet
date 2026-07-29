@@ -1934,5 +1934,6 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:peaks-in-array": []
+  "leetcode:peaks-in-array": [],
+  "leetcode:map-of-highest-peak": []
 }
