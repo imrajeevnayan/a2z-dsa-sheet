@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-29T10:08:19.395Z",
-  "runtime": "542 ms",
+  "submissionTimestamp": "2026-07-29T10:13:57.258Z",
+  "runtime": "680 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/find-the-single-element_14286230",
-  "submissionId": "ecsv5x"
+  "submissionId": "f8ax3r"
 }
