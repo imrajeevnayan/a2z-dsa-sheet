@@ -7,15 +7,27 @@
  * Topics: Uncategorized
  * Runtime: 542 ms
  * Memory: N/A
- * Synced: 2026-07-29T10:07:34.023Z
+ * Synced: 2026-07-29T10:08:19.395Z
  */
 
 public class Solution {
     public static int getSingleElement(int[] arr) {
-        int ans = 0;
-        for (int num : arr) {
-            ans ^= num;
+        int left = 0,right = arr.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (mid % 2 == 0) {
+                if (arr[mid] == arr[mid + 1]) left = mid + 2;
+                 else right = mid;
+            } 
+ 
+                if (arr[mid] == arr[mid - 1]) left = mid + 1;
+                else {
+                    right = mid - 1;
+                }
+            }
         }
-        return ans;
+ 
+        return arr[left];
     }
+            else {
 }
