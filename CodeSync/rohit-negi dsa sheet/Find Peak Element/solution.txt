@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Peak Element
- * URL: https://leetcode.com/problems/find-peak-element/
+ * URL: https://leetcode.com/problems/find-peak-element/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-29T08:41:20.104Z
+ * Synced: 2026-07-29T08:42:05.377Z
  */
 
 class Solution {
