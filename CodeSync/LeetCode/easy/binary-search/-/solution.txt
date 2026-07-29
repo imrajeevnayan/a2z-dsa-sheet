@@ -1,19 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search
  * Language: Text
  * Difficulty: Easy
- * Topics: Array, Two Pointers, Binary Search, Sorting
+ * Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:08:12.772Z
+ * Synced: 2026-07-29T12:04:20.417Z
  */
 
-Input: nums = [-1,1,2,3,1], target = 2
-Output: 3
-Explanation: There are 3 pairs of indices that satisfy the conditions in the statement:
-- (0, 1) since 0 < 1 and nums[0] + nums[1] = 0 < target
-- (0, 2) since 0 < 2 and nums[0] + nums[2] = 1 < target 
-- (0, 4) since 0 < 4 and nums[0] + nums[4] = 0 < target
-Note that (0, 3) is not counted since nums[0] + nums[3] is not strictly less than the target.
+fruits
