@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Binary Search
+- Language: Text
+- Difficulty: Easy
+- Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-- Synced: 2026-07-28T09:43:43.353Z
+- Problem URL: https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search
+- Synced: 2026-07-29T12:04:20.417Z
 
 ## Problem Description
 
-There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
+You are given two arrays of integers, fruits and baskets, each of length n, where fruits[i] represents the quantity of the ith type of fruit, and baskets[j] represents the capacity of the jth basket. From left to right, place the fruits according to these rules: Each fruit type must be placed in the leftmost available basket with a capacity greater than or equal to the quantity of that fruit type. Each basket can hold only one type of fruit. If a fruit type cannot be placed in any basket, it remains unplaced. Return the number of fruit types that remain unplaced after all possible allocations are made. Example 1: Input: fruits = [4,2,5], baskets = [3,5,4] Output: 1 Explanation: fruits[0] = 4 is placed in baskets[1] = 5. fruits[1] = 2 is placed in baskets[0] = 3. fruits[2] = 5 cannot be placed in baskets[2] = 4. Since one fruit type remains unplaced, we return 1. Example 2: Input: fruits = [3,6,1], baskets = [6,4,7] Output: 0 Explanation: fruits[0] = 3 is placed in baskets[0] = 6. fruits[1] = 6 cannot be placed in baskets[1] = 4 (insufficient capacity) but can be placed in the next available basket, baskets[2] = 7. fruits[2] = 1 is placed in baskets[1] = 4. Since all fruits are successfully placed, we return 0. Constraints: n == fruits.length == baskets.length 1 <= n <= 100 1 <= fruits[i], baskets[i] <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Binary Search, Segment Tree, Simulation, Ordered Set. Review the synced source file for the implementation details.
