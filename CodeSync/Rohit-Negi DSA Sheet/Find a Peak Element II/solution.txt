@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find a Peak Element II
+ * URL: https://leetcode.com/problems/find-a-peak-element-ii/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-29T08:43:49.686Z
+ */
+
+class Solution {
+    public int[] findPeakGrid(int[][] mat) {
+        
+    }
+}
