@@ -1936,5 +1936,6 @@
   ],
   "leetcode:peaks-in-array": [],
   "leetcode:map-of-highest-peak": [],
-  "leetcode:equal-row-and-column-pairs": []
+  "leetcode:equal-row-and-column-pairs": [],
+  "leetcode:smallest-number-in-infinite-set": []
 }
