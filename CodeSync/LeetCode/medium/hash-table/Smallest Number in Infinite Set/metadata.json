@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-29T08:49:23.342Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-29T08:50:09.303Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Smallest Number in Infinite Set",
-  "problemUrl": "https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "vfbas1"
+  "problemUrl": "https://leetcode.com/problems/smallest-number-in-infinite-set/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "9ujgie"
 }
