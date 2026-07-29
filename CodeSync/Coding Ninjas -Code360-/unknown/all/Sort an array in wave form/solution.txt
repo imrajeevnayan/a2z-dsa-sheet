@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sort an array in wave form
+ * URL: https://www.naukri.com/code360/problems/sort-an-array-in-wave-form_975285
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 3650 ms
+ * Memory: N/A
+ * Synced: 2026-07-29T10:01:48.887Z
+ */
+
+import java.util.Arrays;
+public class Solution {
+   public static int[] waveFormArray(int[] arr, int n) {
+        Arrays.sort(arr);
+        for (int i = 0; i < n - 1; i += 2) {
+            int temp = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = temp;
+        }
+        return arr;
+    }
+}
