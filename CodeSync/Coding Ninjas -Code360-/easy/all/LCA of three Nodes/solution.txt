@@ -2,12 +2,12 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/occurrence-of-x-in-a-sorted-array_630456
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 7035 ms
+ * Runtime: 5524 ms
  * Memory: N/A
- * Synced: 2026-07-29T11:36:13.222Z
+ * Synced: 2026-07-29T11:55:29.725Z
  */
 
 public class Solution {
@@ -18,12 +18,25 @@ public class Solution {
         return last - first + 1;
     }
     private static int firstOccurrence(int arr[], int n, int x) {
-        int low = 0,high = n - 1,ans = -1;
+        int low = 0,high = n - 1, ans = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (arr[mid] == x) {
                 ans = mid;
                 high = mid - 1;   // search left side
+            } 
+            else if (arr[mid] < x)  low = mid + 1;
+            else high = mid - 1;
+        }
+        return ans;
+    }
+    private static int lastOccurrence(int arr[], int n, int x) {
+        int low = 0, high = n - 1, ans = -1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] == x) {
+                ans = mid;
+                low = mid + 1;    // search right side
             } 
             else if (arr[mid] < x) {
                 low = mid + 1;
@@ -32,10 +45,6 @@ public class Solution {
                 high = mid - 1;
             }
         }
- 
         return ans;
     }
- 
-    private static int lastOccurrence(int arr[], int n, int x) {
- 
-        int low = 0;
+}
