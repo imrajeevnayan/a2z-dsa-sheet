@@ -7,7 +7,7 @@
  * Topics: Binary Search, Interactive
  * Runtime: 1 ms
  * Memory: 42.08 MB
- * Synced: 2026-07-29T10:17:20.010Z
+ * Synced: 2026-07-29T10:18:11.016Z
  */
 
 public class Solution extends VersionControl {
