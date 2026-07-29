@@ -1,17 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Smallest Palindromic Rearrangement II
- * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question&envId=2026-07-29
+ * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/submissions/2085769491/?envType=daily-question&envId=2026-07-29
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Hash Table, Math, String, Combinatorics, Counting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-29T07:25:13.942Z
+ * Synced: 2026-07-29T07:25:59.934Z
  */
 
-class Solution {
-    public String smallestPalindrome(String s, int k) {
-        
+for (int i = 1; i <= k; i++) {
+            res = res * (n - k + i) / i;
+            if (res >= MAX) return MAX;
+        }
+        return res;
+    }
+
+    private long mul(long a, long b) {
+        if (a >= MAX || b >= MAX) return MAX;
+        long prod = a * b;
+        return prod >= MAX ? MAX : prod;
     }
 }
