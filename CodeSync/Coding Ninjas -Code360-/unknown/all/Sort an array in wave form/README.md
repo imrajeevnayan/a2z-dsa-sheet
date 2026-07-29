@@ -7,7 +7,7 @@
 - Runtime: 3650 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/sort-an-array-in-wave-form_975285
-- Synced: 2026-07-29T10:01:48.887Z
+- Synced: 2026-07-29T10:02:35.185Z
 
 ## Problem Description
 
