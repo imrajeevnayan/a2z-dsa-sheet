@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-30T11:31:12.671Z",
-  "runtime": "4896 ms",
+  "submissionTimestamp": "2026-07-30T11:38:18.930Z",
+  "runtime": "2654 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-duplicates-in-array_1071935",
-  "submissionId": "k17jxc"
+  "problemUrl": "https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404",
+  "submissionId": "jvp53v"
 }
