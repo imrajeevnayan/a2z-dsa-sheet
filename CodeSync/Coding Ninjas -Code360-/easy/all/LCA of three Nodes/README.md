@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 4896 ms
+- Runtime: 2654 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/find-duplicates-in-array_1071935
-- Synced: 2026-07-30T11:31:12.671Z
+- Problem URL: https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404
+- Synced: 2026-07-30T11:38:18.930Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
