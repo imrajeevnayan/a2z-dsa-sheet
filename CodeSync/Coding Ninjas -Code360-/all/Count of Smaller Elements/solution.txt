@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count of Smaller Elements
+ * URL: https://www.naukri.com/code360/problems/count-of-smaller-elements_1377973
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:27:59.090Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    static class Pair {
+        int value;
+        int index;
+ 
+        Pair(int value, int index) {
+            this.value = value;
+            this.index = index;
+        }
+    }
+ 
+    public static int[] countNumber(int n, int[] arr) {
+ 
+        Pair[] nums = new Pair[n];
+ 
+        for (int i = 0; i < n; i++) {
+            nums[i] = new Pair(arr[i], i);
+        }
+ 
+        int[] ans = new int[n];
+ 
+        mergeSort(nums, 0, n - 1, ans);
+ 
+        return ans;
+    }
