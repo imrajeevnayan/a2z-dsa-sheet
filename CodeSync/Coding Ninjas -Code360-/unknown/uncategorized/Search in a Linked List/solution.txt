@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Search in a Linked List
+ * URL: https://www.naukri.com/code360/problems/search-in-a-linked-list_975381
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 11090 ms
+ * Memory: N/A
+ * Synced: 2026-07-30T11:43:43.123Z
+ */
+
+public class Solution
+{
+    public static int searchInLinkedList(Node head, int k)
+    {
+        Node current = head;
+        while (current != null) {
+            if (current.data == k)  return 1;
+            current = current.next;
+        }
+        return 0;
+    }
+}
