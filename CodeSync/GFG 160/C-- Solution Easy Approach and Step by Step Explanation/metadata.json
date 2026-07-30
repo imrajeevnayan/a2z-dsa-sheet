@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-23T11:29:51.144Z",
+  "submissionTimestamp": "2026-07-30T11:01:06.162Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Morgan StanleyMicrosoftAdobe",
+    "Company Tags Microsoft",
     "Company Tags",
-    "Morgan Stanley",
     "Microsoft",
-    "Adobe",
     "Topic Tags",
-    "Binary Search Tree"
+    "Arrays",
+    "Bit Magic",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def canRepresentBST(self, arr): # code here s = [(-sys.maxsize, sys.maxsize)] for i in arr: while s: pop = s.pop() if pop[0] < i < pop[1]: s.append((i, pop[1])) s.append((pop[0], i)) break return s != []",
+  "language": "Java (21)",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1",
-  "submissionId": "jqk6mk"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-subset-xor/1",
+  "submissionId": "8xqwq9"
 }
