@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove duplicates from a sorted Doubly Linked List
+ * URL: https://www.naukri.com/code360/problems/unique-sorted-list_2420283
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 3500 ms
+ * Memory: N/A
+ * Synced: 2026-07-30T11:49:12.117Z
+ */
+
+public class Solution {
+    public static Node uniqueSortedList(Node head) {
+        if (head == null)return null;
+        Node current = head;
+        while (current != null && current.next != null) {
+            if (current.data == current.next.data) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
+        }
+ 
+        return head;
+    }
+}
