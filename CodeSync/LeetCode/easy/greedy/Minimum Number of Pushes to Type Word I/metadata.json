@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-30T10:54:43.316Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-07-30T10:56:15.314Z",
+  "runtime": "1 ms",
+  "memoryUsage": "43.67 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Minimum Number of Pushes to Type Word I",
-  "problemUrl": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/?envType=daily-question&envId=2026-07-30",
-  "submissionId": "au79wb"
+  "problemUrl": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/submissions/2087392217/?envType=daily-question&envId=2026-07-30",
+  "submissionId": "a0ll05"
 }
