@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-07-30T10:54:43.316Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "String",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Minimum Number of Pushes to Type Word I",
+  "problemUrl": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/?envType=daily-question&envId=2026-07-30",
+  "submissionId": "au79wb"
+}
