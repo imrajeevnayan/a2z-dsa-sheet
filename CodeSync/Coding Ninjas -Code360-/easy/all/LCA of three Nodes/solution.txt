@@ -1,50 +1,32 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/occurrence-of-x-in-a-sorted-array_630456
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/find-duplicates-in-array_1071935
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 5524 ms
+ * Runtime: 4896 ms
  * Memory: N/A
- * Synced: 2026-07-29T11:55:29.725Z
+ * Synced: 2026-07-30T11:31:12.671Z
  */
 
+import java.util.*;
+import java.io.*;
+ 
 public class Solution {
-    public static int count(int arr[], int n, int x) {
-        int first = firstOccurrence(arr, n, x);
-        if (first == -1)return 0;
-        int last = lastOccurrence(arr, n, x);
-        return last - first + 1;
-    }
-    private static int firstOccurrence(int arr[], int n, int x) {
-        int low = 0,high = n - 1, ans = -1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (arr[mid] == x) {
-                ans = mid;
-                high = mid - 1;   // search left side
-            } 
-            else if (arr[mid] < x)  low = mid + 1;
-            else high = mid - 1;
-        }
-        return ans;
-    }
-    private static int lastOccurrence(int arr[], int n, int x) {
-        int low = 0, high = n - 1, ans = -1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (arr[mid] == x) {
-                ans = mid;
-                low = mid + 1;    // search right side
-            } 
-            else if (arr[mid] < x) {
-                low = mid + 1;
-            } 
-            else {
-                high = mid - 1;
+ 
+    public static ArrayList<Integer> findDuplicates(int[] arr, int n) {
+ 
+        HashSet<Integer> seen = new HashSet<>();
+        HashSet<Integer> duplicate = new HashSet<>();
+ 
+        for (int num : arr) {
+ 
+            if (!seen.add(num)) {
+                duplicate.add(num);
             }
         }
-        return ans;
+ 
+        return new ArrayList<>(duplicate);
     }
 }
