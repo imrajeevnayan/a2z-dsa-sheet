@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (SE 1.8)
-- Difficulty: Easy
+- Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 3500 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/unique-sorted-list_2420283
-- Synced: 2026-06-04T16:17:05.256Z
+- Synced: 2026-07-30T11:49:12.117Z
 
 ## Problem Description
 
-Problem statement Send feedback
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
