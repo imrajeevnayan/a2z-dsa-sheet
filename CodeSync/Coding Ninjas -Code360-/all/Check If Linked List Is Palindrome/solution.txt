@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check If Linked List Is Palindrome
+ * URL: https://www.naukri.com/code360/problems/check-if-linked-list-is-palindrome_985248
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 11295 ms
+ * Memory: N/A
+ * Synced: 2026-07-30T11:52:12.594Z
+ */
+
+import java.util.Stack;
+ 
+public class Solution {
+ 
+    public static boolean isPalindrome(Node head) {
+ 
+        Stack<Integer> stack = new Stack<>();
+ 
+        Node temp = head;
+ 
+        // Push all elements into the stack
+        while (temp != null) {
+            stack.push(temp.data);
+            temp = temp.next;
+        }
+ 
+        temp = head;
+ 
+        // Compare with stack elements
+        while (temp != null) {
+ 
+            if (temp.data != stack.pop()) {
+                return false;
+            }
+ 
+            temp = temp.next;
+        }
+ 
+        return true;
