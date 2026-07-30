@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-30T11:06:26.310Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Java",
+    "Java-Collections"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "return new PriorityQueue<>(arr);",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/priorityqueue-inserion/1",
+  "submissionId": "x8e1mu"
+}
