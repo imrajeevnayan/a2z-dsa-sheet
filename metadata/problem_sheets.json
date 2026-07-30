@@ -1988,5 +1988,10 @@
     "custom:rohit-negi_dsa_sheet"
   ],
   "leetcode:fruits-into-baskets-ii": [],
-  "leetcode:minimum-number-of-pushes-to-type-word-i": []
+  "leetcode:minimum-number-of-pushes-to-type-word-i": [],
+  "geeksforgeeks:maximum-subset-xor": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
