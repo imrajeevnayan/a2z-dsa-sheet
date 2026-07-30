@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-29T11:55:29.725Z",
-  "runtime": "5524 ms",
+  "submissionTimestamp": "2026-07-30T11:31:12.671Z",
+  "runtime": "4896 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/occurrence-of-x-in-a-sorted-array_630456",
-  "submissionId": "v2tva0"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-duplicates-in-array_1071935",
+  "submissionId": "k17jxc"
 }
