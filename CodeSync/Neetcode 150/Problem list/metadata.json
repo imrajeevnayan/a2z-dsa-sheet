@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-27T09:04:02.337Z",
+  "submissionTimestamp": "2026-07-30T11:26:57.871Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Uncategorized"
+    "Binary Search Clear all",
+    "Binary Search"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "All languages",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994",
-  "submissionId": "8vu50x"
+  "problemUrl": "https://www.naukri.com/code360/problems/kth-smallest-element_3621004",
+  "submissionId": "evjldp"
 }
