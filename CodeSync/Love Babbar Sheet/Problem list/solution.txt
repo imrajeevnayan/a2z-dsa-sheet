@@ -1,32 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
+ * URL: https://www.naukri.com/code360/problems/kth-smallest-element_3621004
  * Language: All languages
  * Difficulty: Hard
- * Topics: Uncategorized
+ * Topics: Binary Search Clear all, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:25:49.244Z
+ * Synced: 2026-07-30T11:26:57.871Z
  */
 
+import java.util.*;
+import java.io.*;
+ 
 public class Solution {
-    public static Node rotate(Node head, int k) {
-       if (head == null || head.next == null || k == 0) return head;
-        Node fast = head,slow = head;
-        
-        for (int i = 0; i < k; i++) {
-            fast = fast.next;
-            if (fast == null) fast = head; 
+ 
+    static class Node {
+        int value;
+        int row;
+        int col;
+ 
+        Node(int value, int row, int col) {
+            this.value = value;
+            this.row = row;
+            this.col = col;
         }
-       if (fast == head) return head;
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-        }
-       Node newHead = slow.next;
-        slow.next = null;
-        fast.next = head;       
-        return newHead;
     }
-}
+ 
+    public static int kSmallestInMatrix(int mat[][], int k) {
+ 
+        int n = mat.length;
+ 
+        PriorityQueue<Node> pq = new PriorityQueue<>(
+            (a, b) -> a.value - b.value
+        );
+ 
+        // Insert first element of every row
+        for (int i = 0; i < n; i++) {
+            pq.offer(new Node(mat[i][0], i, 0));
+        }
