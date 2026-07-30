@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Odd and even positioned linked list nodes
+ * URL: https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2654 ms
+ * Memory: N/A
+ * Synced: 2026-07-30T11:37:31.025Z
+ */
+
+public class Solution {
+ 
+  public static Node oddEvenLinkedList(Node head) {
+ 
+        if (head == null || head.next == null) {
+            return head;
+        }
+ 
+        Node odd = head;
+        Node even = head.next;
+        Node evenHead = even;
+ 
+        while (even != null && even.next != null) {
+ 
+            odd.next = even.next;
+            odd = odd.next;
+ 
+            even.next = odd.next;
+            even = even.next;
+        }
+ 
+        odd.next = evenHead;
+ 
+        return head;
+    }
+}
