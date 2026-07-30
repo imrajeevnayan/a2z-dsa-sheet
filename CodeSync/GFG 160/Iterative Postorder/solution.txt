@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Iterative Postorder
+ * URL: https://www.geeksforgeeks.org/problems/postorder-traversal-iterative/1
+ * Language: class Solution: def postOrder(self,node): stack = [node] res = [] while stack: root = stack.pop() res.append(root.data) left = root.left right = root.right if left: stack.append(left) if right: stack.append(right) return res[::-1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Stack, Tree, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:14:40.107Z
+ */
+
+class Tree {
+    ArrayList<Integer> postOrder(Node node) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        postorder(node, ans);
+        return ans;
+    }
+    private void postorder(Node node, ArrayList<Integer> ans) {
+        if (node == null)return;
+        postorder(node.left, ans);   // Left
+        postorder(node.right, ans);  // Right
+        ans.add(node.data);          // Root
+    }
+}
