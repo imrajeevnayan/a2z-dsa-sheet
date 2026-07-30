@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-30T11:17:37.241Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "D-E-Shaw",
+    "FactSet",
+    "Topic Tags",
+    "Trie"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Implement Trie",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1",
+  "submissionId": "2gtn3w"
+}
