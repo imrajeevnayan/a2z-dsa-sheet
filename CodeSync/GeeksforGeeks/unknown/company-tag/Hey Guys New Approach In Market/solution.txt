@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-30T11:13:06.607Z
+ * Synced: 2026-07-30T11:15:10.660Z
  */
 
 class Solution {
