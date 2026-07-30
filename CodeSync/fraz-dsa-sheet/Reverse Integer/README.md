@@ -1,18 +1,18 @@
 # Reverse Integer
 
-- Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Math
+- Platform: Coding Ninjas (Code360)
+- Language: All languages
+- Difficulty: Unknown
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-integer/description/
-- Synced: 2026-07-17T13:26:27.346Z
+- Problem URL: https://www.naukri.com/code360/problems/reverse-integer_1263846
+- Synced: 2026-07-30T11:36:20.475Z
 
 ## Problem Description
 
-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0. Assume the environment does not allow you to store 64-bit integers (signed or unsigned). Example 1: Input: x = 123 Output: 321 Example 2: Input: x = -123 Output: -321 Example 3: Input: x = 120 Output: 21 Constraints: -231 <= x <= 231 - 1
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
