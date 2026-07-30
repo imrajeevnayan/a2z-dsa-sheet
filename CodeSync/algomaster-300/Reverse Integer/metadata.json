@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-17T13:26:27.346Z",
+  "submissionTimestamp": "2026-07-30T11:36:20.475Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Math"
+    "Uncategorized"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "Coding Ninjas (Code360)",
+  "language": "All languages",
   "problemTitle": "Reverse Integer",
-  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
-  "submissionId": "6x6wml"
+  "problemUrl": "https://www.naukri.com/code360/problems/reverse-integer_1263846",
+  "submissionId": "xubwth"
 }
