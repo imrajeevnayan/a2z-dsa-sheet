@@ -1,32 +1,38 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/find-duplicates-in-array_1071935
+ * URL: https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 4896 ms
+ * Runtime: 2654 ms
  * Memory: N/A
- * Synced: 2026-07-30T11:31:12.671Z
+ * Synced: 2026-07-30T11:38:18.930Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
  
-    public static ArrayList<Integer> findDuplicates(int[] arr, int n) {
+  public static Node oddEvenLinkedList(Node head) {
  
-        HashSet<Integer> seen = new HashSet<>();
-        HashSet<Integer> duplicate = new HashSet<>();
- 
-        for (int num : arr) {
- 
-            if (!seen.add(num)) {
-                duplicate.add(num);
-            }
+        if (head == null || head.next == null) {
+            return head;
         }
  
-        return new ArrayList<>(duplicate);
+        Node odd = head;
+        Node even = head.next;
+        Node evenHead = even;
+ 
+        while (even != null && even.next != null) {
+ 
+            odd.next = even.next;
+            odd = odd.next;
+ 
+            even.next = odd.next;
+            even = even.next;
+        }
+ 
+        odd.next = evenHead;
+ 
+        return head;
     }
 }
