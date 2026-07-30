@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Implement Trie
+ * URL: https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags, Accolite, Amazon, Microsoft, D-E-Shaw, FactSet, Topic Tags, Trie
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:17:37.241Z
+ */
+
+class Trie {
+
+    public Trie() {
+        // Implement Trie
+    }
+
+    // Insert a word into the Trie
+    public void insert(String word) {}
+
+    // Search for a word in the Trie
+    public boolean search(String word) {}
+
+    // Check if a prefix exists in the Trie
+    public boolean isPrefix(String word) {}
+}
