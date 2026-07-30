@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-30T11:08:31.646Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Binary Search Tree",
+    "Related Articles",
+    "Traverse Bst In Sorted Order"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "class Solution { public ArrayList<Integer> getSortedOrder(Node root) { ArrayList<Integer>ll=new ArrayList<>(); if(root!=null){ ll.addAll(getSortedOrder(root.left)); ll.add(root.data); ll.addAll(getSortedOrder(root.right)); } Collections.sort(ll); return ll; }}",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sorted-elements-of-bst/1",
+  "submissionId": "vnfazc"
+}
