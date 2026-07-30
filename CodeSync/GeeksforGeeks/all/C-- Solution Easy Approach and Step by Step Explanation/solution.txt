@@ -1,24 +1,46 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/1
- * Language: class Solution: def canRepresentBST(self, arr): # code here s = [(-sys.maxsize, sys.maxsize)] for i in arr: while s: pop = s.pop() if pop[0] < i < pop[1]: s.append((i, pop[1])) s.append((pop[0], i)) break return s != []
+ * URL: https://www.geeksforgeeks.org/problems/maximum-subset-xor/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Morgan StanleyMicrosoftAdobe, Company Tags, Morgan Stanley, Microsoft, Adobe, Topic Tags, Binary Search Tree
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Arrays, Bit Magic, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T11:29:51.144Z
+ * Synced: 2026-07-30T11:01:06.162Z
  */
 
 class Solution {
-    public boolean canRepresentBST(List<Integer> arr) {
-        Stack<Integer> st = new Stack<>();
-        int root = Integer.MIN_VALUE;
-        for (int value: arr) {
-            if (value < root) return false;
-            while (!st.isEmpty() && value >st.peek())root = st.pop();
-            st.push(value);
+    public int maxSubsetXOR(int[] arr) {
+        int n = arr.length;
+        int index = 0;
+        for (int bit = 31; bit >= 0; bit--) {
+
+            int pivot = -1;
+            for (int i = index; i < n; i++) {
+                if ((arr[i] & (1 << bit)) != 0) {
+                    pivot = i;
+                    break;
+                }
+            }
+            if (pivot == -1)continue;
+
+            int temp = arr[index];
+            arr[index] = arr[pivot];
+            arr[pivot] = temp;
+
+            for (int i = 0; i < n; i++) {
+                if (i != index && (arr[i] & (1 << bit)) != 0) {
+                    arr[i] ^= arr[index];
+                }
+            }
+
+            index++;
         }
-        return true;
+        int ans = 0;
+        for (int num : arr) {
+            ans = Math.max(ans, ans ^ num);
+        }
+        return ans;
     }
 }
