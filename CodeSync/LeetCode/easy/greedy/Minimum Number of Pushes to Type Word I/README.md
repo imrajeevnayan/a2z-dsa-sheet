@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, String, Greedy
 - Runtime: 1 ms
-- Memory: 43.67 MB
-- Problem URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/submissions/2087392217/?envType=daily-question&envId=2026-07-30
-- Synced: 2026-07-30T10:56:15.314Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/?envType=daily-question&envId=2026-07-30
+- Synced: 2026-07-30T10:58:52.944Z
 
 ## Problem Description
 
