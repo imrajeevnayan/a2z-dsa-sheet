@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-30T11:11:44.515Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MicrosoftNPCI",
+    "Company Tags",
+    "Microsoft",
+    "NPCI",
+    "Topic Tags",
+    "Stack",
+    "Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> preOrder(Node* root) { // code here stack<Node *> s; Node *top; vector<int> ans; bool shouldPush = 1; s.push(root); while(!s.empty()) { top = s.top(); if(shouldPush) ans.push_back(top->data); if(top->left) { s.push(top->left); top->left = NULL; shouldPush = 1; continue; } if(top->right) { s.push(top->right); top->right = NULL; shouldPush = 1; continue; } shouldPush=0; s.pop(); } return ans; } };",
+  "problemTitle": "Hey Guys New Approach In Market",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/preorder-traversal-iterative/1",
+  "submissionId": "8dpsjy"
+}
