@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-30T11:14:40.107Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Stack",
+    "Tree",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def postOrder(self,node): stack = [node] res = [] while stack: root = stack.pop() res.append(root.data) left = root.left right = root.right if left: stack.append(left) if right: stack.append(right) return res[::-1]",
+  "problemTitle": "Iterative Postorder",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/postorder-traversal-iterative/1",
+  "submissionId": "iz7di0"
+}
