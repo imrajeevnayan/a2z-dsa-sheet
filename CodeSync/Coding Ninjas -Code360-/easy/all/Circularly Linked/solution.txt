@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Circularly Linked
+ * URL: https://www.naukri.com/code360/problems/circularly-linked_1070232
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:48:08.652Z
+ */
+
+public class Solution {
+ 
+    public static boolean isCircular(Node<Integer> head) {
+ 
+        if (head == null) {
+            return false;
+        }
+ 
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+ 
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+ 
+            if (slow == fast) {
+                return true;
+            }
+        }
+ 
+        return false;
+    }
+}
