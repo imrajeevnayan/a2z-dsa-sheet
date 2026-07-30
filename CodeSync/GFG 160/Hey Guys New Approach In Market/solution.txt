@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Hey Guys New Approach In Market
+ * URL: https://www.geeksforgeeks.org/problems/preorder-traversal-iterative/1
+ * Language: class Solution { public: vector<int> preOrder(Node* root) { // code here stack<Node *> s; Node *top; vector<int> ans; bool shouldPush = 1; s.push(root); while(!s.empty()) { top = s.top(); if(shouldPush) ans.push_back(top->data); if(top->left) { s.push(top->left); top->left = NULL; shouldPush = 1; continue; } if(top->right) { s.push(top->right); top->right = NULL; shouldPush = 1; continue; } shouldPush=0; s.pop(); } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:11:44.515Z
+ */
+
+class Solution {
+    ArrayList<Integer> preOrder(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        preorder(root, ans);
+        return ans;
+    }
+    private void preorder(Node root, ArrayList<Integer> ans) {
+        if (root == null) return;
+        ans.add(root.data);      // Root
+        preorder(root.left, ans); // Left
+        preorder(root.right, ans);// Right
+    }
+}
