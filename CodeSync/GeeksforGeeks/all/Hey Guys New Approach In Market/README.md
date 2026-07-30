@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/preorder-traversal-iterative/1
-- Synced: 2026-07-30T11:13:06.607Z
+- Synced: 2026-07-30T11:15:10.660Z
 
 ## Problem Description
 
