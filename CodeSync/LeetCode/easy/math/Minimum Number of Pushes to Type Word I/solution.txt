@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Number of Pushes to Type Word I
- * URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/?envType=daily-question&envId=2026-07-30
+ * URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/submissions/2087392217/?envType=daily-question&envId=2026-07-30
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math, String, Greedy
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-30T10:54:43.316Z
+ * Runtime: 1 ms
+ * Memory: 43.67 MB
+ * Synced: 2026-07-30T10:56:15.314Z
  */
 
-class Solution {
+//  highest frequency to lowest
+        int ans = 0,index = 0;
+        Arrays.sort(freq);
+        for (char ch : word.toCharArray())freq[ch - 'a']++;
+        int[] freq = new int[26];
     public int minimumPushes(String word) {
-        
+class Solution {
+        for (int i = 25; i >= 0; i--) {
+            if (freq[i] == 0) break;
+            int pushes = (index / 8) + 1;
+            ans += freq[i] * pushes;
+            index++;
+        }
+        return ans;
     }
 }
