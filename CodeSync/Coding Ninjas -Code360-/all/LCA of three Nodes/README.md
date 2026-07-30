@@ -7,7 +7,7 @@
 - Runtime: 2654 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404
-- Synced: 2026-07-30T11:38:18.930Z
+- Synced: 2026-07-30T11:40:22.282Z
 
 ## Problem Description
 
