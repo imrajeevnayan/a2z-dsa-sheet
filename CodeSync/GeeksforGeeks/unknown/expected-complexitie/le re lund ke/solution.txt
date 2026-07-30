@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: le re lund ke
+ * URL: https://www.geeksforgeeks.org/problems/bitwise-right-shift/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP, Java
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:04:34.844Z
+ */
+
+import java.util.Scanner;
+
+class GFG {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println((a >> b) +" "+ (a << b));
+    }
+}
