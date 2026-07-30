@@ -1,0 +1,25 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Peak Value
+ * URL: https://www.naukri.com/code360/problems/peak-value_3210618
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:25:52.131Z
+ */
+
+import java.util.*;
+import java.io.*;
+public class Solution {
+    public static int peakValue(int[] arr) {
+        int low = 0, high = arr.length - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] < arr[mid + 1]) low = mid + 1;
+            else high = mid;
+        }
+        return low;   
+    }
+}
