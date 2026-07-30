@@ -1,27 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/maximum-consecutive-ones_892994
+ * URL: https://www.naukri.com/code360/problems/kth-smallest-element_3621004
  * Language: All languages
  * Difficulty: Hard
- * Topics: Uncategorized
+ * Topics: Binary Search Clear all, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-27T09:04:02.337Z
+ * Synced: 2026-07-30T11:26:57.871Z
  */
 
-import java.util.ArrayList;
+import java.util.*;
+import java.io.*;
+ 
 public class Solution {
-    public static int longestSubSeg(ArrayList<Integer> arr, int n, int k) {
-        int left = 0,zeroCount = 0,maxLen = 0;
-        for (int right = 0; right < n; right++) {
-            if (arr.get(right) == 0) zeroCount++;
-            while (zeroCount > k) {
-                if (arr.get(left) == 0)zeroCount--;
-                left++;
-            }
-            maxLen = Math.max(maxLen, right - left + 1);
+ 
+    static class Node {
+        int value;
+        int row;
+        int col;
+ 
+        Node(int value, int row, int col) {
+            this.value = value;
+            this.row = row;
+            this.col = col;
         }
-        return maxLen;
     }
-}
+ 
+    public static int kSmallestInMatrix(int mat[][], int k) {
+ 
+        int n = mat.length;
+ 
+        PriorityQueue<Node> pq = new PriorityQueue<>(
+            (a, b) -> a.value - b.value
+        );
+ 
+        // Insert first element of every row
+        for (int i = 0; i < n; i++) {
+            pq.offer(new Node(mat[i][0], i, 0));
+        }
