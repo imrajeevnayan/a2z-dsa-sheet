@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sort linked list of 0s 1s 2s
+ * URL: https://www.naukri.com/code360/problems/sort-linked-list-of-0s-1s-2s_1071937
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 12879 ms
+ * Memory: N/A
+ * Synced: 2026-07-30T11:50:48.819Z
+ */
+
+public class Solution
+{
+    public static Node sortList(Node head) {
+ 
+        if (head == null || head.next == null) {
+            return head;
+        }
+ 
+        int zero = 0, one = 0, two = 0;
+ 
+        Node temp = head;
+ 
+        // Count 0s, 1s and 2s
+        while (temp != null) {
+ 
+            if (temp.data == 0)
+                zero++;
+            else if (temp.data == 1)
+                one++;
+            else
+                two++;
+ 
+            temp = temp.next;
+        }
+ 
+        temp = head;
+ 
+        // Fill 0s
+        while (zero-- > 0) {
