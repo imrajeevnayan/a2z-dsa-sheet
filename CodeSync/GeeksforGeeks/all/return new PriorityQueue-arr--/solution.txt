@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: return new PriorityQueue<>(arr);
+ * URL: https://www.geeksforgeeks.org/problems/priorityqueue-inserion/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-30T11:06:26.310Z
+ */
+
+class Solution {
+    public static PriorityQueue<Integer> insertion(ArrayList<Integer> arr) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for (int num : arr)pq.add(num);
+        return pq;
+    }
+}
