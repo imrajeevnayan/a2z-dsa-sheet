@@ -3,39 +3,25 @@
  * Problem: Remove duplicates from a sorted Doubly Linked List
  * URL: https://www.naukri.com/code360/problems/unique-sorted-list_2420283
  * Language: Java (SE 1.8)
- * Difficulty: Easy
+ * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 3500 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:17:05.256Z
+ * Synced: 2026-07-30T11:49:12.117Z
  */
 
-import java.util.*;
 public class Solution {
-    public static Node removeDuplicates(Node head) {
-        if (head == null) return null;
- 
+    public static Node uniqueSortedList(Node head) {
+        if (head == null)return null;
         Node current = head;
- 
-        while (current.next != null) {
+        while (current != null && current.next != null) {
             if (current.data == current.next.data) {
-                // Duplicate found: skip the next node
-                Node duplicate = current.next;
-                current.next = duplicate.next;
-                
-                // Update prev pointer of the next node if it exists
-                if (duplicate.next != null) {
-                    duplicate.next.prev = current;
-                }
-                
-                // Help garbage collection
-                duplicate.next = null;
-                duplicate.prev = null;
+                current.next = current.next.next;
             } else {
-                // Move forward only if no deletion occurred
                 current = current.next;
             }
         }
-        
+ 
         return head;
     }
+}
