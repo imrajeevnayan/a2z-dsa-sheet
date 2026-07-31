@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Dynamic Programming, Related Articles, Smallest Sum Contiguous Subarray
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-31T18:18:45.747Z
+ * Synced: 2026-07-31T18:20:10.169Z
  */
 
 class Solution {
