@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Searching, Related Articles, Cpp Program For Linear Search, Java Program For Linear Search, Linear Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-31T18:12:14.624Z
+ * Synced: 2026-07-31T18:13:04.294Z
  */
 
 class Solution {
