@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-31T18:17:54.022Z",
+  "submissionTimestamp": "2026-07-31T18:18:45.747Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "class Solution: def smallestSumSubarray(self, A, N): min_sum = float('inf') # Handles all-positive arrays correctly c_sum = 0 for num in A: c_sum += num # Extend current subarray min_sum = min(min_sum, c_sum) # Snapshot best sum BEFORE reset if c_sum > 0: c_sum = 0 # Positive prefix — start fresh return min_sum",
   "problemTitle": "Kadane's Algorithm Inverted | Minimum Subarray Sum | O(N) | 100% Correct",
   "problemUrl": "https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1",
-  "submissionId": "l40gp4"
+  "submissionId": "cz85q"
 }
