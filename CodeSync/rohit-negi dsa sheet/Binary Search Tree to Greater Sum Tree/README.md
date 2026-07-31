@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/?envType=problem-list-v2&envId=binary-tree
-- Synced: 2026-07-31T12:06:02.022Z
+- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/?envType=problem-list-v2&envId=binary-tree
+- Synced: 2026-07-31T12:06:48.665Z
 
 ## Problem Description
 
