@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-07-31T11:56:30.290Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy",
+    "Sorting",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Minimum Number of Pushes to Type Word II",
+  "problemUrl": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question&envId=2026-07-31",
+  "submissionId": "109g0u"
+}
