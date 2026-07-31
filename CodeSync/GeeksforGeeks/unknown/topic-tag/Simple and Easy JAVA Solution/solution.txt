@@ -1,29 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Simple and Easy JAVA Solution ::
- * URL: https://www.geeksforgeeks.org/problems/create-a-doubly-linked-list-from-a-given-array/1
- * Language: class Solution { public Node createDLL(int arr[]) { Node head = new Node(arr[0]); Node temp = head; for(int i = 1; i < arr.length; i++) { Node newNode = new Node(arr[i]); newNode.prev = temp; temp.next = newNode; temp = temp.next; } return head; } }
+ * URL: https://www.geeksforgeeks.org/problems/prefix-sum-range-query/1
+ * Language: class Solution { public ArrayList<Integer> rangeSumQueries(int[] arr, int[][] queries) { ArrayList<Integer> res = new ArrayList<>(); int prefSum[] = new int[arr.length]; prefSum[0] = arr[0]; for(int i = 1; i < arr.length; i++) prefSum[i] = arr[i] + prefSum[i-1]; for(int i = 0; i < queries.length; i++) { int l = queries[i][0]; int r = queries[i][1]; int sum = 0; if(l == 0) sum = prefSum[r]; else sum = prefSum[r] - prefSum[l-1]; res.add(sum); } return res; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Data Structures, doubly-linked-list, Related Articles
+ * Topics: Expected Complexities, Topic Tags, prefix-sum, Arrays, Related Articles, Understanding Prefix Sums
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T10:56:36.565Z
+ * Synced: 2026-07-31T18:15:51.974Z
  */
 
 class Solution {
-    public Node createDLL(int arr[]) {
-        if (arr == null || arr.length == 0) return null;
-        
+    public ArrayList<Integer> rangeSumQueries(int[] arr, int[][] queries) {
+        int n = arr.length;
+        int[] pre = new int[n + 1];
+        for (int i = 0; i < n; i++)pre[i + 1] = pre[i] + arr[i];
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int[] q : queries)
+            ans.add(pre[q[1] + 1] - pre[q[0]]);
 
-        Node head = new Node(arr[0]);
-        Node curr = head;
-
-        for (int i = 1; i < arr.length; i++) {
-            Node newNode = new Node(arr[i]);
-            curr.next = newNode;
-            newNode.prev = curr;
-            curr = newNode;
-        }
-        return head;
+        return ans;
     }
 }
