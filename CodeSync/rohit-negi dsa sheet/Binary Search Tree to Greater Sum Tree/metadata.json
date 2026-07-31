@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-31T12:06:48.665Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-07-31T12:07:36.935Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Binary Tree",
   "problemTitle": "Binary Search Tree to Greater Sum Tree",
   "problemUrl": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/?envType=problem-list-v2&envId=binary-tree",
-  "submissionId": "5qgohc"
+  "submissionId": "r2fmz5"
 }
