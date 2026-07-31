@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Nth Number with Prime Digits
+ * URL: https://www.geeksforgeeks.org/problems/nth-number-made-of-prime-digits4319/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Strings, Mathematical, Related Articles, Finding N Th Number Made Prime Digits
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T19:35:02.506Z
+ */
+
+class Solution {
+    public int primeDigits(int n) {
+        // code here
+        
+    }
+}
