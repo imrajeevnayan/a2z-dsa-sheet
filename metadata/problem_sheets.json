@@ -2038,5 +2038,8 @@
   ],
   "geeksforgeeks:generate-permutations-of-an-array": [
     "GFG160"
+  ],
+  "geeksforgeeks:prefix-sum-range-query": [
+    "GFG160"
   ]
 }
