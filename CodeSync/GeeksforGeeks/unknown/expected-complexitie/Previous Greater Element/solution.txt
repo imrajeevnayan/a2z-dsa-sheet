@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Previous Greater Element
  * URL: https://www.geeksforgeeks.org/problems/previous-greater-element/1
- * Language: Java (21)
+ * Language: class Solution { public: vector<int> preGreaterEle(vector<int>& arr) { int n = arr.size(); vector<int>v(n, -1); stack<int>st; for(int i = 0; i < n; i++){ while(!st.empty() and arr[i] >= st.top()){ st.pop(); } if(!st.empty()){ v[i] = st.top(); } st.push(arr[i]); } return v; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-31T19:35:52.968Z
+ * Synced: 2026-07-31T19:36:53.154Z
  */
 
 class Solution {
