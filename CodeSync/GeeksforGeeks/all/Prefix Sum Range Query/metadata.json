@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-07-31T18:15:06.513Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "prefix-sum",
+    "Arrays",
+    "Related Articles",
+    "Understanding Prefix Sums"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Prefix Sum Range Query",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/prefix-sum-range-query/1",
+  "submissionId": "b5f5kx"
+}
