@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, FactSet, Goldman Sachs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-31T19:19:48.596Z
+ * Synced: 2026-07-31T19:20:37.221Z
  */
 
 class Solution {
