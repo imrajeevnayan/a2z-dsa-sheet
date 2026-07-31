@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/wave-array-1587115621/1
-- Synced: 2026-07-31T19:21:25.165Z
+- Synced: 2026-07-31T19:23:06.151Z
 
 ## Problem Description
 
