@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Previous Greater Element
+ * URL: https://www.geeksforgeeks.org/problems/previous-greater-element/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T19:35:52.968Z
+ */
+
+class Solution {
+    public ArrayList<Integer> preGreaterEle(int[] arr) {
+        int n = arr.length;
+        ArrayList<Integer> ans = new ArrayList<>(Collections.nCopies(n, -1));
+        Stack<Integer> st = new Stack<>();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
+                ans.set(st.pop(), arr[i]);
+            }
+         st.push(i);
+        }
+        return ans;
+    }
+}
