@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
-- Synced: 2026-07-25T17:54:17.574Z
+- Synced: 2026-07-31T18:12:14.624Z
 
 ## Problem Description
 
