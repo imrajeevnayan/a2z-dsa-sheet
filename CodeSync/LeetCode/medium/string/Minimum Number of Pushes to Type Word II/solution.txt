@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Number of Pushes to Type Word II
+ * URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question&envId=2026-07-31
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Greedy, Sorting, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T11:56:30.290Z
+ */
+
+class Solution {
+    public int minimumPushes(String word) {
+        
+    }
+}
