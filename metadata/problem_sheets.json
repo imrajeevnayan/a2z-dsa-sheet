@@ -2045,5 +2045,8 @@
   "geeksforgeeks:smallest-sum-contiguous-subarray": [
     "custom:love-babbar-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:longest-subarray-of-evens-and-odds": [
+    "GFG160"
   ]
 }
