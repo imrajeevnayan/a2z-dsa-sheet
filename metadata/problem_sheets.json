@@ -2041,5 +2041,9 @@
   ],
   "geeksforgeeks:prefix-sum-range-query": [
     "GFG160"
+  ],
+  "geeksforgeeks:smallest-sum-contiguous-subarray": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
