@@ -1,21 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-12T11:09:46.922Z",
+  "submissionTimestamp": "2026-07-31T18:15:51.974Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Goldman Sachs",
-    "Company Tags",
-    "Goldman Sachs",
     "Topic Tags",
-    "Strings",
-    "Data Structures",
-    "Related Articles"
+    "prefix-sum",
+    "Arrays",
+    "Related Articles",
+    "Understanding Prefix Sums"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { repeatedCharacter(s) { // 1) count frequencies const freq = new Map(); for (const ch of s) { freq.set(ch, (freq.get(ch) || 0) + 1); } // 2) find leftmost character whose frequency > 1 for (let i = 0; i < s.length; ++i) { if (freq.get(s[i]) > 1) return i; } return -1; } }",
+  "language": "class Solution { public ArrayList<Integer> rangeSumQueries(int[] arr, int[][] queries) { ArrayList<Integer> res = new ArrayList<>(); int prefSum[] = new int[arr.length]; prefSum[0] = arr[0]; for(int i = 1; i < arr.length; i++) prefSum[i] = arr[i] + prefSum[i-1]; for(int i = 0; i < queries.length; i++) { int l = queries[i][0]; int r = queries[i][1]; int sum = 0; if(l == 0) sum = prefSum[r]; else sum = prefSum[r] - prefSum[l-1]; res.add(sum); } return res; } }",
   "problemTitle": "Simple and Easy JAVA Solution ::",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/repeating-character-first-appearance-leftmost/1",
-  "submissionId": "fxnovl"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/prefix-sum-range-query/1",
+  "submissionId": "2aem3z"
 }
