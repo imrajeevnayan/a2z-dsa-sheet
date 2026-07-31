@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-07-31T19:34:44.251Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "TC: O(n^2) int max=1; int curr=1; for(int i=0; i<n; i++){ curr=1; for(int j=i+1; j<n; j++){ if((arr[j-1]%2==0 && arr[j]%2!=0)||(arr[j-1]%2!=0 && arr[j]%2==0)){ curr++; }else{ break; } } max=Math.max(max,curr); } return max;",
+  "problemTitle": "C++ : SIMPLE SOLUTION",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/longest-subarray-of-evens-and-odds/1",
+  "submissionId": "n0mo3y"
+}
