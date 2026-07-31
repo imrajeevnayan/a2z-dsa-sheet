@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-07-31T19:35:02.506Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Strings",
+    "Mathematical",
+    "Related Articles",
+    "Finding N Th Number Made Prime Digits"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Nth Number with Prime Digits",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-number-made-of-prime-digits4319/1",
+  "submissionId": "7bnq5s"
+}
