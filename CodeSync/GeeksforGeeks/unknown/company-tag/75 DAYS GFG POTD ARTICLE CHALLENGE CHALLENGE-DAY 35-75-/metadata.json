@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-11T06:47:54.824Z",
+  "submissionTimestamp": "2026-07-31T19:19:48.596Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "from typing import List class Solution: def convertToWave(self, array_length: int, array: List[int]) -> None: # Loop through the array with a step of 2 (starting from index 1) for i in range(1, array_length, 2): # Swap the current element with the next element array[i - 1], array[i] = array[i], array[i - 1]",
   "problemTitle": "75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 35/75)",
   "problemUrl": "https://www.geeksforgeeks.org/problems/wave-array-1587115621/1",
-  "submissionId": "vtajus"
+  "submissionId": "8lx5k6"
 }
