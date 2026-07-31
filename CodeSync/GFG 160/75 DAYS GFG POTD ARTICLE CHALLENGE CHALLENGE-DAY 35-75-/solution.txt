@@ -7,15 +7,17 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, FactSet, Goldman Sachs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T06:47:54.824Z
+ * Synced: 2026-07-31T19:19:48.596Z
  */
 
 class Solution {
-    public void sortInWave(int arr[]) {
+    public void sortInWave(int[] arr) {
         for (int i = 0; i < arr.length - 1; i += 2) {
-            int temp = arr[i];
-            arr[i] = arr[i + 1];
-            arr[i + 1] = temp;
+            if (arr[i] < arr[i + 1]) {
+                int t = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = t;
+            }
         }
     }
 }
