@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Prefix Sum Range Query
+ * URL: https://www.geeksforgeeks.org/problems/prefix-sum-range-query/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, prefix-sum, Arrays, Related Articles, Understanding Prefix Sums
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T18:15:06.513Z
+ */
+
+class Solution {
+    public ArrayList<Integer> rangeSumQueries(int[] arr, int[][] queries) {
+        // code here
+        
+    }
+}
