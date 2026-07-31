@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-31T18:14:15.655Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags NPCI",
+    "Company Tags",
+    "NPCI",
+    "Topic Tags",
+    "Backtracking",
+    "Arrays",
+    "Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { private: void solve(vector<int> nums, vector<vector<int>> &ans, int idx){ if(idx >= nums.size()){ ans.push_back(nums); return; } for(int i=idx; i<nums.size(); i++){ swap(nums[idx], nums[i]); solve(nums, ans, idx+1); // This is for backtracking swap(nums[idx], nums[i]); } } public: vector<vector<int>> permuteDist(vector<int>& arr) { // code here vector<vector<int>> ans; int idx=0; solve(arr, ans, idx); return ans; } };",
+  "problemTitle": "Easiest Solution using Recursion + Backtracking! - Java",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/1",
+  "submissionId": "8rkdcc"
+}
