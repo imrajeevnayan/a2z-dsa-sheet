@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Hash Table, String, Greedy, Sorting, Counting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question&envId=2026-07-31
-- Synced: 2026-07-31T11:56:30.290Z
+- Synced: 2026-07-31T11:58:08.010Z
 
 ## Problem Description
 
