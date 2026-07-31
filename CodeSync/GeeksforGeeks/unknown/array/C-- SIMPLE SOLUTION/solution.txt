@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ : SIMPLE SOLUTION
+ * URL: https://www.geeksforgeeks.org/problems/longest-subarray-of-evens-and-odds/1
+ * Language: TC: O(n^2) int max=1; int curr=1; for(int i=0; i<n; i++){ curr=1; for(int j=i+1; j<n; j++){ if((arr[j-1]%2==0 && arr[j]%2!=0)||(arr[j-1]%2!=0 && arr[j]%2==0)){ curr++; }else{ break; } } max=Math.max(max,curr); } return max;
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T19:34:44.251Z
+ */
+
+class Solution {
+    public static int maxEvenOdd(int[] arr) {
+        int ans = 1, curr = 1;
+
+        for (int i = 1; i < arr.length; i++) {
+            if ((arr[i] % 2 == 0 && arr[i - 1] % 2 != 0) ||
+                (arr[i] % 2 != 0 && arr[i - 1] % 2 == 0))
+                curr++;
+            else
+                curr = 1;
+
+            ans = Math.max(ans, curr);
+        }
+        return ans;
+    }
+}
