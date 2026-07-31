@@ -5,13 +5,22 @@
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Hash Table, String, Greedy, Sorting, Counting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-07-31T11:56:30.290Z
+ * Synced: 2026-07-31T11:58:08.010Z
  */
 
-class Solution {
+Arrays.sort(freq);
+        int ans = 0, used = 0;
+        for (int i = 25; i >= 0; i--) {
+            if (freq[i] == 0) break;
+        for (char ch : word.toCharArray()) freq[ch - 'a']++;    
     public int minimumPushes(String word) {
-        
+        int[] freq = new int[26];
+class Solution {
+            ans += freq[i] * (used / 8 + 1);
+            used++;
+        }
+        return ans;
     }
 }
