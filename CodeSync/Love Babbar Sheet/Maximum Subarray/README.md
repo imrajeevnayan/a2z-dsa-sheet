@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Divide and Conquer, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-subarray/description/
-- Synced: 2026-07-31T18:56:33.585Z
+- Problem URL: https://leetcode.com/problems/maximum-subarray/
+- Synced: 2026-07-31T18:57:22.158Z
 
 ## Problem Description
 
