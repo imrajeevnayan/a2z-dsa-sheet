@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/?envType=problem-list-v2&envId=binary-tree
-- Synced: 2026-07-31T12:07:36.935Z
+- Memory: 42.93 MB
+- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/submissions/2088766930/?envType=problem-list-v2&envId=binary-tree
+- Synced: 2026-07-31T12:09:29.010Z
 
 ## Problem Description
 
