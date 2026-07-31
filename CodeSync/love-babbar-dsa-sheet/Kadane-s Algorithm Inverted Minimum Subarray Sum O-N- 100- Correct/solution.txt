@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Kadane's Algorithm Inverted | Minimum Subarray Sum | O(N) | 100% Correct
+ * URL: https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1
+ * Language: class Solution: def smallestSumSubarray(self, A, N): min_sum = float('inf') # Handles all-positive arrays correctly c_sum = 0 for num in A: c_sum += num # Extend current subarray min_sum = min(min_sum, c_sum) # Snapshot best sum BEFORE reset if c_sum > 0: c_sum = 0 # Positive prefix — start fresh return min_sum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Dynamic Programming, Related Articles, Smallest Sum Contiguous Subarray
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-07-31T18:17:03.194Z
+ */
+
+class Solution {
+    static int smallestSumSubarray(int[] a, int size) {
+        int cur = a[0], ans = a[0];
+        for (int i = 1; i < size; i++) {
+            cur = Math.min(a[i], cur + a[i]);
+            ans = Math.min(ans, cur);
+        }
+        return ans;
+    }
+}
