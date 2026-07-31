@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/longest-subarray-of-evens-and-odds/1
-- Synced: 2026-07-31T19:41:12.151Z
+- Synced: 2026-07-31T19:42:00.159Z
 
 ## Problem Description
 
