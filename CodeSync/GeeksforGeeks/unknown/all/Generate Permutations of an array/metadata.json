@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-07-31T18:13:28.197Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags NPCI",
+    "Company Tags",
+    "NPCI",
+    "Topic Tags",
+    "Backtracking",
+    "Arrays",
+    "Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Generate Permutations of an array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/generate-permutations-of-an-array/1",
+  "submissionId": "odf0ql"
+}
