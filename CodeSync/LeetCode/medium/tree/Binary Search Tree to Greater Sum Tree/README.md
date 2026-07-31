@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.93 MB
 - Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/submissions/2088766930/?envType=problem-list-v2&envId=binary-tree
-- Synced: 2026-07-31T12:09:29.010Z
+- Synced: 2026-07-31T12:10:54.995Z
 
 ## Problem Description
 
