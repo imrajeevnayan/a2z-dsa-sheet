@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1
-- Synced: 2026-07-31T18:17:54.022Z
+- Synced: 2026-07-31T18:18:45.747Z
 
 ## Problem Description
 
