@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Score of Parentheses String
  * URL: https://www.geeksforgeeks.org/problems/score-of-parentheses-string/1
- * Language: Java (21)
+ * Language: class Solution { scoreOfParentheses(s) { let level = 0 let score = 0 for (let i = 0; i < s.length; i++) { if (s[i] === '(') { if (s[i + 1] === ')') score += 2 ** level else level++ } else if (s[i - 1] !== '(') level-- } return score } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Stack, Strings, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-01T18:25:17.813Z
+ * Synced: 2026-08-01T18:26:26.194Z
  */
 
 class Solution {
