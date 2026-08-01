@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Recent Calls
+ * URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Easy
+ * Topics: Design, Queue, Data Stream
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-01T15:51:45.666Z
+ */
+
+public RecentCounter() {
+        queue = new LinkedList<>();
+    }
+    public int ping(int t) {
+        queue.offer(t);
+        while (queue.peek() < t - 3000) {
+            queue.poll();
+        }
+    Queue<Integer> queue;
+class RecentCounter {
+        return queue.size();
+    }
+}
