@@ -1,13 +1,13 @@
 # Previous Greater Element
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: vector<int> preGreaterEle(vector<int>& arr) { int n = arr.size(); vector<int>v(n, -1); stack<int>st; for(int i = 0; i < n; i++){ while(!st.empty() and arr[i] >= st.top()){ st.pop(); } if(!st.empty()){ v[i] = st.top(); } st.push(arr[i]); } return v; } };
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/previous-greater-element/1
-- Synced: 2026-07-31T19:36:53.154Z
+- Synced: 2026-08-01T08:55:53.206Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array arr[]. For every element in the array, determine 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: vector<int> preGreaterEle(vector<int>& arr) { int n = arr.size(); vector<int>v(n, -1); stack<int>st; for(int i = 0; i < n; i++){ while(!st.empty() and arr[i] >= st.top()){ st.pop(); } if(!st.empty()){ v[i] = st.top(); } st.push(arr[i]); } return v; } };. The detected topics are Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element. Review the synced source file for the implementation details.
