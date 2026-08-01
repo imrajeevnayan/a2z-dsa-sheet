@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-08T10:11:41.282Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-01T15:51:45.666Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,8 +9,8 @@
     "Data Stream"
   ],
   "platform": "LeetCode",
-  "language": "Queue",
+  "language": "LeetCode 75",
   "problemTitle": "Number of Recent Calls",
-  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue",
-  "submissionId": "8cpbv9"
+  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "cwbk4i"
 }
