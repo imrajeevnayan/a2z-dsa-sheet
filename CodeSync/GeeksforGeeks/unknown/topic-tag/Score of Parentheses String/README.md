@@ -1,13 +1,13 @@
 # Score of Parentheses String
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { scoreOfParentheses(s) { let level = 0 let score = 0 for (let i = 0; i < s.length; i++) { if (s[i] === '(') { if (s[i + 1] === ')') score += 2 ** level else level++ } else if (s[i - 1] !== '(') level-- } return score } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Stack, Strings, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/score-of-parentheses-string/1
-- Synced: 2026-08-01T18:25:17.813Z
+- Synced: 2026-08-01T18:26:26.194Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s consisting of balanced parentheses, calculate the score of the 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Stack, Strings, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { scoreOfParentheses(s) { let level = 0 let score = 0 for (let i = 0; i < s.length; i++) { if (s[i] === '(') { if (s[i + 1] === ')') score += 2 ** level else level++ } else if (s[i - 1] !== '(') level-- } return score } }. The detected topics are Expected Complexities, Topic Tags, Stack, Strings, Related Articles. Review the synced source file for the implementation details.
