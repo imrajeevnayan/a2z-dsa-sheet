@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Predict the Winner
+ * URL: https://leetcode.com/problems/sum-of-distances/?envType=daily-question&envId=2026-08-01
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming, Recursion, Game Theory
+ * Runtime: 0 ms
+ * Memory: 42.76 MB
+ * Synced: 2026-08-01T15:49:55.974Z
+ */
+
+int n = nums.length;
+        int[] dp = new int[n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            dp[i] = nums[i];
+            for (int j = i + 1; j < n; j++) {
+                dp[j] = Math.max(nums[i] - dp[j], nums[j] - dp[j - 1]);
+            }
+        }
+
+        return dp[n - 1] >= 0;
+    }
+}
+    public boolean predictTheWinner(int[] nums) {
+class Solution {
