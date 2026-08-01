@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-01T15:48:34.568Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Recursion",
+    "Game Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Predict the Winner",
+  "problemUrl": "https://leetcode.com/problems/predict-the-winner/?envType=daily-question&envId=2026-08-01",
+  "submissionId": "yf4vc9"
+}
