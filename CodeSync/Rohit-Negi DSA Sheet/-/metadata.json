@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T17:08:06.528Z",
+  "submissionTimestamp": "2026-08-01T15:51:00.453Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Math",
-    "Enumeration",
-    "Number Theory"
+    "Design",
+    "Queue",
+    "Data Stream"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
-  "submissionId": "2x4c9m"
+  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "3lf5sv"
 }
