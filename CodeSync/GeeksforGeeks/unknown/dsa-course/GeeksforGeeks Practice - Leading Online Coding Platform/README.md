@@ -1,0 +1,18 @@
+# GeeksforGeeks Practice - Leading Online Coding Platform
+
+- Platform: GeeksforGeeks
+- Language: Python
+- Difficulty: Unknown
+- Topics: DSA Course Explore, DSA Course, Explore
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/dsa/geeksforgeeks-practice-best-online-coding-platform/
+- Synced: 2026-08-01T18:25:56.213Z
+
+## Problem Description
+
+Problem description was not available on the page at sync time.
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using Python. The detected topics are DSA Course Explore, DSA Course, Explore. Review the synced source file for the implementation details.
