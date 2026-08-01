@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-01T15:51:45.666Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Design",
+    "Queue",
+    "Data Stream"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Number of Recent Calls",
+  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "cwbk4i"
+}
