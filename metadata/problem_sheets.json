@@ -2060,5 +2060,10 @@
   "leetcode:predict-the-winner": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:number-of-recent-calls": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
