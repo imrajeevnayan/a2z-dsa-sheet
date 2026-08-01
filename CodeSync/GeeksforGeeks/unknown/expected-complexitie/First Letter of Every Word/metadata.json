@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-08T12:28:47.366Z",
+  "submissionTimestamp": "2026-08-01T18:32:37.275Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,12 +10,12 @@
     "Amazon",
     "Topic Tags",
     "Strings",
-    "Data Structures",
-    "Related Articles"
+    "Related Articles",
+    "Print First Letter Word String Using Regex"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { String firstAlphabet(String S) { String res = \"\" + S.charAt(0); for (int i = 1; i < S.length(); i++) if (S.charAt(i - 1) == ' ') res += S.charAt(i); return res; } }",
+  "language": "Java (21)",
   "problemTitle": "First Letter of Every Word",
   "problemUrl": "https://www.geeksforgeeks.org/problems/print-first-letter-of-every-word-in-the-string3632/1",
-  "submissionId": "5oeeux"
+  "submissionId": "hjvvh4"
 }
