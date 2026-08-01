@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Design, Queue, Data Stream
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-01T15:51:45.666Z
+- Memory: 59.86 MB
+- Problem URL: https://leetcode.com/problems/total-cost-to-hire-k-workers/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-01T15:52:09.500Z
 
 ## Problem Description
 
