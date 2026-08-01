@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Predict the Winner
+ * URL: https://leetcode.com/problems/predict-the-winner/?envType=daily-question&envId=2026-08-01
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming, Recursion, Game Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-01T15:48:34.568Z
+ */
+
+class Solution {
+    public boolean predictTheWinner(int[] nums) {
+        
+    }
+}
