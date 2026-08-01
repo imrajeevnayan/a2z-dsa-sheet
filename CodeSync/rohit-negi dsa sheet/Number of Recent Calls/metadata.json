@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-01T15:51:45.666Z",
+  "submissionTimestamp": "2026-08-01T15:52:09.500Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "59.86 MB",
   "difficulty": "Easy",
   "tags": [
     "Design",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Number of Recent Calls",
-  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75",
+  "problemUrl": "https://leetcode.com/problems/total-cost-to-hire-k-workers/?envType=study-plan-v2&envId=leetcode-75",
   "submissionId": "cwbk4i"
 }
