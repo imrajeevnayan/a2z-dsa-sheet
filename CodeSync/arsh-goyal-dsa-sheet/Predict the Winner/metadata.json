@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-01T15:49:55.974Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.76 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Recursion",
+    "Game Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Predict the Winner",
+  "problemUrl": "https://leetcode.com/problems/sum-of-distances/?envType=daily-question&envId=2026-08-01",
+  "submissionId": "elwwpx"
+}
