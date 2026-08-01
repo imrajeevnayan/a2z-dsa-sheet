@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Array, Math, Dynamic Programming, Recursion, Game Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/predict-the-winner/?envType=daily-question&envId=2026-08-01
-- Synced: 2026-08-01T15:48:34.568Z
+- Runtime: 0 ms
+- Memory: 42.76 MB
+- Problem URL: https://leetcode.com/problems/sum-of-distances/?envType=daily-question&envId=2026-08-01
+- Synced: 2026-08-01T15:49:55.974Z
 
 ## Problem Description
 
