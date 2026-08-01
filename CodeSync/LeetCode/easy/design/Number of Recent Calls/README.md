@@ -1,13 +1,13 @@
 # Number of Recent Calls
 
 - Platform: LeetCode
-- Language: Queue
+- Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Design, Queue, Data Stream
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue
-- Synced: 2026-06-08T10:11:41.282Z
+- Problem URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-01T15:51:45.666Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You have a RecentCounter class which counts the number of recent requests within
 
 ## Explanation
 
-This solution was accepted on LeetCode using Queue. The detected topics are Design, Queue, Data Stream. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Design, Queue, Data Stream. Review the synced source file for the implementation details.
