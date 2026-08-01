@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Score of Parentheses String
+ * URL: https://www.geeksforgeeks.org/problems/score-of-parentheses-string/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, Strings, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-01T18:25:17.813Z
+ */
+
+class Solution {
+    public int scoreOfParentheses(String s) {
+        Stack<Integer> st= new Stack<>();
+        st.push(0);
+
+        for (char c : s.toCharArray()) {
+            if (c == '(') st.push(0);
+            else {
+                int v = st.pop();
+                int top = st.pop();
+
+                if (v == 0) st.push(top + 1);
+                else st.push(top + 2 * v);
+            }
+        }
+
+        return st.pop();
+    }
+}
