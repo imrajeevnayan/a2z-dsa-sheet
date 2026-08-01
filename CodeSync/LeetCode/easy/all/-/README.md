@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
+- Language: LeetCode 75
 - Difficulty: Easy
-- Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
+- Topics: Design, Queue, Data Stream
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-29T12:04:20.417Z
+- Problem URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-01T15:51:00.453Z
 
 ## Problem Description
 
-You are given two arrays of integers, fruits and baskets, each of length n, where fruits[i] represents the quantity of the ith type of fruit, and baskets[j] represents the capacity of the jth basket. From left to right, place the fruits according to these rules: Each fruit type must be placed in the leftmost available basket with a capacity greater than or equal to the quantity of that fruit type. Each basket can hold only one type of fruit. If a fruit type cannot be placed in any basket, it remains unplaced. Return the number of fruit types that remain unplaced after all possible allocations are made. Example 1: Input: fruits = [4,2,5], baskets = [3,5,4] Output: 1 Explanation: fruits[0] = 4 is placed in baskets[1] = 5. fruits[1] = 2 is placed in baskets[0] = 3. fruits[2] = 5 cannot be placed in baskets[2] = 4. Since one fruit type remains unplaced, we return 1. Example 2: Input: fruits = [3,6,1], baskets = [6,4,7] Output: 0 Explanation: fruits[0] = 3 is placed in baskets[0] = 6. fruits[1] = 6 cannot be placed in baskets[1] = 4 (insufficient capacity) but can be placed in the next available basket, baskets[2] = 7. fruits[2] = 1 is placed in baskets[1] = 4. Since all fruits are successfully placed, we return 0. Constraints: n == fruits.length == baskets.length 1 <= n <= 100 1 <= fruits[i], baskets[i] <= 1000
+You have a RecentCounter class which counts the number of recent requests within a certain time frame. Implement the RecentCounter class: RecentCounter() Initializes the counter with zero recent requests. int ping(int t) Adds a new request at time t, where t represents some time in milliseconds, and returns the number of requests that has happened in the past 3000 milliseconds (including the new request). Specifically, return the number of requests that have happened in the inclusive range [t - 3000, t]. It is guaranteed that every call to ping uses a strictly larger value of t than the previous call. Example 1: Input ["RecentCounter", "ping", "ping", "ping", "ping"] [[], [1], [100], [3001], [3002]] Output [null, 1, 2, 3, 3] Explanation RecentCounter recentCounter = new RecentCounter(); recentCounter.ping(1); // requests = [1], range is [-2999,1], return 1 recentCounter.ping(100); // requests = [1, 100], range is [-2900,100], return 2 recentCounter.ping(3001); // requests = [1, 100, 3001], range is [1,3001], return 3 recentCounter.ping(3002); // requests = [1, 100, 3001, 3002], range is [2,3002], return 3 Constraints: 1 <= t <= 109 Each test case will call ping with strictly increasing values of t. At most 104 calls will be made to ping.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Array, Binary Search, Segment Tree, Simulation, Ordered Set. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Design, Queue, Data Stream. Review the synced source file for the implementation details.
