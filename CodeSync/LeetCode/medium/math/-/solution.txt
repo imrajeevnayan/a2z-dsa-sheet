@@ -1,15 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/count-primes/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02
+ * Language: Daily Question
  * Difficulty: Medium
- * Topics: Array, Math, Enumeration, Number Theory
+ * Topics: Array, Math, Dynamic Programming, Game Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T17:08:06.528Z
+ * Synced: 2026-08-02T06:06:52.602Z
  */
 
-Input: n = 10
-Output: 4
-Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+Input: piles = [5,3,4,5]
+Output: true
+Explanation: 
+Alice starts first, and can only take the first 5 or the last 5.
+Say she takes the first 5, so that the row becomes [3, 4, 5].
+If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.
+If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.
+This demonstrated that taking the first 5 was a winning move for Alice, so we return true.
