@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/subarrays-with-at-most-k-distinct-integers/1
-- Synced: 2026-08-02T10:46:01.499Z
+- Synced: 2026-08-02T10:47:14.630Z
 
 ## Problem Description
 
