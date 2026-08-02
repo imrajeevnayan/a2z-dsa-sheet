@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T10:36:51.915Z",
+  "submissionTimestamp": "2026-08-02T10:38:06.065Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,5 +14,5 @@
   "language": "class Solution: def frequencySort(self, s: str) -> str: # Step 1: Count frequency of each character freq = {} for char in s: freq[char] = freq.get(char, 0) + 1 # Step 2: Sort characters by frequency (ascending), then by character sorted_items = sorted(freq.items(), key=lambda item: (item[1], item)) # Step 3: Build the resulting string by repeating each character return \"\".join(char * count for char, count in sorted_items)",
   "problemTitle": "Sort by Frequency",
   "problemUrl": "https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1",
-  "submissionId": "olokvb"
+  "submissionId": "x63vfs"
 }
