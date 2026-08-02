@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarrays With At Most K Distinct
+ * URL: https://www.geeksforgeeks.org/problems/subarrays-with-at-most-k-distinct-integers/1
+ * Language: class Solution { public: int countAtMostK(vector<int> &arr, int k) { // code here unordered_map<int, int> mp; int l=0, ans=0; for (int r=0; r<arr.size(); r++) { mp[arr[r]]++; while (mp.size()>k) { mp[arr[l]]--; if (mp[arr[l]] == 0) mp.erase(arr[l]); l++; } ans += r-l+1; } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, sliding-window, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T10:42:42.018Z
+ */
+
+class Solution {
+    public int countAtMostK(int arr[], int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int left = 0, count = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+
+            while (map.size() > k) {
+                map.put(arr[left], map.get(arr[left]) - 1);
+                if (map.get(arr[left]) == 0)
+                    map.remove(arr[left]);
+                left++;
+            }
+
+            count += right - left + 1;
+        }
+
+        return count;
+    }
+}
