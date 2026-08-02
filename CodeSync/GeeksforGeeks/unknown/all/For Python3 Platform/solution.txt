@@ -1,23 +1,22 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/count-digits5716/1
- * Language: class Solution: def evenlyDivides(self, n): temp = n result = 0 while(temp > 0): digit = temp % 10 if(digit != 0 and n % digit == 0): result += 1 temp = temp // 10 return result
+ * URL: https://www.geeksforgeeks.org/problems/red-or-green5711/1
+ * Language: class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Algorithms, Related Articles, Count Digits Given Number N Divide N, Find Count Digit Number Divide Number, Program Count Digits Integer 3 Different Methods
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T04:45:20.153Z
+ * Synced: 2026-08-02T11:06:30.993Z
  */
 
 class Solution {
-    static int evenlyDivides(int n) {
-        int temp = n, count = 0;
-        while (n > 0) {
-            int d = n % 10;
-            if (d != 0 && temp % d == 0)  count++;
-            n = n / 10;
+    public int redOrGreen(String s) {
+        int r = 0, g = 0;
+        for (char c : s.toCharArray()) {
+            if (c == 'R') r++;
+            else g++;
         }
-        return count;
+        return Math.min(r, g);
     }
 }
