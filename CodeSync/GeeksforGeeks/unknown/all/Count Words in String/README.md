@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-words-in-string/1
-- Synced: 2026-08-02T11:10:27.634Z
+- Synced: 2026-08-02T11:11:14.625Z
 
 ## Problem Description
 
