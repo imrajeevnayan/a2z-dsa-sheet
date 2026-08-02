@@ -1,26 +1,18 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Rotate Array
- * URL: https://leetcode.com/problems/rotate-array/submissions/2070782341/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Math, Two Pointers
- * Runtime: 0 ms
- * Memory: 61.40 MB
- * Synced: 2026-07-17T06:59:24.763Z
+ * URL: https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, MAQ Software, Codenation, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T10:32:47.671Z
  */
 
-nums[j--]=temp;
-        }
-    }
-    public void rotate(int[] nums, int k) {
-        int n=nums.length;
-        k=k%n;
-        reverse(nums,0,n-1);
-        reverse(nums,0,k-1);
-        reverse(nums,k,n-1);
+class Solution {
+    public void rotateArr(int arr[], int d) {
+        // code here
         
-            nums[i++]=nums[j];
-            int temp=nums[i];
     }
 }
