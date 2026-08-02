@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔤 Sort Characters in a String | GeeksForGeeks
+ * URL: https://www.geeksforgeeks.org/problems/sort-a-string2943/1
+ * Language: string sort(string s) { map<char, int> mpp; string ans = ""; for (char c: s) mpp[c]++; for (auto i: mpp) { ans = ans.append(i.second, i.first); } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Related Articles, Sort String Characters
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:12:21.561Z
+ */
+
+class Solution {
+    public String sortString(String s) {
+        int[] freq = new int[26];
+        for (char c : s.toCharArray())freq[c - 'a']++;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < 26; i++) {
+            while (freq[i] > 0) {
+                sb.append((char)('a' + i));
+                freq[i]--;
+            }
+        }
+        return sb.toString();
+    }
+}
