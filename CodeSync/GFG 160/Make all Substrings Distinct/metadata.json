@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-02T11:15:44.293Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def minChange(self,S): # Code here return len(S) - len(set(S))",
+  "problemTitle": "Make all Substrings Distinct",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/minimum-changes-to-make-all-substrings-distinct4722/1",
+  "submissionId": "xaainj"
+}
