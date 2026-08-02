@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/check-if-a-string-is-isogram-or-not-1587115620/1
-- Synced: 2026-08-02T11:12:58.341Z
+- Synced: 2026-08-02T11:13:50.998Z
 
 ## Problem Description
 
