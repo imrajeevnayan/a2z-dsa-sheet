@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string4321/1
-- Synced: 2026-06-02T11:43:50.917Z
+- Synced: 2026-08-02T11:25:31.385Z
 
 ## Problem Description
 
-Given a string s which may contain lowercase and uppercase characters. The task is to remove all duplicate characters from the string and find the resultant string. The order of remaining characters in the output should be same as in the original string. Example 1: Input: s = "geEksforGEeks" Output: "geEksforG" Explanation: After removing duplicate characters such as E, e, k, s, we have string as "geEksforG". Example 2: Input: s = "HaPpyNewYear" Output: "HaPpyNewYr" Explanation: After removing duplicate characters such as e, a, we have string as "HaPpyNewYr". Constraints: 1 ≤ N ≤ 106 String contains uppercase and lowercase english letters.
+Given a string s which may contain lowercase and uppercase characters. The task is to remove all duplicate characters from the string and find the resultant string. The order of remaining characters in the output should be same as in the original string. Examples: Input: s = "geEksforGEeks" Output: "geEksforG" Explanation: After removing duplicate characters such as E, e, k, s, we have string as "geEksforG". Input: s = "HaPpyNewYear" Output: "HaPpyNewYr" Explanation: After removing duplicate characters such as e, a, we have string as "HaPpyNewYr". Constraints: 1 ≤ s.size() ≤ 106 String contains uppercase and lowercase English letters.
 
 ## Explanation
 
