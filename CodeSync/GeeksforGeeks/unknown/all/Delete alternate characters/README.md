@@ -1,13 +1,13 @@
 # Delete alternate characters
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def delAlternate (ob, S): # code here return S[::2]
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles
+- Topics: Expected Complexities, Topic Tags, Strings, Java, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/java-delete-alternate-characters4036/1
-- Synced: 2026-07-07T19:17:11.355Z
+- Synced: 2026-08-02T11:06:45.052Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s as input. Delete the characters at odd indices of the string. R
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def delAlternate (ob, S): # code here return S[::2]. The detected topics are Expected Complexities, Topic Tags, Strings, Java, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, Java, Related Articles. Review the synced source file for the implementation details.
