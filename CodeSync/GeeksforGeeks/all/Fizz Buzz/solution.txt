@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Fizz Buzz
+ * URL: https://www.geeksforgeeks.org/problems/fizz-buzz/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:30:17.743Z
+ */
+
+class Solution {
+    public static ArrayList<String> fizzBuzz(int n) {
+        // code here
+        
+    }
+}
