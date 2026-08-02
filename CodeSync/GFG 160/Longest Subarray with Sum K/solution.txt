@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Longest Subarray with Sum K
+ * URL: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Map
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T10:30:33.729Z
+ */
+
+class Solution {
+    public int longestSubarray(int[] arr, int k) {
+        // code here
+        
+    }
+}
