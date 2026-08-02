@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-07T15:42:09.269Z",
+  "submissionTimestamp": "2026-08-02T11:28:53.942Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Adobe",
+    "Company Tags Oracle",
     "Company Tags",
-    "Adobe",
+    "Oracle",
     "Topic Tags",
-    "Arrays",
-    "Data Structures",
-    "Related Articles"
+    "Strings",
+    "Related Interview Experiences",
+    "Oracle Interview Experience Set 47 Campus"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };",
+  "language": "class Solution: def modify(self, s): if(s[0].isupper()): return s.upper() else: return s.lower()",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1",
-  "submissionId": "eeosgi"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/change-the-string3541/1",
+  "submissionId": "nedblx"
 }
