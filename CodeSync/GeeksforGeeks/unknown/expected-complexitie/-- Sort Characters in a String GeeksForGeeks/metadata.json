@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T18:00:01.108Z",
+  "submissionTimestamp": "2026-08-02T11:12:21.561Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -8,8 +8,6 @@
     "Topic Tags",
     "Strings",
     "Sorting",
-    "Data Structures",
-    "Algorithms",
     "Related Articles",
     "Sort String Characters"
   ],
@@ -17,5 +15,5 @@
   "language": "string sort(string s) { map<char, int> mpp; string ans = \"\"; for (char c: s) mpp[c]++; for (auto i: mpp) { ans = ans.append(i.second, i.first); } return ans; }",
   "problemTitle": "🔤 Sort Characters in a String | GeeksForGeeks",
   "problemUrl": "https://www.geeksforgeeks.org/problems/sort-a-string2943/1",
-  "submissionId": "njeum9"
+  "submissionId": "tk1fl"
 }
