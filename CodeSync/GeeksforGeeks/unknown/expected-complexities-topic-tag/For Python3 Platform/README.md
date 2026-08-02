@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result
+- Language: class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green)
 - Difficulty: Unknown
-- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms
+- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/sum-of-digits-of-a-number/1
-- Synced: 2026-05-30T19:20:08.668Z
+- Problem URL: https://www.geeksforgeeks.org/problems/red-or-green5711/1
+- Synced: 2026-08-02T11:06:30.993Z
 
 ## Problem Description
 
-You are given a number n. You need to find the sum of digits of n. Examples : Input: n = 1 Output: 1 Explanation: Sum of digit of 1 is 1. Input: n = 99999 Output: 45 Explanation: Sum of digit of 99999 is 45. Constraints: 1 ≤ n ≤ 107
+Given a string s of length n, made up of only uppercase characters 'R' and 'G', where 'R' stands for Red and 'G' stands for Green.Find the minimum number of characters need to be changed so that the entire string becomes of the same colour. Examples: Input: s = "RGRGR" Output: 2 Explanation: We need to change only the 2nd and 4th(1-index based) characters to 'R', so that the whole string becomes the same colour. Input: s = "GGGGGGR" Output: 1 Explanation: We need to change only the last character to 'G' to make the string same-coloured. Constraints: 1 ≤ |s| ≤ 105 s consists only of characters 'R' and 'G'.
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings. Review the synced source file for the implementation details.
