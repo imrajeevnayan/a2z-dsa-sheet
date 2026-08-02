@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T11:07:31.006Z",
+  "submissionTimestamp": "2026-08-02T11:08:20.264Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "Strings"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "def countVowels(self,s): #code here vowel=['a','e','i','o','u'] dic={} for i in range(len(s)): if s[i] in dic: dic[s[i]]+=1 else: dic[s[i]]=1 count=0 for x,y in dic.items(): if x in vowel: count+=1 return count",
   "problemTitle": "Count Distinct Vowels in String",
   "problemUrl": "https://www.geeksforgeeks.org/problems/count-distinct-vowels-in-string/1",
-  "submissionId": "fpey98"
+  "submissionId": "6xk71e"
 }
