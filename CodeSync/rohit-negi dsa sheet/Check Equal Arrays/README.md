@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1
-- Synced: 2026-07-14T15:05:28.774Z
+- Synced: 2026-08-02T11:04:40.599Z
 
 ## Problem Description
 
