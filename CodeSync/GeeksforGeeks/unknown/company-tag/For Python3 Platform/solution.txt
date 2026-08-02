@@ -1,30 +1,20 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1
- * Language: class Solution { public: int minMaxProduct(vector<int> &arr1, vector<int> &arr2) { // code here return (*(std::max_element(arr1.begin(), arr1.end())) * *(std::min_element(arr2.begin(), arr2.end()))); } };
+ * URL: https://www.geeksforgeeks.org/problems/change-the-string3541/1
+ * Language: class Solution: def modify(self, s): if(s[0].isupper()): return s.upper() else: return s.lower()
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Data Structures, Related Articles
+ * Topics: Expected Complexities, Company Tags Oracle, Company Tags, Oracle, Topic Tags, Strings, Related Interview Experiences, Oracle Interview Experience Set 47 Campus
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-07T15:42:09.269Z
+ * Synced: 2026-08-02T11:28:53.942Z
  */
 
 class Solution {
-
-    public long minMaxProduct(int[] arr1, int[] arr2) {
-         int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-
-        for (int x : arr1) {
-            max = Math.max(max, x);
-        }
-
-        for (int x : arr2) {
-            min = Math.min(min, x);
-        }
-
-        return (long) max * min;
-        
+    String modify(String s) {
+        if (Character.isLowerCase(s.charAt(0)))
+            return s.toLowerCase();
+        else
+            return s.toUpperCase();
     }
 }
