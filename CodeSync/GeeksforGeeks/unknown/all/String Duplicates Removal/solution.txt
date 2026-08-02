@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftAdobe, Company Tags, Amazon, Microsoft, Adobe, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:26:30.998Z
+ * Synced: 2026-08-02T11:27:21.195Z
  */
 
 class Solution {
