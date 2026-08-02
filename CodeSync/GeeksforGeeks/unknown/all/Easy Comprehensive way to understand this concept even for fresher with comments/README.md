@@ -1,13 +1,13 @@
 # Easy Comprehensive way to understand this concept even for fresher with comments.
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def reverseWords(self, s: str) -> str: return " ".join(list(map(lambda x : x[::-1], s.strip(' ').split())))
+- Language: class Solution { public: string reverseWords(string &s) { // code here stack<char> st; string result = ""; for(int i=0; i<s.length(); i++){ if(s[i] != ' '){ st.push(s[i]); }else{ if(!st.empty()){ while(!st.empty()){ result+=st.top(); st.pop(); } result+=" "; } } } while(!st.empty()){ result+=st.top(); st.pop(); } if(!result.empty() && result.back() == ' '){ result.pop_back(); } return result; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1
-- Synced: 2026-06-02T18:37:55.821Z
+- Synced: 2026-08-02T11:42:26.568Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string s. You need to reverse each word in it where the words ar
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def reverseWords(self, s: str) -> str: return " ".join(list(map(lambda x : x[::-1], s.strip(' ').split()))). The detected topics are Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: string reverseWords(string &s) { // code here stack<char> st; string result = ""; for(int i=0; i<s.length(); i++){ if(s[i] != ' '){ st.push(s[i]); }else{ if(!st.empty()){ while(!st.empty()){ result+=st.top(); st.pop(); } result+=" "; } } } while(!st.empty()){ result+=st.top(); st.pop(); } if(!result.empty() && result.back() == ' '){ result.pop_back(); } return result; } };. The detected topics are Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu. Review the synced source file for the implementation details.
