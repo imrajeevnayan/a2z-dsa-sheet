@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T10:42:42.018Z",
+  "submissionTimestamp": "2026-08-02T10:46:01.499Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: int countAtMostK(vector<int> &arr, int k) { // code here unordered_map<int, int> mp; int l=0, ans=0; for (int r=0; r<arr.size(); r++) { mp[arr[r]]++; while (mp.size()>k) { mp[arr[l]]--; if (mp[arr[l]] == 0) mp.erase(arr[l]); l++; } ans += r-l+1; } return ans; } };",
   "problemTitle": "Subarrays With At Most K Distinct",
   "problemUrl": "https://www.geeksforgeeks.org/problems/subarrays-with-at-most-k-distinct-integers/1",
-  "submissionId": "lrdc2d"
+  "submissionId": "287avf"
 }
