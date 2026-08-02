@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T10:32:47.671Z",
+  "submissionTimestamp": "2026-08-02T10:34:24.041Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "Java (21)",
   "problemTitle": "Rotate Array",
   "problemUrl": "https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1",
-  "submissionId": "c7fgtq"
+  "submissionId": "208yqq"
 }
