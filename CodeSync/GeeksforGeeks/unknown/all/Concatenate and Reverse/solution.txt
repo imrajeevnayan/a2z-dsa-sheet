@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Concatenate and Reverse
+ * URL: https://www.geeksforgeeks.org/problems/java-strings-set-15112/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Java, Related Articles, String Class In Java
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:20:35.204Z
+ */
+
+class Solution {
+    static String conRevstr(String s1, String s2) {
+        String str = s1 + s2;
+        return new StringBuilder(str).reverse().toString();
+    }
+}
