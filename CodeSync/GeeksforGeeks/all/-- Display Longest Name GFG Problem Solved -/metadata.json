@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-02T11:09:36.106Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Strings",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def longest(self, arr): longest = arr[0] longest_length = len(arr[0]) for i in range(1, len(arr)): if(len(arr[i]) > longest_length): longest = arr[i] longest_length = len(arr[i]) return longest",
+  "problemTitle": "🎯 Display Longest Name | GFG Problem Solved ✅",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/display-longest-name0853/1",
+  "submissionId": "z7z87f"
+}
