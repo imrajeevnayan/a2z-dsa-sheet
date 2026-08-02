@@ -7,13 +7,16 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Strings, Related Articles, Check String Isogram Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:12:58.341Z
+ * Synced: 2026-08-02T11:13:50.998Z
  */
 
 class Solution {
-    // Function to check if a string is Isogram or not.
     static boolean isIsogram(String data) {
-        // Your code here
-        
+        boolean[] seen = new boolean[26];
+        for (char c : data.toCharArray()) {
+            if (seen[c - 'a'])  return false;
+            seen[c - 'a'] = true;
+        }
+        return true;
     }
 }
