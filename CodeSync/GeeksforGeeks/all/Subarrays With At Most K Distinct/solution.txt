@@ -7,14 +7,13 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, sliding-window, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:42:42.018Z
+ * Synced: 2026-08-02T10:46:01.499Z
  */
 
 class Solution {
     public int countAtMostK(int arr[], int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int left = 0, count = 0;
-
         for (int right = 0; right < arr.length; right++) {
             map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
 
@@ -24,10 +23,8 @@ class Solution {
                     map.remove(arr[left]);
                 left++;
             }
-
             count += right - left + 1;
         }
-
         return count;
     }
 }
