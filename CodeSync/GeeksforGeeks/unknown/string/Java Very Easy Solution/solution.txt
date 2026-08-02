@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Very Easy Solution
+ * URL: https://www.geeksforgeeks.org/problems/fizz-buzz/1
+ * Language: class Solution: def fizzBuzz(self, n : int): # code here res = []; for i in range(1, n+1): if i % 3 == 0 and i % 5 == 0: res.append('FizzBuzz'); elif i % 3 == 0: res.append('Fizz'); elif i % 5 == 0: res.append('Buzz'); else: res.append(str(i)); return res;
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:31:04.957Z
+ */
+
+class Solution {
+    public static ArrayList<String> fizzBuzz(int n) {
+        ArrayList<String> ans = new ArrayList<>();
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 15 == 0)
+                ans.add("FizzBuzz");
+            else if (i % 3 == 0)
+                ans.add("Fizz");
+            else if (i % 5 == 0)
+                ans.add("Buzz");
+            else
+                ans.add(String.valueOf(i));
+        }
+
+        return ans;
+    }
+}
