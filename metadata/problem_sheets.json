@@ -2079,5 +2079,9 @@
   ],
   "geeksforgeeks:creational-design-patterns": [
     "GFG160"
+  ],
+  "geeksforgeeks:longest-sub-array-with-sum-k0809": [
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
