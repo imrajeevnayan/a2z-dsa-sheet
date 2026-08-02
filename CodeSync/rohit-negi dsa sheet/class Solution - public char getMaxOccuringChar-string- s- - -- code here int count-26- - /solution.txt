@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution { public: char getMaxOccuringChar(string& s) { // code here int count[26] = {0}; for(int i=0 ; i<s.size() ; i++) { count[s[i]-'a']++; } int ansIndex = 0; int freq = count[0]; for(int i= 0 ; i<26 ; i++) { if(count[i]>freq) { freq = count[i]; ansIndex = i; } } char ans = 'a' +ansIndex; return ans; }};
+ * URL: https://www.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1
+ * Language: class Solution { public char getMaxOccuringChar(String s) { // code here int[] maxCount = new int[26]; for(int i=0; i<s.length(); i++){ maxCount[s.charAt(i)-'a']++; } int max = Integer.MIN_VALUE; char c = '#'; for(int i=0; i<26; i++){ if(maxCount[i]>max){ max = maxCount[i]; c = (char) ('a' + i); } } return c; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Strings, Related Interview Experiences, Flipkart Interview Set 2 Sde 2
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:43:00.066Z
+ */
+
+class Solution {
+    public static char getMaxOccuringChar(String s) {
+        int[] freq = new int[26];
+        for (char c : s.toCharArray()) freq[c - 'a']++;
+        int max = 0;
+        char ans = 'a';
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > max) {
+                max = freq[i];
+                ans = (char) ('a' + i);
+            }
+        }
+        return ans;
+    }
+}
