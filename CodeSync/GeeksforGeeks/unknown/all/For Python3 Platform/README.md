@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/change-the-string3541/1
-- Synced: 2026-08-02T11:28:53.942Z
+- Synced: 2026-08-02T11:29:43.291Z
 
 ## Problem Description
 
