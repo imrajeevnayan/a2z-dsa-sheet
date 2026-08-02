@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Strings, constructive algo, Data Structures, Algorithms, Related Articles
+- Topics: Expected Complexities, Topic Tags, Strings, constructive algo, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/longest-even-length-substring--113837/1
-- Synced: 2026-07-12T11:13:04.753Z
+- Synced: 2026-08-02T11:18:32.133Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s consisting only of digits, find the length of the longest subst
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, constructive algo, Data Structures, Algorithms, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Strings, constructive algo, Related Articles. Review the synced source file for the implementation details.
