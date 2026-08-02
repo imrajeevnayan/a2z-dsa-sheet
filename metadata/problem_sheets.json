@@ -2092,5 +2092,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:algomaster-300",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "geeksforgeeks:subarrays-with-at-most-k-distinct-integers": [
+    "GFG160"
   ]
 }
