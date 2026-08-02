@@ -7,16 +7,9 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftAdobe, Company Tags, Amazon, Microsoft, Adobe, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:43:50.917Z
+ * Synced: 2026-08-02T11:25:31.385Z
  */
 
 class Solution {
-    String removeDuplicates(String s) {
-        StringBuilder sb=new StringBuilder();
-        Set<Character>set=new HashSet<>();
-        for(char c:s.toCharArray()){
-            if(set.add(c))sb.append(c);
-        }
-        return sb.toString();
-    }
+    String removeDuplicates(String s) {}
 }
