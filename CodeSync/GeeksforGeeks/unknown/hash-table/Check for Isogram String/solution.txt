@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check for Isogram String
+ * URL: https://www.geeksforgeeks.org/problems/check-if-a-string-is-isogram-or-not-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Strings, Related Articles, Check String Isogram Not
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:12:58.341Z
+ */
+
+class Solution {
+    // Function to check if a string is Isogram or not.
+    static boolean isIsogram(String data) {
+        // Your code here
+        
+    }
+}
