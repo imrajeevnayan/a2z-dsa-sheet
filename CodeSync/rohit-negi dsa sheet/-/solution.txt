@@ -1,24 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
- * Difficulty: Easy
- * Topics: Design, Queue, Data Stream
+ * URL: https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming, Game Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-01T15:51:00.453Z
+ * Synced: 2026-08-02T06:06:52.602Z
  */
 
-Input
-["RecentCounter", "ping", "ping", "ping", "ping"]
-[[], [1], [100], [3001], [3002]]
-Output
-[null, 1, 2, 3, 3]
-
-Explanation
-RecentCounter recentCounter = new RecentCounter();
-recentCounter.ping(1);     // requests = [1], range is [-2999,1], return 1
-recentCounter.ping(100);   // requests = [1, 100], range is [-2900,100], return 2
-recentCounter.ping(3001);  // requests = [1, 100, 3001], range is [1,3001], return 3
-recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002], return 3
+Input: piles = [5,3,4,5]
+Output: true
+Explanation: 
+Alice starts first, and can only take the first 5 or the last 5.
+Say she takes the first 5, so that the row becomes [3, 4, 5].
+If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.
+If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.
+This demonstrated that taking the first 5 was a winning move for Alice, so we return true.
