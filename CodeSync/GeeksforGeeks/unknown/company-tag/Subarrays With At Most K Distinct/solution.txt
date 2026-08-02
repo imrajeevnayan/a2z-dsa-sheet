@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, sliding-window, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:46:01.499Z
+ * Synced: 2026-08-02T10:47:14.630Z
  */
 
 class Solution {
