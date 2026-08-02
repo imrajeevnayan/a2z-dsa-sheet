@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-28T09:43:43.353Z",
+  "submissionTimestamp": "2026-08-02T06:06:52.602Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Math",
+    "Dynamic Programming",
+    "Game Theory"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "ks0eht"
+  "problemUrl": "https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02",
+  "submissionId": "44mpyg"
 }
