@@ -2,46 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Sort by Frequency
  * URL: https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1
- * Language: Java (21)
+ * Language: class Solution: def frequencySort(self, s: str) -> str: # Step 1: Count frequency of each character freq = {} for char in s: freq[char] = freq.get(char, 0) + 1 # Step 2: Sort characters by frequency (ascending), then by character sorted_items = sorted(freq.items(), key=lambda item: (item[1], item)) # Step 3: Build the resulting string by repeating each character return "".join(char * count for char, count in sorted_items)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:36:05.036Z
+ * Synced: 2026-08-02T10:36:51.915Z
  */
 
 class Solution {
     public String frequencySort(String s) {
-        int[] freq = new int[26];
-
-        for (char ch : s.toCharArray()) {
-            freq[ch - 'a']++;
-        }
-
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
-            if (a[1] != b[1]) {
-                return a[1] - b[1];      // smaller frequency first
-            }
-            return a[0] - b[0];          // lexicographically smaller first
-        });
-
-        for (int i = 0; i < 26; i++) {
-            if (freq[i] > 0) {
-                pq.offer(new int[]{i, freq[i]});
-            }
-        }
-
-        StringBuilder ans = new StringBuilder();
-
-        while (!pq.isEmpty()) {
-            int[] cur = pq.poll();
-            char ch = (char) ('a' + cur[0]);
-
-            for (int i = 0; i < cur[1]; i++) {
-                ans.append(ch);
-            }
-        }
-
-        return ans.toString();
+        // code here
+        
     }
-}
+};
