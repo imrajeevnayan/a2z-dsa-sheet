@@ -1,22 +1,20 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/red-or-green5711/1
- * Language: class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green)
+ * URL: https://www.geeksforgeeks.org/problems/change-the-string3541/1
+ * Language: class Solution: def modify(self, s): if(s[0].isupper()): return s.upper() else: return s.lower()
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
+ * Topics: Expected Complexities, Company Tags Oracle, Company Tags, Oracle, Topic Tags, Strings, Related Interview Experiences, Oracle Interview Experience Set 47 Campus
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:06:30.993Z
+ * Synced: 2026-08-02T11:28:53.942Z
  */
 
 class Solution {
-    public int redOrGreen(String s) {
-        int r = 0, g = 0;
-        for (char c : s.toCharArray()) {
-            if (c == 'R') r++;
-            else g++;
-        }
-        return Math.min(r, g);
+    String modify(String s) {
+        if (Character.isLowerCase(s.charAt(0)))
+            return s.toLowerCase();
+        else
+            return s.toUpperCase();
     }
 }
