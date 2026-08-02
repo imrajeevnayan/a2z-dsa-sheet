@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Words in String
+ * URL: https://www.geeksforgeeks.org/problems/count-words-in-string/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:10:27.634Z
+ */
+
+class Solution {
+    public static int countWords(String s) {
+        if (s == null || s.trim().length() == 0)  return 0;
+        String[] words = s.trim().split("\\s+");
+        return words.length;
+        
+    }
+}
