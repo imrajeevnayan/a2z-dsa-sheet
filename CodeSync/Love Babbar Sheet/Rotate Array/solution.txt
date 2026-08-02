@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, MAQ Software, Codenation, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:34:24.041Z
+ * Synced: 2026-08-02T10:35:12.006Z
  */
 
 class Solution {
