@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Rotate Array
+ * URL: https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, MAQ Software, Codenation, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T10:34:24.041Z
+ */
+
+class Solution {
+    static void rev(int []arr,int start,int end){
+        while(start < end){
+            int temp=arr[start];
+            arr[start++]=arr[end];
+            arr[end--]=temp;
+        }
+    }
+    static void rotateArr(int arr[], int d) {
+        int n=arr.length;
+         d=d %n;
+         rev(arr,0,d-1);
+         rev(arr,d,n-1);
+         rev(arr,0,n-1);
+    }
+}
