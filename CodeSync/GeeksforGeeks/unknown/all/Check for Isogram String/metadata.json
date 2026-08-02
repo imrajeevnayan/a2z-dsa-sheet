@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-02T11:12:58.341Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Hash",
+    "Strings",
+    "Related Articles",
+    "Check String Isogram Not"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Check for Isogram String",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-a-string-is-isogram-or-not-1587115620/1",
+  "submissionId": "coxok"
+}
