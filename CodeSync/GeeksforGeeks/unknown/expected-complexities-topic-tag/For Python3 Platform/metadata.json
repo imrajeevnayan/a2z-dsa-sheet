@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T19:20:08.668Z",
+  "submissionTimestamp": "2026-08-02T11:06:30.993Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,12 +7,11 @@
     "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Recursion",
-    "Algorithms"
+    "Strings"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result",
+  "language": "class Solution: def RedOrGreen(self, N, S): green = S.count(\"G\") red = S.count(\"R\") return min(red, green)",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-digits-of-a-number/1",
-  "submissionId": "knyz5h"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/red-or-green5711/1",
+  "submissionId": "ac5ktw"
 }
