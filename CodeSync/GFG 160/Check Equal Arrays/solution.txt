@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Hash, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:05:28.774Z
+ * Synced: 2026-08-02T11:04:40.599Z
  */
 
 class Solution {
