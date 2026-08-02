@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Longest Word
+ * URL: https://www.geeksforgeeks.org/problems/display-longest-name0853/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Strings, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:08:51.060Z
+ */
+
+class Solution {
+    public String longest(String[] arr) {
+        // code here
+        
+    }
+}
