@@ -4,10 +4,10 @@
  * URL: https://www.geeksforgeeks.org/problems/longest-even-length-substring--113837/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Strings, constructive algo, Data Structures, Algorithms, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Strings, constructive algo, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:13:04.753Z
+ * Synced: 2026-08-02T11:18:32.133Z
  */
 
 class Solution {
