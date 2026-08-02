@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Panagram Checking
+ * URL: https://www.geeksforgeeks.org/problems/pangram-checking-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Snapdeal, Company Tags, Snapdeal, Topic Tags, Strings, Related Articles, Pangram Checking
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:18:44.005Z
+ */
+
+class Solution {
+    public static boolean checkPangram(String s) {
+        // code here
+        
+    }
+}
