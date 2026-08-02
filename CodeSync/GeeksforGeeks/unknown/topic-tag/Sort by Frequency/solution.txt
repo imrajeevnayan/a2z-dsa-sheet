@@ -7,12 +7,24 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:36:51.915Z
+ * Synced: 2026-08-02T10:38:06.065Z
  */
 
 class Solution {
     public String frequencySort(String s) {
-        // code here
-        
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char c : s.toCharArray())map.put(c, map.getOrDefault(c, 0) + 1);
+        PriorityQueue<Character> pq = new PriorityQueue<>(
+            (a, b) -> map.get(b) - map.get(a)
+        );
+        pq.addAll(map.keySet());
+        StringBuilder ans = new StringBuilder();
+        while (!pq.isEmpty()) {
+            char ch = pq.poll();
+            for (int i = 0; i < map.get(ch); i++)
+                ans.append(ch);
+        }
+
+        return ans.toString();
     }
-};
+}
