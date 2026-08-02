@@ -1,13 +1,13 @@
 # Count Distinct Vowels in String
 
 - Platform: GeeksforGeeks
-- Language: def countVowels(self,s): #code here vowel=['a','e','i','o','u'] dic={} for i in range(len(s)): if s[i] in dic: dic[s[i]]+=1 else: dic[s[i]]=1 count=0 for x,y in dic.items(): if x in vowel: count+=1 return count
+- Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Data Structures
+- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-distinct-vowels-in-string/1
-- Synced: 2026-06-29T18:15:55.115Z
+- Synced: 2026-08-02T11:07:31.006Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, count the total distinct vowels in the string. The string s co
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using def countVowels(self,s): #code here vowel=['a','e','i','o','u'] dic={} for i in range(len(s)): if s[i] in dic: dic[s[i]]+=1 else: dic[s[i]]=1 count=0 for x,y in dic.items(): if x in vowel: count+=1 return count. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Data Structures. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings. Review the synced source file for the implementation details.
