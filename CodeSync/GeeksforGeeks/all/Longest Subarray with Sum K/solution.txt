@@ -1,31 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Longest Subarray with Sum K
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
+ * URL: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Map
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T09:20:25.078Z
+ * Synced: 2026-08-02T10:30:33.729Z
  */
 
 class Solution {
     public int longestSubarray(int[] arr, int k) {
-     Map<Integer, Integer> map = new HashMap<>();
-      int sum = 0, maxLen = 0;
-    for (int i = 0; i < arr.length; i++) {
-          sum += arr[i];
-        if (sum == k) maxLen = i + 1;
-
-        if (!map.containsKey(sum)) map.put(sum, i);
-
-        if (map.containsKey(sum - k)) {
-            maxLen = Math.max(maxLen, i - map.get(sum - k));
-        }
-    }
-
-    return maxLen;
+        // code here
         
     }
 }
