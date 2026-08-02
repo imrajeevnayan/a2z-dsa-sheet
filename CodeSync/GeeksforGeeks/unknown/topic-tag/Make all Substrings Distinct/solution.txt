@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Make all Substrings Distinct
+ * URL: https://www.geeksforgeeks.org/problems/minimum-changes-to-make-all-substrings-distinct4722/1
+ * Language: class Solution: def minChange(self,S): # Code here return len(S) - len(set(S))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-02T11:15:44.293Z
+ */
+
+class Solution {
+    public int minChanges(String s) {
+        boolean[] seen = new boolean[26];
+        int ans = 0;
+        for (char c : s.toCharArray()) {
+            if (seen[c - 'a']) ans++;
+            else  seen[c - 'a'] = true;
+        }
+        return ans;
+    }
+}
