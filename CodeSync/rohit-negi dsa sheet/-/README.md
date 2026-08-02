@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: LeetCode 75
-- Difficulty: Easy
-- Topics: Design, Queue, Data Stream
+- Language: Daily Question
+- Difficulty: Medium
+- Topics: Array, Math, Dynamic Programming, Game Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-01T15:51:00.453Z
+- Problem URL: https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02
+- Synced: 2026-08-02T06:06:52.602Z
 
 ## Problem Description
 
-You have a RecentCounter class which counts the number of recent requests within a certain time frame. Implement the RecentCounter class: RecentCounter() Initializes the counter with zero recent requests. int ping(int t) Adds a new request at time t, where t represents some time in milliseconds, and returns the number of requests that has happened in the past 3000 milliseconds (including the new request). Specifically, return the number of requests that have happened in the inclusive range [t - 3000, t]. It is guaranteed that every call to ping uses a strictly larger value of t than the previous call. Example 1: Input ["RecentCounter", "ping", "ping", "ping", "ping"] [[], [1], [100], [3001], [3002]] Output [null, 1, 2, 3, 3] Explanation RecentCounter recentCounter = new RecentCounter(); recentCounter.ping(1); // requests = [1], range is [-2999,1], return 1 recentCounter.ping(100); // requests = [1, 100], range is [-2900,100], return 2 recentCounter.ping(3001); // requests = [1, 100, 3001], range is [1,3001], return 3 recentCounter.ping(3002); // requests = [1, 100, 3001, 3002], range is [2,3002], return 3 Constraints: 1 <= t <= 109 Each test case will call ping with strictly increasing values of t. At most 104 calls will be made to ping.
+Alice and Bob play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i]. The objective of the game is to end with the most stones. The total number of stones across all the piles is odd, so there are no ties. Alice and Bob take turns, with Alice starting first. Each turn, a player takes the entire pile of stones either from the beginning or from the end of the row. This continues until there are no more piles left, at which point the person with the most stones wins. Assuming Alice and Bob play optimally, return true if Alice wins the game, or false if Bob wins. Example 1: Input: piles = [5,3,4,5] Output: true Explanation: Alice starts first, and can only take the first 5 or the last 5. Say she takes the first 5, so that the row becomes [3, 4, 5]. If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points. If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points. This demonstrated that taking the first 5 was a winning move for Alice, so we return true. Example 2: Input: piles = [3,7,2,3] Output: true Constraints: 2 <= piles.length <= 500 piles.length is even. 1 <= piles[i] <= 500 sum(piles[i]) is odd.
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Design, Queue, Data Stream. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Math, Dynamic Programming, Game Theory. Review the synced source file for the implementation details.
