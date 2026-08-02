@@ -1,19 +1,22 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/sum-of-digits-of-a-number/1
- * Language: class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result
+ * URL: https://www.geeksforgeeks.org/problems/red-or-green5711/1
+ * Language: class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green)
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:20:08.668Z
+ * Synced: 2026-08-02T11:06:30.993Z
  */
 
 class Solution {
-    public static int sumOfDigits(int n) {
-       if(n<10)return n;
-       return (n %10)+sumOfDigits(n/10);
-        
+    public int redOrGreen(String s) {
+        int r = 0, g = 0;
+        for (char c : s.toCharArray()) {
+            if (c == 'R') r++;
+            else g++;
+        }
+        return Math.min(r, g);
     }
 }
