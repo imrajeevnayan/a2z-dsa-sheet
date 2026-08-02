@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-02T11:28:53.942Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Oracle",
+    "Company Tags",
+    "Oracle",
+    "Topic Tags",
+    "Strings",
+    "Related Interview Experiences",
+    "Oracle Interview Experience Set 47 Campus"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def modify(self, s): if(s[0].isupper()): return s.upper() else: return s.lower()",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/change-the-string3541/1",
+  "submissionId": "nedblx"
+}
