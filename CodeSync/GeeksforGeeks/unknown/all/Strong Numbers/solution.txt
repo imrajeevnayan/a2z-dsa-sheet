@@ -7,21 +7,27 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, factorial, Related Articles, Program To Check Strong Number
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-03T15:53:50.851Z
+ * Synced: 2026-08-03T15:54:36.462Z
  */
 
 class Solution {
     public boolean isStrong(int n) {
-        int[] fact = {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880};
-
         int original = n;
         int sum = 0;
-
         while (n > 0) {
-            sum += fact[n % 10];
+            int digit = n % 10;
+            sum += factorial(digit);
             n /= 10;
         }
 
         return sum == original;
+    }
+
+    private int factorial(int x) {
+        int fact = 1;
+        for (int i = 2; i <= x; i++) {
+            fact *= i;
+        }
+        return fact;
     }
 }
