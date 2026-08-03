@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-03T15:55:40.615Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Mathematical",
+    "Related Articles",
+    "Lcm First N Natural Numbers",
+    "Smallest Number Divisible First N Numbers"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "long long getSmallestDivNum( long long n ) { long long r{ 1 }; do r = r * n / __gcd( r, n ); while ( --n > 1 ); return r; } // 0.01+",
+  "problemTitle": "Smallest Divisible by 1 to n",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/smallest-divisible-number/1",
+  "submissionId": "qylrte"
+}
