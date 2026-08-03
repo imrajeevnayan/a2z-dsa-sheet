@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Greatest of three numbers
+ * URL: https://www.geeksforgeeks.org/problems/greatest-of-three-numbers2520/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Cpp Program To Find Largest Among Three Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:46:09.180Z
+ */
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        if (a >= b && a >= c) {
+            System.out.println(a);
+        } else if (b >= a && b >= c) {
+            System.out.println(b);
+        } else {
+            System.out.println(c);
+        }
+    }
+}
