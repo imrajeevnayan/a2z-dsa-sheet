@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-squares3649/1
-- Synced: 2026-08-03T15:11:35.197Z
+- Synced: 2026-08-03T15:12:30.787Z
 
 ## Problem Description
 
