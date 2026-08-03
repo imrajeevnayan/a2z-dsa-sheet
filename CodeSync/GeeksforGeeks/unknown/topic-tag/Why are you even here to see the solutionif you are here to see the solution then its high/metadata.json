@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-03T16:45:59.624Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public static boolean isPerfect(int[] arr) { // code here int left = 0; int right = arr.length-1; while ( left < right ) { if ( arr[left] != arr[right] ) { return false; } left++; right--; } return true; } }",
+  "problemTitle": "Why are you even here ?to see the solution?if you are here to see the solution then its high time for you to go and code more !!!anyways heres the solution :",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/perfect-arrays4645/1",
+  "submissionId": "9ua30x"
+}
