@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T07:01:58.173Z",
+  "submissionTimestamp": "2026-08-03T17:08:06.478Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -9,8 +9,8 @@
     "Explore"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "Low Level Design or LLD",
   "problemUrl": "https://www.geeksforgeeks.org/system-design/what-is-low-level-design-or-lld-learn-system-design/",
-  "submissionId": "7q9wdw"
+  "submissionId": "yzb09z"
 }
