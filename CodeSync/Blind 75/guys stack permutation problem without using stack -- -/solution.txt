@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: guys stack permutation problem without using stack 😂 :-
+ * URL: https://www.geeksforgeeks.org/problems/stack-permutations/1
+ * Language: class Solution { public: bool validateOp(vector<int>& a, vector<int>& b) { // code here int i=0,j=0; stack<int> stk; while(i<a.size() && j<b.size()){ while(!stk.empty() && stk.top() == b[j]){ stk.pop(); j++; } stk.push(a[i]); i++; } while(!stk.empty() && stk.top() == b[j]){ stk.pop(); j++; } return i==j; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Stack, implementation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T17:14:22.994Z
+ */
+
+class Solution {
+    public boolean validateOp(int[] a, int[] b) {
+        Stack<Integer> stack = new Stack<>();
+        int j = 0;
+        for (int x : a) {
+            stack.push(x);
+            while (!stack.isEmpty() && j < b.length && stack.peek() == b[j]) {
+                stack.pop();
+                j++;
+            }
+        }
+        return j == b.length;
+    }
+}
