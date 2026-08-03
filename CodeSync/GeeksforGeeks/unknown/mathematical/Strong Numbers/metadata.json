@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-03T15:53:50.851Z",
+  "submissionTimestamp": "2026-08-03T15:54:36.462Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "class Solution { public int is_StrongNumber(int n) { int sum = 0, temp = n; while(temp > 0){ int d = temp % 10, f = 1; for(int i = 1; i <= d; i++) f *= i; sum += f; temp /= 10; } return sum == n ? 1 : 0; } }",
   "problemTitle": "Strong Numbers",
   "problemUrl": "https://www.geeksforgeeks.org/problems/strong-numbers4336/1",
-  "submissionId": "pjsnji"
+  "submissionId": "gjueco"
 }
