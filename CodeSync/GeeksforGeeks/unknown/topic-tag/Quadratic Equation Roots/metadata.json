@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-03T15:10:44.186Z",
+  "submissionTimestamp": "2026-08-03T16:15:07.353Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -11,8 +11,8 @@
     "Program To Find The Roots Of Quadratic Equation"
   ],
   "platform": "GeeksforGeeks",
-  "language": "vector < int > v; int det = (b * b - 4 * a * c); if (det > 0) { int rootA = floor((-b + sqrt(det)) / (2 * a)); int rootB = floor((-b - sqrt(det)) / (2 * a)); if (rootA > rootB) { v.push_back(rootA); v.push_back(rootB); } else { v.push_back(rootB); v.push_back(rootA); } else if (det == 0) { double rootA = (-b) / (2 * a); double rootB = rootA; v.push_back(rootA); v.push_back(rootB); } else { return { -1 }; } return v;",
+  "language": "Java (21)",
   "problemTitle": "Quadratic Equation Roots",
   "problemUrl": "https://www.geeksforgeeks.org/problems/quadratic-equation-roots/1",
-  "submissionId": "8sbnp"
+  "submissionId": "x34iga"
 }
