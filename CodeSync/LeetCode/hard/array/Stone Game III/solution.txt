@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Stone Game III
+ * URL: https://leetcode.com/problems/stone-game-iii/description/?envType=daily-question&envId=2026-08-03
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T14:56:26.807Z
+ */
+
+class Solution {
+    public String stoneGameIII(int[] stoneValue) {
+        
+    }
+}
