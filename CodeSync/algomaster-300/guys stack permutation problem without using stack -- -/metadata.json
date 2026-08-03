@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-03T17:14:22.994Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags NPCI",
+    "Company Tags",
+    "NPCI",
+    "Topic Tags",
+    "Arrays",
+    "Stack",
+    "implementation"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: bool validateOp(vector<int>& a, vector<int>& b) { // code here int i=0,j=0; stack<int> stk; while(i<a.size() && j<b.size()){ while(!stk.empty() && stk.top() == b[j]){ stk.pop(); j++; } stk.push(a[i]); i++; } while(!stk.empty() && stk.top() == b[j]){ stk.pop(); j++; } return i==j; } };",
+  "problemTitle": "guys stack permutation problem without using stack 😂 :-",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/stack-permutations/1",
+  "submissionId": "2sul3t"
+}
