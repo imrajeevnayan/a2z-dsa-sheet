@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔍 Prime Pair With Target Sum || 🕵️‍♂️
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-prime4751/1
+ * Language: Function sieve(isPrime, n) // Mark 0 and 1 as not prime isPrime[0] = False isPrime[1] = False // Loop from 2 to square root of n For i from 2 to √n If isPrime[i] is True // Mark all multiples of i as not prime For j from i*i to n step by i isPrime[j] = False End For End If End For End Function Function getPrimes(n) // Create a boolean array to mark prime numbers isPrime = array of size (n + 1) initialized to True // Call the sieve function to mark non-prime numbers Call sieve(isPrime, n) // Loop from 2 to n/2 to find the prime pair For i from 2 to n/2 If isPrime[i] is True and isPrime[n - i] is True // Return the prime pair Return [i, n - i] End If End For // If no prime pair is found, return [-1, -1] Return [-1, -1] End Function
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoYahoo, Company Tags, Zoho, Yahoo, Topic Tags, number-theory, constructive algo
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T17:09:44.676Z
+ */
+
+class Solution {
+    public static ArrayList<Integer> getPrimes(int n) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        boolean[] prime = new boolean[n + 1];
+        Arrays.fill(prime, true);
+
+        prime[0] = false;
+        prime[1] = false;
+
+        // Sieve of Eratosthenes
+        for (int i = 2; i * i <= n; i++) {
+            if (prime[i]) {
+                for (int j = i * i; j <= n; j += i) {
+                    prime[j] = false;
+                }
+            }
+        }
+
+        // Find smallest prime pair
+        for (int a = 2; a <= n; a++) {
+            if (prime[a] && prime[n - a]) {
+                ans.add(a);
+                ans.add(n - a);
+                return ans;
+            }
+        }
+
+        ans.add(-1);
+        ans.add(-1);
+        return ans;
+    }
+}
