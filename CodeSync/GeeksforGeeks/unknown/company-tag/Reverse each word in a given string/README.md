@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1
-- Synced: 2026-08-02T11:41:03.483Z
+- Synced: 2026-08-03T08:16:24.489Z
 
 ## Problem Description
 
