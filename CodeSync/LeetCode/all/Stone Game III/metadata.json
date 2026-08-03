@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-03T14:56:26.807Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Minimax",
+    "Game Theory",
+    "Zero-Sum Game"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Stone Game III",
+  "problemUrl": "https://leetcode.com/problems/stone-game-iii/description/?envType=daily-question&envId=2026-08-03",
+  "submissionId": "bl64tj"
+}
