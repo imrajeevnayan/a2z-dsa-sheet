@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-03T16:09:44.419Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags FacebookPaytmMyntra",
+    "Company Tags",
+    "Facebook",
+    "Paytm",
+    "Myntra",
+    "Topic Tags",
+    "sliding-window"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Max Sum Subarray of Size at least K",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1",
+  "submissionId": "882ve2"
+}
