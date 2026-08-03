@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/who-has-the-majority/1
-- Synced: 2026-08-03T16:33:23.071Z
+- Synced: 2026-08-03T16:34:11.087Z
 
 ## Problem Description
 
