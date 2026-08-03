@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-30T11:01:06.162Z",
+  "submissionTimestamp": "2026-08-03T15:09:34.599Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Microsoft",
+    "Company Tags FacebookPaytmMyntra",
     "Company Tags",
-    "Microsoft",
+    "Facebook",
+    "Paytm",
+    "Myntra",
     "Topic Tags",
-    "Arrays",
-    "Bit Magic",
-    "Related Articles"
+    "sliding-window"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "def maxSumWithK(self, arr: list[int], k: int) -> int: n = len(arr) bestEnd = [0]*n bestEnd[0] = arr[0] for i in range(1,n): bestEnd[i] = max(arr[i],arr[i]+bestEnd[i-1]) winsum = sum(arr[:k]) ans = winsum for i in range(k,n): winsum = winsum + arr[i] - arr[i-k] ans = max(ans,winsum+bestEnd[i-k],winsum) return ans",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-subset-xor/1",
-  "submissionId": "8xqwq9"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1",
+  "submissionId": "qxzemo"
 }
