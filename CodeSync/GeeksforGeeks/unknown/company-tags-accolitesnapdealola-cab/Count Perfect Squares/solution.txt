@@ -7,11 +7,19 @@
  * Topics: Expected Complexities, Company Tags AccoliteSnapdealOla Cabs, Company Tags, Accolite, Snapdeal, Ola Cabs, Topic Tags, Mathematical
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-03T15:11:35.197Z
+ * Synced: 2026-08-03T15:12:30.787Z
  */
 
 class Solution {
     static int countSquares(int n) {
-        return (int) Math.sqrt(n - 1);
+        int count = 0;
+        int i = 1;
+
+        while (i * i < n) {
+            count++;
+            i++;
+        }
+
+        return count;
     }
 }
