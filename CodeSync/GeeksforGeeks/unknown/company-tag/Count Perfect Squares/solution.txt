@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Perfect Squares
+ * URL: https://www.geeksforgeeks.org/problems/count-squares3649/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteSnapdealOla Cabs, Company Tags, Accolite, Snapdeal, Ola Cabs, Topic Tags, Mathematical
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:11:35.197Z
+ */
+
+class Solution {
+    static int countSquares(int n) {
+        return (int) Math.sqrt(n - 1);
+    }
+}
