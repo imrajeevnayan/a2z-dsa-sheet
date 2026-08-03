@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-03T17:16:19.321Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Sorting",
+    "Related Articles",
+    "Merge 3 Sorted Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { vector<int> merge(vector<int> a, vector<int> b){ vector<int> ans; int n = a.size(); int m = b.size(); int i = 0; int j = 0; while(i<n && j<m){ if(a[i]<b[j]){ ans.push_back(a[i++]); } else{ ans.push_back(b[j++]); } } while(i<n){ ans.push_back(a[i++]); } while(j<m){ ans.push_back(b[j++]); } return ans; } public: vector<int> mergeThree(vector<int>& a, vector<int>& b, vector<int>& c) { // code here return merge(a,merge(b,c)); } };",
+  "problemTitle": "Probably the smallest code | TC and SC: O(3*N)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-three-sorted-arrays-1587115620/1",
+  "submissionId": "lqej6i"
+}
