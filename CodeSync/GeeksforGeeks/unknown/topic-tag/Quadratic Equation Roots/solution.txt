@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Quadratic Equation Roots
+ * URL: https://www.geeksforgeeks.org/problems/quadratic-equation-roots/1
+ * Language: vector < int > v; int det = (b * b - 4 * a * c); if (det > 0) { int rootA = floor((-b + sqrt(det)) / (2 * a)); int rootB = floor((-b - sqrt(det)) / (2 * a)); if (rootA > rootB) { v.push_back(rootA); v.push_back(rootB); } else { v.push_back(rootB); v.push_back(rootA); } else if (det == 0) { double rootA = (-b) / (2 * a); double rootB = rootA; v.push_back(rootA); v.push_back(rootB); } else { return { -1 }; } return v;
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Program To Find The Roots Of Quadratic Equation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:10:44.186Z
+ */
+
+class Solution {
+    public ArrayList<Integer> quadraticRoots(int a, int b, int c) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        long d = 1L * b * b - 4L * a * c;
+
+        if (d < 0) {
+            ans.add(-1);
+            return ans;
+        }
+
+        double sqrtD = Math.sqrt(d);
+
+        int r1 = (int) Math.floor((-b + sqrtD) / (2.0 * a));
+        int r2 = (int) Math.floor((-b - sqrtD) / (2.0 * a));
+
+        if (r1 >= r2) {
+            ans.add(r1);
+            ans.add(r2);
+        } else {
+            ans.add(r2);
+            ans.add(r1);
+        }
+
+        return ans;
+    }
+}
