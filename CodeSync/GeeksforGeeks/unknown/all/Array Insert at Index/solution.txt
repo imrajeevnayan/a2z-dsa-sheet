@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Array Insert at Index
+ * URL: https://www.geeksforgeeks.org/problems/array-insert-at-index/1
+ * Language: import java.util.*; class Solution { public void insertAtIndex(ArrayList<Integer> arr, int index, int val) { // code here arr.add(index ,val); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Insert Element At A Given Position In An Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T16:22:54.121Z
+ */
+
+import java.util.*;
+
+class Solution {
+    public void insertAtIndex(ArrayList<Integer> arr, int index, int val) {
+        arr.add(index, val);
+    }
+}
