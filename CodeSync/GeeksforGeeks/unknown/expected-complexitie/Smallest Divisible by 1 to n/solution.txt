@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smallest Divisible by 1 to n
+ * URL: https://www.geeksforgeeks.org/problems/smallest-divisible-number/1
+ * Language: long long getSmallestDivNum( long long n ) { long long r{ 1 }; do r = r * n / __gcd( r, n ); while ( --n > 1 ); return r; } // 0.01+
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Lcm First N Natural Numbers, Smallest Number Divisible First N Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:55:40.615Z
+ */
+
+class Solution {
+    public static long getSmallestDivNum(int n) {
+        long ans = 1;
+        for (int i = 2; i <= n; i++) {
+            ans = lcm(ans, i);
+        }
+        return ans;
+    }
+    private static long lcm(long a, long b) {
+        return (a * b) / gcd(a, b);
+    }
+    private static long gcd(long a, long b) {
+        while (b != 0) {
+            long temp = a % b;
+            a = b;
+            b = temp;
+        }
+        return a;
+    }
+}
