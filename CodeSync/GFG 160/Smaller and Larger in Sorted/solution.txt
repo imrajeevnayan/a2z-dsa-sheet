@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smaller and Larger in Sorted
+ * URL: https://www.geeksforgeeks.org/problems/smaller-and-larger4005/1
+ * Language: class Solution { int[] getMoreAndLess(int[] arr, int target) { int countL = 0, countG = 0; for(int i=0;i<arr.length;i++){ if(arr[i]<=target){ countL++; } if(arr[i]>=target){ countG++; } } int[] result = new int[]{countL, countG}; return result; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Count Smaller Equal Elements Sorted Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T16:48:22.178Z
+ */
+
+class Solution {
+    int[] getMoreAndLess(int[] arr, int target) {
+        int lessOrEqual = 0;
+        int greaterOrEqual = 0;
+
+        for (int num : arr) {
+            if (num <= target) lessOrEqual++;
+            if (num >= target) greaterOrEqual++;
+        }
+        return new int[]{lessOrEqual, greaterOrEqual};
+    }
+}
