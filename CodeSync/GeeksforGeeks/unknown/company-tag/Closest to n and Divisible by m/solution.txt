@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Closest to n and Divisible by m
+ * URL: https://www.geeksforgeeks.org/problems/closest-number5728/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Mathematical, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:23:43.400Z
+ */
+
+class Solution {
+    static int closestNumber(int n, int m) {
+        int q = n / m;
+
+        int n1 = m * q;
+        int n2;
+
+        if (n * m > 0)
+            n2 = m * (q + 1);
+        else
+            n2 = m * (q - 1);
+
+        if (Math.abs(n - n1) < Math.abs(n - n2))
+            return n1;
+        else if (Math.abs(n - n1) > Math.abs(n - n2))
+            return n2;
+        else
+            return Math.abs(n1) > Math.abs(n2) ? n1 : n2;
+    }
+}
