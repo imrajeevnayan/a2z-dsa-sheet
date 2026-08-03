@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-03T17:09:44.676Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags ZohoYahoo",
+    "Company Tags",
+    "Zoho",
+    "Yahoo",
+    "Topic Tags",
+    "number-theory",
+    "constructive algo"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Function sieve(isPrime, n) // Mark 0 and 1 as not prime isPrime[0] = False isPrime[1] = False // Loop from 2 to square root of n For i from 2 to √n If isPrime[i] is True // Mark all multiples of i as not prime For j from i*i to n step by i isPrime[j] = False End For End If End For End Function Function getPrimes(n) // Create a boolean array to mark prime numbers isPrime = array of size (n + 1) initialized to True // Call the sieve function to mark non-prime numbers Call sieve(isPrime, n) // Loop from 2 to n/2 to find the prime pair For i from 2 to n/2 If isPrime[i] is True and isPrime[n - i] is True // Return the prime pair Return [i, n - i] End If End For // If no prime pair is found, return [-1, -1] Return [-1, -1] End Function",
+  "problemTitle": "🔍 Prime Pair With Target Sum || 🕵️‍♂️",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-prime4751/1",
+  "submissionId": "f7ey2o"
+}
