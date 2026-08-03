@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Strong Numbers
+ * URL: https://www.geeksforgeeks.org/problems/strong-numbers4336/1
+ * Language: class Solution { public int is_StrongNumber(int n) { int sum = 0, temp = n; while(temp > 0){ int d = temp % 10, f = 1; for(int i = 1; i <= d; i++) f *= i; sum += f; temp /= 10; } return sum == n ? 1 : 0; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, factorial, Related Articles, Program To Check Strong Number
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T15:52:55.894Z
+ */
+
+class Solution {
+    public boolean isStrong(int n) {
+        int original = n;
+        int sum = 0;
+
+        while (n > 0) {
+            int digit = n % 10;
+            sum += factorial(digit);
+            n /= 10;
+        }
+
+        return sum == original;
+    }
+
+    private int factorial(int x) {
+        int fact = 1;
+        for (int i = 2; i <= x; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+}
