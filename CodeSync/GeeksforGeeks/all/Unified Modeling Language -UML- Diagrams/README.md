@@ -1,0 +1,18 @@
+# Unified Modeling Language (UML) Diagrams
+
+- Platform: GeeksforGeeks
+- Language: Python
+- Difficulty: Unknown
+- Topics: System Design Live Explore, System Design Live, Explore
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-introduction/
+- Synced: 2026-08-03T16:21:28.101Z
+
+## Problem Description
+
+Problem description was not available on the page at sync time.
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using Python. The detected topics are System Design Live Explore, System Design Live, Explore. Review the synced source file for the implementation details.
