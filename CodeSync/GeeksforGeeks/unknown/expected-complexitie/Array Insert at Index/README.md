@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/array-insert-at-index/1
-- Synced: 2026-08-03T16:22:54.121Z
+- Synced: 2026-08-03T16:23:42.134Z
 
 ## Problem Description
 
