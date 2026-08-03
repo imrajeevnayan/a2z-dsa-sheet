@@ -1,0 +1,38 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: can someone explain why is it accepted???? in the comment section almost everyone is using (maxValue+1) but range of int value is exceeding in this....
+ * URL: https://www.geeksforgeeks.org/problems/-rearrange-array-alternately-1587115620/1
+ * Language: void rearrange(long long *arr, int n) { // Your code here int lastidx=n-1; int firstidx=0; int maxi=arr[n-1]+1; for(int i=0;i<n;i++) { if(i%2==0) { arr[i]+=(arr[lastidx]%maxi)*maxi; lastidx--; } else { arr[i]+=(arr[firstidx]%maxi)*maxi; firstidx++; } } for(int i=0;i<n;i++) arr[i]/=maxi; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Related Articles, Rearrange Array Maximum Minimum Form
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T16:53:22.052Z
+ */
+
+class Solution {
+    public void rearrange(int arr[]) {
+        Arrays.sort(arr);
+
+        int n = arr.length;
+        int[] temp = new int[n];
+
+        int left = 0;
+        int right = n - 1;
+        int index = 0;
+
+        while (left <= right) {
+            if (index < n) {
+                temp[index++] = arr[right--]; // maximum
+            }
+
+            if (left <= right) {
+                temp[index++] = arr[left++]; // minimum
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = temp[i];
+        }
+    }
+}
