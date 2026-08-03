@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 📊 ArrayList Insert at End - The Foundation of Dynamic Data Structures
+ * URL: https://www.geeksforgeeks.org/problems/array-insert-at-end/1
+ * Language: class Solution { public void insertAtEnd(ArrayList<Integer> arr, int val) { arr.add(val); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Insert Element At The End Of An Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-03T16:49:05.128Z
+ */
+
+class Solution {
+    public void insertAtEnd(ArrayList<Integer> arr, int val) {
+        arr.add(val);
+    }
+}
