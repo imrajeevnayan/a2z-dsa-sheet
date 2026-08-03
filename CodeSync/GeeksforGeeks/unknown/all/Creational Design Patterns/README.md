@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/system-design/creational-design-pattern/
-- Synced: 2026-08-03T17:44:11.164Z
+- Synced: 2026-08-03T17:45:11.169Z
 
 ## Problem Description
 
