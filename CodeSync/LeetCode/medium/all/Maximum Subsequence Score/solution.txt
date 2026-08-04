@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Subsequence Score
+ * URL: https://leetcode.com/problems/maximum-subsequence-score/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T10:53:16.308Z
+ */
+
+class Solution {
+    public long maxScore(int[] nums1, int[] nums2, int k) {
+        
+    }
+}
