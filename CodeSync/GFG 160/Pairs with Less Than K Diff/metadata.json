@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-04T16:34:44.713Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Related Articles",
+    "Pairs Difference Less K"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Pairs with Less Than K Diff",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1",
+  "submissionId": "al0mst"
+}
