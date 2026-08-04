@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T12:07:07.608Z",
+  "submissionTimestamp": "2026-08-04T10:45:47.950Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "Find Missing Elements",
-  "problemUrl": "https://leetcode.com/problems/find-missing-elements/description/",
-  "submissionId": "uksovx"
+  "problemUrl": "https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04",
+  "submissionId": "s7rpb"
 }
