@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-04T10:45:47.950Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-04T10:46:42.007Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Daily Question",
   "problemTitle": "Find Missing Elements",
   "problemUrl": "https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04",
-  "submissionId": "s7rpb"
+  "submissionId": "4rx00r"
 }
