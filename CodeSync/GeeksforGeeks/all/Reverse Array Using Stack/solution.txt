@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Reverse Array Using Stack
  * URL: https://www.geeksforgeeks.org/problems/reverse-array-using-stack--143151/1
- * Language: // User function Template for C++ // Complete this function #include <iostream> #include <vector> #include <stack> class Solution { public: void reverseArray(vector<int>& arr) { stack<int>s; // Your code here int n=arr.size(); for(int i=0;i<n;i++){ s.push(arr[i]); } for(int i=0;i<n;i++){ arr[i]=s.top(); s.pop(); // Reverse the array } } };
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Stack, STL, Data Structures
+ * Topics: Expected Complexities, Topic Tags, Stack, STL, Related Articles, Reverse An Array Using Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:27:18.820Z
+ * Synced: 2026-08-04T16:37:50.159Z
  */
 
 class Solution {
