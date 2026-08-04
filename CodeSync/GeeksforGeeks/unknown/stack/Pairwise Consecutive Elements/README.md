@@ -1,13 +1,13 @@
 # Pairwise Consecutive Elements
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: #include <iostream> #include <stack> #include <cmath> // for abs() using namespace std; bool pairWiseConsecutive(stack<int> st) { if (st.empty()) return true; bool res = true; stack<int> temp; // If odd number of elements, remove the top one if (st.size() % 2 != 0) { st.pop(); } while (!st.empty()) { int first = st.top(); st.pop(); int second = st.top(); st.pop(); if (abs(first - second) != 1) { res = false; } // store for restoring later temp.push(second); temp.push(first); } // restore stack while (!temp.empty()) { st.push(temp.top()); temp.pop(); } return res; }
 - Difficulty: Unknown
 - Topics: Topic Tags Related Articles, Topic Tags, Stack, Related Articles, Check If Stack Elements Are Pairwise Consecutive, Stack In Cpp Stl
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/pairwise-consecutive-elements/1
-- Synced: 2026-08-04T16:36:28.445Z
+- Synced: 2026-08-04T16:37:15.665Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a stack of integers of size N, your task is to complete the function pairW
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Topic Tags Related Articles, Topic Tags, Stack, Related Articles, Check If Stack Elements Are Pairwise Consecutive, Stack In Cpp Stl. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using #include <iostream> #include <stack> #include <cmath> // for abs() using namespace std; bool pairWiseConsecutive(stack<int> st) { if (st.empty()) return true; bool res = true; stack<int> temp; // If odd number of elements, remove the top one if (st.size() % 2 != 0) { st.pop(); } while (!st.empty()) { int first = st.top(); st.pop(); int second = st.top(); st.pop(); if (abs(first - second) != 1) { res = false; } // store for restoring later temp.push(second); temp.push(first); } // restore stack while (!temp.empty()) { st.push(temp.top()); temp.pop(); } return res; }. The detected topics are Topic Tags Related Articles, Topic Tags, Stack, Related Articles, Check If Stack Elements Are Pairwise Consecutive, Stack In Cpp Stl. Review the synced source file for the implementation details.
