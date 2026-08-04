@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: For Python3 Platform
+ * URL: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
+ * Language: ''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T11:01:56.812Z
+ */
+
+class Solution {
+    int multiplyTwoLists(Node first, Node second) {
+        long mod = 1000000007;
+        long num1 = 0;
+        long num2 = 0;
+
+        while (first != null) {
+            num1 = (num1 * 10 + first.data) % mod;
+            first = first.next;
+        }
+
+        while (second != null) {
+            num2 = (num2 * 10 + second.data) % mod;
+            second = second.next;
+        }
+
+        return (int)((num1 * num2) % mod);
+    }
+}
