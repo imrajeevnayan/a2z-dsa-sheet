@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pairwise Consecutive Elements
+ * URL: https://www.geeksforgeeks.org/problems/pairwise-consecutive-elements/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Stack, Related Articles, Check If Stack Elements Are Pairwise Consecutive, Stack In Cpp Stl
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T16:36:28.445Z
+ */
+
+// your task is to complete the function
+// function should return true/false or 1/0
+class GFG {
+    public static boolean pairWiseConsecutive(Stack<Integer> st) {
+        // Your code here
+        
+    }
+}
