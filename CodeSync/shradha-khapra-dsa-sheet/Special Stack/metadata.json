@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-04T16:40:39.531Z",
+  "submissionTimestamp": "2026-08-04T16:41:26.692Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "FactSet"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "/*Complete the function(s) below*/ class GfG { Stack<Long> st=new Stack<Long>(); Long mini; public void push(int a, Stack<Integer> s) { s.push(a); // add code here. } public int pop(Stack<Integer> s) { // add code here. if(s.isEmpty())return -1; return s.pop(); } public int min(Stack<Integer> s) { if (s.isEmpty()) return -1; // agar stack empty hai int min = s.peek(); Stack<Integer> t = new Stack<>(); while (!s.isEmpty()) { // ✅ yehi sahi hai min = Math.min(min, s.peek()); t.push(s.pop()); } while (!t.isEmpty()) { // original stack wapas restore karna s.push(t.pop()); } return min; } public boolean isFull(Stack<Integer> s, int n) { // add code return s.size()==n; } public boolean isEmpty(Stack<Integer> s) { return s.isEmpty(); // add code here. } }",
   "problemTitle": "Special Stack",
   "problemUrl": "https://www.geeksforgeeks.org/problems/special-stack/1",
-  "submissionId": "si5r82"
+  "submissionId": "10wgn9"
 }
