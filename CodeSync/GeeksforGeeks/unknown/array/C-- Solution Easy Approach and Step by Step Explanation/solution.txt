@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Solution || Easy Approach and Step by Step Explanation
+ * URL: https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1
+ * Language: class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Pairs Difference Less K
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T10:59:41.555Z
+ */
+
+class Solution {
+    public static int countPairs(int arr[], int k) {
+        Arrays.sort(arr);
+        int left = 0,count = 0;
+        for (int right = 1; right < arr.length; right++) {
+            while (arr[right] - arr[left] >= k) {
+                left++;
+            }
+            count += right - left;
+        }
+        return count;
+    }
+}
