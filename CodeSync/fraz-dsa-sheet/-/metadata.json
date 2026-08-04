@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-02T06:06:52.602Z",
+  "submissionTimestamp": "2026-08-04T10:45:24.360Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Math",
-    "Dynamic Programming",
-    "Game Theory"
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "LeetCode 75",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02",
-  "submissionId": "44mpyg"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "l27qa1"
 }
