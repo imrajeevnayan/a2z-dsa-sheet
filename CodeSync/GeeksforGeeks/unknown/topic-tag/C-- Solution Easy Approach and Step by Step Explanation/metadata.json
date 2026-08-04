@@ -1,21 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-03T06:51:29.071Z",
+  "submissionTimestamp": "2026-08-04T10:59:41.555Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Binary Search",
-    "Map",
-    "Data Structures",
-    "Algorithms",
+    "Arrays",
     "Related Articles",
-    "Count Frequency Of An Element In A Given Range"
+    "Pairs Difference Less K"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: int bs(vector<int>&a , int k){ int st = 0 ,en = a.size()-1; while(st<=en){ int mid = (st + en)/2; if(a[mid] == k)return mid+1; if(a[mid] <k)st = mid+1; else en = mid-1; } return st; } vector<int> freqInRange(vector<int>& arr, vector<vector<int>>& queries) { // code here unordered_map< int, vector<int>>adj; for(int i = 0 ;i< arr.size() ; i++){ adj[arr[i]].push_back(i); } vector<int>ans; for(auto &i: queries){ if(adj.find(i[2]) == adj.end()){ ans.push_back(0); continue; } int count = bs(adj[i[2]] , i[1]); // cout<<count<<endl; count-=bs(adj[i[2]] , i[0]-1); ans.push_back(count); } return ans; } };",
+  "language": "class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/1",
-  "submissionId": "gb3cy9"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1",
+  "submissionId": "lzte3p"
 }
