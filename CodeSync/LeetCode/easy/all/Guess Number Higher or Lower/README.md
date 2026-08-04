@@ -1,13 +1,13 @@
 # Guess Number Higher or Lower
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/submissions/2079602885/
-- Synced: 2026-07-24T13:17:28.277Z
+- Problem URL: https://leetcode.com/problems/guess-number-higher-or-lower/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-04T10:55:43.861Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ We are playing the Guess Game. The game is as follows: I pick a number from 1 to
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Binary Search, Interactive. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Binary Search, Interactive. Review the synced source file for the implementation details.
