@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04
-- Synced: 2026-08-04T10:45:47.950Z
+- Synced: 2026-08-04T10:46:42.007Z
 
 ## Problem Description
 
