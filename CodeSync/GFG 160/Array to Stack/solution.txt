@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Array to Stack
+ * URL: https://www.geeksforgeeks.org/problems/stack-designer/1
+ * Language: import java.util.*; class Solution { public static Stack<Integer> push(int arr[]) { // Your code here Stack<Integer> st=new Stack<>(); for(int i=0;i<arr.length;i++){ st.push(arr[i]); } return st; } public static void pop(Stack<Integer> s) { while(!s.isEmpty()){ System.out.print(s.pop()+" "); } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, STL, Related Articles, Stack Data Structure
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T16:36:15.529Z
+ */
+
+class Solution {
+    public static Stack<Integer> push(int arr[]) {
+        Stack<Integer> s = new Stack<>();
+        for (int i = 0; i < arr.length; i++)  s.push(arr[i]);
+        return s;
+    }
+    public static void printAndPop(Stack<Integer> s) {
+        while (!s.isEmpty()) {
+            System.out.print(s.pop() + " ");
+        }
+    }
+}
