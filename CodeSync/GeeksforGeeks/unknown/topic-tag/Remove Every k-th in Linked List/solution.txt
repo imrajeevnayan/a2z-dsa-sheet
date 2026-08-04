@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Every k'th in Linked List
+ * URL: https://www.geeksforgeeks.org/problems/remove-every-kth-node/1
+ * Language: class Solution { public: Node* deleteK(Node* head, int k) { if (head == NULL) return NULL; if (k == 1) return NULL; Node* curr = head; Node* prev = NULL; int count = 1; while (curr != NULL) { if (count % k == 0) { prev->next = curr->next; Node* temp = curr; curr = curr->next; delete temp; } else { prev = curr; curr = curr->next; } count++; } return head; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Remove Every K Th Node Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T11:00:59.344Z
+ */
+
+class Solution {
+    Node deleteK(Node head, int k) {
+        if (head == null || k <= 1) {
+            return k <= 1 ? null : head;
+        }
+
+        Node curr = head;
+        Node prev = null;
+        int count = 1;
+
+        while (curr != null) {
+            if (count % k == 0) {
+                prev.next = curr.next;
+                curr = curr.next;
+            } else {
+                prev = curr;
+                curr = curr.next;
+            }
+            count++;
+        }
+
+        return head;
+    }
+}
