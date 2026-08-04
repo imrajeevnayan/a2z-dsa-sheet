@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Find Missing Elements
- * URL: https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04
+ * URL: https://leetcode.com/problems/find-missing-elements/?envType=daily-question&envId=2026-08-04
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-04T10:46:42.007Z
+ * Synced: 2026-08-04T10:49:38.903Z
  */
 
-class Solution {
+set.add(num);
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+        for (int num : nums) {
+
+        }
+        for (int i = min; i <= max; i++) {
+            if (!set.contains(i)) result.add(i);
+        }
+        return result;
+        int min = Integer.MAX_VALUE,max = Integer.MIN_VALUE;
+        Set<Integer> set = new HashSet<>();
+        List<Integer> result = new ArrayList<>();
     public List<Integer> findMissingElements(int[] nums) {
-        
-    }
-}
+class Solution {
