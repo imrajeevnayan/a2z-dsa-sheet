@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-array-using-stack--143151/1
-- Synced: 2026-08-04T16:38:40.127Z
+- Synced: 2026-08-04T16:39:26.085Z
 
 ## Problem Description
 
