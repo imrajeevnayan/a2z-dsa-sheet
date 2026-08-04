@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-02T11:29:43.291Z",
+  "submissionTimestamp": "2026-08-04T11:01:56.812Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Oracle",
+    "Company Tags Amazon",
     "Company Tags",
-    "Oracle",
+    "Amazon",
     "Topic Tags",
-    "Strings",
-    "Related Interview Experiences",
-    "Oracle Interview Experience Set 47 Campus"
+    "Linked List",
+    "Modular Arithmetic",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def modify(self, s): if(s[0].isupper()): return s.upper() else: return s.lower()",
+  "language": "''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7)",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/change-the-string3541/1",
-  "submissionId": "nedblx"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1",
+  "submissionId": "tq7v1j"
 }
