@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Missing Elements
- * URL: https://leetcode.com/problems/find-missing-elements/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04
+ * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:07:07.608Z
+ * Synced: 2026-08-04T10:45:47.950Z
  */
 
 class Solution {
@@ -23,3 +23,5 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         for (int i = min + 1; i < max; i++) {
             if (!set.contains(i)) ans.add(i);
+        }
+        return ans;
