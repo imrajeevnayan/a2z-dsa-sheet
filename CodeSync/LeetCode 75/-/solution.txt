@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-27T11:24:33.736Z
+ * Synced: 2026-08-04T10:45:24.360Z
  */
 
 Input: nums = [1,2,3,4]
