@@ -1,13 +1,13 @@
 # Find Missing Elements
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-missing-elements/description/
-- Synced: 2026-07-24T12:07:07.608Z
+- Problem URL: https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04
+- Synced: 2026-08-04T10:45:47.950Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums consisting of unique integers. Originally, n
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
