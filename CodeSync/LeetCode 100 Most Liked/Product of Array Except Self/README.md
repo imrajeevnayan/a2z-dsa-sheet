@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2083274604/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:27:01.625Z
+- Memory: 72.02 MB
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2093860892/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-04T10:46:21.582Z
 
 ## Problem Description
 
