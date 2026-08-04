@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Greedy, Sorting, Heap (Priority Queue)
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-subsequence-score/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-04T10:53:16.308Z
+- Runtime: 1 ms
+- Memory: 102.51 MB
+- Problem URL: https://leetcode.com/problems/maximum-subsequence-score/submissions/2093869374/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-04T10:54:02.444Z
 
 ## Problem Description
 
