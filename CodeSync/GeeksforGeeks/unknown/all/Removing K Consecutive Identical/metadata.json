@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-04T16:44:32.549Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoft",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Topic Tags",
+    "Strings",
+    "Stack"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public static String reduced_String(int k, String s) { // Your code goes here if (k == 1) return \"\"; Stack<Character> charStack = new Stack<>(); Stack<Integer> countStack = new Stack<>(); for (int i = 0; i < s.length(); i++) { char curr = s.charAt(i); if (!charStack.isEmpty() && charStack.peek() == curr) { countStack.push(countStack.peek() +1); } else { countStack.push(1); } charStack.push(curr); if (countStack.peek() == k) { for (int j = 0; j < k; j++) { charStack.pop(); countStack.pop(); } } } StringBuilder sb = new StringBuilder(); while (!charStack.isEmpty()) { sb.append(charStack.pop()); } return sb.reverse().toString(); } }",
+  "problemTitle": "Removing K Consecutive Identical",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/restrictive-candy-crush--141631/1",
+  "submissionId": "dr5d99"
+}
