@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: 72.02 MB
- * Synced: 2026-08-04T10:51:26.992Z
+ * Synced: 2026-08-04T10:52:12.992Z
  */
 
 public int[] productExceptSelf(int[] nums) {
