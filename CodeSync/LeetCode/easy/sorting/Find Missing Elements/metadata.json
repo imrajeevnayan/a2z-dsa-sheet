@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-04T10:46:42.007Z",
+  "submissionTimestamp": "2026-08-04T10:49:38.903Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Find Missing Elements",
-  "problemUrl": "https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04",
-  "submissionId": "4rx00r"
+  "problemUrl": "https://leetcode.com/problems/find-missing-elements/?envType=daily-question&envId=2026-08-04",
+  "submissionId": "yv1853"
 }
