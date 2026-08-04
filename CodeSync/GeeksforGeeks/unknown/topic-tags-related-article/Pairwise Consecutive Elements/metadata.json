@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-04T16:36:28.445Z",
+  "submissionTimestamp": "2026-08-04T16:37:15.665Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Stack In Cpp Stl"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "#include <iostream> #include <stack> #include <cmath> // for abs() using namespace std; bool pairWiseConsecutive(stack<int> st) { if (st.empty()) return true; bool res = true; stack<int> temp; // If odd number of elements, remove the top one if (st.size() % 2 != 0) { st.pop(); } while (!st.empty()) { int first = st.top(); st.pop(); int second = st.top(); st.pop(); if (abs(first - second) != 1) { res = false; } // store for restoring later temp.push(second); temp.push(first); } // restore stack while (!temp.empty()) { st.push(temp.top()); temp.pop(); } return res; }",
   "problemTitle": "Pairwise Consecutive Elements",
   "problemUrl": "https://www.geeksforgeeks.org/problems/pairwise-consecutive-elements/1",
-  "submissionId": "11vc3g"
+  "submissionId": "w4kjjj"
 }
