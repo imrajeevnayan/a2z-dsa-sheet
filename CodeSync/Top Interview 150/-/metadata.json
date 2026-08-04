@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-28T09:43:43.353Z",
+  "submissionTimestamp": "2026-08-04T10:45:24.360Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "ks0eht"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "l27qa1"
 }
