@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-04T11:00:59.344Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Related Articles",
+    "Remove Every K Th Node Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: Node* deleteK(Node* head, int k) { if (head == NULL) return NULL; if (k == 1) return NULL; Node* curr = head; Node* prev = NULL; int count = 1; while (curr != NULL) { if (count % k == 0) { prev->next = curr->next; Node* temp = curr; curr = curr->next; delete temp; } else { prev = curr; curr = curr->next; } count++; } return head; } };",
+  "problemTitle": "Remove Every k'th in Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-every-kth-node/1",
+  "submissionId": "exhcwp"
+}
