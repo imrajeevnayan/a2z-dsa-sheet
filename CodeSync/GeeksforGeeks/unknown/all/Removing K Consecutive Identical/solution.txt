@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Removing K Consecutive Identical
+ * URL: https://www.geeksforgeeks.org/problems/restrictive-candy-crush--141631/1
+ * Language: class Solution { public static String reduced_String(int k, String s) { // Your code goes here if (k == 1) return ""; Stack<Character> charStack = new Stack<>(); Stack<Integer> countStack = new Stack<>(); for (int i = 0; i < s.length(); i++) { char curr = s.charAt(i); if (!charStack.isEmpty() && charStack.peek() == curr) { countStack.push(countStack.peek() +1); } else { countStack.push(1); } charStack.push(curr); if (countStack.peek() == k) { for (int j = 0; j < k; j++) { charStack.pop(); countStack.pop(); } } } StringBuilder sb = new StringBuilder(); while (!charStack.isEmpty()) { sb.append(charStack.pop()); } return sb.reverse().toString(); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Strings, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T16:44:32.549Z
+ */
+
+import java.util.*;
+
+class Solution {
+    public String reducedString(int k, String s) {
+        
+        if (k == 1) {
+            return "";
+        }
+
+        Stack<Character> st = new Stack<>();
+        Stack<Integer> cnt = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+            if (!st.isEmpty() && st.peek() == ch) {
+                int c = cnt.pop() + 1;
+
+                if (c == k) {
+                    st.pop();
+                } else {
+                    cnt.push(c);
+                }
+            } else {
+                st.push(ch);
+                cnt.push(1);
+            }
+        }
+
+        StringBuilder ans = new StringBuilder();
+
+        for (int i = 0; i < st.size(); i++) {
+            ans.append(String.valueOf(st.get(i)).repeat(cnt.get(i)));
+        }
+
+        return ans.toString();
+    }
