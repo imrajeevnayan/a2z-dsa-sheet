@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse Array Using Stack
+ * URL: https://www.geeksforgeeks.org/problems/reverse-array-using-stack--143151/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, STL, Related Articles, Reverse An Array Using Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-04T16:37:50.159Z
+ */
+
+class Solution {
+    public void reverseArray(int[] arr) {
+        Stack<Integer>st=new Stack<>();
+        for(int a :arr)st.add(a);
+        int i=0;
+        while(!st.isEmpty()){
+          arr[i++]= st.pop();
+        }
+    }
+}
