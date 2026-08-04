@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sorting
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question&envId=2026-08-04
-- Synced: 2026-08-04T10:46:42.007Z
+- Problem URL: https://leetcode.com/problems/find-missing-elements/?envType=daily-question&envId=2026-08-04
+- Synced: 2026-08-04T10:49:38.903Z
 
 ## Problem Description
 
