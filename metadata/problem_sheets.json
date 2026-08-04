@@ -2246,5 +2246,10 @@
   ],
   "geeksforgeeks:remove-every-kth-node": [
     "GFG160"
+  ],
+  "geeksforgeeks:multiply-two-linked-lists": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
