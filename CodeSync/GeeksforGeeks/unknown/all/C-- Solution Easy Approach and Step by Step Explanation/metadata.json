@@ -1,21 +1,18 @@
 {
-  "submissionTimestamp": "2026-08-03T15:09:34.599Z",
+  "submissionTimestamp": "2026-08-04T10:59:41.555Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags FacebookPaytmMyntra",
-    "Company Tags",
-    "Facebook",
-    "Paytm",
-    "Myntra",
     "Topic Tags",
-    "sliding-window"
+    "Arrays",
+    "Related Articles",
+    "Pairs Difference Less K"
   ],
   "platform": "GeeksforGeeks",
-  "language": "def maxSumWithK(self, arr: list[int], k: int) -> int: n = len(arr) bestEnd = [0]*n bestEnd[0] = arr[0] for i in range(1,n): bestEnd[i] = max(arr[i],arr[i]+bestEnd[i-1]) winsum = sum(arr[:k]) ans = winsum for i in range(k,n): winsum = winsum + arr[i] - arr[i-k] ans = max(ans,winsum+bestEnd[i-k],winsum) return ans",
+  "language": "class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1",
-  "submissionId": "qxzemo"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1",
+  "submissionId": "lzte3p"
 }
