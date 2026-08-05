@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum Product of k Elements
+ * URL: https://www.geeksforgeeks.org/problems/minimum-product-of-k-integers2553/1
+ * Language: class Solution { int minProduct(int arr[], int k) { final int MOD = (int)1e9 + 7; if (k > arr.length) { k = arr.length; } long prod = 1; Arrays.sort(arr); for(int i=0;i<k;i++){ prod = (prod * arr[i]) % MOD; } return (int)prod; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Modular Arithmetic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T11:07:12.623Z
+ */
+
+class Solution {
+    public int minProduct(int[] arr, int k) {
+        Arrays.sort(arr);
+        long mod = 1000000007L;
+        long product = 1;
+        for (int i = 0; i < k && i < arr.length; i++) {
+            product = (product * arr[i]) % mod;
+        }
+        return (int) product;
+    }
+}
