@@ -2307,5 +2307,10 @@
   ],
   "leetcode:island-perimeter": [],
   "leetcode:number-of-unique-xor-triplets-ii": [],
-  "leetcode:maximum-value-at-a-given-index-in-a-bounded-array": []
+  "leetcode:maximum-value-at-a-given-index-in-a-bounded-array": [],
+  "geeksforgeeks:count-the-number-of-subarrays": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
