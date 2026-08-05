@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-05T10:52:52.956Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Math",
+    "Binary Search",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Value at a Given Index in a Bounded Array",
+  "problemUrl": "https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/",
+  "submissionId": "loof5x"
+}
