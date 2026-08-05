@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
-- Synced: 2026-08-05T20:05:22.643Z
+- Synced: 2026-08-05T20:06:10.657Z
 
 ## Problem Description
 
