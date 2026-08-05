@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Unique XOR Triplets II
+ * URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Bit Manipulation, Enumeration
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-05T10:52:10.573Z
+ */
+
+}
+        }
+
+        int ans = 0;
+        for (boolean b : three) {
+            if (b) ans++;
+        }
+
+        return ans;
+    }
+}
