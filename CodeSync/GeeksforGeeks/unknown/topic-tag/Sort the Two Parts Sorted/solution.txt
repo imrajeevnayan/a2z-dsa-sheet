@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort the Two Parts Sorted
+ * URL: https://www.geeksforgeeks.org/problems/sort-the-half-sorted2157/1
+ * Language: void sortHalves (int arr[], int n) { // your code here int mid = 0; for(int i=1;i<n;++i){ if(arr[i] < arr[i-1]) mid = i-1; } int i = 0, j = mid+1; int tmp[n]; for(int k=0;k<=n-1;++k){ if(i > mid){ tmp[k] = arr[j++]; continue; } if(j > n-1){ tmp[k] = arr[i++]; continue; } tmp[k] = (arr[i] < arr[j] ? arr[i++] : arr[j++]); } for(int k=0;k<=n-1;++k){ arr[k] = tmp[k]; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Sorting, Related Articles, Sort Array Two Halves Sorted
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T11:25:00.161Z
+ */
+
+class Solution {
+    public void sortHalves(int[] arr) {
+        Arrays.sort(arr);
+    }
+}
