@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Bit Manipulation, Enumeration
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05
-- Synced: 2026-08-05T10:52:10.573Z
+- Memory: 46.80 MB
+- Problem URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/submissions/2095205171/?envType=daily-question&envId=2026-08-05
+- Synced: 2026-08-05T10:53:07.246Z
 
 ## Problem Description
 
