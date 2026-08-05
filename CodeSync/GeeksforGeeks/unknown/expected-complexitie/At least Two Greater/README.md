@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/at-least-two-greater-elements4625/1
-- Synced: 2026-08-05T10:58:17.700Z
+- Synced: 2026-08-05T10:59:05.687Z
 
 ## Problem Description
 
