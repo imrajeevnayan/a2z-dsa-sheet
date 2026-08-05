@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Value at a Given Index in a Bounded Array
+ * URL: https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Binary Search, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T10:52:52.956Z
+ */
+
+class Solution {
+    public int maxValue(int n, int index, int maxSum) {
+        
+    }
+}
