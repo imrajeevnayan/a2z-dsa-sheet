@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-05T10:47:29.902Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Island Perimeter",
+  "problemUrl": "https://leetcode.com/problems/island-perimeter/description/",
+  "submissionId": "adugbx"
+}
