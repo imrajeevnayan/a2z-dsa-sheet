@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Flood Fill
+ * URL: https://leetcode.com/problems/flood-fill/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T10:46:09.607Z
+ */
+
+class Solution {
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int originalColor = image[sr][sc];
+        if (originalColor == color) return image;
+        dfs(image, sr, sc, originalColor, color);
+        return image;
+    }
+    
+    private void dfs(int[][] image, int row, int col, int originalColor, int newColor) {
+        if (row < 0 || row >= image.length || 
+            col < 0 || col >= image[0].length || 
+            image[row][col] != originalColor) {
+            return;
+        }
+        image[row][col] = newColor;
