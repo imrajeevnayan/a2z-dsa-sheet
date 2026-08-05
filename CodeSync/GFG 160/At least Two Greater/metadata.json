@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-05T10:56:46.448Z",
+  "submissionTimestamp": "2026-08-05T10:57:31.797Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public long[] findElements(long arr[]) { Arrays.sort(arr); long[] result = new long[arr.length-2]; for (int i=0; i<result.length; i++) { result[i] = arr[i]; } return result; } }",
   "problemTitle": "At least Two Greater",
   "problemUrl": "https://www.geeksforgeeks.org/problems/at-least-two-greater-elements4625/1",
-  "submissionId": "b945vx"
+  "submissionId": "lbeogp"
 }
