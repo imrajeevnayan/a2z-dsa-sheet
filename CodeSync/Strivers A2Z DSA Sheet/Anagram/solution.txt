@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T11:33:45.650Z
+ * Synced: 2026-08-05T11:34:33.646Z
  */
 
 class Solution {
