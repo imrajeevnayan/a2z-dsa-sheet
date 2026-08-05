@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-05T11:07:12.623Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Sorting",
+    "Modular Arithmetic",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { int minProduct(int arr[], int k) { final int MOD = (int)1e9 + 7; if (k > arr.length) { k = arr.length; } long prod = 1; Arrays.sort(arr); for(int i=0;i<k;i++){ prod = (prod * arr[i]) % MOD; } return (int)prod; } }",
+  "problemTitle": "Minimum Product of k Elements",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/minimum-product-of-k-integers2553/1",
+  "submissionId": "x8lr4k"
+}
