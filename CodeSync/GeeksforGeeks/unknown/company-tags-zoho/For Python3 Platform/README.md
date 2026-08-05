@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
-- Synced: 2026-08-05T11:03:18.740Z
+- Synced: 2026-08-05T11:04:07.074Z
 
 ## Problem Description
 
