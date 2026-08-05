@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/triplet-family/1
-- Synced: 2026-08-05T10:59:51.533Z
+- Synced: 2026-08-05T11:01:50.504Z
 
 ## Problem Description
 
