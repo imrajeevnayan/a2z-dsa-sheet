@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Math, Binary Search, Greedy
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/
-- Synced: 2026-08-05T10:52:52.956Z
+- Problem URL: https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/submissions/2095206254/
+- Synced: 2026-08-05T10:53:38.674Z
 
 ## Problem Description
 
