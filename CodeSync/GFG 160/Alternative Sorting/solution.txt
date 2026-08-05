@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Alternative Sorting
+ * URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T11:08:55.204Z
+ */
+
+class Solution {
+    public static ArrayList<Integer> alternateSort(int[] arr) {
+        Arrays.sort(arr);
+        ArrayList<Integer> ans = new ArrayList<>();
+        int left = 0,right = arr.length - 1;
+
+        while (left <= right) {
+            if (left != right) {
+                ans.add(arr[right]); 
+                right--;
+
+                ans.add(arr[left]);  
+                left++;
+            } else {
+                ans.add(arr[left]); 
+                left++;
+            }
+        }
+        return ans;
+    }
+}
