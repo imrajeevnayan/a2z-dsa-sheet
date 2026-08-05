@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Island Perimeter
+ * URL: https://leetcode.com/problems/island-perimeter/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T10:47:29.902Z
+ */
+
+class Solution {
+    public int islandPerimeter(int[][] grid) {
+        
+    }
+}
