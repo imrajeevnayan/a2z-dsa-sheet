@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-05T10:44:37.943Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Remove Methods From Project",
+  "problemUrl": "https://leetcode.com/problems/remove-methods-from-project/description/?envType=daily-question&envId=2026-08-05",
+  "submissionId": "p67ye5"
+}
