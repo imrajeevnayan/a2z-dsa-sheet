@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Addition of Two Numbers
+ * URL: https://www.geeksforgeeks.org/problems/arithmetic-operators-1605594922/1
+ * Language: import java.util.Scanner; class GFG { public static void main(String[] args) { Scanner sc = new Scanner(System.in); int x = sc.nextInt(); int y = sc.nextInt(); // code here int p = x+y ; int q = x-y ; int r = x*y ; int s = x/y ; int t = x%y ; // The below code prints the output System.out.println(p + " " + q + " " + r + " " + s + " " + t); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Mathematical, CPP
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T12:17:51.231Z
+ */
+
+class Solution {
+    public int addition(int a, int b) {
+        return a+b;
+    }
+}
