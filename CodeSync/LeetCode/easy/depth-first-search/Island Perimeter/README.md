@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Depth-First Search, Breadth-First Search, Matrix
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/island-perimeter/description/
-- Synced: 2026-08-05T10:47:29.902Z
+- Runtime: 0 ms
+- Memory: 48.04 MB
+- Problem URL: https://leetcode.com/problems/island-perimeter/
+- Synced: 2026-08-05T10:48:14.966Z
 
 ## Problem Description
 
