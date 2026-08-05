@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/anagram-1587115620/1
-- Synced: 2026-08-05T11:32:09.099Z
+- Synced: 2026-08-05T11:32:57.640Z
 
 ## Problem Description
 
