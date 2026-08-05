@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-05T11:29:33.263Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Flipkart",
+    "Company Tags",
+    "Flipkart",
+    "Topic Tags",
+    "Sorting",
+    "Related Interview Experiences",
+    "Flipkart Interview Experience Set 24"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int findMinDiff(vector<int>& a, int m) { // code here sort(a.begin(), a.end()); int n = a.size(); int mini = INT_MAX; for (int i = 0; i <= n - m; i++){ mini = min(mini, a[m+i-1] - a[i]); } return mini; }",
+  "problemTitle": "SIMPLE SOLUTION",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1",
+  "submissionId": "916ldg"
+}
