@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-05T11:25:00.161Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Sorting",
+    "Related Articles",
+    "Sort Array Two Halves Sorted"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "void sortHalves (int arr[], int n) { // your code here int mid = 0; for(int i=1;i<n;++i){ if(arr[i] < arr[i-1]) mid = i-1; } int i = 0, j = mid+1; int tmp[n]; for(int k=0;k<=n-1;++k){ if(i > mid){ tmp[k] = arr[j++]; continue; } if(j > n-1){ tmp[k] = arr[i++]; continue; } tmp[k] = (arr[i] < arr[j] ? arr[i++] : arr[j++]); } for(int k=0;k<=n-1;++k){ arr[k] = tmp[k]; } }",
+  "problemTitle": "Sort the Two Parts Sorted",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sort-the-half-sorted2157/1",
+  "submissionId": "nbr5lf"
+}
