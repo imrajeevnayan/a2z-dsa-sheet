@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-05T10:52:10.573Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Bit Manipulation",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Number of Unique XOR Triplets II",
+  "problemUrl": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05",
+  "submissionId": "rbs5cu"
+}
