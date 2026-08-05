@@ -1,31 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
- * Language: ''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7)
+ * URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
+ * Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles
+ * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-04T11:01:56.812Z
+ * Synced: 2026-08-05T11:03:18.740Z
  */
 
 class Solution {
-    int multiplyTwoLists(Node first, Node second) {
-        long mod = 1000000007;
-        long num1 = 0;
-        long num2 = 0;
+    public static ArrayList<Integer> alternateSort(int[] arr) {
+        Arrays.sort(arr);
+        ArrayList<Integer> ans = new ArrayList<>();
+        int left = 0,right = arr.length - 1;
 
-        while (first != null) {
-            num1 = (num1 * 10 + first.data) % mod;
-            first = first.next;
+        while (left <= right) {
+            if (left != right) {
+                ans.add(arr[right]); 
+                right--;
+
+                ans.add(arr[left]);  
+                left++;
+            } else {
+                ans.add(arr[left]); 
+                left++;
+            }
         }
-
-        while (second != null) {
-            num2 = (num2 * 10 + second.data) % mod;
-            second = second.next;
-        }
-
-        return (int)((num1 * num2) % mod);
+        return ans;
     }
 }
