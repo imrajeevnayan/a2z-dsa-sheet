@@ -1,13 +1,13 @@
 # At least Two Greater
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public long[] findElements(long arr[]) { Arrays.sort(arr); long[] result = new long[arr.length-2]; for (int i=0; i<result.length; i++) { result[i] = arr[i]; } return result; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Sorting, Related Articles
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/at-least-two-greater-elements4625/1
-- Synced: 2026-08-05T10:56:46.448Z
+- Synced: 2026-08-05T10:57:31.797Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr of distinct elements, the task is to return an array of all e
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Sorting, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public long[] findElements(long arr[]) { Arrays.sort(arr); long[] result = new long[arr.length-2]; for (int i=0; i<result.length; i++) { result[i] = arr[i]; } return result; } }. The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Sorting, Related Articles. Review the synced source file for the implementation details.
