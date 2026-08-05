@@ -7,28 +7,21 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T11:32:09.099Z
+ * Synced: 2026-08-05T11:32:57.640Z
  */
 
 class Solution {
     public static boolean areAnagrams(String s1, String s2) {
-        if (s1.length() != s2.length()) {
- return false;
-        }
-
+        if (s1.length() != s2.length()) return false;
         int[] freq = new int[26];
 
         for (int i = 0; i < s1.length(); i++) {
             freq[s1.charAt(i) - 'a']++;
             freq[s2.charAt(i) - 'a']--;
         }
-
         for (int count : freq) {
-            if (count != 0) {
-                return false;
-            }
+            if (count != 0) return false;
         }
-
         return true;
     }
 }
