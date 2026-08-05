@@ -2,17 +2,33 @@
  * Platform: GeeksforGeeks
  * Problem: Anagram
  * URL: https://www.geeksforgeeks.org/problems/anagram-1587115620/1
- * Language: Java (21)
+ * Language: class Solution { public static boolean areAnagrams(String s1, String s2) { // code here if (s1.length() != s2.length()) { return false; } char[] a = s1.toCharArray(); char[] b = s2.toCharArray(); Arrays.sort(a); Arrays.sort(b); if (Arrays.equals(a, b)) { return true; } else { return false; } } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T11:31:22.430Z
+ * Synced: 2026-08-05T11:32:09.099Z
  */
 
 class Solution {
     public static boolean areAnagrams(String s1, String s2) {
-        // code here
-        
+        if (s1.length() != s2.length()) {
+ return false;
+        }
+
+        int[] freq = new int[26];
+
+        for (int i = 0; i < s1.length(); i++) {
+            freq[s1.charAt(i) - 'a']++;
+            freq[s2.charAt(i) - 'a']--;
+        }
+
+        for (int count : freq) {
+            if (count != 0) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
