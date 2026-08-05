@@ -1,13 +1,13 @@
 # Flood Fill
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Depth-First Search, Breadth-First Search, Matrix
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/flood-fill/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:07:13.816Z
+- Problem URL: https://leetcode.com/problems/flood-fill/description/
+- Synced: 2026-08-05T10:46:09.607Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an image represented by an m x n grid of integers image, where ima
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Array, Depth-First Search, Breadth-First Search, Matrix. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Depth-First Search, Breadth-First Search, Matrix. Review the synced source file for the implementation details.
