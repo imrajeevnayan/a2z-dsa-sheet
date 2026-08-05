@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-05T10:56:01.953Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "sliding-window",
+    "Arrays",
+    "Related Articles",
+    "Number Of Subarrays Having Sum In A Given Range"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<\" \"<<maxl<<endl; return (maxr-maxl); } };",
+  "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1",
+  "submissionId": "kqs1k9"
+}
