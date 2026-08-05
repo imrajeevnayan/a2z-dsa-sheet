@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-05T10:46:09.607Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-05T10:46:56.053Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.82 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Flood Fill",
-  "problemUrl": "https://leetcode.com/problems/flood-fill/description/",
-  "submissionId": "ct48xp"
+  "problemUrl": "https://leetcode.com/problems/flood-fill/submissions/2095199470/",
+  "submissionId": "4mp2f2"
 }
