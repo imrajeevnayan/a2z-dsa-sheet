@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-05T10:47:29.902Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-05T10:48:14.966Z",
+  "runtime": "0 ms",
+  "memoryUsage": "48.04 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Island Perimeter",
-  "problemUrl": "https://leetcode.com/problems/island-perimeter/description/",
-  "submissionId": "adugbx"
+  "problemUrl": "https://leetcode.com/problems/island-perimeter/",
+  "submissionId": "itp3ag"
 }
