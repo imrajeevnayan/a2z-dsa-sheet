@@ -2305,5 +2305,6 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:island-perimeter": []
+  "leetcode:island-perimeter": [],
+  "leetcode:number-of-unique-xor-triplets-ii": []
 }
