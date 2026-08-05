@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-05T10:52:10.573Z",
+  "submissionTimestamp": "2026-08-05T10:53:07.246Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.80 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Number of Unique XOR Triplets II",
-  "problemUrl": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05",
-  "submissionId": "rbs5cu"
+  "problemUrl": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/submissions/2095205171/?envType=daily-question&envId=2026-08-05",
+  "submissionId": "5hv4iq"
 }
