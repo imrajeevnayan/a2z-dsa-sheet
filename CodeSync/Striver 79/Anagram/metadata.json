@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-05T11:31:22.430Z",
+  "submissionTimestamp": "2026-08-05T11:32:09.099Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Media.net"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public static boolean areAnagrams(String s1, String s2) { // code here if (s1.length() != s2.length()) { return false; } char[] a = s1.toCharArray(); char[] b = s2.toCharArray(); Arrays.sort(a); Arrays.sort(b); if (Arrays.equals(a, b)) { return true; } else { return false; } } }",
   "problemTitle": "Anagram",
   "problemUrl": "https://www.geeksforgeeks.org/problems/anagram-1587115620/1",
-  "submissionId": "mpu90h"
+  "submissionId": "pie4bo"
 }
