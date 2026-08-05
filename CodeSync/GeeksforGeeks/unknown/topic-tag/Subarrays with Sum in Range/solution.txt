@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarrays with Sum in Range
+ * URL: https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T10:55:16.254Z
+ */
+
+class Solution {
+    public int countSubarray(int[] arr, int l, int r) {
+        // code here
+        
+    }
+}
