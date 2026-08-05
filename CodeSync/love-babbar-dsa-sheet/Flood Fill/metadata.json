@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-05T10:46:09.607Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Flood Fill",
+  "problemUrl": "https://leetcode.com/problems/flood-fill/description/",
+  "submissionId": "ct48xp"
+}
