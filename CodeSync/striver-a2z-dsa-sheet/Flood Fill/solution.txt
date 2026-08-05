@@ -7,7 +7,7 @@
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
  * Runtime: 0 ms
  * Memory: 46.82 MB
- * Synced: 2026-08-05T10:46:56.053Z
+ * Synced: 2026-08-05T10:47:44.176Z
  */
 
 if (r < 0 || c < 0 || r >= m || c >= n) return;
@@ -19,10 +19,10 @@ if (r < 0 || c < 0 || r >= m || c >= n) return;
         dfs(image, r - 1, c, original, color);
         dfs(image, r, c + 1, original, color);
         dfs(image, r, c - 1, original, color);
-    }
 
-    private void dfs(int[][] image, int r, int c, int original, int color) {
         int m = image.length;
         int n = image[0].length;
+    private void dfs(int[][] image, int r, int c, int original, int color) {
     }
+        dfs(image, sr, sc, original, color);
         return image;
