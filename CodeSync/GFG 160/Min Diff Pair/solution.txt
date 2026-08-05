@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Min Diff Pair
+ * URL: https://www.geeksforgeeks.org/problems/minimum-difference-pair5444/1
+ * Language: class Solution { public int minimumDifference(int[] arr) { Arrays.sort(arr); int minDiff = arr[1] - arr[0]; for (int i=1; i<arr.length-1; i++) { int diff = arr[i+1] - arr[i]; if (diff < minDiff) { minDiff = diff; } } return minDiff; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Sorting, Related Articles, Find Minimum Difference Pair
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T11:08:16.841Z
+ */
+
+class Solution {
+    public int minDiff(int[] arr) {
+        Arrays.sort(arr);
+
+        int min = Integer.MAX_VALUE;
+
+        for (int i = 1; i < arr.length; i++) {
+            min = Math.min(min, arr[i] - arr[i - 1]);
+        }
+
+        return min;
+    }
+}
