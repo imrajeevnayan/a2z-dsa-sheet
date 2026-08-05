@@ -1,13 +1,13 @@
 # Next Greater Element
 
 - Platform: GeeksforGeeks
-- Language: Text
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160
-- Synced: 2026-06-15T11:33:50.644Z
+- Problem URL: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+- Synced: 2026-08-05T16:05:23.524Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array arr[] of integers, the task is to find the next greater e
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Text. The detected topics are Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags. Review the synced source file for the implementation details.
