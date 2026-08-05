@@ -1,37 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/sum-palindrome3857/1
- * Language: class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n
+ * URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
+ * Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms
+ * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:40:17.514Z
+ * Synced: 2026-08-05T11:03:18.740Z
  */
 
 class Solution {
-    static int isSumPalindrome(int n) {
-        for (int i = 0; i < 5; i++) {
-            if (isPalindrome(n)) {
-                return n;
+    public static ArrayList<Integer> alternateSort(int[] arr) {
+        Arrays.sort(arr);
+        ArrayList<Integer> ans = new ArrayList<>();
+        int left = 0,right = arr.length - 1;
+
+        while (left <= right) {
+            if (left != right) {
+                ans.add(arr[right]); 
+                right--;
+
+                ans.add(arr[left]);  
+                left++;
+            } else {
+                ans.add(arr[left]); 
+                left++;
             }
-            n = n + reverse(n);
         }
-
-        return isPalindrome(n) ? n : -1;
-    }
-
-    static int reverse(int n) {
-        int rev = 0;
-        while (n > 0) {
-            rev = rev * 10 + n % 10;
-            n /= 10;
-        }
-        return rev;
-    }
-
-    static boolean isPalindrome(int n) {
-        return n == reverse(n);
+        return ans;
     }
 }
