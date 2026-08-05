@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-15T11:33:50.644Z",
+  "submissionTimestamp": "2026-08-05T16:05:23.524Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Topic Tags"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Text",
+  "language": "Java (21)",
   "problemTitle": "Next Greater Element",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/stack-gfg-160",
-  "submissionId": "9j3gsu"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1",
+  "submissionId": "wywpbv"
 }
