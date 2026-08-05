@@ -1,23 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Unique XOR Triplets II
- * URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05
+ * URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/submissions/2095205171/?envType=daily-question&envId=2026-08-05
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Math, Bit Manipulation, Enumeration
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-05T10:52:10.573Z
+ * Memory: 46.80 MB
+ * Synced: 2026-08-05T10:53:07.246Z
  */
 
-}
+if (!two[i]) continue;
+        for (int i = 0; i < 2048; i++) {
+        // Three elements
         }
+            }
+                two[i ^ x] = true;
+            for (int x : nums) {
+            if (!one[i]) continue;
+        for (int i = 0; i < 2048; i++) {
+        for (int x : nums)  one[x] = true;
 
-        int ans = 0;
-        for (boolean b : three) {
-            if (b) ans++;
-        }
-
-        return ans;
-    }
-}
+        boolean[] three = new boolean[2048];
+        boolean[] two = new boolean[2048];
+        boolean[] one = new boolean[2048];
+            for (int x : nums) {
+                three[i ^ x] = true;
