@@ -1,13 +1,13 @@
 # Anagram
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public static boolean areAnagrams(String s1, String s2) { // code here if (s1.length() != s2.length()) { return false; } char[] a = s1.toCharArray(); char[] b = s2.toCharArray(); Arrays.sort(a); Arrays.sort(b); if (Arrays.equals(a, b)) { return true; } else { return false; } } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/anagram-1587115620/1
-- Synced: 2026-08-05T11:31:22.430Z
+- Synced: 2026-08-05T11:32:09.099Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two non-empty strings s1 and s2, consisting only of lowercase English lett
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public static boolean areAnagrams(String s1, String s2) { // code here if (s1.length() != s2.length()) { return false; } char[] a = s1.toCharArray(); char[] b = s2.toCharArray(); Arrays.sort(a); Arrays.sort(b); if (Arrays.equals(a, b)) { return true; } else { return false; } } }. The detected topics are Expected Complexities, Company Tags, Flipkart, Directi, Adobe, Google, Nagarro, Media.net. Review the synced source file for the implementation details.
