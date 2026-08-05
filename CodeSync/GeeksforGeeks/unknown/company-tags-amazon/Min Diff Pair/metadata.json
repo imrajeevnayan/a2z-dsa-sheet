@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-05T11:08:16.841Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "Sorting",
+    "Related Articles",
+    "Find Minimum Difference Pair"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int minimumDifference(int[] arr) { Arrays.sort(arr); int minDiff = arr[1] - arr[0]; for (int i=1; i<arr.length-1; i++) { int diff = arr[i+1] - arr[i]; if (diff < minDiff) { minDiff = diff; } } return minDiff; } }",
+  "problemTitle": "Min Diff Pair",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/minimum-difference-pair5444/1",
+  "submissionId": "c297d3"
+}
