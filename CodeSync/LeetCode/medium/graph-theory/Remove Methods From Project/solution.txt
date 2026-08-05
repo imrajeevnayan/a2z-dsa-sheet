@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Methods From Project
+ * URL: https://leetcode.com/problems/remove-methods-from-project/description/?envType=daily-question&envId=2026-08-05
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T10:44:37.943Z
+ */
+
+class Solution {
+    public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
+        
+    }
+}
