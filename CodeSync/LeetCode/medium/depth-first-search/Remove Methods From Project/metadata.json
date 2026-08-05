@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-05T10:49:14.376Z",
+  "submissionTimestamp": "2026-08-05T10:49:41.235Z",
   "runtime": "0 ms",
   "memoryUsage": "292.76 MB",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Remove Methods From Project",
-  "problemUrl": "https://leetcode.com/problems/remove-methods-from-project/submissions/2095198345/?envType=daily-question&envId=2026-08-05",
+  "problemUrl": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05",
   "submissionId": "2yqcdc"
 }
