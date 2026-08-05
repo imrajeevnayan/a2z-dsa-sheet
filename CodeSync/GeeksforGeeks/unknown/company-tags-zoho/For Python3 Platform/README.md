@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n
+- Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms
+- Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/sum-palindrome3857/1
-- Synced: 2026-06-03T16:40:17.514Z
+- Problem URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
+- Synced: 2026-08-05T11:03:18.740Z
 
 ## Problem Description
 
-Given a number, reverse it and add it to itself unless it becomes a palindrome or return -1 if the number of iterations becomes more than 5. Return that palindrome number if it becomes a palindrome else, it returns -1. Examples: Input: n = 23 Output: 55 Explanation: reverse(23) = 32, then 32+23 = 55 which is a palindrome. Input: n = 73 Output: 121 Explanation: reverse(73) = 37, then 37+73 = 110 which is not a palindrome, again reverse(110)= 011, then 110+11 = 121 which is a palindrome. Constraints: 1 <= n <= 104
+Given an array arr of distinct integers. Rearrange the array in such a way that the first element is the largest and the second element is the smallest, the third element is the second largest and the fourth element is the second smallest, and so on. Examples: Input: arr[] = [7, 1, 2, 3, 4, 5, 6] Output: [7, 1, 6, 2, 5, 3, 4] Explanation: The first element is first maximum and second element is first minimum and so on. Input: arr[] = [1, 6, 9, 4, 3, 7, 8, 2] Output: [9, 1, 8, 2, 7, 3, 6, 4] Explanation: The first element is first maximum and second element is first minimum and so on. Constraints: 1 ≤ arr.size() ≤ 105 1 ≤ arr[i] ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n. The detected topics are Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };. The detected topics are Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles. Review the synced source file for the implementation details.
