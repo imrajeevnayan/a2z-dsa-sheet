@@ -6,8 +6,8 @@
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory
 - Runtime: 0 ms
 - Memory: 292.76 MB
-- Problem URL: https://leetcode.com/problems/remove-methods-from-project/submissions/2095198345/?envType=daily-question&envId=2026-08-05
-- Synced: 2026-08-05T10:49:14.376Z
+- Problem URL: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/?envType=daily-question&envId=2026-08-05
+- Synced: 2026-08-05T10:49:41.235Z
 
 ## Problem Description
 
