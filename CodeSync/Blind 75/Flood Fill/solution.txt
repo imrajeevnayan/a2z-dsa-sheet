@@ -7,7 +7,7 @@
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
  * Runtime: 0 ms
  * Memory: 46.82 MB
- * Synced: 2026-08-05T10:48:30.186Z
+ * Synced: 2026-08-05T10:49:21.155Z
  */
 
 if (r < 0 || c < 0 || r >= m || c >= n) return;
