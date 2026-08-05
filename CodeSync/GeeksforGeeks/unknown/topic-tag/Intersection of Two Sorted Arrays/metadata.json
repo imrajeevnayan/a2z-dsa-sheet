@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-05T11:31:02.581Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Sorting",
+    "Related Articles",
+    "Union And Intersection Of Two Sorted Arrays 2"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> intersection(vector<int> &arr1, vector<int> &arr2) { vector<int> res; int i = 0; int j = 0; while (i < arr1.size() && j < arr2.size()) { if (arr1[i] == arr2[j]) { if (res.empty() || res.back() != arr1[i]) { res.push_back(arr1[i]); } i++; j++; } else if (arr1[i] < arr2[j]) { i++; } else { j++; } } return res; } };",
+  "problemTitle": "Intersection of Two Sorted Arrays",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-array-1587115620/1",
+  "submissionId": "v54pl4"
+}
