@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-05T10:55:16.254Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "sliding-window",
+    "Arrays",
+    "Related Articles",
+    "Number Of Subarrays Having Sum In A Given Range"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Subarrays with Sum in Range",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1",
+  "submissionId": "r37l3x"
+}
