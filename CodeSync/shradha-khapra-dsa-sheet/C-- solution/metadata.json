@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-05T11:28:20.280Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Mathematical",
+    "Sorting",
+    "Related Articles",
+    "Maximum Perimeter Triangle From Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int maxPerimeter(vector<int> &arr) { // code here. sort(arr.begin(), arr.end(), greater<int>()); for(int i=0; i<arr.size()-2; i++){ if(arr[i+1] + arr[i+2] > arr[i]){ return arr[i] + arr[i+1] + arr[i+2]; } else { return -1; } } } };",
+  "problemTitle": "C++ solution :",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-perimeter-of-triangle-from-array4322/1",
+  "submissionId": "3pxxxz"
+}
