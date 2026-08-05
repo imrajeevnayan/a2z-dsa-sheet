@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-05T10:44:37.943Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-05T10:46:09.223Z",
+  "runtime": "0 ms",
+  "memoryUsage": "292.76 MB",
   "difficulty": "Medium",
   "tags": [
     "Depth-First Search",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Remove Methods From Project",
-  "problemUrl": "https://leetcode.com/problems/remove-methods-from-project/description/?envType=daily-question&envId=2026-08-05",
-  "submissionId": "p67ye5"
+  "problemUrl": "https://leetcode.com/problems/remove-methods-from-project/submissions/2095198345/?envType=daily-question&envId=2026-08-05",
+  "submissionId": "2yqcdc"
 }
