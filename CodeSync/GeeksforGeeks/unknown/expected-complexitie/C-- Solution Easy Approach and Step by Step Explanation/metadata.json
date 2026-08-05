@@ -1,18 +1,19 @@
 {
-  "submissionTimestamp": "2026-08-04T10:59:41.555Z",
+  "submissionTimestamp": "2026-08-05T10:56:01.953Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
+    "sliding-window",
     "Arrays",
     "Related Articles",
-    "Pairs Difference Less K"
+    "Number Of Subarrays Having Sum In A Given Range"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };",
+  "language": "class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<\" \"<<maxl<<endl; return (maxr-maxl); } };",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1",
-  "submissionId": "lzte3p"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1",
+  "submissionId": "kqs1k9"
 }
