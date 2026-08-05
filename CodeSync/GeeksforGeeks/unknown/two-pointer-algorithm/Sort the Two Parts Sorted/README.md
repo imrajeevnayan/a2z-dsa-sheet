@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sort-the-half-sorted2157/1
-- Synced: 2026-08-05T11:25:00.161Z
+- Synced: 2026-08-05T11:25:47.115Z
 
 ## Problem Description
 
