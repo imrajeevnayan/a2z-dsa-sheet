@@ -1,18 +1,18 @@
 # C++ Solution || Easy Approach and Step by Step Explanation
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };
+- Language: class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Pairs Difference Less K
+- Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1
-- Synced: 2026-08-04T10:59:41.555Z
+- Problem URL: https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1
+- Synced: 2026-08-05T10:56:01.953Z
 
 ## Problem Description
 
-Given an array arr[] of positive integers and an integer k, find the total number of pairs of elements that have an absolute difference strictly less than k. Note: Pair (i, j) is considered the same as (j, i). Examples: Input : arr[] = [1, 10, 4, 2], k = 3 Output : 2 Explanation: We have an array arr[] = [1, 10, 4, 2] and k = 3 We can make only two pairs with a difference of less than 3. (1, 2) and (4, 2). So, the answer is 2. Input : arr[] = [2, 3, 4], k = 5 Output : 3 Explanation: For the given array arr[] = [2, 3, 4] and k = 5, there are 3 valid pairs where the absolute difference between the pair's elements is less than 5. These pairs are (2, 3), (2, 4), and (3, 4). Hence, the output is 3. Constraints: 1 ≤ arr.size() ≤ 105 0 ≤ k ≤ 105 1 ≤ arr[i] ≤ 105
+Given an integer array arr[] and two integers l and r, find the number of subarrays whose sum lies in the range [l, r] (inclusive). A subarray is a contiguous sequence of elements within the array. Examples: Input: l = 3, r = 8, arr[] = [1, 4, 6] Output: 3 Explanation: The subarrays are [1,4], [4] and [6]. Therefore answer for this test case is 3. Input: l = 4, r = 13, arr[] = [2, 3, 5, 8] Output: 6 Explanation: The subarrays are [2, 3], [2, 3, 5], [3, 5], [5], [5, 8] and [8]. Therefore answer for this test case is 6. Constraints: 1 ≤ arr.size() ≤ 105 1 ≤ arr[i] ≤ 104 1 ≤ l ≤ r ≤ 109
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: int countPairs(vector<int>& arr, int k) { // code here sort(arr.begin(), arr.end()); int n = arr.size(); int i = n-1 ; int ans = 0; for(int j = n-1; j>0 ; j--){ while(i>=0 && arr[j] - arr[i] <k)i--; ans+= (j - i -1); } return ans; } };. The detected topics are Expected Complexities, Topic Tags, Arrays, Related Articles, Pairs Difference Less K. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };. The detected topics are Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range. Review the synced source file for the implementation details.
