@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T16:40:17.514Z",
+  "submissionTimestamp": "2026-08-05T11:03:18.740Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -9,13 +9,13 @@
     "Company Tags",
     "Zoho",
     "Topic Tags",
-    "Mathematical",
-    "palindrome",
-    "Algorithms"
+    "Arrays",
+    "Sorting",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n",
+  "language": "class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-palindrome3857/1",
-  "submissionId": "yds53r"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/alternative-sorting1311/1",
+  "submissionId": "jjikf1"
 }
