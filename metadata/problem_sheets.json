@@ -2290,5 +2290,19 @@
   "geeksforgeeks:removing-consecutive-elements": [
     "GFG160"
   ],
-  "leetcode:remove-methods-from-project": []
+  "leetcode:remove-methods-from-project": [],
+  "leetcode:flood-fill": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "StriverA2Z",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
