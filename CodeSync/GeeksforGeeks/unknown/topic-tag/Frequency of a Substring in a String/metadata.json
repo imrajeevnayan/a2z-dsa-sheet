@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-06T10:58:12.068Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Hash",
+    "Strings",
+    "Related Articles",
+    "Frequency Substring String"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Frequency of a Substring in a String",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/frequency-of-a-substring-in-a-string/1",
+  "submissionId": "37x3h9"
+}
