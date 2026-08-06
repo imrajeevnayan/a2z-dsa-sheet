@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Validate an IP Address:-
+ * URL: https://www.geeksforgeeks.org/problems/validate-an-ip-address-1587115621/1
+ * Language: FUNCTION isValid(str): // Step 1: Check the length constraints IF length of str < 7 OR length of str > 15 THEN RETURN false // Step 2: Split the string by '.' SPLIT str by '.' INTO parts // Step 3: Check if there are exactly 4 parts IF length of parts != 4 THEN RETURN false // Step 4: Validate each part FOR EACH part IN parts: // Check if the part is empty or exceeds 3 characters IF part is empty OR length of part > 3 THEN RETURN false // Check for leading zeros (allow '0' as a valid part with one character) IF part starts with '0' AND length of part > 1 THEN RETURN false // Check if all characters are digits FOR EACH character IN part: IF character is NOT a digit THEN RETURN false // Convert part to integer number = CONVERT part TO integer // Check if the number is in the valid range IF number < 0 OR number > 255 THEN RETURN false // If all checks pass RETURN true
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftQualcomm, Company Tags, Zoho, Amazon, Microsoft, Qualcomm, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T06:58:00.460Z
+ */
+
+class Solution {
+    public boolean isValid(String s) {
+        String[] parts = s.split("\\.", -1);
+        if (parts.length != 4) return false;
+        for (String part : parts) {
+
+            if (part.length() == 0) return false;
+
+            // Leading zero check
+            if (part.length() > 1 && part.charAt(0) == '0') return false;
+            // Check all characters are digits
+            for (char ch : part.toCharArray()) {
+                if (!Character.isDigit(ch)) return false;
+            }
+            int num = Integer.parseInt(part);
+            if (num < 0 || num > 255) return false;
+        }
+        return true;
+    }
+}
