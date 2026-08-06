@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Frequency of a Substring in a String
+ * URL: https://www.geeksforgeeks.org/problems/frequency-of-a-substring-in-a-string/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Strings, Related Articles, Frequency Substring String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T10:58:12.068Z
+ */
+
+class Solution {
+    public int countFreq(String s1, String s2) {
+        int n = s1.length();
+        int m = s2.length();
+
+        int[] lps = new int[m];
+        buildLPS(s2, lps);
+
+        int i = 0, j = 0;
+        int count = 0;
+
+        while (i < n) {
+            if (s1.charAt(i) == s2.charAt(j)) {
+                i++;
+                j++;
+
+                if (j == m) {
+                    count++;
+                    j = lps[j - 1]; // for overlapping matches
+                }
+            } else {
+                if (j != 0)
+                    j = lps[j - 1];
+                else
+                    i++;
+            }
+        }
+
+        return count;
+    }
+
+    private void buildLPS(String pat, int[] lps) {
+        int len = 0;
+        int i = 1;
