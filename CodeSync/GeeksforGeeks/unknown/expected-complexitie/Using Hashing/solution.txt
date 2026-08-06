@@ -7,20 +7,21 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftGoogle, Company Tags, Accolite, Amazon, Microsoft, Google, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T07:02:59.167Z
+ * Synced: 2026-08-06T07:03:46.859Z
  */
 
 class Solution {
     public boolean areKAnagrams(String s1, String s2, int k) {
         if (s1.length() != s2.length()) return false;
         int[] freq = new int[26];
-        for (char ch : s1.toCharArray()) freq[ch - 'a']++;
-        for (char ch : s2.toCharArray()) freq[ch - 'a']--;
-        int count = 0;
-        for (int x : freq) {
-            if (x > 0)
-                count += x;
+        for (int i = 0; i < s1.length(); i++) {
+            freq[s1.charAt(i) - 'a']++;
+            freq[s2.charAt(i) - 'a']--;
         }
-        return count <= k;
+        int changes = 0;
+        for (int x : freq) {
+            if (x > 0)  changes += x;
+        }
+        return changes <= k;
     }
 }
