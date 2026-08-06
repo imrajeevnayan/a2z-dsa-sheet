@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-06T07:05:33.366Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "Strings",
+    "Related Interview Experiences",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#using recursion instead of string building class Solution: def kthCharacter(self, m, n, k): return Solution.solve(bin(m)[2:], n, k-1) #0-based indexing is easier for k @staticmethod def solve(binstr, n, k): #if no more iterations, return k-th bit if n == 0: return int(binstr[k]) #else if k is even, result is the same as k/2-th bit from previous iteration #else if k is odd, the (k-1)/2-th bit from previous iteration gets flipped #use XOR 1 / XOR 0 to magically flip / not flip the result return Solution.solve(binstr, n-1, k // 2) ^ (k & 1)",
+  "problemTitle": "This is my code i know y its not running all logic are fine then also ...",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-k-th-character-in-string3841/1",
+  "submissionId": "wf0jkv"
+}
