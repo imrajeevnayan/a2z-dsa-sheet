@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort an array of strings according to string lengths
+ * URL: https://www.geeksforgeeks.org/problems/sort-an-array-of-strings-according-to-string-lengths/1
+ * Language: return str(arr.sort(key=len))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Arrays, Related Articles, Sort Array Strings According String Lengths
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T07:01:23.291Z
+ */
+
+class Solution {
+    public void sortByLength(String[] arr) {
+        Arrays.sort(arr, (a, b) -> a.length() - b.length());
+    }
+}
