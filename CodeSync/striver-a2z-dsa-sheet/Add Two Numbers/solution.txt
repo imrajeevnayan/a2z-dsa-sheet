@@ -7,7 +7,7 @@
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
  * Memory: 46.87 MB
- * Synced: 2026-08-06T06:47:09.156Z
+ * Synced: 2026-08-06T10:59:45.923Z
  */
 
 class Solution {
