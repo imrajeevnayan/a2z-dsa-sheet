@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-06T07:02:59.167Z",
+  "submissionTimestamp": "2026-08-06T07:03:46.859Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: bool areKAnagrams(string &s1, string &s2, int k) { // code here if(s1.length() != s2.length()) return false; vector<int> res(26,0); // This will be o(26) space which is equivalent to o(1) int count =0; for(int i=0; i<s1.length(); i++){ res[s1[i] - 'a']+=1; } for(int i=0; i<s2.length(); i++){ if(res[s2[i]-'a'] > 0){ res[s2[i]-'a']--; }else{ count++; } } return count <= k; } };",
   "problemTitle": "Using Hashing",
   "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1",
-  "submissionId": "7oo3y1"
+  "submissionId": "2oy39h"
 }
