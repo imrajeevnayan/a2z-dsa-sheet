@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Smallest Divisible Digit Product I
+ * URL: https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Math, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T06:33:54.101Z
+ */
+
+class Solution {
+    public int smallestNumber(int n, int t) {
+        
+    }
+}
