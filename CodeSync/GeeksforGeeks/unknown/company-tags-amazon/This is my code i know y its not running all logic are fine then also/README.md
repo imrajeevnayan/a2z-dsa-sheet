@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-k-th-character-in-string3841/1
-- Synced: 2026-08-06T07:13:33.372Z
+- Synced: 2026-08-06T07:14:26.333Z
 
 ## Problem Description
 
