@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T11:00:30.925Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-06T11:01:25.324Z",
+  "runtime": "1 ms",
   "memoryUsage": "46.87 MB",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Math",
-    "Recursion"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Add Two Numbers",
   "problemUrl": "https://leetcode.com/problems/add-two-numbers/submissions/2096263732/",
-  "submissionId": "7ilv1j"
+  "submissionId": "fv07ag"
 }
