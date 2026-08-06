@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-06T06:46:01.158Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Related Articles",
+    "Segregate Even And Odd Elements In A Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Segregate Evens and Odds in a Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1",
+  "submissionId": "2w8zif"
+}
