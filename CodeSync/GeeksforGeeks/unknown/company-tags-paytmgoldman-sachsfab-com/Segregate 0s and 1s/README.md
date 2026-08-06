@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1
-- Synced: 2026-06-30T05:06:05.431Z
+- Synced: 2026-08-06T06:47:41.410Z
 
 ## Problem Description
 
