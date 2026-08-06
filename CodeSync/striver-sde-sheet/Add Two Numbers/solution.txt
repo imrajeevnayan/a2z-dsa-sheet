@@ -1,18 +1,27 @@
 /*
- * Platform: NeetCode
+ * Platform: LeetCode
  * Problem: Add Two Numbers
- * URL: https://neetcode.io/problems/add-two-numbers/question
- * Language: l1
+ * URL: https://leetcode.com/problems/add-two-numbers/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Math Recursion, Linked List, Math, Recursion
- * Runtime: N/A
+ * Topics: Linked List, Math, Recursion
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-22T17:58:55.071Z
+ * Synced: 2026-08-06T06:36:39.525Z
  */
 
-int carry = 0;
-        ListNode curr = dummy;
-        ListNode dummy = new ListNode(0);
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-class Solution {
-        while (l1 != null || l2 != null || carry != 0) {
+if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            carry = sum / 10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+        }
+        return temp.next;
+    }
+}
