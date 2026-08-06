@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftQualcomm, Company Tags, Zoho, Amazon, Microsoft, Qualcomm, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T07:03:36.464Z
+ * Synced: 2026-08-06T07:04:24.475Z
  */
 
 class Solution {
