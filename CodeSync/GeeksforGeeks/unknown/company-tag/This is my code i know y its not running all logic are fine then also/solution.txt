@@ -7,7 +7,7 @@
  * Topics: Company Tags Amazon, Company Tags, Amazon, Topic Tags, Strings, Related Interview Experiences, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T07:08:45.370Z
+ * Synced: 2026-08-06T07:09:33.367Z
  */
 
 class Solution {
