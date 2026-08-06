@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Segregate Evens and Odds in a Linked List
+ * URL: https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Segregate Even And Odd Elements In A Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T06:46:01.158Z
+ */
+
+class Solution {
+    Node divide(Node head) {
+        Node even = new Node(0), odd = new Node(0);
+        Node e = even, o = odd;
+
+        while (head != null) {
+            if (head.data % 2 == 0) {
+                e.next = head;
+                e = e.next;
+            } else {
+                o.next = head;
+                o = o.next;
+            }
+            head = head.next;
+        }
+
+        e.next = odd.next;
+        o.next = null;
+
+        return even.next;
+    }
+}
