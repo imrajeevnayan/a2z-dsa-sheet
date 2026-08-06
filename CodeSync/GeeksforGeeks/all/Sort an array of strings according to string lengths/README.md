@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sort-an-array-of-strings-according-to-string-lengths/1
-- Synced: 2026-08-06T07:03:00.645Z
+- Synced: 2026-08-06T07:03:48.645Z
 
 ## Problem Description
 
