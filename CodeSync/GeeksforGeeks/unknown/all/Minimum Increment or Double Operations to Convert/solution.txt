@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum Increment or Double Operations to Convert
+ * URL: https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1
+ * Language: def countMinOperations(self, arr): return sum(a.bit_count() for a in arr) + max(a.bit_length() for a in arr) - 1
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Count Minimum Steps Get Given Desired Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-05T20:37:51.019Z
+ */
+
+class Solution {
+    public int countMinOperations(int arr[]) {
+        int ans = 0;
+        int n = arr.length;
+
+        while (true) {
+            int zero = 0;
+            int i;
+
+            // Find first odd element
+            for (i = 0; i < n; i++) {
+                if (arr[i] % 2 == 1)
+                    break;
+                if (arr[i] == 0)
+                    zero++;
+            }
+
+            // All elements are 0
+            if (zero == n)
+                return ans;
+
+            // If all are even, divide by 2
+            if (i == n) {
+                for (int j = 0; j < n; j++)
+                    arr[j] /= 2;
+                ans++;
+            }
+
+            // Make odd elements even
+            for (int j = i; j < n; j++) {
+                if (arr[j] % 2 == 1) {
+                    arr[j]--;
+                    ans++;
+                }
+            }
