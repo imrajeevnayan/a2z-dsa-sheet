@@ -500,7 +500,15 @@
     "SixComp30Days",
     "Striver79",
     "AtharvaPatil150",
-    "StriverSDE"
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:love-babbar-dsa-sheet"
   ],
   "leetcode:longest-substring-without-repeating-characters": [
     "Blind75",
