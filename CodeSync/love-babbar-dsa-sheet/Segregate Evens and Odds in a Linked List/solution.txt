@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Segregate Even And Odd Elements In A Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T06:46:01.158Z
+ * Synced: 2026-08-06T06:46:49.162Z
  */
 
 class Solution {
