@@ -1,18 +1,18 @@
 # Add Two Numbers
 
-- Platform: NeetCode
-- Language: l1
+- Platform: LeetCode
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Math Recursion, Linked List, Math, Recursion
-- Runtime: N/A
+- Topics: Linked List, Math, Recursion
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://neetcode.io/problems/add-two-numbers/question
-- Synced: 2026-06-22T17:58:55.071Z
+- Problem URL: https://leetcode.com/problems/add-two-numbers/
+- Synced: 2026-08-06T06:36:39.525Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example 1: Input: l1 = [2,4,3], l2 = [5,6,4] Output: [7,0,8] Explanation: 342 + 465 = 807. Example 2: Input: l1 = [0], l2 = [0] Output: [0] Example 3: Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9] Output: [8,9,9,9,0,0,0,1] Constraints: The number of nodes in each linked list is in the range [1, 100]. 0 <= Node.val <= 9 It is guaranteed that the list represents a number that does not have leading zeros.
 
 ## Explanation
 
-This solution was accepted on NeetCode using l1. The detected topics are Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Math Recursion, Linked List, Math, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
