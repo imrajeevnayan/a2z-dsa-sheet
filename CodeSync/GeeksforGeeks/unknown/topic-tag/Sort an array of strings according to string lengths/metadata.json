@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-06T07:01:23.291Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Sorting",
+    "Arrays",
+    "Related Articles",
+    "Sort Array Strings According String Lengths"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "return str(arr.sort(key=len))",
+  "problemTitle": "Sort an array of strings according to string lengths",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sort-an-array-of-strings-according-to-string-lengths/1",
+  "submissionId": "misji2"
+}
