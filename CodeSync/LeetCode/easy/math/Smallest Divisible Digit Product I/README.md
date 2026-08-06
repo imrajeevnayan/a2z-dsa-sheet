@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Math, Enumeration
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06
-- Synced: 2026-08-06T06:33:54.101Z
+- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-i/?envType=daily-question&envId=2026-08-06
+- Synced: 2026-08-06T06:34:40.163Z
 
 ## Problem Description
 
