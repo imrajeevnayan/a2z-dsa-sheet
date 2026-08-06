@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Using Hashing
+ * URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1
+ * Language: class Solution { public: bool areKAnagrams(string &s1, string &s2, int k) { // code here if(s1.length() != s2.length()) return false; vector<int> res(26,0); // This will be o(26) space which is equivalent to o(1) int count =0; for(int i=0; i<s1.length(); i++){ res[s1[i] - 'a']+=1; } for(int i=0; i<s2.length(); i++){ if(res[s2[i]-'a'] > 0){ res[s2[i]-'a']--; }else{ count++; } } return count <= k; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftGoogle, Company Tags, Accolite, Amazon, Microsoft, Google, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T07:02:59.167Z
+ */
+
+class Solution {
+    public boolean areKAnagrams(String s1, String s2, int k) {
+        if (s1.length() != s2.length()) return false;
+        int[] freq = new int[26];
+        for (char ch : s1.toCharArray()) freq[ch - 'a']++;
+        for (char ch : s2.toCharArray()) freq[ch - 'a']--;
+        int count = 0;
+        for (int x : freq) {
+            if (x > 0)
+                count += x;
+        }
+        return count <= k;
+    }
+}
