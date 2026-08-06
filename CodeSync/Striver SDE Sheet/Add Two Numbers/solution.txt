@@ -1,16 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Add Two Numbers
- * URL: https://leetcode.com/problems/add-two-numbers/
+ * URL: https://leetcode.com/problems/add-two-numbers/submissions/2096263732/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-06T06:36:39.525Z
+ * Memory: 46.87 MB
+ * Synced: 2026-08-06T06:37:29.161Z
  */
 
-if (l1 != null) {
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode temp = new ListNode(0);
+        ListNode curr = temp;
+        int carry = 0;
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = carry;
+
+            if (l1 != null) {
                 sum += l1.val;
                 l1 = l1.next;
             }
@@ -19,9 +27,3 @@ if (l1 != null) {
                 l2 = l2.next;
             }
             carry = sum / 10;
-            curr.next = new ListNode(sum % 10);
-            curr = curr.next;
-        }
-        return temp.next;
-    }
-}
