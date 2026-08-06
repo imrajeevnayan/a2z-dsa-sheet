@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA SOLUTION :
+ * URL: https://www.geeksforgeeks.org/problems/decode-the-string2444/1
+ * Language: class Solution { static String decodeString(String s) { Stack<String> st = new Stack<>(); for (int i = 0; i < s.length(); i++) { char c = s.charAt(i); if (c != ']') { st.push(Character.toString(c)); } else { StringBuilder str1 = new StringBuilder(); while (!st.isEmpty() && !st.peek().equals("[")) { str1.insert(0, st.pop()); } st.pop(); // remove '[' StringBuilder num = new StringBuilder(); while (!st.isEmpty() && !st.peek().isEmpty() && Character.isDigit(st.peek().charAt(0))) { num.insert(0, st.pop()); } int count=1; if(num.length()>0) { count = Integer.parseInt(num.toString()); } String temp = str1.toString().repeat(count); st.push(temp); } } StringBuilder res = new StringBuilder(); for (String part : st) { res.append(part); } return res.toString(); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags MicrosoftFacebook, Company Tags, Microsoft, Facebook, Topic Tags, Recursion, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T06:49:16.195Z
+ */
+
+class Solution {
+    static String decodedString(String s) {
+        Stack<Integer> count = new Stack<>();
+        Stack<StringBuilder> str = new Stack<>();
+
+        StringBuilder curr = new StringBuilder();
+        int num = 0;
+
+        for (char ch : s.toCharArray()) {
+
+            if (Character.isDigit(ch)) {
+                num = num * 10 + (ch - '0');
+            }
+            else if (ch == '[') {
+                count.push(num);
+                str.push(curr);
+                curr = new StringBuilder();
+                num = 0;
+            }
+            else if (ch == ']') {
+                int times = count.pop();
+                StringBuilder prev = str.pop();
+
+                while (times-- > 0) {
+                    prev.append(curr);
+                }
+                curr = prev;
+            }
+            else {
+                curr.append(ch);
+            }
+        }
+
+        return curr.toString();
+    }
