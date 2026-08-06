@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/validate-an-ip-address-1587115621/1
-- Synced: 2026-08-06T06:58:48.466Z
+- Synced: 2026-08-06T06:59:36.469Z
 
 ## Problem Description
 
