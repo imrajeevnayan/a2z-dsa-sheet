@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Find k-th character in string
+ * URL: https://www.geeksforgeeks.org/problems/find-k-th-character-in-string3841/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Amazon, Company Tags, Amazon, Topic Tags, Strings, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T07:04:40.415Z
+ */
+
+class Solution {
+    char kthCharacter(int m, int n, int k) {
+        // code here
+        
+    }
+}
