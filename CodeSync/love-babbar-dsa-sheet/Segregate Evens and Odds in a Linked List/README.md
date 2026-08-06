@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1
-- Synced: 2026-08-06T06:46:01.158Z
+- Synced: 2026-08-06T06:46:49.162Z
 
 ## Problem Description
 
