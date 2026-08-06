@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1
-- Synced: 2026-08-06T07:02:59.167Z
+- Synced: 2026-08-06T07:03:46.859Z
 
 ## Problem Description
 
