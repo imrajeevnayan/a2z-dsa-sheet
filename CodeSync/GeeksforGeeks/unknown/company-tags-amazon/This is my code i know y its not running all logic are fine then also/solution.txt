@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: This is my code i know y its not running all logic are fine then also ...
+ * URL: https://www.geeksforgeeks.org/problems/find-k-th-character-in-string3841/1
+ * Language: #using recursion instead of string building class Solution: def kthCharacter(self, m, n, k): return Solution.solve(bin(m)[2:], n, k-1) #0-based indexing is easier for k @staticmethod def solve(binstr, n, k): #if no more iterations, return k-th bit if n == 0: return int(binstr[k]) #else if k is even, result is the same as k/2-th bit from previous iteration #else if k is odd, the (k-1)/2-th bit from previous iteration gets flipped #use XOR 1 / XOR 0 to magically flip / not flip the result return Solution.solve(binstr, n-1, k // 2) ^ (k & 1)
+ * Difficulty: Unknown
+ * Topics: Company Tags Amazon, Company Tags, Amazon, Topic Tags, Strings, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T07:05:33.366Z
+ */
+
+class Solution {
+    char kthCharacter(int m, int n, int k) {
+        String s = Integer.toBinaryString(m);
+
+        while (n-- > 0) {
+            StringBuilder sb = new StringBuilder();
+
+            for (char ch : s.toCharArray()) {
+                if (ch == '0')
+                    sb.append("01");
+                else
+                    sb.append("10");
+            }
+
+            s = sb.toString();
+        }
+
+        return s.charAt(k - 1);
+    }
+}
