@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-19T06:28:19.664Z",
+  "submissionTimestamp": "2026-08-07T04:53:41.782Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "String",
+    "Dynamic Programming",
+    "Backtracking"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
   "problemTitle": "Palindrome Partitioning",
-  "problemUrl": "https://www.naukri.com/code360/problems/palindrome-partitioning_799931",
-  "submissionId": "rb9lng"
+  "problemUrl": "https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "9hq08p"
 }
