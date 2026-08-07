@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 13
+ * URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T04:48:22.444Z
+ */
+
+class Solution {
+    public String kthDistinct(String[] arr, int k) {
+        
+    }
+}
