@@ -2464,5 +2464,6 @@
   "leetcode:design-hashmap": [
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
-  ]
+  ],
+  "leetcode:count-asterisks": []
 }
