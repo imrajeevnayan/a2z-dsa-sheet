@@ -5,19 +5,19 @@
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 880 ms
- * Memory: 47.02 MB
- * Synced: 2026-08-07T06:16:07.941Z
+ * Runtime: 1015 ms
+ * Memory: 47.17 MB
+ * Synced: 2026-08-07T06:16:54.972Z
  */
 
 1class Solution {
 2    public long maxPairStrength(int[] nums) {
-3        int n = nums.length;
-4        long maxStrength = 0;
+3        long maxStrength = 0;
+4        int n = nums.length;
 5        for (int i = 0; i < n; i++) {
 6            for (int j = i + 1; j < n; j++) {
-7                int g = gcd(nums[i], nums[j]);
-8                long strength = (long)(nums[i] / g) * (nums[j] / g);
+7                long g = gcd(nums[i], nums[j]);
+8                long strength = ((long) nums[i] / g) * ((long) nums[j] / g);
 9                if (strength > maxStrength) {
 10                    maxStrength = strength;
 11                }
@@ -25,10 +25,10 @@
 13        }
 14        return maxStrength;
 15    }
-16    
-17    private int gcd(int a, int b) {
+16
+17    private long gcd(long a, long b) {
 18        while (b != 0) {
-19            int temp = b;
+19            long temp = b;
 20            b = a % b;
 21            a = temp;
 22        }
