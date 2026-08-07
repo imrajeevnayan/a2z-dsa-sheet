@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-07T17:10:13.128Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-07T17:10:58.169Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Practice I",
   "problemTitle": "House Robber",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=Practice-I",
-  "submissionId": "6cdefy"
+  "problemUrl": "https://leetcode.com/problems/house-robber/?envType=problem-list-v2&envId=Practice-I",
+  "submissionId": "k40j"
 }
