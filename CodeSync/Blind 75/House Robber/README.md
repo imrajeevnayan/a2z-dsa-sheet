@@ -1,13 +1,13 @@
 # House Robber
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Practice I
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: 0 ms
-- Memory: 42.74 MB
-- Problem URL: https://leetcode.com/problems/house-robber/submissions/2061527624/
-- Synced: 2026-07-09T09:30:37.756Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=Practice-I
+- Synced: 2026-08-07T17:10:13.128Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are a professional robber planning to rob houses along a street. Each house 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Practice I. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
