@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: String
 - Difficulty: Easy
-- Topics: String
+- Topics: Array, Hash Table, String, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-06T20:32:51.221Z
+- Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-07T04:48:22.444Z
 
 ## Problem Description
 
-You are given a string num consisting of only digits. A string of digits is called balanced if the sum of the digits at even indices is equal to the sum of digits at odd indices. Return true if num is balanced, otherwise return false. Example 1: Input: num = "1234" Output: false Explanation: The sum of digits at even indices is 1 + 3 == 4, and the sum of digits at odd indices is 2 + 4 == 6. Since 4 is not equal to 6, num is not balanced. Example 2: Input: num = "24123" Output: true Explanation: The sum of digits at even indices is 2 + 1 + 3 == 6, and the sum of digits at odd indices is 4 + 2 == 6. Since both are equal the num is balanced. Constraints: 2 <= num.length <= 100 num consists of digits only
+A distinct string is a string that is present only once in an array. Given an array of strings arr, and an integer k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string "". Note that the strings are considered in the order in which they appear in the array. Example 1: Input: arr = ["d","b","c","b","c","a"], k = 2 Output: "a" Explanation: The only distinct strings in arr are "d" and "a". "d" appears 1st, so it is the 1st distinct string. "a" appears 2nd, so it is the 2nd distinct string. Since k == 2, "a" is returned. Example 2: Input: arr = ["aaa","aa","a"], k = 1 Output: "aaa" Explanation: All strings in arr are distinct, so the 1st string "aaa" is returned. Example 3: Input: arr = ["a","b","a"], k = 3 Output: "" Explanation: The only distinct string is "b". Since there are fewer than 3 distinct strings, we return an empty string "". Constraints: 1 <= k <= arr.length <= 1000 1 <= arr[i].length <= 5 arr[i] consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using String. The detected topics are String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using String. The detected topics are Array, Hash Table, String, Counting. Review the synced source file for the implementation details.
