@@ -1,26 +1,50 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2094953120/
+ * URL: https://leetcode.com/submissions/detail/2085653833/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 32.10 MB
- * Synced: 2026-08-07T06:22:04.166Z
+ * Runtime: 180 ms
+ * Memory: 129.34 MB
+ * Synced: 2026-08-07T06:27:49.640Z
  */
 
-1class Solution {
-2public:
-3    vector<int> findMissingElements(vector<int>& nums) {
-4        sort(nums.begin(), nums.end());
-5        vector<int> res;
-6        for (int i = 0; i + 1 < nums.size(); ++i) {
-7            for (int x = nums[i] + 1; x < nums[i + 1]; ++x) {
-8                res.push_back(x);
-9            }
-10        }
-11        return res;
-12    }
-13};
-14
+1struct node {
+2    bool end;
+3    unordered_map<char, node*> next;
+4
+5    node() : end(false) {}
+6};
+7
+8class Solution {
+9public:
+10    string longestWord(vector<string>& words) {
+11        sort(words.begin(), words.end(), [](const string &w1, const string &w2) {
+12            return w1.length() < w2.length();
+13        });
+14        node* root = new node();
+15        string r;
+16        for (const auto &w : words) {
+17            bool mark = true;
+18            node* temp = root;
+19            for (int i = 0; i < w.length(); ++i) {
+20                if (!temp->next.count(w[i])) {
+21                    temp->next[w[i]] = new node();
+22                }
+23                temp = temp->next[w[i]];
+24                if (i == w.length() - 1) {
+25                    temp->end = true;
+26                } else {
+27                    mark = mark && temp->end;
+28                }
+29            }
+30            if (mark) {
+31                if (r.length() < w.length() || (r.length() == w.length() && r > w)) {
+32                    r = w;
+33                }
+34            }
+35        }
+36        return r;
+37    }
+38};
