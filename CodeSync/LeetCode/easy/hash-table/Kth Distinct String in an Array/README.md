@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.28 MB
 - Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/submissions/2097471272/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-07T04:50:53.172Z
+- Synced: 2026-08-07T04:52:05.921Z
 
 ## Problem Description
 
