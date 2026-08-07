@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-07T05:02:18.608Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree",
+    "DP on Trees"
+  ],
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
+  "problemTitle": "Diameter of Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/diameter-of-binary-tree/submissions/1912786032/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "iflmd9"
+}
