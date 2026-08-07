@@ -1,19 +1,17 @@
 /*
- * Platform: Coding Ninjas (Code360)
+ * Platform: LeetCode
  * Problem: Palindrome Partitioning
- * URL: https://www.naukri.com/code360/problems/palindrome-partitioning_799931
- * Language: Java (17)
+ * URL: https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Medium
- * Topics: Uncategorized
+ * Topics: String, Dynamic Programming, Backtracking
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T06:28:19.664Z
+ * Synced: 2026-08-07T04:53:41.782Z
  */
 
-import java.util.* ;
-import java.io.*; 
-public class Solution {
-    public static List<List<String>> partition(String s) {
-        // Write your code here.
+class Solution {
+    public List<List<String>> partition(String s) {
+        
     }
 }
