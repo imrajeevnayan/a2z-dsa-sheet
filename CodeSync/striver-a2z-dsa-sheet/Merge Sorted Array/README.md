@@ -1,13 +1,13 @@
 # Merge Sorted Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top Interview 150
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-sorted-array/
-- Synced: 2026-08-06T20:03:16.697Z
+- Problem URL: https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-07T05:04:25.496Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two integer arrays nums1 and nums2, sorted in non-decreasing order
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Array, Two Pointers, Sorting. Review the synced source file for the implementation details.
