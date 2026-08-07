@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: LFU Cache
+ * URL: https://leetcode.com/problems/lfu-cache/description/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+ * Language: Cache System Design
+ * Difficulty: Hard
+ * Topics: Hash Table, Linked List, Design, Doubly-Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T17:08:06.924Z
+ */
+
+class LFUCache {
+
+    public LFUCache(int capacity) {
+        
+    }
+    
+    public int get(int key) {
+        
+    }
+    
+    public void put(int key, int value) {
+        
+    }
+}
