@@ -7,11 +7,20 @@
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-07T05:06:39.178Z
+ * Synced: 2026-08-07T05:07:24.194Z
  */
 
-class Solution {
-    public int removeDuplicates(int[] nums) {
-        
+public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+
+        return i + 1;
     }
+class Solution {
 }
