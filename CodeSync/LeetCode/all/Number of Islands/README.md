@@ -1,13 +1,13 @@
 # Number of Islands
 
 - Platform: LeetCode
-- Language: Grind 75 (Copy-rab78cw1)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-islands/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:07:41.612Z
+- Problem URL: https://leetcode.com/problems/number-of-islands/description/
+- Synced: 2026-08-06T20:01:08.899Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0'
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 75 (Copy-rab78cw1). The detected topics are Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix. Review the synced source file for the implementation details.
