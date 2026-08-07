@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-06T20:05:00.653Z",
-  "runtime": "45 ms",
-  "memoryUsage": "76.64 MB",
+  "submissionTimestamp": "2026-08-07T06:07:30.099Z",
+  "runtime": "43 ms",
+  "memoryUsage": "34.24 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
-  "submissionId": "5n3o7x"
+  "problemUrl": "https://leetcode.com/submissions/detail/2097360204/",
+  "submissionId": "cdysol"
 }
