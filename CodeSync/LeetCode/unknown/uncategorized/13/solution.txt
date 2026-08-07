@@ -1,36 +1,120 @@
 /*
  * Platform: LeetCode
  * Problem: 13
- * URL: https://leetcode.com/submissions/detail/2054357836/
+ * URL: https://leetcode.com/submissions/detail/2097360204/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 45 ms
- * Memory: 76.64 MB
- * Synced: 2026-08-06T20:05:01.455Z
+ * Runtime: 43 ms
+ * Memory: 34.24 MB
+ * Synced: 2026-08-07T06:07:31.323Z
  */
 
-1/**
-2 * Your MyHashMap object will be instantiated and called as such:
-3 * var obj = MyHashMap()
-4 * obj.put(key,value)
-5 * var param_2 = obj.get(key)
-6 * obj.remove(key)
-7 */
-8
-9class MyHashMap() {
-10    val set = IntArray(1_000_001) { -1 }
-11
-12    fun put(key: Int, value: Int) {
-13        set[key] = value
-14    }
-15
-16    fun get(key: Int): Int {
-17        return set[key]
+1class Solution {
+2    int count(long long &t, int x) {
+3        if (t < 2) return 0;
+4        int r = 0;
+5        for (; t % x == 0; t /= x, ++r)
+6        ;
+7        return r;
+8    }
+9    
+10    string change(const string &s) {
+11        string r = s;
+12        for (char& c : r) {
+13            if (c == '0') {
+14                c = '1';
+15            }
+16        }
+17        return r;
 18    }
-19
-20    fun remove(key: Int) {
-21        set[key] = -1
-22    }
-23
-24}
+19    
+20    vector<int> make(const vector<int> &p) {
+21        vector<int> v(10);
+22        v[2] = max(p[2], 0);
+23        v[3] = max(p[3], 0);
+24        v[5] = max(p[5], 0);
+25        v[7] = max(p[7], 0);
+26        v[9] = v[3] >> 1;
+27        v[3] &= 1;
+28        v[8] = v[2] / 3;
+29        v[2] %= 3;
+30        v[6] = min(v[2], v[3]);
+31        v[2] -= v[6];
+32        v[3] -= v[6];
+33        v[4] = v[2] >> 1;
+34        v[2] &= 1;
+35        return v;
+36    }
+37    
+38    string join(const vector<int> &v) {
+39        string r;
+40        for (int i = 1; i < 10; ++i) {
+41            for (int j = 0; j < v[i]; ++j) {
+42                r.push_back(i + '0');
+43            }
+44        }
+45        return r;
+46    }
+47public:
+48    string smallestNumber(string num, long long t) {
+49        const long long tt = t;
+50        vector<int> p(10);
+51        p[2] = count(t, 2);
+52        p[3] = count(t, 3);
+53        p[5] = count(t, 5);
+54        p[7] = count(t, 7);
+55        if (t > 1) return "-1";
+56        long long s = 1;
+57        const int n = num.length();
+58        int z = n;
+59        for (int i = 0; i < n; ++i) {
+60            long long x = num[i] - '0';
+61            if (x) {
+62                s = s * x % tt;
+63            }
+64            if (z == n) {
+65                if (x == 0) {
+66                    z = i;
+67                }
+68                p[2] -= count(x, 2);
+69                p[3] -= count(x, 3);
+70                p[5] -= count(x, 5);
+71                p[7] -= count(x, 7);
+72            }
+73        }
+74        if (z == n && s == 0) return num;
+75        for (int i = z == n ? (n - 1) : z; i >= 0; --i) {
+76            int x = num[i] - '0';
+77            t = x;
+78            p[2] += count(t, 2);
+79            p[3] += count(t, 3);
+80            p[5] += count(t, 5);
+81            p[7] += count(t, 7);
+82            for (++x; x < 10; ++x) {
+83                t = x;
+84                p[2] -= count(t, 2);
+85                p[3] -= count(t, 3);
+86                p[5] -= count(t, 5);
+87                p[7] -= count(t, 7);
+88                vector<int> v = make(p);
+89                v[1] = n - 1 - i;
+90                for (int j = 2; j < 10 && v[1] >= 0; v[1] -= v[j++])
+91                ;
+92                if (v[1] >= 0) return change(num.substr(0, i)) + to_string(x) + join(v);
+93                t = x;
+94                p[2] += count(t, 2);
+95                p[3] += count(t, 3);
+96                p[5] += count(t, 5);
+97                p[7] += count(t, 7);
+98            }
+99        }
+100        vector<int> v = make(p);
+101        v[1] = n + 1;
+102        for (int i = 2; v[1] >= 0 && i < 10; v[1] -= v[i++])
+103        ;
+104        v[1] = max(0, v[1]);
+105        return join(v);
+106        
+107    }
+108};
