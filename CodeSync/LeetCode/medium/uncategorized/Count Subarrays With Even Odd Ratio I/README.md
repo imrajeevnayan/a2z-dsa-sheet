@@ -4,10 +4,10 @@
 - Language: Weekly Contest 513
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/description/
-- Synced: 2026-08-07T06:18:42.637Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/
+- Synced: 2026-08-07T06:19:27.939Z
 
 ## Problem Description
 
