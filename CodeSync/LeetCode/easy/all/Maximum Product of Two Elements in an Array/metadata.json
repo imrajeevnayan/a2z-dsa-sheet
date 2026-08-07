@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-27T08:28:42.903Z",
+  "submissionTimestamp": "2026-08-07T06:23:04.509Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Heap (Priority Queue)"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "Maximum Product of Two Elements in an Array",
-  "problemUrl": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/?envType=daily-question&envId=2026-07-27",
-  "submissionId": "x2nu10"
+  "problemUrl": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/",
+  "submissionId": "mp434a"
 }
