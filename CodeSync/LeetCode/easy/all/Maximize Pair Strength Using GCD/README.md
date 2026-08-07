@@ -4,10 +4,10 @@
 - Language: Weekly Contest 513
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximize-pair-strength-using-gcd/
-- Synced: 2026-08-07T06:15:24.695Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/maximize-pair-strength-using-gcd/
+- Synced: 2026-08-07T06:16:10.488Z
 
 ## Problem Description
 
