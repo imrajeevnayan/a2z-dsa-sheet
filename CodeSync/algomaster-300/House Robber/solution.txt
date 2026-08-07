@@ -1,16 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/submissions/2061527624/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=Practice-I
+ * Language: Practice I
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 42.74 MB
- * Synced: 2026-07-09T09:30:37.756Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T17:10:13.128Z
  */
 
-int[] dp = new int[n + 1];
+class Solution {
+public int rob(int[] nums) {
+    int n=nums.length;
+    if (n == 0) return 0;
+    int[] dp = new int[n + 1];
     
     dp[n] = 0;
     dp[n- 1] = nums[n - 1];
@@ -20,7 +24,4 @@ int[] dp = new int[n + 1];
     }
     return dp[0];
   }
-    int n=nums.length;
-    if (n == 0) return 0;
-public int rob(int[] nums) {
-class Solution {
+}
