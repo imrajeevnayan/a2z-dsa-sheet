@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-07T06:12:07.021Z",
-  "runtime": "43 ms",
-  "memoryUsage": "34.24 MB",
+  "submissionTimestamp": "2026-08-07T06:14:42.138Z",
+  "runtime": "878 ms",
+  "memoryUsage": "36.99 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "14",
-  "problemUrl": "https://leetcode.com/submissions/detail/2097360204/",
-  "submissionId": "jukyzd"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-513/llm-report/77/",
+  "submissionId": "h5zipg"
 }
