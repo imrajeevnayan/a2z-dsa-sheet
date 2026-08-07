@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-06T20:32:51.221Z",
+  "submissionTimestamp": "2026-08-07T04:48:22.444Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "String"
+    "Array",
+    "Hash Table",
+    "String",
+    "Counting"
   ],
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "5trrsw"
+  "problemUrl": "https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string",
+  "submissionId": "ntpou5"
 }
