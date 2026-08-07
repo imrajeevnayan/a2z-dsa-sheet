@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:04:41.149Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-06T20:05:01.455Z",
+  "runtime": "45 ms",
+  "memoryUsage": "76.64 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Math",
-    "Enumeration"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Online Interview",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06",
-  "submissionId": "i5m6eo"
+  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
+  "submissionId": "2lm6jk"
 }
