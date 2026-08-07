@@ -1,26 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 14
- * URL: https://leetcode.com/submissions/detail/2094953120/
+ * URL: https://leetcode.com/submissions/detail/2082653573/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 32.10 MB
- * Synced: 2026-08-07T06:22:04.963Z
+ * Memory: 13.46 MB
+ * Synced: 2026-08-07T06:22:55.221Z
  */
 
 1class Solution {
 2public:
-3    vector<int> findMissingElements(vector<int>& nums) {
-4        sort(nums.begin(), nums.end());
-5        vector<int> res;
-6        for (int i = 0; i + 1 < nums.size(); ++i) {
-7            for (int x = nums[i] + 1; x < nums[i + 1]; ++x) {
-8                res.push_back(x);
-9            }
-10        }
-11        return res;
-12    }
-13};
-14
+3    int maxProduct(vector<int>& nums) {
+4        int m1 = INT_MIN, m2 = INT_MIN;
+5        for (int x : nums) {
+6            if (x > m1) {
+7                m2 = m1;
+8                m1 = x;
+9            } else if (x > m2) {
+10                m2 = x;
+11            }
+12        }
+13        return (m1 - 1) * (m2 - 1);
+14        
+15    }
+16};
