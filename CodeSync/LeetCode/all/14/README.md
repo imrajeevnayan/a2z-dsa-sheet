@@ -1,13 +1,13 @@
 # 14
 
 - Platform: LeetCode
-- Language: Cache System Design
+- Language: Practice I
 - Difficulty: Medium
 - Topics: Hash Table, Linked List, Design, Doubly-Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
-- Synced: 2026-08-07T17:07:29.705Z
+- Problem URL: https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=Practice-I
+- Synced: 2026-08-07T17:10:05.504Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Design a data structure that follows the constraints of a Least Recently Used (L
 
 ## Explanation
 
-This solution was accepted on LeetCode using Cache System Design. The detected topics are Hash Table, Linked List, Design, Doubly-Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Practice I. The detected topics are Hash Table, Linked List, Design, Doubly-Linked List. Review the synced source file for the implementation details.
