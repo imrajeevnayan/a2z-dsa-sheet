@@ -1,23 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Partitioning
- * URL: https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Backtracking
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-07T04:54:26.846Z
+ * Memory: 65.10 MB
+ * Synced: 2026-08-07T04:54:49.839Z
  */
 
 }
+                }
+                    dp[i][j] = true;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {
+                if (s.charAt(i) == s.charAt(j) && 
+                    (j - i <= 2 || dp[i + 1][j - 1])) {
 
-        for (int end = start; end < s.length(); end++) {
-            if (dp[start][end]) {
-                path.add(s.substring(start, end + 1));
-                backtrack(s, end + 1, dp, path, ans);
-                path.remove(path.size() - 1);
-            }
-        }
-    }
-}
+        // Precompute palindrome substrings
+        boolean[][] dp = new boolean[n][n];
+
+        int n = s.length();
+        List<List<String>> ans = new ArrayList<>();
+    public List<List<String>> partition(String s) {
+class Solution {
