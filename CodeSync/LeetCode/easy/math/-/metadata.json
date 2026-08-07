@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-08T04:05:45.157Z",
+  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Hash Table",
     "Math",
-    "Dynamic Programming",
-    "Memoization"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
-  "submissionId": "eje0xj"
+  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
+  "submissionId": "qr8h22"
 }
