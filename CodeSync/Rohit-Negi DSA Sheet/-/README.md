@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Daily Question
-- Difficulty: Medium
-- Topics: Array, Math, Dynamic Programming, Game Theory
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Hash Table, Math, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02
-- Synced: 2026-08-02T06:06:52.602Z
+- Problem URL: https://leetcode.com/problems/roman-to-integer/description/
+- Synced: 2026-08-06T19:59:57.278Z
 
 ## Problem Description
 
-Alice and Bob play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i]. The objective of the game is to end with the most stones. The total number of stones across all the piles is odd, so there are no ties. Alice and Bob take turns, with Alice starting first. Each turn, a player takes the entire pile of stones either from the beginning or from the end of the row. This continues until there are no more piles left, at which point the person with the most stones wins. Assuming Alice and Bob play optimally, return true if Alice wins the game, or false if Bob wins. Example 1: Input: piles = [5,3,4,5] Output: true Explanation: Alice starts first, and can only take the first 5 or the last 5. Say she takes the first 5, so that the row becomes [3, 4, 5]. If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points. If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points. This demonstrated that taking the first 5 was a winning move for Alice, so we return true. Example 2: Input: piles = [3,7,2,3] Output: true Constraints: 2 <= piles.length <= 500 piles.length is even. 1 <= piles[i] <= 500 sum(piles[i]) is odd.
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000 For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II. Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used: I can be placed before V (5) and X (10) to make 4 and 9. X can be placed before L (50) and C (100) to make 40 and 90. C can be placed before D (500) and M (1000) to make 400 and 900. Given a roman numeral, convert it to an integer. Example 1: Input: s = "III" Output: 3 Explanation: III = 3. Example 2: Input: s = "LVIII" Output: 58 Explanation: L = 50, V= 5, III = 3. Example 3: Input: s = "MCMXCIV" Output: 1994 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4. Constraints: 1 <= s.length <= 15 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M'). It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Math, Dynamic Programming, Game Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Math, String. Review the synced source file for the implementation details.
