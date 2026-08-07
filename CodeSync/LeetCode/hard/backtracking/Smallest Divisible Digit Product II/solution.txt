@@ -7,7 +7,7 @@
  * Topics: Math, String, Backtracking, Greedy, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T06:37:37.487Z
+ * Synced: 2026-08-07T06:38:22.728Z
  */
 
 class Solution {
