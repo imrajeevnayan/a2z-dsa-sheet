@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-07T16:52:50.212Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "M[i,j] --> M'[j,N-1-i]",
+  "problemUrl": "https://leetcode.com/problems/rotate-image/description/",
+  "submissionId": "hn0s63"
+}
