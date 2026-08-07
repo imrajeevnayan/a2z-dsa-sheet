@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: 14
+ * URL: https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+ * Language: Cache System Design
+ * Difficulty: Medium
+ * Topics: Hash Table, Linked List, Design, Doubly-Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T17:07:29.705Z
+ */
+
+class Node {
+        int key;
+        int value;
+        Node prev;
+        Node next;
+
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+    private int capacity;
+    private Map<Integer, Node> map;
+
+    private Node head;
