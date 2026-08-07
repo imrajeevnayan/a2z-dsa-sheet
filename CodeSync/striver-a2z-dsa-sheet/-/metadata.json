@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-28T09:43:43.353Z",
+  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Hash Table",
+    "Math",
+    "String"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "ks0eht"
+  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
+  "submissionId": "qr8h22"
 }
