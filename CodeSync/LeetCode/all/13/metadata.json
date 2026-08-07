@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-07T04:48:22.444Z",
+  "submissionTimestamp": "2026-08-07T04:52:16.598Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Hash Table",
     "String",
-    "Counting"
+    "Dynamic Programming",
+    "Backtracking",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "String",
+  "language": "Top 100 Liked",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string",
-  "submissionId": "ntpou5"
+  "problemUrl": "https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "vm4x0d"
 }
