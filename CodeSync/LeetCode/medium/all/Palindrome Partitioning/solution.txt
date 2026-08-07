@@ -5,13 +5,19 @@
  * Language: Top 100 Liked
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Backtracking
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-07T04:53:41.782Z
+ * Synced: 2026-08-07T04:54:26.846Z
  */
 
-class Solution {
-    public List<List<String>> partition(String s) {
-        
+}
+
+        for (int end = start; end < s.length(); end++) {
+            if (dp[start][end]) {
+                path.add(s.substring(start, end + 1));
+                backtrack(s, end + 1, dp, path, ans);
+                path.remove(path.size() - 1);
+            }
+        }
     }
 }
