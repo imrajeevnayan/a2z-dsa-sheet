@@ -2465,5 +2465,6 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:count-asterisks": []
+  "leetcode:count-asterisks": [],
+  "leetcode:unique-morse-code-words": []
 }
