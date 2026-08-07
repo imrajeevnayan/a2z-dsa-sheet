@@ -2470,5 +2470,6 @@
   "leetcode:check-if-a-string-is-an-acronym-of-words": [],
   "leetcode:check-balanced-string": [],
   "leetcode:lexicographically-smallest-string-after-applying-operations": [],
-  "leetcode:kth-distinct-string-in-an-array": []
+  "leetcode:kth-distinct-string-in-an-array": [],
+  "leetcode:smallest-divisible-digit-product-ii": []
 }
