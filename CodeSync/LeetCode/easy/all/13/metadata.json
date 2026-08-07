@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:04:41.149Z",
+  "submissionTimestamp": "2026-08-06T20:32:51.221Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Enumeration"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "String",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06",
-  "submissionId": "i5m6eo"
+  "problemUrl": "https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "5trrsw"
 }
