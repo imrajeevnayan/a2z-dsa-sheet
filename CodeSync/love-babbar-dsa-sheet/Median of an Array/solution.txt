@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Median of an Array
+ * URL: https://www.geeksforgeeks.org/problems/find-the-median0527/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungFactSet, Company Tags, Accolite, Amazon, Samsung, FactSet, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T05:15:04.447Z
+ */
+
+class Solution {
+    public double findMedian(int[] arr) {
+        Arrays.sort(arr);
+        int n = arr.length;
+        if (n % 2 == 1)return arr[n/2];
+        return (arr[n/2]+ arr[n/2-1]) / 2.0;
+    }
+}
