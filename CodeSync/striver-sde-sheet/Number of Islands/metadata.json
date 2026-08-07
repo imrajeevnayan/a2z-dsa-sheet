@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-06T20:01:08.899Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Number of Islands",
+  "problemUrl": "https://leetcode.com/problems/number-of-islands/description/",
+  "submissionId": "ak45h4"
+}
