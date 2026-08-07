@@ -1,17 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-17T08:35:31.471Z",
+  "submissionTimestamp": "2026-08-07T05:08:58.656Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
-    "Description",
-    "Discussion",
-    "Submissions",
-    "Hints"
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Sorting",
+    "Counting",
+    "Boyer–Moore Majority Vote Algorithm"
   ],
-  "platform": "InterviewBit",
-  "language": "Java",
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
   "problemTitle": "Majority Element",
-  "problemUrl": "https://www.interviewbit.com/problems/majority-element/submissions/",
-  "submissionId": "qnkpvv"
+  "problemUrl": "https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "l2qpyc"
 }
