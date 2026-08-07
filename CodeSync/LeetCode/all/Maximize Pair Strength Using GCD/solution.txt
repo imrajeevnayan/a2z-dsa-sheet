@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximize Pair Strength Using GCD
+ * URL: https://leetcode.com/problems/maximize-pair-strength-using-gcd/
+ * Language: Weekly Contest 513
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T06:15:24.695Z
+ */
+
+class Solution {
+    public long maxPairStrength(int[] nums) {
+        
+    }
+}
