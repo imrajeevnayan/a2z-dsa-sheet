@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-07T04:49:08.543Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Kth Distinct String in an Array",
+  "problemUrl": "https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string",
+  "submissionId": "qttd6i"
+}
