@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Medium
 - Topics: String, Dynamic Programming, Backtracking
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-08-07T04:53:41.782Z
+- Synced: 2026-08-07T04:54:26.846Z
 
 ## Problem Description
 
