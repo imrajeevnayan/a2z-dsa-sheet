@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-23T04:38:34.417Z",
-  "runtime": "446 ms",
-  "memoryUsage": "209.72 MB",
+  "submissionTimestamp": "2026-08-06T20:05:00.653Z",
+  "runtime": "45 ms",
+  "memoryUsage": "76.64 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2077816282/",
-  "submissionId": "cihnet"
+  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
+  "submissionId": "5n3o7x"
 }
