@@ -2448,5 +2448,16 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "leetcode:merge-sorted-array": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
