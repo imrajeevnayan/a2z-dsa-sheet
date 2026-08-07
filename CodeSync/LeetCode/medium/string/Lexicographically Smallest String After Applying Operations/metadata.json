@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-07T04:48:01.708Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Lexicographically Smallest String After Applying Operations",
+  "problemUrl": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "sdgaa7"
+}
