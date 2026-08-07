@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-06T20:06:04.967Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-06T20:06:50.092Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Design HashMap",
-  "problemUrl": "https://leetcode.com/problems/design-hashmap/",
-  "submissionId": "q8u2iz"
+  "problemUrl": "https://leetcode.com/problems/design-hashmap/submissions/2097238399/",
+  "submissionId": "sa1wh3"
 }
