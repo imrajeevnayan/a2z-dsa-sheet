@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: 44.57 MB
-- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string/submissions/2083272890/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T11:26:40.033Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-07T05:58:45.417Z
 
 ## Problem Description
 
