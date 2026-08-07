@@ -6,8 +6,8 @@
 - Topics: Math, String, Backtracking, Greedy, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-ii/?envType=daily-question&envId=2026-08-07
-- Synced: 2026-08-07T04:50:09.940Z
+- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/?envType=daily-question&envId=2026-08-07
+- Synced: 2026-08-07T04:50:59.196Z
 
 ## Problem Description
 
