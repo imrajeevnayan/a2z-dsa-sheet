@@ -1,14 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
- * Language: -
+ * URL: https://leetcode.com/problems/roman-to-integer/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Hash Table, Graph Theory
+ * Topics: Hash Table, Math, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T05:35:26.167Z
+ * Synced: 2026-08-06T19:59:57.278Z
  */
 
-Input: n = 2, trust = [[1,2]]
-Output: 2
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
