@@ -1,27 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Design HashMap
- * URL: https://leetcode.com/problems/design-hashmap/submissions/2097238399/
+ * URL: https://leetcode.com/problems/design-hashmap/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Linked List, Design, Hash Function
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-06T20:06:50.092Z
+ * Memory: 48.14 MB
+ * Synced: 2026-08-06T20:07:35.416Z
  */
 
-}
-
-    public int get(int key) {
-        int index = hash(key);
-        Node curr = buckets[index];
-
-        while (curr != null) {
-            if (curr.key == key) {
-                return curr.value;
-            }
-            curr = curr.next;
-        }
-
-        return -1;
-    }
+["MyHashMap","put","put","get","get","put","get","remove","get"]
+[[],[1,1],[2,2],[1],[3],[2,1],[2],[2],[2]]
+[null,null,null,1,-1,null,1,null,-1]
+[null,null,null,1,-1,null,1,null,-1]
