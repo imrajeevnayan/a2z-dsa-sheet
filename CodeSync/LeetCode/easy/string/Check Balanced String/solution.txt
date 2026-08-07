@@ -5,22 +5,19 @@
  * Language: String
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-06T20:33:36.919Z
+ * Synced: 2026-08-06T20:34:22.635Z
  */
 
 for (int i = 0; i < num.length(); i++) {
             int digit = num.charAt(i) - '0';
-
-            if (i % 2 == 0) {
-                evenSum += digit;
-            } else {
-                oddSum += digit;
-            }
+            if (i % 2 == 0)  evenSum += digit;
+            else   oddSum += digit;
         }
-
-        int evenSum = 0oddSum = 0;
+        int evenSum = 0,oddSum = 0;
 class Solution {
     public boolean isBalanced(String num) {
         return evenSum == oddSum;
+    }
+}
