@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/description/
-- Synced: 2026-08-07T06:16:21.377Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/
+- Synced: 2026-08-07T06:17:06.903Z
 
 ## Problem Description
 
