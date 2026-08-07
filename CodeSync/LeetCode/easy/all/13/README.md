@@ -1,18 +1,18 @@
 # 13
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: String
 - Difficulty: Easy
-- Topics: Math, Enumeration
+- Topics: String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06
-- Synced: 2026-08-06T20:04:41.149Z
+- Problem URL: https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-06T20:32:51.221Z
 
 ## Problem Description
 
-You are given two integers n and t. Return the smallest number greater than or equal to n such that the product of its digits is divisible by t. Example 1: Input: n = 10, t = 2 Output: 10 Explanation: The digit product of 10 is 0, which is divisible by 2, making it the smallest number greater than or equal to 10 that satisfies the condition. Example 2: Input: n = 15, t = 3 Output: 16 Explanation: The digit product of 16 is 6, which is divisible by 3, making it the smallest number greater than or equal to 15 that satisfies the condition. Constraints: 1 <= n <= 100 1 <= t <= 10
+You are given a string num consisting of only digits. A string of digits is called balanced if the sum of the digits at even indices is equal to the sum of digits at odd indices. Return true if num is balanced, otherwise return false. Example 1: Input: num = "1234" Output: false Explanation: The sum of digits at even indices is 1 + 3 == 4, and the sum of digits at odd indices is 2 + 4 == 6. Since 4 is not equal to 6, num is not balanced. Example 2: Input: num = "24123" Output: true Explanation: The sum of digits at even indices is 2 + 1 + 3 == 6, and the sum of digits at odd indices is 4 + 2 == 6. Since both are equal the num is balanced. Constraints: 2 <= num.length <= 100 num consists of digits only
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Math, Enumeration. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using String. The detected topics are String. Review the synced source file for the implementation details.
