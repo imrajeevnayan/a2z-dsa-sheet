@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-07T06:18:42.637Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-07T06:19:27.939Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 513",
   "problemTitle": "Count Subarrays With Even Odd Ratio I",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/description/",
-  "submissionId": "gyrtcq"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/",
+  "submissionId": "rmh98x"
 }
