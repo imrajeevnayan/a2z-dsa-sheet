@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-07T17:07:29.705Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Design",
+    "Doubly-Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Cache System Design",
+  "problemTitle": "14",
+  "problemUrl": "https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design",
+  "submissionId": "id34bn"
+}
