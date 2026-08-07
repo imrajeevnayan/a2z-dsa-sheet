@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-09T09:30:37.756Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.74 MB",
+  "submissionTimestamp": "2026-08-07T17:10:13.128Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Practice I",
   "problemTitle": "House Robber",
-  "problemUrl": "https://leetcode.com/problems/house-robber/submissions/2061527624/",
-  "submissionId": "uw50l2"
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=Practice-I",
+  "submissionId": "6cdefy"
 }
