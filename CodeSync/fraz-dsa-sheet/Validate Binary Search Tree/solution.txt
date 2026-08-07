@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Validate Binary Search Tree
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T04:55:50.017Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
