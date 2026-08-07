@@ -4,10 +4,10 @@
 - Language: Online Interview
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 1015 ms
-- Memory: 47.17 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-513/llm-report/77/
-- Synced: 2026-08-07T06:16:54.972Z
+- Runtime: 0 ms
+- Memory: 32.10 MB
+- Problem URL: https://leetcode.com/submissions/detail/2094953120/
+- Synced: 2026-08-07T06:22:04.963Z
 
 ## Problem Description
 
