@@ -4,22 +4,25 @@
  * URL: https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Algorithms, Related Articles
+ * Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Related Articles, Program To Find Lcm Of Two Numbers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T05:00:13.593Z
+ * Synced: 2026-08-07T05:11:43.395Z
  */
 
 class Solution {
     public static int[] lcmAndGcd(int a, int b) {
-        int x = a, y = b;
-        while (y != 0) {
-            int temp = y;
-            y = x % y;
-            x = temp;
-        }
-        int gcd = x;
-        int lcm = (a * b) / gcd;
+        int gcd = findGcd(a, b);
+        int lcm = (a / gcd) * b;
         return new int[]{lcm, gcd};
+    }
+
+    private static int findGcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
     }
 }
