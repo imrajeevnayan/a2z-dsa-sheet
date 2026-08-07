@@ -1,13 +1,13 @@
 # Majority Element
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top Interview 150
 - Difficulty: Easy
-- Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
+- Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/majority-element/
-- Synced: 2026-07-16T12:15:17.923Z
+- Problem URL: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-07T05:08:58.656Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array nums of size n, return the majority element. The majority element
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Divide and Conquer, Sorting, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm. Review the synced source file for the implementation details.
