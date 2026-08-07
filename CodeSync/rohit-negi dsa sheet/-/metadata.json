@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-02T06:06:52.602Z",
+  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
+    "Hash Table",
     "Math",
-    "Dynamic Programming",
-    "Game Theory"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/stone-game/description/?envType=daily-question&envId=2026-08-02",
-  "submissionId": "44mpyg"
+  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
+  "submissionId": "qr8h22"
 }
