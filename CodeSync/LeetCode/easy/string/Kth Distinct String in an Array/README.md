@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, String, Counting
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 46.28 MB
 - Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/submissions/2097471272/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-07T04:49:55.038Z
+- Synced: 2026-08-07T04:50:53.172Z
 
 ## Problem Description
 
