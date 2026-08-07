@@ -1,18 +1,18 @@
 # Palindrome Partitioning
 
-- Platform: Coding Ninjas (Code360)
-- Language: Java (17)
+- Platform: LeetCode
+- Language: Top 100 Liked
 - Difficulty: Medium
-- Topics: Uncategorized
+- Topics: String, Dynamic Programming, Backtracking
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/palindrome-partitioning_799931
-- Synced: 2026-06-19T06:28:19.664Z
+- Problem URL: https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-08-07T04:53:41.782Z
 
 ## Problem Description
 
-Problem statement Send feedback
+Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s. Example 1: Input: s = "aab" Output: [["a","a","b"],["aa","b"]] Example 2: Input: s = "a" Output: [["a"]] Constraints: 1 <= s.length <= 16 s contains only lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using Java (17). Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are String, Dynamic Programming, Backtracking. Review the synced source file for the implementation details.
