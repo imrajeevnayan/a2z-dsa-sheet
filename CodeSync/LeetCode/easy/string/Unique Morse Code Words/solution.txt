@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Unique Morse Code Words
+ * URL: https://leetcode.com/problems/unique-morse-code-words/description/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T20:26:57.081Z
+ */
+
+class Solution {
+    public int uniqueMorseRepresentations(String[] words) {
+        
+    }
+}
