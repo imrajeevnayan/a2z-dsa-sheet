@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-07T05:06:39.178Z
+- Synced: 2026-08-07T05:07:24.194Z
 
 ## Problem Description
 
