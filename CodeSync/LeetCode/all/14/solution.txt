@@ -1,21 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 14
- * URL: https://leetcode.com/discuss/post/8446546/3348-smallest-divisible-digit-product-ii-p532/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * URL: https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+ * Language: Cache System Design
+ * Difficulty: Medium
+ * Topics: Hash Table, Linked List, Design, Doubly-Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T06:40:16.240Z
+ * Synced: 2026-08-07T17:07:29.705Z
  */
 
-t = 360
+class Node {
+        int key;
+        int value;
+        Node prev;
+        Node next;
 
-360 = 2 * 2 * 2 * 3 * 3 * 5
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
 
-Need:
-2 -> 3 times
-3 -> 2 times
-5 -> 1 time
-7 -> 0 times
+    private int capacity;
+    private Map<Integer, Node> map;
+
+    private Node head;
