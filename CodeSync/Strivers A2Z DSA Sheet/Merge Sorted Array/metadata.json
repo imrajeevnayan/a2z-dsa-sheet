@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-06T20:03:16.697Z",
+  "submissionTimestamp": "2026-08-07T05:04:25.496Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,8 +9,8 @@
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "Merge Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/",
-  "submissionId": "tu6es6"
+  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "bkdxit"
 }
