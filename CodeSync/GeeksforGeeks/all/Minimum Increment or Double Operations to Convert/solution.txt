@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Minimum Increment or Double Operations to Convert
  * URL: https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1
- * Language: def countMinOperations(self, arr): return sum(a.bit_count() for a in arr) + max(a.bit_length() for a in arr) - 1
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Count Minimum Steps Get Given Desired Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T20:37:51.019Z
+ * Synced: 2026-08-07T05:11:54.892Z
  */
 
 class Solution {
