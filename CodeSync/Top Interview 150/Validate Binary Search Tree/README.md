@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-08-07T04:55:50.017Z
+- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-08-07T04:56:35.513Z
 
 ## Problem Description
 
