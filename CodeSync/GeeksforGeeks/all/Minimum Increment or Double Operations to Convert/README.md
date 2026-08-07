@@ -1,13 +1,13 @@
 # Minimum Increment or Double Operations to Convert
 
 - Platform: GeeksforGeeks
-- Language: def countMinOperations(self, arr): return sum(a.bit_count() for a in arr) + max(a.bit_length() for a in arr) - 1
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Count Minimum Steps Get Given Desired Array
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1
-- Synced: 2026-08-05T20:37:51.019Z
+- Synced: 2026-08-07T05:11:54.892Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[]. Initially, you have another array containing only 0s. In o
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using def countMinOperations(self, arr): return sum(a.bit_count() for a in arr) + max(a.bit_length() for a in arr) - 1. The detected topics are Expected Complexities, Topic Tags, Arrays, Related Articles, Count Minimum Steps Get Given Desired Array. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Arrays, Related Articles, Count Minimum Steps Get Given Desired Array. Review the synced source file for the implementation details.
