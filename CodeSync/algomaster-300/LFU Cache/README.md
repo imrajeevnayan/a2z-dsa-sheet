@@ -6,8 +6,8 @@
 - Topics: Hash Table, Linked List, Design, Doubly-Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/lfu-cache/description/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
-- Synced: 2026-08-07T17:08:06.924Z
+- Problem URL: https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+- Synced: 2026-08-07T17:08:54.411Z
 
 ## Problem Description
 
