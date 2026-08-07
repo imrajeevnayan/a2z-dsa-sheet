@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T20:07:41.612Z",
+  "submissionTimestamp": "2026-08-06T20:01:08.899Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,8 +11,8 @@
     "Matrix"
   ],
   "platform": "LeetCode",
-  "language": "Grind 75 (Copy-rab78cw1)",
+  "language": "Problem List",
   "problemTitle": "Number of Islands",
-  "problemUrl": "https://leetcode.com/problems/number-of-islands/description/?envType=problem-list-v2&envId=dxlq3az1",
-  "submissionId": "ii2mer"
+  "problemUrl": "https://leetcode.com/problems/number-of-islands/description/",
+  "submissionId": "ak45h4"
 }
