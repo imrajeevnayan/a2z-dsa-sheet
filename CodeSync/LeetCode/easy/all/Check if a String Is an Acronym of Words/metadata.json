@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-08-06T20:27:58.853Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Check if a String Is an Acronym of Words",
+  "problemUrl": "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/?envType=problem-list-v2&envId=string",
+  "submissionId": "9r6sls"
+}
