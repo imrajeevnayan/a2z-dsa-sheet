@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Hard
 - Topics: Math, String, Backtracking, Greedy, Number Theory
-- Runtime: 2 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-ii/?envType=daily-question&envId=2026-08-07
-- Synced: 2026-08-07T06:11:50.562Z
+- Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/?envType=daily-question&envId=2026-08-07
+- Synced: 2026-08-07T06:36:01.401Z
 
 ## Problem Description
 
