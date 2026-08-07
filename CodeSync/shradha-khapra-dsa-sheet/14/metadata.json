@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-07T17:07:29.705Z",
+  "submissionTimestamp": "2026-08-07T17:10:05.504Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Doubly-Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Cache System Design",
+  "language": "Practice I",
   "problemTitle": "14",
-  "problemUrl": "https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design",
-  "submissionId": "id34bn"
+  "problemUrl": "https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=Practice-I",
+  "submissionId": "p9ov86"
 }
