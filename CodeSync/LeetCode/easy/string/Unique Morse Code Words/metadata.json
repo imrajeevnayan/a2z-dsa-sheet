@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-06T20:26:57.081Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Unique Morse Code Words",
+  "problemUrl": "https://leetcode.com/problems/unique-morse-code-words/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "wmvvva"
+}
