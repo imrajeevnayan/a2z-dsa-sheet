@@ -1,14 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+ * URL: https://leetcode.com/problems/roman-to-integer/description/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Binary Search
+ * Difficulty: Easy
+ * Topics: Hash Table, Math, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T09:43:43.353Z
+ * Synced: 2026-08-06T19:59:57.278Z
  */
 
-Input: nums = [4,5,6,7,0,1,2], target = 0
-Output: 4
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
