@@ -1,34 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 14
- * URL: https://leetcode.com/discuss/create/
+ * URL: https://leetcode.com/discuss/post/8446546/3348-smallest-divisible-digit-product-ii-p532/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T06:39:12.471Z
+ * Synced: 2026-08-07T06:40:16.240Z
  */
 
-p[2]+=count(next,2);
-                p[3]+=count(next,3);
-                p[5]+=count(next,5);
-                p[7]+=count(next,7);
-            }
-        }
+t = 360
 
+360 = 2 * 2 * 2 * 3 * 3 * 5
 
-        int[] digits=make(p);
-
-        digits[1]=n+1;
-
-        for(int i=2;i<=9 && digits[1]>=0;i++)
-            digits[1]-=digits[i];
-
-
-        digits[1]=Math.max(0,digits[1]);
-
-        return join(digits);
-    }
-}
-```
+Need:
+2 -> 3 times
+3 -> 2 times
+5 -> 1 time
+7 -> 0 times
