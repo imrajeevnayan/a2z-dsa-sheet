@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-05T20:37:51.019Z",
+  "submissionTimestamp": "2026-08-07T05:11:54.892Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -11,8 +11,8 @@
     "Count Minimum Steps Get Given Desired Array"
   ],
   "platform": "GeeksforGeeks",
-  "language": "def countMinOperations(self, arr): return sum(a.bit_count() for a in arr) + max(a.bit_length() for a in arr) - 1",
+  "language": "Java (21)",
   "problemTitle": "Minimum Increment or Double Operations to Convert",
   "problemUrl": "https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1",
-  "submissionId": "7znenh"
+  "submissionId": "axv7ru"
 }
