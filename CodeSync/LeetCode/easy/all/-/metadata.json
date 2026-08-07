@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
+  "submissionTimestamp": "2026-08-06T20:25:47.772Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "Math",
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "C",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
-  "submissionId": "qr8h22"
+  "problemUrl": "https://leetcode.com/problems/count-asterisks/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "gwz7fh"
 }
