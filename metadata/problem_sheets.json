@@ -2555,5 +2555,16 @@
     "custom:striver-sde-sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:lfu-cache": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:love-babbar-dsa-sheet"
   ]
 }
