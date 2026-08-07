@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-13T15:58:12.286Z",
+  "submissionTimestamp": "2026-08-06T20:02:01.245Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Substring Without Repeating Characters",
-  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
-  "submissionId": "zavp0a"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "1e6ofw"
 }
