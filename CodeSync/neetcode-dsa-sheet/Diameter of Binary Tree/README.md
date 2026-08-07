@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/submissions/1912786032/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-08-07T05:02:18.608Z
+- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/submissions/2097485519/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-08-07T05:03:04.526Z
 
 ## Problem Description
 
