@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3 ms
-- Memory: 202.42 MB
-- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/submissions/2023571299/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:18:39.923Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-07T06:05:45.459Z
 
 ## Problem Description
 
