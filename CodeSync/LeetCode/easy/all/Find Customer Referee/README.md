@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-customer-referee/description/?envType=problem-list-v2&envId=dmjree02
-- Synced: 2026-08-07T08:12:12.530Z
+- Synced: 2026-08-07T08:13:17.935Z
 
 ## Problem Description
 
