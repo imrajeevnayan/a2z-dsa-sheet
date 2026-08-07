@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-16T12:15:17.923Z",
+  "submissionTimestamp": "2026-08-07T05:08:58.656Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,11 +8,12 @@
     "Hash Table",
     "Divide and Conquer",
     "Sorting",
-    "Counting"
+    "Counting",
+    "Boyer–Moore Majority Vote Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "Majority Element",
-  "problemUrl": "https://leetcode.com/problems/majority-element/",
-  "submissionId": "a9ctyh"
+  "problemUrl": "https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "l2qpyc"
 }
