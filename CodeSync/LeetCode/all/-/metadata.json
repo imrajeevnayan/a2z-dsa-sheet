@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:25:47.772Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-07T06:07:30.099Z",
+  "runtime": "43 ms",
+  "memoryUsage": "34.24 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "C",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/count-asterisks/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "gwz7fh"
+  "problemUrl": "https://leetcode.com/submissions/detail/2097360204/",
+  "submissionId": "cdysol"
 }
