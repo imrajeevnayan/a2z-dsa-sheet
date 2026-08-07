@@ -1,22 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Majority Element
- * URL: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
+ * URL: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
  * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-07T05:08:58.656Z
+ * Synced: 2026-08-07T05:09:45.382Z
  */
 
-class Solution {
-    public int majorityElement(int[] nums) {
-        HashMap<Integer,Integer>map=new HashMap<>();
-        for(int n:nums)map.put(n,map.getOrDefault(n,0)+1);
-        for(int n:map.keySet()){
-            if(map.get(n)>nums.length/2) return n;
+if (count == 0) {
+                candidate = num;
+            }
+            if (num == candidate) {
+                count++;
+            } else {
+        for (int num : nums) {
+        int candidate = 0;
+        int count = 0;
+                count--;
+            }
         }
-        return -1;
+        return candidate;
     }
 }
