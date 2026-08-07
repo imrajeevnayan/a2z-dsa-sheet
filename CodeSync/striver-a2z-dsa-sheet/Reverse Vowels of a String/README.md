@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Two Pointers, String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-07T05:57:57.994Z
+- Runtime: 0 ms
+- Memory: 46.48 MB
+- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-07T05:58:43.950Z
 
 ## Problem Description
 
