@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-06T20:06:50.092Z",
+  "submissionTimestamp": "2026-08-06T20:07:35.416Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "48.14 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Design HashMap",
-  "problemUrl": "https://leetcode.com/problems/design-hashmap/submissions/2097238399/",
-  "submissionId": "sa1wh3"
+  "problemUrl": "https://leetcode.com/problems/design-hashmap/",
+  "submissionId": "deot2e"
 }
