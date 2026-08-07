@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Lexicographically Smallest String After Applying Operations
+ * URL: https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/description/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Medium
+ * Topics: String, Depth-First Search, Breadth-First Search, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T04:48:01.708Z
+ */
+
+class Solution {
+    public String findLexSmallestString(String s, int a, int b) {
+        
+    }
+}
