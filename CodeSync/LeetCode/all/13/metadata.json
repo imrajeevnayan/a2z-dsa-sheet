@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-07T05:01:33.560Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-07T06:07:31.323Z",
+  "runtime": "43 ms",
+  "memoryUsage": "34.24 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Tree",
-    "DP on Trees"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Online Interview",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/problems/diameter-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "dfigbj"
+  "problemUrl": "https://leetcode.com/submissions/detail/2097360204/",
+  "submissionId": "v1nm5k"
 }
