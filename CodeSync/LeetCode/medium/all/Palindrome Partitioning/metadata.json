@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-07T04:53:41.782Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
+  "problemTitle": "Palindrome Partitioning",
+  "problemUrl": "https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "9hq08p"
+}
