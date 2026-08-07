@@ -7,31 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T06:17:06.903Z
+ * Synced: 2026-08-07T06:17:52.002Z
  */
 
 class Solution {
-    public long maxPairStrength(int[] nums) {
-        int n = nums.length;
-        long maxStrength = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int g = gcd(nums[i], nums[j]);
-                long strength = (long)(nums[i] / g) * (nums[j] / g);
-                if (strength > maxStrength) {
-                    maxStrength = strength;
-                }
-            }
-        }
-        return maxStrength;
-    }
-    
-    private int gcd(int a, int b) {
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
-        }
-        return a;
+    public int countRatioSubarrays(int[] nums, int a, int b) {
+        
     }
 }
