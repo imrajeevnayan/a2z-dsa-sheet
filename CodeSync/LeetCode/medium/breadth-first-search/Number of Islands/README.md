@@ -6,8 +6,8 @@
 - Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-islands/description/
-- Synced: 2026-08-06T20:01:08.899Z
+- Problem URL: https://leetcode.com/problems/number-of-islands/
+- Synced: 2026-08-06T20:01:54.415Z
 
 ## Problem Description
 
