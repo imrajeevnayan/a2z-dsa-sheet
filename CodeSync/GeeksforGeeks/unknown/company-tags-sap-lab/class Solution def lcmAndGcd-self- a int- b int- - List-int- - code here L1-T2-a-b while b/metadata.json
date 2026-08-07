@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-15T05:00:13.593Z",
+  "submissionTimestamp": "2026-08-07T05:11:43.395Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,12 +10,12 @@
     "SAP Labs",
     "Topic Tags",
     "Mathematical",
-    "Algorithms",
-    "Related Articles"
+    "Related Articles",
+    "Program To Find Lcm Of Two Numbers"
   ],
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "class Solution: def lcmAndGcd(self, a : int, b : int) -> List[int]: # code here L1,T2=a,b while b>0: r=a%b a=b b=r gcd=a lcm=int((L1*T2)/gcd) return lcm,gcd",
   "problemUrl": "https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1",
-  "submissionId": "i86wb1"
+  "submissionId": "6k0s9n"
 }
