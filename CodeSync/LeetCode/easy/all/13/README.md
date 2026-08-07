@@ -1,18 +1,18 @@
 # 13
 
 - Platform: LeetCode
-- Language: String
+- Language: Top 100 Liked
 - Difficulty: Easy
-- Topics: Array, Hash Table, String, Counting
+- Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-07T04:48:22.444Z
+- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-08-07T05:01:33.560Z
 
 ## Problem Description
 
-A distinct string is a string that is present only once in an array. Given an array of strings arr, and an integer k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string "". Note that the strings are considered in the order in which they appear in the array. Example 1: Input: arr = ["d","b","c","b","c","a"], k = 2 Output: "a" Explanation: The only distinct strings in arr are "d" and "a". "d" appears 1st, so it is the 1st distinct string. "a" appears 2nd, so it is the 2nd distinct string. Since k == 2, "a" is returned. Example 2: Input: arr = ["aaa","aa","a"], k = 1 Output: "aaa" Explanation: All strings in arr are distinct, so the 1st string "aaa" is returned. Example 3: Input: arr = ["a","b","a"], k = 3 Output: "" Explanation: The only distinct string is "b". Since there are fewer than 3 distinct strings, we return an empty string "". Constraints: 1 <= k <= arr.length <= 1000 1 <= arr[i].length <= 5 arr[i] consists of lowercase English letters.
+Given the root of a binary tree, return the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root. The length of a path between two nodes is represented by the number of edges between them. Example 1: Input: root = [1,2,3,4,5] Output: 3 Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3]. Example 2: Input: root = [1,2] Output: 1 Constraints: The number of nodes in the tree is in the range [1, 104]. -100 <= Node.val <= 100
 
 ## Explanation
 
-This solution was accepted on LeetCode using String. The detected topics are Array, Hash Table, String, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Binary Tree, DP on Trees. Review the synced source file for the implementation details.
