@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Easy
 - Topics: Array, Hash Table, String, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-07T04:49:08.543Z
+- Problem URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/submissions/2097471272/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-07T04:49:55.038Z
 
 ## Problem Description
 
