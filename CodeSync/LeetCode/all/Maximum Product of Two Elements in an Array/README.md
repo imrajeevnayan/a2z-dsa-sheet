@@ -1,13 +1,13 @@
 # Maximum Product of Two Elements in an Array
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Sorting, Heap (Priority Queue)
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/?envType=daily-question&envId=2026-07-27
-- Synced: 2026-07-27T08:28:42.903Z
+- Problem URL: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/
+- Synced: 2026-08-07T06:23:04.509Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the array of integers nums, you will choose two different indices i and j 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Sorting, Heap (Priority Queue). Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sorting, Heap (Priority Queue). Review the synced source file for the implementation details.
