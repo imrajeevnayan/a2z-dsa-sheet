@@ -1,27 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Design HashMap
- * URL: https://leetcode.com/problems/design-hashmap/
+ * URL: https://leetcode.com/problems/design-hashmap/submissions/2097238399/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Linked List, Design, Hash Function
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-06T20:06:04.967Z
+ * Synced: 2026-08-06T20:06:50.092Z
  */
 
-private Node[] buckets;
-    private final int SIZE = 1000;
+}
 
-    }
-            this.value = value;
+    public int get(int key) {
+        int index = hash(key);
+        Node curr = buckets[index];
+
+        while (curr != null) {
+            if (curr.key == key) {
+                return curr.value;
+            }
+            curr = curr.next;
         }
-        Node(int key, int value) {
-            this.key = key;
-        Node next;
 
-        int value;
-        int key;
-    class Node {
-
-class MyHashMap {
+        return -1;
+    }
