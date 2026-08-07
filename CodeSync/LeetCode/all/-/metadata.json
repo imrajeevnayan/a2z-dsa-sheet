@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-04T10:45:24.360Z",
+  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Prefix Sum"
+    "Hash Table",
+    "Math",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "LeetCode 75",
+  "language": "Problem List",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "l27qa1"
+  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
+  "submissionId": "qr8h22"
 }
