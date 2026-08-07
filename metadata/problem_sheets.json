@@ -2514,5 +2514,9 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:remove-element": []
+  "leetcode:remove-element": [],
+  "geeksforgeeks:friends-pairing-problem5425": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
+  ]
 }
