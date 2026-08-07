@@ -1,33 +1,27 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1
- * Language: class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };
+ * URL: https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
+ * Language: class Solution { public: long long fact(int n){ long long f = 1; while(n) f *= n--; return f; } int countFriendsPairings(int n) { // code here int ans =0; for(int k = 0; k <= n/2; k++) ans += fact(n) / ((1LL<<k) * fact(k) * fact(n - 2*k)); return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range
+ * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Recursion, Related Articles, Friends Pairing Problem
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T10:56:01.953Z
+ * Synced: 2026-08-07T05:12:45.797Z
  */
 
 class Solution {
-    public int countSubarray(int[] arr, int l, int r) {
-        return count(arr, r) - count(arr, l - 1);
-    }
+    public int countFriendsPairings(int n) {
+        if (n <= 1)return 1;
+        
+        int prev2 = 1; // f(0)
+        int prev1 = 1; // f(1)
 
-    private int count(int[] arr, int limit) {
-        int ans = 0;
-        int len = 0;
-
-        for (int x : arr) {
-            if (x <= limit) {
-                len++;
-            } else {
-                len = 0;
-            }
-            ans += len;
+        for (int i = 2; i <= n; i++) {
+            int curr = prev1 + (i - 1) * prev2;
+            prev2 = prev1;
+            prev1 = curr;
         }
-
-        return ans;
+        return prev1;
     }
 }
