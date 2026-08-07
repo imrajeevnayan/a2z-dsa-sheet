@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-07T04:53:41.782Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-07T04:54:26.846Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Top 100 Liked",
   "problemTitle": "Palindrome Partitioning",
   "problemUrl": "https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "9hq08p"
+  "submissionId": "1lzl2v"
 }
