@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-07T06:15:24.695Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-07T06:16:10.488Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 513",
   "problemTitle": "Maximize Pair Strength Using GCD",
-  "problemUrl": "https://leetcode.com/problems/maximize-pair-strength-using-gcd/",
-  "submissionId": "f46qia"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-513/problems/maximize-pair-strength-using-gcd/",
+  "submissionId": "yav616"
 }
