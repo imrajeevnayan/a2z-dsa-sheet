@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Product of Two Elements in an Array
- * URL: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/?envType=daily-question&envId=2026-07-27
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-27T08:28:42.903Z
+ * Synced: 2026-08-07T06:23:04.509Z
  */
 
 class Solution {
