@@ -2469,5 +2469,14 @@
   "leetcode:check-balanced-string": [],
   "leetcode:lexicographically-smallest-string-after-applying-operations": [],
   "leetcode:kth-distinct-string-in-an-array": [],
-  "leetcode:smallest-divisible-digit-product-ii": []
+  "leetcode:smallest-divisible-digit-product-ii": [],
+  "leetcode:palindrome-partitioning": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
