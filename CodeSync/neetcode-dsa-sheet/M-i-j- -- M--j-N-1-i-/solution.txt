@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: M[i,j] --> M'[j,N-1-i]
+ * URL: https://leetcode.com/problems/rotate-image/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T16:52:50.212Z
+ */
+
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [[7,4,1],[8,5,2],[9,6,3]]
