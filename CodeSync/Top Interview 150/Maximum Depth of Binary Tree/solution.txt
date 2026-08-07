@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Depth of Binary Tree
- * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
+ * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T08:49:15.487Z
+ * Synced: 2026-08-07T04:55:07.124Z
  */
 
 class Solution {
