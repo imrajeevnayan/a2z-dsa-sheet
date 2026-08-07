@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Islands
- * URL: https://leetcode.com/problems/number-of-islands/description/?envType=problem-list-v2&envId=dxlq3az1
- * Language: Grind 75 (Copy-rab78cw1)
+ * URL: https://leetcode.com/problems/number-of-islands/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:07:41.612Z
+ * Synced: 2026-08-06T20:01:08.899Z
  */
 
 class Solution {
