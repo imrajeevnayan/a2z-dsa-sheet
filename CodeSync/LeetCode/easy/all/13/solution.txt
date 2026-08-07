@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 13
- * URL: https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question&envId=2026-08-06
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string
+ * Language: String
  * Difficulty: Easy
- * Topics: Math, Enumeration
+ * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T20:04:41.149Z
+ * Synced: 2026-08-06T20:32:51.221Z
  */
 
 class Solution {
-public:
-    int smallestNumber(int n, int t) {
-        for (int i = n; i <= n + 9; ++i) {
-            int product = 1; 
-            for (int v = i; v > 0; v /= 10)
-                product *= v % 10;
-            if (product % t == 0) return i;
-        }
-        return -1; // unreachable.
+    public boolean isBalanced(String num) {
+        
     }
-};
+}
