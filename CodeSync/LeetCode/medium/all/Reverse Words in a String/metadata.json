@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-27T11:26:40.033Z",
+  "submissionTimestamp": "2026-08-07T05:58:45.417Z",
   "runtime": "0 ms",
-  "memoryUsage": "44.57 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Two Pointers",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Reverse Words in a String",
-  "problemUrl": "https://leetcode.com/problems/reverse-words-in-a-string/submissions/2083272890/?envType=study-plan-v2&envId=leetcode-75",
+  "problemUrl": "https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75",
   "submissionId": "tpj8uu"
 }
