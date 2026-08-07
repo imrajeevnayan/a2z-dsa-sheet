@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-06T20:33:36.919Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-06T20:34:22.635Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "String",
   "problemTitle": "Check Balanced String",
   "problemUrl": "https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string",
-  "submissionId": "api3x6"
+  "submissionId": "7me2uu"
 }
