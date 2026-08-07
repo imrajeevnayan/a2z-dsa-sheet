@@ -4,10 +4,10 @@
 - Language: Practice I
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=Practice-I
-- Synced: 2026-08-07T17:10:13.128Z
+- Problem URL: https://leetcode.com/problems/house-robber/?envType=problem-list-v2&envId=Practice-I
+- Synced: 2026-08-07T17:10:58.169Z
 
 ## Problem Description
 
