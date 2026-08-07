@@ -1,28 +1,50 @@
 /*
  * Platform: LeetCode
  * Problem: 14
- * URL: https://leetcode.com/submissions/detail/2082653573/
+ * URL: https://leetcode.com/submissions/detail/2085653833/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 13.46 MB
- * Synced: 2026-08-07T06:22:55.221Z
+ * Runtime: 180 ms
+ * Memory: 129.34 MB
+ * Synced: 2026-08-07T06:27:50.441Z
  */
 
-1class Solution {
-2public:
-3    int maxProduct(vector<int>& nums) {
-4        int m1 = INT_MIN, m2 = INT_MIN;
-5        for (int x : nums) {
-6            if (x > m1) {
-7                m2 = m1;
-8                m1 = x;
-9            } else if (x > m2) {
-10                m2 = x;
-11            }
-12        }
-13        return (m1 - 1) * (m2 - 1);
-14        
-15    }
-16};
+1struct node {
+2    bool end;
+3    unordered_map<char, node*> next;
+4
+5    node() : end(false) {}
+6};
+7
+8class Solution {
+9public:
+10    string longestWord(vector<string>& words) {
+11        sort(words.begin(), words.end(), [](const string &w1, const string &w2) {
+12            return w1.length() < w2.length();
+13        });
+14        node* root = new node();
+15        string r;
+16        for (const auto &w : words) {
+17            bool mark = true;
+18            node* temp = root;
+19            for (int i = 0; i < w.length(); ++i) {
+20                if (!temp->next.count(w[i])) {
+21                    temp->next[w[i]] = new node();
+22                }
+23                temp = temp->next[w[i]];
+24                if (i == w.length() - 1) {
+25                    temp->end = true;
+26                } else {
+27                    mark = mark && temp->end;
+28                }
+29            }
+30            if (mark) {
+31                if (r.length() < w.length() || (r.length() == w.length() && r > w)) {
+32                    r = w;
+33                }
+34            }
+35        }
+36        return r;
+37    }
+38};
