@@ -1,18 +1,18 @@
 # 14
 
 - Platform: LeetCode
-- Language: SQL
-- Difficulty: Easy
-- Topics: Database
+- Language: Cache System Design
+- Difficulty: Medium
+- Topics: Hash Table, Linked List, Design, Doubly-Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-customer-referee/description/?envType=problem-list-v2&envId=dmjree02
-- Synced: 2026-08-07T07:19:32.433Z
+- Problem URL: https://leetcode.com/problems/lru-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+- Synced: 2026-08-07T17:07:29.705Z
 
 ## Problem Description
 
-Table: Customer +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | name | varchar | | referee_id | int | +-------------+---------+ In SQL, id is the primary key column for this table. Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them. Find the names of the customer that are either: referred by any customer with id != 2. not referred by any customer. Return the result table in any order. The result format is in the following example. Example 1: Input: Customer table: +----+------+------------+ | id | name | referee_id | +----+------+------------+ | 1 | Will | null | | 2 | Jane | null | | 3 | Alex | 2 | | 4 | Bill | null | | 5 | Zack | 1 | | 6 | Mark | 2 | +----+------+------------+ Output: +------+ | name | +------+ | Will | | Jane | | Bill | | Zack | +------+
+Design a data structure that follows the constraints of a Least Recently Used (LRU) cache. Implement the LRUCache class: LRUCache(int capacity) Initialize the LRU cache with positive size capacity. int get(int key) Return the value of the key if the key exists, otherwise return -1. void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity from this operation, evict the least recently used key. The functions get and put must each run in O(1) average time complexity. Example 1: Input ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"] [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]] Output [null, null, null, 1, null, -1, null, -1, 3, 4] Explanation LRUCache lRUCache = new LRUCache(2); lRUCache.put(1, 1); // cache is {1=1} lRUCache.put(2, 2); // cache is {1=1, 2=2} lRUCache.get(1); // return 1 lRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3} lRUCache.get(2); // returns -1 (not found) lRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3} lRUCache.get(1); // return -1 (not found) lRUCache.get(3); // return 3 lRUCache.get(4); // return 4 Constraints: 1 <= capacity <= 3000 0 <= key <= 104 0 <= value <= 105 At most 2 * 105 calls will be made to get and put.
 
 ## Explanation
 
-This solution was accepted on LeetCode using SQL. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Cache System Design. The detected topics are Hash Table, Linked List, Design, Doubly-Linked List. Review the synced source file for the implementation details.
