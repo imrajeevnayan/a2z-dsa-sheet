@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-07T17:08:06.924Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Design",
+    "Doubly-Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Cache System Design",
+  "problemTitle": "LFU Cache",
+  "problemUrl": "https://leetcode.com/problems/lfu-cache/description/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design",
+  "submissionId": "gk6gr6"
+}
