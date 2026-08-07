@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: 46.48 MB
- * Synced: 2026-08-07T06:02:00.375Z
+ * Synced: 2026-08-07T06:02:49.751Z
  */
 
 boolean isVowel(char c) {
