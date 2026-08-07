@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: -
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Hash Table, Graph Theory
+- Topics: Hash Table, Math, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-23T05:35:26.167Z
+- Problem URL: https://leetcode.com/problems/roman-to-integer/description/
+- Synced: 2026-08-06T19:59:57.278Z
 
 ## Problem Description
 
-In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge. If the town judge exists, then: The town judge trusts nobody. Everybody (except for the town judge) trusts the town judge. There is exactly one person that satisfies properties 1 and 2. You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. If a trust relationship does not exist in trust array, then such a trust relationship does not exist. Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise. Example 1: Input: n = 2, trust = [[1,2]] Output: 2 Example 2: Input: n = 3, trust = [[1,3],[2,3]] Output: 3 Example 3: Input: n = 3, trust = [[1,3],[2,3],[3,1]] Output: -1 Constraints: 1 <= n <= 1000 0 <= trust.length <= 104 trust[i].length == 2 All the pairs of trust are unique. ai != bi 1 <= ai, bi <= n
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000 For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II. Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used: I can be placed before V (5) and X (10) to make 4 and 9. X can be placed before L (50) and C (100) to make 40 and 90. C can be placed before D (500) and M (1000) to make 400 and 900. Given a roman numeral, convert it to an integer. Example 1: Input: s = "III" Output: 3 Explanation: III = 3. Example 2: Input: s = "LVIII" Output: 58 Explanation: L = 50, V= 5, III = 3. Example 3: Input: s = "MCMXCIV" Output: 1994 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4. Constraints: 1 <= s.length <= 15 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M'). It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 ## Explanation
 
-This solution was accepted on LeetCode using -. The detected topics are Array, Hash Table, Graph Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Math, String. Review the synced source file for the implementation details.
