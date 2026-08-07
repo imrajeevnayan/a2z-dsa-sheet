@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-07T06:16:54.972Z",
-  "runtime": "1015 ms",
-  "memoryUsage": "47.17 MB",
+  "submissionTimestamp": "2026-08-07T06:22:04.963Z",
+  "runtime": "0 ms",
+  "memoryUsage": "32.10 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Online Interview",
   "problemTitle": "14",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-513/llm-report/77/",
-  "submissionId": "n6u7m9"
+  "problemUrl": "https://leetcode.com/submissions/detail/2094953120/",
+  "submissionId": "6z1tjf"
 }
