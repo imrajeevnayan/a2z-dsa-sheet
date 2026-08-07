@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-07T06:09:04.218Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-07T06:11:02.808Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -14,5 +14,5 @@
   "language": "Daily Question",
   "problemTitle": "Smallest Divisible Digit Product II",
   "problemUrl": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/?envType=daily-question&envId=2026-08-07",
-  "submissionId": "ofdxid"
+  "submissionId": "lzwpoa"
 }
