@@ -1,13 +1,13 @@
 # LFU Cache
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Cache System Design
 - Difficulty: Hard
 - Topics: Hash Table, Linked List, Design, Doubly-Linked List
-- Runtime: 1 ms
-- Memory: 137.53 MB
-- Problem URL: https://leetcode.com/problems/lfu-cache/submissions/2036182677/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:29:23.615Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/lfu-cache/description/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
+- Synced: 2026-08-07T17:08:06.924Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Design and implement a data structure for a Least Frequently Used (LFU) cache. I
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Hash Table, Linked List, Design, Doubly-Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Cache System Design. The detected topics are Hash Table, Linked List, Design, Doubly-Linked List. Review the synced source file for the implementation details.
