@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T19:59:57.278Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-06T20:05:00.653Z",
+  "runtime": "45 ms",
+  "memoryUsage": "76.64 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Hash Table",
-    "Math",
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
-  "submissionId": "qr8h22"
+  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
+  "submissionId": "5n3o7x"
 }
