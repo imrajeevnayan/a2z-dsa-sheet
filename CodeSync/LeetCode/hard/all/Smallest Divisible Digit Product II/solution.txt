@@ -5,13 +5,24 @@
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Math, String, Backtracking, Greedy, Number Theory
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-08-07T06:09:04.218Z
+ * Synced: 2026-08-07T06:11:02.808Z
  */
 
-class Solution {
-    public String smallestNumber(String num, long t) {
-        
+v[5] = Math.max(p[5], 0);
+        v[2] = Math.max(p[2], 0);
+        v[3] = Math.max(p[3], 0);
+
+        int[] v = new int[10];
+    int[] make(int[] p) {
+
     }
-}
+        return r.toString();
+        }
+            }
+                r.setCharAt(i, '1');
+            if (r.charAt(i) == '0') {
+        for (int i = 0; i < r.length(); i++) {
+        StringBuilder r = new StringBuilder(s);
+    String change(String s) {
