@@ -519,7 +519,15 @@
     "Top100Liked",
     "StriverA2Z",
     "LoveBabbar450",
-    "StriverSDE"
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ],
   "leetcode:count-good-triplets": [],
   "leetcode:separate-black-and-white-balls": [],
