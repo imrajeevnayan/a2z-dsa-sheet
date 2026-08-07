@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Majority Element
- * URL: https://leetcode.com/problems/majority-element/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
+ * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-16T12:15:17.923Z
+ * Synced: 2026-08-07T05:08:58.656Z
  */
 
 class Solution {
