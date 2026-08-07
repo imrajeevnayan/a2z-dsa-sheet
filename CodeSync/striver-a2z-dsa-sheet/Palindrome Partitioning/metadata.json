@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-07T04:54:26.846Z",
+  "submissionTimestamp": "2026-08-07T04:54:49.839Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "65.10 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Palindrome Partitioning",
-  "problemUrl": "https://leetcode.com/problems/palindrome-partitioning/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "1lzl2v"
+  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n5g3vv"
 }
