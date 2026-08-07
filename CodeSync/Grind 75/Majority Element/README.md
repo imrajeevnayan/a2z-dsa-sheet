@@ -4,10 +4,10 @@
 - Language: Top Interview 150
 - Difficulty: Easy
 - Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-07T05:08:58.656Z
+- Problem URL: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-07T05:09:45.382Z
 
 ## Problem Description
 
