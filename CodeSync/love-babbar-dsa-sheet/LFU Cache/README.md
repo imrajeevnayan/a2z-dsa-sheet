@@ -4,10 +4,10 @@
 - Language: Cache System Design
 - Difficulty: Hard
 - Topics: Hash Table, Linked List, Design, Doubly-Linked List
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design
-- Synced: 2026-08-07T17:08:54.411Z
+- Runtime: 1 ms
+- Memory: 137.62 MB
+- Problem URL: https://leetcode.com/quest/system-and-software-design-quest/
+- Synced: 2026-08-07T17:09:41.170Z
 
 ## Problem Description
 
