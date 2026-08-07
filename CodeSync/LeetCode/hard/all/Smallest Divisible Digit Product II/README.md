@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/smallest-divisible-digit-product-ii/?envType=daily-question&envId=2026-08-07
-- Synced: 2026-08-07T06:11:02.808Z
+- Synced: 2026-08-07T06:11:50.562Z
 
 ## Problem Description
 
