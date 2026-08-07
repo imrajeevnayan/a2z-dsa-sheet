@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Sorted Array
- * URL: https://leetcode.com/problems/merge-sorted-array/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-06T20:03:16.697Z
+ * Synced: 2026-08-07T05:04:25.496Z
  */
 
 class Solution {
