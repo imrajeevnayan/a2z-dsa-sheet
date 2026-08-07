@@ -2467,5 +2467,6 @@
   ],
   "leetcode:count-asterisks": [],
   "leetcode:unique-morse-code-words": [],
-  "leetcode:check-if-a-string-is-an-acronym-of-words": []
+  "leetcode:check-if-a-string-is-an-acronym-of-words": [],
+  "leetcode:check-balanced-string": []
 }
