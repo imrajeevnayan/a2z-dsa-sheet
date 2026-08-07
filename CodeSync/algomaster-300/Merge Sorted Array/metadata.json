@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-14T18:35:38.434Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-06T20:03:16.697Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Merge Sorted Array",
   "problemUrl": "https://leetcode.com/problems/merge-sorted-array/",
-  "submissionId": "7ta7x9"
+  "submissionId": "tu6es6"
 }
