@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:05:00.653Z",
-  "runtime": "45 ms",
-  "memoryUsage": "76.64 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-08-06T20:25:47.772Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "C",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
-  "submissionId": "5n3o7x"
+  "problemUrl": "https://leetcode.com/problems/count-asterisks/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "gwz7fh"
 }
