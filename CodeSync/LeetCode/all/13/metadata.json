@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:05:01.455Z",
-  "runtime": "45 ms",
-  "memoryUsage": "76.64 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-08-06T20:32:51.221Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "String",
   "problemTitle": "13",
-  "problemUrl": "https://leetcode.com/submissions/detail/2054357836/",
-  "submissionId": "2lm6jk"
+  "problemUrl": "https://leetcode.com/problems/check-balanced-string/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "5trrsw"
 }
