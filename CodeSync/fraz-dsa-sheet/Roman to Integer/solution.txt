@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Roman to Integer
+ * URL: https://leetcode.com/problems/roman-to-integer/submissions/1793038272/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, Math, String
+ * Runtime: 0 ms
+ * Memory: 44.62 MB
+ * Synced: 2026-08-06T20:00:51.107Z
+ */
+
+"III"
+"LVIII"
+"MCMXCIV"
+3
+58
+1994
+3
+58
+1994
