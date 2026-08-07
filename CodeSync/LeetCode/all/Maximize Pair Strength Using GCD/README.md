@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/maximize-pair-strength-using-gcd/
-- Synced: 2026-08-07T06:16:10.488Z
+- Synced: 2026-08-07T06:16:56.475Z
 
 ## Problem Description
 
