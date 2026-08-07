@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/
-- Synced: 2026-08-07T06:19:27.939Z
+- Synced: 2026-08-07T06:20:13.488Z
 
 ## Problem Description
 
