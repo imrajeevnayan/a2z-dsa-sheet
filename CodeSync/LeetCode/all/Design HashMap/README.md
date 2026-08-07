@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Linked List, Design, Hash Function
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/design-hashmap/
-- Synced: 2026-08-06T20:06:04.967Z
+- Problem URL: https://leetcode.com/problems/design-hashmap/submissions/2097238399/
+- Synced: 2026-08-06T20:06:50.092Z
 
 ## Problem Description
 
