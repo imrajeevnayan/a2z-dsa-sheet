@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Subarrays With Even Odd Ratio I
+ * URL: https://leetcode.com/contest/weekly-contest-513/problems/count-subarrays-with-even-odd-ratio-i/description/
+ * Language: Weekly Contest 513
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T06:16:21.377Z
+ */
+
+class Solution {
+    public int countRatioSubarrays(int[] nums, int a, int b) {
+        
+    }
+}
