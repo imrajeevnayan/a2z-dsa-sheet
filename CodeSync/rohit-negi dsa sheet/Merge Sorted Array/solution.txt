@@ -5,15 +5,18 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-14T18:35:38.434Z
+ * Synced: 2026-08-06T20:03:16.697Z
  */
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1, j = n - 1, k = m + n - 1;
-        while (j >= 0)
-            nums1[k--] = (i >= 0 && nums1[i] > nums2[j]) ? nums1[i--] : nums2[j--];
+        while (i >= 0 && j >= 0) {
+            if (nums1[i] > nums2[j]) nums1[k--] = nums1[i--];
+            else nums1[k--] = nums2[j--];
+        }
+        while (j >= 0) nums1[k--] = nums2[j--];
     }
 }
