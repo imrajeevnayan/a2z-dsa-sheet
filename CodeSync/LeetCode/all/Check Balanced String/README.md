@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Easy
 - Topics: String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-06T20:33:36.919Z
+- Synced: 2026-08-06T20:34:22.635Z
 
 ## Problem Description
 
