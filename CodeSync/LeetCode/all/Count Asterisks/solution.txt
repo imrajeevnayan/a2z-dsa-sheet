@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Asterisks
+ * URL: https://leetcode.com/problems/count-asterisks/submissions/2097250073/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-06T20:26:33.805Z
+ */
+
+int count = 0;
+        boolean insideBars = false;
+
+        for (char ch : s.toCharArray()) {
+            if (ch == '|') {
+                insideBars = !insideBars;
+            } else if (ch == '*' && !insideBars) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+    public int countAsterisks(String s) {
+class Solution {
