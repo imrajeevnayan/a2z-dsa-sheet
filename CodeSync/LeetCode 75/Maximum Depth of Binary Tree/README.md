@@ -1,13 +1,13 @@
 # Maximum Depth of Binary Tree
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-28T08:49:15.487Z
+- Problem URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-08-07T04:55:07.124Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree, return its maximum depth. A binary tree's maxim
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
