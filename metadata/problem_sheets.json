@@ -2498,5 +2498,22 @@
     "LeetCode75",
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:diameter-of-binary-tree": [
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "Top100Liked",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
