@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Kth Distinct String in an Array
+ * URL: https://leetcode.com/problems/kth-distinct-string-in-an-array/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-07T04:49:08.543Z
+ */
+
+// Find the kth distinct string in original order
+        for (String s : arr) {
+            if (map.get(s) == 1) {
+                k--;
+        for (String s : arr) map.put(s, map.getOrDefault(s, 0) + 1);
+    public String kthDistinct(String[] arr, int k) {
+        HashMap<String, Integer> map = new HashMap<>();
+class Solution {
+                if (k == 0) {
+                    return s;
+                }
+            }
+        }
