@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: Java (21)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Algorithms, Related Articles
+- Topics: Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Related Articles, Program To Find Lcm Of Two Numbers
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
-- Synced: 2026-07-15T05:00:13.593Z
+- Synced: 2026-08-07T05:11:43.395Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two integers a and b, You have to compute their LCM and GCD and return an 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Algorithms, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags SAP Labs, Company Tags, SAP Labs, Topic Tags, Mathematical, Related Articles, Program To Find Lcm Of Two Numbers. Review the synced source file for the implementation details.
