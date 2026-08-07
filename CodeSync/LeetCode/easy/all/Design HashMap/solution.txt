@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Design HashMap
+ * URL: https://leetcode.com/problems/design-hashmap/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Linked List, Design, Hash Function
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-06T20:06:04.967Z
+ */
+
+private Node[] buckets;
+    private final int SIZE = 1000;
+
+    }
+            this.value = value;
+        }
+        Node(int key, int value) {
+            this.key = key;
+        Node next;
+
+        int value;
+        int key;
+    class Node {
+
+class MyHashMap {
