@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-07T05:12:45.797Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Modular Arithmetic",
+    "Recursion",
+    "Related Articles",
+    "Friends Pairing Problem"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: long long fact(int n){ long long f = 1; while(n) f *= n--; return f; } int countFriendsPairings(int n) { // code here int ans =0; for(int k = 0; k <= n/2; k++) ans += fact(n) / ((1LL<<k) * fact(k) * fact(n - 2*k)); return ans; } };",
+  "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1",
+  "submissionId": "missao"
+}
