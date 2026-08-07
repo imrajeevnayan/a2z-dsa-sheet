@@ -2420,5 +2420,13 @@
   ],
   "geeksforgeeks:frequency-of-a-substring-in-a-string": [
     "GFG160"
+  ],
+  "leetcode:roman-to-integer": [
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet"
   ]
 }
