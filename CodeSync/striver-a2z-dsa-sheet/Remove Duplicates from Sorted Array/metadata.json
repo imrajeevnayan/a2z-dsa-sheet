@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-07T05:07:24.194Z",
+  "submissionTimestamp": "2026-08-07T05:08:12.534Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.68 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Top Interview 150",
   "problemTitle": "Remove Duplicates from Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "uxegq9"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2097490639/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "eq3xtv"
 }
