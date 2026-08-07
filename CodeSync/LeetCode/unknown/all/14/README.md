@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/create/
-- Synced: 2026-08-07T06:39:12.471Z
+- Problem URL: https://leetcode.com/discuss/post/8446546/3348-smallest-divisible-digit-product-ii-p532/
+- Synced: 2026-08-07T06:40:16.240Z
 
 ## Problem Description
 
