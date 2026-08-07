@@ -4,10 +4,10 @@
 - Language: Top Interview 150
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-07T05:05:53.089Z
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-07T05:06:39.178Z
 
 ## Problem Description
 
