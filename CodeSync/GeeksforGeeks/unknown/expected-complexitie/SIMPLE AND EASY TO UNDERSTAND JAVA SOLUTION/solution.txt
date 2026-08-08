@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, Adobe, Google, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:04:31.162Z
+ * Synced: 2026-08-08T16:05:31.166Z
  */
 
 class Solution {
