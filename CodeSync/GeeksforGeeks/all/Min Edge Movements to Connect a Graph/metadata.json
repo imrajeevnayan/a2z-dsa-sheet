@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-08T15:49:42.093Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Graph",
+    "Disjoint Set",
+    "Related Articles",
+    "Min Edge Movements To Connect A Graph"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Min Edge Movements to Connect a Graph",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/connecting-the-graph/1",
+  "submissionId": "m2oycs"
+}
