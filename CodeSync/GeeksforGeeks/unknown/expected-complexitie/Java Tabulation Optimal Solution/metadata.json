@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-08T15:57:17.979Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags HCLSamsung",
+    "Company Tags",
+    "HCL",
+    "Samsung",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int sol(int i,int k,vector<int>&nums,vector<int>&dp){ if(i==nums.size()) return 0; if(dp[i]!=-1) return dp[i]; int maxi=nums[i],res=0; for(int j=i;j-i+1<=k and j<nums.size();j++){ maxi=max(maxi,nums[j]); int next=sol(j+1,k,nums,dp); res=max(maxi*(j-i+1)+next,res); } return dp[i]=res; } int solve(int n, int k, vector<int>&nums){ vector<int>dp(n,-1); return sol(0,k,nums,dp); }",
+  "problemTitle": "Java Tabulation Optimal Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/partition-array-for-maximum-sum/1",
+  "submissionId": "8vgr1t"
+}
