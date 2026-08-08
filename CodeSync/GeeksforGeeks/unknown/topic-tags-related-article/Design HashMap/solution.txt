@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Design HashMap
+ * URL: https://www.geeksforgeeks.org/problems/design-hashmap/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Hash, Map, Design-Pattern, Related Articles, Designing A Hashmap Without Built In Libraries
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T16:32:47.399Z
+ */
+
+class MyHashMap {
+
+    /** Initialize your data structure here. */
+    MyHashMap() {}
+
+    /** value will always be non-negative. */
+    void put(int key, int value) {}
+
+    /**
+     * Returns the value to which the specified key is mapped, or -1 if this map
+     * contains no mapping for the key
+     */
+    int get(int key) {}
+
+    /**
+     * Removes the mapping of the specified value key if this map contains a mapping
+     * for the key
+     */
+    void remove(int key) {}
+}
