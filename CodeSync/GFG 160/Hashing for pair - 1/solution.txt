@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Hashing for pair - 1
+ * URL: https://www.geeksforgeeks.org/problems/hashing-for-pair-1--110939/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T16:34:53.058Z
+ */
+
+class Geeks {
+    // Complete this function
+    // Function to check if there is a pair with the given sum in the array.
+    public static int sumExists(int arr[], int sum) {
+        // Your code here, Geeks
+    }
+}
