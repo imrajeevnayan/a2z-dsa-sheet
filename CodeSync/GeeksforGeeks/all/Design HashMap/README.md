@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/design-hashmap/1
-- Synced: 2026-08-08T17:46:10.349Z
+- Synced: 2026-08-08T17:47:00.911Z
 
 ## Problem Description
 
