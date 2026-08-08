@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Add Number Linked Lists
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/add-two-numbers-represented-by-linked-lists
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T15:59:25.176Z
+ * Synced: 2026-08-08T16:05:39.494Z
  */
 
 class Solution {
@@ -45,3 +45,7 @@ class Solution {
             node.next = head;
             head = node;
         }
+
+        return head;
+    }
+}
