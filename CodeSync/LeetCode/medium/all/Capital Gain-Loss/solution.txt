@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Capital Gain/Loss
+ * URL: https://leetcode.com/problems/capital-gainloss/
+ * Language: Database
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: 98 ms
+ * Memory: N/A
+ * Synced: 2026-08-08T16:28:05.640Z
+ */
+
+SELECT stock_name,
+    SUM(
+        CASE
+            WHEN operation = 'Buy' THEN -price
+            ELSE price
+        END
+    ) AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name;
