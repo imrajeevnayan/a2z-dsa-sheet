@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Total Time Spent by Each Employee
+ * URL: https://leetcode.com/problems/find-total-time-spent-by-each-employee/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 91 ms
+ * Memory: N/A
+ * Synced: 2026-08-08T16:26:29.906Z
+ */
+
+SELECT 
+    event_day AS day,
+    emp_id,
+    SUM(out_time - in_time) AS total_time
+FROM Employees
+GROUP BY event_day, emp_id;
