@@ -2586,5 +2586,10 @@
   "leetcode:find-the-lexicographically-smallest-valid-sequence": [],
   "geeksforgeeks:connecting-the-graph": [
     "GFG160"
+  ],
+  "geeksforgeeks:reach-a-given-score-1587115621": [
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
