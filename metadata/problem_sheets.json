@@ -2583,5 +2583,8 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:find-the-lexicographically-smallest-valid-sequence": []
+  "leetcode:find-the-lexicographically-smallest-valid-sequence": [],
+  "geeksforgeeks:connecting-the-graph": [
+    "GFG160"
+  ]
 }
