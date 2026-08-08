@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-08-08T16:26:29.906Z",
+  "runtime": "91 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Database"
+  ],
+  "platform": "LeetCode",
+  "language": "Database",
+  "problemTitle": "Find Total Time Spent by Each Employee",
+  "problemUrl": "https://leetcode.com/problems/find-total-time-spent-by-each-employee/",
+  "submissionId": "4anrpe"
+}
