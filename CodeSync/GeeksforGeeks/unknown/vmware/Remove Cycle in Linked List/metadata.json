@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-08T16:06:52.261Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "VMWare",
+    "Morgan Stanley",
+    "Amazon",
+    "Microsoft",
+    "Snapdeal",
+    "MakeMyTrip"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Remove Cycle in Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists",
+  "submissionId": "ummgjc"
+}
