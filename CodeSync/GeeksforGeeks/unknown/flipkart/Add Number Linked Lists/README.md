@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Snapdeal
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/add-two-numbers-represented-by-linked-lists
-- Synced: 2026-08-08T15:59:25.176Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists
+- Synced: 2026-08-08T16:05:39.494Z
 
 ## Problem Description
 
