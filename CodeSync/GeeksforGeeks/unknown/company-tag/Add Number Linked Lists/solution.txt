@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:05:39.494Z
+ * Synced: 2026-08-08T16:06:28.165Z
  */
 
 class Solution {
@@ -26,8 +26,8 @@ class Solution {
             head2 = head2.next;
         }
 
-        int carry = 0;
         Node head = null;
+        int carry = 0;
 
         while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
 
@@ -40,10 +40,11 @@ class Solution {
                 sum += s2.pop();
 
             carry = sum / 10;
+            int digit = sum % 10;
 
-            Node node = new Node(sum % 10);
-            node.next = head;
-            head = node;
+            Node newNode = new Node(digit);
+            newNode.next = head;
+            head = newNode;
         }
 
         return head;
