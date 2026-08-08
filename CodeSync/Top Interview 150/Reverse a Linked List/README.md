@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list
-- Synced: 2026-08-08T16:00:59.680Z
+- Synced: 2026-08-08T16:01:52.166Z
 
 ## Problem Description
 
