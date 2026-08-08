@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1
-- Synced: 2026-08-08T16:06:29.726Z
+- Synced: 2026-08-08T16:07:17.732Z
 
 ## Problem Description
 
