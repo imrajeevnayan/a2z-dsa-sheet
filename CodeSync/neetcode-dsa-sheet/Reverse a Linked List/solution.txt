@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:00:59.680Z
+ * Synced: 2026-08-08T16:01:52.166Z
  */
 
 class Solution {
