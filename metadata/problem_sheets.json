@@ -2594,5 +2594,12 @@
   ],
   "geeksforgeeks:bits-counting": [
     "GFG160"
+  ],
+  "geeksforgeeks:count-square-submatrices-with-all-ones": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
   ]
 }
