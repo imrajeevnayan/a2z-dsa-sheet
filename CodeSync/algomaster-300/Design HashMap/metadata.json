@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-08T16:33:32.797Z",
+  "submissionTimestamp": "2026-08-08T16:34:22.601Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,5 +16,5 @@
   "language": "class MyHashMap { public: vector<int> mp; MyHashMap() { mp.resize(10e5 , -1); } void put(int key, int value) { mp[key] = value; } int get(int key) { return mp[key] ; } void remove(int key) { mp[key] = -1; } };",
   "problemTitle": "Design HashMap",
   "problemUrl": "https://www.geeksforgeeks.org/problems/design-hashmap/1",
-  "submissionId": "f9ubzf"
+  "submissionId": "169pw5"
 }
