@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Reverse a Linked List
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/add-two-numbers-represented-by-linked-lists
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:00:14.394Z
+ * Synced: 2026-08-08T16:00:59.680Z
  */
 
 class Solution {
@@ -19,9 +19,8 @@ class Solution {
             Node temp = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = n;
+            curr = temp;
         }
-
         return prev;
     }
 }
