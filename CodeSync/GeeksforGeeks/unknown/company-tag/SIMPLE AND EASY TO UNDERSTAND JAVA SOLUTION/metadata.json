@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-08T15:54:41.932Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Bloomberg",
+    "Facebook",
+    "Adobe",
+    "Google",
+    "Amazon",
+    "Microsoft"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<int> countBits(int n) { vector<int> output(n+1, 0); for(int i=0; i<=n; i++) output[i] = output[i >> 1] + (i & 1); return output; }",
+  "problemTitle": "SIMPLE AND EASY TO UNDERSTAND JAVA SOLUTION",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/bits-counting/1",
+  "submissionId": "3x6e23"
+}
