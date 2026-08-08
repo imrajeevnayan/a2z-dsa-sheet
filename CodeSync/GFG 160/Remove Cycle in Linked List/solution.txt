@@ -7,21 +7,42 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:06:52.261Z
+ * Synced: 2026-08-08T16:08:28.459Z
  */
 
-/* Structure of Linked List Node
-class Node {
-    int data;
-    Node next;
-    Node(int val) {
-        data = val;
-        next = null;
-    }
-} */
 class Solution {
     public static void removeLoop(Node head) {
-        // code here
-        
+
+        Node slow = head;
+        Node fast = head;
+
+        // Find the loop
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+                break;
+        }
+
+        // No loop
+        if (fast == null || fast.next == null)
+            return;
+
+        // Find the starting node of the loop
+        slow = head;
+
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        // Find the last node of the loop
+        while (fast.next != slow) {
+            fast = fast.next;
+        }
+
+        // Remove the loop
+        fast.next = null;
     }
 }
