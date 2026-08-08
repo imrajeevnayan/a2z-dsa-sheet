@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists
-- Synced: 2026-08-08T16:06:52.261Z
+- Synced: 2026-08-08T16:08:28.459Z
 
 ## Problem Description
 
