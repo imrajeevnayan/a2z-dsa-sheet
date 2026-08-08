@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: N/A
+- Runtime: 99 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/combine-two-tables/
-- Synced: 2026-08-08T16:22:48.958Z
+- Synced: 2026-08-08T16:25:12.569Z
 
 ## Problem Description
 
