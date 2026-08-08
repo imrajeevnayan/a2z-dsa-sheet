@@ -2644,5 +2644,18 @@
   ],
   "geeksforgeeks:remove-cycle-in-linked-list": [
     "GFG160"
+  ],
+  "geeksforgeeks:lru-cache": [
+    "custom:love-babbar-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
