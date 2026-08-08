@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/hashing-for-pair-1--110939/1
-- Synced: 2026-08-08T17:50:57.957Z
+- Synced: 2026-08-08T17:51:45.925Z
 
 ## Problem Description
 
