@@ -7,19 +7,17 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Hash, Mathematical, Related Articles, Counting Even Frequency Characters In A String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:01:02.218Z
+ * Synced: 2026-08-08T16:33:00.562Z
  */
 
 class Solution {
     public int count(String s) {
      int []freq=new int[26];
-     for(int c:s.toCharArray()){
-         freq[c-'a']++;
-     }
+     for(int c:s.toCharArray()) freq[c-'a']++;
      int count=0;
      for(int i=0;i<26;i++){
          if(freq[i] !=0 && freq[i] %2==0 )count++;
-     }
+       }
        return count; 
     }
 }
