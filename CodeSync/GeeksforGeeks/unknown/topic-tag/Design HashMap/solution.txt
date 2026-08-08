@@ -2,31 +2,33 @@
  * Platform: GeeksforGeeks
  * Problem: Design HashMap
  * URL: https://www.geeksforgeeks.org/problems/design-hashmap/1
- * Language: Java (21)
+ * Language: class MyHashMap { public: vector<int> mp; MyHashMap() { mp.resize(10e5 , -1); } void put(int key, int value) { mp[key] = value; } int get(int key) { return mp[key] ; } void remove(int key) { mp[key] = -1; } };
  * Difficulty: Unknown
  * Topics: Topic Tags Related Articles, Topic Tags, Hash, Map, Design-Pattern, Related Articles, Designing A Hashmap Without Built In Libraries
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:32:47.399Z
+ * Synced: 2026-08-08T16:33:32.797Z
  */
 
 class MyHashMap {
+    HashMap<Integer, Integer> map;
 
-    /** Initialize your data structure here. */
-    MyHashMap() {}
+    MyHashMap() {
+        map = new HashMap<>();
+    }
 
-    /** value will always be non-negative. */
-    void put(int key, int value) {}
+    void put(int key, int value) {
+        map.put(key, value);
+    }
 
-    /**
-     * Returns the value to which the specified key is mapped, or -1 if this map
-     * contains no mapping for the key
-     */
-    int get(int key) {}
+    int get(int key) {
+        if (map.containsKey(key))
+            return map.get(key);
 
-    /**
-     * Removes the mapping of the specified value key if this map contains a mapping
-     * for the key
-     */
-    void remove(int key) {}
+        return -1;
+    }
+
+    void remove(int key) {
+        map.remove(key);
+    }
 }
