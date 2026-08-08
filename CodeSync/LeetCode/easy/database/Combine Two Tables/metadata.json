@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-08T16:22:48.958Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-08T16:25:12.569Z",
+  "runtime": "99 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Database",
   "problemTitle": "Combine Two Tables",
   "problemUrl": "https://leetcode.com/problems/combine-two-tables/",
-  "submissionId": "18idlj"
+  "submissionId": "r22k5d"
 }
