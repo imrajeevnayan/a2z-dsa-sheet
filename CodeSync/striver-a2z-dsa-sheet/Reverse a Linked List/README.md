@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/add-two-numbers-represented-by-linked-lists
-- Synced: 2026-08-08T15:59:27.112Z
+- Synced: 2026-08-08T16:00:14.394Z
 
 ## Problem Description
 
