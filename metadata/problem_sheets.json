@@ -2659,5 +2659,10 @@
     "GFG160"
   ],
   "leetcode:find-total-time-spent-by-each-employee": [],
-  "leetcode:capital-gainloss": []
+  "leetcode:capital-gainloss": [],
+  "geeksforgeeks:design-hashmap": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "GFG160"
+  ]
 }
