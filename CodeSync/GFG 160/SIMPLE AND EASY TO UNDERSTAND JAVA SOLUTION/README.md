@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/bits-counting/1
-- Synced: 2026-08-08T15:56:48.164Z
+- Synced: 2026-08-08T15:58:04.642Z
 
 ## Problem Description
 
