@@ -1,13 +1,13 @@
 # Hashing for pair - 1
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: public static int sumExists(int arr[], int sum) { HashMap<Integer, Integer> hs = new HashMap<>(); for(int num : arr) { hs.put(num, hs.getOrDefault(num , 0) + 1); } for(int num : arr) { if((hs.containsKey(sum - num) && sum - num != num) || (hs.containsKey(sum - num) && sum - num == num && hs.get(sum - num) > 1)) { return 1; } } return 0; }
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Hash
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/hashing-for-pair-1--110939/1
-- Synced: 2026-08-08T16:34:53.058Z
+- Synced: 2026-08-08T16:35:41.998Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array of distinct integers and a sum. Check if there's a pair w
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Hash. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using public static int sumExists(int arr[], int sum) { HashMap<Integer, Integer> hs = new HashMap<>(); for(int num : arr) { hs.put(num, hs.getOrDefault(num , 0) + 1); } for(int num : arr) { if((hs.containsKey(sum - num) && sum - num != num) || (hs.containsKey(sum - num) && sum - num == num && hs.get(sum - num) > 1)) { return 1; } } return 0; }. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Hash. Review the synced source file for the implementation details.
