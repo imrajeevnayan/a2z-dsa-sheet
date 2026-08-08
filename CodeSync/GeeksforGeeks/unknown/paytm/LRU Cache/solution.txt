@@ -7,22 +7,47 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Morgan Stanley, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:08:36.781Z
+ * Synced: 2026-08-08T16:09:22.716Z
  */
 
-class LRUCache {
-
-    LRUCache(int cap) {
-        // code here
-        
+head.next = node;
     }
 
-    public static int get(int key) {
-        //  code here
+    public int get(int key) {
+
+        if (!map.containsKey(key))
+            return -1;
+
+        Node node = map.get(key);
+
+        remove(node);
+        add(node);
+
+        return node.value;
     }
 
-        
-    public static void put(int key, int value) {
-        //  code here
+    public void put(int key, int value) {
+
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
+
+            node.value = value;
+
+            remove(node);
+            add(node);
+
+            return;
+        }
+
+        Node node = new Node(key, value);
+        map.put(key, node);
+        add(node);
+
+        if (map.size() > capacity) {
+            Node lru = tail.prev;
+
+            remove(lru);
+            map.remove(lru.key);
+        }
     }
 }
