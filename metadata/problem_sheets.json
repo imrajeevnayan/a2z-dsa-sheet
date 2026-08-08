@@ -2605,5 +2605,8 @@
   "geeksforgeeks:partition-array-for-maximum-sum": [
     "custom:striver-a2z-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:add-number-linked-lists": [
+    "GFG160"
   ]
 }
