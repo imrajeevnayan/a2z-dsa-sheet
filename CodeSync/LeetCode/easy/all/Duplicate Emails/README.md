@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 66 ms
+- Runtime: 77 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/duplicate-emails/description/
-- Synced: 2026-08-08T16:28:53.390Z
+- Problem URL: https://leetcode.com/problems/duplicate-emails/submissions/2099336102/
+- Synced: 2026-08-08T16:29:52.175Z
 
 ## Problem Description
 
