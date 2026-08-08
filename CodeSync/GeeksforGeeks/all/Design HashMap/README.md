@@ -1,13 +1,13 @@
 # Design HashMap
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class MyHashMap { public: vector<int> mp; MyHashMap() { mp.resize(10e5 , -1); } void put(int key, int value) { mp[key] = value; } int get(int key) { return mp[key] ; } void remove(int key) { mp[key] = -1; } };
 - Difficulty: Unknown
 - Topics: Topic Tags Related Articles, Topic Tags, Hash, Map, Design-Pattern, Related Articles, Designing A Hashmap Without Built In Libraries
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/design-hashmap/1
-- Synced: 2026-08-08T16:32:47.399Z
+- Synced: 2026-08-08T16:33:32.797Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Design a HashMap without using any built-in hash table libraries. To be specific
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Topic Tags Related Articles, Topic Tags, Hash, Map, Design-Pattern, Related Articles, Designing A Hashmap Without Built In Libraries. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class MyHashMap { public: vector<int> mp; MyHashMap() { mp.resize(10e5 , -1); } void put(int key, int value) { mp[key] = value; } int get(int key) { return mp[key] ; } void remove(int key) { mp[key] = -1; } };. The detected topics are Topic Tags Related Articles, Topic Tags, Hash, Map, Design-Pattern, Related Articles, Designing A Hashmap Without Built In Libraries. Review the synced source file for the implementation details.
