@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-25T18:13:09.126Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-08T16:28:53.390Z",
+  "runtime": "66 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Database",
   "problemTitle": "Duplicate Emails",
   "problemUrl": "https://leetcode.com/problems/duplicate-emails/description/",
-  "submissionId": "d8md1s"
+  "submissionId": "r4i4u2"
 }
