@@ -7,24 +7,21 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T15:59:27.112Z
+ * Synced: 2026-08-08T16:00:14.394Z
  */
-
-/* Structure of Linked List Node
-class Node {
-    int data;
-    Node next;
-
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}
-*/
 
 class Solution {
     Node reverseList(Node head) {
-        // code here
-        
+        Node prev = null;
+        Node curr = head;
+
+        while (curr != null) {
+            Node temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = n;
+        }
+
+        return prev;
     }
 }
