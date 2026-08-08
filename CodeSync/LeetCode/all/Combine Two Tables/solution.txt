@@ -1,15 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Combine Two Tables
- * URL: https://leetcode.com/submissions/detail/2081071122/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 607 ms
+ * URL: https://leetcode.com/problems/combine-two-tables/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T17:53:39.641Z
+ * Synced: 2026-08-08T16:22:48.958Z
  */
 
-1SELECT p.firstName,p.lastName,a.city,a.state
-2FROM Person p LEFT JOIN Address a
-3ON p.personId = a.personId;
+select p.firstName,p.lastName,a.city,a.state From Person p
+Left join Address a on p.personId=a.personId;
