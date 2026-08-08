@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Min Edge Movements to Connect a Graph
+ * URL: https://www.geeksforgeeks.org/problems/connecting-the-graph/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Graph, Disjoint Set, Related Articles, Min Edge Movements To Connect A Graph
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:49:42.093Z
+ */
+
+class Solution {
+    int minEdgesReq(int n, int[][] edges) {
+        int[] p = new int[n];
+        int[] size = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            p[i] = i;
+            size[i] = 1;
+        }
+
+        int extra = 0;
+
+        for (int[] e : edges) {
+            int a = find(p, e[0]);
+            int b = find(p, e[1]);
+
+            if (a == b) {
+                extra++;
+            } else {
+                if (size[a] < size[b]) {
+                    int t = a; a = b; b = t;
+                }
+                p[b] = a;
+                size[a] += size[b];
+            }
+        }
+
+        int components = 0;
+        for (int i = 0; i < n; i++)
+            if (find(p, i) == i)
+                components++;
+
+        int need = components - 1;
+
+        return extra >= need ? need : -1;
