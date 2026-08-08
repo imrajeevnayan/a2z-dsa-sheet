@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Build Bit Count Array
+ * URL: https://www.geeksforgeeks.org/problems/bits-counting/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, Adobe, Google, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:55:48.342Z
+ */
+
+class Solution {
+    public int[] countBits(int n) {
+        int[] dp = new int[n + 1];
+
+        for (int i = 1; i <= n; i++)
+            dp[i] = dp[i / 2] + i % 2;
+
+        return dp;
+    }
+}
