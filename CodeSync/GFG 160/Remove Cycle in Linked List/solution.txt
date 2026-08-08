@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Cycle in Linked List
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T16:06:52.261Z
+ */
+
+/* Structure of Linked List Node
+class Node {
+    int data;
+    Node next;
+    Node(int val) {
+        data = val;
+        next = null;
+    }
+} */
+class Solution {
+    public static void removeLoop(Node head) {
+        // code here
+        
+    }
+}
