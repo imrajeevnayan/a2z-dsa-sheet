@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Count Number Ways Reach Given Score Game
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T16:13:41.731Z
+ * Synced: 2026-08-08T16:14:29.734Z
  */
 
 class Solution {
