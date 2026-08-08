@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-08T16:00:14.394Z",
+  "submissionTimestamp": "2026-08-08T16:00:59.680Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Reverse a Linked List",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/add-two-numbers-represented-by-linked-lists",
-  "submissionId": "mcmtao"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list",
+  "submissionId": "8ygzuo"
 }
