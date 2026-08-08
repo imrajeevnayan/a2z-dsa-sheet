@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/?envType=daily-question&envId=2026-08-08
-- Synced: 2026-08-08T15:44:32.304Z
+- Synced: 2026-08-08T15:45:54.798Z
 
 ## Problem Description
 
