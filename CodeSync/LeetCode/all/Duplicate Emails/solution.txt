@@ -1,15 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Duplicate Emails
- * URL: https://leetcode.com/problems/duplicate-emails/description/
+ * URL: https://leetcode.com/problems/duplicate-emails/submissions/2099336102/
  * Language: Database
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 66 ms
+ * Runtime: 77 ms
  * Memory: N/A
- * Synced: 2026-08-08T16:28:53.390Z
+ * Synced: 2026-08-08T16:29:52.175Z
  */
 
-select email as Email  from Person 
-group by email
-having count(email)>1;
+SELECT email
+FROM Person
+GROUP BY email
+HAVING COUNT(email) > 1;
