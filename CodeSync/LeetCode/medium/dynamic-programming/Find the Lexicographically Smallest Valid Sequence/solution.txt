@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Lexicographically Smallest Valid Sequence
+ * URL: https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/?envType=daily-question&envId=2026-08-08
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Two Pointers, String, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:44:32.304Z
+ */
+
+class Solution {
+    public int[] validSequence(String word1, String word2) {
+        
+    }
+}
