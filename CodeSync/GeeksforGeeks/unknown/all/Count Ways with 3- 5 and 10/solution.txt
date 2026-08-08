@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Ways with 3, 5 and 10
+ * URL: https://www.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1
+ * Language: class Geeks { public int count(int n) { int[] dp = new int[n + 1]; dp[0] = 1; int[] scores = {3, 5, 10}; for (int s : scores) { for (int i = s; i <= n; i++) { dp[i] += dp[i - s]; } } return dp[n]; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Count Number Ways Reach Given Score Game
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:53:29.261Z
+ */
+
+class Solution {
+    public int countWays(int n) {
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+
+        for (int coin : new int[]{3, 5, 10}) {
+            for (int i = coin; i <= n; i++) {
+                dp[i] += dp[i - coin];
+            }
+        }
+
+        return dp[n];
+    }
+}
