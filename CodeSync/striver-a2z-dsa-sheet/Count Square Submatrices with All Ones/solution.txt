@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Square Submatrices with All Ones
+ * URL: https://www.geeksforgeeks.org/problems/count-square-submatrices-with-all-ones/1
+ * Language: int countSquares(int N, int M, vector<vector<int>> &matrix) { // code here int sum=0; for(int i=0; i<N; i++){ for(int j=0; j<M; j++){ if(i>0 && j>0 && matrix[i][j] == 1) matrix[i][j] = min(matrix[i-1][j-1], min(matrix[i][j-1], matrix[i-1][j]))+1; sum += matrix[i][j]; } } return sum; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Number Of Square Matrices With All 1s
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:56:34.662Z
+ */
+
+class Solution {
+    public int countSquares(int[][] mat) {
+        int n = mat.length, m = mat[0].length;
+        int[][] dp = new int[n][m];
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (mat[i][j] == 1) {
+                    if (i == 0 || j == 0)
+                        dp[i][j] = 1;
+                    else
+                        dp[i][j] = 1 + Math.min(dp[i-1][j],
+                            Math.min(dp[i][j-1], dp[i-1][j-1]));
+
+                    ans += dp[i][j];
+                }
+            }
+        }
+
+        return ans;
+    }
+}
