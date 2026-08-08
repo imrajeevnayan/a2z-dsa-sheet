@@ -1,18 +1,18 @@
 # Valid Parentheses
 
-- Platform: LeetCode
-- Language: Problem List
+- Platform: NeetCode
+- Language: s
 - Difficulty: Easy
-- Topics: String, Stack
-- Runtime: 0 ms
+- Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, String Stack, String, Stack, Apple26
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/
-- Synced: 2026-06-30T09:38:52.529Z
+- Problem URL: https://neetcode.io/problems/validate-parentheses/question
+- Synced: 2026-08-08T18:37:00.447Z
 
 ## Problem Description
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack. Review the synced source file for the implementation details.
+This solution was accepted on NeetCode using s. The detected topics are Easy Topics Company Tags Hints, Topics, Company Tags, Hints, String Stack, String, Stack, Apple26. Review the synced source file for the implementation details.
