@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Tabulation Optimal Solution
+ * URL: https://www.geeksforgeeks.org/problems/partition-array-for-maximum-sum/1
+ * Language: int sol(int i,int k,vector<int>&nums,vector<int>&dp){ if(i==nums.size()) return 0; if(dp[i]!=-1) return dp[i]; int maxi=nums[i],res=0; for(int j=i;j-i+1<=k and j<nums.size();j++){ maxi=max(maxi,nums[j]); int next=sol(j+1,k,nums,dp); res=max(maxi*(j-i+1)+next,res); } return dp[i]=res; } int solve(int n, int k, vector<int>&nums){ vector<int>dp(n,-1); return sol(0,k,nums,dp); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags HCLSamsung, Company Tags, HCL, Samsung, Topic Tags, Dynamic Programming, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T15:57:17.979Z
+ */
+
+class Solution {
+    public int maxPartitionSum(int[] arr, int k) {
+        int n = arr.length;
+        int[] dp = new int[n + 1];
+
+        for (int i = 1; i <= n; i++) {
+            int max = 0;
+
+            for (int len = 1; len <= k && i - len >= 0; len++) {
+                max = Math.max(max, arr[i - len]);
+                dp[i] = Math.max(dp[i],
+                        dp[i - len] + max * len);
+            }
+        }
+
+        return dp[n];
+    }
+}
