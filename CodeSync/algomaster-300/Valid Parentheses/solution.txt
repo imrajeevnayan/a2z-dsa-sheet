@@ -1,0 +1,18 @@
+/*
+ * Platform: NeetCode
+ * Problem: Valid Parentheses
+ * URL: https://neetcode.io/problems/validate-parentheses/question
+ * Language: s
+ * Difficulty: Easy
+ * Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, String Stack, String, Stack, Apple26
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T18:37:00.447Z
+ */
+
+class Solution {
+    public boolean isValid(String s) {
+    Stack<Character>st=new Stack<>();
+    for(char c:s.toCharArray()){
+        if(c=='('|| c=='{'|| c=='[')st.push(c);
+        else{
