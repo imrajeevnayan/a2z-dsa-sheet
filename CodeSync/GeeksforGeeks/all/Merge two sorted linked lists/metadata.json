@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-08T16:02:17.948Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Zoho",
+    "Flipkart",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "Samsung"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Merge two sorted linked lists",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list",
+  "submissionId": "1lvxtz"
+}
