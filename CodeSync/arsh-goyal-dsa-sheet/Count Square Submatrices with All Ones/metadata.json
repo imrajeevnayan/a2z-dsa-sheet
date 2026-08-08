@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-08T15:56:34.662Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Related Articles",
+    "Number Of Square Matrices With All 1s"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int countSquares(int N, int M, vector<vector<int>> &matrix) { // code here int sum=0; for(int i=0; i<N; i++){ for(int j=0; j<M; j++){ if(i>0 && j>0 && matrix[i][j] == 1) matrix[i][j] = min(matrix[i-1][j-1], min(matrix[i][j-1], matrix[i-1][j]))+1; sum += matrix[i][j]; } } return sum; }",
+  "problemTitle": "Count Square Submatrices with All Ones",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-square-submatrices-with-all-ones/1",
+  "submissionId": "2cl5hy"
+}
