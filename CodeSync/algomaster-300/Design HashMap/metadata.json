@@ -1,18 +1,20 @@
 {
-  "submissionTimestamp": "2026-08-06T20:07:35.416Z",
-  "runtime": "0 ms",
-  "memoryUsage": "48.14 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-08T16:32:47.399Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Linked List",
-    "Design",
-    "Hash Function"
+    "Topic Tags Related Articles",
+    "Topic Tags",
+    "Hash",
+    "Map",
+    "Design-Pattern",
+    "Related Articles",
+    "Designing A Hashmap Without Built In Libraries"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
   "problemTitle": "Design HashMap",
-  "problemUrl": "https://leetcode.com/problems/design-hashmap/",
-  "submissionId": "deot2e"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/design-hashmap/1",
+  "submissionId": "i5e2o"
 }
