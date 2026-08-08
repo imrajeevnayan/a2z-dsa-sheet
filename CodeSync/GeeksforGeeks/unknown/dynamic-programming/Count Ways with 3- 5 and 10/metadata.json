@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-08T15:53:29.261Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Related Articles",
+    "Count Number Ways Reach Given Score Game"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Geeks { public int count(int n) { int[] dp = new int[n + 1]; dp[0] = 1; int[] scores = {3, 5, 10}; for (int s : scores) { for (int i = s; i <= n; i++) { dp[i] += dp[i - s]; } } return dp[n]; } }",
+  "problemTitle": "Count Ways with 3, 5 and 10",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1",
+  "submissionId": "vz8a7s"
+}
