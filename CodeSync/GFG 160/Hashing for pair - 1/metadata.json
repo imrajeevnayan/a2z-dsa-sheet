@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-08T16:34:53.058Z",
+  "submissionTimestamp": "2026-08-08T16:35:41.998Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "Hash"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "public static int sumExists(int arr[], int sum) { HashMap<Integer, Integer> hs = new HashMap<>(); for(int num : arr) { hs.put(num, hs.getOrDefault(num , 0) + 1); } for(int num : arr) { if((hs.containsKey(sum - num) && sum - num != num) || (hs.containsKey(sum - num) && sum - num == num && hs.get(sum - num) > 1)) { return 1; } } return 0; }",
   "problemTitle": "Hashing for pair - 1",
   "problemUrl": "https://www.geeksforgeeks.org/problems/hashing-for-pair-1--110939/1",
-  "submissionId": "9q4k8e"
+  "submissionId": "vxb5tw"
 }
