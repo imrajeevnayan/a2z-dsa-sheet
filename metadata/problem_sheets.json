@@ -2658,5 +2658,6 @@
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
   ],
-  "leetcode:find-total-time-spent-by-each-employee": []
+  "leetcode:find-total-time-spent-by-each-employee": [],
+  "leetcode:capital-gainloss": []
 }
