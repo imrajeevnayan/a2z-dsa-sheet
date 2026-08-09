@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Greedy
  * Runtime: 0 ms
  * Memory: 70.70 MB
- * Synced: 2026-08-09T05:13:47.181Z
+ * Synced: 2026-08-09T05:14:32.435Z
  */
 
 dp[0][1] = -prices[0];
