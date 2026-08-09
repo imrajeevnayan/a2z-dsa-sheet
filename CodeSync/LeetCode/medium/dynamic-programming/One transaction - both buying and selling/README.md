@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-09T05:09:50.891Z
+- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-09T05:10:35.972Z
 
 ## Problem Description
 
