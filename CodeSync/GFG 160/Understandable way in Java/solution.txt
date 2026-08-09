@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonGoldman Sachs, Company Tags, Amazon, Goldman Sachs, Topic Tags, Hash, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T17:02:55.417Z
+ * Synced: 2026-08-09T17:03:44.432Z
  */
 
 class Solution {
