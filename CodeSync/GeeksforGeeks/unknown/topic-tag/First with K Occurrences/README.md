@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/first-come-first-serve1328/1
-- Synced: 2026-08-09T17:19:02.356Z
+- Synced: 2026-08-09T17:19:50.371Z
 
 ## Problem Description
 
