@@ -2715,5 +2715,21 @@
     "custom:fraz-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:delete-duplicate-emails": []
+  "leetcode:delete-duplicate-emails": [],
+  "leetcode:maximum-level-sum-of-a-binary-tree": [
+    "Blind75",
+    "NeetCode150",
+    "Top100Liked",
+    "StriverA2Z",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:love-babbar-dsa-sheet"
+  ]
 }
