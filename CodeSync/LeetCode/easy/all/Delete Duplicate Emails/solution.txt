@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: 791 ms
  * Memory: N/A
- * Synced: 2026-08-09T05:07:50.915Z
+ * Synced: 2026-08-09T05:08:37.137Z
  */
 
 Delete p from Person p,Person q where p.id > q.id and p.email=q.email;
