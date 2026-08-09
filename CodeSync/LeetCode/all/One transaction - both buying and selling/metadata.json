@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-09T05:09:50.891Z",
+  "submissionTimestamp": "2026-08-09T05:10:35.972Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "One transaction = both buying and selling",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "8nt87b"
+  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "nlcp2m"
 }
