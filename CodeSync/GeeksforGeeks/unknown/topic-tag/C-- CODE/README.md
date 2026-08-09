@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/separate-chaining-in-hashing-1587115621/1
-- Synced: 2026-08-08T19:15:09.775Z
+- Synced: 2026-08-08T19:15:59.097Z
 
 ## Problem Description
 
