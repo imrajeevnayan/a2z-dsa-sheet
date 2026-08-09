@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/stone-game-ii/?envType=daily-question&envId=2026-08-09
-- Synced: 2026-08-09T05:02:43.556Z
+- Synced: 2026-08-09T05:04:16.683Z
 
 ## Problem Description
 
