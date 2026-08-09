@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-09T14:20:06.071Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Sorting",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Hash",
+    "Related Articles",
+    "Intersection Of Two Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Intersection of Two arrays with Duplicate Elements",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/intersection-of-two-arrays-with-duplicate-elements/1",
+  "submissionId": "u0f8y2"
+}
