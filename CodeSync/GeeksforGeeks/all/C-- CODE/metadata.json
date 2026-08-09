@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-08T19:15:09.775Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Hash",
+    "Linked List",
+    "Arrays",
+    "Related Articles",
+    "C Program Hashing Chaining"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<vector<int>> separateChaining(int hashSize,int arr[],int n) { //Your code here vector<vector<int>> v1(hashSize); vector<int> v2; for(int i = 0; i < n; i++) { int index = arr[i]% hashSize; v2.push_back(arr[i]); if(!v1[index].empty()){ v1[index].push_back(arr[i]); } else{ v1[index] = v2; } v2.clear(); } return v1; }",
+  "problemTitle": "C++ CODE:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/separate-chaining-in-hashing-1587115621/1",
+  "submissionId": "k0j93m"
+}
