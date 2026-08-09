@@ -2732,5 +2732,9 @@
     "custom:striver-sde-sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:best-time-to-buy-and-sell-stock-with-transaction-fee": []
+  "leetcode:best-time-to-buy-and-sell-stock-with-transaction-fee": [],
+  "geeksforgeeks:second-most-repeated-string-in-a-sequence0534": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
+  ]
 }
