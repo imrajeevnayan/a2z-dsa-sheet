@@ -6,8 +6,8 @@
 - Topics: Database
 - Runtime: 791 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-09T05:07:03.762Z
+- Problem URL: https://leetcode.com/problems/delete-duplicate-emails/submissions/2099910998/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-08-09T05:07:50.915Z
 
 ## Problem Description
 
