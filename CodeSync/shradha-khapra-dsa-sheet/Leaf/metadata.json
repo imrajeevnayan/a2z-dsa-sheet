@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-09T05:16:16.654Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Leaf",
+  "problemUrl": "https://leetcode.com/problems/leaf-similar-trees/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "yw2obl"
+}
