@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonGoldman Sachs, Company Tags, Amazon, Goldman Sachs, Topic Tags, Hash, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T14:15:16.902Z
+ * Synced: 2026-08-09T14:16:10.925Z
  */
 
 class Solution {
@@ -31,6 +31,7 @@ class Solution {
         }
 
         int first = pq.poll();
+
         while (!pq.isEmpty()) {
             int second = pq.poll();
 
@@ -38,8 +39,6 @@ class Solution {
                 return second;
             }
         }
-
-        // All frequencies are the same
         return -1;
     }
 }
