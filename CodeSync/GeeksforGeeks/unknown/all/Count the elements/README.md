@@ -1,13 +1,13 @@
 # Count the elements
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query, int q) { vector<int> ans; sort(b.begin(), b.end()); for(int i=0; i<q; i++) { int idx = query[i]; int item = a[idx]; auto it = upper_bound(b.begin(), b.end(), item); ans.push_back(it - b.begin()); } return ans; }
 - Difficulty: Unknown
 - Topics: Company Tags AmazonYatra.com, Company Tags, Amazon, Yatra.com, Topic Tags, Arrays, Hash, Related Interview Experiences
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-the-elements1529/1
-- Synced: 2026-08-09T14:18:39.697Z
+- Synced: 2026-08-09T14:19:27.944Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two arrays a and b both of size n. Given q queries in an array query each 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Company Tags AmazonYatra.com, Company Tags, Amazon, Yatra.com, Topic Tags, Arrays, Hash, Related Interview Experiences. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query, int q) { vector<int> ans; sort(b.begin(), b.end()); for(int i=0; i<q; i++) { int idx = query[i]; int item = a[idx]; auto it = upper_bound(b.begin(), b.end(), item); ans.push_back(it - b.begin()); } return ans; }. The detected topics are Company Tags AmazonYatra.com, Company Tags, Amazon, Yatra.com, Topic Tags, Arrays, Hash, Related Interview Experiences. Review the synced source file for the implementation details.
