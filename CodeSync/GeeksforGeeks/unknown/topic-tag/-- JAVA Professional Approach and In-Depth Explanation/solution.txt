@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🌟 JAVA || Professional Approach and In-Depth Explanation
+ * URL: https://www.geeksforgeeks.org/problems/help-nobita0532/1
+ * Language: class Solution { public static String oddEven(String s) { // Create an array to hold the frequency of each character (a-z) // Index 0 is unused, as we map 'a' to 1, 'b' to 2, ..., 'z' to 26 int[] freq = new int[27]; // Calculate the frequency of each character in the string for (int i = 0; i < s.length(); i++) { // Calculate the position of the character in the alphabet (1-26) int position = s.charAt(i) - 'a' + 1; // Increment the frequency of the character at its corresponding position freq[position]++; } // Initialize sum to count qualifying characters int sum = 0; // Iterate through the frequency array from position 1 to 26 for (int i = 1; i <= 26; i++) { if (freq[i] != 0) { // Check if the character has a positive frequency // Check if both the character's position and frequency are even if (i % 2 == 0 && freq[i] % 2 == 0) { sum++; // Check if both the character's position and frequency are odd } else if (i % 2 != 0 && freq[i] % 2 != 0) { sum++; } } } // Determine if the sum is even or odd and return the corresponding string return (sum % 2 == 0) ? "EVEN" : "ODD"; } }
+ * Difficulty: Unknown
+ * Topics: Topic Tags, Hash, Strings, Bit Magic
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-09T14:24:04.580Z
+ */
+
+class Solution {
+    public static String oddEven(String s) {
+        int[] freq = new int[26];
+
+        for (char ch : s.toCharArray()) {
+            freq[ch - 'a']++;
+        }
+
+        int count = 0;
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] == 0) continue;
+            int position = i + 1;
+
+            if (position % 2 == freq[i] % 2) {
+                count++;
+            }
+        }
+
+        return count % 2 == 1 ? "ODD" : "EVEN";
+    }
+}
