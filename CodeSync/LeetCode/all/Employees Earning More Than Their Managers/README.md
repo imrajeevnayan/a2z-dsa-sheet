@@ -1,13 +1,13 @@
 # Employees Earning More Than Their Managers
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: N/A
+- Runtime: 99 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/
-- Synced: 2026-07-25T17:53:15.924Z
+- Problem URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
+- Synced: 2026-08-08T19:20:45.988Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Employee +-------------+---------+ | Column Name | Type | +-------------+
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
