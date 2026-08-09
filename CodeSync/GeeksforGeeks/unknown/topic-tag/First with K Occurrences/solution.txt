@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, First Element Occurring K Times Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T17:09:26.371Z
+ * Synced: 2026-08-09T17:10:14.366Z
  */
 
 class Solution {
