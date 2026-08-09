@@ -5,14 +5,18 @@
  * Language: head
  * Difficulty: Medium
  * Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Two Pointers, Linked List, Two Pointers
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-08T18:39:23.876Z
+ * Runtime: 51ms
+ * Memory: 60.5 MB
+ * Synced: 2026-08-08T18:41:11.039Z
  */
 
 class Solution {
     int count = 0;
-
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if (head == null) {
-            return null;
+        if (head == null) return null;
+        head.next = removeNthFromEnd(head.next, n);
+        count++;
+        if (count == n)  return head.next;
+        return head;
+    }
+}
