@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Linked List, Arrays, Related Articles, C Program Hashing Chaining
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T19:15:09.775Z
+ * Synced: 2026-08-08T19:15:59.097Z
  */
 
 class Solution {
