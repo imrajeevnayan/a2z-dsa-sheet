@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-09T14:18:39.697Z",
+  "submissionTimestamp": "2026-08-09T14:19:27.944Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Related Interview Experiences"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query, int q) { vector<int> ans; sort(b.begin(), b.end()); for(int i=0; i<q; i++) { int idx = query[i]; int item = a[idx]; auto it = upper_bound(b.begin(), b.end(), item); ans.push_back(it - b.begin()); } return ans; }",
   "problemTitle": "Count the elements",
   "problemUrl": "https://www.geeksforgeeks.org/problems/count-the-elements1529/1",
-  "submissionId": "sutjw1"
+  "submissionId": "tfea1u"
 }
