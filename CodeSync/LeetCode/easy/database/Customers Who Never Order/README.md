@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 100 ms
+- Runtime: 104 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/customers-who-never-order/
-- Synced: 2026-07-25T18:16:22.177Z
+- Synced: 2026-08-08T19:21:45.662Z
 
 ## Problem Description
 
