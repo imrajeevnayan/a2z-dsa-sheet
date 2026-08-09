@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Delete Duplicate Emails
+ * URL: https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50
+ * Language: SQL 50
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 791 ms
+ * Memory: N/A
+ * Synced: 2026-08-09T05:07:03.762Z
+ */
+
+Delete p from Person p,Person q where p.id > q.id and p.email=q.email;
