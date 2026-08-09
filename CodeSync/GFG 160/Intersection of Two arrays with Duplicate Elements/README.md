@@ -1,13 +1,13 @@
 # Intersection of Two arrays with Duplicate Elements
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def intersect(self, a, b): sa = set(a) return list(sa.intersection(b))
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Sorting, two-pointer-algorithm, Arrays, Hash, Related Articles, Intersection Of Two Arrays
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/intersection-of-two-arrays-with-duplicate-elements/1
-- Synced: 2026-08-09T14:20:06.071Z
+- Synced: 2026-08-09T14:20:52.147Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two integer arrays a[] and b[], you have to find the intersection of the t
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Sorting, two-pointer-algorithm, Arrays, Hash, Related Articles, Intersection Of Two Arrays. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def intersect(self, a, b): sa = set(a) return list(sa.intersection(b)). The detected topics are Expected Complexities, Topic Tags, Sorting, two-pointer-algorithm, Arrays, Hash, Related Articles, Intersection Of Two Arrays. Review the synced source file for the implementation details.
