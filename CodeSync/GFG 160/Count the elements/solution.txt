@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count the elements
+ * URL: https://www.geeksforgeeks.org/problems/count-the-elements1529/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags AmazonYatra.com, Company Tags, Amazon, Yatra.com, Topic Tags, Arrays, Hash, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-09T14:18:39.697Z
+ */
+
+class Solution {
+    public static int[] countElements(int a[], int b[], int n, int query[], int q) {}
+}
