@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: Biggest Single Number
+ * URL: https://leetcode.com/problems/biggest-single-number/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 107 ms
+ * Memory: N/A
+ * Synced: 2026-08-08T19:24:01.828Z
+ */
+
+SELECT MAX(num) AS num
+FROM MyNumbers
+WHERE num IN (
+    SELECT num
+    FROM MyNumbers
+    GROUP BY num
+    HAVING COUNT(*) = 1
+);
