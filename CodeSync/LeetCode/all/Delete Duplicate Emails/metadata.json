@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-08-09T05:07:03.762Z",
+  "runtime": "791 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Database"
+  ],
+  "platform": "LeetCode",
+  "language": "SQL 50",
+  "problemTitle": "Delete Duplicate Emails",
+  "problemUrl": "https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50",
+  "submissionId": "k7e6gd"
+}
