@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence0534/1
-- Synced: 2026-08-09T17:26:34.423Z
+- Synced: 2026-08-09T17:27:47.331Z
 
 ## Problem Description
 
