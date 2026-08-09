@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-09T05:02:43.556Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Minimax",
+    "Prefix Sum",
+    "Game Theory",
+    "Zero-Sum Game"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Stone Game II",
+  "problemUrl": "https://leetcode.com/problems/stone-game-ii/?envType=daily-question&envId=2026-08-09",
+  "submissionId": "24oyyc"
+}
