@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Stone Game II
+ * URL: https://leetcode.com/problems/stone-game-ii/?envType=daily-question&envId=2026-08-09
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming, Minimax, Prefix Sum, Game Theory, Zero-Sum Game
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-09T05:02:43.556Z
+ */
+
+class Solution {
+    public int stoneGameII(int[] piles) {
+        
+    }
+}
