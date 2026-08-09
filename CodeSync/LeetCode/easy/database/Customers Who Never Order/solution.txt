@@ -5,9 +5,9 @@
  * Language: Database
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 100 ms
+ * Runtime: 104 ms
  * Memory: N/A
- * Synced: 2026-07-25T18:16:22.177Z
+ * Synced: 2026-08-08T19:21:45.662Z
  */
 
 select c.name as Customers
