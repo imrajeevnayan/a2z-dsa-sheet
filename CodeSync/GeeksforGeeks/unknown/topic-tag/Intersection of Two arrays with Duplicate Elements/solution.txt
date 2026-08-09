@@ -7,25 +7,21 @@
  * Topics: Expected Complexities, Topic Tags, Sorting, two-pointer-algorithm, Arrays, Hash, Related Articles, Intersection Of Two Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T14:20:52.147Z
+ * Synced: 2026-08-09T14:21:47.196Z
  */
 
 class Solution {
     public ArrayList<Integer> intersect(int[] a, int[] b) {
         ArrayList<Integer> result = new ArrayList<>();
-        HashMap<Integer, Integer> map = new HashMap
-        
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int x : a)map.put(x, map.getOrDefault(x, 0) + 1);
         
-
-        // Find intersection with b
         for (int x : b) {
             if (map.containsKey(x) && map.get(x) > 0) {
                 result.add(x);
                 map.put(x, map.get(x) - 1);
             }
         }
-
         return result;
     }
 }
