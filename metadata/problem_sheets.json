@@ -2703,5 +2703,8 @@
     "custom:algomaster-300",
     "custom:neetcode-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "geeksforgeeks:search-insert-position-of-k-in-a-sorted-array": [
+    "GFG160"
   ]
 }
