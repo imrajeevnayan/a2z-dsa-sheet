@@ -7,8 +7,10 @@
  * Topics: Expected Complexities, Company Tags AmazonGoldman Sachs, Company Tags, Amazon, Goldman Sachs, Topic Tags, Hash, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T14:12:32.875Z
+ * Synced: 2026-08-09T14:13:22.126Z
  */
+
+import java.util.*;
 
 class Solution {
     public int secFrequent(String[] arr) {
@@ -18,20 +20,22 @@ class Solution {
             map.put(key, map.getOrDefault(key, 0) + 1);
         }
 
-        int first = 0;
-        int second = 0;
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         for (String key : map.keySet()) {
-            int freq = map.get(key);
+            pq.add(map.get(key));
+        }
 
-            if (freq > first) {
-                second = first;
-                first = freq;
-            } else if (freq > second && freq < first) {
-                second = freq;
+        int first = pq.poll();
+
+        while (!pq.isEmpty()) {
+            int second = pq.poll();
+
+            if (second < first) {
+                return second;
             }
         }
 
-        return second;
+        return 0;
     }
 }
