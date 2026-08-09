@@ -7,7 +7,7 @@
  * Topics: Array, Math, Dynamic Programming, Minimax, Prefix Sum, Game Theory, Zero-Sum Game
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T05:02:43.556Z
+ * Synced: 2026-08-09T05:04:16.683Z
  */
 
 class Solution {
