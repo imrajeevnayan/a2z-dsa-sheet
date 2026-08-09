@@ -2,14 +2,42 @@
  * Platform: GeeksforGeeks
  * Problem: Count the elements
  * URL: https://www.geeksforgeeks.org/problems/count-the-elements1529/1
- * Language: Java (21)
+ * Language: vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query, int q) { vector<int> ans; sort(b.begin(), b.end()); for(int i=0; i<q; i++) { int idx = query[i]; int item = a[idx]; auto it = upper_bound(b.begin(), b.end(), item); ans.push_back(it - b.begin()); } return ans; }
  * Difficulty: Unknown
  * Topics: Company Tags AmazonYatra.com, Company Tags, Amazon, Yatra.com, Topic Tags, Arrays, Hash, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T14:18:39.697Z
+ * Synced: 2026-08-09T14:19:27.944Z
  */
 
 class Solution {
-    public static int[] countElements(int a[], int b[], int n, int query[], int q) {}
+    public static int[] countElements(int a[], int b[], int n, int query[], int q) {
+
+        int[] ans = new int[q];
+
+        Arrays.sort(b);
+
+        for (int i = 0; i < q; i++) {
+            int x = a[query[i]];
+
+            int low = 0;
+            int high = n - 1;
+            int count = 0;
+
+            while (low <= high) {
+                int mid = low + (high - low) / 2;
+
+                if (b[mid] <= x) {
+                    count = mid + 1;
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+
+            ans[i] = count;
+        }
+
+        return ans;
+    }
 }
