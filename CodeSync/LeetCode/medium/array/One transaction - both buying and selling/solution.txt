@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: One transaction = both buying and selling
+ * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-09T05:09:50.891Z
+ */
+
+class Solution {
+    public int maxProfit(int[] prices, int fee) {
+        
+    }
+}
