@@ -1,0 +1,17 @@
+/*
+ * Platform: NeetCode
+ * Problem: Merge Two Sorted Linked Lists
+ * URL: https://neetcode.io/problems/merge-two-sorted-linked-lists/question
+ * Language: list1
+ * Difficulty: Easy
+ * Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, Linked List Recursion, Linked List, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-08T18:38:26.895Z
+ */
+
+class Solution {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
+        }
