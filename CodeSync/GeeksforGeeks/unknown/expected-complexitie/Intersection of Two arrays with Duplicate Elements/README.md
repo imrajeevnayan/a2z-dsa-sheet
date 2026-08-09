@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/intersection-of-two-arrays-with-duplicate-elements/1
-- Synced: 2026-08-09T14:20:52.147Z
+- Synced: 2026-08-09T14:21:47.196Z
 
 ## Problem Description
 
