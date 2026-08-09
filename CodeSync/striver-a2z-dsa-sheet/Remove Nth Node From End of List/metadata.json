@@ -1,15 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-30T16:52:23.890Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-08T18:39:23.876Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
+    "Medium Topics Company Tags Hints",
+    "Topics",
+    "Company Tags",
+    "Hints",
+    "Linked List Two Pointers",
     "Linked List",
     "Two Pointers"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "NeetCode",
+  "language": "head",
   "problemTitle": "Remove Nth Node From End of List",
-  "problemUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-  "submissionId": "pam0ye"
+  "problemUrl": "https://neetcode.io/problems/remove-node-from-end-of-linked-list/question",
+  "submissionId": "6cqpyk"
 }
