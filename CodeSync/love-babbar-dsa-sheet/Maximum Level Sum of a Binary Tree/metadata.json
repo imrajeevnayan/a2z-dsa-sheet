@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-09T05:08:41.770Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Maximum Level Sum of a Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "ivn32n"
+}
