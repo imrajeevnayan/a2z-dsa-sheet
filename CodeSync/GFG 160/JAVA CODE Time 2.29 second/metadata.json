@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-09T17:16:01.571Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "Related Articles",
+    "Find N Smallest Element Given Array Order Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#User function Template for python3 import heapq class Solution: def kSmallestElements(self, arr, k): # code here hp = [] heapq.heapify(hp) for ind, num in enumerate(arr): heapq.heappush(hp, (num,ind)) res = [] while hp and k: item = heapq.heappop(hp) res.append(item) k-=1 res.sort(key = lambda item:item[1]) return [num for num, item in res]",
+  "problemTitle": "JAVA CODE Time : 2.29 second",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-k-smallest-elements-in-their-original-order5407/1",
+  "submissionId": "qxgpxb"
+}
