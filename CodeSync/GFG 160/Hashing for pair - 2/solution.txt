@@ -7,16 +7,16 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T19:10:59.434Z
+ * Synced: 2026-08-08T19:11:45.823Z
  */
 
 class Geeks {
-    // Complete this function
-    // Function to check if two numbers in array have sum equal to the given
-    // sum.
     public static int sumExists(int arr[], int sum) {
-
-        // Your code here
-        
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(sum - num)) return 1;
+            set.add(num);
+        }
+        return 0;
     }
 }
