@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-08T19:14:13.749Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "Related Articles",
+    "Check If The Given Input Contains Duplicates"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: bool checkDuplicates(vector<int> &arr) { // code here unordered_set<int> mySet; for(int i=0; i<arr.size(); i++){ if(mySet.find(arr[i])!= mySet.end()){ return true; } mySet.insert(arr[i]); } return false; } };",
+  "problemTitle": "Check if array contains duplicates",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-array-contains-duplicates/1",
+  "submissionId": "xgk2l7"
+}
