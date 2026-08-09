@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Leaf
+ * URL: https://leetcode.com/problems/leaf-similar-trees/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-09T05:16:16.654Z
+ */
+
+public void dfs(TreeNode root, List<Integer> list) {
+        if (root == null) {
+            return;
+        }
+
+        if (root.left == null && root.right == null) {
+            list.add(root.val);
+            return;
+        }
+
+        dfs(root.left, list);
+        dfs(root.right, list);
+    }
+}
