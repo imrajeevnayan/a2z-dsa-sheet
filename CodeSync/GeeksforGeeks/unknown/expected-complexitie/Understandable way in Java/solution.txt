@@ -7,27 +7,18 @@
  * Topics: Expected Complexities, Company Tags AmazonGoldman Sachs, Company Tags, Amazon, Goldman Sachs, Topic Tags, Hash, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T14:13:22.126Z
+ * Synced: 2026-08-09T14:14:29.440Z
  */
-
-import java.util.*;
 
 class Solution {
     public int secFrequent(String[] arr) {
         HashMap<String, Integer> map = new HashMap<>();
-
-        for (String key : arr) {
-            map.put(key, map.getOrDefault(key, 0) + 1);
-        }
-
+        for (String key : arr) map.put(key, map.getOrDefault(key, 0) + 1);
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-
         for (String key : map.keySet()) {
             pq.add(map.get(key));
         }
-
         int first = pq.poll();
-
         while (!pq.isEmpty()) {
             int second = pq.poll();
 
@@ -35,7 +26,6 @@ class Solution {
                 return second;
             }
         }
-
         return 0;
     }
 }
