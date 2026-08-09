@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Second most repeated string in a sequence
+ * URL: https://www.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence0534/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonGoldman Sachs, Company Tags, Amazon, Goldman Sachs, Topic Tags, Hash, Strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-09T14:08:31.968Z
+ */
+
+class Solution {
+    public int secFrequent(String[] arr) {
+        // code here
+        
+    }
+}
