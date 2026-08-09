@@ -1,34 +1,32 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: code in java
- * URL: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
- * Language: class Solution { public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) { // code here int V = adj.size(); boolean[] visited = new boolean[V]; ArrayList<Integer> result = new ArrayList<>(); dfsHelper(0, adj, visited, result); return result; } private void dfsHelper(int node, ArrayList<ArrayList<Integer>> adj, boolean[] visited, ArrayList<Integer> result) { visited[node] = true; result.add(node); for (int neighbor : adj.get(node)) { if (!visited[neighbor]) { dfsHelper(neighbor, adj, visited, result); } } } }
+ * URL: https://www.geeksforgeeks.org/problems/count-the-characters1821/1
+ * Language: class Sol { int getCount(String s, int n) { Map<Character, Integer> map = new HashMap<>(); int count = 0; for (int i=0; i<s.length(); i++) { Character c = s.charAt(i); if (i < s.length()-1 && c == s.charAt(i+1)) { continue; } int charCount = map.getOrDefault(c, 0); charCount++; map.put(c, charCount); } for (int frequency : map.values()) { if (frequency == n) { count++; } } return count; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags
+ * Topics: Expected Complexities, Company Tags ZohoAmazon, Company Tags, Zoho, Amazon, Topic Tags, Hash, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T12:13:37.973Z
+ * Synced: 2026-08-09T17:10:23.823Z
  */
 
-class Solution {
-    public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
-        int V = adj.size();
-        ArrayList<Integer> ans = new ArrayList<>();
-        boolean[] vis = new boolean[V];
-        dfsHelper(0, adj, vis, ans);
-        return ans;
-    }
-    private void dfsHelper(int node,
-                           ArrayList<ArrayList<Integer>> adj,
-                           boolean[] vis,
-                           ArrayList<Integer> ans) {
+class Sol {
+    int getCount(String s, int k) {
+        HashMap<Character, Integer> map = new HashMap<>();
 
-        vis[node] = true;
-        ans.add(node);
-        for (int nbr : adj.get(node)) {
-            if (!vis[nbr]) {
-                dfsHelper(nbr, adj, vis, ans);
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (i == 0 || s.charAt(i - 1) != ch) {
+                map.put(ch, map.getOrDefault(ch, 0) + 1);
             }
         }
+        int count = 0;
+        for (char ch : map.keySet()) {
+            if (map.get(ch) == k) {
+                count++;
+            }
+        }
+        return count;
     }
 }
