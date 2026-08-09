@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-the-characters1821/1
-- Synced: 2026-08-09T17:14:24.406Z
+- Synced: 2026-08-09T17:15:12.385Z
 
 ## Problem Description
 
