@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: 77 ms
  * Memory: N/A
- * Synced: 2026-08-08T16:38:07.157Z
+ * Synced: 2026-08-08T19:20:21.645Z
  */
 
 SELECT email
