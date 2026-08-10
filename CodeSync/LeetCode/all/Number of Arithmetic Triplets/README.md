@@ -4,10 +4,10 @@
 - Language: Two Pointers (Copy-two-pointers)
 - Difficulty: Easy
 - Topics: Array, Hash Table, Two Pointers, Enumeration
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-arithmetic-triplets/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-08-10T08:59:43.020Z
+- Runtime: 0 ms
+- Memory: 43.36 MB
+- Problem URL: https://leetcode.com/problems/number-of-arithmetic-triplets/submissions/2101306049/?envType=problem-list-v2&envId=da2mv5gs
+- Synced: 2026-08-10T09:00:33.631Z
 
 ## Problem Description
 
