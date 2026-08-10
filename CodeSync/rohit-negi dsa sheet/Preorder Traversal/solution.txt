@@ -7,24 +7,16 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T08:15:29.782Z
+ * Synced: 2026-08-10T08:16:14.862Z
  */
-
-/* Structure of Tree Node
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    Node(int data) {
-        this.data = data;
-        left = right = null;
-    }
-}*/
 
 class Solution {
     public ArrayList<Integer> preOrder(Node root) {
-        //  code here
-        
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null) return ans;
+        ans.add(root.data);
+        ans.addAll(preOrder(root.left));
+        ans.addAll(preOrder(root.right));
+        return ans;
     }
 }
