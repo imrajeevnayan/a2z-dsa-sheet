@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/inorder-traversal-iterative/1
-- Synced: 2026-08-10T08:23:07.500Z
+- Synced: 2026-08-10T08:23:55.506Z
 
 ## Problem Description
 
