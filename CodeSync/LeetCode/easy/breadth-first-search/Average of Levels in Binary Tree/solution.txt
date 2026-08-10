@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Average of Levels in Binary Tree
+ * URL: https://leetcode.com/problems/average-of-levels-in-binary-tree/?envType=problem-list-v2&envId=tree
+ * Language: Tree
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-10T09:08:29.296Z
+ */
+
+int size = q.size();
+            double sum = 0;
+
+            for (int i = 0; i < size; i++) {
+                TreeNode curr = q.poll();
+                sum += curr.val;
+
+                if (curr.left != null)
+                    q.add(curr.left);
+
+                if (curr.right != null)
+                    q.add(curr.right);
+
+        while (!q.isEmpty()) {
+        q.add(root);
+
+        List<Double> ans = new ArrayList<>();
+        Queue<TreeNode> q = new LinkedList<>();
+    public List<Double> averageOfLevels(TreeNode root) {
+class Solution {
