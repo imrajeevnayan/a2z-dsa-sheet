@@ -4,10 +4,10 @@
 - Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
 - Difficulty: Medium
 - Topics: Array, Bit Manipulation, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/xor-queries-of-a-subarray/?envType=problem-list-v2&envId=dapb7olr
-- Synced: 2026-08-10T19:07:15.757Z
+- Runtime: 0 ms
+- Memory: 92.56 MB
+- Problem URL: https://leetcode.com/problems/xor-queries-of-a-subarray/submissions/2101982370/?envType=problem-list-v2&envId=dapb7olr
+- Synced: 2026-08-10T19:08:05.272Z
 
 ## Problem Description
 
