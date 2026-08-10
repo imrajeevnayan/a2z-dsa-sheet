@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-10T19:06:45.707Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "DSA Patterns by anubhav0910 (Copy-a0b4xdj1)",
+  "problemTitle": "Deepest Leaves Sum",
+  "problemUrl": "https://leetcode.com/problems/deepest-leaves-sum/?envType=problem-list-v2&envId=dapb7olr",
+  "submissionId": "jqe5w7"
+}
