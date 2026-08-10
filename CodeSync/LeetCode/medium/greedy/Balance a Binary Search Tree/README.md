@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.26 MB
 - Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/?envType=problem-list-v2&envId=binary-search-tree
-- Synced: 2026-08-10T08:43:55.079Z
+- Synced: 2026-08-10T08:44:44.495Z
 
 ## Problem Description
 
