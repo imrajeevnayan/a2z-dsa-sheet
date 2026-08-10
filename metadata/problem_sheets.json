@@ -2829,5 +2829,15 @@
   "leetcode:average-of-levels-in-binary-tree": [],
   "leetcode:keys-and-rooms": [
     "custom:fraz-dsa-sheet"
+  ],
+  "leetcode:word-search": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300"
   ]
 }
