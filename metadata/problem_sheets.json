@@ -2826,5 +2826,8 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:average-of-levels-in-binary-tree": []
+  "leetcode:average-of-levels-in-binary-tree": [],
+  "leetcode:keys-and-rooms": [
+    "custom:fraz-dsa-sheet"
+  ]
 }
