@@ -4,10 +4,10 @@
 - Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
 - Difficulty: Medium
 - Topics: Array, Bit Manipulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/?envType=problem-list-v2&envId=dapb7olr
-- Synced: 2026-08-10T19:05:03.012Z
+- Runtime: 0 ms
+- Memory: 108.79 MB
+- Problem URL: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/submissions/2101980121/?envType=problem-list-v2&envId=dapb7olr
+- Synced: 2026-08-10T19:06:07.906Z
 
 ## Problem Description
 
