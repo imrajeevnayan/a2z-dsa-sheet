@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-10T08:17:53.399Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonSnapdealAdobe",
+    "Company Tags",
+    "Amazon",
+    "Snapdeal",
+    "Adobe",
+    "Topic Tags",
+    "Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public ArrayList<Integer> inOrder(Node root) { // code here if (root == null) return new ArrayList<>(); ArrayList<Integer> result = new ArrayList<>(); Deque<Node> stack = new ArrayDeque<>(); Node current = root; while (current != null || !stack.isEmpty()) { while (current != null) { stack.push(current); current = current.left; } current = stack.pop(); result.add(current.data); current = current.right; } return result; }",
+  "problemTitle": "Inorder Traversal",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/inorder-traversal/1",
+  "submissionId": "xlaxrg"
+}
