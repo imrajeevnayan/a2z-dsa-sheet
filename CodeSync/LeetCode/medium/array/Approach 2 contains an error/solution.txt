@@ -7,7 +7,7 @@
  * Topics: Array, Bit Manipulation
  * Runtime: 0 ms
  * Memory: 108.79 MB
- * Synced: 2026-08-10T19:06:07.906Z
+ * Synced: 2026-08-10T19:07:07.370Z
  */
 
 class Solution {
