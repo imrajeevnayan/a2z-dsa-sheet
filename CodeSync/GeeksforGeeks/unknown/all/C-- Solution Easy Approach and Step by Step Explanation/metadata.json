@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-07T05:12:45.797Z",
+  "submissionTimestamp": "2026-08-10T08:13:59.450Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Modular Arithmetic",
-    "Recursion",
-    "Related Articles",
-    "Friends Pairing Problem"
+    "Dynamic Programming",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: long long fact(int n){ long long f = 1; while(n) f *= n--; return f; } int countFriendsPairings(int n) { // code here int ans =0; for(int k = 0; k <= n/2; k++) ans += fact(n) / ((1LL<<k) * fact(k) * fact(n - 2*k)); return ans; } };",
+  "language": "class Solution { public int maxTask(int[] h, int[] l) { if (h.length == 0) return 0; int sum = 0; int prevSum = 0; int k = (h[0] > l[0]) ? h[0] : l[0]; sum = k; if (h.length > 1) { for(int i = 1; i < h.length; i++) { k = (h[i] + prevSum > l[i] + sum) ? h[i] + prevSum : l[i] + sum; prevSum = sum; sum = k; } } return sum; } }",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1",
-  "submissionId": "missao"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/high-effort-vs-low-effort0213/1",
+  "submissionId": "ym1o87"
 }
