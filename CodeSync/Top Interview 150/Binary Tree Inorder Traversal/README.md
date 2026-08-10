@@ -1,13 +1,13 @@
 # Binary Tree Inorder Traversal
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Binary Tree
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T04:30:53.990Z
+- Memory: 43.18 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=problem-list-v2&envId=binary-tree
+- Synced: 2026-08-10T08:46:32.590Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Stack, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Tree. The detected topics are Stack, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
