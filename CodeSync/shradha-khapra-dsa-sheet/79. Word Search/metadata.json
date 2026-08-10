@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-10T17:27:27.051Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "String",
+    "Backtracking",
+    "Depth-First Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "C",
+  "problemTitle": "79. Word Search",
+  "problemUrl": "https://leetcode.com/problems/word-search/description/?envType=problem-list-v2&envId=dxlqos71",
+  "submissionId": "tom3du"
+}
