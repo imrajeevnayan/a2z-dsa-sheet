@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-10T09:08:29.296Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Tree",
+  "problemTitle": "Average of Levels in Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/average-of-levels-in-binary-tree/?envType=problem-list-v2&envId=tree",
+  "submissionId": "bytltl"
+}
