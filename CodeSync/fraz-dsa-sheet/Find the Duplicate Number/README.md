@@ -1,13 +1,13 @@
 # Find the Duplicate Number
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
 - Difficulty: Medium
-- Topics: Array, Two Pointers, Binary Search, Bit Manipulation
-- Runtime: 0 ms
-- Memory: 82.97 MB
-- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/submissions/2078353493/
-- Synced: 2026-07-23T12:10:23.965Z
+- Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/?envType=problem-list-v2&envId=dapb7olr
+- Synced: 2026-08-10T19:03:41.571Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of integers nums containing n + 1 integers where each integer is 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Binary Search, Bit Manipulation. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using DSA Patterns by anubhav0910 (Copy-a0b4xdj1). The detected topics are Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
