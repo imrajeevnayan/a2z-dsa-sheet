@@ -4,10 +4,10 @@
 - Language: Two Pointers (Copy-two-pointers)
 - Difficulty: Easy
 - Topics: Two Pointers, String, Greedy
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/lexicographically-smallest-palindrome/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-08-10T09:03:46.741Z
+- Runtime: 0 ms
+- Memory: 47.02 MB
+- Problem URL: https://leetcode.com/problems/lexicographically-smallest-palindrome/submissions/2101310080/?envType=problem-list-v2&envId=da2mv5gs
+- Synced: 2026-08-10T09:04:49.701Z
 
 ## Problem Description
 
