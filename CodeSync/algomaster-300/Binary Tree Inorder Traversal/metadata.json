@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-10T08:46:32.590Z",
+  "submissionTimestamp": "2026-08-10T08:47:17.891Z",
   "runtime": "0 ms",
   "memoryUsage": "43.18 MB",
   "difficulty": "Easy",
@@ -13,5 +13,5 @@
   "language": "Binary Tree",
   "problemTitle": "Binary Tree Inorder Traversal",
   "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=problem-list-v2&envId=binary-tree",
-  "submissionId": "ibqkyu"
+  "submissionId": "nc1ucz"
 }
