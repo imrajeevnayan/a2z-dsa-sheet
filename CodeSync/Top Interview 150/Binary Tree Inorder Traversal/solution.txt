@@ -7,24 +7,19 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 43.18 MB
- * Synced: 2026-08-10T08:46:32.590Z
+ * Synced: 2026-08-10T08:47:17.891Z
  */
 
-TreeNode curr = root;
-
-        while (curr != null || !st.isEmpty()) {
-            while (curr != null) {
-                st.push(curr);
-                curr = curr.left;
-            }
-
-            curr = st.pop();
-            ans.add(curr.val);
-            curr = curr.right;
-        }
-
-        Stack<TreeNode> st = new Stack<>();
-        List<Integer> ans = new ArrayList<>();
-class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
+inorder(root, ans);
         return ans;
+    }
+    void inorder(TreeNode root, List<Integer> ans) {
+        if (root == null)  return;
+        inorder(root.left, ans);
+        List<Integer> ans = new ArrayList<>();
+    public List<Integer> inorderTraversal(TreeNode root) {
+        ans.add(root.val);
+        inorder(root.right, ans);
+    }
+}
+class Solution {
