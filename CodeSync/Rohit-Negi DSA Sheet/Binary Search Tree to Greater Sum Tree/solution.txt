@@ -1,16 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Search Tree to Greater Sum Tree
- * URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/submissions/2088766930/?envType=problem-list-v2&envId=binary-tree
- * Language: Binary Tree
+ * URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/?envType=problem-list-v2&envId=binary-search-tree
+ * Language: Binary Search Tree
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
- * Runtime: 0 ms
- * Memory: 42.93 MB
- * Synced: 2026-07-31T12:10:54.995Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:41:50.546Z
  */
 
-reverseInorder(root);
+class Solution {
+    int sum = 0;
+    public TreeNode bstToGst(TreeNode root) {
+        reverseInorder(root);
         return root;
     }
     private void reverseInorder(TreeNode node) {
@@ -21,6 +24,3 @@ reverseInorder(root);
         reverseInorder(node.left);
     }
 }
-    public TreeNode bstToGst(TreeNode root) {
-    int sum = 0;
-class Solution {
