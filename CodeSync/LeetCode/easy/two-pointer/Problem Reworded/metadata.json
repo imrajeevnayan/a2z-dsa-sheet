@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-08-10T09:06:00.770Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Two Pointers"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers (Copy-two-pointers)",
+  "problemTitle": "Problem Reworded",
+  "problemUrl": "https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/?envType=problem-list-v2&envId=da2mv5gs",
+  "submissionId": "8fjjdl"
+}
