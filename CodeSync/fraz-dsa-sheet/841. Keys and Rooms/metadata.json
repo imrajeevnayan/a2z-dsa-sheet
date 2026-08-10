@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-10T17:26:38.853Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Java",
+  "problemTitle": "841. Keys and Rooms",
+  "problemUrl": "https://leetcode.com/problems/keys-and-rooms/description/?envType=problem-list-v2&envId=daeijq25",
+  "submissionId": "ufc2v0"
+}
