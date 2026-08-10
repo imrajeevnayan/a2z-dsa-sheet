@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/lexicographically-smallest-palindrome/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-08-10T09:03:01.099Z
+- Synced: 2026-08-10T09:03:46.741Z
 
 ## Problem Description
 
