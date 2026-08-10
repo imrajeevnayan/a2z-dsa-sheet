@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reverse Letters Then Special Characters in a String
+ * URL: https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Easy
+ * Topics: Two Pointers, String, Simulation
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-10T09:02:09.170Z
+ */
+
+l++;
+            while (l < r && !Character.isLetter(a[l]))
+
+        while (l < r) {
+
+        int l = 0, r = a.length - 1;
+    public String reverseByType(String s) {
+        char[] a = s.toCharArray();
+class Solution {
