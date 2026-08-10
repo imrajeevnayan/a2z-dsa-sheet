@@ -2806,5 +2806,6 @@
     "custom:fraz-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:insert-into-a-binary-search-tree": []
+  "leetcode:insert-into-a-binary-search-tree": [],
+  "leetcode:number-of-arithmetic-triplets": []
 }
