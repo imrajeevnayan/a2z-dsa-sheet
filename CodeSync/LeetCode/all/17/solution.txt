@@ -1,29 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 17
- * URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=problem-list-v2&envId=binary-search-tree
- * Language: Binary Search Tree
- * Difficulty: Medium
- * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree
+ * Language: Binary Tree
+ * Difficulty: Easy
+ * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T08:42:17.314Z
+ * Synced: 2026-08-10T08:45:47.017Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    public TreeNode balanceBST(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Stack<TreeNode> st = new Stack<>();
+        TreeNode curr = root;
+        while (curr != null || !st.isEmpty()) {
+            while (curr != null) {
+                st.push(curr);
+                curr = curr.left;
+            }
+            curr = st.pop();
+            result.add(curr.val);
+            curr = curr.right;
+        }
+        return result;
+    }
+}
