@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 108.79 MB
 - Problem URL: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/submissions/2101980121/?envType=problem-list-v2&envId=dapb7olr
-- Synced: 2026-08-10T19:06:07.906Z
+- Synced: 2026-08-10T19:07:07.370Z
 
 ## Problem Description
 
