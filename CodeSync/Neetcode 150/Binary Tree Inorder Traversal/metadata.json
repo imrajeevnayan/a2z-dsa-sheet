@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-10T08:47:17.891Z",
+  "submissionTimestamp": "2026-08-10T08:47:47.746Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.18 MB",
+  "memoryUsage": "43.34 MB",
   "difficulty": "Easy",
   "tags": [
     "Stack",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Binary Tree",
   "problemTitle": "Binary Tree Inorder Traversal",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=problem-list-v2&envId=binary-tree",
+  "problemUrl": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/?envType=problem-list-v2&envId=binary-tree",
   "submissionId": "nc1ucz"
 }
