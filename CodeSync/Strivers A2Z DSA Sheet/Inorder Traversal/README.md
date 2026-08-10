@@ -1,13 +1,13 @@
 # Inorder Traversal
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: public ArrayList<Integer> inOrder(Node root) { // code here if (root == null) return new ArrayList<>(); ArrayList<Integer> result = new ArrayList<>(); Deque<Node> stack = new ArrayDeque<>(); Node current = root; while (current != null || !stack.isEmpty()) { while (current != null) { stack.push(current); current = current.left; } current = stack.pop(); result.add(current.data); current = current.right; } return result; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/inorder-traversal/1
-- Synced: 2026-08-10T08:17:04.038Z
+- Synced: 2026-08-10T08:17:53.399Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a root of a Binary Tree, your task is to return its Inorder Traversal. Not
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using public ArrayList<Integer> inOrder(Node root) { // code here if (root == null) return new ArrayList<>(); ArrayList<Integer> result = new ArrayList<>(); Deque<Node> stack = new ArrayDeque<>(); Node current = root; while (current != null || !stack.isEmpty()) { while (current != null) { stack.push(current); current = current.left; } current = stack.pop(); result.add(current.data); current = current.right; } return result; }. The detected topics are Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree. Review the synced source file for the implementation details.
