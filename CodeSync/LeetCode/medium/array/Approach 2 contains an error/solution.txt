@@ -1,17 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Approach 2 contains an error
- * URL: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/?envType=problem-list-v2&envId=dapb7olr
+ * URL: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/submissions/2101980121/?envType=problem-list-v2&envId=dapb7olr
  * Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-10T19:05:03.012Z
+ * Runtime: 0 ms
+ * Memory: 108.79 MB
+ * Synced: 2026-08-10T19:06:07.906Z
  */
 
 class Solution {
     public int[] findArray(int[] pref) {
-        
+        int[] arr = new int[pref.length];
+        arr[0] = pref[0];
+        for (int i = 1; i < pref.length; i++) {
+            arr[i] = pref[i] ^ pref[i - 1];
+        }
+        return arr;
     }
 }
