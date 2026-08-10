@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Symmetric Tree
+ * URL: https://www.geeksforgeeks.org/problems/symmetric-tree/1
+ * Language: class Solution: def isSymmetric(self, root): if not root: return True def fun(node1, node2): if not node1 and not node2: return True elif (not node1 or not node2) or (node1.data!=node2.data): return False return fun(node1.left, node2.right) and fun(node1.right, node2.left) return fun(root.left, root.right)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Tree, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:19:55.196Z
+ */
+
+class Solution {
+    public boolean isSymmetric(Node root) {
+        if (root == null) return true;
+        return check(root.left, root.right);
+    }
+    private boolean check(Node a, Node b) {
+        if (a == null && b == null) return true;
+        if (a == null || b == null) return false;
+        if (a.data != b.data) return false;
+        return check(a.left, b.right) && check(a.right, b.left);
+    }
+}
