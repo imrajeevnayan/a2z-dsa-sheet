@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Stack, Tree, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T08:24:43.589Z
+ * Synced: 2026-08-10T08:28:34.089Z
  */
 
 class Solution {
