@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-31T12:10:54.995Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.93 MB",
+  "submissionTimestamp": "2026-08-10T08:41:50.546Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Tree",
@@ -10,8 +10,8 @@
     "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Binary Tree",
+  "language": "Binary Search Tree",
   "problemTitle": "Binary Search Tree to Greater Sum Tree",
-  "problemUrl": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/submissions/2088766930/?envType=problem-list-v2&envId=binary-tree",
-  "submissionId": "fpmee7"
+  "problemUrl": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/?envType=problem-list-v2&envId=binary-search-tree",
+  "submissionId": "3ypu8b"
 }
