@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: XOR Queries of a Subarray
- * URL: https://leetcode.com/problems/xor-queries-of-a-subarray/?envType=problem-list-v2&envId=dapb7olr
+ * URL: https://leetcode.com/problems/xor-queries-of-a-subarray/submissions/2101982370/?envType=problem-list-v2&envId=dapb7olr
  * Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-10T19:07:15.757Z
+ * Runtime: 0 ms
+ * Memory: 92.56 MB
+ * Synced: 2026-08-10T19:08:05.272Z
  */
 
-class Solution {
-    public int[] xorQueries(int[] arr, int[][] queries) {
-        
+int[] prefix = new int[n + 1];
+
+        // Build prefix XOR
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] ^ arr[i];
+        }
+        int[] result = new int[queries.length];
+
+        // Answer each query
+        for (int i = 0; i < queries.length; i++) {
+            int left = queries[i][0];
+            int right = queries[i][1];
+
+            result[i] = prefix[right + 1] ^ prefix[left];
+        }
+        return result;
     }
+        int n = arr.length;
 }
