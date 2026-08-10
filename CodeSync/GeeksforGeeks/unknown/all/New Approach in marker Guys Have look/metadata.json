@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-10T08:23:07.500Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Stack",
+    "Tree",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> inOrder(Node* root) { // code here stack<Node*> s; Node*top; vector<int> ans; s.push(root); while(!s.empty()) { top = s.top(); s.pop(); if(!top) continue; if(!s.empty() && top->right == s.top()) { ans.push_back(top->data); } else { s.push(top->right); s.push(top); s.push(top->left); } } return ans; } };",
+  "problemTitle": "New Approach in marker Guys Have look",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/inorder-traversal-iterative/1",
+  "submissionId": "7bbqrs"
+}
