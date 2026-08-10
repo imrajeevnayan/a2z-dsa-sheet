@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Keys and Rooms
+ * URL: https://leetcode.com/problems/keys-and-rooms/?envType=problem-list-v2&envId=daeijq25
+ * Language: Master Leetcode (Copy-2hx9d5gg)
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Graph Theory
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-10T17:27:39.978Z
+ */
+
+visited[0] = true;
+        int count = 0;
+
+        while (!stack.isEmpty()) {
+            int room = stack.pop();
+            count++;
+            for (int key : rooms.get(room)) {
+                if (!visited[key]) {
+                    visited[key] = true;
+                    stack.push(key);
+                }
+            }
+        }
+        return count == rooms.size();
+    }
+}
