@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-10T19:04:26.054Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "DSA Patterns by anubhav0910 (Copy-a0b4xdj1)",
+  "problemTitle": "Palindrome Linked List",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=dapb7olr",
+  "submissionId": "mgzdcq"
+}
