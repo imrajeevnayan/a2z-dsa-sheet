@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: 17
+ * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree
+ * Language: Binary Tree
+ * Difficulty: Easy
+ * Topics: Stack, Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:45:47.017Z
+ */
+
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Stack<TreeNode> st = new Stack<>();
+        TreeNode curr = root;
+        while (curr != null || !st.isEmpty()) {
+            while (curr != null) {
+                st.push(curr);
+                curr = curr.left;
+            }
+            curr = st.pop();
+            result.add(curr.val);
+            curr = curr.right;
+        }
+        return result;
+    }
+}
