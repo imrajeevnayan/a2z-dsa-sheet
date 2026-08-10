@@ -2847,5 +2847,6 @@
     "custom:striver-sde-sheet"
   ],
   "leetcode:find-the-original-array-of-prefix-xor": [],
-  "leetcode:deepest-leaves-sum": []
+  "leetcode:deepest-leaves-sum": [],
+  "leetcode:xor-queries-of-a-subarray": []
 }
