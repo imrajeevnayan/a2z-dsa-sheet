@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-10T08:15:13.642Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Flipkart",
+    "Accolite",
+    "Amazon",
+    "OYO Rooms",
+    "Samsung"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }",
+  "problemTitle": "Left View of Binary Tree",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1",
+  "submissionId": "4bymaf"
+}
