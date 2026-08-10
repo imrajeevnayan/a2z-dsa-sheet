@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: 43.18 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=problem-list-v2&envId=binary-tree
-- Synced: 2026-08-10T08:46:32.590Z
+- Memory: 43.34 MB
+- Problem URL: https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/?envType=problem-list-v2&envId=binary-tree
+- Synced: 2026-08-10T08:47:47.746Z
 
 ## Problem Description
 
