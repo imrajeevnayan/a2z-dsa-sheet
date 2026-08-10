@@ -1,18 +1,18 @@
 # 17
 
 - Platform: LeetCode
-- Language: Binary Search Tree
+- Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
 - Difficulty: Medium
-- Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+- Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=problem-list-v2&envId=binary-search-tree
-- Synced: 2026-08-10T08:42:17.314Z
+- Problem URL: https://leetcode.com/problems/find-the-duplicate-number/description/?envType=problem-list-v2&envId=dapb7olr
+- Synced: 2026-08-10T19:02:53.725Z
 
 ## Problem Description
 
-Given the root of a binary search tree, return a balanced binary search tree with the same node values. If there is more than one answer, return any of them. A binary search tree is balanced if the depth of the two subtrees of every node never differs by more than 1. Example 1: Input: root = [1,null,2,null,3,null,4,null,null] Output: [2,1,3,null,null,null,4] Explanation: This is not the only correct answer, [3,1,4,null,2] is also correct. Example 2: Input: root = [2,1,3] Output: [2,1,3] Constraints: The number of nodes in the tree is in the range [1, 104]. 1 <= Node.val <= 105
+Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive. There is only one repeated number in nums, return this repeated number. You must solve the problem without modifying the array nums and using only constant extra space. Example 1: Input: nums = [1,3,4,2,2] Output: 2 Example 2: Input: nums = [3,1,3,4,2] Output: 3 Example 3: Input: nums = [3,3,3,3,3] Output: 3 Constraints: 1 <= n <= 105 nums.length == n + 1 1 <= nums[i] <= n All the integers in nums appear only once except for precisely one integer which appears two or more times. Follow up: How can we prove that at least one duplicate number must exist in nums? Can you solve the problem in linear runtime complexity?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search Tree. The detected topics are Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using DSA Patterns by anubhav0910 (Copy-a0b4xdj1). The detected topics are Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
