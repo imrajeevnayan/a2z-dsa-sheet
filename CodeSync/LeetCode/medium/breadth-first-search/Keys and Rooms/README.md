@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/keys-and-rooms/?envType=problem-list-v2&envId=daeijq25
-- Synced: 2026-08-10T17:27:39.978Z
+- Memory: 46.26 MB
+- Problem URL: https://leetcode.com/problems/keys-and-rooms/submissions/2101890000/?envType=problem-list-v2&envId=daeijq25
+- Synced: 2026-08-10T17:28:28.880Z
 
 ## Problem Description
 
