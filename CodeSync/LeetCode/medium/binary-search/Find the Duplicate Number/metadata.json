@@ -1,17 +1,19 @@
 {
-  "submissionTimestamp": "2026-07-23T12:09:34.644Z",
-  "runtime": "0 ms",
-  "memoryUsage": "82.97 MB",
+  "submissionTimestamp": "2026-08-10T19:03:41.571Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Two Pointers",
     "Binary Search",
-    "Bit Manipulation"
+    "Bit Manipulation",
+    "Pigeonhole Principle",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "DSA Patterns by anubhav0910 (Copy-a0b4xdj1)",
   "problemTitle": "Find the Duplicate Number",
-  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/submissions/2078353493/",
-  "submissionId": "cehqtc"
+  "problemUrl": "https://leetcode.com/problems/find-the-duplicate-number/?envType=problem-list-v2&envId=dapb7olr",
+  "submissionId": "24e9e"
 }
