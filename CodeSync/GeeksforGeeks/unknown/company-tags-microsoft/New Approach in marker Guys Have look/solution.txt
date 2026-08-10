@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: New Approach in marker Guys Have look
+ * URL: https://www.geeksforgeeks.org/problems/inorder-traversal-iterative/1
+ * Language: class Solution { public: vector<int> inOrder(Node* root) { // code here stack<Node*> s; Node*top; vector<int> ans; s.push(root); while(!s.empty()) { top = s.top(); s.pop(); if(!top) continue; if(!s.empty() && top->right == s.top()) { ans.push_back(top->data); } else { s.push(top->right); s.push(top); s.push(top->left); } } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Stack, Tree, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:23:07.500Z
+ */
+
+class Solution {
+    public ArrayList<Integer> inOrder(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        Stack<Node> st = new Stack<>();
+        Node curr = root;
+        while (curr != null || !st.isEmpty()) {
+            while (curr != null) {
+                st.push(curr);
+                curr = curr.left;
+            }
+            curr = st.pop();
+            ans.add(curr.data);
+            curr = curr.right;
+        }
+        return ans;
+    }
+}
