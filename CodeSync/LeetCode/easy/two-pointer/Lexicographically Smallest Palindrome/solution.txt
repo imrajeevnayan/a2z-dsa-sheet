@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String, Greedy
  * Runtime: 0 ms
  * Memory: 47.02 MB
- * Synced: 2026-08-10T09:05:37.786Z
+ * Synced: 2026-08-10T09:06:27.071Z
  */
 
 char[] a = s.toCharArray();
