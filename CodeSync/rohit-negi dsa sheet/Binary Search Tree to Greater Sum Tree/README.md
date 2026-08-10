@@ -1,13 +1,13 @@
 # Binary Search Tree to Greater Sum Tree
 
 - Platform: LeetCode
-- Language: Binary Tree
+- Language: Binary Search Tree
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-- Runtime: 0 ms
-- Memory: 42.93 MB
-- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/submissions/2088766930/?envType=problem-list-v2&envId=binary-tree
-- Synced: 2026-07-31T12:10:54.995Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/?envType=problem-list-v2&envId=binary-search-tree
+- Synced: 2026-08-10T08:41:50.546Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Tree. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search Tree. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
