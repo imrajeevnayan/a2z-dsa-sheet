@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Balance a Binary Search Tree
+ * URL: https://leetcode.com/problems/balance-a-binary-search-tree/?envType=problem-list-v2&envId=binary-search-tree
+ * Language: Binary Search Tree
+ * Difficulty: Medium
+ * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Runtime: 0 ms
+ * Memory: 48.26 MB
+ * Synced: 2026-08-10T08:43:03.390Z
+ */
+
+inorder(root.right, arr);
+    }
+
+    TreeNode build(ArrayList<Integer> arr, int l, int r) {
+        if (l > r) return null;
+        arr.add(root.val);
+        int mid = (l + r) / 2;
+        TreeNode root = new TreeNode(arr.get(mid));
+        inorder(root.left, arr);
+        if (root == null)return;
+    void inorder(TreeNode root, ArrayList<Integer> arr) {
+    }
+        inorder(root, arr);
+        return build(arr, 0, arr.size() - 1);
+        ArrayList<Integer> arr = new ArrayList<>();
+    public TreeNode balanceBST(TreeNode root) {
+class Solution {
+        root.left = build(arr, l, mid - 1);
