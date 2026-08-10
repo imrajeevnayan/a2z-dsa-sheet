@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sort Array By Parity
+ * URL: https://leetcode.com/problems/sort-array-by-parity/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-10T09:06:40.053Z
+ */
+
+class Solution {
+    public int[] sortArrayByParity(int[] nums) {
+        int left=0;
+        for(int right=0;right<nums.length;right++){
+            if(nums[right]%2==0){
+                int temp=nums[left];
+                nums[left++]=nums[right];
+                nums[right]=temp;
+            }
+        }
+        return nums;
+    }
+}
