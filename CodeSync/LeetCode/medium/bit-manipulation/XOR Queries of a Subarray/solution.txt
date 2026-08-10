@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: XOR Queries of a Subarray
+ * URL: https://leetcode.com/problems/xor-queries-of-a-subarray/?envType=problem-list-v2&envId=dapb7olr
+ * Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T19:07:15.757Z
+ */
+
+class Solution {
+    public int[] xorQueries(int[] arr, int[][] queries) {
+        
+    }
+}
