@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-10T08:43:03.390Z",
+  "runtime": "0 ms",
+  "memoryUsage": "48.26 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Divide and Conquer",
+    "Greedy",
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Binary Search Tree",
+  "problemTitle": "Balance a Binary Search Tree",
+  "problemUrl": "https://leetcode.com/problems/balance-a-binary-search-tree/?envType=problem-list-v2&envId=binary-search-tree",
+  "submissionId": "4nwvg9"
+}
