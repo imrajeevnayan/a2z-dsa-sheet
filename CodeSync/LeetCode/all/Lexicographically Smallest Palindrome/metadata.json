@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-10T09:03:01.099Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers (Copy-two-pointers)",
+  "problemTitle": "Lexicographically Smallest Palindrome",
+  "problemUrl": "https://leetcode.com/problems/lexicographically-smallest-palindrome/?envType=problem-list-v2&envId=da2mv5gs",
+  "submissionId": "keavp9"
+}
