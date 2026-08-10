@@ -2821,5 +2821,9 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:find-all-k-distant-indices-in-an-array": []
+  "leetcode:find-all-k-distant-indices-in-an-array": [],
+  "leetcode:sort-array-by-parity": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
