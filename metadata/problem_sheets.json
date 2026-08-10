@@ -2820,5 +2820,6 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
-  ]
+  ],
+  "leetcode:find-all-k-distant-indices-in-an-array": []
 }
