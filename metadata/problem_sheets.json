@@ -2807,5 +2807,11 @@
     "custom:rohit-negi_dsa_sheet"
   ],
   "leetcode:insert-into-a-binary-search-tree": [],
-  "leetcode:number-of-arithmetic-triplets": []
+  "leetcode:number-of-arithmetic-triplets": [],
+  "leetcode:reverse-letters-then-special-characters-in-a-string": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
