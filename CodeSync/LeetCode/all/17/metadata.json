@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-10T08:42:17.314Z",
+  "submissionTimestamp": "2026-08-10T08:45:47.017Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Divide and Conquer",
-    "Greedy",
+    "Stack",
     "Tree",
     "Depth-First Search",
-    "Binary Search Tree",
     "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search Tree",
+  "language": "Binary Tree",
   "problemTitle": "17",
-  "problemUrl": "https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=problem-list-v2&envId=binary-search-tree",
-  "submissionId": "pauajl"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree",
+  "submissionId": "sgondv"
 }
