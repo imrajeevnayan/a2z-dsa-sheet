@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Arithmetic Triplets
+ * URL: https://leetcode.com/problems/number-of-arithmetic-triplets/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Two Pointers, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:59:43.020Z
+ */
+
+class Solution {
+    public int arithmeticTriplets(int[] nums, int diff) {
+        
+    }
+}
