@@ -1,18 +1,18 @@
 # 17
 
 - Platform: LeetCode
-- Language: Binary Search Tree
-- Difficulty: Medium
-- Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+- Language: Binary Tree
+- Difficulty: Easy
+- Topics: Stack, Tree, Depth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=problem-list-v2&envId=binary-search-tree
-- Synced: 2026-08-10T08:42:17.314Z
+- Problem URL: https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree
+- Synced: 2026-08-10T08:45:47.017Z
 
 ## Problem Description
 
-Given the root of a binary search tree, return a balanced binary search tree with the same node values. If there is more than one answer, return any of them. A binary search tree is balanced if the depth of the two subtrees of every node never differs by more than 1. Example 1: Input: root = [1,null,2,null,3,null,4,null,null] Output: [2,1,3,null,null,null,4] Explanation: This is not the only correct answer, [3,1,4,null,2] is also correct. Example 2: Input: root = [2,1,3] Output: [2,1,3] Constraints: The number of nodes in the tree is in the range [1, 104]. 1 <= Node.val <= 105
+Given the root of a binary tree, return the inorder traversal of its nodes' values. Example 1: Input: root = [1,null,2,3] Output: [1,3,2] Explanation: Example 2: Input: root = [1,2,3,4,5,null,8,null,null,6,7,9] Output: [4,2,6,5,7,1,3,9,8] Explanation: Example 3: Input: root = [] Output: [] Example 4: Input: root = [1] Output: [1] Constraints: The number of nodes in the tree is in the range [0, 100]. -100 <= Node.val <= 100 Follow up: Recursive solution is trivial, could you do it iteratively?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search Tree. The detected topics are Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Tree. The detected topics are Stack, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
