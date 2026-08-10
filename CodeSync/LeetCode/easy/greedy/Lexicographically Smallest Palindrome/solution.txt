@@ -7,11 +7,25 @@
  * Topics: Two Pointers, String, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T09:03:01.099Z
+ * Synced: 2026-08-10T09:03:46.741Z
  */
 
-class Solution {
+char[] a = s.toCharArray();
+        int l = 0,r = a.length - 1;
+        while (l < r) {
+            if (a[l] != a[r]) {
+                if (a[l] < a[r])
+                    a[r] = a[l];
+                else
+                    a[l] = a[r];
+            }
+
+            l++;
+            r--;
+        }
+
+        return new String(a);
     public String makeSmallestPalindrome(String s) {
-        
+class Solution {
     }
 }
