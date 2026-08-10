@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Problem Reworded
+ * URL: https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T09:06:00.770Z
+ */
+
+class Solution {
+    public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
+        
+    }
+}
