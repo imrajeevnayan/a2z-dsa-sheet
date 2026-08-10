@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-10T08:45:47.017Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Binary Tree",
+  "problemTitle": "17",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree",
+  "submissionId": "sgondv"
+}
