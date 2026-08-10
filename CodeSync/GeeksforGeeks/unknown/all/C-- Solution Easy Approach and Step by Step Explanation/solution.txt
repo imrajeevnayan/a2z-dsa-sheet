@@ -1,27 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
- * Language: class Solution { public: long long fact(int n){ long long f = 1; while(n) f *= n--; return f; } int countFriendsPairings(int n) { // code here int ans =0; for(int k = 0; k <= n/2; k++) ans += fact(n) / ((1LL<<k) * fact(k) * fact(n - 2*k)); return ans; } };
+ * URL: https://www.geeksforgeeks.org/problems/high-effort-vs-low-effort0213/1
+ * Language: class Solution { public int maxTask(int[] h, int[] l) { if (h.length == 0) return 0; int sum = 0; int prevSum = 0; int k = (h[0] > l[0]) ? h[0] : l[0]; sum = k; if (h.length > 1) { for(int i = 1; i < h.length; i++) { k = (h[i] + prevSum > l[i] + sum) ? h[i] + prevSum : l[i] + sum; prevSum = sum; sum = k; } } return sum; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Recursion, Related Articles, Friends Pairing Problem
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T05:12:45.797Z
+ * Synced: 2026-08-10T08:13:59.450Z
  */
 
 class Solution {
-    public int countFriendsPairings(int n) {
-        if (n <= 1)return 1;
-        
-        int prev2 = 1; // f(0)
-        int prev1 = 1; // f(1)
+    public int maxTask(int[] h, int[] l) {
+        int n = h.length;
+        int prev2 = 0;
+        int prev1 = 0;
 
-        for (int i = 2; i <= n; i++) {
-            int curr = prev1 + (i - 1) * prev2;
+        for (int i = 0; i < n; i++) {
+            int low = prev1 + l[i];
+            int high = prev2 + h[i];
+            int current = Math.max(low, high);
+
             prev2 = prev1;
-            prev1 = curr;
+            prev1 = current;
         }
+
         return prev1;
     }
 }
