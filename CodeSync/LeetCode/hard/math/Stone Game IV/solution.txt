@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Stone Game IV
+ * URL: https://leetcode.com/problems/stone-game-iv/?envType=daily-question&envId=2026-08-10
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Math, Dynamic Programming, Minimax, Game Theory, Nim Game, Sprague–Grundy Theorem, Zero-Sum Game
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-10T08:39:51.179Z
+ */
+
+class Solution {
+    public boolean winnerSquareGame(int n) {
+        
+    }
+}
