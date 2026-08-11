@@ -5,28 +5,17 @@
  * Language: Monotonic Stack
  * Difficulty: Medium
  * Topics: Array, Stack, Tree, Binary Search Tree, Monotonic Stack, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-11T12:28:05.481Z
+ * Synced: 2026-08-11T12:29:27.422Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;a
- *     }
- * }
- */
-class Solution {
-    public TreeNode bstFromPreorder(int[] preorder) {
-        
-    }
-}
+parent.right = curr;
+            } else {
+                stack.peek().left = curr;
+            }
+
+            stack.push(curr);
+        }
+
+        return root;
