@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/symmetric-tree/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
+ * Language: Monotonic Stack
  * Difficulty: Easy
- * Topics: Stack, Tree, Depth-First Search
+ * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T07:55:24.864Z
+ * Synced: 2026-08-11T12:30:04.961Z
  */
 
 class Solution {
-    public List<Integer> postorder(Node root) {
-        List<Integer> result = new ArrayList<>();
-        traverse(root, result);
-        return result;
-    }
-    static void traverse(Node node, List<Integer> result) {
-        if (node == null) return;
-        for (Node child : node.children)traverse(child, result);
-        result.add(node.val);
+    public int[] finalPrices(int[] prices) {
+        
     }
 }
