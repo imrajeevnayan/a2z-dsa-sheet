@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/?envType=daily-question&envId=2026-08-11
-- Synced: 2026-08-11T12:20:33.300Z
+- Synced: 2026-08-11T12:21:23.806Z
 
 ## Problem Description
 
