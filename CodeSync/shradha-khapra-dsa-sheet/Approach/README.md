@@ -4,10 +4,10 @@
 - Language: Monotonic Stack
 - Difficulty: Medium
 - Topics: Array, Stack, Tree, Binary Search Tree, Monotonic Stack, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/?envType=problem-list-v2&envId=monotonic-stack
-- Synced: 2026-08-11T12:28:05.481Z
+- Synced: 2026-08-11T12:29:27.422Z
 
 ## Problem Description
 
