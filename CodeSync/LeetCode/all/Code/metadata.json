@@ -1,19 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T09:47:55.310Z",
+  "submissionTimestamp": "2026-08-11T12:30:04.961Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Divide and Conquer",
-    "Greedy",
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Array",
+    "Stack",
+    "Monotonic Stack"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Monotonic Stack",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/balance-a-binary-search-tree/",
-  "submissionId": "k3fepg"
+  "problemUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "pp2i21"
 }
