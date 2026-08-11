@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-11T12:30:04.961Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Monotonic Stack",
+  "problemTitle": "Code",
+  "problemUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "pp2i21"
+}
