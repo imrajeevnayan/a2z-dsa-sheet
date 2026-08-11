@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/?envType=problem-list-v2&envId=monotonic-stack
-- Synced: 2026-08-11T12:27:02.953Z
+- Synced: 2026-08-11T12:28:05.481Z
 
 ## Problem Description
 
