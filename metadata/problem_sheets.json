@@ -2849,5 +2849,25 @@
   "leetcode:find-the-original-array-of-prefix-xor": [],
   "leetcode:deepest-leaves-sum": [],
   "leetcode:xor-queries-of-a-subarray": [],
-  "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum": []
+  "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum": [],
+  "leetcode:maximum-binary-tree": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "LeetCode75",
+    "TopInterview150",
+    "Top100Liked",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet"
+  ]
 }
