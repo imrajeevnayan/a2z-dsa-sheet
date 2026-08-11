@@ -7,7 +7,7 @@
  * Topics: Array, Stack, Tree, Binary Search Tree, Monotonic Stack, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:27:02.953Z
+ * Synced: 2026-08-11T12:28:05.481Z
  */
 
 /**
@@ -21,7 +21,7 @@
  *     TreeNode(int val, TreeNode left, TreeNode right) {
  *         this.val = val;
  *         this.left = left;
- *         this.right = right;
+ *         this.right = right;a
  *     }
  * }
  */
