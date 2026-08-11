@@ -1,32 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Binary Tree
- * URL: https://leetcode.com/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=monotonic-stack
+ * URL: https://leetcode.com/problems/maximum-binary-tree/?envType=problem-list-v2&envId=monotonic-stack
  * Language: Monotonic Stack
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:23:12.531Z
+ * Synced: 2026-08-11T12:23:59.807Z
  */
 
-class Solution {
-    public TreeNode constructMaximumBinaryTree(int[] nums) {
-        return build(nums, 0, nums.length - 1);
-    }
-    private TreeNode build(int[] nums, int left, int right) {
-        if (left > right)return null;
-    
-        int maxIndex = left;
-        for (int i = left + 1; i <= right; i++) {
-            if (nums[i] > nums[maxIndex]) {
-                maxIndex = i;
-            }
-        }
-        TreeNode root = new TreeNode(nums[maxIndex]);
-        root.left = build(nums, left, maxIndex - 1);
-        root.right = build(nums, maxIndex + 1, right);
-
-        return root;
-    }
-}
+Input: nums = [3,2,1,6,0,5]
+Output: [6,3,5,null,2,0,null,null,1]
+Explanation: The recursive calls are as follow:
+- The largest value in [3,2,1,6,0,5] is 6. Left prefix is [3,2,1] and right suffix is [0,5].
+    - The largest value in [3,2,1] is 3. Left prefix is [] and right suffix is [2,1].
+        - Empty array, so no child.
+        - The largest value in [2,1] is 2. Left prefix is [] and right suffix is [1].
+            - Empty array, so no child.
+            - Only one element, so child is a node with value 1.
+    - The largest value in [0,5] is 5. Left prefix is [0] and right suffix is [].
+        - Only one element, so child is a node with value 0.
+        - Empty array, so no child.
