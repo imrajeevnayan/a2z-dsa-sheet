@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.65 MB
 - Problem URL: https://leetcode.com/problems/maximum-binary-tree/submissions/2102803545/?envType=problem-list-v2&envId=monotonic-stack
-- Synced: 2026-08-11T12:28:39.763Z
+- Synced: 2026-08-11T12:29:44.777Z
 
 ## Problem Description
 
