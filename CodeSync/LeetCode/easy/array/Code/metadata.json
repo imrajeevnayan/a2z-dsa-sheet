@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-12T11:23:35.503Z",
+  "submissionTimestamp": "2026-08-11T12:30:04.961Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Hash Table",
-    "Sorting"
+    "Stack",
+    "Monotonic Stack"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Monotonic Stack",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12",
-  "submissionId": "48h2xo"
+  "problemUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "pp2i21"
 }
