@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-23T04:14:46.369Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-11T12:23:12.531Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,11 +9,12 @@
     "Stack",
     "Tree",
     "Monotonic Stack",
-    "Binary Tree"
+    "Binary Tree",
+    "Cartesian Tree"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Monotonic Stack",
   "problemTitle": "Maximum Binary Tree",
-  "problemUrl": "https://leetcode.com/problems/maximum-binary-tree/",
-  "submissionId": "sjh7l0"
+  "problemUrl": "https://leetcode.com/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "k7xd7x"
 }
