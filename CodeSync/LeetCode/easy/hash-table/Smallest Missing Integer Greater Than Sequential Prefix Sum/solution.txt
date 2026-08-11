@@ -5,13 +5,27 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-11T12:20:33.300Z
+ * Synced: 2026-08-11T12:21:23.806Z
  */
+
+while (i < nums.length && nums[i] == nums[i - 1] + 1) {
+            sum += nums[i];
+            i++;
+        }
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        while (set.contains(sum)) {
+            sum++;
+        int i = 1;
+        int sum = nums[0];
 
 class Solution {
     public int missingInteger(int[] nums) {
-        
+        }
+        return sum;
     }
 }
