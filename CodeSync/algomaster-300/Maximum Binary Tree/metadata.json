@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-11T12:23:12.531Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Stack",
+    "Tree",
+    "Monotonic Stack",
+    "Binary Tree",
+    "Cartesian Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Monotonic Stack",
+  "problemTitle": "Maximum Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "k7xd7x"
+}
