@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree
  * Runtime: 0 ms
  * Memory: 46.65 MB
- * Synced: 2026-08-11T12:24:57.768Z
+ * Synced: 2026-08-11T12:25:43.779Z
  */
 
 for (int num : nums) {
@@ -22,9 +22,9 @@ for (int num : nums) {
         }
         return stack.removeLast();
 
-    public TreeNode constructMaximumBinaryTree(int[] nums) {
         Deque<TreeNode> stack = new ArrayDeque<>();
-class Solution {
             while (!stack.isEmpty() && stack.peek().val < num) {
     }
 }
+    public TreeNode constructMaximumBinaryTree(int[] nums) {
+class Solution {
