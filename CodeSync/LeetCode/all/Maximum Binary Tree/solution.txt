@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree
  * Runtime: 0 ms
  * Memory: 46.65 MB
- * Synced: 2026-08-11T12:25:43.779Z
+ * Synced: 2026-08-11T12:26:44.790Z
  */
 
 for (int num : nums) {
