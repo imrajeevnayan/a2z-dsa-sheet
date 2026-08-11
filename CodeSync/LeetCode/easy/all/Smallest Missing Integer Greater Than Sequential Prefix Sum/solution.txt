@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Smallest Missing Integer Greater Than Sequential Prefix Sum
+ * URL: https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/?envType=daily-question&envId=2026-08-11
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-11T12:20:33.300Z
+ */
+
+class Solution {
+    public int missingInteger(int[] nums) {
+        
+    }
+}
