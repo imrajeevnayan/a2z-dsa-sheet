@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
+ * Language: Monotonic Stack
  * Difficulty: Easy
- * Topics: Array, Hash Table, Sorting
+ * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-12T11:23:35.503Z
+ * Synced: 2026-08-11T12:30:04.961Z
  */
 
 class Solution {
-    public int[] arrayRankTransform(int[] arr) {
+    public int[] finalPrices(int[] prices) {
         
     }
 }
