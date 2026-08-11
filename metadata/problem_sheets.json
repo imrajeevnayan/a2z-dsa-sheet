@@ -2848,5 +2848,6 @@
   ],
   "leetcode:find-the-original-array-of-prefix-xor": [],
   "leetcode:deepest-leaves-sum": [],
-  "leetcode:xor-queries-of-a-subarray": []
+  "leetcode:xor-queries-of-a-subarray": [],
+  "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum": []
 }
