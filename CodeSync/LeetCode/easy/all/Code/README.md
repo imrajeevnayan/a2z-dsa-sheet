@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Monotonic Stack
 - Difficulty: Easy
-- Topics: Stack, Tree, Depth-First Search
+- Topics: Array, Stack, Monotonic Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/symmetric-tree/
-- Synced: 2026-07-23T07:55:24.864Z
+- Problem URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
+- Synced: 2026-08-11T12:30:04.961Z
 
 ## Problem Description
 
-Given the root of an n-ary tree, return the postorder traversal of its nodes' values. Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples) Example 1: Input: root = [1,null,3,2,4,null,5,6] Output: [5,6,3,2,4,1] Example 2: Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14] Output: [2,6,14,11,7,3,12,8,4,13,9,10,5,1] Constraints: The number of nodes in the tree is in the range [0, 104]. 0 <= Node.val <= 104 The height of the n-ary tree is less than or equal to 1000. Follow up: Recursive solution is trivial, could you do it iteratively?
+You are given an integer array prices where prices[i] is the price of the ith item in a shop. There is a special discount for items in the shop. If you buy the ith item, then you will receive a discount equivalent to prices[j] where j is the minimum index such that j > i and prices[j] <= prices[i]. Otherwise, you will not receive any discount at all. Return an integer array answer where answer[i] is the final price you will pay for the ith item of the shop, considering the special discount. Example 1: Input: prices = [8,4,6,2,3] Output: [4,2,4,2,3] Explanation: For item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4, therefore, the final price you will pay is 8 - 4 = 4. For item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2. For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4. For items 3 and 4 you will not receive any discount at all. Example 2: Input: prices = [1,2,3,4,5] Output: [1,2,3,4,5] Explanation: In this case, for all items, you will not receive any discount at all. Example 3: Input: prices = [10,1,1,6] Output: [9,0,1,6] Constraints: 1 <= prices.length <= 500 1 <= prices[i] <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Stack, Tree, Depth-First Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Monotonic Stack. The detected topics are Array, Stack, Monotonic Stack. Review the synced source file for the implementation details.
