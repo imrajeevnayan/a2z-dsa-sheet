@@ -6,8 +6,8 @@
 - Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=monotonic-stack
-- Synced: 2026-08-11T12:23:12.531Z
+- Problem URL: https://leetcode.com/problems/maximum-binary-tree/?envType=problem-list-v2&envId=monotonic-stack
+- Synced: 2026-08-11T12:23:59.807Z
 
 ## Problem Description
 
