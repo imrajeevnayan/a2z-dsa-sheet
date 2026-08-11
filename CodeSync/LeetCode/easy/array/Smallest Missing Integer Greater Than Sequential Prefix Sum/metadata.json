@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-11T12:20:33.300Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+  "problemUrl": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/?envType=daily-question&envId=2026-08-11",
+  "submissionId": "dtt0c0"
+}
