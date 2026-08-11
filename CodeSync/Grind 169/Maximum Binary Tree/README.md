@@ -1,13 +1,13 @@
 # Maximum Binary Tree
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Monotonic Stack
 - Difficulty: Medium
-- Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree
-- Runtime: 0 ms
+- Topics: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-binary-tree/
-- Synced: 2026-07-23T04:14:46.369Z
+- Problem URL: https://leetcode.com/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=monotonic-stack
+- Synced: 2026-08-11T12:23:12.531Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums with no duplicates. A maximum binary tree ca
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Monotonic Stack. The detected topics are Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree, Cartesian Tree. Review the synced source file for the implementation details.
