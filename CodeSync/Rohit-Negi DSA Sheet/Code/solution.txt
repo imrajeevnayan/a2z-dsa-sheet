@@ -1,25 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/balance-a-binary-search-tree/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
+ * Language: Monotonic Stack
+ * Difficulty: Easy
+ * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T09:47:55.310Z
+ * Synced: 2026-08-11T12:30:04.961Z
  */
 
-*     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- *     TreeNode() {}
- *     TreeNode right;
- *     TreeNode left;
- * public class TreeNode {
- *     int val;
- * Definition for a binary tree node.
-/**
+class Solution {
+    public int[] finalPrices(int[] prices) {
+        
+    }
+}
