@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-11T12:27:02.953Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Stack",
+    "Tree",
+    "Binary Search Tree",
+    "Monotonic Stack",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Monotonic Stack",
+  "problemTitle": "Approach",
+  "problemUrl": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/?envType=problem-list-v2&envId=monotonic-stack",
+  "submissionId": "f020v9"
+}
