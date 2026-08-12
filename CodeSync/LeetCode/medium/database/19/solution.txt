@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 19
+ * URL: https://leetcode.com/problems/odd-and-even-transactions/description/
+ * Language: Database
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:22:50.668Z
+ */
+
+# Write your MySQL query statement below
