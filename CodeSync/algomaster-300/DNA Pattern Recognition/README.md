@@ -6,8 +6,8 @@
 - Topics: Database
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/dna-pattern-recognition/description/
-- Synced: 2026-08-12T12:10:40.076Z
+- Problem URL: https://leetcode.com/problems/dna-pattern-recognition/
+- Synced: 2026-08-12T12:11:25.993Z
 
 ## Problem Description
 
