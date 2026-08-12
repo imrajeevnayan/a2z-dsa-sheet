@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-12T11:30:34.850Z",
+  "submissionTimestamp": "2026-08-12T11:31:55.949Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Sorting"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "#{ # Driver Code Starts #Initial Template for Python 3 # } Driver Code Ends #User function Template for python3 import heapq class Solution: def areElementsContiguous (self, arr): heapq.heapify(arr) num1 = heapq.heappop(arr) while arr: num2 = heapq.heappop(arr) if num2 - num1 > 1: return False num1 = num2 return True",
   "problemTitle": "Check if array contains contiguous integers",
   "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-array-contains-contiguous-integers-with-duplicates-allowed2046/1",
-  "submissionId": "prtrpy"
+  "submissionId": "jhhcbo"
 }
