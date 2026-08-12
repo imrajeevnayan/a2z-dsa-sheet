@@ -2892,5 +2892,9 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet"
+  ],
+  "geeksforgeeks:check-if-array-contains-contiguous-integers-with-duplicates-allowed2046": [
+    "custom:algomaster-300",
+    "GFG160"
   ]
 }
