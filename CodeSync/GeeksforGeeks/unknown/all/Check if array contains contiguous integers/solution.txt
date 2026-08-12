@@ -2,17 +2,40 @@
  * Platform: GeeksforGeeks
  * Problem: Check if array contains contiguous integers
  * URL: https://www.geeksforgeeks.org/problems/check-if-array-contains-contiguous-integers-with-duplicates-allowed2046/1
- * Language: Java (21)
+ * Language: #{ # Driver Code Starts #Initial Template for Python 3 # } Driver Code Ends #User function Template for python3 import heapq class Solution: def areElementsContiguous (self, arr): heapq.heapify(arr) num1 = heapq.heappop(arr) while arr: num2 = heapq.heappop(arr) if num2 - num1 > 1: return False num1 = num2 return True
  * Difficulty: Unknown
  * Topics: Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-12T11:30:34.850Z
+ * Synced: 2026-08-12T11:31:55.949Z
  */
 
 class Solution {
-    // Function for finding maximum and value pair
     boolean areElementsContiguous(int arr[]) {
-        // Complete the function
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        int min = arr[0];
+        int max = arr[0];
+
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+        }
+
+        // Number of distinct elements must equal range size
+        if (map.size() != max - min + 1) {
+            return false;
+        }
+
+        // Check every value in the range exists
+        for (int i = min; i <= max; i++) {
+            if (!map.containsKey(i)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
