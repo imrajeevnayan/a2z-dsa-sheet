@@ -2872,5 +2872,6 @@
   ],
   "leetcode:construct-binary-search-tree-from-preorder-traversal": [
     "custom:shradha-khapra-dsa-sheet"
-  ]
+  ],
+  "leetcode:rearrange-products-table": []
 }
