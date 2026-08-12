@@ -5,13 +5,23 @@
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Stack, Monotonic Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-12T11:24:25.236Z
+ * Synced: 2026-08-12T11:25:13.602Z
  */
 
-class Solution {
+int n = temperatures.length;
+        int[] answer = new int[n];
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            while (!st.isEmpty() &&  temperatures[i] > temperatures[st.peek()]) {
+                int prev = st.pop();
+                answer[prev] = i - prev;
+            }
+            st.push(i);
+        }
+        return answer;
     public int[] dailyTemperatures(int[] temperatures) {
-        
+class Solution {
     }
 }
