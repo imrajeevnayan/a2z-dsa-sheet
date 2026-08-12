@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-12T11:33:05.327Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags ZohoRockstand",
+    "Company Tags",
+    "Zoho",
+    "Rockstand",
+    "Topic Tags",
+    "Hash",
+    "Mathematical"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "a = set([int(x) for x in input().strip().split()]) b = set([int(x) for x in input().strip().split()]) ########### Write your code below ############### st = a|b # Union of a and b ########### Write your code above ############### # Printing the size of the set which is the total number of elements in the set. print(len(st))",
+  "problemTitle": "Union of Two Sets",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/union-of-two-arrays3538--171343/1",
+  "submissionId": "na7z56"
+}
