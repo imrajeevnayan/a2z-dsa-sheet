@@ -2876,5 +2876,6 @@
   "leetcode:rearrange-products-table": [],
   "leetcode:dna-pattern-recognition": [
     "custom:algomaster-300"
-  ]
+  ],
+  "leetcode:odd-and-even-transactions": []
 }
