@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: N/A
+- Runtime: 88 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rearrange-products-table/description/
-- Synced: 2026-08-12T11:20:10.404Z
+- Problem URL: https://leetcode.com/problems/rearrange-products-table/
+- Synced: 2026-08-12T11:20:55.632Z
 
 ## Problem Description
 
