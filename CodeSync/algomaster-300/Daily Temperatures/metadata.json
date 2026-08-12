@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-12T11:33:10.114Z",
+  "submissionTimestamp": "2026-08-12T11:33:57.745Z",
   "runtime": "0 ms",
-  "memoryUsage": "107.68 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Daily Temperatures",
-  "problemUrl": "https://leetcode.com/problems/daily-temperatures/submissions/2104102826/?envType=study-plan-v2&envId=leetcode-75",
+  "problemUrl": "https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&envId=leetcode-75",
   "submissionId": "14nb5n"
 }
