@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T15:38:57.161Z",
+  "submissionTimestamp": "2026-08-12T11:25:41.937Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Data Stream"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "LeetCode 75",
   "problemTitle": "Online Stock Span",
-  "problemUrl": "https://leetcode.com/problems/online-stock-span/description/",
-  "submissionId": "ak610t"
+  "problemUrl": "https://leetcode.com/problems/online-stock-span/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "xsjlia"
 }
