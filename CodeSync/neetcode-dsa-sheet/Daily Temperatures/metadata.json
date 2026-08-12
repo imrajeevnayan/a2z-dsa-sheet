@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-12T11:24:25.236Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-12T11:25:13.602Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "LeetCode 75",
   "problemTitle": "Daily Temperatures",
   "problemUrl": "https://leetcode.com/problems/daily-temperatures/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "ru4j38"
+  "submissionId": "14nb5n"
 }
