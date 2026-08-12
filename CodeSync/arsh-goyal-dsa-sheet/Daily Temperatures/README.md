@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Stack, Monotonic Stack
 - Runtime: 0 ms
-- Memory: 107.68 MB
-- Problem URL: https://leetcode.com/problems/daily-temperatures/submissions/2104102826/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-12T11:33:10.114Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-12T11:33:57.745Z
 
 ## Problem Description
 
