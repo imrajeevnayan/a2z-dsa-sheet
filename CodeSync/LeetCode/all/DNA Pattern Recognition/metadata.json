@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-12T12:10:40.076Z",
+  "submissionTimestamp": "2026-08-12T12:11:25.993Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "DNA Pattern Recognition",
-  "problemUrl": "https://leetcode.com/problems/dna-pattern-recognition/description/",
+  "problemUrl": "https://leetcode.com/problems/dna-pattern-recognition/",
   "submissionId": "er46bb"
 }
