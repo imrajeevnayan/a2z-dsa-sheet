@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Online Stock Span
+ * URL: https://leetcode.com/problems/online-stock-span/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Stack, Design, Monotonic Stack, Data Stream
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:25:41.937Z
+ */
+
+class StockSpanner {
+
+    public StockSpanner() {
+        
+    }
+    
+    public int next(int price) {
+        
+    }
+}
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * StockSpanner obj = new StockSpanner();
+ * int param_1 = obj.next(price);
+ */
