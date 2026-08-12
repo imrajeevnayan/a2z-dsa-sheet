@@ -1,13 +1,13 @@
 # Check if array contains contiguous integers
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: #{ # Driver Code Starts #Initial Template for Python 3 # } Driver Code Ends #User function Template for python3 import heapq class Solution: def areElementsContiguous (self, arr): heapq.heapify(arr) num1 = heapq.heappop(arr) while arr: num2 = heapq.heappop(arr) if num2 - num1 > 1: return False num1 = num2 return True
 - Difficulty: Unknown
 - Topics: Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Sorting
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/check-if-array-contains-contiguous-integers-with-duplicates-allowed2046/1
-- Synced: 2026-08-12T11:30:34.850Z
+- Synced: 2026-08-12T11:31:55.949Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr. Determine if all the unique elements are contiguous integers
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using #{ # Driver Code Starts #Initial Template for Python 3 # } Driver Code Ends #User function Template for python3 import heapq class Solution: def areElementsContiguous (self, arr): heapq.heapify(arr) num1 = heapq.heappop(arr) while arr: num2 = heapq.heappop(arr) if num2 - num1 > 1: return False num1 = num2 return True. The detected topics are Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Sorting. Review the synced source file for the implementation details.
