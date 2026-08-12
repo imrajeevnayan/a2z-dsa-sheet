@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Union of Two Sets
+ * URL: https://www.geeksforgeeks.org/problems/union-of-two-arrays3538--171343/1
+ * Language: a = set([int(x) for x in input().strip().split()]) b = set([int(x) for x in input().strip().split()]) ########### Write your code below ############### st = a|b # Union of a and b ########### Write your code above ############### # Printing the size of the set which is the total number of elements in the set. print(len(st))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoRockstand, Company Tags, Zoho, Rockstand, Topic Tags, Hash, Mathematical
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:33:05.327Z
+ */
+
+a = set([int(x) for x in input().strip().split()])
+b = set([int(x) for x in input().strip().split()])
+
+st = a | b
+
+
+print(len(st))
