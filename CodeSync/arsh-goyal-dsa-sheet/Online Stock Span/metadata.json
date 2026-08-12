@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-12T11:25:41.937Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Stack",
+    "Design",
+    "Monotonic Stack",
+    "Data Stream"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Online Stock Span",
+  "problemUrl": "https://leetcode.com/problems/online-stock-span/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "xsjlia"
+}
