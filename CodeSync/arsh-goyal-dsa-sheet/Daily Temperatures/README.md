@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Array, Stack, Monotonic Stack
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/daily-temperatures/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-12T11:24:25.236Z
+- Synced: 2026-08-12T11:25:13.602Z
 
 ## Problem Description
 
