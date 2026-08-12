@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-12T11:35:36.425Z
+- Synced: 2026-08-12T11:36:27.836Z
 
 ## Problem Description
 
