@@ -2877,5 +2877,13 @@
   "leetcode:dna-pattern-recognition": [
     "custom:algomaster-300"
   ],
-  "leetcode:odd-and-even-transactions": []
+  "leetcode:odd-and-even-transactions": [],
+  "leetcode:daily-temperatures": [
+    "NeetCode150",
+    "Top100Liked",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
+  ]
 }
