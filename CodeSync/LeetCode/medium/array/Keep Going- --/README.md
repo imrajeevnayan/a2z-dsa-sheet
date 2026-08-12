@@ -1,13 +1,13 @@
 # Keep Going! 💪
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Daily Question
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: 0 ms
-- Memory: 89.04 MB
-- Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/2063236277/
-- Synced: 2026-07-10T18:56:04.037Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/?envType=daily-question&envId=2026-08-12
+- Synced: 2026-08-12T11:19:24.173Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums and an integer k. The frequency of an elemen
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
