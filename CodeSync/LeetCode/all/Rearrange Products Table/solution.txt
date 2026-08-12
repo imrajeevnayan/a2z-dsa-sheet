@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Rearrange Products Table
+ * URL: https://leetcode.com/problems/rearrange-products-table/description/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:20:10.404Z
+ */
+
+# Write your MySQL query statement below
