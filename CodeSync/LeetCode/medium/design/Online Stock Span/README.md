@@ -1,13 +1,13 @@
 # Online Stock Span
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Stack, Design, Monotonic Stack, Data Stream
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/online-stock-span/description/
-- Synced: 2026-06-02T15:38:57.161Z
+- Problem URL: https://leetcode.com/problems/online-stock-span/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-08-12T11:25:41.937Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Design an algorithm that collects daily price quotes for some stock and returns 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Stack, Design, Monotonic Stack, Data Stream. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using LeetCode 75. The detected topics are Stack, Design, Monotonic Stack, Data Stream. Review the synced source file for the implementation details.
