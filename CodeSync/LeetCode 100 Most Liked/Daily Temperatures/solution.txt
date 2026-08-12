@@ -7,7 +7,7 @@
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: 0 ms
  * Memory: 107.68 MB
- * Synced: 2026-08-12T11:32:23.694Z
+ * Synced: 2026-08-12T11:33:10.114Z
  */
 
 int n = temperatures.length;
