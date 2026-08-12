@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check if array contains contiguous integers
+ * URL: https://www.geeksforgeeks.org/problems/check-if-array-contains-contiguous-integers-with-duplicates-allowed2046/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:30:34.850Z
+ */
+
+class Solution {
+    // Function for finding maximum and value pair
+    boolean areElementsContiguous(int arr[]) {
+        // Complete the function
+    }
+}
