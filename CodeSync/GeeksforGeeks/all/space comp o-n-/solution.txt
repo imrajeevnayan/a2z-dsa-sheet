@@ -1,0 +1,51 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: space comp : o(n)
+ * URL: https://www.geeksforgeeks.org/problems/numbers-with-prime-frequencies-greater-than-or-equal-to-k5823/1
+ * Language: vector<int> primeOccurences(vector<int>& arr, int k) { // code here map<int,int> hash1; for(int i = 0 ;i<arr.size(); i++){ hash1[arr[i]]++; } arr.clear(); for(auto n : hash1){ // if(hash1[i]>k) arr.push_back(k); // cout<<n.second; if(n.second>=k && n.second!=1){ bool isprime=false; for(int j = 2; j<=n.second/2 ; j++){ if(n.second%j==0){ isprime = true; break; } } if(!isprime) arr.push_back(n.first); } } return arr; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Numbers Prime Frequencies Greater Equal K
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-12T11:36:40.215Z
+ */
+
+import java.util.*;
+
+class Solution {
+    public ArrayList<Integer> primeFrequency(int[] arr, int k) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        // Count frequency
+        for (int x : arr) {
+            freq.put(x, freq.getOrDefault(x, 0) + 1);
+        }
+
+        // Check every unique element
+        for (int x : freq.keySet()) {
+            int count = freq.get(x);
+
+            if (count >= k && isPrime(count)) {
+                ans.add(x);
+            }
+        }
+        Collections.sort(ans);
+
+        return ans;
+    }
+
+    private boolean isPrime(int n) {
+        if (n < 2) {
+            return false;
+        }
+
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
