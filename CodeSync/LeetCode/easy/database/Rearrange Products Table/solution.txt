@@ -1,13 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Rearrange Products Table
- * URL: https://leetcode.com/problems/rearrange-products-table/description/
+ * URL: https://leetcode.com/problems/rearrange-products-table/
  * Language: Database
  * Difficulty: Easy
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 88 ms
  * Memory: N/A
- * Synced: 2026-08-12T11:20:10.404Z
+ * Synced: 2026-08-12T11:20:55.632Z
  */
 
-# Write your MySQL query statement below
+SELECT product_id, 'store1' AS store, 
+FROM Products
+WHERE store1 IS NOT NULL
+
+UNION ALL
+
+SELECT product_id, 'store2' AS store, store2 AS price
+FROM Products
+WHERE store2 IS NOT NULL
+
+UNION ALL
+
+SELECT product_id, 'store3' AS store, store3 AS price
+FROM Products
+store1 AS price
+WHERE store3 IS NOT NULL;
