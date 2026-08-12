@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-12T11:20:10.404Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-12T11:20:55.632Z",
+  "runtime": "88 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "Rearrange Products Table",
-  "problemUrl": "https://leetcode.com/problems/rearrange-products-table/description/",
-  "submissionId": "6ikrk0"
+  "problemUrl": "https://leetcode.com/problems/rearrange-products-table/",
+  "submissionId": "m57891"
 }
