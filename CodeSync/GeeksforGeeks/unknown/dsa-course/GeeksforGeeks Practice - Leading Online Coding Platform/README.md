@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/geeksforgeeks-practice-best-online-coding-platform/
-- Synced: 2026-08-08T19:32:00.084Z
+- Synced: 2026-08-13T18:34:00.100Z
 
 ## Problem Description
 
