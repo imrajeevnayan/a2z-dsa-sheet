@@ -1,33 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
- * Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
+ * URL: https://www.geeksforgeeks.org/problems/game-with-nos3123/1
+ * Language: def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Bit Magic
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T11:08:07.076Z
+ * Synced: 2026-08-13T18:34:04.023Z
  */
 
 class Solution {
-    public static ArrayList<Integer> alternateSort(int[] arr) {
-        Arrays.sort(arr);
+    public ArrayList<Integer> xorArray(int[] arr) {
         ArrayList<Integer> ans = new ArrayList<>();
-        int left = 0,right = arr.length - 1;
 
-        while (left <= right) {
-            if (left != right) {
-                ans.add(arr[right]); 
-                right--;
+        for (int i = 0; i < arr.length - 1; i++)
+            ans.add(arr[i] ^ arr[i + 1]);
 
-                ans.add(arr[left]);  
-                left++;
-            } else {
-                ans.add(arr[left]); 
-                left++;
-            }
-        }
+        ans.add(arr[arr.length - 1]);
+
         return ans;
     }
 }
