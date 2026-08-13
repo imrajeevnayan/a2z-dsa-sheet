@@ -1,18 +1,18 @@
 # 19
 
 - Platform: LeetCode
-- Language: Database
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Database
+- Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/odd-and-even-transactions/description/
-- Synced: 2026-08-12T11:22:50.668Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+- Synced: 2026-08-13T17:02:30.186Z
 
 ## Problem Description
 
-Table: transactions +------------------+------+ | Column Name | Type | +------------------+------+ | transaction_id | int | | amount | int | | transaction_date | date | +------------------+------+ The transactions_id column uniquely identifies each row in this table. Each row of this table contains the transaction id, amount and transaction date. Write a solution to find the sum of amounts for odd and even transactions for each day. If there are no odd or even transactions for a specific date, display as 0. Return the result table ordered by transaction_date in ascending order. The result format is in the following example. Example: Input: transactions table: +----------------+--------+------------------+ | transaction_id | amount | transaction_date | +----------------+--------+------------------+ | 1 | 150 | 2024-07-01 | | 2 | 200 | 2024-07-01 | | 3 | 75 | 2024-07-01 | | 4 | 300 | 2024-07-02 | | 5 | 50 | 2024-07-02 | | 6 | 120 | 2024-07-03 | +----------------+--------+------------------+ Output: +------------------+---------+----------+ | transaction_date | odd_sum | even_sum | +------------------+---------+----------+ | 2024-07-01 | 75 | 350 | | 2024-07-02 | 0 | 350 | | 2024-07-03 | 0 | 120 | +------------------+---------+----------+ Explanation: For transaction dates: 2024-07-01: Sum of amounts for odd transactions: 75 Sum of amounts for even transactions: 150 + 200 = 350 2024-07-02: Sum of amounts for odd transactions: 0 Sum of amounts for even transactions: 300 + 50 = 350 2024-07-03: Sum of amounts for odd transactions: 0 Sum of amounts for even transactions: 120 Note: The output table is ordered by transaction_date in ascending order.
+Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's. Example 1: Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2 Output: 6 Explanation: [1,1,1,0,0,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1. The longest subarray is underlined. Example 2: Input: nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3 Output: 10 Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1] Bolded numbers were flipped from 0 to 1. The longest subarray is underlined. Constraints: 1 <= nums.length <= 105 nums[i] is either 0 or 1. 0 <= k <= nums.length
 
 ## Explanation
 
-This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
