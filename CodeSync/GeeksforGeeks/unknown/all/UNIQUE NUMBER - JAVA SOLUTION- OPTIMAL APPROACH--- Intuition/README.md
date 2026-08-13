@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/unique-numbers3019/1
-- Synced: 2026-08-13T17:18:12.304Z
+- Synced: 2026-08-13T17:19:01.936Z
 
 ## Problem Description
 
