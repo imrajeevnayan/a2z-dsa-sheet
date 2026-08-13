@@ -7,7 +7,7 @@
  * Topics: Hash Table, Math
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-13T17:12:15.161Z
+ * Synced: 2026-08-13T17:13:21.167Z
  */
 
 class Solution {
