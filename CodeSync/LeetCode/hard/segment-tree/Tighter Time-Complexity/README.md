@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-substring-of-one-repeating-character/?envType=daily-question&envId=2026-08-13
-- Synced: 2026-08-13T17:06:32.057Z
+- Synced: 2026-08-13T17:07:18.016Z
 
 ## Problem Description
 
