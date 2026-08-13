@@ -1,27 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 19
- * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/submissions/2105725208/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
- * Memory: 52.37 MB
- * Synced: 2026-08-13T17:03:24.388Z
+ * Memory: 52.28 MB
+ * Synced: 2026-08-13T17:04:11.167Z
  */
 
-class Solution {
-    public int longestOnes(int[] nums, int k) {
-        int left=0,zeros=0,maxLen=0;
-        for(int right=0;right<nums.length;right++){
-            if(nums[right]==0)zeros++;
-            while(zeros >k){
-                if(nums[left]==0)zeros--;
+int maxLength = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) {
+                zeros++;
+            }
+
+            while (zeros > k) {
+                if (nums[left] == 0) {
+                    zeros--;
+                }
                 left++;
             }
-            maxLen=Math.max(maxLen,right-left+1);
+
+            maxLength = Math.max(maxLength, right - left + 1);
         }
-        return maxLen;
-        
-    }
-}
+        int zeros = 0;
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+        int left = 0;
