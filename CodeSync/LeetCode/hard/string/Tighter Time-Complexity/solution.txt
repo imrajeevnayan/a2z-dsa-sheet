@@ -7,7 +7,7 @@
  * Topics: Array, String, Segment Tree, Ordered Set
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-13T17:06:32.057Z
+ * Synced: 2026-08-13T17:07:18.016Z
  */
 
 class Solution {
