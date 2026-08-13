@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-13T17:26:33.352Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#User function Template for python3 class Solution: def subArraySum(self,arr,k): #code here dc = {0:1} cur_sm = 0 res = 0 for ind, num in enumerate(arr): cur_sm += num dc[cur_sm] = dc.get(cur_sm,0) + 1 if cur_sm-k in dc: # print(ind, cur_sm) # print(dc) res+= dc[cur_sm-k] return res",
+  "problemTitle": "C++ Solution using unordered Maps:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subarray-range-with-given-sum2804/1",
+  "submissionId": "gy32lj"
+}
