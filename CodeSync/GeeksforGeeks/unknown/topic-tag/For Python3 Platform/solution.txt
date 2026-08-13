@@ -1,22 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/red-or-green5711/1
- * Language: class Solution: def RedOrGreen(self, N, S): green = S.count("G") red = S.count("R") return min(red, green)
+ * URL: https://www.geeksforgeeks.org/problems/game-with-nos3123/1
+ * Language: def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Bit Magic
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:06:30.993Z
+ * Synced: 2026-08-13T18:34:04.023Z
  */
 
 class Solution {
-    public int redOrGreen(String s) {
-        int r = 0, g = 0;
-        for (char c : s.toCharArray()) {
-            if (c == 'R') r++;
-            else g++;
-        }
-        return Math.min(r, g);
+    public ArrayList<Integer> xorArray(int[] arr) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int i = 0; i < arr.length - 1; i++)
+            ans.add(arr[i] ^ arr[i + 1]);
+
+        ans.add(arr[arr.length - 1]);
+
+        return ans;
     }
 }
