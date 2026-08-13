@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Medium
 - Topics: Database
-- Runtime: N/A
+- Runtime: 88 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/dna-pattern-recognition/description/
-- Synced: 2026-08-12T12:14:22.003Z
+- Problem URL: https://leetcode.com/problems/dna-pattern-recognition/
+- Synced: 2026-08-12T12:15:41.077Z
 
 ## Problem Description
 
