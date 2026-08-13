@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T16:32:30.746Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-13T17:10:25.168Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Math"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Hash Table",
   "problemTitle": "Digit Frequency Score",
-  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/",
-  "submissionId": "t5j411"
+  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/description/?envType=problem-list-v2&envId=hash-table",
+  "submissionId": "69gbli"
 }
