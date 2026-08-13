@@ -1,16 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Digit Frequency Score
- * URL: https://leetcode.com/problems/digit-frequency-score/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/digit-frequency-score/description/?envType=problem-list-v2&envId=hash-table
+ * Language: Hash Table
  * Difficulty: Easy
  * Topics: Hash Table, Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-05T16:32:30.746Z
+ * Synced: 2026-08-13T17:10:25.168Z
  */
 
-if (n == 0) return 0;
+class Solution {
+    public int digitFrequencyScore(int n) {
+     if (n == 0) return 0;
         int[] freq = new int[10];
         while (n > 0) {
             int d = n % 10;
@@ -27,5 +29,3 @@ if (n == 0) return 0;
         
     }
 }
-class Solution {
-    public int digitFrequencyScore(int n) {
