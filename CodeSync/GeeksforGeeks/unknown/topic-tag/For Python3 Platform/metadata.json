@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T11:06:30.993Z",
+  "submissionTimestamp": "2026-08-13T18:34:04.023Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,11 +7,12 @@
     "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Strings"
+    "Arrays",
+    "Bit Magic"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def RedOrGreen(self, N, S): green = S.count(\"G\") red = S.count(\"R\") return min(red, green)",
+  "language": "def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/red-or-green5711/1",
-  "submissionId": "ac5ktw"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/game-with-nos3123/1",
+  "submissionId": "qyp9gf"
 }
