@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Hard
 - Topics: Array, String, Segment Tree, Ordered Set
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-substring-of-one-repeating-character/?envType=daily-question&envId=2026-08-13
-- Synced: 2026-08-13T17:07:18.016Z
+- Problem URL: https://leetcode.com/problems/longest-substring-of-one-repeating-character/submissions/2105730527/?envType=daily-question&envId=2026-08-13
+- Synced: 2026-08-13T17:08:04.127Z
 
 ## Problem Description
 
