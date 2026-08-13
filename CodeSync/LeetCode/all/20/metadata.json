@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-13T17:09:31.616Z",
+  "submissionTimestamp": "2026-08-13T19:43:02.151Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "Math"
+    "Math",
+    "Bit Manipulation"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Problem List",
   "problemTitle": "20",
-  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/description/?envType=problem-list-v2&envId=hash-table",
-  "submissionId": "486qy3"
+  "problemUrl": "https://leetcode.com/problems/sum-of-two-integers/description/",
+  "submissionId": "c5tyqn"
 }
