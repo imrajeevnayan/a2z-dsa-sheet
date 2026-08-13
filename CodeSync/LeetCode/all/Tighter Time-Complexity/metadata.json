@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-13T17:07:18.016Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-13T17:08:04.127Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Tighter Time-Complexity",
-  "problemUrl": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/?envType=daily-question&envId=2026-08-13",
-  "submissionId": "opfe7t"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/submissions/2105730527/?envType=daily-question&envId=2026-08-13",
+  "submissionId": "s38cbk"
 }
