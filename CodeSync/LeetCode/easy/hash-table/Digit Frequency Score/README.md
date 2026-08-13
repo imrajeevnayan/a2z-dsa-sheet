@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/digit-frequency-score/description/?envType=problem-list-v2&envId=hash-table
-- Synced: 2026-08-13T17:10:25.168Z
+- Synced: 2026-08-13T17:11:29.171Z
 
 ## Problem Description
 
