@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-13T17:11:06.259Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Hash Table",
+  "problemTitle": "Find the Prefix Common Array of Two Arrays",
+  "problemUrl": "https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/?envType=problem-list-v2&envId=hash-table",
+  "submissionId": "fnnvzr"
+}
