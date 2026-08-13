@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: K-Pangrams
+ * URL: https://www.geeksforgeeks.org/problems/k-pangrams0909/1
+ * Language: class Solution { public: bool kPangram(string str, int k) { unordered_set<char> mySet; int totalAlphabets = 0; for (char ch : str) { if (ch >= 'a' && ch <= 'z') { mySet.insert(ch); totalAlphabets++; } } if (totalAlphabets < 26) return false; int missingChars = 26 - mySet.size(); return missingChars <= k; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoSnapdeal, Company Tags, Zoho, Snapdeal, Topic Tags, Hash, Strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-13T17:23:30.404Z
+ */
+
+class Solution {
+    boolean kPangram(String str, int k) {
+        Set<Character> set = new HashSet<>();
+
+        int spaces = 0;
+
+        for (char c : str.toCharArray()) {
+            if (c == ' ')  spaces++;
+            else  set.add(c);
+        } 
+        return str.length() - spaces >= 26 &&
+               set.size() + k >= 26;
+    }
+}
