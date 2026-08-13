@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-13T17:23:30.404Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags ZohoSnapdeal",
+    "Company Tags",
+    "Zoho",
+    "Snapdeal",
+    "Topic Tags",
+    "Hash",
+    "Strings"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: bool kPangram(string str, int k) { unordered_set<char> mySet; int totalAlphabets = 0; for (char ch : str) { if (ch >= 'a' && ch <= 'z') { mySet.insert(ch); totalAlphabets++; } } if (totalAlphabets < 26) return false; int missingChars = 26 - mySet.size(); return missingChars <= k; } };",
+  "problemTitle": "K-Pangrams",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/k-pangrams0909/1",
+  "submissionId": "aviunw"
+}
