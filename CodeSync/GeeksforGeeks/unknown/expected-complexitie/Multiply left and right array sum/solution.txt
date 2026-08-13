@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Multiply left and right array sum
+ * URL: https://www.geeksforgeeks.org/problems/multiply-left-and-right-array-sum1555/1
+ * Language: // User function Template for Java class Solution { public int multiply(int[] arr) { // code here int n = arr.length; int sum1 = 0; int sum2 = 0; int mid = n / 2; for ( int i = 0 ; i < mid ; i++ ) { sum1 += arr[i]; } for ( int i = mid ; i < n ; i++ ) { sum2 += arr[i]; } return sum1*sum2; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-13T18:35:59.009Z
+ */
+
+class Solution {
+    public int multiply(int[] arr) {
+        int mid = arr.length / 2;
+        int a = 0, b = 0;
+
+        for (int i = 0; i < mid; i++)
+            a += arr[i];
+
+        for (int i = mid; i < arr.length; i++)
+            b += arr[i];
+
+        return a * b;
+    }
+}
