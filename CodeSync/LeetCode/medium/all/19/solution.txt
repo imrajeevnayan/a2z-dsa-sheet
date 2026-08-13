@@ -1,13 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 19
- * URL: https://leetcode.com/problems/odd-and-even-transactions/description/
- * Language: Database
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Database
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-12T11:22:50.668Z
+ * Synced: 2026-08-13T17:02:30.186Z
  */
 
-# Write your MySQL query statement below
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+        int left=0,zeros=0,maxLen=0;
+        for(int right=0;right<nums.length;right++){
+            if(nums[right]==0)zeros++;
+            while(zeros >k){
+                if(nums[left]==0)zeros--;
+                left++;
+            }
+            maxLen=Math.max(maxLen,right-left+1);
+        }
+        return maxLen;
+        
+    }
+}
