@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-13T17:03:24.388Z",
+  "submissionTimestamp": "2026-08-13T17:04:11.167Z",
   "runtime": "0 ms",
-  "memoryUsage": "52.37 MB",
+  "memoryUsage": "52.28 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "19",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
-  "submissionId": "g75e2o"
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/submissions/2105725208/",
+  "submissionId": "nwtbl9"
 }
