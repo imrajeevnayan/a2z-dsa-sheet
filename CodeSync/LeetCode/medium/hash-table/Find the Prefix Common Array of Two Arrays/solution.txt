@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Prefix Common Array of Two Arrays
+ * URL: https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/?envType=problem-list-v2&envId=hash-table
+ * Language: Hash Table
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Bit Manipulation
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-13T17:11:06.259Z
+ */
+
+public int[] findThePrefixCommonArray(int[] A, int[] B) {
+        int n = A.length;
+        int[] ans = new int[n];
+        int[] seen = new int[n + 1];
+
+        int common = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (++seen[A[i]] == 2) common++;
+
+            if (++seen[B[i]] == 2)
+                common++;
+
+            ans[i] = common;
+        }
+
+        return ans;
+    }
+class Solution {
+}
