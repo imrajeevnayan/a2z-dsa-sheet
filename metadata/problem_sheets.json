@@ -2910,5 +2910,8 @@
     "GFG160"
   ],
   "leetcode:counter": [],
-  "leetcode:longest-substring-of-one-repeating-character": []
+  "leetcode:longest-substring-of-one-repeating-character": [],
+  "leetcode:digit-frequency-score": [
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
