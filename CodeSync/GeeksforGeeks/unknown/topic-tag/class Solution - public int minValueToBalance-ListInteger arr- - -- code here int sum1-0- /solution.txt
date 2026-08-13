@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution { public int minValueToBalance(List<Integer> arr) { // code here int sum1=0; int sum2=0; int n=arr.size(); for(int i=0;i<n/2;i++){ sum1=sum1+arr.get(i); } for(int i=n/2;i<n;i++){ sum2=sum2+arr.get(i); } return Math.abs(sum2-sum1); }};
+ * URL: https://www.geeksforgeeks.org/problems/balanced-array07200720/1
+ * Language: class Solution { public: int minValueToBalance(vector<int> &arr) { // code here int ans = 0; int mid = arr.size() / 2; for (int i = 0; i < mid; i++) { ans += arr[i] - arr[i + mid]; } return std::abs(ans); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-13T18:36:39.893Z
+ */
+
+class Solution {
+    public int minValueToBalance(List<Integer> arr) {
+        int mid = arr.size() / 2;
+        int left = 0, right = 0;
+
+        for (int i = 0; i < mid; i++)
+            left += arr.get(i);
+
+        for (int i = mid; i < arr.size(); i++)
+            right += arr.get(i);
+
+        return Math.abs(left - right);
+    }
+}
