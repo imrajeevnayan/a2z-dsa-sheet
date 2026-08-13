@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Tighter Time-Complexity
- * URL: https://leetcode.com/problems/longest-substring-of-one-repeating-character/?envType=daily-question&envId=2026-08-13
+ * URL: https://leetcode.com/problems/longest-substring-of-one-repeating-character/submissions/2105730527/?envType=daily-question&envId=2026-08-13
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, String, Segment Tree, Ordered Set
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-08-13T17:07:18.016Z
+ * Synced: 2026-08-13T17:08:04.127Z
  */
 
-class Solution {
-    public int[] longestRepeating(String s, String queryCharacters, int[] queryIndices) {
-        
-    }
-}
+for (int i = 1; i < n; i++) {
+                if (arr[i] != arr[i - 1]) {
+            set.add(n);
+
+            set.add(0);
+            set.clear();
+
+            arr[idx] = queryCharacters.charAt(q);
+            int idx = queryIndices[q];
+        for (int q = 0; q < queryIndices.length; q++) {
+
+        char[] arr = s.toCharArray();
+
+        }
+            }
+                set.add(i);
+            if (s.charAt(i) != s.charAt(i - 1)) {
+        for (int i = 1; i < n; i++) {
+
+        set.add(n);
+        set.add(0);
+        TreeSet<Integer> set = new TreeSet<>();
