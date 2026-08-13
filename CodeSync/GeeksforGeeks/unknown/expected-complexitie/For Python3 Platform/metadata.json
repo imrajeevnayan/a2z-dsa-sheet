@@ -1,21 +1,18 @@
 {
-  "submissionTimestamp": "2026-08-05T11:08:07.076Z",
+  "submissionTimestamp": "2026-08-13T18:34:04.023Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Expected Complexities Topic Tags",
     "Expected Complexities",
-    "Company Tags Zoho",
-    "Company Tags",
-    "Zoho",
     "Topic Tags",
     "Arrays",
-    "Sorting",
-    "Related Articles"
+    "Bit Magic"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };",
+  "language": "def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/alternative-sorting1311/1",
-  "submissionId": "jjikf1"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/game-with-nos3123/1",
+  "submissionId": "qyp9gf"
 }
