@@ -1,13 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: DNA Pattern Recognition
- * URL: https://leetcode.com/problems/dna-pattern-recognition/description/
+ * URL: https://leetcode.com/problems/dna-pattern-recognition/
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 88 ms
  * Memory: N/A
- * Synced: 2026-08-12T12:14:22.003Z
+ * Synced: 2026-08-12T12:15:41.077Z
  */
 
-# Write your MySQL query statement below
+WHEN dna_sequence LIKE 'ATG%' THEN 1
+        ELSE 0
+    END AS has_start,
+    CASE
+        WHEN dna_sequence LIKE '%TAA'
+          OR dna_sequence LIKE '%TAG'
+          OR dna_sequence LIKE '%TGA'
+        THEN 1
+        ELSE 0
+    END AS has_stop,
+    CASE
+        WHEN dna_sequence LIKE '%ATAT%' THEN 1
+        ELSE 0
+    END AS has_atat,
+    CASE
+    CASE
+    dna_sequence,
+    species,
+SELECT
+    sample_id,
