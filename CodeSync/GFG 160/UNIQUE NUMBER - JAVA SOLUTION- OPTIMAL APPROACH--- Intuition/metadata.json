@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-13T17:21:38.431Z",
+  "submissionTimestamp": "2026-08-13T17:22:26.221Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public static ArrayList<Integer> uniqueNumbers(int L, int R) { ArrayList<Integer> result = new ArrayList<>(); for (int i=L; i<=R; i++) { if (hasUniqueDigits(i)) { result.add(i); } } return result; } private static boolean hasUniqueDigits(int n) { int[] digits = new int[10]; while(n>0) { int digit = n%10; if (digits[digit] > 0) { return false; } digits[digit]++; n = n/10; } return true; } }",
   "problemTitle": "UNIQUE NUMBER - JAVA SOLUTION! OPTIMAL APPROACH!🧠 Intuition",
   "problemUrl": "https://www.geeksforgeeks.org/problems/unique-numbers3019/1",
-  "submissionId": "aea35m"
+  "submissionId": "w5zp52"
 }
