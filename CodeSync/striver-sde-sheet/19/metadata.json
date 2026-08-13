@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-13T17:02:30.186Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "19",
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
+  "submissionId": "g75e2o"
+}
