@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Split Array Largest Sum
+ * URL: https://leetcode.com/problems/split-array-largest-sum/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Dynamic Programming, Greedy, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T16:47:13.191Z
+ */
+
+} else {
+                right = mid;
+
+            if (canSplit(nums, k, mid)) {
+            int mid = left + (right - left) / 2;
+        while (left < right) {
+        }
+            right += num;
+            left = Math.max(left, num);
+        for (int num : nums) {
+        int left = 0, right = 0;
+    public int splitArray(int[] nums, int k) {
+class Solution {
+                left = mid + 1;
+            }
+
+        }
