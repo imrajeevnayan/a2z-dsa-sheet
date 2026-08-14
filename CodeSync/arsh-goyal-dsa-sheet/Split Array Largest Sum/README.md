@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Hard
 - Topics: Array, Binary Search, Dynamic Programming, Greedy, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/split-array-largest-sum/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-14T16:47:13.191Z
+- Synced: 2026-08-14T16:48:00.213Z
 
 ## Problem Description
 
