@@ -2934,5 +2934,9 @@
   "leetcode:sum-of-two-integers": [
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:maximum-length-substring-with-two-occurrences": []
+  "leetcode:maximum-length-substring-with-two-occurrences": [],
+  "leetcode:range-sum-query-2d-immutable": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
+  ]
 }
