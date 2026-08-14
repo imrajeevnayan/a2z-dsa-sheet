@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Partitions with Even Sum Difference
- * URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum
+ * URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/?envType=problem-list-v2&envId=prefix-sum
  * Language: Prefix Sum
  * Difficulty: Easy
  * Topics: Array, Math, Prefix Sum
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-14T16:51:53.236Z
+ * Synced: 2026-08-14T16:53:57.682Z
  */
 
 class Solution {
