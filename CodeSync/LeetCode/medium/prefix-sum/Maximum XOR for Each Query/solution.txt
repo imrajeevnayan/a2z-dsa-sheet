@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum XOR for Each Query
+ * URL: https://leetcode.com/problems/maximum-xor-for-each-query/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T16:55:00.656Z
+ */
+
+for (int i = 0; i < n; i++) {
+            ans[i] = xor ^ mask;
+
+            // Remove the last element
+            xor ^= nums[n - 1 - i];
+        }
+
+        return ans;
+    }
+}
