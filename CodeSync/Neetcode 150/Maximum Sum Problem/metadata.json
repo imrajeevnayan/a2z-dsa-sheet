@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-14T17:47:09.190Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Morgan Stanley",
+    "Company Tags",
+    "Morgan Stanley",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Related Articles",
+    "Recursively Break Number 3 Parts Get Maximum Sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def maxSum(self, n): # code here def getMax(n): n3= n//3 n2= n//2 n4= n//4 if n3 + n2+ n4 <= n: return n else: return getMax(n2) + getMax(n3)+ getMax(n4) return getMax(n)",
+  "problemTitle": "Maximum Sum Problem",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-sum-problem2211/1",
+  "submissionId": "gj6oot"
+}
