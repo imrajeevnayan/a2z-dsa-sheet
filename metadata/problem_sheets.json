@@ -2944,5 +2944,8 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:count-partitions-with-even-sum-difference": []
+  "leetcode:count-partitions-with-even-sum-difference": [],
+  "leetcode:maximum-xor-for-each-query": [
+    "custom:algomaster-300"
+  ]
 }
