@@ -6,8 +6,8 @@
 - Topics: Array, Design, Matrix, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/range-sum-query-2d-immutable/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-14T16:46:18.232Z
+- Problem URL: https://leetcode.com/problems/range-sum-query-2d-immutable/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-08-14T16:47:19.169Z
 
 ## Problem Description
 
