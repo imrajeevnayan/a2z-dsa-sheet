@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-14T16:41:20.410Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Maximum Length Substring With Two Occurrences",
+  "problemUrl": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/?envType=daily-question&envId=2026-08-14",
+  "submissionId": "qwjyae"
+}
