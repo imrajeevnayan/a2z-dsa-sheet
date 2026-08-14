@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-14T16:49:54.644Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-14T16:51:53.236Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Prefix Sum",
   "problemTitle": "Count Partitions with Even Sum Difference",
   "problemUrl": "https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "86clpc"
+  "submissionId": "6z3tl"
 }
