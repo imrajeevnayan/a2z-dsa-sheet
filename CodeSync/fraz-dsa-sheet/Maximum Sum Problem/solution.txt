@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximum Sum Problem
+ * URL: https://www.geeksforgeeks.org/problems/maximum-sum-problem2211/1
+ * Language: class Solution: def maxSum(self, n): # code here def getMax(n): n3= n//3 n2= n//2 n4= n//4 if n3 + n2+ n4 <= n: return n else: return getMax(n2) + getMax(n3)+ getMax(n4) return getMax(n)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Morgan Stanley, Company Tags, Morgan Stanley, Topic Tags, Dynamic Programming, Related Articles, Recursively Break Number 3 Parts Get Maximum Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T17:47:09.190Z
+ */
+
+class Solution {
+    int[] dp;
+
+    public int maxSum(int n) {
+        dp = new int[n + 1];
+        Arrays.fill(dp, -1);
+        return solve(n);
+    }
+
+    private int solve(int n) {
+        if (n <= 1)  return n;
+        if (dp[n] != -1) return dp[n];
+
+        int a = solve(n / 2);
+        int b = solve(n / 3);
+        int c = solve(n / 4);
+
+        return dp[n] = Math.max(n, a + b + c);
+    }
+}
