@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Hash Table, String, Sliding Window
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/?envType=daily-question&envId=2026-08-14
-- Synced: 2026-08-14T16:41:20.410Z
+- Runtime: 0 ms
+- Memory: 43.83 MB
+- Problem URL: https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/submissions/2106824340/?envType=daily-question&envId=2026-08-14
+- Synced: 2026-08-14T16:42:52.641Z
 
 ## Problem Description
 
