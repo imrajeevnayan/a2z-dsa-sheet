@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-14T16:54:15.296Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Bit Manipulation",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "21",
+  "problemUrl": "https://leetcode.com/problems/maximum-xor-for-each-query/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "zh5q6q"
+}
