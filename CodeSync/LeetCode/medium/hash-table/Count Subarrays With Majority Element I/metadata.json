@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-14T17:40:19.863Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Segment Tree",
+    "Merge Sort",
+    "Counting",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Count Subarrays With Majority Element I",
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-with-majority-element-i/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "vglwot"
+}
