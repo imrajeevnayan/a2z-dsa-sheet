@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Subarray Sum with Elements less than or equal to k
+ * URL: https://www.geeksforgeeks.org/problems/you-and-your-books/1
+ * Language: class Solution { public: /*You are requried to complete this method */ long long max_Books(int a[], int n, int k) { // Your code here long long dp[n] = {0}; dp[0] = (a[0] <= k ? a[0] : 0); for(int i = 1; i < n; i++){ if(a[i] <= k){ dp[i] = dp[i-1] + a[i]; } else{ dp[i] = 0; } } return *max_element(dp, dp + n); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Junglee Games, Company Tags, Junglee Games, Topic Tags, Arrays, Dynamic Programming, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T17:50:22.544Z
+ */
+
+class Solution {
+    public int maxSum(int[] arr, int k) {
+        int curr = 0;
+        int ans = 0;
+
+        for (int num : arr) {
+            if (num <= k) {
+                curr += num;
+                ans = Math.max(ans, curr);
+            } else {
+                curr = 0;
+            }
+        }
+
+        return ans;
+    }
+}
