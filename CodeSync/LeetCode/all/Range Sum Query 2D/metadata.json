@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-14T16:46:18.232Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Design",
+    "Matrix",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Range Sum Query 2D",
+  "problemUrl": "https://leetcode.com/problems/range-sum-query-2d-immutable/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "63wba4"
+}
