@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Length Substring With Two Occurrences
+ * URL: https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/?envType=daily-question&envId=2026-08-14
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T16:41:20.410Z
+ */
+
+class Solution {
+    public int maximumLengthSubstring(String s) {
+        
+    }
+}
