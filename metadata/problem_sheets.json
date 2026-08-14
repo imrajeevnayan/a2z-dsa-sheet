@@ -2933,5 +2933,6 @@
   ],
   "leetcode:sum-of-two-integers": [
     "custom:shradha-khapra-dsa-sheet"
-  ]
+  ],
+  "leetcode:maximum-length-substring-with-two-occurrences": []
 }
