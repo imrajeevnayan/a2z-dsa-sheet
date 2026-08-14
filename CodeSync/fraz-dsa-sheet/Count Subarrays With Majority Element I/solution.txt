@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Subarrays With Majority Element I
+ * URL: https://leetcode.com/problems/count-subarrays-with-majority-element-i/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Divide and Conquer, Segment Tree, Merge Sort, Counting, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T17:40:19.863Z
+ */
+
+class Solution {
+    public int countMajoritySubarrays(int[] nums, int target) {
+        
+    }
+}
