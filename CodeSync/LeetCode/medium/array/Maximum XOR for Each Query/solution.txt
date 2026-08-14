@@ -1,22 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum XOR for Each Query
- * URL: https://leetcode.com/problems/maximum-xor-for-each-query/?envType=problem-list-v2&envId=prefix-sum
+ * URL: https://leetcode.com/problems/maximum-xor-for-each-query/submissions/2106839041/?envType=problem-list-v2&envId=prefix-sum
  * Language: Prefix Sum
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-14T16:55:00.656Z
+ * Runtime: 0 ms
+ * Memory: 105.64 MB
+ * Synced: 2026-08-14T16:55:50.059Z
  */
 
 for (int i = 0; i < n; i++) {
+        for (int num : nums) xor ^= num;
+        int mask = (1 << maximumBit) - 1;
+        int[] ans = new int[n];
+        int xor = 0;
+        int n = nums.length;
+    public int[] getMaximumXor(int[] nums, int maximumBit) {
+class Solution {
             ans[i] = xor ^ mask;
 
-            // Remove the last element
             xor ^= nums[n - 1 - i];
         }
-
         return ans;
     }
 }
