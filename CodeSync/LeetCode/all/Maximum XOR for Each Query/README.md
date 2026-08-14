@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Medium
 - Topics: Array, Bit Manipulation, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-xor-for-each-query/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-14T16:55:00.656Z
+- Runtime: 0 ms
+- Memory: 105.64 MB
+- Problem URL: https://leetcode.com/problems/maximum-xor-for-each-query/submissions/2106839041/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-08-14T16:55:50.059Z
 
 ## Problem Description
 
