@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Profit with Money Exchange using n/2, n/3, and n/4
+ * URL: https://www.geeksforgeeks.org/problems/ritikas-money4334/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Misc, Dynamic Programming, Recursion, Related Articles, Max Money Exchange With N 2 N 3 And N 4
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T17:52:01.859Z
+ */
+
+class Solution {
+    HashMap<Integer, Integer> dp = new HashMap<>();
+    public int maxExchangeMoney(int n) {
+        if (n <= 1) return n;
+        
+        if (dp.containsKey(n)) return dp.get(n);
+        
+        int ans = Math.max(n, 
+            maxExchangeMoney(n / 2) +
+            maxExchangeMoney(n / 3) +
+            maxExchangeMoney(n / 4)
+        );
+
+        dp.put(n, ans);
+        return ans;
+    }
+}
