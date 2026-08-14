@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-14T17:52:01.859Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Misc",
+    "Dynamic Programming",
+    "Recursion",
+    "Related Articles",
+    "Max Money Exchange With N 2 N 3 And N 4"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Max Profit with Money Exchange using n/2, n/3, and n/4",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/ritikas-money4334/1",
+  "submissionId": "5oq8g2"
+}
