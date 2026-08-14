@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-14T16:47:13.191Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-14T16:48:00.213Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -14,5 +14,5 @@
   "language": "Prefix Sum",
   "problemTitle": "Split Array Largest Sum",
   "problemUrl": "https://leetcode.com/problems/split-array-largest-sum/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "pcee8x"
+  "submissionId": "ofatnv"
 }
