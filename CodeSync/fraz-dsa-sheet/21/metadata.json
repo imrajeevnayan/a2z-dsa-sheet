@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-14T16:46:25.233Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Greedy",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Java",
+  "problemTitle": "21",
+  "problemUrl": "https://leetcode.com/problems/split-array-largest-sum/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "i2hwjv"
+}
