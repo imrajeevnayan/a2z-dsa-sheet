@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 21
+ * URL: https://leetcode.com/problems/maximum-xor-for-each-query/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T16:54:15.296Z
+ */
+
+class Solution {
+    public int[] getMaximumXor(int[] nums, int maximumBit) {
+        
+    }
+}
