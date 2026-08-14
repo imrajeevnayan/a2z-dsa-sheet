@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Math, Prefix Sum
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-14T16:51:53.236Z
+- Problem URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-08-14T16:53:57.682Z
 
 ## Problem Description
 
