@@ -5,15 +5,18 @@
  * Language: Prefix Sum
  * Difficulty: Hard
  * Topics: Array, Binary Search, Dynamic Programming, Greedy, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-14T16:47:13.191Z
+ * Synced: 2026-08-14T16:48:00.213Z
  */
 
-} else {
+}
+            }
+            else {
+                left = mid + 1;
                 right = mid;
+            if (canSplit(nums, k, mid)) 
 
-            if (canSplit(nums, k, mid)) {
             int mid = left + (right - left) / 2;
         while (left < right) {
         }
@@ -23,7 +26,3 @@
         int left = 0, right = 0;
     public int splitArray(int[] nums, int k) {
 class Solution {
-                left = mid + 1;
-            }
-
-        }
