@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-14T16:49:09.414Z
+- Synced: 2026-08-14T16:49:54.644Z
 
 ## Problem Description
 
