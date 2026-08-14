@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-14T16:49:09.414Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Count Partitions with Even Sum Difference",
+  "problemUrl": "https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "614hxu"
+}
