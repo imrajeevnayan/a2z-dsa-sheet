@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Partitions with Even Sum Difference
+ * URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Easy
+ * Topics: Array, Math, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-14T16:49:09.414Z
+ */
+
+class Solution {
+    public int countPartitions(int[] nums) {
+        
+    }
+}
