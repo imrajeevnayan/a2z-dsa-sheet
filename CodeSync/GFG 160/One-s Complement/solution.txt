@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: One's Complement
+ * URL: https://www.geeksforgeeks.org/problems/ones-complement5928/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Find Ones Complement Integer
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T08:53:57.131Z
+ */
+
+class Solution {
+    static int onesComplement(int n) {
+        // code here
+        
+    }
+}
