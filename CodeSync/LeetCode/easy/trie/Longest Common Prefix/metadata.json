@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-22T18:26:18.037Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.36 MB",
+  "submissionTimestamp": "2026-08-15T11:50:22.513Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -9,8 +9,8 @@
     "Trie"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "Longest Common Prefix",
-  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/submissions/2077526665/",
-  "submissionId": "cqunb6"
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "pwpmkd"
 }
