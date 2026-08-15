@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: 22
+ * URL: https://leetcode.com/problems/group-anagrams/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, String, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T12:00:54.064Z
+ */
+
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+      HashMap<String,List<String>>ans=new HashMap<>();
+        for(String s:strs){
+            char c[]=s.toCharArray();
+            Arrays.sort(c);
+            String key=String.valueOf(c);
+            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+        }
+        return new ArrayList<>(ans.values());
+    }
+}
