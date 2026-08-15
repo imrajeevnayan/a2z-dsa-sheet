@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
 - Runtime: 0 ms
-- Memory: 46.40 MB
-- Problem URL: https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T11:51:48.331Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-15T11:52:37.969Z
 
 ## Problem Description
 
