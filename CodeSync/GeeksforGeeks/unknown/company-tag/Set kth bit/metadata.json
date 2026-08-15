@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-15T08:53:41.645Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags CiscoQualcomm",
+    "Company Tags",
+    "Cisco",
+    "Qualcomm",
+    "Topic Tags",
+    "Bit Magic",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def setKthBit(self, n, k): # code here return n | (1 << k)",
+  "problemTitle": "Set kth bit",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/set-kth-bit3724/1",
+  "submissionId": "o0t8q8"
+}
