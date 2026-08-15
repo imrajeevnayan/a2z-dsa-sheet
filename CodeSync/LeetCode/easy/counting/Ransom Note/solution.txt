@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Ransom Note
+ * URL: https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
+ * Runtime: 0 ms
+ * Memory: 46.40 MB
+ * Synced: 2026-08-15T11:51:48.331Z
+ */
+
+class Solution {
+    public boolean canConstruct(String r, String m) {
+        int[] c = new int[26];
+        for (char x : m.toCharArray()) c[x - 'a']++;
+        for (char x : r.toCharArray())
+         if (c[x - 'a']-- == 0) return false;
+        return true;
+    }
+}
