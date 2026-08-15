@@ -569,7 +569,12 @@
     "TopInterview150",
     "Top100Liked",
     "StriverA2Z",
-    "StriverSDE"
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:reverse-vowels-of-a-string": [
     "custom:Rohit-Negi_DSA_Sheet",
