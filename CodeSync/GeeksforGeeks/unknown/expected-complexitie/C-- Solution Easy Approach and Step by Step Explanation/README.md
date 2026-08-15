@@ -1,18 +1,18 @@
 # C++ Solution || Easy Approach and Step by Step Explanation
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public int maxTask(int[] h, int[] l) { if (h.length == 0) return 0; int sum = 0; int prevSum = 0; int k = (h[0] > l[0]) ? h[0] : l[0]; sum = k; if (h.length > 1) { for(int i = 1; i < h.length; i++) { k = (h[i] + prevSum > l[i] + sum) ? h[i] + prevSum : l[i] + sum; prevSum = sum; sum = k; } } return sum; } }
+- Language: return sum('3' not in str(i) for i in range(1, N+1))
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles
+- Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/high-effort-vs-low-effort0213/1
-- Synced: 2026-08-10T08:13:59.450Z
+- Problem URL: https://www.geeksforgeeks.org/problems/count-numbers2004/1
+- Synced: 2026-08-15T09:09:55.201Z
 
 ## Problem Description
 
-Given two integer arrays h[] and l[], where h[i] and l[i] denote the number of tasks that can be completed on the i-th day by performing a high-effort task and a low-effort task, respectively. For each day, you may choose exactly one of the following: Perform no task. Perform a low-effort task. Perform a high-effort task, which can only be performed on the first day or if no task was performed on the previous day. Return the maximum total number of tasks that can be completed over all days. Examples: Input: h[] = [2, 8, 1], l[] = [1, 2, 1] Output: 9 Explanation: Pick the high-effort task on day 1 and the low-effort task on day 2. Total = 8 + 1 = 9. Input: h[] = [3, 6, 8, 7, 6], l[] = [1, 5, 4, 5, 3] Output: 20 Explanation: Pick the high-effort task on day 0 and low-effort tasks on all remaining days. Total = 3 + 5 + 4 + 5 + 3 = 20.
+Given a number n, count the numbers from 1 to n that don’t contain digit d in their decimal representation. Examples: Input: n = 25, d = 3 Output: 22 Explanation: From 1 to 25, the numbers 3, 13, and 23 contain the digit 3, so the answer is 25 - 3 = 22. Input: n = 5, d = 3 Output: 4 Explanation: From 1 to 5, only 3 contains the digit 3, so the count of numbers without digit 3 is 4.
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public int maxTask(int[] h, int[] l) { if (h.length == 0) return 0; int sum = 0; int prevSum = 0; int k = (h[0] > l[0]) ? h[0] : l[0]; sum = k; if (h.length > 1) { for(int i = 1; i < h.length; i++) { k = (h[i] + prevSum > l[i] + sum) ? h[i] + prevSum : l[i] + sum; prevSum = sum; sum = k; } } return sum; } }. The detected topics are Expected Complexities, Topic Tags, Dynamic Programming, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using return sum('3' not in str(i) for i in range(1, N+1)). The detected topics are Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3. Review the synced source file for the implementation details.
