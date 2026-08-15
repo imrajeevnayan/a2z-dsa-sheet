@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-07T19:26:15.007Z",
+  "submissionTimestamp": "2026-08-15T08:59:30.093Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "Expected Complexities",
+    "Company Tags Goldman Sachs",
+    "Company Tags",
+    "Goldman Sachs",
+    "Topic Tags",
+    "Strings",
+    "Related Interview Experiences",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def isPowerofTwo(self, n): # code here if n == 0: return False return n&(n-1) == 0",
+  "language": "class Solution: def merge(self, S1, S2): l=\"\" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
-  "submissionId": "ozyyzn"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-two-strings2736/1",
+  "submissionId": "rw0kf9"
 }
