@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-15T08:55:44.593Z",
+  "submissionTimestamp": "2026-08-15T08:56:35.080Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Kadane"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public int maxCircularSum(int arr[]) { // code here int globalMax=arr[0]; int globalMin=arr[0]; int currMin=0; int currMax=0; int n=arr.length; int totalSum=0; for(int i=0;i<n;i++) { currMax+=arr[i]; totalSum+=arr[i]; if(currMax<0) { currMax=0; globalMax=Math.max(arr[i],globalMax); } else{ globalMax=Math.max(currMax,globalMax); } currMin+=arr[i]; if(currMin>0) { currMin=0; } else{ globalMin=Math.min(currMin,globalMin); } } if(globalMax<0) return globalMax; return Math.max(totalSum-globalMin,globalMax); } }",
   "problemTitle": "Max Circular Subarray Sum",
   "problemUrl": "https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1",
-  "submissionId": "qn74d7"
+  "submissionId": "4u9arh"
 }
