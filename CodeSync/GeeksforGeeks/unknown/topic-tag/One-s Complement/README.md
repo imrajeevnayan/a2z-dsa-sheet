@@ -1,13 +1,13 @@
 # One's Complement
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def onesComplement(self,N): return int("".join(str(int(i=='0')) for i in bin(N)[2:]), 2)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Find Ones Complement Integer
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/ones-complement5928/1
-- Synced: 2026-08-15T08:53:57.131Z
+- Synced: 2026-08-15T08:54:42.627Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a positive integer n, find its one’s complement considering bits from th
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Find Ones Complement Integer. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def onesComplement(self,N): return int("".join(str(int(i=='0')) for i in bin(N)[2:]), 2). The detected topics are Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Find Ones Complement Integer. Review the synced source file for the implementation details.
