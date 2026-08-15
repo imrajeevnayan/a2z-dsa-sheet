@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Isomorphic Strings
- * URL: https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150
+ * URL: https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150
  * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Hash Table, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-15T11:58:54.646Z
+ * Runtime: 0 ms
+ * Memory: 43.92 MB
+ * Synced: 2026-08-15T11:59:42.646Z
  */
 
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        
+        int[] a = new int[256], b = new int[256];
+
+        for (int i = 0; i < s.length(); i++) {
+            if (a[s.charAt(i)] != b[t.charAt(i)])  return false;
+            a[s.charAt(i)] = b[t.charAt(i)] = i + 1;
+        }
+        return true;
     }
 }
