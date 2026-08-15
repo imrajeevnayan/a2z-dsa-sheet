@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T11:57:55.140Z
+- Synced: 2026-08-15T11:58:54.646Z
 
 ## Problem Description
 
