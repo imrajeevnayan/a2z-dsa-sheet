@@ -1,30 +1,54 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/high-effort-vs-low-effort0213/1
- * Language: class Solution { public int maxTask(int[] h, int[] l) { if (h.length == 0) return 0; int sum = 0; int prevSum = 0; int k = (h[0] > l[0]) ? h[0] : l[0]; sum = k; if (h.length > 1) { for(int i = 1; i < h.length; i++) { k = (h[i] + prevSum > l[i] + sum) ? h[i] + prevSum : l[i] + sum; prevSum = sum; sum = k; } } return sum; } }
+ * URL: https://www.geeksforgeeks.org/problems/count-numbers2004/1
+ * Language: return sum('3' not in str(i) for i in range(1, N+1))
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T08:13:59.450Z
+ * Synced: 2026-08-15T09:09:55.201Z
  */
 
 class Solution {
-    public int maxTask(int[] h, int[] l) {
-        int n = h.length;
-        int prev2 = 0;
-        int prev1 = 0;
+    int[][] dp;
+    String s;
+    int d;
 
-        for (int i = 0; i < n; i++) {
-            int low = prev1 + l[i];
-            int high = prev2 + h[i];
-            int current = Math.max(low, high);
+    int solve(int i, int tight, int start) {
+        if (i == s.length())
+            return start;
 
-            prev2 = prev1;
-            prev1 = current;
+        if (dp[i][tight] != -1 && start == 1)
+            return dp[i][tight];
+
+        int lim = tight == 1 ? s.charAt(i) - '0' : 9;
+        int ans = 0;
+
+        for (int x = 0; x <= lim; x++) {
+            if (start == 0 && x == 0) {
+                ans += solve(i + 1, tight & (x == lim ? 1 : 0), 0);
+            } else if (x != d) {
+                ans += solve(i + 1, tight & (x == lim ? 1 : 0), 1);
+            }
         }
 
-        return prev1;
+        if (start == 1)
+            dp[i][tight] = ans;
+
+        return ans;
+    }
+
+    public int countWithout(int n, int d) {
+        if (n == 0) return 0;
+
+        s = String.valueOf(n);
+        this.d = d;
+        dp = new int[s.length()][2];
+
+        for (int[] a : dp)
+            java.util.Arrays.fill(a, -1);
+
+        return solve(0, 1, 0);
     }
 }
