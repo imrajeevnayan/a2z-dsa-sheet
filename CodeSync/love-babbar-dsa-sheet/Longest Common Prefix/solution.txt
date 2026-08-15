@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Common Prefix
- * URL: https://leetcode.com/problems/decode-xored-array/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/longest-common-prefix/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 43.36 MB
- * Synced: 2026-07-23T04:11:57.829Z
+ * Topics: Array, String, Trie
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T11:50:22.513Z
  */
 
 class Solution {
