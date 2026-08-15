@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: LeetCode 75
-- Difficulty: Medium
-- Topics: Array, Prefix Sum
+- Language: Top Interview 150
+- Difficulty: Easy
+- Topics: Hash Table, String, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-04T10:45:24.360Z
+- Problem URL: https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-15T11:51:02.377Z
 
 ## Problem Description
 
-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. You must write an algorithm that runs in O(n) time and without using the division operation. Example 1: Input: nums = [1,2,3,4] Output: [24,12,8,6] Example 2: Input: nums = [-1,1,0,-3,3] Output: [0,0,9,0,0] Constraints: 2 <= nums.length <= 105 -30 <= nums[i] <= 30 The input is generated such that answer[i] is guaranteed to fit in a 32-bit integer. Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise. Each letter in magazine can only be used once in ransomNote. Example 1: Input: ransomNote = "a", magazine = "b" Output: false Example 2: Input: ransomNote = "aa", magazine = "ab" Output: false Example 3: Input: ransomNote = "aa", magazine = "aab" Output: true Constraints: 1 <= ransomNote.length, magazine.length <= 105 ransomNote and magazine consist of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
