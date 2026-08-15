@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-15T11:51:48.331Z",
+  "submissionTimestamp": "2026-08-15T11:52:37.969Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.40 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Top Interview 150",
   "problemTitle": "Ransom Note",
-  "problemUrl": "https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150",
+  "problemUrl": "https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150",
   "submissionId": "bplp68"
 }
