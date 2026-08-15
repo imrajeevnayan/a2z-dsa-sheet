@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-15T08:51:18.510Z",
+  "submissionTimestamp": "2026-08-15T08:52:09.593Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Check Whether Given Number Even Odd"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "def isEven (self, n): return not n & 1",
   "problemTitle": "Odd or Even",
   "problemUrl": "https://www.geeksforgeeks.org/problems/odd-or-even3618/1",
-  "submissionId": "krh0g7"
+  "submissionId": "w2fe0n"
 }
