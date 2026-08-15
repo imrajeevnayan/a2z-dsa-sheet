@@ -1,13 +1,13 @@
 # Longest Common Prefix
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top Interview 150
 - Difficulty: Easy
 - Topics: Array, String, Trie
-- Runtime: 0 ms
-- Memory: 43.36 MB
-- Problem URL: https://leetcode.com/problems/longest-common-prefix/submissions/2077526665/
-- Synced: 2026-07-22T18:26:18.037Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/longest-common-prefix/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-15T11:50:22.513Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Write a function to find the longest common prefix string amongst an array of st
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, String, Trie. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Array, String, Trie. Review the synced source file for the implementation details.
