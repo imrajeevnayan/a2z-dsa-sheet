@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-07T06:27:49.640Z",
-  "runtime": "180 ms",
-  "memoryUsage": "129.34 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-08-15T11:51:02.377Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "String",
+    "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Top Interview 150",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2085653833/",
-  "submissionId": "hozo9"
+  "problemUrl": "https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "7jezxk"
 }
