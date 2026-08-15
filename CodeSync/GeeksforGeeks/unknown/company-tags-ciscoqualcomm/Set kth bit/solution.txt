@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Set kth bit
+ * URL: https://www.geeksforgeeks.org/problems/set-kth-bit3724/1
+ * Language: class Solution: def setKthBit(self, n, k): # code here return n | (1 << k)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags CiscoQualcomm, Company Tags, Cisco, Qualcomm, Topic Tags, Bit Magic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T08:53:41.645Z
+ */
+
+class Solution {
+    static int setKthBit(int n, int k) {
+        return n | (1 << k);
+    }
+}
