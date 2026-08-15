@@ -2,17 +2,16 @@
  * Platform: GeeksforGeeks
  * Problem: Odd or Even
  * URL: https://www.geeksforgeeks.org/problems/odd-or-even3618/1
- * Language: Java (21)
+ * Language: def isEven (self, n): return not n & 1
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Check Whether Given Number Even Odd
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T08:51:18.510Z
+ * Synced: 2026-08-15T08:52:09.593Z
  */
 
 class Solution {
     static boolean isEven(int n) {
-        // code here
-        
+        return (n & 1) == 0;
     }
 }
