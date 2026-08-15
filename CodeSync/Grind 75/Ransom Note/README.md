@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T11:52:37.969Z
+- Synced: 2026-08-15T11:53:26.560Z
 
 ## Problem Description
 
