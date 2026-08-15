@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-15T08:55:44.593Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoft",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Topic Tags",
+    "Arrays",
+    "Kadane"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Max Circular Subarray Sum",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1",
+  "submissionId": "qn74d7"
+}
