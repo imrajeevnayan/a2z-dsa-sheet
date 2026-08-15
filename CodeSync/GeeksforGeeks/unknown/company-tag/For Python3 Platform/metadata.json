@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-05T11:08:07.076Z",
+  "submissionTimestamp": "2026-08-15T08:59:30.093Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Zoho",
+    "Company Tags Goldman Sachs",
     "Company Tags",
-    "Zoho",
+    "Goldman Sachs",
     "Topic Tags",
-    "Arrays",
-    "Sorting",
+    "Strings",
+    "Related Interview Experiences",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };",
+  "language": "class Solution: def merge(self, S1, S2): l=\"\" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/alternative-sorting1311/1",
-  "submissionId": "jjikf1"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-two-strings2736/1",
+  "submissionId": "rw0kf9"
 }
