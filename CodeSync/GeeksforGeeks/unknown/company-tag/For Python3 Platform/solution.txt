@@ -1,33 +1,25 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
- * Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
+ * URL: https://www.geeksforgeeks.org/problems/merge-two-strings2736/1
+ * Language: class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
+ * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T11:08:07.076Z
+ * Synced: 2026-08-15T08:59:30.093Z
  */
 
 class Solution {
-    public static ArrayList<Integer> alternateSort(int[] arr) {
-        Arrays.sort(arr);
-        ArrayList<Integer> ans = new ArrayList<>();
-        int left = 0,right = arr.length - 1;
+    String merge(String s1, String s2) {
+        String s = "";
+        int i = 0;
 
-        while (left <= right) {
-            if (left != right) {
-                ans.add(arr[right]); 
-                right--;
-
-                ans.add(arr[left]);  
-                left++;
-            } else {
-                ans.add(arr[left]); 
-                left++;
-            }
+        while (i < s1.length() || i < s2.length()) {
+            if (i < s1.length())  s += s1.charAt(i);
+            if (i < s2.length())  s += s2.charAt(i);
+            i++;
         }
-        return ans;
+        return s;
     }
 }
