@@ -1,13 +1,13 @@
 # Max Circular Subarray Sum
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public int maxCircularSum(int arr[]) { // code here int globalMax=arr[0]; int globalMin=arr[0]; int currMin=0; int currMax=0; int n=arr.length; int totalSum=0; for(int i=0;i<n;i++) { currMax+=arr[i]; totalSum+=arr[i]; if(currMax<0) { currMax=0; globalMax=Math.max(arr[i],globalMax); } else{ globalMax=Math.max(currMax,globalMax); } currMin+=arr[i]; if(currMin>0) { currMin=0; } else{ globalMin=Math.min(currMin,globalMin); } } if(globalMax<0) return globalMax; return Math.max(totalSum-globalMin,globalMax); } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Kadane
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
-- Synced: 2026-08-15T08:55:44.593Z
+- Synced: 2026-08-15T08:56:35.080Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a circular array arr[] of integers, find the maximum possible sum 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Kadane. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public int maxCircularSum(int arr[]) { // code here int globalMax=arr[0]; int globalMin=arr[0]; int currMin=0; int currMax=0; int n=arr.length; int totalSum=0; for(int i=0;i<n;i++) { currMax+=arr[i]; totalSum+=arr[i]; if(currMax<0) { currMax=0; globalMax=Math.max(arr[i],globalMax); } else{ globalMax=Math.max(currMax,globalMax); } currMin+=arr[i]; if(currMin>0) { currMin=0; } else{ globalMin=Math.min(currMin,globalMin); } } if(globalMax<0) return globalMax; return Math.max(totalSum-globalMin,globalMax); } }. The detected topics are Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Kadane. Review the synced source file for the implementation details.
