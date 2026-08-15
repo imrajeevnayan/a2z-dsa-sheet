@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-15T08:53:57.131Z",
+  "submissionTimestamp": "2026-08-15T08:54:42.627Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Find Ones Complement Integer"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution: def onesComplement(self,N): return int(\"\".join(str(int(i=='0')) for i in bin(N)[2:]), 2)",
   "problemTitle": "One's Complement",
   "problemUrl": "https://www.geeksforgeeks.org/problems/ones-complement5928/1",
-  "submissionId": "qlmcdv"
+  "submissionId": "bx04fj"
 }
