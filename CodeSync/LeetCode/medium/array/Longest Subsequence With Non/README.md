@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/?envType=daily-question&envId=2026-08-15
-- Synced: 2026-08-15T07:45:09.186Z
+- Synced: 2026-08-15T07:45:54.293Z
 
 ## Problem Description
 
