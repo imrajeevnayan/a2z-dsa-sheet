@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Bit Difference
+ * URL: https://www.geeksforgeeks.org/problems/bit-difference-1587115620/1
+ * Language: def countBitsFlip(self, a, b): return (a ^ b).bit_count()
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Bit Magic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T08:52:59.984Z
+ */
+
+class Solution {
+    public static int countBitsFlip(int a, int b) {
+        return Integer.bitCount(a ^ b);
+    }
+}
