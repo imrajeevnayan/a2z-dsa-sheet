@@ -2985,5 +2985,12 @@
     "GFG160"
   ],
   "leetcode:longest-subsequence-with-non-zero-bitwise-xor": [],
-  "leetcode:unique-email-addresses": []
+  "leetcode:unique-email-addresses": [],
+  "geeksforgeeks:odd-or-even3618": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
+  ]
 }
