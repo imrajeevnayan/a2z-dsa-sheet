@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Unique Email Addresses
+ * URL: https://leetcode.com/problems/unique-email-addresses/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T07:46:46.501Z
+ */
+
+class Solution {
+    public int numUniqueEmails(String[] emails) {
+        
+    }
+}
