@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-17T12:08:55.157Z",
+  "submissionTimestamp": "2026-08-15T11:57:55.140Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "Isomorphic Strings",
-  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/description/",
-  "submissionId": "wpppr3"
+  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "sb78l5"
 }
