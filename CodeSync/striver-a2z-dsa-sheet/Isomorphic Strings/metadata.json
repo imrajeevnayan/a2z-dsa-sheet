@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-15T11:58:54.646Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-15T11:59:42.646Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.92 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Top Interview 150",
   "problemTitle": "Isomorphic Strings",
-  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "sb78l5"
+  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "ovh1ry"
 }
