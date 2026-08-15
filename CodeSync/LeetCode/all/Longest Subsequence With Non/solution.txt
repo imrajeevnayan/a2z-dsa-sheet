@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Subsequence With Non
+ * URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/?envType=daily-question&envId=2026-08-15
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T07:45:09.186Z
+ */
+
+class Solution {
+    public int longestSubsequence(int[] nums) {
+        
+    }
+}
