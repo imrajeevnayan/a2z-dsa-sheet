@@ -7,11 +7,25 @@
  * Topics: Array, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T07:45:09.186Z
+ * Synced: 2026-08-15T07:45:54.293Z
  */
 
 class Solution {
     public int longestSubsequence(int[] nums) {
-        
+        int xor = 0;
+        boolean hasNonZero = false;
+
+        for (int num : nums) {
+            xor ^= num;
+            if (num != 0) {
+                hasNonZero = true;
+            
+        }
+
+        if (xor != 0) {
+            return nums.length;
+        }
+
+        return hasNonZero ? nums.length - 1 : 0;
     }
 }
