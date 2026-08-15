@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check for Binary String
+ * URL: https://www.geeksforgeeks.org/problems/check-for-binary/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Check For Binary String, Check If A Number Is Binary Or Not In Java
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-15T08:58:06.177Z
+ */
+
+class Solution {
+    public boolean isBinary(String s) {
+        for (char c : s.toCharArray()) {
+            if (c != '0' && c != '1')
+                return false;
+        }
+        return true;
+    }
+}
