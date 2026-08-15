@@ -4,10 +4,10 @@
 - Language: Top Interview 150
 - Difficulty: Medium
 - Topics: Hash Table, String, Sliding Window
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T07:49:49.089Z
+- Runtime: 0 ms
+- Memory: 47.89 MB
+- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2107387803/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-15T07:50:34.836Z
 
 ## Problem Description
 
