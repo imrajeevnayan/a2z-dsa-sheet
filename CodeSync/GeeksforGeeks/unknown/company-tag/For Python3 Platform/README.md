@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };
+- Language: class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles
+- Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/alternative-sorting1311/1
-- Synced: 2026-08-05T11:08:07.076Z
+- Problem URL: https://www.geeksforgeeks.org/problems/merge-two-strings2736/1
+- Synced: 2026-08-15T08:59:30.093Z
 
 ## Problem Description
 
-Given an array arr of distinct integers. Rearrange the array in such a way that the first element is the largest and the second element is the smallest, the third element is the second largest and the fourth element is the second smallest, and so on. Examples: Input: arr[] = [7, 1, 2, 3, 4, 5, 6] Output: [7, 1, 6, 2, 5, 3, 4] Explanation: The first element is first maximum and second element is first minimum and so on. Input: arr[] = [1, 6, 9, 4, 3, 7, 8, 2] Output: [9, 1, 8, 2, 7, 3, 6, 4] Explanation: The first element is first maximum and second element is first minimum and so on. Constraints: 1 ≤ arr.size() ≤ 105 1 ≤ arr[i] ≤ 105
+Given two strings s1 and s2, merge them alternatively i.e. the first character of s1 then the first character of s2 and so on till the strings end. Note: Add the whole string if other string is empty. Examples: Input: s1 = "Hello", s2 = "Bye" Output: HBeylelo Explanation: The characters of both the given strings are arranged alternatlively. Input: s1 = "abc", s2 = "def" Output: adbecf Explanation: The characters of both the given strings are arranged alternatlively. Constraints: 1<=|s1|, |s2| <=103
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: vector<int> alternateSort(vector<int>& arr) { // Your code goes here std::sort(arr.begin(), arr.end()); int start = 0; int end = arr.size() - 1; vector<int> ans; ans.reserve(arr.size()); while (start < end) { ans.push_back(arr[end--]); ans.push_back(arr[start++]); } if (start == end) { ans.push_back(arr[start]); } return ans; } };. The detected topics are Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Arrays, Sorting, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l. The detected topics are Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles. Review the synced source file for the implementation details.
