@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-15T09:09:55.201Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Mathematical",
+    "Related Articles",
+    "Count Numbers That Dont Contain 3"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "return sum('3' not in str(i) for i in range(1, N+1))",
+  "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-numbers2004/1",
+  "submissionId": "du3xya"
+}
