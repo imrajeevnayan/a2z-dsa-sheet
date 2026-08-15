@@ -1,18 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-13T18:34:04.023Z",
+  "submissionTimestamp": "2026-08-15T08:59:30.093Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities Topic Tags",
     "Expected Complexities",
+    "Company Tags Goldman Sachs",
+    "Company Tags",
+    "Goldman Sachs",
     "Topic Tags",
-    "Arrays",
-    "Bit Magic"
+    "Strings",
+    "Related Interview Experiences",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res",
+  "language": "class Solution: def merge(self, S1, S2): l=\"\" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/game-with-nos3123/1",
-  "submissionId": "qyp9gf"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-two-strings2736/1",
+  "submissionId": "rw0kf9"
 }
