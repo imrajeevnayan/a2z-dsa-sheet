@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/odd-or-even3618/1
-- Synced: 2026-08-15T08:52:09.593Z
+- Synced: 2026-08-15T08:52:57.590Z
 
 ## Problem Description
 
