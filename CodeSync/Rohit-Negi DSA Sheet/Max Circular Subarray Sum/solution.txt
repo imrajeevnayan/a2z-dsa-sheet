@@ -2,17 +2,33 @@
  * Platform: GeeksforGeeks
  * Problem: Max Circular Subarray Sum
  * URL: https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
- * Language: Java (21)
+ * Language: class Solution { public int maxCircularSum(int arr[]) { // code here int globalMax=arr[0]; int globalMin=arr[0]; int currMin=0; int currMax=0; int n=arr.length; int totalSum=0; for(int i=0;i<n;i++) { currMax+=arr[i]; totalSum+=arr[i]; if(currMax<0) { currMax=0; globalMax=Math.max(arr[i],globalMax); } else{ globalMax=Math.max(currMax,globalMax); } currMin+=arr[i]; if(currMin>0) { currMin=0; } else{ globalMin=Math.min(currMin,globalMin); } } if(globalMax<0) return globalMax; return Math.max(totalSum-globalMin,globalMax); } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Kadane
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T08:55:44.593Z
+ * Synced: 2026-08-15T08:56:35.080Z
  */
 
 class Solution {
     public int maxCircularSum(int arr[]) {
-        // code here
-        
+        int sum = 0;
+        int max = arr[0], curMax = 0;
+        int min = arr[0], curMin = 0;
+
+        for (int x : arr) {
+            curMax = Math.max(x, curMax + x);
+            max = Math.max(max, curMax);
+
+            curMin = Math.min(x, curMin + x);
+            min = Math.min(min, curMin);
+
+            sum += x;
+        }
+
+        if (max < 0)
+            return max;
+
+        return Math.max(max, sum - min);
     }
 }
