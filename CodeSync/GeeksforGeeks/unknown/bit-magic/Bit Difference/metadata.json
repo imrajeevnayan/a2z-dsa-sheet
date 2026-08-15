@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-15T08:52:59.984Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Bit Magic",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def countBitsFlip(self, a, b): return (a ^ b).bit_count()",
+  "problemTitle": "Bit Difference",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/bit-difference-1587115620/1",
+  "submissionId": "yom6uo"
+}
