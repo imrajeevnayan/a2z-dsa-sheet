@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-15T12:00:54.064Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "22",
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "5bcyrm"
+}
