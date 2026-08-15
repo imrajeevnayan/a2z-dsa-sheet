@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.92 MB
 - Problem URL: https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T12:06:24.637Z
+- Synced: 2026-08-15T12:07:10.078Z
 
 ## Problem Description
 
