@@ -1,13 +1,13 @@
 # Odd or Even
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: def isEven (self, n): return not n & 1
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Check Whether Given Number Even Odd
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/odd-or-even3618/1
-- Synced: 2026-08-15T08:51:18.510Z
+- Synced: 2026-08-15T08:52:57.590Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a positive integer n, determine whether it is odd or even. Return true if 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Check Whether Given Number Even Odd. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using def isEven (self, n): return not n & 1. The detected topics are Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Check Whether Given Number Even Odd. Review the synced source file for the implementation details.
