@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Bit Magic, Related Articles, Check Whether Given Number Even Odd
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T08:52:09.593Z
+ * Synced: 2026-08-15T08:52:57.590Z
  */
 
 class Solution {
