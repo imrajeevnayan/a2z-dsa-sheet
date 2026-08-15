@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Array, Bit Manipulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/?envType=daily-question&envId=2026-08-15
-- Synced: 2026-08-15T07:45:54.293Z
+- Runtime: 0 ms
+- Memory: 133.62 MB
+- Problem URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/submissions/2107384445/?envType=daily-question&envId=2026-08-15
+- Synced: 2026-08-15T07:46:41.410Z
 
 ## Problem Description
 
