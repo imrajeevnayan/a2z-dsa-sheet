@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Subsequence With Non
- * URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/?envType=daily-question&envId=2026-08-15
+ * URL: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/submissions/2107384445/?envType=daily-question&envId=2026-08-15
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-15T07:45:54.293Z
+ * Runtime: 0 ms
+ * Memory: 133.62 MB
+ * Synced: 2026-08-15T07:46:41.410Z
  */
 
 class Solution {
@@ -17,15 +17,9 @@ class Solution {
 
         for (int num : nums) {
             xor ^= num;
-            if (num != 0) {
-                hasNonZero = true;
-            
+            if (num != 0)  hasNonZero = true;
         }
-
-        if (xor != 0) {
-            return nums.length;
-        }
-
+        if (xor != 0)  return nums.length;
         return hasNonZero ? nums.length - 1 : 0;
     }
 }
