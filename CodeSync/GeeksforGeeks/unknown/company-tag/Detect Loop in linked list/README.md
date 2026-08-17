@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/lru-cache
-- Synced: 2026-08-17T09:04:36.976Z
+- Synced: 2026-08-17T09:06:04.027Z
 
 ## Problem Description
 
