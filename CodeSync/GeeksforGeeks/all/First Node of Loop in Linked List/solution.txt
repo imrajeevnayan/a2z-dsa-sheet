@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Node of Loop in Linked List
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/lru-cache
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, two-pointer-algorithm, Related Interview Experiences, Related Articles, Find First Node Of Loop In A Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-17T09:03:25.287Z
+ */
+
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int x)
+    {
+        data = x;
+        next = null;
+    }
+};
+*/
+
+class Solution {
+    public int cycleStart(Node head) {
+        // code here
+        
+    }
+}
