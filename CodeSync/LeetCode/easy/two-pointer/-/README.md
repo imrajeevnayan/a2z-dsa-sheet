@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Top Interview 150
 - Difficulty: Easy
-- Topics: Two Pointers, String
+- Topics: Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-27T10:33:17.832Z
+- Problem URL: https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-17T05:56:50.037Z
 
 ## Problem Description
 
-You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string. Example 1: Input: word1 = "abc", word2 = "pqr" Output: "apbqcr" Explanation: The merged string will be merged as so: word1: a b c word2: p q r merged: a p b q c r Example 2: Input: word1 = "ab", word2 = "pqrs" Output: "apbqrs" Explanation: Notice that as word2 is longer, "rs" is appended to the end. word1: a b word2: p q r s merged: a p b q r s Example 3: Input: word1 = "abcd", word2 = "pq" Output: "apbqcd" Explanation: Notice that as word1 is longer, "cd" is appended to the end. word1: a b c d word2: p q merged: a p b q c d Constraints: 1 <= word1.length, word2.length <= 100 word1 and word2 consist of lowercase English letters.
+Write an algorithm to determine if a number n is happy. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits. Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy. Return true if n is a happy number, and false if not. Example 1: Input: n = 19 Output: true Explanation: 12 + 92 = 82 82 + 22 = 68 62 + 82 = 100 12 + 02 + 02 = 1 Example 2: Input: n = 2 Output: false Constraints: 1 <= n <= 231 - 1
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
