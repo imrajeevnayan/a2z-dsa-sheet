@@ -1,18 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
+ * URL: https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Two Pointers, String
+ * Topics: Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-27T10:33:17.832Z
+ * Synced: 2026-08-17T05:56:50.037Z
  */
 
-Input: word1 = "abc", word2 = "pqr"
-Output: "apbqcr"
-Explanation: The merged string will be merged as so:
-word1:  a   b   c
-word2:    p   q   r
-merged: a p b q c r
+class Solution {
+    public boolean isHappy(int n) {
+        Set<Integer>s=new HashSet<>();
+        while(n!=1 && ! s.contains(n)){
+                s.add(n);
+                n=getNext(n);
+        }
+        return n==1;
+    }
+    static int getNext(int n){
+        int totalSum=0;
+        while(n > 0){
+            int d=n %10;
+            totalSum+=d*d;
+            n/=10;
+        }
+        return totalSum;
+    }
+}
