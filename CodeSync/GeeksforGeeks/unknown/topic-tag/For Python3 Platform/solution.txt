@@ -1,24 +1,28 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/game-with-nos3123/1
- * Language: def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1
+ * Language: class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Bit Magic
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-13T18:34:04.023Z
+ * Synced: 2026-08-17T09:14:49.850Z
  */
 
 class Solution {
-    public ArrayList<Integer> xorArray(int[] arr) {
-        ArrayList<Integer> ans = new ArrayList<>();
+    public int[] findSum(int n) {
+        int even = 0;
+        int odd = 0;
 
-        for (int i = 0; i < arr.length - 1; i++)
-            ans.add(arr[i] ^ arr[i + 1]);
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                even += i;
+            } else {
+                odd += i;
+            }
+        }
 
-        ans.add(arr[arr.length - 1]);
-
-        return ans;
+        return new int[]{odd, even};
     }
 }
