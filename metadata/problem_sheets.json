@@ -3040,5 +3040,10 @@
   ],
   "leetcode:word-pattern": [
     "custom:algomaster-300"
+  ],
+  "leetcode:stone-game-v": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
