@@ -1,28 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Linked List Group Reverse
- * URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
- * Language: """ class Node: def __init__(self, data): self.data = data self.next = None """ class Solution: def reverseKGroup(self, head, k): # Code here def reverse(node): curr = node prev = None l = 0 while curr and l < k: nxt = curr.next curr.next = prev prev = curr curr = nxt l += 1 return prev, curr dummy = Node(0) back = dummy while head: prev, front = reverse(head) back.next = prev back = head head.next = front head = front return dummy.next
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T17:14:26.307Z
+ * Synced: 2026-08-17T09:09:04.211Z
  */
+
+/* Structure of linked list Node
+class Node
+{
+    int data;
+    Node next;
+    Node(int key)
+    {
+        data = key;
+        next = null;
+    }
+}*/
 
 class Solution {
     public Node reverseKGroup(Node head, int k) {
-        Node curr = head, prev = null, next = null;
-        int count = 0;
-
-        while (curr != null && count < k) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-            count++;
-        }
-        if(curr != null) head.next = reverseKGroup(curr, k);
-        return prev;
+        // code here
+        
     }
 }
