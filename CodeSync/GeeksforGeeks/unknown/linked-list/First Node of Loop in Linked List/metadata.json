@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-17T09:03:25.287Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "two-pointer-algorithm",
+    "Related Interview Experiences",
+    "Related Articles",
+    "Find First Node Of Loop In A Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "First Node of Loop in Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/lru-cache",
+  "submissionId": "oklu00"
+}
