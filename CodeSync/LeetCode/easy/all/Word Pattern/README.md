@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.97 MB
 - Problem URL: https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-17T05:54:37.800Z
+- Synced: 2026-08-17T05:55:25.016Z
 
 ## Problem Description
 
