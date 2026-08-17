@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-17T09:18:03.045Z",
+  "submissionTimestamp": "2026-08-17T09:22:27.598Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Mathematical",
-    "Related Articles"
+    "Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def isSorted(self, head): increase = decrease = True while(head.next is not None): increase = (increase and (head.data <= head.next.data)) decrease = (decrease and (head.data >= head.next.data)) head = head.next return (increase or decrease)",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1",
-  "submissionId": "3j2htq"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/is-linked-list-sorted/1",
+  "submissionId": "ch462l"
 }
