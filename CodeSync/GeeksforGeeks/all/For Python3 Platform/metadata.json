@@ -1,21 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-15T08:59:30.093Z",
+  "submissionTimestamp": "2026-08-17T09:14:49.850Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Goldman Sachs",
-    "Company Tags",
-    "Goldman Sachs",
     "Topic Tags",
-    "Strings",
-    "Related Interview Experiences",
+    "Mathematical",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def merge(self, S1, S2): l=\"\" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l",
+  "language": "class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-two-strings2736/1",
-  "submissionId": "rw0kf9"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1",
+  "submissionId": "3j2htq"
 }
