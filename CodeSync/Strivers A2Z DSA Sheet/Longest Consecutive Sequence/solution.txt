@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Consecutive Sequence
- * URL: https://leetcode.com/problems/longest-consecutive-sequence/submissions/2067810200/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 22 ms
- * Memory: 77.52 MB
- * Synced: 2026-07-14T19:07:40.157Z
+ * URL: https://leetcode.com/problems/longest-consecutive-sequence/submissions/2109745512/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Union-Find
+ * Runtime: 1 ms
+ * Memory: 77.44 MB
+ * Synced: 2026-08-17T05:59:26.765Z
  */
 
 class Solution {
