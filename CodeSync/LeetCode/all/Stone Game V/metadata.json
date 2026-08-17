@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-17T05:53:50.325Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Game Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Stone Game V",
+  "problemUrl": "https://leetcode.com/problems/stone-game-v/description/?envType=daily-question&envId=2026-08-17",
+  "submissionId": "cwqupl"
+}
