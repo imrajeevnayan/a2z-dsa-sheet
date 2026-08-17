@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-17T05:53:50.325Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-17T05:54:37.375Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.33 MB",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Stone Game V",
-  "problemUrl": "https://leetcode.com/problems/stone-game-v/description/?envType=daily-question&envId=2026-08-17",
-  "submissionId": "cwqupl"
+  "problemUrl": "https://leetcode.com/problems/stone-game-v/submissions/2109740530/?envType=daily-question&envId=2026-08-17",
+  "submissionId": "we5j3f"
 }
