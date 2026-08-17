@@ -1,18 +1,18 @@
 # Longest Consecutive Sequence
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Easy
-- Topics: Uncategorized
-- Runtime: 22 ms
-- Memory: 77.52 MB
-- Problem URL: https://leetcode.com/problems/longest-consecutive-sequence/submissions/2067810200/
-- Synced: 2026-07-14T19:07:40.157Z
+- Language: Top Interview 150
+- Difficulty: Medium
+- Topics: Array, Hash Table, Union-Find
+- Runtime: 1 ms
+- Memory: 77.44 MB
+- Problem URL: https://leetcode.com/problems/longest-consecutive-sequence/submissions/2109745512/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-17T05:59:26.765Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence. You must write an algorithm that runs in O(n) time. Example 1: Input: nums = [100,4,200,1,3,2] Output: 4 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4. Example 2: Input: nums = [0,3,7,2,5,8,4,6,0,1] Output: 9 Example 3: Input: nums = [1,0,1,2] Output: 3 Constraints: 0 <= nums.length <= 105 -109 <= nums[i] <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are Array, Hash Table, Union-Find. Review the synced source file for the implementation details.
