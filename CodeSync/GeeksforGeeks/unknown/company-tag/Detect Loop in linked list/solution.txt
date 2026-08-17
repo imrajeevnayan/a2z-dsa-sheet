@@ -7,24 +7,19 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-17T09:04:36.976Z
+ * Synced: 2026-08-17T09:06:04.027Z
  */
-
-/*
-class Node {
-    int data;
-    Node next;
-
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}
-*/
 
 class Solution {
     public boolean detectLoop(Node head) {
-        // code here
-        
+        Node slow = head,fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)  return true;
+        }
+        return false;
     }
 }
