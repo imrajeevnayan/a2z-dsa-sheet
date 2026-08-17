@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list
-- Synced: 2026-08-17T09:10:04.932Z
+- Synced: 2026-08-17T09:11:13.306Z
 
 ## Problem Description
 
