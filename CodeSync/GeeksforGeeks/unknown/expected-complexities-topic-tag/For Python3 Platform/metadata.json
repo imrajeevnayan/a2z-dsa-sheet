@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-13T18:34:04.023Z",
+  "submissionTimestamp": "2026-08-17T09:22:27.598Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,12 +7,11 @@
     "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Arrays",
-    "Bit Magic"
+    "Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "def game_with_number(arr, n): res = [] for i in range(n-1): res.append(arr[i] ^ arr[i+1]) res.append(arr[-1]) return res",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def isSorted(self, head): increase = decrease = True while(head.next is not None): increase = (increase and (head.data <= head.next.data)) decrease = (decrease and (head.data >= head.next.data)) head = head.next return (increase or decrease)",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/game-with-nos3123/1",
-  "submissionId": "qyp9gf"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/is-linked-list-sorted/1",
+  "submissionId": "ch462l"
 }
