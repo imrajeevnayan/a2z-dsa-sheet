@@ -1,13 +1,13 @@
 # Linked List Group Reverse
 
 - Platform: GeeksforGeeks
-- Language: """ class Node: def __init__(self, data): self.data = data self.next = None """ class Solution: def reverseKGroup(self, head, k): # Code here def reverse(node): curr = node prev = None l = 0 while curr and l < k: nxt = curr.next curr.next = prev prev = curr curr = nxt l += 1 return prev, curr dummy = Node(0) back = dummy while head: prev, front = reverse(head) back.next = prev back = head head.next = front head = front return dummy.next
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
-- Synced: 2026-07-22T17:14:26.307Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list
+- Synced: 2026-08-17T09:09:04.211Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a Singly linked list. Reverse every k node in the linked list 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using """ class Node: def __init__(self, data): self.data = data self.next = None """ class Solution: def reverseKGroup(self, head, k): # Code here def reverse(node): curr = node prev = None l = 0 while curr and l < k: nxt = curr.next curr.next = prev prev = curr curr = nxt l += 1 return prev, curr dummy = Node(0) back = dummy while head: prev, front = reverse(head) back.next = prev back = head head.next = front head = front return dummy.next. The detected topics are Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal. Review the synced source file for the implementation details.
