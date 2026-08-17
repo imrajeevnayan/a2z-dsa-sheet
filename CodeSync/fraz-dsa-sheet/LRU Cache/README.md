@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Morgan Stanley, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists
-- Synced: 2026-08-08T19:09:42.515Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/lru-cache
+- Synced: 2026-08-17T09:03:07.260Z
 
 ## Problem Description
 
