@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l
+- Language: class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles
+- Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/merge-two-strings2736/1
-- Synced: 2026-08-15T08:59:30.093Z
+- Problem URL: https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1
+- Synced: 2026-08-17T09:14:49.850Z
 
 ## Problem Description
 
-Given two strings s1 and s2, merge them alternatively i.e. the first character of s1 then the first character of s2 and so on till the strings end. Note: Add the whole string if other string is empty. Examples: Input: s1 = "Hello", s2 = "Bye" Output: HBeylelo Explanation: The characters of both the given strings are arranged alternatlively. Input: s1 = "abc", s2 = "def" Output: adbecf Explanation: The characters of both the given strings are arranged alternatlively. Constraints: 1<=|s1|, |s2| <=103
+Given an integer n, Return an array containing the sum of odd numbers and even numbers from 1 to n, where the first number is the sum of odd numbers and the second number is the sum of even numbers. Examples: Input: n = 5 Output: 9 6 Explanation: Odd numbers upto 5 are 1, 3, 5 and their sum = 1 + 3 + 5 = 9.Even numbers upto 5 are 2 and 4 and their sum = 2 + 4 = 6. Input: n = 6 Output: 9 12 Explanation: Odd numbers upto 6 are 1, 3, 5 and their sum = 1 + 3 + 5 = 9.Even numbers upto 5 are 2 , 4 and 6 and their sum = 2 + 4 + 6 = 12. Constraints: 1 <= n <= 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l. The detected topics are Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };. The detected topics are Expected Complexities, Topic Tags, Mathematical, Related Articles. Review the synced source file for the implementation details.
