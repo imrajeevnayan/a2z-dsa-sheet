@@ -7,25 +7,30 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, two-pointer-algorithm, Related Interview Experiences, Related Articles, Find First Node Of Loop In A Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-17T09:03:25.287Z
+ * Synced: 2026-08-17T09:04:11.094Z
  */
-
-/*
-class Node {
-    int data;
-    Node next;
-
-    Node(int x)
-    {
-        data = x;
-        next = null;
-    }
-};
-*/
 
 class Solution {
     public int cycleStart(Node head) {
-        // code here
-        
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                slow = head;
+
+                while (slow != fast) {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+
+                return slow.data;
+            }
+        }
+
+        return -1;
     }
 }
