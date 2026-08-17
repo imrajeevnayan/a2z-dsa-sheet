@@ -1,20 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/roman-to-integer/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Hash Table, Math, String
+ * Topics: Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T19:59:57.278Z
+ * Synced: 2026-08-17T05:56:50.037Z
  */
 
-Symbol       Value
-I             1
-V             5
-X             10
-L             50
-C             100
-D             500
-M             1000
+class Solution {
+    public boolean isHappy(int n) {
+        Set<Integer>s=new HashSet<>();
+        while(n!=1 && ! s.contains(n)){
+                s.add(n);
+                n=getNext(n);
+        }
+        return n==1;
+    }
+    static int getNext(int n){
+        int totalSum=0;
+        while(n > 0){
+            int d=n %10;
+            totalSum+=d*d;
+            n/=10;
+        }
+        return totalSum;
+    }
+}
