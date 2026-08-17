@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Lowest Common Ancestor of a Binary Tree
+ * URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=dxlqos71
+ * Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-17T09:25:13.576Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        
+    }
+}
