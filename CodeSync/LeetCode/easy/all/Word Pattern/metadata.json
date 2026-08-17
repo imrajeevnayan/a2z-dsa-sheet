@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-17T05:51:26.222Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-17T05:52:11.238Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.97 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Top Interview 150",
   "problemTitle": "Word Pattern",
-  "problemUrl": "https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "mvdzkf"
+  "problemUrl": "https://leetcode.com/problems/word-pattern/submissions/2109738069/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "2z1x8f"
 }
