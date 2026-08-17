@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-17T09:14:49.850Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Mathematical",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1",
+  "submissionId": "3j2htq"
+}
