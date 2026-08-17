@@ -6,8 +6,8 @@
 - Topics: Hash Table, String
 - Runtime: 0 ms
 - Memory: 42.97 MB
-- Problem URL: https://leetcode.com/problems/word-pattern/submissions/2109738069/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-17T05:52:11.238Z
+- Problem URL: https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-17T05:53:04.999Z
 
 ## Problem Description
 
