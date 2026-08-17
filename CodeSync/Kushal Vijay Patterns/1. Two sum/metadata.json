@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-06T06:32:57.572Z",
+  "submissionTimestamp": "2026-08-17T05:53:05.139Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Hash Table"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "1. Two sum",
-  "problemUrl": "https://leetcode.com/problems/two-sum/",
-  "submissionId": "ozech9"
+  "problemUrl": "https://leetcode.com/problems/two-sum/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "3awy4u"
 }
