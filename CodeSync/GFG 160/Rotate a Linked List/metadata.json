@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-08T16:01:01.298Z",
+  "submissionTimestamp": "2026-08-17T09:06:21.635Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Rotate a Linked List",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/reverse-a-linked-list",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list",
   "submissionId": "bucwmi"
 }
