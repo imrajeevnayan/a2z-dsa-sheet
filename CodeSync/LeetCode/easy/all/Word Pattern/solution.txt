@@ -1,32 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Word Pattern
- * URL: https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150
+ * URL: https://leetcode.com/problems/word-pattern/submissions/2109738069/?envType=study-plan-v2&envId=top-interview-150
  * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Hash Table, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-17T05:51:26.222Z
+ * Runtime: 0 ms
+ * Memory: 42.97 MB
+ * Synced: 2026-08-17T05:52:11.238Z
  */
 
 for (int i = 0; i < pattern.length(); i++) {
             char c = pattern.charAt(i);
             String word = words[i];
 
-            if (map.containsKey(c) && !map.get(c).equals(word)) {
-                return false;
-            }
-
-            if (reverseMap.containsKey(word) && reverseMap.get(word) != c) {
+            if (map.containsKey(c) && !map.get(c).equals(word)) return false;
+            
+            if (reverseMap.containsKey(word) && reverseMap.get(word) != c) return false;
         Map<String, Character> reverseMap = new HashMap<>();
         Map<Character, String> map = new HashMap<>();
         if (pattern.length() != words.length)  return false;
     public boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
-                return false;
-            }
 
-        
             map.put(c, word);
             reverseMap.put(word, c);
+        }
+        return true;
+    }
+
+}
