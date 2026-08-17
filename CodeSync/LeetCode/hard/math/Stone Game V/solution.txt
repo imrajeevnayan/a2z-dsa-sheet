@@ -7,7 +7,7 @@
  * Topics: Array, Math, Dynamic Programming, Game Theory
  * Runtime: 0 ms
  * Memory: 46.33 MB
- * Synced: 2026-08-17T05:54:37.375Z
+ * Synced: 2026-08-17T05:55:27.667Z
  */
 
 if (leftSum < rightSum) {
@@ -15,12 +15,12 @@ if (leftSum < rightSum) {
 
                 for (int mid = left; mid < right; mid++) {
                     int leftSum = prefix[mid + 1] - prefix[left];
-
                 int right = left + len - 1;
-            for (int left = 0; left + len <= n; left++) {
-        for (int len = 2; len <= n; len++) {
 
+        for (int len = 2; len <= n; len++) {
+            for (int left = 0; left + len <= n; left++) {
         int[][] dp = new int[n][n];
+
 
         }
             prefix[i + 1] = prefix[i] + stoneValue[i];
