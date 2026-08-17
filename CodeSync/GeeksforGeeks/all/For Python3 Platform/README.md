@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1
-- Synced: 2026-08-17T09:16:27.046Z
+- Synced: 2026-08-17T09:17:15.045Z
 
 ## Problem Description
 
