@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: For Python3 Platform
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1
+ * Language: class Solution { public: vector<int> findSum(int n) { // Code here int evenSum = 0; int oddSum = 0; for(int i = 1; i <= n ; i++){ if(i % 2 == 0){ evenSum += i; } else{ oddSum += i; } } return {oddSum , evenSum}; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-17T09:14:49.850Z
+ */
+
+class Solution {
+    public int[] findSum(int n) {
+        int even = 0;
+        int odd = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                even += i;
+            } else {
+                odd += i;
+            }
+        }
+
+        return new int[]{odd, even};
+    }
+}
