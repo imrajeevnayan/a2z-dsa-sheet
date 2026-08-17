@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-15T11:51:02.377Z",
+  "submissionTimestamp": "2026-08-17T05:50:39.957Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
-    "String",
-    "Counting"
+    "String"
   ],
   "platform": "LeetCode",
   "language": "Top Interview 150",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "7jezxk"
+  "problemUrl": "https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "slh0sg"
 }
