@@ -7,24 +7,28 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Accolite, Amazon, Microsoft, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-17T09:09:04.211Z
+ * Synced: 2026-08-17T09:10:04.932Z
  */
-
-/* Structure of linked list Node
-class Node
-{
-    int data;
-    Node next;
-    Node(int key)
-    {
-        data = key;
-        next = null;
-    }
-}*/
 
 class Solution {
     public Node reverseKGroup(Node head, int k) {
-        // code here
+        if (head == null || k == 1) return head;
         
+
+        Node curr = head;
+        Node prev = null;
+        Node next = null;
+        int count = 0;
+
+        while (curr != null && count < k) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            count++;
+        }
+        head.next = reverseKGroup(curr, k);
+
+        return prev;
     }
 }
