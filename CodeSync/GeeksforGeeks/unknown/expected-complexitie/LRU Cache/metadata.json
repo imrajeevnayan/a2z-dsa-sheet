@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-08T19:09:42.515Z",
+  "submissionTimestamp": "2026-08-17T09:03:07.260Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "LRU Cache",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists",
-  "submissionId": "hwgs97"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/lru-cache",
+  "submissionId": "m1ejse"
 }
