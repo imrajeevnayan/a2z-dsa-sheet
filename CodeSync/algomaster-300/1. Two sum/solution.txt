@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 1. Two sum
- * URL: https://leetcode.com/problems/two-sum/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/two-sum/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-06T06:32:57.572Z
+ * Synced: 2026-08-17T05:53:05.139Z
  */
 
 class Solution {
