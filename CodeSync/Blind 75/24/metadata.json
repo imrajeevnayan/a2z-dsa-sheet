@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-17T05:58:39.121Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Union-Find"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "24",
+  "problemUrl": "https://leetcode.com/problems/longest-consecutive-sequence/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "kob9jd"
+}
