@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Stone Game V
+ * URL: https://leetcode.com/problems/stone-game-v/description/?envType=daily-question&envId=2026-08-17
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Dynamic Programming, Game Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-17T05:53:50.325Z
+ */
+
+class Solution {
+    public int stoneGameV(int[] stoneValue) {
+        
+    }
+}
