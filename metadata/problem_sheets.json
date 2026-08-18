@@ -3090,5 +3090,28 @@
   "geeksforgeeks:find-the-minimum-time0253": [
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
+  ],
+  "leetcode:valid-palindrome-ii": [
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "TopInterview150",
+    "StriverA2Z",
+    "NishantChahar151",
+    "ApnaCollege375",
+    "FrazBhaiya",
+    "AlgoMaster75",
+    "SixComp30Days",
+    "Striver79",
+    "AtharvaPatil150",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
