@@ -6,8 +6,8 @@
 - Topics: String, Simulation
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/faulty-keyboard/description/
-- Synced: 2026-08-18T08:22:29.785Z
+- Problem URL: https://leetcode.com/problems/faulty-keyboard/
+- Synced: 2026-08-18T08:24:07.917Z
 
 ## Problem Description
 
