@@ -1,17 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Count Pairs Whose Sum is Less than Target
- * URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
+ * URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Binary Search, Sorting
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:09:47.252Z
+ * Synced: 2026-08-18T08:28:53.704Z
  */
 
-int sum = nums.get(left) + nums.get(right);
+class Solution {
+    public int countPairs(List<Integer> nums, int target) {
+        Collections.sort(nums);
+        int left = 0,right = nums.size() - 1,count = 0;
         while (left < right) {
+            int sum = nums.get(left) + nums.get(right);
             if (sum < target) {
                 count += (right - left);
                 left++;
@@ -19,7 +23,4 @@ int sum = nums.get(left) + nums.get(right);
         }
         return count;
     }
-        Collections.sort(nums);
-        int left = 0,right = nums.size() - 1,count = 0;
-    public int countPairs(List<Integer> nums, int target) {
-class Solution {
+}
