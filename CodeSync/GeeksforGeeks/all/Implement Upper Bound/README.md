@@ -1,13 +1,13 @@
 # Implement Upper Bound
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: int upperBound(vector<int>& arr, int target) { // code here int ans=arr.size(); int low=0; int high=arr.size()-1; while(low<=high){ int mid=low+(high-low)/2; if(arr[mid] > target){ ans=min(mid,ans); high=mid-1; }else{ low=mid+1; } } return ans; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-upper-bound/1
-- Synced: 2026-08-18T10:53:25.534Z
+- Synced: 2026-08-18T10:54:24.436Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] and a number target, the task is to find the upper bo
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: int upperBound(vector<int>& arr, int target) { // code here int ans=arr.size(); int low=0; int high=arr.size()-1; while(low<=high){ int mid=low+(high-low)/2; if(arr[mid] > target){ ans=min(mid,ans); high=mid-1; }else{ low=mid+1; } } return ans; } };. The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Upper Bound. Review the synced source file for the implementation details.
