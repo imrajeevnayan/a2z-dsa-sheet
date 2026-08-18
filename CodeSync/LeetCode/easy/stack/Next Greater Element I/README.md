@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Stack, Monotonic Stack
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/next-greater-element-i/
-- Synced: 2026-08-18T08:30:12.216Z
+- Problem URL: https://leetcode.com/problems/next-greater-element-i/description/
+- Synced: 2026-08-18T08:31:02.767Z
 
 ## Problem Description
 
