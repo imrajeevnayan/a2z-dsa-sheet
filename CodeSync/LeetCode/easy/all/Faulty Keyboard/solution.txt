@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Faulty Keyboard
- * URL: https://leetcode.com/problems/faulty-keyboard/
+ * URL: https://leetcode.com/problems/faulty-keyboard/submissions/2111137101/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Simulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-18T08:17:42.565Z
+ * Memory: 46.13 MB
+ * Synced: 2026-08-18T08:18:57.925Z
  */
 
 class Solution {
@@ -17,9 +17,7 @@ class Solution {
         for (char ch : s.toCharArray()) {
             if (ch == 'i') sb.reverse();
             else sb.append(ch);
-            
         }
-
         return sb.toString();
     }
 }
