@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: ere (testcase failed)
+ * URL: https://leetcode.com/problems/find-the-original-typed-string-i/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-18T08:15:58.313Z
+ */
+
+class Solution {
+    public int possibleStringCount(String word) {
+        int ans = 1;
+
+        for (int i = 1; i < word.length(); i++) {
+            if (word.charAt(i) == word.charAt(i - 1)) ans++;
+        }
+        return ans;
+    }
+}
