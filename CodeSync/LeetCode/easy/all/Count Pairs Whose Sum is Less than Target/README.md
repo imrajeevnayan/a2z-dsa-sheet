@@ -1,13 +1,13 @@
 # Count Pairs Whose Sum is Less than Target
 
 - Platform: LeetCode
-- Language: Binary Search
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Binary Search, Sorting
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-07-24T12:09:47.252Z
+- Problem URL: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/
+- Synced: 2026-08-18T08:28:53.704Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a 0-indexed integer array nums of length n and an integer target, return t
 
 ## Explanation
 
-This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
