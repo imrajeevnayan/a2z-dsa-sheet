@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-18T08:46:31.751Z",
+  "submissionTimestamp": "2026-08-18T08:47:30.539Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Implement Lower Bound"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }",
   "problemTitle": "Implement Lower Bound",
   "problemUrl": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
-  "submissionId": "sr4yo3"
+  "submissionId": "tmya48"
 }
