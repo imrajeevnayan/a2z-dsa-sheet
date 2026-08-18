@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Find the minimum time
+ * URL: https://www.geeksforgeeks.org/problems/find-the-minimum-time0253/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Oracle Topic Tags Related Articles, Company Tags Oracle, Company Tags, Oracle, Topic Tags, Mathematical, Binary Search, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-18T08:45:10.356Z
+ */
+
+class Solution {
+    static int minTime(int S1, int S2, int N) {
+        // code here
+        
+    }
+}
