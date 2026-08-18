@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-18T07:59:40.070Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-18T08:00:27.364Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Daily Question",
   "problemTitle": "Find the Largest Almost Missing Integer",
   "problemUrl": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/?envType=daily-question&envId=2026-08-18",
-  "submissionId": "6rfbxe"
+  "submissionId": "krq5fx"
 }
