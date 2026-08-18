@@ -7,15 +7,10 @@
  * Topics: Array, Hash Table, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T18:03:25.464Z
+ * Synced: 2026-08-18T08:29:26.494Z
  */
 
-class Solution {
-    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        Map<Integer, Integer> map = new HashMap<>();
-        Stack<Integer> stack = new Stack<>();
-
-        for (int num : nums2) {
+for (int num : nums2) {
             while (!stack.isEmpty() && stack.peek() < num) {
                 map.put(stack.pop(), num);
             }
@@ -28,3 +23,7 @@ class Solution {
         for (int i = 0; i < nums1.length; i++) {
             ans[i] = map.get(nums1[i]);
         }
+
+        return ans;
+    }
+}
