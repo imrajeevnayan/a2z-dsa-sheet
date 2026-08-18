@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/next-greater-element-i/description/
-- Synced: 2026-08-18T11:04:43.665Z
+- Synced: 2026-08-18T11:05:37.671Z
 
 ## Problem Description
 
