@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-18T08:29:26.494Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Next Greater Element I",
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/description/",
+  "submissionId": "muvadz"
+}
