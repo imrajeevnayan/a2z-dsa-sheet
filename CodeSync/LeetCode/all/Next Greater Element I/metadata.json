@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-18T12:33:25.102Z",
+  "submissionTimestamp": "2026-08-18T12:34:58.662Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Next Greater Element I",
-  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/description/",
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/",
   "submissionId": "23mtc"
 }
