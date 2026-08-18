@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Stack, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-18T11:04:43.665Z
+ * Synced: 2026-08-18T11:05:37.671Z
  */
 
 for (int i = nums2.length - 1; i >= 0; i--) {
