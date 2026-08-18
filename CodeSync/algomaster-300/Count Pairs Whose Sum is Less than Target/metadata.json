@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-24T12:09:47.252Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-18T08:28:53.704Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,8 +10,8 @@
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Problem List",
   "problemTitle": "Count Pairs Whose Sum is Less than Target",
-  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "mahppi"
+  "problemUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/",
+  "submissionId": "fuirid"
 }
