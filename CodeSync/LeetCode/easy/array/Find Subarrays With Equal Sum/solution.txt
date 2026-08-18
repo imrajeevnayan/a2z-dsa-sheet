@@ -7,16 +7,17 @@
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-18T08:12:04.933Z
+ * Synced: 2026-08-18T08:12:50.140Z
  */
 
 class Solution {
     public boolean findSubarrays(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 
-        for (int i = 1; i < nums.length; i++) {
-            int sum = nums[i] + nums[i - 1];
-            if (!set.add(sum))  return true;
+        for (int i = 0; i < nums.length - 1; i++) {
+            int sum = nums[i] + nums[i + 1];
+            if (set.contains(sum)) return true;
+            set.add(sum);
         }
         return false;
     }
