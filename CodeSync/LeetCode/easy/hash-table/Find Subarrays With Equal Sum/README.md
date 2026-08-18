@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/
-- Synced: 2026-08-18T08:03:10.094Z
+- Problem URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/description/
+- Synced: 2026-08-18T08:03:57.463Z
 
 ## Problem Description
 
