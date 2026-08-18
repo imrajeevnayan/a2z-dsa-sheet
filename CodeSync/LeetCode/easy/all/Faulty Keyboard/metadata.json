@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-18T08:19:45.734Z",
+  "submissionTimestamp": "2026-08-18T08:20:32.180Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.13 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Faulty Keyboard",
-  "problemUrl": "https://leetcode.com/problems/faulty-keyboard/submissions/2111137101/",
+  "problemUrl": "https://leetcode.com/problems/faulty-keyboard/description/",
   "submissionId": "w6hyhj"
 }
