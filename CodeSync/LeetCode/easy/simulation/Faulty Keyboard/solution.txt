@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Faulty Keyboard
- * URL: https://leetcode.com/problems/faulty-keyboard/description/
+ * URL: https://leetcode.com/problems/faulty-keyboard/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-18T08:22:29.785Z
+ * Synced: 2026-08-18T08:24:07.917Z
  */
 
 class Solution {
