@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-18T08:03:10.094Z",
+  "submissionTimestamp": "2026-08-18T08:03:57.463Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Subarrays With Equal Sum",
-  "problemUrl": "https://leetcode.com/problems/find-subarrays-with-equal-sum/",
+  "problemUrl": "https://leetcode.com/problems/find-subarrays-with-equal-sum/description/",
   "submissionId": "oa5zoe"
 }
