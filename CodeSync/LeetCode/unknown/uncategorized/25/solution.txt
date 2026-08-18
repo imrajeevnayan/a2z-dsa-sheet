@@ -1,15 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 25
- * URL: https://leetcode.com/discuss/post/8466575/leetcode-easy-revision-sheet-part-1-by-v-5600/
+ * URL: https://leetcode.com/settings/profile/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-18T08:16:44.861Z
+ * Synced: 2026-08-18T08:26:19.357Z
  */
 
-while N > 0:
-    bit = N & 1
-    N >>= 1
+MCA graduate with strong skills in Core Java, Advanced Java, SpringBoot
