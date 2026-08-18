@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/description/
-- Synced: 2026-08-18T08:08:06.933Z
+- Synced: 2026-08-18T08:11:14.683Z
 
 ## Problem Description
 
