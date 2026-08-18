@@ -7,7 +7,7 @@
  * Topics: String, Simulation
  * Runtime: 0 ms
  * Memory: 46.13 MB
- * Synced: 2026-08-18T08:18:57.925Z
+ * Synced: 2026-08-18T08:19:45.734Z
  */
 
 class Solution {
