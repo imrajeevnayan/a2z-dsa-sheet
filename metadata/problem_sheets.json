@@ -3076,5 +3076,15 @@
   "leetcode:25": [],
   "leetcode:find-subarrays-with-equal-sum": [],
   "leetcode:find-the-original-typed-string-i": [],
-  "leetcode:faulty-keyboard": []
+  "leetcode:faulty-keyboard": [],
+  "leetcode:next-greater-element-i": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
