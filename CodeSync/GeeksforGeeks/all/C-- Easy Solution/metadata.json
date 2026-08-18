@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-29T20:32:45.873Z",
+  "submissionTimestamp": "2026-08-18T08:46:00.965Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities Topic Tags",
-    "Expected Complexities",
+    "Company Tags Oracle Topic Tags Related Articles",
+    "Company Tags Oracle",
+    "Company Tags",
+    "Oracle",
     "Topic Tags",
-    "Java",
-    "Queue",
-    "STL",
-    "Java-Collections",
-    "Data Structures"
+    "Mathematical",
+    "Binary Search",
+    "Related Articles"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: // Function to insert all elements of the array in deque. deque<int> deque_Init(int a[], int n) { return {a, a+n}; } };",
-  "problemTitle": "C++ Easy Solution::",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/insertion-in-deque/1",
-  "submissionId": "kgxia1"
+  "language": "class Solution{ public: bool isPossible(int s1, int s2, int n, int mid) { if((mid/s1)+(mid/s2) >= n) return true; return false; } int minTime(int s1, int s2, int n){ int start = 0; int end = min(s1*n,s2*n); int ans = 0; while(start <= end) { int mid = start + (end-start)/2; if(isPossible(s1, s2, n, mid)) { ans = mid; end = mid - 1; } else start = mid + 1; } return ans; } };",
+  "problemTitle": "C++ Easy Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-the-minimum-time0253/1",
+  "submissionId": "cou471"
 }
