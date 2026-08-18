@@ -1,23 +1,18 @@
 /*
  * Platform: GeeksforGeeks
- * Problem: C++ Easy Solution::
- * URL: https://www.geeksforgeeks.org/problems/insertion-in-deque/1
- * Language: class Solution { public: // Function to insert all elements of the array in deque. deque<int> deque_Init(int a[], int n) { return {a, a+n}; } };
+ * Problem: C++ Easy Solution
+ * URL: https://www.geeksforgeeks.org/problems/find-the-minimum-time0253/1
+ * Language: class Solution{ public: bool isPossible(int s1, int s2, int n, int mid) { if((mid/s1)+(mid/s2) >= n) return true; return false; } int minTime(int s1, int s2, int n){ int start = 0; int end = min(s1*n,s2*n); int ans = 0; while(start <= end) { int mid = start + (end-start)/2; if(isPossible(s1, s2, n, mid)) { ans = mid; end = mid - 1; } else start = mid + 1; } return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Queue, STL, Java-Collections, Data Structures
+ * Topics: Company Tags Oracle Topic Tags Related Articles, Company Tags Oracle, Company Tags, Oracle, Topic Tags, Mathematical, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:32:45.873Z
+ * Synced: 2026-08-18T08:46:00.965Z
  */
 
 class Solution {
-    public Deque<Integer> dqInsertion(List<Integer> arr) {
-        Deque<Integer> dq = new ArrayDeque<>();
-
-        for (int x : arr) {
-            dq.addLast(x);
-        }
-
-        return dq;
+    static int minTime(int S1, int S2, int N) {
+        // code here
+        
     }
 }
