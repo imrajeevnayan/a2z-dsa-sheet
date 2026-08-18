@@ -1,29 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Faulty Keyboard
- * URL: https://leetcode.com/problems/faulty-keyboard/description/
+ * URL: https://leetcode.com/problems/faulty-keyboard/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-18T08:16:56.897Z
+ * Synced: 2026-08-18T08:17:42.565Z
  */
 
-for (char ch : s.toCharArray()) {
-            if (ch == 'i') {
-                reversed = !reversed; // toggle direction
-            } else {
-                if (!reversed) {
-                    sb.append(ch);
-                } else {
-                    sb.insert(0, ch); // simulate reversed insertion
-                }
-            }
-        }
+class Solution {
+    public String finalString(String s) {
+        StringBuilder sb = new StringBuilder();
 
-        if (reversed) {
-            sb.reverse();
+        for (char ch : s.toCharArray()) {
+            if (ch == 'i') sb.reverse();
+            else sb.append(ch);
+            
         }
 
         return sb.toString();
