@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Palindrome II
+ * URL: https://leetcode.com/problems/valid-palindrome-ii/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Two Pointers, String, Greedy
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-18T11:03:40.027Z
+ */
+
+class Solution {
+    static boolean isPalindrome(String s,int left ,int right){
+        while(left < right){
+            if(s.charAt(left++)!=s.charAt(right--)) return false;
+        }
+        return true;
+    }
+ public boolean validPalindrome(String s) {
+    int left=0,right=s.length()-1;
+    while(left < right){
+     if(s.charAt(left)!=s.charAt(right))
+      return isPalindrome(s, left+1 ,right) || isPalindrome(s, left ,right-1);
+      left++; right --;
+    }
+    return true;      
+    }
+}
