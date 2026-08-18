@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Subarrays With Equal Sum
+ * URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-18T08:02:21.581Z
+ */
+
+class Solution {
+    public boolean findSubarrays(int[] nums) {
+        
+    }
+}
