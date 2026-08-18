@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-18T10:55:58.313Z",
+  "submissionTimestamp": "2026-08-18T10:57:04.393Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "class Solution { public: int upperBound(vector<int>& arr, int target) { // code here int ans=arr.size(); int low=0; int high=arr.size()-1; while(low<=high){ int mid=low+(high-low)/2; if(arr[mid] > target){ ans=min(mid,ans); high=mid-1; }else{ low=mid+1; } } return ans; } };",
   "problemTitle": "Implement Upper Bound",
   "problemUrl": "https://www.geeksforgeeks.org/problems/implement-upper-bound/1",
-  "submissionId": "a3pbur"
+  "submissionId": "x8ch08"
 }
