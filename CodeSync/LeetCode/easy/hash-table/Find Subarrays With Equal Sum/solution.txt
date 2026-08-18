@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Subarrays With Equal Sum
- * URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/
+ * URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-18T08:03:10.094Z
+ * Synced: 2026-08-18T08:03:57.463Z
  */
 
 class Solution {
