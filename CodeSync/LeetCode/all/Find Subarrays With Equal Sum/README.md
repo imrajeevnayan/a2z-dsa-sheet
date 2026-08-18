@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-subarrays-with-equal-sum/
-- Synced: 2026-08-18T08:02:21.581Z
+- Synced: 2026-08-18T08:03:10.094Z
 
 ## Problem Description
 
