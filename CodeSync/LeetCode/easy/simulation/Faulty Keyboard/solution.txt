@@ -1,0 +1,31 @@
+/*
+ * Platform: LeetCode
+ * Problem: Faulty Keyboard
+ * URL: https://leetcode.com/problems/faulty-keyboard/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-18T08:16:56.897Z
+ */
+
+for (char ch : s.toCharArray()) {
+            if (ch == 'i') {
+                reversed = !reversed; // toggle direction
+            } else {
+                if (!reversed) {
+                    sb.append(ch);
+                } else {
+                    sb.insert(0, ch); // simulate reversed insertion
+                }
+            }
+        }
+
+        if (reversed) {
+            sb.reverse();
+        }
+
+        return sb.toString();
+    }
+}
