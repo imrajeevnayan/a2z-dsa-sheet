@@ -1,13 +1,13 @@
 # Implement Lower Bound
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
-- Synced: 2026-08-18T08:46:31.751Z
+- Synced: 2026-08-18T08:47:30.539Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] (following 0-based indexing) and a number target, fin
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }. The detected topics are Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound. Review the synced source file for the implementation details.
