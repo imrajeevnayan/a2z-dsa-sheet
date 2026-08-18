@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Simulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/faulty-keyboard/
-- Synced: 2026-08-18T08:17:42.565Z
+- Memory: 46.13 MB
+- Problem URL: https://leetcode.com/problems/faulty-keyboard/submissions/2111137101/
+- Synced: 2026-08-18T08:18:57.925Z
 
 ## Problem Description
 
