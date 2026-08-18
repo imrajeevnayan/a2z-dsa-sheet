@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Arrays, Related Articles, Implement Lower Bound
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-18T08:47:30.539Z
+ * Synced: 2026-08-18T10:52:53.170Z
  */
 
 class Solution {
