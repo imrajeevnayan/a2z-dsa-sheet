@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/8466575/leetcode-easy-revision-sheet-part-1-by-v-5600/
-- Synced: 2026-08-18T08:16:44.861Z
+- Problem URL: https://leetcode.com/settings/profile/
+- Synced: 2026-08-18T08:26:19.357Z
 
 ## Problem Description
 
