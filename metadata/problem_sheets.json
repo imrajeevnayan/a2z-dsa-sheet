@@ -1717,7 +1717,10 @@
   ],
   "leetcode:merge-nodes-in-between-zeros": [],
   "leetcode:merge-in-between-linked-lists": [],
-  "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [],
+  "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ],
   "leetcode:add-two-numbers": [
     "NeetCode150",
     "TopInterview150",
