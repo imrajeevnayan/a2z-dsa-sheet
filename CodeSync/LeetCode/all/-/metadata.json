@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-17T05:50:39.957Z",
+  "submissionTimestamp": "2026-08-19T12:31:21.782Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "String"
+    "Linked List",
+    "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "slh0sg"
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
+  "submissionId": "1spnjr"
 }
