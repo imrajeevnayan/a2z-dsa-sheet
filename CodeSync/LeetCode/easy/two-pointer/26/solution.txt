@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: 26
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T12:33:33.942Z
+ */
+
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode slow=head,fast=head;
+        while(fast!=null && fast.next !=null ){
+            fast=fast.next.next;
+            slow=slow.next;
+        }
+       return slow; 
+    }
+}
