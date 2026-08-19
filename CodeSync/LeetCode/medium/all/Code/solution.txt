@@ -7,21 +7,22 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T13:48:46.077Z
+ * Synced: 2026-08-19T13:50:13.768Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public int[] nodesBetweenCriticalPoints(ListNode head) {
+if (first == -1) first = index;
+               else {
+                    min = Math.min(min, index - prev);
+                    max = index - first;
+                }
+                prev = index;
+            }
+            head = curr;
+            curr = curr.next;
+            index++;
+        }
+        if (max == -1) {
+            return new int[]{-1, -1};
         
-    }
-}
+
+        return new int[]{min, max};
