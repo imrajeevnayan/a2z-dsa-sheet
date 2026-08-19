@@ -4,10 +4,10 @@
 - Language: Linked List
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: 0 ms
-- Memory: 49.38 MB
-- Problem URL: https://leetcode.com/problems/merge-in-between-linked-lists/submissions/2112688708/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-08-19T12:49:29.005Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/merge-in-between-linked-lists/description/?envType=problem-list-v2&envId=linked-list
+- Synced: 2026-08-19T12:50:26.847Z
 
 ## Problem Description
 
