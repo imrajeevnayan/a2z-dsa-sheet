@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Linked List
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/split-linked-list-in-parts/submissions/2036186240/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:32:25.434Z
+- Problem URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list
+- Synced: 2026-08-19T13:48:46.077Z
 
 ## Problem Description
 
-Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts. The length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null. The parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later. Return an array of the k parts. Example 1: Input: head = [1,2,3], k = 5 Output: [[1],[2],[3],[],[]] Explanation: The first element output[0] has output[0].val = 1, output[0].next = null. The last element output[4] is null, but its string representation as a ListNode is []. Example 2: Input: head = [1,2,3,4,5,6,7,8,9,10], k = 3 Output: [[1,2,3,4],[5,6,7],[8,9,10]] Explanation: The input has been split into consecutive parts with size difference at most 1, and earlier parts are a larger size than the later parts. Constraints: The number of nodes in the list is in the range [0, 1000]. 0 <= Node.val <= 1000 1 <= k <= 50
+A critical point in a linked list is defined as either a local maxima or a local minima. A node is a local maxima if the current node has a value strictly greater than the previous node and the next node. A node is a local minima if the current node has a value strictly smaller than the previous node and the next node. Note that a node can only be a local maxima/minima if there exists both a previous node and a next node. Given a linked list head, return an array of length 2 containing [minDistance, maxDistance] where minDistance is the minimum distance between any two distinct critical points and maxDistance is the maximum distance between any two distinct critical points. If there are fewer than two critical points, return [-1, -1]. Example 1: Input: head = [3,1] Output: [-1,-1] Explanation: There are no critical points in [3,1]. Example 2: Input: head = [5,3,1,2,5,1,2] Output: [1,3] Explanation: There are three critical points: - [5,3,1,2,5,1,2]: The third node is a local minima because 1 is less than 3 and 2. - [5,3,1,2,5,1,2]: The fifth node is a local maxima because 5 is greater than 2 and 1. - [5,3,1,2,5,1,2]: The sixth node is a local minima because 1 is less than 5 and 2. The minimum distance is between the fifth and the sixth node. minDistance = 6 - 5 = 1. The maximum distance is between the third and the sixth node. maxDistance = 6 - 3 = 3. Example 3: Input: head = [1,3,2,2,3,2,2,2,7] Output: [3,3] Explanation: There are two critical points: - [1,3,2,2,3,2,2,2,7]: The second node is a local maxima because 3 is greater than 1 and 2. - [1,3,2,2,3,2,2,2,7]: The fifth node is a local maxima because 3 is greater than 2 and 2. Both the minimum and maximum distances are between the second and the fifth node. Thus, minDistance and maxDistance is 5 - 2 = 3. Note that the last node is not considered a local maxima because it does not have a next node. Constraints: The number of nodes in the list is in the range [2, 105]. 1 <= Node.val <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Linked List. The detected topics are Linked List. Review the synced source file for the implementation details.
