@@ -1,19 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T09:47:55.310Z",
+  "submissionTimestamp": "2026-08-19T13:48:46.077Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Divide and Conquer",
-    "Greedy",
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Linked List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/balance-a-binary-search-tree/",
-  "submissionId": "k3fepg"
+  "problemUrl": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "ic1u48"
 }
