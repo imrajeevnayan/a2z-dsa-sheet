@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T12:32:42.035Z",
+  "submissionTimestamp": "2026-08-19T12:34:06.568Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.86 MB",
+  "memoryUsage": "44.11 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Java",
   "problemTitle": "26",
-  "problemUrl": "https://leetcode.com/submissions/detail/2112598492/",
-  "submissionId": "pm5pgz"
+  "problemUrl": "https://leetcode.com/submissions/detail/2112585513/",
+  "submissionId": "xd0o7p"
 }
