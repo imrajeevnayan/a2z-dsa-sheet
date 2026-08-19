@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-30T09:57:37.757Z",
+  "submissionTimestamp": "2026-08-19T11:03:10.687Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
     "Linked List",
-    "Two Pointers"
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/description/",
   "submissionId": "nbidh8"
 }
