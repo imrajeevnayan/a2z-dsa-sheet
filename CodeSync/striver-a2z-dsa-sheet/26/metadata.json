@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-19T12:33:33.942Z",
+  "submissionTimestamp": "2026-08-19T12:34:12.920Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
-    "Two Pointers"
+    "Recursion"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "26",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/description/",
-  "submissionId": "1ukdk4"
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/",
+  "submissionId": "tpgnsv"
 }
