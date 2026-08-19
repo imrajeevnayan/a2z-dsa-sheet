@@ -5,9 +5,9 @@
 - Difficulty: Unknown
 - Topics: Uncategorized
 - Runtime: 0 ms
-- Memory: 46.86 MB
-- Problem URL: https://leetcode.com/submissions/detail/2112598492/
-- Synced: 2026-08-19T12:32:42.035Z
+- Memory: 44.11 MB
+- Problem URL: https://leetcode.com/submissions/detail/2112585513/
+- Synced: 2026-08-19T12:34:06.568Z
 
 ## Problem Description
 
