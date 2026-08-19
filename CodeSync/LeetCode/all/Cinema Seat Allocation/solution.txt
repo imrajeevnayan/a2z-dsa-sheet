@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Cinema Seat Allocation
- * URL: https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19
+ * URL: https://leetcode.com/problems/cinema-seat-allocation/submissions/2112584085/?envType=daily-question&envId=2026-08-19
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, Greedy, Bit Manipulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-19T10:48:15.856Z
+ * Memory: 53.18 MB
+ * Synced: 2026-08-19T10:49:03.927Z
  */
 
 for (int mask : rows.values()) {
@@ -19,13 +19,13 @@ for (int mask : rows.values()) {
         int left = 0b00111100;
 
         int result = (n - rows.size()) * 2;
-
-                rows.put(seat[0], rows.getOrDefault(seat[0], 0) | (1 << seat[1]));
+            if (l && r) {
+                result += 2;
+            } else if (l || r || (mask & middle) == 0) {
+                result++;
             }
         }
-            if (seat[1] >= 2 && seat[1] <= 9) {
-        for (int[] seat : reservedSeats) {
 
-        Map<Integer, Integer> rows = new HashMap<>();
-    public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
-class Solution {
+        return result;
+    }
+}
