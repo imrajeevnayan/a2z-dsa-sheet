@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Array, Hash Table, Greedy, Bit Manipulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19
-- Synced: 2026-08-19T10:47:26.850Z
+- Synced: 2026-08-19T10:48:15.856Z
 
 ## Problem Description
 
