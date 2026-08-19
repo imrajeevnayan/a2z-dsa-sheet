@@ -1716,13 +1716,7 @@
     "GFG160"
   ],
   "leetcode:merge-nodes-in-between-zeros": [],
-  "leetcode:merge-in-between-linked-lists": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
-    "custom:arsh-goyal-dsa-sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
-  ],
+  "leetcode:merge-in-between-linked-lists": [],
   "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [],
   "leetcode:add-two-numbers": [
     "NeetCode150",
