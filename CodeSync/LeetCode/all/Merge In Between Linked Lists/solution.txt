@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T12:52:46.847Z
+ * Synced: 2026-08-19T12:53:33.849Z
  */
 
 for (int i = 0; i < a - 1; i++) start = start.next;
