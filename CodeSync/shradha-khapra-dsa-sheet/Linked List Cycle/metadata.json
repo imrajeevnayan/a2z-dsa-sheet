@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T11:03:10.687Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-19T11:03:55.743Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.86 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/description/",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/",
   "submissionId": "nbidh8"
 }
