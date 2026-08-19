@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: Text
 - Difficulty: Easy
-- Topics: Hash Table, String
+- Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-17T05:50:39.957Z
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+- Synced: 2026-08-19T12:31:21.782Z
 
 ## Problem Description
 
-Given a pattern and a string s, find if s follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s. Specifically: Each letter in pattern maps to exactly one unique word in s. Each unique word in s maps to exactly one letter in pattern. No two letters map to the same word, and no two words map to the same letter. Example 1: Input: pattern = "abba", s = "dog cat cat dog" Output: true Explanation: The bijection can be established as: 'a' maps to "dog". 'b' maps to "cat". Example 2: Input: pattern = "abba", s = "dog cat cat fish" Output: false Example 3: Input: pattern = "aaaa", s = "dog cat cat dog" Output: false Constraints: 1 <= pattern.length <= 300 pattern contains only lower-case English letters. 1 <= s.length <= 3000 s contains only lowercase English letters and spaces ' '. s does not contain any leading or trailing spaces. All the words in s are separated by a single space.
+You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
