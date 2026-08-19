@@ -7,14 +7,13 @@
  * Topics: Expected Complexities, Company Tags MicrosoftMAQ SoftwareSAP Labs, Company Tags, Microsoft, MAQ Software, SAP Labs, Topic Tags, circular-linked-list
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T06:56:03.247Z
+ * Synced: 2026-08-19T06:57:09.954Z
  */
 
 class Solution {
     boolean isCircular(Node head) {
         if (head == null) return false;
-        Node slow = head;
-        Node fast = head;
+        Node slow = head, fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
