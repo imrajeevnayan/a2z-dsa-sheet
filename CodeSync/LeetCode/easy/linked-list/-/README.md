@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Text
 - Difficulty: Easy
-- Topics: Linked List
+- Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
-- Synced: 2026-07-01T04:07:48.793Z
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+- Synced: 2026-08-19T12:31:21.782Z
 
 ## Problem Description
 
-Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well. Example 1: Input: head = [1,1,2] Output: [1,2] Example 2: Input: head = [1,1,2,3,3] Output: [1,2,3] Constraints: The number of nodes in the list is in the range [0, 300]. -100 <= Node.val <= 100 The list is guaranteed to be sorted in ascending order.
+You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
