@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/circular-linked-list/1
-- Synced: 2026-08-19T06:57:57.947Z
+- Synced: 2026-08-19T06:58:45.947Z
 
 ## Problem Description
 
