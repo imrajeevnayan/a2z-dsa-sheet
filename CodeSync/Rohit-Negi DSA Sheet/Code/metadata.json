@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-19T13:50:13.768Z",
+  "submissionTimestamp": "2026-08-19T13:52:13.664Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List"
+    "Two Pointers",
+    "String",
+    "Stack"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Stack",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "5m7lji"
+  "problemUrl": "https://leetcode.com/problems/reverse-prefix-of-word/description/?envType=problem-list-v2&envId=stack",
+  "submissionId": "9mop8d"
 }
