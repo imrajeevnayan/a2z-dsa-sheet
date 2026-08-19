@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Cinema Seat Allocation
+ * URL: https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Greedy, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T10:47:26.850Z
+ */
+
+class Solution {
+    public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
+        
+    }
+}
