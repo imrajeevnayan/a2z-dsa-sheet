@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-19T13:55:16.779Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Stack",
+    "Design",
+    "Queue"
+  ],
+  "platform": "LeetCode",
+  "language": "Stack",
+  "problemTitle": "Implement Stack using Queues",
+  "problemUrl": "https://leetcode.com/problems/implement-stack-using-queues/?envType=problem-list-v2&envId=stack",
+  "submissionId": "x1sf"
+}
