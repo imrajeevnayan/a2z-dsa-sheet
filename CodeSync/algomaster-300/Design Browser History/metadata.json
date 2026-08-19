@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-19T13:47:26.467Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Linked List",
+    "Stack",
+    "Design",
+    "Doubly-Linked List",
+    "Data Stream"
+  ],
+  "platform": "LeetCode",
+  "language": "Linked List",
+  "problemTitle": "Design Browser History",
+  "problemUrl": "https://leetcode.com/problems/design-browser-history/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "1fnhpm"
+}
