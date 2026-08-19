@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Length of Linked List
  * URL: https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
- * Language: class Solution { public: int getCount(Node* head) { // Code here int count = 0; while(head != NULL){ count++; head = head->next; } return count; } };
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T16:05:55.613Z
+ * Synced: 2026-08-19T06:50:51.936Z
  */
 
 class Solution {
@@ -18,6 +18,6 @@ class Solution {
             len++;
             curr=curr.next;
         }
-      return len
+      return len;
     }
 }
