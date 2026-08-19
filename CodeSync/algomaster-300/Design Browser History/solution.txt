@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Design Browser History
+ * URL: https://leetcode.com/problems/design-browser-history/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T13:47:26.467Z
+ */
+
+class BrowserHistory {
+
+    public BrowserHistory(String homepage) {
+        
+    }
+    
+    public void visit(String url) {
+        
+    }
+    
+    public String back(int steps) {
+        
+    }
+    
+    public String forward(int steps) {
