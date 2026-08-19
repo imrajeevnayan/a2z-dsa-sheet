@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * Language: Text
  * Difficulty: Easy
- * Topics: Hash Table, String, Counting
+ * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T11:51:02.377Z
+ * Synced: 2026-08-19T12:31:21.782Z
  */
 
-class Solution {
-    public boolean canConstruct(String ransomNote, String magazine) {
-        
-    }
-}
+Input: list1 = [1,2,4], list2 = [1,3,4]
+Output: [1,1,2,3,4,4]
