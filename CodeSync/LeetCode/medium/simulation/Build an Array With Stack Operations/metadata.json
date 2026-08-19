@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T13:52:53.589Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-19T13:53:39.781Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.41 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Stack",
   "problemTitle": "Build an Array With Stack Operations",
-  "problemUrl": "https://leetcode.com/problems/build-an-array-with-stack-operations/description/?envType=problem-list-v2&envId=stack",
-  "submissionId": "xqpsul"
+  "problemUrl": "https://leetcode.com/problems/build-an-array-with-stack-operations/?envType=problem-list-v2&envId=stack",
+  "submissionId": "khrj9c"
 }
