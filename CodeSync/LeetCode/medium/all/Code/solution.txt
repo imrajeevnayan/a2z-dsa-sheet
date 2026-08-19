@@ -1,25 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/balance-a-binary-search-tree/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
  * Difficulty: Medium
- * Topics: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T09:47:55.310Z
+ * Synced: 2026-08-19T13:48:46.077Z
  */
 
-*     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- *     TreeNode() {}
- *     TreeNode right;
- *     TreeNode left;
- * public class TreeNode {
- *     int val;
- * Definition for a binary tree node.
 /**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public int[] nodesBetweenCriticalPoints(ListNode head) {
+        
+    }
+}
