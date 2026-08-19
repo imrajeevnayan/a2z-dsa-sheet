@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.31 MB
 - Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2112756025/?envType=problem-list-v2&envId=stack
-- Synced: 2026-08-19T13:52:32.765Z
+- Synced: 2026-08-19T13:53:21.761Z
 
 ## Problem Description
 
