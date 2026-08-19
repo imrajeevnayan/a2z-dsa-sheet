@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T10:49:38.580Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-19T10:50:25.499Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.11 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Linked List",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/",
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/submissions/2112585513/",
   "submissionId": "gphjah"
 }
