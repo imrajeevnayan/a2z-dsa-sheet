@@ -1,23 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Outermost Parentheses
- * URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2084495853/?envType=problem-list-v2&envId=daajjpf2
- * Language: String for placement (Copy-5yz5vikt)ne
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2112756025/?envType=problem-list-v2&envId=stack
+ * Language: Stack
  * Difficulty: Easy
- * Topics: String, Stack
+ * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
- * Memory: 0.00 MB
- * Synced: 2026-07-28T09:00:50.838Z
+ * Memory: 43.31 MB
+ * Synced: 2026-08-19T13:52:32.765Z
  */
 
-if (c == '(') {
+StringBuilder sb = new StringBuilder();
+        int count = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                if (count++ > 0) sb.append(c);
             } else {
                 if (--count > 0) sb.append(c);
             }
-        for (char c : s.toCharArray()) {
-        int count = 0;
         }
-                if (count++ > 0) sb.append(c);
-        StringBuilder sb = new StringBuilder();
+        return sb.toString();
+    }
+}
     public String removeOuterParentheses(String s) {
 class Solution {
