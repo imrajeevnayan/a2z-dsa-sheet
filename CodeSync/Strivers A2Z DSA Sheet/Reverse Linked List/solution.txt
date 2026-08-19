@@ -1,18 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=9gvhzx23
- * Language: Linked List
+ * URL: https://leetcode.com/problems/reverse-linked-list/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-18T04:18:18.152Z
+ * Synced: 2026-08-19T10:49:38.580Z
  */
 
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode prev=null,curr=head;
+        ListNode prev=null;
+        ListNode curr=head;
         while(curr!=null){
             ListNode temp=curr.next;
             curr.next=prev;
