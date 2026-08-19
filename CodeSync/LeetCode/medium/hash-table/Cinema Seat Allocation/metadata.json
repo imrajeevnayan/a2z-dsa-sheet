@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T10:48:15.856Z",
+  "submissionTimestamp": "2026-08-19T10:49:03.927Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "53.18 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Cinema Seat Allocation",
-  "problemUrl": "https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19",
-  "submissionId": "p3nmog"
+  "problemUrl": "https://leetcode.com/problems/cinema-seat-allocation/submissions/2112584085/?envType=daily-question&envId=2026-08-19",
+  "submissionId": "gg5puh"
 }
