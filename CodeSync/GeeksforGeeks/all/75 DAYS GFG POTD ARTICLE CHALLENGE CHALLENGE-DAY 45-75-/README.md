@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insert-in-a-sorted-list/1
-- Synced: 2026-08-19T07:18:27.007Z
+- Synced: 2026-08-19T10:34:25.266Z
 
 ## Problem Description
 
