@@ -1,18 +1,18 @@
 # 26
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Java
 - Difficulty: Easy
-- Topics: Linked List, Recursion
+- Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/description/
-- Synced: 2026-08-19T12:34:12.920Z
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=problem-list-v2&envId=stack
+- Synced: 2026-08-19T13:51:35.728Z
 
 ## Problem Description
 
-Given the head of a singly linked list, reverse the list, and return the reversed list. Example 1: Input: head = [1,2,3,4,5] Output: [5,4,3,2,1] Example 2: Input: head = [1,2] Output: [2,1] Example 3: Input: head = [] Output: [] Constraints: The number of nodes in the list is the range [0, 5000]. -5000 <= Node.val <= 5000 Follow up: A linked list can be reversed either iteratively or recursively. Could you implement both?
+A valid parentheses string is either empty "", "(" + A + ")", or A + B, where A and B are valid parentheses strings, and + represents string concatenation. For example, "", "()", "(())()", and "(()(()))" are all valid parentheses strings. A valid parentheses string s is primitive if it is nonempty, and there does not exist a way to split it into s = A + B, with A and B nonempty valid parentheses strings. Given a valid parentheses string s, consider its primitive decomposition: s = P1 + P2 + ... + Pk, where Pi are primitive valid parentheses strings. Return s after removing the outermost parentheses of every primitive string in the primitive decomposition of s. Example 1: Input: s = "(()())(())" Output: "()()()" Explanation: The input string is "(()())(())", with primitive decomposition "(()())" + "(())". After removing outer parentheses of each part, this is "()()" + "()" = "()()()". Example 2: Input: s = "(()())(())(()(()))" Output: "()()()()(())" Explanation: The input string is "(()())(())(()(()))", with primitive decomposition "(()())" + "(())" + "(()(()))". After removing outer parentheses of each part, this is "()()" + "()" + "()(())" = "()()()()(())". Example 3: Input: s = "()()" Output: "" Explanation: The input string is "()()", with primitive decomposition "()" + "()". After removing outer parentheses of each part, this is "" + "" = "". Constraints: 1 <= s.length <= 105 s[i] is either '(' or ')'. s is a valid parentheses string.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
