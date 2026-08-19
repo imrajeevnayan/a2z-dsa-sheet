@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-17T07:44:58.077Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-19T10:50:44.525Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Linked List (Copy-9gvhzx23)",
+  "language": "Problem List",
   "problemTitle": "Middle of the Linked List",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=da95pk23",
-  "submissionId": "ev2znw"
+  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+  "submissionId": "q0f9l3"
 }
