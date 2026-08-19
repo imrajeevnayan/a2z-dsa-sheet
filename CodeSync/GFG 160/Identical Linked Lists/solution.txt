@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Identical Linked Lists
+ * URL: https://www.geeksforgeeks.org/problems/identical-linked-lists/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Identical Linked Lists
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T07:07:20.619Z
+ */
+
+/* Structure of a Node
+class Node {
+    int data;
+    Node next;
+
+    public Node(int data){
+        this.data = data;
+        this.next = null;
+    }
+}*/
+class Solution {
+    public boolean areIdentical(Node head1, Node head2) {
+        // code here
+        
+    }
+}
