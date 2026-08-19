@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-19T10:47:26.850Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Cinema Seat Allocation",
+  "problemUrl": "https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19",
+  "submissionId": "my8qae"
+}
