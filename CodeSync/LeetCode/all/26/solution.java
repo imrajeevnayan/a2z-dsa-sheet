@@ -1,26 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 26
- * URL: https://leetcode.com/submissions/detail/2112585513/
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=problem-list-v2&envId=stack
  * Language: Java
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 44.11 MB
- * Synced: 2026-08-19T12:34:06.568Z
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T13:51:35.728Z
  */
 
-1
-2class Solution {
-3    public ListNode reverseList(ListNode head) {
-4        ListNode prev=null;
-5        ListNode curr=head;
-6        while(curr!=null){
-7            ListNode temp=curr.next;
-8            curr.next=prev;
-9            prev=curr;
-10            curr=temp;
-11        }
-12        return prev;
-13    }
-14}
+class Solution {
+    public String removeOuterParentheses(String s) {
+        StringBuilder sb = new StringBuilder();
+        int count = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                if (count++ > 0) sb.append(c);
+            } else {
+                if (--count > 0) sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+}
