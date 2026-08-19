@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 45/75)
+ * URL: https://www.geeksforgeeks.org/problems/insert-in-a-sorted-list/1
+ * Language: class Solution: def sortedInsert(self, head, value): # Check if the linked list is empty or the new value is smaller than the head. if not head or value < head.data: new_node = Node(value) new_node.next = head return new_node current = head # Traverse the linked list to find the appropriate position to insert the value. while current.next and current.next.data < value: current = current.next new_node = Node(value) new_node.next = current.next current.next = new_node return head
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonWiproSAP Labs, Company Tags, Amazon, Wipro, SAP Labs, Topic Tags, Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T07:14:53.000Z
+ */
+
+class Solution {
+    public Node sortedInsert(Node head, int key) {
+        Node newNode = new Node(key);
+
+        if (head == null || key <= head.data) {
+            newNode.next = head;
+            return newNode;
+        }
+
+        Node temp = head;
+
+        while (temp.next != null && temp.next.data < key) {
+            temp = temp.next;
+        }
+
+        newNode.next = temp.next;
+        temp.next = newNode;
+
+        return head;
+    }
+}
