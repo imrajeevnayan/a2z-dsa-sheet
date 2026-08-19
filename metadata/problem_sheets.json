@@ -3114,5 +3114,10 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:leetcode-easy-revision-sheet-part-1": []
+  "leetcode:leetcode-easy-revision-sheet-part-1": [],
+  "geeksforgeeks:identical-linked-lists": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
