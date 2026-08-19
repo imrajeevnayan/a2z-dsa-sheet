@@ -3146,5 +3146,15 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:middle-of-the-linked-list": [
+    "Grind75",
+    "Grind169",
+    "StriverA2Z",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
   ]
 }
