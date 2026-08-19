@@ -5,13 +5,27 @@
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, Greedy, Bit Manipulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-19T10:47:26.850Z
+ * Synced: 2026-08-19T10:48:15.856Z
  */
 
-class Solution {
+for (int mask : rows.values()) {
+            boolean l = (mask & left) == 0;
+            boolean r = (mask & right) == 0;
+
+        int right = 0b1111000000;
+        int middle = 0b11110000;
+        int left = 0b00111100;
+
+        int result = (n - rows.size()) * 2;
+
+                rows.put(seat[0], rows.getOrDefault(seat[0], 0) | (1 << seat[1]));
+            }
+        }
+            if (seat[1] >= 2 && seat[1] <= 9) {
+        for (int[] seat : reservedSeats) {
+
+        Map<Integer, Integer> rows = new HashMap<>();
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
-        
-    }
-}
+class Solution {
