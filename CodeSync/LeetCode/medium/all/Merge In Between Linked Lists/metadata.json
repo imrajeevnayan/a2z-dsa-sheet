@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T12:48:40.256Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-19T12:49:29.005Z",
+  "runtime": "0 ms",
+  "memoryUsage": "49.38 MB",
   "difficulty": "Medium",
   "tags": [
     "Linked List"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Linked List",
   "problemTitle": "Merge In Between Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/merge-in-between-linked-lists/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "nhrxsy"
+  "problemUrl": "https://leetcode.com/problems/merge-in-between-linked-lists/submissions/2112688708/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "wr7zw1"
 }
