@@ -1,18 +1,18 @@
 # 26
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Unknown
-- Topics: Uncategorized
-- Runtime: 0 ms
-- Memory: 46.86 MB
-- Problem URL: https://leetcode.com/submissions/detail/2112598492/
-- Synced: 2026-08-19T12:32:42.035Z
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Linked List, Two Pointers
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
+- Synced: 2026-08-19T12:33:33.942Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node. Example 1: Input: head = [1,2,3,4,5] Output: [3,4,5] Explanation: The middle node of the list is node 3. Example 2: Input: head = [1,2,3,4,5,6] Output: [4,5,6] Explanation: Since the list has two middle nodes with values 3 and 4, we return the second one. Constraints: The number of nodes in the list is in the range [1, 100]. 1 <= Node.val <= 100
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Two Pointers. Review the synced source file for the implementation details.
