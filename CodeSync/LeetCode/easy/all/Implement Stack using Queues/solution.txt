@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Implement Stack using Queues
+ * URL: https://leetcode.com/problems/implement-stack-using-queues/?envType=problem-list-v2&envId=stack
+ * Language: Stack
+ * Difficulty: Easy
+ * Topics: Stack, Design, Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T13:55:16.779Z
+ */
+
+}
+}
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack obj = new MyStack();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.top();
+ * boolean param_4 = obj.empty();
+ */
