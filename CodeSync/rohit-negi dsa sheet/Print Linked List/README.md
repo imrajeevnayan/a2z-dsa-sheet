@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-linked-list-elements/1
-- Synced: 2026-07-23T11:15:50.218Z
+- Synced: 2026-08-19T06:49:47.308Z
 
 ## Problem Description
 
