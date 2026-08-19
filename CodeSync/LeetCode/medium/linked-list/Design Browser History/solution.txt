@@ -7,21 +7,21 @@
  * Topics: Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T13:47:26.467Z
+ * Synced: 2026-08-19T13:48:11.251Z
  */
 
-class BrowserHistory {
+public String back(int steps) {
+        while (steps > 0 && curr.prev != null) {
 
-    public BrowserHistory(String homepage) {
-        
+        curr = newNode;
     }
-    
+        newNode.prev = curr;
+        curr.next = newNode;
+        Node newNode = new Node(url);
     public void visit(String url) {
-        
+
     }
-    
-    public String back(int steps) {
-        
-    }
-    
-    public String forward(int steps) {
+        curr = new Node(homepage);
+    public BrowserHistory(String homepage) {
+
+    Node curr;
