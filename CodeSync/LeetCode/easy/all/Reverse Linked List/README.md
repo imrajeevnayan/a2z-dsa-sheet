@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-linked-list/
-- Synced: 2026-08-19T12:39:05.840Z
+- Synced: 2026-08-19T12:39:52.845Z
 
 ## Problem Description
 
