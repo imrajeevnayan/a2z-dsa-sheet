@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T09:59:20.001Z",
+  "submissionTimestamp": "2026-08-19T10:50:44.525Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Middle of the Linked List",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/description/",
+  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
   "submissionId": "q0f9l3"
 }
