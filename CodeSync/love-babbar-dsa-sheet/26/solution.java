@@ -1,24 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 26
- * URL: https://leetcode.com/submissions/detail/2112598492/
+ * URL: https://leetcode.com/submissions/detail/2112585513/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 46.86 MB
- * Synced: 2026-08-19T12:32:42.035Z
+ * Memory: 44.11 MB
+ * Synced: 2026-08-19T12:34:06.568Z
  */
 
-1public class Solution {
-2    public boolean hasCycle(ListNode head) {
-3    if (head == null || head.next == null) return false;
-4    ListNode slow = head, fast = head;
-5     while (fast != null && fast.next != null) {
-6        slow = slow.next;
-7        fast = fast.next.next;
-8        if (slow == fast) return true;
-9      }
-10      return false;
-11    }
-12}
+1
+2class Solution {
+3    public ListNode reverseList(ListNode head) {
+4        ListNode prev=null;
+5        ListNode curr=head;
+6        while(curr!=null){
+7            ListNode temp=curr.next;
+8            curr.next=prev;
+9            prev=curr;
+10            curr=temp;
+11        }
+12        return prev;
+13    }
+14}
