@@ -5,13 +5,24 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Counting
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-08-19T18:10:05.426Z
+ * Synced: 2026-08-19T18:11:21.529Z
  */
 
-class Solution {
-    public String majorityFrequencyGroup(String s) {
-        
-    }
-}
+if (f[i] == freq)
+
+            for (int i = 0; i < 26; i++)
+            String t = "";
+
+        for (int freq = 1; freq <= s.length(); freq++) {
+        int max = 0, bestFreq = 0;
+        String ans = "";
+
+                    t += (char)('a' + i);
+
+            if (t.length() > max || 
+                (t.length() == max && freq > bestFreq)) {
+                max = t.length();
+                bestFreq = freq;
+                ans = t;
