@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-19T12:34:06.568Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.11 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-08-19T12:34:12.920Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Linked List",
+    "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Problem List",
   "problemTitle": "26",
-  "problemUrl": "https://leetcode.com/submissions/detail/2112585513/",
-  "submissionId": "xd0o7p"
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/",
+  "submissionId": "tpgnsv"
 }
