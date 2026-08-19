@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Greedy, Bit Manipulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19
-- Synced: 2026-08-19T10:48:15.856Z
+- Memory: 53.18 MB
+- Problem URL: https://leetcode.com/problems/cinema-seat-allocation/submissions/2112584085/?envType=daily-question&envId=2026-08-19
+- Synced: 2026-08-19T10:49:03.927Z
 
 ## Problem Description
 
