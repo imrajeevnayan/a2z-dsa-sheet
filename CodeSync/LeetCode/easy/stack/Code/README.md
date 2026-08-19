@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Monotonic Stack
+- Language: Stack
 - Difficulty: Easy
-- Topics: Array, Stack, Monotonic Stack
+- Topics: Two Pointers, String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
-- Synced: 2026-08-11T12:30:04.961Z
+- Problem URL: https://leetcode.com/problems/reverse-prefix-of-word/description/?envType=problem-list-v2&envId=stack
+- Synced: 2026-08-19T13:52:13.664Z
 
 ## Problem Description
 
-You are given an integer array prices where prices[i] is the price of the ith item in a shop. There is a special discount for items in the shop. If you buy the ith item, then you will receive a discount equivalent to prices[j] where j is the minimum index such that j > i and prices[j] <= prices[i]. Otherwise, you will not receive any discount at all. Return an integer array answer where answer[i] is the final price you will pay for the ith item of the shop, considering the special discount. Example 1: Input: prices = [8,4,6,2,3] Output: [4,2,4,2,3] Explanation: For item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4, therefore, the final price you will pay is 8 - 4 = 4. For item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2. For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4. For items 3 and 4 you will not receive any discount at all. Example 2: Input: prices = [1,2,3,4,5] Output: [1,2,3,4,5] Explanation: In this case, for all items, you will not receive any discount at all. Example 3: Input: prices = [10,1,1,6] Output: [9,0,1,6] Constraints: 1 <= prices.length <= 500 1 <= prices[i] <= 1000
+Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing. For example, if word = "abcdefd" and ch = "d", then you should reverse the segment that starts at 0 and ends at 3 (inclusive). The resulting string will be "dcbaefd". Return the resulting string. Example 1: Input: word = "abcdefd", ch = "d" Output: "dcbaefd" Explanation: The first occurrence of "d" is at index 3. Reverse the part of word from 0 to 3 (inclusive), the resulting string is "dcbaefd". Example 2: Input: word = "xyxzxe", ch = "z" Output: "zxyxxe" Explanation: The first and only occurrence of "z" is at index 3. Reverse the part of word from 0 to 3 (inclusive), the resulting string is "zxyxxe". Example 3: Input: word = "abcd", ch = "z" Output: "abcd" Explanation: "z" does not exist in word. You should not do any reverse operation, the resulting string is "abcd". Constraints: 1 <= word.length <= 250 word consists of lowercase English letters. ch is a lowercase English letter.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Monotonic Stack. The detected topics are Array, Stack, Monotonic Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Stack. The detected topics are Two Pointers, String, Stack. Review the synced source file for the implementation details.
