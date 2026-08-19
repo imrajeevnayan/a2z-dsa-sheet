@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
-- Synced: 2026-07-15T06:38:45.669Z
+- Synced: 2026-08-19T18:09:12.484Z
 
 ## Problem Description
 
