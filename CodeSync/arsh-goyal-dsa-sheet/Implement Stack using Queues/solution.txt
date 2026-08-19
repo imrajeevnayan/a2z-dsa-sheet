@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Implement Stack using Queues
- * URL: https://leetcode.com/problems/implement-stack-using-queues/?envType=problem-list-v2&envId=stack
+ * URL: https://leetcode.com/problems/implement-stack-using-queues/submissions/2112762180/?envType=problem-list-v2&envId=stack
  * Language: Stack
  * Difficulty: Easy
  * Topics: Stack, Design, Queue
  * Runtime: 0 ms
- * Memory: 43.00 MB
- * Synced: 2026-08-19T13:57:02.801Z
+ * Memory: 42.90 MB
+ * Synced: 2026-08-19T13:57:48.579Z
  */
 
 public int pop() {
