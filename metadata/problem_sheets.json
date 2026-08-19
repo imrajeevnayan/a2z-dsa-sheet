@@ -3175,5 +3175,9 @@
   "leetcode:26": [
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "leetcode:design-browser-history": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet"
   ]
 }
