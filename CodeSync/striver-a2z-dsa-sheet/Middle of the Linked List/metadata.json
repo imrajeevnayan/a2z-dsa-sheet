@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-19T10:53:11.918Z",
+  "submissionTimestamp": "2026-08-19T10:53:57.923Z",
   "runtime": "0 ms",
   "memoryUsage": "42.20 MB",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Middle of the Linked List",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/submissions/2112586723/",
+  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
   "submissionId": "fxwv5u"
 }
