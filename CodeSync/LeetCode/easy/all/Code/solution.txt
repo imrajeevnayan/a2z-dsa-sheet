@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
- * Language: Monotonic Stack
+ * URL: https://leetcode.com/problems/reverse-prefix-of-word/description/?envType=problem-list-v2&envId=stack
+ * Language: Stack
  * Difficulty: Easy
- * Topics: Array, Stack, Monotonic Stack
+ * Topics: Two Pointers, String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:30:04.961Z
+ * Synced: 2026-08-19T13:52:13.664Z
  */
 
-class Solution {
-    public int[] finalPrices(int[] prices) {
-        
+public String reversePrefix(String word, char ch) {
+        int index = word.indexOf(ch);
+        if (index == -1)  return word;
+        char[] arr = word.toCharArray();
+        int left = 0, right = index;
+
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+
+        return new String(arr);
     }
-}
