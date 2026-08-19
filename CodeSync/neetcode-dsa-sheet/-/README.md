@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: Text
 - Difficulty: Easy
-- Topics: Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm
+- Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-17T05:56:50.037Z
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+- Synced: 2026-08-19T12:31:21.782Z
 
 ## Problem Description
 
-Write an algorithm to determine if a number n is happy. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits. Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy. Return true if n is a happy number, and false if not. Example 1: Input: n = 19 Output: true Explanation: 12 + 92 = 82 82 + 22 = 68 62 + 82 = 100 12 + 02 + 02 = 1 Example 2: Input: n = 2 Output: false Constraints: 1 <= n <= 231 - 1
+You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
