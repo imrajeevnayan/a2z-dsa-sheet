@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-19T12:33:33.942Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-19T12:34:06.568Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.11 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "26",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/description/",
-  "submissionId": "1ukdk4"
+  "problemUrl": "https://leetcode.com/submissions/detail/2112585513/",
+  "submissionId": "xd0o7p"
 }
