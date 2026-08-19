@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-19T18:10:05.426Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-19T18:11:21.529Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Majority Frequency Characters",
   "problemUrl": "https://leetcode.com/problems/majority-frequency-characters/",
-  "submissionId": "6kerar"
+  "submissionId": "ur7b2h"
 }
