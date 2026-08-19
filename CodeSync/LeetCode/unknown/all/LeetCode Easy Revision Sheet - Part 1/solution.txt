@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: LeetCode Easy Revision Sheet — Part 1
+ * URL: https://leetcode.com/discuss/post/8466575/leetcode-easy-revision-sheet-part-1-by-v-5600/
+ * Language: Online Interview
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-18T13:48:11.751Z
+ */
+
+while N > 0:
+    bit = N & 1
+    N >>= 1
