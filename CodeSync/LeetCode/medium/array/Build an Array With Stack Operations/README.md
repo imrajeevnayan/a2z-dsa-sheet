@@ -4,10 +4,10 @@
 - Language: Stack
 - Difficulty: Medium
 - Topics: Array, Stack, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/build-an-array-with-stack-operations/description/?envType=problem-list-v2&envId=stack
-- Synced: 2026-08-19T13:52:53.589Z
+- Runtime: 0 ms
+- Memory: 44.41 MB
+- Problem URL: https://leetcode.com/problems/build-an-array-with-stack-operations/?envType=problem-list-v2&envId=stack
+- Synced: 2026-08-19T13:53:39.781Z
 
 ## Problem Description
 
