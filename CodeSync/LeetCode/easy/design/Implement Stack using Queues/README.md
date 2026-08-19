@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Stack, Design, Queue
 - Runtime: 0 ms
-- Memory: 43.00 MB
-- Problem URL: https://leetcode.com/problems/implement-stack-using-queues/?envType=problem-list-v2&envId=stack
-- Synced: 2026-08-19T13:57:02.801Z
+- Memory: 42.90 MB
+- Problem URL: https://leetcode.com/problems/implement-stack-using-queues/submissions/2112762180/?envType=problem-list-v2&envId=stack
+- Synced: 2026-08-19T13:57:48.579Z
 
 ## Problem Description
 
