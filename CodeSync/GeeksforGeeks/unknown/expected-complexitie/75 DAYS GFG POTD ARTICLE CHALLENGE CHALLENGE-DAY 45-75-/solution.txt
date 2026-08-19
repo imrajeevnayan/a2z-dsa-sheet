@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonWiproSAP Labs, Company Tags, Amazon, Wipro, SAP Labs, Topic Tags, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T07:16:27.007Z
+ * Synced: 2026-08-19T07:17:27.003Z
  */
 
 class Solution {
