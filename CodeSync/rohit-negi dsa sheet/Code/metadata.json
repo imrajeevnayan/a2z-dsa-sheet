@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-11T12:30:04.961Z",
+  "submissionTimestamp": "2026-08-19T13:48:46.077Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Stack",
-    "Monotonic Stack"
+    "Linked List"
   ],
   "platform": "LeetCode",
-  "language": "Monotonic Stack",
+  "language": "Linked List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack",
-  "submissionId": "pp2i21"
+  "problemUrl": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list",
+  "submissionId": "ic1u48"
 }
