@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.20 MB
 - Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/
-- Synced: 2026-08-19T10:53:57.923Z
+- Synced: 2026-08-19T10:54:49.020Z
 
 ## Problem Description
 
