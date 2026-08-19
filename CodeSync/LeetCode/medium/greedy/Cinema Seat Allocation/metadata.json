@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-19T10:47:26.850Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-19T10:48:15.856Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Daily Question",
   "problemTitle": "Cinema Seat Allocation",
   "problemUrl": "https://leetcode.com/problems/cinema-seat-allocation/?envType=daily-question&envId=2026-08-19",
-  "submissionId": "my8qae"
+  "submissionId": "p3nmog"
 }
