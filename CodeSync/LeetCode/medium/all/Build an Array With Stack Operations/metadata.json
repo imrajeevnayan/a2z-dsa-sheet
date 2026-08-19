@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-19T13:52:53.589Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Stack",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Stack",
+  "problemTitle": "Build an Array With Stack Operations",
+  "problemUrl": "https://leetcode.com/problems/build-an-array-with-stack-operations/description/?envType=problem-list-v2&envId=stack",
+  "submissionId": "xqpsul"
+}
