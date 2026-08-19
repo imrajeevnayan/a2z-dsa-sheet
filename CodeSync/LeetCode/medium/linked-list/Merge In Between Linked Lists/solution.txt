@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Merge In Between Linked Lists
+ * URL: https://leetcode.com/problems/merge-in-between-linked-lists/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T12:46:47.110Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
+        
+    }
+}
