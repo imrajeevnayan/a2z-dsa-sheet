@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, String, Counting
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/majority-frequency-characters/
-- Synced: 2026-08-19T18:10:05.426Z
+- Synced: 2026-08-19T18:11:21.529Z
 
 ## Problem Description
 
