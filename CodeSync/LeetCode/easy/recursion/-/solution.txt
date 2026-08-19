@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Linked List, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-19T12:31:21.782Z
+ */
+
+Input: list1 = [1,2,4], list2 = [1,3,4]
+Output: [1,1,2,3,4,4]
