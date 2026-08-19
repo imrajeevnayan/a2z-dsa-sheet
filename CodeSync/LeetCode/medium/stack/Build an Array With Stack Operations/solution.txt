@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Build an Array With Stack Operations
- * URL: https://leetcode.com/problems/build-an-array-with-stack-operations/description/?envType=problem-list-v2&envId=stack
+ * URL: https://leetcode.com/problems/build-an-array-with-stack-operations/?envType=problem-list-v2&envId=stack
  * Language: Stack
  * Difficulty: Medium
  * Topics: Array, Stack, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-19T13:52:53.589Z
+ * Runtime: 0 ms
+ * Memory: 44.41 MB
+ * Synced: 2026-08-19T13:53:39.781Z
  */
 
+while (num < x) {
+                ans.add("Push");
+                ans.add("Pop");
+                num++;
+            }
+
+            ans.add("Push");
+            num++;
+        for (int x : target) {
+        int num = 1;
+        List<String> ans = new ArrayList<>();
 class Solution {
     public List<String> buildArray(int[] target, int n) {
-        
-    }
-}
+        }
