@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Print Linked List, Traversal Of Singly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T11:15:50.218Z
+ * Synced: 2026-08-19T06:49:47.308Z
  */
 
 class Solution {
