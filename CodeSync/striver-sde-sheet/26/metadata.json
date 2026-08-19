@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-19T12:34:12.920Z",
+  "submissionTimestamp": "2026-08-19T13:54:30.078Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Recursion"
+    "Stack",
+    "Design",
+    "Queue"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "26",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/",
-  "submissionId": "tpgnsv"
+  "problemUrl": "https://leetcode.com/problems/implement-stack-using-queues/description/?envType=problem-list-v2&envId=stack",
+  "submissionId": "esqdrw"
 }
