@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-in-between-linked-lists/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-08-19T12:46:47.110Z
+- Synced: 2026-08-19T12:47:33.610Z
 
 ## Problem Description
 
