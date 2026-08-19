@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-19T13:52:13.664Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Stack",
+  "problemTitle": "Code",
+  "problemUrl": "https://leetcode.com/problems/reverse-prefix-of-word/description/?envType=problem-list-v2&envId=stack",
+  "submissionId": "9mop8d"
+}
