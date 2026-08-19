@@ -7,13 +7,10 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T12:51:39.837Z
+ * Synced: 2026-08-19T12:52:46.847Z
  */
 
-class Solution {
-    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-        ListNode start = list1;
-        for (int i = 0; i < a - 1; i++) start = start.next;
+for (int i = 0; i < a - 1; i++) start = start.next;
         ListNode end = start;
 
         for (int i = a; i <= b; i++) end = end.next;
@@ -25,3 +22,6 @@ class Solution {
         list2.next = end.next;
         return list1;
     }
+}
+        ListNode start = list1;
+    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
