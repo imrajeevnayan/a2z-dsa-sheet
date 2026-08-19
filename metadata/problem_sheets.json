@@ -3186,5 +3186,13 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:build-an-array-with-stack-operations": []
+  "leetcode:build-an-array-with-stack-operations": [],
+  "leetcode:implement-stack-using-queues": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:love-babbar-dsa-sheet"
+  ]
 }
