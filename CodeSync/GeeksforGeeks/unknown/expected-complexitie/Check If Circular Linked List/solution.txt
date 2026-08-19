@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MicrosoftMAQ SoftwareSAP Labs, Company Tags, Microsoft, MAQ Software, SAP Labs, Topic Tags, circular-linked-list
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T07:04:26.999Z
+ * Synced: 2026-08-19T07:05:27.008Z
  */
 
 class Solution {
