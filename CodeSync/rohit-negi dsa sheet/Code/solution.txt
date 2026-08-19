@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
- * Language: Monotonic Stack
- * Difficulty: Easy
- * Topics: Array, Stack, Monotonic Stack
+ * URL: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Medium
+ * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:30:04.961Z
+ * Synced: 2026-08-19T13:48:46.077Z
  */
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public int[] finalPrices(int[] prices) {
+    public int[] nodesBetweenCriticalPoints(ListNode head) {
         
     }
 }
