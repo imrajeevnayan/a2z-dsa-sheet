@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-19T13:52:32.765Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.31 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Stack",
+  "problemTitle": "Remove Outermost Parentheses",
+  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/submissions/2112756025/?envType=problem-list-v2&envId=stack",
+  "submissionId": "qj0aqe"
+}
