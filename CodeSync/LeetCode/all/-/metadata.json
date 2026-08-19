@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-19T12:31:21.782Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-19T12:34:05.765Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.11 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Recursion"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Java",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
-  "submissionId": "1spnjr"
+  "problemUrl": "https://leetcode.com/submissions/detail/2112585513/",
+  "submissionId": "k6rtra"
 }
