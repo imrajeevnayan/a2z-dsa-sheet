@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-19T13:51:35.728Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Java",
+  "problemTitle": "26",
+  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=problem-list-v2&envId=stack",
+  "submissionId": "rl4702"
+}
