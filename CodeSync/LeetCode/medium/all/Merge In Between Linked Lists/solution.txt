@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge In Between Linked Lists
- * URL: https://leetcode.com/problems/merge-in-between-linked-lists/?envType=problem-list-v2&envId=linked-list
+ * URL: https://leetcode.com/problems/merge-in-between-linked-lists/submissions/2112688708/?envType=problem-list-v2&envId=linked-list
  * Language: Linked List
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-19T12:48:40.256Z
+ * Runtime: 0 ms
+ * Memory: 49.38 MB
+ * Synced: 2026-08-19T12:49:29.005Z
  */
 
 start.next = list2;
@@ -16,9 +16,11 @@ start.next = list2;
         ListNode end = start;
         for (int i = 0; i < a - 1; i++) start = start.next;
         ListNode start = list1;
-class Solution {
-    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-
         while (list2.next != null) {
             list2 = list2.next;
         }
+        list2.next = end.next;
+
+        return list1;
+    }
+}
