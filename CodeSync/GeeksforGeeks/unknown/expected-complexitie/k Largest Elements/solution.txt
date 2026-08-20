@@ -7,19 +7,26 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftSamsungWalmartGoogle, Company Tags, Amazon, Microsoft, Samsung, Walmart, Google
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-20T13:28:43.963Z
+ * Synced: 2026-08-20T13:29:30.786Z
  */
 
 class Solution {
     public ArrayList<Integer> kLargest(int[] arr, int k) {
-        Arrays.sort(arr);
-
-        ArrayList<Integer> result = new ArrayList<>();
-
-        for (int i = arr.length - 1; i >= arr.length - k; i--) {
-            result.add(arr[i]);
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        
+        for (int x : arr) {
+            pq.add(x);
+            
+            if (pq.size() > k) {
+                pq.poll();
+            }
         }
+        ArrayList<Integer> ans = new ArrayList<>();
 
-        return result;
+        while (!pq.isEmpty()) {
+            ans.add(pq.poll());
+        }
+        Collections.reverse(ans);
+        return ans;
     }
 }
