@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T12:02:47.858Z
+ * Synced: 2026-08-20T05:46:38.469Z
  */
 
 class Solution {
