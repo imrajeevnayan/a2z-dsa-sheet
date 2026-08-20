@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-20T06:01:14.927Z",
-  "runtime": "1 ms",
+  "submissionTimestamp": "2026-08-20T06:02:04.921Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Distribute Elements Into Two Arrays I",
-  "problemUrl": "https://leetcode.com/problems/distribute-elements-into-two-arrays-i/submissions/2113536248/?envType=daily-question&envId=2026-08-20",
-  "submissionId": "r98eeg"
+  "problemUrl": "https://leetcode.com/problems/distribute-elements-into-two-arrays-i/?envType=daily-question&envId=2026-08-20",
+  "submissionId": "oujc3r"
 }
