@@ -1,27 +1,51 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Python Solution:
- * URL: https://www.geeksforgeeks.org/problems/floyds-triangle1222/1
- * Language: class Solution: def printFloydTriangle(self, N): #code here c = 0 for i in range(1, N+1): for j in range(1, i+1): c+=1 print(c, end=" ") print()
+ * URL: https://www.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1
+ * Language: class Solution { public: vector<int> findSmallestRange(vector<vector<int>>& nums) { // Code here int k = nums.size(); map<int, int> mp; vector<pair<int, int>> vec; for (int i = 0; i < k; i++){ for (int j = 0; j < nums[i].size(); j++){ vec.push_back({nums[i][j], i}); } } sort(vec.begin(), vec.end()); int all = 0; int ans = INT_MAX; int a = -1, b = -1; int i = 0, j = 0, n = vec.size(); while (j < n){ mp[vec[j].second]++; while (mp.size() >= k){ if (vec[j].first-vec[i].first < ans){ a = vec[i].first; b = vec[j].first; ans = vec[j].first-vec[i].first; } else if (vec[j].first-vec[i].first == ans){ if (vec[i].first < a){ a = vec[i].first; b = vec[j].first; } } mp[vec[i].second]--; if (mp[vec[i].second] == 0) mp.erase(vec[i].second); i++; } j++; } return {a, b}; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program To Print Floyds Triangle
+ * Topics: Expected Complexities, Company Tags FlipkartAmazon, Company Tags, Flipkart, Amazon, Topic Tags, Arrays, Heap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:16:54.938Z
+ * Synced: 2026-08-20T13:35:12.377Z
  */
 
-import java.util.Scanner;
-class GFG {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int ans=1;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=i;j++){
-                System.out.print(ans+" ");
-                ans++;
-            }
-            System.out.println();
+class Solution {
+    public ArrayList<Integer> findSmallestRange(int[][] mat) {
+        int k = mat.length;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < k; i++) {
+            pq.add(new int[]{mat[i][0], i, 0});
+            max = Math.max(max, mat[i][0]);
         }
+
+        int start = 0, end = Integer.MAX_VALUE;
+
+        while (true) {
+            int[] cur = pq.poll();
+            int min = cur[0];
+
+            if (max - min < end - start) {
+                start = min;
+                end = max;
+            }
+
+            int row = cur[1], col = cur[2];
+
+            if (col + 1 == mat[row].length)break;
+
+            int next = mat[row][col + 1];
+            pq.add(new int[]{next, row, col + 1});
+            max = Math.max(max, next);
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+        ans.add(start);
+        ans.add(end);
+
+        return ans;
     }
 }
