@@ -3215,5 +3215,8 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:dequeue-traversal": [
+    "GFG160"
   ]
 }
