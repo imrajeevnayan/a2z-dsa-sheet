@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/k-largest-elements4206/1
-- Synced: 2026-08-20T13:28:43.963Z
+- Synced: 2026-08-20T13:29:30.786Z
 
 ## Problem Description
 
