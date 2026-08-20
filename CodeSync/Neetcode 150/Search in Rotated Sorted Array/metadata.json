@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-20T05:47:26.930Z",
+  "submissionTimestamp": "2026-08-20T05:48:12.379Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "53surw"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+  "submissionId": "tv2cw1"
 }
