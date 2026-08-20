@@ -3195,5 +3195,6 @@
     "custom:striver-sde-sheet"
   ],
   "leetcode:majority-frequency-characters": [],
-  "leetcode:distribute-elements-into-two-arrays-i": []
+  "leetcode:distribute-elements-into-two-arrays-i": [],
+  "leetcode:minimum-number-game": []
 }
