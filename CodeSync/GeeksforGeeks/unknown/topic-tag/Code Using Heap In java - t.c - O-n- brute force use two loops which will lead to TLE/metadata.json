@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-20T13:31:07.968Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Heap",
+    "STL",
+    "Related Articles",
+    "Kth Largest Element In An Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public static int KthLargest(int arr[], int k) { PriorityQueue<Integer> minHeap = new PriorityQueue<>(); for (int i = 0; i<arr.length; i++) { minHeap.add(arr[i]); if (minHeap.size()>k) { minHeap.poll(); } } return minHeap.peek(); } }",
+  "problemTitle": "Code Using Heap In java : ) t.c -> O(n) brute force : use two loops which will lead to TLE",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/kth-largest-element5034/1",
+  "submissionId": "kobcvn"
+}
