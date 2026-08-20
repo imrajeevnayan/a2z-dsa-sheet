@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java code
+ * URL: https://www.geeksforgeeks.org/problems/dequeue-traversal/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Java, Queue, STL, Java-Collections, Related Articles, Deque Traversal
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-20T13:36:57.813Z
+ */
+
+class Solution {
+    public static void printDeque(ArrayDeque<Integer> deq) {
+        for (int x : deq) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
+}
