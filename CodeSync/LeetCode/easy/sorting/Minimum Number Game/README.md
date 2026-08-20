@@ -6,8 +6,8 @@
 - Topics: Array, Sorting, Heap (Priority Queue), Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-number-game/description/?envType=problem-list-v2&envId=heap-priority-queue
-- Synced: 2026-08-20T08:01:53.847Z
+- Problem URL: https://leetcode.com/problems/minimum-number-game/?envType=problem-list-v2&envId=heap-priority-queue
+- Synced: 2026-08-20T08:02:40.686Z
 
 ## Problem Description
 
