@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Distribute Elements Into Two Arrays I
+ * URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/?envType=daily-question&envId=2026-08-20
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-20T06:00:28.930Z
+ */
+
+class Solution {
+    public int[] resultArray(int[] nums) {
+        
+    }
+}
