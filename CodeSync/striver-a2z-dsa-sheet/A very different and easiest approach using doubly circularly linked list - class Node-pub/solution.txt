@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: A very different and easiest approach using doubly circularly linked list :- class Node{public: int data; Node* next; Node* prev; Node(int s){ data = s; next = NULL; prev = NULL; }};class Solution {public: int josephus(int n, int k) { if(k == 1){ return n; } Node* temp = NULL; Node* curr = NULL; for(int i = 1;i<=n;i++){ if(i == 1){ temp = new Node(i); curr = temp; } else{ Node* newNode = new Node(i); temp->next = newNode; newNode->prev = temp; temp = newNode; } } temp->next = curr; curr->prev = temp; int cnt = 1; while(curr != NULL){ curr = curr->next; cnt++; if(cnt == k){ Node* some = curr->prev; Node* kuch = curr->next; if(some == kuch){ return some->data; } some->next = kuch; kuch->prev = some; curr->next = NULL; curr->prev = NULL; Node* kis = curr; delete kis; curr = kuch; cnt = 1; } } }};
+ * URL: https://www.geeksforgeeks.org/problems/josephus-problem/1
+ * Language: class Solution { public: int josephus(int n, int k) { // code here vector<int>arr(n+1,0); for(int i=1;i<=n;i++) arr[i]=1; int kills=0,i=1,st=1; while(kills<n-1){ if(arr[i] == 0) { i++; if(i>n) i = 1; continue; } if(st==k){ arr[i]=0; kills++; st=1; } else{ st++; } i++; if(i>n) i = 1; } for(int i=1;i<=n;i++){ if(arr[i]==1) return i; } return -1; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftWalmart, Company Tags, Amazon, Microsoft, Walmart, Topic Tags, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-20T13:40:26.008Z
+ */
+
+class Solution {
+    public int josephus(int n, int k) {
+        if (n == 1)  return 1;
+        
+        return (josephus(n - 1, k) + k - 1) % n + 1;
+    }
+}
