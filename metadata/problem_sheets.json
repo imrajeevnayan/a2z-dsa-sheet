@@ -3196,5 +3196,9 @@
   ],
   "leetcode:majority-frequency-characters": [],
   "leetcode:distribute-elements-into-two-arrays-i": [],
-  "leetcode:minimum-number-game": []
+  "leetcode:minimum-number-game": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
