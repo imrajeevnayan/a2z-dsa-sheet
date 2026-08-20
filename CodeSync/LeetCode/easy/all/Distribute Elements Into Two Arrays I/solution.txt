@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Distribute Elements Into Two Arrays I
- * URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/?envType=daily-question&envId=2026-08-20
+ * URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/submissions/2113536248/?envType=daily-question&envId=2026-08-20
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Simulation
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-08-20T06:00:28.930Z
+ * Synced: 2026-08-20T06:01:14.927Z
  */
 
-class Solution {
-    public int[] resultArray(int[] nums) {
-        
-    }
-}
+b[sizeB++] = nums[1];
+
+        a[sizeA++] = nums[0];
+
+        FenwickTree bitA = new FenwickTree(r);
+        FenwickTree bitB = new FenwickTree(r);
+
+        int sizeA = 0, sizeB = 0;
+        int[] a = new int[n];
+        int[] b = new int[n];
+
+        }
+            }
+                rank.put(num, r++);
+            if (!rank.containsKey(num)) {
+        for (int num : sorted) {
+
+        int r = 1;
+        Map<Integer, Integer> rank = new HashMap<>();
+
+        Arrays.sort(sorted);
