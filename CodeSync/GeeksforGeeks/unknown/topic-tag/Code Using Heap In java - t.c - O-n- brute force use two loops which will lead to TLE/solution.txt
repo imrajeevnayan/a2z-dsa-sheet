@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Heap, STL, Related Articles, Kth Largest Element In An Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-20T13:32:44.999Z
+ * Synced: 2026-08-20T13:33:33.606Z
  */
 
 class Solution {
@@ -15,7 +15,8 @@ class Solution {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int x : arr) pq.add(x);
         
-        for (int i = 0; i < arr.length - k; i++) pq.poll()
+        for (int i = 0; i < arr.length - k; i++) pq.poll();
 
         return pq.poll();
     }
+}
