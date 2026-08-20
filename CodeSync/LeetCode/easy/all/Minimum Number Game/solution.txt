@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Number Game
+ * URL: https://leetcode.com/problems/minimum-number-game/description/?envType=problem-list-v2&envId=heap-priority-queue
+ * Language: Heap (Priority Queue)
+ * Difficulty: Easy
+ * Topics: Array, Sorting, Heap (Priority Queue), Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-20T08:01:53.847Z
+ */
+
+class Solution {
+    public int[] numberGame(int[] nums) {
+        
+    }
+}
