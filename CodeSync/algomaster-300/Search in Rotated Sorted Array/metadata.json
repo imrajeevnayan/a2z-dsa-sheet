@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-20T05:48:12.379Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-20T05:49:01.949Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.73 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Search in Rotated Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-  "submissionId": "tv2cw1"
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2113521951/",
+  "submissionId": "305dhc"
 }
