@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-20T08:00:58.643Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Heap (Priority Queue)",
+  "problemTitle": "27",
+  "problemUrl": "https://leetcode.com/problems/minimum-number-game/?envType=problem-list-v2&envId=heap-priority-queue",
+  "submissionId": "hu9b81"
+}
