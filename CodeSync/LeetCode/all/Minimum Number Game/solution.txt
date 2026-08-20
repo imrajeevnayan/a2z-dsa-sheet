@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Number Game
- * URL: https://leetcode.com/problems/minimum-number-game/description/?envType=problem-list-v2&envId=heap-priority-queue
+ * URL: https://leetcode.com/problems/minimum-number-game/?envType=problem-list-v2&envId=heap-priority-queue
  * Language: Heap (Priority Queue)
  * Difficulty: Easy
  * Topics: Array, Sorting, Heap (Priority Queue), Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-20T08:01:53.847Z
+ * Synced: 2026-08-20T08:02:40.686Z
  */
 
-class Solution {
+int[] ans = new int[nums.length];
+        int i = 0;
+        while (!pq.isEmpty()) {
+            // Alice takes the smallest
+            int alice = pq.poll();
+
+            // Bob takes the next smallest
+            int bob = pq.poll();
+
+            // Bob's number comes first
     public int[] numberGame(int[] nums) {
-        
-    }
-}
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+class Solution {
+            ans[index++] = bob;
+        for (int num : nums)  pq.add(num);
+            ans[index++] = alice;
+        }
+
+        return ans;
