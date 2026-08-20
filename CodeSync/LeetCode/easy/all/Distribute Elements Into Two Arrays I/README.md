@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/?envType=daily-question&envId=2026-08-20
-- Synced: 2026-08-20T07:57:47.733Z
+- Synced: 2026-08-20T07:58:33.151Z
 
 ## Problem Description
 
