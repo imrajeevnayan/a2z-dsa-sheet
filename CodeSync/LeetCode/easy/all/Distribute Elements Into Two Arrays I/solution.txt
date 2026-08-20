@@ -7,26 +7,24 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-20T07:57:47.733Z
+ * Synced: 2026-08-20T07:58:33.151Z
  */
 
-class Solution {
-    public int[] resultArray(int[] nums) {
-        int n = nums.length;
-        int[] sorted = nums.clone();
-        Arrays.sort(sorted);
+arr1[i] = nums[0];
+        arr2[j] = nums[1];
 
-        int m = 0;
-        for (int x : sorted) {
-            if (m == 0 || sorted[m - 1] != x)
-                sorted[m++] = x;
+        for (int k = 2; k < n; k++) {
+            if (arr1[i] > arr2[j]) {
+                arr1[++i] = nums[k];
+            } else {
+                arr2[++j] = nums[k];
+            }
         }
 
-        Fenwick aTree = new Fenwick(m);
-        Fenwick bTree = new Fenwick(m);
+        int i = 0,j = 0;
+        int[] arr2 = new int[n];
 
-        int[] a = new int[n];
-        int[] b = new int[n];
-
-        int aSize = 1;
-        int bSize = 1;
+        int[] arr1 = new int[n];
+    public int[] resultArray(int[] nums) {
+        int n = nums.length;
+class Solution {
