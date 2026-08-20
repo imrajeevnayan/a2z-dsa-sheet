@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Simulation
-- Runtime: 2 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/submissions/2113538056/?envType=daily-question&envId=2026-08-20
-- Synced: 2026-08-20T06:03:34.948Z
+- Problem URL: https://leetcode.com/problems/distribute-elements-into-two-arrays-i/?envType=daily-question&envId=2026-08-20
+- Synced: 2026-08-20T07:57:47.733Z
 
 ## Problem Description
 
