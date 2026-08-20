@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/
-- Synced: 2026-08-20T05:48:12.379Z
+- Runtime: 0 ms
+- Memory: 43.73 MB
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2113521951/
+- Synced: 2026-08-20T05:49:01.949Z
 
 ## Problem Description
 
