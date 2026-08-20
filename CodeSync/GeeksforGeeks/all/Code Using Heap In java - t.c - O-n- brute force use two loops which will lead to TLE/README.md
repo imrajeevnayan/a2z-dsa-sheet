@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/kth-largest-element5034/1
-- Synced: 2026-08-20T13:33:33.606Z
+- Synced: 2026-08-20T13:34:21.597Z
 
 ## Problem Description
 
