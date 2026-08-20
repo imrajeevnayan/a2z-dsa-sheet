@@ -1,0 +1,33 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse The Array
+ * URL: https://www.naukri.com/code360/problems/reverse-the-array_1262298
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 2852 ms
+ * Memory: N/A
+ * Synced: 2026-08-20T06:24:24.867Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+public class Solution 
+{
+    public static void reverseArray(ArrayList<Integer> arr, int m)
+    {
+        int left = m + 1;
+        int right = arr.size() - 1;
+ 
+        while (left < right) {
+            int temp = arr.get(left);
+            arr.set(left, arr.get(right));
+            arr.set(right, temp);
+ 
+            left++;
+            right--;
+        }
+    }
+}
