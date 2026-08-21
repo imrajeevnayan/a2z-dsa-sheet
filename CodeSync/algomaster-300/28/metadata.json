@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-21T05:33:58.952Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "28",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "nkawe8"
+}
