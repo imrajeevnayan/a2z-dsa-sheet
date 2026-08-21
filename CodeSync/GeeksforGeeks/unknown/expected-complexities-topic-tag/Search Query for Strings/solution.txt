@@ -2,38 +2,28 @@
  * Platform: GeeksforGeeks
  * Problem: Search Query for Strings
  * URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
- * Language: Java (21)
+ * Language: //Function to insert string into TRIE. void insert(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ curr->children[index] = getNode(); } curr = curr->children[index]; } curr->isEndOfWord = true; return; } //Function to use TRIE data structure and search the given string. bool search(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ return false; } curr = curr->children[index]; } return curr->isEndOfWord ? true : false; }
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:32:51.432Z
+ * Synced: 2026-08-21T10:34:41.284Z
  */
-
-/* structure of trie node
-class TrieNode {
-    TrieNode[] children = new TrieNode[26];
-    boolean isEndOfWord;
-
-    TrieNode() {
-        isEndOfWord = false;
-        for (int i = 0; i < 26; i++) {
-            children[i] = null;
-        }
-    }
-}
-
-Note: The following functions are already implemented in the driver code.
-You need to only call them, implementation is not required.
-
-1. void Main.insert(TrieNode root, String word);
-2. boolean Main.search(TrieNode root, String word);
-*/
 
 class Solution {
     public int[] checkQueries(TrieNode root, String[] arr, String[] queries) {
+        // Insert all words from arr into the Trie
+        for (String word : arr) {
+            Main.insert(root, word);
+        }
 
-        // code here
-        
+        // Check each query
+        int[] ans = new int[queries.length];
+
+        for (int i = 0; i < queries.length; i++) {
+            ans[i] = Main.search(root, queries[i]) ? 1 : 0;
+        }
+
+        return ans;
     }
 }
