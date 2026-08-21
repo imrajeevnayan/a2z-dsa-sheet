@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
-- Synced: 2026-08-21T16:56:42.187Z
+- Synced: 2026-08-21T17:02:24.686Z
 
 ## Problem Description
 
