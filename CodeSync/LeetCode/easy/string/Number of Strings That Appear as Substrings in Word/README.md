@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:18:38.166Z
+- Synced: 2026-08-21T17:19:48.170Z
 
 ## Problem Description
 
