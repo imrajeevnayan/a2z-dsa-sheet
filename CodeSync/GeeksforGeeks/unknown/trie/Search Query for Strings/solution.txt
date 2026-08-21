@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Search Query for Strings
+ * URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Topic Tags, Strings, Trie, Advanced Data Structure
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T10:33:52.620Z
+ */
+
+Input: arr[] = ["the", "there", "any", "by", "their"], queries[] = ["the", "an", "any"]
+Output: [1, 0, 1]
+Explanation: 
+After inserting all strings from words[] into the Trie:
+"the" is present in the Trie, so the answer is 1.
+"an" is not present as a complete word, so the answer is 0.
+"any" exists in the Trie, so the answer is 1.
+Hence, the output is [1, 0, 1].
