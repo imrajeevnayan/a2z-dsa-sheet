@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-19T12:31:21.782Z",
+  "submissionTimestamp": "2026-08-21T05:25:24.667Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Recursion"
+    "String",
+    "Stack",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Top Interview 150",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
-  "submissionId": "1spnjr"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "g5jw3h"
 }
