@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Intuition
+ * URL: https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
+ * Language: nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazon, Company Tags, Flipkart, Amazon, Topic Tags, Arrays, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T08:14:23.893Z
+ */
+
+class Solution {
+    static ArrayList<Integer> nextSmallerEle(int[] arr) {
+        int n=arr.length;
+        ArrayList<Integer>ans=new ArrayList<>(Collections.nCopies(n,-1));
+        Stack<Integer>st=new Stack<>();
+        for(int i=0;i<n;i++){
+            while(!st.isEmpty()&& arr[i]< arr[st.peek()]){
+                ans.set(st.peek(),arr[i]);
+                st.pop();
+            }
+            st.push(i);
+        }
+        return ans;
+    }
+}
