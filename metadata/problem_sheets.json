@@ -3333,5 +3333,8 @@
   "geeksforgeeks:decode-the-pattern1138": [
     "custom:algomaster-300",
     "GFG160"
+  ],
+  "geeksforgeeks:count-unique-vowel-strings": [
+    "GFG160"
   ]
 }
