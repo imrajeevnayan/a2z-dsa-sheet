@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-03T15:09:34.599Z",
+  "submissionTimestamp": "2026-08-21T06:21:45.282Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags FacebookPaytmMyntra",
+    "Company Tags Directi",
     "Company Tags",
-    "Facebook",
-    "Paytm",
-    "Myntra",
+    "Directi",
     "Topic Tags",
-    "sliding-window"
+    "Hash",
+    "Strings",
+    "Map"
   ],
   "platform": "GeeksforGeeks",
-  "language": "def maxSumWithK(self, arr: list[int], k: int) -> int: n = len(arr) bestEnd = [0]*n bestEnd[0] = arr[0] for i in range(1,n): bestEnd[i] = max(arr[i],arr[i]+bestEnd[i-1]) winsum = sum(arr[:k]) ans = winsum for i in range(k,n): winsum = winsum + arr[i] - arr[i-k] ans = max(ans,winsum+bestEnd[i-k],winsum) return ans",
+  "language": "class Solution { int transform(String s1, String s2) { int n = s1.length(); if (n != s2.length()) { return -1; } int[] freq = new int[256]; for (int i = 0; i < n; i++) { freq[s1.charAt(i)]++; freq[s2.charAt(i)]--; } for (int f : freq) { if (f != 0) { return -1; } } int i = n - 1; int j = n - 1; int ops = 0; while (i >= 0) { while (i >= 0 && s1.charAt(i) != s2.charAt(j)) { ops++; i--; } if (i >= 0) { i--; j--; } } return ops; } }",
   "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1",
-  "submissionId": "qxzemo"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/transform-string5648/1",
+  "submissionId": "k8drxm"
 }
