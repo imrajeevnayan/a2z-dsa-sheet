@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Look and Say Pattern
+ * URL: https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1
+ * Language: class Solution { public String countAndSay(int n) { // code here if(n==1) return "1"; String s=countAndSay(n-1); //Preprocessing String res=""; for(int i=0;i<s.length();i++) { int count=1; char ch=s.charAt(i); while(i<s.length()-1 && ch==s.charAt(i+1)) { count++; i++; } res+= Integer.toString(count)+Character.toString(ch); } return res; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftFacebook, Company Tags, Zoho, Amazon, Microsoft, Facebook, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T09:16:23.429Z
+ */
+
+class Solution {
+    public String countAndSay(int n) {
+        String s = "1";
+
+        for (int k = 1; k < n; k++) {
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < s.length(); ) {
+                int j = i;
+
+                while (j < s.length() && s.charAt(j) == s.charAt(i))
+                    j++;
+
+                sb.append(j - i).append(s.charAt(i));
+                i = j;
+            }
+
+            s = sb.toString();
+        }
+
+        return s;
+    }
+}
