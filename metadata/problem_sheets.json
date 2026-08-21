@@ -3337,5 +3337,6 @@
   "geeksforgeeks:count-unique-vowel-strings": [
     "GFG160"
   ],
-  "leetcode:find-users-with-valid-e-mails": []
+  "leetcode:find-users-with-valid-e-mails": [],
+  "leetcode:minimum-number-of-operations-to-move-all-balls-to-each-box": []
 }
