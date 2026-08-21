@@ -3343,5 +3343,6 @@
   "leetcode:number-of-strings-that-appear-as-substrings-in-word": [],
   "leetcode:decode-the-message": [],
   "leetcode:construct-smallest-number-from-di-string": [],
-  "leetcode:shuffle-string": []
+  "leetcode:shuffle-string": [],
+  "leetcode:maximum-odd-binary-number": []
 }
