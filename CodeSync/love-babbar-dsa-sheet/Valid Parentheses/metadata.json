@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-21T05:29:25.571Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
+  "problemTitle": "Valid Parentheses",
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "dccnsc"
+}
