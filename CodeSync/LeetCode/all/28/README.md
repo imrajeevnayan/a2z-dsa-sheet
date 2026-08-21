@@ -1,18 +1,18 @@
 # 28
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: SQL 50
 - Difficulty: Easy
-- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
+- Topics: Database
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-21T05:33:58.952Z
+- Problem URL: https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-08-21T10:26:28.102Z
 
 ## Problem Description
 
-Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter. Return true if there is a cycle in the linked list. Otherwise, return false. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed). Example 2: Input: head = [1,2], pos = 0 Output: true Explanation: There is a cycle in the linked list, where the tail connects to the 0th node. Example 3: Input: head = [1], pos = -1 Output: false Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
+Table: Users +---------------+---------+ | Column Name | Type | +---------------+---------+ | user_id | int | | name | varchar | | mail | varchar | +---------------+---------+ user_id is the primary key (column with unique values) for this table. This table contains information of the users signed up in a website. Some e-mails are invalid. Write a solution to find the users who have valid emails. A valid e-mail has a prefix name and a domain where: The prefix name is a string that may contain letters (upper or lower case), digits, underscore '_', period '.', and/or dash '-'. The prefix name must start with a letter. The domain must be exactly '@leetcode.com' in lowercase. Return the result table in any order. The result format is in the following example. Example 1: Input: Users table: +---------+-----------+-------------------------+ | user_id | name | mail | +---------+-----------+-------------------------+ | 1 | Winston | winston@leetcode.com | | 2 | Jonathan | jonathanisgreat | | 3 | Annabelle | bella-@leetcode.com | | 4 | Sally | sally.come@leetcode.com | | 5 | Marwan | quarz#2020@leetcode.com | | 6 | David | david69@gmail.com | | 7 | Shapiro | .shapo@leetcode.com | +---------+-----------+-------------------------+ Output: +---------+-----------+-------------------------+ | user_id | name | mail | +---------+-----------+-------------------------+ | 1 | Winston | winston@leetcode.com | | 3 | Annabelle | bella-@leetcode.com | | 4 | Sally | sally.come@leetcode.com | +---------+-----------+-------------------------+ Explanation: The mail of user 2 does not have a domain. The mail of user 5 has the # sign which is not allowed. The mail of user 6 does not have the leetcode domain. The mail of user 7 starts with a period.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using SQL 50. The detected topics are Database. Review the synced source file for the implementation details.
