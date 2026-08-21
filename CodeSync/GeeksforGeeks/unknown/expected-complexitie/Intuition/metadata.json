@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-21T08:14:23.893Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags FlipkartAmazon",
+    "Company Tags",
+    "Flipkart",
+    "Amazon",
+    "Topic Tags",
+    "Arrays",
+    "Stack"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }",
+  "problemTitle": "Intuition",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1",
+  "submissionId": "15yw3u"
+}
