@@ -1,13 +1,13 @@
 # Search Insert Position
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T16:26:30.828Z
+- Problem URL: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-08-21T18:13:20.337Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array of distinct integers and a target value, return the index i
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
