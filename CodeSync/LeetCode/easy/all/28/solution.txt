@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 28
- * URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/shuffle-string/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
- * Topics: String, Greedy, Counting
+ * Topics: Array, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T17:06:15.170Z
+ * Synced: 2026-08-21T17:13:47.687Z
  */
 
 class Solution {
-    public int balancedStringSplit(String s) {
+    public String restoreString(String s, int[] indices) {
         
     }
 }
