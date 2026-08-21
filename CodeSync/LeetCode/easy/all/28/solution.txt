@@ -1,13 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 28
- * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50
- * Language: SQL 50
+ * URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string
+ * Language: String
  * Difficulty: Easy
- * Topics: Database
+ * Topics: String, Greedy, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T10:26:28.102Z
+ * Synced: 2026-08-21T17:06:15.170Z
  */
 
-# Write your MySQL query statement below
+class Solution {
+    public int balancedStringSplit(String s) {
+        
+    }
+}
