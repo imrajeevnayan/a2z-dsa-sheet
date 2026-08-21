@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Split a String in Balanced Strings
+ * URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/2115311628/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: String, Greedy, Counting
+ * Runtime: 0 ms
+ * Memory: 42.73 MB
+ * Synced: 2026-08-21T17:07:05.449Z
+ */
+
+class Solution {
+    public int balancedStringSplit(String s) {
+        int count = 0,ans = 0;
+
+        for (char c : s.toCharArray()) {
+            if (c == 'L') count++;
+            else count--;
+            if (count == 0) ans++;
+        }
+        return ans;
+    }
+}
