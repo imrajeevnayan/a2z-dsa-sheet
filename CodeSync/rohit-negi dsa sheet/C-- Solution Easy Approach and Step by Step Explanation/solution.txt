@@ -1,31 +1,37 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1
- * Language: class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };
+ * URL: https://www.geeksforgeeks.org/problems/transform-string5648/1
+ * Language: class Solution { int transform(String s1, String s2) { int n = s1.length(); if (n != s2.length()) { return -1; } int[] freq = new int[256]; for (int i = 0; i < n; i++) { freq[s1.charAt(i)]++; freq[s2.charAt(i)]--; } for (int f : freq) { if (f != 0) { return -1; } } int i = n - 1; int j = n - 1; int ops = 0; while (i >= 0) { while (i >= 0 && s1.charAt(i) != s2.charAt(j)) { ops++; i--; } if (i >= 0) { i--; j--; } } return ops; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range
+ * Topics: Expected Complexities, Company Tags Directi, Company Tags, Directi, Topic Tags, Hash, Strings, Map
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T10:56:01.953Z
+ * Synced: 2026-08-21T06:21:45.282Z
  */
 
 class Solution {
-    public int countSubarray(int[] arr, int l, int r) {
-        return count(arr, r) - count(arr, l - 1);
-    }
+    int transform(String s1, String s2) {
+        int[] freq = new int[256];
 
-    private int count(int[] arr, int limit) {
+        for (char c : s1.toCharArray()) freq[c]++;
+        for (char c : s2.toCharArray()) freq[c]--;
+
+        for (int x : freq)
+            if (x != 0) return -1;
+
+        int i = s1.length() - 1;
+        int j = s2.length() - 1;
         int ans = 0;
-        int len = 0;
 
-        for (int x : arr) {
-            if (x <= limit) {
-                len++;
+        while (i >= 0) {
+            if (s1.charAt(i) == s2.charAt(j)) {
+                i--;
+                j--;
             } else {
-                len = 0;
+                ans++;
+                i--;
             }
-            ans += len;
         }
 
         return ans;
