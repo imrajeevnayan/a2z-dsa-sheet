@@ -7,9 +7,25 @@
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T16:50:18.169Z
+ * Synced: 2026-08-21T16:56:42.187Z
  */
 
-Input: height = [1,8,6,2,5,4,8,3,7]
-Output: 49
-Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+class Solution {
+    public int maxArea(int[] height) {
+        int left = 0, right = height.length - 1;
+        int maxWater = 0;
+
+        while (left < right) {
+            int currentHeight = Math.min(height[left], height[right]);
+            int width = right - left;
+            maxWater = Math.max(maxWater, currentHeight * width);
+
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return maxWater;
+    }
+}
