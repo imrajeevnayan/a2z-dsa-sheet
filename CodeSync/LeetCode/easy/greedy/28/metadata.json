@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-21T17:06:15.170Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Greedy",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "28",
+  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "pd0o3x"
+}
