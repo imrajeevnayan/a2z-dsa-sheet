@@ -3344,5 +3344,6 @@
   "leetcode:decode-the-message": [],
   "leetcode:construct-smallest-number-from-di-string": [],
   "leetcode:shuffle-string": [],
-  "leetcode:maximum-odd-binary-number": []
+  "leetcode:maximum-odd-binary-number": [],
+  "leetcode:replace-all-digits-with-characters": []
 }
