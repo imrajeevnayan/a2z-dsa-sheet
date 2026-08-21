@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-09T05:08:37.137Z",
-  "runtime": "791 ms",
+  "submissionTimestamp": "2026-08-21T10:25:29.727Z",
+  "runtime": "74 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "SQL 50",
   "problemTitle": "Delete Duplicate Emails",
-  "problemUrl": "https://leetcode.com/problems/delete-duplicate-emails/submissions/2099910998/?envType=study-plan-v2&envId=top-sql-50",
-  "submissionId": "k7e6gd"
+  "problemUrl": "https://leetcode.com/problems/delete-duplicate-emails/description/?envType=study-plan-v2&envId=top-sql-50",
+  "submissionId": "6ncib9"
 }
