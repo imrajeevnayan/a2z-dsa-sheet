@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Two Sorted Lists
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-interview-150
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=study-plan-v2&envId=top-interview-150
  * Language: Top Interview 150
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T05:34:24.291Z
+ * Synced: 2026-08-21T05:35:12.289Z
  */
 
 class Solution {
