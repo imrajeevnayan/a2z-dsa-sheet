@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Next Greater Element
  * URL: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
- * Language: vector<int> nextLargerElement(vector<int>& arr) { // code here stack<int>store; vector<int>c; for(int i=arr.size()-1;i>=0;i--) { //check while(store.size()>0 && store.top() <=arr[i]) { store.pop(); } if(store.size()==0)//stack empty to next greater element exist { c.push_back(-1); } else{ c.push_back(store.top()); } store.push(arr[i]); } reverse(c.begin(),c.end()); return c; }
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-05T20:36:34.604Z
+ * Synced: 2026-08-21T06:31:58.302Z
  */
 
 class Solution {
