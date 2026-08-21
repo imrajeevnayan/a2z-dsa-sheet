@@ -1,21 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-08T18:37:00.447Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-21T05:29:25.571Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Easy Topics Company Tags Hints",
-    "Topics",
-    "Company Tags",
-    "Hints",
-    "String Stack",
     "String",
     "Stack",
-    "Apple26"
+    "Bracket Sequences"
   ],
-  "platform": "NeetCode",
-  "language": "s",
+  "platform": "LeetCode",
+  "language": "Top Interview 150",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://neetcode.io/problems/validate-parentheses/question",
-  "submissionId": "ugh7vf"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "dccnsc"
 }
