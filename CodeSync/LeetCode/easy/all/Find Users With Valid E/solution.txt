@@ -1,15 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Find Users With Valid E
- * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/submissions/2114939060/?envType=study-plan-v2&envId=top-sql-50
+ * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50
  * Language: SQL 50
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 72 ms
+ * Runtime: 63 ms
  * Memory: N/A
- * Synced: 2026-08-21T10:27:14.795Z
+ * Synced: 2026-08-21T10:28:00.461Z
  */
 
 SELECT user_id, name, mail
 FROM Users
-WHERE mail REGEXP '^[A-Za-z][A-Za-z0-9._-]*@leetcode\\.com$';
+WHERE mail REGEXP '^[A-Za-z][A-Za-z0-9_.-]*@leetcode[.]com$';
