@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T06:47:55.762Z",
+  "submissionTimestamp": "2026-08-21T08:17:09.466Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,12 +7,11 @@
     "Expected Complexities",
     "Topic Tags",
     "Stack",
-    "Data Structures",
     "Related Articles"
   ],
   "platform": "GeeksforGeeks",
   "language": "class Solution { public static String removePair(String s) { // code here String ans = \"\"; Stack<Character> st = new Stack<>(); for(int i=0;i<s.length();i++){ char ch = s.charAt(i); if(!st.isEmpty() && st.peek()==ch) st.pop(); else st.push(ch); } if(st.isEmpty()) return \"-1\"; while(!st.isEmpty()) ans = st.pop() + ans; return ans; } }",
   "problemTitle": "Java Solution | Stack",
   "problemUrl": "https://www.geeksforgeeks.org/problems/geeks-and-the-string--170645/1",
-  "submissionId": "tk3n2j"
+  "submissionId": "31l0eg"
 }
