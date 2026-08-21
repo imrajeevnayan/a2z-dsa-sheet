@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort a stack
+ * URL: https://www.geeksforgeeks.org/problems/sort-a-stack/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Goldman Sachs, Intuit, Yahoo, IBM
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T09:14:40.903Z
+ */
+
+class Solution {
+    public void sortStack(Stack<Integer> st) {
+        if (st.isEmpty()) return;
+        int top = st.pop();
+        sortStack(st);
+        insertSorted(st, top);
+    }
+
+    private void insertSorted(Stack<Integer> st, int element) {
+        if (st.isEmpty() || st.peek() <= element) {
+            st.push(element);
+            return;
+        }
+        int top = st.pop();
+        insertSorted(st, element);
+        st.push(top);
+    }
+}
