@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Number of Operations to Move All Balls to Each Box
+ * URL: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Medium
+ * Topics: Array, String, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T17:04:03.607Z
+ */
+
+class Solution {
+    public int[] minOperations(String boxes) {
+        
+    }
+}
