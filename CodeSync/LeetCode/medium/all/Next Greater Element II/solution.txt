@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Next Greater Element II
- * URL: https://leetcode.com/problems/next-greater-element-ii/description/?utm=codolio
+ * URL: https://leetcode.com/problems/next-greater-element-ii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T15:00:24.770Z
+ * Synced: 2026-08-21T06:35:17.753Z
  */
 
-Input: nums = [1,2,1]
-Output: [2,-1,2]
-Explanation: The first 1's next greater number is 2; 
-The number 2 can't find next greater number. 
-The second 1's next greater number needs to search circularly, which is also 2.
+class Solution {
+    public int[] nextGreaterElements(int[] nums) {
+        int n = nums.length;
+        int[] res = new int[n];
+        Arrays.fill(res, -1);
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < 2 * n; i++) {
+            int index = i % n;
+            while (!st.isEmpty() && nums[index] > nums[st.peek()]) {
+                res[st.pop()] = nums[index];
+            }
+            if (i < n) st.push(index);
+        }
+        return res;
+    }
+}
