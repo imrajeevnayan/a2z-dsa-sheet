@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-21T18:12:50.767Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-21T18:13:41.866Z",
+  "runtime": "0 ms",
+  "memoryUsage": "48.46 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Binary Search",
   "problemTitle": "After streak of hard questions, leetcode lets you relax. Saying happy new month.",
-  "problemUrl": "https://leetcode.com/problems/binary-search/description/?envType=study-plan-v2&envId=binary-search",
+  "problemUrl": "https://leetcode.com/problems/binary-search/submissions/2115394996/?envType=study-plan-v2&envId=binary-search",
   "submissionId": "6r784h"
 }
