@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Strings That Appear as Substrings in Word
- * URL: https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/2115316150/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
  * Topics: Array, String
- * Runtime: 0 ms
- * Memory: 43.52 MB
- * Synced: 2026-08-21T17:12:32.158Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T17:13:19.172Z
  */
 
 class Solution {
