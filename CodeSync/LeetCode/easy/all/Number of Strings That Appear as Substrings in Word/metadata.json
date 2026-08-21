@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-29T09:00:03.381Z",
+  "submissionTimestamp": "2026-08-21T17:09:54.307Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "String",
   "problemTitle": "Number of Strings That Appear as Substrings in Word",
-  "problemUrl": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/?envType=daily-question&envId=2026-06-29",
-  "submissionId": "90h4lx"
+  "problemUrl": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/?envType=problem-list-v2&envId=string",
+  "submissionId": "28ov5d"
 }
