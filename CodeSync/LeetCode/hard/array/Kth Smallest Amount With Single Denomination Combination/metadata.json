@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-21T05:19:35.660Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-21T05:21:38.927Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Kth Smallest Amount With Single Denomination Combination",
-  "problemUrl": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/?envType=daily-question&envId=2026-08-21",
-  "submissionId": "hv3gk7"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/?envType=daily-question&envId=2026-08-21",
+  "submissionId": "9ikotw"
 }
