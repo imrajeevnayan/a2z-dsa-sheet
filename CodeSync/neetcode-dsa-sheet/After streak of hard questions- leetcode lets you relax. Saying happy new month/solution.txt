@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: After streak of hard questions, leetcode lets you relax. Saying happy new month.
- * URL: https://leetcode.com/problems/binary-search/description/?envType=study-plan-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/binary-search/submissions/2115394996/?envType=study-plan-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-21T18:12:50.767Z
+ * Runtime: 0 ms
+ * Memory: 48.46 MB
+ * Synced: 2026-08-21T18:14:30.543Z
  */
 
 class Solution {
