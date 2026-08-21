@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-02T11:32:51.432Z",
+  "submissionTimestamp": "2026-08-21T10:33:52.620Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities Topic Tags",
-    "Expected Complexities",
     "Topic Tags",
     "Strings",
     "Trie",
     "Advanced Data Structure"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "Text",
   "problemTitle": "Search Query for Strings",
   "problemUrl": "https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1",
-  "submissionId": "1j67sy"
+  "submissionId": "nywke3"
 }
