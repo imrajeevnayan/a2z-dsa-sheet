@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Number of Steps to Make Two Strings Anagram
+ * URL: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T18:06:50.322Z
+ */
+
+class Solution {
+    public int minSteps(String s, String t) {
+        
+    }
+}
