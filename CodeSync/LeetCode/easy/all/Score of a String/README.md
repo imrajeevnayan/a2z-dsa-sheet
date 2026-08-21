@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Easy
 - Topics: String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/score-of-a-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T18:17:34.441Z
+- Synced: 2026-08-21T18:18:20.172Z
 
 ## Problem Description
 
