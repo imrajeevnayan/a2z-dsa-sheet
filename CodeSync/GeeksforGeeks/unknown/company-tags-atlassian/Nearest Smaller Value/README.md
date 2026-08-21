@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1
-- Synced: 2026-08-21T09:09:31.248Z
+- Synced: 2026-08-21T09:10:16.942Z
 
 ## Problem Description
 
