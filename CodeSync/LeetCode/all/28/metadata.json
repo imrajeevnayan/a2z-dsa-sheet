@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-21T17:06:15.170Z",
+  "submissionTimestamp": "2026-08-21T17:13:10.325Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "String",
-    "Greedy",
-    "Counting"
+    "Backtracking",
+    "Stack",
+    "Greedy"
   ],
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "28",
-  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "pd0o3x"
+  "problemUrl": "https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "6flw9v"
 }
