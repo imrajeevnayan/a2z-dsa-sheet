@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Search Insert Position
- * URL: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=binary-search
+ * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T16:26:30.828Z
+ * Synced: 2026-08-21T18:13:20.337Z
  */
 
 class Solution {
@@ -24,3 +24,4 @@ class Solution {
         }
        return idx;
     }
+}
