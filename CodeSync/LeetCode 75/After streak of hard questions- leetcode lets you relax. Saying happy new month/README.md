@@ -1,13 +1,13 @@
 # After streak of hard questions, leetcode lets you relax. Saying happy new month.
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Binary Search
-- Runtime: 0 ms
-- Memory: 48.30 MB
-- Problem URL: https://leetcode.com/problems/binary-search/submissions/2079292669/
-- Synced: 2026-07-24T11:14:39.128Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/binary-search/description/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-08-21T18:12:50.767Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of integers nums which is sorted in ascending order, and an integ
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
