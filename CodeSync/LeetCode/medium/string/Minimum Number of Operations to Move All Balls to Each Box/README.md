@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:04:03.607Z
+- Synced: 2026-08-21T17:04:50.021Z
 
 ## Problem Description
 
