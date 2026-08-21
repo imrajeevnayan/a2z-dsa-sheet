@@ -1,26 +1,27 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Intuition
- * URL: https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1
- * Language: class Solution: def frequencyCount(self, arr, n, p): # Step 1: Identify and ignore elements greater than N for i in range(n): if arr[i] > n: arr[i] = 0 # Step 2: Encode frequency information into array elements for i in range(n): if arr[i] % (n + 1) > 0: arr[(arr[i] % (n + 1)) - 1] += (n + 1) # Step 3: Decode the frequency information for i in range(n): arr[i] //= (n + 1)
+ * URL: https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
+ * Language: nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }
  * Difficulty: Unknown
- * Topics: Uncategorized
+ * Topics: Expected Complexities, Company Tags FlipkartAmazon, Company Tags, Flipkart, Amazon, Topic Tags, Arrays, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T06:36:23.150Z
+ * Synced: 2026-08-21T08:14:23.893Z
  */
 
 class Solution {
-    public List<Integer> frequencyCount(int[] arr) {
-        int n = arr.length;
-        int[] freq = new int[n];
-        for (int num : arr) {
-            if (num >= 1 && num <= n) {
-                freq[num - 1]++;
+    static ArrayList<Integer> nextSmallerEle(int[] arr) {
+        int n=arr.length;
+        ArrayList<Integer>ans=new ArrayList<>(Collections.nCopies(n,-1));
+        Stack<Integer>st=new Stack<>();
+        for(int i=0;i<n;i++){
+            while(!st.isEmpty()&& arr[i]< arr[st.peek()]){
+                ans.set(st.peek(),arr[i]);
+                st.pop();
             }
+            st.push(i);
         }
-        List<Integer> res = new ArrayList<>();
-        for (int f : freq)res.add(f);
-        return res;
+        return ans;
     }
 }
