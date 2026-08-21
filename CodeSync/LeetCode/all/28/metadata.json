@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-21T17:13:10.325Z",
+  "submissionTimestamp": "2026-08-21T17:13:47.687Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "String",
-    "Backtracking",
-    "Stack",
-    "Greedy"
+    "Array",
+    "String"
   ],
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "28",
-  "problemUrl": "https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "6flw9v"
+  "problemUrl": "https://leetcode.com/problems/shuffle-string/?envType=problem-list-v2&envId=string",
+  "submissionId": "nmqlif"
 }
