@@ -1,0 +1,18 @@
+# Nearest Smaller Value
+
+- Platform: GeeksforGeeks
+- Language: vector<int> nst(vector<int> arr) { // On-left vector<int> left(arr.size()); stack<int> st1; for(int i=0;i<arr.size();i++) { while(st1.size() && arr[st1.top()]>=arr[i]) st1.pop(); if(st1.size()) left[i]=st1.top(); else left[i]=-1; st1.push(i); } // On-right vector<int> right(arr.size()); stack<int> st2; for(int i=arr.size()-1;i>=0;i--) { while(st2.size() && arr[st2.top()]>=arr[i]) st2.pop(); if(st2.size()) right[i]=st2.top(); else right[i]=-1; st2.push(i); } //final vector<int> ans(arr.size()); for(int i=0;i<arr.size();i++) { if(left[i]==-1 and right[i]==-1) ans[i]=-1; else if(left[i]==-1) ans[i]=right[i]; else if(right[i]==-1) ans[i]=left[i]; else { if( abs(i-left[i]) < abs(i-right[i]) ) ans[i]=left[i]; else if( abs(i-left[i]) > abs(i-right[i]) ) ans[i]=right[i]; else if(arr[left[i]] < arr[right[i]]) ans[i]=left[i]; else if(arr[left[i]] > arr[right[i]]) ans[i]=right[i]; else ans[i]=min(left[i],right[i]); } } return ans; }
+- Difficulty: Unknown
+- Topics: Company Tags Atlassian, Company Tags, Atlassian, Topic Tags, Arrays, Stack, Related Interview Experiences, Atlassian Interview Experience
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1
+- Synced: 2026-08-21T09:09:31.248Z
+
+## Problem Description
+
+Given an array where each element arr[i] represents the height of the tower. Find for each tower, the nearest possible tower that is shorter than it. You can look left or right on both sides. If two smaller towers are at the same distance, pick the smallest tower. If two towers have the same height then we choose the one with a smaller index. Examples: Input: arr[] = [1, 3, 2] Output: [-1, 0, 0] Explanation: For 0th index : no tower is smallest, so -1. For 1st index : For 3, here 1 & 2 both are small & at a same distance, we pick smallest which is 1 For 2nd Index : 1 is smaller, so 0(index) Input: arr[] = [4, 8, 3, 5, 3] Output = [2, 2, -1, 2, -1] Explanation: For 0th index : here 3 is the smaller, so 2(index) For 1st index : For 8, here 4 & 3 both are small & at a same distance, we pick 3, so 2(index) For 2nd index : no tower is smallest, so -1. For 3rd index : For 5, here 3 & 3 both are small & at a same distance, we pick 3(2nd Index) it smaller Index, so 2(index) For 4th index : no tower is smaller, so -1. Constraints: 1 <= n<= 105 1 <= arr[i] <= 105
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using vector<int> nst(vector<int> arr) { // On-left vector<int> left(arr.size()); stack<int> st1; for(int i=0;i<arr.size();i++) { while(st1.size() && arr[st1.top()]>=arr[i]) st1.pop(); if(st1.size()) left[i]=st1.top(); else left[i]=-1; st1.push(i); } // On-right vector<int> right(arr.size()); stack<int> st2; for(int i=arr.size()-1;i>=0;i--) { while(st2.size() && arr[st2.top()]>=arr[i]) st2.pop(); if(st2.size()) right[i]=st2.top(); else right[i]=-1; st2.push(i); } //final vector<int> ans(arr.size()); for(int i=0;i<arr.size();i++) { if(left[i]==-1 and right[i]==-1) ans[i]=-1; else if(left[i]==-1) ans[i]=right[i]; else if(right[i]==-1) ans[i]=left[i]; else { if( abs(i-left[i]) < abs(i-right[i]) ) ans[i]=left[i]; else if( abs(i-left[i]) > abs(i-right[i]) ) ans[i]=right[i]; else if(arr[left[i]] < arr[right[i]]) ans[i]=left[i]; else if(arr[left[i]] > arr[right[i]]) ans[i]=right[i]; else ans[i]=min(left[i],right[i]); } } return ans; }. The detected topics are Company Tags Atlassian, Company Tags, Atlassian, Topic Tags, Arrays, Stack, Related Interview Experiences, Atlassian Interview Experience. Review the synced source file for the implementation details.
