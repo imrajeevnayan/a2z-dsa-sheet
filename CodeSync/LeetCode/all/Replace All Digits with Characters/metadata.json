@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-21T18:04:53.029Z",
+  "submissionTimestamp": "2026-08-21T18:05:38.114Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "Replace All Digits with Characters",
-  "problemUrl": "https://leetcode.com/problems/replace-all-digits-with-characters/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "u6ghc4"
+  "problemUrl": "https://leetcode.com/problems/replace-all-digits-with-characters/?envType=problem-list-v2&envId=string",
+  "submissionId": "s70960"
 }
