@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-02T11:32:51.432Z",
+  "submissionTimestamp": "2026-08-21T10:34:41.284Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Advanced Data Structure"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "//Function to insert string into TRIE. void insert(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ curr->children[index] = getNode(); } curr = curr->children[index]; } curr->isEndOfWord = true; return; } //Function to use TRIE data structure and search the given string. bool search(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ return false; } curr = curr->children[index]; } return curr->isEndOfWord ? true : false; }",
   "problemTitle": "Search Query for Strings",
   "problemUrl": "https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1",
-  "submissionId": "1j67sy"
+  "submissionId": "2n5jqd"
 }
