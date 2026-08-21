@@ -1,41 +1,32 @@
 /*
- * Platform: Coding Ninjas (Code360)
+ * Platform: LeetCode
  * Problem: Min Stack
- * URL: https://www.naukri.com/code360/problems/min-stack_3843991
- * Language: Java (17)
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 3266 ms
+ * URL: https://leetcode.com/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
+ * Difficulty: Medium
+ * Topics: Stack, Design
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-27T09:17:36.426Z
+ * Synced: 2026-08-21T05:31:13.965Z
  */
 
-import java.util.*;
-import java.io.*;
- 
-public class Solution {
-    static class MinStack {
-        Stack<Integer> stack;
-        Stack<Integer> minStack;
-        MinStack() {
-            stack = new Stack<>();
-            minStack = new Stack<>();
+class MinStack {
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+    
+    public MinStack() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+    
+    public void push(int val) {
+        stack.push(val);
+        if (minStack.isEmpty() || val <= minStack.peek()) {
+            minStack.push(val);
         }
-        void push(int num) {
-            stack.push(num);
-            if (minStack.isEmpty() || num <= minStack.peek()) {
-                minStack.push(num);
-            }
-        }
-        int pop() {
-            if (stack.isEmpty())
-                return -1;
- 
-            int x = stack.pop();
- 
-            if (x == minStack.peek()) {
-                minStack.pop();
-            }
- 
-            return x;
+    }
+    
+    public void pop() {
+        if (stack.pop().equals(minStack.peek())) {
+            minStack.pop();
         }
