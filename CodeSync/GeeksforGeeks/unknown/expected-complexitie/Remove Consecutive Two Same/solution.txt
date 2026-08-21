@@ -7,12 +7,22 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T08:16:11.059Z
+ * Synced: 2026-08-21T10:35:10.263Z
  */
 
 class Solution {
     public String removePair(String s) {
-        // code here
+        Stack<Character>st=new Stack<>();
+        StringBuilder sb=new StringBuilder();
+        for(char c:s.toCharArray()){
+            if(!st.isEmpty()&& st.peek()==c)st.pop();
+            else st.push(c);
+        }
+        if(st.isEmpty())return "-1";
+        while(!st.isEmpty()){
+            sb.append(st.pop());
+        }
+        return sb.reverse().toString();
         
     }
 }
