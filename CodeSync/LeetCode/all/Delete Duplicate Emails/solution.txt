@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: 93 ms
  * Memory: N/A
- * Synced: 2026-08-21T10:31:33.046Z
+ * Synced: 2026-08-21T10:32:28.076Z
  */
 
 DELETE p1
