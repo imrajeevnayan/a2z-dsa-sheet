@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:07:56.163Z
+- Synced: 2026-08-21T17:09:22.169Z
 
 ## Problem Description
 
