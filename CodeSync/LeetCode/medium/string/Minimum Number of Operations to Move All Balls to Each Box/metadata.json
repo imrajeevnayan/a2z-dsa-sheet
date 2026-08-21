@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-21T17:04:03.607Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "String",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Minimum Number of Operations to Move All Balls to Each Box",
+  "problemUrl": "https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/?envType=problem-list-v2&envId=string",
+  "submissionId": "ei90a"
+}
