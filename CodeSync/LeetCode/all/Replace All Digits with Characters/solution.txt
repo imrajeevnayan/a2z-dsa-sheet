@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Replace All Digits with Characters
+ * URL: https://leetcode.com/problems/replace-all-digits-with-characters/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T18:03:58.971Z
+ */
+
+class Solution {
+    public String replaceDigits(String s) {
+        
+    }
+}
