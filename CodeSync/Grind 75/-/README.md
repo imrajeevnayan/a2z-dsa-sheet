@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Text
+- Language: Top Interview 150
 - Difficulty: Easy
-- Topics: Linked List, Recursion
+- Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
-- Synced: 2026-08-19T12:31:21.782Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-21T05:25:24.667Z
 
 ## Problem Description
 
-You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top Interview 150. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
