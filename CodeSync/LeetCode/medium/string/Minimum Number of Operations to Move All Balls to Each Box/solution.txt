@@ -5,26 +5,24 @@
  * Language: String
  * Difficulty: Medium
  * Topics: Array, String, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-21T17:04:50.021Z
+ * Synced: 2026-08-21T17:05:35.469Z
  */
 
-for (int i = 0; i < n; i++) {
-            ans[i] += operations;
-            if (boxes.charAt(i) == '1') balls++;
-            operations += balls;
-        }
-        balls = 0;
-        operations = 0;
-
-        for (int i = n - 1; i >= 0; i--) {
-            ans[i] += operations;
-            if (boxes.charAt(i) == '1') balls++;
-            operations += balls;
-        }
-        int[] ans = new int[n];
-        int balls = 0, operations = 0;
+class Solution {
     public int[] minOperations(String boxes) {
         int n = boxes.length();
-class Solution {
+        int[] ans = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (boxes.charAt(j) == '1') {
+                    ans[i] += Math.abs(i - j);
+                }
+            }
+        }
+
+        return ans;
+    }
+}
