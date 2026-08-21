@@ -1,13 +1,13 @@
 # Search Query for Strings
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Text
 - Difficulty: Unknown
-- Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure
+- Topics: Topic Tags, Strings, Trie, Advanced Data Structure
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
-- Synced: 2026-08-02T11:32:51.432Z
+- Synced: 2026-08-21T10:33:52.620Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A Trie (Prefix Tree) is an efficient data structure used for storing and searchi
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Topic Tags, Strings, Trie, Advanced Data Structure. Review the synced source file for the implementation details.
