@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-21T05:19:35.660Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Math",
+    "Binary Search",
+    "Bit Manipulation",
+    "Combinatorics",
+    "Number Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Kth Smallest Amount With Single Denomination Combination",
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/?envType=daily-question&envId=2026-08-21",
+  "submissionId": "hv3gk7"
+}
