@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.46 MB
 - Problem URL: https://leetcode.com/problems/binary-search/submissions/2115394996/?envType=study-plan-v2&envId=binary-search
-- Synced: 2026-08-21T18:13:41.866Z
+- Synced: 2026-08-21T18:14:30.543Z
 
 ## Problem Description
 
