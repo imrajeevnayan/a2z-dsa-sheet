@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-21T17:13:10.325Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Stack",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "28",
+  "problemUrl": "https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "6flw9v"
+}
