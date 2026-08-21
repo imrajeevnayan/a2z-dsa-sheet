@@ -7,7 +7,7 @@
 - Runtime: 93 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-duplicate-emails/submissions/2114938189/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-21T10:26:22.629Z
+- Synced: 2026-08-21T10:27:23.894Z
 
 ## Problem Description
 
