@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-21T10:26:28.102Z",
+  "submissionTimestamp": "2026-08-21T17:06:15.170Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Database"
+    "String",
+    "Greedy",
+    "Counting"
   ],
   "platform": "LeetCode",
-  "language": "SQL 50",
+  "language": "String",
   "problemTitle": "28",
-  "problemUrl": "https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50",
-  "submissionId": "xo0or"
+  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "pd0o3x"
 }
