@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-21T17:12:36.390Z",
+  "submissionTimestamp": "2026-08-21T17:13:22.174Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "Decode the Message",
-  "problemUrl": "https://leetcode.com/problems/decode-the-message/?envType=problem-list-v2&envId=string",
-  "submissionId": "e6cckw"
+  "problemUrl": "https://leetcode.com/problems/decode-the-message/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "483glo"
 }
