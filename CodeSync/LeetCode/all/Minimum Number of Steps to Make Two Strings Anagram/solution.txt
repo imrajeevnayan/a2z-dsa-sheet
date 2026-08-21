@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Counting
  * Runtime: 0 ms
  * Memory: 47.53 MB
- * Synced: 2026-08-21T18:12:44.438Z
+ * Synced: 2026-08-21T18:14:47.608Z
  */
 
 count[t.charAt(i) - 'a']--;
