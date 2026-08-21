@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-10T16:26:30.828Z",
+  "submissionTimestamp": "2026-08-21T18:13:20.337Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Binary Search",
   "problemTitle": "Search Insert Position",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "a4yz3y"
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=binary-search",
+  "submissionId": "wb3f3d"
 }
