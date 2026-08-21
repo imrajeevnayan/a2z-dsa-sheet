@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-search/description/?envType=study-plan-v2&envId=binary-search
-- Synced: 2026-08-21T18:12:50.767Z
+- Runtime: 0 ms
+- Memory: 48.46 MB
+- Problem URL: https://leetcode.com/problems/binary-search/submissions/2115394996/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-08-21T18:14:30.543Z
 
 ## Problem Description
 
