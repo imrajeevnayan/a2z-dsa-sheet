@@ -1,14 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Linked List, Recursion
+ * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T12:31:21.782Z
+ * Synced: 2026-08-21T05:25:24.667Z
  */
 
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
+class Solution {
+    public boolean isValid(String s) {
+        Deque<Character> st = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+            else {
+                if (st.isEmpty()) return false; 
+                char top = st.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) return false;
+            }
+        }
+        return st.isEmpty();
+    }
+}
