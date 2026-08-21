@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 28
- * URL: https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/shuffle-string/?envType=problem-list-v2&envId=string
  * Language: String
- * Difficulty: Medium
- * Topics: String, Backtracking, Stack, Greedy
+ * Difficulty: Easy
+ * Topics: Array, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T17:13:10.325Z
+ * Synced: 2026-08-21T17:13:47.687Z
  */
 
 class Solution {
-    public String smallestNumber(String pattern) {
+    public String restoreString(String s, int[] indices) {
         
     }
 }
