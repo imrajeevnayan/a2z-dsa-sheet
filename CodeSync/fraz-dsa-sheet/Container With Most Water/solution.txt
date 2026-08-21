@@ -1,28 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Container With Most Water
- * URL: https://leetcode.com/problems/container-with-most-water/submissions/2064081896/
+ * URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy
- * Runtime: 0 ms
- * Memory: 77.41 MB
- * Synced: 2026-07-11T16:46:15.161Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T16:50:18.169Z
  */
 
-int width = right - left;
-            maxWater = Math.max(maxWater, currentHeight * width);
-
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
-            int currentHeight = Math.min(height[left], height[right]);
-
-        while (left < right) {
-        int maxWater = 0;
-        int left = 0, right = height.length - 1;
-class Solution {
-    public int maxArea(int[] height) {
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
