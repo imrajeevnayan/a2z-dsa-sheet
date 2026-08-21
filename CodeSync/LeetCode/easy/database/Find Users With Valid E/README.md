@@ -6,8 +6,8 @@
 - Topics: Database
 - Runtime: 68 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-21T10:29:25.408Z
+- Problem URL: https://leetcode.com/problems/find-users-with-valid-e-mails/submissions/2114941052/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-08-21T10:30:30.936Z
 
 ## Problem Description
 
