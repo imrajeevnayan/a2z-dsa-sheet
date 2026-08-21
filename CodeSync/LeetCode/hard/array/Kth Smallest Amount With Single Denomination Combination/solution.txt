@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Kth Smallest Amount With Single Denomination Combination
+ * URL: https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/?envType=daily-question&envId=2026-08-21
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Binary Search, Bit Manipulation, Combinatorics, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T05:19:35.660Z
+ */
+
+class Solution {
+    public long findKthSmallest(int[] coins, int k) {
+        
+    }
+}
