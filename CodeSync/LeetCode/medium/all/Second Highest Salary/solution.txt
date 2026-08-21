@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Second Highest Salary
- * URL: https://leetcode.com/problems/second-highest-salary/
- * Language: Database
+ * URL: https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&envId=top-sql-50
+ * Language: SQL 50
  * Difficulty: Medium
  * Topics: Database
- * Runtime: 285 ms
+ * Runtime: 109 ms
  * Memory: N/A
- * Synced: 2026-07-25T17:58:35.846Z
+ * Synced: 2026-08-21T10:24:43.141Z
  */
 
-select max(salary)as SecondHighestSalary
-from Employee where salary < (select max(salary) from Employee);
+select max(salary)as SecondHighestSalary 
+from Employee 
+where salary < (select max(salary) from Employee);
