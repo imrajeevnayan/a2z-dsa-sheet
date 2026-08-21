@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-21T05:33:58.952Z",
+  "submissionTimestamp": "2026-08-21T10:26:28.102Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "Linked List",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Database"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "SQL 50",
   "problemTitle": "28",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "nkawe8"
+  "problemUrl": "https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50",
+  "submissionId": "xo0or"
 }
