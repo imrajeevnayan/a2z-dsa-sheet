@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T14:43:15.974Z",
+  "submissionTimestamp": "2026-08-21T05:34:24.291Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top Interview 150",
   "problemTitle": "Merge Two Sorted Lists",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
-  "submissionId": "l5kchn"
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-interview-150",
+  "submissionId": "efo03w"
 }
