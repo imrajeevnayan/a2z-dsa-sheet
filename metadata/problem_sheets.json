@@ -90,9 +90,7 @@
   ],
   "leetcode:search-insert-position": [
     "custom:algomaster-300",
-    "custom:striver-a2z-dsa-sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
+    "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:search-a-2d-matrix": [
     "NeetCode150",
