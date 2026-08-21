@@ -1,13 +1,13 @@
 # Next Greater Element
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: vector<int> nextLargerElement(vector<int>& arr) { // code here stack<int>store; vector<int>c; for(int i=arr.size()-1;i>=0;i--) { //check while(store.size()>0 && store.top() <=arr[i]) { store.pop(); } if(store.size()==0)//stack empty to next greater element exist { c.push_back(-1); } else{ c.push_back(store.top()); } store.push(arr[i]); } reverse(c.begin(),c.end()); return c; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
-- Synced: 2026-08-21T06:31:58.302Z
+- Synced: 2026-08-21T06:32:57.048Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array arr[] of integers, the task is to find the next greater e
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using vector<int> nextLargerElement(vector<int>& arr) { // code here stack<int>store; vector<int>c; for(int i=arr.size()-1;i>=0;i--) { //check while(store.size()>0 && store.top() <=arr[i]) { store.pop(); } if(store.size()==0)//stack empty to next greater element exist { c.push_back(-1); } else{ c.push_back(store.top()); } store.push(arr[i]); } reverse(c.begin(),c.end()); return c; }. The detected topics are Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags. Review the synced source file for the implementation details.
