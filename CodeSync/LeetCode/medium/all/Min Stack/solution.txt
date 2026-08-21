@@ -1,16 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Min Stack
- * URL: https://leetcode.com/problems/min-stack/submissions/2021641608/?envType=problem-list-v2&envId=stack
- * Language: Stack
+ * URL: https://leetcode.com/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Medium
  * Topics: Stack, Design
- * Runtime: 0 ms
- * Memory: 47.26 MB
- * Synced: 2026-06-03T20:00:23.010Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T05:31:13.965Z
  */
 
-public void push(int val) {
+class MinStack {
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+    
+    public MinStack() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+    
+    public void push(int val) {
         stack.push(val);
         if (minStack.isEmpty() || val <= minStack.peek()) {
             minStack.push(val);
@@ -21,13 +30,3 @@ public void push(int val) {
         if (stack.pop().equals(minStack.peek())) {
             minStack.pop();
         }
-    }
-    
-        minStack = new Stack<>();
-    }
-    public MinStack() {
-        stack = new Stack<>();
-    private Stack<Integer> minStack;
-    
-class MinStack {
-    private Stack<Integer> stack;
