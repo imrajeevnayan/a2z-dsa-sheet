@@ -6,8 +6,8 @@
 - Topics: Hash Table, String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-the-message/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:12:36.390Z
+- Problem URL: https://leetcode.com/problems/decode-the-message/description/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-21T17:13:22.174Z
 
 ## Problem Description
 
