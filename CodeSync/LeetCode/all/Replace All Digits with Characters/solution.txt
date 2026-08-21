@@ -1,22 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Replace All Digits with Characters
- * URL: https://leetcode.com/problems/replace-all-digits-with-characters/description/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/replace-all-digits-with-characters/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
  * Topics: String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-21T18:04:53.029Z
+ * Synced: 2026-08-21T18:05:38.114Z
  */
 
-class Solution {
-    public String replaceDigits(String s) {
-        char[] arr = s.toCharArray();
-        for (int i = 1; i < arr.length; i += 2) {
-            int shift = arr[i] - '0';
-            arr[i] = (char) (arr[i - 1] + shift);
+for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (Character.isDigit(ch)) {
+                int shift = ch - '0';
+                char prev = ans.charAt(ans.length() - 1);
+                ans.append((char) (prev + shift));
+
+            } else {
+                ans.append(ch);
+            }
         }
-        return new String(arr);
+        return ans.toString();
+    public String replaceDigits(String s) {
+        StringBuilder ans = new StringBuilder();
+class Solution {
     }
-}
