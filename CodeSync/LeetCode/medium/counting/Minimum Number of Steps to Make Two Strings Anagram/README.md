@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Medium
 - Topics: Hash Table, String, Counting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T18:06:50.322Z
+- Problem URL: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/submissions/2115388173/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-21T18:07:36.651Z
 
 ## Problem Description
 
