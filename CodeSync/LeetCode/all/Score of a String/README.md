@@ -1,13 +1,13 @@
 # Score of a String
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: String
 - Difficulty: Easy
 - Topics: String
-- Runtime: 0 ms
-- Memory: 43.35 MB
-- Problem URL: https://leetcode.com/problems/score-of-a-string/submissions/2069710383/
-- Synced: 2026-07-16T10:08:22.762Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/score-of-a-string/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-21T18:17:34.441Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string s. The score of a string is defined as the sum of the abs
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using String. The detected topics are String. Review the synced source file for the implementation details.
