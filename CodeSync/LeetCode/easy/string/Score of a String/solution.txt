@@ -5,16 +5,16 @@
  * Language: String
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-21T18:17:34.441Z
+ * Synced: 2026-08-21T18:18:20.172Z
  */
 
 class Solution {
     public int scoreOfString(String s) {
-        int score=0;
-        for(int i=1;i<s.length();i++){
-            score+=Math.abs(s.charAt(i)-s.charAt(i-1));
+        int score = 0;
+        for (int i = 1; i < s.length(); i++) {
+            score += Math.abs(s.charAt(i) - s.charAt(i - 1));
         }
         return score;
     }
