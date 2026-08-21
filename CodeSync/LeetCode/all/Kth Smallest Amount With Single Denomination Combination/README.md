@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Hard
 - Topics: Array, Math, Binary Search, Bit Manipulation, Combinatorics, Number Theory
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/?envType=daily-question&envId=2026-08-21
-- Synced: 2026-08-21T05:19:35.660Z
+- Problem URL: https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/?envType=daily-question&envId=2026-08-21
+- Synced: 2026-08-21T05:21:38.927Z
 
 ## Problem Description
 
