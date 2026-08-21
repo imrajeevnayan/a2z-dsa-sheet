@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Remove Consecutive Two Same
+ * URL: https://www.geeksforgeeks.org/problems/geeks-and-the-string--170645/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T08:16:11.059Z
+ */
+
+class Solution {
+    public String removePair(String s) {
+        // code here
+        
+    }
+}
