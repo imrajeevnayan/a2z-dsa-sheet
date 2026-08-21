@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 28
+ * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/description/?envType=study-plan-v2&envId=top-sql-50
+ * Language: SQL 50
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T10:26:28.102Z
+ */
+
+# Write your MySQL query statement below
