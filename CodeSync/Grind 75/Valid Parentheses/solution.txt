@@ -1,18 +1,28 @@
 /*
- * Platform: NeetCode
+ * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://neetcode.io/problems/validate-parentheses/question
- * Language: s
+ * URL: https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150
+ * Language: Top Interview 150
  * Difficulty: Easy
- * Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, String Stack, String, Stack, Apple26
- * Runtime: N/A
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-08T18:37:00.447Z
+ * Synced: 2026-08-21T05:29:25.571Z
  */
 
 class Solution {
     public boolean isValid(String s) {
-    Stack<Character>st=new Stack<>();
-    for(char c:s.toCharArray()){
-        if(c=='('|| c=='{'|| c=='[')st.push(c);
-        else{
+        Deque<Character> st = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+            else {
+                if (st.isEmpty()) return false; 
+                char top = st.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) return false;
+            }
+        }
+        return st.isEmpty();
+    }
+}
