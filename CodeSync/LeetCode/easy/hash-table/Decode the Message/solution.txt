@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Decode the Message
- * URL: https://leetcode.com/problems/decode-the-message/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/decode-the-message/description/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
  * Topics: Hash Table, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-21T17:12:36.390Z
+ * Synced: 2026-08-21T17:13:22.174Z
  */
 
 }
@@ -19,11 +19,11 @@
                 map[c - 'a'] = (char) ('a' + index++);
             if (c != ' ' && map[c - 'a'] == 0) {
         for (char c : key.toCharArray()) {
-
-        int index = 0;
-        char[] map = new char[26];
         }
         return ans.toString();
     }
+
+        int index = 0;
     public String decodeMessage(String key, String message) {
+        char[] map = new char[26];
 class Solution {
