@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-21T18:06:50.322Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-21T18:07:36.651Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "Minimum Number of Steps to Make Two Strings Anagram",
-  "problemUrl": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/?envType=problem-list-v2&envId=string",
-  "submissionId": "n4spdh"
+  "problemUrl": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/submissions/2115388173/?envType=problem-list-v2&envId=string",
+  "submissionId": "impqbp"
 }
