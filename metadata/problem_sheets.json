@@ -3342,5 +3342,6 @@
   "leetcode:split-a-string-in-balanced-strings": [],
   "leetcode:number-of-strings-that-appear-as-substrings-in-word": [],
   "leetcode:decode-the-message": [],
-  "leetcode:construct-smallest-number-from-di-string": []
+  "leetcode:construct-smallest-number-from-di-string": [],
+  "leetcode:shuffle-string": []
 }
