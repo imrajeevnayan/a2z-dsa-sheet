@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-21T17:07:05.449Z",
+  "submissionTimestamp": "2026-08-21T17:07:56.163Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.73 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "Split a String in Balanced Strings",
-  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/2115311628/?envType=problem-list-v2&envId=string",
+  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string",
   "submissionId": "ckn42b"
 }
