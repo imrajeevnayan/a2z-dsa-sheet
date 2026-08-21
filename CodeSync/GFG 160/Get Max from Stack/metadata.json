@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-21T09:12:14.095Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Stack",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class SpecialStack { public: stack<pair<int, int>> stk; SpecialStack() { // Define Stack } void push(int x) { // Push an element into the stack int max = -1; if(!stk.empty()){ max=stk.top().second > x?stk.top().second: x; }else{ max=x; } stk.push({x, max}); } void pop() { // Remove the top element from the Stack stk.pop(); } int peek() { // Returns the top element if(!stk.empty()){ return stk.top().first; } return -1; } bool isEmpty() { // Check if stack is empty return stk.size() == 0; } int getMax() { // Return maximum element of Stack if(!stk.empty()){ return stk.top().second; } return -1; } };",
+  "problemTitle": "Get Max from Stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/get-max-from-stack/1",
+  "submissionId": "7kh25b"
+}
