@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.73 MB
 - Problem URL: https://leetcode.com/problems/score-of-a-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T18:18:20.172Z
+- Synced: 2026-08-21T18:19:05.300Z
 
 ## Problem Description
 
