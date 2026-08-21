@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-21T05:36:51.700Z
+- Synced: 2026-08-21T05:37:43.027Z
 
 ## Problem Description
 
