@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T13:52:42.242Z
+ * Synced: 2026-08-21T16:50:18.169Z
  */
 
 Input: height = [1,8,6,2,5,4,8,3,7]
