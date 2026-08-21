@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Get Max from Stack
+ * URL: https://www.geeksforgeeks.org/problems/get-max-from-stack/1
+ * Language: class SpecialStack { public: stack<pair<int, int>> stk; SpecialStack() { // Define Stack } void push(int x) { // Push an element into the stack int max = -1; if(!stk.empty()){ max=stk.top().second > x?stk.top().second: x; }else{ max=x; } stk.push({x, max}); } void pop() { // Remove the top element from the Stack stk.pop(); } int peek() { // Returns the top element if(!stk.empty()){ return stk.top().first; } return -1; } bool isEmpty() { // Check if stack is empty return stk.size() == 0; } int getMax() { // Return maximum element of Stack if(!stk.empty()){ return stk.top().second; } return -1; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T09:12:14.095Z
+ */
+
+Stack<Integer> st = new Stack<>();
+    Stack<Integer> max = new Stack<>();
+
+    public SpecialStack() {
+    }
+
+    public void push(int x) {
+        st.push(x);
+
+        if (max.isEmpty() || x >= max.peek())
+            max.push(x);
+    }
+
+    public void pop() {
+        if (st.isEmpty())
+            return;
+
+        int x = st.pop();
+
+        if (x == max.peek())
+            max.pop();
+    }
+
+    public int peek() {
+        if (st.isEmpty())
+            return -1;
+
+        return st.peek();
+    }
+
+    boolean isEmpty() {
+        return st.isEmpty();
+    }
+
+    public int getMax() {
+        if (max.isEmpty())
+            return -1;
+
+        return max.peek();
+    }
+}
