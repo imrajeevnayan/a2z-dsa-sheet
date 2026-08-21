@@ -6,8 +6,8 @@
 - Topics: String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/replace-all-digits-with-characters/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T18:04:53.029Z
+- Problem URL: https://leetcode.com/problems/replace-all-digits-with-characters/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-21T18:05:38.114Z
 
 ## Problem Description
 
