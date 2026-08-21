@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: void clonestack(Stack<Integer> st, Stack<Integer> cloned) { //if stack is empty then return it if(st.isEmpty()){ return; } //pop the element from stack st int temp=st.peek(); st.pop(); //recursively call the remaining elements clonestack(st,cloned); //pushing the popped elements into the cloned stack cloned.push(temp); }
+ * URL: https://www.geeksforgeeks.org/problems/clone-a-stack-without-usinig-extra-space/1
+ * Language: class Solution: def clonestack(self, st, cloned): # code here for item in st: cloned.append(item)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Flipkart, Company Tags, Flipkart, Topic Tags, Stack, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T09:09:54.263Z
+ */
+
+class Solution {
+    public Stack<Integer> cloneStack(Stack<Integer> st) {
+        Stack<Integer> temp = new Stack<>();
+
+        for (int x : st)  temp.push(x);
+        return temp;
+    }
+}
