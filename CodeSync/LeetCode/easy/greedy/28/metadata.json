@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-21T17:06:15.170Z",
+  "submissionTimestamp": "2026-08-21T17:15:10.770Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Math",
     "String",
-    "Greedy",
-    "Counting"
+    "Greedy"
   ],
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "28",
-  "problemUrl": "https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string",
-  "submissionId": "pd0o3x"
+  "problemUrl": "https://leetcode.com/problems/maximum-odd-binary-number/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "r8almd"
 }
