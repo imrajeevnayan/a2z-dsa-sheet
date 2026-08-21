@@ -1,18 +1,18 @@
 # C++ Solution || Easy Approach and Step by Step Explanation
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };
+- Language: class Solution { int transform(String s1, String s2) { int n = s1.length(); if (n != s2.length()) { return -1; } int[] freq = new int[256]; for (int i = 0; i < n; i++) { freq[s1.charAt(i)]++; freq[s2.charAt(i)]--; } for (int f : freq) { if (f != 0) { return -1; } } int i = n - 1; int j = n - 1; int ops = 0; while (i >= 0) { while (i >= 0 && s1.charAt(i) != s2.charAt(j)) { ops++; i--; } if (i >= 0) { i--; j--; } } return ops; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range
+- Topics: Expected Complexities, Company Tags Directi, Company Tags, Directi, Topic Tags, Hash, Strings, Map
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1
-- Synced: 2026-08-05T10:56:01.953Z
+- Problem URL: https://www.geeksforgeeks.org/problems/transform-string5648/1
+- Synced: 2026-08-21T06:21:45.282Z
 
 ## Problem Description
 
-Given an integer array arr[] and two integers l and r, find the number of subarrays whose sum lies in the range [l, r] (inclusive). A subarray is a contiguous sequence of elements within the array. Examples: Input: l = 3, r = 8, arr[] = [1, 4, 6] Output: 3 Explanation: The subarrays are [1,4], [4] and [6]. Therefore answer for this test case is 3. Input: l = 4, r = 13, arr[] = [2, 3, 5, 8] Output: 6 Explanation: The subarrays are [2, 3], [2, 3, 5], [3, 5], [5], [5, 8] and [8]. Therefore answer for this test case is 6. Constraints: 1 ≤ arr.size() ≤ 105 1 ≤ arr[i] ≤ 104 1 ≤ l ≤ r ≤ 109
+Given two strings s1 and s2. Find the minimum number of steps required to transform string s1 into string s2. The only allowed operation for the transformation is selecting a character from string s1 and inserting it in the beginning of string s1. If transformation is not possible return -1. Examples: Input: s1 = "abd", s2 = "bad" Output: 1 Explanation: The conversion can take place in 1 operation: Pick 'b' and place it at the front. Input: s1 = "GeeksForGeeks", s2 = "ForGeeksGeeks" Output: 3 Explanation: The conversion can take place in 3 operations: Pick 'r' and place it at the front. s1 = "rGeeksFoGeeks" Pick 'o' and place it at the front. s1 = "orGeeksFGeeks" Pick 'F' and place it at the front. s1 = "ForGeeksGeeks" Constraints: 1<= s1.length(), s2.length() <= 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: int f(vector<int>&arr,int target) { int n = (int)arr.size(); int i =0; int j = 0; int s = 0; int res = 0; while(j<n) { s+=arr[j]; while(i<=j && s>target) { s-=arr[i]; i++; } res += (j-i+1); j++; } return res; } int countSubarray(vector<int>& arr, int l, int r) { // code here int maxr = f(arr,r); int maxl = f(arr,l-1); // cout<<maxr<<" "<<maxl<<endl; return (maxr-maxl); } };. The detected topics are Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles, Number Of Subarrays Having Sum In A Given Range. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { int transform(String s1, String s2) { int n = s1.length(); if (n != s2.length()) { return -1; } int[] freq = new int[256]; for (int i = 0; i < n; i++) { freq[s1.charAt(i)]++; freq[s2.charAt(i)]--; } for (int f : freq) { if (f != 0) { return -1; } } int i = n - 1; int j = n - 1; int ops = 0; while (i >= 0) { while (i >= 0 && s1.charAt(i) != s2.charAt(j)) { ops++; i--; } if (i >= 0) { i--; j--; } } return ops; } }. The detected topics are Expected Complexities, Company Tags Directi, Company Tags, Directi, Topic Tags, Hash, Strings, Map. Review the synced source file for the implementation details.
