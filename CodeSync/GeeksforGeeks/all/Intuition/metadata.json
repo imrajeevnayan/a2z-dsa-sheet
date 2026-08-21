@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-07-15T06:36:23.150Z",
+  "submissionTimestamp": "2026-08-21T08:14:23.893Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "Expected Complexities",
+    "Company Tags FlipkartAmazon",
+    "Company Tags",
+    "Flipkart",
+    "Amazon",
+    "Topic Tags",
+    "Arrays",
+    "Stack"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def frequencyCount(self, arr, n, p): # Step 1: Identify and ignore elements greater than N for i in range(n): if arr[i] > n: arr[i] = 0 # Step 2: Encode frequency information into array elements for i in range(n): if arr[i] % (n + 1) > 0: arr[(arr[i] % (n + 1)) - 1] += (n + 1) # Step 3: Decode the frequency information for i in range(n): arr[i] //= (n + 1)",
+  "language": "nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }",
   "problemTitle": "Intuition",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1",
-  "submissionId": "93swcy"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1",
+  "submissionId": "15yw3u"
 }
