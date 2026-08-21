@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T08:11:47.274Z
+ * Synced: 2026-08-21T08:13:18.000Z
  */
 
 class Solution {
@@ -15,13 +15,12 @@ class Solution {
         int n = arr.length;
         ArrayList<Integer> result = new ArrayList<>(Collections.nCopies(n, -1));
         Stack<Integer> st = new Stack<>();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek() <= arr[i] ) st.pop();
         
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
-                int index = st.pop();
-                result.set(index, arr[i]); 
-            }
-            st.push(i);
+            if (!st.isEmpty())  result.set(i, st.peek());
+            st.push(arr[i]);
         }
         return result;
     }
