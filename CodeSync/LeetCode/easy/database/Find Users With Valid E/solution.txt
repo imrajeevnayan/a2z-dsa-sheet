@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Users With Valid E
- * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50
+ * URL: https://leetcode.com/problems/find-users-with-valid-e-mails/submissions/2114941052/?envType=study-plan-v2&envId=top-sql-50
  * Language: SQL 50
  * Difficulty: Easy
  * Topics: Database
  * Runtime: 68 ms
  * Memory: N/A
- * Synced: 2026-08-21T10:29:25.408Z
+ * Synced: 2026-08-21T10:30:30.936Z
  */
 
 SELECT user_id, name, mail
