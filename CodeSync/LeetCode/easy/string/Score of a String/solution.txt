@@ -6,16 +6,23 @@
  * Difficulty: Easy
  * Topics: String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-21T18:18:20.172Z
+ * Memory: 43.73 MB
+ * Synced: 2026-08-21T18:19:05.300Z
  */
 
-class Solution {
-    public int scoreOfString(String s) {
-        int score = 0;
-        for (int i = 1; i < s.length(); i++) {
-            score += Math.abs(s.charAt(i) - s.charAt(i - 1));
+for (int i = 1; i < s.length(); i++) {
+            char curr = s.charAt(i);
+
+            if (curr > prev) {
+                score += curr - prev;
+            } else {
+                score += prev - curr;
+            }
+
+            prev = curr;
         }
-        return score;
-    }
-}
+
+        char prev = s.charAt(0);
+        int score = 0;
+    public int scoreOfString(String s) {
+class Solution {
