@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-21T06:35:17.753Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Next Greater Element II",
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-ii/",
+  "submissionId": "1mufeo"
+}
