@@ -4,10 +4,10 @@
 - Language: SQL 50
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 72 ms
+- Runtime: 63 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-users-with-valid-e-mails/submissions/2114939060/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-21T10:27:14.795Z
+- Problem URL: https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-08-21T10:28:00.461Z
 
 ## Problem Description
 
