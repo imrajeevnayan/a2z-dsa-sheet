@@ -6,8 +6,8 @@
 - Topics: Linked List, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-21T05:34:24.291Z
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/?envType=study-plan-v2&envId=top-interview-150
+- Synced: 2026-08-21T05:35:12.289Z
 
 ## Problem Description
 
