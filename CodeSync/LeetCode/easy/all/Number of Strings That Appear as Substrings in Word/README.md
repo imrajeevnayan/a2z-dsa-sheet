@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.52 MB
 - Problem URL: https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/2115316150/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:10:48.067Z
+- Synced: 2026-08-21T17:11:45.167Z
 
 ## Problem Description
 
