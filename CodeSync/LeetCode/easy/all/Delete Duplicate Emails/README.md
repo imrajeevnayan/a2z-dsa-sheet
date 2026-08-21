@@ -4,10 +4,10 @@
 - Language: SQL 50
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 791 ms
+- Runtime: 74 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-duplicate-emails/submissions/2099910998/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-09T05:08:37.137Z
+- Problem URL: https://leetcode.com/problems/delete-duplicate-emails/description/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-08-21T10:25:29.727Z
 
 ## Problem Description
 
