@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-21T08:11:47.274Z",
+  "submissionTimestamp": "2026-08-21T08:13:18.000Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "vector<int> nextLargerElement(vector<int>& arr) { // code here stack<int>store; vector<int>c; for(int i=arr.size()-1;i>=0;i--) { //check while(store.size()>0 && store.top() <=arr[i]) { store.pop(); } if(store.size()==0)//stack empty to next greater element exist { c.push_back(-1); } else{ c.push_back(store.top()); } store.push(arr[i]); } reverse(c.begin(),c.end()); return c; }",
   "problemTitle": "Next Greater Element",
   "problemUrl": "https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1",
-  "submissionId": "jw50zp"
+  "submissionId": "6i7e5"
 }
