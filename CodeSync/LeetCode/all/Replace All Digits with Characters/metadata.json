@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-08-21T18:03:58.971Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Replace All Digits with Characters",
+  "problemUrl": "https://leetcode.com/problems/replace-all-digits-with-characters/?envType=problem-list-v2&envId=string",
+  "submissionId": "b59893"
+}
