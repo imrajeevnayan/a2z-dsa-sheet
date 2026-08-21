@@ -7,7 +7,7 @@
  * Topics: Stack, Design
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T05:31:13.965Z
+ * Synced: 2026-08-21T05:32:01.528Z
  */
 
 class MinStack {
