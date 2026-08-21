@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-21T09:16:23.429Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags ZohoAmazonMicrosoftFacebook",
+    "Company Tags",
+    "Zoho",
+    "Amazon",
+    "Microsoft",
+    "Facebook",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public String countAndSay(int n) { // code here if(n==1) return \"1\"; String s=countAndSay(n-1); //Preprocessing String res=\"\"; for(int i=0;i<s.length();i++) { int count=1; char ch=s.charAt(i); while(i<s.length()-1 && ch==s.charAt(i+1)) { count++; i++; } res+= Integer.toString(count)+Character.toString(ch); } return res; } }",
+  "problemTitle": "Look and Say Pattern",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1",
+  "submissionId": "7djqhz"
+}
