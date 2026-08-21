@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Greedy
-- Runtime: 0 ms
-- Memory: 77.41 MB
-- Problem URL: https://leetcode.com/problems/container-with-most-water/submissions/2064081896/
-- Synced: 2026-07-11T16:45:28.171Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
+- Synced: 2026-08-21T16:50:18.169Z
 
 ## Problem Description
 
