@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-21T05:31:13.965Z
+- Synced: 2026-08-21T05:32:01.528Z
 
 ## Problem Description
 
