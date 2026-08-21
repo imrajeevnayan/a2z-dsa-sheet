@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-25T17:58:35.846Z",
-  "runtime": "285 ms",
+  "submissionTimestamp": "2026-08-21T10:24:43.141Z",
+  "runtime": "109 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Database"
   ],
   "platform": "LeetCode",
-  "language": "Database",
+  "language": "SQL 50",
   "problemTitle": "Second Highest Salary",
-  "problemUrl": "https://leetcode.com/problems/second-highest-salary/",
-  "submissionId": "tg569l"
+  "problemUrl": "https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&envId=top-sql-50",
+  "submissionId": "x6h6ax"
 }
