@@ -1,13 +1,13 @@
 # Search Query for Strings
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: //Function to insert string into TRIE. void insert(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ curr->children[index] = getNode(); } curr = curr->children[index]; } curr->isEndOfWord = true; return; } //Function to use TRIE data structure and search the given string. bool search(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ return false; } curr = curr->children[index]; } return curr->isEndOfWord ? true : false; }
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
-- Synced: 2026-08-02T11:32:51.432Z
+- Synced: 2026-08-21T10:34:41.284Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A Trie (Prefix Tree) is an efficient data structure used for storing and searchi
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using //Function to insert string into TRIE. void insert(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ curr->children[index] = getNode(); } curr = curr->children[index]; } curr->isEndOfWord = true; return; } //Function to use TRIE data structure and search the given string. bool search(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ return false; } curr = curr->children[index]; } return curr->isEndOfWord ? true : false; }. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure. Review the synced source file for the implementation details.
