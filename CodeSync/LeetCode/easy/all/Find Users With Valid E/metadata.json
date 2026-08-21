@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-21T10:28:00.461Z",
-  "runtime": "63 ms",
+  "submissionTimestamp": "2026-08-21T10:29:25.408Z",
+  "runtime": "68 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "SQL 50",
   "problemTitle": "Find Users With Valid E",
   "problemUrl": "https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50",
-  "submissionId": "rstxdr"
+  "submissionId": "1h69mr"
 }
