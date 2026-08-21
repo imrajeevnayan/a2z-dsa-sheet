@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Medium
 - Topics: Array, String, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:04:50.021Z
+- Synced: 2026-08-21T17:05:35.469Z
 
 ## Problem Description
 
