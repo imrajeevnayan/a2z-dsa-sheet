@@ -2,38 +2,19 @@
  * Platform: GeeksforGeeks
  * Problem: Search Query for Strings
  * URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
- * Language: Java (21)
+ * Language: Text
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure
+ * Topics: Topic Tags, Strings, Trie, Advanced Data Structure
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T11:32:51.432Z
+ * Synced: 2026-08-21T10:33:52.620Z
  */
 
-/* structure of trie node
-class TrieNode {
-    TrieNode[] children = new TrieNode[26];
-    boolean isEndOfWord;
-
-    TrieNode() {
-        isEndOfWord = false;
-        for (int i = 0; i < 26; i++) {
-            children[i] = null;
-        }
-    }
-}
-
-Note: The following functions are already implemented in the driver code.
-You need to only call them, implementation is not required.
-
-1. void Main.insert(TrieNode root, String word);
-2. boolean Main.search(TrieNode root, String word);
-*/
-
-class Solution {
-    public int[] checkQueries(TrieNode root, String[] arr, String[] queries) {
-
-        // code here
-        
-    }
-}
+Input: arr[] = ["the", "there", "any", "by", "their"], queries[] = ["the", "an", "any"]
+Output: [1, 0, 1]
+Explanation: 
+After inserting all strings from words[] into the Trie:
+"the" is present in the Trie, so the answer is 1.
+"an" is not present as a complete word, so the answer is 0.
+"any" exists in the Trie, so the answer is 1.
+Hence, the output is [1, 0, 1].
