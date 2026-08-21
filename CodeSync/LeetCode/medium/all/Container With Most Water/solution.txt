@@ -1,16 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Container With Most Water
- * URL: https://leetcode.com/problems/container-with-most-water/submissions/2064081896/
+ * URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy
- * Runtime: 0 ms
- * Memory: 77.41 MB
- * Synced: 2026-07-11T16:45:28.171Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-21T16:56:42.187Z
  */
 
-int width = right - left;
+class Solution {
+    public int maxArea(int[] height) {
+        int left = 0, right = height.length - 1;
+        int maxWater = 0;
+
+        while (left < right) {
+            int currentHeight = Math.min(height[left], height[right]);
+            int width = right - left;
             maxWater = Math.max(maxWater, currentHeight * width);
 
             if (height[left] < height[right]) {
@@ -19,10 +26,6 @@ int width = right - left;
                 right--;
             }
         }
-            int currentHeight = Math.min(height[left], height[right]);
-
-        while (left < right) {
-        int maxWater = 0;
-        int left = 0, right = height.length - 1;
-class Solution {
-    public int maxArea(int[] height) {
+        return maxWater;
+    }
+}
