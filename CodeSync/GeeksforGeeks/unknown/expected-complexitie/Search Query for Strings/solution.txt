@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Search Query for Strings
  * URL: https://www.geeksforgeeks.org/problems/search-query-for-strings5049/1
- * Language: //Function to insert string into TRIE. void insert(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ curr->children[index] = getNode(); } curr = curr->children[index]; } curr->isEndOfWord = true; return; } //Function to use TRIE data structure and search the given string. bool search(struct TrieNode *root, string key) { TrieNode *curr = root; for(int i = 0; i < key.length(); i++){ int index = key[i] - 'a'; if(curr->children[index] == NULL){ return false; } curr = curr->children[index]; } return curr->isEndOfWord ? true : false; }
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Strings, Trie, Advanced Data Structure
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T10:34:41.284Z
+ * Synced: 2026-08-21T10:35:27.283Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
             Main.insert(root, word);
         }
 
-        // Check each query
         int[] ans = new int[queries.length];
 
         for (int i = 0; i < queries.length; i++) {
