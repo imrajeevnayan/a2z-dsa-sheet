@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Greedy, Counting
 - Runtime: 0 ms
-- Memory: 42.73 MB
-- Problem URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/submissions/2115311628/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-21T17:07:05.449Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-21T17:07:56.163Z
 
 ## Problem Description
 
