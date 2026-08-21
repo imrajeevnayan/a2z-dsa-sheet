@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-21T18:18:20.172Z",
+  "submissionTimestamp": "2026-08-21T18:19:05.300Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.73 MB",
   "difficulty": "Easy",
   "tags": [
     "String"
@@ -10,5 +10,5 @@
   "language": "String",
   "problemTitle": "Score of a String",
   "problemUrl": "https://leetcode.com/problems/score-of-a-string/?envType=problem-list-v2&envId=string",
-  "submissionId": "8y9iti"
+  "submissionId": "l2co7t"
 }
