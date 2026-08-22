@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Transform Array by Parity
+ * URL: https://leetcode.com/problems/transform-array-by-parity/?envType=problem-list-v2&envId=sorting
+ * Language: Sorting
+ * Difficulty: Easy
+ * Topics: Array, Sorting, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T03:27:53.341Z
+ */
+
+class Solution {
+    public int[] transformArray(int[] nums) {
+        
+    }
+}
