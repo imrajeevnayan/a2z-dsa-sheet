@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-22T03:27:53.341Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Sorting",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Sorting",
+  "problemTitle": "Transform Array by Parity",
+  "problemUrl": "https://leetcode.com/problems/transform-array-by-parity/?envType=problem-list-v2&envId=sorting",
+  "submissionId": "4paqcr"
+}
