@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: 29
+ * URL: https://leetcode.com/problems/palindrome-linked-list/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers, Stack, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T15:50:29.872Z
+ */
+
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+    Stack<Integer>st=new Stack<>();
+    ListNode curr=head;
+    while(curr!=null){
+        st.push(curr.val);
+        curr=curr.next;
+    }
+    curr=head;
+    while(curr!=null){
+        if(curr.val !=st.pop())return false;
+        curr=curr.next;
+    }
+    return true;
+    }
+}
