@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-28T13:25:21.588Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-22T03:47:14.197Z",
+  "runtime": "11448 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/binary-search_975480",
-  "submissionId": "l0decx"
+  "problemUrl": "https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332",
+  "submissionId": "noywvm"
 }
