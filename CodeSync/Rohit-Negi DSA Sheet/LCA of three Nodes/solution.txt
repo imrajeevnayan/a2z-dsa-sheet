@@ -1,40 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/binary-search_975480
+ * URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 11448 ms
  * Memory: N/A
- * Synced: 2026-07-28T13:25:21.588Z
+ * Synced: 2026-08-22T03:47:14.197Z
  */
 
-import java.util.*;
- 
 public class Solution {
-    public static List<Integer> searchInSortedArray(int[] arr, int n, int[] queries, int q) {
+    public static LinkedListNode<Integer> sortTwoLists(
+            LinkedListNode<Integer> first,
+            LinkedListNode<Integer> second) {
  
-        List<Integer> ans = new ArrayList<>();
+        LinkedListNode<Integer> dummy = new LinkedListNode<>(0);
+        LinkedListNode<Integer> curr = dummy;
  
-        for (int i = 0; i < q; i++) {
-            int left = 0;
-            int right = n - 1;
-            int target = queries[i];
-            int found = 0;
- 
-            while (left <= right) {
-                int mid = left + (right - left) / 2;
- 
-                if (arr[mid] == target) {
-                    found = 1;
-                    break;
-                } else if (arr[mid] < target) {
-                    left = mid + 1;
-                } else {
-                    right = mid - 1;
-                }
+        while (first != null && second != null) {
+            if (first.data <= second.data) {
+                curr.next = first;
+                first = first.next;
+            } else {
+                curr.next = second;
+                second = second.next;
             }
  
-            ans.add(found);
+            curr = curr.next;
         }
+ 
+        if (first != null)
+            curr.next = first;
+        else
+            curr.next = second;
+ 
+        return dummy.next;
+    }
+}
