@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Finding 3
+ * URL: https://leetcode.com/problems/finding-3-digit-even-numbers/?envType=problem-list-v2&envId=sorting
+ * Language: Sorting
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Recursion, Sorting, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T03:31:35.294Z
+ */
+
+class Solution {
+    public int[] findEvenNumbers(int[] digits) {
+        
+    }
+}
