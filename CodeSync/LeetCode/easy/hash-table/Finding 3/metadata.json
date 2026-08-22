@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-22T03:31:35.294Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Recursion",
+    "Sorting",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Sorting",
+  "problemTitle": "Finding 3",
+  "problemUrl": "https://leetcode.com/problems/finding-3-digit-even-numbers/?envType=problem-list-v2&envId=sorting",
+  "submissionId": "v6b1sn"
+}
