@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 11448 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/binary-search_975480
-- Synced: 2026-07-28T13:25:21.588Z
+- Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
+- Synced: 2026-08-22T03:47:14.197Z
 
 ## Problem Description
 
