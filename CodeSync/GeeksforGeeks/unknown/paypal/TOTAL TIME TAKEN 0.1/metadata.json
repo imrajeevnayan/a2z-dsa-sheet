@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-22T15:48:23.207Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "PayPal",
+    "Bloomberg",
+    "Adobe",
+    "Google",
+    "Amazon",
+    "Apple"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "from typing import List class Solution: def isFrequencyUnique(self, n : int, arr : List[int]) -> bool: frequency = {} for num in arr: frequency[num] = frequency.get(num, 0) + 1 return len(set(frequency.values())) == len(frequency.values())",
+  "problemTitle": "TOTAL TIME TAKEN : 0.1 ????",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/unique-frequencies-of-not/1",
+  "submissionId": "iaz5qj"
+}
