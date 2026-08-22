@@ -1,0 +1,45 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Linked List
+ * URL: https://www.naukri.com/code360/problems/code-merge-sort_5907
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 4607 ms
+ * Memory: N/A
+ * Synced: 2026-08-22T03:39:54.358Z
+ */
+
+public class Solution {
+ 
+    public static Node<Integer> mergeSort(Node<Integer> head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+ 
+        // Find middle
+        Node<Integer> slow = head;
+        Node<Integer> fast = head.next;
+ 
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+ 
+        Node<Integer> second = slow.next;
+        slow.next = null;
+ 
+        // Sort both halves
+        Node<Integer> left = mergeSort(head);
+        Node<Integer> right = mergeSort(second);
+ 
+        // Merge
+        return merge(left, right);
+    }
+ 
+    private static Node<Integer> merge(Node<Integer> a, Node<Integer> b) {
+        Node<Integer> dummy = new Node<>(0);
+        Node<Integer> curr = dummy;
+ 
+        while (a != null && b != null) {
+            if (a.data <= b.data) {
