@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/recursively-sum-n-numbers/1
-- Synced: 2026-08-22T15:06:13.980Z
+- Synced: 2026-08-22T15:07:01.965Z
 
 ## Problem Description
 
