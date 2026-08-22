@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum of All Subset XOR Totals
+ * URL: https://leetcode.com/problems/sum-of-all-subset-xor-totals/?envType=problem-list-v2&envId=bit-manipulation
+ * Language: Bit Manipulation
+ * Difficulty: Easy
+ * Topics: Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration
+ * Runtime: 0 ms
+ * Memory: 42.42 MB
+ * Synced: 2026-08-22T14:56:28.747Z
+ */
+
+return dfs(nums, 0, 0);
+    }
+    private int dfs(int[] nums, int index, int xor) {
+        if (index == nums.length) return xor;
+        
+        int exclude = dfs(nums, index + 1, xor);
+        int include = dfs(nums, index + 1, xor ^ nums[index]);
+        return exclude + include;
+    public int subsetXORSum(int[] nums) {
+class Solution {
+    }
+}
