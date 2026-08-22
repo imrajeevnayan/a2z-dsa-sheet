@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-22T15:50:29.872Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "29",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/description/",
+  "submissionId": "7a5zqw"
+}
