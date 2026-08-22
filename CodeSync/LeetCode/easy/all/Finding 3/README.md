@@ -4,10 +4,10 @@
 - Language: Sorting
 - Difficulty: Easy
 - Topics: Array, Hash Table, Recursion, Sorting, Enumeration
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/?envType=problem-list-v2&envId=sorting
-- Synced: 2026-08-22T03:31:35.294Z
+- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/2115642827/?envType=problem-list-v2&envId=sorting
+- Synced: 2026-08-22T03:33:01.076Z
 
 ## Problem Description
 
