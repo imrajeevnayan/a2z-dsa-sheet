@@ -3344,5 +3344,6 @@
   "leetcode:shuffle-string": [],
   "leetcode:maximum-odd-binary-number": [],
   "leetcode:replace-all-digits-with-characters": [],
-  "leetcode:minimum-number-of-steps-to-make-two-strings-anagram": []
+  "leetcode:minimum-number-of-steps-to-make-two-strings-anagram": [],
+  "leetcode:transform-array-by-parity": []
 }
