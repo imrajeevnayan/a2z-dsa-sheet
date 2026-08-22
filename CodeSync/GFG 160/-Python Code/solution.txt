@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Recursion, Related Articles, Sum Of Natural Numbers Using Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-22T15:45:43.733Z
+ * Synced: 2026-08-22T15:46:32.760Z
  */
 
 class Solution {
