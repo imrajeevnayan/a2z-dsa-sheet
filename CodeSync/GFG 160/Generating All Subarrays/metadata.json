@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-22T15:05:52.232Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Recursion",
+    "Related Articles",
+    "Generating Subarrays Using Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public List<List<Integer>> getSubArrays(int[] arr) { List<List<Integer>> ans = new ArrayList<>(); for (int i = 0; i < arr.length; i++) { List<Integer> current = new ArrayList<>(); for (int j = i; j < arr.length; j++) { current.add(arr[j]); ans.add(new ArrayList<>(current)); } } return ans; }",
+  "problemTitle": "Generating All Subarrays",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/generating-all-subarrays/1",
+  "submissionId": "epijie"
+}
