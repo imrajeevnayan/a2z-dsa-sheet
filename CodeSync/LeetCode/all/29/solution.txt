@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 29
- * URL: https://leetcode.com/problems/sum-of-all-subset-xor-totals/?envType=problem-list-v2&envId=bit-manipulation
- * Language: Bit Manipulation
+ * URL: https://leetcode.com/problems/palindrome-linked-list/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration
+ * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-22T14:55:31.760Z
+ * Synced: 2026-08-22T15:50:29.872Z
  */
 
 class Solution {
-    public int subsetXORSum(int[] nums) {
-        
+    public boolean isPalindrome(ListNode head) {
+    Stack<Integer>st=new Stack<>();
+    ListNode curr=head;
+    while(curr!=null){
+        st.push(curr.val);
+        curr=curr.next;
+    }
+    curr=head;
+    while(curr!=null){
+        if(curr.val !=st.pop())return false;
+        curr=curr.next;
+    }
+    return true;
     }
 }
