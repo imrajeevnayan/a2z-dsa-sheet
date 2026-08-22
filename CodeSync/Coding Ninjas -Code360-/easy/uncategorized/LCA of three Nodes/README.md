@@ -1,13 +1,13 @@
 # LCA of three Nodes
 
 - Platform: Coding Ninjas (Code360)
-- Language: All languages
+- Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 11386 ms
+- Runtime: 2082 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
-- Synced: 2026-08-22T03:48:03.125Z
+- Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+- Synced: 2026-08-22T04:04:30.166Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (17). Review the synced source file for the implementation details.
