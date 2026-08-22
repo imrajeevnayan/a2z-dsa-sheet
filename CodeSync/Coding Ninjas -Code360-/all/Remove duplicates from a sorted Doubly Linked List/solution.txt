@@ -2,26 +2,41 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Remove duplicates from a sorted Doubly Linked List
  * URL: https://www.naukri.com/code360/problems/unique-sorted-list_2420283
- * Language: Java (SE 1.8)
- * Difficulty: Unknown
+ * Language: C++ (g++ 5.4)
+ * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3500 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-30T11:49:12.117Z
+ * Synced: 2026-08-22T04:06:25.850Z
  */
 
-public class Solution {
-    public static Node uniqueSortedList(Node head) {
-        if (head == null)return null;
-        Node current = head;
-        while (current != null && current.next != null) {
-            if (current.data == current.next.data) {
-                current.next = current.next.next;
-            } else {
-                current = current.next;
-            }
-        }
+/**
+ * Definition of doubly linked list:
+ * class Node {
+ * public:
+ *      int data;
+ *      Node *prev;
+ *      Node *next;
+ *      Node() {
+ *          this->data = 0;
+ *          this->prev = NULL;
+ *          this->next = NULL;
+ *      }
+ *      Node(int data) {
+ *          this->data = data;
+ *          this->prev = NULL;
+ *          this->next = NULL;
+ *      }
+ *      Node (int data, Node *next, Node *prev) {
+ *          this->data = data;
+ *          this->prev = prev;
+ *          this->next = next;
+ *      }
+ * };
+ *
+ *************************************************************************/
  
-        return head;
-    }
+Node * removeDuplicates(Node *head)
+{
+    // Write your code here
 }
