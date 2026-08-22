@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2654 ms
+- Runtime: 11448 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/odd-and-even-positioned-linked-list-nodes_1229404
-- Synced: 2026-07-30T11:40:22.282Z
+- Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
+- Synced: 2026-08-22T03:47:14.197Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
