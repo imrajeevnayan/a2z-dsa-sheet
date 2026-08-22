@@ -1,0 +1,39 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Palindrome Linked List
+ * URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2082 ms
+ * Memory: N/A
+ * Synced: 2026-08-22T04:03:15.585Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static boolean isPalindrome(LinkedListNode<Integer> head) {
+ 
+        Stack<Integer> stack = new Stack<>();
+        LinkedListNode<Integer> temp = head;
+ 
+        while (temp != null) {
+            stack.push(temp.data);
+            temp = temp.next;
+        }
+ 
+        // Compare with original list
+        temp = head;
+ 
+        while (temp != null) {
+            if (!temp.data.equals(stack.pop())) {
+                return false;
+            }
+            temp = temp.next;
+        }
+ 
+        return true;
+    }
+}
