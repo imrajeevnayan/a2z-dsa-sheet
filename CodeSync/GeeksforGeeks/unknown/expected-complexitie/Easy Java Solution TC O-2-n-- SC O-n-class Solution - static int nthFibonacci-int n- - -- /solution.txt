@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy Java Solution: TC: O(2^n), SC: O(n)class Solution { static int nthFibonacci(int n) { // code here if(n==0 || n==1) { return n; } int fnm1 = nthFibonacci(n-1); int fnm2 = nthFibonacci(n-2); return fnm1 + fnm2; }}#kmpro
+ * URL: https://www.geeksforgeeks.org/problems/fibonacci-using-recursion/1
+ * Language: class Solution: def nthFibonacci(self, n): if(n==0 or n==1): return n else: return self.nthFibonacci(n-1) + self.nthFibonacci(n-2)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Recursion, Related Articles, Fibonacci Using Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T15:01:07.280Z
+ */
+
+class Solution {
+    static int nthFibonacci(int n) {
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, -1);
+        return fib(n, dp);
+    }
+
+    static int fib(int n, int[] dp) {
+        if (n <= 1) return n;
+        if (dp[n] != -1) return dp[n];
+        
+        dp[n] = fib(n - 1, dp) + fib(n - 2, dp);
+        return dp[n];
+    }
+}
