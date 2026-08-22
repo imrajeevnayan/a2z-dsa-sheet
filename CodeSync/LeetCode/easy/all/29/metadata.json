@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-22T14:55:31.760Z",
+  "submissionTimestamp": "2026-08-22T15:50:29.872Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Math",
-    "Backtracking",
-    "Bit Manipulation",
-    "Combinatorics",
-    "Enumeration"
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Bit Manipulation",
+  "language": "Problem List",
   "problemTitle": "29",
-  "problemUrl": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/?envType=problem-list-v2&envId=bit-manipulation",
-  "submissionId": "vb8j5m"
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/description/",
+  "submissionId": "7a5zqw"
 }
