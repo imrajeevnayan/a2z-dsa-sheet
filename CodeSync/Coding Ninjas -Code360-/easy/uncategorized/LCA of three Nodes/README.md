@@ -7,7 +7,7 @@
 - Runtime: 2082 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
-- Synced: 2026-08-22T04:07:04.174Z
+- Synced: 2026-08-22T04:08:30.165Z
 
 ## Problem Description
 
