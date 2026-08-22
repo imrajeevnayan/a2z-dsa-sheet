@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse Linked List
+ * URL: https://www.naukri.com/code360/problems/reverse-the-singly-linked-list_799897
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 2279 ms
+ * Memory: N/A
+ * Synced: 2026-08-22T03:41:34.372Z
+ */
+
+import java.io.*;
+import java.util.*;
+ 
+public class Solution {
+    public static LinkedListNode<Integer> reverseLinkedList(
+            LinkedListNode<Integer> head) {
+ 
+        LinkedListNode<Integer> prev = null, curr = head;
+ 
+        while (curr != null) {
+            LinkedListNode<Integer> temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev;
+    }
+}
