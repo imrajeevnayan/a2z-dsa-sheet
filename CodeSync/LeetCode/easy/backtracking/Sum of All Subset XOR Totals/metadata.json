@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-22T14:56:28.747Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.42 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math",
+    "Backtracking",
+    "Bit Manipulation",
+    "Combinatorics",
+    "Enumeration"
+  ],
+  "platform": "LeetCode",
+  "language": "Bit Manipulation",
+  "problemTitle": "Sum of All Subset XOR Totals",
+  "problemUrl": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/?envType=problem-list-v2&envId=bit-manipulation",
+  "submissionId": "pz68hv"
+}
