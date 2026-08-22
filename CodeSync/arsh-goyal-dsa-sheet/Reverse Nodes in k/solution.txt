@@ -1,25 +1,45 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Reverse Nodes in k
- * URL: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: N/A
+ * URL: https://www.naukri.com/code360/problems/reverse-blocks_763406
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Linked List
+ * Runtime: 3848 ms
  * Memory: N/A
- * Synced: 2026-07-23T10:46:16.800Z
+ * Synced: 2026-08-22T03:45:12.994Z
  */
 
-class Solution {
-    public ListNode reverseKGroup(ListNode head, int k) {
-        if (head == null || k == 1) return head;
-        ListNode temp = null, newHead = null;
-
-        while (true) {
-            ListNode kthNode = head;
-            for (int i = 1; i < k && kthNode != null; i++)  kthNode = kthNode.next;
-            if (kthNode == null) break;
-
-            ListNode nextGroupStart = kthNode.next;
-            ListNode prev = nextGroupStart, curr = head;
-            while (curr != nextGroupStart) {
+Node prevTail = null;
+ 
+        for (int i = 0; i < n && curr != null; i++) {
+ 
+            if (b[i] == 0)
+                continue;
+ 
+            Node groupTail = curr;
+            Node prev = null;
+ 
+            int k = b[i];
+ 
+            while (curr != null && k-- > 0) {
+                Node next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+ 
+            if (prevTail == null)
+                head = prev;
+            else
+                prevTail.next = prev;
+ 
+            prevTail = groupTail;
+        }
+ 
+        if (prevTail != null)
+            prevTail.next = curr;
+ 
+        Node curr = head;
+public class Solution {
+    public static Node getListAfterReverseOperation(Node head, int n, int b[]) {
