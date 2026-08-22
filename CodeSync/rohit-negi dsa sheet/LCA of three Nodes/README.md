@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 12175 ms
+- Runtime: 11448 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
-- Synced: 2026-06-19T06:32:42.845Z
+- Synced: 2026-08-22T03:47:14.197Z
 
 ## Problem Description
 
