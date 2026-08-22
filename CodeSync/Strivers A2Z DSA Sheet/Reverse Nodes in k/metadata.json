@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T10:46:16.800Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-22T03:45:12.994Z",
+  "runtime": "3848 ms",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "in Linked List"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "Coding Ninjas (Code360)",
+  "language": "Java (17)",
   "problemTitle": "Reverse Nodes in k",
-  "problemUrl": "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
-  "submissionId": "8kns0s"
+  "problemUrl": "https://www.naukri.com/code360/problems/reverse-blocks_763406",
+  "submissionId": "d3v4tt"
 }
