@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2082 ms
+- Runtime: 11203 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
-- Synced: 2026-08-22T04:05:12.167Z
+- Problem URL: https://www.naukri.com/code360/problems/search-in-a-linked-list_975381
+- Synced: 2026-08-22T04:05:14.234Z
 
 ## Problem Description
 
