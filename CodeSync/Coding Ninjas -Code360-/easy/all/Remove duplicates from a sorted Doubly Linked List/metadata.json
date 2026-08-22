@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T16:17:05.256Z",
+  "submissionTimestamp": "2026-08-22T04:06:25.850Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "C++ (g++ 5.4)",
   "problemTitle": "Remove duplicates from a sorted Doubly Linked List",
   "problemUrl": "https://www.naukri.com/code360/problems/unique-sorted-list_2420283",
-  "submissionId": "7bpf86"
+  "submissionId": "tx4cts"
 }
