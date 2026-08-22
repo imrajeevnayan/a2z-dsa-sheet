@@ -3372,5 +3372,8 @@
     "custom:striver-sde-sheet",
     "custom:arsh-goyal-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:recursively-sum-n-numbers": [
+    "GFG160"
   ]
 }
