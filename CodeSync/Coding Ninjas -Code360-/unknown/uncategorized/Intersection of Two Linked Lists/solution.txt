@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Intersection of Two Linked Lists
+ * URL: https://www.naukri.com/code360/problems/intersection-of-linked-list_630457
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 10924 ms
+ * Memory: N/A
+ * Synced: 2026-08-22T04:01:03.184Z
+ */
+
+public class Solution {
+    public static int findIntersection(Node firstHead, Node secondHead) {
+        Node a = firstHead,b = secondHead;
+ 
+        while (a != b) {
+            a = (a == null) ? secondHead : a.next;
+            b = (b == null) ? firstHead : b.next;
+        }
+ 
+        return a == null ? -1 : a.data;
+    }
+}
