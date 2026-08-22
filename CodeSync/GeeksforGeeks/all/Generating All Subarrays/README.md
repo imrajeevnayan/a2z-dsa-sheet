@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/generating-all-subarrays/1
-- Synced: 2026-08-22T15:05:52.232Z
+- Synced: 2026-08-22T15:06:42.249Z
 
 ## Problem Description
 
