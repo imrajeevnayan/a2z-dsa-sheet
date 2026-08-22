@@ -2,12 +2,12 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 11448 ms
+ * Runtime: 11386 ms
  * Memory: N/A
- * Synced: 2026-08-22T03:47:14.197Z
+ * Synced: 2026-08-22T03:48:03.125Z
  */
 
 public class Solution {
@@ -15,26 +15,15 @@ public class Solution {
             LinkedListNode<Integer> first,
             LinkedListNode<Integer> second) {
  
-        LinkedListNode<Integer> dummy = new LinkedListNode<>(0);
-        LinkedListNode<Integer> curr = dummy;
+        if (first == null)  return second;
+        if (second == null) return first;
  
-        while (first != null && second != null) {
-            if (first.data <= second.data) {
-                curr.next = first;
-                first = first.next;
-            } else {
-                curr.next = second;
-                second = second.next;
-            }
- 
-            curr = curr.next;
+        if (first.data <= second.data) {
+            first.next = sortTwoLists(first.next, second);
+            return first;
+        } else {
+            second.next = sortTwoLists(first, second.next);
+            return second;
         }
- 
-        if (first != null)
-            curr.next = first;
-        else
-            curr.next = second;
- 
-        return dummy.next;
     }
 }
