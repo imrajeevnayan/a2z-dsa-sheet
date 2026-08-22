@@ -1,39 +1,25 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+ * URL: https://www.naukri.com/code360/problems/search-in-a-linked-list_975381
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2082 ms
+ * Runtime: 11203 ms
  * Memory: N/A
- * Synced: 2026-08-22T04:05:12.167Z
+ * Synced: 2026-08-22T04:05:14.234Z
  */
 
-import java.util.*;
- 
 public class Solution {
+    public static int searchInLinkedList(Node head, int k) {
  
-    public static boolean isPalindrome(LinkedListNode<Integer> head) {
- 
-        Stack<Integer> stack = new Stack<>();
-        LinkedListNode<Integer> temp = head;
- 
-        while (temp != null) {
-            stack.push(temp.data);
-            temp = temp.next;
-        }
- 
-        // Compare with original list
-        temp = head;
- 
-        while (temp != null) {
-            if (!temp.data.equals(stack.pop())) {
-                return false;
+        while (head != null) {
+            if (head.data == k) {
+                return 1;
             }
-            temp = temp.next;
+            head = head.next;
         }
  
-        return true;
+        return 0;
     }
 }
