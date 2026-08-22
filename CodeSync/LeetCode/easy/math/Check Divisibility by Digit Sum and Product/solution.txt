@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Check Divisibility by Digit Sum and Product
+ * URL: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/?envType=daily-question&envId=2026-08-22
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T03:33:41.755Z
+ */
+
+class Solution {
+    public boolean checkDivisibility(int n) {
+        
+    }
+}
