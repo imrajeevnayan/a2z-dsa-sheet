@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-19T06:32:42.845Z",
-  "runtime": "12175 ms",
+  "submissionTimestamp": "2026-08-22T03:47:14.197Z",
+  "runtime": "11448 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332",
-  "submissionId": "g3vupf"
+  "submissionId": "noywvm"
 }
