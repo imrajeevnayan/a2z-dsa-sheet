@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: TOTAL TIME TAKEN : 0.1 ????
+ * URL: https://www.geeksforgeeks.org/problems/unique-frequencies-of-not/1
+ * Language: from typing import List class Solution: def isFrequencyUnique(self, n : int, arr : List[int]) -> bool: frequency = {} for num in arr: frequency[num] = frequency.get(num, 0) + 1 return len(set(frequency.values())) == len(frequency.values())
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, PayPal, Bloomberg, Adobe, Google, Amazon, Apple
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T15:48:23.207Z
+ */
+
+class Solution {
+    public boolean isFrequencyUnique(List<Integer> arr) {
+        HashMap<Integer, Integer> freq = new HashMap<>();
+        for (int num : arr) freq.put(num, freq.getOrDefault(num, 0) + 1);
+         HashSet<Integer> set = new HashSet<>();
+
+        for (int count : freq.values()) {
+            if (set.contains(count)) {
+                return false;
+            }
+            set.add(count);
+        }
+        return true;
+    }
+}
