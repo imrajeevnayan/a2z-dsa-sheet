@@ -1,0 +1,25 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Middle Of Linked List
+ * URL: https://www.naukri.com/code360/problems/middle-of-linked-list_973250
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 12027 ms
+ * Memory: N/A
+ * Synced: 2026-08-22T03:43:13.753Z
+ */
+
+public class Solution
+{
+    public static Node findMiddle(Node head)
+    {
+        Node slow = head,fast= head;
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+}
