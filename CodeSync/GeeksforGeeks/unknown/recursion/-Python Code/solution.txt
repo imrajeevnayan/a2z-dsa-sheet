@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: #Python Code:
+ * URL: https://www.geeksforgeeks.org/problems/recursively-sum-n-numbers/1
+ * Language: class Solution: def recursiveSum(self,n): #code here if n == 0: return n return n+self.recursiveSum(n-1)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Recursion, Related Articles, Sum Of Natural Numbers Using Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T15:04:36.196Z
+ */
+
+class Solution {
+    public int recursiveSum(int n) {
+        if (n == 0) return 0;
+        return n + recursiveSum(n - 1);
+    }
+}
