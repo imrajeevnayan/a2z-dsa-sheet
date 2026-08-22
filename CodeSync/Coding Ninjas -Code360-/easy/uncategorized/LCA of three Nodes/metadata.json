@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-22T03:48:03.125Z",
-  "runtime": "11386 ms",
+  "submissionTimestamp": "2026-08-22T04:04:30.166Z",
+  "runtime": "2082 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/merge-two-sorted-linked-lists_800332",
-  "submissionId": "xh2468"
+  "problemUrl": "https://www.naukri.com/code360/problems/palindrom-linked-list_799352",
+  "submissionId": "qh1647"
 }
