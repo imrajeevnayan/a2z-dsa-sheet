@@ -2,40 +2,41 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Remove duplicates from a sorted Doubly Linked List
  * URL: https://www.naukri.com/code360/problems/unique-sorted-list_2420283
- * Language: Java (SE 1.8)
+ * Language: C++ (g++ 5.4)
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:17:05.256Z
+ * Synced: 2026-08-22T04:06:25.850Z
  */
 
-import java.util.*;
-public class Solution {
-    public static Node removeDuplicates(Node head) {
-        if (head == null) return null;
+/**
+ * Definition of doubly linked list:
+ * class Node {
+ * public:
+ *      int data;
+ *      Node *prev;
+ *      Node *next;
+ *      Node() {
+ *          this->data = 0;
+ *          this->prev = NULL;
+ *          this->next = NULL;
+ *      }
+ *      Node(int data) {
+ *          this->data = data;
+ *          this->prev = NULL;
+ *          this->next = NULL;
+ *      }
+ *      Node (int data, Node *next, Node *prev) {
+ *          this->data = data;
+ *          this->prev = prev;
+ *          this->next = next;
+ *      }
+ * };
+ *
+ *************************************************************************/
  
-        Node current = head;
- 
-        while (current.next != null) {
-            if (current.data == current.next.data) {
-                // Duplicate found: skip the next node
-                Node duplicate = current.next;
-                current.next = duplicate.next;
-                
-                // Update prev pointer of the next node if it exists
-                if (duplicate.next != null) {
-                    duplicate.next.prev = current;
-                }
-                
-                // Help garbage collection
-                duplicate.next = null;
-                duplicate.prev = null;
-            } else {
-                // Move forward only if no deletion occurred
-                current = current.next;
-            }
-        }
-        
-        return head;
-    }
+Node * removeDuplicates(Node *head)
+{
+    // Write your code here
+}
