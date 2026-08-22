@@ -3360,5 +3360,17 @@
     "custom:rohit-negi_dsa_sheet"
   ],
   "coding ninjas (code360):palindrom-linked-list_799352": [],
-  "leetcode:sum-of-all-subset-xor-totals": []
+  "leetcode:sum-of-all-subset-xor-totals": [],
+  "geeksforgeeks:fibonacci-using-recursion": [
+    "StriverSDE",
+    "StriverA2Z",
+    "AlgoMaster300",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "GFG160"
+  ]
 }
