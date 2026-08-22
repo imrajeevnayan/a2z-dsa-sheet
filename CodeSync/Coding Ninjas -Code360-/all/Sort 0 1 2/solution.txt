@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sort 0 1 2
+ * URL: https://www.naukri.com/code360/problems/sort-0-1-2_631055
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-22T03:39:04.213Z
+ */
+
+import java.util.*;
+import java.io.*;
+public class Solution {
+  public static void sort012(int[] arr) {
+        int zero = 0, one = 0, two = 0;
+ 
+        for (int x : arr) {
+            if (x == 0) zero++;
+            else if (x == 1) one++;
+            else two++;
+        }
+ 
+        int i = 0;
+ 
+        while (zero-- > 0) arr[i++] = 0;
+        while (one-- > 0) arr[i++] = 1;
+        while (two-- > 0) arr[i++] = 2;
+    }
+}
