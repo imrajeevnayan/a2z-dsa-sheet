@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Math
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/?envType=daily-question&envId=2026-08-22
-- Synced: 2026-08-22T03:33:41.755Z
+- Runtime: 0 ms
+- Memory: 42.27 MB
+- Problem URL: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/submissions/2115643530/?envType=daily-question&envId=2026-08-22
+- Synced: 2026-08-22T03:34:30.481Z
 
 ## Problem Description
 
