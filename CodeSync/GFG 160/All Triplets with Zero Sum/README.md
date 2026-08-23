@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160/problem/find-all-triplets-with-zero-sum
-- Synced: 2026-08-23T08:58:40.196Z
+- Synced: 2026-08-23T09:53:22.621Z
 
 ## Problem Description
 
