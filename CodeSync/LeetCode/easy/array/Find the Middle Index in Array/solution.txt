@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: 43.31 MB
- * Synced: 2026-08-23T17:16:51.941Z
+ * Synced: 2026-08-23T17:17:37.940Z
  */
 
 int rightSum = total - leftSum - nums[i];
