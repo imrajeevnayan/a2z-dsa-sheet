@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array
-- Runtime: 3 ms
-- Memory: 52.42 MB
-- Problem URL: https://leetcode.com/problems/max-consecutive-ones/
-- Synced: 2026-08-23T15:43:37.014Z
+- Runtime: 0 ms
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones/submissions/2117519164/
+- Synced: 2026-08-23T15:44:22.018Z
 
 ## Problem Description
 
