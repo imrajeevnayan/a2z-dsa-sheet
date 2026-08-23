@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 🔸 Hint :
- * URL: https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/
+ * URL: https://leetcode.com/problems/consecutive-numbers/?envType=problem-list-v2&envId=database
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
- * Runtime: 93 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T18:12:37.710Z
+ * Synced: 2026-08-23T16:05:16.745Z
  */
 
 SELECT DISTINCT Num AS ConsecutiveNums
