@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:14:20.168Z
+ * Synced: 2026-08-23T08:16:33.790Z
  */
 
 class Solution {
