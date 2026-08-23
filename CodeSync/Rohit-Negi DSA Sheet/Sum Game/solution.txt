@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sum Game
+ * URL: https://leetcode.com/problems/sum-game/?envType=daily-question&envId=2026-08-23
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Math, String, Greedy, Game Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:34:35.568Z
+ */
+
+class Solution {
+    public boolean sumGame(String num) {
+        
+    }
+}
