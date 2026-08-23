@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Palindromic Subarray Sum
+ * URL: https://leetcode.com/problems/palindromic-subarray-sum/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Hash Function, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T15:30:32.071Z
+ */
+
+class Solution {
+    public long getSum(int[] nums) {
+        
+    }
+}
