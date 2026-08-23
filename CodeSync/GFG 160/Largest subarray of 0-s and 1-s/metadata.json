@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T07:25:50.668Z",
+  "submissionTimestamp": "2026-08-23T07:54:43.042Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Largest subarray of 0's and 1's",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/largest-subarray-of-0s-and-1s",
   "submissionId": "ix3erf"
 }
