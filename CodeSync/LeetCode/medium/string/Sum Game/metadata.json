@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-23T04:34:35.568Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-23T04:35:45.398Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Daily Question",
   "problemTitle": "Sum Game",
   "problemUrl": "https://leetcode.com/problems/sum-game/?envType=daily-question&envId=2026-08-23",
-  "submissionId": "ri9o34"
+  "submissionId": "boqyxi"
 }
