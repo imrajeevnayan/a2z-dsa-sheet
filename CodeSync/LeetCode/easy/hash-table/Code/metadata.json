@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-07-12T11:23:35.503Z",
+  "submissionTimestamp": "2026-08-23T11:08:40.333Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
     "Hash Table",
+    "Two Pointers",
+    "Binary Search",
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "60 questions to solve (Copy-9xpbvcmc)",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12",
-  "submissionId": "48h2xo"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id",
+  "submissionId": "ajt1xo"
 }
