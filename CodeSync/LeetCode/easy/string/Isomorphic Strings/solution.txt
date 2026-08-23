@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Isomorphic Strings
- * URL: https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
+ * URL: https://leetcode.com/problems/isomorphic-strings/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String
- * Runtime: 0 ms
- * Memory: 43.92 MB
- * Synced: 2026-08-15T12:35:34.435Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T17:17:28.809Z
  */
 
 class Solution {
