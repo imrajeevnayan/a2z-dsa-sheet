@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-23T08:31:02.778Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "two-pointer-algorithm",
+    "Related Articles",
+    "Count Pairs With Given Sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count pairs with given sum",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
+  "submissionId": "sda03t"
+}
