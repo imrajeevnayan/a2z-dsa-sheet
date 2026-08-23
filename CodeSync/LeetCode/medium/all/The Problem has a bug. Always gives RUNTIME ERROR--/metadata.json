@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-25T18:08:19.326Z",
-  "runtime": "91 ms",
+  "submissionTimestamp": "2026-08-23T16:03:45.092Z",
+  "runtime": "137 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "The Problem has a bug. Always gives RUNTIME ERROR⚠️",
-  "problemUrl": "https://leetcode.com/problems/nth-highest-salary/",
-  "submissionId": "qpg4d8"
+  "problemUrl": "https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=database",
+  "submissionId": "w2y77j"
 }
