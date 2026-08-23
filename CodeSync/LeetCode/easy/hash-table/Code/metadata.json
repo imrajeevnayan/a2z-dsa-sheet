@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-23T11:08:40.333Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-23T11:09:25.713Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -14,5 +14,5 @@
   "language": "60 questions to solve (Copy-9xpbvcmc)",
   "problemTitle": "Code",
   "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "ajt1xo"
+  "submissionId": "3ko3i0"
 }
