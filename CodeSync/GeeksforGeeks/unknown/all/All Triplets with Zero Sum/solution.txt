@@ -7,12 +7,32 @@
  * Topics: Expected Complexities, Topic Tags, Sorting, Arrays, Hash, Related Articles, Find Triplets Array Whose Sum Equal Zero
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:32:35.466Z
+ * Synced: 2026-08-23T08:33:31.176Z
  */
 
 class Solution {
     public List<List<Integer>> findTriplets(int[] arr) {
-        // Your code here
-        
+        List<List<Integer>> result = new ArrayList<>();
+        int n = arr.length;
+
+        for (int i = 0; i < n - 2; i++) {
+            HashMap<Integer, Integer> map = new HashMap<>();
+
+            for (int j = i + 1; j < n; j++) {
+                int required = -(arr[i] + arr[j]);
+
+                if (map.containsKey(required)) {
+                    result.add(Arrays.asList(
+                        arr[i],
+                        required,
+                        arr[j]
+                    ));
+                }
+
+                map.put(arr[j], j);
+            }
+        }
+
+        return result;
     }
 }
