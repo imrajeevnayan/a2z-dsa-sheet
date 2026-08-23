@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-23T04:45:41.080Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Number of Good Ways to Split a String",
+  "problemUrl": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "mx9k01"
+}
