@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-25T18:12:37.710Z",
-  "runtime": "93 ms",
+  "submissionTimestamp": "2026-08-23T16:05:16.745Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "🔸 Hint :",
-  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/submissions/2081106622/",
+  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/?envType=problem-list-v2&envId=database",
   "submissionId": "2ytkve"
 }
