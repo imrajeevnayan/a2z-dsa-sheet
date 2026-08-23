@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 52.16 MB
 - Problem URL: https://leetcode.com/problems/max-consecutive-ones/submissions/2117519164/
-- Synced: 2026-08-23T15:44:22.018Z
+- Synced: 2026-08-23T15:45:19.999Z
 
 ## Problem Description
 
