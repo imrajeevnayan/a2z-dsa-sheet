@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Medium
 - Topics: Array, String, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-23T04:57:32.891Z
+- Synced: 2026-08-23T06:49:07.316Z
 
 ## Problem Description
 
