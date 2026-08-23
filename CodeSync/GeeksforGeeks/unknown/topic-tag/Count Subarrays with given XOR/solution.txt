@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Subarrays with given XOR
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Map, Bit Magic, Related Articles, Count Number Subarrays Given Xor
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T08:26:56.507Z
+ */
+
+class Solution {
+    public long subarrayXor(int arr[], int k) {
+        // code here
+        
+    }
+}
