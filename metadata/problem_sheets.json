@@ -3537,8 +3537,5 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:intersection-of-two-arrays": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet"
-  ]
+  "leetcode:intersection-of-two-arrays": []
 }
