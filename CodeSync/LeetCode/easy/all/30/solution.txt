@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 30
+ * URL: https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T13:17:00.168Z
+ */
+
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2]
