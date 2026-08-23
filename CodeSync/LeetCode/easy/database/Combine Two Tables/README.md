@@ -1,13 +1,13 @@
 # Combine Two Tables
 
 - Platform: LeetCode
-- Language: Database
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 99 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/combine-two-tables/
-- Synced: 2026-08-08T16:25:12.569Z
+- Problem URL: https://leetcode.com/problems/combine-two-tables/description/
+- Synced: 2026-08-23T15:57:35.299Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Person +-------------+---------+ | Column Name | Type | +-------------+--
 
 ## Explanation
 
-This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
