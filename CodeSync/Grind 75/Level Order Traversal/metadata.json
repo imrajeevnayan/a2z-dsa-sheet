@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T06:54:20.641Z",
+  "submissionTimestamp": "2026-08-23T07:06:37.858Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Level Order Traversal",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160",
-  "submissionId": "u2000g"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal",
+  "submissionId": "2bm2zh"
 }
