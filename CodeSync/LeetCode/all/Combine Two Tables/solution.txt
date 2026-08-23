@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Combine Two Tables
- * URL: https://leetcode.com/problems/combine-two-tables/
+ * URL: https://leetcode.com/problems/combine-two-tables/submissions/2117533401/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Database
  * Runtime: 129 ms
  * Memory: N/A
- * Synced: 2026-08-23T15:58:21.168Z
+ * Synced: 2026-08-23T15:59:10.835Z
  */
 
 SELECT p.firstName,p.lastName,a.city,a.state
