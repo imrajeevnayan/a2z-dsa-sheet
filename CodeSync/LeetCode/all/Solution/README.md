@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 142 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/combine-two-tables/submissions/2081083008/
-- Synced: 2026-07-25T17:57:10.347Z
+- Problem URL: https://leetcode.com/problems/combine-two-tables/description/
+- Synced: 2026-08-23T15:56:00.769Z
 
 ## Problem Description
 
