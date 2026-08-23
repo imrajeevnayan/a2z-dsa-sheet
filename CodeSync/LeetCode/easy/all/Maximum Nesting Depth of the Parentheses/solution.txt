@@ -1,23 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Nesting Depth of the Parentheses
- * URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/?envType=problem-list-v2&envId=da2hb3jj
+ * URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2117612744/?envType=problem-list-v2&envId=da2hb3jj
  * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-23T17:07:13.964Z
+ * Memory: 42.66 MB
+ * Synced: 2026-08-23T17:08:03.956Z
  */
 
-maxDepth = Math.max(maxDepth, depth);
+if (c == '(') {
+                depth++;
+                maxDepth = Math.max(maxDepth, depth);
             } else if (c == ')') {
                 depth--;
-            if (c == '(') {
-                depth++;
-        for (char c : s.toCharArray()) {
             }
         }
-    public int maxDepth(String s) {
-        int depth = 0,maxDepth = 0;
-class Solution {
+        return maxDepth;
+    }
+}
