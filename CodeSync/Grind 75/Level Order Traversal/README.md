@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
-- Synced: 2026-08-23T06:54:20.641Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
+- Synced: 2026-08-23T07:06:37.858Z
 
 ## Problem Description
 
