@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Medium
 - Topics: Database
-- Runtime: 91 ms
+- Runtime: 137 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/nth-highest-salary/
-- Synced: 2026-07-25T18:08:19.326Z
+- Problem URL: https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=database
+- Synced: 2026-08-23T16:03:45.092Z
 
 ## Problem Description
 
