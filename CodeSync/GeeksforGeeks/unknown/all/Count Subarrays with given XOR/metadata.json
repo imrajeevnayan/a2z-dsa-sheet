@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-23T08:26:56.507Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Map",
+    "Bit Magic",
+    "Related Articles",
+    "Count Number Subarrays Given Xor"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count Subarrays with given XOR",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
+  "submissionId": "lw5stq"
+}
