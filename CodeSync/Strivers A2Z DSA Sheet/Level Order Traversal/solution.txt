@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:09:43.012Z
+ * Synced: 2026-08-23T07:10:30.847Z
  */
 
 Input: root = [1, 2, N, N, 3, N, N]
