@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-09T14:22:32.436Z",
+  "submissionTimestamp": "2026-08-23T09:53:32.352Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Intersection Of Two Arrays"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def intersect(self, a, b): sa = set(a) return list(sa.intersection(b))",
+  "language": "Java (21)",
   "problemTitle": "Intersection of Two arrays with Duplicate Elements",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/intersection-of-two-arrays-with-duplicate-elements/1",
-  "submissionId": "is0019"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160/problem/find-all-triplets-with-zero-sum",
+  "submissionId": "5jl09y"
 }
