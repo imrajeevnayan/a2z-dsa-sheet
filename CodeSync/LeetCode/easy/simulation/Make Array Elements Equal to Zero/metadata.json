@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-23T04:47:20.931Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.66 MB",
+  "submissionTimestamp": "2026-08-23T04:48:22.335Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Prefix Sum",
   "problemTitle": "Make Array Elements Equal to Zero",
-  "problemUrl": "https://leetcode.com/problems/make-array-elements-equal-to-zero/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "hdedjo"
+  "problemUrl": "https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "qbfzsn"
 }
