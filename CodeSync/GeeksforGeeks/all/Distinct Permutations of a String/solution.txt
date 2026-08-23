@@ -1,0 +1,50 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Distinct Permutations of a String
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/recursion-and-backtracking-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Accolite, Amazon, Microsoft, OYO Rooms, Samsung
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T08:29:26.642Z
+ */
+
+class Solution {
+    static ArrayList<String> findPermutation(String s) {
+        ArrayList<String> ans = new ArrayList<>();
+        char[] arr = s.toCharArray();
+
+        permute(arr, 0, ans);
+        Collections.sort(ans);
+
+        return ans;
+    }
+
+    static void permute(char[] arr, int index, ArrayList<String> ans) {
+        if (index == arr.length) {
+            ans.add(new String(arr));
+            return;
+        }
+
+        HashSet<Character> used = new HashSet<>();
+
+        for (int i = index; i < arr.length; i++) {
+            if (used.contains(arr[i])) {
+                continue;
+            }
+
+            used.add(arr[i]);
+
+            swap(arr, index, i);
+            permute(arr, index + 1, ans);
+            swap(arr, index, i); // backtrack
+        }
+    }
+
+    static void swap(char[] arr, int i, int j) {
+        char temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
