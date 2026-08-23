@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-23T17:06:28.833Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Strings (Copy-ehkbkaxt)",
+  "problemTitle": "Maximum Nesting Depth of the Parentheses",
+  "problemUrl": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/?envType=problem-list-v2&envId=da2hb3jj",
+  "submissionId": "in09ci"
+}
