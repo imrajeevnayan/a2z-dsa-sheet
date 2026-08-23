@@ -1,13 +1,13 @@
 # Reverse Vowels of a String
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: String
 - Difficulty: Easy
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: 46.48 MB
-- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-07T06:13:37.027Z
+- Memory: 46.20 MB
+- Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=problem-list-v2&envId=string
+- Synced: 2026-08-23T10:33:15.263Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, reverse only all the vowels in the string and return it. The v
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using String. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
