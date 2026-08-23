@@ -1,18 +1,18 @@
 # 30
 
 - Platform: LeetCode
-- Language: Prefix Sum
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Prefix Sum
+- Topics: Database
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-23T04:44:47.897Z
+- Problem URL: https://leetcode.com/problems/second-highest-salary/description/
+- Synced: 2026-08-23T15:50:27.870Z
 
 ## Problem Description
 
-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. You must write an algorithm that runs in O(n) time and without using the division operation. Example 1: Input: nums = [1,2,3,4] Output: [24,12,8,6] Example 2: Input: nums = [-1,1,0,-3,3] Output: [0,0,9,0,0] Constraints: 2 <= nums.length <= 105 -30 <= nums[i] <= 30 The input is generated such that answer[i] is guaranteed to fit in a 32-bit integer. Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+Table: Employee +-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | salary | int | +-------------+------+ id is the primary key (column with unique values) for this table. Each row of this table contains information about the salary of an employee. Write a solution to find the second highest distinct salary from the Employee table. If there is no second highest salary, return null (return None in Pandas). The result format is in the following example. Example 1: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | | 2 | 200 | | 3 | 300 | +----+--------+ Output: +---------------------+ | SecondHighestSalary | +---------------------+ | 200 | +---------------------+ Example 2: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | +----+--------+ Output: +---------------------+ | SecondHighestSalary | +---------------------+ | null | +---------------------+
 
 ## Explanation
 
-This solution was accepted on LeetCode using Prefix Sum. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
