@@ -3396,5 +3396,8 @@
     "custom:fraz-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:check-if-digits-are-equal-in-string-after-operations-i": []
+  "leetcode:check-if-digits-are-equal-in-string-after-operations-i": [],
+  "leetcode:number-of-good-ways-to-split-a-string": [
+    "custom:algomaster-300"
+  ]
 }
