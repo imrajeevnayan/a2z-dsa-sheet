@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Math, String, Greedy, Game Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sum-game/?envType=daily-question&envId=2026-08-23
-- Synced: 2026-08-23T04:34:35.568Z
+- Synced: 2026-08-23T04:35:45.398Z
 
 ## Problem Description
 
