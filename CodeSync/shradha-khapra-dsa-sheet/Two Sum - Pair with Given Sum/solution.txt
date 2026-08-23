@@ -7,12 +7,16 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:29:56.851Z
+ * Synced: 2026-08-23T08:30:47.408Z
  */
 
 class Solution {
     boolean twoSum(int arr[], int target) {
-        // code here
-        
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(target - num)) return true;
+            set.add(num);
+        }
+        return false;
     }
 }
