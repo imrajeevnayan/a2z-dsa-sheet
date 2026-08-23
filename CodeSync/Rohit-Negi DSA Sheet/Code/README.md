@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-08-23T11:09:25.713Z
+- Memory: 45.15 MB
+- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/submissions/2117255312/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-08-23T11:10:11.446Z
 
 ## Problem Description
 
