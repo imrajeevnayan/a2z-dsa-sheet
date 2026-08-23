@@ -3551,5 +3551,8 @@
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:my-calendar-i": [
+    "custom:algomaster-300"
   ]
 }
