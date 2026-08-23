@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T08:33:31.176Z",
+  "submissionTimestamp": "2026-08-23T08:58:40.196Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,6 +15,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "All Triplets with Zero Sum",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
-  "submissionId": "jkjcrz"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160/problem/find-all-triplets-with-zero-sum",
+  "submissionId": "dmp6xn"
 }
