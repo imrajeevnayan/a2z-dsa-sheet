@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count pairs with given sum
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, two-pointer-algorithm, Related Articles, Count Pairs With Given Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T08:31:02.778Z
+ */
+
+class Solution {
+    int countPairs(int arr[], int target) {
+        // code here
+        
+    }
+}
