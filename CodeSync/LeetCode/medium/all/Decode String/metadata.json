@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T18:29:27.876Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-08-23T15:45:35.902Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,8 +9,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Grind 169 (Copy-rabvlt31)",
+  "language": "Problem List",
   "problemTitle": "Decode String",
-  "problemUrl": "https://leetcode.com/problems/decode-string/?envType=problem-list-v2&envId=dxlqdj5j",
-  "submissionId": "b5zhbx"
+  "problemUrl": "https://leetcode.com/problems/decode-string/",
+  "submissionId": "iwf42q"
 }
