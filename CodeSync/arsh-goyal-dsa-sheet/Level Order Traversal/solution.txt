@@ -7,24 +7,10 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:08:58.008Z
+ * Synced: 2026-08-23T07:09:43.012Z
  */
 
-/* Structure of Binary Tree Node
-class Node {
-    public int data;
-    public Node left;
-    public Node right;
+Input: root = [1, 2, N, N, 3, N, N]
 
-    // Constructor
-    public Node(int val) {
-        data = val;
-        left = right = null;
-    }
-};*/
-
-class Solution {
-    public ArrayList<Integer> levelOrder(Node root) {
-        // code here
-        
-    }
+Output: [1, 2, 3]
+Explanation: We start with the root node 1, so the first level of the traversal is [1]. Then we move to its children 2 and 3, which form the next level, giving the final output [1, 2, 3].
