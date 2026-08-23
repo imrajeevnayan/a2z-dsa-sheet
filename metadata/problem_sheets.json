@@ -3540,5 +3540,6 @@
   "leetcode:intersection-of-two-arrays": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
-  ]
+  ],
+  "leetcode:palindromic-subarray-sum": []
 }
