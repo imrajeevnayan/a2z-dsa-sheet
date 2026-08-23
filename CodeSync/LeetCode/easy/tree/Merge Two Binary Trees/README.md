@@ -1,13 +1,13 @@
 # Merge Two Binary Trees
 
 - Platform: LeetCode
-- Language: Common Patterns Questions
+- Language: 60 questions to solve (Copy-9xpbvcmc)
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=xksb9pgr
-- Synced: 2026-06-17T10:00:44.407Z
+- Problem URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-08-23T11:06:01.211Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two binary trees root1 and root2. Imagine that when you put one of
 
 ## Explanation
 
-This solution was accepted on LeetCode using Common Patterns Questions. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
