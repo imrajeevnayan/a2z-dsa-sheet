@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-08-23T15:45:35.902Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Decode String",
+  "problemUrl": "https://leetcode.com/problems/decode-string/",
+  "submissionId": "iwf42q"
+}
