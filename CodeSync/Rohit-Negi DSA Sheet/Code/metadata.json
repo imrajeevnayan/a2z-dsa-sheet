@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-23T11:09:25.713Z",
+  "submissionTimestamp": "2026-08-23T11:10:11.446Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "45.15 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "60 questions to solve (Copy-9xpbvcmc)",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "3ko3i0"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/submissions/2117255312/?envType=problem-list-v2&envId=da2ht4id",
+  "submissionId": "9lstvm"
 }
