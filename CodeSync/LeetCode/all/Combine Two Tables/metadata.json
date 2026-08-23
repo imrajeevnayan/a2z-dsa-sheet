@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-08T16:25:12.569Z",
-  "runtime": "99 ms",
+  "submissionTimestamp": "2026-08-23T15:57:35.299Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Database"
   ],
   "platform": "LeetCode",
-  "language": "Database",
+  "language": "Problem List",
   "problemTitle": "Combine Two Tables",
-  "problemUrl": "https://leetcode.com/problems/combine-two-tables/",
-  "submissionId": "r22k5d"
+  "problemUrl": "https://leetcode.com/problems/combine-two-tables/description/",
+  "submissionId": "lzrlmd"
 }
