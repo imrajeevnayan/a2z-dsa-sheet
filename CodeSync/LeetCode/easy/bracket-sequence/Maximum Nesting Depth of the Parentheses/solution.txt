@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Nesting Depth of the Parentheses
+ * URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T17:06:28.833Z
+ */
+
+class Solution {
+    public int maxDepth(String s) {
+        
+    }
+}
