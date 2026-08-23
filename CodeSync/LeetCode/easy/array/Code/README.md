@@ -4,10 +4,10 @@
 - Language: 60 questions to solve (Copy-9xpbvcmc)
 - Difficulty: Easy
 - Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
-- Runtime: 0 ms
-- Memory: 44.69 MB
-- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-08-23T11:22:33.034Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-08-23T14:17:02.515Z
 
 ## Problem Description
 
