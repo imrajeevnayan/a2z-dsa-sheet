@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-30T09:11:01.802Z",
+  "submissionTimestamp": "2026-08-23T08:26:50.592Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Two Sum - Pair with Given Sum",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/key-pair5616/1",
-  "submissionId": "4mrfl2"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
+  "submissionId": "kn2wrt"
 }
