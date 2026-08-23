@@ -1,13 +1,13 @@
 # Decode String
 
 - Platform: LeetCode
-- Language: Grind 169 (Copy-rabvlt31)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack, Recursion
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-string/submissions/2023582364/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:29:33.927Z
+- Problem URL: https://leetcode.com/problems/decode-string/
+- Synced: 2026-08-23T15:45:35.902Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an encoded string, return its decoded string. The encoding rule is: k[enco
 
 ## Explanation
 
-This solution was accepted on LeetCode using Grind 169 (Copy-rabvlt31). The detected topics are String, Stack, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Recursion. Review the synced source file for the implementation details.
