@@ -3443,5 +3443,12 @@
   ],
   "geeksforgeeks:second-largest": [
     "GFG160"
+  ],
+  "geeksforgeeks:move-all-zeroes-to-end": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
   ]
 }
