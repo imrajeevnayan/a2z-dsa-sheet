@@ -5,20 +5,20 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
- * Runtime: 1 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T11:39:21.468Z
+ * Synced: 2026-08-23T04:41:41.994Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String,List<String>>map=new HashMap<>();
+      HashMap<String,List<String>>ans=new HashMap<>();
         for(String s:strs){
-            char ch[]=s.toCharArray();
-            Arrays.sort(ch);
+            char c[]=s.toCharArray();
+            Arrays.sort(c);
+            String key=String.valueOf(c);
+            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
         }
-        return new ArrayList<>(map.values());
+        return new ArrayList<>(ans.values());
     }
-            String key=String.valueOf(ch);
-            map.computeIfAbsent(key,k->new ArrayList<>()).add(s);
 }
