@@ -1,13 +1,13 @@
 # Missing in Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Text
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, D-E-Shaw
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
-- Synced: 2026-07-12T10:41:32.913Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-gfg-160
+- Synced: 2026-08-23T08:19:51.485Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array arr[] of size n - 1 that contains distinct integers in th
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, D-E-Shaw. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Text. The detected topics are Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, D-E-Shaw. Review the synced source file for the implementation details.
