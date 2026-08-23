@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-23T04:39:43.818Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "String",
+    "Simulation",
+    "Combinatorics",
+    "Number Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Check If Digits Are Equal in String After Operations I",
+  "problemUrl": "https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/?envType=problem-list-v2&envId=string",
+  "submissionId": "t3kzfh"
+}
