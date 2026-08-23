@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 30
+ * URL: https://leetcode.com/problems/second-highest-salary/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T15:50:27.870Z
+ */
+
+select max(salary)as SecondHighestSalary 
+from Employee 
+where salary < (select max(salary) from Employee);
