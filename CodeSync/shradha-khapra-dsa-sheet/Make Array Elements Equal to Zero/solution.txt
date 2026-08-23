@@ -1,29 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Make Array Elements Equal to Zero
- * URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/?envType=problem-list-v2&envId=prefix-sum
+ * URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=problem-list-v2&envId=prefix-sum
  * Language: Prefix Sum
  * Difficulty: Easy
  * Topics: Array, Simulation, Prefix Sum
- * Runtime: 0 ms
- * Memory: 43.66 MB
- * Synced: 2026-08-23T04:47:20.931Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:48:22.335Z
  */
 
-if (nums[i] == 0) {
+class Solution {
+    public int countValidSelections(int[] nums) {
+        int total = 0;
+        for (int num : nums) {
+            total += num;
+        }
+        int left = 0;
+        int ans = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            left += nums[i];
+            int right = total - left;
+
+            if (nums[i] == 0) {
                 if (left == right) {
                     ans += 2;
                 } else if (Math.abs(left - right) == 1) {
-                    ans++;
-                }
-            }
-        }
-        return ans;
-    }
-            int right = total - left;
-            left += nums[i];
-        for (int i = 0; i < nums.length; i++) {
-
-        int ans = 0;
-        int left = 0;
-        }
