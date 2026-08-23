@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/palindromic-subarray-sum/description/
-- Synced: 2026-08-23T15:35:09.002Z
+- Synced: 2026-08-23T15:36:09.012Z
 
 ## Problem Description
 
