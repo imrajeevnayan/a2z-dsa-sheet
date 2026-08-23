@@ -7,7 +7,7 @@
 - Runtime: 79 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/second-highest-salary/submissions/2117525443/
-- Synced: 2026-08-23T15:54:56.012Z
+- Synced: 2026-08-23T15:55:48.317Z
 
 ## Problem Description
 
