@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Simulation, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 43.66 MB
 - Problem URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-23T04:46:35.493Z
+- Synced: 2026-08-23T04:47:20.931Z
 
 ## Problem Description
 
