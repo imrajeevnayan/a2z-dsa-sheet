@@ -3541,5 +3541,15 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:palindromic-subarray-sum": []
+  "leetcode:palindromic-subarray-sum": [],
+  "leetcode:decode-string": [
+    "Blind75",
+    "NeetCode150",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
