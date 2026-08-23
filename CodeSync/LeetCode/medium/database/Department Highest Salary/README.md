@@ -1,13 +1,13 @@
 # Department Highest Salary
 
 - Platform: LeetCode
-- Language: Database
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Database
-- Runtime: 125 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/department-highest-salary/
-- Synced: 2026-07-25T18:17:17.231Z
+- Problem URL: https://leetcode.com/problems/department-highest-salary/description/
+- Synced: 2026-08-23T16:13:20.087Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Employee +--------------+---------+ | Column Name | Type | +-------------
 
 ## Explanation
 
-This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
