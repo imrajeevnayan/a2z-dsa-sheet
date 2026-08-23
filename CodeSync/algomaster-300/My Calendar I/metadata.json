@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-08-23T15:47:22.874Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Design",
+    "Segment Tree",
+    "Ordered Set"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "My Calendar I",
+  "problemUrl": "https://leetcode.com/problems/my-calendar-i/",
+  "submissionId": "8ppbt2"
+}
