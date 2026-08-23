@@ -1,18 +1,18 @@
 # 30
 
 - Platform: LeetCode
-- Language: Text
-- Difficulty: Easy
-- Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Database
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-08-23T13:17:00.168Z
+- Problem URL: https://leetcode.com/problems/second-highest-salary/description/
+- Synced: 2026-08-23T15:50:27.870Z
 
 ## Problem Description
 
-Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order. Example 1: Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2] Example 2: Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [9,4] Explanation: [4,9] is also accepted. Constraints: 1 <= nums1.length, nums2.length <= 1000 0 <= nums1[i], nums2[i] <= 1000
+Table: Employee +-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | salary | int | +-------------+------+ id is the primary key (column with unique values) for this table. Each row of this table contains information about the salary of an employee. Write a solution to find the second highest distinct salary from the Employee table. If there is no second highest salary, return null (return None in Pandas). The result format is in the following example. Example 1: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | | 2 | 200 | | 3 | 300 | +----+--------+ Output: +---------------------+ | SecondHighestSalary | +---------------------+ | 200 | +---------------------+ Example 2: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | +----+--------+ Output: +---------------------+ | SecondHighestSalary | +---------------------+ | null | +---------------------+
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Array, Hash Table, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
