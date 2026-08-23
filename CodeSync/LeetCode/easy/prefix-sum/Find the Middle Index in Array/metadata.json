@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-23T17:11:17.979Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-08-23T17:12:04.934Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.31 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Middle Index in Array",
-  "problemUrl": "https://leetcode.com/problems/find-the-middle-index-in-array/",
-  "submissionId": "mglt0u"
+  "problemUrl": "https://leetcode.com/problems/find-the-middle-index-in-array/submissions/2117617904/",
+  "submissionId": "l7sdsk"
 }
