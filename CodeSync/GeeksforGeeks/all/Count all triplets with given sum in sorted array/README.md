@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Hash, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160
-- Synced: 2026-08-23T07:55:08.159Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/count-all-triplets-with-given-sum-in-sorted-array
+- Synced: 2026-08-23T07:55:53.470Z
 
 ## Problem Description
 
