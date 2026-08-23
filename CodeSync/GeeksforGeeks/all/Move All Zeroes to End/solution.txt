@@ -1,21 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Move All Zeroes to End
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/move-all-zeroes-to-end-of-array0751
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:12:26.164Z
+ * Synced: 2026-08-23T08:16:33.790Z
  */
 
 class Solution {
     void pushZerosToEnd(int[] arr) {
-        int j=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]!=0)arr[j++]=arr[i];
-        }
-        while(j <arr.length)arr[j++]=0;
+        // code here
+        
     }
 }
