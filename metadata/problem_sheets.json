@@ -3525,5 +3525,8 @@
   "geeksforgeeks:count-pairs-with-given-sum": [
     "custom:love-babbar-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:all-triplets-with-zero-sum": [
+    "GFG160"
   ]
 }
