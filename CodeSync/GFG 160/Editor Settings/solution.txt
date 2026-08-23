@@ -1,23 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Editor Settings
- * URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
- * Language: class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:26:07.476Z
+ * Synced: 2026-08-23T07:25:58.102Z
  */
 
 class Solution {
-    int lowerBound(int[] arr, int target) {
-        int low = 0,high = arr.length;
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (arr[mid] >= target)  high = mid;
-            else  low = mid + 1;
+    public int maxLen(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int sum = 0, maxLen = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) arr[i] = -1;
+            sum += arr[i];
+            if (sum == 0)  maxLen = i + 1;
+            if (map.containsKey(sum)) {
+                maxLen = Math.max(maxLen, i - map.get(sum));
+            } else {
+                map.put(sum, i);
+            }
         }
-        return low;
+
+        return maxLen;
     }
 }
