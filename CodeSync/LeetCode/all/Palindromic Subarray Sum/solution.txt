@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Hash Function, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T15:35:09.002Z
+ * Synced: 2026-08-23T15:36:09.012Z
  */
 
 class Solution {
