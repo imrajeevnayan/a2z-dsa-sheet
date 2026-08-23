@@ -3516,5 +3516,10 @@
     "custom:neetcode-dsa-sheet",
     "custom:striver-sde-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:n-queen-problem": [
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
