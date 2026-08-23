@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-08-23T04:51:25.098Z
+- Synced: 2026-08-23T04:57:32.891Z
 
 ## Problem Description
 
