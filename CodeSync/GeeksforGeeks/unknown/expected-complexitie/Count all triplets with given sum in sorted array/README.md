@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/count-all-triplets-with-given-sum-in-sorted-array
-- Synced: 2026-08-23T07:57:28.000Z
+- Synced: 2026-08-23T07:59:30.895Z
 
 ## Problem Description
 
