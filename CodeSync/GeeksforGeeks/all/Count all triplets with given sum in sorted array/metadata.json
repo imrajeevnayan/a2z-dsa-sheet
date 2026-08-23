@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T07:55:08.159Z",
+  "submissionTimestamp": "2026-08-23T07:55:53.470Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -13,6 +13,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Count all triplets with given sum in sorted array",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160",
-  "submissionId": "pxjqn6"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/count-all-triplets-with-given-sum-in-sorted-array",
+  "submissionId": "igp0bb"
 }
