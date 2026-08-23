@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Largest subarray of 0's and 1's
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/largest-subarray-of-0s-and-1s
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags PaytmMorgan StanleyAmazonMakeMyTrip, Company Tags, Paytm, Morgan Stanley, Amazon, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:25:50.668Z
+ * Synced: 2026-08-23T07:54:43.042Z
  */
 
 class Solution {
