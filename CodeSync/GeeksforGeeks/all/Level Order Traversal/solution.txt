@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:08:58.008Z
+ * Synced: 2026-08-23T07:11:15.963Z
  */
 
 /* Structure of Binary Tree Node
@@ -28,3 +28,4 @@ class Solution {
         // code here
         
     }
+}
