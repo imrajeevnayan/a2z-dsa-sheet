@@ -4,10 +4,10 @@
 - Language: Database
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 99 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
-- Synced: 2026-08-08T19:20:45.988Z
+- Problem URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/?envType=problem-list-v2&envId=database
+- Synced: 2026-08-23T16:16:52.179Z
 
 ## Problem Description
 
