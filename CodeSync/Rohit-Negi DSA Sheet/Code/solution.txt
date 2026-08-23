@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: 0 ms
  * Memory: 44.69 MB
- * Synced: 2026-08-23T11:11:53.413Z
+ * Synced: 2026-08-23T11:12:40.169Z
  */
 
 for (int num : nums2) {
@@ -15,9 +15,6 @@ for (int num : nums2) {
                 result.add(num);
             }
         }
-        for (int num : nums1) set.add(num);
-        List<Integer> result = new ArrayList<>();
-        Set<Integer> set = new HashSet<>();
         int[] ans = new int[result.size()];
 
         for (int i = 0; i < result.size(); i++) {
@@ -25,5 +22,8 @@ for (int num : nums2) {
         }
         return ans;
     }
+        for (int num : nums1) set.add(num);
+        List<Integer> result = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
     public int[] intersection(int[] nums1, int[] nums2) {
 class Solution {
