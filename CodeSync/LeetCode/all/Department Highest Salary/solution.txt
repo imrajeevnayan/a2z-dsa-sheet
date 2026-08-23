@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T16:15:52.035Z
+ * Synced: 2026-08-23T16:16:45.750Z
  */
 
 e.salary AS Salary,
