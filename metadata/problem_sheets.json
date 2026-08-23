@@ -3483,5 +3483,13 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "geeksforgeeks:non-overlapping-intervals": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
   ]
 }
