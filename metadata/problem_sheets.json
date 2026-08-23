@@ -3504,5 +3504,8 @@
     "custom:arsh-goyal-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:count-subarrays-with-given-xor": [
+    "GFG160"
   ]
 }
