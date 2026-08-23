@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-08-23T04:44:47.897Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "30",
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "cafurl"
+}
