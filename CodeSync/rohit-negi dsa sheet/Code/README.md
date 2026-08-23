@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Stack
+- Language: 60 questions to solve (Copy-9xpbvcmc)
 - Difficulty: Easy
-- Topics: Two Pointers, String, Stack
+- Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-prefix-of-word/description/?envType=problem-list-v2&envId=stack
-- Synced: 2026-08-19T13:52:13.664Z
+- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-08-23T11:08:40.333Z
 
 ## Problem Description
 
-Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing. For example, if word = "abcdefd" and ch = "d", then you should reverse the segment that starts at 0 and ends at 3 (inclusive). The resulting string will be "dcbaefd". Return the resulting string. Example 1: Input: word = "abcdefd", ch = "d" Output: "dcbaefd" Explanation: The first occurrence of "d" is at index 3. Reverse the part of word from 0 to 3 (inclusive), the resulting string is "dcbaefd". Example 2: Input: word = "xyxzxe", ch = "z" Output: "zxyxxe" Explanation: The first and only occurrence of "z" is at index 3. Reverse the part of word from 0 to 3 (inclusive), the resulting string is "zxyxxe". Example 3: Input: word = "abcd", ch = "z" Output: "abcd" Explanation: "z" does not exist in word. You should not do any reverse operation, the resulting string is "abcd". Constraints: 1 <= word.length <= 250 word consists of lowercase English letters. ch is a lowercase English letter.
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order. Example 1: Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2] Example 2: Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [9,4] Explanation: [4,9] is also accepted. Constraints: 1 <= nums1.length, nums2.length <= 1000 0 <= nums1[i], nums2[i] <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Stack. The detected topics are Two Pointers, String, Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
