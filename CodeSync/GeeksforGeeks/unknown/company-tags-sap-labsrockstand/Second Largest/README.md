@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags SAP LabsRockstand, Company Tags, SAP Labs, Rockstand, Topic Tags, Arrays, Searching
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/second-largest3735/1
-- Synced: 2026-07-14T15:38:30.028Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160
+- Synced: 2026-08-23T08:01:43.478Z
 
 ## Problem Description
 
