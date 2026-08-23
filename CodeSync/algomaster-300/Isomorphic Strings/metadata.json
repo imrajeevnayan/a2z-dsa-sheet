@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-15T12:35:34.435Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.92 MB",
+  "submissionTimestamp": "2026-08-23T17:17:28.809Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
     "String"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Problem List",
   "problemTitle": "Isomorphic Strings",
-  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "ovh1ry"
+  "problemUrl": "https://leetcode.com/problems/isomorphic-strings/description/",
+  "submissionId": "rtfvcl"
 }
