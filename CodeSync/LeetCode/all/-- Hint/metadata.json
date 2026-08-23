@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-23T16:05:16.745Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-23T16:06:03.648Z",
+  "runtime": "91 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "🔸 Hint :",
-  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/?envType=problem-list-v2&envId=database",
-  "submissionId": "2ytkve"
+  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/submissions/2117540692/?envType=problem-list-v2&envId=database",
+  "submissionId": "dze13x"
 }
