@@ -1,38 +1,36 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: All Triplets with Zero Sum
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160/problem/find-all-triplets-with-zero-sum
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Sorting, Arrays, Hash, Related Articles, Find Triplets Array Whose Sum Equal Zero
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:33:31.176Z
+ * Synced: 2026-08-23T08:58:40.196Z
  */
 
 class Solution {
     public List<List<Integer>> findTriplets(int[] arr) {
-        List<List<Integer>> result = new ArrayList<>();
-        int n = arr.length;
+        List<List<Integer>> ans = new ArrayList<>();
+        HashMap<Integer, List<Integer>> map = new HashMap<>();
 
-        for (int i = 0; i < n - 2; i++) {
-            HashMap<Integer, Integer> map = new HashMap<>();
+        for (int j = 0; j < arr.length; j++) {
 
-            for (int j = i + 1; j < n; j++) {
-                int required = -(arr[i] + arr[j]);
+            for (int k = j + 1; k < arr.length; k++) {
+                int required = -(arr[j] + arr[k]);
 
                 if (map.containsKey(required)) {
-                    result.add(Arrays.asList(
-                        arr[i],
-                        required,
-                        arr[j]
-                    ));
+                    for (int i : map.get(required)) {
+                        ans.add(Arrays.asList(i, j, k));
+                    }
                 }
-
-                map.put(arr[j], j);
             }
+
+            map.putIfAbsent(arr[j], new ArrayList<>());
+            map.get(arr[j]).add(j);
         }
 
-        return result;
+        return ans;
     }
 }
