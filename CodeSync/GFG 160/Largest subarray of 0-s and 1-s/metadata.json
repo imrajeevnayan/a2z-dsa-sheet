@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-23T07:23:52.017Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags PaytmMorgan StanleyAmazonMakeMyTrip",
+    "Company Tags",
+    "Paytm",
+    "Morgan Stanley",
+    "Amazon",
+    "MakeMyTrip",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Largest subarray of 0's and 1's",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809",
+  "submissionId": "ix3erf"
+}
