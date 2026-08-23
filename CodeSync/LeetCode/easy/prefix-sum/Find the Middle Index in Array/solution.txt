@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Middle Index in Array
+ * URL: https://leetcode.com/problems/find-the-middle-index-in-array/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T17:10:32.265Z
+ */
+
+class Solution {
+    public int findMiddleIndex(int[] nums) {
+        
+    }
+}
