@@ -1,16 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Employees Earning More Than Their Managers
- * URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
+ * URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/?envType=problem-list-v2&envId=database
  * Language: Database
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 99 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T19:20:45.988Z
+ * Synced: 2026-08-23T16:16:52.179Z
  */
 
-select e.name as Employee 
-From Employee e join Employee m
-on e.managerId=m.id
-where e.salary >m.salary;
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| salary      | int     |
+| managerId   | int     |
++-------------+---------+
+id is the primary key (column with unique values) for this table.
+Each row of this table indicates the ID of an employee, their name, salary, and the ID of their manager.
