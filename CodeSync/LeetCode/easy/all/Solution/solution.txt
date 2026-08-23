@@ -1,20 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Solution
- * URL: https://leetcode.com/problems/combine-two-tables/description/
+ * URL: https://leetcode.com/problems/combine-two-tables/submissions/2117531284/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 122 ms
  * Memory: N/A
- * Synced: 2026-08-23T15:56:00.769Z
+ * Synced: 2026-08-23T15:56:47.155Z
  */
 
-SELECT 
-    p.firstName,
-    p.lastName,
-    a.city,
-    a.state
-FROM Person p
-LEFT JOIN Address a
-ON p.personId = a.personId;
+SELECT firstName, lastName, city, state
+FROM  Person
+LEFT JOIN Address USING (personId);
