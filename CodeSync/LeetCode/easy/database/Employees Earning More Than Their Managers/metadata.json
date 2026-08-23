@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-08T19:20:45.988Z",
-  "runtime": "99 ms",
+  "submissionTimestamp": "2026-08-23T16:16:52.179Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "Employees Earning More Than Their Managers",
-  "problemUrl": "https://leetcode.com/problems/employees-earning-more-than-their-managers/description/",
-  "submissionId": "s83p5m"
+  "problemUrl": "https://leetcode.com/problems/employees-earning-more-than-their-managers/?envType=problem-list-v2&envId=database",
+  "submissionId": "e7th55"
 }
