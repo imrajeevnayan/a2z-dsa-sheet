@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.20 MB
 - Problem URL: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-23T10:57:25.171Z
+- Synced: 2026-08-23T10:58:16.176Z
 
 ## Problem Description
 
