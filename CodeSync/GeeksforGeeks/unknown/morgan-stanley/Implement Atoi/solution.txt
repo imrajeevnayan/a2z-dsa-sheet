@@ -7,12 +7,45 @@
  * Topics: Expected Complexities, Company Tags, Morgan Stanley, Amazon, Microsoft, Payu, Adobe, Code Brew
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:20:15.115Z
+ * Synced: 2026-08-23T08:21:01.433Z
  */
 
 class Solution {
     public int myAtoi(String s) {
-        // code here
-        
+        int i = 0;
+        int n = s.length();
+
+        while (i < n && s.charAt(i) == ' ') {
+            i++;
+        }
+
+        int sign = 1;
+
+        if (i < n && s.charAt(i) == '-') {
+            sign = -1;
+            i++;
+        } else if (i < n && s.charAt(i) == '+') {
+            i++;
+        }
+
+        long num = 0;
+
+        while (i < n && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+            num = num * 10 + (s.charAt(i) - '0');
+
+            long value = num * sign;
+
+            if (value > Integer.MAX_VALUE) {
+                return Integer.MAX_VALUE;
+            }
+
+            if (value < Integer.MIN_VALUE) {
+                return Integer.MIN_VALUE;
+            }
+
+            i++;
+        }
+
+        return (int)(num * sign);
     }
 }
