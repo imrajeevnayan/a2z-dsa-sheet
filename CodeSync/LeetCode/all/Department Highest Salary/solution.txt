@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Department Highest Salary
- * URL: https://leetcode.com/problems/department-highest-salary/
- * Language: Database
+ * URL: https://leetcode.com/problems/department-highest-salary/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Database
- * Runtime: 125 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T18:17:17.231Z
+ * Synced: 2026-08-23T16:13:20.087Z
  */
 
 SELECT Department, Employee, Salary
