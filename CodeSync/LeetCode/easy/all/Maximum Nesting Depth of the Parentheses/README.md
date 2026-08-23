@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Stack, Bracket Sequences
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/?envType=problem-list-v2&envId=da2hb3jj
-- Synced: 2026-08-23T17:07:13.964Z
+- Memory: 42.66 MB
+- Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2117612744/?envType=problem-list-v2&envId=da2hb3jj
+- Synced: 2026-08-23T17:08:03.956Z
 
 ## Problem Description
 
