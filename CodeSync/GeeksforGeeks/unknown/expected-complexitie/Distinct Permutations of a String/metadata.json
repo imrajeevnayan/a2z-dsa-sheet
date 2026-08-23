@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T18:41:34.349Z",
+  "submissionTimestamp": "2026-08-23T08:29:26.642Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Samsung"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public ArrayList<String> findPermutation(String s) { // Code here Set<String> ans = new HashSet<>(); genPer(s, \"\", ans); return new ArrayList<>(ans); } public void genPer(String s, String a, Set<String> result) { if (s.isEmpty()) { result.add(a); return; } for (int i = 0; i < s.length(); i++) { char ch = s.charAt(i); String nq = s.substring(0,i) + s.substring(i + 1); genPer(nq, a + ch, result); } } }",
+  "language": "Java (21)",
   "problemTitle": "Distinct Permutations of a String",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1",
-  "submissionId": "bysw3b"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/recursion-and-backtracking-gfg-160",
+  "submissionId": "gwrfjy"
 }
