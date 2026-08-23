@@ -3528,5 +3528,13 @@
   ],
   "geeksforgeeks:all-triplets-with-zero-sum": [
     "GFG160"
+  ],
+  "leetcode:merge-two-binary-trees": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
