@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Non-Overlapping Intervals
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Greedy, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T08:25:28.300Z
+ */
+
+class Solution {
+    public int minRemoval(int intervals[][]) {
+        // code here
+        
+    }
+}
