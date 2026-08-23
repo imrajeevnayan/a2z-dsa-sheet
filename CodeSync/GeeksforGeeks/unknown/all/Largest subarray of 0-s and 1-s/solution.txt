@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmMorgan StanleyAmazonMakeMyTrip, Company Tags, Paytm, Morgan Stanley, Amazon, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:54:43.042Z
+ * Synced: 2026-08-23T08:06:54.323Z
  */
 
 class Solution {
