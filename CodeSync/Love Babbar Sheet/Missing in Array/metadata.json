@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-12T10:41:32.913Z",
+  "submissionTimestamp": "2026-08-23T08:19:51.485Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "D-E-Shaw"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "Text",
   "problemTitle": "Missing in Array",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1",
-  "submissionId": "npg3mn"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-gfg-160",
+  "submissionId": "6e7i5k"
 }
