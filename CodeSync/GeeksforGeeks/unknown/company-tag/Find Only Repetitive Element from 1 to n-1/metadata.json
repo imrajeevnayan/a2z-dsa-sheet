@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-08-23T08:18:21.187Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags NPCI",
+    "Company Tags",
+    "NPCI",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Find Only Repetitive Element from 1 to n-1",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-gfg-160",
+  "submissionId": "1jfsau"
+}
