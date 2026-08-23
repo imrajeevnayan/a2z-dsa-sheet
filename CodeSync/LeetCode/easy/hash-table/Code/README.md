@@ -1,18 +1,18 @@
 # Code
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: 60 questions to solve (Copy-9xpbvcmc)
 - Difficulty: Easy
-- Topics: Array, Hash Table, Sorting
+- Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2026-07-12
-- Synced: 2026-07-12T11:23:35.503Z
+- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
+- Synced: 2026-08-23T11:08:40.333Z
 
 ## Problem Description
 
-Given an array of integers arr, replace each element with its rank. The rank represents how large the element is. The rank has the following rules: Rank is an integer starting from 1. The larger the element, the larger the rank. If two elements are equal, their rank must be the same. Rank should be as small as possible. Example 1: Input: arr = [40,10,20,30] Output: [4,1,2,3] Explanation: 40 is the largest element. 10 is the smallest. 20 is the second smallest. 30 is the third smallest. Example 2: Input: arr = [100,100,100] Output: [1,1,1] Explanation: Same elements share the same rank. Example 3: Input: arr = [37,12,28,9,100,56,80,5,12] Output: [5,3,4,2,8,6,7,1,3] Constraints: 0 <= arr.length <= 105 -109 <= arr[i] <= 109
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order. Example 1: Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2] Example 2: Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [9,4] Explanation: [4,9] is also accepted. Constraints: 1 <= nums1.length, nums2.length <= 1000 0 <= nums1[i], nums2[i] <= 1000
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
