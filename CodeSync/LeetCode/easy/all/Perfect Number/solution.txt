@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Perfect Number
- * URL: https://leetcode.com/problems/perfect-number/
+ * URL: https://leetcode.com/problems/perfect-number/submissions/2117642004/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-23T17:30:33.505Z
+ * Memory: 42.23 MB
+ * Synced: 2026-08-23T17:31:26.920Z
  */
 
 for (int i = 2; i * i <= num; i++) {
@@ -23,3 +23,4 @@ for (int i = 2; i * i <= num; i++) {
         if (num <= 1) return false;
     public boolean checkPerfectNumber(int num) {
 class Solution {
+        }
