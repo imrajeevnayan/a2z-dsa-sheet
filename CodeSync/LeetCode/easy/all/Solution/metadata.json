@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-25T17:57:10.347Z",
-  "runtime": "142 ms",
+  "submissionTimestamp": "2026-08-23T15:56:00.769Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Solution",
-  "problemUrl": "https://leetcode.com/problems/combine-two-tables/submissions/2081083008/",
-  "submissionId": "y8l150"
+  "problemUrl": "https://leetcode.com/problems/combine-two-tables/description/",
+  "submissionId": "h8fesc"
 }
