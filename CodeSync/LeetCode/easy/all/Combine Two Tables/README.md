@@ -6,8 +6,8 @@
 - Topics: Database
 - Runtime: 129 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/combine-two-tables/
-- Synced: 2026-08-23T15:58:21.168Z
+- Problem URL: https://leetcode.com/problems/combine-two-tables/submissions/2117533401/
+- Synced: 2026-08-23T15:59:10.835Z
 
 ## Problem Description
 
