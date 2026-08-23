@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-08-23T08:32:35.466Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Sorting",
+    "Arrays",
+    "Hash",
+    "Related Articles",
+    "Find Triplets Array Whose Sum Equal Zero"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "All Triplets with Zero Sum",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
+  "submissionId": "a8x2lp"
+}
