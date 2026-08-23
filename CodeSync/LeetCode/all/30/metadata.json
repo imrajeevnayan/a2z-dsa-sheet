@@ -1,15 +1,18 @@
 {
-  "submissionTimestamp": "2026-08-23T04:44:47.897Z",
+  "submissionTimestamp": "2026-08-23T13:17:00.168Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Prefix Sum"
+    "Hash Table",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Prefix Sum",
+  "language": "Text",
   "problemTitle": "30",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "cafurl"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id",
+  "submissionId": "efm8p1"
 }
