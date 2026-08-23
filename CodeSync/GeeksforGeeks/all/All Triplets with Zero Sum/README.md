@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Topic Tags, Sorting, Arrays, Hash, Related Articles, Find Triplets Array Whose Sum Equal Zero
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
-- Synced: 2026-08-23T08:33:31.176Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160/problem/find-all-triplets-with-zero-sum
+- Synced: 2026-08-23T08:58:40.196Z
 
 ## Problem Description
 
