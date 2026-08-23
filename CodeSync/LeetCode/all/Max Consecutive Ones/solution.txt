@@ -5,17 +5,18 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
- * Runtime: 0 ms
+ * Runtime: 3 ms
  * Memory: 52.42 MB
- * Synced: 2026-08-23T15:42:47.964Z
+ * Synced: 2026-08-23T15:43:37.014Z
  */
 
 lass Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int cnt = 0, ans = 0;
         for (int v : nums) {
-            if (v == 1) ++cnt;
-             else {
+            if (v == 1) {
+                ++cnt;
+            } else {
                 ans = Math.max(ans, cnt);
                 cnt = 0;
             }
