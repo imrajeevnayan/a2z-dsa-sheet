@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Check If Digits Are Equal in String After Operations I
+ * URL: https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Math, String, Simulation, Combinatorics, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:39:43.818Z
+ */
+
+class Solution {
+    public boolean hasSameDigits(String s) {
+        
+    }
+}
