@@ -5,13 +5,23 @@
  * Language: Prefix Sum
  * Difficulty: Medium
  * Topics: Array, String, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-23T04:57:32.891Z
+ * Synced: 2026-08-23T06:49:07.316Z
  */
 
-class Solution {
-    public int[] vowelStrings(String[] words, int[][] queries) {
-        
-    }
-}
+int[] ans = new int[queries.length];
+            }
+        }
+                prefix[i + 1]++;
+                isVowel(word.charAt(word.length() - 1))) {
+            if (isVowel(word.charAt(0)) &&
+            String word = words[i];
+
+            prefix[i + 1] = prefix[i];
+        for (int i = 0; i < n; i++) {
+
+        int[] prefix = new int[n + 1];
+        for (int i = 0; i < queries.length; i++) {
+            int left = queries[i][0];
+            int right = queries[i][1];
