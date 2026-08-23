@@ -6,8 +6,8 @@
 - Topics: Array, Simulation, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:25:23.770Z
+- Problem URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-08-23T04:46:35.493Z
 
 ## Problem Description
 
