@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Two Binary Trees
- * URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=xksb9pgr
- * Language: Common Patterns Questions
+ * URL: https://leetcode.com/problems/merge-two-binary-trees/?envType=problem-list-v2&envId=da2ht4id
+ * Language: 60 questions to solve (Copy-9xpbvcmc)
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-17T10:00:44.407Z
+ * Synced: 2026-08-23T11:06:01.211Z
  */
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
-        
-    }
-}
