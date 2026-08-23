@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T16:07:40.007Z",
+  "submissionTimestamp": "2026-08-23T16:08:04.427Z",
   "runtime": "91 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Database",
   "problemTitle": "🔸 Hint :",
-  "problemUrl": "https://leetcode.com/problems/consecutive-numbers/submissions/2117540692/?envType=problem-list-v2&envId=database",
+  "problemUrl": "https://leetcode.com/problems/customers-who-never-order/?envType=problem-list-v2&envId=database",
   "submissionId": "dze13x"
 }
