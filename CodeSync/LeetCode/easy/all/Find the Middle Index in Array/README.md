@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.31 MB
 - Problem URL: https://leetcode.com/problems/find-the-middle-index-in-array/submissions/2117617904/
-- Synced: 2026-08-23T17:18:29.917Z
+- Synced: 2026-08-23T17:19:22.948Z
 
 ## Problem Description
 
