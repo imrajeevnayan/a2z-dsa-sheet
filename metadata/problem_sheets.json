@@ -3429,5 +3429,10 @@
   "geeksforgeeks:longest-subarray-with-sum-k": [
     "custom:shradha-khapra-dsa-sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:largest-subarray-of-0-s-and-1-s": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
   ]
 }
