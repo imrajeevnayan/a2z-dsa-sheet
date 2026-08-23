@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/first-bad-version/description/
-- Synced: 2026-08-23T17:09:51.448Z
+- Runtime: 2 ms
+- Memory: 41.92 MB
+- Problem URL: https://leetcode.com/problems/first-bad-version/
+- Synced: 2026-08-23T17:11:42.932Z
 
 ## Problem Description
 
