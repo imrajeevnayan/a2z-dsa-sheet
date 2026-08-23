@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-middle-index-in-array/
-- Synced: 2026-08-23T17:11:17.979Z
+- Runtime: 0 ms
+- Memory: 43.31 MB
+- Problem URL: https://leetcode.com/problems/find-the-middle-index-in-array/submissions/2117617904/
+- Synced: 2026-08-23T17:12:04.934Z
 
 ## Problem Description
 
