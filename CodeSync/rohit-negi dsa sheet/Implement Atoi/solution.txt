@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Morgan Stanley, Amazon, Microsoft, Payu, Adobe, Code Brew
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:21:01.433Z
+ * Synced: 2026-08-23T08:22:12.056Z
  */
 
 class Solution {
