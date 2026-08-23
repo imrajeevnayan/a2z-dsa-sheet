@@ -5,13 +5,19 @@
  * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-23T17:06:28.833Z
+ * Synced: 2026-08-23T17:07:13.964Z
  */
 
-class Solution {
+maxDepth = Math.max(maxDepth, depth);
+            } else if (c == ')') {
+                depth--;
+            if (c == '(') {
+                depth++;
+        for (char c : s.toCharArray()) {
+            }
+        }
     public int maxDepth(String s) {
-        
-    }
-}
+        int depth = 0,maxDepth = 0;
+class Solution {
