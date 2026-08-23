@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-23T15:44:22.018Z
+ * Memory: 52.16 MB
+ * Synced: 2026-08-23T15:45:19.999Z
  */
 
 class Solution {
