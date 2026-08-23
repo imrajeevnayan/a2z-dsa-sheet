@@ -3399,5 +3399,9 @@
   "leetcode:check-if-digits-are-equal-in-string-after-operations-i": [],
   "leetcode:number-of-good-ways-to-split-a-string": [
     "custom:algomaster-300"
+  ],
+  "leetcode:make-array-elements-equal-to-zero": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
