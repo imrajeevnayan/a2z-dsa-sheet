@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 🔸 Hint :
- * URL: https://leetcode.com/problems/consecutive-numbers/submissions/2117540692/?envType=problem-list-v2&envId=database
+ * URL: https://leetcode.com/problems/customers-who-never-order/?envType=problem-list-v2&envId=database
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
  * Runtime: 91 ms
  * Memory: N/A
- * Synced: 2026-08-23T16:07:40.007Z
+ * Synced: 2026-08-23T16:08:04.427Z
  */
 
 SELECT DISTINCT num AS ConsecutiveNums
