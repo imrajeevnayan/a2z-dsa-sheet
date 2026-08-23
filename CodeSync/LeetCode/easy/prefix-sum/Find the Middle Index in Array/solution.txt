@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Middle Index in Array
- * URL: https://leetcode.com/problems/find-the-middle-index-in-array/
+ * URL: https://leetcode.com/problems/find-the-middle-index-in-array/submissions/2117617904/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-08-23T17:11:17.979Z
+ * Runtime: 0 ms
+ * Memory: 43.31 MB
+ * Synced: 2026-08-23T17:12:04.934Z
  */
 
 int rightSum = total - leftSum - nums[i];
@@ -18,7 +18,8 @@ int rightSum = total - leftSum - nums[i];
         int total = 0;
     public int findMiddleIndex(int[] nums) {
             if (leftSum == rightSum) return i;
-            
-
             leftSum += nums[i];
         }
+        return -1;
+    }
+class Solution {
