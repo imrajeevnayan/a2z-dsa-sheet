@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-08-23T15:30:32.071Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Hash Function",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Palindromic Subarray Sum",
+  "problemUrl": "https://leetcode.com/problems/palindromic-subarray-sum/description/",
+  "submissionId": "qqsh2e"
+}
