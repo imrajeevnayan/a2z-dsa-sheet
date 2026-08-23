@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Good Ways to Split a String
+ * URL: https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Dynamic Programming, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:45:41.080Z
+ */
+
+class Solution {
+    public int numSplits(String s) {
+        
+    }
+}
