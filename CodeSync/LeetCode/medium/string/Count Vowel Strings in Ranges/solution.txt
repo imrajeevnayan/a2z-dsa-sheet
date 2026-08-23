@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Vowel Strings in Ranges
+ * URL: https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, String, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:51:25.098Z
+ */
+
+class Solution {
+    public int[] vowelStrings(String[] words, int[][] queries) {
+        
+    }
+}a
