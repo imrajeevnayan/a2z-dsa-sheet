@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-23T04:57:32.891Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-08-23T06:49:07.316Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Prefix Sum",
   "problemTitle": "Count Vowel Strings in Ranges",
   "problemUrl": "https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "hzle8r"
+  "submissionId": "4xpzse"
 }
