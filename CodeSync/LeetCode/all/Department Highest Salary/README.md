@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/department-highest-salary/description/
-- Synced: 2026-08-23T16:15:05.004Z
+- Synced: 2026-08-23T16:15:52.035Z
 
 ## Problem Description
 
