@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
-- Synced: 2026-08-23T08:32:35.466Z
+- Synced: 2026-08-23T08:33:31.176Z
 
 ## Problem Description
 
