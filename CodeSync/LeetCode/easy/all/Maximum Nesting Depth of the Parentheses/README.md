@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.66 MB
 - Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2117612744/?envType=problem-list-v2&envId=da2hb3jj
-- Synced: 2026-08-23T17:08:03.956Z
+- Synced: 2026-08-23T17:08:49.053Z
 
 ## Problem Description
 
