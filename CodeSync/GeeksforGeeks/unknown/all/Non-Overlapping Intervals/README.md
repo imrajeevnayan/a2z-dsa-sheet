@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160
-- Synced: 2026-08-23T08:25:28.300Z
+- Synced: 2026-08-23T08:26:15.025Z
 
 ## Problem Description
 
