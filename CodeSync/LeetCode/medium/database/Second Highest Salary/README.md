@@ -1,13 +1,13 @@
 # Second Highest Salary
 
 - Platform: LeetCode
-- Language: SQL 50
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Database
-- Runtime: 109 ms
+- Runtime: 79 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-08-21T10:24:43.141Z
+- Problem URL: https://leetcode.com/problems/second-highest-salary/submissions/2117525443/
+- Synced: 2026-08-23T15:51:20.004Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Employee +-------------+------+ | Column Name | Type | +-------------+---
 
 ## Explanation
 
-This solution was accepted on LeetCode using SQL 50. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
