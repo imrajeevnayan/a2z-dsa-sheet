@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/key-pair5616/1
-- Synced: 2026-06-30T09:11:01.802Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
+- Synced: 2026-08-23T08:26:50.592Z
 
 ## Problem Description
 
