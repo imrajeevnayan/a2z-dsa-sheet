@@ -7,15 +7,12 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:12:26.164Z
+ * Synced: 2026-08-23T08:13:11.562Z
  */
 
 class Solution {
     void pushZerosToEnd(int[] arr) {
-        int j=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]!=0)arr[j++]=arr[i];
-        }
-        while(j <arr.length)arr[j++]=0;
+        // code here
+        
     }
 }
