@@ -6,8 +6,8 @@
 - Topics: Array, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-middle-index-in-array/description/
-- Synced: 2026-08-23T17:10:32.265Z
+- Problem URL: https://leetcode.com/problems/find-the-middle-index-in-array/
+- Synced: 2026-08-23T17:11:17.979Z
 
 ## Problem Description
 
