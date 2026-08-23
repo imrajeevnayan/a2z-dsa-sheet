@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, String, Sorting
 - Runtime: 1 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/
-- Synced: 2026-08-23T04:42:31.067Z
+- Memory: 49.44 MB
+- Problem URL: https://leetcode.com/problems/group-anagrams/submissions/2116915036/
+- Synced: 2026-08-23T04:43:16.286Z
 
 ## Problem Description
 
