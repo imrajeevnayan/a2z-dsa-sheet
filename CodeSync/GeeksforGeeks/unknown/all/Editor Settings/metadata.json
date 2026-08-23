@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-24T12:26:07.476Z",
+  "submissionTimestamp": "2026-08-23T07:25:58.102Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }",
+  "language": "Java (21)",
   "problemTitle": "Editor Settings",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
-  "submissionId": "rfiqir"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809",
+  "submissionId": "t6900p"
 }
