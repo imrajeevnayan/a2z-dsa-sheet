@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-07T06:13:37.027Z",
+  "submissionTimestamp": "2026-08-23T10:33:15.263Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.48 MB",
+  "memoryUsage": "46.20 MB",
   "difficulty": "Easy",
   "tags": [
     "Two Pointers",
     "String"
   ],
   "platform": "LeetCode",
-  "language": "LeetCode 75",
+  "language": "String",
   "problemTitle": "Reverse Vowels of a String",
-  "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "6i2yt9"
+  "problemUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=problem-list-v2&envId=string",
+  "submissionId": "s606ek"
 }
