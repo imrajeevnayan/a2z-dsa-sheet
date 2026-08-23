@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Math, String, Greedy, Game Theory
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/sum-game/?envType=daily-question&envId=2026-08-23
-- Synced: 2026-08-23T04:35:45.398Z
+- Memory: 47.19 MB
+- Problem URL: https://leetcode.com/problems/sum-game/submissions/2116910191/?envType=daily-question&envId=2026-08-23
+- Synced: 2026-08-23T04:36:33.698Z
 
 ## Problem Description
 
