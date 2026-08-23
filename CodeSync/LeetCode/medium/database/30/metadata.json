@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T15:50:27.870Z",
+  "submissionTimestamp": "2026-08-23T16:02:16.488Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -7,8 +7,8 @@
     "Database"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Database",
   "problemTitle": "30",
-  "problemUrl": "https://leetcode.com/problems/second-highest-salary/description/",
-  "submissionId": "y4fc6o"
+  "problemUrl": "https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=database",
+  "submissionId": "s3upnu"
 }
