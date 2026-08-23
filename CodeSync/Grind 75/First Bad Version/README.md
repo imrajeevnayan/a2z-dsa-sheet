@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: 1 ms
-- Memory: 42.08 MB
-- Problem URL: https://leetcode.com/problems/first-bad-version/?utm=codolio
-- Synced: 2026-07-29T12:02:05.403Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/first-bad-version/description/
+- Synced: 2026-08-23T17:09:51.448Z
 
 ## Problem Description
 
