@@ -7,12 +7,28 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, two-pointer-algorithm, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:18:21.187Z
+ * Synced: 2026-08-23T08:19:06.714Z
  */
 
-class Solution {
+}class Solution {
     public int findDuplicate(int[] arr) {
-        // code here
-        
+        int slow = arr[0];
+        int fast = arr[0];
+
+        // Find intersection point
+        do {
+            slow = arr[slow];
+            fast = arr[arr[fast]];
+        } while (slow != fast);
+
+        // Find duplicate number
+        slow = arr[0];
+
+        while (slow != fast) {
+            slow = arr[slow];
+            fast = arr[fast];
+        }
+
+        return slow;
     }
 }
