@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-gfg-160
-- Synced: 2026-08-23T08:18:21.187Z
+- Synced: 2026-08-23T08:19:06.714Z
 
 ## Problem Description
 
