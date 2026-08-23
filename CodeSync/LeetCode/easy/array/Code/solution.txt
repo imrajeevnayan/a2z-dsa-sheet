@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=problem-list-v2&envId=monotonic-stack
- * Language: Monotonic Stack
+ * URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
+ * Language: 60 questions to solve (Copy-9xpbvcmc)
  * Difficulty: Easy
- * Topics: Array, Stack, Monotonic Stack
+ * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:30:04.961Z
+ * Synced: 2026-08-23T11:08:40.333Z
  */
 
 class Solution {
-    public int[] finalPrices(int[] prices) {
+    public int[] intersection(int[] nums1, int[] nums2) {
         
     }
 }
