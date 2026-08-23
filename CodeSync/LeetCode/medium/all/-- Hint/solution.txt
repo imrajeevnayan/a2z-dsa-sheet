@@ -1,20 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 🔸 Hint :
- * URL: https://leetcode.com/problems/consecutive-numbers/?envType=problem-list-v2&envId=database
+ * URL: https://leetcode.com/problems/consecutive-numbers/submissions/2117540692/?envType=problem-list-v2&envId=database
  * Language: Database
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 91 ms
  * Memory: N/A
- * Synced: 2026-08-23T16:05:16.745Z
+ * Synced: 2026-08-23T16:06:03.648Z
  */
 
-SELECT DISTINCT Num AS ConsecutiveNums
+SELECT DISTINCT num AS ConsecutiveNums
 FROM (
-    SELECT Num,
-           LAG(Num,1) OVER(ORDER BY Id) AS PrevNum,
-           LEAD(Num,1) OVER(ORDER BY Id) AS NextNum
+    SELECT num,
+           LAG(num, 1) OVER(ORDER BY id) AS prev1,
+           LAG(num, 2) OVER(ORDER BY id) AS prev2
     FROM Logs
 ) t
-WHERE Num = PrevNum AND Num = NextNum;
+WHERE num = prev1 AND num = prev2;
