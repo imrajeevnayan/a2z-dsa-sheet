@@ -1,22 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Max Consecutive Ones
- * URL: https://leetcode.com/problems/max-consecutive-ones/
+ * URL: https://leetcode.com/problems/max-consecutive-ones/submissions/2117519164/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
- * Runtime: 3 ms
- * Memory: 52.42 MB
- * Synced: 2026-08-23T15:43:37.014Z
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-08-23T15:44:22.018Z
  */
 
-lass Solution {
+class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int cnt = 0, ans = 0;
         for (int v : nums) {
-            if (v == 1) {
-                ++cnt;
-            } else {
+            if (v == 1) ++cnt;
+           else {
                 ans = Math.max(ans, cnt);
                 cnt = 0;
             }
