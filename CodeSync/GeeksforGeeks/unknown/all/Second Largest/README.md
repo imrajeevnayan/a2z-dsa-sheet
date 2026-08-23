@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735
-- Synced: 2026-08-23T08:03:33.493Z
+- Synced: 2026-08-23T08:04:23.619Z
 
 ## Problem Description
 
