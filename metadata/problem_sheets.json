@@ -3403,5 +3403,6 @@
   "leetcode:make-array-elements-equal-to-zero": [
     "custom:arsh-goyal-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
-  ]
+  ],
+  "leetcode:count-vowel-strings-in-ranges": []
 }
