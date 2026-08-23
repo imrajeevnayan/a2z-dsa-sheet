@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/largest-subarray-of-0s-and-1s
-- Synced: 2026-08-23T07:54:43.042Z
+- Synced: 2026-08-23T08:06:54.323Z
 
 ## Problem Description
 
