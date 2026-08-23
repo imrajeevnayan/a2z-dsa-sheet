@@ -1,13 +1,13 @@
 # Isomorphic Strings
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, String
-- Runtime: 0 ms
-- Memory: 43.92 MB
-- Problem URL: https://leetcode.com/problems/isomorphic-strings/submissions/2107608080/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-15T12:35:34.435Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/isomorphic-strings/description/
+- Synced: 2026-08-23T17:17:28.809Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given two strings s and t, determine if they are isomorphic. Two strings s and t
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
