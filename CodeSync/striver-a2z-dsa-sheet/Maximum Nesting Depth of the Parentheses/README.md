@@ -4,10 +4,10 @@
 - Language: Strings (Copy-ehkbkaxt)
 - Difficulty: Easy
 - Topics: String, Stack, Bracket Sequences
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/?envType=problem-list-v2&envId=da2hb3jj
-- Synced: 2026-08-23T17:06:28.833Z
+- Synced: 2026-08-23T17:07:13.964Z
 
 ## Problem Description
 
