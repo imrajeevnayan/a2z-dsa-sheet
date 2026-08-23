@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Make Array Elements Equal to Zero
+ * URL: https://leetcode.com/problems/make-array-elements-equal-to-zero/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Easy
+ * Topics: Array, Simulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-23T04:46:35.493Z
+ */
+
+class Solution {
+    public int countValidSelections(int[] nums) {
+        
+    }
+}
