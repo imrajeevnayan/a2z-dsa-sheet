@@ -7,11 +7,11 @@
  * Topics: Array, String, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T04:51:25.098Z
+ * Synced: 2026-08-23T04:57:32.891Z
  */
 
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
         
     }
-}a
+}
