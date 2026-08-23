@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/move-all-zeroes-to-end-of-array0751
-- Synced: 2026-08-23T08:14:20.168Z
+- Synced: 2026-08-23T08:16:33.790Z
 
 ## Problem Description
 
