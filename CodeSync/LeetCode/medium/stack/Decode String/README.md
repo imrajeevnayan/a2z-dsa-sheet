@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack, Recursion
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-string/
-- Synced: 2026-08-23T15:45:35.902Z
+- Runtime: 0 ms
+- Memory: 42.98 MB
+- Problem URL: https://leetcode.com/problems/decode-string/submissions/2117520628/
+- Synced: 2026-08-23T15:46:29.004Z
 
 ## Problem Description
 
