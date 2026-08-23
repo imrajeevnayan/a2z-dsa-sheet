@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 44.69 MB
 - Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-08-23T11:16:39.169Z
+- Synced: 2026-08-23T11:17:25.166Z
 
 ## Problem Description
 
