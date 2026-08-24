@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Stone Game VIII
+ * URL: https://leetcode.com/problems/stone-game-viii/?envType=daily-question&envId=2026-08-24
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Dynamic Programming, Minimax, Prefix Sum, Game Theory, Zero-Sum Game
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-24T06:56:39.123Z
+ */
+
+class Solution {
+    public int stoneGameVIII(int[] stones) {
+        
+    }
+}
