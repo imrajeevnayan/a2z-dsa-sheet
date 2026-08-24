@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: 30
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-24T06:57:40.956Z
+ */
+
+class Solution {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+      Map<Integer,Integer>map=new HashMap<>();
+      for(int i=0;i<nums.length;i++){
+        if(map.containsKey(nums[i])){
+            int prev=map.get(nums[i]);
+            if(i-prev<=k)return true;
+        }
+        map.put(nums[i],i);
+      }
+      return false;
+    }
+}
