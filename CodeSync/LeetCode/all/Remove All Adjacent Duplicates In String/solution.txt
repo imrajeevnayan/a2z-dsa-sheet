@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: String, Stack
  * Runtime: 0 ms
- * Memory: 47.04 MB
- * Synced: 2026-06-04T16:45:01.668Z
+ * Memory: N/A
+ * Synced: 2026-08-24T06:56:21.373Z
  */
 
 class Solution {
