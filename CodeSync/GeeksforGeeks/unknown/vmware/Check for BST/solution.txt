@@ -7,24 +7,19 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, OYO Rooms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-24T12:39:53.717Z
+ * Synced: 2026-08-24T12:41:03.065Z
  */
 
-/* Structure of a Binary Search Tree node
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    Node(int val) {
-        data = val;
-        left = right = null;
-    }
-} */
-
 class Solution {
+    Node prev = null;
+
     public boolean isBST(Node root) {
-        // code here
-        
+        if (root == null)  return true;
+
+        if (!isBST(root.left)) return false;
+        if (prev != null && root.data <= prev.data)  return false;
+
+        prev = root;
+        return isBST(root.right);
     }
 }
