@@ -1,17 +1,16 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Construct Tree from Inorder & Preorder
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoft, Company Tags, Accolite, Amazon, Microsoft, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T11:25:39.429Z
+ * Synced: 2026-08-24T12:42:56.954Z
  */
 
-/*
-Definition for Node
+/* Structure of a Tree Node
 class Node {
     int data;
     Node left, right;
@@ -20,8 +19,7 @@ class Node {
         data = val;
         left = right = null;
     }
-}
-*/
+} */
 
 class Solution {
     public static Node buildTree(int inorder[], int preorder[]) {
