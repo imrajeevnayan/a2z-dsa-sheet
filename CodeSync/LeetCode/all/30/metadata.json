@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-23T16:02:16.488Z",
+  "submissionTimestamp": "2026-08-24T06:57:40.956Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Database"
+    "Array",
+    "Hash Table",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Database",
+  "language": "Problem List",
   "problemTitle": "30",
-  "problemUrl": "https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=database",
-  "submissionId": "s3upnu"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/description/",
+  "submissionId": "poecl8"
 }
