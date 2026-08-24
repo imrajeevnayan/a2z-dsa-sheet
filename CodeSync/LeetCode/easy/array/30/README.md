@@ -1,18 +1,18 @@
 # 30
 
 - Platform: LeetCode
-- Language: Text
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
+- Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-08-23T13:17:00.168Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/description/
+- Synced: 2026-08-24T06:57:40.956Z
 
 ## Problem Description
 
-Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order. Example 1: Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2] Example 2: Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [9,4] Explanation: [4,9] is also accepted. Constraints: 1 <= nums1.length, nums2.length <= 1000 0 <= nums1[i], nums2[i] <= 1000
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k. Example 1: Input: nums = [1,2,3,1], k = 3 Output: true Example 2: Input: nums = [1,0,1,1], k = 1 Output: true Example 3: Input: nums = [1,2,3,1,2,3], k = 2 Output: false Constraints: 1 <= nums.length <= 105 -109 <= nums[i] <= 109 0 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Array, Hash Table, Two Pointers, Binary Search, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
