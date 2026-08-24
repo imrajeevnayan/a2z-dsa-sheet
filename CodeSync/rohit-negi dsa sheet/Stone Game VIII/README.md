@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/stone-game-viii/?envType=daily-question&envId=2026-08-24
-- Synced: 2026-08-24T06:56:39.123Z
+- Synced: 2026-08-24T06:57:26.043Z
 
 ## Problem Description
 
