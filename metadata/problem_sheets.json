@@ -3559,5 +3559,10 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:find-the-middle-index-in-array": [],
-  "leetcode:perfect-number": []
+  "leetcode:perfect-number": [],
+  "leetcode:remove-all-adjacent-duplicates-in-string": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet"
+  ]
 }
