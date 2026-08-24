@@ -1,18 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-23T13:17:00.168Z",
+  "submissionTimestamp": "2026-08-24T06:57:40.956Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
     "Hash Table",
-    "Two Pointers",
-    "Binary Search",
-    "Sorting"
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Problem List",
   "problemTitle": "30",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "efm8p1"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/description/",
+  "submissionId": "poecl8"
 }
