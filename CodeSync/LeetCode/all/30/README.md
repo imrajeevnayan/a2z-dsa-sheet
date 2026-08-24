@@ -1,18 +1,18 @@
 # 30
 
 - Platform: LeetCode
-- Language: Database
-- Difficulty: Medium
-- Topics: Database
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=database
-- Synced: 2026-08-23T16:02:16.488Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/description/
+- Synced: 2026-08-24T06:57:40.956Z
 
 ## Problem Description
 
-Table: Employee +-------------+------+ | Column Name | Type | +-------------+------+ | id | int | | salary | int | +-------------+------+ id is the primary key (column with unique values) for this table. Each row of this table contains information about the salary of an employee. Write a solution to find the nth highest distinct salary from the Employee table. If there are less than n distinct salaries, return null. The result format is in the following example. Example 1: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | | 2 | 200 | | 3 | 300 | +----+--------+ n = 2 Output: +------------------------+ | getNthHighestSalary(2) | +------------------------+ | 200 | +------------------------+ Example 2: Input: Employee table: +----+--------+ | id | salary | +----+--------+ | 1 | 100 | +----+--------+ n = 2 Output: +------------------------+ | getNthHighestSalary(2) | +------------------------+ | null | +------------------------+
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k. Example 1: Input: nums = [1,2,3,1], k = 3 Output: true Example 2: Input: nums = [1,0,1,1], k = 1 Output: true Example 3: Input: nums = [1,2,3,1,2,3], k = 2 Output: false Constraints: 1 <= nums.length <= 105 -109 <= nums[i] <= 109 0 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
