@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-15T11:25:39.429Z",
+  "submissionTimestamp": "2026-08-24T12:42:56.954Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Construct Tree from Inorder & Preorder",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal",
-  "submissionId": "6p02w7"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160",
+  "submissionId": "15l0eu"
 }
