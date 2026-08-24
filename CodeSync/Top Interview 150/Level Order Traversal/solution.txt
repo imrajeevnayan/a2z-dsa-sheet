@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Level Order Traversal
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/level-order-traversal
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:37:29.815Z
+ * Synced: 2026-08-24T12:38:58.539Z
  */
 
 /* Structure of Binary Tree Node
