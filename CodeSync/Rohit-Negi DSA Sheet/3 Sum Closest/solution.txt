@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 3 Sum Closest
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-bonus-problems
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Adobe, Google, Zoho, Uber
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-25T06:02:51.119Z
+ */
+
+class Solution {
+    public int closest3Sum(int[] arr, int target) {
+        // code here
+        
+    }
+};
