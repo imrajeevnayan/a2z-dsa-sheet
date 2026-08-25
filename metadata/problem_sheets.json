@@ -3612,5 +3612,6 @@
     "custom:fraz-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
-  ]
+  ],
+  "leetcode:smallest-missing-multiple-of-k": []
 }
