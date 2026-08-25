@@ -7,12 +7,31 @@
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Adobe, Google, Zoho, Uber
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-25T06:02:51.119Z
+ * Synced: 2026-08-25T06:03:36.297Z
  */
 
 class Solution {
     public int closest3Sum(int[] arr, int target) {
-        // code here
-        
+        Arrays.sort(arr);
+        int closest = arr[0] + arr[1] + arr[2];
+
+        for (int i = 0; i < arr.length - 2; i++) {
+            int left = i + 1;
+            int right = arr.length - 1;
+
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+
+                if (Math.abs(sum - target) < Math.abs(closest - target)) closest = sum;
+            
+                if (sum < target) left++;
+                 else if (sum > target) right--;
+                else {
+                    return sum;
+                
+            }
+        }
+
+        return closest;
     }
-};
+}
