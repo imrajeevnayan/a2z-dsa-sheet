@@ -1,18 +1,18 @@
 # Roman to Integer
 
-- Platform: LeetCode
-- Language: Problem List
-- Difficulty: Easy
-- Topics: Hash Table, Math, String
-- Runtime: 0 ms
-- Memory: 44.62 MB
-- Problem URL: https://leetcode.com/problems/roman-to-integer/submissions/1793038272/
-- Synced: 2026-08-06T20:00:51.107Z
+- Platform: GeeksforGeeks
+- Language: Java (21)
+- Difficulty: Unknown
+- Topics: Expected Complexities, Company Tags, Zoho, Amazon, Microsoft, Facebook, Twitter, Uber
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem
+- Synced: 2026-08-25T05:15:21.743Z
 
 ## Problem Description
 
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000 For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II. Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used: I can be placed before V (5) and X (10) to make 4 and 9. X can be placed before L (50) and C (100) to make 40 and 90. C can be placed before D (500) and M (1000) to make 400 and 900. Given a roman numeral, convert it to an integer. Example 1: Input: s = "III" Output: 3 Explanation: III = 3. Example 2: Input: s = "LVIII" Output: 58 Explanation: L = 50, V= 5, III = 3. Example 3: Input: s = "MCMXCIV" Output: 1994 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4. Constraints: 1 <= s.length <= 15 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M'). It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+Given a string s in Roman number format, your task is to convert it to an integer. Various symbols and their values are given below. Note: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000 Examples: Input: s = "IX" Output: 9 Explanation: IX is a Roman symbol which represents 10 – 1 = 9. Input: s = "XL" Output: 40 Explanation: XL is a Roman symbol which represents 50 – 10 = 40. Input: s = "MCMIV" Output: 1904 Explanation: M is 1000, CM is 1000 – 100 = 900, and IV is 4. So we have total as 1000 + 900 + 4 = 1904. Constraints: 1 ≤ roman number ≤ 3999 s[i] belongs to [I, V, X, L, C, D, M]
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Math, String. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Zoho, Amazon, Microsoft, Facebook, Twitter, Uber. Review the synced source file for the implementation details.
