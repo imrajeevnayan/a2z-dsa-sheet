@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-08-25T05:13:10.686Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Prefix Sum",
+    "Arrays",
+    "Related Articles",
+    "Split Array Three Equal Sum Subarrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Split array in three equal sum subarrays",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems",
+  "submissionId": "rssnvb"
+}
