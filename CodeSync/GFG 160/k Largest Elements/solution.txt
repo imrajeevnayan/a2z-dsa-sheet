@@ -1,32 +1,35 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: k Largest Elements
- * URL: https://www.geeksforgeeks.org/problems/k-largest-elements4206/1
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftSamsungWalmartGoogle, Company Tags, Amazon, Microsoft, Samsung, Walmart, Google
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-20T13:29:30.786Z
+ * Synced: 2026-08-25T05:12:37.568Z
  */
 
 class Solution {
     public ArrayList<Integer> kLargest(int[] arr, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        
-        for (int x : arr) {
-            pq.add(x);
-            
+
+        for (int i = 0; i < arr.length; i++) {
+            pq.add(arr[i]);
+
             if (pq.size() > k) {
                 pq.poll();
             }
         }
+
         ArrayList<Integer> ans = new ArrayList<>();
 
-        while (!pq.isEmpty()) {
+        for (int i = k - 1; i >= 0; i--) {
             ans.add(pq.poll());
         }
+
         Collections.reverse(ans);
+
         return ans;
     }
 }
