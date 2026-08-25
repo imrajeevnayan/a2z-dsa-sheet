@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Smallest Missing Multiple of K
+ * URL: https://leetcode.com/problems/smallest-missing-multiple-of-k/description/?envType=daily-question&envId=2026-08-25
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-25T16:39:30.931Z
+ */
+
+class Solution {
+    public int missingMultiple(int[] nums, int k) {
+        
+    }
+}
