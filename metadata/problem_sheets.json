@@ -3586,5 +3586,8 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
+  ],
+  "geeksforgeeks:split-array-in-three-equal-sum-subarrays": [
+    "GFG160"
   ]
 }
