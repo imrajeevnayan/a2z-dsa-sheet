@@ -1,39 +1,36 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/transform-string5648/1
- * Language: class Solution { int transform(String s1, String s2) { int n = s1.length(); if (n != s2.length()) { return -1; } int[] freq = new int[256]; for (int i = 0; i < n; i++) { freq[s1.charAt(i)]++; freq[s2.charAt(i)]--; } for (int f : freq) { if (f != 0) { return -1; } } int i = n - 1; int j = n - 1; int ops = 0; while (i >= 0) { while (i >= 0 && s1.charAt(i) != s2.charAt(j)) { ops++; i--; } if (i >= 0) { i--; j--; } } return ops; } }
+ * URL: https://www.geeksforgeeks.org/problems/morning-assembly3038/1
+ * Language: class Solution { public int minMoves(int[] arr) { HashMap<Integer,Integer> map = new HashMap<>(); int ans = Integer.MIN_VALUE; for(int i=0;i<arr.length;i++){ if(map.containsKey(arr[i]-1)) map.put(arr[i],map.get(arr[i]-1) + 1); else map.put(arr[i],1); ans = Math.max(ans,map.get(arr[i])); } return arr.length - ans; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Directi, Company Tags, Directi, Topic Tags, Hash, Strings, Map
+ * Topics: Expected Complexities, Topic Tags, Hash, Dynamic Programming, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T06:21:45.282Z
+ * Synced: 2026-08-25T05:12:07.282Z
  */
 
 class Solution {
-    int transform(String s1, String s2) {
-        int[] freq = new int[256];
+    public int minMoves(int[] arr) {
+        int n = arr.length;
+        int[] pos = new int[n + 1];
 
-        for (char c : s1.toCharArray()) freq[c]++;
-        for (char c : s2.toCharArray()) freq[c]--;
+        for (int i = 0; i < n; i++) {
+            pos[arr[i]] = i;
+        }
+        int maxLen = 1;
+        int len = 1;
 
-        for (int x : freq)
-            if (x != 0) return -1;
-
-        int i = s1.length() - 1;
-        int j = s2.length() - 1;
-        int ans = 0;
-
-        while (i >= 0) {
-            if (s1.charAt(i) == s2.charAt(j)) {
-                i--;
-                j--;
+        for (int x = 2; x <= n; x++) {
+            if (pos[x] > pos[x - 1]) {
+                len++;
             } else {
-                ans++;
-                i--;
+                len = 1;
             }
+
+            maxLen = Math.max(maxLen, len);
         }
 
-        return ans;
+        return n - maxLen;
     }
 }
