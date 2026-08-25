@@ -1,18 +1,18 @@
 # C++ Solution || Easy Approach and Step by Step Explanation
 
 - Platform: GeeksforGeeks
-- Language: return sum('3' not in str(i) for i in range(1, N+1))
+- Language: class Solution { public int minMoves(int[] arr) { HashMap<Integer,Integer> map = new HashMap<>(); int ans = Integer.MIN_VALUE; for(int i=0;i<arr.length;i++){ if(map.containsKey(arr[i]-1)) map.put(arr[i],map.get(arr[i]-1) + 1); else map.put(arr[i],1); ans = Math.max(ans,map.get(arr[i])); } return arr.length - ans; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3
+- Topics: Expected Complexities, Topic Tags, Hash, Dynamic Programming, Arrays, Related Articles
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/count-numbers2004/1
-- Synced: 2026-08-15T09:09:55.201Z
+- Problem URL: https://www.geeksforgeeks.org/problems/morning-assembly3038/1
+- Synced: 2026-08-25T05:12:07.282Z
 
 ## Problem Description
 
-Given a number n, count the numbers from 1 to n that don’t contain digit d in their decimal representation. Examples: Input: n = 25, d = 3 Output: 22 Explanation: From 1 to 25, the numbers 3, 13, and 23 contain the digit 3, so the answer is 25 - 3 = 22. Input: n = 5, d = 3 Output: 4 Explanation: From 1 to 5, only 3 contains the digit 3, so the count of numbers without digit 3 is 4.
+Given an array arr[] containing integers from 1 to n exactly once, sort the array in ascending order. In one operation, you can pick any element and move it either to the beginning or to the end of the array. Return the minimum number of operations required to sort the array. Examples: Input: arr[] = [2, 1, 3] Output: 1 Explanation: Move 1 to the beginning. Input: arr[] = [4, 3, 1, 2] Output: 2 Explanation: Move 3 to the end to get [1, 2, 4, 3]. Then move 4 to the end to get [1, 2, 3, 4].
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using return sum('3' not in str(i) for i in range(1, N+1)). The detected topics are Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public int minMoves(int[] arr) { HashMap<Integer,Integer> map = new HashMap<>(); int ans = Integer.MIN_VALUE; for(int i=0;i<arr.length;i++){ if(map.containsKey(arr[i]-1)) map.put(arr[i],map.get(arr[i]-1) + 1); else map.put(arr[i],1); ans = Math.max(ans,map.get(arr[i])); } return arr.length - ans; } }. The detected topics are Expected Complexities, Topic Tags, Hash, Dynamic Programming, Arrays, Related Articles. Review the synced source file for the implementation details.
