@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Adobe, Google, Zoho, Uber
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-25T06:06:32.179Z
+ * Synced: 2026-08-25T06:08:06.646Z
  */
 
 class Solution {
