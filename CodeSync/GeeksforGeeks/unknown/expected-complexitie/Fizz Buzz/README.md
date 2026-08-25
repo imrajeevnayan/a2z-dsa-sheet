@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/fizz-buzz/1
-- Synced: 2026-08-02T11:30:17.743Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/string-bonus-problems
+- Synced: 2026-08-25T05:15:06.975Z
 
 ## Problem Description
 
