@@ -1,54 +1,36 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/count-numbers2004/1
- * Language: return sum('3' not in str(i) for i in range(1, N+1))
+ * URL: https://www.geeksforgeeks.org/problems/morning-assembly3038/1
+ * Language: class Solution { public int minMoves(int[] arr) { HashMap<Integer,Integer> map = new HashMap<>(); int ans = Integer.MIN_VALUE; for(int i=0;i<arr.length;i++){ if(map.containsKey(arr[i]-1)) map.put(arr[i],map.get(arr[i]-1) + 1); else map.put(arr[i],1); ans = Math.max(ans,map.get(arr[i])); } return arr.length - ans; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Mathematical, Related Articles, Count Numbers That Dont Contain 3
+ * Topics: Expected Complexities, Topic Tags, Hash, Dynamic Programming, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T09:09:55.201Z
+ * Synced: 2026-08-25T05:12:07.282Z
  */
 
 class Solution {
-    int[][] dp;
-    String s;
-    int d;
+    public int minMoves(int[] arr) {
+        int n = arr.length;
+        int[] pos = new int[n + 1];
 
-    int solve(int i, int tight, int start) {
-        if (i == s.length())
-            return start;
+        for (int i = 0; i < n; i++) {
+            pos[arr[i]] = i;
+        }
+        int maxLen = 1;
+        int len = 1;
 
-        if (dp[i][tight] != -1 && start == 1)
-            return dp[i][tight];
-
-        int lim = tight == 1 ? s.charAt(i) - '0' : 9;
-        int ans = 0;
-
-        for (int x = 0; x <= lim; x++) {
-            if (start == 0 && x == 0) {
-                ans += solve(i + 1, tight & (x == lim ? 1 : 0), 0);
-            } else if (x != d) {
-                ans += solve(i + 1, tight & (x == lim ? 1 : 0), 1);
+        for (int x = 2; x <= n; x++) {
+            if (pos[x] > pos[x - 1]) {
+                len++;
+            } else {
+                len = 1;
             }
+
+            maxLen = Math.max(maxLen, len);
         }
 
-        if (start == 1)
-            dp[i][tight] = ans;
-
-        return ans;
-    }
-
-    public int countWithout(int n, int d) {
-        if (n == 0) return 0;
-
-        s = String.valueOf(n);
-        this.d = d;
-        dp = new int[s.length()][2];
-
-        for (int[] a : dp)
-            java.util.Arrays.fill(a, -1);
-
-        return solve(0, 1, 0);
+        return n - maxLen;
     }
 }
