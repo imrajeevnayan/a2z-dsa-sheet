@@ -7,12 +7,27 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, OYO Rooms, Samsung, CarWale
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-25T05:18:29.942Z
+ * Synced: 2026-08-25T05:19:16.227Z
  */
 
 class Solution {
     public boolean hasTripletSum(int arr[], int target) {
-        // code Here
-        
+        Arrays.sort(arr);
+
+        for (int i = 0; i < arr.length - 2; i++) {
+            int left = i + 1;
+            int right = arr.length - 1;
+
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+
+                if (sum == target)  return true;
+                 else if (sum < target) left++;
+                else right--;
+                
+            }
+        }
+
+        return false;
     }
 }
