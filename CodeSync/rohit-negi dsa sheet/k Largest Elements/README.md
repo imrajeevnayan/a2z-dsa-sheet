@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags AmazonMicrosoftSamsungWalmartGoogle, Company Tags, Amazon, Microsoft, Samsung, Walmart, Google
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/k-largest-elements4206/1
-- Synced: 2026-08-20T13:29:30.786Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/heap-gfg-160
+- Synced: 2026-08-25T05:12:37.568Z
 
 ## Problem Description
 
