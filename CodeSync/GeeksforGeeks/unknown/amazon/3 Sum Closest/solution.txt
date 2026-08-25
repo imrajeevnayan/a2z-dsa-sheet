@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Adobe, Google, Zoho, Uber
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-25T06:03:36.297Z
+ * Synced: 2026-08-25T06:04:22.783Z
  */
 
 class Solution {
@@ -22,13 +22,18 @@ class Solution {
             while (left < right) {
                 int sum = arr[i] + arr[left] + arr[right];
 
-                if (Math.abs(sum - target) < Math.abs(closest - target)) closest = sum;
-            
-                if (sum < target) left++;
-                 else if (sum > target) right--;
-                else {
+                if (Math.abs(sum - target) < Math.abs(closest - target) ||
+                    (Math.abs(sum - target) == Math.abs(closest - target) && sum > closest)) {
+                    closest = sum;
+                }
+
+                if (sum < target) {
+                    left++;
+                } else if (sum > target) {
+                    right--;
+                } else {
                     return sum;
-                
+                }
             }
         }
 
