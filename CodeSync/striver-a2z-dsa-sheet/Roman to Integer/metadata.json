@@ -1,16 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-06T20:00:51.107Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.62 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-08-25T05:15:21.743Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
   "tags": [
-    "Hash Table",
-    "Math",
-    "String"
+    "Expected Complexities",
+    "Company Tags",
+    "Zoho",
+    "Amazon",
+    "Microsoft",
+    "Facebook",
+    "Twitter",
+    "Uber"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
   "problemTitle": "Roman to Integer",
-  "problemUrl": "https://leetcode.com/problems/roman-to-integer/submissions/1793038272/",
-  "submissionId": "m3p2vj"
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem",
+  "submissionId": "czaxyo"
 }
