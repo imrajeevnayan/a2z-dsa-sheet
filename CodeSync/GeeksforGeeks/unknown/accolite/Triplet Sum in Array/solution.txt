@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, OYO Rooms, Samsung, CarWale
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-25T05:19:16.227Z
+ * Synced: 2026-08-25T06:02:25.384Z
  */
 
 class Solution {
@@ -24,10 +24,8 @@ class Solution {
                 if (sum == target)  return true;
                  else if (sum < target) left++;
                 else right--;
-                
             }
         }
-
         return false;
     }
 }
