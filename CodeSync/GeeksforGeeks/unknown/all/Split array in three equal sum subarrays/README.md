@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems
-- Synced: 2026-08-25T05:13:10.686Z
+- Synced: 2026-08-25T05:14:21.957Z
 
 ## Problem Description
 
