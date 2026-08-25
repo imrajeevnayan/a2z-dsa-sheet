@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Solution || Easy Approach and Step by Step Explanation
+ * URL: https://www.geeksforgeeks.org/problems/morning-assembly3038/1
+ * Language: class Solution { public int minMoves(int[] arr) { HashMap<Integer,Integer> map = new HashMap<>(); int ans = Integer.MIN_VALUE; for(int i=0;i<arr.length;i++){ if(map.containsKey(arr[i]-1)) map.put(arr[i],map.get(arr[i]-1) + 1); else map.put(arr[i],1); ans = Math.max(ans,map.get(arr[i])); } return arr.length - ans; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Dynamic Programming, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-08-25T05:12:07.282Z
+ */
+
+class Solution {
+    public int minMoves(int[] arr) {
+        int n = arr.length;
+        int[] pos = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            pos[arr[i]] = i;
+        }
+        int maxLen = 1;
+        int len = 1;
+
+        for (int x = 2; x <= n; x++) {
+            if (pos[x] > pos[x - 1]) {
+                len++;
+            } else {
+                len = 1;
+            }
+
+            maxLen = Math.max(maxLen, len);
+        }
+
+        return n - maxLen;
+    }
+}
