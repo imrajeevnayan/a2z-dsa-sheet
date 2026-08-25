@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem
-- Synced: 2026-08-25T05:15:21.743Z
+- Synced: 2026-08-25T05:16:07.429Z
 
 ## Problem Description
 
