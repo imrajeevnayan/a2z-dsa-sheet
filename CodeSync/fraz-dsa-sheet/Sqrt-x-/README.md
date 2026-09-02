@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, Binary Search, Newton's Method
 - Runtime: 0 ms
-- Memory: 42.32 MB
-- Problem URL: https://leetcode.com/problems/sqrtx/?utm=codolio
-- Synced: 2026-09-02T16:56:56.720Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/sqrtx/description/?utm=codolio
+- Synced: 2026-09-02T16:57:42.310Z
 
 ## Problem Description
 
