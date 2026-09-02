@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Searching, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:30:00.244Z
+ * Synced: 2026-09-02T15:30:45.516Z
  */
 
 class Solution {
     static int findFloor(int[] arr, int x) {
-        // code here
+      int low=0,high=aaar
         
     }
 }
