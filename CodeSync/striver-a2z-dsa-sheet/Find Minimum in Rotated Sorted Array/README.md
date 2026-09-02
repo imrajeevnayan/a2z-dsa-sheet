@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?utm_source=chatgpt.com
-- Synced: 2026-07-29T18:19:46.405Z
+- Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+- Synced: 2026-09-02T13:57:44.568Z
 
 ## Problem Description
 
