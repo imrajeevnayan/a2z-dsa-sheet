@@ -1,18 +1,18 @@
 # Search in Rotated Sorted Array II
 
 - Platform: LeetCode
-- Language: Array
-- Difficulty: Easy
-- Topics: Uncategorized
-- Runtime: 0 ms
-- Memory: 45.18 MB
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/2056795281/?envType=problem-list-v2&envId=array
-- Synced: 2026-07-05T10:31:00.767Z
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Array, Binary Search
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+- Synced: 2026-09-02T13:46:06.070Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+There is an integer array nums sorted in non-decreasing order (not necessarily with distinct values). Before being passed to your function, nums is rotated at an unknown pivot index k (0 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,4,4,5,6,6,7] might be rotated at pivot index 5 and become [4,5,6,6,7,0,1,2,4,4]. Given the array nums after the rotation and an integer target, return true if target is in nums, or false if it is not in nums. You must decrease the overall operation steps as much as possible. Example 1: Input: nums = [2,5,6,0,0,1,2], target = 0 Output: true Example 2: Input: nums = [2,5,6,0,0,1,2], target = 3 Output: false Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 nums is guaranteed to be rotated at some pivot. -104 <= target <= 104 Follow up: This problem is similar to Search in Rotated Sorted Array, but nums may contain duplicates. Would this affect the runtime complexity? How and why?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Array. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
