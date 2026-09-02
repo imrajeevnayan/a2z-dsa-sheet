@@ -7,20 +7,10 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T14:52:16.874Z
+ * Synced: 2026-09-02T14:53:05.390Z
  */
 
-while (low <= high) {
-            int mid = low + (high - low) / 2;
-            // Target found
-            if (nums[mid] == target) {
-                ans = mid;
-                break;
-            }
-            // Duplicate ambiguity
-            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
-                low++;
-                high--;
+high--;
 
             }
             // Left half sorted
@@ -32,3 +22,8 @@ while (low <= high) {
             else {
                 if (nums[mid] < target && target <= nums[high]) low = mid + 1;
                else high = mid - 1;
+            }
+        }
+        return ans != -1;
+    }
+}
