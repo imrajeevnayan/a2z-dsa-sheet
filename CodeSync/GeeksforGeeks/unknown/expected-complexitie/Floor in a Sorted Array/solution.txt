@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Searching, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:32:18.767Z
+ * Synced: 2026-09-02T15:33:03.842Z
  */
 
 class Solution {
@@ -17,9 +17,11 @@ class Solution {
           int mid=low+(high-low)/2;
           if(arr[mid]<=x){
               ans=arr[mid];
-              low=
+              low=mid+1;
           }
+          else high=mid-1;
       }
+      return ans;
         
     }
 }
