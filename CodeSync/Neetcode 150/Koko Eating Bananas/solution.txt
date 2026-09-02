@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Koko Eating Bananas
+ * URL: https://www.geeksforgeeks.org/problems/koko-eating-bananas/1
+ * Language: class Solution { public: bool isFeasible(vector<int>& arr, int k, int s){ int cnt = 0; for(int i = 0;i<arr.size();i++){ cnt += ceil((1.0*arr[i])/s); if(cnt>k)return false; } return true; } int kokoEat(vector<int>& arr, int k) { int l = 1, r = 1e6+1, ans = -1; while(l<=r){ int m = l+(r-l)/2; if(isFeasible(arr, k, m)){ ans = m; r = m-1; } else{ l = m+1; } } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Bloomberg, Amazon, Microsoft, Walmart, Adobe, Arcesium
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-02T18:26:29.654Z
+ */
+
+class Solution {
+    public int kokoEat(int[] arr, int k) {
+        int low = 1, high = 0;
+
+        for (int x : arr)
+            high = Math.max(high, x);
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            int hours = 0;
+
+            for (int x : arr)
+                hours += (x + mid - 1) / mid;
+
+            if (hours <= k)
+                high = mid - 1;
+            else
+                low = mid + 1;
+        }
+
+        return low;
+    }
+}
