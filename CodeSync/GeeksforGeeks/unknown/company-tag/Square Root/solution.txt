@@ -7,31 +7,12 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:32:21.792Z
+ * Synced: 2026-09-02T17:07:40.966Z
  */
 
 class Solution {
     int floorSqrt(int n) {
-        if (n == 0 || n == 1) return n;
-
-        long low = 1;
-        long high = n;
-        long ans = 0;
-
-        while (low <= high) {
-            long mid = low + (high - low) / 2;
-            long sq = mid * mid;
-
-            if (sq == n) {
-                return (int) mid;
-            } else if (sq < n) {
-                ans = mid;      // Potential answer
-                low = mid + 1;  // Look for a larger square root
-            } else {
-                high = mid - 1; // Look for a smaller square root
-            }
-        }
-
-        return (int) ans;
+        // code here
+        
     }
 }
