@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T13:57:44.568Z
+ * Synced: 2026-09-02T13:58:33.293Z
  */
 
 int mid = left + (right - left) / 2;
