@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-19T12:34:05.765Z",
+  "submissionTimestamp": "2026-09-02T18:58:24.700Z",
   "runtime": "0 ms",
-  "memoryUsage": "44.11 MB",
+  "memoryUsage": "43.50 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Java",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2112585513/",
-  "submissionId": "k6rtra"
+  "problemUrl": "https://leetcode.com/submissions/detail/2128523208/",
+  "submissionId": "2p5w2n"
 }
