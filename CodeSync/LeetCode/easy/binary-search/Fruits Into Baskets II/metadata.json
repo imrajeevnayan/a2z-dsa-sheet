@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-02T19:42:07.220Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-02T19:42:52.626Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -14,5 +14,5 @@
   "language": "Binary Search",
   "problemTitle": "Fruits Into Baskets II",
   "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "jtia5c"
+  "submissionId": "darxfh"
 }
