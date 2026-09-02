@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-02T13:41:55.176Z",
+  "submissionTimestamp": "2026-09-02T13:42:40.178Z",
   "runtime": "0 ms",
   "memoryUsage": "43.73 MB",
   "difficulty": "Medium",
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Search in Rotated Sorted Array",
   "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-  "submissionId": "ngmlq3"
+  "submissionId": "at66oj"
 }
