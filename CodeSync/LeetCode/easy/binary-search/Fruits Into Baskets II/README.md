@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Easy
 - Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search
-- Synced: 2026-09-02T19:42:07.220Z
+- Synced: 2026-09-02T19:42:52.626Z
 
 ## Problem Description
 
