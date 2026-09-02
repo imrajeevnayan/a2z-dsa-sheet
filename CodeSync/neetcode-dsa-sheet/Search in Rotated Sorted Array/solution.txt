@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-02T13:35:42.660Z
+ * Synced: 2026-09-02T13:36:28.649Z
  */
 
 class Solution {
@@ -21,12 +21,11 @@ class Solution {
             }
                 else low=mid+1;
             else{
-                if (nums[mid] < target && target <= nums[high])low = mid + 1;
+                if (nums[mid] < target && target <= nums[high]) low = mid + 1;
             }
-                 else {
-                    high = mid - 1;
-                }
+                 else  high = mid - 1;
+                
         }
-        
+        return ans;
     }
 }
