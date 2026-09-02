@@ -1,14 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-02T19:40:10.290Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.50 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-02T19:41:12.389Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Binary Search",
+    "Segment Tree",
+    "Simulation",
+    "Ordered Set"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2128523208/",
-  "submissionId": "c33gu6"
+  "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "vya9qo"
 }
