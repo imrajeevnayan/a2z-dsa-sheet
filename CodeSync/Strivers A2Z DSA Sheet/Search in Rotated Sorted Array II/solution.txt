@@ -7,17 +7,10 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T13:47:46.465Z
+ * Synced: 2026-09-02T13:48:33.464Z
  */
 
-while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] == target)return true;
-            
-            
-            if (nums[left] == nums[mid] && nums[mid] == nums[right]) {
-                left++;
-                right--;
+right--;
             }
             // Left half is sorted
             else if (nums[left] <= nums[mid]) {
@@ -27,6 +20,15 @@ while (left <= right) {
                     left = mid + 1;
                 }
             }
-        int left = 0, right = nums.length - 1;
-    public boolean search(int[] nums, int target) {
-class Solution {
+            // Right half is sorted
+            else {
+                if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+        }
+        
+        return false;
+    }
