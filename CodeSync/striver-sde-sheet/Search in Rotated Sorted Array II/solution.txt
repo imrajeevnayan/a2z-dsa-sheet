@@ -1,16 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array II
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/2128496580/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: 0 ms
- * Memory: 45.24 MB
- * Synced: 2026-09-02T13:57:06.469Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-02T14:53:05.390Z
  */
 
-}
+high--;
+
+            }
             // Left half sorted
             else if (nums[low] <= nums[mid]) {
                 if (nums[low] <= target && target < nums[mid]) high = mid - 1;
@@ -23,11 +25,5 @@
             }
         }
         return ans != -1;
-                low++;
-                high--;
-            // Duplicate ambiguity
-            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
-            }
-                ans = mid;
-                break;
-            if (nums[mid] == target) {
+    }
+}
