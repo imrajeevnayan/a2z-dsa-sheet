@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sqrt(x)
- * URL: https://leetcode.com/problems/sqrtx/description/?utm=codolio
+ * URL: https://leetcode.com/problems/sqrtx/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Binary Search, Newton's Method
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-02T17:00:20.303Z
+ * Synced: 2026-09-02T17:01:09.304Z
  */
 
 // aur bada answer try karo
