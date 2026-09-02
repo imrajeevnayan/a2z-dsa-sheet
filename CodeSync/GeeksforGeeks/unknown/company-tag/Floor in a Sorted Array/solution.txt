@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Searching, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:34:36.989Z
+ * Synced: 2026-09-02T15:35:23.705Z
  */
 
 class Solution {
