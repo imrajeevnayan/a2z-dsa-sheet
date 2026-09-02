@@ -5,13 +5,27 @@
  * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-02T19:42:07.220Z
+ * Synced: 2026-09-02T19:42:52.626Z
  */
 
-class Solution {
-    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
-        
-    }
-}
+placed = true;
+                    break;
+                    used[i] = true;
+                if (!used[i] && baskets[i] >= fruit) {
+
+            for (int i = 0; i < n; i++) {
+            boolean placed = false;
+        for (int fruit : fruits) {
+
+        int unplaced = 0;
+        boolean[] used = new boolean[n];
+        int n = fruits.length;
+                }
+            }
+
+            if (!placed) {
+                unplaced++;
+            }
+        }
