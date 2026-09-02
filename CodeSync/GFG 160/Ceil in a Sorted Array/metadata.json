@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-02T15:39:29.157Z",
+  "submissionTimestamp": "2026-09-02T15:48:16.405Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt",
   "problemTitle": "Ceil in a Sorted Array",
   "problemUrl": "https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1",
-  "submissionId": "drxz43"
+  "submissionId": "dxr4hr"
 }
