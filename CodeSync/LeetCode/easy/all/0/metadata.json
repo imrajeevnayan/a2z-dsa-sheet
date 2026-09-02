@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-02T16:19:52.672Z",
+  "submissionTimestamp": "2026-09-02T19:41:12.389Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
+    "Array",
     "Binary Search",
-    "Newton's Method"
+    "Segment Tree",
+    "Simulation",
+    "Ordered Set"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Binary Search",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
-  "submissionId": "kccg8s"
+  "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search",
+  "submissionId": "vya9qo"
 }
