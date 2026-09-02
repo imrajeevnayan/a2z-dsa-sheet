@@ -1,13 +1,13 @@
 # Square Root
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { int floorSqrt(int n) { int ans=0; for(int i=1;i*i<=n;i++){ ans=i; } return ans; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Topic Tags
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/square-root/1
-- Synced: 2026-09-02T17:07:40.966Z
+- Synced: 2026-09-02T17:08:26.489Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a positive integer n, find the square root of n. If n is not a perfect squ
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { int floorSqrt(int n) { int ans=0; for(int i=1;i*i<=n;i++){ ans=i; } return ans; } }. The detected topics are Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Topic Tags. Review the synced source file for the implementation details.
