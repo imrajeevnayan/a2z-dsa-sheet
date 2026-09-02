@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T13:34:10.859Z
+ * Synced: 2026-09-02T13:34:56.647Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
         }
         
             if(nums[low]<=nums[mid]){
-                if()
+                if(nums[low]<=target && target<nums[mid]) high=mid
             }
     }
 }
