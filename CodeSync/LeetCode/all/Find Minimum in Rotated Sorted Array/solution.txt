@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 43.50 MB
- * Synced: 2026-09-02T14:14:19.763Z
+ * Synced: 2026-09-02T14:15:09.980Z
  */
 
 int mid = left + (right - left) / 2;
