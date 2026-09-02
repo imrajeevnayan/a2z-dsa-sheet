@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/
-- Synced: 2026-08-20T05:48:12.379Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+- Synced: 2026-09-02T12:08:56.178Z
 
 ## Problem Description
 
