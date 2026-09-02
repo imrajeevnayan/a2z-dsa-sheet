@@ -1,29 +1,27 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/implement-lower-bound/1
- * Language: class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }
+ * URL: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
+ * Language: Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T09:13:49.458Z
+ * Synced: 2026-09-02T15:38:44.007Z
  */
 
 class Solution {
-    int lowerBound(int[] arr, int target) {
-        int low = 0, high = arr.length - 1,ans = arr.length;
-        while (low <= high) {
-        int mid = low + (high - low) / 2;
-        
-        if (arr[mid] >= target) {
-            ans = mid;
-            high = mid - 1;
-        }   else {
-            low = mid + 1;
+    public int findCeil(int[] arr, int x) {
+        int n=arr.length ,ans=-1;
+        int low=0,high=n-1;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(arr[mid]>=x){
+                ans=mid;
+                high=mid-1;
+            }
+            else low=mid+1;
         }
-    }
-    return ans;
-        
+        return ans;
     }
 }
