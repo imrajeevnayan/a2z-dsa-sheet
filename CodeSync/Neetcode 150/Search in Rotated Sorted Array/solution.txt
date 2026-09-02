@@ -1,33 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T12:08:56.178Z
+ * Synced: 2026-09-02T12:09:41.505Z
  */
 
 class Solution {
     public int search(int[] nums, int target) {
-        int left = 0, right = nums.length - 1;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] == target) return mid;
-            
-
-            // Left half is sorted
-            if (nums[left] <= nums[mid]) {
-                if (nums[left] <= target && target < nums[mid]) {
-                    right = mid - 1;
-                } else {
-                    left = mid + 1;
-                }
-            }
-            // Right half is sorted
-            else {
-                if (nums[mid] < target && target <= nums[right]) {
-                    left = mid + 1;
+        
+        int low=0,high=nums.length-1,ans=-1;
+        while(low<=high){
+            int mid
+        }
+    }
+}
