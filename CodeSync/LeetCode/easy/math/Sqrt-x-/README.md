@@ -6,8 +6,8 @@
 - Topics: Math, Binary Search, Newton's Method
 - Runtime: 0 ms
 - Memory: 42.32 MB
-- Problem URL: https://leetcode.com/problems/sqrtx/submissions/2128718497/?utm=codolio
-- Synced: 2026-09-02T16:56:11.304Z
+- Problem URL: https://leetcode.com/problems/sqrtx/?utm=codolio
+- Synced: 2026-09-02T16:56:56.720Z
 
 ## Problem Description
 
