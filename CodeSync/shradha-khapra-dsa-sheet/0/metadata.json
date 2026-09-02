@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-02T16:19:52.672Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-02T18:58:25.502Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.50 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Math",
-    "Binary Search",
-    "Newton's Method"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
-  "submissionId": "kccg8s"
+  "problemUrl": "https://leetcode.com/submissions/detail/2128523208/",
+  "submissionId": "c33gu6"
 }
