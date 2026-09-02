@@ -1,25 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
- * Difficulty: Medium
- * Topics: Array, Binary Search
+ * URL: https://leetcode.com/problems/sqrtx/description/?utm=codolio
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Binary Search, Newton's Method
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:40:52.213Z
+ * Synced: 2026-09-02T16:19:52.672Z
  */
 
-class Solution {
-    public int search(int[] nums, int target) {
-        int n = nums.length;
-        int low = 0, high = n - 1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (nums[mid] == target) return mid;
-            else if (nums[low] <= nums[mid]) {
-                if (target > nums[mid] || target < nums[low]) low = mid + 1;
-                else  high = mid - 1;
-            } 
-            else {
-                if (target < nums[mid] || target > nums[high])high = mid - 1;
+Input: x = 4
+Output: 2
+Explanation: The square root of 4 is 2, so we return 2.
