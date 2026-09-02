@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-02T17:05:09.374Z",
+  "submissionTimestamp": "2026-09-02T17:05:57.305Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.37 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Sqrt(x)",
   "problemUrl": "https://leetcode.com/problems/sqrtx/?utm=codolio",
-  "submissionId": "41sc7m"
+  "submissionId": "3ay11n"
 }
