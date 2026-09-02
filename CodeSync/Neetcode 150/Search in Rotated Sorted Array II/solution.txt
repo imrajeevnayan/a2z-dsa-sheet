@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array II
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/2128496580/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-02T13:50:49.449Z
+ * Runtime: 0 ms
+ * Memory: 45.24 MB
+ * Synced: 2026-09-02T13:51:35.153Z
  */
 
 if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
-            // Duplicate ambiguity
-            }
-                break;
                 low++;
                 high--;
 
@@ -23,12 +20,15 @@ if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
                 if (nums[low] <= target && target < nums[mid]) high = mid - 1;
                 else low = mid + 1;
             }
+            // Duplicate ambiguity
+            }
+                break;
+                ans = mid;
+            if (nums[mid] == target) {
+            // Target found
+            int mid = low + (high - low) / 2;
+        while (low <= high) {
+        int low = 0,high = nums.length - 1,ans = -1;
+    public boolean search(int[] nums, int target) {
             // Right half sorted
             else {
-                if (nums[mid] < target && target <= nums[high]) low = mid + 1;
-  else {
-
-                    high = mid - 1;
-                }
-            }
-        }
