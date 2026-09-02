@@ -7,7 +7,7 @@
  * Topics: Math, Binary Search, Newton's Method
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-02T16:57:42.310Z
+ * Synced: 2026-09-02T16:58:41.321Z
  */
 
 // aur bada answer try karo
