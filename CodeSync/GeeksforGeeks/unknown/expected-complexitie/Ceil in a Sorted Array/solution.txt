@@ -2,19 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Ceil in a Sorted Array
  * URL: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
- * Language: Java (21)
+ * Language: Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:35:59.972Z
+ * Synced: 2026-09-02T15:36:58.855Z
  */
 
 class Solution {
     public int findCeil(int[] arr, int x) {
-        int low = 0, high = arr.length - 1;
-        int ans = -1;
-
+        int low = 0, high = arr.length - 1,ans = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
