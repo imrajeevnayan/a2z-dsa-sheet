@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sqrt(x)
- * URL: https://leetcode.com/problems/sqrtx/submissions/2128718497/?utm=codolio
+ * URL: https://leetcode.com/problems/sqrtx/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Binary Search, Newton's Method
  * Runtime: 0 ms
  * Memory: 42.32 MB
- * Synced: 2026-09-02T16:56:11.304Z
+ * Synced: 2026-09-02T16:56:56.720Z
  */
 
 // aur bada answer try karo
@@ -15,12 +15,12 @@
             } 
             else {
                 ans = mid;
-                // mid * mid <= n
+                // mid * mid <= x
             if (mid <= x / mid) {
             int mid = low + (high - low) / 2;
         while (low <= high) {
         int low = 1,high = x,ans = 0;
-                // mid * mid > n
+                // mid * mid > x
                 // left side jao
                 high = mid - 1;
             }
@@ -28,3 +28,4 @@
         return ans;
     public int mySqrt(int x) {
 class Solution {
+    }
