@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T14:08:35.072Z
+ * Synced: 2026-09-02T14:09:22.461Z
  */
 
 int mid = left + (right - left) / 2;
@@ -26,3 +26,6 @@ int mid = left + (right - left) / 2;
         return ans;
     }
 }
+
+        while (left <= right) {
+        int left = 0,right = arr.length - 1,ans = Integer.MAX_VALUE;
