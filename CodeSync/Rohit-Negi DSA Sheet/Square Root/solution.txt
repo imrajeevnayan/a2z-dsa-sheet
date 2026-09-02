@@ -2,17 +2,41 @@
  * Platform: GeeksforGeeks
  * Problem: Square Root
  * URL: https://www.geeksforgeeks.org/problems/square-root/1
- * Language: Java (21)
+ * Language: class Solution { int floorSqrt(int n) { int ans=0; for(int i=1;i*i<=n;i++){ ans=i; } return ans; } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T17:07:40.966Z
+ * Synced: 2026-09-02T17:08:26.489Z
  */
 
 class Solution {
     int floorSqrt(int n) {
-        // code here
+     int low = 1;
+     int high = n;
+     int ans = 0;
+
+     while (low <= high) {
+
+         int mid = low + (high - low) / 2;
+
+         if (mid <= n / mid) {
+             // mid * mid <= n
+             ans = mid;
+
+             // aur bada answer try karo
+             low = mid + 1;
+         } 
+         else {
+             // mid * mid > n
+             // left side jao
+             high = mid - 1;
+         }
+     }
+
+     r
+
+        return ans;
         
     }
 }
