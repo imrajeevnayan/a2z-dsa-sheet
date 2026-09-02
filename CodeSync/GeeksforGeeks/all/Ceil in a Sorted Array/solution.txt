@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:36:58.855Z
+ * Synced: 2026-09-02T15:37:50.294Z
  */
 
 class Solution {
     public int findCeil(int[] arr, int x) {
-        int low = 0, high = arr.length - 1,ans = -1;
+        int low = 0, high = arr.length - 1,ans = arr.length;
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
