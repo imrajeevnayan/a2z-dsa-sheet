@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Math, Binary Search, Newton's Method
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-02T17:05:09.374Z
+ * Memory: 42.37 MB
+ * Synced: 2026-09-02T17:05:57.305Z
  */
 
 // aur bada answer try karo
@@ -16,14 +16,15 @@
             else {
                 ans = mid;
                 // mid * mid <= x
-            if (mid <= x / mid) {
-            int mid = low + (high - low) / 2;
-        while (low <= high) {
                 // mid * mid > x
                 // left side jao
                 high = mid - 1;
             }
         }
         return ans;
-    }
-}
+            if (mid <= x / mid) {
+            int mid = low + (high - low) / 2;
+        while (low <= high) {
+        int low = 1,high = x,ans = 0;
+class Solution {
+    public int mySqrt(int x) {
