@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-23T04:38:35.231Z",
-  "runtime": "446 ms",
-  "memoryUsage": "209.72 MB",
+  "submissionTimestamp": "2026-09-02T18:58:25.502Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.50 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2077816282/",
-  "submissionId": "i8eyqg"
+  "problemUrl": "https://leetcode.com/submissions/detail/2128523208/",
+  "submissionId": "c33gu6"
 }
