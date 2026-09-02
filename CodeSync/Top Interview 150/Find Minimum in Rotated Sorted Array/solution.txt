@@ -1,24 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Find Minimum in Rotated Sorted Array
- * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?utm_source=chatgpt.com
+ * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-29T18:19:46.405Z
+ * Synced: 2026-09-02T13:57:44.568Z
  */
 
-class Solution {
-    public int findMin(int[] nums) {
-        int start=0,end=nums.length-1,ans=nums[0];
-        while(start<=end){
-            int mid=start+(end-start)/2;
-            if(nums[mid]>= nums[0])start=mid+1;
-            else{
-                ans=nums[mid];
-                end=mid-1;
+int mid = left + (right - left) / 2;
+            if (arr[mid] > arr[right]) {
+                // Minimum right side mein hai
+                left = mid + 1;
+            } else {
+
+                // arr[mid] minimum ka candidate hai
+                ans = Math.min(ans, arr[mid]);
+
+                // Aur chhota left mein ho sakta hai
+                right = mid - 1;
             }
         }
         return ans;
