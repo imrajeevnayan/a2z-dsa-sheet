@@ -1,13 +1,13 @@
 # Search in Rotated Sorted Array II
 
 - Platform: LeetCode
-- Language: Array
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/?envType=problem-list-v2&envId=array
-- Synced: 2026-07-05T10:27:21.117Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+- Synced: 2026-09-02T13:46:06.070Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There is an integer array nums sorted in non-decreasing order (not necessarily w
 
 ## Explanation
 
-This solution was accepted on LeetCode using Array. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
