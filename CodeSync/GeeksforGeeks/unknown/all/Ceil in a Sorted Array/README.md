@@ -1,13 +1,13 @@
 # Ceil in a Sorted Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
-- Synced: 2026-09-02T15:35:59.972Z
+- Synced: 2026-09-02T15:36:58.855Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a sorted array arr[] and an integer x, find the index (0-based) of the sma
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt. The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching. Review the synced source file for the implementation details.
