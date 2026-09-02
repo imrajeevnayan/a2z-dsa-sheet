@@ -1,15 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/sqrtx/description/?utm=codolio
- * Language: Problem List
+ * URL: https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
  * Difficulty: Easy
- * Topics: Math, Binary Search, Newton's Method
+ * Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T16:19:52.672Z
+ * Synced: 2026-09-02T19:41:12.389Z
  */
 
-Input: x = 4
-Output: 2
-Explanation: The square root of 4 is 2, so we return 2.
+class Solution {
+    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
+        
+    }
+}
