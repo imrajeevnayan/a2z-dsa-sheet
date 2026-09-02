@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
-- Synced: 2026-09-02T15:33:03.842Z
+- Synced: 2026-09-02T15:34:36.989Z
 
 ## Problem Description
 
