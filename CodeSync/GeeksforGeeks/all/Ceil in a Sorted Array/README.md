@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
-- Synced: 2026-09-02T16:07:07.060Z
+- Synced: 2026-09-02T16:07:55.049Z
 
 ## Problem Description
 
