@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T12:40:52.213Z",
+  "submissionTimestamp": "2026-09-02T16:19:52.672Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Math",
+    "Binary Search",
+    "Newton's Method"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "6aznf"
+  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
+  "submissionId": "kccg8s"
 }
