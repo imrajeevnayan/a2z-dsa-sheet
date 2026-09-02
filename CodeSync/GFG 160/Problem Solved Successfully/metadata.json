@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T09:13:49.458Z",
+  "submissionTimestamp": "2026-09-02T15:38:44.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { int lowerBound(int[] arr, int target) { int low = 0,high = arr.length; while (low < high) { int mid = low + (high - low) / 2; if (arr[mid] >= target) high = mid; else low = mid + 1; } return low; } }",
+  "language": "Abort signal from abort(3) (SIGABRT) terminate called after throwing an instance of 'std::invalid_argument' what(): stoi /bin/bash: line 1: 35 Aborted (core dumped) ./Driver < input.txt",
   "problemTitle": "Problem Solved Successfully",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
-  "submissionId": "w7tj3r"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1",
+  "submissionId": "r1oyhl"
 }
