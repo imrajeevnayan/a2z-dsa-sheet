@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Binary Search, Sorting, Searching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T16:10:19.068Z
+ * Synced: 2026-09-02T16:11:08.308Z
  */
 
 class Solution {
