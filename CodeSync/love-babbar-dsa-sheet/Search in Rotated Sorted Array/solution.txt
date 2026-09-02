@@ -7,12 +7,10 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 43.73 MB
- * Synced: 2026-09-02T13:41:55.176Z
+ * Synced: 2026-09-02T13:42:40.178Z
  */
 
-int low=0,high=nums.length-1,ans=-1;
-        while(low<=high){
-            int mid=low+(high-low)/2;
+int mid=low+(high-low)/2;
             if(nums[mid]==target) return mid;
             if(nums[low]<=nums[mid]){
                 if(nums[low]<=target && target<nums[mid]) high=mid-1;
@@ -29,5 +27,7 @@ int low=0,high=nums.length-1,ans=-1;
              // Left half is sorted
             //right half is sorted
 }
+        while(low<=high){
+        int low=0,high=nums.length-1,ans=-1;
     public int search(int[] nums, int target) {
 class Solution {
