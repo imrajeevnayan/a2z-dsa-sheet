@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.50 MB
 - Problem URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2128523208/
-- Synced: 2026-09-02T14:43:26.382Z
+- Synced: 2026-09-02T14:44:13.390Z
 
 ## Problem Description
 
