@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Floor in a Sorted Array
+ * URL: https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Searching, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-02T15:30:00.244Z
+ */
+
+class Solution {
+    static int findFloor(int[] arr, int x) {
+        // code here
+        
+    }
+}
