@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.37 MB
 - Problem URL: https://leetcode.com/problems/sqrtx/?utm=codolio
-- Synced: 2026-09-02T17:05:57.305Z
+- Synced: 2026-09-02T17:06:43.307Z
 
 ## Problem Description
 
