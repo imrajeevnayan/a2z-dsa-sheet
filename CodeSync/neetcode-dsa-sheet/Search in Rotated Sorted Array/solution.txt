@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2128482458/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: 43.73 MB
- * Synced: 2026-09-02T13:39:28.858Z
+ * Synced: 2026-09-02T13:40:17.454Z
  */
 
 int low=0,high=nums.length-1,ans=-1;
@@ -29,3 +29,5 @@ int low=0,high=nums.length-1,ans=-1;
              // Left half is sorted
             //right half is sorted
 }
+    public int search(int[] nums, int target) {
+class Solution {
