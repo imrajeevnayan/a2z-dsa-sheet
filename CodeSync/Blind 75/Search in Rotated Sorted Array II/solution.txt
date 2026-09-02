@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T15:07:35.388Z
+ * Synced: 2026-09-02T15:08:23.392Z
  */
 
 high--;
