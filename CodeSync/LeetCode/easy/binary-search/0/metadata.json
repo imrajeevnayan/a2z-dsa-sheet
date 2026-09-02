@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T13:07:56.409Z",
+  "submissionTimestamp": "2026-09-02T16:19:52.672Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Math",
+    "Binary Search",
+    "Newton's Method"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "hk5gcz"
+  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
+  "submissionId": "kccg8s"
 }
