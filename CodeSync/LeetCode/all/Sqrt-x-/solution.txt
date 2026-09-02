@@ -7,7 +7,7 @@
  * Topics: Math, Binary Search, Newton's Method
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-02T17:04:24.304Z
+ * Synced: 2026-09-02T17:05:09.374Z
  */
 
 // aur bada answer try karo
@@ -25,6 +25,5 @@
             }
         }
         return ans;
-        int low = 1,high = x,ans = 0;
-    public int mySqrt(int x) {
-class Solution {
+    }
+}
