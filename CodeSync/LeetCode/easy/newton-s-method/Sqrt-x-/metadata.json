@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-02T16:56:56.720Z",
+  "submissionTimestamp": "2026-09-02T16:57:42.310Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.32 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sqrt(x)",
-  "problemUrl": "https://leetcode.com/problems/sqrtx/?utm=codolio",
-  "submissionId": "aukllu"
+  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
+  "submissionId": "ekurv9"
 }
