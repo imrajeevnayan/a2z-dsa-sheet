@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonD-E-Shaw, Company Tags, Amazon, D-E-Shaw, Topic Tags, Arrays, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-03T08:57:20.617Z
+ * Synced: 2026-09-03T08:58:20.617Z
  */
 
 class Solution {
