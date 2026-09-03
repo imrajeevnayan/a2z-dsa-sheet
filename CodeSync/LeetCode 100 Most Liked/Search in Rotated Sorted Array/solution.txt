@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/?envType=study-plan-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-03T05:35:32.637Z
+ * Synced: 2026-09-03T05:36:18.854Z
  */
 
-class Solution {
-    public int search(int[] nums, int target) {
-        int low=0,high=nums.length-1,ans=-1;
+int low=0,high=nums.length-1,ans=-1;
         while(low<=high){
             int mid=low+(high-low)/2;
             if(nums[mid]==target) return mid;
@@ -28,3 +26,6 @@ class Solution {
                  
             }
         }
+        return ans;
+    }
+}
