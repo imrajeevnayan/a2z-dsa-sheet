@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Binary Search, Design
  * Runtime: 3 ms
  * Memory: 0.00 MB
- * Synced: 2026-09-03T05:35:45.851Z
+ * Synced: 2026-09-03T05:36:31.852Z
  */
 
 int mid = (l + r) / 2;
