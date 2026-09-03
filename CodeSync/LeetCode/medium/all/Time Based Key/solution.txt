@@ -5,26 +5,21 @@
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Hash Table, String, Binary Search, Design
- * Runtime: N/A
+ * Runtime: 3 ms
  * Memory: N/A
- * Synced: 2026-09-03T05:34:13.646Z
+ * Synced: 2026-09-03T05:35:00.551Z
  */
 
-class TimeMap {
+int mid = (l + r) / 2;
 
-    public TimeMap() {
-        
-    }
-    
-    public void set(String key, String value, int timestamp) {
-        
-    }
-    
-    public String get(String key, int timestamp) {
-        
+            if (list.get(mid).time <= timestamp) {
+                ans = list.get(mid).value;
+                l = mid + 1;
+            } else {
+                r = mid - 1;
+            }
+        }
+
+        return ans;
     }
 }
-
-/**
- * Your TimeMap object will be instantiated and called as such:
- * TimeMap obj = new TimeMap();
