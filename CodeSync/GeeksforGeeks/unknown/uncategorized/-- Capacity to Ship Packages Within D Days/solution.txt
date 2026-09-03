@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🚢 Capacity to Ship Packages Within D Days
+ * URL: https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1
+ * Language: class Solution { public int leastWeightCapacity(ArrayList<Integer> weights, int days) { // code here int l=0,h=0,max=0,ans=0; for(int n:weights){ l=Math.max(l,n); h+=n; } while(l<=h){ int mid=l+(h-l)/2; int minDaysNeed=1; int load=0; for(int num:weights){ if(num+load>mid){ load=num; minDaysNeed++; }else{ load+=num; } } if(minDaysNeed<=days){ ans=mid; h=mid-1; }else{ l=mid+1; } } return ans; } }
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-03T08:39:28.656Z
+ */
+
+class Solution {
+    public int leastWeightCapacity(ArrayList<Integer> arr, int d) {
+        int low = 0, high = 0, ans = 0;
+
+        for (int x : arr) {
+            low = Math.max(low, x);
+            high += x;
+        }
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            int days = 1, sum = 0;
+
+            for (int x : arr) {
+                if (sum + x > mid) {
+                    days++;
+                    sum = 0;
+                }
+                sum += x;
+            }
+
+            if (days <= d) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+}
