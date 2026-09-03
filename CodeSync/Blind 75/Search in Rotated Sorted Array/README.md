@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=binary-search
-- Synced: 2026-09-03T05:35:32.637Z
+- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-09-03T05:36:18.854Z
 
 ## Problem Description
 
