@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-03T08:35:09.185Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonD-E-Shaw",
+    "Company Tags",
+    "Amazon",
+    "D-E-Shaw",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int leastWeightCapacity(ArrayList<Integer> weights, int days) { // code here int l=0,h=0,max=0,ans=0; for(int n:weights){ l=Math.max(l,n); h+=n; } while(l<=h){ int mid=l+(h-l)/2; int minDaysNeed=1; int load=0; for(int num:weights){ if(num+load>mid){ load=num; minDaysNeed++; }else{ load+=num; } } if(minDaysNeed<=days){ ans=mid; h=mid-1; }else{ l=mid+1; } } return ans; } }",
+  "problemTitle": "🚢 Capacity to Ship Packages Within D Days",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1",
+  "submissionId": "yhp3nf"
+}
