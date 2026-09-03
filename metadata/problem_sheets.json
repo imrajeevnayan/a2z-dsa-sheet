@@ -3642,5 +3642,10 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
+  ],
+  "geeksforgeeks:capacity-to-ship-packages-within-d-days": [
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
   ]
 }
