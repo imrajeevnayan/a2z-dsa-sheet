@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Time Based Key
+ * URL: https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Binary Search, Design
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-03T05:34:13.646Z
+ */
+
+class TimeMap {
+
+    public TimeMap() {
+        
+    }
+    
+    public void set(String key, String value, int timestamp) {
+        
+    }
+    
+    public String get(String key, int timestamp) {
+        
+    }
+}
+
+/**
+ * Your TimeMap object will be instantiated and called as such:
+ * TimeMap obj = new TimeMap();
