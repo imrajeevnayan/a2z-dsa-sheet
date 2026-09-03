@@ -7,37 +7,47 @@
  * Topics: Expected Complexities, Company Tags AmazonD-E-Shaw, Company Tags, Amazon, D-E-Shaw, Topic Tags, Arrays, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-03T08:35:09.185Z
+ * Synced: 2026-09-03T08:47:12.401Z
  */
 
 class Solution {
     public int leastWeightCapacity(ArrayList<Integer> arr, int d) {
-        int low = 0, high = 0;
+
+        int low = 0;
+        int high = 0;
+        int ans = 0;
 
         for (int x : arr) {
             low = Math.max(low, x);
             high += x;
         }
 
-        while (low < high) {
+        while (low <= high) {
+
             int mid = low + (high - low) / 2;
 
-            int days = 1, sum = 0;
+            int days = 1;
+            int sum = 0;
 
             for (int x : arr) {
+
                 if (sum + x > mid) {
                     days++;
                     sum = 0;
                 }
+
                 sum += x;
             }
 
-            if (days <= d)
-                high = mid;
-            else
+            if (days <= d) {
+                ans = mid;
+                high = mid - 1;
+            } 
+            else {
                 low = mid + 1;
+            }
         }
 
-        return low;
+        return ans;
     }
 }
