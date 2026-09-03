@@ -4,10 +4,10 @@
 - Language: Binary Search
 - Difficulty: Medium
 - Topics: Hash Table, String, Binary Search, Design
-- Runtime: N/A
+- Runtime: 3 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search
-- Synced: 2026-09-03T05:34:13.646Z
+- Synced: 2026-09-03T05:35:00.551Z
 
 ## Problem Description
 
