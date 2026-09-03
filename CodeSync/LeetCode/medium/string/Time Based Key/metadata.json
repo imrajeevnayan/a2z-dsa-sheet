@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-03T05:34:13.646Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-03T05:35:00.551Z",
+  "runtime": "3 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Binary Search",
   "problemTitle": "Time Based Key",
   "problemUrl": "https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search",
-  "submissionId": "juqb76"
+  "submissionId": "aafqf"
 }
