@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-18T06:13:19.823Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.02 MB",
+  "submissionTimestamp": "2026-09-03T18:10:17.309Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -9,8 +9,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top 100 Liked",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/description/?utm=codolio",
-  "submissionId": "lmlq06"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "85wqim"
 }
