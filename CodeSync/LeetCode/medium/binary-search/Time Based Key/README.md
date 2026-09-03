@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Hash Table, String, Binary Search, Design
 - Runtime: 3 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search
-- Synced: 2026-09-03T05:35:00.551Z
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/problems/time-based-key-value-store/submissions/2129224841/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-09-03T05:35:45.851Z
 
 ## Problem Description
 
