@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-03T08:38:41.726Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonD-E-Shaw",
+    "Company Tags",
+    "Amazon",
+    "D-E-Shaw",
+    "Topic Tags",
+    "Arrays",
+    "Binary Search"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Capacity To Ship Packages Within d Days",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1",
+  "submissionId": "22l14m"
+}
