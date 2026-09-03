@@ -3637,5 +3637,10 @@
   ],
   "leetcode:sqrtx": [
     "custom:fraz-dsa-sheet"
+  ],
+  "leetcode:time-based-key-value-store": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet"
   ]
 }
