@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1
-- Synced: 2026-09-03T08:47:12.401Z
+- Synced: 2026-09-03T08:48:00.443Z
 
 ## Problem Description
 
