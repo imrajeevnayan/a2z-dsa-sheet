@@ -1,13 +1,13 @@
 # Find First and Last Position of Element in Sorted Array
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Binary Search
 - Difficulty: Medium
 - Topics: Array, Binary Search
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-- Synced: 2026-07-17T10:38:55.263Z
+- Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/?envType=study-plan-v2&envId=binary-search
+- Synced: 2026-09-03T05:33:28.565Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of integers nums sorted in non-decreasing order, find the startin
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Binary Search. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
