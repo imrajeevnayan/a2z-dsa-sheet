@@ -1,18 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/description/?utm=codolio
- * Language: Problem List
+ * URL: https://leetcode.com/problems/climbing-stairs/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: 0 ms
- * Memory: 42.02 MB
- * Synced: 2026-07-18T06:13:19.823Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-03T18:10:17.309Z
  */
 
-2
-3
-2
-3
-2
-3
+class Solution {
+    static int solve(int n ,int[]dp){
+        if(n==0)return 1;
+        if(n <0)return 0;
+        if(dp[n]!=-1)return dp[n];
+        return dp[n]= solve(n-1,dp)+solve(n-2,dp);
+    }
+    public int climbStairs(int n) {
+        int dp[]=new int[n+1];
+        Arrays.fill(dp,-1);
+        return solve(n,dp );
+    }
+}
