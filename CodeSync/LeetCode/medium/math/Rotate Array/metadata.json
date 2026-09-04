@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-04T10:16:47.596Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-04T10:17:33.462Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate Array",
-  "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
+  "problemUrl": "https://leetcode.com/problems/rotate-array/",
   "submissionId": "550a95"
 }
