@@ -7,7 +7,7 @@
  * Topics: Array, Math, Two Pointers
  * Runtime: 0 ms
  * Memory: 268.01 MB
- * Synced: 2026-09-04T10:20:10.729Z
+ * Synced: 2026-09-04T10:20:56.469Z
  */
 
 while(i < j){
