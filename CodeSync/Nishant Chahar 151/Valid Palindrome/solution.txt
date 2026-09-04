@@ -3,11 +3,11 @@
  * Problem: Valid Palindrome
  * URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Two Pointers, String
- * Runtime: 1 ms
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 14 ms
  * Memory: 46.56 MB
- * Synced: 2026-09-04T12:17:48.467Z
+ * Synced: 2026-09-04T15:53:22.075Z
  */
 
 class Solution {
