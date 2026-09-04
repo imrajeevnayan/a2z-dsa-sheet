@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 268.01 MB
 - Problem URL: https://leetcode.com/problems/rotate-array/
-- Synced: 2026-09-04T10:24:04.823Z
+- Synced: 2026-09-04T10:24:53.465Z
 
 ## Problem Description
 
