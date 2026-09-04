@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-04T10:16:01.600Z",
+  "submissionTimestamp": "2026-09-04T10:16:47.596Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Rotate Array",
   "problemUrl": "https://leetcode.com/problems/rotate-array/description/",
-  "submissionId": "kac1u0"
+  "submissionId": "550a95"
 }
