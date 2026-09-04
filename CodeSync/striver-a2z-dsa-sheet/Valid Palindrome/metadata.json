@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-15T05:56:31.158Z",
-  "runtime": "1 ms",
-  "memoryUsage": "46.21 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-04T15:53:22.075Z",
+  "runtime": "14 ms",
+  "memoryUsage": "46.56 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Palindrome",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2068175757/",
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
   "submissionId": "9c4zhw"
 }
