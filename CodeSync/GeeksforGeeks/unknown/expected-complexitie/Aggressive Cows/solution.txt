@@ -7,37 +7,43 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T09:06:33.758Z
+ * Synced: 2026-09-04T09:07:18.992Z
  */
 
 class Solution {
-    public int aggressiveCows(int[] arr, int k) {
-        Arrays.sort(arr);
-        int low = 1, high = arr[arr.length - 1] - arr[0];
-        int ans = 0;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (canPlace(arr, k, mid)) {
-                ans = mid;
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        return ans;
-    }
+    class Solution {
 
-    private boolean canPlace(int[] arr, int k, int dist) {
-        int count = 1;
-        int last = arr[0];
+        public boolean canPlace(int[] arr, int k, int distance) {
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] - last >= dist) {
-                count++;
-                last = arr[i];
+            int count = 1;
+            int lastPosition = arr[0];
+
+            for (int i = 1; i < arr.length; i++) {
+
+                if (arr[i] - lastPosition >= distance) {
+                    count++;
+                    lastPosition = arr[i];
+                }
+
+                if (count == k) {
+                    return true;
+                }
             }
+
+            return false;
         }
 
-        return count >= k;
-    }
-}
+        public int aggressiveCows(int[] arr, int k) {
+
+            Arrays.sort(arr);
+
+            int low = 1;
+            int high = arr[arr.length - 1] - arr[0];
+
+            int answer = 0;
+
+            while (low <= high) {
+
+                int mid = low + (high - low) / 2;
+
+                if (canPlace(arr, k, mid)) {
