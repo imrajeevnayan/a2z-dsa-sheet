@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 0 ms
-- Memory: 43.50 MB
-- Problem URL: https://leetcode.com/submissions/detail/2128523208/
-- Synced: 2026-09-02T19:40:10.290Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
+- Synced: 2026-09-04T15:51:26.008Z
 
 ## Problem Description
 
