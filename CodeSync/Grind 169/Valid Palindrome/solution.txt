@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 1 ms
  * Memory: 46.56 MB
- * Synced: 2026-09-04T12:17:00.457Z
+ * Synced: 2026-09-04T12:17:48.467Z
  */
 
 class Solution {
