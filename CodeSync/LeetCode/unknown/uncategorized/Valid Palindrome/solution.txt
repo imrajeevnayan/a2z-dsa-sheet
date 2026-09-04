@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Palindrome
+ * URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 14 ms
+ * Memory: 46.56 MB
+ * Synced: 2026-09-04T15:53:22.075Z
+ */
+
+class Solution {
+    public boolean isPalindrome(String s) {
+        String s1=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(left<right){
+            if(s1.charAt(left)!=s1.charAt(right))return false;
+            left++;
+            right--;
+        }
+        return true;
+    }
+}
