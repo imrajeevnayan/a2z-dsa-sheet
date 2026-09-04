@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/aggressive-cows/1
-- Synced: 2026-09-04T09:33:02.825Z
+- Synced: 2026-09-04T09:33:50.841Z
 
 ## Problem Description
 
