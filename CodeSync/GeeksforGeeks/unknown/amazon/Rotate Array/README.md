@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
-- Synced: 2026-08-02T10:35:12.006Z
+- Synced: 2026-09-04T10:17:17.568Z
 
 ## Problem Description
 
