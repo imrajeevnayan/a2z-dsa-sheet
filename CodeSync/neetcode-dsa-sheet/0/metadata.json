@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T13:05:22.392Z",
+  "submissionTimestamp": "2026-09-04T15:51:26.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Math",
-    "Recursion"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "ku8vf0"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
+  "submissionId": "dk0xl4"
 }
