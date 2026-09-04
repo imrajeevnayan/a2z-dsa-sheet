@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
+ * URL: https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04
+ * Language: Daily Question
  * Difficulty: Easy
- * Topics: Array, Binary Search, Segment Tree, Simulation, Ordered Set
+ * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T19:41:12.389Z
+ * Synced: 2026-09-04T06:58:14.548Z
  */
 
 class Solution {
-    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
+    public int firstStableIndex(int[] nums, int k) {
         
     }
 }
