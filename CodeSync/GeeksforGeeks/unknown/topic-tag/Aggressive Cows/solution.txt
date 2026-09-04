@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T09:08:54.289Z
+ * Synced: 2026-09-04T09:09:41.543Z
  */
 
 class Solution {
@@ -36,12 +36,10 @@ class Solution {
                 answer = mid;      // valid answer store
                 low = mid + 1;     // aur bada distance try
 
-            } else {
-
-                high = mid - 1;    // distance kam karo
-            }
+            } 
+            else high = mid - 1;    // distance kam karo
+            
         }
-
         return answer;
     }
 }
