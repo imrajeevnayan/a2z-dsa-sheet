@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Linked List
-- Difficulty: Medium
-- Topics: Linked List, Math, Recursion
+- Language: Java
+- Difficulty: Unknown
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-07-24T13:05:22.392Z
+- Problem URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
+- Synced: 2026-09-04T15:51:26.008Z
 
 ## Problem Description
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example 1: Input: l1 = [2,4,3], l2 = [5,6,4] Output: [7,0,8] Explanation: 342 + 465 = 807. Example 2: Input: l1 = [0], l2 = [0] Output: [0] Example 3: Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9] Output: [8,9,9,9,0,0,0,1] Constraints: The number of nodes in each linked list is in the range [1, 100]. 0 <= Node.val <= 9 It is guaranteed that the list represents a number that does not have leading zeros.
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
