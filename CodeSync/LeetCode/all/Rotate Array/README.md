@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-array/description/
-- Synced: 2026-09-04T10:16:47.596Z
+- Problem URL: https://leetcode.com/problems/rotate-array/
+- Synced: 2026-09-04T10:17:33.462Z
 
 ## Problem Description
 
