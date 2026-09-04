@@ -1,18 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-02T19:41:12.389Z",
+  "submissionTimestamp": "2026-09-04T06:58:14.548Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Binary Search",
-    "Segment Tree",
-    "Simulation",
-    "Ordered Set"
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Daily Question",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/fruits-into-baskets-ii/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "vya9qo"
+  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04",
+  "submissionId": "n9kkj9"
 }
