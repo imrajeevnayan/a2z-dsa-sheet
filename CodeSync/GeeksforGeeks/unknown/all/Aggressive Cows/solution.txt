@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T10:01:50.849Z
+ * Synced: 2026-09-04T10:02:38.825Z
  */
 
 class Solution {
