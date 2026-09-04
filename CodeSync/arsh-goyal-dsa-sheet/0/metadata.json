@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-04T06:58:14.548Z",
+  "submissionTimestamp": "2026-09-04T15:51:26.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Prefix Sum"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04",
-  "submissionId": "n9kkj9"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
+  "submissionId": "dk0xl4"
 }
