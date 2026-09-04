@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T12:40:52.213Z",
+  "submissionTimestamp": "2026-09-04T15:51:26.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "6aznf"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
+  "submissionId": "dk0xl4"
 }
