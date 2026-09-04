@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-04T06:58:14.548Z
+ */
+
+class Solution {
+    public int firstStableIndex(int[] nums, int k) {
+        
+    }
+}
