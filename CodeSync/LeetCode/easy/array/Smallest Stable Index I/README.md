@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/smallest-stable-index-i/?envType=daily-question&envId=2026-09-04
-- Synced: 2026-09-04T08:01:42.871Z
+- Synced: 2026-09-04T08:03:25.817Z
 
 ## Problem Description
 
