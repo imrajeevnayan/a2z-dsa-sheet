@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 268.01 MB
 - Problem URL: https://leetcode.com/problems/rotate-array/
-- Synced: 2026-09-04T10:19:25.463Z
+- Synced: 2026-09-04T10:20:10.729Z
 
 ## Problem Description
 
