@@ -7,12 +7,41 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T09:08:07.400Z
+ * Synced: 2026-09-04T09:08:54.289Z
  */
 
 class Solution {
+    public boolean canPlace(int[] arr, int k, int distance) {
+        int count = 1;
+        int lastPosition = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+
+            if (arr[i] - lastPosition >= distance) {
+                count++;
+                lastPosition = arr[i];
+            }
+            if (count == k) return true;
+        }
+        return false;
+    }
     public int aggressiveCows(int[] arr, int k) {
-        // code here
-        
+        Arrays.sort(arr);
+
+        int low = 1,high = arr[arr.length - 1] - arr[0];
+        int answer = 0;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (canPlace(arr, k, mid)) {
+                answer = mid;      // valid answer store
+                low = mid + 1;     // aur bada distance try
+
+            } else {
+
+                high = mid - 1;    // distance kam karo
+            }
+        }
+
+        return answer;
     }
 }
