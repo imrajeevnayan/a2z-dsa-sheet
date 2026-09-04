@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-04T06:59:01.706Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Smallest Stable Index I",
+  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-i/?envType=daily-question&envId=2026-09-04",
+  "submissionId": "1847le"
+}
