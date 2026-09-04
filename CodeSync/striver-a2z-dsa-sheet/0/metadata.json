@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T13:07:56.409Z",
+  "submissionTimestamp": "2026-09-04T15:51:26.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Binary Search"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "hk5gcz"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
+  "submissionId": "dk0xl4"
 }
