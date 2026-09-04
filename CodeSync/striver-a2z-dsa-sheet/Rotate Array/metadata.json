@@ -1,21 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-04T10:21:45.470Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-04T10:22:29.465Z",
+  "runtime": "0 ms",
+  "memoryUsage": "268.01 MB",
+  "difficulty": "Medium",
   "tags": [
-    "Expected Complexities",
-    "Company Tags",
-    "Amazon",
-    "Microsoft",
-    "MAQ Software",
-    "Codenation",
-    "Topic Tags",
-    "Arrays"
+    "Array",
+    "Math",
+    "Two Pointers"
   ],
-  "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Rotate Array",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1",
-  "submissionId": "208yqq"
+  "problemUrl": "https://leetcode.com/problems/rotate-array/",
+  "submissionId": "550a95"
 }
