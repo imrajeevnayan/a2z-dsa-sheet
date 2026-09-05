@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Identical Linked Lists
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T13:18:36.426Z
+ * Synced: 2026-09-05T13:19:25.558Z
  */
 
 class Solution {
