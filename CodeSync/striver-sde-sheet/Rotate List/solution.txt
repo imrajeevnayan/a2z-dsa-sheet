@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T16:28:50.650Z
+ * Synced: 2026-09-05T16:29:36.816Z
  */
 
 class Solution {
@@ -17,8 +17,13 @@ class Solution {
         int n=1;
         ListNode tail=head;
         while(tail.next!=null){
-        
-            tai;l
+            tail=tail.next;
+            n++;
         }
+
+        
     }
+        k=k%n;
+        if(k==0)return head;
+        /
 }
