@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Rotate a Linked List
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list
+ * URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-17T09:08:17.163Z
+ * Synced: 2026-09-04T18:17:00.374Z
  */
 
 class Solution {
@@ -32,7 +32,7 @@ class Solution {
 
         temp.next = head;
 
-        for (int i = 0; i < n - k; i++) {
+        for (int i = 0; i < k; i++) {
             temp = temp.next;
         }
 
