@@ -1,36 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate List
- * URL: https://leetcode.com/problems/rotate-list/
+ * URL: https://leetcode.com/problems/rotate-list/submissions/2131938642/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-05T16:43:17.359Z
+ * Runtime: 0 ms
+ * Memory: 44.08 MB
+ * Synced: 2026-09-05T16:44:03.025Z
  */
 
-class Solution {
-    public ListNode rotateRight(ListNode head, int k) {
-        if(head==null || head.next==null ||k==0) return head;
-
-        int n=1;
-        ListNode tail=head;
-        while(tail.next!=null){
-            tail=tail.next;
-            n++;
-        }
-    }
-        k=k%n;
-        if(k==0)return head;
-        // circular banooo
-            
-        tail.next=head;
-        int steps=n-k;
-        for(int i=1;i<step;i++) newTail=newTail.next;
-        ListNode newHead=newTail.next;
-        newTail.next=null;
-        
-        return newHead;
-        ListNode newTail=head;
-}
+[1,2,3,4,5]
+2
+[0,1,2]
+4
+[4,5,1,2,3]
+[2,0,1]
+[4,5,1,2,3]
+[2,0,1]
