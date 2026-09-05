@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Insert at Middle of Linked List
+ * URL: https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-04T18:11:33.292Z
+ */
+
+/* Structure of a linked list node
+class Node {
+    int data;
+    Node next;
+
+    public Node(int data){
+        this.data = data;
+        this.next = null;
+    }
+}
+*/
+
+class Solution {
+    public Node insertInMiddle(Node head, int x) {
+        // code here
+        
+    }
+}
