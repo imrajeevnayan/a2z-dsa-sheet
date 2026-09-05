@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T08:06:15.868Z
+ * Synced: 2026-09-05T12:02:02.823Z
  */
 
 class Solution {
