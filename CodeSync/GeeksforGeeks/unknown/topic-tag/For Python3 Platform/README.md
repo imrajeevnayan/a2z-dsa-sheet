@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: ''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head
+- Language: /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List
+- Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
-- Synced: 2026-09-04T18:18:27.870Z
+- Problem URL: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
+- Synced: 2026-09-05T17:21:58.926Z
 
 ## Problem Description
 
-Given the head of a Singly Linked List and a value x. Insert the key in the middle of the linked list. Examples : Input: 1->2->4, x = 3 Output: 1->2->3->4 Explanation: Input: 10->20->40->50, x = 30 Output: 10->20->30->40->50 Explanation: Constraints: 0 ≤ number of nodes ≤ 105 0 ≤ node->data , x ≤ 103
+Given head of a doubly linked list containing n nodes, return a 2D array where: The first row contains the elements obtained by traversing the linked list in forward direction. The second row contains the elements obtained by traversing the linked list in backward direction. Examples: Input: head: 1 <-> 2 <-> 3 <-> 4 <-> 5 Output: [[1, 2, 3, 4, 5], [5, 4, 3, 2, 1]] Explanation: After traversing forward the linked list will look like 1 -> 2 -> 3 -> 4 -> 5 and from backward will 5 -> 4 -> 3 -> 2 -> 1. Input: head: 34 <-> 22 Output: [[34, 22], [22, 34]] Explanation: After traversing forward the linked list will look like 34 -> 22 and from backward will 22 -> 34. Constraints: 1 ≤ n ≤ 105 0 ≤ data of nodes ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head. The detected topics are Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }. The detected topics are Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List. Review the synced source file for the implementation details.
