@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-17T09:08:17.163Z",
+  "submissionTimestamp": "2026-09-04T18:17:00.374Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Rotate a Linked List",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list",
-  "submissionId": "371qz3"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1",
+  "submissionId": "t86qie"
 }
