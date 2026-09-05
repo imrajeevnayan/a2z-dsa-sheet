@@ -5,19 +5,26 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-05T13:01:17.885Z
+ * Synced: 2026-09-05T13:02:48.934Z
  */
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer>map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            int rem=target-nums[i];
-            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
-            else map.put(nums[i],i);
+// Step 4: Find new tail
+        int steps = n - k;
+
+        ListNode newTail = head;
+
+        for (int i = 1; i < steps; i++) {
+            newTail = newTail.next;
         }
-        return new int[]{-1,-1};
+
+        // Step 5: New head
+        ListNode newHead = newTail.next;
+
+        // Step 6: Break the circle
+        newTail.next = null;
+
+        return newHead;
     }
 }
