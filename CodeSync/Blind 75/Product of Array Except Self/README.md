@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/
-- Synced: 2026-09-05T03:47:33.186Z
+- Runtime: 0 ms
+- Memory: 72.30 MB
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2131261871/
+- Synced: 2026-09-05T05:01:42.460Z
 
 ## Problem Description
 
