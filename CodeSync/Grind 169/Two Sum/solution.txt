@@ -1,17 +1,23 @@
 /*
- * Platform: Coding Ninjas (Code360)
+ * Platform: LeetCode
  * Problem: Two Sum
- * URL: https://www.naukri.com/code360/problems/two-sum_839653
- * Language: Javascript (node v10.20.0)
+ * URL: https://leetcode.com/problems/two-sum/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: N/A
+ * Topics: Array, Hash Table
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-20T06:19:21.506Z
+ * Synced: 2026-09-05T05:10:39.308Z
  */
 
-var twoSum = function(arr, target, n) {
-    // Write your code here.
-};
- 
-module.exports.solution = twoSum;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int rem=target-nums[i];
+            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
+            else map.put(nums[i],i);
+        }
+        return new int[]{-1,-1};
+    }
+}
