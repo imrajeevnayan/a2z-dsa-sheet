@@ -1,48 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate List
- * URL: https://leetcode.com/problems/rotate-list/submissions/2131726967/
+ * URL: https://leetcode.com/problems/rotate-list/description/
  * Language: Problem List
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 44.33 MB
- * Synced: 2026-09-05T16:24:18.865Z
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-05T16:25:50.348Z
  */
 
-1class Solution {
-2    public ListNode rotateRight(ListNode head, int k) {
-3        // Edge cases
-4        if (head == null || head.next == null || k == 0) return head;
-5        // Step 1: Find length and tail
-6        int n = 1;
-7        ListNode tail = head;
-8
-9        while (tail.next != null) {
-10            tail = tail.next;
-11            n++;
-12        }
-13        // Step 2: Reduce unnecessary rotations
-14        k = k % n;
-15        if (k == 0) return head;
-16        // Step 3: Make the list circular
-17        tail.next = head;
-18
-19        // Step 4: Find new tail
-20        int steps = n - k;
-21
-22        ListNode newTail = head;
-23
-24        for (int i = 1; i < steps; i++) {
-25            newTail = newTail.next;
-26        }
-27        // Step 5: New head
-28        ListNode newHead = newTail.next;
-29
-30        // Step 6: Break the circle
-31        newTail.next = null;
-32
-33        return newHead;
-34    }
-35}
-36
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        
+    }
+}
