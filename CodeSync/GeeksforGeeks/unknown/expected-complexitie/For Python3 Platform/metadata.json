@@ -1,21 +1,19 @@
 {
-  "submissionTimestamp": "2026-09-05T17:14:25.717Z",
+  "submissionTimestamp": "2026-09-05T17:21:58.926Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags",
-    "Flipkart",
-    "Morgan Stanley",
-    "Accolite",
-    "Amazon",
-    "OYO Rooms",
-    "Samsung"
+    "Topic Tags",
+    "Doubly Linked List",
+    "Linked List",
+    "Related Articles",
+    "Traversal In Doubly Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data",
+  "language": "/* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
-  "submissionId": "697be5"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1",
+  "submissionId": "grqyat"
 }
