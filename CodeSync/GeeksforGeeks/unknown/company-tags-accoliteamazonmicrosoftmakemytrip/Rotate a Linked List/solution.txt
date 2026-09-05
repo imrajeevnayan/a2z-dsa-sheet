@@ -7,43 +7,41 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:19:54.037Z
+ * Synced: 2026-09-04T18:20:49.162Z
  */
 
-class Solution {
-    public Node rotate(Node head, int k) {
-        if (head == null || head.next == null || k == 0) {
-            return head;
-        }
-
-        // Find length
-        int n = 1;
-        Node tail = head;
+Node tail = head;
 
         while (tail.next != null) {
             tail = tail.next;
             n++;
         }
 
+        // Agar k length se bada hai,
+        // toh k ko chhota kar do
         k = k % n;
 
         if (k == 0) {
             return head;
         }
 
-        // Find kth node
+        // k-th node tak jao
         Node curr = head;
+
         for (int i = 1; i < k; i++) {
             curr = curr.next;
         }
 
-        // New head is k+1 node
+        // curr ke next wala node new head hoga
         Node newHead = curr.next;
 
-        // Connect old tail to old head
+        // Last node ko purane head se connect karo
         tail.next = head;
 
-        // Break at kth node
+        // k-th node ke baad connection tod do
         curr.next = null;
 
+        // New head return karo
         return newHead;
+    }
+}
