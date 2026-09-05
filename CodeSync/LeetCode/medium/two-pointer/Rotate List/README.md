@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/rotate-list/
-- Synced: 2026-09-05T17:22:24.947Z
+- Synced: 2026-09-05T17:23:14.944Z
 
 ## Problem Description
 
