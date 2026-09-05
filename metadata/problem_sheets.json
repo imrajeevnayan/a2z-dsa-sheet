@@ -3679,5 +3679,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:smallest-stable-index-ii": []
+  "leetcode:smallest-stable-index-ii": [],
+  "geeksforgeeks:display-doubly-linked-list--154650": [
+    "GFG160"
+  ]
 }
