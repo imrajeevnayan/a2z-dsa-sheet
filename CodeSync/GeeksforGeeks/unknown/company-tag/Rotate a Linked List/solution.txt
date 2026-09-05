@@ -7,13 +7,12 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T13:13:01.552Z
+ * Synced: 2026-09-05T13:13:47.578Z
  */
 
-public Node rotate(Node head, int k) {
+class Solution {
+    public Node rotate(Node head, int k) {
        if (head == null || head.next == null || k == 0) return head;
-              
-
               // Step 1: Find length and tail
               int n = 1;
               Node tail = head;
@@ -26,7 +25,7 @@ public Node rotate(Node head, int k) {
               k = k % n;
               if (k == 0) return head;
               
-
+ 
               // Step 3: Make list circular
               tail.next = head;
 
