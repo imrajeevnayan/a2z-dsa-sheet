@@ -1,35 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/is-linked-list-sorted/1
- * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def isSorted(self, head): increase = decrease = True while(head.next is not None): increase = (increase and (head.data <= head.next.data)) decrease = (decrease and (head.data >= head.next.data)) head = head.next return (increase or decrease)
+ * URL: https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
+ * Language: ''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head
  * Difficulty: Unknown
- * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Linked List
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-17T09:22:27.598Z
+ * Synced: 2026-09-04T18:12:18.825Z
  */
 
 class Solution {
-    public boolean isSorted(Node head) {
-        if (head == null || head.next == null) return true;
-        
+    public Node insertInMiddle(Node head, int x) {
+        Node newNode = new Node(x);
+        if (head == null)  return newNode;
+    
+        Node slow = head,fast = head;
 
-        boolean ascending = true;
-        boolean descending = true;
-
-        Node curr = head;
-
-        while (curr.next != null) {
-            if (curr.data > curr.next.data) {
-                ascending = false;
-            }
-
-            if (curr.data < curr.next.data) {
-                descending = false;
-            }
-            curr = curr.next;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        return ascending || descending;
+
+        newNode.next = slow.next;
+        slow.next = newNode;
+
+        return head;
     }
 }
