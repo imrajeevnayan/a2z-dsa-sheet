@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1
-- Synced: 2026-09-04T18:13:32.980Z
+- Synced: 2026-09-04T18:14:20.980Z
 
 ## Problem Description
 
