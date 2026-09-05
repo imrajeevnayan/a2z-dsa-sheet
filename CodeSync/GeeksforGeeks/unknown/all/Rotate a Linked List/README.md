@@ -1,13 +1,13 @@
 # Rotate a Linked List
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def rotate(self, head, k): # code here if head is None or k == 0: return head # find length and tail tail, curr = None, head length = 0 while curr: length += 1 tail = curr curr = curr.next # edge case to avoid loop k = k%length if k == 0: return head # break the LL and make new connections prev, curr = None, head for _ in range(k): prev = curr curr = curr.next prev.next = None tail.next = head return curr
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
-- Synced: 2026-09-05T13:19:15.545Z
+- Synced: 2026-09-05T16:02:52.951Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given the head of a singly linked list, you have to left rotate the link
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def rotate(self, head, k): # code here if head is None or k == 0: return head # find length and tail tail, curr = None, head length = 0 while curr: length += 1 tail = curr curr = curr.next # edge case to avoid loop k = k%length if k == 0: return head # break the LL and make new connections prev, curr = None, head for _ in range(k): prev = curr curr = curr.next prev.next = None tail.next = head return curr. The detected topics are Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags. Review the synced source file for the implementation details.
