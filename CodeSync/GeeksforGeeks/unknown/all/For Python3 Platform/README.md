@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data
+- Language: /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
+- Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
-- Synced: 2026-09-05T17:14:25.717Z
+- Problem URL: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
+- Synced: 2026-09-05T17:21:58.926Z
 
 ## Problem Description
 
-Given the head of a linked list and an integer k, return the kth node from the end of the linked list. If k is greater than the number of nodes in the list, return -1. Examples : Input: k = 2 Output: 8 Explanation: The 2nd node from end is 8. Input: k = 3 Output: 40 The 3rd node from the end is 40. Input: k = 5 Output: -1 Explanation: The given linked list is 10 -> 5 -> 100 -> 5. Since 'k' is more than the number of nodes, the output is -1. Constraints: 1 ≤ number of nodes ≤ 106 1 ≤ node->data , x ≤ 106 1 ≤ k ≤ 106
+Given head of a doubly linked list containing n nodes, return a 2D array where: The first row contains the elements obtained by traversing the linked list in forward direction. The second row contains the elements obtained by traversing the linked list in backward direction. Examples: Input: head: 1 <-> 2 <-> 3 <-> 4 <-> 5 Output: [[1, 2, 3, 4, 5], [5, 4, 3, 2, 1]] Explanation: After traversing forward the linked list will look like 1 -> 2 -> 3 -> 4 -> 5 and from backward will 5 -> 4 -> 3 -> 2 -> 1. Input: head: 34 <-> 22 Output: [[34, 22], [22, 34]] Explanation: After traversing forward the linked list will look like 34 -> 22 and from backward will 22 -> 34. Constraints: 1 ≤ n ≤ 105 0 ≤ data of nodes ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data. The detected topics are Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }. The detected topics are Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List. Review the synced source file for the implementation details.
