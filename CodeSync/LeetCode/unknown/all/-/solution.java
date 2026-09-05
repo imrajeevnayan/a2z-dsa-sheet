@@ -1,33 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2128523208/
+ * URL: https://leetcode.com/submissions/detail/2131938642/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 43.50 MB
- * Synced: 2026-09-02T18:58:24.700Z
+ * Memory: 44.08 MB
+ * Synced: 2026-09-05T17:01:55.703Z
  */
 
 1class Solution {
-2    public int findMin(int[] arr) {
-3        int left = 0,right = arr.length - 1,ans = Integer.MAX_VALUE;
-4        while (left <= right) {
-5            int mid = left + (right - left) / 2;
-6            if (arr[mid] > arr[right]) {
-7                // Minimum right side mein hai
-8                left = mid + 1;
-9            } else {
-10
-11                // arr[mid] minimum ka candidate hai
-12                ans = Math.min(ans, arr[mid]);
-13
-14                // Aur chhota left mein ho sakta hai
-15                right = mid - 1;
-16            }
-17        }
-18        return ans;
-19    }
-20}
-21
+2    public ListNode rotateRight(ListNode head, int k) {
+3        if(head==null || head.next==null ||k==0) return head;
+4
+5        int n=1;
+6        ListNode tail=head;
+7        while(tail.next!=null){
+8            tail=tail.next;
+9            n++;
+10        }
+11        k=k%n;
+12        if(k==0)return head;
+13        // circular banooo
+14        tail.next=head;
+15        int steps=n-k;
+16        ListNode newTail=head;
+17        for(int i=1;i<steps;i++) newTail=newTail.next;
+18        ListNode newHead=newTail.next;
+19        newTail.next=null;
+20        
+21        return newHead;
+22            
+23    }
+24}
