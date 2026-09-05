@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T16:38:43.377Z
+ * Synced: 2026-09-05T16:39:29.358Z
  */
 
 class Solution {
@@ -30,5 +30,5 @@ class Solution {
         tail.next=head;
         int steps=n-k;
         for(int i=1;i<step;i++) newTail=newTail.next;
-        ListNode newHead=newTail
+        ListNode newHead=newTail.next;
 }
