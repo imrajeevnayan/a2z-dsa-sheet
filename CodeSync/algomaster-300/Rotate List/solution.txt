@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:02:58.586Z
+ * Synced: 2026-09-05T17:03:43.933Z
  */
 
 class Solution {
