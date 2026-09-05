@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-08-17T09:22:27.598Z",
+  "submissionTimestamp": "2026-09-04T18:12:18.825Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Linked List"
+    "Linked List",
+    "Related Articles",
+    "Insert Node Middle Linked List"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def isSorted(self, head): increase = decrease = True while(head.next is not None): increase = (increase and (head.data <= head.next.data)) decrease = (decrease and (head.data >= head.next.data)) head = head.next return (increase or decrease)",
+  "language": "''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/is-linked-list-sorted/1",
-  "submissionId": "ch462l"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1",
+  "submissionId": "ylozss"
 }
