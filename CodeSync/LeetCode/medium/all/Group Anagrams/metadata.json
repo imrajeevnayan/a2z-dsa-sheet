@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-23T04:42:31.067Z",
-  "runtime": "1 ms",
+  "submissionTimestamp": "2026-09-05T13:30:09.715Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
   "submissionId": "ykewyk"
 }
