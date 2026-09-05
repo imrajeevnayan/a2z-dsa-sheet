@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
-- Synced: 2026-09-04T18:12:18.825Z
+- Synced: 2026-09-04T18:13:11.559Z
 
 ## Problem Description
 
