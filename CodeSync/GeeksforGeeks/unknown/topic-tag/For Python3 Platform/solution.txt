@@ -1,29 +1,42 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
- * Language: ''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head
+ * URL: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
+ * Language: /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List
+ * Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:18:27.870Z
+ * Synced: 2026-09-05T17:21:58.926Z
  */
 
 class Solution {
-    public Node insertInMiddle(Node head, int x) {
-        Node newNode = new Node(x);
-        if (head == null)  return newNode;
-    
-        Node slow = head,fast = head;
+    public List<List<Integer>> displayList(Node head) {
+        List<List<Integer>> result = new ArrayList<>();
 
-        while (fast.next != null && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        List<Integer> forward = new ArrayList<>();
+        List<Integer> backward = new ArrayList<>();
+
+        Node temp = head;
+        Node last = null;
+
+        // Forward traversal
+        while (temp != null) {
+            forward.add(temp.data);
+            last = temp;
+            temp = temp.next;
         }
-        newNode.next = slow.next;
-        slow.next = newNode;
 
-        return head;
+        // Backward traversal
+        temp = last;
+        while (temp != null) {
+            backward.add(temp.data);
+            temp = temp.prev;
+        }
+
+        result.add(forward);
+        result.add(backward);
+
+        return result;
     }
 }
