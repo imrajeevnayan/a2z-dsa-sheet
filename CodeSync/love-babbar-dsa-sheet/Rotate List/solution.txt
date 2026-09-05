@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:16:46.943Z
+ * Synced: 2026-09-05T17:17:33.942Z
  */
 
 k = k % n;
