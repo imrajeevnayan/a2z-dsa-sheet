@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/identical-linked-lists/1
-- Synced: 2026-09-05T13:16:12.374Z
+- Synced: 2026-09-05T13:17:00.364Z
 
 ## Problem Description
 
