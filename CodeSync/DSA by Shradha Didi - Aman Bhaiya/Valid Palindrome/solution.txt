@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:17:13.869Z
+ * Synced: 2026-09-04T18:18:00.861Z
  */
 
 class Solution {
