@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: ''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7)
+- Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles
+- Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
-- Synced: 2026-08-04T11:01:56.812Z
+- Problem URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+- Synced: 2026-09-05T03:42:06.434Z
 
 ## Problem Description
 
-Given the heads of two singly linked lists L1 and L2, where each node stores a single digit of a non-negative integer, return the product of the two numbers represented by the linked lists. Since the answer can be very large, return it modulo 10^9 + 7. Note: The digits are stored in the same order as the number (most significant digit first). Examples : Input: L1 = 3 -> 2 , L2 = 2 Output: 64 Explanation: Multiplication of 32 and 2 gives 64. Input: L1 = 1 -> 0 -> 0, L2 = 1 -> 0 Output: 1000 Explanation: Multiplication of 100 and 10 gives 1000. Constraints: 1 ≤ number of nodes ≤ 10^5 0 ≤ node->data ≤ 9
+Given the head of a linked list and an integer k, return the kth node from the end of the linked list. If k is greater than the number of nodes in the list, return -1. Examples : Input: k = 2 Output: 8 Explanation: The 2nd node from end is 8. Input: k = 3 Output: 40 The 3rd node from the end is 40. Input: k = 5 Output: -1 Explanation: The given linked list is 10 -> 5 -> 100 -> 5. Since 'k' is more than the number of nodes, the output is -1. Constraints: 1 ≤ number of nodes ≤ 106 1 ≤ node->data , x ≤ 106 1 ≤ k ≤ 106
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using ''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7). The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data. The detected topics are Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung. Review the synced source file for the implementation details.
