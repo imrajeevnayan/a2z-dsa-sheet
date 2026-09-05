@@ -7,12 +7,10 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 44.33 MB
- * Synced: 2026-09-05T13:07:08.553Z
+ * Synced: 2026-09-05T13:07:58.552Z
  */
 
-// Step 4: Find new tail
-
-        // Step 3: Make the list circular
+// Step 3: Make the list circular
         tail.next = head;
         if (k == 0) return head;
         k = k % n;
