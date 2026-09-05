@@ -7,10 +7,22 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:06:03.939Z
+ * Synced: 2026-09-05T17:06:50.945Z
  */
 
-k = k % n;
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || head.next == null || k == 0) return head;
+        // Step 1: Find length and tail
+        int n = 1;
+        ListNode tail = head;
+
+        while (tail.next != null) {
+            tail = tail.next;
+            n++;
+        }
+        // Step 2: Reduce unnecessary rotations
+        k = k % n;
         if (k == 0) return head;
         // Step 3: Make the list circular
         tail.next = head;
@@ -24,16 +36,4 @@ k = k % n;
             newTail = newTail.next;
         }
         // Step 5: New head
-        // Step 2: Reduce unnecessary rotations
-        }
         ListNode newHead = newTail.next;
-            n++;
-            tail = tail.next;
-        while (tail.next != null) {
-
-        ListNode tail = head;
-        int n = 1;
-        // Step 1: Find length and tail
-        if (head == null || head.next == null || k == 0) return head;
-    public ListNode rotateRight(ListNode head, int k) {
-class Solution {
