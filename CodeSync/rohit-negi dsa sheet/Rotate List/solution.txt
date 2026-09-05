@@ -1,16 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate List
- * URL: https://leetcode.com/problems/rotate-list/
+ * URL: https://leetcode.com/problems/rotate-list/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-01T05:11:10.639Z
+ * Synced: 2026-09-05T12:02:56.159Z
  */
 
-fast = fast.next;
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || head.next == null || k == 0) return head;
+        ListNode fast = head,slow = head;
+        
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
             if (fast == null) fast = head; 
         }
        if (fast == head) return head;
@@ -22,5 +28,3 @@ fast = fast.next;
         slow.next = null;
         fast.next = head;       
         return newHead;
-    }
-}
