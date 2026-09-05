@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-05T13:13:33.540Z",
+  "submissionTimestamp": "2026-09-05T16:24:18.865Z",
   "runtime": "0 ms",
   "memoryUsage": "44.33 MB",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
   "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
-  "submissionId": "8zvgo9"
+  "submissionId": "3lac6y"
 }
