@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T03:42:06.434Z
+ * Synced: 2026-09-05T03:43:16.260Z
  */
 
 class Solution {
