@@ -7,12 +7,13 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T16:27:20.349Z
+ * Synced: 2026-09-05T16:28:05.517Z
  */
 
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         
     }
-        if(head==null || headm)
+        if(head==null || head.next==null ||k==0) return head;
+        
 }
