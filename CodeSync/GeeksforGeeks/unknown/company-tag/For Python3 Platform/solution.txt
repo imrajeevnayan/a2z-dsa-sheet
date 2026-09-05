@@ -1,25 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/merge-two-strings2736/1
- * Language: class Solution: def merge(self, S1, S2): l="" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l
+ * URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Related Interview Experiences, Related Articles
+ * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-15T08:59:30.093Z
+ * Synced: 2026-09-05T03:42:06.434Z
  */
 
 class Solution {
-    String merge(String s1, String s2) {
-        String s = "";
-        int i = 0;
+    public int getKthFromLast(Node head, int k) {
+        Node fast = head,slow = head;
 
-        while (i < s1.length() || i < s2.length()) {
-            if (i < s1.length())  s += s1.charAt(i);
-            if (i < s2.length())  s += s2.charAt(i);
-            i++;
+        for (int i = 0; i < k; i++) {
+            if (fast == null) {
+                return -1; // k is greater than list length
+            }
+            fast = fast.next;
         }
-        return s;
+
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow.data;
     }
 }
