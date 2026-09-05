@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-list/
-- Synced: 2026-09-05T13:02:48.934Z
+- Memory: 44.33 MB
+- Problem URL: https://leetcode.com/problems/rotate-list/submissions/2131726967/
+- Synced: 2026-09-05T13:03:34.881Z
 
 ## Problem Description
 
