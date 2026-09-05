@@ -2,43 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Rotate a Linked List
  * URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
- * Language: Java (21)
+ * Language: class Solution: def rotate(self, head, k): # code here if head is None or k == 0: return head # find length and tail tail, curr = None, head length = 0 while curr: length += 1 tail = curr curr = curr.next # edge case to avoid loop k = k%length if k == 0: return head # break the LL and make new connections prev, curr = None, head for _ in range(k): prev = curr curr = curr.next prev.next = None tail.next = head return curr
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:17:00.374Z
+ * Synced: 2026-09-04T18:17:52.973Z
  */
 
 class Solution {
     public Node rotate(Node head, int k) {
-        if (head == null || head.next == null || k == 0) {
-            return head;
-        }
-
-        Node temp = head;
-        int n = 1;
-
-        while (temp.next != null) {
-            temp = temp.next;
-            n++;
-        }
-
-        k = k % n;
-
-        if (k == 0) {
-            return head;
-        }
-
-        temp.next = head;
-
-        for (int i = 0; i < k; i++) {
-            temp = temp.next;
-        }
-
-        head = temp.next;
-        temp.next = null;
-
-        return head;
+        // code here
+        
     }
 }
