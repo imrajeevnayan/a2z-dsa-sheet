@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-05T16:03:24.957Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Flipkart",
+    "Morgan Stanley",
+    "Accolite",
+    "Amazon",
+    "OYO Rooms",
+    "Samsung"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Kth from End of Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+  "submissionId": "pq45ac"
+}
