@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Insert Node Middle Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:14:45.120Z
+ * Synced: 2026-09-04T18:15:35.561Z
  */
 
 class Solution {
