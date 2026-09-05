@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:14:25.943Z
+ * Synced: 2026-09-05T17:15:10.943Z
  */
 
 k = k % n;
@@ -25,15 +25,14 @@ k = k % n;
         }
         // Step 5: New head
         ListNode newHead = newTail.next;
+
+        // Step 6: Break the circle
+        newTail.next = null;
+
+        return newHead;
+    }
+}
+
         // Step 2: Reduce unnecessary rotations
         }
-            tail = tail.next;
             n++;
-
-        while (tail.next != null) {
-        int n = 1;
-        ListNode tail = head;
-        // Step 1: Find length and tail
-        if (head == null || head.next == null || k == 0) return head;
-    public ListNode rotateRight(ListNode head, int k) {
-class Solution {
