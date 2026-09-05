@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-05T16:03:05.957Z",
+  "submissionTimestamp": "2026-09-05T17:01:56.502Z",
   "runtime": "0 ms",
-  "memoryUsage": "44.33 MB",
+  "memoryUsage": "44.08 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
-  "submissionId": "oxwspf"
+  "problemUrl": "https://leetcode.com/submissions/detail/2131938642/",
+  "submissionId": "yrpz0p"
 }
