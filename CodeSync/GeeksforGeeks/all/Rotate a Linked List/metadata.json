@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-05T13:12:12.283Z",
+  "submissionTimestamp": "2026-09-05T13:13:47.578Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution: def rotate(self, head, k): # code here if head is None or k == 0: return head # find length and tail tail, curr = None, head length = 0 while curr: length += 1 tail = curr curr = curr.next # edge case to avoid loop k = k%length if k == 0: return head # break the LL and make new connections prev, curr = None, head for _ in range(k): prev = curr curr = curr.next prev.next = None tail.next = head return curr",
   "problemTitle": "Rotate a Linked List",
   "problemUrl": "https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1",
-  "submissionId": "9qmax"
+  "submissionId": "pq8sgn"
 }
