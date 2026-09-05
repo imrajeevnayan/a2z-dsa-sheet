@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-05T17:05:18.058Z",
+  "submissionTimestamp": "2026-09-05T17:06:03.939Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/description/",
-  "submissionId": "1by58u"
+  "problemUrl": "https://leetcode.com/problems/rotate-list/",
+  "submissionId": "oeer2y"
 }
