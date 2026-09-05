@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-05T13:13:33.540Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.33 MB",
+  "submissionTimestamp": "2026-09-05T16:25:50.348Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
-  "submissionId": "8zvgo9"
+  "problemUrl": "https://leetcode.com/problems/rotate-list/description/",
+  "submissionId": "5che7n"
 }
