@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T16:36:26.747Z
+ * Synced: 2026-09-05T16:37:12.358Z
  */
 
 class Solution {
@@ -28,5 +28,6 @@ class Solution {
         // circular banooo
         
         tail.next=head;
+        int steps=n-k;
         
 }
