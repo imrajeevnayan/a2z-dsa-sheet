@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-05T13:02:48.934Z",
+  "submissionTimestamp": "2026-09-05T13:03:34.881Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.33 MB",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/",
-  "submissionId": "mbd2on"
+  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
+  "submissionId": "m8zvw8"
 }
