@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
-- Synced: 2026-09-04T18:26:31.151Z
+- Synced: 2026-09-04T18:27:19.147Z
 
 ## Problem Description
 
