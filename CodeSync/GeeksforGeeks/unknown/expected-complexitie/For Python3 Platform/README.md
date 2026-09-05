@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
-- Synced: 2026-09-05T06:47:15.866Z
+- Synced: 2026-09-05T06:48:15.871Z
 
 ## Problem Description
 
