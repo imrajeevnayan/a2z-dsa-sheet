@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:10:39.491Z
+ * Synced: 2026-09-05T17:11:25.452Z
  */
 
 ListNode tail = head;
