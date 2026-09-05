@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-15T08:59:30.093Z",
+  "submissionTimestamp": "2026-09-05T03:42:06.434Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Goldman Sachs",
     "Company Tags",
-    "Goldman Sachs",
-    "Topic Tags",
-    "Strings",
-    "Related Interview Experiences",
-    "Related Articles"
+    "Flipkart",
+    "Morgan Stanley",
+    "Accolite",
+    "Amazon",
+    "OYO Rooms",
+    "Samsung"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def merge(self, S1, S2): l=\"\" i=j=0 while i < len(S1) and j < len(S2): l+=S1[i]+S2[j] i=i+1 j=j+1 if len(S1)>len(S2): l+=S1[j:] else: l+=S2[i:] return l",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-two-strings2736/1",
-  "submissionId": "rw0kf9"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+  "submissionId": "697be5"
 }
