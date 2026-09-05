@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 72.30 MB
 - Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2131261871/
-- Synced: 2026-09-05T05:01:42.460Z
+- Synced: 2026-09-05T05:02:31.131Z
 
 ## Problem Description
 
