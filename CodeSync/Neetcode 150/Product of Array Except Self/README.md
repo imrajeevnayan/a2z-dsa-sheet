@@ -6,8 +6,8 @@
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
 - Memory: 72.30 MB
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2131261871/
-- Synced: 2026-09-05T05:03:16.131Z
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/
+- Synced: 2026-09-05T05:04:05.864Z
 
 ## Problem Description
 
