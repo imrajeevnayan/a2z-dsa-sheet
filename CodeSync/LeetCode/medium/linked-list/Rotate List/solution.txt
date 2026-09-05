@@ -1,29 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate List
- * URL: https://leetcode.com/problems/rotate-list/submissions/2131726967/
+ * URL: https://leetcode.com/problems/rotate-list/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
- * Memory: 44.33 MB
- * Synced: 2026-09-05T13:13:33.540Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-05T16:25:50.348Z
  */
 
-// Step 3: Make the list circular
-        tail.next = head;
-        if (k == 0) return head;
-        k = k % n;
-        // Step 2: Reduce unnecessary rotations
-        }
-            n++;
-            tail = tail.next;
-        while (tail.next != null) {
-
-        ListNode tail = head;
-        int n = 1;
-        // Step 1: Find length and tail
-        if (head == null || head.next == null || k == 0) return head;
-        // Edge cases
-    public ListNode rotateRight(ListNode head, int k) {
 class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        
+    }
+}
