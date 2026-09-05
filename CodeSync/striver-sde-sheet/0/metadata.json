@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T13:05:22.392Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-05T16:03:05.957Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.33 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Math",
-    "Recursion"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "ku8vf0"
+  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
+  "submissionId": "oxwspf"
 }
