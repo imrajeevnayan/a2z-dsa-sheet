@@ -7,21 +7,17 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T12:18:10.923Z
+ * Synced: 2026-09-05T13:01:17.885Z
  */
 
-fast = fast.next;
-            if (fast == null) fast = head; 
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int rem=target-nums[i];
+            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
+            else map.put(nums[i],i);
         }
-       if (fast == head) return head;
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-        }
-       ListNode newHead = slow.next;
-        slow.next = null;
-        fast.next = head;       
-        return newHead;
-        for (int i = 0; i < k; i++) {
+        return new int[]{-1,-1};
     }
 }
