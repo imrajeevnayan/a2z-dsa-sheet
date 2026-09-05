@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-05T17:09:39.578Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "CTRL-C + CTRL-V",
+  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-ii/description/?envType=daily-question&envId=2026-09-05",
+  "submissionId": "390sfx"
+}
