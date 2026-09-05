@@ -1,31 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
- * Language: ''' class node: def __init__(self): self.data = None self.next = None ''' class Solution: def multiply_two_lists(self, first, second): n1 = n2 = '' while(first is not None): n1 = n1 + str(first.data) first = first.next while(second is not None): n2 = n2 + str(second.data) second = second.next return (int(n1) * int(n2)) % (pow(10, 9) + 7)
+ * URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles
+ * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-04T11:01:56.812Z
+ * Synced: 2026-09-05T03:42:06.434Z
  */
 
 class Solution {
-    int multiplyTwoLists(Node first, Node second) {
-        long mod = 1000000007;
-        long num1 = 0;
-        long num2 = 0;
+    public int getKthFromLast(Node head, int k) {
+        Node fast = head,slow = head;
 
-        while (first != null) {
-            num1 = (num1 * 10 + first.data) % mod;
-            first = first.next;
+        for (int i = 0; i < k; i++) {
+            if (fast == null) {
+                return -1; // k is greater than list length
+            }
+            fast = fast.next;
         }
 
-        while (second != null) {
-            num2 = (num2 * 10 + second.data) % mod;
-            second = second.next;
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
-
-        return (int)((num1 * num2) % mod);
+        return slow.data;
     }
 }
