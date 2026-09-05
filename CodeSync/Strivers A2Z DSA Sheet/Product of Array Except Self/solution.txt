@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: 72.30 MB
- * Synced: 2026-09-05T05:09:35.870Z
+ * Synced: 2026-09-05T05:10:28.872Z
  */
 
 result[i] = result[i - 1] * nums[i - 1];
