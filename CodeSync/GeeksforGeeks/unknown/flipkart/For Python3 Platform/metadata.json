@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-05T03:42:06.434Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Flipkart",
+    "Morgan Stanley",
+    "Accolite",
+    "Amazon",
+    "OYO Rooms",
+    "Samsung"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+  "submissionId": "697be5"
+}
