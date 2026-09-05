@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: 0 ms
- * Memory: 47.35 MB
- * Synced: 2026-07-13T15:48:27.153Z
+ * Memory: N/A
+ * Synced: 2026-09-05T05:10:39.308Z
  */
 
 class Solution {
@@ -15,11 +15,9 @@ class Solution {
         Map<Integer,Integer>map=new HashMap<>();
         for(int i=0;i<nums.length;i++){
             int rem=target-nums[i];
-            if(map.containsKey(rem)){
-                return new int[]{map.get(rem),i};
-            }
+            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
+            else map.put(nums[i],i);
         }
-    }
-            map.put(nums[i],i);
         return new int[]{-1,-1};
+    }
 }
