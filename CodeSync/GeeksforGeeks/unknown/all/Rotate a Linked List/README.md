@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/detect-loop-in-linked-list
-- Synced: 2026-08-17T09:08:17.163Z
+- Problem URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
+- Synced: 2026-09-04T18:17:00.374Z
 
 ## Problem Description
 
