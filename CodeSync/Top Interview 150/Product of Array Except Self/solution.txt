@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: 72.30 MB
- * Synced: 2026-09-05T05:08:50.855Z
+ * Synced: 2026-09-05T05:09:35.870Z
  */
 
 result[i] = result[i - 1] * nums[i - 1];
@@ -20,6 +20,11 @@ result[i] = result[i - 1] * nums[i - 1];
             suffix *= nums[i];
         }
 
-        return result;
-    }
-}
+        for (int i = 1; i < n; i++) {
+        result[0] = 1;
+        // prefix products
+        int[] result = new int[n];
+
+    public int[] productExceptSelf(int[] nums) {
+        int n = nums.length;
+class Solution {
