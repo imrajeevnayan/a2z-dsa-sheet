@@ -1,30 +1,42 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
- * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data
+ * URL: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
+ * Language: /* Structure of doubly linked list Node class Node { public int data; public Node next; public Node prev; public Node(int x) { data = x; next = null; prev = null; } };*/ class Solution { public List<List<Integer>> displayList(Node head) { // code here List<Integer> list1 = new ArrayList<>(); List<Integer> list2 = new ArrayList<>(); List< List<Integer> > list = new ArrayList<>(); Node curr = head; while(true){ if(curr.next == null){ list1.add(curr.data); break; } list1.add(curr.data); curr = curr.next; } while(curr !=head.prev ){ list2.add(curr.data); curr = curr.prev; } list.add(list1); list.add(list2); return list; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
+ * Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:14:25.717Z
+ * Synced: 2026-09-05T17:21:58.926Z
  */
 
 class Solution {
-    public int getKthFromLast(Node head, int k) {
-        Node fast = head,slow = head;
+    public List<List<Integer>> displayList(Node head) {
+        List<List<Integer>> result = new ArrayList<>();
 
-        for (int i = 0; i < k; i++) {
-            if (fast == null) {
-                return -1; // k is greater than list length
-            }
-            fast = fast.next;
+        List<Integer> forward = new ArrayList<>();
+        List<Integer> backward = new ArrayList<>();
+
+        Node temp = head;
+        Node last = null;
+
+        // Forward traversal
+        while (temp != null) {
+            forward.add(temp.data);
+            last = temp;
+            temp = temp.next;
         }
 
-        while (fast != null) {
-            fast = fast.next;
-            slow = slow.next;
+        // Backward traversal
+        temp = last;
+        while (temp != null) {
+            backward.add(temp.data);
+            temp = temp.prev;
         }
-        return slow.data;
+
+        result.add(forward);
+        result.add(backward);
+
+        return result;
     }
 }
