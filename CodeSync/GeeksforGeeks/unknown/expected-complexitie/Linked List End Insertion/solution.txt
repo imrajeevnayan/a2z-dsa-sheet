@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:22:27.853Z
+ * Synced: 2026-09-05T03:42:41.752Z
  */
 
 class Solution {
