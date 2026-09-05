@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-20T06:19:21.506Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-05T05:10:39.308Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "Javascript (node v10.20.0)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Two Sum",
-  "problemUrl": "https://www.naukri.com/code360/problems/two-sum_839653",
-  "submissionId": "8bvner"
+  "problemUrl": "https://leetcode.com/problems/two-sum/",
+  "submissionId": "hppj7s"
 }
