@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotate-list/
-- Synced: 2026-09-05T16:43:17.359Z
+- Runtime: 0 ms
+- Memory: 44.08 MB
+- Problem URL: https://leetcode.com/problems/rotate-list/submissions/2131938642/
+- Synced: 2026-09-05T16:44:03.025Z
 
 ## Problem Description
 
