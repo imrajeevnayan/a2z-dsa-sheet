@@ -1,18 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-04T18:18:27.870Z",
+  "submissionTimestamp": "2026-09-05T03:42:06.434Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Topic Tags",
-    "Linked List",
-    "Related Articles",
-    "Insert Node Middle Linked List"
+    "Company Tags",
+    "Flipkart",
+    "Morgan Stanley",
+    "Accolite",
+    "Amazon",
+    "OYO Rooms",
+    "Samsung"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, data): # data -> value stored in node self.data = data self.next = None ''' class Solution: def insertInMiddle(self, head, x): new_node = Node(x) if(head is None): return new_node temp = head length = 0 while(temp is not None): length += 1 temp = temp.next middle = length//2 if length % 2 == 0 else length//2 + 1 before = head for _ in range(middle - 1): before = before.next new_node.next = before.next before.next = new_node return head",
+  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def getKthFromLast(self, head, k): temp = head length = 0 while(temp is not None): length += 1 temp = temp.next if(length - k < 0): return -1 else: for _ in range(length-k): head = head.next return head.data",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1",
-  "submissionId": "ymhslm"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+  "submissionId": "697be5"
 }
