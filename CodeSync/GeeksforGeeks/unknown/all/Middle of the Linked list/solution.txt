@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Flipkart, Morgan Stanley, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:23:52.358Z
+ * Synced: 2026-09-05T17:24:40.367Z
  */
 
 class Solution {
