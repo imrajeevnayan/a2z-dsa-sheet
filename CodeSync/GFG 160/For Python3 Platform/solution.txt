@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles, Traversal In Doubly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T17:35:54.934Z
+ * Synced: 2026-09-05T17:36:54.938Z
  */
 
 class Solution {
