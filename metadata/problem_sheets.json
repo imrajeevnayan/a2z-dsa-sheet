@@ -3682,5 +3682,14 @@
   "leetcode:smallest-stable-index-ii": [],
   "geeksforgeeks:display-doubly-linked-list--154650": [
     "GFG160"
+  ],
+  "leetcode:gas-station": [
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
