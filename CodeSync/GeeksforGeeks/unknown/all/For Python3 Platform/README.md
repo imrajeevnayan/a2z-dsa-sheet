@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
-- Synced: 2026-09-05T17:36:54.938Z
+- Synced: 2026-09-05T17:42:16.528Z
 
 ## Problem Description
 
