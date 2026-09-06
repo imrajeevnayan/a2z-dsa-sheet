@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftOYO RoomsIntuit, Company Tags, Amazon, Microsoft, OYO Rooms, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T18:38:58.241Z
+ * Synced: 2026-09-05T18:39:46.642Z
  */
 
 class Solution {
