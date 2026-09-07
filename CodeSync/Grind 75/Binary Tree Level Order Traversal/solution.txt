@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 47.05 MB
- * Synced: 2026-09-07T03:45:32.346Z
+ * Synced: 2026-09-07T03:46:17.939Z
  */
 
 TreeNode curr = q.remove();
