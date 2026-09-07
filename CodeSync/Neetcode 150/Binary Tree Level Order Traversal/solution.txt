@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T03:28:48.955Z
+ * Synced: 2026-09-07T03:29:34.940Z
  */
 
 class Solution {
@@ -15,5 +15,6 @@ class Solution {
         List<List<Integer>res=new ArrayList<>();
     }
         if(root==null) return res;
-        Queue<TreeNode 
+        Queue<TreeNode> q=new LinkedList<>();
+        q.add(root);
 }
