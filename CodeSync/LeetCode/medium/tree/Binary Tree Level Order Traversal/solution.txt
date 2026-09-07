@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133422895/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
- * Memory: 47.02 MB
- * Synced: 2026-09-07T03:34:19.015Z
+ * Memory: 47.05 MB
+ * Synced: 2026-09-07T03:38:44.976Z
  */
 
 TreeNode curr = q.remove();
