@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Print Pattern
+ * URL: https://www.geeksforgeeks.org/problems/print-pattern3549/1
+ * Language: class Solution { ArrayList<Integer> ans = new ArrayList<>(); void peeche(int n) { ans.add(n); if(n <= 0) return; peeche(n - 5); } void aage(int n,int og) { if(n >= og) return; ans.add(n); aage(n + 5, og); } public ArrayList<Integer> pattern(int n) { // code here peeche(n); aage(ans.get(ans.size() - 1) + 5, n); if(ans.get(ans.size() - 1) != n) { ans.add(n); } return ans; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, pattern-printing, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T05:25:33.083Z
+ */
+
+class Solution {
+    public ArrayList<Integer> pattern(int n) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        solve(n, n, ans);
+        return ans;
+    }
+
+    void solve(int current, int original, ArrayList<Integer> ans) {
+        
+        // Pehle current number add karo
+        ans.add(current);
+
+        // Agar current <= 0 hai, ab wapas jaana hai
+        if (current <= 0)  return;
+        
+        // 5 decrease
+        solve(current - 5, original, ans);
+
+        // Recursion se return hone ke baad 5 increase
+        ans.add(current);
+    }
+}
