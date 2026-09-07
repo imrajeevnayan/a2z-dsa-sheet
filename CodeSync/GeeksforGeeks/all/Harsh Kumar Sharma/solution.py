@@ -6,7 +6,9 @@
 # Topics: askAnExpert, examexperiences, DSA, AdvancedTrees, BinaryTree, Serialization, Deserialization, TreeTraversal
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-07T06:14:08.157Z
+# Synced: 2026-09-07T06:15:02.504Z
+
+🚀 Master these patterns → Most Binary Tree problems become easier.
 
 🌳 BINARY TREE — COMPLETE PATTERN ROADMAP
 
@@ -155,6 +157,3 @@ Height → 1 + max(Left, Right)
 Sum → Root + Left + Right
 
 Count → 1 + Left + Right
-
-
-🚀 Master these patterns → Most Binary Tree problems become easier.
