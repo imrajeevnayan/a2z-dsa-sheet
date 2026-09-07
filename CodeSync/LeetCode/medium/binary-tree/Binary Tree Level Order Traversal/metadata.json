@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-07T03:31:53.207Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-07T03:32:45.204Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Binary Tree Level Order Traversal",
   "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-  "submissionId": "sxzdlp"
+  "submissionId": "40a0fb"
 }
