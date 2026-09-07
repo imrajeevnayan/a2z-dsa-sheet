@@ -1,31 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2077877298/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
- * Runtime: 0 ms
- * Memory: 46.78 MB
- * Synced: 2026-07-23T05:50:25.065Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-06T18:13:32.957Z
  */
 
-for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-                level.add(node.val);
-                if (node.left != null) queue.offer(node.left);
-            List<Integer> level = new ArrayList<>();
-            int size = queue.size();
-        while (!queue.isEmpty()) {
-                if (node.right != null) queue.offer(node.right);
-            }
-            result.add(level);
-        }
-        return result;
-    }
-        queue.offer(root);
-        Queue<TreeNode> queue = new LinkedList<>();
-        List<List<Integer>> result = new ArrayList<>();
-        if (root == null) return result;
-    public List<List<Integer>> levelOrder(TreeNode root) {
 class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        if (root == null) return result;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+
+            int size = queue.size();
+            List<Integer> level = new ArrayList<>();
