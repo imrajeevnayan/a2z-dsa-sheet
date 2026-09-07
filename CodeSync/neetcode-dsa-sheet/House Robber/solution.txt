@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.60 MB
- * Synced: 2026-09-06T17:53:04.937Z
+ * Synced: 2026-09-06T17:55:24.750Z
  */
 
 public int amount(int[] nums,int i,int[]dp){g
