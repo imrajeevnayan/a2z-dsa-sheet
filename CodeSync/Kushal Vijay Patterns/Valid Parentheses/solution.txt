@@ -1,20 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
+ * URL: https://leetcode.com/problems/valid-parentheses/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-21T05:29:25.571Z
+ * Synced: 2026-09-06T17:56:09.731Z
  */
 
-class Solution {
-    public boolean isValid(String s) {
-        Deque<Character> st = new ArrayDeque<>();
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') st.push(c);
+if (c == '(' || c == '{' || c == '[') st.push(c);
             else {
                 if (st.isEmpty()) return false; 
                 char top = st.pop();
@@ -22,7 +18,8 @@ class Solution {
                     (c == '}' && top != '{') ||
                     (c == ']' && top != '[')) return false;
             }
+        for (char c : s.toCharArray()) {
+        Deque<Character> st = new ArrayDeque<>();
+    public boolean isValid(String s) {
         }
         return st.isEmpty();
-    }
-}
