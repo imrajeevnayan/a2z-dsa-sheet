@@ -6,11 +6,10 @@
 # Topics: askAnExpert, examexperiences, DSA, AdvancedTrees, BinaryTree, Serialization, Deserialization, TreeTraversal
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-07T06:15:02.504Z
+# Synced: 2026-09-07T06:16:02.969Z
 
 🚀 Master these patterns → Most Binary Tree problems become easier.
-
-🌳 BINARY TREE — COMPLETE PATTERN ROADMAP
+     🌳 BINARY TREE — COMPLETE PATTERN ROADMAP
 
 
                     🌳 BINARY TREE
