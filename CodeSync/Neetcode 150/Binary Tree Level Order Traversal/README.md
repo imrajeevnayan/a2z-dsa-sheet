@@ -1,13 +1,13 @@
 # Binary Tree Level Order Traversal
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Tree, Breadth-First Search, Binary Tree
-- Runtime: 0 ms
-- Memory: 46.78 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2077877298/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-23T05:50:25.065Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+- Synced: 2026-09-06T18:13:32.957Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree, return the level order traversal of its nodes' 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
