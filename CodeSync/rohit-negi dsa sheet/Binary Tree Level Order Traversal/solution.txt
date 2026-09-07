@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 47.05 MB
- * Synced: 2026-09-07T03:43:04.417Z
+ * Synced: 2026-09-07T03:44:02.328Z
  */
 
 TreeNode curr = q.remove();
@@ -19,11 +19,6 @@ TreeNode curr = q.remove();
         while (!q.isEmpty()) {
         q.add(root);
         Queue<TreeNode> q = new LinkedList<>();
-
-        if (root == null)  return ans;
-        List<List<Integer>> ans = new ArrayList<>();
-    public List<List<Integer>> levelOrder(TreeNode root) {
-class Solution {
                 if (curr.left != null) q.add(curr.left);
 
                 if (curr.right != null) q.add(curr.right);
