@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-09-07T05:25:33.083Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "pattern-printing",
+    "Recursion"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { ArrayList<Integer> ans = new ArrayList<>(); void peeche(int n) { ans.add(n); if(n <= 0) return; peeche(n - 5); } void aage(int n,int og) { if(n >= og) return; ans.add(n); aage(n + 5, og); } public ArrayList<Integer> pattern(int n) { // code here peeche(n); aage(ans.get(ans.size() - 1) + 5, n); if(ans.get(ans.size() - 1) != n) { ans.add(n); } return ans; } }",
+  "problemTitle": "Print Pattern",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-pattern3549/1",
+  "submissionId": "nvf1e8"
+}
