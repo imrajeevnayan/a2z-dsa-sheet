@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-07T03:34:19.015Z",
+  "submissionTimestamp": "2026-09-07T03:38:44.976Z",
   "runtime": "0 ms",
-  "memoryUsage": "47.02 MB",
+  "memoryUsage": "47.05 MB",
   "difficulty": "Medium",
   "tags": [
     "Tree",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Tree Level Order Traversal",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133422895/",
   "submissionId": "1ro35z"
 }
