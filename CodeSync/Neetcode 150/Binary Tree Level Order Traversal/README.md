@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Tree, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: 47.02 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
-- Synced: 2026-09-07T03:34:19.015Z
+- Memory: 47.05 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133422895/
+- Synced: 2026-09-07T03:38:44.976Z
 
 ## Problem Description
 
