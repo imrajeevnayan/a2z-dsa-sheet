@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-07T03:26:48.919Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "102. Binary Tree Level Order Traversal",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/",
+  "submissionId": "apcnik"
+}
