@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-06T18:14:19.223Z",
+  "submissionTimestamp": "2026-09-07T03:28:03.214Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Tree Level Order Traversal",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/",
-  "submissionId": "mqv7zi"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "submissionId": "pajyew"
 }
