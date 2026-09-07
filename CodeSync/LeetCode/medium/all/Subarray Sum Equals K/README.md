@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 49.04 MB
 - Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/submissions/2132343306/
-- Synced: 2026-09-06T03:26:52.931Z
+- Synced: 2026-09-06T03:27:37.932Z
 
 ## Problem Description
 
