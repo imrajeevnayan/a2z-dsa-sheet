@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: ???? Right View of the Binary Tree ????
+ * URL: https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1
+ * Language: vector<int>helpchetan(Node * root) { //impt cse vector<int>ch; deque<Node*>c; if(root==NULL) return ch; c.push_back(root); while(!c.empty()) { int size=c.size(); int hold; for(int i=0;i<size;i++) { Node*cur=c.front(); c.pop_front(); hold=cur->data;//to stor all value but at last it have the rightmost value if(cur->left) { //cur->left !=null c.push_back(cur->left); } if(cur->right) { c.push_back(cur->right); } } ch.push_back(hold); } return ch; } vector<int> rightView(Node *root) { // code here return helpchetan(root); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Snapdeal, MakeMyTrip, Adobe, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T05:28:10.368Z
+ */
+
+class Solution {
+    public ArrayList<Integer> rightView(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        solve(root, 0, ans);
+        return ans;
+    }
+    void solve(Node root, int level, ArrayList<Integer> ans) {
+        if (root == null)  return;
+        
+        // Is level par pehli baar aaye hain
+        if (level == ans.size()) {
+            ans.add(root.data);
+        }
+
+        // Pehle right jao
+        solve(root.right, level + 1, ans);
+
+        // Phir left jao
+        solve(root.left, level + 1, ans);
+    }
+}
