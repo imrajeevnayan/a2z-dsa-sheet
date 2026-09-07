@@ -7,11 +7,13 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T03:28:03.214Z
+ * Synced: 2026-09-07T03:28:48.955Z
  */
 
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer
+        List<List<Integer>res=new ArrayList<>();
     }
+        if(root==null) return res;
+        Queue<TreeNode 
 }
