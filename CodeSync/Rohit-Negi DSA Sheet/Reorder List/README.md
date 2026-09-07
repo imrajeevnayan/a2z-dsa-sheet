@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reorder-list/1
-- Synced: 2026-09-05T20:07:40.557Z
+- Synced: 2026-09-05T20:08:28.557Z
 
 ## Problem Description
 
