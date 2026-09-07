@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
-- Synced: 2026-09-07T03:29:34.940Z
+- Synced: 2026-09-07T03:30:20.570Z
 
 ## Problem Description
 
