@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: 0 ms
  * Memory: 49.04 MB
- * Synced: 2026-09-06T03:28:36.934Z
+ * Synced: 2026-09-06T03:33:14.722Z
  */
 
 int sum = 0, count = 0;
