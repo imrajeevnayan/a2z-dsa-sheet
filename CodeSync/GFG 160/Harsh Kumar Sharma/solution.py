@@ -6,7 +6,7 @@
 # Topics: askAnExpert, examexperiences, DSA, AdvancedTrees, BinaryTree, Serialization, Deserialization, TreeTraversal
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-07T06:16:48.510Z
+# Synced: 2026-09-07T06:17:45.159Z
 
 🚀 Master these patterns → Most Binary Tree problems become easier.
      🌳 BINARY TREE — COMPLETE PATTERN ROADMAP
@@ -20,13 +20,13 @@
 
         │                  │                  │
 
-       DFS                BFS                          VIEWS
+       DFS                BFS               VIEWS
 
         │                  │                  │
 
-   ┌────┼────┐                   ┌─────┼─────┐      ┌────┼────┐
+   ┌────┼────┐       ┌─────┼─────┐      ┌────┼────┐
 
-   │     │    │       │     │     │      │    │    │
+   │    │    │       │     │     │      │    │    │
 
 Inorder Pre  Post   Level  Zigzag Reverse Left Right
 
