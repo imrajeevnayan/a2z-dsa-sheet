@@ -6,8 +6,8 @@
 - Topics: Tree, Breadth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
-- Synced: 2026-09-06T18:14:19.223Z
+- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
+- Synced: 2026-09-07T03:28:03.214Z
 
 ## Problem Description
 
