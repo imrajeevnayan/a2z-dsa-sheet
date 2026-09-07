@@ -6,30 +6,31 @@
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-07T03:32:45.204Z
+ * Memory: 47.02 MB
+ * Synced: 2026-09-07T03:34:19.015Z
  */
 
-List<Integer> level = new ArrayList<>();
+TreeNode curr = q.remove();
+                temp.add(curr.val);
 
-            for (int i = 0; i < size; i++) {
-                TreeNode node = q.poll();
-                level.add(node.val);
-
-                if (node.left != null)  q.offer(node.left);
+            while (n > 0) {
+            int n = q.size();
+            List<Integer> temp = new ArrayList<>();
         while (!q.isEmpty()) {
-            int size = q.size();
-        q.offer(root);
-
+        q.add(root);
         Queue<TreeNode> q = new LinkedList<>();
-        if (root == null) return res;
+
+        if (root == null)  return ans;
+        List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-                if (node.right != null) q.offer(node.right);
-                
+class Solution {
+                if (curr.left != null) q.add(curr.left);
+
+                if (curr.right != null) q.add(curr.right);
+                n--;
             }
-            res.add(level);
+            ans.add(temp);
         }
-        return res;
+        return ans;
     }
 }
