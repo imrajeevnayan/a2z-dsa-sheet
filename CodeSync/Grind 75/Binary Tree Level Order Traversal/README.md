@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Tree, Breadth-First Search, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
-- Synced: 2026-09-07T03:31:53.207Z
+- Synced: 2026-09-07T03:32:45.204Z
 
 ## Problem Description
 
