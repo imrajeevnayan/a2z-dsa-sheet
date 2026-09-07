@@ -7,18 +7,29 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-06T18:13:32.957Z
+ * Synced: 2026-09-06T18:14:19.223Z
  */
 
-class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
+for (int i = 0; i < size; i++) {
 
-        if (root == null) return result;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
+                TreeNode node = queue.poll();
 
+                level.add(node.val);
+
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
+                if (node.right != null) {
+                    queue.offer(node.right);
+            List<Integer> level = new ArrayList<>();
+            int size = queue.size();
         while (!queue.isEmpty()) {
 
-            int size = queue.size();
-            List<Integer> level = new ArrayList<>();
+        queue.offer(root);
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        if (root == null) return result;
+
+        List<List<Integer>> result = new ArrayList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+class Solution {
