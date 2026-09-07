@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-07T05:28:58.194Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Snapdeal",
+    "MakeMyTrip",
+    "Adobe",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "vector<int>helpchetan(Node * root) { //impt cse vector<int>ch; deque<Node*>c; if(root==NULL) return ch; c.push_back(root); while(!c.empty()) { int size=c.size(); int hold; for(int i=0;i<size;i++) { Node*cur=c.front(); c.pop_front(); hold=cur->data;//to stor all value but at last it have the rightmost value if(cur->left) { //cur->left !=null c.push_back(cur->left); } if(cur->right) { c.push_back(cur->right); } } ch.push_back(hold); } return ch; } vector<int> rightView(Node *root) { // code here return helpchetan(root); }",
+  "problemTitle": "???? Right View of the Binary Tree ????",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1",
+  "submissionId": "yl7c4q"
+}
