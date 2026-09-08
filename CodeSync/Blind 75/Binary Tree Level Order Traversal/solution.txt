@@ -1,26 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133422895/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
- * Runtime: 0 ms
- * Memory: 47.05 MB
- * Synced: 2026-09-07T06:22:19.898Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T09:59:07.699Z
  */
 
-TreeNode curr = q.remove();
+class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null)  return ans;
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            List<Integer> temp = new ArrayList<>();
+            int n = q.size();
+            while (n > 0) {
+                TreeNode curr = q.remove();
                 temp.add(curr.val);
 
-            while (n > 0) {
-            int n = q.size();
-            List<Integer> temp = new ArrayList<>();
-        while (!q.isEmpty()) {
-        q.add(root);
-        Queue<TreeNode> q = new LinkedList<>();
                 if (curr.left != null) q.add(curr.left);
-
                 if (curr.right != null) q.add(curr.right);
                 n--;
             }
