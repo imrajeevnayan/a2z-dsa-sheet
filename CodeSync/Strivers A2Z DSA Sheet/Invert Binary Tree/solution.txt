@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Invert Binary Tree
+ * URL: https://leetcode.com/problems/invert-binary-tree/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T09:56:25.138Z
+ */
+
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        if(root==null)return null;
+        TreeNode temp=root.left;
+        root.left=root.right;
+        root.right=temp;
+        invertTree(root.left);
+        invertTree(root.right);
+        return root;
+    }
+}
