@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
-- Synced: 2026-09-07T10:31:38.701Z
+- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/
+- Synced: 2026-09-07T10:32:24.385Z
 
 ## Problem Description
 
