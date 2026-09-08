@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, FactSet, Adobe, Cisco
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T09:06:58.462Z
+ * Synced: 2026-09-07T09:55:02.155Z
  */
 
 class Solution {
