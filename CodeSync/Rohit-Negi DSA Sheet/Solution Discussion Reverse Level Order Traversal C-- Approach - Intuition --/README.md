@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-level-order-traversal/1
-- Synced: 2026-09-07T09:00:58.460Z
+- Synced: 2026-09-07T09:01:58.458Z
 
 ## Problem Description
 
