@@ -1,32 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133750715/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-07T09:59:57.393Z
+ * Runtime: 0 ms
+ * Memory: 47.18 MB
+ * Synced: 2026-09-07T10:02:21.388Z
  */
 
-*     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+for (int i = 0; i < n; i++) {
+
+                TreeNode curr = q.remove();
+
+                // Queue se nikala → ArrayList mein add
+                list.add(curr.val);
+
+
+            int n = q.size();
+            List<Integer> list = new ArrayList<>();
+        while (!q.isEmpty()) {
+
+                if (curr.left != null)  q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+                
+            }
+
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null)  return ans;
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        
-    }
-}
- * public class TreeNode {
- * Definition for a binary tree node.
-/**
