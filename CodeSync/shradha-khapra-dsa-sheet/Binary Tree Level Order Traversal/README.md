@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Medium
-- Topics: Tree, Breadth-First Search, Binary Tree
-- Runtime: 0 ms
-- Memory: 47.18 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2133750715/
-- Synced: 2026-09-07T10:02:21.388Z
+- Difficulty: Unknown
+- Topics: Uncategorized
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/same-tree/
+- Synced: 2026-09-07T10:03:31.036Z
 
 ## Problem Description
 
-Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level). Example 1: Input: root = [3,9,20,null,null,15,7] Output: [[3],[9,20],[15,7]] Example 2: Input: root = [1] Output: [[1]] Example 3: Input: root = [] Output: [] Constraints: The number of nodes in the tree is in the range [0, 2000]. -1000 <= Node.val <= 1000
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
