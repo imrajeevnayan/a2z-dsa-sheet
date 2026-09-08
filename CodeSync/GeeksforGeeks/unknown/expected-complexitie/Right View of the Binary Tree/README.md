@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1
-- Synced: 2026-09-07T07:54:58.619Z
+- Synced: 2026-09-07T07:55:58.631Z
 
 ## Problem Description
 
