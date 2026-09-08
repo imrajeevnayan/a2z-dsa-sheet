@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/invert-binary-tree/
-- Synced: 2026-09-07T09:57:58.108Z
+- Synced: 2026-09-07T09:58:49.040Z
 
 ## Problem Description
 
