@@ -1,13 +1,13 @@
 # Diameter of Binary Tree
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/submissions/2097485519/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-08-07T05:03:04.526Z
+- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
+- Synced: 2026-09-07T10:31:38.701Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree, return the length of the diameter of the tree. 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Binary Tree, DP on Trees. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Depth-First Search, Binary Tree, DP on Trees. Review the synced source file for the implementation details.
