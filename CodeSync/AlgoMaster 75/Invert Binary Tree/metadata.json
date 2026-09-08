@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-07T09:56:25.138Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Invert Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/invert-binary-tree/",
+  "submissionId": "kwhrmb"
+}
