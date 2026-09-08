@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/
-- Synced: 2026-09-07T10:33:10.781Z
+- Memory: 47.19 MB
+- Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/submissions/2133778845/
+- Synced: 2026-09-07T10:33:57.384Z
 
 ## Problem Description
 
