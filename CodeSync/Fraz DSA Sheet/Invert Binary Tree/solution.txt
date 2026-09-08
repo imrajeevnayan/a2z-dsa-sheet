@@ -7,13 +7,17 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T09:57:12.388Z
+ * Synced: 2026-09-07T09:57:58.108Z
  */
 
 class Solution {
     public TreeNode invertTree(TreeNode root) {
+        if(root==null) return null;
+
+        //swap left and right
+        TreeNode temp=root.left;
+        root.left=root.right;
         
     }
-        if(root==null) return null;
-        
+        root.right=tem
 }
