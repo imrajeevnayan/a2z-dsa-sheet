@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Binary Tree Level Order Traversal
+ * URL: https://leetcode.com/problems/same-tree/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T10:03:31.036Z
+ */
+
+list.add(curr.val);
+
+                if (curr.left != null)  q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+                
+            }
+            ans.add(list);
+        }
+        return ans;
+    }
+}
