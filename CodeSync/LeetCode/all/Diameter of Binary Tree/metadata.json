@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-07T10:33:10.781Z",
+  "submissionTimestamp": "2026-09-07T10:33:57.384Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "47.19 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Diameter of Binary Tree",
-  "problemUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+  "problemUrl": "https://leetcode.com/problems/diameter-of-binary-tree/submissions/2133778845/",
   "submissionId": "c4xwc9"
 }
