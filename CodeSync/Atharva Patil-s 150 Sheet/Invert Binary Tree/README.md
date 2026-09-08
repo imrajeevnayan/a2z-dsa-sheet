@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/invert-binary-tree/
-- Synced: 2026-09-07T09:56:25.138Z
+- Synced: 2026-09-07T09:57:12.388Z
 
 ## Problem Description
 
