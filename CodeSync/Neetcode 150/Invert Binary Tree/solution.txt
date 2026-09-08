@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-07T09:57:58.108Z
+ * Synced: 2026-09-07T09:58:49.040Z
  */
 
 class Solution {
@@ -19,5 +19,8 @@ class Solution {
         root.left=root.right;
         
     }
-        root.right=tem
+        root.right=temp;
+        invertTree(root.left);
+        invertTree(root.right);
+        return root;
 }
