@@ -1,25 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Diameter of Binary Tree
- * URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
+ * URL: https://leetcode.com/problems/diameter-of-binary-tree/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T10:31:38.701Z
+ * Synced: 2026-09-07T10:32:24.385Z
  */
 
 class Solution {
-    public int height(TreeNode root) {
-        if (root == null) return 0;
-        return 1 + Math.max(height(root.left), height(root.right));
-    }
-    public int diameterOfBinaryTree(TreeNode root){
-     if (root == null) return 0;
-     int leftD = diameterOfBinaryTree(root.left);
-     int rightD = diameterOfBinaryTree(root.right);
-     int mid = height(root.left) + height(root.right);
-    return Math.max(mid, Math.max(leftD, rightD));
+    public int diameterOfBinaryTree(TreeNode root) {
+        
     }
 }
