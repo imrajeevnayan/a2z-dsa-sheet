@@ -5,13 +5,25 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-07T10:32:24.385Z
+ * Synced: 2026-09-07T10:33:10.781Z
  */
 
-class Solution {
+height(root);
+        return diameter;
+    }
+    int height(TreeNode root) {
+        if (root == null) return 0;
+        int left = height(root.left);
+        int right = height(root.right);
+
+        // Current node ke through diameter
+        diameter = Math.max(diameter, left + right);
+        // Height return karo
     public int diameterOfBinaryTree(TreeNode root) {
-        
+    int diameter = 0;
+class Solution {
+        return 1 + Math.max(left, right);
     }
 }
