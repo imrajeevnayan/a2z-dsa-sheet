@@ -5,22 +5,32 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-07T11:44:23.972Z
+ * Synced: 2026-09-07T11:45:10.510Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+// Agar root hi p ya q hai
+        if (root == p || root == q) {
+            return root;
+        }
+
+        // Left aur right mein search
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+        // Ek left mein, ek right mein
+        if (left != null && right != null) {
+            return root;
+        }
+
+        // Jo side mila, uska answer return
+        if (left != null) {
+
+        
+        // Root null hai
+        if (root == null)  return null;
+
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        
-    }
-}
+            return left;
