@@ -7,7 +7,7 @@
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T12:59:00.471Z
+ * Synced: 2026-09-08T13:18:55.612Z
  */
 
 class Solution {
