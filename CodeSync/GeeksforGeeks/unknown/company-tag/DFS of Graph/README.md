@@ -1,13 +1,13 @@
 # DFS of Graph
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { ArrayList<Integer> res = new ArrayList<>(); ArrayList<ArrayList<Integer>> adjacencyList = new ArrayList<>(); public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) { // code here int vertices = adj.size(); boolean[] visited = new boolean[vertices]; this.res = new ArrayList<>(); this.adjacencyList = adj; DFS(0, visited); return res; } private void DFS(int node, boolean[] visited) { visited[node] = true; res.add(node); for (int neighbor : adjacencyList.get(node)) { if (!visited[neighbor]) { DFS(neighbor, visited); } } } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
-- Synced: 2026-09-08T12:57:47.489Z
+- Synced: 2026-09-08T12:58:34.672Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a connected undirected graph containing V vertices represented by a 2-d ad
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { ArrayList<Integer> res = new ArrayList<>(); ArrayList<ArrayList<Integer>> adjacencyList = new ArrayList<>(); public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) { // code here int vertices = adj.size(); boolean[] visited = new boolean[vertices]; this.res = new ArrayList<>(); this.adjacencyList = adj; DFS(0, visited); return res; } private void DFS(int node, boolean[] visited) { visited[node] = true; res.add(node); for (int neighbor : adjacencyList.get(node)) { if (!visited[neighbor]) { DFS(neighbor, visited); } } } }. The detected topics are Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags. Review the synced source file for the implementation details.
