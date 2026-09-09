@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-08T12:14:20.091Z",
-  "runtime": "0 ms",
-  "memoryUsage": "285.95 MB",
+  "submissionTimestamp": "2026-09-08T17:51:09.145Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Depth-First Search",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find if Path Exists in Graph",
-  "problemUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/2135070047/",
-  "submissionId": "xno6l"
+  "problemUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+  "submissionId": "a04ld7"
 }
