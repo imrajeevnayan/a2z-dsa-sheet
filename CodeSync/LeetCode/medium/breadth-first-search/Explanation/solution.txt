@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Explanation
+ * URL: https://leetcode.com/problems/number-of-provinces/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-08T17:35:48.319Z
+ */
+
+class Solution {
+    public int findCircleNum(int[][] isConnected) {
+        
+    }
+}
