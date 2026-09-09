@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-08T17:35:48.319Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Explanation",
+  "problemUrl": "https://leetcode.com/problems/number-of-provinces/",
+  "submissionId": "tu3deu"
+}
