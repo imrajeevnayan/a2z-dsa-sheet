@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-06T12:29:43.660Z",
+  "submissionTimestamp": "2026-09-08T06:02:05.525Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "vector<int> bfsOfGraph(int V, vector<int> adj[]) { // Code here vector<int> ans, vis(V, 0); queue<int> q; q.push(0); vis[0]=1; while(!q.empty()) { int front= q.front(); q.pop(); ans.push_back(front); for(auto &it : adj[front]) { if(!vis[it]) { q.push(it); vis[it]=1; } } } return ans; }",
   "problemTitle": "Problem: BFS of a graph",
   "problemUrl": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
-  "submissionId": "6x6ivn"
+  "submissionId": "349q9n"
 }
