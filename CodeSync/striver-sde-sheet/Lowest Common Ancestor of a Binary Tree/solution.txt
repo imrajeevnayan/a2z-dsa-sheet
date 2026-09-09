@@ -7,30 +7,24 @@
  * Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-07T11:45:10.510Z
+ * Synced: 2026-09-07T11:45:55.609Z
  */
 
 // Agar root hi p ya q hai
-        if (root == p || root == q) {
-            return root;
-        }
-
+        if (root == p || root == q) return root;
         // Left aur right mein search
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-
         // Ek left mein, ek right mein
-        if (left != null && right != null) {
-            return root;
-        }
-
-        // Jo side mila, uska answer return
-        if (left != null) {
-
+        if (left != null && right != null)  return root;
         
-        // Root null hai
+        // Jo side mila, uska answer return
+        if (left != null) return left;
+    
+        //root null hai
         if (root == null)  return null;
-
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-            return left;
+        return right;
+    }
+}
