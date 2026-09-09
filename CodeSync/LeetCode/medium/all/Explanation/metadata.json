@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-08T17:38:57.237Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-08T17:39:42.290Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Explanation",
   "problemUrl": "https://leetcode.com/problems/number-of-provinces/",
-  "submissionId": "k9u6nq"
+  "submissionId": "xinyp8"
 }
