@@ -7,23 +7,29 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T13:01:51.691Z
+ * Synced: 2026-09-08T13:03:15.739Z
  */
 
 class Solution {
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
-       ArrayList<Integer> ans = new ArrayList<>();
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
         int n = adj.size();
+
         boolean[] visited = new boolean[n];
 
-        Stack<Integer> st= new Stack<>();
-        // Start from node 0
+        Stack<Integer> st = new Stack<>();
+
         visited[0] = true;
-        st.add(0);
+        st.push(0);
 
         while (!st.isEmpty()) {
+
             int node = st.pop();
+
             ans.add(node);
+
             for (int i = adj.get(node).size() - 1; i >= 0; i--) {
 
                 int neighbour = adj.get(node).get(i);
@@ -31,12 +37,11 @@ class Solution {
                 if (!visited[neighbour]) {
 
                     visited[neighbour] = true;
-
                     st.push(neighbour);
                 }
             }
         }
+
         return ans;
-        
     }
 }
