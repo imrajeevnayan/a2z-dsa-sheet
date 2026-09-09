@@ -1,14 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T04:41:44.812Z
+ * Synced: 2026-09-08T11:25:36.706Z
  */
 
-Input: root = [1,2,2,3,4,4,3]
-Output: true
+class Solution {
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        
+    }
+}
