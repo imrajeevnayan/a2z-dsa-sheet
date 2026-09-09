@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-08T12:57:47.489Z",
+  "submissionTimestamp": "2026-09-08T12:58:34.672Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Topic Tags"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { ArrayList<Integer> res = new ArrayList<>(); ArrayList<ArrayList<Integer>> adjacencyList = new ArrayList<>(); public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) { // code here int vertices = adj.size(); boolean[] visited = new boolean[vertices]; this.res = new ArrayList<>(); this.adjacencyList = adj; DFS(0, visited); return res; } private void DFS(int node, boolean[] visited) { visited[node] = true; res.add(node); for (int neighbor : adjacencyList.get(node)) { if (!visited[neighbor]) { DFS(neighbor, visited); } } } }",
   "problemTitle": "DFS of Graph",
   "problemUrl": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
-  "submissionId": "m20qoo"
+  "submissionId": "8mw2xu"
 }
