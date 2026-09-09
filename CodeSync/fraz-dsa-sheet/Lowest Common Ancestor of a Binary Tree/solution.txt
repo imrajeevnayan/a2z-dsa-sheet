@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
  * Runtime: 0 ms
  * Memory: 69.81 MB
- * Synced: 2026-09-07T11:48:17.302Z
+ * Synced: 2026-09-07T11:49:16.304Z
  */
 
 // Agar root hi p ya q hai
