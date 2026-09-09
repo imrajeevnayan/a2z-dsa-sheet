@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-07T11:50:56.816Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Binary Tree Paths",
+  "problemUrl": "https://leetcode.com/problems/binary-tree-paths/description/",
+  "submissionId": "63htan"
+}
