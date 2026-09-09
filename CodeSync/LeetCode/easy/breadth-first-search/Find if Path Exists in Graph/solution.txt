@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T17:51:55.943Z
+ * Synced: 2026-09-08T17:52:50.952Z
  */
 
 class Solution {
