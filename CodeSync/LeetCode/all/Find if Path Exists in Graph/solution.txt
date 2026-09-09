@@ -1,35 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: Find if Path Exists in Graph
- * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/2135044431/
+ * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: 281.96 MB
- * Synced: 2026-09-08T11:44:05.543Z
+ * Synced: 2026-09-08T11:44:51.711Z
  */
 
-int u=edge[0];
+class Solution {
+    public boolean validPath( int n,int[][] edges,
+            int source,
+            int destination) {
+
+        // Create adjacency list
+        List<List<Integer>> graph = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            graph.add(new ArrayList<>());
         }
-            int v=edge[1];
+
+        // Build undirected graph
+        for (int[] edge : edges) {
+
+            int u = edge[0];
+            int v = edge[1];
+
             graph.get(u).add(v);
             graph.get(v).add(u);
-        boolean visited[]=new boolean[n];
-        Queue<Integer>queue=new LinkedList<>();
-        queue.add(source);
-        visited[source]=true;
-        while(!queue.isEmpty()){
-            int node=queue.poll();
         }
-            if(node==destination) return true;
-            for(int next:graph.get(node)){
-                if(!visited[next]){
-            }
-                    visited[next]=true;
-                }
-                    queue.add(next);
-        
-    }
-        return false;
-}
+
+        // Track visited nodes
+        boolean[] visited = new boolean[n];
