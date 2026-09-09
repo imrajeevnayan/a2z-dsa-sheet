@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-08T13:30:40.991Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Graph",
+    "Related Articles",
+    "Count Number Edges Undirected Graph"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public int countEdges(ArrayList<ArrayList<Integer>> adj) { int v=adj.size(); int sum=0; for(int i=0;i<v;i++) { sum=sum+adj.get(i).size(); } return sum/2; } }",
+  "problemTitle": "code in java",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-number-of-edges-in-an-undirected-graph/1",
+  "submissionId": "pafc8w"
+}
