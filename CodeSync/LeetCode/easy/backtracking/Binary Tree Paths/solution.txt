@@ -7,7 +7,7 @@
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T11:59:37.271Z
+ * Synced: 2026-09-07T12:00:25.501Z
  */
 
 /**
