@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 281.96 MB
 - Problem URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
-- Synced: 2026-09-08T11:44:51.711Z
+- Synced: 2026-09-08T11:45:38.196Z
 
 ## Problem Description
 
