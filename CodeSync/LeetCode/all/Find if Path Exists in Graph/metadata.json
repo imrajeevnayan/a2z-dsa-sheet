@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-08T11:50:31.543Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-08T12:09:11.905Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Find if Path Exists in Graph",
   "problemUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
-  "submissionId": "m7pnt9"
+  "submissionId": "ypw865"
 }
