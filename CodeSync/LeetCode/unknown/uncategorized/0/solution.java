@@ -1,36 +1,40 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2131938642/
+ * URL: https://leetcode.com/submissions/detail/2135070047/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 0 ms
- * Memory: 44.08 MB
- * Synced: 2026-09-05T17:01:56.502Z
+ * Runtime: 80 ms
+ * Memory: 285.95 MB
+ * Synced: 2026-09-08T17:31:22.053Z
  */
 
 1class Solution {
-2    public ListNode rotateRight(ListNode head, int k) {
-3        if(head==null || head.next==null ||k==0) return head;
-4
-5        int n=1;
-6        ListNode tail=head;
-7        while(tail.next!=null){
-8            tail=tail.next;
-9            n++;
+2    public boolean validPath(int n, int[][] edges, int source, int destination) {
+3        List<List<Integer>>graph=new ArrayList<>();
+4        for(int i=0;i<n;i++)graph.add(new ArrayList<>());
+5        for(int []edge:edges){
+6            int u=edge[0];
+7            int v=edge[1];
+8            graph.get(u).add(v);
+9            graph.get(v).add(u);
 10        }
-11        k=k%n;
-12        if(k==0)return head;
-13        // circular banooo
-14        tail.next=head;
-15        int steps=n-k;
-16        ListNode newTail=head;
-17        for(int i=1;i<steps;i++) newTail=newTail.next;
-18        ListNode newHead=newTail.next;
-19        newTail.next=null;
-20        
-21        return newHead;
-22            
-23    }
-24}
+11        boolean visited[]=new boolean[n];
+12        Stack<Integer>st=new Stack<>();
+13        st.add(source);
+14        visited[source]=true;
+15        while(!st.isEmpty()){
+16            int node=st.pop();
+17            if(node==destination) return true;
+18            for(int next:graph.get(node)){
+19                if(!visited[next]){
+20                    visited[next]=true;
+21                    st.add(next);
+22                }
+23            }
+24        }
+25        return false;
+26        
+27    }
+28}
