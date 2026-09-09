@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-08T17:31:21.254Z",
-  "runtime": "80 ms",
-  "memoryUsage": "285.95 MB",
+  "submissionTimestamp": "2026-09-09T06:19:25.673Z",
+  "runtime": "1 ms",
+  "memoryUsage": "47.27 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Java",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2135070047/",
-  "submissionId": "wtxjtr"
+  "problemUrl": "https://leetcode.com/submissions/detail/2135459652/",
+  "submissionId": "v80m1"
 }
