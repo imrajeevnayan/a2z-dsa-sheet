@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-07T11:44:23.972Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree",
+    "Binary Lifting",
+    "Lowest Common Ancestor"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Lowest Common Ancestor of a Binary Tree",
+  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+  "submissionId": "gmlka3"
+}
