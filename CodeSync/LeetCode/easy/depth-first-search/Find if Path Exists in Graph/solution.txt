@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find if Path Exists in Graph
- * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
+ * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/2135044431/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-08T11:38:14.346Z
+ * Runtime: 0 ms
+ * Memory: 281.96 MB
+ * Synced: 2026-09-08T11:39:16.545Z
  */
 
 int u=edge[0];
@@ -31,5 +31,5 @@ int u=edge[0];
                     queue.add(next);
         
     }
-        
+        return false;
 }
