@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T13:00:29.387Z
+ * Synced: 2026-09-08T13:01:51.691Z
  */
 
 class Solution {
@@ -24,10 +24,15 @@ class Solution {
         while (!st.isEmpty()) {
             int node = st.pop();
             ans.add(node);
-            for (int neighbour : adj.get(node)) {
+            for (int i = adj.get(node).size() - 1; i >= 0; i--) {
+
+                int neighbour = adj.get(node).get(i);
+
                 if (!visited[neighbour]) {
+
                     visited[neighbour] = true;
-                    st.add(neighbour);
+
+                    st.push(neighbour);
                 }
             }
         }
