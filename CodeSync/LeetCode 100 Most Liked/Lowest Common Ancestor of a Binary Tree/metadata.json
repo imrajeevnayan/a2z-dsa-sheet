@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-17T09:25:13.576Z",
+  "submissionTimestamp": "2026-09-07T11:44:23.972Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,8 +11,8 @@
     "Lowest Common Ancestor"
   ],
   "platform": "LeetCode",
-  "language": "Blind 75 Must Do Leetcode (Copy-xi4ci4ig)",
+  "language": "Problem List",
   "problemTitle": "Lowest Common Ancestor of a Binary Tree",
-  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=dxlqos71",
-  "submissionId": "lv8a2"
+  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+  "submissionId": "gmlka3"
 }
