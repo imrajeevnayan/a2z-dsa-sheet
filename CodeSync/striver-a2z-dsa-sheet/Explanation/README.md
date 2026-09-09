@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-provinces/
-- Synced: 2026-09-09T06:33:42.838Z
+- Synced: 2026-09-09T06:34:32.838Z
 
 ## Problem Description
 
