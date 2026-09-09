@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T11:33:41.257Z
+ * Synced: 2026-09-08T11:34:26.817Z
  */
 
 class Solution {
@@ -19,5 +19,7 @@ class Solution {
         }
         
     }
-            int v=edge[]
+            int v=edge[1];
+            graph.get(u).add(v);
+            graph.get(v).add
 }
