@@ -5,31 +5,29 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-08T17:38:57.237Z
+ * Synced: 2026-09-08T17:39:42.290Z
  */
 
 }
         }
+        return provinces;
+    }
+    private void bfs(int start, int[][] isConnected, boolean[] visited) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(start);
+        visited[start] = true;
+        while (!queue.isEmpty()) {
+            int city = queue.poll();
+            // Current city ke saare possible connections check karo
+            for (int j = 0; j < isConnected.length; j++) {
 
-                bfs(i, isConnected, visited);
-
-                provinces++;
-            if (!visited[i]) {
-            // to ek naya province mila
-            // Agar city abhi visit nahi hui,
-
-        for (int i = 0; i < n; i++) {
-
-        int provinces = 0;
-
-        boolean[] visited = new boolean[n];
-
-        int n = isConnected.length;
-    public int findCircleNum(int[][] isConnected) {
-
-
-class Solution {
-
-import java.util.*;
+                if (isConnected[city][j] == 1 && !visited[j]) {
+                    visited[j] = true;
+                    queue.add(j);
+                }
+            }
+        }
+    }
+}
