@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T13:13:06.754Z
+ * Synced: 2026-09-08T13:14:04.238Z
  */
 
 🚀 Graph DSA — Pattern Wise Roadmap for Freshers
-
 
 Agar tum Graph DSA mein bilkul beginner ho, toh random LeetCode questions solve mat karo.
 
@@ -744,12 +743,3 @@ Queue initially:
 
 
 Then BFS simultaneously expands from all of them.
-
-
-Practice
-
-LeetCode 994 — Rotting Oranges
-
-LeetCode 542 — 01 Matrix
-
-LeetCode 1162 — As Far from Land as Possible
