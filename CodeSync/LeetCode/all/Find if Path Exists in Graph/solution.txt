@@ -1,16 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Find if Path Exists in Graph
- * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/2135070047/
+ * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
- * Runtime: 0 ms
- * Memory: 285.95 MB
- * Synced: 2026-09-08T12:14:20.091Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-08T17:51:09.145Z
  */
 
-List<List<Integer>>graph=new ArrayList<>();
+class Solution {
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        List<List<Integer>>graph=new ArrayList<>();
         for(int i=0;i<n;i++)graph.add(new ArrayList<>());
         for(int []edge:edges){
             int u=edge[0];
@@ -32,5 +34,3 @@ List<List<Integer>>graph=new ArrayList<>();
                 }
             }
         }
-    public boolean validPath(int n, int[][] edges, int source, int destination) {
-class Solution {
