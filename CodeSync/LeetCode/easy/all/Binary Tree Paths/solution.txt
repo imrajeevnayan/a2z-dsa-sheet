@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Paths
- * URL: https://leetcode.com/problems/binary-tree-paths/description/
+ * URL: https://leetcode.com/problems/binary-tree-paths/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T12:10:16.832Z
+ * Synced: 2026-09-07T12:11:17.299Z
  */
 
 /**
