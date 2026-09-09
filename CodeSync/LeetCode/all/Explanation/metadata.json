@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-08T17:50:43.642Z",
-  "runtime": "0 ms",
-  "memoryUsage": "47.27 MB",
+  "submissionTimestamp": "2026-09-09T06:19:37.503Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Depth-First Search",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Explanation",
-  "problemUrl": "https://leetcode.com/problems/number-of-provinces/submissions/2135459652/",
-  "submissionId": "vtn660"
+  "problemUrl": "https://leetcode.com/problems/number-of-provinces/description/",
+  "submissionId": "7hhv7o"
 }
