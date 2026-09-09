@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Explanation
- * URL: https://leetcode.com/problems/number-of-provinces/
+ * URL: https://leetcode.com/problems/number-of-provinces/submissions/2136001146/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-09T06:46:17.505Z
+ * Runtime: 0 ms
+ * Memory: 47.04 MB
+ * Synced: 2026-09-09T06:47:04.851Z
  */
 
 while (!stack.isEmpty()) {
@@ -21,16 +21,16 @@ while (!stack.isEmpty()) {
         for (int i = 0; i < n; i++) {
         int provinces = 0;
         boolean[] visited = new boolean[n];
-        int n = isConnected.length;
-    public int findCircleNum(int[][] isConnected) {
-class Solution {
                     // Check all possible neighbors
                     for (int j = 0; j < n; j++) {
 
-                        if (isConnected[current][j] == 1
- && !visited[j]) {
-
+                        if (isConnected[curr][j] == 1  && !visited[j]) {
                             visited[j] = true;
                             stack.push(j);
                         }
                     }
+                }
+            }
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+class Solution {
