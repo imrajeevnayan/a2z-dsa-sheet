@@ -3810,5 +3810,12 @@
   ],
   "geeksforgeeks:count-number-of-edges-in-an-undirected-graph": [
     "GFG160"
+  ],
+  "leetcode:number-of-provinces": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
