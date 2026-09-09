@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T13:14:04.238Z
+ * Synced: 2026-09-08T13:15:52.601Z
  */
 
 🚀 Graph DSA — Pattern Wise Roadmap for Freshers
@@ -721,25 +721,3 @@ Source A ─┐
 Source B ─┼→ Queue → BFS
 
 Source C ─┘
-
-
-Example:
-
-
-1 0 0
-
-0 0 0
-
-0 0 1
-
-
-Both 1s are sources.
-
-
-Queue initially:
-
-
-[all sources]
-
-
-Then BFS simultaneously expands from all of them.
