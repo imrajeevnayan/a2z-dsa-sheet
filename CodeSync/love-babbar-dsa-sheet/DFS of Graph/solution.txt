@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonSamsungIntuit, Company Tags, Accolite, Amazon, Samsung, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T12:58:34.672Z
+ * Synced: 2026-09-08T12:59:20.369Z
  */
 
 class Solution {
@@ -16,14 +16,14 @@ class Solution {
         int n = adj.size();
         boolean[] visited = new boolean[n];
 
-        Queue<Integer> queue= new LinkedList<>();
+        Stack<Integer> st= new Stack<>();
         // Start from node 0
         visited[0] = true;
-        queue.add(0);
+        st.add(0);
 
-        while (!queue.isEmpty()) {
-            int node = queue.poll();
-            ans.add(node);
+        while (!st.isEmpty()) {
+            int node = st.pop();
+            ans.a(node);
             for (int neighbour : adj.get(node)) {
                 if (!visited[neighbour]) {
                     visited[neighbour] = true;
