@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
-- Synced: 2026-09-08T11:26:28.339Z
+- Synced: 2026-09-08T11:27:13.553Z
 
 ## Problem Description
 
