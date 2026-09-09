@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
-- Synced: 2026-09-07T11:07:17.378Z
+- Synced: 2026-09-07T11:08:03.379Z
 
 ## Problem Description
 
