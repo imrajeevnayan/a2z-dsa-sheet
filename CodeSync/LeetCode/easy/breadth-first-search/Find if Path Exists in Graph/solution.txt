@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: 285.95 MB
- * Synced: 2026-09-08T12:11:32.552Z
+ * Synced: 2026-09-08T12:12:21.555Z
  */
 
 List<List<Integer>>graph=new ArrayList<>();
