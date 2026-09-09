@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T11:36:43.660Z
+ * Synced: 2026-09-08T11:37:28.837Z
  */
 
 class Solution {
@@ -29,5 +29,6 @@ class Solution {
             int node=queue.poll();
         }
     }
-            if
+            if(node==destination) return true;
+            for(int next:graph.get(node))
 }
