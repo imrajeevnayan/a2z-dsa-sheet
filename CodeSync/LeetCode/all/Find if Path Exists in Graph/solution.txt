@@ -7,30 +7,31 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: 281.96 MB
- * Synced: 2026-09-08T11:44:51.711Z
+ * Synced: 2026-09-08T11:45:38.196Z
  */
 
-class Solution {
-    public boolean validPath( int n,int[][] edges,
-            int source,
-            int destination) {
-
-        // Create adjacency list
-        List<List<Integer>> graph = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+graph.get(v).add(u);
         }
-
-        // Build undirected graph
-        for (int[] edge : edges) {
-
-            int u = edge[0];
-            int v = edge[1];
-
-            graph.get(u).add(v);
-            graph.get(v).add(u);
-        }
-
         // Track visited nodes
         boolean[] visited = new boolean[n];
+
+        // Start DFS
+        return dfs(source, destination, graph, visited
+        );
+    }
+
+    private boolean dfs(
+            int node,
+            int destination,
+            List<List<Integer>> graph,
+            boolean[] visited) {
+
+        // Destination found
+        if (node == destination) {
+            return true;
+        }
+
+        // Mark visited
+        visited[node] = true;
+
+        // Visit neighbours
