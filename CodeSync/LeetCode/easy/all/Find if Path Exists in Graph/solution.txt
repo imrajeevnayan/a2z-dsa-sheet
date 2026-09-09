@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T11:35:58.294Z
+ * Synced: 2026-09-08T11:36:43.660Z
  */
 
 class Solution {
@@ -18,12 +18,16 @@ class Solution {
             int u=edge[0];
         }
         
-    }
             int v=edge[1];
             graph.get(u).add(v);
             graph.get(v).add(u);
         boolean visited[]=new boolean[n];
         Queue<Integer>queue=new LinkedList<>();
         queue.add(source);
-        visited[source]=true
+        visited[source]=true;
+        while(!queue.isEmpty()){
+            int node=queue.poll();
+        }
+    }
+            if
 }
