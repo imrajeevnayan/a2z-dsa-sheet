@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: 47.34 MB
- * Synced: 2026-09-09T06:39:35.753Z
+ * Synced: 2026-09-09T06:40:25.833Z
  */
 
 while (!queue.isEmpty()) {
@@ -29,9 +29,8 @@ while (!queue.isEmpty()) {
                         }
                     }
 
-        int provinces = 0;
-        boolean[] visited = new boolean[n];
                 }
             }
         }
         return provinces;
+    }
