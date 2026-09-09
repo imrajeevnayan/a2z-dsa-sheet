@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-06T20:01:54.415Z",
+  "submissionTimestamp": "2026-09-08T12:14:27.743Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Number of Islands",
-  "problemUrl": "https://leetcode.com/problems/number-of-islands/",
+  "problemUrl": "https://leetcode.com/problems/number-of-islands/description/",
   "submissionId": "ak45h4"
 }
