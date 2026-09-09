@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-07T11:11:15.378Z
+ * Synced: 2026-09-07T11:12:47.382Z
  */
 
 height(root);
