@@ -1,32 +1,24 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: code in java
- * URL: https://www.geeksforgeeks.org/problems/count-the-characters1821/1
- * Language: class Sol { int getCount(String s, int n) { Map<Character, Integer> map = new HashMap<>(); int count = 0; for (int i=0; i<s.length(); i++) { Character c = s.charAt(i); if (i < s.length()-1 && c == s.charAt(i+1)) { continue; } int charCount = map.getOrDefault(c, 0); charCount++; map.put(c, charCount); } for (int frequency : map.values()) { if (frequency == n) { count++; } } return count; } }
+ * URL: https://www.geeksforgeeks.org/problems/count-number-of-edges-in-an-undirected-graph/1
+ * Language: class Solution { public int countEdges(ArrayList<ArrayList<Integer>> adj) { int v=adj.size(); int sum=0; for(int i=0;i<v;i++) { sum=sum+adj.get(i).size(); } return sum/2; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags ZohoAmazon, Company Tags, Zoho, Amazon, Topic Tags, Hash, Strings
+ * Topics: Expected Complexities, Topic Tags, Graph, Related Articles, Count Number Edges Undirected Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-09T17:28:46.299Z
+ * Synced: 2026-09-08T13:30:40.991Z
  */
 
-class Sol {
-    int getCount(String s, int k) {
-        HashMap<Character, Integer> map = new HashMap<>();
+class Solution {
+    public int countEdges(ArrayList<ArrayList<Integer>> adj) {
 
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
+        int total = 0;
 
-            if (i == 0 || s.charAt(i - 1) != ch) {
-                map.put(ch, map.getOrDefault(ch, 0) + 1);
-            }
+        for (int i = 0; i < adj.size(); i++) {
+            total += adj.get(i).size();
         }
-        int count = 0;
-        for (char ch : map.keySet()) {
-            if (map.get(ch) == k) {
-                count++;
-            }
-        }
-        return count;
+
+        return total / 2;
     }
 }
