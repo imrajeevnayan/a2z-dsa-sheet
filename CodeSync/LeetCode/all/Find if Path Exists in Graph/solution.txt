@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: 281.96 MB
- * Synced: 2026-09-08T11:43:01.545Z
+ * Synced: 2026-09-08T11:44:05.543Z
  */
 
 int u=edge[0];
