@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-- Synced: 2026-09-07T11:45:10.510Z
+- Synced: 2026-09-07T11:45:55.609Z
 
 ## Problem Description
 
