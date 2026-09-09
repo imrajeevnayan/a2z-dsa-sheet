@@ -7,30 +7,30 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-08T11:48:52.261Z
+ * Synced: 2026-09-08T11:49:43.543Z
  */
 
-// Destination found
-    private boolean dfs( int node,int destination,List<List<Integer>> graph, boolean[] visited) {
-    }
-        return dfs(source, destination, graph, visited );
-
-        // Start DFS
-        // Track visited nodes
-        boolean[] visited = new boolean[n];
+}
+            }
+                }
+                    queue.add(next);
+                if(!visited[next]){
+                    visited[next]=true;
+            if(node==destination) return true;
+            for(int next:graph.get(node)){
+            int node=queue.poll();
+        visited[source]=true;
+        while(!queue.isEmpty()){
+        Queue<Integer>queue=new LinkedList<>();
+        queue.add(source);
+        boolean visited[]=new boolean[n];
         }
-            graph.get(u).add(v);
             graph.get(v).add(u);
-            int v = edge[1];
-
-            int u = edge[0];
-        for (int[] edge : edges) {
-        // Build undirected graph
-        }
-            graph.add(new ArrayList<>());
-        for (int i = 0; i < n; i++) {
-
-        List<List<Integer>> graph = new ArrayList<>();
-        // Create adjacency list
-    public boolean validPath( int n,int[][] edges,int source, int destination) {
+            graph.get(u).add(v);
+            int v=edge[1];
+            int u=edge[0];
+        for(int []edge:edges){
+        for(int i=0;i<n;i++)graph.add(new ArrayList<>());
+        List<List<Integer>>graph=new ArrayList<>();
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
 class Solution {
