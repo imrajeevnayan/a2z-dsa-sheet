@@ -7,26 +7,30 @@
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T12:11:17.299Z
+ * Synced: 2026-09-07T12:12:03.716Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public List<String> binaryTreePaths(TreeNode root) {
-        
+if (root == null)  return;
+        // Current node path mein add karo
+        if (path.equals("")) {
+            path = "" + root.val;
+        } else {
+            path = path + "->" + root.val;
+        }
+
+        // Leaf node
+    void solve(TreeNode root, String path, List<String> ans) {
+        return ans;
     }
-}
+        solve(root, "", ans);
+        List<String> ans = new ArrayList<>();
+    public List<String> binaryTreePaths(TreeNode root) {
+class Solution {
+        if (root.left == null && root.right == null) {
+            ans.add(path);
+            return;
+        }
+
+        // Left aur Right mein jao
+        solve(root.left, path, ans);
+        solve(root.right, path, ans);
