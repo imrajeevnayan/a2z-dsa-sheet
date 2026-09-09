@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/binary-tree-paths/description/
-- Synced: 2026-09-07T12:07:25.357Z
+- Synced: 2026-09-07T12:08:18.209Z
 
 ## Problem Description
 
