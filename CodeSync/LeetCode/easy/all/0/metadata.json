@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-04T06:58:14.548Z",
+  "submissionTimestamp": "2026-09-08T11:25:36.706Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Prefix Sum"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04",
-  "submissionId": "n9kkj9"
+  "problemUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
+  "submissionId": "9lbr79"
 }
