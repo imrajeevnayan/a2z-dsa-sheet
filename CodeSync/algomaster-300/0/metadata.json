@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-05T16:03:05.957Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.33 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-09T06:45:30.233Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
-  "submissionId": "oxwspf"
+  "problemUrl": "https://leetcode.com/problems/number-of-provinces/description/",
+  "submissionId": "6ltren"
 }
