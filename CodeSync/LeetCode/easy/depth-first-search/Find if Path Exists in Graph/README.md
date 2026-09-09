@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-if-path-exists-in-graph/
-- Synced: 2026-09-08T11:38:14.346Z
+- Runtime: 0 ms
+- Memory: 281.96 MB
+- Problem URL: https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/2135044431/
+- Synced: 2026-09-08T11:39:16.545Z
 
 ## Problem Description
 
