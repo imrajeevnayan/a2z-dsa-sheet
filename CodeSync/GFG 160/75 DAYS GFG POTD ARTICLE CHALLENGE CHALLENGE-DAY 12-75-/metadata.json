@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-08T13:05:30.962Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Graph",
+    "Related Articles",
+    "Print Adjacency List For A Directed Graph"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "from typing import List class Solution: def printGraph(self, num_vertices: int, edge_list: List[List[int]]) -> List[List[int]]: # Step 1: Initialize an empty adjacency list with num_vertices lists. adjacency_list = [[] for _ in range(num_vertices)] # Step 2: Iterate through the edge_list and add edges to the adjacency list. for src, dest in edge_list: adjacency_list[src].append(dest) adjacency_list[dest].append(src) # For an undirected graph, we add both ways. # Step 3: Return the adjacency list. return adjacency_list",
+  "problemTitle": "75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 12/75)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1",
+  "submissionId": "i9dkvs"
+}
