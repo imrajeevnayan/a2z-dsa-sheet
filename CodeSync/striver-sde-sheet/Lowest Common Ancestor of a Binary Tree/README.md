@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-- Synced: 2026-09-07T11:45:55.609Z
+- Memory: 69.81 MB
+- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/2133835520/
+- Synced: 2026-09-07T11:46:41.411Z
 
 ## Problem Description
 
