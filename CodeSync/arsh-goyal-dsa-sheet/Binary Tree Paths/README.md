@@ -6,8 +6,8 @@
 - Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-paths/description/
-- Synced: 2026-09-07T12:10:16.832Z
+- Problem URL: https://leetcode.com/problems/binary-tree-paths/
+- Synced: 2026-09-07T12:11:17.299Z
 
 ## Problem Description
 
