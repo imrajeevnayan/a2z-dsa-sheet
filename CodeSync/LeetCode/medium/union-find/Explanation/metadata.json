@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-08T17:39:42.290Z",
+  "submissionTimestamp": "2026-09-08T17:40:32.938Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "47.27 MB",
   "difficulty": "Medium",
   "tags": [
     "Depth-First Search",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Explanation",
-  "problemUrl": "https://leetcode.com/problems/number-of-provinces/",
+  "problemUrl": "https://leetcode.com/problems/number-of-provinces/submissions/2135459652/",
   "submissionId": "xinyp8"
 }
