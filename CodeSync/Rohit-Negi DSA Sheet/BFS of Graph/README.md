@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
-- Synced: 2026-09-07T03:27:43.151Z
+- Synced: 2026-09-07T16:13:16.947Z
 
 ## Problem Description
 
