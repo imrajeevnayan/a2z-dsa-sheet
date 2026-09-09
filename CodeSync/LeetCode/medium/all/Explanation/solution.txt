@@ -7,11 +7,29 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T17:38:10.946Z
+ * Synced: 2026-09-08T17:38:57.237Z
  */
 
-class Solution {
-    public int findCircleNum(int[][] isConnected) {
-        
-    }
 }
+        }
+
+                bfs(i, isConnected, visited);
+
+                provinces++;
+            if (!visited[i]) {
+            // to ek naya province mila
+            // Agar city abhi visit nahi hui,
+
+        for (int i = 0; i < n; i++) {
+
+        int provinces = 0;
+
+        boolean[] visited = new boolean[n];
+
+        int n = isConnected.length;
+    public int findCircleNum(int[][] isConnected) {
+
+
+class Solution {
+
+import java.util.*;
