@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-08T11:25:36.706Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-08T17:31:22.053Z",
+  "runtime": "80 ms",
+  "memoryUsage": "285.95 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
-  "submissionId": "9lbr79"
+  "problemUrl": "https://leetcode.com/submissions/detail/2135070047/",
+  "submissionId": "33g738"
 }
