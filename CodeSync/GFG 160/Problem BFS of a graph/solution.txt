@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, Samsung, Ola Cabs, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T12:57:28.476Z
+ * Synced: 2026-09-08T13:03:49.237Z
  */
 
 class Solution {
