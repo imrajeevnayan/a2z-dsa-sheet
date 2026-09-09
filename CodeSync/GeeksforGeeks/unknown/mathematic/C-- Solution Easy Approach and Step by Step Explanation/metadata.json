@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-09T04:05:17.549Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Mathematics",
+    "Numbers",
+    "Related Articles",
+    "Biggest Integer Maximum Digit Sum Range 1 N"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "using pi = pair<int, string>; pi memo[15][2]; class Solution { public: // id: current index, f: digits of N, tight: are we bounded by N? pi fun(int id, vector<int>& f, bool tight) { int n = f.size(); // Base case: we finished building the number if(id == n) { return {0, \"\"}; } // Return precalculated result if(memo[id][tight] != pi(-1, \"$\")) { return memo[id][tight]; } int ans = 0; int limit = f[id]; if(!tight) { limit = 9; // Free to use any digit up to 9 } string res = \"\"; // Try placing all valid digits for(int d = 0; d <= limit; d++) { int c = d; bool nwtight = tight && (d == limit); pi cur = fun(id + 1, f, nwtight); c += cur.first; // Current digit value + sum from remaining digits // If we found a strictly greater sum if(c > ans) { ans = c; char dig = '0' + d; res = string(1, dig) + cur.second; } // If the sum is same, we want the maximum number (lexicographically larger string) else if(c == ans) { char dig = '0' + d; string t = string(1, dig) + cur.second; if(t > res) { res = t; } } } return memo[id][tight] = {ans, res}; } int findMax(int n) { vector<int> f; int x = n; // Extract digits while(x) { f.push_back(x % 10); x = x / 10; } reverse(f.begin(), f.end()); // Make it left-to-right // Initialize memo table for(int i = 0; i < 15; i++) { for(int j = 0; j < 2; j++) { memo[i][j] = {-1, \"$\"}; } } pi cur = fun(0, f, true); // Convert the best string back to an integer return stoi(cur.second); } };",
+  "problemTitle": "C++ Solution || Easy Approach and Step by Step Explanation",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/biggest-integer-having-maximum-digit-sum1704/1",
+  "submissionId": "rpi1ev"
+}
