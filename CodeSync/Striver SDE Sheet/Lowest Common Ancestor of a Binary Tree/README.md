@@ -1,13 +1,13 @@
 # Lowest Common Ancestor of a Binary Tree
 
 - Platform: LeetCode
-- Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=dxlqos71
-- Synced: 2026-08-17T09:25:13.576Z
+- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+- Synced: 2026-09-07T11:44:23.972Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 ## Explanation
 
-This solution was accepted on LeetCode using Blind 75 Must Do Leetcode (Copy-xi4ci4ig). The detected topics are Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor. Review the synced source file for the implementation details.
