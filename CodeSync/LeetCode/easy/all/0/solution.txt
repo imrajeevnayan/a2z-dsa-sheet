@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Prefix Sum
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T06:58:14.548Z
+ * Synced: 2026-09-08T11:25:36.706Z
  */
 
 class Solution {
-    public int firstStableIndex(int[] nums, int k) {
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
         
     }
 }
