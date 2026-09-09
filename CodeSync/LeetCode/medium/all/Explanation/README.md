@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-provinces/
-- Synced: 2026-09-08T17:38:57.237Z
+- Synced: 2026-09-08T17:39:42.290Z
 
 ## Problem Description
 
