@@ -1,40 +1,44 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2135070047/
+ * URL: https://leetcode.com/submissions/detail/2135459652/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 80 ms
- * Memory: 285.95 MB
- * Synced: 2026-09-08T17:51:01.590Z
+ * Runtime: 1 ms
+ * Memory: 47.27 MB
+ * Synced: 2026-09-09T06:19:26.481Z
  */
 
 1class Solution {
-2    public boolean validPath(int n, int[][] edges, int source, int destination) {
-3        List<List<Integer>>graph=new ArrayList<>();
-4        for(int i=0;i<n;i++)graph.add(new ArrayList<>());
-5        for(int []edge:edges){
-6            int u=edge[0];
-7            int v=edge[1];
-8            graph.get(u).add(v);
-9            graph.get(v).add(u);
-10        }
-11        boolean visited[]=new boolean[n];
-12        Stack<Integer>st=new Stack<>();
-13        st.add(source);
-14        visited[source]=true;
-15        while(!st.isEmpty()){
-16            int node=st.pop();
-17            if(node==destination) return true;
-18            for(int next:graph.get(node)){
-19                if(!visited[next]){
-20                    visited[next]=true;
-21                    st.add(next);
-22                }
-23            }
-24        }
-25        return false;
-26        
-27    }
-28}
+2    public int findCircleNum(int[][] isConnected) {
+3        int n = isConnected.length;
+4        boolean[] visited = new boolean[n];
+5        int provinces = 0;
+6        for (int i = 0; i < n; i++) {
+7
+8            if (!visited[i]) {
+9                provinces++;
+10                bfs(i, isConnected, visited);
+11            }
+12        }
+13        return provinces;
+14    }
+15    private void bfs(int start, int[][] isConnected, boolean[] visited) {
+16        Queue<Integer> queue = new LinkedList<>();
+17        queue.add(start);
+18        visited[start] = true;
+19        while (!queue.isEmpty()) {
+20            int city = queue.poll();
+21            // Current city ke saare possible connections check karo
+22            for (int j = 0; j < isConnected.length; j++) {
+23
+24                if (isConnected[city][j] == 1 && !visited[j]) {
+25                    visited[j] = true;
+26                    queue.add(j);
+27                }
+28            }
+29        }
+30    }
+31}
+32
