@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Binary Tree Paths
+ * URL: https://leetcode.com/problems/binary-tree-paths/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-07T11:50:56.816Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<String> binaryTreePaths(TreeNode root) {
+        
+    }
+}
