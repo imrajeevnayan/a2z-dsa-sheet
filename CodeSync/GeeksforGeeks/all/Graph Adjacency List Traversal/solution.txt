@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Graph Adjacency List Traversal
+ * URL: https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Graph, Related Articles, Print Adjacency List For A Directed Graph
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-08T17:30:34.791Z
+ */
+
+class Solution {
+
+    public List<List<Integer>> printGraph(int V, int edges[][]) {
+        List<List<Integer>> adj = new ArrayList<>();
+
+        // Create V empty lists
+        for (int i = 0; i < V; i++) {
+            adj.add(new ArrayList<>());
+        }
+
+        // Add edges
+        for (int[] edge : edges) {
+
+            int u = edge[0];
+            int v = edge[1];
+
+            adj.get(u).add(v);
+            adj.get(v).add(u);
+        }
+        return adj;
+    }
+}
