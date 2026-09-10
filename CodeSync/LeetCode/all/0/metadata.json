@@ -1,16 +1,19 @@
 {
-  "submissionTimestamp": "2026-09-09T13:20:03.318Z",
+  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
     "Graph Theory",
-    "Matrix"
+    "Graph Coloring",
+    "Bipartite Graph"
   ],
   "platform": "LeetCode",
   "language": "Graph Theory",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "bsdy9u"
+  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "9uzafc"
 }
