@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: All Paths From Source to Target
+ * URL: https://leetcode.com/problems/all-paths-from-source-to-target/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
+ * Difficulty: Medium
+ * Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-09T20:09:01.783Z
+ */
+
+class Solution {
+    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+        
+    }
+}
