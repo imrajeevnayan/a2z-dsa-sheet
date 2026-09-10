@@ -1,24 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list
- * Language: Linked List
+ * URL: https://leetcode.com/problems/redundant-connection/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Linked List, Math, Recursion
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T13:05:22.392Z
+ * Synced: 2026-09-09T12:45:14.009Z
  */
 
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode temp = new ListNode(0);
-        ListNode curr = temp;          
-        int carry = 0;              
-        while (l1 != null || l2 != null || carry != 0) {
-         
-            int val1 = (l1 != null) ? l1.val : 0;
-            int val2 = (l2 != null) ? l2.val : 0;
+    public int[] findRedundantConnection(int[][] edges) {
+        int n = edges.length;
+        List<List<Integer>> graph = new ArrayList<>();
 
-            int sum = val1 + val2 + carry;
-            carry = sum / 10;
+        for (int i = 0; i <= n; i++) {
+            graph.add(new ArrayList<>());
+        }
+        for (int[] edge : edges) {
+
+            int u = edge[0];
+            int v = edge[1];
+
+            // Check whether u and v are already connected
+            if (hasPath(graph, u, v, n)) return edge;
+            
+            // No cycle, so add this edge
+            graph.get(u).add(v);
+            graph.get(v).add(u);
+        }
+
+        return new int[0];
+    }
