@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-09T08:30:01.266Z
+ * Synced: 2026-09-09T08:31:02.667Z
  */
 
 // Current room ki saari keys
@@ -26,11 +26,11 @@
         for (boolean visit : visited) {
             if (!visit) return false;
         }
+        return true;
+    }
+}
+
         queue.offer(0);
         visited[0] = true;
-        Queue<Integer> queue = new ArrayDeque<>();
         // Start from Room 0
-        boolean[] visited = new boolean[n];
-    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-        int n = rooms.size();
-class Solution {
+        Queue<Integer> queue = new ArrayDeque<>();
