@@ -7,7 +7,7 @@
  * Topics: Array, Graph Theory, Matrix
  * Runtime: 0 ms
  * Memory: 48.52 MB
- * Synced: 2026-09-09T13:21:46.585Z
+ * Synced: 2026-09-09T13:22:56.618Z
  */
 
 for (int i = 0; i < n; i++) {
