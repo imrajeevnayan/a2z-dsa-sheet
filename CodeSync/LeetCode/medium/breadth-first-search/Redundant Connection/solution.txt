@@ -7,11 +7,29 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T12:30:48.475Z
+ * Synced: 2026-09-09T12:31:34.376Z
  */
 
-class Solution {
+graph.get(v).add(u);
+            graph.get(u).add(v);
+            // No cycle, so add this edge
+
+                return edge;
+            }
+
+            // Check whether u and v are already connected
+            if (hasPath(graph, u, v, n)) {
+            int u = edge[0];
+            int v = edge[1];
+
+        for (int[] edge : edges) {
+
+        }
+            graph.add(new ArrayList<>());
+        for (int i = 0; i <= n; i++) {
+
+        List<List<Integer>> graph = new ArrayList<>();
+        int n = edges.length;
     public int[] findRedundantConnection(int[][] edges) {
-        
-    }
-}
+class Solution {
+        }
