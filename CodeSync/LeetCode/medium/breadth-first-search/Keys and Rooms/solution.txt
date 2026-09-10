@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Keys and Rooms
- * URL: https://leetcode.com/problems/keys-and-rooms/description/
+ * URL: https://leetcode.com/problems/keys-and-rooms/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-09T08:25:09.680Z
+ * Synced: 2026-09-09T08:25:58.593Z
  */
 
 // Current room ki saari keys
@@ -18,10 +18,7 @@
             int currRoom = queue.poll();
 
         while (!queue.isEmpty()) {
-        visited[0] = true;
         queue.offer(0);
-        // Start from Room 0
-        Queue<Integer> queue = new ArrayDeque<>();
                     queue.offer(key);
                 }
             }
