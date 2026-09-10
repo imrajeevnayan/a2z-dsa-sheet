@@ -1,36 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/number-of-provinces/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
  * Difficulty: Medium
- * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T06:45:30.233Z
+ * Synced: 2026-09-10T12:26:04.382Z
  */
 
 class Solution {
-    public int findCircleNum(int[][] isConnected) {
-        int n = isConnected.length;
-        boolean[] visited = new boolean[n];
-        int provinces = 0;
-
-        for (int i = 0; i < n; i++) {
-
-            // New unvisited node = new province
-            if (!visited[i]) {
-                provinces++;
-                Queue<Integer> queue = new ArrayDeque<>();
-                queue.offer(i);
-                visited[i] = true;
-                while (!queue.isEmpty()) {
-                    int curr = queue.poll();
-                    // Check all possible neighbors
-                    for (int j = 0; j < n; j++) {
-
-                        if (isConnected[curr][j] == 1 && !visited[j]) {
-                            visited[j] = true;
-                            queue.offer(j);
-                        }
-                    }
+    public boolean isBipartite(int[][] graph) {
+        
+    }
+}
