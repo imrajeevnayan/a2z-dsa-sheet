@@ -1,13 +1,13 @@
 # Keys and Rooms
 
 - Platform: LeetCode
-- Language: Master Leetcode (Copy-2hx9d5gg)
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory
-- Runtime: 0 ms
-- Memory: 46.26 MB
-- Problem URL: https://leetcode.com/problems/keys-and-rooms/submissions/2101890000/?envType=problem-list-v2&envId=daeijq25
-- Synced: 2026-08-10T17:28:28.880Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/keys-and-rooms/
+- Synced: 2026-09-09T08:05:44.748Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There are n rooms labeled from 0 to n - 1 and all the rooms are locked except fo
 
 ## Explanation
 
-This solution was accepted on LeetCode using Master Leetcode (Copy-2hx9d5gg). The detected topics are Depth-First Search, Breadth-First Search, Graph Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Depth-First Search, Breadth-First Search, Graph Theory. Review the synced source file for the implementation details.
