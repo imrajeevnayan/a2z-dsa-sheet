@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T12:40:52.213Z",
+  "submissionTimestamp": "2026-09-10T13:12:54.268Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Matrix",
+    "Simulation"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "6aznf"
+  "problemUrl": "https://leetcode.com/problems/spiral-matrix/description/",
+  "submissionId": "np57qy"
 }
