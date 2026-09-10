@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Text
 - Difficulty: Medium
-- Topics: Array, Prefix Sum
+- Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-08-04T10:45:24.360Z
+- Problem URL: https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T20:07:47.147Z
 
 ## Problem Description
 
-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. You must write an algorithm that runs in O(n) time and without using the division operation. Example 1: Input: nums = [1,2,3,4] Output: [24,12,8,6] Example 2: Input: nums = [-1,1,0,-3,3] Output: [0,0,9,0,0] Constraints: 2 <= nums.length <= 105 -30 <= nums[i] <= 30 The input is generated such that answer[i] is guaranteed to fit in a 32-bit integer. Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+Given a directed acyclic graph (DAG) of n nodes labeled from 0 to n - 1, find all possible paths from node 0 to node n - 1 and return them in any order. The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node graph[i][j]). Example 1: Input: graph = [[1,2],[3],[3],[]] Output: [[0,1,3],[0,2,3]] Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3. Example 2: Input: graph = [[4,3,1],[3,2,4],[3],[4],[]] Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]] Constraints: n == graph.length 2 <= n <= 15 0 <= graph[i][j] < n graph[i][j] != i (i.e., there will be no self-loops). All the elements of graph[i] are unique. The input graph is guaranteed to be a DAG.
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph. Review the synced source file for the implementation details.
