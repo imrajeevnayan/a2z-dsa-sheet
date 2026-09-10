@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T17:25:30.727Z
+ * Synced: 2026-09-10T17:26:15.819Z
  */
 
 public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
