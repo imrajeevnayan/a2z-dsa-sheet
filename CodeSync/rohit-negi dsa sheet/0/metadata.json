@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-09T13:20:03.318Z",
+  "submissionTimestamp": "2026-09-09T13:22:08.019Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Graph Theory",
-    "Matrix"
+    "Graph Theory"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "bsdy9u"
+  "problemUrl": "https://leetcode.com/problems/find-center-of-star-graph/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "njxy78"
 }
