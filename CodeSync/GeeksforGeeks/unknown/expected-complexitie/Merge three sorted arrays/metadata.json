@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-10T17:19:09.372Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Sorting",
+    "Related Articles",
+    "Merge 3 Sorted Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Merge three sorted arrays",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/merge-three-sorted-arrays-1587115620/1",
+  "submissionId": "kcwpzi"
+}
