@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/is-graph-bipartite/
-- Synced: 2026-09-09T12:19:53.702Z
+- Synced: 2026-09-09T12:20:48.701Z
 
 ## Problem Description
 
