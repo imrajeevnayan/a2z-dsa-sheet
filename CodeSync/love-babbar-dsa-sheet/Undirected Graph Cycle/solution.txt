@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Undirected Graph Cycle
+ * URL: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, Samsung, MakeMyTrip, Oracle
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-09T12:22:57.399Z
+ */
+
+}
+
+            Queue<int[]> queue = new ArrayDeque<>();
+
+            visited[i] = true;
+
+            // {current node, parent}
+            queue.offer(new int[]{i, -1});
+
+            // 5. BFS
+            while (!queue.isEmpty()) {
+
+                int[] current = queue.poll();
+
+                int node = current[0];
+                int parent = current[1];
+
+                for (int neighbor : graph.get(node)) {
+
+                    // New node
+                    if (!visited[neighbor]) {
+
+                        visited[neighbor] = true;
+
+                        queue.offer(new int[]{
+                            neighbor,
+                            node
+                        });
+                    }
+
+                    // Already visited AND not parent
+                    else if (neighbor != parent) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+}
