@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Easy
-- Topics: Graph Theory
+- Language: Graph Theory
+- Difficulty: Medium
+- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-center-of-star-graph/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T13:22:08.019Z
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:26:04.382Z
 
 ## Problem Description
 
-There is an undirected star graph consisting of n nodes labeled from 1 to n. A star graph is a graph where there is one center node and exactly n - 1 edges that connect the center node with every other node. You are given a 2D integer array edges where each edges[i] = [ui, vi] indicates that there is an edge between the nodes ui and vi. Return the center of the given star graph. Example 1: Input: edges = [[1,2],[2,3],[4,2]] Output: 2 Explanation: As shown in the figure above, node 2 is connected to every other node, so 2 is the center. Example 2: Input: edges = [[1,2],[5,1],[1,3],[1,4]] Output: 1 Constraints: 3 <= n <= 105 edges.length == n - 1 edges[i].length == 2 1 <= ui, vi <= n ui != vi The given edges represent a valid star graph.
+There is an undirected graph with n nodes, where each node is numbered between 0 and n - 1. You are given a 2D array graph, where graph[u] is an array of nodes that node u is adjacent to. More formally, for each v in graph[u], there is an undirected edge between node u and node v. The graph has the following properties: There are no self-edges (graph[u] does not contain u). There are no parallel edges (graph[u] does not contain duplicate values). If v is in graph[u], then u is in graph[v] (the graph is undirected). The graph may not be connected, meaning there may be two nodes u and v such that there is no path between them. A graph is bipartite if the nodes can be partitioned into two independent sets A and B such that every edge in the graph connects a node in set A and a node in set B. Return true if and only if it is bipartite. Example 1: Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]] Output: false Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other. Example 2: Input: graph = [[1,3],[0,2],[1,3],[0,2]] Output: true Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}. Constraints: graph.length == n 1 <= n <= 100 0 <= graph[u].length < n 0 <= graph[u][i] <= n - 1 graph[u] does not contain u. All the values of graph[u] are unique. If graph[u] contains v, then graph[v] contains u.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. The detected topics are Graph Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
