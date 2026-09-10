@@ -6,12 +6,12 @@
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-provinces/description/
-- Synced: 2026-09-09T06:45:30.233Z
+- Problem URL: https://leetcode.com/problems/redundant-connection/description/
+- Synced: 2026-09-09T12:45:14.009Z
 
 ## Problem Description
 
-There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is connected directly with city c, then city a is connected indirectly with city c. A province is a group of directly or indirectly connected cities and no other cities outside of the group. You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith city and the jth city are directly connected, and isConnected[i][j] = 0 otherwise. Return the total number of provinces. Example 1: Input: isConnected = [[1,1,0],[1,1,0],[0,0,1]] Output: 2 Example 2: Input: isConnected = [[1,0,0],[0,1,0],[0,0,1]] Output: 3 Constraints: 1 <= n <= 200 n == isConnected.length n == isConnected[i].length isConnected[i][j] is 1 or 0. isConnected[i][i] == 1 isConnected[i][j] == isConnected[j][i]
+In this problem, a tree is an undirected graph that is connected and has no cycles. You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph. Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input. Example 1: Input: edges = [[1,2],[1,3],[2,3]] Output: [2,3] Example 2: Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]] Output: [1,4] Constraints: n == edges.length 3 <= n <= 1000 edges[i].length == 2 1 <= ai < bi <= edges.length ai != bi There are no repeated edges. The given graph is connected.
 
 ## Explanation
 
