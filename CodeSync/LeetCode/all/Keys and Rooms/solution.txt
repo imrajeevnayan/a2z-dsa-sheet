@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T08:08:15.682Z
+ * Synced: 2026-09-09T08:09:21.683Z
  */
 
 boolean[] visited = new boolean[rooms.size()];
