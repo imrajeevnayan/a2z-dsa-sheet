@@ -3846,5 +3846,9 @@
     "custom:fraz-dsa-sheet",
     "custom:neetcode-dsa-sheet"
   ],
-  "leetcode:find-the-degree-of-each-vertex": []
+  "leetcode:find-the-degree-of-each-vertex": [],
+  "leetcode:find-center-of-star-graph": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
+  ]
 }
