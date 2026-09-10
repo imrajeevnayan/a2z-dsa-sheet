@@ -1,17 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Two Sorted Lists
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T17:21:29.353Z
+ * Synced: 2026-09-10T17:23:55.281Z
  */
 
-class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy=new ListNode(0);
         ListNode temp=dummy;
         while(list1!=null && list2!=null){
