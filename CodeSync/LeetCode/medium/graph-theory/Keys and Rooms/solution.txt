@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Keys and Rooms
- * URL: https://leetcode.com/problems/keys-and-rooms/
+ * URL: https://leetcode.com/problems/keys-and-rooms/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-09T08:14:27.381Z
+ * Synced: 2026-09-09T08:15:26.678Z
  */
 
 // Current room ki saari keys
