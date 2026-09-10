@@ -3831,5 +3831,13 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "geeksforgeeks:detect-cycle-in-an-undirected-graph": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
   ]
 }
