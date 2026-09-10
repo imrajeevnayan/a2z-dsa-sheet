@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Graph Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-06-23T05:37:30.222Z
+- Problem URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T13:25:17.619Z
 
 ## Problem Description
 
