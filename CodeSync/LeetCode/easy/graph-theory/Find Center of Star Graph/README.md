@@ -6,8 +6,8 @@
 - Topics: Graph Theory
 - Runtime: 0 ms
 - Memory: 110.73 MB
-- Problem URL: https://leetcode.com/problems/find-center-of-star-graph/submissions/2136364445/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T13:23:43.621Z
+- Problem URL: https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T13:24:18.095Z
 
 ## Problem Description
 
