@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T13:02:03.162Z",
+  "submissionTimestamp": "2026-09-10T13:12:54.268Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
+    "Array",
+    "Matrix",
     "Simulation"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "pjafiy"
+  "problemUrl": "https://leetcode.com/problems/spiral-matrix/description/",
+  "submissionId": "np57qy"
 }
