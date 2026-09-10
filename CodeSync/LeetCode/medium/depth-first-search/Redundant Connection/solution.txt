@@ -5,25 +5,24 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-09T12:31:34.376Z
+ * Synced: 2026-09-09T12:46:01.240Z
  */
 
-graph.get(v).add(u);
-            graph.get(u).add(v);
+}
+        return new int[0];
+            graph.get(v).add(u);
+        }
             // No cycle, so add this edge
-
-                return edge;
-            }
-
+            graph.get(u).add(v);
             // Check whether u and v are already connected
-            if (hasPath(graph, u, v, n)) {
-            int u = edge[0];
+            if (hasPath(graph, u, v, n)) return edge;
+            
             int v = edge[1];
 
+            int u = edge[0];
         for (int[] edge : edges) {
-
         }
             graph.add(new ArrayList<>());
         for (int i = 0; i <= n; i++) {
@@ -32,4 +31,9 @@ graph.get(v).add(u);
         int n = edges.length;
     public int[] findRedundantConnection(int[][] edges) {
 class Solution {
-        }
+    private boolean hasPath(
+        List<List<Integer>> graph,
+        int source,
+        int destination,
+        int n
+    ) {
