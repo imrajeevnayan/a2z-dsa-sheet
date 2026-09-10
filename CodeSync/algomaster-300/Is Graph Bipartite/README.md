@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.04 MB
 - Problem URL: https://leetcode.com/problems/is-graph-bipartite/submissions/2137467294/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-10T12:39:06.539Z
+- Synced: 2026-09-10T12:40:05.517Z
 
 ## Problem Description
 
