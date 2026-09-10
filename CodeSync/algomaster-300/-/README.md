@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Text
-- Difficulty: Easy
-- Topics: Linked List, Recursion
+- Difficulty: Medium
+- Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
-- Synced: 2026-08-19T12:31:21.782Z
+- Problem URL: https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T20:07:47.147Z
 
 ## Problem Description
 
-You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
+Given a directed acyclic graph (DAG) of n nodes labeled from 0 to n - 1, find all possible paths from node 0 to node n - 1 and return them in any order. The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node graph[i][j]). Example 1: Input: graph = [[1,2],[3],[3],[]] Output: [[0,1,3],[0,2,3]] Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3. Example 2: Input: graph = [[4,3,1],[3,2,4],[3],[4],[]] Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]] Constraints: n == graph.length 2 <= n <= 15 0 <= graph[i][j] < n graph[i][j] != i (i.e., there will be no self-loops). All the elements of graph[i] are unique. The input graph is guaranteed to be a DAG.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph. Review the synced source file for the implementation details.
