@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Text
 - Difficulty: Medium
-- Topics: Array, Dynamic Programming, Breadth-First Search
+- Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/coin-change/description/
-- Synced: 2026-07-05T16:24:10.897Z
+- Problem URL: https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T20:07:47.147Z
 
 ## Problem Description
 
-You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money. Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1. You may assume that you have an infinite number of each kind of coin. Example 1: Input: coins = [1,2,5], amount = 11 Output: 3 Explanation: 11 = 5 + 5 + 1 Example 2: Input: coins = [2], amount = 3 Output: -1 Example 3: Input: coins = [1], amount = 0 Output: 0 Constraints: 1 <= coins.length <= 12 1 <= coins[i] <= 231 - 1 0 <= amount <= 104
+Given a directed acyclic graph (DAG) of n nodes labeled from 0 to n - 1, find all possible paths from node 0 to node n - 1 and return them in any order. The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node graph[i][j]). Example 1: Input: graph = [[1,2],[3],[3],[]] Output: [[0,1,3],[0,2,3]] Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3. Example 2: Input: graph = [[4,3,1],[3,2,4],[3],[4],[]] Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]] Constraints: n == graph.length 2 <= n <= 15 0 <= graph[i][j] < n graph[i][j] != i (i.e., there will be no self-loops). All the elements of graph[i] are unique. The input graph is guaranteed to be a DAG.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming, Breadth-First Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph. Review the synced source file for the implementation details.
