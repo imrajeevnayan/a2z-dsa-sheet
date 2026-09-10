@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-09T08:14:27.381Z",
+  "submissionTimestamp": "2026-09-09T08:15:26.678Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Keys and Rooms",
-  "problemUrl": "https://leetcode.com/problems/keys-and-rooms/",
+  "problemUrl": "https://leetcode.com/problems/keys-and-rooms/description/",
   "submissionId": "erpy09"
 }
