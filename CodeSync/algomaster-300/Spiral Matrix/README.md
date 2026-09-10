@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Matrix, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/spiral-matrix/
-- Synced: 2026-09-10T13:19:11.467Z
+- Runtime: 0 ms
+- Memory: 42.91 MB
+- Problem URL: https://leetcode.com/problems/spiral-matrix/submissions/2137510643/
+- Synced: 2026-09-10T13:19:59.520Z
 
 ## Problem Description
 
