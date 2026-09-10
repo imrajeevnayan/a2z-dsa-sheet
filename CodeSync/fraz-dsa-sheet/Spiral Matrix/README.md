@@ -6,8 +6,8 @@
 - Topics: Array, Matrix, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/spiral-matrix/description/
-- Synced: 2026-09-10T13:17:46.523Z
+- Problem URL: https://leetcode.com/problems/spiral-matrix/
+- Synced: 2026-09-10T13:19:11.467Z
 
 ## Problem Description
 
