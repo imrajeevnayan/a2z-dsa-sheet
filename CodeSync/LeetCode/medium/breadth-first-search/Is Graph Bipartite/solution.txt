@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Is Graph Bipartite?
- * URL: https://leetcode.com/problems/is-graph-bipartite/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T12:30:37.512Z
+ * Synced: 2026-09-10T12:26:55.522Z
  */
 
 class Solution {
