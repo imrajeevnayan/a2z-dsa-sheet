@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Spiral Matrix
- * URL: https://leetcode.com/problems/spiral-matrix/
+ * URL: https://leetcode.com/problems/spiral-matrix/submissions/2137510643/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Matrix, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-10T13:19:11.467Z
+ * Runtime: 0 ms
+ * Memory: 42.91 MB
+ * Synced: 2026-09-10T13:19:59.520Z
  */
 
-class Solution {
+for (int row = top; row <= bottom; row++) {
+            // 2. Right column: top -> bottom
+
+            top++;
+            }
+                result.add(matrix[top][col]);
+            // 1. Top row: left -> right
+            for (int col = left; col <= right; col++) {
+
+
+        while (top <= bottom && left <= right) {
+        int right = matrix[0].length - 1;
+        int left = 0;
+
+        int bottom = matrix.length - 1;
+        int top = 0;
+        List<Integer> result = new ArrayList<>();
     public List<Integer> spiralOrder(int[][] matrix) {
-        
-    }
-}
+class Solution {
