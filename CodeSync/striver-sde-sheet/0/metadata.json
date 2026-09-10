@@ -1,14 +1,19 @@
 {
-  "submissionTimestamp": "2026-09-05T16:03:05.957Z",
-  "runtime": "0 ms",
-  "memoryUsage": "44.33 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory",
+    "Graph Coloring",
+    "Bipartite Graph"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Graph Theory",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/submissions/2131726967/",
-  "submissionId": "oxwspf"
+  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "9uzafc"
 }
