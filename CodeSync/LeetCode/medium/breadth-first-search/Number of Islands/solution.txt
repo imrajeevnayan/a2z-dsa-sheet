@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Islands
- * URL: https://leetcode.com/problems/number-of-islands/
+ * URL: https://leetcode.com/problems/number-of-islands/submissions/2136072094/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-09T08:04:35.677Z
+ * Runtime: 0 ms
+ * Memory: 51.16 MB
+ * Synced: 2026-09-09T08:05:22.213Z
  */
 
-class Solution {
-    public int numIslands(char[][] grid) {
-        
-    }
-}
+Queue<int[]> queue = new ArrayDeque<>();
+
+                // Starting cell ko queue mein daalo
+                queue.offer(new int[]{r, c});
+
+                // Mark as visited
+                grid[r][c] = '0';
+
+                while (!queue.isEmpty()) {
+
+                    int[] current = queue.poll();
+
+                    int currentRow = current[0];
+                    int currentCol = current[1];
+
+                    // 4 directions check karo
+                    for (int[] direction : directions) {
+
+                        int newRow = currentRow + direction[0];
+                        int newCol = currentCol + direction[1];
+
+                        // Boundary check
+                        if (newRow < 0 || newRow >= rows ||
+                            newCol < 0 || newCol >= cols) {
