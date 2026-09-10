@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-10T17:26:15.819Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-10T17:27:06.919Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.41 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Two Sorted Lists",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/submissions/2137779197/",
   "submissionId": "vvn851"
 }
