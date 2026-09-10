@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/redundant-connection/
-- Synced: 2026-09-09T12:30:48.475Z
+- Synced: 2026-09-09T12:31:34.376Z
 
 ## Problem Description
 
