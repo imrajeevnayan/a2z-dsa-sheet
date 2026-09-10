@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-08-17T05:56:50.037Z",
+  "submissionTimestamp": "2026-09-09T20:07:47.147Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "Math",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Backtracking",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Directed Acyclic Graph"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "3cgbd6"
+  "problemUrl": "https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "yty2t4"
 }
