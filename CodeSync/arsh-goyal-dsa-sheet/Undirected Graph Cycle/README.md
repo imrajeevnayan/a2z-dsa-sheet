@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
-- Synced: 2026-09-09T12:33:07.696Z
+- Synced: 2026-09-09T12:40:52.248Z
 
 ## Problem Description
 
