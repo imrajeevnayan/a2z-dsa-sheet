@@ -7,7 +7,7 @@
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
  * Runtime: 0 ms
  * Memory: 47.04 MB
- * Synced: 2026-09-10T12:34:37.506Z
+ * Synced: 2026-09-10T12:35:27.527Z
  */
 
 q.offer(i);
