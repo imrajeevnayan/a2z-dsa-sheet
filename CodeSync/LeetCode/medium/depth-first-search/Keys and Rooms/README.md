@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/keys-and-rooms/
-- Synced: 2026-09-09T08:13:39.658Z
+- Synced: 2026-09-09T08:14:27.381Z
 
 ## Problem Description
 
