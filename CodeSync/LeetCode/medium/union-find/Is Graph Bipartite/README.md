@@ -1,13 +1,13 @@
 # Is Graph Bipartite?
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Graph Theory
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/is-graph-bipartite/
-- Synced: 2026-09-09T12:30:37.512Z
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:27:51.520Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There is an undirected graph with n nodes, where each node is numbered between 0
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
