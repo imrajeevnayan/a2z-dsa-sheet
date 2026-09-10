@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-09T06:45:30.233Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-09T12:45:03.437Z",
+  "runtime": "19 ms",
+  "memoryUsage": "47.28 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/number-of-provinces/description/",
-  "submissionId": "6ltren"
+  "problemUrl": "https://leetcode.com/submissions/detail/2136315728/",
+  "submissionId": "uhdw3z"
 }
