@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
-- Synced: 2026-09-09T12:40:34.126Z
+- Synced: 2026-09-09T12:41:28.324Z
 
 ## Problem Description
 
