@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles, Merge 3 Sorted Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-03T17:16:19.321Z
+ * Synced: 2026-09-10T17:19:56.653Z
  */
 
 class Solution {
