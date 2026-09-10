@@ -5,32 +5,31 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-09T08:13:39.658Z
+ * Synced: 2026-09-09T08:14:27.381Z
  */
 
 // Current room ki saari keys
-            for (int key : rooms.get(currentRoom)) {
-
+            for (int key : rooms.get(currRoom)) {
                 // Agar room pehle visit nahi hua
                 if (!visited[key]) {
-
                     visited[key] = true;
-            int currentRoom = queue.poll();
-
+            int currRoom = queue.poll();
 
         while (!queue.isEmpty()) {
-
         visited[0] = true;
         queue.offer(0);
         // Start from Room 0
         Queue<Integer> queue = new ArrayDeque<>();
-        boolean[] visited = new boolean[n];
-        int n = rooms.size();
-    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-class Solution {
                     queue.offer(key);
                 }
             }
         }
+        // Check whether all rooms were visited
+        for (boolean visit : visited) {
+            if (!visit) return false;
+        }
+        return true;
+    }
+}
