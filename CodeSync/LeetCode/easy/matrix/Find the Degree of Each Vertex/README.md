@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.52 MB
 - Problem URL: https://leetcode.com/problems/find-the-degree-of-each-vertex/submissions/2136362268/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T13:21:46.585Z
+- Synced: 2026-09-09T13:22:56.618Z
 
 ## Problem Description
 
