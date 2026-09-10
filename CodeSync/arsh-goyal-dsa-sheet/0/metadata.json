@@ -1,19 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "submissionTimestamp": "2026-09-10T13:12:54.268Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory",
-    "Graph Coloring",
-    "Bipartite Graph"
+    "Array",
+    "Matrix",
+    "Simulation"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "9uzafc"
+  "problemUrl": "https://leetcode.com/problems/spiral-matrix/description/",
+  "submissionId": "np57qy"
 }
