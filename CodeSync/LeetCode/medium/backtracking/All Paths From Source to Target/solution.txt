@@ -7,7 +7,7 @@
  * Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T20:09:01.783Z
+ * Synced: 2026-09-09T20:10:39.793Z
  */
 
 class Solution {
