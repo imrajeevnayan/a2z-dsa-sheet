@@ -4,10 +4,10 @@
 - Language: Graph Theory
 - Difficulty: Easy
 - Topics: Graph Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-center-of-star-graph/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T13:22:53.904Z
+- Runtime: 0 ms
+- Memory: 110.73 MB
+- Problem URL: https://leetcode.com/problems/find-center-of-star-graph/submissions/2136364445/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-09T13:23:43.621Z
 
 ## Problem Description
 
