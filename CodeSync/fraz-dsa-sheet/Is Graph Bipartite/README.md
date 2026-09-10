@@ -4,10 +4,10 @@
 - Language: Graph Theory
 - Difficulty: Medium
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/is-graph-bipartite/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-10T12:28:36.754Z
+- Runtime: 0 ms
+- Memory: 47.04 MB
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/submissions/2137467294/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:29:26.545Z
 
 ## Problem Description
 
