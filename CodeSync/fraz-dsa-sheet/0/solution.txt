@@ -1,35 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/redundant-connection/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
  * Difficulty: Medium
- * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T12:45:14.009Z
+ * Synced: 2026-09-10T12:26:04.382Z
  */
 
 class Solution {
-    public int[] findRedundantConnection(int[][] edges) {
-        int n = edges.length;
-        List<List<Integer>> graph = new ArrayList<>();
-
-        for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<>());
-        }
-        for (int[] edge : edges) {
-
-            int u = edge[0];
-            int v = edge[1];
-
-            // Check whether u and v are already connected
-            if (hasPath(graph, u, v, n)) return edge;
-            
-            // No cycle, so add this edge
-            graph.get(u).add(v);
-            graph.get(v).add(u);
-        }
-
-        return new int[0];
+    public boolean isBipartite(int[][] graph) {
+        
     }
+}
