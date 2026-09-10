@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-10T13:17:46.523Z",
+  "submissionTimestamp": "2026-09-10T13:19:11.467Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Spiral Matrix",
-  "problemUrl": "https://leetcode.com/problems/spiral-matrix/description/",
+  "problemUrl": "https://leetcode.com/problems/spiral-matrix/",
   "submissionId": "2zpd9i"
 }
