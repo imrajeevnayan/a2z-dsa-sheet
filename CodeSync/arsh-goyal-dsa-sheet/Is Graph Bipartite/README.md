@@ -6,8 +6,8 @@
 - Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-10T12:27:51.520Z
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:28:36.754Z
 
 ## Problem Description
 
