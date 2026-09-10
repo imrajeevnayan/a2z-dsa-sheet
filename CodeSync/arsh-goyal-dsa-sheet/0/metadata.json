@@ -1,14 +1,19 @@
 {
-  "submissionTimestamp": "2026-09-09T13:22:08.019Z",
+  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Graph Theory"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory",
+    "Graph Coloring",
+    "Bipartite Graph"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Graph Theory",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-center-of-star-graph/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "njxy78"
+  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "9uzafc"
 }
