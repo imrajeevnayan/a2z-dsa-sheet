@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-islands/
-- Synced: 2026-09-09T08:02:14.277Z
+- Synced: 2026-09-09T08:02:59.684Z
 
 ## Problem Description
 
