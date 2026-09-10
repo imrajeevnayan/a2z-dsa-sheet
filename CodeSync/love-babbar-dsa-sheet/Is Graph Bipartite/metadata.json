@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-10T12:27:51.520Z",
+  "submissionTimestamp": "2026-09-10T12:28:36.754Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Graph Theory",
   "problemTitle": "Is Graph Bipartite?",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "qurkdr"
+  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/?envType=problem-list-v2&envId=graph",
+  "submissionId": "nzsr6t"
 }
