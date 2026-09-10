@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-09T06:45:30.233Z",
+  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -7,11 +7,13 @@
     "Depth-First Search",
     "Breadth-First Search",
     "Union-Find",
-    "Graph Theory"
+    "Graph Theory",
+    "Graph Coloring",
+    "Bipartite Graph"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Graph Theory",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/number-of-provinces/description/",
-  "submissionId": "6ltren"
+  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "9uzafc"
 }
