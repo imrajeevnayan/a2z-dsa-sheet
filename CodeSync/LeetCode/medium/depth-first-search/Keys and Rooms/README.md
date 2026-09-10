@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/keys-and-rooms/
-- Synced: 2026-09-09T08:36:59.678Z
+- Synced: 2026-09-09T08:37:52.678Z
 
 ## Problem Description
 
