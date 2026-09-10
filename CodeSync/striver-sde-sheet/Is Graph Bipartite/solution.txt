@@ -1,17 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Is Graph Bipartite?
- * URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+ * URL: https://leetcode.com/problems/is-graph-bipartite/?envType=problem-list-v2&envId=graph
  * Language: Graph Theory
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T12:27:51.520Z
+ * Synced: 2026-09-10T12:28:36.754Z
  */
 
+Queue<Integer> q = new LinkedList<>();
+            // Start a new connected component
+
+            }
+                continue;
+            if (color[i] != 0) {
+            // Already visited / colored
+
+        for (int i = 0; i < n; i++) {
+
+        // 1 = Red
+        // 2 = Blue
+        int[] color = new int[n];
+        int n = graph.length;
+
+        // 0 = uncolored
 class Solution {
     public boolean isBipartite(int[][] graph) {
-        
-    }
-}
