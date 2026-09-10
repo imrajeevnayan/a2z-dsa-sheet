@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-islands/
-- Synced: 2026-09-09T08:04:35.677Z
+- Runtime: 0 ms
+- Memory: 51.16 MB
+- Problem URL: https://leetcode.com/problems/number-of-islands/submissions/2136072094/
+- Synced: 2026-09-09T08:05:22.213Z
 
 ## Problem Description
 
