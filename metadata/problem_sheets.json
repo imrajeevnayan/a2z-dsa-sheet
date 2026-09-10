@@ -3859,5 +3859,9 @@
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:fraz-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:all-paths-from-source-to-target": [
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet"
   ]
 }
