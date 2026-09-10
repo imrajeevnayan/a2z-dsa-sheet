@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Town Judge
- * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+ * URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
  * Language: Graph Theory
  * Difficulty: Easy
  * Topics: Array, Hash Table, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T05:37:30.222Z
+ * Synced: 2026-09-09T13:24:27.669Z
  */
 
 class Solution {
@@ -22,8 +22,3 @@ class Solution {
             indegree[b]++;
         }
         for (int i = 1; i <= n; i++) {
-            if (indegree[i] == n - 1 &&
-                outdegree[i] == 0) {
-                return i;
-            }
-        }
