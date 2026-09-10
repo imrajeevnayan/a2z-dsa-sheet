@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-09T20:09:01.783Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Backtracking",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph Theory",
+    "Directed Acyclic Graph"
+  ],
+  "platform": "LeetCode",
+  "language": "Graph Theory",
+  "problemTitle": "All Paths From Source to Target",
+  "problemUrl": "https://leetcode.com/problems/all-paths-from-source-to-target/?envType=problem-list-v2&envId=graph",
+  "submissionId": "axc8w1"
+}
