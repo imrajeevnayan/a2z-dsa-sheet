@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Spiral Matrix
- * URL: https://leetcode.com/problems/spiral-matrix/description/
+ * URL: https://leetcode.com/problems/spiral-matrix/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Matrix, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T13:17:46.523Z
+ * Synced: 2026-09-10T13:19:11.467Z
  */
 
 class Solution {
