@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-04T06:58:14.548Z",
+  "submissionTimestamp": "2026-09-09T13:20:03.318Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Prefix Sum"
+    "Graph Theory",
+    "Matrix"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Graph Theory",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/smallest-stable-index-i/description/?envType=daily-question&envId=2026-09-04",
-  "submissionId": "n9kkj9"
+  "problemUrl": "https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph",
+  "submissionId": "bsdy9u"
 }
