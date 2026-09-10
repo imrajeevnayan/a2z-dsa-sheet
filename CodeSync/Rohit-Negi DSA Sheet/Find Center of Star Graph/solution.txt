@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Center of Star Graph
+ * URL: https://leetcode.com/problems/find-center-of-star-graph/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
+ * Difficulty: Easy
+ * Topics: Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-09T13:22:53.904Z
+ */
+
+int c = edges[1][0];
+        int d = edges[1][1];
+
+        if (a == c || a == d) {
+            return a;
+        }
+        int b = edges[0][1];
+
+        int a = edges[0][0];
+    public int findCenter(int[][] edges) {
+
+        return b;
+    }
