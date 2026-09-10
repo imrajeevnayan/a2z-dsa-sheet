@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-09T12:45:03.437Z",
-  "runtime": "19 ms",
-  "memoryUsage": "47.28 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-09T12:45:14.009Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2136315728/",
-  "submissionId": "uhdw3z"
+  "problemUrl": "https://leetcode.com/problems/redundant-connection/description/",
+  "submissionId": "39008m"
 }
