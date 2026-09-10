@@ -7,28 +7,30 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T08:12:52.673Z
+ * Synced: 2026-09-09T08:13:39.658Z
  */
 
-boolean[] visited = new boolean[rooms.size()];
-        Stack<Integer> stack = new Stack<>();
+// Current room ki saari keys
+            for (int key : rooms.get(currentRoom)) {
 
-        stack.push(0);
-        visited[0] = true;
-        int count = 0;
-
-        while (!stack.isEmpty()) {
-            int room = stack.pop();
-            count++;
-            for (int key : rooms.get(room)) {
+                // Agar room pehle visit nahi hua
                 if (!visited[key]) {
+
                     visited[key] = true;
-                    stack.push(key);
+            int currentRoom = queue.poll();
+
+
+        while (!queue.isEmpty()) {
+
+        visited[0] = true;
+        queue.offer(0);
+        // Start from Room 0
+        Queue<Integer> queue = new ArrayDeque<>();
+        boolean[] visited = new boolean[n];
+        int n = rooms.size();
+    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+class Solution {
+                    queue.offer(key);
                 }
             }
         }
-        return count == rooms.size();
-    }
-}
-class Solution {
-    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
