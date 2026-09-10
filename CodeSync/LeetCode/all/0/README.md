@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Graph Theory
-- Difficulty: Easy
-- Topics: Array, Graph Theory, Matrix
+- Difficulty: Medium
+- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T13:20:03.318Z
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:26:04.382Z
 
 ## Problem Description
 
-You are given a 2D integer array matrix of size n x n representing the adjacency matrix of an undirected graph with n vertices labeled from 0 to n - 1. matrix[i][j] = 1 indicates that there is an edge between vertices i and j. matrix[i][j] = 0 indicates that there is no edge between vertices i and j. The degree of a vertex is the number of edges connected to it. Return an integer array ans of size n where ans[i] represents the degree of vertex i. Example 1: Input: matrix = [[0,1,1],[1,0,1],[1,1,0]] Output: [2,2,2] Explanation: Vertex 0 is connected to vertices 1 and 2, so its degree is 2. Vertex 1 is connected to vertices 0 and 2, so its degree is 2. Vertex 2 is connected to vertices 0 and 1, so its degree is 2. Thus, the answer is [2, 2, 2]. Example 2: Input: matrix = [[0,1,0],[1,0,0],[0,0,0]] Output: [1,1,0] Explanation: Vertex 0 is connected to vertex 1, so its degree is 1. Vertex 1 is connected to vertex 0, so its degree is 1. Vertex 2 is not connected to any vertex, so its degree is 0. Thus, the answer is [1, 1, 0]. Example 3: Input: matrix = [[0]] Output: [0] Explanation: There is only one vertex and it has no edges connected to it. Thus, the answer is [0]. Constraints: 1 <= n == matrix.length == matrix[i].length <= 100​​​​​​​ ​​​​​​​matrix[i][i] == 0 matrix[i][j] is either 0 or 1 matrix[i][j] == matrix[j][i]
+There is an undirected graph with n nodes, where each node is numbered between 0 and n - 1. You are given a 2D array graph, where graph[u] is an array of nodes that node u is adjacent to. More formally, for each v in graph[u], there is an undirected edge between node u and node v. The graph has the following properties: There are no self-edges (graph[u] does not contain u). There are no parallel edges (graph[u] does not contain duplicate values). If v is in graph[u], then u is in graph[v] (the graph is undirected). The graph may not be connected, meaning there may be two nodes u and v such that there is no path between them. A graph is bipartite if the nodes can be partitioned into two independent sets A and B such that every edge in the graph connects a node in set A and a node in set B. Return true if and only if it is bipartite. Example 1: Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]] Output: false Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other. Example 2: Input: graph = [[1,3],[0,2],[1,3],[0,2]] Output: true Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}. Constraints: graph.length == n 1 <= n <= 100 0 <= graph[u].length < n 0 <= graph[u][i] <= n - 1 graph[u] does not contain u. All the values of graph[u] are unique. If graph[u] contains v, then graph[v] contains u.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Graph Theory. The detected topics are Array, Graph Theory, Matrix. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
