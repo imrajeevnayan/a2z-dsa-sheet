@@ -1,14 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * URL: https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph
  * Language: Text
- * Difficulty: Easy
- * Topics: Linked List, Recursion
+ * Difficulty: Medium
+ * Topics: Backtracking, Depth-First Search, Breadth-First Search, Graph Theory, Directed Acyclic Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T12:31:21.782Z
+ * Synced: 2026-09-09T20:07:47.147Z
  */
 
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
+Input: graph = [[1,2],[3],[3],[]]
+Output: [[0,1,3],[0,2,3]]
+Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
