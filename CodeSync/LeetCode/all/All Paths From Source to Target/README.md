@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/all-paths-from-source-to-target/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-09T20:10:39.793Z
+- Synced: 2026-09-09T20:11:37.967Z
 
 ## Problem Description
 
