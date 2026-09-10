@@ -6,8 +6,8 @@
 - Topics: Depth-First Search, Breadth-First Search, Graph Theory
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/keys-and-rooms/description/
-- Synced: 2026-09-09T08:25:09.680Z
+- Problem URL: https://leetcode.com/problems/keys-and-rooms/
+- Synced: 2026-09-09T08:25:58.593Z
 
 ## Problem Description
 
