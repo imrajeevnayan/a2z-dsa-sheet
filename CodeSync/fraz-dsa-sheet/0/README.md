@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Graph Theory
 - Difficulty: Medium
-- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
+- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/redundant-connection/description/
-- Synced: 2026-09-09T12:45:14.009Z
+- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
+- Synced: 2026-09-10T12:26:04.382Z
 
 ## Problem Description
 
-In this problem, a tree is an undirected graph that is connected and has no cycles. You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph. Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input. Example 1: Input: edges = [[1,2],[1,3],[2,3]] Output: [2,3] Example 2: Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]] Output: [1,4] Constraints: n == edges.length 3 <= n <= 1000 edges[i].length == 2 1 <= ai < bi <= edges.length ai != bi There are no repeated edges. The given graph is connected.
+There is an undirected graph with n nodes, where each node is numbered between 0 and n - 1. You are given a 2D array graph, where graph[u] is an array of nodes that node u is adjacent to. More formally, for each v in graph[u], there is an undirected edge between node u and node v. The graph has the following properties: There are no self-edges (graph[u] does not contain u). There are no parallel edges (graph[u] does not contain duplicate values). If v is in graph[u], then u is in graph[v] (the graph is undirected). The graph may not be connected, meaning there may be two nodes u and v such that there is no path between them. A graph is bipartite if the nodes can be partitioned into two independent sets A and B such that every edge in the graph connects a node in set A and a node in set B. Return true if and only if it is bipartite. Example 1: Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]] Output: false Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other. Example 2: Input: graph = [[1,3],[0,2],[1,3],[0,2]] Output: true Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}. Constraints: graph.length == n 1 <= n <= 100 0 <= graph[u].length < n 0 <= graph[u][i] <= n - 1 graph[u] does not contain u. All the values of graph[u] are unique. If graph[u] contains v, then graph[v] contains u.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
