@@ -1,32 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Sorted Array
- * URL: https://leetcode.com/problems/merge-sorted-array/submissions/2137794598/
+ * URL: https://leetcode.com/problems/merge-sorted-array/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: 43.63 MB
- * Synced: 2026-09-10T17:39:06.916Z
+ * Synced: 2026-09-10T17:39:52.433Z
  */
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1;       // nums1 ka last valid element
-        int j = n - 1;       // nums2 ka last element
-        int k = m + n - 1;   // nums1 ka last position
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
-        while (i >= 0 && j >= 0) {
-            if (nums1[i] > nums2[j]) {
-                nums1[k--] = nums1[i--];
-            } else {
-                nums1[k--] = nums2[j--];
-            }
+        // nums1 ke valid elements
+        for (int i = 0; i < m; i++) {
+            pq.add(nums1[i]);
         }
 
-        // Agar nums2 mein elements bach gaye
-        while (j >= 0) {
-            nums1[k--] = nums2[j--];
+        // nums2 ke elements
+        for (int i = 0; i < n; i++) {
+            pq.add(nums2[i]);
+        }
+
+        // Sorted order mein nums1 mein daal do
+        for (int i = 0; i < m + n; i++) {
+            nums1[i] = pq.poll();
         }
     }
 }
