@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Richest Customer Wealth
- * URL: https://leetcode.com/problems/richest-customer-wealth/submissions/2035572062/
+ * URL: https://leetcode.com/problems/richest-customer-wealth/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Matrix
- * Runtime: 0 ms
- * Memory: 44.85 MB
- * Synced: 2026-06-16T18:55:10.149Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T17:43:24.600Z
  */
 
 class Solution {
