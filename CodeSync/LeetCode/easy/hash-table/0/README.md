@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Hash Table, String, Counting
+- Topics: Array, Hash Table, Recursion, Sorting, Enumeration
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:55:10.563Z
+- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
+- Synced: 2026-09-11T06:14:02.819Z
 
 ## Problem Description
 
-Two strings word1 and word2 are considered almost equivalent if the differences between the frequencies of each letter from 'a' to 'z' between word1 and word2 is at most 3. Given two strings word1 and word2, each of length n, return true if word1 and word2 are almost equivalent, or false otherwise. The frequency of a letter x is the number of times it occurs in the string. Example 1: Input: word1 = "aaaa", word2 = "bccb" Output: false Explanation: There are 4 'a's in "aaaa" but 0 'a's in "bccb". The difference is 4, which is more than the allowed 3. Example 2: Input: word1 = "abcdeef", word2 = "abaaacc" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 1 time in word1 and 4 times in word2. The difference is 3. - 'b' appears 1 time in word1 and 1 time in word2. The difference is 0. - 'c' appears 1 time in word1 and 2 times in word2. The difference is 1. - 'd' appears 1 time in word1 and 0 times in word2. The difference is 1. - 'e' appears 2 times in word1 and 0 times in word2. The difference is 2. - 'f' appears 1 time in word1 and 0 times in word2. The difference is 1. Example 3: Input: word1 = "cccddabba", word2 = "babababab" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 2 times in word1 and 4 times in word2. The difference is 2. - 'b' appears 2 times in word1 and 5 times in word2. The difference is 3. - 'c' appears 3 times in word1 and 0 times in word2. The difference is 3. - 'd' appears 2 times in word1 and 0 times in word2. The difference is 2. Constraints: n == word1.length == word2.length 1 <= n <= 100 word1 and word2 consist only of lowercase English letters.
+You are given an integer array digits, where each element is a digit. The array may contain duplicates. You need to find all the unique integers that follow the given requirements: The integer consists of the concatenation of three elements from digits in any arbitrary order. The integer does not have leading zeros. The integer is even. For example, if the given digits were [1, 2, 3], integers 132 and 312 follow the requirements. Return a sorted array of the unique integers. Example 1: Input: digits = [2,1,3,0] Output: [102,120,130,132,210,230,302,310,312,320] Explanation: All the possible integers that follow the requirements are in the output array. Notice that there are no odd integers or integers with leading zeros. Example 2: Input: digits = [2,2,8,8,2] Output: [222,228,282,288,822,828,882] Explanation: The same digit can be used as many times as it appears in digits. In this example, the digit 8 is used twice each time in 288, 828, and 882. Example 3: Input: digits = [3,7,5] Output: [] Explanation: No even integers can be formed using the given digits. Constraints: 3 <= digits.length <= 100 0 <= digits[i] <= 9
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dsa Question For Interview (Copy-vdyfzxft)mj. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
