@@ -1,29 +1,28 @@
 /*
- * Platform: Coding Ninjas (Code360)
+ * Platform: LeetCode
  * Problem: Find Peak Element
- * URL: https://www.naukri.com/code360/problems/find-peak-element_1081482
- * Language: Java (SE 1.8)
- * Difficulty: Easy
- * Topics: Easy Clear all
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-30T11:34:14.836Z
+ * URL: https://leetcode.com/problems/find-peak-element/submissions/2138103514/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
+ * Runtime: 0 ms
+ * Memory: 44.07 MB
+ * Synced: 2026-09-11T03:52:32.926Z
  */
 
-import java.util.ArrayList;
-public class Solution {
-    public static int findPeakElement(ArrayList<Integer> arr) {
-        int low = 0;
-        int high = arr.size() - 1;
- 
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (arr.get(mid) < arr.get(mid + 1)) {
-                low = mid + 1;
-            } else {
-                high = mid;
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int low=0,high=nums.length-2,ans=nums.length-1;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(nums[mid]>nums[mid+1]){
+                ans=mid;
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
             }
         }
-        return low;
+        return ans;
     }
 }
