@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sorted-matrix2333/1
-- Synced: 2026-09-10T19:52:51.844Z
+- Synced: 2026-09-10T19:54:35.055Z
 
 ## Problem Description
 
