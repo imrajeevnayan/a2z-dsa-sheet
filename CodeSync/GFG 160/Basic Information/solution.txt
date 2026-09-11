@@ -1,0 +1,391 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Basic Information
+ * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
+ * Language: All Submissions
+ * Difficulty: Easy
+ * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:38:39.721Z
+ */
+
+🟢 2D Array / Matrix DSA Roadmap — Level 1 to Level 8 🚀
+
+
+Maine recently 2D Arrays / Matrix problems practice karna start kiya hai. Starting mein i, j, rows, columns aur different traversal patterns thode confusing lage 😅
+
+
+Isliye maine decide kiya ki randomly questions solve karne ke bajay Level 1 se Level 8 tak proper pattern-wise practice karunga.
+
+
+Mera goal hai: solution ratna nahi, pattern samajhna. 🧠💻
+
+
+🟢 Level 1 — Easy / Basics
+
+
+Focus: 2D array ko traverse karna aur basic operations samajhna.
+
+
+Matrix Traversal
+
+Row-wise Traversal
+
+Column-wise Traversal
+
+Sum of All Elements
+
+Maximum Element in Matrix
+
+Minimum Element in Matrix
+
+Row Sum
+
+Column Sum
+
+Search an Element in Matrix
+
+Count Even/Odd Elements
+
+
+Pattern: Nested loops
+
+
+for i → rows
+
+    for j → columns
+
+
+🟢 Level 2 — Basic Matrix Patterns
+
+
+Focus: Indexing aur diagonals ko samajhna.
+
+
+Main Diagonal
+
+Secondary Diagonal
+
+Matrix Diagonal Sum — LeetCode 1572
+
+Transpose of Matrix — LeetCode 867
+
+Transpose of Matrix — GFG
+
+Reshape the Matrix — LeetCode 566
+
+Sum of Upper and Lower Triangular Matrix
+
+Print Diagonal Elements
+
+Check Identity Matrix
+
+Check Symmetric Matrix
+
+
+Important patterns:
+
+
+Main Diagonal     → mat[i][i]
+
+
+Secondary Diagonal → mat[i][n-1-i]
+
+
+Upper Triangle    → j >= i
+
+
+Lower Triangle    → i >= j
+
+
+🟡 Level 3 — Traversal Patterns
+
+
+Focus: Matrix ko different directions mein traverse karna.
+
+
+Boundary Traversal of Matrix
+
+Snake Pattern
+
+Spiral Matrix
+
+Spiral Matrix II
+
+Wave Traversal
+
+Diagonal Traversal
+
+Reverse Spiral Traversal
+
+
+Basic directions:
+
+
+→ Right
+
+↓ Down
+
+← Left
+
+↑ Up
+
+
+Yahan top, bottom, left, right jaise variables ka use samajhna important hai.
+
+
+🟡 Level 4 — Searching & Sorting
+
+
+Focus: Matrix mein efficiently search karna.
+
+
+Search in a Matrix
+
+Search in Row-wise Sorted Matrix
+
+Search in Row & Column-wise Sorted Matrix
+
+Search a 2D Matrix — LeetCode 74
+
+Search a 2D Matrix II — LeetCode 240
+
+Row with Maximum 1s
+
+Find Peak Element in Matrix
+
+Sort a Matrix
+
+Median in a Row-wise Sorted Matrix
+
+
+Patterns:
+
+
+Binary Search
+
+Staircase Search
+
+Row/Column elimination
+
+🟠 Level 5 — Matrix Manipulation
+
+
+Focus: Matrix ko modify aur rotate karna.
+
+
+Rotate Matrix by 90°
+
+Rotate Image — LeetCode 48
+
+Rotate Matrix by 180°
+
+Flip Matrix
+
+Set Matrix Zeroes — LeetCode 73
+
+Replace Rows/Columns
+
+Modify Matrix
+
+In-place Matrix Operations
+
+
+Important trick:
+
+
+Transpose
+
+    +
+
+Reverse each row
+
+    =
+
+90° Clockwise Rotation
+
+
+🟠 Level 6 — Prefix Sum / Submatrix
+
+
+Focus: Matrix ke andar efficient calculations.
+
+
+2D Prefix Sum
+
+Range Sum Query 2D
+
+Submatrix Sum
+
+Maximum Sum Rectangle
+
+Maximum Sum Submatrix
+
+Sum of All Submatrices
+
+Count Submatrices with Given Sum
+
+Largest Square Submatrix
+
+Largest Rectangle in Matrix
+
+
+Patterns:
+
+
+Prefix Sum
+
+Kadane's Algorithm
+
+Dynamic Programming
+
+
+Yahan se questions thode challenging hone start honge. 🔥
+
+
+🔴 Level 7 — Medium / Advanced Matrix
+
+
+Focus: Matrix + Graph concepts ko combine karna.
+
+
+Number of Islands — LeetCode 200
+
+Flood Fill — LeetCode 733
+
+Rotting Oranges — LeetCode 994
+
+Surrounded Regions — LeetCode 130
+
+Pacific Atlantic Water Flow — LeetCode 417
+
+Word Search — LeetCode 79
+
+Game of Life — LeetCode 289
+
+Shortest Path in Binary Matrix — LeetCode 1091
+
+
+Patterns:
+
+
+DFS
+
+BFS
+
+Recursion
+
+Backtracking
+
+Graph Traversal
+
+
+Is level par samajh aata hai ki matrix ko graph ki tarah bhi treat kar sakte hain. 🧠
+
+
+🔴 Level 8 — Hard / Interview Level 🚀
+
+
+Focus: Multiple concepts ko combine karke complex problems solve karna.
+
+
+Maximal Rectangle — LeetCode 85
+
+Largest Rectangle in Histogram — LeetCode 84
+
+Trapping Rain Water II — LeetCode 407
+
+Cherry Pickup — LeetCode 741
+
+Minimum Path Sum — LeetCode 64
+
+Unique Paths — LeetCode 62
+
+Unique Paths II — LeetCode 63
+
+Dungeon Game — LeetCode 174
+
+Longest Increasing Path in a Matrix — LeetCode 329
+
+Word Search II — LeetCode 212
+
+
+Patterns:
+
+
+Dynamic Programming
+
+DFS + Memoization
+
+BFS
+
+Backtracking
+
+Monotonic Stack
+
+Graph
+
+Advanced Prefix Sum
+
+🧠 Patterns Jo Mujhe Master Karne Hain
+
+1. Basic Traversal
+
+2. Row / Column Traversal
+
+3. Diagonal Traversal
+
+4. Boundary Traversal
+
+5. Spiral Traversal
+
+6. Snake / Wave Pattern
+
+7. Transpose
+
+8. Matrix Rotation
+
+9. Binary Search
+
+10. Staircase Search
+
+11. Prefix Sum
+
+12. Kadane's Algorithm
+
+13. DFS
+
+14. BFS
+
+15. Backtracking
+
+16. Dynamic Programming
+
+17. Graph on Matrix
+
+18. Monotonic Stack
+
+
+🎯 Mera Current Goal
+
+
+Abhi main Java mein 2D Array / Matrix questions ek-ek karke practice kar raha hoon.
+
+
+Main try kar raha hoon ki:
+
+
+Question → Approach → Pattern → Dry Run → Code
+
+
+Is process se solve karun, taaki sirf code yaad na rahe aur actual logic samajh aaye. 💪
+
+
+Agar aapke paas 2D Array / Matrix ke important GFG questions hain jo is roadmap mein add hone chahiye, toh please suggest karein. 🙌
+
+
+Learning slowly, but consistently. 🚀
+
+
+#GeeksForGeeks #GFG #DSA #Java #2DArray #Matrix #DSAJourney #CodingJourney #LeetCode #ProblemSolving
