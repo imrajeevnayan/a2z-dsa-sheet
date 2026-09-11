@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Recursion, Enumeration
 - Runtime: 0 ms
-- Memory: 46.12 MB
-- Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/submissions/2138259529/?envType=daily-question&envId=2026-09-11
-- Synced: 2026-09-11T06:42:35.830Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11
+- Synced: 2026-09-11T06:43:21.352Z
 
 ## Problem Description
 
