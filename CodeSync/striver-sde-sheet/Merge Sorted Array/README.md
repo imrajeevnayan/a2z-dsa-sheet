@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.64 MB
 - Problem URL: https://leetcode.com/problems/merge-sorted-array/submissions/2097487110/
-- Synced: 2026-09-10T17:35:13.615Z
+- Synced: 2026-09-10T17:36:00.065Z
 
 ## Problem Description
 
