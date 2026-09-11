@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-10T19:52:51.844Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonFactSet",
+    "Company Tags",
+    "Amazon",
+    "FactSet",
+    "Topic Tags",
+    "Matrix",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def sortedMatrix(self, N, Mat): arr = sorted(sum(Mat, [])) k = -1 return [[arr[k := k+1] for j in range(N)] for i in range(N)]",
+  "problemTitle": "Print all elements in sorted order from row and column wise sorted matrix",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sorted-matrix2333/1",
+  "submissionId": "5rtw8y"
+}
