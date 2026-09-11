@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Recursion, Enumeration
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11
-- Synced: 2026-09-11T06:45:41.044Z
+- Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
+- Synced: 2026-09-11T06:46:26.136Z
 
 ## Problem Description
 
