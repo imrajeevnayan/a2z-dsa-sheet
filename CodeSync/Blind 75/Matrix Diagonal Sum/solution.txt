@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Matrix Diagonal Sum
+ * URL: https://leetcode.com/problems/matrix-diagonal-sum/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T17:45:39.103Z
+ */
+
+class Solution {
+    public int diagonalSum(int[][] mat) {
+        
+    }
+}
