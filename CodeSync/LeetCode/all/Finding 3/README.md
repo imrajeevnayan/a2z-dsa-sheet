@@ -1,13 +1,13 @@
 # Finding 3
 
 - Platform: LeetCode
-- Language: Sorting
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Recursion, Sorting, Enumeration
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/2115642827/?envType=problem-list-v2&envId=sorting
-- Synced: 2026-08-22T03:33:01.076Z
+- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
+- Synced: 2026-09-11T06:14:48.242Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array digits, where each element is a digit. The array 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sorting. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
