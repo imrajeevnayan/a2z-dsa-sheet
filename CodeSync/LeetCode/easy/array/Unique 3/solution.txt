@@ -5,29 +5,30 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Recursion, Enumeration
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-11T06:34:12.799Z
+ * Synced: 2026-09-11T06:35:02.003Z
  */
 
-continue;
-                    }
-
-                    // Even number ka last digit even hona chahiye
-                    if (digits[k] % 2 != 0) {
-                        continue;
-                    }
+// Even number ka last digit even hona chahiye
+                    if (digits[k] % 2 != 0) continue;
+                    
                     // 3-digit number cannot start with 0
-                    if (digits[i] == 0) {
-                    }
-
-                    if (i == j || j == k || i == k) {
-                        continue;
+                    if (digits[i] == 0) continue;
+                
+                    if (i == j || j == k || i == k)  continue;
 
                     // Same index ko dobara use nahi kar sakte
             for (int j = 0; j < digits.length; j++) {
                 for (int k = 0; k < digits.length; k++) {
         for (int i = 0; i < digits.length; i++) {
-    public int totalNumbers(int[] digits) {
         Set<Integer> set = new HashSet<>();
-class Solution {
+
+                    int num = digits[i] * 100
+                            + digits[j] * 10
+                            + digits[k];
+
+                    set.add(num);
+                }
+            }
+        }
