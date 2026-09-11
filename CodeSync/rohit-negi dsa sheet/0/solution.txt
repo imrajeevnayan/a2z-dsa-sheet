@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/spiral-matrix/description/
+ * URL: https://leetcode.com/problems/transpose-matrix/description/
  * Language: Problem List
- * Difficulty: Medium
+ * Difficulty: Easy
  * Topics: Array, Matrix, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T13:12:54.268Z
+ * Synced: 2026-09-10T18:53:35.008Z
  */
 
 class Solution {
-    public List<Integer> spiralOrder(int[][] matrix) {
+    public int[][] transpose(int[][] matrix) {
         
     }
 }
