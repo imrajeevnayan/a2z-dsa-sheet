@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Binary Search
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-peak-element/submissions/2085844600/
-- Synced: 2026-07-29T08:42:52.051Z
+- Memory: 44.07 MB
+- Problem URL: https://leetcode.com/problems/find-peak-element/submissions/2138103514/
+- Synced: 2026-09-11T03:52:32.926Z
 
 ## Problem Description
 
