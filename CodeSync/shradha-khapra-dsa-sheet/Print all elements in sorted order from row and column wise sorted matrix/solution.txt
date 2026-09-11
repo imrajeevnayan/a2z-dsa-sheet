@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonFactSet, Company Tags, Amazon, FactSet, Topic Tags, Matrix, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T19:54:35.055Z
+ * Synced: 2026-09-10T19:55:22.572Z
  */
 
 class Solution {
