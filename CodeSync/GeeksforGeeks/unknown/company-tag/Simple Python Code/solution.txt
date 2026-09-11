@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple Python Code:
+ * URL: https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1
+ * Language: void transpose(vector<vector<int> >& matrix, int n) { // code here int arr[n][n]; for(int i=0;i<n;i++) { for(int j=0;j<n;j++) { arr[i][j]=matrix[j][i]; } } for(int i=0;i<n;i++) { for(int j=0;j<n;j++) { matrix[i][j]=arr[i][j]; } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags MakeMyTripInfoEdgeBloombergNPCI, Company Tags, MakeMyTrip, InfoEdge, Bloomberg, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:31:55.117Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> transpose(int[][] mat) {
+
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+
+        int rows = mat.length;
+        int cols = mat[0].length;
+
+        for (int j = 0; j < cols; j++) {
+
+            ArrayList<Integer> row = new ArrayList<>();
+
+            for (int i = 0; i < rows; i++) {
+                row.add(mat[i][j]);
+            }
+
+            ans.add(row);
+        }
+
+        return ans;
+    }
+}
