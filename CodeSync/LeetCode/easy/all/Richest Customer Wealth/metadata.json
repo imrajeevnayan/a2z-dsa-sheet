@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-10T17:43:24.600Z",
+  "submissionTimestamp": "2026-09-10T17:44:10.351Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Richest Customer Wealth",
-  "problemUrl": "https://leetcode.com/problems/richest-customer-wealth/description/",
+  "problemUrl": "https://leetcode.com/problems/richest-customer-wealth/",
   "submissionId": "o784id"
 }
