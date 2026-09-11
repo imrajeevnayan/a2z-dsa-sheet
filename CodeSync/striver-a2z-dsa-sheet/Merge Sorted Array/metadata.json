@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-10T17:42:11.917Z",
-  "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-10T17:43:00.923Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.64 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/description/",
-  "submissionId": "kkzx22"
+  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/",
+  "submissionId": "tu6es6"
 }
