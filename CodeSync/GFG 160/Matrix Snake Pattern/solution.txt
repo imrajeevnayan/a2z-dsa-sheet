@@ -1,0 +1,38 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Matrix Snake Pattern
+ * URL: https://www.geeksforgeeks.org/problems/print-matrix-in-snake-pattern-1587115621/1
+ * Language: class Solution: def snakePattern(self, matrix): row_position, result = 0, [] for row in matrix: if row_position % 2: result += row[::-1] else: result += row row_position += 1 return result
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Matrix, Related Articles, Print Matrix Snake Pattern, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:29:22.497Z
+ */
+
+class Solution {
+    static ArrayList<Integer> snakePattern(int matrix[][]) {
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        for (int i = 0; i < rows; i++) {
+
+            if (i % 2 == 0) {
+                // Left to Right
+                for (int j = 0; j < cols; j++) {
+                    ans.add(matrix[i][j]);
+                }
+            } else {
+                // Right to Left
+                for (int j = cols - 1; j >= 0; j--) {
+                    ans.add(matrix[i][j]);
+                }
+            }
+        }
+
+        return ans;
+    }
+}
