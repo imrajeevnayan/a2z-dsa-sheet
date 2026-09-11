@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reshape-the-matrix/description/
-- Synced: 2026-09-10T19:11:06.847Z
+- Synced: 2026-09-10T19:11:50.860Z
 
 ## Problem Description
 
