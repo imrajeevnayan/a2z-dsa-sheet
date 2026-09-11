@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Reshape the Matrix
+ * URL: https://leetcode.com/problems/reshape-the-matrix/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Matrix, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:09:24.527Z
+ */
+
+class Solution {
+    public int[][] matrixReshape(int[][] mat, int r, int c) {
+        
+    }
+}
