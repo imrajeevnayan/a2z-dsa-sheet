@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-09-10T13:12:54.268Z",
+  "submissionTimestamp": "2026-09-10T18:53:35.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
     "Matrix",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/spiral-matrix/description/",
-  "submissionId": "np57qy"
+  "problemUrl": "https://leetcode.com/problems/transpose-matrix/description/",
+  "submissionId": "xwifkn"
 }
