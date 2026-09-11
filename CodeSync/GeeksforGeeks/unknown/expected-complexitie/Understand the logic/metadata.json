@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-10T19:34:28.392Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Matrix",
+    "Related Articles",
+    "Sum Upper Triangle Lower Triangle"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def sumTriangles(self, matrix, matrix_size): # Initialize variables for the upper and lower triangles sums lower_triangle_sum, upper_triangle_sum = 0, 0 # Loop through the rows and columns of the matrix for row in range(matrix_size): for col in range(matrix_size): # If the current row index is less than or equal to the current column index, # add the element to the lower triangle sum if row <= col: lower_triangle_sum += matrix[row][col] # If the current row index is greater than or equal to the current column index, # add the element to the upper triangle sum if row >= col: upper_triangle_sum += matrix[row][col] # Return the sums of the upper and lower triangles return lower_triangle_sum, upper_triangle_sum",
+  "problemTitle": "Understand the logic:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-upper-and-lower-triangles-1587115621/1",
+  "submissionId": "ybth0b"
+}
