@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-10T19:29:22.497Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Matrix",
+    "Related Articles",
+    "Print Matrix Snake Pattern",
+    "Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def snakePattern(self, matrix): row_position, result = 0, [] for row in matrix: if row_position % 2: result += row[::-1] else: result += row row_position += 1 return result",
+  "problemTitle": "Matrix Snake Pattern",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-matrix-in-snake-pattern-1587115621/1",
+  "submissionId": "ul1swl"
+}
