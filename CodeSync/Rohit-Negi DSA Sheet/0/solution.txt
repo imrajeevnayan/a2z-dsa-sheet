@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/transpose-matrix/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
+ * Language: Daily Question
  * Difficulty: Easy
- * Topics: Array, Matrix, Simulation
+ * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T18:53:35.008Z
+ * Synced: 2026-09-11T06:11:36.220Z
  */
 
 class Solution {
-    public int[][] transpose(int[][] matrix) {
+    public int totalNumbers(int[] digits) {
         
     }
 }
