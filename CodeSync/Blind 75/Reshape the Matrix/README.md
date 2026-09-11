@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Matrix, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reshape-the-matrix/description/
-- Synced: 2026-09-10T19:15:02.729Z
+- Runtime: 0 ms
+- Memory: 47.59 MB
+- Problem URL: https://leetcode.com/problems/reshape-the-matrix/submissions/2137898702/
+- Synced: 2026-09-10T19:15:48.845Z
 
 ## Problem Description
 
