@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 0 ms
-- Memory: 43.64 MB
-- Problem URL: https://leetcode.com/problems/merge-sorted-array/submissions/2097487110/
-- Synced: 2026-09-10T17:36:47.530Z
+- Memory: 43.68 MB
+- Problem URL: https://leetcode.com/problems/merge-sorted-array/submissions/2033147854/
+- Synced: 2026-09-10T17:37:33.030Z
 
 ## Problem Description
 
