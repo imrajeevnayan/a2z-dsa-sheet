@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Unique 3
- * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11
+ * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/submissions/2138259529/?envType=daily-question&envId=2026-09-11
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-11T06:35:02.003Z
+ * Memory: 46.12 MB
+ * Synced: 2026-09-11T06:35:47.757Z
  */
 
 // Even number ka last digit even hona chahiye
