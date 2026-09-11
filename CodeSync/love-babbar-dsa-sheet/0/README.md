@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Hash Table, Recursion, Enumeration
+- Topics: Array, Hash Table, Recursion, Sorting, Enumeration
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
-- Synced: 2026-09-11T06:11:36.220Z
+- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
+- Synced: 2026-09-11T06:14:02.819Z
 
 ## Problem Description
 
-You are given an array of digits called digits. Your task is to determine the number of distinct three-digit even numbers that can be formed using these digits. Note: Each copy of a digit can only be used once per number, and there may not be leading zeros. Example 1: Input: digits = [1,2,3,4] Output: 12 Explanation: The 12 distinct 3-digit even numbers that can be formed are 124, 132, 134, 142, 214, 234, 312, 314, 324, 342, 412, and 432. Note that 222 cannot be formed because there is only 1 copy of the digit 2. Example 2: Input: digits = [0,2,2] Output: 2 Explanation: The only 3-digit even numbers that can be formed are 202 and 220. Note that the digit 2 can be used twice because it appears twice in the array. Example 3: Input: digits = [6,6,6] Output: 1 Explanation: Only 666 can be formed. Example 4: Input: digits = [1,3,5] Output: 0 Explanation: No even 3-digit numbers can be formed. Constraints: 3 <= digits.length <= 10 0 <= digits[i] <= 9
+You are given an integer array digits, where each element is a digit. The array may contain duplicates. You need to find all the unique integers that follow the given requirements: The integer consists of the concatenation of three elements from digits in any arbitrary order. The integer does not have leading zeros. The integer is even. For example, if the given digits were [1, 2, 3], integers 132 and 312 follow the requirements. Return a sorted array of the unique integers. Example 1: Input: digits = [2,1,3,0] Output: [102,120,130,132,210,230,302,310,312,320] Explanation: All the possible integers that follow the requirements are in the output array. Notice that there are no odd integers or integers with leading zeros. Example 2: Input: digits = [2,2,8,8,2] Output: [222,228,282,288,822,828,882] Explanation: The same digit can be used as many times as it appears in digits. In this example, the digit 8 is used twice each time in 288, 828, and 882. Example 3: Input: digits = [3,7,5] Output: [] Explanation: No even integers can be formed using the given digits. Constraints: 3 <= digits.length <= 100 0 <= digits[i] <= 9
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Recursion, Enumeration. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
