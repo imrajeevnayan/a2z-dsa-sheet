@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Sorted Array
- * URL: https://leetcode.com/problems/merge-sorted-array/
+ * URL: https://leetcode.com/problems/merge-sorted-array/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
- * Runtime: 0 ms
- * Memory: 43.84 MB
- * Synced: 2026-09-10T17:40:37.899Z
+ * Runtime: 1 ms
+ * Memory: N/A
+ * Synced: 2026-09-10T17:41:25.148Z
  */
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        
+
+        // nums2 ko nums1 ke end mein copy karo
+        for (int i = 0; i < n; i++) {
+            nums1[m + i] = nums2[i];
+        }
+
+        // Ab poore array ko sort karo
+        Arrays.sort(nums1);
     }
 }
