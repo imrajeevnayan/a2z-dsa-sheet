@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/merge-three-sorted-arrays-1587115620/1
-- Synced: 2026-09-10T17:34:20.643Z
+- Synced: 2026-09-10T17:35:08.648Z
 
 ## Problem Description
 
