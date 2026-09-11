@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T19:38:39.721Z
+ * Synced: 2026-09-10T19:39:58.294Z
  */
 
 🟢 2D Array / Matrix DSA Roadmap — Level 1 to Level 8 🚀
@@ -17,7 +17,6 @@ Maine recently 2D Arrays / Matrix problems practice karna start kiya hai. Starti
 
 
 Isliye maine decide kiya ki randomly questions solve karne ke bajay Level 1 se Level 8 tak proper pattern-wise practice karunga.
-
 
 Mera goal hai: solution ratna nahi, pattern samajhna. 🧠💻
 
