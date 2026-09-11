@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-11T06:20:15.810Z",
+  "submissionTimestamp": "2026-09-11T06:21:02.673Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.95 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Unique 3",
-  "problemUrl": "https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11",
-  "submissionId": "d7iusq"
+  "problemUrl": "https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11",
+  "submissionId": "klarzk"
 }
