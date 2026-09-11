@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Sorting
-- Runtime: 0 ms
-- Memory: 43.84 MB
-- Problem URL: https://leetcode.com/problems/merge-sorted-array/
-- Synced: 2026-09-10T17:40:37.899Z
+- Runtime: 1 ms
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/merge-sorted-array/description/
+- Synced: 2026-09-10T17:41:25.148Z
 
 ## Problem Description
 
