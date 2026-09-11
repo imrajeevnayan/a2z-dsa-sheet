@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-11T06:45:41.044Z",
+  "submissionTimestamp": "2026-09-11T06:46:26.136Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Unique 3",
-  "problemUrl": "https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11",
+  "problemUrl": "https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11",
   "submissionId": "7feao5"
 }
