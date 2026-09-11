@@ -3890,10 +3890,15 @@
     "custom:striver-a2z-dsa-sheet"
   ],
   "leetcode:transpose-matrix": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
+    "Blind75",
+    "Grind75",
+    "Grind169",
+    "NeetCode150",
+    "custom:algomaster-300",
     "custom:arsh-goyal-dsa-sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
