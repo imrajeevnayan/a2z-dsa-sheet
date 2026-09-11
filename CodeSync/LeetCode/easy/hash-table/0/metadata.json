@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-30T18:55:10.563Z",
+  "submissionTimestamp": "2026-09-11T06:14:02.819Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Array",
     "Hash Table",
-    "String",
-    "Counting"
+    "Recursion",
+    "Sorting",
+    "Enumeration"
   ],
   "platform": "LeetCode",
-  "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv",
-  "submissionId": "yz0wq2"
+  "problemUrl": "https://leetcode.com/problems/finding-3-digit-even-numbers/description/",
+  "submissionId": "zgqzuj"
 }
