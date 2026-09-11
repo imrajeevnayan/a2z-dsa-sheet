@@ -7,19 +7,23 @@
  * Topics: Array, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T17:44:10.351Z
+ * Synced: 2026-09-10T17:44:55.703Z
  */
 
 class Solution {
     public int maximumWealth(int[][] accounts) {
         int maxWealth = 0;
-        for (int[] customer : accounts) {
-            int wealth = 0;
-            for (int balance : customer) {
-                wealth += balance;
+
+        for (int i = 0; i < accounts.length; i++) {
+            int sum = 0;
+
+            for (int j = 0; j < accounts[i].length; j++) {
+                sum += accounts[i][j];
             }
-            maxWealth = Math.max(maxWealth, wealth);
+
+            maxWealth = Math.max(maxWealth, sum);
         }
+
         return maxWealth;
     }
 }
