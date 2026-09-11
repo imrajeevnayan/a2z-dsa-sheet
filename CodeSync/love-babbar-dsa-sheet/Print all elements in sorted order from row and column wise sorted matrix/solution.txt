@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Print all elements in sorted order from row and column wise sorted matrix
+ * URL: https://www.geeksforgeeks.org/problems/sorted-matrix2333/1
+ * Language: class Solution: def sortedMatrix(self, N, Mat): arr = sorted(sum(Mat, [])) k = -1 return [[arr[k := k+1] for j in range(N)] for i in range(N)]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonFactSet, Company Tags, Amazon, FactSet, Topic Tags, Matrix, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:52:51.844Z
+ */
+
+class Solution {
+    public int[][] sortedMatrix(int mat[][]) {
+        // code here
+        
+    }
+};
