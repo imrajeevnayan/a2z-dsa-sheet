@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/matrix-diagonal-sum/
-- Synced: 2026-09-10T17:47:26.937Z
+- Synced: 2026-09-10T17:48:15.917Z
 
 ## Problem Description
 
