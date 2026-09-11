@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Hash Table, Recursion, Enumeration
+ * Topics: Array, Hash Table, Recursion, Sorting, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T06:11:36.220Z
+ * Synced: 2026-09-11T06:14:02.819Z
  */
 
 class Solution {
-    public int totalNumbers(int[] digits) {
-        
-    }
-}
+    public int[] findEvenNumbers(int[] digits) {
+        Set<Integer> set = new TreeSet<>();
+
+        for (int i = 0; i < digits.length; i++) {
+            for (int j = 0; j < digits.length; j++) {
+                for (int k = 0; k < digits.length; k++) {
+                    if (i != j && j != k && i != k &&
+                        digits[i] != 0 && digits[k] % 2 == 0) {
+                        
+                        int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                        set.add(num);
+                    }
+                }
+            }
+        }
+
+        int[] ans = new int[set.size()];
+        int index = 0;
+
+        for (int num : set) {
+            ans[index++] = num;
