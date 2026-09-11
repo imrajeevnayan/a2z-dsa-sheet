@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Matrix, Related Articles, Sum Upper Triangle Lower Triangle
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T19:38:29.585Z
+ * Synced: 2026-09-10T19:39:17.585Z
  */
 
 class Solution {
