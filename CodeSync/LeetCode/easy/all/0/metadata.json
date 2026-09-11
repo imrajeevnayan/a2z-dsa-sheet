@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-09T13:20:03.318Z",
+  "submissionTimestamp": "2026-09-10T18:53:35.008Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Graph Theory",
-    "Matrix"
+    "Matrix",
+    "Simulation"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "bsdy9u"
+  "problemUrl": "https://leetcode.com/problems/transpose-matrix/description/",
+  "submissionId": "xwifkn"
 }
