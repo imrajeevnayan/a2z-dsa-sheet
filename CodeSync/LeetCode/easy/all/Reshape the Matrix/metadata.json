@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-10T19:15:02.729Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-10T19:15:48.845Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.59 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reshape the Matrix",
-  "problemUrl": "https://leetcode.com/problems/reshape-the-matrix/description/",
-  "submissionId": "mhf2hh"
+  "problemUrl": "https://leetcode.com/problems/reshape-the-matrix/submissions/2137898702/",
+  "submissionId": "wvv3vp"
 }
