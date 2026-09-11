@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: 0 ms
  * Memory: 46.12 MB
- * Synced: 2026-09-11T06:35:47.757Z
+ * Synced: 2026-09-11T06:36:33.219Z
  */
 
 // Even number ka last digit even hona chahiye
