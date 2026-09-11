@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/boundary-traversal-of-matrix-1587115620/1
-- Synced: 2026-09-10T19:23:44.663Z
+- Synced: 2026-09-10T19:24:32.664Z
 
 ## Problem Description
 
