@@ -1,25 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: Find Peak Element
- * URL: https://leetcode.com/problems/find-peak-element/submissions/2085844600/
+ * URL: https://leetcode.com/problems/find-peak-element/submissions/2138103514/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-07-29T08:42:52.051Z
+ * Memory: 44.07 MB
+ * Synced: 2026-09-11T03:52:32.926Z
  */
 
-while (left < right) {
-            int mid = left + (right - left) / 2;
-
-                right = mid;
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int low=0,high=nums.length-2,ans=nums.length-1;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(nums[mid]>nums[mid+1]){
+                ans=mid;
+                high=mid-1;
             }
-            if (nums[mid] < nums[mid + 1]) {
-            } else {
+            else{
+                low=mid+1;
+            }
         }
-                left = mid + 1;
-
-        return left;
+        return ans;
     }
 }
