@@ -1,16 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Finding 3
- * URL: https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/2115642827/?envType=problem-list-v2&envId=sorting
- * Language: Sorting
+ * URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Recursion, Sorting, Enumeration
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-22T03:33:01.076Z
+ * Synced: 2026-09-11T06:14:48.242Z
  */
 
-}
+class Solution {
+    public int[] findEvenNumbers(int[] digits) {
+        Set<Integer> set = new TreeSet<>();
+
+        for (int i = 0; i < digits.length; i++) {
+            for (int j = 0; j < digits.length; j++) {
+                for (int k = 0; k < digits.length; k++) {
+                    if (i != j && j != k && i != k &&
+                        digits[i] != 0 && digits[k] % 2 == 0) {
+                        
+                        int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                        set.add(num);
+                    }
+                }
+            }
         }
 
         int[] ans = new int[set.size()];
@@ -18,8 +32,3 @@
 
         for (int num : set) {
             ans[index++] = num;
-        }
-
-        return ans;
-    }
-}
