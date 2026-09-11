@@ -7,15 +7,12 @@
  * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-11T06:44:55.606Z
+ * Synced: 2026-09-11T06:45:41.044Z
  */
 
 // Tens place: 0-9
             for (int b = 0; b <= 9; b++) {
-
-                if (freq[b] == 0) {
-                    continue;
-                
+                if (freq[b] == 0)  continue;
 
             freq[a]--;
             if (freq[a] == 0) continue;
@@ -26,14 +23,17 @@
         for (int digit : digits)  freq[digit]++;
         // Frequency of every digit
         int[] freq = new int[10];
-class Solution {
-    public int totalNumbers(int[] digits) {
-
                 freq[b]--;
 
                 // Units place: even digits only
 
                 for (int c = 0; c <= 8; c += 2) {
-
-                    if (freq[c] > 0) {
-                        count++;
+                    if (freq[c] > 0)  count++;  
+                }
+                freq[b]++;
+            }
+            freq[a]++;
+        }
+        return count;
+    public int totalNumbers(int[] digits) {
+class Solution {
