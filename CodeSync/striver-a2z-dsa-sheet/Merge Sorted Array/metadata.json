@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-10T17:39:06.916Z",
+  "submissionTimestamp": "2026-09-10T17:39:52.433Z",
   "runtime": "0 ms",
   "memoryUsage": "43.63 MB",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/submissions/2137794598/",
-  "submissionId": "3qgp4i"
+  "problemUrl": "https://leetcode.com/problems/merge-sorted-array/",
+  "submissionId": "7a4ixx"
 }
