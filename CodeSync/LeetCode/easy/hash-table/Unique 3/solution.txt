@@ -5,13 +5,30 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Recursion, Enumeration
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-11T06:17:57.700Z
+ * Runtime: 0 ms
+ * Memory: 43.95 MB
+ * Synced: 2026-09-11T06:18:43.639Z
  */
 
-class Solution {
+// Tens place: 0-9
+            freq[a]--;
+
+
+            }
+                continue;
+            if (freq[a] == 0) {
+
+        for (int a = 1; a <= 9; a++) {
+        // Hundreds place: 1-9
+
+        int count = 0;
+
+            freq[digit]++;
+        }
+        for (int digit : digits) {
+
+        // Frequency of every digit
+        int[] freq = new int[10];
     public int totalNumbers(int[] digits) {
-        
-    }
-}
+class Solution {
+            for (int b = 0; b <= 9; b++) {
