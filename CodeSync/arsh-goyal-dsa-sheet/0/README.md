@@ -2,16 +2,16 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Medium
+- Difficulty: Easy
 - Topics: Array, Matrix, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/spiral-matrix/description/
-- Synced: 2026-09-10T13:12:54.268Z
+- Problem URL: https://leetcode.com/problems/transpose-matrix/description/
+- Synced: 2026-09-10T18:53:35.008Z
 
 ## Problem Description
 
-Given an m x n matrix, return all elements of the matrix in spiral order. Example 1: Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [1,2,3,6,9,8,7,4,5] Example 2: Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]] Output: [1,2,3,4,8,12,11,10,9,5,6,7] Constraints: m == matrix.length n == matrix[i].length 1 <= m, n <= 10 -100 <= matrix[i][j] <= 100
+Given a 2D integer array matrix, return the transpose of matrix. The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices. Example 1: Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [[1,4,7],[2,5,8],[3,6,9]] Example 2: Input: matrix = [[1,2,3],[4,5,6]] Output: [[1,4],[2,5],[3,6]] Constraints: m == matrix.length n == matrix[i].length 1 <= m, n <= 1000 1 <= m * n <= 105 -109 <= matrix[i][j] <= 109
 
 ## Explanation
 
