@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Understand the logic:
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-upper-and-lower-triangles-1587115621/1
+ * Language: class Solution: def sumTriangles(self, matrix, matrix_size): # Initialize variables for the upper and lower triangles sums lower_triangle_sum, upper_triangle_sum = 0, 0 # Loop through the rows and columns of the matrix for row in range(matrix_size): for col in range(matrix_size): # If the current row index is less than or equal to the current column index, # add the element to the lower triangle sum if row <= col: lower_triangle_sum += matrix[row][col] # If the current row index is greater than or equal to the current column index, # add the element to the upper triangle sum if row >= col: upper_triangle_sum += matrix[row][col] # Return the sums of the upper and lower triangles return lower_triangle_sum, upper_triangle_sum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Matrix, Related Articles, Sum Upper Triangle Lower Triangle
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T19:34:28.392Z
+ */
+
+class Solution {
+    public ArrayList<Integer> sumTriangles(int[][] mat) {
+        int n = mat.length;
+
+        int upperSum = 0, lowerSum = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                // Upper triangle
+                if (j >= i) {
+                    upperSum += mat[i][j];
+                }
+
+                // Lower triangle
+                if (i >= j) {
+                    lowerSum += mat[i][j];
+                }
+            }
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+        ans.add(upperSum);
+        ans.add(lowerSum);
+
+        return ans;
+    }
+}
