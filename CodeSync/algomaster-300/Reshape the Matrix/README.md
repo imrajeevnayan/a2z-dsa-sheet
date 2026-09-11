@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.59 MB
 - Problem URL: https://leetcode.com/problems/reshape-the-matrix/submissions/2137898702/
-- Synced: 2026-09-10T19:15:48.845Z
+- Synced: 2026-09-10T19:17:06.838Z
 
 ## Problem Description
 
