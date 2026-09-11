@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-10T19:31:55.117Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MakeMyTripInfoEdgeBloombergNPCI",
+    "Company Tags",
+    "MakeMyTrip",
+    "InfoEdge",
+    "Bloomberg",
+    "NPCI",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "void transpose(vector<vector<int> >& matrix, int n) { // code here int arr[n][n]; for(int i=0;i<n;i++) { for(int j=0;j<n;j++) { arr[i][j]=matrix[j][i]; } } for(int i=0;i<n;i++) { for(int j=0;j<n;j++) { matrix[i][j]=arr[i][j]; } } }",
+  "problemTitle": "Simple Python Code:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1",
+  "submissionId": "8v8r6a"
+}
