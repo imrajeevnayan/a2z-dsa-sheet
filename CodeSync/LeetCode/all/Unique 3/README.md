@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, Hash Table, Recursion, Enumeration
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 43.95 MB
 - Problem URL: https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11
-- Synced: 2026-09-11T06:17:57.700Z
+- Synced: 2026-09-11T06:18:43.639Z
 
 ## Problem Description
 
