@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/find-the-degree-of-each-vertex/description/?envType=problem-list-v2&envId=graph
- * Language: Graph Theory
+ * URL: https://leetcode.com/problems/transpose-matrix/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Graph Theory, Matrix
+ * Topics: Array, Matrix, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-09T13:20:03.318Z
+ * Synced: 2026-09-10T18:53:35.008Z
  */
 
 class Solution {
-    public int[] findDegrees(int[][] matrix) {
+    public int[][] transpose(int[][] matrix) {
         
     }
 }
