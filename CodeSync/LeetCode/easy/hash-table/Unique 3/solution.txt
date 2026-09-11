@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Unique 3
+ * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Recursion, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-11T06:12:22.675Z
+ */
+
+class Solution {
+    public int totalNumbers(int[] digits) {
+        
+    }
+}
