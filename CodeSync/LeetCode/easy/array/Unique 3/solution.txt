@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Unique 3
- * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
+ * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/?envType=daily-question&envId=2026-09-11
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-11T06:24:49.685Z
+ * Synced: 2026-09-11T06:25:34.850Z
  */
 
 // Tens place: 0-9
@@ -18,17 +18,17 @@
 
                 // Units place: even digits only
                 for (int c = 0; c <= 8; c += 2) {
+            if (freq[a] == 0) continue;
             freq[a]--;
         for (int a = 1; a <= 9; a++) {
-            if (freq[a] == 0) continue;
-        // Hundreds place: 1-9
 
+        // Hundreds place: 1-9
         int count = 0;
-        }
             freq[digit]++;
+        }
         for (int digit : digits) {
         // Frequency of every digit
-        int[] freq = new int[10];
 
-class Solution {
+        int[] freq = new int[10];
     public int totalNumbers(int[] digits) {
+class Solution {
