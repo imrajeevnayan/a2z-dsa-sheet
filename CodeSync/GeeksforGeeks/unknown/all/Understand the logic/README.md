@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sum-of-upper-and-lower-triangles-1587115621/1
-- Synced: 2026-09-10T19:36:53.585Z
+- Synced: 2026-09-10T19:37:41.602Z
 
 ## Problem Description
 
