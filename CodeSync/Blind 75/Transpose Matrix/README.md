@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Matrix, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/transpose-matrix/description/
-- Synced: 2026-09-10T18:55:26.847Z
+- Runtime: 0 ms
+- Memory: 46.85 MB
+- Problem URL: https://leetcode.com/problems/transpose-matrix/submissions/2137883113/
+- Synced: 2026-09-10T18:56:11.991Z
 
 ## Problem Description
 
