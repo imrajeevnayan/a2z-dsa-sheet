@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
- * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * URL: https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question&envId=2026-09-11
+ * Language: Daily Question
  * Difficulty: Easy
- * Topics: Hash Table, String, Counting
+ * Topics: Array, Hash Table, Recursion, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:55:10.563Z
+ * Synced: 2026-09-11T06:11:36.220Z
  */
 
 class Solution {
-    public boolean checkAlmostEquivalent(String word1, String word2) {
+    public int totalNumbers(int[] digits) {
         
     }
 }
