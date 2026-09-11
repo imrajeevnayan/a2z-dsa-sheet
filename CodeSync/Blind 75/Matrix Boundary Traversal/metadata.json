@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-10T19:21:19.443Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Matrix",
+    "Related Articles",
+    "Boundary Elements Matrix"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> boundaryTraversal(vector<vector<int>>& mat) { vector<int> res; int row = mat.size(); int col = mat[0].size(); if (row == 1) { for (int j = 0; j < col; j++) res.push_back(mat[0][j]); return res; } if (col == 1) { for (int i = 0; i < row; i++) res.push_back(mat[i][0]); return res; } for (int j = 0; j < col; j++) res.push_back(mat[0][j]); for (int i = 1; i < row; i++) res.push_back(mat[i][col - 1]); for (int j = col - 2; j >= 0; j--) res.push_back(mat[row - 1][j]); for (int i = row - 2; i > 0; i--) res.push_back(mat[i][0]); return res; } };",
+  "problemTitle": "Matrix Boundary Traversal",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/boundary-traversal-of-matrix-1587115620/1",
+  "submissionId": "tc3j8x"
+}
