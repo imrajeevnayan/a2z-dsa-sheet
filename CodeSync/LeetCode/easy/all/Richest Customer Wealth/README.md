@@ -6,8 +6,8 @@
 - Topics: Array, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/richest-customer-wealth/description/
-- Synced: 2026-09-10T17:43:24.600Z
+- Problem URL: https://leetcode.com/problems/richest-customer-wealth/
+- Synced: 2026-09-10T17:44:10.351Z
 
 ## Problem Description
 
