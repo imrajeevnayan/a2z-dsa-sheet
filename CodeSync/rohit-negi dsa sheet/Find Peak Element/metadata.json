@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-30T11:34:14.836Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-11T03:52:32.926Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.07 MB",
+  "difficulty": "Medium",
   "tags": [
-    "Easy Clear all"
+    "Array",
+    "Binary Search"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Find Peak Element",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-peak-element_1081482",
-  "submissionId": "wh3bac"
+  "problemUrl": "https://leetcode.com/problems/find-peak-element/submissions/2138103514/",
+  "submissionId": "ect2gm"
 }
