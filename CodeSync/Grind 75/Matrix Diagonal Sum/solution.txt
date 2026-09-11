@@ -7,11 +7,14 @@
  * Topics: Array, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T17:47:26.937Z
+ * Synced: 2026-09-10T17:48:15.917Z
  */
 
 class Solution {
     public int diagonalSum(int[][] mat) {
-        
+        int maxSum=0;
+        for(int i=0;i<mat.length;i++){
+            for(int j=)
+        }
     }
 }
