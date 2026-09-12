@@ -3968,5 +3968,9 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "geeksforgeeks:smallest-subarray-with-sum-greater-than-x5651": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
