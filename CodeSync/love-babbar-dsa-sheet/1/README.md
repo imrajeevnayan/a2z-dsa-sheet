@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: LeetCode 75
-- Difficulty: Medium
-- Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+- Language: Daily Question
+- Difficulty: Hard
+- Topics: Array, Binary Search, Dynamic Programming, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-09-12T03:13:52.440Z
+- Problem URL: https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question&envId=2026-09-12
+- Synced: 2026-09-12T09:47:38.635Z
 
 ## Problem Description
 
-Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom. Example 1: Input: root = [1,2,3,null,5,null,4] Output: [1,3,4] Explanation: Example 2: Input: root = [1,2,3,4,null,null,null,5] Output: [1,3,4,5] Explanation: Example 3: Input: root = [1,null,3] Output: [1,3] Example 4: Input: root = [] Output: [] Constraints: The number of nodes in the tree is in the range [0, 100]. -100 <= Node.val <= 100
+You are given a 2D integer array intervals, where intervals[i] = [li, ri, weighti]. Interval i starts at position li and ends at ri, and has a weight of weighti. You can choose up to 4 non-overlapping intervals. The score of the chosen intervals is defined as the total sum of their weights. Return the lexicographically smallest array of at most 4 indices from intervals with maximum score, representing your choice of non-overlapping intervals. Two intervals are said to be non-overlapping if they do not share any points. In particular, intervals sharing a left or right boundary are considered overlapping. Example 1: Input: intervals = [[1,3,2],[4,5,2],[1,5,5],[6,9,3],[6,7,1],[8,9,1]] Output: [2,3] Explanation: You can choose the intervals with indices 2, and 3 with respective weights of 5, and 3. Example 2: Input: intervals = [[5,8,1],[6,7,7],[4,7,3],[9,10,6],[7,8,2],[11,14,3],[3,5,5]] Output: [1,3,5,6] Explanation: You can choose the intervals with indices 1, 3, 5, and 6 with respective weights of 7, 6, 3, and 5. Constraints: 1 <= intevals.length <= 5 * 104 intervals[i].length == 3 intervals[i] = [li, ri, weighti] 1 <= li <= ri <= 109 1 <= weighti <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Tree, Depth-First Search, Breadth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Binary Search, Dynamic Programming, Sorting. Review the synced source file for the implementation details.
