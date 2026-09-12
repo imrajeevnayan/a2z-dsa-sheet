@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3830 ms
+- Runtime: 7302 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406
-- Synced: 2026-09-12T12:56:36.814Z
+- Problem URL: https://www.naukri.com/code360/problems/first-negative-in-every-window_759333
+- Synced: 2026-09-12T16:17:22.333Z
 
 ## Problem Description
 
