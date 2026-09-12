@@ -7,7 +7,7 @@
 - Runtime: 82 ms
 - Memory: 158.32 MB
 - Problem URL: https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/
-- Synced: 2026-09-12T10:57:55.525Z
+- Synced: 2026-09-12T10:58:49.515Z
 
 ## Problem Description
 
