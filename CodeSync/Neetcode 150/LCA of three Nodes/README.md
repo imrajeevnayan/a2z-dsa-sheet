@@ -7,7 +7,7 @@
 - Runtime: 2631 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/sliding-window-maximum_980226
-- Synced: 2026-09-12T16:24:23.972Z
+- Synced: 2026-09-12T16:25:24.282Z
 
 ## Problem Description
 
