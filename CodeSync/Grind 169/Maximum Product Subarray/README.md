@@ -1,18 +1,18 @@
 # Maximum Product Subarray
 
-- Platform: LeetCode
-- Language: Problem List
+- Platform: Coding Ninjas (Code360)
+- Language: Java (SE 1.8)
 - Difficulty: Medium
-- Topics: Array, Dynamic Programming
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-product-subarray/description/
-- Synced: 2026-09-12T11:52:25.301Z
+- Problem URL: https://www.naukri.com/code360/problems/maximum-product-subarray_1115474
+- Synced: 2026-09-12T12:53:13.154Z
 
 ## Problem Description
 
-Given an integer array nums, find a subarray that has the largest product, and return the product. The test cases are generated so that the answer will fit in a 32-bit integer. Note that the product of an array with a single element is the value of that element. Example 1: Input: nums = [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6. Example 2: Input: nums = [-2,0,-1] Output: 0 Explanation: The result cannot be 2, because [-2,-1] is not a subarray. Constraints: 1 <= nums.length <= 2 * 104 -10 <= nums[i] <= 10 The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
+Problem statement Send feedback
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). Review the synced source file for the implementation details.
