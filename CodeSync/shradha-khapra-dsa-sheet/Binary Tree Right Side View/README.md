@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.38 MB
 - Problem URL: https://leetcode.com/problems/binary-tree-right-side-view/submissions/2139072992/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-09-12T03:18:37.421Z
+- Synced: 2026-09-12T03:20:15.789Z
 
 ## Problem Description
 
