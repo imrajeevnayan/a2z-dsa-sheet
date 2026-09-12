@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T17:36:33.479Z
+ * Synced: 2026-09-12T17:37:31.827Z
  */
 
 🚀 Fixed Size Sliding Window — Complete DSA Roadmap
@@ -550,7 +550,6 @@ Need first negative?
 Need maximum/minimum?
 
 → Monotonic Deque
-
 
 🎯 Difficulty Roadmap
 
