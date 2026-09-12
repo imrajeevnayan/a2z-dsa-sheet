@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T17:30:37.903Z
+ * Synced: 2026-09-11T17:31:23.250Z
  */
 
 🚀 Sliding Window Pattern – Complete DSA Roadmap
@@ -33,7 +33,7 @@ Sliding Window mainly in problems involving:
 
 ▸Longest/shortest range
 
-Maximum/minimum/count of valid ranges
+▸Maximum/minimum/count of valid ranges
 
 
 Hum ek window maintain karte hain:
@@ -64,25 +64,25 @@ Basic idea:
 Question mein ye keywords dekho:
 
 
-subarray
+▸subarray
 
-substring
+▸substring
 
-contiguous
+▸contiguous
 
-consecutive
+▸consecutive
 
-longest
+▸longest
 
-shortest
+▸shortest
 
-maximum
+▸maximum
 
-minimum
+▸minimum
 
-count
+▸count
 
-at most K
+▸at most K
 
 exactly K
 
