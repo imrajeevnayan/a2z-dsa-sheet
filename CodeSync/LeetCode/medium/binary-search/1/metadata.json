@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-22T18:26:14.270Z",
+  "submissionTimestamp": "2026-09-12T11:42:17.235Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "bm860c"
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/",
+  "submissionId": "7aevo1"
 }
