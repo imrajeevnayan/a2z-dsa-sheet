@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-09-12T08:26:22.348Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Queue",
+    "Sliding Window",
+    "Heap (Priority Queue)",
+    "Monotonic Queue",
+    "Range Minimum",
+    "Maximum Query"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Sliding Window Maximum",
+  "problemUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+  "submissionId": "9eaup6"
+}
