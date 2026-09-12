@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T14:55:03.377Z
+ * Synced: 2026-09-11T14:57:08.477Z
  */
 
 import java.io.*;
@@ -29,12 +29,14 @@ public class Solution {
             pair_right[i] = s.next();
         }
 
-        Set<String>set=new HashSet<>();
-        for(int i=0;i<t;i++){
-            String pair=pair_left[i]+ " " + pair_right[i];
-        }
+//Write your code here
+
+       Set<String> set = new HashSet<>(); 
+       for (int i = 0; i < t; i++) {
+         String pair = pair_left[i] + " " + pair_right[i];
    }
-            set.add(pair);
-            System.out.println(set.size());
-        s.close();
+          set.add(pair); 
+          System.out.println(set.size());
+           } 
+           s.close();
 }
