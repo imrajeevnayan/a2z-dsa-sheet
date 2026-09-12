@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T09:47:38.635Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "submissionTimestamp": "2026-09-12T11:16:20.806Z",
+  "runtime": "1 ms",
+  "memoryUsage": "77.04 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Binary Search",
-    "Dynamic Programming",
-    "Sorting"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Java",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question&envId=2026-09-12",
-  "submissionId": "mwq91p"
+  "problemUrl": "https://leetcode.com/submissions/detail/2139295637/",
+  "submissionId": "ny7o7b"
 }
