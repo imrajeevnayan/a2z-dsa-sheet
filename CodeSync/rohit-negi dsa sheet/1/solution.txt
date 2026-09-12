@@ -1,16 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2081073720/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 556 ms
+ * URL: https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T17:52:58.711Z
+ * Synced: 2026-09-12T03:13:52.440Z
  */
 
-1SELECT e.name AS Employee
-2FROM Employee e JOIN Employee m
-3ON e.managerId = m.id
-4WHERE e.salary > m.salary;
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> rightSideView(TreeNode root) {
+        
+    }
+}
