@@ -6,7 +6,7 @@
 # Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-11T17:40:54.294Z
+# Synced: 2026-09-11T17:41:40.373Z
 
 🚀 Sliding Window Pattern — Quick Master Guide
 
@@ -16,39 +16,25 @@ Goal: Question dekho → pattern identify karo → window maintain karo → expa
 
 🧠 How to Identify?
 
-
 Sliding Window ka strong signal:
 
+🔹Subarray / Substring
 
-Subarray / Substring
+🔹Contiguous / Consecutive
 
-Contiguous / Consecutive
+🔹Longest / Shortest
 
-Longest / Shortest
+🔹Maximum / Minimum Count
 
-Maximum / Minimum
+🔹 At most K / Exactly K
 
-Count
-
-At most K / Exactly K
-
-
-Ask:
-
-
-"Can I represent the answer as one continuous window [l...r]?"
-
+Ask:"Can I represent the answer as one continuous window [l...r]?"
 
 🟢 1. Fixed Size Window
 
-
 Window size = K.
 
-
-Pattern:
-
-
-➡️ Add right
+Pattern:➡️ Add right
 
 🎯 Size == K → answer
 
