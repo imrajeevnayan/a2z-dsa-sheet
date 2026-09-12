@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/tree-traversal_981269
-- Synced: 2026-09-12T16:38:22.850Z
+- Synced: 2026-09-12T16:39:22.868Z
 
 ## Problem Description
 
