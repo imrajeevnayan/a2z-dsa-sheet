@@ -2,42 +2,30 @@
  * Platform: HackerRank
  * Problem: Java Hashset
  * URL: https://www.hackerrank.com/challenges/java-hashset/problem
- * Language: Java 8
+ * Language: Java 15
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T15:00:33.180Z
+ * Synced: 2026-09-11T15:02:04.496Z
  */
 
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
- public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        int t = s.nextInt();
-        String [] pair_left = new String[t];
-        String [] pair_right = new String[t];
-        
-        for (int i = 0; i < t; i++) {
-            pair_left[i] = s.next();
-            pair_right[i] = s.next();
-        }
-        Set<List<String>> set = new HashSet<>();
-//Write your code here
-
-         for (int i = 0; i < t; i++) { 
-            String left = s.next(); 
-            String right = s.next(); 
-   }
-            set.add(Arrays.asList(left, right)); 
-            System.out.println(set.size());
-             }
-              s.close();
-            
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in); 
+        int t = s.nextInt(); 
+        Set<String> set = new HashSet<>(); 
+        for (int i = 0; i < t; i++) { 
+          String left = s.next(); 
+          String right = s.next(); 
+          String pair = left + " " + right; 
+    }
+          set.add(pair); 
+          System.out.println(set.size()); 
+          } 
+          s.close();
 }
