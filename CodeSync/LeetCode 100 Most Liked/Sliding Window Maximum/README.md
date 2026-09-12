@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sliding-window-maximum/
-- Synced: 2026-09-12T08:59:12.714Z
+- Synced: 2026-09-12T10:57:07.794Z
 
 ## Problem Description
 
