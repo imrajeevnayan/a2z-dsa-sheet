@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:26.234Z",
+  "submissionTimestamp": "2026-09-12T11:42:17.235Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Divide and Conquer",
-    "Dynamic Programming"
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
-  "submissionId": "v6bs5c"
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/",
+  "submissionId": "7aevo1"
 }
