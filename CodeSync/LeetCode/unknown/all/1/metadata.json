@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-25T17:52:58.711Z",
-  "runtime": "556 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-12T11:16:20.806Z",
+  "runtime": "1 ms",
+  "memoryUsage": "77.04 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Java",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2081073720/",
-  "submissionId": "pfr21v"
+  "problemUrl": "https://leetcode.com/submissions/detail/2139295637/",
+  "submissionId": "ny7o7b"
 }
