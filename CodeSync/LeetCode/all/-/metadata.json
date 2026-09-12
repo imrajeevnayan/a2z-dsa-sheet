@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-09T20:07:47.147Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-12T11:16:35.846Z",
+  "runtime": "4 ms",
+  "memoryUsage": "69.61 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Backtracking",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Graph Theory",
-    "Directed Acyclic Graph"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Java",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "yty2t4"
+  "problemUrl": "https://leetcode.com/submissions/detail/2139409513/",
+  "submissionId": "ydgy9v"
 }
