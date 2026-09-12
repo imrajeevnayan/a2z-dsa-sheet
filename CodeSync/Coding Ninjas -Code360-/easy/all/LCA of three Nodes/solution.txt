@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 3094 ms
  * Memory: N/A
- * Synced: 2026-09-12T11:50:11.595Z
+ * Synced: 2026-09-12T11:50:56.984Z
  */
 
 import java.util.*; 
@@ -18,14 +18,16 @@ public class Solution {
         int left = 0,currSum = 0,ans = Integer.MAX_VALUE;
         for (int right = 0; right < n; right++) {
             currSum += arr.get(right);
- 
+            if(right-left+1==k){
            
         }
  
         return ans;
     }
             if(right-left+1>k){
-                currSum-=arr[left];
+                currSum-=arr.get(left);
+            }
+                left++;
+                ans=
             }
 }
-                left++;
