@@ -1,0 +1,33 @@
+/*
+ * Platform: HackerRank
+ * Problem: Java 1D Array
+ * URL: https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
+ * Language: Java 15
+ * Difficulty: Unknown
+ * Topics: 16%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-11T15:09:50.601Z
+ */
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        int[] a = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            a[i] = Integer.parseInt(bufferedReader.readLine().trim());
+        }
+
+        bufferedReader.close();
+
+        // Print the array
+        for (int i = 0; i < n; i++) {
+            System.out.println(a[i]);
+        }
+    }
+}
