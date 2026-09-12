@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Score of Non
+ * URL: https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/?envType=daily-question&envId=2026-09-12
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Dynamic Programming, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-12T03:10:04.549Z
+ */
+
+class Solution {
+    public int[] maximumWeight(List<List<Integer>> intervals) {
+        
+    }
+}
