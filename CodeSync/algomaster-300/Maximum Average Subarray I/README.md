@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/description/
-- Synced: 2026-07-11T16:46:34.139Z
+- Synced: 2026-09-12T10:56:40.520Z
 
 ## Problem Description
 
