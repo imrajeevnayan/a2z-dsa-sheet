@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
-- Synced: 2026-06-23T18:02:49.345Z
+- Problem URL: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
+- Synced: 2026-09-12T03:20:59.904Z
 
 ## Problem Description
 
