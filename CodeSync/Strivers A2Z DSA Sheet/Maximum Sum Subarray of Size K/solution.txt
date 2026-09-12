@@ -7,22 +7,29 @@
  * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, Prefix Sum, sliding-window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:21:57.681Z
+ * Synced: 2026-09-12T11:23:30.303Z
  */
 
 class Solution {
     public int maxSubarraySum(int[] arr, int k) {
-        int left=0,currSum=0,ans=Integer.MIN_VALUE;
-        for(int right=0;right<arr.length;right++){
-            currSum+=arr[right];
-            if(right-left+1>k){
-                currSum-=arr[left];
-                left++;
+        int left = 0,currSum = 0,ans = Integer.MIN_VALUE;
+                for (int right = 0; right < arr.length; right++) {
+
+                    // 1. Right element ko window mein add karo
+                    currSum += arr[right];
+
+                    // 2. Window size == k
+                    if (right - left + 1 == k) {
+
+                        // 3. Answer calculate/update karo
+                        ans = Math.max(ans, currSum);
+
+                        // 4. Left element ko window se remove karo
+                        currSum -= arr[left];
+                        left++;
+                    }
+                }
+
+                return ans;
             }
-            if(right-left+1==k){
-                ans=Math.max(ans,currSum);
-            }
-       }
-       return ans;
-    }
-}
+        }
