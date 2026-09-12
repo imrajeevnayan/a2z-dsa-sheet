@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Hard
-- Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
-- Runtime: 82 ms
-- Memory: 158.32 MB
-- Problem URL: https://leetcode.com/problems/sliding-window-maximum/description/
-- Synced: 2026-05-31T17:43:41.318Z
+- Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/sliding-window-maximum/
+- Synced: 2026-09-12T08:26:22.348Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an array of integers nums, there is a sliding window of size k whi
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query. Review the synced source file for the implementation details.
