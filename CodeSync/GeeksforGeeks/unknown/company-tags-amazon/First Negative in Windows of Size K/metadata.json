@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-12T12:50:18.466Z",
+  "submissionTimestamp": "2026-09-12T12:51:59.561Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: vector<int> firstNegInt(vector<int>& arr, int k) { // code here int n = arr.size(); vector<int>result(n - k + 1, 0); int prevN = 0, prevNIdx = -1; for (int i = n - 1; i >= 0; --i) { int data = arr[i]; if (data<0) { if (i<n - k + 1)result[i] = data; prevN = data; prevNIdx = i; } else { if (i>prevNIdx - k && i<n - k + 1)result[i] = prevN; } } return result; } };",
   "problemTitle": "First Negative in Windows of Size K",
   "problemUrl": "https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1",
-  "submissionId": "hqshja"
+  "submissionId": "yfxtkm"
 }
