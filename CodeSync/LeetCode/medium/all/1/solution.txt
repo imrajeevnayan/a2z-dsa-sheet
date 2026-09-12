@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=graph
- * Language: Graph Theory
+ * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
+ * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T19:23:27.252Z
+ * Synced: 2026-09-12T11:16:26.234Z
  */
 
 class Solution {
-    public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        
+    public int maxSubArray(int[] nums) {
+        int maxsum=Integer.MIN_VALUE,curr=0;
+        for(int n:nums){
+            curr+=n;
+            if(curr >maxsum)maxsum=curr;
+            if(curr <0) curr=0;
+        }
+        return maxsum;
     }
 }
