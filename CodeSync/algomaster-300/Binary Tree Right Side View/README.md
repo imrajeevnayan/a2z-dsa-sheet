@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: 43.38 MB
-- Problem URL: https://leetcode.com/problems/binary-tree-right-side-view/submissions/2139072992/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-09-12T03:17:50.356Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/binary-tree-right-side-view/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-09-12T03:17:02.371Z
 
 ## Problem Description
 
