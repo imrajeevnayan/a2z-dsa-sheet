@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Dynamic Programming, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/?envType=daily-question&envId=2026-09-12
-- Synced: 2026-09-12T03:10:47.670Z
+- Problem URL: https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question&envId=2026-09-12
+- Synced: 2026-09-12T09:48:24.287Z
 
 ## Problem Description
 
