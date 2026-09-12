@@ -7,14 +7,12 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T17:34:14.024Z
+ * Synced: 2026-09-12T17:34:59.834Z
  */
 
 🚀 Fixed Size Sliding Window — Complete DSA Roadmap
 
-
 Agar kisi question mein "every subarray/substring of size K", "window of size K" ya "length K" diya hai, sabse pehle dimaag mein aana chahiye:
-
 
 🔥 FIXED SIZE SLIDING WINDOW
 
@@ -28,18 +26,13 @@ The goal is to recognize the underlying pattern and change only the data structu
 
 int left = 0;
 
-
 for (int right = 0; right < n; right++) {
-
 
     // Add right element
 
-
     if (right - left + 1 == k) {
 
-
         // Calculate / store answer
-
 
         // Remove left element
 
@@ -76,14 +69,7 @@ LEFT++
 
 1. Maximum Sum Subarray of Size K ⭐
 
-
-Maintain:
-
-
-currSum
-
-
-Questions:
+s:
 
 
 Maximum Sum Subarray of Size K
