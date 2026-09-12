@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-25T17:52:58.711Z",
-  "runtime": "556 ms",
+  "submissionTimestamp": "2026-09-12T03:13:52.440Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "LeetCode 75",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2081073720/",
-  "submissionId": "pfr21v"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "hjz8kx"
 }
