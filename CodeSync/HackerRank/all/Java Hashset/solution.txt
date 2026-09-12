@@ -2,17 +2,16 @@
  * Platform: HackerRank
  * Problem: Java Hashset
  * URL: https://www.hackerrank.com/challenges/java-hashset/problem
- * Language: Java 7
+ * Language: Java 8
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T14:46:07.384Z
+ * Synced: 2026-09-11T14:47:27.324Z
  */
 
-5
-john tom
-john mary
-john tom
-mary anna
-mary anna
+import java.io.*;
+
+//Write your code here
+
+   }
