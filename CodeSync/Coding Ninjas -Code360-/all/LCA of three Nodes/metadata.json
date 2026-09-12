@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T11:50:56.984Z",
-  "runtime": "3094 ms",
+  "submissionTimestamp": "2026-09-12T11:51:56.413Z",
+  "runtime": "3074 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368",
-  "submissionId": "kd7p1r"
+  "submissionId": "wgfq0r"
 }
