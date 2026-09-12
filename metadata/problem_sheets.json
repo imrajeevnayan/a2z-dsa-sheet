@@ -3995,5 +3995,9 @@
   "coding ninjas (code360):find-minimum-sum-subarray-of-given-size_873368": [],
   "geeksforgeeks:largest-product": [
     "GFG160"
+  ],
+  "geeksforgeeks:first-negative-integer-in-every-window-of-size-k3345": [
+    "custom:love-babbar-dsa-sheet",
+    "GFG160"
   ]
 }
