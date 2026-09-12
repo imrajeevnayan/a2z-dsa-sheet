@@ -6,8 +6,8 @@
 - Topics: Array, Divide and Conquer, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-subarray/description/
-- Synced: 2026-07-31T18:56:33.585Z
+- Problem URL: https://leetcode.com/problems/maximum-subarray/
+- Synced: 2026-09-12T08:24:59.904Z
 
 ## Problem Description
 
