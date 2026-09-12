@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Depth-First Search, Breadth-First Search, Matrix
-- Runtime: 0 ms
-- Memory: 46.82 MB
-- Problem URL: https://leetcode.com/problems/flood-fill/submissions/2095199470/
-- Synced: 2026-08-05T10:52:54.156Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/flood-fill/description/
+- Synced: 2026-09-12T03:11:59.702Z
 
 ## Problem Description
 
