@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-12T08:57:41.954Z",
+  "submissionTimestamp": "2026-09-12T08:59:12.714Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -16,5 +16,5 @@
   "language": "Problem List",
   "problemTitle": "Sliding Window Maximum",
   "problemUrl": "https://leetcode.com/problems/sliding-window-maximum/",
-  "submissionId": "3ospfq"
+  "submissionId": "18on67"
 }
