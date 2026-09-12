@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2082 ms
+- Runtime: 3094 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
-- Synced: 2026-08-22T15:49:12.530Z
+- Problem URL: https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368
+- Synced: 2026-09-12T11:48:37.749Z
 
 ## Problem Description
 
