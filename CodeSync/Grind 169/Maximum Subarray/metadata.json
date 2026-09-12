@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-12T08:24:59.904Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-12T08:25:45.576Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Subarray",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/",
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
   "submissionId": "5js0ly"
 }
