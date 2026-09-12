@@ -1,39 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+ * URL: https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2082 ms
+ * Runtime: 3094 ms
  * Memory: N/A
- * Synced: 2026-08-22T15:49:12.530Z
+ * Synced: 2026-09-12T11:48:37.749Z
  */
 
-import java.util.*;
+import java.util.*; 
+import java.io.*; 
  
 public class Solution {
+    public static int minSubarraySum(ArrayList<Integer> arr, int n, int k) {
  
-    public static boolean isPalindrome(LinkedListNode<Integer> head) {
+        int left = 0,currSum = 0;
+        int ans = Integer.MAX_VALUE;
  
-        Stack<Integer> stack = new Stack<>();
-        LinkedListNode<Integer> temp = head;
+        for (int right = 0; right < n; right++) {
  
-        while (temp != null) {
-            stack.push(temp.data);
-            temp = temp.next;
-        }
+            // 1. Add right element
+            currSum += arr.get(right);
  
-        // Compare with original list
-        temp = head;
+            // 2. Window size == k
+            if (right - left + 1 == k) {
  
-        while (temp != null) {
-            if (!temp.data.equals(stack.pop())) {
-                return false;
+                // 3. Minimum answer
+                ans = Math.min(ans, currSum);
+ 
+                // 4. Remove left element
+                currSum -= arr.get(left);
+                left++;
             }
-            temp = temp.next;
         }
  
-        return true;
+        return ans;
     }
 }
