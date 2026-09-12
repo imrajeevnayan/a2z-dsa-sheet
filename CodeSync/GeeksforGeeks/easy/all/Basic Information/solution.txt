@@ -7,288 +7,141 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T17:28:23.254Z
+ * Synced: 2026-09-11T17:29:50.956Z
  */
 
-Absolutely — here’s a **GFG-style master post** you can save as your complete Sliding Window roadmap.
+🚀 Sliding Window Pattern – Complete DSA Roadmap
 
 
- # 🚀 Sliding Window Pattern — Complete DSA Roadmap
+Sliding Window is one of the most important DSA patterns for LeetCode, GFG, interviews and contests.
 
 
- If you are preparing for **LeetCode, GeeksforGeeks, coding contests, or interviews**, Sliding Window is one of the most important DSA patterns to master.
+Goal ye nahi hai ki 20-30 solutions rat lo.
 
 
- The goal is not to memorize 20–30 solutions.
+Goal ye hai:
 
 
- The goal is:
+🧠 Question dekho → pattern identify karo → window banao → state maintain karo → expand/shrink karo.
 
 
- > 🧠 **See a problem → identify the window → decide what state to maintain → expand/shrink correctly.**
+📌 1. Sliding Window Kya Hai?
 
 
----
+Sliding Window mainly in problems involving:
 
 
- # 📌 1. What is Sliding Window?
+Contiguous subarray
+
+Substring
+
+Consecutive elements
+
+Longest/shortest range
+
+Maximum/minimum/count of valid ranges
 
 
- Sliding Window is a technique used mainly for problems involving:
+Hum ek window maintain karte hain:
 
-
- - 📦 Contiguous subarrays
-
-- 🔤 Substrings
-
-- 🔢 Consecutive elements
-
-- 📏 Longest/shortest range
-
-- 🧮 Maximum/minimum/count of valid ranges
-
-
- Instead of recalculating every subarray from scratch, we maintain information about the current window and move it efficiently.
-
-
- Example:
-
-
-```
-
-arr = [2, 1, 5, 1, 3, 2]
-
-           ← window →
-
-```
-
-
- We usually maintain two pointers:
-
-
-```
-
-l = left boundary
-
-r = right boundary
-
-```
-
-
- Window:
-
-
-```
 
 [l ........ r]
 
-```
 
+where:
 
- The basic movement is:
 
+l = left pointer
 
-```
+r = right pointer
 
-➡️ Expand using r
 
-⬅️ Shrink using l
+Basic idea:
 
-```
 
+➡️ Right pointer se window expand karo
 
----
+⬅️ Left pointer se window shrink karo
 
 
- # 🔥 2. How to Recognize Sliding Window?
+🔍 2. Sliding Window Kaise Identify Karein?
 
 
- Whenever you see:
+Question mein ye keywords dekho:
 
 
- ### Strong Signals
+subarray
 
+substring
 
- - `subarray`
+contiguous
 
-- `substring`
+consecutive
 
-- `contiguous`
+longest
 
-- `consecutive`
+shortest
 
-- `longest`
+maximum
 
-- `shortest`
+minimum
 
-- `maximum`
+count
 
-- `minimum`
+at most K
 
-- `count`
+exactly K
 
-- `at most K`
 
-- `exactly K`
+Khud se poochho:
 
 
- Ask yourself:
+"Can I represent the required portion as one continuous window?"
 
 
- > 🤔 "Can I represent the required portion as one continuous window `[l...r]`?"
+Agar YES, Sliding Window consider karo.
 
 
- If yes, Sliding Window should be one of your first patterns to consider.
+🧠 3. Har Sliding Window Problem Mein 5 Questions
 
 
----
+Question solve karne se pehle:
 
 
- # 🧠 3. The 5 Questions You Must Ask
+Window kya hai?
 
+Window mein kya information maintain karni hai?
 
- Before coding, answer these:
+Window invalid kab hogi?
 
+Invalid hone par kya remove karna hai?
 
- ### 1️⃣ What is my window?
+Answer kab update karna hai?
 
 
- Example:
+Ye 5 questions clear hain → implementation usually easy ho jaati hai.
 
 
-```
+🟢 LEVEL 1: Fixed Size Sliding Window
 
-[l ... r]
 
-```
+Window size already given hota hai.
 
 
- ### 2️⃣ What information do I maintain?
+Example:
 
 
- Possible states:
+Find maximum sum of subarray of size K.
 
 
- - Sum
+Condition:
 
-- Frequency map
-
-- Number of distinct elements
-
-- Number of zeros
-
-- Number of odd numbers
-
-- Character frequencies
-
-- Maximum/minimum using deque
-
-
- ### 3️⃣ When does the window become invalid?
-
-
- Example:
-
-
-```
-
-distinct > K
-
-sum > target
-
-frequency > allowed
-
-```
-
-
- ### 4️⃣ How do I make it valid again?
-
-
- Usually:
-
-
-```
-
-while (invalid) {
-
-    remove arr[l]
-
-    l++
-
-}
-
-```
-
-
- ### 5️⃣ When do I update the answer?
-
-
- This depends on the problem:
-
-
-```
-
-Longest  → max(window length)
-
-Shortest → min(window length)
-
-Count    → add window length
-
-```
-
-
----
-
-
- # 🟢 LEVEL 1 — Fixed Size Sliding Window
-
-
- This is the easiest form.
-
-
- The window size is already given:
-
-
-```
 
 window size = K
 
-```
 
+Template:
 
- So:
-
-
-```
-
-r - l + 1 = K
-
-```
-
-
- ### 🔑 Pattern
-
-
-```
-
-➡️ Add arr[r]
-
-
-If window size == K:
-
-    update answer
-
-    remove arr[l]
-
-    l++
-
-```
-
-
- ### 🧩 Template
-
-
-```
 
 int l = 0;
 
@@ -297,12 +150,10 @@ long long sum = 0;
 
 for (int r = 0; r < n; r++) {
 
-
     sum += arr[r];
 
 
     if (r - l + 1 == k) {
-
 
         // update answer
 
@@ -315,236 +166,64 @@ for (int r = 0; r < n; r++) {
 
 }
 
-```
 
+Mental model:
 
----
 
+➡️ Add right
 
- # 🎯 Level 1 Practice Questions
+📏 Size == K?
 
+🎯 Update answer
 
- Solve these in this order:
+⬅️ Remove left
 
 
- ### 🟢 Easy
+Practice:
 
 
- 1. **Maximum sum subarray of size K**
+Maximum Sum Subarray of Size K
 
-2. **Maximum average subarray of size K**
+Maximum Average Subarray I
 
-3. **Maximum number of vowels in a substring of size K**
+Maximum Number of Vowels in a Substring of Given Length
 
-4. **First negative integer in every window of size K**
+First Negative Integer in Every Window of Size K
 
-5. **Count distinct elements in every window of size K**
+Count Distinct Elements in Every Window
 
+Sliding Window Maximum
 
- ### 🟡 Medium
 
+🟡 LEVEL 2: Variable Size Window
 
- 6. **Sliding Window Maximum**
 
-7. **Sliding Window Minimum**
+Yahan window size fixed nahi hota.
 
-8. **Maximum of all subarrays of size K**
 
-9. **Minimum of all subarrays of size K**
+Condition decide karti hai ki window kitni badi ho sakti hai.
 
 
- ### 🧠 Goal
+Example:
 
 
- After these problems, you should immediately recognize:
+Longest subarray with sum <= K.
 
 
-```
+Pattern:
 
-"Size K"
 
-      ↓
+➡️ Expand
 
-Fixed Window
+⬇️ Condition check
 
-      ↓
+❌ Invalid → Shrink
 
-Add Right
+✅ Valid → Update answer
 
-      ↓
 
-When size == K
+Template:
 
-      ↓
-
-Answer
-
-      ↓
-
-Remove Left
-
-```
-
-
----
-
-
- # 🟡 LEVEL 2 — Variable Size Window
-
-
- Now the window size is NOT fixed.
-
-
- The condition determines how large the window can be.
-
-
- Example:
-
-
- > Find the longest subarray with sum ≤ K.
-
-
- We start expanding:
-
-
-```
-
-[2]
-
-[2 1]
-
-[2 1 3]
-
-```
-
-
- Suppose condition becomes invalid:
-
-
-```
-
-sum > K
-
-```
-
-
- Then shrink:
-
-
-```
-
-[2 1 3] ❌
-
-
-remove 2
-
-
-[1 3] ✅
-
-```
-
-
----
-
-
- # 🔥 Variable Window Template
-
-
-```
-
-int l = 0;
-
-
-for (int r = 0; r < n; r++) {
-
-
-    // add arr[r]
-
-
-    while (window is invalid) {
-
-
-        // remove arr[l]
-
-        l++;
-
-    }
-
-
-    // update answer
-
-}
-
-```
-
-
- Remember:
-
-
-```
-
-RIGHT → Explore / Expand 🚀
-
-LEFT  → Repair / Shrink 🔧
-
-```
-
-
----
-
-
- # 🟢 LEVEL 3 — Longest Valid Window
-
-
- This is one of the most common patterns.
-
-
- Question types:
-
-
- - Longest substring...
-
-- Longest subarray...
-
-- Maximum length...
-
-- At most K...
-
-- Without repeating...
-
-- Maximum consecutive...
-
-
- ### Pattern
-
-
-```
-
-Expand
-
-   ↓
-
-Check validity
-
-   ↓
-
-Invalid?
-
-   ↓
-
-Shrink until valid
-
-   ↓
-
-Update maximum
-
-```
-
-
- Template:
-
-
-```
 
 for (int r = 0; r < n; r++) {
 
@@ -552,7 +231,7 @@ for (int r = 0; r < n; r++) {
     add(arr[r]);
 
 
-    while (invalid) {
+    while (invalid()) {
 
         remove(arr[l]);
 
@@ -565,84 +244,53 @@ for (int r = 0; r < n; r++) {
 
 }
 
-```
+
+Important:
 
 
----
+Right pointer = Explore
 
 
- # 🎯 Practice Questions
+Left pointer = Repair
 
 
- Solve in this order:
+🔥 LEVEL 3: Longest Valid Window
 
 
- ### 🟢 Easy
+Typical questions:
 
 
- 1. Longest subarray with sum ≤ K
+Longest substring...
 
-2. Longest substring without repeating characters
+Longest subarray...
 
-3. Maximum consecutive ones
+Maximum length...
 
+At most K...
 
- ### 🟡 Medium
-
-
- 4. Fruit Into Baskets
-
-5. Longest substring with at most K distinct characters
-
-6. Max Consecutive Ones III
-
-7. Longest Repeating Character Replacement
+Without repeating...
 
 
----
+Pattern:
 
 
- # 🔴 LEVEL 4 — Shortest Valid Window
+Expand
+
+↓
+
+Invalid?
+
+↓
+
+Shrink until valid
+
+↓
+
+Update maximum
 
 
- Now the thinking changes.
+Template:
 
-
- Suppose the question asks:
-
-
- > Minimum length subarray whose sum is at least target.
-
-
- Here we don't wait until the window becomes invalid.
-
-
- Instead:
-
-
-```
-
-Window becomes valid
-
-        ↓
-
-Update minimum
-
-        ↓
-
-Try shrinking
-
-        ↓
-
-Can we make it even smaller?
-
-```
-
-
- ### Template
-
-
-```
 
 for (int r = 0; r < n; r++) {
 
@@ -650,7 +298,78 @@ for (int r = 0; r < n; r++) {
     add(arr[r]);
 
 
-    while (window is valid) {
+    while (invalid()) {
+
+        remove(arr[l]);
+
+        l++;
+
+    }
+
+
+    ans = max(ans, r - l + 1);
+
+}
+
+
+Practice:
+
+
+Longest Substring Without Repeating Characters
+
+Fruit Into Baskets
+
+Longest Substring with At Most K Distinct Characters
+
+Max Consecutive Ones III
+
+Longest Repeating Character Replacement
+
+
+🔴 LEVEL 4: Shortest Valid Window
+
+
+Yahan thinking different hai.
+
+
+Question:
+
+
+Minimum length subarray whose sum >= target.
+
+
+Pattern:
+
+
+✅ Window valid
+
+↓
+
+🎯 Update minimum
+
+↓
+
+⬅️ Shrink
+
+↓
+
+Window invalid
+
+↓
+
+➡️ Expand again
+
+
+Template:
+
+
+for (int r = 0; r < n; r++) {
+
+
+    add(arr[r]);
+
+
+    while (valid()) {
 
 
         ans = min(ans, r - l + 1);
@@ -664,93 +383,53 @@ for (int r = 0; r < n; r++) {
 
 }
 
-```
+
+Golden Rule:
 
 
- ### 🧠 Golden Rule
+Longest:
 
 
- For **Longest**:
+Invalid → Shrink → Update maximum
 
 
-```
-
-❌ Invalid → Shrink
-
-✅ Valid   → Answer
-
-```
+Shortest:
 
 
- For **Shortest**:
+Valid → Update minimum → Shrink
 
 
-```
-
-✅ Valid   → Answer + Shrink
-
-❌ Invalid → Expand
-
-```
+Practice:
 
 
----
+Minimum Size Subarray Sum
+
+Minimum Window Substring
 
 
- # 🎯 Practice Questions
+🔵 LEVEL 5: Frequency Map Window
 
 
- 1. **Minimum Size Subarray Sum**
-
-2. Minimum length subarray with sum ≥ target
-
-3. Minimum window containing required characters
-
-4. Minimum window substring
+Strings aur character problems mein extremely useful.
 
 
----
+Example:
 
 
- # 🔵 LEVEL 5 — Frequency Map Sliding Window
+Longest substring with at most K distinct characters.
 
 
- Now Sliding Window becomes much more powerful.
+Maintain:
 
-
- Used heavily for strings.
-
-
- Example:
-
-
- > Longest substring with at most K distinct characters.
-
-
- Maintain:
-
-
-```
 
 unordered_map<char, int> freq;
 
-```
 
+Example:
 
- Example:
-
-
-```
 
 window = "aabac"
 
-```
-
-
- Frequency:
-
-
-```
 
 a → 3
 
@@ -758,1120 +437,27 @@ b → 1
 
 c → 1
 
-```
 
+Distinct = 3.
 
- Distinct count:
 
+Agar K = 2:
 
-```
 
-3
+3 > 2 → window invalid.
 
-```
 
+Shrink from left.
 
- If allowed K = 2:
 
+Template:
 
-```
-
-3 > 2
-
-```
-
-
- Window is invalid.
-
-
- Shrink from left.
-
-
----
-
-
- # 🔑 Frequency Window Template
-
-
-```
-
-unordered_map<char, int> freq;
-
-int l = 0;
-
-
-for (int r = 0; r < n; r++) {
-
-
-    freq[s[r]]++;
-
-
-    while (freq.size() > k) {
-
-
-        freq[s[l]]--;
-
-
-        if (freq[s[l]] == 0)
-
-            freq.erase(s[l]);
-
-
-        l++;
-
-    }
-
-
-    ans = max(ans, r - l + 1);
-
-}
-
-```
-
-
----
-
-
- # 🎯 Practice Questions
-
-
- ### 🟢 Easy/Medium
-
-
- 1. Longest substring without repeating characters
-
-2. Longest substring with at most K distinct characters
-
-3. Fruit Into Baskets
-
-4. Longest substring containing at most two distinct characters
-
-
- ### 🔴 Medium/Hard
-
-
- 5. Longest Repeating Character Replacement
-
-6. Minimum Window Substring
-
-7. Find All Anagrams in a String
-
-8. Permutation in String
-
-
----
-
-
- # 🟣 LEVEL 6 — "At Most K" Pattern
-
-
- This is a **must-master pattern**.
-
-
- Whenever you see:
-
-
- > At most K distinct elements
-
-
- Think:
-
-
-```
-
-Sliding Window + Frequency Map
-
-```
-
-
- Example:
-
-
- > Longest substring with at most 2 distinct characters.
-
-
- Template:
-
-
-```
-
-Expand
-
- ↓
-
-Add frequency
-
- ↓
-
-distinct > K ?
-
- ↓
-
-Shrink
-
- ↓
-
-Update maximum
-
-```
-
-
----
-
-
- # 🔥 LEVEL 7 — Exactly K Pattern
-
-
- This is one of the most important tricks in Sliding Window.
-
-
- Suppose:
-
-
- > Count subarrays with exactly K distinct integers.
-
-
- Instead of solving exactly K directly:
-
-
-```
-
-Exactly K
-
-=
-
-At Most K - At Most (K - 1)
-
-```
-
-
- So:
-
-
-```
-
-exactly(3)
-
-=
-
-atMost(3) - atMost(2)
-
-```
-
-
- 🔥 This trick appears in many problems.
-
-
----
-
-
- # 🎯 Questions to Master Exactly K
-
-
- 1. **Subarrays with K Different Integers**
-
-2. **Binary Subarrays With Sum**
-
-3. **Count Number of Nice Subarrays**
-
-4. **Subarrays with exactly K odd numbers**
-
-5. Count substrings with exactly K distinct characters
-
-
----
-
-
- # 🧠 LEVEL 8 — Counting Valid Subarrays
-
-
- This pattern is extremely important.
-
-
- Suppose current window is:
-
-
-```
-
-[l ........ r]
-
-```
-
-
- and the window is valid.
-
-
- How many valid subarrays end at `r`?
-
-
- Answer:
-
-
-```
-
-r - l + 1
-
-```
-
-
- Example:
-
-
-```
-
-[a b c d e]
-
-  ↑       ↑
-
-  l       r
-
-```
-
-
- Valid subarrays ending at `r`:
-
-
-```
-
-[e]
-
-[d e]
-
-[c d e]
-
-[b c d e]
-
-[a b c d e]
-
-```
-
-
- Total:
-
-
-```
-
-5 = r-l+1
-
-```
-
-
- Therefore:
-
-
-```
-
-ans += r - l + 1;
-
-```
-
-
- 🔥 This one line solves a huge class of counting problems.
-
-
----
-
-
- # 🎯 Counting Pattern Questions
-
-
- 1. Binary Subarrays With Sum
-
-2. Number of Substrings Containing All Three Characters
-
-3. Count Number of Nice Subarrays
-
-4. Subarrays with K Different Integers
-
-5. Number of subarrays with at most K distinct elements
-
-6. Count subarrays with exactly K odd numbers
-
-
----
-
-
- # 🟠 LEVEL 9 — Character Replacement Pattern
-
-
- Classic problem:
-
-
- > Longest Repeating Character Replacement
-
-
- Example:
-
-
-```
-
-s = "AABABBA"
-
-k = 1
-
-```
-
-
- Window can contain multiple characters.
-
-
- We maintain:
-
-
-```
-
-window length
-
-maximum frequency character
-
-```
-
-
- Important formula:
-
-
-```
-
-characters to replace
-
-=
-
-window length - maxFrequency
-
-```
-
-
- Window valid when:
-
-
-```
-
-windowLength - maxFrequency <= K
-
-```
-
-
- This pattern teaches you that the window state doesn't always mean simply "number of distinct characters."
-
-
----
-
-
- # 🎯 Practice
-
-
- 1. Longest Repeating Character Replacement
-
-2. Maximize the Confusion of an Exam
-
-3. Longest substring after replacing at most K characters
-
-
----
-
-
- # 🔴 LEVEL 10 — Minimum Window Substring
-
-
- One of the most important Sliding Window problems.
-
-
- Problem idea:
-
-
- > Find the smallest substring of `s` containing all characters of `t`.
-
-
- Example:
-
-
-```
-
-s = "ADOBECODEBANC"
-
-t = "ABC"
-
-```
-
-
- Answer:
-
-
-```
-
-"BANC"
-
-```
-
-
- Pattern:
-
-
-```
-
-Expand
-
-   ↓
-
-Do we contain everything?
-
-   ↓
-
-YES
-
-   ↓
-
-Update answer
-
-   ↓
-
-Shrink aggressively
-
-   ↓
-
-Become invalid
-
-   ↓
-
-Expand again
-
-```
-
-
- This is a **must-solve** problem.
-
-
----
-
-
- # 🔥 LEVEL 11 — Sliding Window + Deque
-
-
- Now we move into advanced territory.
-
-
- Question:
-
-
- > Find maximum element in every window of size K.
-
-
- A normal window isn't enough if you repeatedly scan the window.
-
-
- We use:
-
-
-```
-
-Deque
-
-```
-
-
- Maintain indices in decreasing order.
-
-
- This gives:
-
-
-```
-
-O(n)
-
-```
-
-
- instead of:
-
-
-```
-
-O(nK)
-
-```
-
-
- ### 🎯 Must Solve
-
-
- 1. Sliding Window Maximum
-
-2. Sliding Window Minimum
-
-3. First negative number in every window
-
-4. Constrained Subsequence Sum
-
-5. Shortest subarray with sum at least K
-
-
----
-
-
- # ⚠️ LEVEL 12 — When Sliding Window DOES NOT Work
-
-
- This is just as important as knowing when it works.
-
-
- Suppose:
-
-
-```
-
-arr = [2, -5, 10, -2]
-
-```
-
-
- and you're dealing with a sum condition.
-
-
- With negative numbers:
-
-
-```
-
-Adding an element
-
-```
-
-
- doesn't necessarily increase the sum.
-
-
- Removing an element doesn't necessarily decrease it.
-
-
- Therefore the normal sum-based Sliding Window assumption can break.
-
-
- ### 🚨 Warning Sign
-
-
- If you see:
-
-
-```
-
-negative numbers
-
-+
-
-exact sum
-
-```
-
-
- consider:
-
-
-```
-
-Prefix Sum + HashMap
-
-```
-
-
- instead.
-
-
- Example:
-
-
- > Count subarrays with sum exactly K.
-
-
- For arbitrary integers, a common solution is:
-
-
-```
-
-Prefix Sum + Frequency Map
-
-```
-
-
- not standard Sliding Window.
-
-
----
-
-
- # 🧩 Sliding Window vs Other Patterns
-
-
- ## Sliding Window
-
-
- Use when:
-
-
-```
-
-Contiguous range
-
-+
-
-maintainable state
-
-+
-
-optimization/counting
-
-```
-
-
----
-
-
- ## Two Pointers
-
-
- Usually:
-
-
-```
-
-left/right pointers
-
-```
-
-
- but doesn't necessarily maintain a traditional window.
-
-
- Example:
-
-
-```
-
-Two Sum II
-
-3Sum
-
-Container With Most Water
-
-```
-
-
----
-
-
- ## Prefix Sum
-
-
- Think:
-
-
-```
-
-Subarray sum
-
-+
-
-negative numbers
-
-+
-
-exact target
-
-```
-
-
----
-
-
- ## Binary Search
-
-
- Think:
-
-
-```
-
-Minimum/maximum answer
-
-+
-
-monotonic feasibility
-
-```
-
-
- Sometimes Sliding Window and Binary Search can both look tempting; identify which property is actually monotonic.
-
-
----
-
-
- ## Monotonic Stack
-
-
- Think:
-
-
-```
-
-Next greater
-
-Next smaller
-
-Previous greater
-
-Previous smaller
-
-Histogram
-
-```
-
-
----
-
-
- # 🧠 The Ultimate Sliding Window Decision Tree
-
-
- When you see a question:
-
-
-```
-
-             Is it contiguous?
-
-                    |
-
-              YES   |   NO
-
-               ↓         ↓
-
-          Consider SW   Other Pattern
-
-               |
-
-               ↓
-
-        Window size fixed?
-
-          /            \
-
-        YES             NO
-
-         ↓               ↓
-
- Fixed Window       Variable Window
-
-                         |
-
-                         ↓
-
-                  What is asked?
-
-                  /      |       \
-
-             Longest  Shortest   Count
-
-                ↓        ↓         ↓
-
-             Invalid   Valid     At Most
-
-             → shrink  → shrink      ↓
-
-                                  Exactly K?
-
-                                      ↓
-
-                         atMost(K)-atMost(K-1)
-
-```
-
-
----
-
-
- # 📚 Complete Question Roadmap
-
-
- ## 🟢 Stage 1 — Beginner
-
-
- - Maximum sum subarray of size K
-
-- Maximum average subarray of size K
-
-- Maximum vowels in substring of size K
-
-- First negative in every window
-
-- Count distinct elements in every window
-
-
- ## 🟡 Stage 2 — Basic Variable Window
-
-
- - Minimum Size Subarray Sum
-
-- Longest subarray with sum ≤ K
-
-- Longest substring without repeating characters
-
-- Maximum Consecutive Ones
-
-
- ## 🟠 Stage 3 — Frequency Windows
-
-
- - Fruit Into Baskets
-
-- Longest substring with at most K distinct characters
-
-- Max Consecutive Ones III
-
-- Longest Repeating Character Replacement
-
-
- ## 🔴 Stage 4 — Counting
-
-
- - Binary Subarrays With Sum
-
-- Number of Nice Subarrays
-
-- Subarrays with K Different Integers
-
-- Number of Substrings Containing All Three Characters
-
-
- ## 🔥 Stage 5 — Advanced Strings
-
-
- - Find All Anagrams in a String
-
-- Permutation in String
-
-- Minimum Window Substring
-
-
- ## 💀 Stage 6 — Advanced Window
-
-
- - Sliding Window Maximum
-
-- Sliding Window Minimum
-
-- Shortest Subarray with Sum at Least K
-
-- Constrained Subsequence Sum
-
-- Sliding Window Median
-
-
----
-
-
- # 🏆 How to Master the Pattern
-
-
- Don't solve these randomly.
-
-
- Follow this order:
-
-
-```
-
-Fixed Window
-
-      ↓
-
-Variable Window
-
-      ↓
-
-Longest
-
-      ↓
-
-Shortest
-
-      ↓
-
-Frequency Map
-
-      ↓
-
-At Most K
-
-      ↓
-
-Exactly K
-
-      ↓
-
-Counting
-
-      ↓
-
-Character Replacement
-
-      ↓
-
-Minimum Window
-
-      ↓
-
-Deque
-
-      ↓
-
-Advanced Problems
-
-```
-
-
----
-
-
- # 🔥 The 10 Templates You Should Master
-
-
- ### Template 1 — Fixed Size
-
-
-```
-
-for (int r = 0; r < n; r++) {
-
-    add(r);
-
-
-    if (r-l+1 == k) {
-
-        update();
-
-        remove(l++);
-
-    }
-
-}
-
-```
-
-
- ### Template 2 — Longest Valid
-
-
-```
-
-for (int r = 0; r < n; r++) {
-
-
-    add(r);
-
-
-    while (invalid()) {
-
-        remove(l++);
-
-    }
-
-
-    ans = max(ans, r-l+1);
-
-}
-
-```
-
-
- ### Template 3 — Shortest Valid
-
-
-```
-
-for (int r = 0; r < n; r++) {
-
-
-    add(r);
-
-
-    while (valid()) {
-
-
-        ans = min(ans, r-l+1);
-
-
-        remove(l++);
-
-    }
-
-}
-
-```
-
-
- ### Template 4 — Count Valid
-
-
-```
-
-for (int r = 0; r < n; r++) {
-
-
-    add(r);
-
-
-    while (invalid()) {
-
-        remove(l++);
-
-    }
-
-
-    ans += r-l+1;
-
-}
-
-```
-
-
- ### Template 5 — At Most K
-
-
-```
-
-while (distinct > k) {
-
-    remove(l++);
-
-}
-
-```
-
-
- ### Template 6 — Exactly K
-
-
-```
-
-exactly(K)
-
-=
-
-atMost(K) - atMost(K-1)
-
-```
-
-
- ### Template 7 — Frequency Window
-
-
-```
 
 freq[s[r]]++;
 
 
-while (invalid()) {
+while (freq.size() > k) {
+
 
     freq[s[l]]--;
 
@@ -1885,193 +471,542 @@ while (invalid()) {
 
 }
 
-```
+
+Practice:
 
 
- ### Template 8 — Replacement
+Longest Substring Without Repeating Characters
+
+Fruit Into Baskets
+
+Longest Substring with At Most K Distinct Characters
+
+Find All Anagrams in a String
+
+Permutation in String
 
 
-```
-
-windowLength - maxFrequency <= K
-
-```
+🟣 LEVEL 6: At Most K Pattern
 
 
- ### Template 9 — Minimum Window
+"At most K" is a strong Sliding Window signal.
 
 
-```
-
-Expand → Satisfy → Record → Shrink
-
-```
+Example:
 
 
- ### Template 10 — Deque
+Longest substring with at most K distinct characters.
 
 
-```
-
-Maintain useful candidates
-
-+
-
-Remove expired indices
-
-+
-
-Keep monotonic order
-
-```
+Pattern:
 
 
----
+Expand
+
+↓
+
+Add frequency
+
+↓
+
+distinct > K?
+
+↓
+
+Shrink
+
+↓
+
+Update answer
 
 
- # 💡 Final Mental Model
+Practice:
 
 
- Don't memorize:
+Fruit Into Baskets
+
+Longest Substring with At Most K Distinct Characters
+
+Subarrays with At Most K Distinct Integers
 
 
- > "Sliding Window means two pointers."
+🔥 LEVEL 7: Exactly K Pattern
 
 
- That's incomplete.
+Very important trick:
 
 
- Instead remember:
+Exactly K = At Most K - At Most (K - 1)
 
 
- > 🧠 **Sliding Window = Maintain a contiguous range efficiently.**
+Example:
 
 
- And whenever you see:
+Exactly 3 distinct:
 
 
-```
+exactly(3) = atMost(3) - atMost(2)
+
+
+Why?
+
+
+AtMost(3) contains:
+
+
+0, 1, 2, 3 distinct
+
+
+AtMost(2) contains:
+
+
+0, 1, 2 distinct
+
+
+Subtract karne par only exactly 3 remains.
+
+
+Practice:
+
+
+Subarrays with K Different Integers
+
+Binary Subarrays With Sum
+
+Number of Nice Subarrays
+
+Subarrays with Exactly K Odd Numbers
+
+
+🧮 LEVEL 8: Counting Valid Windows
+
+
+Suppose current window is:
+
 
 [l ........ r]
 
-```
+
+and window valid hai.
 
 
- ask:
+Number of valid subarrays ending at r:
 
 
-```
+r - l + 1
+
+
+Example:
+
+
+[a b c d e]
+
+  l       r
+
+
+Valid subarrays ending at e:
+
+
+[e]
+
+[d,e]
+
+[c,d,e]
+
+[b,c,d,e]
+
+[a,b,c,d,e]
+
+
+Total = 5
+
+
+Therefore:
+
+
+ans += r - l + 1;
+
+
+This is a very important counting trick.
+
+
+Practice:
+
+
+Binary Subarrays With Sum
+
+Number of Nice Subarrays
+
+Number of Substrings Containing All Three Characters
+
+Subarrays with K Different Integers
+
+
+🟠 LEVEL 9: Character Replacement Pattern
+
+
+Classic problem:
+
+
+Longest Repeating Character Replacement
+
+
+Important formula:
+
+
+characters to replace = window length - maximum frequency
+
+
+Window valid when:
+
+
+window length - maxFrequency <= K
+
+
+Example:
+
+
+"AABABBA"
+
+K = 1
+
+
+Maintain:
+
+
+Character frequency
+
+Maximum frequency
+
+Window length
+
+
+Practice:
+
+
+Longest Repeating Character Replacement
+
+Maximize the Confusion of an Exam
+
+
+🔴 LEVEL 10: Minimum Window Substring
+
+
+One of the most important Sliding Window problems.
+
+
+Problem:
+
+
+Find the smallest substring containing all characters of another string.
+
+
+Example:
+
+
+s = "ADOBECODEBANC"
+
+t = "ABC"
+
+
+Answer:
+
+
+"BANC"
+
+
+Pattern:
+
+
+Expand → Condition satisfied → Record answer → Shrink → Become invalid → Expand
+
+
+This problem is a must-solve for interviews.
+
+
+⚡ LEVEL 11: Sliding Window + Deque
+
+
+For problems like:
+
+
+Maximum element in every window of size K
+
+
+Normal Sliding Window would require scanning the entire window again.
+
+
+Instead use:
+
+
+Deque
+
+
+This can reduce:
+
+
+O(NK)
+
+
+to:
+
+
+O(N)
+
+
+Important problems:
+
+
+Sliding Window Maximum
+
+Sliding Window Minimum
+
+Shortest Subarray with Sum at Least K
+
+Constrained Subsequence Sum
+
+
+⚠️ LEVEL 12: When Sliding Window Does NOT Work
+
+
+Very important.
+
+
+Normal sum-based Sliding Window generally relies on non-negative numbers.
+
+
+Example:
+
+
+[2, -5, 10, -2]
+
+
+Negative numbers ki wajah se sum monotonic nahi rehta.
+
+
+So if you see:
+
+
+Negative numbers + exact subarray sum
+
+
+think about:
+
+
+Prefix Sum + HashMap
+
+
+Example:
+
+
+Count subarrays with sum exactly K.
+
+
+For arbitrary integers, Prefix Sum + HashMap is often the correct approach.
+
+
+🆚 Sliding Window vs Other Patterns
+
+
+Sliding Window:
+
+
+Contiguous range + maintainable state
+
+
+Two Pointers:
+
+
+Two pointers, but not necessarily a traditional window.
+
+
+Prefix Sum:
+
+
+Subarray sum + negative numbers + exact target
+
+
+Monotonic Stack:
+
+
+Next greater/smaller type problems
+
+
+Binary Search:
+
+
+Monotonic answer/feasibility problems
+
+
+🗺️ Complete Learning Roadmap
+
+
+Follow this order:
+
+
+1️⃣ Fixed Size Window
+
+
+Maximum Sum Subarray of Size K
+
+First Negative in Every Window
+
+Maximum Vowels in Window
+
+
+2️⃣ Variable Window
+
+
+Minimum Size Subarray Sum
+
+Longest Subarray with Sum Constraint
+
+
+3️⃣ Longest Window
+
+
+Longest Substring Without Repeating Characters
+
+Fruit Into Baskets
+
+Max Consecutive Ones III
+
+
+4️⃣ Frequency Window
+
+
+At Most K Distinct Characters
+
+Longest Repeating Character Replacement
+
+
+5️⃣ Counting
+
+
+Binary Subarrays With Sum
+
+Number of Nice Subarrays
+
+Number of Substrings Containing All Three Characters
+
+
+6️⃣ Exactly K
+
+
+Subarrays with K Different Integers
+
+Exactly K Odd Numbers
+
+
+7️⃣ Advanced Strings
+
+
+Find All Anagrams in a String
+
+Permutation in String
+
+Minimum Window Substring
+
+
+8️⃣ Advanced Window
+
+
+Sliding Window Maximum
+
+Shortest Subarray with Sum at Least K
+
+Constrained Subsequence Sum
+
+
+🏆 Ultimate Sliding Window Checklist
+
+
+Before moving to the next DSA pattern, make sure you can solve:
+
+
+ Fixed-size maximum sum
+
+ First negative in every window
+
+ Sliding Window Maximum
+
+ Minimum Size Subarray Sum
+
+ Longest Substring Without Repeating Characters
+
+ Fruit Into Baskets
+
+ Longest Substring with At Most K Distinct
+
+ Max Consecutive Ones III
+
+ Longest Repeating Character Replacement
+
+ Binary Subarrays With Sum
+
+ Number of Nice Subarrays
+
+ Subarrays with K Different Integers
+
+ Find All Anagrams in a String
+
+ Permutation in String
+
+ Minimum Window Substring
+
+
+🧠 Final Mental Model
+
+
+Whenever you see a contiguous subarray/substring problem, ask:
+
+
+🔥 What is my window?
+
 
 🔥 What enters when r moves?
 
+
 🔥 What leaves when l moves?
 
-🔥 What state represents my window?
 
-🔥 When is the window invalid?
+🔥 What state am I maintaining?
+
+
+🔥 When does the window become invalid?
+
 
 🔥 When should I shrink?
 
-🔥 When should I update the answer?
 
 🔥 Am I finding longest, shortest, or count?
 
-```
+
+🔥 Is "At Most K" or "Exactly K" involved?
 
 
- If you can answer these questions, you've understood the pattern.
+If these questions become automatic, Sliding Window problems become much easier.
 
 
----
+🚀 Don't memorize solutions.
 
 
- # 🚀 Final Master Checklist
+Master the movement:
 
 
- Before moving away from Sliding Window, make sure you can solve these without looking at solutions:
+Right → Expand
 
 
- - [ ] Maximum sum of subarray size K
-
-- [ ] First negative in every window
-
-- [ ] Sliding Window Maximum
-
-- [ ] Minimum Size Subarray Sum
-
-- [ ] Longest substring without repeating characters
-
-- [ ] Fruit Into Baskets
-
-- [ ] Longest substring with K distinct characters
-
-- [ ] Max Consecutive Ones III
-
-- [ ] Longest Repeating Character Replacement
-
-- [ ] Binary Subarrays With Sum
-
-- [ ] Number of Nice Subarrays
-
-- [ ] Subarrays with K Different Integers
-
-- [ ] Find All Anagrams in a String
-
-- [ ] Permutation in String
-
-- [ ] Minimum Window Substring
-
-- [ ] Number of Substrings Containing All Three Characters
-
-- [ ] Shortest Subarray with Sum at Least K
-
-- [ ] Sliding Window Maximum
+Left → Shrink
 
 
----
+State → Maintains the window
 
 
- # 🏁 Final Rule
+Condition → Decides when to shrink
 
 
- **Don't memorize solutions. Master the movement.**
+Answer → Extracted from the valid window
 
 
-```
-
-             RIGHT
-
-               ↓
-
-          🚀 EXPAND
-
-               ↓
-
-       Maintain Window State
-
-               ↓
-
-       Is Window Invalid?
-
-          ↙           ↘
-
-        YES            NO
-
-         ↓              ↓
-
-    🔧 SHRINK       🎯 ANSWER
-
-         ↓
-
-      LEFT →
-
-```
-
-
- Once this becomes natural, a large number of LeetCode/GFG Sliding Window problems start looking like **variations of the same underlying idea**.
-
-
- > 🔥 **Master the pattern, not the problem.**
-
-
- If you want, I can also turn this into a **“30 Sliding Window Problems — Easy → Hard” GFG-style practice sheet**, with the exact pattern, difficulty, and the key intuition you should discover before seeing each solution.
+Master the pattern, not the problem. 💯
