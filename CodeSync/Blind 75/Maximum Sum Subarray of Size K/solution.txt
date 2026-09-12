@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximum Sum Subarray of Size K
+ * URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, Prefix Sum, sliding-window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-12T09:04:04.604Z
+ */
+
+class Solution {
+    public int maxSubarraySum(int[] arr, int k) {
+        // Code here
+        
+    }
+}
