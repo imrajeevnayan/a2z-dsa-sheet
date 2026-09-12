@@ -1,32 +1,50 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3074 ms
+ * Runtime: 3830 ms
  * Memory: N/A
- * Synced: 2026-09-12T11:51:56.413Z
+ * Synced: 2026-09-12T12:55:05.088Z
  */
 
-import java.util.*; 
+import java.util.* ;
 import java.io.*; 
+import java.util.ArrayList;
  
-public class Solution {
-    public static int minSubarraySum(ArrayList<Integer> arr, int n, int k) {
-        int left = 0,currSum = 0,ans = Integer.MAX_VALUE;
+public class Solution 
+{
+    public static ArrayList<Integer> firstNegativeInteger(
+        ArrayList<Integer> arr, int k, int n)
+    {
+        ArrayList<Integer> ans = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+ 
+        int left = 0;
+ 
         for (int right = 0; right < n; right++) {
-            currSum += arr.get(right);
-            if(right-left+1>k){
-                currSum-=arr.get(left);
+ 
+            // Negative element ka INDEX store karo
+            if (arr.get(right) < 0) q.add(right);
+        
+            // Window size == k
+            if (right - left + 1 == k) {
+ 
+                // Window ke bahar ke negative indices remove karo
+                while (!q.isEmpty() && q.peek() < left) {
+                    q.poll();
+                }
+                // First negative
+                if (!q.isEmpty()) ans.add(arr.get(q.peek()));
+                else  ans.add(0);
+            
+                // Window slide
                 left++;
             }
-            if(right-left+1==k){
-                ans=Math.min(ans,currSum);
-            }
-           
         }
+ 
         return ans;
     }
 }
