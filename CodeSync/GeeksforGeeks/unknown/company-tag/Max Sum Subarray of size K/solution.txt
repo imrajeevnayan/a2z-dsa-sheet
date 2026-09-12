@@ -7,18 +7,22 @@
  * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, Prefix Sum, sliding-window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T09:03:04.415Z
+ * Synced: 2026-09-12T11:17:16.966Z
  */
 
 class Solution {
     public int maxSubarraySum(int[] arr, int k) {
-     int left=0,sum=0,max=Integer.MIN_VALUE;
-     for(int right=0;right<k;right++)sum+=arr[right];
-     max=sum;
-     for(int right=k;right<arr.length;right++){
-         sum+=arr[right]-arr[right-k];
-         max=Math.max(max,sum);
-     }
-     return max;
+        int left=0,currSum=0,ans=Integer.MIN_VALUE;
+        for(int right=0;right<arr.length;right++){
+            currSum+=arr[right];
+            if(right-left+1>k){
+                currSum-=arr[left];
+                left++;
+            }
+            if(right-left+1==k){
+                ans=Math.max(ans,currSum);
+            }
+       }
+       return ans;
     }
 }
