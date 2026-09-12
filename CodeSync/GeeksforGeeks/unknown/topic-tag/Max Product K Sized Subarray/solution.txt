@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Largest Product Subarray Size K
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T12:07:46.180Z
+ * Synced: 2026-09-12T12:09:17.030Z
  */
 
 class Solution {
@@ -15,10 +15,12 @@ class Solution {
         int left=0,currProd=1,maxProd=Integer.MIN_VALUE;
         for(int right=0;right<arr.length;right++){
             currProd *=arr[right];
-            if(right-left+1==k){
-                maxProd=Math.max(maxProd,currProd);
+            if(right-left+1 >k){
                 currProd /=arr[left];
                 left++;
+            }
+            if(right-left+1==k){
+                maxProd=Maaaaa
             }
         }
         return maxProd;
