@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/largest-product/1
-- Synced: 2026-09-12T12:07:46.180Z
+- Synced: 2026-09-12T12:09:17.030Z
 
 ## Problem Description
 
