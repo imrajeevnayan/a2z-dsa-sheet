@@ -1,13 +1,13 @@
 # 1
 
 - Platform: LeetCode
-- Language: Online Interview
+- Language: Java
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 556 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/submissions/detail/2081073720/
-- Synced: 2026-07-25T17:52:58.711Z
+- Runtime: 1 ms
+- Memory: 77.04 MB
+- Problem URL: https://leetcode.com/submissions/detail/2139295637/
+- Synced: 2026-09-12T11:16:20.806Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Online Interview. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
