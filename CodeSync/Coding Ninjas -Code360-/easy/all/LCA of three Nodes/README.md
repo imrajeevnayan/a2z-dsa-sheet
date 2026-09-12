@@ -7,7 +7,7 @@
 - Runtime: 3094 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368
-- Synced: 2026-09-12T11:48:37.749Z
+- Synced: 2026-09-12T11:50:11.595Z
 
 ## Problem Description
 
