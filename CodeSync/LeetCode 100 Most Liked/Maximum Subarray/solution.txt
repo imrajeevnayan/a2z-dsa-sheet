@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Subarray
- * URL: https://leetcode.com/problems/maximum-subarray/
+ * URL: https://leetcode.com/problems/maximum-subarray/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-12T08:24:59.904Z
+ * Synced: 2026-09-12T08:25:45.576Z
  */
 
 class Solution {
