@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/testingg-sql_1755903
-- Synced: 2026-09-12T17:10:49.724Z
+- Synced: 2026-09-12T17:11:38.508Z
 
 ## Problem Description
 
