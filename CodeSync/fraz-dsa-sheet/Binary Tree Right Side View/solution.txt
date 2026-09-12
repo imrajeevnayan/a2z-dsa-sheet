@@ -7,40 +7,28 @@
  * Topics: Uncategorized
  * Runtime: 1 ms
  * Memory: 43.38 MB
- * Synced: 2026-09-12T06:34:54.422Z
+ * Synced: 2026-09-12T07:51:24.774Z
  */
 
-1class Solution {
-2    public List<Integer> rightSideView(TreeNode root) {
-3        List<Integer> ans = new ArrayList<>();
-4        // Empty tree
-5        if (root == null) return ans;
-6        
-7        Queue<TreeNode> queue = new LinkedList<>();
-8        queue.offer(root);
-9
-10        while (!queue.isEmpty()) {
-11
-12            int size = queue.size();
-13
-14            // Current level ke saare nodes process karo
-15            for (int i = 0; i < size; i++) {
-16
-17                TreeNode node = queue.poll();
-18
-19                // Current level ka last node
-20                if (i == size - 1) {
-21                    ans.add(node.val);
-22                }
-23
-24                // Left child
-25                if (node.left != null)  queue.offer(node.left);
-26            
-27                // Right child
-28                if (node.right != null) queue.offer(node.right);
-29            }
-30        }
-31        return ans;
-32    }
-33}
-34
+class Solution {
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        // Empty tree
+        if (root == null) return ans;
+        
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+
+            int size = queue.size();
+
+            // Current level ke saare nodes process karo
+            for (int i = 0; i < size; i++) {
+
+                TreeNode node = queue.poll();
+
+                // Current level ka last node
+                if (i == size - 1) {
+                    ans.add(node.val);
+                }
