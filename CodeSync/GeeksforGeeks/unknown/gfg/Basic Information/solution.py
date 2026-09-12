@@ -6,17 +6,13 @@
 # Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-11T17:40:09.080Z
+# Synced: 2026-09-11T17:40:54.294Z
 
 🚀 Sliding Window Pattern — Quick Master Guide
 
+➤Sliding Window is one of the most important DSA patterns for LeetCode, GFG and interviews.
 
-Sliding Window is one of the most important DSA patterns for LeetCode, GFG and interviews.
-
-Goal:
-
-Question dekho → pattern identify karo → window maintain karo → expand/shrink karo.
-
+Goal: Question dekho → pattern identify karo → window maintain karo → expand/shrink karo.
 
 🧠 How to Identify?
 
