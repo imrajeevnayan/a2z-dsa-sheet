@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 3094 ms
  * Memory: N/A
- * Synced: 2026-09-12T11:48:37.749Z
+ * Synced: 2026-09-12T11:50:11.595Z
  */
 
 import java.util.*; 
@@ -15,27 +15,17 @@ import java.io.*;
  
 public class Solution {
     public static int minSubarraySum(ArrayList<Integer> arr, int n, int k) {
- 
-        int left = 0,currSum = 0;
-        int ans = Integer.MAX_VALUE;
- 
+        int left = 0,currSum = 0,ans = Integer.MAX_VALUE;
         for (int right = 0; right < n; right++) {
- 
-            // 1. Add right element
             currSum += arr.get(right);
  
-            // 2. Window size == k
-            if (right - left + 1 == k) {
- 
-                // 3. Minimum answer
-                ans = Math.min(ans, currSum);
- 
-                // 4. Remove left element
-                currSum -= arr.get(left);
-                left++;
-            }
+           
         }
  
         return ans;
     }
+            if(right-left+1>k){
+                currSum-=arr[left];
+            }
 }
+                left++;
