@@ -7,7 +7,7 @@
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T08:57:41.954Z
+ * Synced: 2026-09-12T08:59:12.714Z
  */
 
 class Solution {
@@ -18,7 +18,11 @@ class Solution {
             if((right-left+1)>k){
         }
         
-                windowSum-=nums[left]
+                windowSum-=nums[left];
+            }
+                left++;
+            if((right-left+1)==k){
+                ans=Math.max(ans,)
             }
     }
 }
