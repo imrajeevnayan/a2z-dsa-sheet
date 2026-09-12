@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 2631 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/binary-search_975480
-- Synced: 2026-07-28T13:25:21.588Z
+- Problem URL: https://www.naukri.com/code360/problems/sliding-window-maximum_980226
+- Synced: 2026-09-12T16:24:23.972Z
 
 ## Problem Description
 
