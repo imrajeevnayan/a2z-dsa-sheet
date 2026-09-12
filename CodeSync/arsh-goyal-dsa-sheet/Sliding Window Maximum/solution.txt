@@ -7,16 +7,18 @@
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T08:27:54.066Z
+ * Synced: 2026-09-12T08:28:40.237Z
  */
 
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int left=0,windowSum=0,ans=Integer.MIN_VALUE;
-        for(int right=0;right<nums.length;i++){
-            windowSum+=nums[i];
-            if()
+        for(int right=0;right<nums.length;right++){
+            windowSum+=nums[right];
+            if((right-left+1)>k){
         }
         
+                win
+            }
     }
 }
