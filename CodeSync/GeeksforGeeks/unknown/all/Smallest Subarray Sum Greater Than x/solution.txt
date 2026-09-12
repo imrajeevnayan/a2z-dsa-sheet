@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T03:18:18.732Z
+ * Synced: 2026-09-12T03:19:17.536Z
  */
 
 class Solution {
