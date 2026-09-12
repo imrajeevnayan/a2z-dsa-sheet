@@ -1,30 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Flood Fill
- * URL: https://leetcode.com/problems/flood-fill/description/
+ * URL: https://leetcode.com/problems/flood-fill/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T03:11:59.702Z
+ * Synced: 2026-09-12T03:12:45.839Z
  */
 
-dfs(image, sr, sc, original, color);
+c < 0 || c >= image[0].length) {
+            return;
+        }
+        if (r < 0 || r >= image.length ||
+
+    private void dfs(int[][] image, int r, int c, int originalColor, int color) {
+
+        // Boundary check
         return image;
     }
-    private void dfs(int[][] image, int r, int c, int original, int color) {
-        int m = image.length;
-        int n = image[0].length;
+        dfs(image, sr, sc, originalColor, color);
 
-        if (r < 0 || c < 0 || r >= m || c >= n) return;
-        if (image[r][c] != original) return;
 
-        image[r][c] = color;
+            return image;
+        }
+        if (originalColor == color) {
+        // Agar same color already hai, kuch karna hi nahi
 
-        dfs(image, r + 1, c, original, color);
-        dfs(image, r - 1, c, original, color);
-        dfs(image, r, c + 1, original, color);
-        dfs(image, r, c - 1, original, color);
-    }
-}
+        int originalColor = image[sr][sc];
+        
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+class Solution {
