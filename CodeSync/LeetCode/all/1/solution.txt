@@ -1,16 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2081073720/
- * Language: Online Interview
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 556 ms
+ * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T17:52:58.711Z
+ * Synced: 2026-09-12T11:16:26.234Z
  */
 
-1SELECT e.name AS Employee
-2FROM Employee e JOIN Employee m
-3ON e.managerId = m.id
-4WHERE e.salary > m.salary;
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int maxsum=Integer.MIN_VALUE,curr=0;
+        for(int n:nums){
+            curr+=n;
+            if(curr >maxsum)maxsum=curr;
+            if(curr <0) curr=0;
+        }
+        return maxsum;
+    }
+}
