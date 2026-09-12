@@ -6,7 +6,7 @@
 # Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-11T17:35:45.813Z
+# Synced: 2026-09-11T17:40:09.080Z
 
 🚀 Sliding Window Pattern — Quick Master Guide
 
