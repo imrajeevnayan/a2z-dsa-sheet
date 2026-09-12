@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-12T12:07:46.180Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Related Articles",
+    "Largest Product Subarray Size K"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def findMaxProduct(self, arr, k): from functools import reduce from operator import mul n = len(arr) if n < k: return 0 curr_prod = max_prod = reduce(mul, arr[:k]) for i in range(k, n): curr_prod = curr_prod // arr[i - k] * arr[i] if curr_prod > max_prod: max_prod = curr_prod return max_prod",
+  "problemTitle": "Max Product K Sized Subarray",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/largest-product/1",
+  "submissionId": "a1cwx9"
+}
