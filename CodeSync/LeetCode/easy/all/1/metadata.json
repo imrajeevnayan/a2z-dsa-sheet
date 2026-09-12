@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-02T17:22:18.056Z",
+  "submissionTimestamp": "2026-09-12T18:48:59.390Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "String",
-    "Dynamic Programming",
-    "String Matching"
+    "Array",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "mvti46"
+  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/",
+  "submissionId": "bgb1x"
 }
