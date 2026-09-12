@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Dynamic Programming
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Dynamic Programming
+- Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-07-02T16:49:38.947Z
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/
+- Synced: 2026-09-12T18:48:59.390Z
 
 ## Problem Description
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0. Example 1: Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell. Example 2: Input: prices = [7,6,4,3,1] Output: 0 Explanation: In this case, no transactions are done and the max profit = 0. Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
+You are given an integer array nums consisting of n elements, and an integer k. Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted. Example 1: Input: nums = [1,12,-5,-6,50,3], k = 4 Output: 12.75000 Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75 Example 2: Input: nums = [5], k = 1 Output: 5.00000 Constraints: n == nums.length 1 <= k <= n <= 105 -104 <= nums[i] <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
