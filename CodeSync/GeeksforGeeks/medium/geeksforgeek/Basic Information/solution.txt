@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T17:34:59.834Z
+ * Synced: 2026-09-12T17:35:46.261Z
  */
 
 🚀 Fixed Size Sliding Window — Complete DSA Roadmap
@@ -67,12 +67,7 @@ LEFT++
 
 🟢 Pattern 1 — Sum / Average
 
-1. Maximum Sum Subarray of Size K ⭐
-
-s:
-
-
-Maximum Sum Subarray of Size K
+1. Maximum Sum Subarray of Size K
 
 Minimum Sum Subarray of Size K
 
@@ -643,9 +638,7 @@ That one question will help you recognize most Fixed Window problems.
 
 Don't stop after 5 questions.
 
-
 Master these 6 core patterns:
-
 
 1️⃣ Sum
 
@@ -658,12 +651,3 @@ Master these 6 core patterns:
 5️⃣ Monotonic Deque
 
 6️⃣ Advanced structures
-
-
-Once these are comfortable, move to:
-
-
-🔥 Variable Size Sliding Window
-
-
-That's where questions like Longest Subarray, Longest Substring, At Most K Distinct, Minimum Window, etc. start appearing.
