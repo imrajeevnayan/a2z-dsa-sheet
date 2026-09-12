@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags OYO RoomsNPCI, Company Tags, OYO Rooms, NPCI, Topic Tags, Prefix Sum, sliding-window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:24:15.482Z
+ * Synced: 2026-09-12T11:25:07.515Z
  */
 
 class Solution {
@@ -24,7 +24,7 @@ class Solution {
                         // 4. Left element ko window se remove karo
                         currSum -= arr[left];
                         left++;
-                       }
+                  }
                 }
                 return ans;
             }
