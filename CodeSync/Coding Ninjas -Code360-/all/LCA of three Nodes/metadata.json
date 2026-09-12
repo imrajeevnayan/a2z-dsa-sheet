@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T11:51:56.413Z",
-  "runtime": "3074 ms",
+  "submissionTimestamp": "2026-09-12T12:55:05.088Z",
+  "runtime": "3830 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368",
-  "submissionId": "wgfq0r"
+  "problemUrl": "https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406",
+  "submissionId": "nyn0l6"
 }
