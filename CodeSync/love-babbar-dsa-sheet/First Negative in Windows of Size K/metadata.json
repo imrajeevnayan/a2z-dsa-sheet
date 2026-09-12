@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-12T12:15:58.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "sliding-window",
+    "two-pointer-algorithm",
+    "Arrays"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "First Negative in Windows of Size K",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1",
+  "submissionId": "inrnsz"
+}
