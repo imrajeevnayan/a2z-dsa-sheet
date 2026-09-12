@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:20.806Z",
-  "runtime": "1 ms",
-  "memoryUsage": "77.04 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-12T11:16:26.234Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Divide and Conquer",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2139295637/",
-  "submissionId": "ny7o7b"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
+  "submissionId": "v6bs5c"
 }
