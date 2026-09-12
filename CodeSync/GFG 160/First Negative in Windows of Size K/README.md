@@ -1,13 +1,13 @@
 # First Negative in Windows of Size K
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: vector<int> firstNegInt(vector<int>& arr, int k) { // code here int n = arr.size(); vector<int>result(n - k + 1, 0); int prevN = 0, prevNIdx = -1; for (int i = n - 1; i >= 0; --i) { int data = arr[i]; if (data<0) { if (i<n - k + 1)result[i] = data; prevN = data; prevNIdx = i; } else { if (i>prevNIdx - k && i<n - k + 1)result[i] = prevN; } } return result; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
-- Synced: 2026-09-12T12:15:58.909Z
+- Synced: 2026-09-12T12:16:58.514Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[] and a positive integer k, find the first negative integer f
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: vector<int> firstNegInt(vector<int>& arr, int k) { // code here int n = arr.size(); vector<int>result(n - k + 1, 0); int prevN = 0, prevNIdx = -1; for (int i = n - 1; i >= 0; --i) { int data = arr[i]; if (data<0) { if (i<n - k + 1)result[i] = data; prevN = data; prevNIdx = i; } else { if (i>prevNIdx - k && i<n - k + 1)result[i] = prevN; } } return result; } };. The detected topics are Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays. Review the synced source file for the implementation details.
