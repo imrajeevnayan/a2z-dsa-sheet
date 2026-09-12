@@ -1,10 +1,11 @@
 {
-  "submissionTimestamp": "2026-09-12T17:00:05.186Z",
+  "submissionTimestamp": "2026-09-12T17:00:52.795Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "SQL",
+    "2 solved: 1 Easy 1 Moderate 0 Hard + Ninja"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "SQL",
