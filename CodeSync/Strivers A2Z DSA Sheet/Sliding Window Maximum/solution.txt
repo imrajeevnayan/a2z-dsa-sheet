@@ -7,7 +7,7 @@
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T08:35:23.682Z
+ * Synced: 2026-09-12T08:36:08.685Z
  */
 
 class Solution {
