@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T17:35:46.261Z
+ * Synced: 2026-09-12T17:36:33.479Z
  */
 
 🚀 Fixed Size Sliding Window — Complete DSA Roadmap
@@ -552,9 +552,6 @@ Need maximum/minimum?
 → Monotonic Deque
 
 
-That's how you go from solving known questions → solving unseen questions.
-
-
 🎯 Difficulty Roadmap
 
 Level 1 — Easy
@@ -599,44 +596,7 @@ Advanced ordered structures
 
 Multi-structure window problems
 
-🔥 Final Rule
-
-
-For Fixed Size Sliding Window, remember just this:
-
-
-RIGHT → ADD
-
-      ↓
-
-SIZE == K
-
-      ↓
-
-ANSWER
-
-      ↓
-
-REMOVE LEFT
-
-      ↓
-
-LEFT++
-
-
-Everything else is:
-
-
-"Window ke andar kya maintain karna hai?"
-
-
-That one question will help you recognize most Fixed Window problems.
-
-
 🚀 Target
-
-
-Don't stop after 5 questions.
 
 Master these 6 core patterns:
 
