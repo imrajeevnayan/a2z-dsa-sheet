@@ -7,7 +7,7 @@
 - Runtime: 3830 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406
-- Synced: 2026-09-12T12:55:05.088Z
+- Synced: 2026-09-12T12:56:36.814Z
 
 ## Problem Description
 
