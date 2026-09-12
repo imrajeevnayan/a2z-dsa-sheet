@@ -1,16 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Flood Fill
- * URL: https://leetcode.com/problems/flood-fill/submissions/2095199470/
+ * URL: https://leetcode.com/problems/flood-fill/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
- * Runtime: 0 ms
- * Memory: 46.82 MB
- * Synced: 2026-08-05T10:52:54.156Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-12T03:11:59.702Z
  */
 
-if (r < 0 || c < 0 || r >= m || c >= n) return;
+dfs(image, sr, sc, original, color);
+        return image;
+    }
+    private void dfs(int[][] image, int r, int c, int original, int color) {
+        int m = image.length;
+        int n = image[0].length;
+
+        if (r < 0 || c < 0 || r >= m || c >= n) return;
         if (image[r][c] != original) return;
 
         image[r][c] = color;
@@ -19,10 +26,5 @@ if (r < 0 || c < 0 || r >= m || c >= n) return;
         dfs(image, r - 1, c, original, color);
         dfs(image, r, c + 1, original, color);
         dfs(image, r, c - 1, original, color);
-
-        int m = image.length;
-        int n = image[0].length;
-    private void dfs(int[][] image, int r, int c, int original, int color) {
     }
-        dfs(image, sr, sc, original, color);
-        return image;
+}
