@@ -6,7 +6,7 @@
 -- Topics: Uncategorized
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-09-12T17:10:49.724Z
+-- Synced: 2026-09-12T17:11:38.508Z
 
 select title,rating from IMDB 
 where movie_id in(select movie_id from genre where genre like 'C%')
