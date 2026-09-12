@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T03:21:11.565Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-12T06:34:54.422Z",
+  "runtime": "1 ms",
   "memoryUsage": "43.38 MB",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Binary Tree Right Side View",
   "problemUrl": "https://leetcode.com/problems/binary-tree-right-side-view/submissions/2139072992/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "yut9qd"
+  "submissionId": "sqaorh"
 }
