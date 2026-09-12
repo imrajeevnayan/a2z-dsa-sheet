@@ -6,7 +6,7 @@
 # Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-11T17:41:40.373Z
+# Synced: 2026-09-11T17:42:28.278Z
 
 🚀 Sliding Window Pattern — Quick Master Guide
 
@@ -34,24 +34,21 @@ Ask:"Can I represent the answer as one continuous window [l...r]?"
 
 Window size = K.
 
-Pattern:➡️ Add right
+Pattern:
+➡️ Add right
 
 🎯 Size == K → answer
 
 ⬅️ Remove left
 
-
 for (int r = 0; r < n; r++) {
 
     add(arr[r]);
 
-
-    if (r-l+1 == k) {
+if (r-l+1 == k) {
 
         update();
-
-
-        remove(arr[l]);
+remove(arr[l]);
 
         l++;
 
@@ -59,19 +56,15 @@ for (int r = 0; r < n; r++) {
 
 }
 
+🔹Maximum Sum Subarray of Size K
 
-Practice:
+🔹Maximum Average Subarray
 
+🔹Maximum Vowels in K-length Window
 
-Maximum Sum Subarray of Size K
+🔹First Negative in Every Window
 
-Maximum Average Subarray
-
-Maximum Vowels in K-length Window
-
-First Negative in Every Window
-
-Sliding Window Maximum
+🔹Sliding Window Maximum
 
 
 🟡 2. Longest Valid Window
