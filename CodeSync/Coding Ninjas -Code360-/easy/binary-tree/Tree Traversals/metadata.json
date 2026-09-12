@@ -1,11 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-12T16:30:02.766Z",
+  "submissionTimestamp": "2026-09-12T16:37:22.867Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Binary Trees Clear all",
-    "Binary Trees"
+    "Binary Trees",
+    "Stacks & Queues",
+    "Recursion",
+    "80 Moderate IMDb Metacritic Rating 0",
+    "40 Easy Students DB 0",
+    "40 Easy IMDb Genre 0",
+    "120 Hard Sales Executive 0",
+    "40 Easy IMDb Max Weighted Rating 0"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
