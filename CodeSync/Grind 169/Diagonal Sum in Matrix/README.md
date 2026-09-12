@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/diagonal-sum0158/1
-- Synced: 2026-09-11T17:06:33.279Z
+- Synced: 2026-09-11T17:07:45.289Z
 
 ## Problem Description
 
