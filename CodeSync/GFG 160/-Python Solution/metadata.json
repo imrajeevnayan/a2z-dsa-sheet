@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-11T17:22:56.827Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Matrix",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int areMatricesIdentical(int N, int[][] Grid1, int[][] Grid2) { // code here if(Grid1.length==Grid2.length){ for(int i=0;i<Grid1.length;i++){ for(int j=0;j<Grid1[0].length;j++){ if(Grid1[i][j]!=Grid2[i][j]){return 0;} } } } return 1; }",
+  "problemTitle": "#Python Solution:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/identical-matrices1042/1",
+  "submissionId": "3axyo0"
+}
