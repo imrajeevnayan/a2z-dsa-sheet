@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-12T10:57:07.794Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-12T10:57:55.525Z",
+  "runtime": "82 ms",
+  "memoryUsage": "158.32 MB",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sliding Window Maximum",
-  "problemUrl": "https://leetcode.com/problems/sliding-window-maximum/",
-  "submissionId": "cxgf7e"
+  "problemUrl": "https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/",
+  "submissionId": "eei1vv"
 }
