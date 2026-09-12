@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1
-- Synced: 2026-09-11T17:12:53.279Z
+- Synced: 2026-09-11T17:13:53.282Z
 
 ## Problem Description
 
