@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-12T12:56:36.814Z",
-  "runtime": "3830 ms",
+  "submissionTimestamp": "2026-09-12T16:17:22.333Z",
+  "runtime": "7302 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406",
-  "submissionId": "nyn0l6"
+  "problemUrl": "https://www.naukri.com/code360/problems/first-negative-in-every-window_759333",
+  "submissionId": "os0k9p"
 }
