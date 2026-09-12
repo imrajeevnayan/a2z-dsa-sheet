@@ -1,23 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:16:26.234Z
+ * Synced: 2026-09-12T11:42:17.235Z
  */
 
 class Solution {
-    public int maxSubArray(int[] nums) {
-        int maxsum=Integer.MIN_VALUE,curr=0;
-        for(int n:nums){
-            curr+=n;
-            if(curr >maxsum)maxsum=curr;
-            if(curr <0) curr=0;
+    public int minSubArrayLen(int target, int[] nums) {
+        int left=0,sum=0,minSum=Integer.MAX_VALUE;
+        for(int right=0;right<nums.length;right++){
+            sum+=nums[right];
+            while(sum >=target){
+               minSum=Math.min(minSum,right-left+1);
+               sum-=nums[left];
+               left++;
+            }
         }
-        return maxsum;
+        return minSum ==Integer.MAX_VALUE ?0:minSum;
     }
 }
