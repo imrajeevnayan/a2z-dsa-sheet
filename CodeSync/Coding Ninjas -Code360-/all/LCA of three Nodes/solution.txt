@@ -2,12 +2,12 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/find-minimum-sum-subarray-of-given-size_873368
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3094 ms
+ * Runtime: 3074 ms
  * Memory: N/A
- * Synced: 2026-09-12T11:50:56.984Z
+ * Synced: 2026-09-12T11:51:56.413Z
  */
 
 import java.util.*; 
@@ -18,16 +18,15 @@ public class Solution {
         int left = 0,currSum = 0,ans = Integer.MAX_VALUE;
         for (int right = 0; right < n; right++) {
             currSum += arr.get(right);
-            if(right-left+1==k){
-           
-        }
- 
-        return ans;
-    }
             if(right-left+1>k){
                 currSum-=arr.get(left);
-            }
                 left++;
-                ans=
             }
+            if(right-left+1==k){
+                ans=Math.min(ans,currSum);
+            }
+           
+        }
+        return ans;
+    }
 }
