@@ -1,22 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Dynamic Programming
+ * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T16:49:38.947Z
+ * Synced: 2026-09-12T18:48:59.390Z
  */
 
 class Solution {
-    public int maxProfit(int[] prices) {
-     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-     for(int n :prices){
-        min=Math.min(min,n);
-        max=Math.max(max,n-min);
-     }
-     return max;   
+    public double findMaxAverage(int[] nums, int k) {
+        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
+        for(int right=0;right<nums.length;right++){
+            currSum+=nums[right];
+            if(right-left+1>k){
+                currSum-=nums[left];
+                left++;
+            }
+            if(right-left+1==k){
+                ans=Math.max(ans,currSum);
+            }
+        }
+        return (double)ans/k;
     }
 }
