@@ -7,7 +7,7 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T17:31:23.250Z
+ * Synced: 2026-09-11T17:32:14.488Z
  */
 
 🚀 Sliding Window Pattern – Complete DSA Roadmap
@@ -84,7 +84,7 @@ Question mein ye keywords dekho:
 
 ▸at most K
 
-exactly K
+▸exactly K
 
 
 Khud se poochho:
@@ -763,16 +763,7 @@ Constrained Subsequence Sum
 ⚠️ LEVEL 12: When Sliding Window Does NOT Work
 
 
-Very important.
-
-
-Normal sum-based Sliding Window generally relies on non-negative numbers.
-
-
-Example:
-
-
-[2, -5, 10, -2]
+V
 
 
 Negative numbers ki wajah se sum monotonic nahi rehta.
@@ -981,26 +972,4 @@ Whenever you see a contiguous subarray/substring problem, ask:
 
 If these questions become automatic, Sliding Window problems become much easier.
 
-
 🚀 Don't memorize solutions.
-
-
-Master the movement:
-
-
-Right → Expand
-
-
-Left → Shrink
-
-
-State → Maintains the window
-
-
-Condition → Decides when to shrink
-
-
-Answer → Extracted from the valid window
-
-
-Master the pattern, not the problem. 💯
