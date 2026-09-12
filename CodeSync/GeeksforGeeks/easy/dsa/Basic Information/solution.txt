@@ -7,37 +7,31 @@
  * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T17:29:50.956Z
+ * Synced: 2026-09-11T17:30:37.903Z
  */
 
 🚀 Sliding Window Pattern – Complete DSA Roadmap
 
-
 Sliding Window is one of the most important DSA patterns for LeetCode, GFG, interviews and contests.
 
-
 Goal ye nahi hai ki 20-30 solutions rat lo.
-
 
 Goal ye hai:
 
 
 🧠 Question dekho → pattern identify karo → window banao → state maintain karo → expand/shrink karo.
 
-
 📌 1. Sliding Window Kya Hai?
-
 
 Sliding Window mainly in problems involving:
 
+▸Contiguous subarray
 
-Contiguous subarray
+▸Substring
 
-Substring
+▸Consecutive elements
 
-Consecutive elements
-
-Longest/shortest range
+▸Longest/shortest range
 
 Maximum/minimum/count of valid ranges
 
