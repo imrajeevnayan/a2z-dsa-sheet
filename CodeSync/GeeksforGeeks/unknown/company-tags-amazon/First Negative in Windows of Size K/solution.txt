@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T12:48:26.998Z
+ * Synced: 2026-09-12T12:49:30.865Z
  */
 
 class Solution {
@@ -18,7 +18,7 @@ class Solution {
         for (int right = 0; right < arr.length; right++) {
             if(arr[right]<0)q.add(right);
             if (right - left + 1 == k) {
-                while(!q.isEmpty()&& q.pe)
+                while(!q.isEmpty()&& q.peek()<left)q.poll();
 
                 // first negative answer mein add karo
                 
