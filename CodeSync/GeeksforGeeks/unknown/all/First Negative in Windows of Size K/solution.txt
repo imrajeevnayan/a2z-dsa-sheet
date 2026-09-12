@@ -7,12 +7,26 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T12:46:55.543Z
+ * Synced: 2026-09-12T12:48:26.998Z
  */
 
 class Solution {
     static List<Integer> firstNegInt(int arr[], int k) {
-        // code here
-        
+        List<Integer> ans = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+        int left = 0;
+        for (int right = 0; right < arr.length; right++) {
+            if(arr[right]<0)q.add(right);
+            if (right - left + 1 == k) {
+                while(!q.isEmpty()&& q.pe)
+
+                // first negative answer mein add karo
+                
+
+                left++;
+            }
+        }
+
+        return ans;
     }
 }
