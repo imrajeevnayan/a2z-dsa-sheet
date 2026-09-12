@@ -1,0 +1,683 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Basic Information
+ * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
+ * Language: All Submissions
+ * Difficulty: Medium
+ * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-12T17:34:14.024Z
+ */
+
+🚀 Fixed Size Sliding Window — Complete DSA Roadmap
+
+
+Agar kisi question mein "every subarray/substring of size K", "window of size K" ya "length K" diya hai, sabse pehle dimaag mein aana chahiye:
+
+
+🔥 FIXED SIZE SLIDING WINDOW
+
+
+The goal is not to memorize 50 questions.
+
+The goal is to recognize the underlying pattern and change only the data structure/state maintained inside the window.
+
+
+🧠 Master Template
+
+int left = 0;
+
+
+for (int right = 0; right < n; right++) {
+
+
+    // Add right element
+
+
+    if (right - left + 1 == k) {
+
+
+        // Calculate / store answer
+
+
+        // Remove left element
+
+        left++;
+
+    }
+
+}
+
+
+Core idea:
+
+
+RIGHT → Add
+
+   ↓
+
+Window Size == K
+
+   ↓
+
+Answer
+
+   ↓
+
+Remove LEFT
+
+   ↓
+
+LEFT++
+
+
+🟢 Pattern 1 — Sum / Average
+
+1. Maximum Sum Subarray of Size K ⭐
+
+
+Maintain:
+
+
+currSum
+
+
+Questions:
+
+
+Maximum Sum Subarray of Size K
+
+Minimum Sum Subarray of Size K
+
+Maximum Average Subarray of Size K
+
+Minimum Average Subarray of Size K
+
+2. Maximum/Minimum Sum of Every Window
+
+
+Same fixed-window sum pattern.
+
+
+🟢 Pattern 2 — Product
+
+3. Maximum Product Subarray of Size K
+
+
+Maintain:
+
+
+currProduct
+
+
+⚠️ Be careful with:
+
+
+0
+
+negative numbers
+
+integer overflow
+
+
+If division is used to remove the left element, zero needs special handling.
+
+
+🟢 Pattern 3 — Count / Simple Conditions
+
+4. Maximum Number of Vowels in a Substring of Size K ⭐
+
+
+Maintain:
+
+
+vowelCount
+
+
+When right enters:
+
+
+vowel → count++
+
+
+When left leaves:
+
+
+vowel → count--
+
+
+Questions:
+
+
+Maximum vowels in substring of length K
+
+Maximum number of 1s in a binary subarray of size K
+
+Count even/odd numbers in every window
+
+Count elements satisfying a condition in every window
+
+🟡 Pattern 4 — Queue + Fixed Window
+
+5. First Negative Integer in Every Window of Size K ⭐
+
+
+Maintain:
+
+
+Queue<Integer>
+
+
+Store indices of useful elements, not values.
+
+
+Template:
+
+
+If arr[right] is negative
+
+        ↓
+
+store right
+
+        ↓
+
+window == K
+
+        ↓
+
+remove expired indices
+
+        ↓
+
+front = first negative
+
+
+Questions:
+
+
+First Negative Integer in Every Window of Size K
+
+First Positive Integer in Every Window
+
+First Odd/Even element in every window
+
+First element satisfying a condition
+
+🟡 Pattern 5 — HashMap / Frequency
+
+6. Count Distinct Elements in Every Window of Size K ⭐
+
+
+Maintain:
+
+
+HashMap<Integer, Integer>
+
+
+Map:
+
+
+element → frequency
+
+
+When adding:
+
+
+frequency++
+
+
+When removing:
+
+
+frequency--
+
+
+If frequency becomes 0:
+
+
+remove key
+
+
+Then:
+
+
+map.size()
+
+
+= number of distinct elements.
+
+
+Questions:
+
+
+Count distinct elements in every window of size K
+
+Frequency of every element in every window
+
+Maximum frequency in a window
+
+Number of elements occurring exactly once
+
+Number of elements occurring more than once
+
+🟡 Pattern 6 — Anagram / Frequency Matching
+
+7. Find All Anagrams in a String ⭐⭐
+
+
+LeetCode 438
+
+
+Fixed window length:
+
+
+pattern.length()
+
+
+Maintain character frequencies.
+
+
+8. Permutation in String ⭐⭐
+
+
+LeetCode 567
+
+
+Same underlying pattern:
+
+
+Fixed Window
+
++
+
+Frequency Array / HashMap
+
+
+Questions:
+
+
+Count occurrences of anagrams
+
+Find all anagrams
+
+Check if permutation exists
+
+Count permutations/anagram windows
+
+
+🔥 Important lesson:
+
+
+Anagram problems are often Fixed Window + Frequency Map/Array.
+
+
+🟠 Pattern 7 — Monotonic Deque
+
+9. Sliding Window Maximum ⭐⭐⭐
+
+
+LeetCode 239
+
+
+One of the most important Sliding Window problems.
+
+
+Maintain:
+
+
+Deque<Integer> dq
+
+
+Store indices.
+
+
+Deque maintains:
+
+
+largest → smallest
+
+
+So:
+
+
+arr[dq.peekFirst()]
+
+
+is always the maximum.
+
+
+10. Sliding Window Minimum ⭐⭐⭐
+
+
+Same idea, but maintain:
+
+
+smallest → largest
+
+
+Questions:
+
+
+Maximum in every window of size K
+
+Minimum in every window of size K
+
+Max/min simultaneously in fixed windows
+
+
+🔥 This introduces the Monotonic Queue/Deque pattern.
+
+
+🟠 Pattern 8 — Fixed Window + Set
+
+11. Check Distinctness in Every Window
+
+
+Use:
+
+
+HashSet
+
+
+Useful when the question asks:
+
+
+Does this window contain duplicates?
+
+
+or:
+
+
+Is every element in this window unique?
+
+
+Examples:
+
+
+Check if any window of size K contains duplicate
+
+Find windows with all distinct elements
+
+Longest/maximum property under a fixed K constraint
+
+🔴 Pattern 9 — Fixed Window + Advanced Data Structures
+
+
+Once basic patterns are comfortable, move toward:
+
+
+12. Sliding Window Median ⭐⭐⭐
+
+
+Use:
+
+
+Two Heaps
+
+Multiset / TreeMap depending on language
+
+13. Sliding Window Mode
+
+
+Maintain frequencies + suitable ordered structure.
+
+
+14. Sliding Window Maximum/Minimum with Multiset
+
+
+Alternative to monotonic deque.
+
+
+15. Range / Difference Based Window Problems
+
+
+Maintain:
+
+
+max - min
+
+
+using two monotonic deques.
+
+
+🏆 MUST-DO QUESTIONS
+
+
+If your goal is interview + LeetCode + GFG + Competitive Programming, don't skip these:
+
+
+1. Maximum Sum Subarray of Size K
+
+2. Minimum Sum Subarray of Size K
+
+3. Maximum Average Subarray I — LC 643
+
+4. First Negative Integer in Every Window of Size K
+
+5. Count Distinct Elements in Every Window of Size K
+
+6. Maximum Number of Vowels in a Substring of Given Length K — LC 1456
+
+7. Find All Anagrams in a String — LC 438
+
+8. Permutation in String — LC 567
+
+9. Sliding Window Maximum — LC 239
+
+10. Sliding Window Minimum
+
+11. Sliding Window Median — LC 480
+
+
+🧩 Pattern Recognition Cheat Sheet
+
+
+When you see:
+
+
+"subarray of size K"
+
+"substring of length K"
+
+"every window of size K"
+
+
+Think:
+
+
+             FIXED WINDOW
+
+                  │
+
+        ┌─────────┼─────────┐
+
+        ↓         ↓         ↓
+
+      SUM       COUNT     FREQUENCY
+
+        │         │         │
+
+     max/min   vowels    HashMap
+
+                          │
+
+                          ↓
+
+                       Anagram
+
+        │
+
+        ↓
+
+      QUEUE
+
+        │
+
+   First Negative
+
+        │
+
+        ↓
+
+   MONOTONIC DEQUE
+
+        │
+
+    Max / Min
+
+
+💡 Most Important Insight
+
+
+Don't memorize:
+
+
+"This question uses Queue."
+
+
+Instead ask:
+
+
+"What information about my current window do I need to maintain?"
+
+
+Examples:
+
+
+Need sum?
+
+→ variable
+
+
+Need count?
+
+→ integer
+
+
+Need frequency?
+
+→ HashMap / array
+
+
+Need first negative?
+
+→ Queue
+
+
+Need maximum/minimum?
+
+→ Monotonic Deque
+
+
+That's how you go from solving known questions → solving unseen questions.
+
+
+🎯 Difficulty Roadmap
+
+Level 1 — Easy
+
+Maximum Sum of Size K
+
+Minimum Sum of Size K
+
+Maximum Average
+
+Count vowels
+
+Count odd/even
+
+Level 2 — Easy/Medium
+
+First Negative
+
+Count Distinct
+
+Frequency based windows
+
+Anagram problems
+
+Permutation in String
+
+Level 3 — Medium
+
+Sliding Window Maximum ⭐
+
+Sliding Window Minimum
+
+Max-Min difference
+
+Complex frequency windows
+
+Level 4 — Hard
+
+Sliding Window Median
+
+Advanced ordered structures
+
+Multi-structure window problems
+
+🔥 Final Rule
+
+
+For Fixed Size Sliding Window, remember just this:
+
+
+RIGHT → ADD
+
+      ↓
+
+SIZE == K
+
+      ↓
+
+ANSWER
+
+      ↓
+
+REMOVE LEFT
+
+      ↓
+
+LEFT++
+
+
+Everything else is:
+
+
+"Window ke andar kya maintain karna hai?"
+
+
+That one question will help you recognize most Fixed Window problems.
+
+
+🚀 Target
+
+
+Don't stop after 5 questions.
+
+
+Master these 6 core patterns:
+
+
+1️⃣ Sum
+
+2️⃣ Count
+
+3️⃣ Frequency / HashMap
+
+4️⃣ Queue
+
+5️⃣ Monotonic Deque
+
+6️⃣ Advanced structures
+
+
+Once these are comfortable, move to:
+
+
+🔥 Variable Size Sliding Window
+
+
+That's where questions like Longest Subarray, Longest Substring, At Most K Distinct, Minimum Window, etc. start appearing.
