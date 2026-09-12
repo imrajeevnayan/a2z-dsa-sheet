@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-09T12:41:28.324Z",
+  "submissionTimestamp": "2026-09-11T17:35:45.813Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "GeeksForGeeks",
+    "GFG",
+    "DSA",
+    "Java",
+    "2DArray",
+    "Matrix",
+    "DSAJourney",
+    "CodingJourney"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "Basic Information",
   "problemUrl": "https://www.geeksforgeeks.org/profile/imrajeevnayan",
-  "submissionId": "i0u7m7"
+  "submissionId": "ub6tui"
 }
