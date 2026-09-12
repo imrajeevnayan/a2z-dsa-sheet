@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Diagonal Sum in Matrix
+ * URL: https://www.geeksforgeeks.org/problems/diagonal-sum0158/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Matrix, Related Articles, Sum Diagonals Spiral Odd Order Square Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-11T17:06:33.279Z
+ */
+
+class Solution {
+    public int diagonalSum(int[][] mat) {
+        int n = mat.length;
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            // Primary diagonal
+            sum += mat[i][i];
+
+            // Secondary diagonal
+            sum += mat[i][n - 1 - i];
+        }
+
+        return sum;
+    }
+}
