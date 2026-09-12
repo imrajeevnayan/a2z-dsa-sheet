@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
-- Synced: 2026-09-12T10:00:26.397Z
+- Synced: 2026-09-12T10:01:19.498Z
 
 ## Problem Description
 
