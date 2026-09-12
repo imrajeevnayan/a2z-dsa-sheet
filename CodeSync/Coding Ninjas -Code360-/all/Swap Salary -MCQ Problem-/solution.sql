@@ -2,11 +2,11 @@
 -- Problem: Swap Salary (MCQ Problem)
 -- URL: https://www.naukri.com/code360/problems/swap-salary_2110762
 -- Language: SQL
--- Difficulty: Unknown
--- Topics: Uncategorized
+-- Difficulty: Easy
+-- Topics: SQL, 2 solved: 1 Easy 1 Moderate 0 Hard + Ninja
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-09-12T17:00:05.186Z
+-- Synced: 2026-09-12T17:00:52.795Z
 
 update salary
 set sex=case
