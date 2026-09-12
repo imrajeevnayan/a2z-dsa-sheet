@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T15:02:04.496Z
+ * Synced: 2026-09-11T15:03:19.380Z
  */
 
 import java.io.*;
@@ -16,16 +16,25 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in); 
-        int t = s.nextInt(); 
-        Set<String> set = new HashSet<>(); 
-        for (int i = 0; i < t; i++) { 
-          String left = s.next(); 
-          String right = s.next(); 
-          String pair = left + " " + right; 
+
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        Set<List<String>> pairs = new HashSet<>();
+
+        for (int i = 0; i < t; i++) {
+
+            String first = sc.next();
+            String second = sc.next();
+
+            List<String> pair = Arrays.asList(first, second);
+
+            pairs.add(pair);
+
+            System.out.println(pairs.size());
+        }
+
+        sc.close();
     }
-          set.add(pair); 
-          System.out.println(set.size()); 
-          } 
-          s.close();
 }
