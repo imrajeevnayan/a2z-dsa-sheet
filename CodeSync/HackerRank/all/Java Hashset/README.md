@@ -1,13 +1,13 @@
 # Java Hashset
 
 - Platform: HackerRank
-- Language: Java 7
+- Language: Java 8
 - Difficulty: Unknown
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/challenges/java-hashset/problem
-- Synced: 2026-09-11T14:46:07.384Z
+- Synced: 2026-09-11T14:47:27.324Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ In computer science, a set is an abstract data type that can store certain value
 
 ## Explanation
 
-This solution was accepted on HackerRank using Java 7. Review the synced source file for the implementation details.
+This solution was accepted on HackerRank using Java 8. Review the synced source file for the implementation details.
