@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-25T17:52:58.711Z",
-  "runtime": "556 ms",
+  "submissionTimestamp": "2026-09-12T09:47:38.635Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Hard",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2081073720/",
-  "submissionId": "pfr21v"
+  "problemUrl": "https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question&envId=2026-09-12",
+  "submissionId": "mwq91p"
 }
