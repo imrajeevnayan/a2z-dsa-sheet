@@ -6,7 +6,7 @@
 # Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-11T17:42:28.278Z
+# Synced: 2026-09-11T17:43:15.335Z
 
 🚀 Sliding Window Pattern — Quick Master Guide
 
@@ -66,42 +66,34 @@ remove(arr[l]);
 
 🔹Sliding Window Maximum
 
-
 🟡 2. Longest Valid Window
 
-
 Window invalid hone par shrink karo.
-
 
 for (int r = 0; r < n; r++) {
 
     add(arr[r]);
 
-
-    while (invalid()) {
+ while (invalid()) {
 
         remove(arr[l]);
 
         l++;
 
     }
-
-
-    ans = max(ans, r-l+1);
+ans = max(ans, r-l+1);
 
 }
 
-
 Practice:
 
+🔹Longest Substring Without Repeating Characters
 
-Longest Substring Without Repeating Characters
+🔹Fruit Into Baskets
 
-Fruit Into Baskets
+🔹At Most K Distinct Characters
 
-At Most K Distinct Characters
-
-Max Consecutive Ones III
+🔹Max Consecutive Ones III
 
 
 🔴 3. Shortest Valid Window
