@@ -3,11 +3,11 @@
 - Platform: HackerRank
 - Language: Java 15
 - Difficulty: Unknown
-- Topics: Uncategorized
+- Topics: 16%
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
-- Synced: 2026-09-11T15:09:01.146Z
+- Synced: 2026-09-11T15:09:50.601Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ An array is a simple data structure used to store a collection of data in a cont
 
 ## Explanation
 
-This solution was accepted on HackerRank using Java 15. Review the synced source file for the implementation details.
+This solution was accepted on HackerRank using Java 15. The detected topics are 16%. Review the synced source file for the implementation details.
