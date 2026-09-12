@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-repeating-substring/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: String, Dynamic Programming, String Matching
+ * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T17:22:18.056Z
+ * Synced: 2026-09-12T18:48:59.390Z
  */
 
 class Solution {
-    public int maxRepeating(String sequence, String word) {
-        
+    public double findMaxAverage(int[] nums, int k) {
+        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
+        for(int right=0;right<nums.length;right++){
+            currSum+=nums[right];
+            if(right-left+1>k){
+                currSum-=nums[left];
+                left++;
+            }
+            if(right-left+1==k){
+                ans=Math.max(ans,currSum);
+            }
+        }
+        return (double)ans/k;
     }
 }
