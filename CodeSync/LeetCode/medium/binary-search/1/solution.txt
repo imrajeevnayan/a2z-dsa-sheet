@@ -1,15 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-22T18:26:14.270Z
+ * Synced: 2026-09-12T11:42:17.235Z
  */
 
-Input: target = 7, nums = [2,3,1,2,4,3]
-Output: 2
-Explanation: The subarray [4,3] has the minimal length under the problem constraint.
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        int left=0,sum=0,minSum=Integer.MAX_VALUE;
+        for(int right=0;right<nums.length;right++){
+            sum+=nums[right];
+            while(sum >=target){
+               minSum=Math.min(minSum,right-left+1);
+               sum-=nums[left];
+               left++;
+            }
+        }
+        return minSum ==Integer.MAX_VALUE ?0:minSum;
+    }
+}
