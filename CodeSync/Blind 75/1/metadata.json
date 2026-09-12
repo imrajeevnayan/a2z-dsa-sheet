@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-02T16:49:38.947Z",
+  "submissionTimestamp": "2026-09-12T11:16:26.234Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
+    "Divide and Conquer",
     "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "z2w5ne"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
+  "submissionId": "v6bs5c"
 }
