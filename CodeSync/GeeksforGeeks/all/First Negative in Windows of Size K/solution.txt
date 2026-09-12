@@ -1,0 +1,50 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Negative in Windows of Size K
+ * URL: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-12T12:15:58.909Z
+ */
+
+class Solution {
+    static List<Integer> firstNegInt(int arr[], int k) {
+
+        List<Integer> ans = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+
+        int left = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+
+            // Add current negative index
+            if (arr[right] < 0) {
+                q.offer(right);
+            }
+
+            // Window size becomes k
+            if (right - left + 1 == k) {
+
+                // Remove expired negative indices
+                while (!q.isEmpty() && q.peek() < left) {
+                    q.poll();
+                }
+
+                // First negative element
+                if (q.isEmpty()) {
+                    ans.add(0);
+                } else {
+                    ans.add(arr[q.peek()]);
+                }
+
+                // Slide window
+                left++;
+            }
+        }
+
+        return ans;
+    }
+}
