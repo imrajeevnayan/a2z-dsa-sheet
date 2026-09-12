@@ -1,23 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Difficulty: Easy
+ * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:16:26.234Z
+ * Synced: 2026-09-12T18:48:59.390Z
  */
 
 class Solution {
-    public int maxSubArray(int[] nums) {
-        int maxsum=Integer.MIN_VALUE,curr=0;
-        for(int n:nums){
-            curr+=n;
-            if(curr >maxsum)maxsum=curr;
-            if(curr <0) curr=0;
+    public double findMaxAverage(int[] nums, int k) {
+        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
+        for(int right=0;right<nums.length;right++){
+            currSum+=nums[right];
+            if(right-left+1>k){
+                currSum-=nums[left];
+                left++;
+            }
+            if(right-left+1==k){
+                ans=Math.max(ans,currSum);
+            }
         }
-        return maxsum;
+        return (double)ans/k;
     }
 }
