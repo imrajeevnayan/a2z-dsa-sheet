@@ -1,13 +1,13 @@
 # One-Pass Removal of k-th Node from End
 
 - Platform: HackerRank
-- Language: C
+- Language: Java 15
 - Difficulty: Unknown
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/one-pass-removal-kth-from-end/problem
-- Synced: 2026-09-11T15:11:12.316Z
+- Synced: 2026-09-11T15:11:58.161Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list and an integer k, remove the k-th node fr
 
 ## Explanation
 
-This solution was accepted on HackerRank using C. Review the synced source file for the implementation details.
+This solution was accepted on HackerRank using Java 15. Review the synced source file for the implementation details.
