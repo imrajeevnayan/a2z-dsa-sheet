@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T03:13:52.440Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-12T05:01:51.981Z",
+  "runtime": "1 ms",
+  "memoryUsage": "43.38 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75",
-  "submissionId": "hjz8kx"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-right-side-view/submissions/2139072992/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "p6y3yr"
 }
