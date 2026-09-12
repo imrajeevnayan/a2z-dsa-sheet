@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T14:52:49.658Z
+ * Synced: 2026-09-11T14:55:03.377Z
  */
 
 import java.io.*;
@@ -31,9 +31,10 @@ public class Solution {
 
         Set<String>set=new HashSet<>();
         for(int i=0;i<t;i++){
-            String pair=pair_left[i]+ " " + pair_left[i];
+            String pair=pair_left[i]+ " " + pair_right[i];
         }
    }
             set.add(pair);
-            System.out.
+            System.out.println(set.size());
+        s.close();
 }
