@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, sliding-window, two-pointer-algorithm, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T12:50:18.466Z
+ * Synced: 2026-09-12T12:51:59.561Z
  */
 
 class Solution {
@@ -28,16 +28,9 @@ class Solution {
                 // Window ke bahar wale negative indices remove karo
                 while (!q.isEmpty() && q.peek() < left) q.poll();
                 
-
                 // First negative
-                if (!q.isEmpty()) {
-                    ans.add(arr[q.peek()]);
-                } else {
-                    // Window mein negative nahi hai
-                    ans.add(0);
-                }
-
-                // Window slide karo
+                if (!q.isEmpty())  ans.add(arr[q.peek()]);
+                else  ans.add(0);
                 left++;
             }
         }
