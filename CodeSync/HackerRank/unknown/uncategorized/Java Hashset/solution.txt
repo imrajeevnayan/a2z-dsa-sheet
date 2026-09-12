@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T14:48:56.985Z
+ * Synced: 2026-09-11T14:49:42.519Z
  */
 
 import java.io.*;
@@ -32,3 +32,6 @@ public class Solution {
 //Write your code here
 
    }
+        
+        
+}
