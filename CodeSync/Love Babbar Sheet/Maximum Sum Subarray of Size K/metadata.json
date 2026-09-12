@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-12T09:04:04.604Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags OYO RoomsNPCI",
+    "Company Tags",
+    "OYO Rooms",
+    "NPCI",
+    "Topic Tags",
+    "Prefix Sum",
+    "sliding-window"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Maximum Sum Subarray of Size K",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+  "submissionId": "qu3ukh"
+}
