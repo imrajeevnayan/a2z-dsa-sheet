@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-19T08:25:49.244Z",
+  "submissionTimestamp": "2026-09-12T16:36:10.669Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "SQL",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/rotate-linked-list_920454",
-  "submissionId": "injz7d"
+  "problemUrl": "https://www.naukri.com/code360/problems/second-highest-salary_2110760",
+  "submissionId": "8oivoq"
 }
