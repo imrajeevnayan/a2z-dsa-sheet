@@ -1,48 +1,122 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Operations to Make Every Element Palindromic
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/submissions/2140187353/
  * Language: Weekly Contest 519
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-13T03:31:52.651Z
+ * Runtime: 1 ms
+ * Memory: 0.00 MB
+ * Synced: 2026-09-13T03:34:31.626Z
  */
 
 class Solution {
     public long minOperations(int[] nums) {
-        List<Long> evenPals = new ArrayList<>();
-        List<Long> oddPals = new ArrayList<>();
-        for (int digs = 1; digs <= 10; digs++) {
-            int half = (digs + 1) / 2;
-            long start = 1;
-            for (int i = 1; i < half; i++) start *= 10;
-            long end = start * 10 - 1;
-            for (long i = start; i <= end; i++) {
-                String s = Long.toString(i);
-                String rev = new StringBuilder(s).reverse().toString();
-                String palStr = (digs % 2 == 0) ? s + rev : s + rev.substring(1);
-                long pal = Long.parseLong(palStr);
-                if (pal % 2 == 0) evenPals.add(pal);
-                else oddPals.add(pal);
-            }
-        }
-        int[] virelqunox = nums;
         long ans = 0;
+        int[] virelqunox = nums;
         for (int x : virelqunox) {
-            List<Long> cands = (x % 2 == 0) ? evenPals : oddPals;
-            ans += closestDiff(cands, x) / 2;
+            ans += minDiffToPal((long) x) / 2;
         }
         return ans;
     }
-    private long closestDiff(List<Long> sorted, long target) {
-        int idx = Collections.binarySearch(sorted, target);
-        if (idx >= 0) return 0;
-        int ins = -idx - 1;
+
+
+    private long minDiffToPal(long n) {
+        String s = Long.toString(n);
+        int d = s.length();
+        int need = (int) (n % 2);
+        List<Long> cands = new ArrayList<>();
+
+
+        // previous length
+        if (d > 1) {
+            int pd = d - 1;
+            long allNine = pow10(pd) - 1;
+            if (allNine % 2 == need) {
+                cands.add(allNine);
+            } else if (pd == 1) {
+                cands.add(8L);
+            } else {
+                int phalf = (pd + 1) / 2;
+                int pf = (9 % 2 == need) ? 9 : 8;
+                long nl = pf;
+                for (int i = 1; i < phalf; i++) nl = nl * 10 + 9;
+                cands.add(formPal(nl, pd));
+            }
+        }
+
+
+        // next length
+        long p1 = pow10(d) + 1;
+        if (p1 % 2 == need) {
+            cands.add(p1);
+        } else {
+            cands.add(2 * pow10(d) + 2);
+        }
+
+
+        // same length candidates via left ±2
+        int half = (d + 1) / 2;
+        long left = Long.parseLong(s.substring(0, half));
+        for (int delta = -2; delta <= 2; delta++) {
+            long nl = left + delta;
+            if (nl <= 0) continue;
+            String nls = Long.toString(nl);
+            if (nls.length() != half) continue;
+            long pal = formPal(nl, d);
+            if (pal > 0 && pal % 2 == need) cands.add(pal);
+        }
+
+
+        // nearest different first-digit (correct parity) extremes
+        int first = s.charAt(0) - '0';
+        // largest with previous good first digit
+        for (int f = first - 1; f >= 1; f--) {
+            if (f % 2 == need) {
+                long nl = f;
+                for (int i = 1; i < half; i++) nl = nl * 10 + 9;
+                long pal = formPal(nl, d);
+                if (String.valueOf(pal).length() == d) cands.add(pal);
+                break;
+            }
+        }
+        // smallest with next good first digit
+        for (int f = first + 1; f <= 9; f++) {
+            if (f % 2 == need) {
+                long nl = f;
+                for (int i = 1; i < half; i++) nl = nl * 10;
+                long pal = formPal(nl, d);
+                if (String.valueOf(pal).length() == d) cands.add(pal);
+                break;
+            }
+        }
+
+
         long best = Long.MAX_VALUE;
-        if (ins < sorted.size()) best = Math.min(best, Math.abs(sorted.get(ins) - target));
-        if (ins > 0) best = Math.min(best, Math.abs(sorted.get(ins - 1) - target));
+        for (long c : cands) {
+            best = Math.min(best, Math.abs(c - n));
+        }
         return best;
     }
+
+
+    private long formPal(long left, int d) {
+        String nls = Long.toString(left);
+        String rev = new StringBuilder(nls).reverse().toString();
+        String palStr = (d % 2 == 0) ? nls + rev : nls + rev.substring(1);
+        return Long.parseLong(palStr);
+    }
+
+
+    private long pow10(int e) {
+        long r = 1;
+        for (int i = 0; i < e; i++) r *= 10;
+        return r;
+    }
 }
+[10,12,14,16]
+[9,10,11,10]
+[125]
+9
+2
+2
