@@ -1,36 +1,18 @@
 /*
  * Platform: GeeksforGeeks
- * Problem: Python Code :
- * URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
- * Language: Java (21)
+ * Problem: Python Code
+ * URL: https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
+ * Language: class Solution: def countDistinct(self, arr, k): # Code here freq={} res=[] for i in range(k): freq[arr[i]]=freq.get(arr[i],0)+1 res.append(len(freq)) for i in range(k,len(arr)): out=arr[i-k] freq[out]-=1 if freq[out]==0: del freq[out] inc=arr[i] freq[inc]=freq.get(inc,0)+1 res.append(len(freq)) return res
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
+ * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-21T10:38:07.114Z
+ * Synced: 2026-09-13T19:30:57.625Z
  */
 
 class Solution {
-    public int minJumps(int[] arr) {
-        int n = arr.length;
-        Integer[] dp = new Integer[n];
-        return solve(0, arr, dp);
-    }
-    
-    private int solve(int i, int[] arr, Integer[] dp) {
-        if (i >= arr.length - 1) return 0;
-        if (dp[i] != null) return dp[i];
+    ArrayList<Integer> countDistinct(int arr[], int k) {
+        // code here
         
-        int ans = Integer.MAX_VALUE;
-        int maxJump = arr[i];
-        
-        for (int j = 1; j <= maxJump && i + j < arr.length; j++) {
-            int jumps = solve(i + j, arr, dp);
-            if (jumps != Integer.MAX_VALUE) {
-                ans = Math.min(ans, 1 + jumps);
-            }
-        }
-        
-        return dp[i] = (ans == Integer.MAX_VALUE ? Integer.MAX_VALUE : ans);
     }
 }
