@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-11T18:52:22.125Z",
-  "runtime": "0 ms",
-  "memoryUsage": "46.50 MB",
+  "submissionTimestamp": "2026-09-13T20:19:21.624Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Number of Vowels in a Substring of Given Length",
-  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/",
-  "submissionId": "bny5uu"
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/",
+  "submissionId": "ua97ox"
 }
