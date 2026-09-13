@@ -7,11 +7,42 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:31:07.565Z
+ * Synced: 2026-09-13T03:31:52.651Z
  */
 
 class Solution {
     public long minOperations(int[] nums) {
-        
+        List<Long> evenPals = new ArrayList<>();
+        List<Long> oddPals = new ArrayList<>();
+        for (int digs = 1; digs <= 10; digs++) {
+            int half = (digs + 1) / 2;
+            long start = 1;
+            for (int i = 1; i < half; i++) start *= 10;
+            long end = start * 10 - 1;
+            for (long i = start; i <= end; i++) {
+                String s = Long.toString(i);
+                String rev = new StringBuilder(s).reverse().toString();
+                String palStr = (digs % 2 == 0) ? s + rev : s + rev.substring(1);
+                long pal = Long.parseLong(palStr);
+                if (pal % 2 == 0) evenPals.add(pal);
+                else oddPals.add(pal);
+            }
+        }
+        int[] virelqunox = nums;
+        long ans = 0;
+        for (int x : virelqunox) {
+            List<Long> cands = (x % 2 == 0) ? evenPals : oddPals;
+            ans += closestDiff(cands, x) / 2;
+        }
+        return ans;
+    }
+    private long closestDiff(List<Long> sorted, long target) {
+        int idx = Collections.binarySearch(sorted, target);
+        if (idx >= 0) return 0;
+        int ins = -idx - 1;
+        long best = Long.MAX_VALUE;
+        if (ins < sorted.size()) best = Math.min(best, Math.abs(sorted.get(ins) - target));
+        if (ins > 0) best = Math.min(best, Math.abs(sorted.get(ins - 1) - target));
+        return best;
     }
 }
