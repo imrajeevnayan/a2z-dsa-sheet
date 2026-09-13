@@ -6,8 +6,8 @@
 - Topics: Array, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
-- Synced: 2026-09-13T04:32:28.757Z
+- Problem URL: https://leetcode.com/problems/image-overlap/?envType=daily-question&envId=2026-09-13
+- Synced: 2026-09-13T04:33:13.858Z
 
 ## Problem Description
 
