@@ -5,19 +5,23 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-13T04:15:10.858Z
+ * Synced: 2026-09-13T04:16:44.591Z
  */
 
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
         int left=0,currSum=0,count=0;
-        int target=(long)threshold*k;
+        long target=(long)threshold*k;
         for(int right=0;right<arr.length;right++){
                  currSum+=arr[right];
         }
-        
+            if(right-left+1==k){
+                if(currSum >=target) count++;
+            }
     }
-            if
+                currSum-=arr[left]++;
+                left++;
+        return count;
 }
