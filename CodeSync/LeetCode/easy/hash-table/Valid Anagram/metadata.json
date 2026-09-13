@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-13T22:00:32.135Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-13T22:01:20.822Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.52 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Anagram",
-  "problemUrl": "https://leetcode.com/problems/valid-anagram/description/",
+  "problemUrl": "https://leetcode.com/problems/valid-anagram/submissions/2141038812/",
   "submissionId": "8cubs"
 }
