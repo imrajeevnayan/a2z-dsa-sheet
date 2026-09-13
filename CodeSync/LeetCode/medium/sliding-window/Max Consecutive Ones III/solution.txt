@@ -7,13 +7,16 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T18:18:29.212Z
+ * Synced: 2026-09-13T18:19:14.542Z
  */
 
 class Solution {
     public int longestOnes(int[] nums, int k) {
+        int left=0,count=0,ans=0;
+        for(int right=0;right<nums.length;right++){
+            if(nums[right]==1)count++;
+            if()
+        }
         
     }
-        int left=0,count=0,ans=0;
-        for(int right=0;right<nums.lengh)
 }
