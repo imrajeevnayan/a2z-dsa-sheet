@@ -1,23 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:16:26.234Z
+ * Synced: 2026-09-13T18:17:42.878Z
  */
 
 class Solution {
-    public int maxSubArray(int[] nums) {
-        int maxsum=Integer.MIN_VALUE,curr=0;
-        for(int n:nums){
-            curr+=n;
-            if(curr >maxsum)maxsum=curr;
-            if(curr <0) curr=0;
+    public int longestOnes(int[] nums, int k) {
+        Queue<Integer> queue = new LinkedList<>();
+        int left = 0,maxLength = 0;
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) queue.add(right);
+            // More than k zeros
+            if (queue.size() > k) {
+                left = queue.poll() + 1;
+            }
+            maxLength = Math.max(maxLength, right - left + 1);
         }
-        return maxsum;
+        return maxLength;
     }
 }
