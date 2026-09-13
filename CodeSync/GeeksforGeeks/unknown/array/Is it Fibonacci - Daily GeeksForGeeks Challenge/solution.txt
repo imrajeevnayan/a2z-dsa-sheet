@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Is it Fibonacci ✅ | Daily GeeksForGeeks Challenge ????
+ * URL: https://www.geeksforgeeks.org/problems/is-it-fibonacci--170647/1
+ * Language: long long solve(int n, int k, vector<long long> arr) { // code here if(k>=n){ return arr[n-1]; } vector<long long> pfsum=arr; long long sum=0; for(auto x:arr){ sum+=x; } pfsum.push_back(sum); for(long long i=k+1;i<=n;i++){ sum+=pfsum[i-1]; sum-=pfsum[i-k-1]; pfsum.push_back(sum); } return pfsum[n-1]; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, sliding-window, Related Articles, Nth Geeky Number 1
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T21:39:45.239Z
+ */
+
+class Solution {
+    public int nthGeekyNumber(int n, int[] geekNum) {
+        int k = geekNum.length;
+
+        if (n <= k)
+            return geekNum[n - 1];
+
+        int[] arr = new int[n];
+
+        for (int i = 0; i < k; i++)
+            arr[i] = geekNum[i];
+
+        long sum = 0;
+
+        for (int i = 0; i < k; i++)
+            sum += arr[i];
+
+        for (int i = k; i < n; i++) {
+            arr[i] = (int) sum;
+
+            sum += arr[i];
+            sum -= arr[i - k];
+        }
+
+        return arr[n - 1];
+    }
+}
