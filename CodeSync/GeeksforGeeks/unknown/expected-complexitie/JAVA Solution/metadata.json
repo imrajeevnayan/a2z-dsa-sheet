@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-13T20:54:46.006Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Arrays",
+    "sliding-window",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// no hash map solution , using just one variable class Solution { public: int totalElements(vector<int> &arr) { // code here int l=0; int h=0; int len=0; int p=0; while(h<arr.size()){ if(arr[h]==arr[l] || arr[h]==arr[p]){ len=max(len,h-l+1); h++; } else{ l=p; while(arr[p]==arr[l])p++; continue; } } return len; } };",
+  "problemTitle": "JAVA Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/longest-subarray-with-atmost-two-distinct-integers/1",
+  "submissionId": "ofsdom"
+}
