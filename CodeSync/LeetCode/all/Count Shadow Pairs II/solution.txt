@@ -7,11 +7,55 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:28:24.909Z
+ * Synced: 2026-09-13T03:29:10.765Z
  */
 
-class Solution {
-    public int shadowPairs(int[] nums) {
-        
+// Merge children
+    // ------------------------------------------------------------
+    private void pull(int node) {
+
+
+        int left = node << 1;
+        int right = left | 1;
+
+
+        if (max[left] > max[right]) {
+
+
+            max[node] = max[left];
+            maxCount[node] = maxCount[left];
+
+
+            secondMax[node] = Math.max(
+                    secondMax[left],
+                    max[right]
+            );
+
+
+        } else if (max[left] < max[right]) {
+
+
+            max[node] = max[right];
+            maxCount[node] = maxCount[right];
+
+
+            secondMax[node] = Math.max(
+                    max[left],
+                    secondMax[right]
+            );
+
+
+        } else {
+
+
+            max[node] = max[left];
+            maxCount[node] = maxCount[left] + maxCount[right];
+
+
+            secondMax[node] = Math.max(
+                    secondMax[left],
+                    secondMax[right]
+            );
+        }
     }
 }
