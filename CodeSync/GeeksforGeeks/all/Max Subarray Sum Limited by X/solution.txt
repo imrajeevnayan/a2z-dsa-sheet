@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Subarray Sum Limited by X
+ * URL: https://www.geeksforgeeks.org/problems/maximum-sum-of-subarray-less-than-or-equal-to-x4033/1
+ * Language: class Solution: def findMaxSubarraySum(self, arr, x): start = 0 end = 0 max_sum = 0 current_sum = 0 LENGTH = len(arr) while end < LENGTH: current_sum += arr[end] while current_sum > x: current_sum -= arr[start] start += 1 if current_sum <= x: max_sum = max(max_sum, current_sum) end += 1 return max_sum
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, sliding-window, two-pointer-algorithm, Arrays, Related Articles, Maximum Sum Subarray Sum Less Equal Given Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T10:41:10.082Z
+ */
+
+class Solution {
+    public int maxSum(int[] arr, int x) {
+        int left = 0;
+        long sum = 0;
+        long ans = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            sum += arr[right];
+
+            while (sum > x && left <= right) {
+                sum -= arr[left++];
+            }
+
+            ans = Math.max(ans, sum);
+        }
+
+        return (int) ans;
+    }
+}
