@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-09-12T18:48:59.390Z",
+  "submissionTimestamp": "2026-09-13T16:40:38.792Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
     "Sliding Window"
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/",
-  "submissionId": "bgb1x"
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/",
+  "submissionId": "s70nbi"
 }
