@@ -4,10 +4,10 @@
 - Language: Weekly Contest 519
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/description/
-- Synced: 2026-09-13T03:19:28.639Z
+- Synced: 2026-09-13T03:34:59.118Z
 
 ## Problem Description
 
