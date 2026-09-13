@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:20.806Z",
-  "runtime": "1 ms",
-  "memoryUsage": "77.04 MB",
+  "submissionTimestamp": "2026-09-13T20:31:19.412Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2139295637/",
-  "submissionId": "ny7o7b"
+  "problemUrl": "https://leetcode.com/discuss/post/1122776/summary-of-sliding-window-patterns-for-s-2cnq/",
+  "submissionId": "dbgrg"
 }
