@@ -7,11 +7,12 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:15:05.562Z
+ * Synced: 2026-09-13T03:15:51.562Z
  */
 
 class Solution {
     public int[][] cyclicShift(int n, int[][] grid, int[] rowShift, int[] colShift) {
-        
+        int ans[][]=new int[n][n];
+        for(int i=0;)
     }
 }
