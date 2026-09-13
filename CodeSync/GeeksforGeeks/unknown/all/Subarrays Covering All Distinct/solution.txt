@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarrays Covering All Distinct
+ * URL: https://www.geeksforgeeks.org/problems/equivalent-sub-arrays3731/1
+ * Language: int countDistinctSubarray(int arr[], int n) { unordered_map<int, int> store; unordered_map<int, int> mp; for(int i=0;i<n;i++){ store[arr[i]]++; } int mapSize = store.size(); int i = 0; int j = 0; int ans =0; while(j<n){ mp[arr[j]]++; if(mp.size()< mapSize){ j++; } else if(mp.size() == mapSize){ while(mp.size()== mapSize){ ans = ans +(n-j); mp[arr[i]]--; if(mp[arr[i]]==0){ mp.erase(arr[i]); } i++; } j++; } } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, sliding-window, two-pointer-algorithm, Arrays, Hash, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T21:12:16.064Z
+ */
+
+class Solution {
+    public int countAllDistinct(int[] arr) {
+        // Find total distinct elements
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int num : arr) {
+            set.add(num);
+        }
+
+        int totalDistinct = set.size();
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        int left = 0,count = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+
+            while (map.size() == totalDistinct) {
+                // All distinct elements are present.
+                // Every subarray starting from left and ending
+                // at right or later is valid.
+                count += arr.length - right;
+
+                map.put(arr[left], map.get(arr[left]) - 1);
+
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+
+                left++;
+            }
+        }
+
+        return count;
+    }
+}
