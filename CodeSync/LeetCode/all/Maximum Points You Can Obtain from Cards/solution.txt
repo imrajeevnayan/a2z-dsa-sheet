@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:16:12.042Z
+ * Synced: 2026-09-13T20:17:00.826Z
  */
 
 class Solution {
