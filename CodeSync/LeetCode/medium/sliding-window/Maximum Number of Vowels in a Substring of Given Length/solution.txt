@@ -1,28 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Vowels in a Substring of Given Length
- * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+ * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Sliding Window
- * Runtime: 0 ms
- * Memory: 46.50 MB
- * Synced: 2026-07-11T18:52:22.125Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T20:19:21.624Z
  */
 
-for (int i = k; i < s.length(); i++) {
+private boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+    }
+    public int maxVowels(String s, int k) {
+        int currentVowels = 0;
+        for (int i = 0; i < k; i++) {
             if (isVowel(s.charAt(i))) currentVowels++;
-            if (isVowel(s.charAt(i - k))) currentVowels--;
+        }
         int maxVowels = currentVowels;
 
-        }
+        for (int i = k; i < s.length(); i++) {
             if (isVowel(s.charAt(i))) currentVowels++;
+            if (isVowel(s.charAt(i - k))) currentVowels--;
             maxVowels = Math.max(maxVowels, currentVowels);
         }
-        for (int i = 0; i < k; i++) {
-        int currentVowels = 0;
-    public int maxVowels(String s, int k) {
+        return maxVowels;
     }
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-class Solution {
-    private boolean isVowel(char c) {
+}
