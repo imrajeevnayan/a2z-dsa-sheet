@@ -7,14 +7,8 @@
  * Topics: DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic, GeeksForGeeks
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T21:01:18.625Z
+ * Synced: 2026-09-13T21:02:17.967Z
  */
-
-**Day 2 Post (Clean & Ready to Post):**
-
-
----
-
 
 🚀 Day 2 of Fixed Size Sliding Window
 
@@ -52,9 +46,6 @@ Yeh rahe aaj ke questions:
 → Queue use karke indices store kiye (values nahi)
 
 
----
-
-
 💡 Key Learnings from Day 2:
 
 
@@ -75,9 +66,3 @@ Next → More Fixed Size + Variable Size Sliding Window 🚀
 
 
 #DSA #Java #SlidingWindow #LeetCode #ProblemSolving #100DaysOfCode #LearningInPublic
-
-
----
-
-
-**Horizontal (Landscape) Diagram based on Day 2:**
