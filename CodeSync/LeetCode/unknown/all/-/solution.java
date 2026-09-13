@@ -1,28 +1,47 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2139409513/
+ * URL: https://leetcode.com/submissions/detail/2136826351/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 4 ms
- * Memory: 69.61 MB
- * Synced: 2026-09-12T11:16:35.846Z
+ * Runtime: 10 ms
+ * Memory: 48.53 MB
+ * Synced: 2026-09-13T03:37:24.724Z
  */
 
 1class Solution {
-2    public double findMaxAverage(int[] nums, int k) {
-3        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
-4        for(int right=0;right<nums.length;right++){
-5            currSum+=nums[right];
-6            if(right-left+1>k){
-7                currSum-=nums[left];
-8                left++;
-9            }
-10            if(right-left+1==k){
-11                ans=Math.max(ans,currSum);
-12            }
-13        }
-14        return (double)ans/k;
-15    }
-16}
+2    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+3        List<List<Integer>> result = new ArrayList<>();
+4        Queue<List<Integer>> q = new LinkedList<>();
+5
+6        List<Integer> startPath = new ArrayList<>();
+7        startPath.add(0);
+8        q.offer(startPath);
+9
+10        int target = graph.length - 1;
+11
+12        while (!q.isEmpty()) {
+13            List<Integer> path = q.poll();
+14
+15            int node = path.get(path.size() - 1);
+16
+17            // Target reached
+18            if (node == target) {
+19                result.add(path);
+20                continue;
+21            }
+22
+23            // Add all neighbours
+24            for (int next : graph[node]) {
+25                List<Integer> newPath = new ArrayList<>(path);
+26                newPath.add(next);
+27
+28                q.offer(newPath);
+29            }
+30        }
+31
+32        return result;
+33    }
+34}
+35
