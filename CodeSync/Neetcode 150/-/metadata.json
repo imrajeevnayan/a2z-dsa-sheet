@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-08-21T05:25:24.667Z",
+  "submissionTimestamp": "2026-09-13T03:01:37.968Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "String",
-    "Stack",
-    "Bracket Sequences"
+    "Array",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "g5jw3h"
+  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/description/",
+  "submissionId": "5j0ioo"
 }
