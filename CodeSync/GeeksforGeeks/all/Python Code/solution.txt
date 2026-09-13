@@ -7,12 +7,13 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T19:35:42.910Z
+ * Synced: 2026-09-13T19:36:29.171Z
  */
 
 class Solution {
     ArrayList<Integer> countDistinct(int arr[], int k) {
      ArrayList<Integer>res=new ArrayList<>();
+     int n=arr.length;
      if(k>n)return res;
      Map<Integer,Integer>map=new HashMap<>();
      int left=0;
@@ -23,8 +24,10 @@ class Solution {
              int leftVal=arr[left];
              map.put(leftVal,map.getOrDefault(leftVal,0)-1);
              if(map.get(leftVal)==0)map.remove(leftVal);
+             left++;
          }
      }
+     return res;
         
     }
 }
