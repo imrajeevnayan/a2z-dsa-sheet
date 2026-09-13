@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Shadow Pairs II
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/description/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/
  * Language: Weekly Contest 519
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:27:39.553Z
+ * Synced: 2026-09-13T03:28:24.909Z
  */
 
 class Solution {
