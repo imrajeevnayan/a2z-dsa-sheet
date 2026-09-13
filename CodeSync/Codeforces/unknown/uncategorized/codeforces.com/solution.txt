@@ -1,0 +1,13 @@
+/*
+ * Platform: Codeforces
+ * Problem: codeforces.com
+ * URL: https://codeforces.com/enter?back=%2Fproblemset%2Fproblem%2F71%2FA&__cf_chl_tk=NmAOjPGcZg.EhAKEQftWCCW..BYGzyh73SyaqaQcH8w-1789329543-1.0.1.1-PuDNshBB.zg9AGB3D.UyatFJctJsDpthXNZnGUFGkeM
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T19:59:08.913Z
+ */
+
+a3a9baf0cc8acec4
