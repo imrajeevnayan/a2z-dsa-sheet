@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:44:16.701Z
+ * Synced: 2026-09-13T20:45:02.183Z
  */
 
 class Solution {
@@ -16,7 +16,9 @@ class Solution {
         int left=0,ans=0;
         for(int right=0;right<s.length();right++){
             char ch=s.charAt(right);
-            while(s.)
+            while(s.contains(ch)){
+                s.remob
+            }
         }
     }
 }
