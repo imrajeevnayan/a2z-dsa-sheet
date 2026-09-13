@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:16:36.909Z
+ * Synced: 2026-09-13T03:17:22.561Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         int ans[][]=new int[n][n];
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                
+                int newRows=(i+rowShift)
             }
         }
     }
