@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution {public: int smallestSubstring(string s) { int n = s.size(); int c0 = 0, c1 = 0, c2 = 0; int l = 0, ans = INT_MAX; for(int r = 0; r < n; r++) { if(s[r] == '0') c0++; else if(s[r] == '1') c1++; else c2++; while(c0 > 0 && c1 > 0 && c2 > 0) { ans = min(ans, r - l + 1); if(s[l] == '0') c0--; else if(s[l] == '1') c1--; else c2--; l++; } } return ans == INT_MAX ? -1 : ans; }};
+ * URL: https://www.geeksforgeeks.org/problems/smallest-window-containing-0-1-and-2--170637/1
+ * Language: class Solution: def smallestSubstring(self, s): # code here char_count = 3 count_arr = [0] * char_count bool_arr = [False] * char_count n = len(s) i = j = 0 min_len = pow(10, 5) + 1 updated = False while j < n: ind = int(s[j]) count_arr[ind] += 1 bool_arr[ind] = True while i < j and sum(bool_arr) == char_count: updated = True min_len = min(min_len, j - i + 1) ind1 = int(s[i]) count_arr[ind1] -= 1 if count_arr[ind1] == 0: bool_arr[ind1] = False i += 1 j += 1 if not updated: return -1 return min_len
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Paytm, Company Tags, Paytm, Topic Tags, sliding-window, two-pointer-algorithm, Strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T10:39:35.143Z
+ */
+
+class Solution {
+    public int smallestSubstring(String s) {
+        int[] freq = new int[3]; // for 0,1,2
+
+        int left = 0, minLen = Integer.MAX_VALUE;
+        int count = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            int idx = s.charAt(right) - '0';
+
+            if (freq[idx] == 0) count++;
+            freq[idx]++;
+
+            while (count == 3) {
+                minLen = Math.min(minLen, right - left + 1);
+
+                int leftIdx = s.charAt(left) - '0';
+                freq[leftIdx]--;
+
+                if (freq[leftIdx] == 0) count--;
+                left++;
+            }
+        }
+
+        return minLen == Integer.MAX_VALUE ? -1 : minLen;
+    }
+}
