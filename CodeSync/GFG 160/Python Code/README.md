@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
-- Synced: 2026-09-13T19:52:09.839Z
+- Synced: 2026-09-13T19:53:09.834Z
 
 ## Problem Description
 
