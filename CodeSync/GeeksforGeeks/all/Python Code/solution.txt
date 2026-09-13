@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:07:53.829Z
+ * Synced: 2026-09-13T20:09:09.936Z
  */
 
 class Solution {
