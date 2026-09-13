@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:24:03.291Z
+ * Synced: 2026-09-13T20:24:58.828Z
  */
 
 class Solution {
