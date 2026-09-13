@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/image-overlap/?envType=daily-question&envId=2026-09-13
-- Synced: 2026-09-13T04:46:00.911Z
+- Synced: 2026-09-13T04:46:45.913Z
 
 ## Problem Description
 
