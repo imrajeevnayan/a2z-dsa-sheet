@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA Solution
+ * URL: https://www.geeksforgeeks.org/problems/longest-subarray-with-atmost-two-distinct-integers/1
+ * Language: // no hash map solution , using just one variable class Solution { public: int totalElements(vector<int> &arr) { // code here int l=0; int h=0; int len=0; int p=0; while(h<arr.size()){ if(arr[h]==arr[l] || arr[h]==arr[p]){ len=max(len,h-l+1); h++; } else{ l=p; while(arr[p]==arr[l])p++; continue; } } return len; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, sliding-window, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T20:54:46.006Z
+ */
+
+class Solution {
+    public int totalElements(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int left = 0,ans = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+
+            // 2  se jyda distinct elements
+            while (map.size() > 2) {
+                map.put(arr[left], map.get(arr[left]) - 1);
+
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+                left++;
+            }
+
+            // Window has at most 2 distinct elements
+            ans = Math.max(ans, right - left + 1);
+        }
+        return ans;
+    }
+}
