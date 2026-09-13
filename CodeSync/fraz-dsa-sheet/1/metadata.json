@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-13T16:40:38.792Z",
+  "submissionTimestamp": "2026-09-13T18:17:42.878Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Sliding Window"
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/",
-  "submissionId": "s70nbi"
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
+  "submissionId": "oqfrff"
 }
