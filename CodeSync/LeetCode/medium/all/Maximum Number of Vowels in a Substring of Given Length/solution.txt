@@ -5,23 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-13T20:24:58.828Z
+ * Synced: 2026-09-13T20:27:15.180Z
  */
 
 class Solution {
-    private boolean isVowel(char c) {
+    private boolean isVowels(char c) {
         return "aeiouAEIOU".indexOf(c)!=-1;
     }
     public int maxVowels(String s, int k) {
         int left=0,count=0,ans=0;
         for(int right=0;right<s.length();right++){
-        
+        return ans;
         }
             if(right-left+1==k){
-             
+             ans=Math.max(ans,count);
             }
     }
              if(isVowels(s.charAt(right))) count++;
+             if(isVowels(s.charAt(left)))count--;
+             left++;
 }
