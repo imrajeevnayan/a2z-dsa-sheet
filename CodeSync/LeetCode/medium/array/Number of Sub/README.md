@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
-- Synced: 2026-09-13T04:12:54.574Z
+- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+- Synced: 2026-09-13T04:13:39.844Z
 
 ## Problem Description
 
