@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
-- Synced: 2026-09-13T20:23:17.506Z
+- Synced: 2026-09-13T20:24:03.291Z
 
 ## Problem Description
 
