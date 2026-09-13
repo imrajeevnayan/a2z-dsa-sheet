@@ -1,23 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-subarray/description/
+ * URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Divide and Conquer, Dynamic Programming
+ * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:16:26.234Z
+ * Synced: 2026-09-13T16:40:38.792Z
  */
 
 class Solution {
-    public int maxSubArray(int[] nums) {
-        int maxsum=Integer.MIN_VALUE,curr=0;
-        for(int n:nums){
-            curr+=n;
-            if(curr >maxsum)maxsum=curr;
-            if(curr <0) curr=0;
+    public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+        int base = 0;
+        for (int i = 0; i < customers.length; i++) {
+            if (grumpy[i] == 0)
+                base += customers[i];
         }
-        return maxsum;
-    }
-}
+        int extra = 0;
+        for (int i = 0; i < minutes; i++) {
+            if (grumpy[i] == 1)
+                extra += customers[i];
+        }
+        int maxExtra = extra;
+        // Sliding Window
+        for (int i = minutes; i < customers.length; i++) {
+
+            if (grumpy[i] == 1)
+                extra += customers[i];
+
+            if (grumpy[i - minutes] == 1)
+                extra -= customers[i - minutes];
