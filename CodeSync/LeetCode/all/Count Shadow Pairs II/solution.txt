@@ -1,61 +1,83 @@
 /*
  * Platform: LeetCode
  * Problem: Count Shadow Pairs II
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/description/
  * Language: Weekly Contest 519
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:29:10.765Z
+ * Synced: 2026-09-13T03:38:35.746Z
  */
 
-// Merge children
-    // ------------------------------------------------------------
-    private void pull(int node) {
+class Solution {
 
 
-        int left = node << 1;
-        int right = left | 1;
+    private static final long INF = (1L << 60);
+    private static final long NEG = -(1L << 60);
 
 
-        if (max[left] > max[right]) {
+    private long[] max;
+    private long[] secondMax;
+    private int[] maxCount;
 
 
-            max[node] = max[left];
-            maxCount[node] = maxCount[left];
+    public int shadowPairs(int[] nums) {
 
 
-            secondMax[node] = Math.max(
-                    secondMax[left],
-                    max[right]
-            );
+        int[] torunelixa = nums;
 
 
-        } else if (max[left] < max[right]) {
+        int n = nums.length;
 
 
-            max[node] = max[right];
-            maxCount[node] = maxCount[right];
+        // Sort indices by nums[i].
+        Integer[] order = new Integer[n];
 
 
-            secondMax[node] = Math.max(
-                    max[left],
-                    secondMax[right]
-            );
-
-
-        } else {
-
-
-            max[node] = max[left];
-            maxCount[node] = maxCount[left] + maxCount[right];
-
-
-            secondMax[node] = Math.max(
-                    secondMax[left],
-                    secondMax[right]
-            );
+        for (int i = 0; i < n; i++) {
+            order[i] = i;
         }
-    }
-}
+
+
+        Arrays.sort(order, (a, b) -> Integer.compare(nums[a], nums[b]));
+
+
+        // rank[i] = position of index i in value-sorted order.
+        int[] rank = new int[n];
+
+
+        for (int r = 0; r < n; r++) {
+            rank[order[r]] = r;
+        }
+
+
+        max = new long[4 * n];
+        secondMax = new long[4 * n];
+        maxCount = new int[4 * n];
+
+
+        build(1, 0, n - 1);
+
+
+        long ans = 0;
+
+
+        for (int j = 0; j < n; j++) {
+
+
+            long x = torunelixa[j];
+
+
+            // First position whose value >= x.
+            // Therefore [0, pos) contains nums[i] < x.
+            int pos = lowerBound(order, torunelixa, x);
+
+
+            if (pos > 0) {
+                // Count active i with:
+                // nums[i] < x AND t[i] >= x
+                ans += queryCount(1, 0, n - 1, 0, pos - 1, x);
+
+
+                // Current x becomes a blocker for future j's.
