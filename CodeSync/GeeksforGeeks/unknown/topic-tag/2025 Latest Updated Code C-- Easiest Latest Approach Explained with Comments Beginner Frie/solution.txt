@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 2025 Latest Updated Code || C++ Easiest Latest Approach || Explained with Comments || Beginner Friendly || Upvote if U Liked the approach
+ * URL: https://www.geeksforgeeks.org/problems/subarrays-with-k-different-integers/1
+ * Language: class Solution { public: // Helper function to calculate the number of subarrays with at most K distinct integers int atMostK(vector<int> &arr, int k) { int left = 0, right = 0; int count = 0; unordered_map<int, int> freq; // To store the frequency of each element in the current window for (right = 0; right < arr.size(); right++) { // Increase the frequency of the current element freq[arr[right]]++; // If we have more than 'k' distinct elements, move the left pointer while (freq.size() > k) { freq[arr[left]]--; if (freq[arr[left]] == 0) { freq.erase(arr[left]); // Remove the element if its frequency is zero } left++; // Shrink the window from the left } // Count the number of subarrays with at most 'k' distinct elements count += (right - left + 1); // All subarrays ending at 'right' and starting from 'left' to 'right' } return count; } // Function to calculate the number of subarrays with exactly K distinct integers int exactlyK(vector<int> &arr, int k) { // The result is the difference between the number of subarrays with at most K distinct integers // and the number of subarrays with at most (K-1) distinct integers return atMostK(arr, k) - atMostK(arr, k - 1); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, sliding-window, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T21:10:34.301Z
+ */
+
+class Solution {
+    public int exactlyK(int arr[], int k) {
+        return atMostK(arr, k) - atMostK(arr, k - 1);
+    }
+
+    private int atMostK(int[] arr, int k) {
+        if (k == 0) return 0;
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        int left = 0;
+        int count = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+
+            while (map.size() > k) {
+                map.put(arr[left], map.get(arr[left]) - 1);
+
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+
+                left++;
+            }
+
+            // Number of subarrays ending at right
+            count += right - left + 1;
+        }
+
+        return count;
+    }
+}
