@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/
-- Synced: 2026-09-13T03:30:21.569Z
+- Synced: 2026-09-13T03:31:07.565Z
 
 ## Problem Description
 
