@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/
-- Synced: 2026-09-13T03:16:36.909Z
+- Synced: 2026-09-13T03:17:22.561Z
 
 ## Problem Description
 
