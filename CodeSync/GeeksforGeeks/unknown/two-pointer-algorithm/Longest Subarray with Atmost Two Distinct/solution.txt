@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Longest Subarray with Atmost Two Distinct
+ * URL: https://www.geeksforgeeks.org/problems/longest-subarray-with-atmost-two-distinct-integers/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, sliding-window, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T21:13:06.547Z
+ */
+
+class Solution {
+    public int totalElements(int[] arr) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int left = 0,ans = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+
+            // 2  se jyda distinct elements
+            while (map.size() > 2) {
+                map.put(arr[left], map.get(arr[left]) - 1);
+
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+                left++;
+            }
+
+            // Window has at most 2 distinct elements
+            ans = Math.max(ans, right - left + 1);
+        }
+        return ans;
+    }
+}
