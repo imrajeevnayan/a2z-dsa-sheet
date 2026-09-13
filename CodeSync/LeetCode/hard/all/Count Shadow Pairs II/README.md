@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/description/
-- Synced: 2026-09-13T03:27:39.553Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/
+- Synced: 2026-09-13T03:28:24.909Z
 
 ## Problem Description
 
