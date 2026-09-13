@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/smallest-window-containing-0-1-and-2--170637/1
-- Synced: 2026-09-13T15:16:22.901Z
+- Synced: 2026-09-13T15:17:35.260Z
 
 ## Problem Description
 
