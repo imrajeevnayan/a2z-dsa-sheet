@@ -1,18 +1,18 @@
-# Python Code :
+# Python Code
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution: def countDistinct(self, arr, k): # Code here freq={} res=[] for i in range(k): freq[arr[i]]=freq.get(arr[i],0)+1 res.append(len(freq)) for i in range(k,len(arr)): out=arr[i-k] freq[out]-=1 if freq[out]==0: del freq[out] inc=arr[i] freq[inc]=freq.get(inc,0)+1 res.append(len(freq)) return res
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart
+- Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
-- Synced: 2026-07-21T10:38:07.114Z
+- Problem URL: https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
+- Synced: 2026-09-13T19:30:57.625Z
 
 ## Problem Description
 
-You are given an array arr[] of non-negative numbers. Each number tells you the maximum number of steps you can jump forward from that position. For example: If arr[i] = 3, you can jump to index i + 1, i + 2, or i + 3 from position i. If arr[i] = 0, you cannot jump forward from that position. Your task is to find the minimum number of jumps needed to move from the first position in the array to the last position. Note: Return -1 if you can't reach the end of the array. Examples : Input: arr[] = [1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9] Output: 3 Explanation: First jump from 1st element to 2nd element with value 3. From here we jump to 5th element with value 9, and from here we will jump to the last. Input: arr = [1, 4, 3, 2, 6, 7] Output: 2 Explanation: First we jump from the 1st to 2nd element and then jump to the last element. Input: arr = [0, 10, 20] Output: -1 Explanation: We cannot go anywhere from the 1st element. Constraints: 2 ≤ arr.size() ≤ 105 0 ≤ arr[i] ≤ 105
+Given an integer array arr[] and a number k. Find the count of distinct elements in every window of size k in the array. Examples: Input: arr[] = [1, 2, 1, 3, 4, 2, 3], k = 4 Output: [3, 4, 4, 3] Explanation: First window is [1, 2, 1, 3], count of distinct numbers is 3. Second window is [2, 1, 3, 4] count of distinct numbers is 4. Third window is [1, 3, 4, 2] count of distinct numbers is 4. Fourth window is [3, 4, 2, 3] count of distinct numbers is 3. Input: arr[] = [4, 1, 1], k = 2 Output: [2, 1] Explanation: First window is [4, 1], count of distinct numbers is 2. Second window is [1, 1], count of distinct numbers is 1. Input: arr[] = [1, 1, 1, 1, 1], k = 3 Output: [1, 1, 1] Explanation: Every window of size 3 in the array [1, 1, 1, 1, 1], contains only the element 1, so the number of distinct elements in each window is 1.
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Moonfrog Labs, Flipkart, Amazon, Microsoft, Housing.com, Walmart. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def countDistinct(self, arr, k): # Code here freq={} res=[] for i in range(k): freq[arr[i]]=freq.get(arr[i],0)+1 res.append(len(freq)) for i in range(k,len(arr)): out=arr[i-k] freq[out]-=1 if freq[out]==0: del freq[out] inc=arr[i] freq[inc]=freq.get(inc,0)+1 res.append(len(freq)) return res. The detected topics are Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags. Review the synced source file for the implementation details.
