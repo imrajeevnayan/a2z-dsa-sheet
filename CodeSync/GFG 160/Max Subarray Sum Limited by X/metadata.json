@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-09-13T10:41:10.082Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "sliding-window",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Related Articles",
+    "Maximum Sum Subarray Sum Less Equal Given Sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def findMaxSubarraySum(self, arr, x): start = 0 end = 0 max_sum = 0 current_sum = 0 LENGTH = len(arr) while end < LENGTH: current_sum += arr[end] while current_sum > x: current_sum -= arr[start] start += 1 if current_sum <= x: max_sum = max(max_sum, current_sum) end += 1 return max_sum",
+  "problemTitle": "Max Subarray Sum Limited by X",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-sum-of-subarray-less-than-or-equal-to-x4033/1",
+  "submissionId": "92p9o2"
+}
