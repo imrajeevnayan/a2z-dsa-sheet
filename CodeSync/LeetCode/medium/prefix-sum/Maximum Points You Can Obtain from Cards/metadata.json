@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-13T20:16:12.042Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Points You Can Obtain from Cards",
+  "problemUrl": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/",
+  "submissionId": "uipb7y"
+}
