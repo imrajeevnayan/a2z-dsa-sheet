@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Distinct Elements in Every Window
+ * URL: https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T19:30:13.462Z
+ */
+
+class Solution {
+    ArrayList<Integer> countDistinct(int arr[], int k) {
+        // code here
+        
+    }
+}
