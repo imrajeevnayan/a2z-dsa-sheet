@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
-- Synced: 2026-09-13T20:17:47.820Z
+- Synced: 2026-09-13T20:18:40.835Z
 
 ## Problem Description
 
