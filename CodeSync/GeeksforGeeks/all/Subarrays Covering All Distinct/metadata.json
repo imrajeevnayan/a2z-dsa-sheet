@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-09-13T21:12:16.064Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "sliding-window",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Hash",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int countDistinctSubarray(int arr[], int n) { unordered_map<int, int> store; unordered_map<int, int> mp; for(int i=0;i<n;i++){ store[arr[i]]++; } int mapSize = store.size(); int i = 0; int j = 0; int ans =0; while(j<n){ mp[arr[j]]++; if(mp.size()< mapSize){ j++; } else if(mp.size() == mapSize){ while(mp.size()== mapSize){ ans = ans +(n-j); mp[arr[i]]--; if(mp[arr[i]]==0){ mp.erase(arr[i]); } i++; } j++; } } return ans; }",
+  "problemTitle": "Subarrays Covering All Distinct",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/equivalent-sub-arrays3731/1",
+  "submissionId": "3demz2"
+}
