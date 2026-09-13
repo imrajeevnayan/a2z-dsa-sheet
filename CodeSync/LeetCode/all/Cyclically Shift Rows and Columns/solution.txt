@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Cyclically Shift Rows and Columns
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/description/
+ * Language: Weekly Contest 519
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T03:14:19.977Z
+ */
+
+class Solution {
+    public int[][] cyclicShift(int n, int[][] grid, int[] rowShift, int[] colShift) {
+        
+    }
+}
