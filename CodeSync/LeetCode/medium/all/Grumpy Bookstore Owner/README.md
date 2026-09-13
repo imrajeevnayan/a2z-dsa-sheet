@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/
-- Synced: 2026-09-13T16:43:44.909Z
+- Synced: 2026-09-13T16:44:35.246Z
 
 ## Problem Description
 
