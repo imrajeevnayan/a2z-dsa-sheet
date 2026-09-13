@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T03:27:39.553Z",
+  "submissionTimestamp": "2026-09-13T03:28:24.909Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 519",
   "problemTitle": "Count Shadow Pairs II",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/description/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/",
   "submissionId": "4vi6du"
 }
