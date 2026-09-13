@@ -1,18 +1,18 @@
 # -
 
 - Platform: LeetCode
-- Language: Top Interview 150
+- Language: Text
 - Difficulty: Easy
-- Topics: String, Stack, Bracket Sequences
+- Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
-- Synced: 2026-08-21T05:25:24.667Z
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/description/
+- Synced: 2026-09-13T03:01:37.968Z
 
 ## Problem Description
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
+You are given an integer array nums consisting of n elements, and an integer k. Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted. Example 1: Input: nums = [1,12,-5,-6,50,3], k = 4 Output: 12.75000 Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75 Example 2: Input: nums = [5], k = 1 Output: 5.00000 Constraints: n == nums.length 1 <= k <= n <= 105 -104 <= nums[i] <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top Interview 150. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
