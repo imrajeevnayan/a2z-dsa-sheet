@@ -4,609 +4,80 @@
  * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
  * Language: All Submissions
  * Difficulty: Medium
- * Topics: GeeksForGeeks, GFG, DSA, Java, 2DArray, Matrix, DSAJourney, CodingJourney
+ * Topics: DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic, GeeksForGeeks
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T17:37:31.827Z
+ * Synced: 2026-09-13T21:01:18.625Z
  */
 
-🚀 Fixed Size Sliding Window — Complete DSA Roadmap
+**Day 2 Post (Clean & Ready to Post):**
 
-Agar kisi question mein "every subarray/substring of size K", "window of size K" ya "length K" diya hai, sabse pehle dimaag mein aana chahiye:
 
-🔥 FIXED SIZE SLIDING WINDOW
+---
 
 
-The goal is not to memorize 50 questions.
+🚀 Day 2 of Fixed Size Sliding Window
 
-The goal is to recognize the underlying pattern and change only the data structure/state maintained inside the window.
 
+Aaj maine Fixed Size Sliding Window ke kuch important problems practice kiye.
 
-🧠 Master Template
 
-int left = 0;
+Yeh rahe aaj ke questions:
 
-for (int right = 0; right < n; right++) {
 
-    // Add right element
+1️⃣ Maximum Number of Vowels in a Substring of Given Length (LC 1456)  
 
-    if (right - left + 1 == k) {
+→ Classic Fixed Size + Frequency (vowel counting)
 
-        // Calculate / store answer
 
-        // Remove left element
+2️⃣ Longest Subarray with At Most Two Distinct Elements  
 
-        left++;
+→ Window maintain karke distinct count track kiya
 
-    }
 
-}
+3️⃣ Count Distinct Elements in Every Window of Size K  
 
+→ HashMap + Sliding Window  
 
-Core idea:
+(Rule: frequency 0 hone par map se remove karo)
 
 
-RIGHT → Add
+4️⃣ Count Occurrences of Anagrams  
 
-   ↓
+→ Frequency map of pattern + sliding window comparison
 
-Window Size == K
 
-   ↓
+5️⃣ First Negative Integer in every window of size K  
 
-Answer
+→ Queue use karke indices store kiye (values nahi)
 
-   ↓
 
-Remove LEFT
+---
 
-   ↓
 
-LEFT++
+💡 Key Learnings from Day 2:
 
 
-🟢 Pattern 1 — Sum / Average
+• Frequency map maintain karna bahut important hai  
 
-1. Maximum Sum Subarray of Size K
+• Queue mein indices store karna better hota hai (window se bahar nikalne ke liye)  
 
-Minimum Sum Subarray of Size K
+• Anagram problems mein pattern ka frequency map pehle bana lo, phir window compare karo  
 
-Maximum Average Subarray of Size K
+• Har problem mein yeh sawal poocho:  
 
-Minimum Average Subarray of Size K
+  “Is window ke andar mujhe kya track karna hai?”
 
-2. Maximum/Minimum Sum of Every Window
 
+📌 Day 2 ✅ Fixed Size Sliding Window (Practice)  
 
-Same fixed-window sum pattern.
+Next → More Fixed Size + Variable Size Sliding Window 🚀
 
 
-🟢 Pattern 2 — Product
+#DSA #Java #SlidingWindow #LeetCode #ProblemSolving #100DaysOfCode #LearningInPublic
 
-3. Maximum Product Subarray of Size K
 
+---
 
-Maintain:
 
-
-currProduct
-
-
-⚠️ Be careful with:
-
-
-0
-
-negative numbers
-
-integer overflow
-
-
-If division is used to remove the left element, zero needs special handling.
-
-
-🟢 Pattern 3 — Count / Simple Conditions
-
-4. Maximum Number of Vowels in a Substring of Size K ⭐
-
-
-Maintain:
-
-
-vowelCount
-
-
-When right enters:
-
-
-vowel → count++
-
-
-When left leaves:
-
-
-vowel → count--
-
-
-Questions:
-
-
-Maximum vowels in substring of length K
-
-Maximum number of 1s in a binary subarray of size K
-
-Count even/odd numbers in every window
-
-Count elements satisfying a condition in every window
-
-🟡 Pattern 4 — Queue + Fixed Window
-
-5. First Negative Integer in Every Window of Size K ⭐
-
-
-Maintain:
-
-
-Queue<Integer>
-
-
-Store indices of useful elements, not values.
-
-
-Template:
-
-
-If arr[right] is negative
-
-        ↓
-
-store right
-
-        ↓
-
-window == K
-
-        ↓
-
-remove expired indices
-
-        ↓
-
-front = first negative
-
-
-Questions:
-
-
-First Negative Integer in Every Window of Size K
-
-First Positive Integer in Every Window
-
-First Odd/Even element in every window
-
-First element satisfying a condition
-
-🟡 Pattern 5 — HashMap / Frequency
-
-6. Count Distinct Elements in Every Window of Size K ⭐
-
-
-Maintain:
-
-
-HashMap<Integer, Integer>
-
-
-Map:
-
-
-element → frequency
-
-
-When adding:
-
-
-frequency++
-
-
-When removing:
-
-
-frequency--
-
-
-If frequency becomes 0:
-
-
-remove key
-
-
-Then:
-
-
-map.size()
-
-
-= number of distinct elements.
-
-
-Questions:
-
-
-Count distinct elements in every window of size K
-
-Frequency of every element in every window
-
-Maximum frequency in a window
-
-Number of elements occurring exactly once
-
-Number of elements occurring more than once
-
-🟡 Pattern 6 — Anagram / Frequency Matching
-
-7. Find All Anagrams in a String ⭐⭐
-
-
-LeetCode 438
-
-
-Fixed window length:
-
-
-pattern.length()
-
-
-Maintain character frequencies.
-
-
-8. Permutation in String ⭐⭐
-
-
-LeetCode 567
-
-
-Same underlying pattern:
-
-
-Fixed Window
-
-+
-
-Frequency Array / HashMap
-
-
-Questions:
-
-
-Count occurrences of anagrams
-
-Find all anagrams
-
-Check if permutation exists
-
-Count permutations/anagram windows
-
-
-🔥 Important lesson:
-
-
-Anagram problems are often Fixed Window + Frequency Map/Array.
-
-
-🟠 Pattern 7 — Monotonic Deque
-
-9. Sliding Window Maximum ⭐⭐⭐
-
-
-LeetCode 239
-
-
-One of the most important Sliding Window problems.
-
-
-Maintain:
-
-
-Deque<Integer> dq
-
-
-Store indices.
-
-
-Deque maintains:
-
-
-largest → smallest
-
-
-So:
-
-
-arr[dq.peekFirst()]
-
-
-is always the maximum.
-
-
-10. Sliding Window Minimum ⭐⭐⭐
-
-
-Same idea, but maintain:
-
-
-smallest → largest
-
-
-Questions:
-
-
-Maximum in every window of size K
-
-Minimum in every window of size K
-
-Max/min simultaneously in fixed windows
-
-
-🔥 This introduces the Monotonic Queue/Deque pattern.
-
-
-🟠 Pattern 8 — Fixed Window + Set
-
-11. Check Distinctness in Every Window
-
-
-Use:
-
-
-HashSet
-
-
-Useful when the question asks:
-
-
-Does this window contain duplicates?
-
-
-or:
-
-
-Is every element in this window unique?
-
-
-Examples:
-
-
-Check if any window of size K contains duplicate
-
-Find windows with all distinct elements
-
-Longest/maximum property under a fixed K constraint
-
-🔴 Pattern 9 — Fixed Window + Advanced Data Structures
-
-
-Once basic patterns are comfortable, move toward:
-
-
-12. Sliding Window Median ⭐⭐⭐
-
-
-Use:
-
-
-Two Heaps
-
-Multiset / TreeMap depending on language
-
-13. Sliding Window Mode
-
-
-Maintain frequencies + suitable ordered structure.
-
-
-14. Sliding Window Maximum/Minimum with Multiset
-
-
-Alternative to monotonic deque.
-
-
-15. Range / Difference Based Window Problems
-
-
-Maintain:
-
-
-max - min
-
-
-using two monotonic deques.
-
-
-🏆 MUST-DO QUESTIONS
-
-
-If your goal is interview + LeetCode + GFG + Competitive Programming, don't skip these:
-
-
-1. Maximum Sum Subarray of Size K
-
-2. Minimum Sum Subarray of Size K
-
-3. Maximum Average Subarray I — LC 643
-
-4. First Negative Integer in Every Window of Size K
-
-5. Count Distinct Elements in Every Window of Size K
-
-6. Maximum Number of Vowels in a Substring of Given Length K — LC 1456
-
-7. Find All Anagrams in a String — LC 438
-
-8. Permutation in String — LC 567
-
-9. Sliding Window Maximum — LC 239
-
-10. Sliding Window Minimum
-
-11. Sliding Window Median — LC 480
-
-
-🧩 Pattern Recognition Cheat Sheet
-
-
-When you see:
-
-
-"subarray of size K"
-
-"substring of length K"
-
-"every window of size K"
-
-
-Think:
-
-
-             FIXED WINDOW
-
-                  │
-
-        ┌─────────┼─────────┐
-
-        ↓         ↓         ↓
-
-      SUM       COUNT     FREQUENCY
-
-        │         │         │
-
-     max/min   vowels    HashMap
-
-                          │
-
-                          ↓
-
-                       Anagram
-
-        │
-
-        ↓
-
-      QUEUE
-
-        │
-
-   First Negative
-
-        │
-
-        ↓
-
-   MONOTONIC DEQUE
-
-        │
-
-    Max / Min
-
-
-💡 Most Important Insight
-
-
-Don't memorize:
-
-
-"This question uses Queue."
-
-
-Instead ask:
-
-
-"What information about my current window do I need to maintain?"
-
-
-Examples:
-
-
-Need sum?
-
-→ variable
-
-
-Need count?
-
-→ integer
-
-
-Need frequency?
-
-→ HashMap / array
-
-
-Need first negative?
-
-→ Queue
-
-
-Need maximum/minimum?
-
-→ Monotonic Deque
-
-🎯 Difficulty Roadmap
-
-Level 1 — Easy
-
-Maximum Sum of Size K
-
-Minimum Sum of Size K
-
-Maximum Average
-
-Count vowels
-
-Count odd/even
-
-Level 2 — Easy/Medium
-
-First Negative
-
-Count Distinct
-
-Frequency based windows
-
-Anagram problems
-
-Permutation in String
-
-Level 3 — Medium
-
-Sliding Window Maximum ⭐
-
-Sliding Window Minimum
-
-Max-Min difference
-
-Complex frequency windows
-
-Level 4 — Hard
-
-Sliding Window Median
-
-Advanced ordered structures
-
-Multi-structure window problems
-
-🚀 Target
-
-Master these 6 core patterns:
-
-1️⃣ Sum
-
-2️⃣ Count
-
-3️⃣ Frequency / HashMap
-
-4️⃣ Queue
-
-5️⃣ Monotonic Deque
-
-6️⃣ Advanced structures
+**Horizontal (Landscape) Diagram based on Day 2:**
