@@ -5,13 +5,31 @@
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Matrix
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-13T04:33:59.948Z
+ * Synced: 2026-09-13T04:34:49.908Z
  */
 
-class Solution {
-    public int largestOverlap(int[][] img1, int[][] img2) {
-        
-    }
 }
+        // Shift range is -(n-1) to +(n-1)
+        int[][] count = new int[2 * n - 1][2 * n - 1];
+            }
+                }
+                    b[cb++] = new int[]{i, j};
+
+        int ans = 0;
+
+        for (int i = 0; i < ca; i++) {
+            for (int j = 0; j < cb; j++) {
+
+                int dx = b[j][0] - a[i][0];
+                int dy = b[j][1] - a[i][1];
+
+                int x = dx + n - 1;
+                int y = dy + n - 1;
+
+                count[x][y]++;
+
+                ans = Math.max(ans, count[x][y]);
+            }
+        }
