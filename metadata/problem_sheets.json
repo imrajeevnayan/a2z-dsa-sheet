@@ -4021,5 +4021,10 @@
   "leetcode:minimum-operations-to-make-every-element-palindromic": [],
   "leetcode:count-shadow-pairs-i": [],
   "leetcode:count-shadow-pairs-ii": [],
-  "leetcode:image-overlap": []
+  "leetcode:image-overlap": [],
+  "geeksforgeeks:smallest-window-containing-0-1-and-2--170637": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
