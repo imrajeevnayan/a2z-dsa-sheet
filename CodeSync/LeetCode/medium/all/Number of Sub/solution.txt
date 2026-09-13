@@ -7,13 +7,16 @@
  * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T04:13:39.844Z
+ * Synced: 2026-09-13T04:14:25.617Z
  */
 
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
+        int left=0,currSum=0,count=0;
+        int target=(long)
+        for(int right=0;right<arr.length;right++){
+
+        }
         
     }
-        int left=0,currSum=0,count=0;
-        for(int right=0;right<arr.length)
 }
