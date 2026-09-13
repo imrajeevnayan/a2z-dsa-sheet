@@ -4020,5 +4020,12 @@
   "leetcode:cyclically-shift-rows-and-columns": [],
   "leetcode:minimum-operations-to-make-every-element-palindromic": [],
   "leetcode:count-shadow-pairs-i": [],
-  "leetcode:count-shadow-pairs-ii": []
+  "leetcode:count-shadow-pairs-ii": [],
+  "leetcode:image-overlap": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ]
 }
