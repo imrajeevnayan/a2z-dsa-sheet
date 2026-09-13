@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-22T18:26:14.270Z",
+  "submissionTimestamp": "2026-09-13T16:40:38.792Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "bm860c"
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/",
+  "submissionId": "s70nbi"
 }
