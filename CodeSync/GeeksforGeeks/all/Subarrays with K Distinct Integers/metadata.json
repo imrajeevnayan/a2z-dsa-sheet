@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-13T21:12:56.513Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "sliding-window",
+    "Arrays",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Subarrays with K Distinct Integers",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/subarrays-with-k-different-integers/1",
+  "submissionId": "lmmlxs"
+}
