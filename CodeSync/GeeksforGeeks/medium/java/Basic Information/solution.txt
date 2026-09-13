@@ -1,0 +1,83 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Basic Information
+ * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
+ * Language: All Submissions
+ * Difficulty: Medium
+ * Topics: DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic, GeeksForGeeks
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T21:01:18.625Z
+ */
+
+**Day 2 Post (Clean & Ready to Post):**
+
+
+---
+
+
+🚀 Day 2 of Fixed Size Sliding Window
+
+
+Aaj maine Fixed Size Sliding Window ke kuch important problems practice kiye.
+
+
+Yeh rahe aaj ke questions:
+
+
+1️⃣ Maximum Number of Vowels in a Substring of Given Length (LC 1456)  
+
+→ Classic Fixed Size + Frequency (vowel counting)
+
+
+2️⃣ Longest Subarray with At Most Two Distinct Elements  
+
+→ Window maintain karke distinct count track kiya
+
+
+3️⃣ Count Distinct Elements in Every Window of Size K  
+
+→ HashMap + Sliding Window  
+
+(Rule: frequency 0 hone par map se remove karo)
+
+
+4️⃣ Count Occurrences of Anagrams  
+
+→ Frequency map of pattern + sliding window comparison
+
+
+5️⃣ First Negative Integer in every window of size K  
+
+→ Queue use karke indices store kiye (values nahi)
+
+
+---
+
+
+💡 Key Learnings from Day 2:
+
+
+• Frequency map maintain karna bahut important hai  
+
+• Queue mein indices store karna better hota hai (window se bahar nikalne ke liye)  
+
+• Anagram problems mein pattern ka frequency map pehle bana lo, phir window compare karo  
+
+• Har problem mein yeh sawal poocho:  
+
+  “Is window ke andar mujhe kya track karna hai?”
+
+
+📌 Day 2 ✅ Fixed Size Sliding Window (Practice)  
+
+Next → More Fixed Size + Variable Size Sliding Window 🚀
+
+
+#DSA #Java #SlidingWindow #LeetCode #ProblemSolving #100DaysOfCode #LearningInPublic
+
+
+---
+
+
+**Horizontal (Landscape) Diagram based on Day 2:**
