@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Operations to Make Every Element Palindromic
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/description/
+ * Language: Weekly Contest 519
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T03:20:53.695Z
+ */
+
+class Solution {
+    public long minOperations(int[] nums) {
+        
+    }
+}
