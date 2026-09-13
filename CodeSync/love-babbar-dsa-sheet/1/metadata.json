@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T20:48:37.310Z",
+  "submissionTimestamp": "2026-09-13T20:49:29.981Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/discuss/post/1122776/summary-of-sliding-window-patterns-for-s-2cnq/",
-  "submissionId": "dbgrg"
+  "problemUrl": "https://leetcode.com/discuss/post/8433297/fixed-size-sliding-window-pattern-comple-srmf/",
+  "submissionId": "qnvknm"
 }
