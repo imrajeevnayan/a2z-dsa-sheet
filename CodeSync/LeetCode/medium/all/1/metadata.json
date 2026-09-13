@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:26.234Z",
+  "submissionTimestamp": "2026-09-13T16:40:38.792Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Divide and Conquer",
-    "Dynamic Programming"
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
-  "submissionId": "v6bs5c"
+  "problemUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/description/",
+  "submissionId": "s70nbi"
 }
