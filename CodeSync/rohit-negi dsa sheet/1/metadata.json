@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T20:30:05.551Z",
+  "submissionTimestamp": "2026-09-13T20:31:19.412Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Text",
+  "language": "Python",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/discuss/post/8519080/50-days-of-leetcode-the-results-by-karan-70va/",
-  "submissionId": "e2jhvm"
+  "problemUrl": "https://leetcode.com/discuss/post/1122776/summary-of-sliding-window-patterns-for-s-2cnq/",
+  "submissionId": "dbgrg"
 }
