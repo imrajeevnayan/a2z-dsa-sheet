@@ -4052,5 +4052,10 @@
     "custom:rohit-negi_dsa_sheet",
     "GFG160"
   ],
-  "codeforces:codeforces-com": []
+  "codeforces:codeforces-com": [],
+  "leetcode:maximum-points-you-can-obtain-from-cards": [
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
