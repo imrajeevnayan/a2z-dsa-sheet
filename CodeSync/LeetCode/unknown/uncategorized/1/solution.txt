@@ -1,16 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2081073720/
- * Language: Online Interview
+ * URL: https://leetcode.com/discuss/post/8519080/50-days-of-leetcode-the-results-by-karan-70va/
+ * Language: Text
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 556 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-25T17:52:58.711Z
+ * Synced: 2026-09-13T20:30:05.551Z
  */
 
-1SELECT e.name AS Employee
-2FROM Employee e JOIN Employee m
-3ON e.managerId = m.id
-4WHERE e.salary > m.salary;
+RESULTS:
+📈 Rank: ~2,000,000 → ~82,000
+🔥 50-day streak
+✅ 500 Easy problems solved
