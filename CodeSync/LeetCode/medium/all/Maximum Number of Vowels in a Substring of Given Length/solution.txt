@@ -7,25 +7,12 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:20:07.742Z
+ * Synced: 2026-09-13T20:20:53.925Z
  */
 
-private boolean isVowel(char c) {
-        return "aeiouAEIOU".indexOf(c)!=-1;
-    }
-    public int maxVowels(String s, int k) {
-        int currentVowels = 0;
-        for (int i = 0; i < k; i++) {
-            if (isVowel(s.charAt(i))) currentVowels++;
-        }
-        int maxVowels = currentVowels;
-
-        for (int i = k; i < s.length(); i++) {
-            if (isVowel(s.charAt(i))) currentVowels++;
-            if (isVowel(s.charAt(i - k))) currentVowels--;
-            maxVowels = Math.max(maxVowels, currentVowels);
-        }
-        return maxVowels;
-    }
-}
 class Solution {
+    public int maxVowels(String s, int k) {
+        
+    }
+    
+}
