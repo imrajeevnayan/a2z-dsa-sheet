@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T19:34:54.544Z",
+  "submissionTimestamp": "2026-09-13T19:35:42.910Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution: def countDistinct(self, arr, k): # Code here freq={} res=[] for i in range(k): freq[arr[i]]=freq.get(arr[i],0)+1 res.append(len(freq)) for i in range(k,len(arr)): out=arr[i-k] freq[out]-=1 if freq[out]==0: del freq[out] inc=arr[i] freq[inc]=freq.get(inc,0)+1 res.append(len(freq)) return res",
   "problemTitle": "Python Code",
   "problemUrl": "https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1",
-  "submissionId": "gevqho"
+  "submissionId": "oqgrs4"
 }
