@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/longest-subarray-with-atmost-two-distinct-integers/1
-- Synced: 2026-09-13T20:54:46.006Z
+- Synced: 2026-09-13T21:14:05.268Z
 
 ## Problem Description
 
