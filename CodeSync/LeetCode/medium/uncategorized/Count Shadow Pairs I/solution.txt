@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Shadow Pairs I
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-i/
+ * Language: Weekly Contest 519
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-13T03:26:27.946Z
+ */
+
+class Solution {
+    public long shadowPairs(int[] nums) {
+        
+    }
+}
