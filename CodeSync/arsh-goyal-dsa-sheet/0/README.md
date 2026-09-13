@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Problem List
-- Difficulty: Easy
-- Topics: Array, Hash Table, Recursion, Sorting, Enumeration
+- Language: Daily Question
+- Difficulty: Medium
+- Topics: Array, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
-- Synced: 2026-09-11T06:14:02.819Z
+- Problem URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
+- Synced: 2026-09-13T04:29:25.622Z
 
 ## Problem Description
 
-You are given an integer array digits, where each element is a digit. The array may contain duplicates. You need to find all the unique integers that follow the given requirements: The integer consists of the concatenation of three elements from digits in any arbitrary order. The integer does not have leading zeros. The integer is even. For example, if the given digits were [1, 2, 3], integers 132 and 312 follow the requirements. Return a sorted array of the unique integers. Example 1: Input: digits = [2,1,3,0] Output: [102,120,130,132,210,230,302,310,312,320] Explanation: All the possible integers that follow the requirements are in the output array. Notice that there are no odd integers or integers with leading zeros. Example 2: Input: digits = [2,2,8,8,2] Output: [222,228,282,288,822,828,882] Explanation: The same digit can be used as many times as it appears in digits. In this example, the digit 8 is used twice each time in 288, 828, and 882. Example 3: Input: digits = [3,7,5] Output: [] Explanation: No even integers can be formed using the given digits. Constraints: 3 <= digits.length <= 100 0 <= digits[i] <= 9
+You are given two images, img1 and img2, represented as binary, square matrices of size n x n. A binary matrix has only 0s and 1s as values. We translate one image however we choose by sliding all the 1 bits left, right, up, and/or down any number of units. We then place it on top of the other image. We can then calculate the overlap by counting the number of positions that have a 1 in both images. Note also that a translation does not include any kind of rotation. Any 1 bits that are translated outside of the matrix borders are erased. Return the largest possible overlap. Example 1: Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]] Output: 3 Explanation: We translate img1 to right by 1 unit and down by 1 unit. The number of positions that have a 1 in both images is 3 (shown in red). Example 2: Input: img1 = [[1]], img2 = [[1]] Output: 1 Example 3: Input: img1 = [[0]], img2 = [[0]] Output: 0 Constraints: n == img1.length == img1[i].length n == img2.length == img2[i].length 1 <= n <= 30 img1[i][j] is either 0 or 1. img2[i][j] is either 0 or 1.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Matrix. Review the synced source file for the implementation details.
