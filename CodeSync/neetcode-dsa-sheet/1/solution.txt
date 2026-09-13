@@ -1,28 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-average-subarray-i/
+ * URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/
  * Language: Problem List
- * Difficulty: Easy
+ * Difficulty: Medium
  * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T18:48:59.390Z
+ * Synced: 2026-09-13T16:40:38.792Z
  */
 
 class Solution {
-    public double findMaxAverage(int[] nums, int k) {
-        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
-        for(int right=0;right<nums.length;right++){
-            currSum+=nums[right];
-            if(right-left+1>k){
-                currSum-=nums[left];
-                left++;
-            }
-            if(right-left+1==k){
-                ans=Math.max(ans,currSum);
-            }
+    public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+        int base = 0;
+        for (int i = 0; i < customers.length; i++) {
+            if (grumpy[i] == 0)
+                base += customers[i];
         }
-        return (double)ans/k;
-    }
-}
+        int extra = 0;
+        for (int i = 0; i < minutes; i++) {
+            if (grumpy[i] == 1)
+                extra += customers[i];
+        }
+        int maxExtra = extra;
+        // Sliding Window
+        for (int i = minutes; i < customers.length; i++) {
+
+            if (grumpy[i] == 1)
+                extra += customers[i];
+
+            if (grumpy[i - minutes] == 1)
+                extra -= customers[i - minutes];
