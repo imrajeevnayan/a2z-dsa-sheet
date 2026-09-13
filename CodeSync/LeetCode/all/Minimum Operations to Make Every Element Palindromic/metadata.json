@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-13T03:31:52.651Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-13T03:34:31.626Z",
+  "runtime": "1 ms",
+  "memoryUsage": "0.00 MB",
   "difficulty": "Medium",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 519",
   "problemTitle": "Minimum Operations to Make Every Element Palindromic",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/",
-  "submissionId": "16kulm"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/submissions/2140187353/",
+  "submissionId": "kk9eze"
 }
