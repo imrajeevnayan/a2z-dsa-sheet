@@ -5,39 +5,33 @@
  * Language: Weekly Contest 519
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:19:28.639Z
+ * Synced: 2026-09-13T03:34:59.118Z
  */
 
 class Solution {
     public int[][] cyclicShift(int n, int[][] grid, int[] rowShift, int[] colShift) {
+        // Step 1: Har row ko LEFT shift karo
+        int[][] temp = new int[n][n];
+
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int newCol = (j - rowShift[i] + n) % n;
+                temp[i][newCol] = grid[i][j];
+            }
+        }
+        // Step 2: Har column ko UPWARD shift karo
         int[][] ans = new int[n][n];
 
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                int newRow = (i + rowShift[i]) % n;
-                int newCol = (j + colShift[j]) % n;
-
-
-                ans[newRow][newCol] = grid[i][j];
+                int newRow = (i - colShift[j] + n) % n;
+                ans[newRow][j] = temp[i][j];
             }
         }
-
-
         return ans;
     }
 }
-
-
-2
-[[1,2],[3,4]]
-[1,0]
-[0,1]
-3
-[[1,2,3],[4,5,6],[7,8,9]]
-[1,2,0]
-[2,2,1]
-[[0,0],[4,0]]
-[[6,0,4],[3,0,1],[9,0,7]]
