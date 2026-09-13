@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T15:16:22.901Z",
+  "submissionTimestamp": "2026-09-13T15:17:35.260Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "Java (21)",
   "problemTitle": "Smallest window containing 0, 1 and 2",
   "problemUrl": "https://www.geeksforgeeks.org/problems/smallest-window-containing-0-1-and-2--170637/1",
-  "submissionId": "98xqvi"
+  "submissionId": "4dmnpw"
 }
