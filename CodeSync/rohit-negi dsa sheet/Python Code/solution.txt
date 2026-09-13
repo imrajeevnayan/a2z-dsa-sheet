@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T19:32:32.768Z
+ * Synced: 2026-09-13T19:33:19.693Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
      Map<Integer,Integer>map=new HashMap<>();
      int left=0;
      for(int right=0;right<n;right++){
-         
+         map.put(arr[right],map.getOrDefault(arr[right],0)+1)
      }
         
     }
