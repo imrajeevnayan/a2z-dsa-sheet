@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/1122776/summary-of-sliding-window-patterns-for-s-2cnq/
-- Synced: 2026-09-13T20:31:19.412Z
+- Synced: 2026-09-13T20:48:37.310Z
 
 ## Problem Description
 
