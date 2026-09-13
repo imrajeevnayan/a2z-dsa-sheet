@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T03:14:19.977Z",
+  "submissionTimestamp": "2026-09-13T03:15:05.562Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 519",
   "problemTitle": "Cyclically Shift Rows and Columns",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/description/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/",
   "submissionId": "vwkhh2"
 }
