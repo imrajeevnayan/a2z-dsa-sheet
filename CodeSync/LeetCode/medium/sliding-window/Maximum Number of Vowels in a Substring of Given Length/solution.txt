@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:22:26.093Z
+ * Synced: 2026-09-13T20:23:17.506Z
  */
 
 class Solution {
@@ -18,7 +18,8 @@ class Solution {
         int left=0,count=0,ans=0;
         for(int right=0;right<s.length();right++){
         
-            if(isVoweks)
+            if(isVowels(s.charAt(right))) count++;
         }
     }
+            
 }
