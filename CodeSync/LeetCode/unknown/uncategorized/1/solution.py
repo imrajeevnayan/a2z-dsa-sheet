@@ -6,7 +6,7 @@
 # Topics: Uncategorized
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-09-13T20:31:19.412Z
+# Synced: 2026-09-13T20:48:37.310Z
 
 for(right = 0; right < n; right++):
     update window with element at right pointer
