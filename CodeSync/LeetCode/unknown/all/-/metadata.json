@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:35.846Z",
-  "runtime": "4 ms",
-  "memoryUsage": "69.61 MB",
+  "submissionTimestamp": "2026-09-13T03:37:24.724Z",
+  "runtime": "10 ms",
+  "memoryUsage": "48.53 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Java",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/submissions/detail/2139409513/",
-  "submissionId": "ydgy9v"
+  "problemUrl": "https://leetcode.com/submissions/detail/2136826351/",
+  "submissionId": "jeteyl"
 }
