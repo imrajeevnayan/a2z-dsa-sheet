@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Cyclically Shift Rows and Columns
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/description/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/
  * Language: Weekly Contest 519
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:14:19.977Z
+ * Synced: 2026-09-13T03:15:05.562Z
  */
 
 class Solution {
