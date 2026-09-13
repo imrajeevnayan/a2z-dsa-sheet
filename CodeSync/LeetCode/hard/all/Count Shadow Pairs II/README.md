@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/count-shadow-pairs-ii/
-- Synced: 2026-09-13T03:28:24.909Z
+- Synced: 2026-09-13T03:29:10.765Z
 
 ## Problem Description
 
