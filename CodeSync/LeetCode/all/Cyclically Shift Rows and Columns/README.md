@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/description/
-- Synced: 2026-09-13T03:14:19.977Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/cyclically-shift-rows-and-columns/
+- Synced: 2026-09-13T03:15:05.562Z
 
 ## Problem Description
 
