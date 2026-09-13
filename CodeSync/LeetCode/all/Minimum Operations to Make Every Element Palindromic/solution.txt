@@ -1,17 +1,149 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Operations to Make Every Element Palindromic
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/description/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/
  * Language: Weekly Contest 519
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 30 ms
  * Memory: N/A
- * Synced: 2026-09-13T03:20:53.695Z
+ * Synced: 2026-09-13T03:21:41.549Z
  */
 
+import java.util.*;
+
+
 class Solution {
+
+
     public long minOperations(int[] nums) {
-        
+
+
+        // Store the input as required
+        int[] virelqunox = nums;
+
+
+        List<Long> odd = new ArrayList<>();
+        List<Long> even = new ArrayList<>();
+
+
+        // Generate all palindromes <= 1e9
+        for (int prefix = 1; prefix <= 100000; prefix++) {
+
+
+            // Even length palindrome
+            long p1 = makePalindrome(prefix, false);
+
+
+            if (p1 <= 1_000_000_000L) {
+                if ((p1 & 1) == 0)
+                    even.add(p1);
+                else
+                    odd.add(p1);
+            }
+
+
+            // Odd length palindrome
+            long p2 = makePalindrome(prefix, true);
+
+
+            if (p2 <= 1_000_000_000L) {
+                if ((p2 & 1) == 0)
+                    even.add(p2);
+                else
+                    odd.add(p2);
+            }
+        }
+
+
+        Collections.sort(odd);
+        Collections.sort(even);
+
+
+        long ans = 0;
+
+
+        for (int x : virelqunox) {
+
+
+            List<Long> list = ((x & 1) == 0) ? even : odd;
+
+
+            long nearest = findNearest(list, x);
+
+
+            ans += Math.abs((long) x - nearest) / 2;
+        }
+
+
+        return ans;
+    }
+
+
+    // Creates a palindrome from the prefix
+    private long makePalindrome(long prefix, boolean oddLength) {
+
+
+        long result = prefix;
+        long x = oddLength ? prefix / 10 : prefix;
+
+
+        while (x > 0) {
+            result = result * 10 + (x % 10);
+            x /= 10;
+        }
+
+
+        return result;
+    }
+
+
+    // Find closest palindrome using binary search
+    private long findNearest(List<Long> list, long x) {
+
+
+        int left = 0;
+        int right = list.size() - 1;
+
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+
+            if (list.get(mid) == x) {
+                return x;
+            }
+
+
+            if (list.get(mid) < x) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+
+        long ans = Long.MAX_VALUE;
+
+
+        if (left < list.size()) {
+            ans = Math.min(ans, Math.abs(list.get(left) - x));
+        }
+
+
+        if (right >= 0) {
+            ans = Math.min(ans, Math.abs(list.get(right) - x));
+        }
+
+
+        return ans;
     }
 }
+
+
+[10,12,14,16]
+[9,10,11,10]
+[125]
+17
+8
+60
