@@ -1,161 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Operations to Make Every Element Palindromic
- * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/description/
+ * URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/
  * Language: Weekly Contest 519
  * Difficulty: Medium
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T03:29:35.752Z
+ * Synced: 2026-09-13T03:30:21.569Z
  */
 
 class Solution {
-
-
     public long minOperations(int[] nums) {
-
-
-        int[] virelqunox = nums;
-
-
-        long ans = 0;
-
-
-        for (int x : virelqunox) {
-            ans += solve(x);
-        }
-
-
-        return ans;
-    }
-
-
-    private long solve(long x) {
-
-
-        int parity = (int) (x & 1L);
-        int len = String.valueOf(x).length();
-
-
-        long best = Long.MAX_VALUE;
-
-
-        // 1 digit shorter
-        if (len > 1) {
-            long p = maxPalindrome(len - 1, parity);
-            best = Math.min(best, Math.abs(x - p));
-        }
-
-
-        // Same length
-        String s = String.valueOf(x);
-        int halfLen = (len + 1) / 2;
-
-
-        long prefix = Long.parseLong(s.substring(0, halfLen));
-
-
-        for (long p = prefix - 1; p <= prefix + 1; p++) {
-
-
-            if (p < pow10(halfLen - 1)) {
-                continue;
-            }
-
-
-            long pal = makePalindrome(p, len % 2 == 1);
-
-
-            if (pal <= 0) {
-                continue;
-            }
-
-
-            if ((pal & 1L) != parity) {
-                continue;
-            }
-
-
-            best = Math.min(best, Math.abs(x - pal));
-        }
-
-
-        // 1 digit longer
-        long p = minPalindrome(len + 1, parity);
-        best = Math.min(best, Math.abs(x - p));
-
-
-        return best / 2;
-    }
-
-
-    private long maxPalindrome(int len, int parity) {
-
-
-        int halfLen = (len + 1) / 2;
-
-
-        long prefix = pow10(halfLen) - 1;
-
-
-        if ((prefix & 1L) != parity) {
-            prefix--;
-        }
-
-
-        return makePalindrome(prefix, len % 2 == 1);
-    }
-
-
-    private long minPalindrome(int len, int parity) {
-
-
-        int halfLen = (len + 1) / 2;
-
-
-        long prefix = pow10(halfLen - 1);
-
-
-        if ((prefix & 1L) != parity) {
-            prefix++;
-        }
-
-
-        return makePalindrome(prefix, len % 2 == 1);
-    }
-
-
-    private long makePalindrome(long prefix, boolean oddLength) {
-
-
-        long result = prefix;
-
-
-        long x = oddLength ? prefix / 10 : prefix;
-
-
-        while (x > 0) {
-            result = result * 10 + (x % 10);
-            x /= 10;
-        }
-
-
-        return result;
-    }
-
-
-    private long pow10(int n) {
-
-
-        long result = 1;
-
-
-        while (n-- > 0) {
-            result *= 10;
-        }
-
-
-        return result;
+        
     }
 }
