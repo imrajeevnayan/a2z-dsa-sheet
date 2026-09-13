@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Text
 - Difficulty: Easy
-- Topics: Linked List, Recursion
+- Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
-- Synced: 2026-08-19T12:31:21.782Z
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/description/
+- Synced: 2026-09-13T03:01:37.968Z
 
 ## Problem Description
 
-You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. Example 1: Input: list1 = [1,2,4], list2 = [1,3,4] Output: [1,1,2,3,4,4] Example 2: Input: list1 = [], list2 = [] Output: [] Example 3: Input: list1 = [], list2 = [0] Output: [0] Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both list1 and list2 are sorted in non-decreasing order.
+You are given an integer array nums consisting of n elements, and an integer k. Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted. Example 1: Input: nums = [1,12,-5,-6,50,3], k = 4 Output: 12.75000 Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75 Example 2: Input: nums = [5], k = 1 Output: 5.00000 Constraints: n == nums.length 1 <= k <= n <= 105 -104 <= nums[i] <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Text. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Text. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
