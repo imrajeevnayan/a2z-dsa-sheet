@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-13T19:30:13.462Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AccoliteAmazonMicrosoftNPCI",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "NPCI",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count Distinct Elements in Every Window",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1",
+  "submissionId": "3flan8"
+}
