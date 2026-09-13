@@ -4,10 +4,10 @@
 - Language: Weekly Contest 519
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 30 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/description/
-- Synced: 2026-09-13T03:20:53.695Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-519/problems/minimum-operations-to-make-every-element-palindromic/
+- Synced: 2026-09-13T03:21:41.549Z
 
 ## Problem Description
 
