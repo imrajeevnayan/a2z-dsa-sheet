@@ -4061,5 +4061,10 @@
   "leetcode:summary-of-sliding-window-patterns-for-subarray-substring": [],
   "geeksforgeeks:longest-subarray-with-atmost-two-distinct-integers": [
     "GFG160"
+  ],
+  "geeksforgeeks:subarrays-with-k-different-integers": [
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "GFG160"
   ]
 }
