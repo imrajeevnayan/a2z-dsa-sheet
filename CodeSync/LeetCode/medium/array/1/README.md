@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Binary Search, Sliding Window, Prefix Sum
+- Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
-- Synced: 2026-09-12T11:42:17.235Z
+- Problem URL: https://leetcode.com/problems/grumpy-bookstore-owner/description/
+- Synced: 2026-09-13T16:40:38.792Z
 
 ## Problem Description
 
-Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead. Example 1: Input: target = 7, nums = [2,3,1,2,4,3] Output: 2 Explanation: The subarray [4,3] has the minimal length under the problem constraint. Example 2: Input: target = 4, nums = [1,4,4] Output: 1 Example 3: Input: target = 11, nums = [1,1,1,1,1,1,1,1] Output: 0 Constraints: 1 <= target <= 109 1 <= nums.length <= 105 1 <= nums[i] <= 104 Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n)).
+There is a bookstore owner that has a store open for n minutes. You are given an integer array customers of length n where customers[i] is the number of the customers that enter the store at the start of the ith minute and all those customers leave after the end of that minute. During certain minutes, the bookstore owner is grumpy. You are given a binary array grumpy where grumpy[i] is 1 if the bookstore owner is grumpy during the ith minute, and is 0 otherwise. When the bookstore owner is grumpy, the customers entering during that minute are not satisfied. Otherwise, they are satisfied. The bookstore owner knows a secret technique to remain not grumpy for minutes consecutive minutes, but this technique can only be used once. Return the maximum number of customers that can be satisfied throughout the day. Example 1: Input: customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], minutes = 3 Output: 16 Explanation: The bookstore owner keeps themselves not grumpy for the last 3 minutes. The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 16. Example 2: Input: customers = [1], grumpy = [0], minutes = 1 Output: 1 Constraints: n == customers.length == grumpy.length 1 <= minutes <= n <= 2 * 104 0 <= customers[i] <= 1000 grumpy[i] is either 0 or 1.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
