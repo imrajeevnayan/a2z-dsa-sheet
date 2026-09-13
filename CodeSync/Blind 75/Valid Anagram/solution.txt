@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Anagram
- * URL: https://leetcode.com/problems/valid-anagram/description/
+ * URL: https://leetcode.com/problems/valid-anagram/submissions/2141038812/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-13T22:00:32.135Z
+ * Runtime: 0 ms
+ * Memory: 44.52 MB
+ * Synced: 2026-09-13T22:01:20.822Z
  */
 
 class Solution {
