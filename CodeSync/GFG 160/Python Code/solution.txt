@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftNPCI, Company Tags, Accolite, Amazon, Microsoft, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T19:34:54.544Z
+ * Synced: 2026-09-13T19:35:42.910Z
  */
 
 class Solution {
@@ -21,7 +21,8 @@ class Solution {
          if(right-left+1==k){
              res.add(map.size());
              int leftVal=arr[left];
-             map.put(leftVal,map.getOrDefault(leftVal,0)-1)
+             map.put(leftVal,map.getOrDefault(leftVal,0)-1);
+             if(map.get(leftVal)==0)map.remove(leftVal);
          }
      }
         
