@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/spiral-matrix/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
+ * Language: Daily Question
  * Difficulty: Medium
- * Topics: Array, Matrix, Simulation
+ * Topics: Array, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T13:12:54.268Z
+ * Synced: 2026-09-13T04:29:25.622Z
  */
 
 class Solution {
-    public List<Integer> spiralOrder(int[][] matrix) {
+    public int largestOverlap(int[][] img1, int[][] img2) {
         
     }
 }
