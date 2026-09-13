@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-13T21:13:06.547Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Arrays",
+    "sliding-window",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Longest Subarray with Atmost Two Distinct",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/longest-subarray-with-atmost-two-distinct-integers/1",
+  "submissionId": "92dggn"
+}
