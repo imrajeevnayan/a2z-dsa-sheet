@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:21:40.309Z
+ * Synced: 2026-09-13T20:22:26.093Z
  */
 
 class Solution {
@@ -16,7 +16,9 @@ class Solution {
     }
     public int maxVowels(String s, int k) {
         int left=0,count=0,ans=0;
-        for(int right=0;right<c)
+        for(int right=0;right<s.length();right++){
         
+            if(isVoweks)
+        }
     }
 }
