@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-12T11:16:26.234Z",
+  "submissionTimestamp": "2026-09-14T06:43:55.960Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Divide and Conquer",
-    "Dynamic Programming"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/description/",
-  "submissionId": "v6bs5c"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "x2ajuf"
 }
