@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 175.78 MB
 - Problem URL: https://leetcode.com/problems/k-radius-subarray-averages/
-- Synced: 2026-09-14T12:42:27.773Z
+- Synced: 2026-09-14T12:43:15.034Z
 
 ## Problem Description
 
