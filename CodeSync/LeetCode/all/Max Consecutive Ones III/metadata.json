@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T18:20:01.944Z",
+  "submissionTimestamp": "2026-09-14T13:01:49.881Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Sliding Window",
   "problemTitle": "Max Consecutive Ones III",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-  "submissionId": "m9vw4h"
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "gb5ita"
 }
