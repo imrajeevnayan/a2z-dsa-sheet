@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Recolors to Get K Consecutive Black Blocks
- * URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141533005/
+ * URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141537694/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Sliding Window
  * Runtime: 0 ms
- * Memory: 42.55 MB
- * Synced: 2026-09-14T12:20:31.511Z
+ * Memory: N/A
+ * Synced: 2026-09-14T12:21:22.101Z
  */
 
 int left = 0, count = 0, ans = Integer.MAX_VALUE;
