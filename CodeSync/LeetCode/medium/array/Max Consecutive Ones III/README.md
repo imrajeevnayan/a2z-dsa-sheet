@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T13:17:25.512Z
+- Synced: 2026-09-14T13:18:14.517Z
 
 ## Problem Description
 
