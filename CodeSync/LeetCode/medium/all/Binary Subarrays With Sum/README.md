@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window, Prefix Sum
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 50.80 MB
 - Problem URL: https://leetcode.com/problems/binary-subarrays-with-sum/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T12:49:56.245Z
+- Synced: 2026-09-14T12:50:47.527Z
 
 ## Problem Description
 
