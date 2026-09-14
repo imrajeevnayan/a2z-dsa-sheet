@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 42/75)
+ * URL: https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1
+ * Language: class Solution: def count_substrings_with_k_distinct_characters(self, s, k): count = 0 # Initialize a counter for the substrings character_count = dict() # Initialize a dictionary to track character counts start_index = 0 # Initialize the starting index of the current substring for end_index in range(len(s)): character_count[s[end_index]] = character_count.get(s[end_index], 0) + 1 while len(character_count) > k: # Remove characters from the start of the substring until we have 'k' distinct characters first_char = s[start_index] if character_count[first_char] == 1: del character_count[first_char] else: character_count[first_char] -= 1 start_index += 1 count += (end_index - start_index + 1) # Increment the count based on substring length return count def countSubstr (self, s, k): # Code here return self.count_substrings_with_k_distinct_characters(s, k) - self.count_substrings_with_k_distinct_characters(s, k - 1)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags D-E-Shaw, Company Tags, D-E-Shaw, Topic Tags, sliding-window, two-pointer-algorithm, Strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T09:06:49.267Z
+ */
+
+class Solution {
+    public int countSubstr(String s, int k) {
+        return atMost(s, k) - atMost(s, k - 1);
+    }
+
+    private int atMost(String s, int k) {
+        if (k < 0) return 0;
+
+        int[] freq = new int[26];
+        int left = 0, distinct = 0, count = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            int r = s.charAt(right) - 'a';
+            if (freq[r] == 0) distinct++;
+            freq[r]++;
+
+            // Agar distinct > k ho jaye toh shrink karo
+            while (distinct > k) {
+                int l = s.charAt(left) - 'a';
+                freq[l]--;
+                if (freq[l] == 0) distinct--;
+                left++;
+            }
+
+            // Ab window mein at most k distinct hain
+            // Is right ending ke saare valid substrings = (right - left + 1)
+            count += (right - left + 1);
+        }
+
+        return count;
+    }
+}
