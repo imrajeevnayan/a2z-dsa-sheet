@@ -1,22 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
- * Difficulty: Easy
- * Topics: Array, Dynamic Programming
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-02T16:49:38.947Z
+ * Synced: 2026-09-14T06:43:55.960Z
  */
 
 class Solution {
-    public int maxProfit(int[] prices) {
-     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-     for(int n :prices){
-        min=Math.min(min,n);
-        max=Math.max(max,n-min);
-     }
-     return max;   
+    public int lengthOfLongestSubstring(String s) {
+        Set<Character>set=new HashSet<>();
+        int left=0,ans=0;
+        for(int right=0;right<s.length();right++){
+            char ch=s.charAt(right);
+            while(set.contains(ch)){
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(ch);
+            ans=Math.max(ans,right-left+1);
+        }
+        return ans;
     }
 }
