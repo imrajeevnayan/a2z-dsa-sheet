@@ -1,13 +1,13 @@
 # Pairs with 0 Sum
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) { Arrays.sort(arr); ArrayList<ArrayList<Integer>> ans = new ArrayList<>(); int start = 0; int end = arr.length - 1; while (start < end) { if (arr[start] + arr[end] == 0) { ans.add(new ArrayList<>(Arrays.asList(arr[start], arr[end]))); start++; end--; while (start < end && arr[start] == arr[start - 1]) { start++; } while (start < end && arr[end] == arr[end + 1]) { end--; } } else if (arr[start] + arr[end] < 0) { start++; } else { end--; } } return ans; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, FactSet, Hike, MakeMyTrip
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
-- Synced: 2026-09-14T11:15:05.300Z
+- Synced: 2026-09-14T11:16:04.159Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array arr, return all the unique pairs [arr[i], arr[j]] such th
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, FactSet, Hike, MakeMyTrip. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) { Arrays.sort(arr); ArrayList<ArrayList<Integer>> ans = new ArrayList<>(); int start = 0; int end = arr.length - 1; while (start < end) { if (arr[start] + arr[end] == 0) { ans.add(new ArrayList<>(Arrays.asList(arr[start], arr[end]))); start++; end--; while (start < end && arr[start] == arr[start - 1]) { start++; } while (start < end && arr[end] == arr[end + 1]) { end--; } } else if (arr[start] + arr[end] < 0) { start++; } else { end--; } } return ans; } }. The detected topics are Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, FactSet, Hike, MakeMyTrip. Review the synced source file for the implementation details.
