@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-13T18:17:42.878Z",
+  "submissionTimestamp": "2026-09-14T13:04:12.985Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Sliding Window",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
-  "submissionId": "oqfrff"
+  "problemUrl": "https://leetcode.com/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "5kpsgf"
 }
