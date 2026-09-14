@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/extract-the-integers4428/1
-- Synced: 2026-09-14T11:08:41.454Z
+- Synced: 2026-09-14T11:14:41.179Z
 
 ## Problem Description
 
