@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2141038812/
+ * URL: https://leetcode.com/submissions/detail/2141174492/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 3 ms
- * Memory: 44.52 MB
- * Synced: 2026-09-13T22:31:08.238Z
+ * Runtime: 24 ms
+ * Memory: 49.14 MB
+ * Synced: 2026-09-14T12:29:44.559Z
  */
 
 1class Solution {
-2    public boolean isAnagram(String s, String t) {
-3        if(s.length()!=t.length())return false;
-4        int freq[]=new int[26];
-5        for(char c:s.toCharArray())freq[c-'a']++;
-6        for(char c:t.toCharArray())freq[c-'a']--;
-7        for(int f:freq){
-8            if(f!=0)return false;
-9        }
-10        return true;
-11    }
-12}
+2      public int subarraySum(int[] arr, int k) {
+3        Map<Integer, Integer> map = new HashMap<>();
+4          map.put(0, 1);
+5         int sum = 0, count = 0;
+6          for (int n : arr) {
+7                 sum += n;
+8            if(map.containsKey(sum-k)) count+=map.get(sum-k);
+9            map.put(sum,map.getOrDefault(sum,0)+1); 
+10         }
+11         return count;
+12    }
+13}
