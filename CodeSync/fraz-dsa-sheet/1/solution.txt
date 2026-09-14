@@ -1,27 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * URL: https://leetcode.com/problems/group-anagrams/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T18:17:42.878Z
+ * Synced: 2026-09-14T03:31:05.944Z
  */
 
 class Solution {
-    public int longestOnes(int[] nums, int k) {
-        Queue<Integer> queue = new LinkedList<>();
-        int left = 0,maxLength = 0;
-        for (int right = 0; right < nums.length; right++) {
-            if (nums[right] == 0) queue.add(right);
-            // More than k zeros
-            if (queue.size() > k) {
-                left = queue.poll() + 1;
-            }
-            maxLength = Math.max(maxLength, right - left + 1);
+    public List<List<String>> groupAnagrams(String[] strs) {
+      HashMap<String,List<String>>ans=new HashMap<>();
+        for(String s:strs){
+            char c[]=s.toCharArray();
+            Arrays.sort(c);
+            String key=String.valueOf(c);
+            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
         }
-        return maxLength;
+        return new ArrayList<>(ans.values());
     }
 }
