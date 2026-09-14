@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 42.55 MB
 - Problem URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141533005/
-- Synced: 2026-09-14T12:19:21.509Z
+- Synced: 2026-09-14T12:20:31.511Z
 
 ## Problem Description
 
