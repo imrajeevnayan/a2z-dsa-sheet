@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Hash Table, String, Sliding Window
+- Topics: String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-- Synced: 2026-09-14T06:43:55.960Z
+- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
+- Synced: 2026-09-14T12:12:19.532Z
 
 ## Problem Description
 
-Given a string s, find the length of the longest substring without duplicate characters. Example 1: Input: s = "abcabcbb" Output: 3 Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers. Example 2: Input: s = "bbbbb" Output: 1 Explanation: The answer is "b", with the length of 1. Example 3: Input: s = "pwwkew" Output: 3 Explanation: The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring. Constraints: 0 <= s.length <= 105 s consists of English letters, digits, symbols and spaces.
+Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k. Vowel letters in English are 'a', 'e', 'i', 'o', and 'u'. Example 1: Input: s = "abciiidef", k = 3 Output: 3 Explanation: The substring "iii" contains 3 vowel letters. Example 2: Input: s = "aeiou", k = 2 Output: 2 Explanation: Any substring of length 2 contains 2 vowels. Example 3: Input: s = "leetcode", k = 3 Output: 2 Explanation: "lee", "eet" and "ode" contain 2 vowels. Constraints: 1 <= s.length <= 105 s consists of lowercase English letters. 1 <= k <= s.length
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Sliding Window. Review the synced source file for the implementation details.
