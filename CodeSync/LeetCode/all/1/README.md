@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Python
-- Difficulty: Unknown
-- Topics: Uncategorized
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Array, Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/1122776/summary-of-sliding-window-patterns-for-s-2cnq/
-- Synced: 2026-09-13T20:48:37.310Z
+- Problem URL: https://leetcode.com/problems/group-anagrams/description/
+- Synced: 2026-09-14T03:31:05.944Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Python. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
