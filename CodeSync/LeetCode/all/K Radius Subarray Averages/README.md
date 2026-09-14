@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
 - Memory: 175.78 MB
-- Problem URL: https://leetcode.com/problems/k-radius-subarray-averages/submissions/2141553650/
-- Synced: 2026-09-14T12:41:38.192Z
+- Problem URL: https://leetcode.com/problems/k-radius-subarray-averages/
+- Synced: 2026-09-14T12:42:27.773Z
 
 ## Problem Description
 
