@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Extract Integers from String
+ * URL: https://www.geeksforgeeks.org/problems/extract-the-integers4428/1
+ * Language: // User function Template for Java import java.util.*; class Solution { ArrayList<String> extractIntegerWords(String s) { ArrayList<String> res = new ArrayList<>(); String temp=""; for(int i=0;i<s.length();i++){ char ch=s.charAt(i); if(Character.isDigit(ch)){ temp+=ch; }else{ if(!temp.isEmpty()){ res.add(temp); temp=""; } } } if(!temp.isEmpty()){ res.add(temp); } return res; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Strings, Related Articles, Extract All Integers From A Given String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T11:05:16.181Z
+ */
+
+class Solution {
+    public List<String> extractInt(String s) {
+        List<String> ans = new ArrayList<>();
+        String num = "";
+
+        for (char c : s.toCharArray()) {
+            if (Character.isDigit(c))  num += c;
+            else if (!num.isEmpty()) {
+                ans.add(num);
+                num = "";
+            }
+        }
+
+        if (!num.isEmpty()) ans.add(num);
+
+        return ans;
+    }
+}
