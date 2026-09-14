@@ -3,21 +3,21 @@
  * Problem: Two Sum
  * URL: https://leetcode.com/problems/two-sum/submissions/2141035854/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Array, Hash Table
- * Runtime: 0 ms
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2 ms
  * Memory: 47.08 MB
- * Synced: 2026-09-13T22:06:42.832Z
+ * Synced: 2026-09-14T03:31:32.934Z
  */
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer>map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            int rem=target-nums[i];
-            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
-            else map.put(nums[i],i);
-        }
-        return new int[]{-1,-1};
-    }
-}
+1class Solution {
+2    public int[] twoSum(int[] nums, int target) {
+3        Map<Integer,Integer>map=new HashMap<>();
+4        for(int i=0;i<nums.length;i++){
+5            int rem=target-nums[i];
+6            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
+7            else map.put(nums[i],i);
+8        }
+9        return new int[]{-1,-1};
+10    }
+11}
