@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: String, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-14T12:21:22.101Z
+ * Memory: 42.85 MB
+ * Synced: 2026-09-14T12:22:24.968Z
  */
 
 int left = 0, count = 0, ans = Integer.MAX_VALUE;
