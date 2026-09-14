@@ -7,13 +7,10 @@
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
  * Memory: 46.61 MB
- * Synced: 2026-09-14T04:26:13.480Z
+ * Synced: 2026-09-14T04:27:01.122Z
  */
 
-ListNode curr = temp;
-        int carry = 0;
-        while (l1 != null || l2 != null || carry != 0) {
-            int sum = carry;
+int sum = carry;
 
             if (l1 != null) {
                 sum += l1.val;
@@ -29,6 +26,4 @@ ListNode curr = temp;
         }
         return temp.next;
     }
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode temp = new ListNode(0);
-class Solution {
+}
