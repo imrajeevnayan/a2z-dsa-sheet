@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-14T12:29:45.369Z",
-  "runtime": "24 ms",
-  "memoryUsage": "49.14 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-14T12:49:08.391Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Sliding Window",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2141174492/",
-  "submissionId": "1hfele"
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "qs93dn"
 }
