@@ -1,24 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/group-anagrams/description/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T03:31:05.944Z
+ * Synced: 2026-09-14T06:43:55.960Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-      HashMap<String,List<String>>ans=new HashMap<>();
-        for(String s:strs){
-            char c[]=s.toCharArray();
-            Arrays.sort(c);
-            String key=String.valueOf(c);
-            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+    public int lengthOfLongestSubstring(String s) {
+        Set<Character>set=new HashSet<>();
+        int left=0,ans=0;
+        for(int right=0;right<s.length();right++){
+            char ch=s.charAt(right);
+            while(set.contains(ch)){
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(ch);
+            ans=Math.max(ans,right-left+1);
         }
-        return new ArrayList<>(ans.values());
+        return ans;
     }
 }
