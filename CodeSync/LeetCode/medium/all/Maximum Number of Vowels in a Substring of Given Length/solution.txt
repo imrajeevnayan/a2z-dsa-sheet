@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Vowels in a Substring of Given Length
- * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+ * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Sliding Window
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:27:15.180Z
+ * Synced: 2026-09-14T12:30:48.591Z
  */
 
 class Solution {
@@ -17,13 +17,13 @@ class Solution {
     public int maxVowels(String s, int k) {
         int left=0,count=0,ans=0;
         for(int right=0;right<s.length();right++){
-        return ans;
-        }
+             if(isVowels(s.charAt(right))) count++;
             if(right-left+1==k){
              ans=Math.max(ans,count);
-            }
-    }
-             if(isVowels(s.charAt(right))) count++;
              if(isVowels(s.charAt(left)))count--;
              left++;
+            }
+        }
+        return ans;
+    }
 }
