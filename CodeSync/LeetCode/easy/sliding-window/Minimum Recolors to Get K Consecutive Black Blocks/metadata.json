@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-14T12:20:31.511Z",
+  "submissionTimestamp": "2026-09-14T12:21:22.101Z",
   "runtime": "0 ms",
-  "memoryUsage": "42.55 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Recolors to Get K Consecutive Black Blocks",
-  "problemUrl": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141533005/",
+  "problemUrl": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141537694/",
   "submissionId": "ftwp01"
 }
