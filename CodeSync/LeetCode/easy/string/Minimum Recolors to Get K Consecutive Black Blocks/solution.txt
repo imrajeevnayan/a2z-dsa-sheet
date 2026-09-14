@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: 0 ms
  * Memory: 42.55 MB
- * Synced: 2026-09-14T12:19:21.509Z
+ * Synced: 2026-09-14T12:20:31.511Z
  */
 
 int left = 0, count = 0, ans = Integer.MAX_VALUE;
