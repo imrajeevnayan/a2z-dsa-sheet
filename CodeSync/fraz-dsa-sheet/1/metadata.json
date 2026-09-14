@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-13T18:17:42.878Z",
+  "submissionTimestamp": "2026-09-14T03:31:05.944Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Hash Table",
+    "String",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
-  "submissionId": "oqfrff"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "submissionId": "pvvb7i"
 }
