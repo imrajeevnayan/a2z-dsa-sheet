@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-14T12:13:41.550Z",
+  "submissionTimestamp": "2026-09-14T12:14:19.005Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Recolors to Get K Consecutive Black Blocks",
-  "problemUrl": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/",
   "submissionId": "fhy19o"
 }
