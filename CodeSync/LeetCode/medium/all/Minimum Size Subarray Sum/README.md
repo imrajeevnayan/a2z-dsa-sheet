@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 69.09 MB
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T13:33:13.521Z
+- Synced: 2026-09-14T13:34:00.526Z
 
 ## Problem Description
 
