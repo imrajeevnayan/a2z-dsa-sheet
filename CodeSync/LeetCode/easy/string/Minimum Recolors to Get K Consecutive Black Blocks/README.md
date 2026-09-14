@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 42.85 MB
 - Problem URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/2141537694/
-- Synced: 2026-09-14T12:21:22.101Z
+- Synced: 2026-09-14T12:22:24.968Z
 
 ## Problem Description
 
