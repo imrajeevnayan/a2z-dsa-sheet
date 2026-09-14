@@ -1,13 +1,13 @@
 # Max Consecutive Ones III
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Sliding Window
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/
-- Synced: 2026-09-13T18:20:01.944Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-14T13:01:49.881Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a binary array nums and an integer k, return the maximum number of consecu
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
