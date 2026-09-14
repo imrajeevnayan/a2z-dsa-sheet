@@ -1,13 +1,13 @@
 # 1
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Sliding Window
 - Difficulty: Medium
 - Topics: String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
-- Synced: 2026-09-14T12:12:19.532Z
+- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-14T12:49:08.391Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s and an integer k, return the maximum number of vowel letters in
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Sliding Window. Review the synced source file for the implementation details.
