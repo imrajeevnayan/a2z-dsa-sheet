@@ -4138,5 +4138,8 @@
   "leetcode:k-radius-subarray-averages": [],
   "leetcode:binary-subarrays-with-sum": [
     "custom:striver-a2z-dsa-sheet"
+  ],
+  "leetcode:count-number-of-nice-subarrays": [
+    "custom:striver-a2z-dsa-sheet"
   ]
 }
