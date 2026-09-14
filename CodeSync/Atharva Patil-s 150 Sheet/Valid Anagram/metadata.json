@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-13T22:14:27.822Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-14T03:31:21.934Z",
+  "runtime": "3 ms",
   "memoryUsage": "44.52 MB",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Anagram",
   "problemUrl": "https://leetcode.com/problems/valid-anagram/submissions/2141038812/",
-  "submissionId": "8cubs"
+  "submissionId": "pdulvx"
 }
