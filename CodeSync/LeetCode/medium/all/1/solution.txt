@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T12:12:19.532Z
+ * Synced: 2026-09-14T12:49:08.391Z
  */
 
 class Solution {
