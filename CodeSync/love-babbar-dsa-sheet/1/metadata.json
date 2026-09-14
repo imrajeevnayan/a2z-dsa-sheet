@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-14T06:43:55.960Z",
+  "submissionTimestamp": "2026-09-14T12:12:19.532Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
     "String",
     "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
-  "submissionId": "x2ajuf"
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/",
+  "submissionId": "hgnzc"
 }
