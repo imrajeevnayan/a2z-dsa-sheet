@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Recolors to Get K Consecutive Black Blocks
- * URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+ * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T12:13:41.550Z
+ * Synced: 2026-09-14T12:14:19.005Z
  */
 
 class Solution {
