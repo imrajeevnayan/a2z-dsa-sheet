@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: K Radius Subarray Averages
- * URL: https://leetcode.com/problems/k-radius-subarray-averages/
+ * URL: https://leetcode.com/problems/k-radius-subarray-averages/submissions/2141553650/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-14T12:40:44.462Z
+ * Runtime: 0 ms
+ * Memory: 175.78 MB
+ * Synced: 2026-09-14T12:41:38.192Z
  */
 
-class Solution {
+long sum = 0;
+        int left = 0;
+
+        for (int right = 0; right < n; right++) {
+            sum += nums[right];
+
+            if (right - left + 1 == 2 * k + 1) {
+                int mid = left + k;
+
+                ans[mid] = (int)(sum / (2 * k + 1));
+
+                sum -= nums[left];
+                left++;
+
+        if (2 * k + 1 > n) return ans;
+        Arrays.fill(ans, -1);
+        int[] ans = new int[n];
     public int[] getAverages(int[] nums, int k) {
-        
-    }
-}
+        int n = nums.length;
+            }
+        }
