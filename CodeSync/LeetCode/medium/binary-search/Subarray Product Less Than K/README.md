@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T13:23:23.880Z
+- Synced: 2026-09-14T13:24:10.518Z
 
 ## Problem Description
 
