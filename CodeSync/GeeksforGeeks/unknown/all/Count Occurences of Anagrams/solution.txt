@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftIntuit, Company Tags, Flipkart, Amazon, Microsoft, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T19:29:15.829Z
+ * Synced: 2026-09-14T06:08:52.985Z
  */
 
 class Solution {
