@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-14T12:49:56.245Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window",
+  "problemTitle": "Binary Subarrays With Sum",
+  "problemUrl": "https://leetcode.com/problems/binary-subarrays-with-sum/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "7oqb40"
+}
