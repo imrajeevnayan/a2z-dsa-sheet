@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14
- * Language: Daily Question
- * Difficulty: Easy
- * Topics: Math, Geometry
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T04:25:57.902Z
+ * Synced: 2026-09-14T06:43:55.960Z
  */
 
 class Solution {
-    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
-        
+    public int lengthOfLongestSubstring(String s) {
+        Set<Character>set=new HashSet<>();
+        int left=0,ans=0;
+        for(int right=0;right<s.length();right++){
+            char ch=s.charAt(right);
+            while(set.contains(ch)){
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(ch);
+            ans=Math.max(ans,right-left+1);
+        }
+        return ans;
     }
 }
