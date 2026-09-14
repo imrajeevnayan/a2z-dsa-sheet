@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-14T03:31:05.944Z",
+  "submissionTimestamp": "2026-09-14T04:25:57.902Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Math",
+    "Geometry"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
-  "submissionId": "pvvb7i"
+  "problemUrl": "https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14",
+  "submissionId": "jwto3b"
 }
