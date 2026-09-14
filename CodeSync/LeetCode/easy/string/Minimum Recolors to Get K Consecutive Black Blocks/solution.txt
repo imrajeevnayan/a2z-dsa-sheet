@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Recolors to Get K Consecutive Black Blocks
+ * URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T12:12:56.533Z
+ */
+
+class Solution {
+    public int minimumRecolors(String blocks, int k) {
+        
+    }
+}
