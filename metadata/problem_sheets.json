@@ -4127,5 +4127,6 @@
     "custom:love-babbar-dsa-sheet",
     "GFG160"
   ],
-  "leetcode:minimum-recolors-to-get-k-consecutive-black-blocks": []
+  "leetcode:minimum-recolors-to-get-k-consecutive-black-blocks": [],
+  "leetcode:k-radius-subarray-averages": []
 }
