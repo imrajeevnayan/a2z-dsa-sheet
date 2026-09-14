@@ -1,16 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/discuss/post/8519080/50-days-of-leetcode-the-results-by-karan-70va/
- * Language: Text
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * URL: https://leetcode.com/problems/group-anagrams/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T20:30:05.551Z
+ * Synced: 2026-09-13T22:16:34.206Z
  */
 
-RESULTS:
-📈 Rank: ~2,000,000 → ~82,000
-🔥 50-day streak
-✅ 500 Easy problems solved
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+      HashMap<String,List<String>>ans=new HashMap<>();
+        for(String s:strs){
+            char c[]=s.toCharArray();
+            Arrays.sort(c);
+            String key=String.valueOf(c);
+            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+        }
+        return new ArrayList<>(ans.values());
+    }
+}
