@@ -4,10 +4,10 @@
 - Language: Sliding Window
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T13:01:49.881Z
+- Synced: 2026-09-14T13:02:39.181Z
 
 ## Problem Description
 
