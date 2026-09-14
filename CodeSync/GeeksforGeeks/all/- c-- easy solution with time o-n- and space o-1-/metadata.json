@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-14T11:02:43.595Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Zoho",
+    "Company Tags",
+    "Zoho",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Strings",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def reverseWithSpacesIntact(self, s): # code here s_arr = list(s) left, right = 0, len(s_arr) - 1 # 2-pointers approach while left < right: if s_arr[left] != \" \" and s_arr[right] != \" \": s_arr[left], s_arr[right] = s_arr[right], s_arr[left] if s_arr[left] == \" \": left += 1 elif s_arr[right] == \" \": right -= 1 else: left += 1 right -= 1 return str(\"\").join(s_arr)",
+  "problemTitle": "# c++ easy solution with time o(n) and space o(1)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-string-with-spaces-intact5213/1",
+  "submissionId": "kozaua"
+}
