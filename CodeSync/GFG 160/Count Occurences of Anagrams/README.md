@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
-- Synced: 2026-09-14T06:19:52.737Z
+- Synced: 2026-09-14T06:22:01.915Z
 
 ## Problem Description
 
