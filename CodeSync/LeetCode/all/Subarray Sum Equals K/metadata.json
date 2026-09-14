@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-14T05:49:05.133Z",
-  "runtime": "24 ms",
-  "memoryUsage": "49.14 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-14T05:50:48.928Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarray Sum Equals K",
-  "problemUrl": "https://leetcode.com/problems/subarray-sum-equals-k/submissions/2141174492/",
+  "problemUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
   "submissionId": "n74tqn"
 }
