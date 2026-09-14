@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-13T22:16:34.206Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-13T22:31:09.353Z",
+  "runtime": "3 ms",
+  "memoryUsage": "44.52 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
-  "submissionId": "pvvb7i"
+  "problemUrl": "https://leetcode.com/submissions/detail/2141038812/",
+  "submissionId": "b3xc06"
 }
