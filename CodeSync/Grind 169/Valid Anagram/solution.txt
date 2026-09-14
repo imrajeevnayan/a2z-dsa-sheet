@@ -3,22 +3,22 @@
  * Problem: Valid Anagram
  * URL: https://leetcode.com/problems/valid-anagram/submissions/2141038812/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, String, Sorting
- * Runtime: 0 ms
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 3 ms
  * Memory: 44.52 MB
- * Synced: 2026-09-13T22:15:20.831Z
+ * Synced: 2026-09-14T03:31:21.934Z
  */
 
-class Solution {
-    public boolean isAnagram(String s, String t) {
-        if(s.length()!=t.length())return false;
-        int freq[]=new int[26];
-        for(char c:s.toCharArray())freq[c-'a']++;
-        for(char c:t.toCharArray())freq[c-'a']--;
-        for(int f:freq){
-            if(f!=0)return false;
-        }
-        return true;
-    }
-}
+1class Solution {
+2    public boolean isAnagram(String s, String t) {
+3        if(s.length()!=t.length())return false;
+4        int freq[]=new int[26];
+5        for(char c:s.toCharArray())freq[c-'a']++;
+6        for(char c:t.toCharArray())freq[c-'a']--;
+7        for(int f:freq){
+8            if(f!=0)return false;
+9        }
+10        return true;
+11    }
+12}
