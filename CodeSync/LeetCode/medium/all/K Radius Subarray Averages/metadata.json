@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-14T12:40:44.462Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-14T12:41:38.192Z",
+  "runtime": "0 ms",
+  "memoryUsage": "175.78 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "K Radius Subarray Averages",
-  "problemUrl": "https://leetcode.com/problems/k-radius-subarray-averages/",
-  "submissionId": "ehm1h2"
+  "problemUrl": "https://leetcode.com/problems/k-radius-subarray-averages/submissions/2141553650/",
+  "submissionId": "p5h9rp"
 }
