@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, String, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/group-anagrams/
-- Synced: 2026-09-05T13:30:09.715Z
+- Synced: 2026-09-13T22:18:55.832Z
 
 ## Problem Description
 
