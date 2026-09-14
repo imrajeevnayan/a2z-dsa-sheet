@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-06T11:00:30.925Z",
+  "submissionTimestamp": "2026-09-14T04:27:01.122Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.87 MB",
+  "memoryUsage": "46.61 MB",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Add Two Numbers",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/submissions/2096263732/",
-  "submissionId": "7ilv1j"
+  "problemUrl": "https://leetcode.com/problems/add-two-numbers/",
+  "submissionId": "ww2gn5"
 }
