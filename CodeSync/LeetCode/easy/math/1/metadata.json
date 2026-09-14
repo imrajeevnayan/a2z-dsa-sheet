@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-07-02T17:00:37.296Z",
+  "submissionTimestamp": "2026-09-14T04:25:57.902Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
-    "Dynamic Programming",
-    "Memoization"
+    "Geometry"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "bpcm3z"
+  "problemUrl": "https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14",
+  "submissionId": "jwto3b"
 }
