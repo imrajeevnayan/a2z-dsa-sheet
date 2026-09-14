@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-14T04:25:26.915Z
+ * Memory: 46.61 MB
+ * Synced: 2026-09-14T04:26:13.480Z
  */
 
 ListNode curr = temp;
@@ -29,6 +29,6 @@ ListNode curr = temp;
         }
         return temp.next;
     }
-        ListNode temp = new ListNode(0);
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-}
+        ListNode temp = new ListNode(0);
+class Solution {
