@@ -6,8 +6,8 @@
 - Topics: String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
-- Synced: 2026-09-14T12:14:19.005Z
+- Problem URL: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+- Synced: 2026-09-14T12:14:49.650Z
 
 ## Problem Description
 
