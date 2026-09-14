@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Daily Question
-- Difficulty: Easy
-- Topics: Math, Geometry
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Hash Table, String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14
-- Synced: 2026-09-14T04:25:57.902Z
+- Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+- Synced: 2026-09-14T06:43:55.960Z
 
 ## Problem Description
 
-An axis-aligned rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) is the coordinate of its bottom-left corner, and (x2, y2) is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis. Two rectangles overlap if the area of their intersection is positive. To be clear, two rectangles that only touch at the corner or edges do not overlap. Given two axis-aligned rectangles rec1 and rec2, return true if they overlap, otherwise return false. Example 1: Input: rec1 = [0,0,2,2], rec2 = [1,1,3,3] Output: true Example 2: Input: rec1 = [0,0,1,1], rec2 = [1,0,2,1] Output: false Example 3: Input: rec1 = [0,0,1,1], rec2 = [2,2,3,3] Output: false Constraints: rec1.length == 4 rec2.length == 4 -109 <= rec1[i], rec2[i] <= 109 rec1 and rec2 represent a valid rectangle with a non-zero area.
+Given a string s, find the length of the longest substring without duplicate characters. Example 1: Input: s = "abcabcbb" Output: 3 Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers. Example 2: Input: s = "bbbbb" Output: 1 Explanation: The answer is "b", with the length of 1. Example 3: Input: s = "pwwkew" Output: 3 Explanation: The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring. Constraints: 0 <= s.length <= 105 s consists of English letters, digits, symbols and spaces.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Math, Geometry. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String, Sliding Window. Review the synced source file for the implementation details.
