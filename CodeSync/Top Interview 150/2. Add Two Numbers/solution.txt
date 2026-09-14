@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2. Add Two Numbers
+ * URL: https://leetcode.com/problems/add-two-numbers/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Linked List, Math, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T05:49:42.079Z
+ */
+
+Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.
