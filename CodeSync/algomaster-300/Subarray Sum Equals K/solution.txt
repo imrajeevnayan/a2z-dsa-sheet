@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sum Equals K
- * URL: https://leetcode.com/problems/subarray-sum-equals-k/submissions/2132343306/
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
- * Runtime: 0 ms
- * Memory: 49.04 MB
- * Synced: 2026-09-06T03:33:14.722Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T04:26:55.987Z
  */
 
-int sum = 0, count = 0;
+class Solution {
+      public int subarraySum(int[] arr, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+          map.put(0, 1);
+         int sum = 0, count = 0;
           for (int n : arr) {
                  sum += n;
             if(map.containsKey(sum-k)) count+=map.get(sum-k);
             map.put(sum,map.getOrDefault(sum,0)+1); 
          }
-          map.put(0, 1);
-        Map<Integer, Integer> map = new HashMap<>();
          return count;
     }
-      public int subarraySum(int[] arr, int k) {
-class Solution {
+}
