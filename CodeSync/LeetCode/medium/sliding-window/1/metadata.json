@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-13T18:17:42.878Z",
+  "submissionTimestamp": "2026-09-14T06:43:55.960Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Binary Search",
-    "Sliding Window",
-    "Prefix Sum"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
-  "submissionId": "oqfrff"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "x2ajuf"
 }
