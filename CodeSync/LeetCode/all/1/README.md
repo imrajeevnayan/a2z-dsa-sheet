@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Sliding Window
 - Difficulty: Medium
-- Topics: String, Sliding Window
+- Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T12:49:08.391Z
+- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-14T13:04:12.985Z
 
 ## Problem Description
 
-Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k. Vowel letters in English are 'a', 'e', 'i', 'o', and 'u'. Example 1: Input: s = "abciiidef", k = 3 Output: 3 Explanation: The substring "iii" contains 3 vowel letters. Example 2: Input: s = "aeiou", k = 2 Output: 2 Explanation: Any substring of length 2 contains 2 vowels. Example 3: Input: s = "leetcode", k = 3 Output: 2 Explanation: "lee", "eet" and "ode" contain 2 vowels. Constraints: 1 <= s.length <= 105 s consists of lowercase English letters. 1 <= k <= s.length
+You are given an array of integers nums and an integer k. Return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k. Example 1: Input: nums = [10,5,2,6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6] Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k. Example 2: Input: nums = [1,2,3], k = 0 Output: 0 Constraints: 1 <= nums.length <= 3 * 104 1 <= nums[i] <= 1000 0 <= k <= 106
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
