@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Vowels in a Substring of Given Length
- * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: String, Sliding Window
+ * URL: https://leetcode.com/problems/count-number-of-nice-subarrays/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T12:30:48.591Z
+ * Synced: 2026-09-14T13:01:38.420Z
  */
 
 class Solution {
