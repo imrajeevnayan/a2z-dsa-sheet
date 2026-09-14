@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Binary Subarrays With Sum
+ * URL: https://leetcode.com/problems/binary-subarrays-with-sum/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sliding Window, Prefix Sum
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-14T12:49:56.245Z
+ */
+
+int left = 0, sum = 0, ans = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+            sum += nums[right];
+
+            while (sum > goal) {
+                sum -= nums[left];
+                left++;
+            }
+            ans += right - left + 1;
+        }
+        return ans;
+    }
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        return atMost(nums, goal) - atMost(nums, goal - 1);
+    private int atMost(int[] nums, int goal) {
+        if (goal < 0) return 0;
+class Solution {
+    }
+}
