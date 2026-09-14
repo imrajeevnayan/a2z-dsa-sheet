@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Size Subarray Sum
- * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T17:21:27.364Z
+ * Synced: 2026-09-14T13:26:45.395Z
  */
 
 class Solution {
