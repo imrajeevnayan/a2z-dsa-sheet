@@ -4135,5 +4135,8 @@
     "GFG160"
   ],
   "leetcode:minimum-recolors-to-get-k-consecutive-black-blocks": [],
-  "leetcode:k-radius-subarray-averages": []
+  "leetcode:k-radius-subarray-averages": [],
+  "leetcode:binary-subarrays-with-sum": [
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
