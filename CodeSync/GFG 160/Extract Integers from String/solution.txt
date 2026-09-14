@@ -7,23 +7,17 @@
  * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Strings, Related Articles, Extract All Integers From A Given String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T11:06:57.871Z
+ * Synced: 2026-09-14T11:07:51.599Z
  */
 
 class Solution {
     public List<String> extractInt(String s) {
         List<String> ans = new ArrayList<>();
-        String num = "";
 
-        for (char c : s.toCharArray()) {
-            if (Character.isDigit(c))  num += c;
-            else if (!num.isEmpty()) {
-                ans.add(num);
-                num = "";
-            }
+        for (String x : s.split("\\D+")) {
+            if (!x.isEmpty())
+                ans.add(x);
         }
-
-        if (!num.isEmpty()) ans.add(num);
 
         return ans;
     }
