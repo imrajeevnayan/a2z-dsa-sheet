@@ -1,23 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/submissions/detail/2139295637/
+ * URL: https://leetcode.com/submissions/detail/2141174492/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 77.04 MB
- * Synced: 2026-09-12T11:16:20.806Z
+ * Runtime: 24 ms
+ * Memory: 49.14 MB
+ * Synced: 2026-09-14T12:29:45.369Z
  */
 
 1class Solution {
-2    public int maxSubArray(int[] nums) {
-3        int maxsum=Integer.MIN_VALUE,curr=0;
-4        for(int n:nums){
-5            curr+=n;
-6            if(curr >maxsum)maxsum=curr;
-7            if(curr <0) curr=0;
-8        }
-9        return maxsum;
-10    }
-11}
+2      public int subarraySum(int[] arr, int k) {
+3        Map<Integer, Integer> map = new HashMap<>();
+4          map.put(0, 1);
+5         int sum = 0, count = 0;
+6          for (int n : arr) {
+7                 sum += n;
+8            if(map.containsKey(sum-k)) count+=map.get(sum-k);
+9            map.put(sum,map.getOrDefault(sum,0)+1); 
+10         }
+11         return count;
+12    }
+13}
