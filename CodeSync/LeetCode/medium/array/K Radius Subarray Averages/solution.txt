@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: K Radius Subarray Averages
+ * URL: https://leetcode.com/problems/k-radius-subarray-averages/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T12:40:44.462Z
+ */
+
+class Solution {
+    public int[] getAverages(int[] nums, int k) {
+        
+    }
+}
