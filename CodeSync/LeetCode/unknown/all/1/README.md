@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/discuss/post/8433297/fixed-size-sliding-window-pattern-comple-srmf/
-- Synced: 2026-09-13T20:49:29.981Z
+- Runtime: 24 ms
+- Memory: 49.14 MB
+- Problem URL: https://leetcode.com/submissions/detail/2141174492/
+- Synced: 2026-09-14T12:29:45.369Z
 
 ## Problem Description
 
