@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftIntuit, Company Tags, Flipkart, Amazon, Microsoft, Intuit, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T06:16:58.230Z
+ * Synced: 2026-09-14T06:19:52.737Z
  */
 
 class Solution {
@@ -16,10 +16,10 @@ class Solution {
         int t=txt.length();
         if(t<p ) return 0;
         int []patfreq=new int[26];
+        int currFreq[]=new int[26]; 
         for(char c:pat.toCharArray()){
             patfreq[c-'a']++;
         }
-        int currFreq[]=new int[26]; 
         int count=0,left=0;
         
         for(int right=0;right<t;right++){
