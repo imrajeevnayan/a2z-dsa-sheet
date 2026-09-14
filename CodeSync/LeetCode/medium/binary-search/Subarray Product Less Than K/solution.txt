@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-14T13:24:10.518Z
+ * Synced: 2026-09-14T13:24:58.444Z
  */
 
 class Solution {
