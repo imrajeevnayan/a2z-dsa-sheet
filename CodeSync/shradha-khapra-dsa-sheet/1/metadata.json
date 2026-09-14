@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-14T04:25:57.902Z",
+  "submissionTimestamp": "2026-09-14T06:43:55.960Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Math",
-    "Geometry"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14",
-  "submissionId": "jwto3b"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "x2ajuf"
 }
