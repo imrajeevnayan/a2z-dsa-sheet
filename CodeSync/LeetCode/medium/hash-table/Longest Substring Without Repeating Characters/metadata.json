@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-13T20:47:19.800Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-14T06:44:41.980Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Substring Without Repeating Characters",
-  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2141009752/",
-  "submissionId": "o09nin"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "xevlgs"
 }
