@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-12T18:48:59.390Z",
+  "submissionTimestamp": "2026-09-14T04:25:57.902Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Sliding Window"
+    "Math",
+    "Geometry"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-average-subarray-i/",
-  "submissionId": "bgb1x"
+  "problemUrl": "https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14",
+  "submissionId": "jwto3b"
 }
