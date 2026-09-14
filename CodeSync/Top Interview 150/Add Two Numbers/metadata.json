@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-06T17:24:55.698Z",
-  "runtime": "1 ms",
-  "memoryUsage": "46.87 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-14T04:25:26.915Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Linked List",
+    "Math",
+    "Recursion"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Add Two Numbers",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/submissions/2096263732/",
-  "submissionId": "wb0cuo"
+  "problemUrl": "https://leetcode.com/problems/add-two-numbers/",
+  "submissionId": "cqdz2s"
 }
