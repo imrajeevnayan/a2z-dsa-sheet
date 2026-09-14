@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-14T12:30:48.591Z",
+  "submissionTimestamp": "2026-09-14T13:01:38.420Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "String",
-    "Sliding Window"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Sliding Window",
   "problemTitle": "Maximum Number of Vowels in a Substring of Given Length",
-  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/",
-  "submissionId": "bsol6o"
+  "problemUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "o004ub"
 }
