@@ -32,14 +32,7 @@
     "custom:algomaster-300",
     "custom:fraz-dsa-sheet"
   ],
-  "leetcode:subarray-product-less-than-k": [
-    "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet",
-    "custom:algomaster-300",
-    "custom:neetcode-dsa-sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:shradha-khapra-dsa-sheet"
-  ],
+  "leetcode:subarray-product-less-than-k": [],
   "geeksforgeeks:count-the-subarrays-having-product-less-than-k1708": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet",
