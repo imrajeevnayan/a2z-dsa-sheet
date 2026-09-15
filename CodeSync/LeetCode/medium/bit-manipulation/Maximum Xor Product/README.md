@@ -6,8 +6,8 @@
 - Topics: Math, Greedy, Bit Manipulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-xor-product/description/
-- Synced: 2026-09-15T12:14:29.451Z
+- Problem URL: https://leetcode.com/problems/maximum-xor-product/
+- Synced: 2026-09-15T12:15:15.589Z
 
 ## Problem Description
 
