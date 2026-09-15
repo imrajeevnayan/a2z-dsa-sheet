@@ -5,13 +5,21 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Greedy
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-15T12:33:31.446Z
+ * Synced: 2026-09-15T12:34:22.833Z
  */
 
 class Solution {
     public int maximum69Number (int num) {
+        // 1. Integer ko String mein convert karo
+        String s = String.valueOf(num);
         
+        // 2. Pehla '6' dhundo aur usse '9' se replace karo
+        // replaceFirst sirf first occurrence ko change karega
+        String maxStr = s.replaceFirst("6", "9");
+        
+        // 3. Wapas Integer mein convert karo
+        return Integer.parseInt(maxStr);
     }
 }
