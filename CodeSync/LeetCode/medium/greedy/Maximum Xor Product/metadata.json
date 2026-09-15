@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-15T12:13:30.195Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Math",
+    "Greedy",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Xor Product",
+  "problemUrl": "https://leetcode.com/problems/maximum-xor-product/",
+  "submissionId": "fqzeb0"
+}
