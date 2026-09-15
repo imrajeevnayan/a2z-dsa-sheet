@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-15T08:03:19.244Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "String",
+    "Binary Search",
+    "Sliding Window",
+    "Rolling Hash",
+    "Suffix Array",
+    "Hash Function",
+    "Suffix Automaton",
+    "Suffix Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window",
+  "problemTitle": "0",
+  "problemUrl": "https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "c444m3"
+}
