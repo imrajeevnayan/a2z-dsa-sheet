@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
 - Memory: 47.18 MB
-- Problem URL: https://leetcode.com/problems/maximum-product-subarray/submissions/2142561095/
-- Synced: 2026-09-15T12:11:13.437Z
+- Problem URL: https://leetcode.com/problems/maximum-product-subarray/
+- Synced: 2026-09-15T12:11:59.537Z
 
 ## Problem Description
 
