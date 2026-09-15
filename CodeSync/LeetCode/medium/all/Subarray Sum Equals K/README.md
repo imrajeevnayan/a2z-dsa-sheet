@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/
-- Synced: 2026-09-15T10:08:49.592Z
+- Synced: 2026-09-15T10:09:36.610Z
 
 ## Problem Description
 
