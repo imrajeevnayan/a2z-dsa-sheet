@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Medium
- * Topics: Array, Bit Manipulation, Sliding Window
+ * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:06:54.838Z
+ * Synced: 2026-09-15T08:07:33.714Z
  */
 
 class Solution {
-    public int longestNiceSubarray(int[] nums) {
+    public long maxSum(List<Integer> nums, int m, int k) {
         
     }
 }
