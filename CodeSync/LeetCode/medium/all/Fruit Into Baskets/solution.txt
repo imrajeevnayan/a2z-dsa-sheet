@@ -7,22 +7,28 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T11:00:16.839Z
+ * Synced: 2026-09-15T11:01:02.679Z
  */
 
-class Solution {
-    public int totalFruit(int[] fruits) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int left = 0,maxLen = 0;
+count.put( leftFruit,count.get(leftFruit) - 1 );
+                int leftFruit = fruits[left];
+            while (count.size() > 2) {
+            count.put(fruit,count.getOrDefault(fruit, 0) + 1);
+            int fruit = fruits[right];
         for (int right = 0; right < fruits.length; right++) {
-            map.put(fruits[right],map.getOrDefault(fruits[right], 0) + 1 );
-            while (map.size() > 2) {
-                map.put(fruits[left],map.get(fruits[left]) - 1);
-                if (map.get(fruits[left]) == 0)map.remove(fruits[left]);
+        Map<Integer, Integer> count = new HashMap<>();
+        int left = 0,maxLength = 0;
+    public int totalFruit(int[] fruits) {
+class Solution {
+
+                if (count.get(leftFruit) == 0) {
+                    count.remove(leftFruit);
+                }
+
                 left++;
             }
-            maxLen = Math.max(maxLen,right - left + 1 );
-        }
-        return maxLen;
-    }
-}
+
+            maxLength = Math.max(
+                maxLength,
+                right - left + 1
+            );
