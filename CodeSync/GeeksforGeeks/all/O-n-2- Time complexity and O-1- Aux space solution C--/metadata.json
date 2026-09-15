@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-15T04:44:26.503Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonGoogleFacebook",
+    "Company Tags",
+    "Amazon",
+    "Google",
+    "Facebook",
+    "Topic Tags",
+    "two-pointer-algorithm"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Input: n = 5, arr[] = {0, -1, 2, -3, 1} Output: 1 Explanation: 0, -1 and 1 forms a triplet with sum equal to 0.",
+  "problemTitle": "O(n^2) Time complexity and O(1) Aux space solution C++",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1",
+  "submissionId": "ulo3bf"
+}
