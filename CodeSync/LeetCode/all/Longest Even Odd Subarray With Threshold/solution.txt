@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Even Odd Subarray With Threshold
- * URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
+ * URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:19:45.424Z
+ * Synced: 2026-09-15T12:20:54.445Z
  */
 
 class Solution {
