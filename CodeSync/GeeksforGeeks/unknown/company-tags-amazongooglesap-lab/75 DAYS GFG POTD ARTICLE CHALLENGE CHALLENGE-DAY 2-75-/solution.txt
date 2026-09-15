@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 2/75)
+ * URL: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
+ * Language: class Solution: def longestKSubstr(self, s, k): if k == 0: return 0 char_freq = {} max_length = -1 left = 0 for right in range(len(s)): if s[right] not in char_freq: char_freq[s[right]] = 0 char_freq[s[right]] += 1 while len(char_freq) > k: char_freq[s[left]] -= 1 if char_freq[s[left]] == 0: del char_freq[s[left]] left += 1 if len(char_freq)==k: max_length = max(max_length, right - left + 1) return max_length
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonGoogleSAP Labs, Company Tags, Amazon, Google, SAP Labs, Topic Tags, two-pointer-algorithm
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-14T17:01:41.506Z
+ */
+
+class Solution {
+    public int longestKSubstr(String s, int k) {
+        int n = s.length();
+        if (k == 0) return -1;
+
+        int[] freq = new int[26];
+        int left = 0;
+        int distinct = 0;
+        int maxLen = -1;
+
+        for (int right = 0; right < n; right++) {
+            int r = s.charAt(right) - 'a';
+            if (freq[r] == 0) distinct++;
+            freq[r]++;
+
+            // Shrink jab distinct > k
+            while (distinct > k) {
+                int l = s.charAt(left) - 'a';
+                freq[l]--;
+                if (freq[l] == 0) distinct--;
+                left++;
+            }
+
+            // Sirf tab update karo jab exactly k distinct ho
+            if (distinct == k) {
+                maxLen = Math.max(maxLen, right - left + 1);
+            }
+        }
+
+        return maxLen;
+    }
+}
