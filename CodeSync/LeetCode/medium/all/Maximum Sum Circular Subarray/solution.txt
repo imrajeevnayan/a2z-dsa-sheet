@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Sum Circular Subarray
+ * URL: https://leetcode.com/problems/maximum-sum-circular-subarray/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Divide and Conquer, Dynamic Programming, Queue, Monotonic Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T12:36:45.688Z
+ */
+
+class Solution {
+    public int maxSubarraySumCircular(int[] nums) {
+        int total = 0;
+        int max = nums[0], min = nums[0];
+        int currMax = 0, currMin = 0;
+
+        for (int num : nums) {
+            currMax = Math.max(num, currMax + num);
+            max = Math.max(max, currMax);
+
+            currMin = Math.min(num, currMin + num);
+            min = Math.min(min, currMin);
+
+            total += num;
+        }
+
+        if (max < 0) return max;
+
+        return Math.max(max, total - min);
+    }
+}
