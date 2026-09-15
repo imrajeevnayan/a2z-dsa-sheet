@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
- * Language: Daily Question
- * Difficulty: Medium
- * Topics: Array, Matrix
+ * URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Hard
+ * Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T04:29:25.622Z
+ * Synced: 2026-09-15T08:03:19.244Z
  */
 
 class Solution {
-    public int largestOverlap(int[][] img1, int[][] img2) {
+    public String longestDupSubstring(String s) {
         
     }
 }
