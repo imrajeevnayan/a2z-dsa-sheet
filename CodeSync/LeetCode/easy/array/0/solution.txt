@@ -1,34 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Easy
- * Topics: Array, Hash Table, Recursion, Sorting, Enumeration
+ * Topics: Array, Math, Sliding Window, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T06:14:02.819Z
+ * Synced: 2026-09-15T08:07:48.109Z
  */
 
 class Solution {
-    public int[] findEvenNumbers(int[] digits) {
-        Set<Integer> set = new TreeSet<>();
-
-        for (int i = 0; i < digits.length; i++) {
-            for (int j = 0; j < digits.length; j++) {
-                for (int k = 0; k < digits.length; k++) {
-                    if (i != j && j != k && i != k &&
-                        digits[i] != 0 && digits[k] % 2 == 0) {
-                        
-                        int num = digits[i] * 100 + digits[j] * 10 + digits[k];
-                        set.add(num);
-                    }
-                }
-            }
-        }
-
-        int[] ans = new int[set.size()];
-        int index = 0;
-
-        for (int num : set) {
-            ans[index++] = num;
+    public int maxLength(int[] nums) {
+        
+    }
+}
