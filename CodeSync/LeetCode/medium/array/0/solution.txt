@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
- * Topics: Array, Matrix
+ * Topics: Array, Bit Manipulation, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T04:29:25.622Z
+ * Synced: 2026-09-15T08:06:54.838Z
  */
 
 class Solution {
-    public int largestOverlap(int[][] img1, int[][] img2) {
+    public int longestNiceSubarray(int[] nums) {
         
     }
 }
