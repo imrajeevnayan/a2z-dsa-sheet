@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-12T11:19:24.173Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-15T10:45:44.149Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,8 +9,8 @@
     "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "Keep Going! 💪",
-  "problemUrl": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/?envType=daily-question&envId=2026-08-12",
-  "submissionId": "po1csn"
+  "problemUrl": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/",
+  "submissionId": "a576i3"
 }
