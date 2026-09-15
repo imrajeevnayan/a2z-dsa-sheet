@@ -1,0 +1,38 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Longest Equal Subarray
+ * URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 76 ms
+ * Memory: 135.52 MB
+ * Synced: 2026-09-15T12:31:53.710Z
+ */
+
+class Solution {
+    public int longestEqualSubarray(List<Integer> nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int left = 0, maxFreq = 0;
+
+        for (int right = 0; right < nums.size(); right++) {
+            int curr= nums.get(right);
+            map.put(curr, map.getOrDefault(curr, 0) + 1);
+            
+            // MaxFreq update karo: Kya abhi wala number sabse zyada frequent ho gaya?
+            maxFreq = Math.max(maxFreq, map.get(curr));
+            
+            // 3. Check karo: Kya window valid hai?
+            // Valid condition: (Window Size - MaxFreq) <= k
+            // Iska matlab: Jo numbers "most frequent" nahi hain, unhe delete karne ke liye k permissions chahiye
+            int windowSize = right - left + 1;
+            
+            if (windowSize - maxFreq > k) {
+                // Agar deletions k se zyada ho rahe hain, toh window shrink karo (left badhao)
+                
+                int leftNum = nums.get(left);
+                // Left side wale number ki frequency map mein kam karo
+                map.put(leftNum, map.get(leftNum) - 1);
+                
+                // Left pointer ko aage badhao
+                left++;
