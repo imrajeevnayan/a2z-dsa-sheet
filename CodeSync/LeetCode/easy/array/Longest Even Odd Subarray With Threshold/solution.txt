@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:20:54.445Z
+ * Synced: 2026-09-15T12:22:04.444Z
  */
 
 class Solution {
