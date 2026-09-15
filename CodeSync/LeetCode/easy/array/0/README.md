@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Sliding Window
 - Difficulty: Easy
-- Topics: Array, Hash Table, Recursion, Sorting, Enumeration
+- Topics: Array, Math, Sliding Window, Enumeration, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/finding-3-digit-even-numbers/description/
-- Synced: 2026-09-11T06:14:02.819Z
+- Problem URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:07:48.109Z
 
 ## Problem Description
 
-You are given an integer array digits, where each element is a digit. The array may contain duplicates. You need to find all the unique integers that follow the given requirements: The integer consists of the concatenation of three elements from digits in any arbitrary order. The integer does not have leading zeros. The integer is even. For example, if the given digits were [1, 2, 3], integers 132 and 312 follow the requirements. Return a sorted array of the unique integers. Example 1: Input: digits = [2,1,3,0] Output: [102,120,130,132,210,230,302,310,312,320] Explanation: All the possible integers that follow the requirements are in the output array. Notice that there are no odd integers or integers with leading zeros. Example 2: Input: digits = [2,2,8,8,2] Output: [222,228,282,288,822,828,882] Explanation: The same digit can be used as many times as it appears in digits. In this example, the digit 8 is used twice each time in 288, 828, and 882. Example 3: Input: digits = [3,7,5] Output: [] Explanation: No even integers can be formed using the given digits. Constraints: 3 <= digits.length <= 100 0 <= digits[i] <= 9
+You are given an array of positive integers nums. An array arr is called product equivalent if prod(arr) == lcm(arr) * gcd(arr), where: prod(arr) is the product of all elements of arr. gcd(arr) is the GCD of all elements of arr. lcm(arr) is the LCM of all elements of arr. Return the length of the longest product equivalent subarray of nums. Example 1: Input: nums = [1,2,1,2,1,1,1] Output: 5 Explanation: The longest product equivalent subarray is [1, 2, 1, 1, 1], where prod([1, 2, 1, 1, 1]) = 2, gcd([1, 2, 1, 1, 1]) = 1, and lcm([1, 2, 1, 1, 1]) = 2. Example 2: Input: nums = [2,3,4,5,6] Output: 3 Explanation: The longest product equivalent subarray is [3, 4, 5]. Example 3: Input: nums = [1,2,3,1,4,5,1] Output: 5 Constraints: 2 <= nums.length <= 100 1 <= nums[i] <= 10
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Recursion, Sorting, Enumeration. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Math, Sliding Window, Enumeration, Number Theory. Review the synced source file for the implementation details.
