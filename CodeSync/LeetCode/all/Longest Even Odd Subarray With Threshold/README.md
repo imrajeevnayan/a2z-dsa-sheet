@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/
-- Synced: 2026-09-15T12:23:37.459Z
+- Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
+- Synced: 2026-09-15T12:24:38.410Z
 
 ## Problem Description
 
