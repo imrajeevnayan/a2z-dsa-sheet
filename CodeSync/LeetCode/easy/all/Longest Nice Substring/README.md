@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-15T08:05:00.204Z
+- Synced: 2026-09-15T08:06:00.677Z
 
 ## Problem Description
 
