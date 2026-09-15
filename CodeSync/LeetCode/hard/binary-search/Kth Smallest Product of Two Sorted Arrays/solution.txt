@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Kth Smallest Product of Two Sorted Arrays
- * URL: https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/
+ * URL: https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:16:51.019Z
+ * Synced: 2026-09-15T12:17:51.447Z
  */
 
 class Solution {
