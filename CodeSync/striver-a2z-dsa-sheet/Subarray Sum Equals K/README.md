@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/
-- Synced: 2026-09-14T05:55:31.910Z
+- Problem URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
+- Synced: 2026-09-15T10:04:44.561Z
 
 ## Problem Description
 
