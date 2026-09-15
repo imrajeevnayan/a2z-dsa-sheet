@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-15T12:23:37.459Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-15T12:24:38.410Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Even Odd Subarray With Threshold",
-  "problemUrl": "https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/",
-  "submissionId": "ck200j"
+  "problemUrl": "https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/",
+  "submissionId": "3wzlv4"
 }
