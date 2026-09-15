@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-15T12:25:29.991Z",
+  "submissionTimestamp": "2026-09-15T12:25:43.675Z",
   "runtime": "0 ms",
   "memoryUsage": "46.79 MB",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Even Odd Subarray With Threshold",
-  "problemUrl": "https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/",
+  "problemUrl": "https://leetcode.com/problems/find-the-longest-equal-subarray/",
   "submissionId": "yv9sxx"
 }
