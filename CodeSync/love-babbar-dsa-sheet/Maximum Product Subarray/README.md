@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-product-subarray/
-- Synced: 2026-07-17T18:08:07.164Z
+- Problem URL: https://leetcode.com/problems/maximum-product-subarray/description/
+- Synced: 2026-09-15T12:08:47.186Z
 
 ## Problem Description
 
