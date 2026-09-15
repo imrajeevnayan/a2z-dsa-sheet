@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Sliding Window
 - Difficulty: Easy
-- Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
+- Topics: Array, Math, Sliding Window, Enumeration, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-15T08:04:12.648Z
+- Problem URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:07:48.109Z
 
 ## Problem Description
 
-A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, "abA" is not because 'b' appears, but 'B' does not. Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string. Example 1: Input: s = "YazaAay" Output: "aAa" Explanation: "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear. "aAa" is the longest nice substring. Example 2: Input: s = "Bb" Output: "Bb" Explanation: "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring. Example 3: Input: s = "c" Output: "" Explanation: There are no nice substrings. Constraints: 1 <= s.length <= 100 s consists of uppercase and lowercase English letters.
+You are given an array of positive integers nums. An array arr is called product equivalent if prod(arr) == lcm(arr) * gcd(arr), where: prod(arr) is the product of all elements of arr. gcd(arr) is the GCD of all elements of arr. lcm(arr) is the LCM of all elements of arr. Return the length of the longest product equivalent subarray of nums. Example 1: Input: nums = [1,2,1,2,1,1,1] Output: 5 Explanation: The longest product equivalent subarray is [1, 2, 1, 1, 1], where prod([1, 2, 1, 1, 1]) = 2, gcd([1, 2, 1, 1, 1]) = 1, and lcm([1, 2, 1, 1, 1]) = 2. Example 2: Input: nums = [2,3,4,5,6] Output: 3 Explanation: The longest product equivalent subarray is [3, 4, 5]. Example 3: Input: nums = [1,2,3,1,4,5,1] Output: 5 Constraints: 2 <= nums.length <= 100 1 <= nums[i] <= 10
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Math, Sliding Window, Enumeration, Number Theory. Review the synced source file for the implementation details.
