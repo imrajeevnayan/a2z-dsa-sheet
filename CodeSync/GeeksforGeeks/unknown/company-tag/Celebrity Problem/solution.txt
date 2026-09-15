@@ -1,0 +1,55 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Celebrity Problem
+ * URL: https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+ * Language: class Solution { public int celebrity(int mat[][]) { int n = mat.length; int candidates = 0; int row = -1; for(int i=0; i<n; i++) { for(int j = 0; j<n; j++) { if(mat[i][j] == 1 && i!=j) break; if(j==n-1) { candidates++; row = i; } } if(candidates > 1) return -1; } if(candidates == 0) return -1; for(int j=0; j<n; j++) { if(mat[j][row] == 0) return -1; } return row; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Amazon, Microsoft, Google, Fab.com
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T04:54:24.478Z
+ */
+
+class Solution {
+    public int celebrity(int mat[][]) {
+
+        int n = mat.length;
+
+        int left = 0;
+        int right = n - 1;
+
+        // Step 1: Find a possible candidate
+        while (left < right) {
+
+            if (mat[left][right] == 1) {
+                // left knows right
+                // left cannot be celebrity
+                left++;
+            } else {
+                // left does not know right
+                // right cannot be celebrity
+                right--;
+            }
+        }
+
+        int candidate = left;
+
+        // Step 2: Verify candidate
+        for (int i = 0; i < n; i++) {
+
+            if (i == candidate) {
+                continue;
+            }
+
+            // Candidate should know nobody
+            if (mat[candidate][i] == 1) {
+                return -1;
+            }
+
+            // Everyone should know candidate
+            if (mat[i][candidate] == 0) {
+                return -1;
+            }
+        }
+
+        return candidate;
