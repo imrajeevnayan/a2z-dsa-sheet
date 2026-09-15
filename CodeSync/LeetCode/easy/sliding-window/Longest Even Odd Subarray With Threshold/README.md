@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/
-- Synced: 2026-09-15T12:22:49.979Z
+- Synced: 2026-09-15T12:23:37.459Z
 
 ## Problem Description
 
