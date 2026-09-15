@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-15T11:15:10.569Z",
+  "submissionTimestamp": "2026-09-15T11:16:01.518Z",
   "runtime": "0 ms",
-  "memoryUsage": "77.04 MB",
+  "memoryUsage": "77.17 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Subarray",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/submissions/2139295637/",
-  "submissionId": "s50okj"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/submissions/2142521723/",
+  "submissionId": "fcdgxw"
 }
