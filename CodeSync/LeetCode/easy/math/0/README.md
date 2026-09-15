@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Sliding Window
 - Difficulty: Easy
-- Topics: Math, Binary Search, Newton's Method
+- Topics: Array, Math, Sliding Window, Enumeration, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sqrtx/description/?utm=codolio
-- Synced: 2026-09-02T16:19:52.672Z
+- Problem URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:07:48.109Z
 
 ## Problem Description
 
-Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well. You must not use any built-in exponent function or operator. For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python. Example 1: Input: x = 4 Output: 2 Explanation: The square root of 4 is 2, so we return 2. Example 2: Input: x = 8 Output: 2 Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned. Constraints: 0 <= x <= 231 - 1
+You are given an array of positive integers nums. An array arr is called product equivalent if prod(arr) == lcm(arr) * gcd(arr), where: prod(arr) is the product of all elements of arr. gcd(arr) is the GCD of all elements of arr. lcm(arr) is the LCM of all elements of arr. Return the length of the longest product equivalent subarray of nums. Example 1: Input: nums = [1,2,1,2,1,1,1] Output: 5 Explanation: The longest product equivalent subarray is [1, 2, 1, 1, 1], where prod([1, 2, 1, 1, 1]) = 2, gcd([1, 2, 1, 1, 1]) = 1, and lcm([1, 2, 1, 1, 1]) = 2. Example 2: Input: nums = [2,3,4,5,6] Output: 3 Explanation: The longest product equivalent subarray is [3, 4, 5]. Example 3: Input: nums = [1,2,3,1,4,5,1] Output: 5 Constraints: 2 <= nums.length <= 100 1 <= nums[i] <= 10
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, Binary Search, Newton's Method. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Math, Sliding Window, Enumeration, Number Theory. Review the synced source file for the implementation details.
