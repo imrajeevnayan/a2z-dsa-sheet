@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
- * Difficulty: Easy
- * Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:04:12.648Z
+ * Synced: 2026-09-15T08:06:54.838Z
  */
 
 class Solution {
-    public String longestNiceSubstring(String s) {
+    public int longestNiceSubarray(int[] nums) {
         
     }
 }
