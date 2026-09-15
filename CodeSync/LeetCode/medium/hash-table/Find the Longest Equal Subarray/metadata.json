@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-15T12:26:41.609Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find the Longest Equal Subarray",
+  "problemUrl": "https://leetcode.com/problems/find-the-longest-equal-subarray/description/",
+  "submissionId": "mm32g3"
+}
