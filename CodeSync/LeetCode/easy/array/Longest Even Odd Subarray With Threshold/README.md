@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
 - Memory: 46.79 MB
-- Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
-- Synced: 2026-09-15T12:25:29.991Z
+- Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
+- Synced: 2026-09-15T12:25:43.675Z
 
 ## Problem Description
 
