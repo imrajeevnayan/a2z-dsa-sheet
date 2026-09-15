@@ -1,27 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * URL: https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T06:43:55.960Z
+ * Synced: 2026-09-14T16:50:33.113Z
  */
 
 class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        Set<Character>set=new HashSet<>();
-        int left=0,ans=0;
-        for(int right=0;right<s.length();right++){
-            char ch=s.charAt(right);
-            while(set.contains(ch)){
-                set.remove(s.charAt(left));
+    public int maxFrequency(int[] nums, int k) {
+        Arrays.sort(nums);
+        long sum = 0;
+        int left = 0, ans = 1;
+        for (int right = 0; right < nums.length; right++) {
+            sum += nums[right];
+            while ((long) nums[right] * (right - left + 1) - sum > k) {
+                sum -= nums[left];
                 left++;
             }
-            set.add(ch);
-            ans=Math.max(ans,right-left+1);
+            ans = Math.max(ans, right - left + 1);
         }
         return ans;
     }
