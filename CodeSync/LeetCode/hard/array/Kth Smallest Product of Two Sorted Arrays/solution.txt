@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Kth Smallest Product of Two Sorted Arrays
+ * URL: https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T12:16:51.019Z
+ */
+
+class Solution {
+    public long kthSmallestProduct(int[] nums1, int[] nums2, long k) {
+        
+    }
+}
