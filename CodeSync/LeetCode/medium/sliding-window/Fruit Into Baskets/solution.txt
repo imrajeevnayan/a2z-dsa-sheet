@@ -1,16 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Fruit Into Baskets
- * URL: https://leetcode.com/problems/fruit-into-baskets/
+ * URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2142511805/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-15T11:01:02.679Z
+ * Runtime: 0 ms
+ * Memory: 70.89 MB
+ * Synced: 2026-09-15T11:01:50.935Z
  */
 
-count.put( leftFruit,count.get(leftFruit) - 1 );
+count.put(leftFruit,count.get(leftFruit) - 1 );
                 int leftFruit = fruits[left];
             while (count.size() > 2) {
             count.put(fruit,count.getOrDefault(fruit, 0) + 1);
@@ -21,14 +21,11 @@ count.put( leftFruit,count.get(leftFruit) - 1 );
     public int totalFruit(int[] fruits) {
 class Solution {
 
-                if (count.get(leftFruit) == 0) {
-                    count.remove(leftFruit);
-                }
-
+                if (count.get(leftFruit) == 0) count.remove(leftFruit);
                 left++;
             }
-
-            maxLength = Math.max(
-                maxLength,
-                right - left + 1
-            );
+            maxLength = Math.max( maxLength,right - left + 1);
+        }
+        return maxLength;
+    }
+}
