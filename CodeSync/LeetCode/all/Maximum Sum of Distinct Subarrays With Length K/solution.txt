@@ -5,12 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T09:35:24.870Z
+ * Synced: 2026-09-15T10:43:32.001Z
  */
 
-map.put(nums[i - k], map.get(nums[i - k]) - 1);
+class Solution {
+    public long maximumSubarraySum(int[] nums, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        long sum = 0, ans = 0;
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        }
+        if (map.size() == k) ans = sum;
+        for (int i = k; i < nums.length; i++) {
+            sum += nums[i] - nums[i - k];
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+
+            map.put(nums[i - k], map.get(nums[i - k]) - 1);
             if (map.get(nums[i - k]) == 0)
                 map.remove(nums[i - k]);
 
@@ -19,4 +32,3 @@ map.put(nums[i - k], map.get(nums[i - k]) - 1);
         }
         return ans;
     }
-}
