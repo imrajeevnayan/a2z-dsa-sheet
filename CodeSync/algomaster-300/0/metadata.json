@@ -1,19 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "submissionTimestamp": "2026-09-15T08:03:19.244Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Hard",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory",
-    "Graph Coloring",
-    "Bipartite Graph"
+    "String",
+    "Binary Search",
+    "Sliding Window",
+    "Rolling Hash",
+    "Suffix Array",
+    "Hash Function",
+    "Suffix Automaton",
+    "Suffix Tree"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "9uzafc"
+  "problemUrl": "https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "c444m3"
 }
