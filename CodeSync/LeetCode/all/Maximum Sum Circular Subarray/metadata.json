@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-15T12:36:45.688Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Dynamic Programming",
+    "Queue",
+    "Monotonic Queue"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Maximum Sum Circular Subarray",
+  "problemUrl": "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+  "submissionId": "9p53tw"
+}
