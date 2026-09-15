@@ -4206,5 +4206,8 @@
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:quick-memory-trick": []
+  "leetcode:quick-memory-trick": [],
+  "leetcode:maximum-sum-of-distinct-subarrays-with-length-k": [
+    "custom:algomaster-300"
+  ]
 }
