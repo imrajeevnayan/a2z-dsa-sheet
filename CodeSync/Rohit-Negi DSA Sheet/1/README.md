@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Sliding Window
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Binary Search, Sliding Window, Prefix Sum
+- Topics: Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T13:04:12.985Z
+- Problem URL: https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+- Synced: 2026-09-14T16:50:33.113Z
 
 ## Problem Description
 
-You are given an array of integers nums and an integer k. Return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k. Example 1: Input: nums = [10,5,2,6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6] Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k. Example 2: Input: nums = [1,2,3], k = 0 Output: 0 Constraints: 1 <= nums.length <= 3 * 104 1 <= nums[i] <= 1000 0 <= k <= 106
+The frequency of an element is the number of times it occurs in an array. You are given an integer array nums and an integer k. In one operation, you can choose an index of nums and increment the element at that index by 1. Return the maximum possible frequency of an element after performing at most k operations. Example 1: Input: nums = [1,2,4], k = 5 Output: 3 Explanation: Increment the first element three times and the second element two times to make nums = [4,4,4]. 4 has a frequency of 3. Example 2: Input: nums = [1,4,8,13], k = 5 Output: 2 Explanation: There are multiple optimal solutions: - Increment the first element three times to make nums = [4,4,8,13]. 4 has a frequency of 2. - Increment the second element four times to make nums = [1,8,8,13]. 8 has a frequency of 2. - Increment the third element five times to make nums = [1,4,13,13]. 13 has a frequency of 2. Example 3: Input: nums = [3,9,6], k = 2 Output: 1 Constraints: 1 <= nums.length <= 105 1 <= nums[i] <= 105 1 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum. Review the synced source file for the implementation details.
