@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-15T04:54:24.478Z",
+  "submissionTimestamp": "2026-09-15T06:14:44.139Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Fab.com"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public int celebrity(int mat[][]) { int n = mat.length; int candidates = 0; int row = -1; for(int i=0; i<n; i++) { for(int j = 0; j<n; j++) { if(mat[i][j] == 1 && i!=j) break; if(j==n-1) { candidates++; row = i; } } if(candidates > 1) return -1; } if(candidates == 0) return -1; for(int j=0; j<n; j++) { if(mat[j][row] == 0) return -1; } return row; } }",
+  "language": "Java (21)",
   "problemTitle": "Celebrity Problem",
   "problemUrl": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
-  "submissionId": "a9v6g0"
+  "submissionId": "su1c4a"
 }
