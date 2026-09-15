@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/discuss/post/8501770/sliding-window-complete-pattern-sheet-by-29pg/
-- Synced: 2026-09-15T10:42:41.595Z
+- Synced: 2026-09-15T12:38:34.984Z
 
 ## Problem Description
 
