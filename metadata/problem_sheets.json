@@ -4217,5 +4217,6 @@
   ],
   "leetcode:maximum-xor-product": [],
   "leetcode:kth-smallest-product-of-two-sorted-arrays": [],
-  "leetcode:longest-even-odd-subarray-with-threshold": []
+  "leetcode:longest-even-odd-subarray-with-threshold": [],
+  "leetcode:find-the-longest-equal-subarray": []
 }
