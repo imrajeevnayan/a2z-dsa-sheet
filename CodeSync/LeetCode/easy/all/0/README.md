@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Sliding Window
 - Difficulty: Easy
-- Topics: Array, Matrix, Simulation
+- Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/transpose-matrix/description/
-- Synced: 2026-09-10T18:53:35.008Z
+- Problem URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:04:12.648Z
 
 ## Problem Description
 
-Given a 2D integer array matrix, return the transpose of matrix. The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices. Example 1: Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [[1,4,7],[2,5,8],[3,6,9]] Example 2: Input: matrix = [[1,2,3],[4,5,6]] Output: [[1,4],[2,5],[3,6]] Constraints: m == matrix.length n == matrix[i].length 1 <= m, n <= 1000 1 <= m * n <= 105 -109 <= matrix[i][j] <= 109
+A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, "abA" is not because 'b' appears, but 'B' does not. Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string. Example 1: Input: s = "YazaAay" Output: "aAa" Explanation: "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear. "aAa" is the longest nice substring. Example 2: Input: s = "Bb" Output: "Bb" Explanation: "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring. Example 3: Input: s = "c" Output: "" Explanation: There are no nice substrings. Constraints: 1 <= s.length <= 100 s consists of uppercase and lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Matrix, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window. Review the synced source file for the implementation details.
