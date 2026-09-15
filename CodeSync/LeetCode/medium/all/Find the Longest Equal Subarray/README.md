@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Binary Search, Sliding Window
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
-- Synced: 2026-09-15T12:30:01.998Z
+- Synced: 2026-09-15T12:31:06.797Z
 
 ## Problem Description
 
