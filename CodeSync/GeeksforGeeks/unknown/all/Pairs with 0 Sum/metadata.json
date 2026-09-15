@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-14T11:16:04.159Z",
+  "submissionTimestamp": "2026-09-15T04:42:41.952Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "MakeMyTrip"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) { Arrays.sort(arr); ArrayList<ArrayList<Integer>> ans = new ArrayList<>(); int start = 0; int end = arr.length - 1; while (start < end) { if (arr[start] + arr[end] == 0) { ans.add(new ArrayList<>(Arrays.asList(arr[start], arr[end]))); start++; end--; while (start < end && arr[start] == arr[start - 1]) { start++; } while (start < end && arr[end] == arr[end + 1]) { end--; } } else if (arr[start] + arr[end] < 0) { start++; } else { end--; } } return ans; } }",
+  "language": "Java (21)",
   "problemTitle": "Pairs with 0 Sum",
   "problemUrl": "https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1",
-  "submissionId": "vgjg1l"
+  "submissionId": "z68qsy"
 }
