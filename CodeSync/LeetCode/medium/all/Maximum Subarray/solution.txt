@@ -1,24 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Subarray
- * URL: https://leetcode.com/problems/maximum-subarray/submissions/2139295637/
+ * URL: https://leetcode.com/problems/maximum-subarray/submissions/2142521723/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: 0 ms
- * Memory: 77.04 MB
- * Synced: 2026-09-15T11:15:10.569Z
+ * Memory: 77.17 MB
+ * Synced: 2026-09-15T11:16:47.511Z
  */
 
 class Solution {
     public int maxSubArray(int[] nums) {
-        int currSum = nums[0],maxSum = nums[0];
-
-
-            currSum = Math.max(nums[i], currSum + nums[i] );
-        for (int i = 1; i < nums.length; i++) {
-            maxSum = Math.max(maxSum, currSum);
+        int maxsum=Integer.MIN_VALUE,curr=0;
+        for(int n:nums){
+            if(curr >maxsum)maxsum=curr;
+            if(curr <0) curr=0;
+            curr+=n;
         }
-        return maxSum;
+        return maxsum;
     }
 }
