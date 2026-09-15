@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximal Rectangle
+ * URL: https://leetcode.com/problems/maximal-rectangle/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Dynamic Programming, Stack, Matrix, Monotonic Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T11:03:39.527Z
+ */
+
+class Solution {
+    public int maximalRectangle(char[][] matrix) {
+        
+    }
+}
