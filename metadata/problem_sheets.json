@@ -4215,5 +4215,6 @@
     "custom:fraz-dsa-sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:maximum-xor-product": []
+  "leetcode:maximum-xor-product": [],
+  "leetcode:kth-smallest-product-of-two-sorted-arrays": []
 }
