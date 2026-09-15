@@ -7,16 +7,16 @@
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 77.17 MB
- * Synced: 2026-09-15T11:19:11.533Z
+ * Synced: 2026-09-15T11:59:12.785Z
  */
 
 class Solution {
     public int maxSubArray(int[] nums) {
         int maxsum=Integer.MIN_VALUE,curr=0;
         for(int n:nums){
+            curr+=n;
             if(curr >maxsum)maxsum=curr;
             if(curr <0) curr=0;
-            curr+=n;
         }
         return maxsum;
     }
