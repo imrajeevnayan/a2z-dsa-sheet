@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-15T08:04:12.648Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Divide and Conquer",
+    "Bit Manipulation",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window",
+  "problemTitle": "0",
+  "problemUrl": "https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "f54y0f"
+}
