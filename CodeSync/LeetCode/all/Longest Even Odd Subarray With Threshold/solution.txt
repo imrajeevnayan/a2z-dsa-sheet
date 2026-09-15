@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Even Odd Subarray With Threshold
- * URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/
+ * URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-15T12:23:37.459Z
+ * Synced: 2026-09-15T12:24:38.410Z
  */
 
-class Solution {
+continue;
+            }
+
+            // Start new subarray if current length is 0 and element is even
+            if (currLen == 0) {
+                if (nums[i] % 2 == 0) {
+                    currLen = 1;
+                }
+            } 
+            // Extend existing subarray if alternating pattern holds
+            else if ((nums[i] + nums[i - 1]) % 2 != 0) {
+                currLen++;
+            } 
+            // Pattern broken: Check if new subarray can start with current even element
+            else {
+                currLen = (nums[i] % 2 == 0) ? 1 : 0;
+            }
+                currLen = 0;
+            // Reset if element exceeds threshold
+            if (nums[i] > threshold) {
+
+        for (int i = 0; i < nums.length; i++) {
     public int longestAlternatingSubarray(int[] nums, int threshold) {
-        
-    }
-}
+        int maxLen = 0;
+        int currLen = 0;
+class Solution {
