@@ -4219,5 +4219,21 @@
   "leetcode:kth-smallest-product-of-two-sorted-arrays": [],
   "leetcode:longest-even-odd-subarray-with-threshold": [],
   "leetcode:find-the-longest-equal-subarray": [],
-  "leetcode:maximum-69-number": []
+  "leetcode:maximum-69-number": [],
+  "leetcode:maximum-sum-circular-subarray": [
+    "Blind75",
+    "Grind169",
+    "NeetCode150",
+    "Top100Liked",
+    "StriverA2Z",
+    "LoveBabbar450",
+    "StriverSDE",
+    "custom:algomaster-300",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:fraz-dsa-sheet",
+    "custom:neetcode-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:striver-sde-sheet"
+  ]
 }
