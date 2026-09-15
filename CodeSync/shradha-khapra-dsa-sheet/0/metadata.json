@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-15T08:07:48.109Z",
+  "submissionTimestamp": "2026-09-15T10:34:49.817Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Math",
-    "Sliding Window",
-    "Enumeration",
-    "Number Theory"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "C",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "kjzcx3"
+  "problemUrl": "https://leetcode.com/discuss/post/8501770/sliding-window-complete-pattern-sheet-by-29pg/",
+  "submissionId": "1w2uay"
 }
