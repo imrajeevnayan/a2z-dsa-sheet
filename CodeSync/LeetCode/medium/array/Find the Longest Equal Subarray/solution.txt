@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Longest Equal Subarray
+ * URL: https://leetcode.com/problems/find-the-longest-equal-subarray/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Binary Search, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T12:26:41.609Z
+ */
+
+class Solution {
+    public int longestEqualSubarray(List<Integer> nums, int k) {
+        
+    }
+}
