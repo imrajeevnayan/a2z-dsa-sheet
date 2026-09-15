@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 46.79 MB
 - Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
-- Synced: 2026-09-15T12:24:38.410Z
+- Synced: 2026-09-15T12:25:29.991Z
 
 ## Problem Description
 
