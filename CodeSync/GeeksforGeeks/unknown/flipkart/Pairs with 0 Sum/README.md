@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
-- Synced: 2026-09-15T04:42:41.952Z
+- Synced: 2026-09-15T04:45:01.244Z
 
 ## Problem Description
 
