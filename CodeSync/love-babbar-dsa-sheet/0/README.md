@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Sliding Window
-- Difficulty: Easy
-- Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
+- Difficulty: Medium
+- Topics: Array, Bit Manipulation, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-15T08:04:12.648Z
+- Problem URL: https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:06:54.838Z
 
 ## Problem Description
 
-A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, "abA" is not because 'b' appears, but 'B' does not. Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string. Example 1: Input: s = "YazaAay" Output: "aAa" Explanation: "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear. "aAa" is the longest nice substring. Example 2: Input: s = "Bb" Output: "Bb" Explanation: "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring. Example 3: Input: s = "c" Output: "" Explanation: There are no nice substrings. Constraints: 1 <= s.length <= 100 s consists of uppercase and lowercase English letters.
+You are given an array nums consisting of positive integers. We call a subarray of nums nice if the bitwise AND of every pair of elements that are in different positions in the subarray is equal to 0. Return the length of the longest nice subarray. A subarray is a contiguous part of an array. Note that subarrays of length 1 are always considered nice. Example 1: Input: nums = [1,3,8,48,10] Output: 3 Explanation: The longest nice subarray is [3,8,48]. This subarray satisfies the conditions: - 3 AND 8 = 0. - 3 AND 48 = 0. - 8 AND 48 = 0. It can be proven that no longer nice subarray can be obtained, so we return 3. Example 2: Input: nums = [3,1,5,11,13] Output: 1 Explanation: The length of the longest nice subarray is 1. Any subarray of length 1 can be chosen. Constraints: 1 <= nums.length <= 105 1 <= nums[i] <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Bit Manipulation, Sliding Window. Review the synced source file for the implementation details.
