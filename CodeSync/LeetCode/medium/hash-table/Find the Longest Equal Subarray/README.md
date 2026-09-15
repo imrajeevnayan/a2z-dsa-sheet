@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Binary Search, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/description/
-- Synced: 2026-09-15T12:26:41.609Z
+- Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
+- Synced: 2026-09-15T12:27:32.908Z
 
 ## Problem Description
 
