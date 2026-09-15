@@ -1,13 +1,13 @@
 # Celebrity Problem
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public int celebrity(int mat[][]) { int n = mat.length; int candidates = 0; int row = -1; for(int i=0; i<n; i++) { for(int j = 0; j<n; j++) { if(mat[i][j] == 1 && i!=j) break; if(j==n-1) { candidates++; row = i; } } if(candidates > 1) return -1; } if(candidates == 0) return -1; for(int j=0; j<n; j++) { if(mat[j][row] == 0) return -1; } return row; } }
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Amazon, Microsoft, Google, Fab.com
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
-- Synced: 2026-09-15T04:54:24.478Z
+- Synced: 2026-09-15T06:14:44.139Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Consider a party being organized by some people. A celebrity is a person who is 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public int celebrity(int mat[][]) { int n = mat.length; int candidates = 0; int row = -1; for(int i=0; i<n; i++) { for(int j = 0; j<n; j++) { if(mat[i][j] == 1 && i!=j) break; if(j==n-1) { candidates++; row = i; } } if(candidates > 1) return -1; } if(candidates == 0) return -1; for(int j=0; j<n; j++) { if(mat[j][row] == 0) return -1; } return row; } }. The detected topics are Expected Complexities, Company Tags, Zoho, Flipkart, Amazon, Microsoft, Google, Fab.com. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Zoho, Flipkart, Amazon, Microsoft, Google, Fab.com. Review the synced source file for the implementation details.
