@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easiest Approach! - Java
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1
+ * Language: class Solution { public int subarraySum(int[] arr) { // How many subarrays include arr[i]? // how many times each element appears across all subarrays? // Number of choices for l (start): // 👉 0 → i → (i + 1) choices // Number of choices for r (end): // 👉 i → n-1 → (n - i) choices int total = 0; for(int i=0; i<arr.length; i++){ total += (arr[i] * (i+1) * (arr.length-i)); } return total; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Sum Of All Subarrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T07:26:02.181Z
+ */
+
+class Solution {
+    public int subarraySum(int[] arr) {
+        int n=arr.length;
+        long sum=0;
+        for(int i=0;i<n;i++){
+            sum+=(long) arr[i]*(i+1)* (n-i);
+        }
+        return (int)sum;
+        
+    }
+}
