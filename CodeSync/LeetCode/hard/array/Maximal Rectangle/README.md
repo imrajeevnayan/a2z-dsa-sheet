@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximal-rectangle/
-- Synced: 2026-09-15T11:04:29.519Z
+- Synced: 2026-09-15T11:05:18.519Z
 
 ## Problem Description
 
