@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Map
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T10:08:48.108Z
+ * Synced: 2026-09-15T10:09:43.335Z
  */
 
 class Solution {
@@ -19,8 +19,9 @@ class Solution {
                 sum-=arr[left];
                 left++;
             }
-            maxLen=Math.max(max)
+            maxLen=Math.max(maxLen,right-left+1);
         }
+        return maxLen;
         
     }
 }
