@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-15T12:31:06.797Z",
-  "runtime": "0 ms",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-15T12:31:53.710Z",
+  "runtime": "76 ms",
+  "memoryUsage": "135.52 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Binary Search",
-    "Sliding Window"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Longest Equal Subarray",
   "problemUrl": "https://leetcode.com/problems/find-the-longest-equal-subarray/",
-  "submissionId": "8b0im6"
+  "submissionId": "b51560"
 }
