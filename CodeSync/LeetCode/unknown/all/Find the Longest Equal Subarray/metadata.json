@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-15T12:31:53.710Z",
-  "runtime": "76 ms",
-  "memoryUsage": "135.52 MB",
+  "submissionTimestamp": "2026-09-15T12:32:34.112Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Longest Equal Subarray",
-  "problemUrl": "https://leetcode.com/problems/find-the-longest-equal-subarray/",
-  "submissionId": "b51560"
+  "problemUrl": "https://leetcode.com/problems/maximum-69-number/description/",
+  "submissionId": "tmr1wu"
 }
