@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
-- Synced: 2026-09-15T12:19:45.424Z
+- Problem URL: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/
+- Synced: 2026-09-15T12:20:54.445Z
 
 ## Problem Description
 
