@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/
-- Synced: 2026-09-15T10:45:44.149Z
+- Problem URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+- Synced: 2026-09-15T10:47:16.535Z
 
 ## Problem Description
 
