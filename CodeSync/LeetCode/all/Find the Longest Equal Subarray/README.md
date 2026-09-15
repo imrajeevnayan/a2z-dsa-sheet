@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 76 ms
-- Memory: 135.52 MB
-- Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
-- Synced: 2026-09-15T12:31:53.710Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/maximum-69-number/description/
+- Synced: 2026-09-15T12:32:34.112Z
 
 ## Problem Description
 
