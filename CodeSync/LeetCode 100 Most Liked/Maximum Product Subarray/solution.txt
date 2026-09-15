@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Product Subarray
- * URL: https://leetcode.com/problems/maximum-product-subarray/submissions/2142561095/
+ * URL: https://leetcode.com/problems/maximum-product-subarray/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 47.18 MB
- * Synced: 2026-09-15T12:11:13.437Z
+ * Synced: 2026-09-15T12:11:59.537Z
  */
 
 public class Solution {
