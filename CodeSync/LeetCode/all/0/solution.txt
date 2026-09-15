@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
- * Difficulty: Medium
- * Topics: Array, Hash Table, Sliding Window
+ * Difficulty: Easy
+ * Topics: Array, Math, Sliding Window, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:07:33.714Z
+ * Synced: 2026-09-15T08:07:48.109Z
  */
 
 class Solution {
-    public long maxSum(List<Integer> nums, int m, int k) {
+    public int maxLength(int[] nums) {
         
     }
 }
