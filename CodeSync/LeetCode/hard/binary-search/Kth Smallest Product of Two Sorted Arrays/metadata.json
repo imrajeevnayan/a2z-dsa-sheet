@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-15T12:16:51.019Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Kth Smallest Product of Two Sorted Arrays",
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/",
+  "submissionId": "rmb32d"
+}
