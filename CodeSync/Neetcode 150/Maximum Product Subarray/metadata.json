@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-12T12:53:13.154Z",
+  "submissionTimestamp": "2026-09-15T12:08:47.186Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Dynamic Programming"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "platform": "LeetCode",
+  "language": "Problem List",
   "problemTitle": "Maximum Product Subarray",
-  "problemUrl": "https://www.naukri.com/code360/problems/maximum-product-subarray_1115474",
-  "submissionId": "g1kgbc"
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/description/",
+  "submissionId": "ki2yc5"
 }
