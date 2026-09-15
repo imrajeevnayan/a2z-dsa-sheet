@@ -7,13 +7,18 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Map
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T10:07:16.255Z
+ * Synced: 2026-09-15T10:08:02.358Z
  */
 
 class Solution {
     public int longestSubarray(int[] arr, int k) {
         int left=0,sum=0,maxLen=0;
-        for(int right=0;right<arr.len)
+        for(int right=0;right<arr.length;right++){
+            sum+=arr[right];
+            while(sum >k){
+                sum-a
+            }
+        }
         
     }
 }
