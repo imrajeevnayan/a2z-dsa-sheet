@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.18 MB
 - Problem URL: https://leetcode.com/problems/maximum-product-subarray/
-- Synced: 2026-09-15T12:11:59.537Z
+- Synced: 2026-09-15T12:12:49.444Z
 
 ## Problem Description
 
