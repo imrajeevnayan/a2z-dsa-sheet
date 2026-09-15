@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-15T12:11:13.437Z",
+  "submissionTimestamp": "2026-09-15T12:11:59.537Z",
   "runtime": "0 ms",
   "memoryUsage": "47.18 MB",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Product Subarray",
-  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/submissions/2142561095/",
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/",
   "submissionId": "ki2yc5"
 }
