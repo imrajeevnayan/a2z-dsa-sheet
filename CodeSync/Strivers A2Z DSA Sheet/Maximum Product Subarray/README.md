@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-product-subarray/
-- Synced: 2026-09-15T12:10:24.441Z
+- Runtime: 0 ms
+- Memory: 47.18 MB
+- Problem URL: https://leetcode.com/problems/maximum-product-subarray/submissions/2142561095/
+- Synced: 2026-09-15T12:11:13.437Z
 
 ## Problem Description
 
