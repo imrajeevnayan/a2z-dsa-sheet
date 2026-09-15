@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-13T04:29:25.622Z",
+  "submissionTimestamp": "2026-09-15T08:06:54.838Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Matrix"
+    "Bit Manipulation",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13",
-  "submissionId": "djrwvy"
+  "problemUrl": "https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "ys8er3"
 }
