@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/transpose-matrix/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Easy
- * Topics: Array, Matrix, Simulation
+ * Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-10T18:53:35.008Z
+ * Synced: 2026-09-15T08:04:12.648Z
  */
 
 class Solution {
-    public int[][] transpose(int[][] matrix) {
+    public String longestNiceSubstring(String s) {
         
     }
 }
