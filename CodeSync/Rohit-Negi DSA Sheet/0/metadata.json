@@ -1,18 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-15T08:04:12.648Z",
+  "submissionTimestamp": "2026-09-15T08:06:54.838Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "String",
-    "Divide and Conquer",
+    "Array",
     "Bit Manipulation",
     "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "f54y0f"
+  "problemUrl": "https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "ys8er3"
 }
