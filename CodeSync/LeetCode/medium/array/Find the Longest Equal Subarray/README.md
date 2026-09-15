@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
-- Synced: 2026-09-15T12:27:32.908Z
+- Synced: 2026-09-15T12:28:38.449Z
 
 ## Problem Description
 
