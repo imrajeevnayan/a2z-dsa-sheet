@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-15T08:07:33.714Z",
+  "submissionTimestamp": "2026-09-15T08:07:48.109Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Hash Table",
-    "Sliding Window"
+    "Math",
+    "Sliding Window",
+    "Enumeration",
+    "Number Theory"
   ],
   "platform": "LeetCode",
   "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "le7ksa"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "kjzcx3"
 }
