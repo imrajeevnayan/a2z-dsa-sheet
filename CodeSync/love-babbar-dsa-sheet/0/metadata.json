@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-15T08:06:54.838Z",
+  "submissionTimestamp": "2026-09-15T08:07:33.714Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Bit Manipulation",
+    "Hash Table",
     "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-nice-subarray/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "ys8er3"
+  "problemUrl": "https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "le7ksa"
 }
