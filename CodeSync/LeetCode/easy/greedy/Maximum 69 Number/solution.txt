@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum 69 Number
+ * URL: https://leetcode.com/problems/maximum-69-number/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T12:33:31.446Z
+ */
+
+class Solution {
+    public int maximum69Number (int num) {
+        
+    }
+}
