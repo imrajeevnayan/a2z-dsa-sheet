@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-15T12:30:01.998Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-15T12:31:06.797Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Find the Longest Equal Subarray",
   "problemUrl": "https://leetcode.com/problems/find-the-longest-equal-subarray/",
-  "submissionId": "z2s9lg"
+  "submissionId": "8b0im6"
 }
