@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/
-- Synced: 2026-09-15T12:16:51.019Z
+- Problem URL: https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/
+- Synced: 2026-09-15T12:17:51.447Z
 
 ## Problem Description
 
