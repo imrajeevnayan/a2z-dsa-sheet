@@ -1,17 +1,39 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Xor Product
- * URL: https://leetcode.com/problems/maximum-xor-product/description/
+ * URL: https://leetcode.com/problems/maximum-xor-product/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Greedy, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:14:29.451Z
+ * Synced: 2026-09-15T12:15:15.589Z
  */
 
-class Solution {
-    public int maximumXorProduct(long a, long b, int n) {
+else {
+                // Give this bit to the currently smaller result
+                long A = a ^ x;
+                long B = b ^ x;
+
+                if (A < B) {
+                    if (abit == 0) x |= (1L << i);
         
+                } else {
+                    if (bbit == 0)  x |= (1L << i);
+
+            if (abit == bbit)  x |= (1L << i);
+            long abit = (a >> i) & 1;
+            long bbit = (b >> i) & 1;
+
+        for (int i = n - 1; i >= 0; i--) {
+
+                }
+            }
+        }
+
+        long A = a ^ x;
+        long B = b ^ x;
+
+        return (int)((A % MOD) * (B % MOD) % MOD);
     }
 }
