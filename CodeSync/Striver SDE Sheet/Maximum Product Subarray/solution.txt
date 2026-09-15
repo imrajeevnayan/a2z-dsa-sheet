@@ -1,42 +1,29 @@
 /*
- * Platform: Coding Ninjas (Code360)
+ * Platform: LeetCode
  * Problem: Maximum Product Subarray
- * URL: https://www.naukri.com/code360/problems/maximum-product-subarray_1115474
- * Language: Java (SE 1.8)
+ * URL: https://leetcode.com/problems/maximum-product-subarray/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Uncategorized
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T12:53:13.154Z
+ * Synced: 2026-09-15T12:08:47.186Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
-    public static int maximumProduct(ArrayList<Integer> arr, int n) {
- 
-        int maxSoFar = arr.get(0);
-        int maxEndingHere = arr.get(0);
-        int minEndingHere = arr.get(0);
- 
-        for (int i = 1; i < n; i++) {
- 
-            int num = arr.get(i);
- 
-            // if negative, swap max and min
-            if (num < 0) {
-                int temp = maxEndingHere;
-                maxEndingHere = minEndingHere;
-                minEndingHere = temp;
-            }
- 
-            maxEndingHere = Math.max(num, maxEndingHere * num);
-            minEndingHere = Math.min(num, minEndingHere * num);
- 
-            maxSoFar = Math.max(maxSoFar, maxEndingHere);
-        }
- 
-        return maxSoFar;
+    public int maxProduct(int[] nums) {
+      int min=nums[0],max=nums[0],res=nums[0];
+      for(int i=1;i<nums.length;i++){
+        int  curr=nums[i];
+        if(curr < 0){
+            int temp=max;
+            max=min;
+            min=temp;
+        }  
+        max=Math.max(curr,max*curr);
+        min=Math.min(curr,min*curr);
+       res=Math.max(res,max);
+      }
+      return res;
     }
 }
