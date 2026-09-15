@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Daily Question
-- Difficulty: Medium
-- Topics: Array, Matrix
+- Language: Sliding Window
+- Difficulty: Hard
+- Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/image-overlap/description/?envType=daily-question&envId=2026-09-13
-- Synced: 2026-09-13T04:29:25.622Z
+- Problem URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:03:19.244Z
 
 ## Problem Description
 
-You are given two images, img1 and img2, represented as binary, square matrices of size n x n. A binary matrix has only 0s and 1s as values. We translate one image however we choose by sliding all the 1 bits left, right, up, and/or down any number of units. We then place it on top of the other image. We can then calculate the overlap by counting the number of positions that have a 1 in both images. Note also that a translation does not include any kind of rotation. Any 1 bits that are translated outside of the matrix borders are erased. Return the largest possible overlap. Example 1: Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]] Output: 3 Explanation: We translate img1 to right by 1 unit and down by 1 unit. The number of positions that have a 1 in both images is 3 (shown in red). Example 2: Input: img1 = [[1]], img2 = [[1]] Output: 1 Example 3: Input: img1 = [[0]], img2 = [[0]] Output: 0 Constraints: n == img1.length == img1[i].length n == img2.length == img2[i].length 1 <= n <= 30 img1[i][j] is either 0 or 1. img2[i][j] is either 0 or 1.
+Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap. Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "". Example 1: Input: s = "banana" Output: "ana" Example 2: Input: s = "abcd" Output: "" Constraints: 2 <= s.length <= 3 * 104 s consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Matrix. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree. Review the synced source file for the implementation details.
