@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-14T05:55:31.910Z",
+  "submissionTimestamp": "2026-09-15T10:04:44.561Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Subarray Sum Equals K",
-  "problemUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+  "problemUrl": "https://leetcode.com/problems/subarray-sum-equals-k/description/",
   "submissionId": "n74tqn"
 }
