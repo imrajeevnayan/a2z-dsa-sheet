@@ -7,32 +7,31 @@
  * Topics: Array, Hash Table, Binary Search, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:28:38.449Z
+ * Synced: 2026-09-15T12:30:01.998Z
  */
 
-int left = 0, maxFreq = 0;
-        
-        for (int right = 0; right < nums.size(); right++) {
-            int num = nums.get(right);
-            map.put(num, map.getOrDefault(num, 0) + 1);
+// MaxFreq update karo: Kya abhi wala number sabse zyada frequent ho gaya?
+            maxFreq = Math.max(maxFreq, map.get(currentNum));
             
-            // Update max frequency seen so far in this window
-            maxFreq = Math.max(maxFreq, freqMap.get(num));
-            
-            // Calculate current window size
+            // 3. Check karo: Kya window valid hai?
+            // Valid condition: (Window Size - MaxFreq) <= k
+            // Iska matlab: Jo numbers "most frequent" nahi hain, unhe delete karne ke liye k permissions chahiye
             int windowSize = right - left + 1;
             
-            // If deletions needed exceed k, shrink window from left
-            if (windowSize - maxFreq > k) {
-                int leftNum = nums.get(left);
-                freqMap.put(leftNum, freqMap.get(leftNum) - 1);
-                left++;
-            }
-        }
-    public int longestEqualSubarray(List<Integer> nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-class Solution {
+            map.put(currentNum, map.getOrDefault(currentNum, 0) + 1);
+            // getOrDefault: Agar number pehle se hai toh uski value lo, nahi toh 0 lo
+            int currentNum = nums.get(right);
+            
+            // Map mein current number ki frequency badhao
+        // 2. Right pointer se window ko expand karte hain
+        for (int right = 0; right < nums.size(); right++) {
         
-        return maxFreq;
-    }
-}
+        
+        int left = 0; maxFreq = 0;    // Current window mein kisi bhi number ki sabse zyada count
+        Map<Integer, Integer> map = new HashMap<>();
+    public int longestEqualSubarray(List<Integer> nums, int k) {
+class Solution {
+            if (windowSize - maxFreq > k) {
+                // Agar deletions k se zyada ho rahe hain, toh window shrink karo (left badhao)
+                
+                int leftNum = nums.get(left);
