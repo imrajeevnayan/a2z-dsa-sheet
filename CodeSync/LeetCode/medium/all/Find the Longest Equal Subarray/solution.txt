@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Longest Equal Subarray
- * URL: https://leetcode.com/problems/find-the-longest-equal-subarray/description/
+ * URL: https://leetcode.com/problems/find-the-longest-equal-subarray/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Binary Search, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T12:26:41.609Z
+ * Synced: 2026-09-15T12:27:32.908Z
  */
 
-class Solution {
-    public int longestEqualSubarray(List<Integer> nums, int k) {
+int left = 0, maxFreq = 0;
         
+        for (int right = 0; right < nums.size(); right++) {
+            int num = nums.get(right);
+            map.put(num, map.getOrDefault(num, 0) + 1);
+            
+            // Update max frequency seen so far in this window
+            maxFreq = Math.max(maxFreq, freqMap.get(num));
+            
+            // Calculate current window size
+            int windowSize = right - left + 1;
+            
+            // If deletions needed exceed k, shrink window from left
+            if (windowSize - maxFreq > k) {
+                int leftNum = nums.get(left);
+                freqMap.put(leftNum, freqMap.get(leftNum) - 1);
+                left++;
+            }
+        }
+    public int longestEqualSubarray(List<Integer> nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+class Solution {
+        
+        return maxFreq;
     }
 }
