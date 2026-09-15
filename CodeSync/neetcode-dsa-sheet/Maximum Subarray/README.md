@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Divide and Conquer, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 77.04 MB
 - Problem URL: https://leetcode.com/problems/maximum-subarray/
-- Synced: 2026-09-15T11:12:53.371Z
+- Synced: 2026-09-15T11:14:24.075Z
 
 ## Problem Description
 
