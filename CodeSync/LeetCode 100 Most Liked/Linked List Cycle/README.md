@@ -6,8 +6,8 @@
 - Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/description/
-- Synced: 2026-09-15T16:30:36.121Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle/
+- Synced: 2026-09-15T16:32:15.919Z
 
 ## Problem Description
 
