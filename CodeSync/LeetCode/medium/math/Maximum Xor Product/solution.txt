@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Xor Product
+ * URL: https://leetcode.com/problems/maximum-xor-product/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Greedy, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T12:13:30.195Z
+ */
+
+class Solution {
+    public int maximumXorProduct(long a, long b, int n) {
+        
+    }
+}
