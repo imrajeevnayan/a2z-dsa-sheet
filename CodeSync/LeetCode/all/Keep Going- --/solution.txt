@@ -6,15 +6,13 @@
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-15T10:57:11.817Z
+ * Memory: 89.04 MB
+ * Synced: 2026-09-15T10:58:43.402Z
  */
 
-int leftNumber = nums[left];
-                map.put(leftNumber,map.get(leftNumber) - 1);
-            while (map.get(number) > k) {
-            map.put(number,map.getOrDefault(number, 0) + 1);
-            int number = nums[right];
+map.put(nums[left],map.get(nums[left]) - 1);
+            while (map.get(nums[right]) > k) {
+            map.put(nums[right],map.getOrDefault(nums[right], 0) + 1);
 
         for (int right = 0; right < nums.length; right++) {
         Map<Integer, Integer> map = new HashMap<>();
