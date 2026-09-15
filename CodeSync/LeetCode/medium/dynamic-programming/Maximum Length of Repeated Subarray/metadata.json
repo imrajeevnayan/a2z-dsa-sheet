@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-15T08:02:37.474Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sliding Window",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "platform": "LeetCode",
+  "language": "Sliding Window",
+  "problemTitle": "Maximum Length of Repeated Subarray",
+  "problemUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "hpkjru"
+}
