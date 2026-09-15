@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T07:23:48.551Z",
+  "submissionTimestamp": "2026-09-14T16:39:58.628Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Longest Subarray with Sum K",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1",
   "submissionId": "rfawp8"
 }
