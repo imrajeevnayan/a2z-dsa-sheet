@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/?utm_source=chatgpt.com
-- Synced: 2026-06-28T18:30:41.689Z
+- Problem URL: https://leetcode.com/problems/fruit-into-baskets/
+- Synced: 2026-09-15T10:59:18.925Z
 
 ## Problem Description
 
