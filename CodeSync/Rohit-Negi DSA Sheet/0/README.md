@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Sliding Window
-- Difficulty: Hard
-- Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
+- Difficulty: Easy
+- Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-15T08:03:19.244Z
+- Problem URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-09-15T08:04:12.648Z
 
 ## Problem Description
 
-Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap. Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "". Example 1: Input: s = "banana" Output: "ana" Example 2: Input: s = "abcd" Output: "" Constraints: 2 <= s.length <= 3 * 104 s consists of lowercase English letters.
+A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, "abA" is not because 'b' appears, but 'B' does not. Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string. Example 1: Input: s = "YazaAay" Output: "aAa" Explanation: "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear. "aAa" is the longest nice substring. Example 2: Input: s = "Bb" Output: "Bb" Explanation: "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring. Example 3: Input: s = "c" Output: "" Explanation: There are no nice substrings. Constraints: 1 <= s.length <= 100 s consists of uppercase and lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Sliding Window. The detected topics are Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window. Review the synced source file for the implementation details.
