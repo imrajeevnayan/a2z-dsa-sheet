@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: O(n^2) Time complexity and O(1) Aux space solution C++
+ * URL: https://www.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1
+ * Language: Input: n = 5, arr[] = {0, -1, 2, -3, 1} Output: 1 Explanation: 0, -1 and 1 forms a triplet with sum equal to 0.
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonGoogleFacebook, Company Tags, Amazon, Google, Facebook, Topic Tags, two-pointer-algorithm
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T04:44:26.503Z
+ */
+
+class Solution {
+    public boolean findTriplets(int[] arr) {
+        int n = arr.length;
+        Arrays.sort(arr);
+
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1;
+            int right = n - 1;
+
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+
+                if (sum == 0) return true;
+                
+                if (sum < 0) left++;
+                 else right--;
+                
+            }
+        }
+        return false;
+    }
+}
