@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/description/?envType=problem-list-v2&envId=daaf5ssv
- * Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+ * URL: https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
- * Topics: Array, Hash Table
+ * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T18:49:35.862Z
+ * Synced: 2026-09-15T08:07:33.714Z
  */
 
 class Solution {
-    public int[] occurrencesOfElement(int[] nums, int[] queries, int x) {
+    public long maxSum(List<Integer> nums, int m, int k) {
         
     }
 }
