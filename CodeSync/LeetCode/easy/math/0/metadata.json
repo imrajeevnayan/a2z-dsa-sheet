@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-02T16:19:52.672Z",
+  "submissionTimestamp": "2026-09-15T08:07:48.109Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Array",
     "Math",
-    "Binary Search",
-    "Newton's Method"
+    "Sliding Window",
+    "Enumeration",
+    "Number Theory"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Sliding Window",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/sqrtx/description/?utm=codolio",
-  "submissionId": "kccg8s"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window",
+  "submissionId": "kjzcx3"
 }
