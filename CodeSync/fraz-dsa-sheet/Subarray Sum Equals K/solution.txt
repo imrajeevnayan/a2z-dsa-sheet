@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Subarray Sum Equals K
- * URL: https://leetcode.com/problems/subarray-sum-equals-k/
+ * URL: https://leetcode.com/problems/subarray-sum-equals-k/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T05:55:31.910Z
+ * Synced: 2026-09-15T10:04:44.561Z
  */
 
 class Solution {
