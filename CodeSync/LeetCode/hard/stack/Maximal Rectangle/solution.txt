@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Stack, Matrix, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T11:05:18.519Z
+ * Synced: 2026-09-15T11:09:14.064Z
  */
 
 class Solution {
