@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-09T12:45:03.437Z",
-  "runtime": "19 ms",
-  "memoryUsage": "47.28 MB",
+  "submissionTimestamp": "2026-09-15T10:34:49.817Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "C",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/submissions/detail/2136315728/",
-  "submissionId": "uhdw3z"
+  "problemUrl": "https://leetcode.com/discuss/post/8501770/sliding-window-complete-pattern-sheet-by-29pg/",
+  "submissionId": "1w2uay"
 }
