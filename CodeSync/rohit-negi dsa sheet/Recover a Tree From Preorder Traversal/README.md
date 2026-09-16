@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/?envType=problem-list-v2&envId=djtxhcwd
-- Synced: 2026-09-16T20:29:29.488Z
+- Synced: 2026-09-16T20:30:28.759Z
 
 ## Problem Description
 
