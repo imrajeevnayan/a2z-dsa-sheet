@@ -1,18 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-16T10:22:03.788Z",
+  "submissionTimestamp": "2026-09-16T11:59:25.150Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Divide and Conquer",
-    "Heap (Priority Queue)",
-    "Merge Sort",
-    "Tournament Sort"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Dynamic Programming",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "3g2uk1"
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "f5kvqy"
 }
