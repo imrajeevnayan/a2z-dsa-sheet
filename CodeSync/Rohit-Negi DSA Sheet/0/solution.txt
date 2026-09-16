@@ -1,26 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming
+ * URL: https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
+ * Difficulty: Hard
+ * Topics: String, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T11:59:25.150Z
+ * Synced: 2026-09-16T20:27:40.445Z
  */
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    public int amount(int[] nums,int i,int[]dp){g
-        if(i>=nums.length)return 0;
-        if(dp[i]!=-1)return dp[i];
-        int take=nums[i]+amount(nums,i+2,dp);
-        int skip=0+amount(nums,i+1,dp);
-        return dp[i]= Math.max(take,skip);
-    }
-    public int rob(int[] nums) {
-        int dp[]=new int[nums.length];
-        Arrays.fill(dp,-1);
-        return amount(nums,0,dp);
+    public TreeNode recoverFromPreorder(String traversal) {
+        
     }
 }
