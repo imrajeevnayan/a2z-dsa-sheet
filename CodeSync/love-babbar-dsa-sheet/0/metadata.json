@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T10:59:23.311Z",
+  "submissionTimestamp": "2026-09-16T20:27:40.445Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Hard",
   "tags": [
-    "Design",
-    "Simulation",
-    "Counting"
+    "String",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Design",
+  "language": "Tree For Placement (Copy-5chyqxsi)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design",
-  "submissionId": "qwjs0r"
+  "problemUrl": "https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/?envType=problem-list-v2&envId=djtxhcwd",
+  "submissionId": "x4fv14"
 }
