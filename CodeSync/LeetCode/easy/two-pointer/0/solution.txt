@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
- * Topics: Array, Two Pointers, Binary Search, Sorting
+ * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:12:18.079Z
+ * Synced: 2026-09-16T09:03:33.985Z
  */
 
-class Solution {
-    public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
-        
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+        ListNode A = headA;
+        ListNode B = headB;
+        while (A != B) {
+            A = (A == null) ? headB : A.next;
+            B = (B == null) ? headA : B.next;
+        }
+        return B;
     }
 }
