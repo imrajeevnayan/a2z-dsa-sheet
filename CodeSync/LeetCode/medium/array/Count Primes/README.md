@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Math, Enumeration, Number Theory
-- Runtime: 0 ms
-- Memory: 51.32 MB
-- Problem URL: https://leetcode.com/problems/count-primes/submissions/2079874523/
-- Synced: 2026-07-24T17:15:47.511Z
+- Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/count-primes/description/
+- Synced: 2026-09-16T06:59:53.666Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer n, return the number of prime numbers that are strictly less th
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Enumeration, Number Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve. Review the synced source file for the implementation details.
