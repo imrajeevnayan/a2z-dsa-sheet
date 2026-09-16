@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-23T10:41:16.414Z",
+  "submissionTimestamp": "2026-09-16T08:21:02.132Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Math",
+    "Primality Test",
+    "Sieve Theory",
+    "Prime Number Sieve"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Arrangements",
-  "problemUrl": "https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/description/",
+  "problemUrl": "https://leetcode.com/problems/prime-arrangements/description/",
   "submissionId": "ri8qzz"
 }
