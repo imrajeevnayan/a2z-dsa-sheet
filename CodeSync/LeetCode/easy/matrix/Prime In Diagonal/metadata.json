@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T08:24:37.440Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-16T08:25:22.880Z",
+  "runtime": "0 ms",
+  "memoryUsage": "82.10 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime In Diagonal",
-  "problemUrl": "https://leetcode.com/problems/prime-in-diagonal/",
-  "submissionId": "txqtl3"
+  "problemUrl": "https://leetcode.com/problems/prime-in-diagonal/submissions/2143452152/",
+  "submissionId": "s5amve"
 }
