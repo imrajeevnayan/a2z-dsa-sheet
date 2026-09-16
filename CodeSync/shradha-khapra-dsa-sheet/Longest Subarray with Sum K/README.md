@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
-- Synced: 2026-09-16T06:23:57.952Z
+- Synced: 2026-09-16T08:51:57.935Z
 
 ## Problem Description
 
