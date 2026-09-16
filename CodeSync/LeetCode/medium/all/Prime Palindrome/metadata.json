@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-23T10:39:43.267Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-16T07:10:16.914Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Math",
-    "Number Theory"
+    "Number Theory",
+    "Primality Test"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Palindrome",
-  "problemUrl": "https://leetcode.com/problems/prime-palindrome/submissions/2078274987/",
-  "submissionId": "9zowza"
+  "problemUrl": "https://leetcode.com/problems/prime-palindrome/description/",
+  "submissionId": "tdyoxj"
 }
