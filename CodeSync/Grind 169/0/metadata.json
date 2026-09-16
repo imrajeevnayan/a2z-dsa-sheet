@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
+  "submissionTimestamp": "2026-09-16T11:59:25.150Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "Linked List",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Dynamic Programming",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "n21mcp"
+  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "f5kvqy"
 }
