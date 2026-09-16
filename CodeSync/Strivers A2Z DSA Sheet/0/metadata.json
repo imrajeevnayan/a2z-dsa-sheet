@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
+  "submissionTimestamp": "2026-09-16T10:22:03.788Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Hard",
   "tags": [
-    "Hash Table",
     "Linked List",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Divide and Conquer",
+    "Heap (Priority Queue)",
+    "Merge Sort",
+    "Tournament Sort"
   ],
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "n21mcp"
+  "problemUrl": "https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "3g2uk1"
 }
