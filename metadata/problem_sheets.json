@@ -1511,7 +1511,11 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:striver-a2z-dsa-sheet"
   ],
-  "leetcode:prime-palindrome": [],
+  "leetcode:prime-palindrome": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ],
   "leetcode:prime-arrangements": [],
   "leetcode:sum-of-primes-between-number-and-its-reverse": [],
   "leetcode:print-in-order": [],
