@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Chocolate Problem
+ * URL: https://www.naukri.com/code360/problems/chocolate-problem_893280
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: in Two Pointers, in Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T18:35:17.934Z
+ */
+
+import java.util.*; 
+import java.io.*; 
+ 
+public class Solution {
+    static int findMinDiff(int n, int m, ArrayList<Integer> chocolates) {
+        if (m == 0 || n == 0) return 0;
+        
+        Collections.sort(chocolates);
+ 
+        int minDiff = Integer.MAX_VALUE;
+ 
+        for (int i = 0; i <= n - m; i++) {
+            int diff = chocolates.get(i + m - 1) - chocolates.get(i);
+            minDiff = Math.min(minDiff, diff);
+        }
+ 
+        return minDiff;
+    }
+}
