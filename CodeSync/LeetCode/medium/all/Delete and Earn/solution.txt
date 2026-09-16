@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Delete and Earn
- * URL: https://leetcode.com/problems/delete-and-earn/submissions/2075845789/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/delete-and-earn/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
  * Difficulty: Medium
  * Topics: Array, Hash Table, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 46.86 MB
- * Synced: 2026-07-21T13:19:45.024Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T12:02:45.970Z
  */
 
 class Solution {
