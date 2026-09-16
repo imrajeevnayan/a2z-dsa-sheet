@@ -1,0 +1,38 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime Palindrome
+ * URL: https://leetcode.com/problems/prime-palindrome/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Number Theory, Primality Test
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T07:10:16.914Z
+ */
+
+return n;
+            }
+            n++;
+        }
+    }
+    private boolean isPrime(int n) {
+        if (n < 2) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    private boolean isPalindrome(int n) {
+        String s = String.valueOf(n);
+        int left = 0,right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right))return false;
+            left++;
+            right--;
+        }
+            if (isPalindrome(n) && isPrime(n)) {
+        while (true) {
+    public int primePalindrome(int n) {
+class Solution {
