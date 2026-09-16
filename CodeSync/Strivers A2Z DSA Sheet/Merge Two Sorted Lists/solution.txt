@@ -5,27 +5,30 @@
  * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-16T08:52:53.662Z
+ * Synced: 2026-09-16T08:53:48.132Z
  */
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dummy=new ListNode(0);
-        ListNode temp=dummy;
-        while(list1!=null && list2!=null){
-            if(list1.val <list2.val){
-                temp.next=list1;
-                list1=list1.next;
+        ListNode dummy = new ListNode(-1); // fake starting node
+        ListNode tail = dummy;
+        
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
             }
-            else{
-                temp.next=list2;
-                list2=list2.next;
-            }
-            temp=temp.next;
+            tail = tail.next;
         }
-        temp.next=(list1!=null) ? list1:list2;
+        
+        // ek list khatam ho gayi? baaki wali seedha attach karo
+        tail.next = (list1 != null) ? list1 : list2;
+        
         return dummy.next;
     }
 }
