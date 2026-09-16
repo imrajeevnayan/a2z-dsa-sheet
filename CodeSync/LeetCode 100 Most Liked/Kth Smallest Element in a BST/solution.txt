@@ -1,16 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Kth Smallest Element in a BST
- * URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ * URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:36:00.483Z
+ * Synced: 2026-09-16T20:37:37.556Z
  */
 
-while (true) {
+class Solution {
+    public int kthSmallest(TreeNode root, int k) {
+
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+
+        while (true) {
 
             // Left side ke nodes stack mein daalo
             while (curr != null) {
@@ -30,9 +36,3 @@ while (true) {
             // Ab right subtree explore karo
             curr = curr.right;
         }
-
-        TreeNode curr = root;
-
-        Stack<TreeNode> stack = new Stack<>();
-    public int kthSmallest(TreeNode root, int k) {
-class Solution {
