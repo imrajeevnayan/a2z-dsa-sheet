@@ -7,11 +7,27 @@
  * Topics: Array, Hash Table, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T12:05:39.638Z
+ * Synced: 2026-09-16T12:06:25.322Z
  */
 
-class Solution {
-    public int deleteAndEarn(int[] nums) {
-        
+return solve(max);
+    }
+
+    private int solve(int i) {
+        // Base case
+        if (i <= 0) return 0;
+        if (dp[i] != -1) return dp[i];
+
+        int take = points[i] + solve(i - 2);
+        int skip = solve(i - 1);
+        return dp[i] = Math.max(take, skip);
     }
 }
+        Arrays.fill(dp, -1);
+        // -1 means not calculated yet
+
+        dp = new int[max + 1];
+
+        }
+            points[num] += num;
+        for (int num : nums) {
