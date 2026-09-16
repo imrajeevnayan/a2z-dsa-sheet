@@ -1,0 +1,37 @@
+/*
+ * Platform: LeetCode
+ * Problem: Merge k Sorted Lists
+ * URL: https://leetcode.com/problems/merge-k-sorted-lists/submissions/2143544973/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
+ * Difficulty: Hard
+ * Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
+ * Runtime: 1 ms
+ * Memory: 47.12 MB
+ * Synced: 2026-09-16T10:22:48.818Z
+ */
+
+PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
+        
+        // har list ka head daalo
+        for (ListNode node : lists) {
+            if (node != null) pq.offer(node);
+        }
+        
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+        
+        while (!pq.isEmpty()) {
+            ListNode min = pq.poll();   // globally smallest node
+            tail.next = min;
+            tail = tail.next;
+            
+            if (min.next != null) {     // us list ka next head daalo
+                pq.offer(min.next);
+            }
+        }
+        return dummy.next;
+    }
+}
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        // Min-heap: sabse chhota val top pe
