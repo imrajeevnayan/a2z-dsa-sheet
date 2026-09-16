@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-30T18:55:10.563Z",
+  "submissionTimestamp": "2026-09-16T10:59:23.311Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "String",
+    "Design",
+    "Simulation",
     "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Dsa Question For Interview (Copy-vdyfzxft)mj",
+  "language": "Design",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv",
-  "submissionId": "yz0wq2"
+  "problemUrl": "https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design",
+  "submissionId": "qwjs0r"
 }
