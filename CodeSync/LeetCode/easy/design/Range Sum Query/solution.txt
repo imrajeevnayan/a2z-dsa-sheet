@@ -7,7 +7,7 @@
  * Topics: Array, Design, Prefix Sum
  * Runtime: 2 ms
  * Memory: 47.64 MB
- * Synced: 2026-09-15T18:08:26.915Z
+ * Synced: 2026-09-15T18:09:12.912Z
  */
 
 class NumArray {
