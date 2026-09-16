@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T09:09:41.309Z",
+  "submissionTimestamp": "2026-09-16T09:10:27.725Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "101.54 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?envType=study-plan-v2&envId=top-100-liked",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/submissions/2143487208/?envType=study-plan-v2&envId=top-100-liked",
   "submissionId": "dq1vk1"
 }
