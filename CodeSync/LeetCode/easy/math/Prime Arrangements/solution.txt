@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Prime Arrangements
- * URL: https://leetcode.com/problems/prime-arrangements/
+ * URL: https://leetcode.com/problems/prime-arrangements/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math
+ * Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-23T10:40:26.062Z
+ * Synced: 2026-09-16T08:21:02.132Z
  */
 
 class Solution {
