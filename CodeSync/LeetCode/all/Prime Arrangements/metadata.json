@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T08:21:47.300Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-16T08:22:32.914Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.05 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Arrangements",
-  "problemUrl": "https://leetcode.com/problems/prime-arrangements/",
-  "submissionId": "8e3bhl"
+  "problemUrl": "https://leetcode.com/problems/prime-arrangements/submissions/2143450302/",
+  "submissionId": "68il21"
 }
