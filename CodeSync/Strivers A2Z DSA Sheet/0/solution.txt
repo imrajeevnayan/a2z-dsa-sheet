@@ -1,38 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
- * Difficulty: Hard
- * Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
+ * URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T10:22:03.788Z
+ * Synced: 2026-09-16T11:59:25.150Z
  */
 
 class Solution {
-    public ListNode mergeKLists(ListNode[] lists) {
-        int n = lists.length;
-        ListNode newHead = null;
-        for (int i = 0; i < n; i++)
-            newHead = mergeTwoLists(newHead, lists[i]);
-        
-        return newHead;
+    public int amount(int[] nums,int i,int[]dp){g
+        if(i>=nums.length)return 0;
+        if(dp[i]!=-1)return dp[i];
+        int take=nums[i]+amount(nums,i+2,dp);
+        int skip=0+amount(nums,i+1,dp);
+        return dp[i]= Math.max(take,skip);
     }
-
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null)
-            return l2;
-        else if (l2 == null)
-            return l1;
-        
-        ListNode head = null, tail = null, cur1 = l1, cur2 = l2;
-        if (cur1.val < cur2.val) {
-            head = cur1;
-            tail = cur1;
-            cur1 = cur1.next;
-        } else {
-            head = cur2;
-            tail = cur2;
-            cur2 = cur2.next;
-        }
+    public int rob(int[] nums) {
+        int dp[]=new int[nums.length];
+        Arrays.fill(dp,-1);
+        return amount(nums,0,dp);
+    }
+}
