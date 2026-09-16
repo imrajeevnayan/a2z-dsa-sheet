@@ -1,17 +1,20 @@
 {
-  "submissionTimestamp": "2026-07-24T17:15:47.511Z",
-  "runtime": "0 ms",
-  "memoryUsage": "51.32 MB",
+  "submissionTimestamp": "2026-09-16T06:59:53.666Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
     "Math",
     "Enumeration",
-    "Number Theory"
+    "Number Theory",
+    "Primality Test",
+    "Sieve Theory",
+    "Prime Number Sieve"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/submissions/2079874523/",
-  "submissionId": "21iy9x"
+  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "submissionId": "vx4zat"
 }
