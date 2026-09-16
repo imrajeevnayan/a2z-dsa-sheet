@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Running Sum of 1d Array
- * URL: https://leetcode.com/problems/running-sum-of-1d-array/?envType=problem-list-v2&envId=prefix-sum
- * Language: Prefix Sum
+ * URL: https://leetcode.com/problems/running-sum-of-1d-array/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-07-28T12:49:47.712Z
+ * Synced: 2026-09-15T17:55:47.848Z
  */
 
 class Solution {
@@ -15,9 +15,11 @@ class Solution {
         int n = nums.length;
         int[] ans = new int[n];
         ans[0] = nums[0];
+
         for (int i = 1; i < n; i++) {
-            ans[i] = ans[i - 1] + nums[i];
         }
+            ans[i] = ans[i - 1] + nums[i];
+
         return ans;
     }
 }
