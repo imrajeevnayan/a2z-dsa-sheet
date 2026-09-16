@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Tree For Placement (Copy-5chyqxsi)
 - Difficulty: Medium
-- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
+- Topics: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T09:01:22.745Z
+- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd
+- Synced: 2026-09-16T20:42:16.530Z
 
 ## Problem Description
 
-Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to (0-indexed). It is -1 if there is no cycle. Note that pos is not passed as a parameter. Do not modify the linked list. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: tail connects to node index 1 Explanation: There is a cycle in the linked list, where tail connects to the second node. Example 2: Input: head = [1,2], pos = 0 Output: tail connects to node index 0 Explanation: There is a cycle in the linked list, where tail connects to the first node. Example 3: Input: head = [1], pos = -1 Output: no cycle Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
+Given the root of a binary tree, return the lowest common ancestor of its deepest leaves. Recall that: The node of a binary tree is a leaf if and only if it has no children The depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1. The lowest common ancestor of a set S of nodes, is the node A with the largest depth such that every node in S is in the subtree with root A. Example 1: Input: root = [3,5,1,6,2,0,8,null,null,7,4] Output: [2,7,4] Explanation: We return the node with value 2, colored in yellow in the diagram. The nodes coloured in blue are the deepest leaf-nodes of the tree. Note that nodes 6, 0, and 8 are also leaf nodes, but the depth of them is 2, but the depth of nodes 7 and 4 is 3. Example 2: Input: root = [1] Output: [1] Explanation: The root is the deepest node in the tree, and it's the lca of itself. Example 3: Input: root = [0,1,3,null,2] Output: [2] Explanation: The deepest leaf node in the tree is 2, the lca of one node is itself. Constraints: The number of nodes in the tree will be in the range [1, 1000]. 0 <= Node.val <= 1000 The values of the nodes in the tree are unique. Note: This question is the same as 865: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Tree For Placement (Copy-5chyqxsi). The detected topics are Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees. Review the synced source file for the implementation details.
