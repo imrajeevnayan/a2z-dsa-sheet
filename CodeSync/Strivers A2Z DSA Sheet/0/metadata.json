@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-04T15:51:26.008Z",
+  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/submissions/2130673263/",
-  "submissionId": "dk0xl4"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n21mcp"
 }
