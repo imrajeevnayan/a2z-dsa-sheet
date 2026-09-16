@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Top 100 Liked
-- Difficulty: Hard
-- Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
+- Language: Dynamic Programming
+- Difficulty: Medium
+- Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T10:22:03.788Z
+- Problem URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-09-16T11:59:25.150Z
 
 ## Problem Description
 
-You are given an array of k linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it. Example 1: Input: lists = [[1,4,5],[1,3,4],[2,6]] Output: [1,1,2,3,4,4,5,6] Explanation: The linked-lists are: [ 1->4->5, 1->3->4, 2->6 ] merging them into one sorted linked list: 1->1->2->3->4->4->5->6 Example 2: Input: lists = [] Output: [] Example 3: Input: lists = [[]] Output: [] Constraints: k == lists.length 0 <= k <= 104 0 <= lists[i].length <= 500 -104 <= lists[i][j] <= 104 lists[i] is sorted in ascending order. The sum of lists[i].length will not exceed 104.
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police. Example 1: Input: nums = [1,2,3,1] Output: 4 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4. Example 2: Input: nums = [2,7,9,3,1] Output: 12 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1). Total amount you can rob = 2 + 9 + 1 = 12. Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 400
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
