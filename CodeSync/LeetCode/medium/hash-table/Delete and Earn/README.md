@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-and-earn/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-09-16T12:02:45.970Z
+- Problem URL: https://leetcode.com/problems/delete-and-earn/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-09-16T12:03:39.651Z
 
 ## Problem Description
 
