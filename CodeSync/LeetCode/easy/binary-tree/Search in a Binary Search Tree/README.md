@@ -6,8 +6,8 @@
 - Topics: Tree, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=problem-list-v2&envId=djtxhcwd
-- Synced: 2026-09-16T20:30:46.455Z
+- Problem URL: https://leetcode.com/problems/search-in-a-binary-search-tree/?envType=problem-list-v2&envId=djtxhcwd
+- Synced: 2026-09-16T20:31:31.495Z
 
 ## Problem Description
 
