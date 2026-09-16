@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T08:59:48.871Z
+- Runtime: 0 ms
+- Memory: 46.12 MB
+- Problem URL: https://leetcode.com/problems/linked-list-cycle/submissions/2143479556/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:00:36.059Z
 
 ## Problem Description
 
