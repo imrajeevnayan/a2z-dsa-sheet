@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 52.91 MB
 - Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2143482450/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T09:09:09.209Z
+- Synced: 2026-09-16T09:09:59.128Z
 
 ## Problem Description
 
