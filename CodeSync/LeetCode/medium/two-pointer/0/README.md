@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Linked List (Copy-9gvhzx23)
+- Language: Top 100 Liked
 - Difficulty: Medium
-- Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
+- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-list/description/?envType=problem-list-v2&envId=da95pk23
-- Synced: 2026-06-17T09:25:35.006Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:01:22.745Z
 
 ## Problem Description
 
-Given the head of a linked list, return the list after sorting it in ascending order. Example 1: Input: head = [4,2,1,3] Output: [1,2,3,4] Example 2: Input: head = [-1,5,3,4,0] Output: [-1,0,3,4,5] Example 3: Input: head = [] Output: [] Constraints: The number of nodes in the list is in the range [0, 5 * 104]. -105 <= Node.val <= 105 Follow up: Can you sort the linked list in O(n logn) time and O(1) memory (i.e. constant space)?
+Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to (0-indexed). It is -1 if there is no cycle. Note that pos is not passed as a parameter. Do not modify the linked list. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: tail connects to node index 1 Explanation: There is a cycle in the linked list, where tail connects to the second node. Example 2: Input: head = [1,2], pos = 0 Output: tail connects to node index 0 Explanation: There is a cycle in the linked list, where tail connects to the first node. Example 3: Input: head = [1], pos = -1 Output: no cycle Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List (Copy-9gvhzx23). The detected topics are Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
