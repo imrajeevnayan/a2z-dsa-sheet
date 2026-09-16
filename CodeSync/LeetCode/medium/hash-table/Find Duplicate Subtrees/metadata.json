@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-16T20:33:01.492Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find Duplicate Subtrees",
+  "problemUrl": "https://leetcode.com/problems/find-duplicate-subtrees/description/",
+  "submissionId": "8bd8z0"
+}
