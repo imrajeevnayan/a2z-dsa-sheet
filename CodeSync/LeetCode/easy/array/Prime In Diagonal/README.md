@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Math, Matrix, Number Theory
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-in-diagonal/
-- Synced: 2026-09-16T08:24:37.440Z
+- Runtime: 0 ms
+- Memory: 82.10 MB
+- Problem URL: https://leetcode.com/problems/prime-in-diagonal/submissions/2143452152/
+- Synced: 2026-09-16T08:25:22.880Z
 
 ## Problem Description
 
