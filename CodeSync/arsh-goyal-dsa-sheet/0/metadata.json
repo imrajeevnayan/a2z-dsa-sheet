@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-15T12:38:34.984Z",
+  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "C",
+  "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/discuss/post/8501770/sliding-window-complete-pattern-sheet-by-29pg/",
-  "submissionId": "1w2uay"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n21mcp"
 }
