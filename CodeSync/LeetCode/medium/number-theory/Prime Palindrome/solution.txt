@@ -7,7 +7,7 @@
  * Topics: Math, Number Theory, Primality Test
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T07:10:16.914Z
+ * Synced: 2026-09-16T07:11:09.914Z
  */
 
 return n;
