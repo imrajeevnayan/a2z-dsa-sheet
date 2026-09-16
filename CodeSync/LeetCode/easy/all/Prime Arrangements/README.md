@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-arrangements/
-- Synced: 2026-09-16T08:21:47.300Z
+- Runtime: 0 ms
+- Memory: 42.05 MB
+- Problem URL: https://leetcode.com/problems/prime-arrangements/submissions/2143450302/
+- Synced: 2026-09-16T08:22:32.914Z
 
 ## Problem Description
 
