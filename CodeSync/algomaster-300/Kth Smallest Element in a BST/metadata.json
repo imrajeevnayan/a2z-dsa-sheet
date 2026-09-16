@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-16T20:36:00.483Z",
+  "submissionTimestamp": "2026-09-16T20:37:37.556Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Kth Smallest Element in a BST",
-  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-  "submissionId": "xkaekm"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "c78y6a"
 }
