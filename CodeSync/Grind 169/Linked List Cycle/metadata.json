@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-15T16:35:31.920Z",
+  "submissionTimestamp": "2026-09-16T08:59:48.871Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,8 +10,8 @@
     "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top 100 Liked",
   "problemTitle": "Linked List Cycle",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/",
-  "submissionId": "nbidh8"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "ta9g54"
 }
