@@ -1,17 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Design Parking System
- * URL: https://leetcode.com/problems/design-parking-system/?envType=problem-list-v2&envId=design
+ * URL: https://leetcode.com/problems/design-parking-system/submissions/2143582087/?envType=problem-list-v2&envId=design
  * Language: Design
  * Difficulty: Easy
  * Topics: Design, Simulation, Counting
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-16T11:12:20.072Z
+ * Memory: 46.96 MB
+ * Synced: 2026-09-16T11:13:12.676Z
  */
 
-class ParkingSystem {
-    // STATE: bache hue slots (instance variables)
+// STATE: bache hue slots (instance variables)
     private int big, medium, small;
     
     // CONSTRUCTOR: shuruati state set
