@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Linked List
+- Language: Top 100 Liked
 - Difficulty: Medium
-- Topics: Linked List, Math, Recursion
+- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list
-- Synced: 2026-07-24T13:05:22.392Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:01:22.745Z
 
 ## Problem Description
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example 1: Input: l1 = [2,4,3], l2 = [5,6,4] Output: [7,0,8] Explanation: 342 + 465 = 807. Example 2: Input: l1 = [0], l2 = [0] Output: [0] Example 3: Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9] Output: [8,9,9,9,0,0,0,1] Constraints: The number of nodes in each linked list is in the range [1, 100]. 0 <= Node.val <= 9 It is guaranteed that the list represents a number that does not have leading zeros.
+Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to (0-indexed). It is -1 if there is no cycle. Note that pos is not passed as a parameter. Do not modify the linked list. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: tail connects to node index 1 Explanation: There is a cycle in the linked list, where tail connects to the second node. Example 2: Input: head = [1,2], pos = 0 Output: tail connects to node index 0 Explanation: There is a cycle in the linked list, where tail connects to the first node. Example 3: Input: head = [1], pos = -1 Output: no cycle Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Linked List. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
