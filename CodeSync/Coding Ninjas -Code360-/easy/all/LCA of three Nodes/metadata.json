@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-12T16:26:00.284Z",
-  "runtime": "3830 ms",
+  "submissionTimestamp": "2026-09-15T18:36:54.388Z",
+  "runtime": "3652 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406",
-  "submissionId": "nyn0l6"
+  "problemUrl": "https://www.naukri.com/code360/problems/frequency-in-a-sorted-array_893286",
+  "submissionId": "br4b25"
 }
