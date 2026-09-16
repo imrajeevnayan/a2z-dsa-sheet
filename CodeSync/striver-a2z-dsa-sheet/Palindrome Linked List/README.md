@@ -1,13 +1,13 @@
 # Palindrome Linked List
 
 - Platform: LeetCode
-- Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
+- Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers, Stack, Recursion
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=dapb7olr
-- Synced: 2026-08-10T19:04:26.054Z
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:09:41.309Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a singly linked list, return true if it is a palindrome or fal
 
 ## Explanation
 
-This solution was accepted on LeetCode using DSA Patterns by anubhav0910 (Copy-a0b4xdj1). The detected topics are Linked List, Two Pointers, Stack, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Linked List, Two Pointers, Stack, Recursion. Review the synced source file for the implementation details.
