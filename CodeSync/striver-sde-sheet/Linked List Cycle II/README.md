@@ -1,13 +1,13 @@
 # Linked List Cycle II
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Medium
-- Topics: Hash Table, Linked List, Two Pointers
+- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: 0 ms
-- Memory: 46.76 MB
-- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/
-- Synced: 2026-06-16T07:53:25.163Z
+- Memory: 46.73 MB
+- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/submissions/2143480904/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:02:07.893Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the head of a linked list, return the node where the cycle begins. If ther
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
