@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Math, Number Theory
-- Runtime: 0 ms
+- Topics: Math, Number Theory, Primality Test
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-palindrome/submissions/2078274987/
-- Synced: 2026-07-23T10:39:43.267Z
+- Problem URL: https://leetcode.com/problems/prime-palindrome/description/
+- Synced: 2026-09-16T07:10:16.914Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer n, return the smallest prime palindrome greater than or equal t
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, Number Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, Number Theory, Primality Test. Review the synced source file for the implementation details.
