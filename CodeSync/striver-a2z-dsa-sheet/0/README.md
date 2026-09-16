@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Graph Theory
+- Language: Top 100 Liked
 - Difficulty: Medium
-- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
+- Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-10T12:26:04.382Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:01:22.745Z
 
 ## Problem Description
 
-There is an undirected graph with n nodes, where each node is numbered between 0 and n - 1. You are given a 2D array graph, where graph[u] is an array of nodes that node u is adjacent to. More formally, for each v in graph[u], there is an undirected edge between node u and node v. The graph has the following properties: There are no self-edges (graph[u] does not contain u). There are no parallel edges (graph[u] does not contain duplicate values). If v is in graph[u], then u is in graph[v] (the graph is undirected). The graph may not be connected, meaning there may be two nodes u and v such that there is no path between them. A graph is bipartite if the nodes can be partitioned into two independent sets A and B such that every edge in the graph connects a node in set A and a node in set B. Return true if and only if it is bipartite. Example 1: Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]] Output: false Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other. Example 2: Input: graph = [[1,3],[0,2],[1,3],[0,2]] Output: true Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}. Constraints: graph.length == n 1 <= n <= 100 0 <= graph[u].length < n 0 <= graph[u][i] <= n - 1 graph[u] does not contain u. All the values of graph[u] are unique. If graph[u] contains v, then graph[v] contains u.
+Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to (0-indexed). It is -1 if there is no cycle. Note that pos is not passed as a parameter. Do not modify the linked list. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: tail connects to node index 1 Explanation: There is a cycle in the linked list, where tail connects to the second node. Example 2: Input: head = [1,2], pos = 0 Output: tail connects to node index 0 Explanation: There is a cycle in the linked list, where tail connects to the first node. Example 3: Input: head = [1], pos = -1 Output: no cycle Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
