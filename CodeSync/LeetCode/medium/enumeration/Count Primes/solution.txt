@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T07:03:45.774Z
+ * Synced: 2026-09-16T07:04:32.276Z
  */
 
 class Solution {
@@ -21,7 +21,8 @@ class Solution {
         }
                 for(int j=i*i;j<n;j+=i){
             }
-                    isPr
+                    isPrime[j]=false;
                 }
     }
+        int count=0;
 }
