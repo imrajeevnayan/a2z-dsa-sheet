@@ -1,17 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
+  "submissionTimestamp": "2026-09-16T20:42:16.530Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
-    "Linked List",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree",
+    "Binary Lifting",
+    "Lowest Common Ancestor",
+    "DP on Trees"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Tree For Placement (Copy-5chyqxsi)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "n21mcp"
+  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd",
+  "submissionId": "debd34"
 }
