@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: Prime Arrangements
- * URL: https://leetcode.com/problems/prime-arrangements/description/
+ * URL: https://leetcode.com/problems/prime-arrangements/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T08:21:02.132Z
+ * Synced: 2026-09-16T08:21:47.300Z
  */
 
-class Solution {
+// Count primes
+            }
+        }
+                    isPrime[j] = false;
+                }
+                for (int j = i * i; j <= n; j += i) {
+            if (isPrime[i]) {
+        for (int i = 2; i * i <= n; i++) {
+        // Sieve of Eratosthenes
+
+        isPrime[0] = isPrime[1] = false;
+        Arrays.fill(isPrime, true);
+        boolean[] isPrime = new boolean[n + 1];
     public int numPrimeArrangements(int n) {
-        
-    }
-}
+   static final long MOD = 1000000007;
+class Solution {
+        int primeCount = 0;
+
+        for (int i = 2; i <= n; i++) {
+
+            if (isPrime[i]) {
+                primeCount++;
+            }
+        }
