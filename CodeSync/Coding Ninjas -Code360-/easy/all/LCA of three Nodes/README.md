@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3830 ms
+- Runtime: 3652 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406
-- Synced: 2026-09-12T16:26:00.284Z
+- Problem URL: https://www.naukri.com/code360/problems/frequency-in-a-sorted-array_893286
+- Synced: 2026-09-15T18:36:54.388Z
 
 ## Problem Description
 
