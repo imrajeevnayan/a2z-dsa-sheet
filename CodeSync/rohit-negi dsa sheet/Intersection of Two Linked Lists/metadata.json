@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-22T04:01:03.184Z",
-  "runtime": "10924 ms",
-  "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-16T09:04:32.480Z",
+  "runtime": "0 ms",
+  "memoryUsage": "52.91 MB",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "platform": "LeetCode",
+  "language": "Top 100 Liked",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://www.naukri.com/code360/problems/intersection-of-linked-list_630457",
-  "submissionId": "9c3jt7"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2143482450/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "pf4vkv"
 }
