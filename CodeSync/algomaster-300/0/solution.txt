@@ -1,24 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
- * Difficulty: Easy
- * Topics: Hash Table, Linked List, Two Pointers
+ * Difficulty: Hard
+ * Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T09:03:33.985Z
+ * Synced: 2026-09-16T10:22:03.788Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) return null;
-        ListNode A = headA;
-        ListNode B = headB;
-        while (A != B) {
-            A = (A == null) ? headB : A.next;
-            B = (B == null) ? headA : B.next;
-        }
-        return B;
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        int n = lists.length;
+        ListNode newHead = null;
+        for (int i = 0; i < n; i++)
+            newHead = mergeTwoLists(newHead, lists[i]);
+        
+        return newHead;
     }
-}
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null)
+            return l2;
+        else if (l2 == null)
+            return l1;
+        
+        ListNode head = null, tail = null, cur1 = l1, cur2 = l2;
+        if (cur1.val < cur2.val) {
+            head = cur1;
+            tail = cur1;
+            cur1 = cur1.next;
+        } else {
+            head = cur2;
+            tail = cur2;
+            cur2 = cur2.next;
+        }
