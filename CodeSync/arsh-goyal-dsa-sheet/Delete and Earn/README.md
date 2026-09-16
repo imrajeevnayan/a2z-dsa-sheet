@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-and-earn/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-09-16T12:05:39.638Z
+- Synced: 2026-09-16T12:06:25.322Z
 
 ## Problem Description
 
