@@ -1,25 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/reverse-linked-list/submissions/2143473035/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-16T08:51:22.346Z
+ * Runtime: 0 ms
+ * Memory: 44.49 MB
+ * Synced: 2026-09-16T08:52:10.851Z
  */
 
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode prev=null;
-        ListNode curr=head;
-        while(curr!=null){
-            ListNode temp=curr.next;
-            curr.next=prev;
-            prev=curr;
-            curr=temp;
+        ListNode prev = null;
+        ListNode curr = head;
+        
+        while (curr != null) {
+            ListNode next = curr.next; // 1. aage wala node pehle save karo
+            curr.next = prev;          // 2. arrow ulta karo
+            prev = curr;               // 3. prev ko aage le jao
+            curr = next;               // 4. curr ko aage le jao
         }
-        return prev;
+        return prev; // prev = new head
     }
 }
