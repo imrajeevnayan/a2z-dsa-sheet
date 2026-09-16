@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T11:12:20.072Z",
+  "submissionTimestamp": "2026-09-16T11:13:12.676Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.96 MB",
   "difficulty": "Easy",
   "tags": [
     "Design",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Design",
   "problemTitle": "Design Parking System",
-  "problemUrl": "https://leetcode.com/problems/design-parking-system/?envType=problem-list-v2&envId=design",
-  "submissionId": "uculix"
+  "problemUrl": "https://leetcode.com/problems/design-parking-system/submissions/2143582087/?envType=problem-list-v2&envId=design",
+  "submissionId": "amghe1"
 }
