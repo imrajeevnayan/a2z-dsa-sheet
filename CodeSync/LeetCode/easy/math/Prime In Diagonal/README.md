@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/prime-in-diagonal/
-- Synced: 2026-09-16T08:23:50.840Z
+- Synced: 2026-09-16T08:24:37.440Z
 
 ## Problem Description
 
