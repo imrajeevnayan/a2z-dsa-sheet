@@ -1,13 +1,13 @@
 # Add Two Numbers
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Medium
 - Topics: Linked List, Math, Recursion
 - Runtime: 0 ms
-- Memory: 46.61 MB
-- Problem URL: https://leetcode.com/problems/add-two-numbers/
-- Synced: 2026-09-14T04:27:01.122Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/add-two-numbers/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T10:19:08.783Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Linked List, Math, Recursion. Review the synced source file for the implementation details.
