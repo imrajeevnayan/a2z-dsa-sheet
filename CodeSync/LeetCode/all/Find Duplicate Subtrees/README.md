@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-duplicate-subtrees/description/
-- Synced: 2026-09-16T20:33:01.492Z
+- Synced: 2026-09-16T20:33:47.301Z
 
 ## Problem Description
 
