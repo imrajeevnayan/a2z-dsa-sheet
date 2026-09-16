@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime Palindrome
+ * URL: https://leetcode.com/problems/prime-arrangements/description/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T08:20:14.563Z
+ */
+
+class Solution {
+    public int primePalindrome(int n) {
+        while (true) {
+            if (isPalindrome(n) && isPrime(n)) {
+                return n;
+            }
+            n++;
+        }
+    }
+    private boolean isPrime(int n) {
+        if (n < 2) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    private boolean isPalindrome(int n) {
+        String s = String.valueOf(n);
+        int le
