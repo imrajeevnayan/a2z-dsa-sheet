@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-16T08:22:32.914Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.05 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-16T08:22:49.049Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
   "tags": [
-    "Math",
-    "Primality Test",
-    "Sieve Theory",
-    "Prime Number Sieve"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Arrangements",
-  "problemUrl": "https://leetcode.com/problems/prime-arrangements/submissions/2143450302/",
-  "submissionId": "68il21"
+  "problemUrl": "https://leetcode.com/problems/prime-in-diagonal/description/",
+  "submissionId": "q79cpy"
 }
