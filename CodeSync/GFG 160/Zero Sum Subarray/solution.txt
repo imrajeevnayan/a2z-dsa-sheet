@@ -7,12 +7,25 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T18:16:34.912Z
+ * Synced: 2026-09-15T18:18:06.313Z
  */
 
 class Solution {
     public boolean subArrayExists(int arr[]) {
-        // code here
-        
+        Set<Integer> set = new HashSet<>();
+                int ans = 0;
+
+                for (int num : arr) {
+                    ans += num;
+
+                    // Agar prefix 0 ho ya pehle aa chuka ho
+                    if (ans == 0 || set.contains(ans)) {
+                        return true;
+                    }
+
+                    set.add(ans);
+                }
+
+        return false;
     }
 }
