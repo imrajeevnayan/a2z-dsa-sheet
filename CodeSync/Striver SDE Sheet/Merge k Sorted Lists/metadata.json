@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-16T10:22:48.818Z",
-  "runtime": "1 ms",
+  "submissionTimestamp": "2026-09-16T10:28:07.958Z",
+  "runtime": "6 ms",
   "memoryUsage": "47.12 MB",
-  "difficulty": "Hard",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Divide and Conquer",
-    "Heap (Priority Queue)",
-    "Merge Sort",
-    "Tournament Sort"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Merge k Sorted Lists",
   "problemUrl": "https://leetcode.com/problems/merge-k-sorted-lists/submissions/2143544973/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "3rv3ej"
+  "submissionId": "kldqpn"
 }
