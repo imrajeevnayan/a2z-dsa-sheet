@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/?envType=problem-list-v2&envId=djtxhcwd
+ * URL: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd
  * Language: Tree For Placement (Copy-5chyqxsi)
- * Difficulty: Hard
- * Topics: String, Tree, Depth-First Search, Binary Tree
+ * Difficulty: Medium
+ * Topics: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:27:40.445Z
+ * Synced: 2026-09-16T20:42:16.530Z
  */
 
 /**
@@ -26,7 +26,7 @@
  * }
  */
 class Solution {
-    public TreeNode recoverFromPreorder(String traversal) {
+    public TreeNode lcaDeepestLeaves(TreeNode root) {
         
     }
 }
