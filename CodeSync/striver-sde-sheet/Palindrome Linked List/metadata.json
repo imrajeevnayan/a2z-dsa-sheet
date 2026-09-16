@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-10T19:04:26.054Z",
+  "submissionTimestamp": "2026-09-16T09:09:41.309Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,8 +10,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "DSA Patterns by anubhav0910 (Copy-a0b4xdj1)",
+  "language": "Top 100 Liked",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=dapb7olr",
-  "submissionId": "mgzdcq"
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "dq1vk1"
 }
