@@ -1,19 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "submissionTimestamp": "2026-09-16T20:42:16.530Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
+    "Hash Table",
+    "Tree",
     "Depth-First Search",
     "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory",
-    "Graph Coloring",
-    "Bipartite Graph"
+    "Binary Tree",
+    "Binary Lifting",
+    "Lowest Common Ancestor",
+    "DP on Trees"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Tree For Placement (Copy-5chyqxsi)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "9uzafc"
+  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd",
+  "submissionId": "debd34"
 }
