@@ -4329,5 +4329,10 @@
   "leetcode:search-in-a-binary-search-tree": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:find-duplicate-subtrees": [
+    "custom:algomaster-300",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
