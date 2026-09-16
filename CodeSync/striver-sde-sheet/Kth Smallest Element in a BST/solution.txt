@@ -7,13 +7,10 @@
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:35:03.878Z
+ * Synced: 2026-09-16T20:36:00.483Z
  */
 
-Stack<TreeNode> stack = new Stack<>();
-        TreeNode curr = root;
-
-        while (true) {
+while (true) {
 
             // Left side ke nodes stack mein daalo
             while (curr != null) {
@@ -34,5 +31,8 @@ Stack<TreeNode> stack = new Stack<>();
             curr = curr.right;
         }
 
-class Solution {
+        TreeNode curr = root;
+
+        Stack<TreeNode> stack = new Stack<>();
     public int kthSmallest(TreeNode root, int k) {
+class Solution {
