@@ -1,13 +1,13 @@
 # Merge Two Sorted Lists
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Linked List, Recursion
-- Runtime: 0 ms
-- Memory: 44.41 MB
-- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/submissions/2137779197/
-- Synced: 2026-09-10T17:29:35.921Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T08:52:53.662Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given the heads of two sorted linked lists list1 and list2. Merge the tw
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Linked List, Recursion. Review the synced source file for the implementation details.
