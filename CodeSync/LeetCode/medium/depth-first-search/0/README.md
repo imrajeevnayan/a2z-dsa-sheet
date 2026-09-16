@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Graph Theory
+- Language: Tree For Placement (Copy-5chyqxsi)
 - Difficulty: Medium
-- Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
+- Topics: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
-- Synced: 2026-09-10T12:26:04.382Z
+- Problem URL: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd
+- Synced: 2026-09-16T20:42:16.530Z
 
 ## Problem Description
 
-There is an undirected graph with n nodes, where each node is numbered between 0 and n - 1. You are given a 2D array graph, where graph[u] is an array of nodes that node u is adjacent to. More formally, for each v in graph[u], there is an undirected edge between node u and node v. The graph has the following properties: There are no self-edges (graph[u] does not contain u). There are no parallel edges (graph[u] does not contain duplicate values). If v is in graph[u], then u is in graph[v] (the graph is undirected). The graph may not be connected, meaning there may be two nodes u and v such that there is no path between them. A graph is bipartite if the nodes can be partitioned into two independent sets A and B such that every edge in the graph connects a node in set A and a node in set B. Return true if and only if it is bipartite. Example 1: Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]] Output: false Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other. Example 2: Input: graph = [[1,3],[0,2],[1,3],[0,2]] Output: true Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}. Constraints: graph.length == n 1 <= n <= 100 0 <= graph[u].length < n 0 <= graph[u][i] <= n - 1 graph[u] does not contain u. All the values of graph[u] are unique. If graph[u] contains v, then graph[v] contains u.
+Given the root of a binary tree, return the lowest common ancestor of its deepest leaves. Recall that: The node of a binary tree is a leaf if and only if it has no children The depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1. The lowest common ancestor of a set S of nodes, is the node A with the largest depth such that every node in S is in the subtree with root A. Example 1: Input: root = [3,5,1,6,2,0,8,null,null,7,4] Output: [2,7,4] Explanation: We return the node with value 2, colored in yellow in the diagram. The nodes coloured in blue are the deepest leaf-nodes of the tree. Note that nodes 6, 0, and 8 are also leaf nodes, but the depth of them is 2, but the depth of nodes 7 and 4 is 3. Example 2: Input: root = [1] Output: [1] Explanation: The root is the deepest node in the tree, and it's the lca of itself. Example 3: Input: root = [0,1,3,null,2] Output: [2] Explanation: The deepest leaf node in the tree is 2, the lca of one node is itself. Constraints: The number of nodes in the tree will be in the range [1, 1000]. 0 <= Node.val <= 1000 The values of the nodes in the tree are unique. Note: This question is the same as 865: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 ## Explanation
 
-This solution was accepted on LeetCode using Graph Theory. The detected topics are Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Tree For Placement (Copy-5chyqxsi). The detected topics are Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees. Review the synced source file for the implementation details.
