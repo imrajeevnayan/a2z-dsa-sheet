@@ -1,22 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Prime Arrangements
- * URL: https://leetcode.com/problems/prime-arrangements/submissions/2143450302/
+ * URL: https://leetcode.com/problems/prime-in-diagonal/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
- * Runtime: 0 ms
- * Memory: 42.05 MB
- * Synced: 2026-09-16T08:22:32.914Z
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T08:22:49.049Z
  */
 
-// Count primes
-            }
-        }
-                    isPrime[j] = false;
-                }
-                for (int j = i * i; j <= n; j += i) {
-        int primeCount = 0;
+= 0;
         for (int i = 2; i <= n; i++) {
             if (isPrime[i]) primeCount++;
         }
@@ -26,13 +20,12 @@
         long nonPrimeWays = factorial(nonPrimeCount);
 
         return (int)((primeWays * nonPrimeWays) % MOD);
-            if (isPrime[i]) {
-        for (int i = 2; i * i <= n; i++) {
-
-        // Sieve of Eratosthenes
-        isPrime[0] = isPrime[1] = false;
-        boolean[] isPrime = new boolean[n + 1];
-        Arrays.fill(isPrime, true);
-    public int numPrimeArrangements(int n) {
-class Solution {
-   static final long MOD = 1000000007;
+    }
+    private long factorial(int n) {
+        long ans = 1;
+        for (int i = 2; i <= n; i++) {
+            ans = (ans * i) % MOD;
+        }
+        return ans;
+    }
+}
