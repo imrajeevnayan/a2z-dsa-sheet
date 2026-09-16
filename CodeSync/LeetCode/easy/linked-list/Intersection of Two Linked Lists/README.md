@@ -1,13 +1,13 @@
 # Intersection of Two Linked Lists
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-- Synced: 2026-06-30T16:56:55.374Z
+- Runtime: 0 ms
+- Memory: 52.91 MB
+- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2143482450/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T09:04:32.480Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the heads of two singly linked-lists headA and headB, return the node at w
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
