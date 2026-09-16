@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-19T12:40:38.835Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-16T08:51:22.346Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Top 100 Liked",
   "problemTitle": "Reverse Linked List",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/",
-  "submissionId": "gphjah"
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "bdjys3"
 }
