@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-15T18:04:19.547Z",
+  "runtime": "2 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Design",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Range Sum Query",
+  "problemUrl": "https://leetcode.com/problems/range-sum-query-immutable/",
+  "submissionId": "sv1c0w"
+}
