@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T09:02:07.893Z",
+  "submissionTimestamp": "2026-09-16T09:02:57.109Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.73 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Top 100 Liked",
   "problemTitle": "Linked List Cycle II",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/submissions/2143480904/?envType=study-plan-v2&envId=top-100-liked",
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/?envType=study-plan-v2&envId=top-100-liked",
   "submissionId": "oet5qr"
 }
