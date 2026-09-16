@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle
- * URL: https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/linked-list-cycle/submissions/2143479556/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-16T08:59:48.871Z
+ * Runtime: 0 ms
+ * Memory: 46.12 MB
+ * Synced: 2026-09-16T09:00:36.059Z
  */
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
-    if (head == null || head.next == null) return false;
-    ListNode slow = head, fast = head;
-     while (fast != null && fast.next != null) {
-        slow = slow.next;
-        fast = fast.next.next;
-        if (slow == fast) return true;
-      }
-      return false;
+        ListNode slow = head, fast = head;
+        
+        while (fast != null && fast.next != null) {
+            slow = slow.next;      // 1 step
+            fast = fast.next.next; // 2 steps
+            
+            if (slow == fast) return true; // mil gaye = cycle hai
+        }
+        return false; // fast null tak pahunch gaya = no cycle
     }
 }
