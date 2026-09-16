@@ -6,8 +6,8 @@
 - Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-arrangements/description/
-- Synced: 2026-09-16T08:21:02.132Z
+- Problem URL: https://leetcode.com/problems/prime-arrangements/
+- Synced: 2026-09-16T08:21:47.300Z
 
 ## Problem Description
 
