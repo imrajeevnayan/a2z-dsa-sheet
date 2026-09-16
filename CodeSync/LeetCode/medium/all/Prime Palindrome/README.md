@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/prime-palindrome/description/
-- Synced: 2026-09-16T07:14:47.908Z
+- Synced: 2026-09-16T07:15:54.926Z
 
 ## Problem Description
 
