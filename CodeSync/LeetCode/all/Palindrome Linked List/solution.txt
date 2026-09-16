@@ -1,28 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Linked List
- * URL: https://leetcode.com/problems/palindrome-linked-list/?envType=problem-list-v2&envId=dapb7olr
- * Language: DSA Patterns by anubhav0910 (Copy-a0b4xdj1)
+ * URL: https://leetcode.com/problems/palindrome-linked-list/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-08-10T19:04:26.054Z
+ * Synced: 2026-09-16T09:09:41.309Z
  */
 
 class Solution {
     public boolean isPalindrome(ListNode head) {
-    Stack<Integer>st=new Stack<>();
-    ListNode curr=head;
-    while(curr!=null){
-        st.push(curr.val);
-        curr=curr.next;
-    }
-    curr=head;
-    while(curr!=null){
-        if(curr.val !=st.pop())return false;
-        curr=curr.next;
-    }
-    return true;
+        Stack<Integer> stack = new Stack<>();
+        ListNode curr = head;
+        
+        // Pass 1: saari values stack mein push karo
+        while (curr != null) {
+            stack.push(curr.val);
+            curr = curr.next;
+        }
+        
+        // Pass 2: aage se chalo, stack se pop (peeche se) — compare
+        curr = head;
+        while (curr != null) {
+            if (curr.val != stack.pop()) return false;
+            curr = curr.next;
+        }
+        return true;
     }
 }
