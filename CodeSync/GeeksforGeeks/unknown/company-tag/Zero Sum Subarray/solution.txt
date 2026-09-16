@@ -7,9 +7,25 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T06:22:46.953Z
+ * Synced: 2026-09-16T06:27:36.969Z
  */
 
-Input: arr[] = [4, 2, -3, 1, 6]
-Output: true
-Explanation: 2, -3, 1 is the subarray with a sum of 0.
+class Solution {
+    public boolean subArrayExists(int arr[]) {
+        Set<Integer> set = new HashSet<>();
+                int ans = 0;
+
+                for (int num : arr) {
+                    ans += num;
+
+                    // Agar prefix 0 ho ya pehle aa chuka ho
+                    if (ans == 0 || set.contains(ans)) {
+                        return true;
+                    }
+
+                    set.add(ans);
+                }
+
+        return false;
+    }
+}
