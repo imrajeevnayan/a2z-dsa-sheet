@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Sliding Window
+- Language: Tree For Placement (Copy-5chyqxsi)
 - Difficulty: Hard
-- Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
+- Topics: String, Tree, Depth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-15T08:03:19.244Z
+- Problem URL: https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/?envType=problem-list-v2&envId=djtxhcwd
+- Synced: 2026-09-16T20:27:40.445Z
 
 ## Problem Description
 
-Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap. Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "". Example 1: Input: s = "banana" Output: "ana" Example 2: Input: s = "abcd" Output: "" Constraints: 2 <= s.length <= 3 * 104 s consists of lowercase English letters.
+We run a preorder depth-first search (DFS) on the root of a binary tree. At each node in this traversal, we output D dashes (where D is the depth of this node), then we output the value of this node. If the depth of a node is D, the depth of its immediate child is D + 1. The depth of the root node is 0. If a node has only one child, that child is guaranteed to be the left child. Given the output traversal of this traversal, recover the tree and return its root. Example 1: Input: traversal = "1-2--3--4-5--6--7" Output: [1,2,5,3,4,6,7] Example 2: Input: traversal = "1-2--3---4-5--6---7" Output: [1,2,5,3,null,6,null,4,null,7] Example 3: Input: traversal = "1-401--349---90--88" Output: [1,401,null,349,88,90] Constraints: The number of nodes in the original tree is in the range [1, 1000]. 1 <= Node.val <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Tree For Placement (Copy-5chyqxsi). The detected topics are String, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
