@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
-- Synced: 2026-09-15T18:16:34.912Z
+- Synced: 2026-09-15T18:18:06.313Z
 
 ## Problem Description
 
