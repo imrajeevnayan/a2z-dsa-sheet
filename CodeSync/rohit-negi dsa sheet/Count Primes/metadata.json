@@ -1,20 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-16T07:08:35.479Z",
-  "runtime": "0 ms",
-  "memoryUsage": "79.82 MB",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-16T07:09:10.248Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Math",
-    "Enumeration",
-    "Number Theory",
-    "Primality Test",
-    "Sieve Theory",
-    "Prime Number Sieve"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/",
-  "submissionId": "hkigyb"
+  "problemUrl": "https://leetcode.com/problems/prime-palindrome/description/",
+  "submissionId": "lniz35"
 }
