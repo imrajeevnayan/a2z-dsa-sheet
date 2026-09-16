@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle
- * URL: https://leetcode.com/problems/linked-list-cycle/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T16:34:38.911Z
+ * Synced: 2026-09-16T08:59:48.871Z
  */
 
 public class Solution {
