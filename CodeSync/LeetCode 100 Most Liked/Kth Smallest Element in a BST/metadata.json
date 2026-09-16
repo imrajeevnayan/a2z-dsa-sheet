@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-16T20:34:18.774Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Kth Smallest Element in a BST",
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+  "submissionId": "m3ulty"
+}
