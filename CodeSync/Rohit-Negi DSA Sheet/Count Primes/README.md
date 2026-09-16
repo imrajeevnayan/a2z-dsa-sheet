@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 79.82 MB
 - Problem URL: https://leetcode.com/problems/count-primes/
-- Synced: 2026-09-16T07:05:19.512Z
+- Synced: 2026-09-16T07:06:06.909Z
 
 ## Problem Description
 
