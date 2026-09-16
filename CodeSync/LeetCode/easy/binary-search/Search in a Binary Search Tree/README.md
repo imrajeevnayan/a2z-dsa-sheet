@@ -4,10 +4,10 @@
 - Language: Tree For Placement (Copy-5chyqxsi)
 - Difficulty: Easy
 - Topics: Tree, Binary Search Tree, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-a-binary-search-tree/?envType=problem-list-v2&envId=djtxhcwd
-- Synced: 2026-09-16T20:31:31.495Z
+- Runtime: 0 ms
+- Memory: 46.57 MB
+- Problem URL: https://leetcode.com/problems/search-in-a-binary-search-tree/submissions/2144102364/?envType=problem-list-v2&envId=djtxhcwd
+- Synced: 2026-09-16T20:32:19.723Z
 
 ## Problem Description
 
