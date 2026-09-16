@@ -1,28 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle II
- * URL: https://leetcode.com/problems/linked-list-cycle-ii/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/linked-list-cycle-ii/submissions/2143480904/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Medium
- * Topics: Hash Table, Linked List, Two Pointers
+ * Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: 0 ms
- * Memory: 46.76 MB
- * Synced: 2026-06-16T07:53:25.163Z
+ * Memory: 46.73 MB
+ * Synced: 2026-09-16T09:02:07.893Z
  */
 
-class Solution {
+public class Solution {
     public ListNode detectCycle(ListNode head) {
-        ListNode slow = head,fast = head;
+        ListNode slow = head, fast = head;
+        
+        // Phase 1: meeting point dhundo
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) {
-                slow = head;
-                while (slow != fast) {
+                // Phase 2: ek pointer head se chalao
+                ListNode ptr = head;
+                while (ptr != slow) {
+                    ptr = ptr.next;
                     slow = slow.next;
-                    fast = fast.next;
                 }
-                return slow;
+                return slow; // dono cycle start pe mile
             }
         }
         return null;
+    }
+}
