@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-10T18:53:35.008Z",
+  "submissionTimestamp": "2026-09-16T10:59:23.311Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Matrix",
-    "Simulation"
+    "Design",
+    "Simulation",
+    "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Design",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/transpose-matrix/description/",
-  "submissionId": "xwifkn"
+  "problemUrl": "https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design",
+  "submissionId": "qwjs0r"
 }
