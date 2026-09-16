@@ -4325,5 +4325,9 @@
   "leetcode:recover-a-tree-from-preorder-traversal": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:search-in-a-binary-search-tree": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet"
   ]
 }
