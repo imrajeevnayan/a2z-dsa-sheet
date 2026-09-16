@@ -1,13 +1,13 @@
 # Range Sum Query
 
 - Platform: LeetCode
-- Language: Prefix Sum
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Design, Prefix Sum
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/range-sum-query-immutable/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:23:21.422Z
+- Problem URL: https://leetcode.com/problems/range-sum-query-immutable/
+- Synced: 2026-09-15T18:04:19.547Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums, handle multiple queries of the following type: Calc
 
 ## Explanation
 
-This solution was accepted on LeetCode using Prefix Sum. The detected topics are Array, Design, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Design, Prefix Sum. Review the synced source file for the implementation details.
