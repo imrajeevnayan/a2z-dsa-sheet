@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: 47.64 MB
 - Problem URL: https://leetcode.com/problems/range-sum-query-immutable/submissions/2142935208/
-- Synced: 2026-09-15T18:11:42.905Z
+- Synced: 2026-09-15T18:12:46.564Z
 
 ## Problem Description
 
