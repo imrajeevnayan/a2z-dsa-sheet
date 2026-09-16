@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Prime In Diagonal
+ * URL: https://leetcode.com/problems/prime-in-diagonal/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Math, Matrix, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T08:23:50.840Z
+ */
+
+class Solution {
+    public int diagonalPrime(int[][] nums) {
+        
+    }
+}
