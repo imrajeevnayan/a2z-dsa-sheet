@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-16T09:03:33.985Z",
+  "submissionTimestamp": "2026-09-16T10:59:23.311Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "Linked List",
-    "Two Pointers"
+    "Design",
+    "Simulation",
+    "Counting"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Design",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "99mf65"
+  "problemUrl": "https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design",
+  "submissionId": "qwjs0r"
 }
