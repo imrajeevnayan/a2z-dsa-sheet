@@ -1,32 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Search in a Binary Search Tree
- * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=problem-list-v2&envId=djtxhcwd
+ * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/?envType=problem-list-v2&envId=djtxhcwd
  * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Easy
  * Topics: Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:30:46.455Z
+ * Synced: 2026-09-16T20:31:31.495Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        
+
+\        if (root == null) {
+            return null;
+        }
+
+        // Value mil gayi
+        if (root.val == val) {
+            return root;
+        }
+
+        // Chhoti value left subtree mein hogi
+        if (val < root.val) {
+            return searchBST(root.left, val);
+        }
+
+        // Badi value right subtree mein hogi
+        return searchBST(root.right, val);
     }
 }
