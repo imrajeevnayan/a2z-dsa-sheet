@@ -3,14 +3,17 @@
  * Problem: Merge k Sorted Lists
  * URL: https://leetcode.com/problems/merge-k-sorted-lists/submissions/2143544973/?envType=study-plan-v2&envId=top-100-liked
  * Language: Top 100 Liked
- * Difficulty: Hard
- * Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
- * Runtime: 1 ms
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 6 ms
  * Memory: 47.12 MB
- * Synced: 2026-09-16T10:22:48.818Z
+ * Synced: 2026-09-16T10:28:07.958Z
  */
 
-PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        // Min-heap: sabse chhota val top pe
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
         
         // har list ka head daalo
         for (ListNode node : lists) {
@@ -32,6 +35,3 @@ PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
         return dummy.next;
     }
 }
-class Solution {
-    public ListNode mergeKLists(ListNode[] lists) {
-        // Min-heap: sabse chhota val top pe
