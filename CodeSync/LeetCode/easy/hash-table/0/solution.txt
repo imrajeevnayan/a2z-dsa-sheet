@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-nice-substring/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Sliding Window
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
- * Topics: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
+ * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:04:12.648Z
+ * Synced: 2026-09-16T09:03:33.985Z
  */
 
-class Solution {
-    public String longestNiceSubstring(String s) {
-        
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+        ListNode A = headA;
+        ListNode B = headB;
+        while (A != B) {
+            A = (A == null) ? headB : A.next;
+            B = (B == null) ? headA : B.next;
+        }
+        return B;
     }
 }
