@@ -4,10 +4,10 @@
 - Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Linked List, Recursion
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T08:51:22.346Z
+- Runtime: 0 ms
+- Memory: 44.49 MB
+- Problem URL: https://leetcode.com/problems/reverse-linked-list/submissions/2143473035/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T08:52:10.851Z
 
 ## Problem Description
 
