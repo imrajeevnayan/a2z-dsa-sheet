@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-16T20:27:40.445Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "submissionTimestamp": "2026-09-16T20:37:31.581Z",
+  "runtime": "1 ms",
+  "memoryUsage": "46.53 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "String",
-    "Tree",
-    "Depth-First Search",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Tree For Placement (Copy-5chyqxsi)",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/?envType=problem-list-v2&envId=djtxhcwd",
-  "submissionId": "x4fv14"
+  "problemUrl": "https://leetcode.com/submissions/detail/2144104522/",
+  "submissionId": "8sex3s"
 }
