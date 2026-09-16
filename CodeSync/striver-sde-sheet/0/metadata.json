@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory",
-    "Graph Coloring",
-    "Bipartite Graph"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "9uzafc"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n21mcp"
 }
