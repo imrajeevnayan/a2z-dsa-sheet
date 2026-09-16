@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-16T07:04:32.276Z
+ * Synced: 2026-09-16T07:05:19.512Z
  */
 
 class Solution {
@@ -23,6 +23,10 @@ class Solution {
             }
                     isPrime[j]=false;
                 }
-    }
         int count=0;
+        for(int i=2;i<n;i++){
+            if(isPrime[i])count++;
+        }
+    }
+        return count;
 }
