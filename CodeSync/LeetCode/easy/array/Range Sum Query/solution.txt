@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Range Sum Query
- * URL: https://leetcode.com/problems/range-sum-query-immutable/
+ * URL: https://leetcode.com/problems/range-sum-query-immutable/submissions/2142935208/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Design, Prefix Sum
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-09-15T18:04:19.547Z
+ * Memory: 47.64 MB
+ * Synced: 2026-09-15T18:06:00.906Z
  */
 
 class NumArray {
