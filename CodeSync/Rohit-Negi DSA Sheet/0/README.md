@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Design
-- Difficulty: Easy
-- Topics: Design, Simulation, Counting
+- Language: Dynamic Programming
+- Difficulty: Medium
+- Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design
-- Synced: 2026-09-16T10:59:23.311Z
+- Problem URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
+- Synced: 2026-09-16T11:59:25.150Z
 
 ## Problem Description
 
-Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size. Implement the ParkingSystem class: ParkingSystem(int big, int medium, int small) Initializes object of the ParkingSystem class. The number of slots for each parking space are given as part of the constructor. bool addCar(int carType) Checks whether there is a parking space of carType for the car that wants to get into the parking lot. carType can be of three kinds: big, medium, or small, which are represented by 1, 2, and 3 respectively. A car can only park in a parking space of its carType. If there is no space available, return false, else park the car in that size space and return true. Example 1: Input ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"] [[1, 1, 0], [1], [2], [3], [1]] Output [null, true, true, false, false] Explanation ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0); parkingSystem.addCar(1); // return true because there is 1 available slot for a big car parkingSystem.addCar(2); // return true because there is 1 available slot for a medium car parkingSystem.addCar(3); // return false because there is no available slot for a small car parkingSystem.addCar(1); // return false because there is no available slot for a big car. It is already occupied. Constraints: 0 <= big, medium, small <= 1000 carType is 1, 2, or 3 At most 1000 calls will be made to addCar
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police. Example 1: Input: nums = [1,2,3,1] Output: 4 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4. Example 2: Input: nums = [2,7,9,3,1] Output: 12 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1). Total amount you can rob = 2 + 9 + 1 = 12. Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 400
 
 ## Explanation
 
-This solution was accepted on LeetCode using Design. The detected topics are Design, Simulation, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
