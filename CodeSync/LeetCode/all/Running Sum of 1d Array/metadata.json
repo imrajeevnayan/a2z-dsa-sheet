@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-28T12:49:47.712Z",
+  "submissionTimestamp": "2026-09-15T17:55:47.848Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Prefix Sum",
+  "language": "Problem List",
   "problemTitle": "Running Sum of 1d Array",
-  "problemUrl": "https://leetcode.com/problems/running-sum-of-1d-array/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "r7dini"
+  "problemUrl": "https://leetcode.com/problems/running-sum-of-1d-array/",
+  "submissionId": "g59llw"
 }
