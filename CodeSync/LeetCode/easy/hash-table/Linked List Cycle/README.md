@@ -1,13 +1,13 @@
 # Linked List Cycle
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Top 100 Liked
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/
-- Synced: 2026-08-19T12:32:57.100Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-100-liked
+- Synced: 2026-09-16T08:59:48.871Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given head, the head of a linked list, determine if the linked list has a cycle 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm. Review the synced source file for the implementation details.
