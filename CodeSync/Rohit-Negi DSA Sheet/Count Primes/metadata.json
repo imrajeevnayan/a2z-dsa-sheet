@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-16T06:59:53.666Z",
+  "submissionTimestamp": "2026-09-16T07:00:41.912Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Primes",
-  "problemUrl": "https://leetcode.com/problems/count-primes/description/",
+  "problemUrl": "https://leetcode.com/problems/count-primes/",
   "submissionId": "vx4zat"
 }
