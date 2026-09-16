@@ -1,21 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-15T08:03:19.244Z",
+  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "tags": [
-    "String",
-    "Binary Search",
-    "Sliding Window",
-    "Rolling Hash",
-    "Suffix Array",
-    "Hash Function",
-    "Suffix Automaton",
-    "Suffix Tree"
+    "Hash Table",
+    "Linked List",
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "c444m3"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n21mcp"
 }
