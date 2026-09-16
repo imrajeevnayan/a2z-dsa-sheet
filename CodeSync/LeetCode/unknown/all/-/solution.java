@@ -1,25 +1,40 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/submissions/detail/2141174492/
+ * URL: https://leetcode.com/submissions/detail/2144104522/
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 24 ms
- * Memory: 49.14 MB
- * Synced: 2026-09-14T12:29:44.559Z
+ * Runtime: 1 ms
+ * Memory: 46.53 MB
+ * Synced: 2026-09-16T20:37:30.772Z
  */
 
 1class Solution {
-2      public int subarraySum(int[] arr, int k) {
-3        Map<Integer, Integer> map = new HashMap<>();
-4          map.put(0, 1);
-5         int sum = 0, count = 0;
-6          for (int n : arr) {
-7                 sum += n;
-8            if(map.containsKey(sum-k)) count+=map.get(sum-k);
-9            map.put(sum,map.getOrDefault(sum,0)+1); 
-10         }
-11         return count;
-12    }
-13}
+2    public int kthSmallest(TreeNode root, int k) {
+3
+4        Stack<TreeNode> stack = new Stack<>();
+5        TreeNode curr = root;
+6
+7        while (true) {
+8
+9            // Left side ke nodes stack mein daalo
+10            while (curr != null) {
+11                stack.push(curr);
+12                curr = curr.left;
+13            }
+14
+15            // Smallest remaining node
+16            curr = stack.pop();
+17            k--;
+18
+19            // kth smallest mil gaya
+20            if (k == 0) {
+21                return curr.val;
+22            }
+23
+24            // Ab right subtree explore karo
+25            curr = curr.right;
+26        }
+27    }
+28}
