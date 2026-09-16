@@ -1,50 +1,50 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/first-negative-integer-in-every-window-of-size-k_1164406
+ * URL: https://www.naukri.com/code360/problems/frequency-in-a-sorted-array_893286
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3830 ms
+ * Runtime: 3652 ms
  * Memory: N/A
- * Synced: 2026-09-12T16:26:00.284Z
+ * Synced: 2026-09-15T18:36:54.388Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.ArrayList;
+public class Solution {
+    public static int countOccurrences(int[] arr, int x) {
+        int first = findFirst(arr, x);
+        if (first == -1) {
+            return 0;
+        }
  
-public class Solution 
-{
-    public static ArrayList<Integer> firstNegativeInteger(
-        ArrayList<Integer> arr, int k, int n)
-    {
-        ArrayList<Integer> ans = new ArrayList<>();
-        Queue<Integer> q = new LinkedList<>();
+        int last = findLast(arr, x);
  
-        int left = 0;
+        return last - first + 1;
+    }
  
-        for (int right = 0; right < n; right++) {
+    private static int findFirst(int[] arr, int x) {
+        int low = 0, high = arr.length - 1;
+        int result = -1;
  
-            // Negative element ka INDEX store karo
-            if (arr.get(right) < 0) q.add(right);
-        
-            // Window size == k
-            if (right - left + 1 == k) {
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
  
-                // Window ke bahar ke negative indices remove karo
-                while (!q.isEmpty() && q.peek() < left) {
-                    q.poll();
-                }
-                // First negative
-                if (!q.isEmpty()) ans.add(arr.get(q.peek()));
-                else  ans.add(0);
-            
-                // Window slide
-                left++;
+            if (arr[mid] == x) {
+                result = mid;
+                high = mid - 1;
+            } else if (arr[mid] < x) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
  
-        return ans;
+        return result;
     }
-}
+ 
+    private static int findLast(int[] arr, int x) {
+        int low = 0, high = arr.length - 1;
+        int result = -1;
+ 
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
