@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Dsa Question For Interview (Copy-vdyfzxft)mj
+- Language: Design
 - Difficulty: Easy
-- Topics: Hash Table, String, Counting
+- Topics: Design, Simulation, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/description/?envType=problem-list-v2&envId=daaf5ssv
-- Synced: 2026-06-30T18:55:10.563Z
+- Problem URL: https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design
+- Synced: 2026-09-16T10:59:23.311Z
 
 ## Problem Description
 
-Two strings word1 and word2 are considered almost equivalent if the differences between the frequencies of each letter from 'a' to 'z' between word1 and word2 is at most 3. Given two strings word1 and word2, each of length n, return true if word1 and word2 are almost equivalent, or false otherwise. The frequency of a letter x is the number of times it occurs in the string. Example 1: Input: word1 = "aaaa", word2 = "bccb" Output: false Explanation: There are 4 'a's in "aaaa" but 0 'a's in "bccb". The difference is 4, which is more than the allowed 3. Example 2: Input: word1 = "abcdeef", word2 = "abaaacc" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 1 time in word1 and 4 times in word2. The difference is 3. - 'b' appears 1 time in word1 and 1 time in word2. The difference is 0. - 'c' appears 1 time in word1 and 2 times in word2. The difference is 1. - 'd' appears 1 time in word1 and 0 times in word2. The difference is 1. - 'e' appears 2 times in word1 and 0 times in word2. The difference is 2. - 'f' appears 1 time in word1 and 0 times in word2. The difference is 1. Example 3: Input: word1 = "cccddabba", word2 = "babababab" Output: true Explanation: The differences between the frequencies of each letter in word1 and word2 are at most 3: - 'a' appears 2 times in word1 and 4 times in word2. The difference is 2. - 'b' appears 2 times in word1 and 5 times in word2. The difference is 3. - 'c' appears 3 times in word1 and 0 times in word2. The difference is 3. - 'd' appears 2 times in word1 and 0 times in word2. The difference is 2. Constraints: n == word1.length == word2.length 1 <= n <= 100 word1 and word2 consist only of lowercase English letters.
+Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size. Implement the ParkingSystem class: ParkingSystem(int big, int medium, int small) Initializes object of the ParkingSystem class. The number of slots for each parking space are given as part of the constructor. bool addCar(int carType) Checks whether there is a parking space of carType for the car that wants to get into the parking lot. carType can be of three kinds: big, medium, or small, which are represented by 1, 2, and 3 respectively. A car can only park in a parking space of its carType. If there is no space available, return false, else park the car in that size space and return true. Example 1: Input ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"] [[1, 1, 0], [1], [2], [3], [1]] Output [null, true, true, false, false] Explanation ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0); parkingSystem.addCar(1); // return true because there is 1 available slot for a big car parkingSystem.addCar(2); // return true because there is 1 available slot for a medium car parkingSystem.addCar(3); // return false because there is no available slot for a small car parkingSystem.addCar(1); // return false because there is no available slot for a big car. It is already occupied. Constraints: 0 <= big, medium, small <= 1000 carType is 1, 2, or 3 At most 1000 calls will be made to addCar
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dsa Question For Interview (Copy-vdyfzxft)mj. The detected topics are Hash Table, String, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Design. The detected topics are Design, Simulation, Counting. Review the synced source file for the implementation details.
