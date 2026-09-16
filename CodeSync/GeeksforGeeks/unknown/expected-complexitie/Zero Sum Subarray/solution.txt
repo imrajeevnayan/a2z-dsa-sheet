@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T18:15:35.757Z
+ * Synced: 2026-09-15T18:16:34.912Z
  */
 
 class Solution {
