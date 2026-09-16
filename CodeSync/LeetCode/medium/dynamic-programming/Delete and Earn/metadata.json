@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-16T12:02:45.970Z",
+  "submissionTimestamp": "2026-09-16T12:03:39.651Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Dynamic Programming",
   "problemTitle": "Delete and Earn",
-  "problemUrl": "https://leetcode.com/problems/delete-and-earn/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "n0x1wn"
+  "problemUrl": "https://leetcode.com/problems/delete-and-earn/?envType=problem-list-v2&envId=dynamic-programming",
+  "submissionId": "kl33ex"
 }
