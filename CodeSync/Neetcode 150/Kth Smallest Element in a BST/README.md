@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-- Synced: 2026-09-16T20:36:00.483Z
+- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+- Synced: 2026-09-16T20:37:37.556Z
 
 ## Problem Description
 
