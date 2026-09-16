@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-16T08:21:02.132Z",
+  "submissionTimestamp": "2026-09-16T08:21:47.300Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Prime Arrangements",
-  "problemUrl": "https://leetcode.com/problems/prime-arrangements/description/",
-  "submissionId": "ri8qzz"
+  "problemUrl": "https://leetcode.com/problems/prime-arrangements/",
+  "submissionId": "8e3bhl"
 }
