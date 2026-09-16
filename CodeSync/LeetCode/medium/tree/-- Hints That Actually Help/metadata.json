@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-16T20:43:05.485Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree",
+    "Binary Lifting",
+    "Lowest Common Ancestor",
+    "DP on Trees"
+  ],
+  "platform": "LeetCode",
+  "language": "Tree For Placement (Copy-5chyqxsi)",
+  "problemTitle": "😇 Hints That Actually Help",
+  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd",
+  "submissionId": "ya0gmx"
+}
