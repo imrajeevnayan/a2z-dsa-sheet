@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T20:31:31.495Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-16T20:32:19.723Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.57 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Tree For Placement (Copy-5chyqxsi)",
   "problemTitle": "Search in a Binary Search Tree",
-  "problemUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/?envType=problem-list-v2&envId=djtxhcwd",
-  "submissionId": "7onanh"
+  "problemUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/submissions/2144102364/?envType=problem-list-v2&envId=djtxhcwd",
+  "submissionId": "tk7r0g"
 }
