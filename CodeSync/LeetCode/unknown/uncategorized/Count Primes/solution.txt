@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Primes
+ * URL: https://leetcode.com/problems/prime-palindrome/description/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-16T07:09:10.248Z
+ */
+
+class Solution {
+    public int countPrimes(int n) {
+        if (n <= 2) return 0;
+        boolean[] isPrime = new boolean[n];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = isPrime[1] = false;
+        // 2 ke multiples ko false karo
+        for (int i = 4; i < n; i += 2) {
+            isPrime[i] = false;
+        }
+        // Sirf odd numbers check karo
+        for (int i = 3; i * i < n; i += 2) {
+            if (isPrime[i]) {
+
+                for (int j = i * i; j < n; j += 2 * i) {
