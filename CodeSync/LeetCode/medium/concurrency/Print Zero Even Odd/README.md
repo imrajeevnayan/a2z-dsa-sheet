@@ -6,8 +6,8 @@
 - Topics: Concurrency
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/print-zero-even-odd/
-- Synced: 2026-07-10T09:51:43.333Z
+- Problem URL: https://leetcode.com/problems/print-zero-even-odd/description/
+- Synced: 2026-09-16T08:26:24.515Z
 
 ## Problem Description
 
