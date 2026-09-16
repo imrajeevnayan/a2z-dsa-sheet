@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-07-24T13:05:22.392Z",
+  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
+    "Hash Table",
     "Linked List",
-    "Math",
-    "Recursion"
+    "Two Pointers",
+    "Floyd's Cycle Finding Algorithm"
   ],
   "platform": "LeetCode",
-  "language": "Linked List",
+  "language": "Top 100 Liked",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/description/?envType=problem-list-v2&envId=linked-list",
-  "submissionId": "ku8vf0"
+  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+  "submissionId": "n21mcp"
 }
