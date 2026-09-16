@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked
+ * Language: Top 100 Liked
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-19T12:39:52.845Z
+ * Synced: 2026-09-16T08:51:22.346Z
  */
 
 class Solution {
