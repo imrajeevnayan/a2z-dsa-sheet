@@ -1,24 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/house-robber/submissions/2143614485/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: 42.60 MB
- * Synced: 2026-09-06T17:55:24.750Z
+ * Memory: 42.76 MB
+ * Synced: 2026-09-16T12:00:49.628Z
  */
 
-public int amount(int[] nums,int i,int[]dp){g
-        if(i>=nums.length)return 0;
-        if(dp[i]!=-1)return dp[i];
-        int take=nums[i]+amount(nums,i+2,dp);
-        int skip=0+amount(nums,i+1,dp);
-        return dp[i]= Math.max(take,skip);
-    }
-    public int rob(int[] nums) {
-        int dp[]=new int[nums.length];
-        return amount(nums,0,dp);
-        Arrays.fill(dp,-1);
 class Solution {
+    private int[] memo;
+    public int rob(int[] nums) {
+        memo = new int[nums.length];
+        Arrays.fill(memo, -1);                 // ⬅️ Line 1
+        return solve(nums, 0);                 // pehle ghar se shuru
+    }
+        private int solve(int[] nums, int i) {
+        if (i >= nums.length) return 0;        // ⚠️ BASE — sabse pehle!
+        
+        if (memo[i] != -1) return memo[i];     
+        
+        int take = nums[i] + solve(nums, i + 2);  // LOOTO i → i+1 PE ALARM! i+2 pe jao
+        int skip = solve(nums, i + 1);             // CHHODO i → aage chalo
+        
+        return memo[i] = Math.max(take, skip);    //  (store + return ek saath!)
+    }
+}
