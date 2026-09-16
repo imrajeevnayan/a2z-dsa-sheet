@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Math
+- Topics: Math, Primality Test, Sieve Theory, Prime Number Sieve
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/prime-arrangements/
-- Synced: 2026-07-23T10:40:26.062Z
+- Problem URL: https://leetcode.com/problems/prime-arrangements/description/
+- Synced: 2026-09-16T08:21:02.132Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Return the number of permutations of 1 to n so that prime numbers are at prime i
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, Primality Test, Sieve Theory, Prime Number Sieve. Review the synced source file for the implementation details.
