@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, FactSet, Hike, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T04:36:07.839Z
+ * Synced: 2026-09-17T04:37:37.508Z
  */
 
 class Solution {
