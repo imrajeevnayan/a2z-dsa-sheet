@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T11:59:25.150Z",
+  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "f5kvqy"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "1d9hz8"
 }
