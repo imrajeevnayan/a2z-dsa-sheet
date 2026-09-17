@@ -2,17 +2,54 @@
  * Platform: GeeksforGeeks
  * Problem: Container With Most Water
  * URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
- * Language: Java (21)
+ * Language: long long maxArea(long long A[], int len) { int lef=0; int rite=len-1; long long final=0; long long watt=0; while(lef<=rite){ watt=min(A[lef],A[rite])*(rite-lef); cout<<watt; final=max(final,watt); cout<<final; A[lef]<A[rite]?lef++:rite--; } return final; }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T18:07:16.530Z
+ * Synced: 2026-09-17T18:08:02.543Z
  */
 
 class Solution {
     public int maxWater(int arr[]) {
-        // Code Here
-        
+        int left = 0;
+        int right = arr.length - 1;
+        int maxWater = 0;
+
+        while (left < right) {
+            int height = Math.min(arr[left], arr[right]);
+            int width = right - left;
+
+            int water = height * width;
+            maxWater = Math.max(maxWater, water);
+
+            // Move the pointer with smaller height
+            if (arr[left] < arr[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return maxWater;
     }
-}
+}class Solution {
+    public int maxWater(int arr[]) {
+        int left = 0;
+        int right = arr.length - 1;
+        int maxWater = 0;
+
+        while (left < right) {
+            int height = Math.min(arr[left], arr[right]);
+            int width = right - left;
+
+            int water = height * width;
+            maxWater = Math.max(maxWater, water);
+
+            // Move the pointer with smaller height
+            if (arr[left] < arr[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
