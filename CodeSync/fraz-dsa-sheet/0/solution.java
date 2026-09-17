@@ -1,13 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
+ * URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
  * Language: Java
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T15:51:26.008Z
+ * Synced: 2026-09-17T03:59:46.836Z
  */
 
-[ Time taken: 24s ]
+Input: root = [3,1,4,null,2], k = 1
+Output: 1
