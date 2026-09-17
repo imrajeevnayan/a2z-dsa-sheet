@@ -1,18 +1,18 @@
 # Container With Most Water
 
-- Platform: LeetCode
-- Language: Problem List
-- Difficulty: Medium
-- Topics: Array, Two Pointers, Greedy
+- Platform: GeeksforGeeks
+- Language: Java (21)
+- Difficulty: Unknown
+- Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
-- Synced: 2026-08-21T17:02:24.686Z
+- Problem URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
+- Synced: 2026-09-17T18:07:16.530Z
 
 ## Problem Description
 
-You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]). Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store. Notice that you may not slant the container. Example 1: Input: height = [1,8,6,2,5,4,8,3,7] Output: 49 Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49. Example 2: Input: height = [1,1] Output: 1 Constraints: n == height.length 2 <= n <= 105 0 <= height[i] <= 104
+Given an array arr[] of non-negative integers, where each element arr[i] represents the height of the vertical lines, find the maximum amount of water that can be contained between any two lines, together with the x-axis. Note: In the case of a single vertical line it will not be able to hold water. Examples: Input: arr[] = [1, 5, 4, 3] Output: 6 Explanation: 5 and 3 are 2 distance apart. So the size of the base is 2. Height of container = min(5, 3) = 3. So, total area to hold water = 3 * 2 = 6. Input: arr[] = [3, 1, 2, 4, 5] Output: 12 Explanation: 5 and 3 are 4 distance apart. So the size of the base is 4. Height of container = min(5, 3) = 3. So, total area to hold water = 4 * 3 = 12. Input: arr[] = [2, 1, 8, 6, 4, 6, 5, 5] Output: 25 Explanation: 8 and 5 are 5 distance apart. So the size of the base is 5. Height of container = min(8, 5) = 5. So, the total area to hold water = 5 * 5 = 25. Constraints: 1 ≤ arr.size() ≤ 105 0 ≤ arr[i] ≤ 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Greedy. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays. Review the synced source file for the implementation details.
