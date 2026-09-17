@@ -7,12 +7,19 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Morgan Stanley, Amazon, D-E-Shaw, FactSet
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T10:04:12.980Z
+ * Synced: 2026-09-17T04:25:48.217Z
  */
 
 class Solution {
     boolean isPalindrome(String s) {
-        // code here
+        String s1=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        int left=0,right=s1.length()-1;
+        while(left<right){
+            if(s1.charAt(left)!=s1.charAt(right))return false;
+            left++;
+            right--;
+        }
+        return true;
         
     }
 }
