@@ -1,31 +1,18 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Container With Most Water
- * URL: https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Two Pointers, Greedy
+ * URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T17:02:24.686Z
+ * Synced: 2026-09-17T18:07:16.530Z
  */
 
 class Solution {
-    public int maxArea(int[] height) {
-        int left = 0, right = height.length - 1;
-        int maxWater = 0;
-
-        while (left < right) {
-            int currentHeight = Math.min(height[left], height[right]);
-            int width = right - left;
-            maxWater = Math.max(maxWater, currentHeight * width);
-
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
-        return maxWater;
+    public int maxWater(int arr[]) {
+        // Code Here
+        
     }
 }
