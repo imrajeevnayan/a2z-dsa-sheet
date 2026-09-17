@@ -1,13 +1,13 @@
 # Reverse String Prefix
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Two Pointers (Copy-two-pointers)
 - Difficulty: Easy
 - Topics: Two Pointers, String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-string-prefix/
-- Synced: 2026-07-18T18:13:11.373Z
+- Memory: 44.69 MB
+- Problem URL: https://leetcode.com/problems/reverse-string-prefix/submissions/2144108428/?envType=problem-list-v2&envId=da2mv5gs
+- Synced: 2026-09-16T20:45:15.480Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string s and an integer k. Reverse the first k characters of s a
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
