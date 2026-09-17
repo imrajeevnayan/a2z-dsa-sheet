@@ -4348,11 +4348,9 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:striver-sde-sheet",
-    "LoveBabbar450",
-    "StriverSDE",
     "custom:Rohit-Negi_DSA_Sheet",
-    "custom:love-babbar-dsa-sheet",
-    "custom:rohit-negi_dsa_sheet"
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet"
   ],
   "leetcode:lowest-common-ancestor-of-deepest-leaves": [],
   "leetcode:reverse-string-prefix": [
