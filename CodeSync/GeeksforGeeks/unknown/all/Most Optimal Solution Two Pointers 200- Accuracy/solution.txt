@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, Related Articles, Pair With Given Sum In Sorted Array Two Sum Ii
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T17:46:11.348Z
+ * Synced: 2026-09-17T17:46:59.333Z
  */
 
 class Solution {
