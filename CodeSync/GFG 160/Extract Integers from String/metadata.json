@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-17T04:27:27.310Z",
+  "submissionTimestamp": "2026-09-17T05:47:32.762Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,8 +12,8 @@
     "Extract All Integers From A Given String"
   ],
   "platform": "GeeksforGeeks",
-  "language": "// User function Template for Java import java.util.*; class Solution { ArrayList<String> extractIntegerWords(String s) { ArrayList<String> res = new ArrayList<>(); String temp=\"\"; for(int i=0;i<s.length();i++){ char ch=s.charAt(i); if(Character.isDigit(ch)){ temp+=ch; }else{ if(!temp.isEmpty()){ res.add(temp); temp=\"\"; } } } if(!temp.isEmpty()){ res.add(temp); } return res; } }",
+  "language": "Java (21)",
   "problemTitle": "Extract Integers from String",
   "problemUrl": "https://www.geeksforgeeks.org/problems/extract-the-integers4428/1",
-  "submissionId": "oo0lzp"
+  "submissionId": "x82qms"
 }
