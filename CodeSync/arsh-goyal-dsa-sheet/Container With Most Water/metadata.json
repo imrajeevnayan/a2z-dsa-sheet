@@ -1,16 +1,21 @@
 {
-  "submissionTimestamp": "2026-08-21T17:02:24.686Z",
+  "submissionTimestamp": "2026-09-17T18:07:16.530Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Two Pointers",
-    "Greedy"
+    "Expected Complexities",
+    "Company Tags FlipkartAmazonGoogle",
+    "Company Tags",
+    "Flipkart",
+    "Amazon",
+    "Google",
+    "Topic Tags",
+    "Arrays"
   ],
-  "platform": "LeetCode",
-  "language": "Problem List",
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
   "problemTitle": "Container With Most Water",
-  "problemUrl": "https://leetcode.com/problems/container-with-most-water/description/?spm=a2ty_o01.29997173.0.0.2fbe55fbo2dsnL",
-  "submissionId": "4ngi11"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/container-with-most-water0535/1",
+  "submissionId": "mkzp7e"
 }
