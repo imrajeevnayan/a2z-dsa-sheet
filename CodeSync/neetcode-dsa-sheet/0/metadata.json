@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T09:01:22.745Z",
+  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "Linked List",
-    "Two Pointers",
-    "Floyd's Cycle Finding Algorithm"
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "n21mcp"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "1d9hz8"
 }
