@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, Related Articles, Pair With Given Sum In Sorted Array Two Sum Ii
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T17:38:55.341Z
+ * Synced: 2026-09-17T17:39:47.340Z
  */
 
 class Solution {
@@ -25,14 +25,10 @@ class Solution {
                 result.add(right + 1);
                 return result;
             } 
-            else if (sum < target) {
-                left++;
-            } 
-            else {
-                right--;
-            }
+            else if (sum < target) left++;
+            else  right--;
+            
         }
-
         result.add(-1);
         result.add(-1);
         return result;
