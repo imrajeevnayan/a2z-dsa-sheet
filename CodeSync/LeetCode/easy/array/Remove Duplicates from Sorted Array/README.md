@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:54:11.479Z
+- Synced: 2026-09-16T20:54:57.983Z
 
 ## Problem Description
 
