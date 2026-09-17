@@ -7,15 +7,31 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, FactSet, Hike, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T04:39:56.352Z
+ * Synced: 2026-09-17T04:40:51.910Z
  */
 
 class Solution {
     public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) {
-        HashSet<Integer>set=new HashSet<>();
-        for(int x: arr){
-            int rem=-x;
-            if(set.contains(rem))
+
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int x : arr) {
+
+            int rem = -x;
+
+            if (set.contains(rem)) {
+
+                ArrayList<Integer> pair = new ArrayList<>();
+                pair.add(rem);
+                pair.add(x);
+
+                ans.add(pair);
+            }
+
+            set.add(x);
         }
+
+        return ans;
     }
 }
