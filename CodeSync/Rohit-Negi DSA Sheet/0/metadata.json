@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T20:44:18.308Z",
+  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Two Pointers (Copy-two-pointers)",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs",
-  "submissionId": "xtpkc0"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "1d9hz8"
 }
