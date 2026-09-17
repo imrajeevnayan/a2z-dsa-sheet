@@ -1,21 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-16T20:42:16.530Z",
+  "submissionTimestamp": "2026-09-16T20:44:18.308Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "Tree",
-    "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree",
-    "Binary Lifting",
-    "Lowest Common Ancestor",
-    "DP on Trees"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
-  "language": "Tree For Placement (Copy-5chyqxsi)",
+  "language": "Two Pointers (Copy-two-pointers)",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd",
-  "submissionId": "debd34"
+  "problemUrl": "https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs",
+  "submissionId": "xtpkc0"
 }
