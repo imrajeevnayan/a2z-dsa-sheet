@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:51:02.665Z
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=da2mv5gs
+- Synced: 2026-09-16T20:51:51.483Z
 
 ## Problem Description
 
