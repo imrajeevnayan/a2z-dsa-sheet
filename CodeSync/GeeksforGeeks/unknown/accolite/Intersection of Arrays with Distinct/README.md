@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/intersection-of-two-arrays2404/1
-- Synced: 2026-09-17T17:25:38.289Z
+- Synced: 2026-09-17T17:26:37.183Z
 
 ## Problem Description
 
