@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Two Pointers (Copy-two-pointers)
-- Difficulty: Easy
-- Topics: Two Pointers, String
+- Language: Java
+- Difficulty: Medium
+- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:44:18.308Z
+- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+- Synced: 2026-09-17T03:59:46.836Z
 
 ## Problem Description
 
-You are given a string s and an integer k. Reverse the first k characters of s and return the resulting string. Example 1: Input: s = "abcd", k = 2 Output: "bacd" Explanation:​​​​​​​ The first k = 2 characters "ab" are reversed to "ba". The final resulting string is "bacd". Example 2: Input: s = "xyz", k = 3 Output: "zyx" Explanation: The first k = 3 characters "xyz" are reversed to "zyx". The final resulting string is "zyx". Example 3: Input: s = "hey", k = 1 Output: "hey" Explanation: The first k = 1 character "h" remains unchanged on reversal. The final resulting string is "hey". Constraints: 1 <= s.length <= 100 s consists of lowercase English letters. 1 <= k <= s.length
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
