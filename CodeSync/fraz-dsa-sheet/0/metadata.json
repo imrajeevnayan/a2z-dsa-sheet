@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-10T12:26:04.382Z",
+  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
+    "Tree",
     "Depth-First Search",
-    "Breadth-First Search",
-    "Union-Find",
-    "Graph Theory",
-    "Graph Coloring",
-    "Bipartite Graph"
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Graph Theory",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph",
-  "submissionId": "9uzafc"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "1d9hz8"
 }
