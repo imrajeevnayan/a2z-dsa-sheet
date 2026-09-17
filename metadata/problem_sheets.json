@@ -4354,5 +4354,11 @@
     "custom:love-babbar-dsa-sheet",
     "custom:rohit-negi_dsa_sheet"
   ],
-  "leetcode:lowest-common-ancestor-of-deepest-leaves": []
+  "leetcode:lowest-common-ancestor-of-deepest-leaves": [],
+  "leetcode:reverse-string-prefix": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet"
+  ]
 }
