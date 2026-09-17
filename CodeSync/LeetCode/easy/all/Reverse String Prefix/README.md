@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 44.69 MB
 - Problem URL: https://leetcode.com/problems/reverse-string-prefix/submissions/2144108428/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:47:22.976Z
+- Synced: 2026-09-16T20:48:24.488Z
 
 ## Problem Description
 
