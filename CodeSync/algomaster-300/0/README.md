@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Top 100 Liked
-- Difficulty: Hard
-- Topics: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort
+- Language: Java
+- Difficulty: Medium
+- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-09-16T10:22:03.788Z
+- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+- Synced: 2026-09-17T03:59:46.836Z
 
 ## Problem Description
 
-You are given an array of k linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it. Example 1: Input: lists = [[1,4,5],[1,3,4],[2,6]] Output: [1,1,2,3,4,4,5,6] Explanation: The linked-lists are: [ 1->4->5, 1->3->4, 2->6 ] merging them into one sorted linked list: 1->1->2->3->4->4->5->6 Example 2: Input: lists = [] Output: [] Example 3: Input: lists = [[]] Output: [] Constraints: k == lists.length 0 <= k <= 104 0 <= lists[i].length <= 500 -104 <= lists[i][j] <= 104 lists[i] is sorted in ascending order. The sum of lists[i].length will not exceed 104.
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort, Tournament Sort. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
