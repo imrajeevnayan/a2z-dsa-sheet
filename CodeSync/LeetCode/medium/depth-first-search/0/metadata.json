@@ -1,21 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T20:42:16.530Z",
+  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
     "Tree",
     "Depth-First Search",
-    "Breadth-First Search",
-    "Binary Tree",
-    "Binary Lifting",
-    "Lowest Common Ancestor",
-    "DP on Trees"
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Tree For Placement (Copy-5chyqxsi)",
+  "language": "Java",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd",
-  "submissionId": "debd34"
+  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+  "submissionId": "1d9hz8"
 }
