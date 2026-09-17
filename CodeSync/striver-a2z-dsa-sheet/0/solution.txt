@@ -1,24 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
  * Difficulty: Easy
- * Topics: Hash Table, Linked List, Two Pointers
+ * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T09:03:33.985Z
+ * Synced: 2026-09-16T20:44:18.308Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) return null;
-        ListNode A = headA;
-        ListNode B = headB;
-        while (A != B) {
-            A = (A == null) ? headB : A.next;
-            B = (B == null) ? headA : B.next;
+class Solution {
+    public String reversePrefix(String s, int k) {
+        char[] arr = s.toCharArray();
+
+        int left = 0, right = k-1;
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
-        return B;
+        return new String(arr);
     }
 }
