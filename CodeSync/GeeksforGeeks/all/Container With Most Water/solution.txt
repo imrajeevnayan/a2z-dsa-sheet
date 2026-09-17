@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T18:08:02.543Z
+ * Synced: 2026-09-17T18:08:55.155Z
  */
 
 class Solution {
@@ -23,7 +23,7 @@ class Solution {
             int water = height * width;
             maxWater = Math.max(maxWater, water);
 
-            // Move the pointer with smaller height
+            // Chhoti height wale pointer ko move karo
             if (arr[left] < arr[right]) {
                 left++;
             } else {
@@ -33,23 +33,4 @@ class Solution {
 
         return maxWater;
     }
-}class Solution {
-    public int maxWater(int arr[]) {
-        int left = 0;
-        int right = arr.length - 1;
-        int maxWater = 0;
-
-        while (left < right) {
-            int height = Math.min(arr[left], arr[right]);
-            int width = right - left;
-
-            int water = height * width;
-            maxWater = Math.max(maxWater, water);
-
-            // Move the pointer with smaller height
-            if (arr[left] < arr[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
+}
