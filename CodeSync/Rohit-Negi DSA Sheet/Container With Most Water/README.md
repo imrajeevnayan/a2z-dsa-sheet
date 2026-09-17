@@ -1,13 +1,13 @@
 # Container With Most Water
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: long long maxArea(long long A[], int len) { int lef=0; int rite=len-1; long long final=0; long long watt=0; while(lef<=rite){ watt=min(A[lef],A[rite])*(rite-lef); cout<<watt; final=max(final,watt); cout<<final; A[lef]<A[rite]?lef++:rite--; } return final; }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
-- Synced: 2026-09-17T18:07:16.530Z
+- Synced: 2026-09-17T18:08:02.543Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[] of non-negative integers, where each element arr[i] represe
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using long long maxArea(long long A[], int len) { int lef=0; int rite=len-1; long long final=0; long long watt=0; while(lef<=rite){ watt=min(A[lef],A[rite])*(rite-lef); cout<<watt; final=max(final,watt); cout<<final; A[lef]<A[rite]?lef++:rite--; } return final; }. The detected topics are Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays. Review the synced source file for the implementation details.
