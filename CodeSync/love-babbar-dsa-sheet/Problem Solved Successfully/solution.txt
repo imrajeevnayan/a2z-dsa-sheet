@@ -1,46 +1,45 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
+ * Language: class Solution { public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) { Arrays.sort(arr); ArrayList<ArrayList<Integer>> ans = new ArrayList<>(); int start = 0; int end = arr.length - 1; while (start < end) { if (arr[start] + arr[end] == 0) { ans.add(new ArrayList<>(Arrays.asList(arr[start], arr[end]))); start++; end--; while (start < end && arr[start] == arr[start - 1]) { start++; } while (start < end && arr[end] == arr[end + 1]) { end--; } } else if (arr[start] + arr[end] < 0) { start++; } else { end--; } } return ans; } }
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T03:20:59.904Z
+ * Synced: 2026-09-17T04:42:16.281Z
  */
 
 class Solution {
-    public static int smallestSubWithSum(int x, int[] arr) {
+    public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+          Arrays.sort(arr);
+        int left = 0,right = arr.length - 1;
+         while (left < right) {
+            int sum = arr[left] + arr[right];
+            if (sum == 0) {
+                ArrayList<Integer> pair = new ArrayList<>();
+                pair.add(arr[left++]);
+                pair.add(arr[right--]);
+                result.add(pair);
+                //left++;
+                //right--;
+                // Skip duplicate values from the left to avoid repeating the same pair
+                while (left < right && arr[left] == arr[left - 1]) {
+                    left++;
+                }
+                // Skip duplicate values from the right
+                while (left < right && arr[right] == arr[right + 1]) {
+                    right--;
+                }
 
-        int n = arr.length;
-
-        int left = 0;
-        int sum = 0;
-        int minLen = n + 1;
-
-        for (int right = 0; right < n; right++) {
-
-            // Right se element window mein add karo
-            sum += arr[right];
-
-            // Jab sum > x ho gaya
-            while (sum > x) {
-
-                // Current window ki length
-                minLen = Math.min(minLen, right - left + 1);
-
-                // Left se element remove karo
-                sum -= arr[left];
+            } else if (sum < 0) {
                 left++;
+            } else {
+                right--;
             }
         }
 
-        // Koi valid subarray nahi mila
-        if (minLen == n + 1) {
-            return 0;
-        }
-
-        return minLen;
+        return result;
     }
 }
