@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-17T17:32:48.390Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "two-pointer-algorithm",
+    "Arrays",
+    "Related Articles",
+    "Longest Subarray Non Negative Integers"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int longestSubarry( vector< int >& arr ) { int longest{}, current{}; for ( const int num : arr ) if ( num < 0 ) { longest = max( longest, current ); current = 0; } else ++current; return max( longest, current ); }",
+  "problemTitle": "Length of longest subarray",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/length-of-longest-subarray0440/1",
+  "submissionId": "l9u36z"
+}
