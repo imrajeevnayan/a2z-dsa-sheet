@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 58.74 MB
 - Problem URL: https://leetcode.com/problems/3sum/
-- Synced: 2026-09-17T07:05:45.678Z
+- Synced: 2026-09-17T07:06:33.677Z
 
 ## Problem Description
 
