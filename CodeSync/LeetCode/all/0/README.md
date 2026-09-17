@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Java
-- Difficulty: Unknown
-- Topics: Uncategorized
-- Runtime: 1 ms
-- Memory: 46.53 MB
-- Problem URL: https://leetcode.com/submissions/detail/2144104522/
-- Synced: 2026-09-16T20:37:31.581Z
+- Difficulty: Medium
+- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+- Synced: 2026-09-17T03:59:46.836Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
