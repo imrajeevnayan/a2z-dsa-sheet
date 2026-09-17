@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
-- Synced: 2026-09-16T20:46:18.486Z
+- Synced: 2026-09-16T20:49:18.476Z
 
 ## Problem Description
 
