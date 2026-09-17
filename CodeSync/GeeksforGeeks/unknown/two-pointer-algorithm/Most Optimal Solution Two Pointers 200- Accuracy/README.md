@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/two-sum-in-sorted-array/1
-- Synced: 2026-09-17T17:34:55.342Z
+- Synced: 2026-09-17T17:35:43.436Z
 
 ## Problem Description
 
