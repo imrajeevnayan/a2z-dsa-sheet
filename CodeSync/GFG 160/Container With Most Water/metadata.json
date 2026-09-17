@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-17T18:08:02.543Z",
+  "submissionTimestamp": "2026-09-17T18:08:55.155Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "long long maxArea(long long A[], int len) { int lef=0; int rite=len-1; long long final=0; long long watt=0; while(lef<=rite){ watt=min(A[lef],A[rite])*(rite-lef); cout<<watt; final=max(final,watt); cout<<final; A[lef]<A[rite]?lef++:rite--; } return final; }",
   "problemTitle": "Container With Most Water",
   "problemUrl": "https://www.geeksforgeeks.org/problems/container-with-most-water0535/1",
-  "submissionId": "rxdnyi"
+  "submissionId": "imw0xl"
 }
