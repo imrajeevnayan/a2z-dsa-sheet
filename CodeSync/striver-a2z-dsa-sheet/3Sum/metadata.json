@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-17T04:30:58.251Z",
+  "submissionTimestamp": "2026-09-17T04:31:45.828Z",
   "runtime": "1 ms",
   "memoryUsage": "58.74 MB",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/submissions/2144294060/",
-  "submissionId": "6auwu9"
+  "problemUrl": "https://leetcode.com/problems/3sum/",
+  "submissionId": "wopfem"
 }
