@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Balanced Tree Check
+ * URL: https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftWalmart, Company Tags, Amazon, Microsoft, Walmart, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T11:56:50.045Z
+ */
+
+/* Structure of binary tree node
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int d)
+    {
+        data = d;
+        left = right = null;
+    }
+}*/
+
+class Solution {
+    public boolean isBalanced(Node root) {
+        // code here
+        
+    }
+}
