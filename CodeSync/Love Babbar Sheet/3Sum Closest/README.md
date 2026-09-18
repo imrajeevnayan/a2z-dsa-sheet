@@ -5,13 +5,13 @@
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 1 ms
-- Memory: 45.70 MB
-- Problem URL: https://leetcode.com/problems/3sum-closest/submissions/2050802810/
-- Synced: 2026-06-30T05:59:24.166Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/3sum-closest/
+- Synced: 2026-09-18T12:47:46.854Z
 
 ## Problem Description
 
-Given an integer array nums of length n and an integer target, find three integers at distinct indices in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution. Example 1: Input: nums = [-1,2,1,-4], target = 1 Output: 2 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2). Example 2: Input: nums = [0,0,0], target = 1 Output: 0 Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0). Constraints: 3 <= nums.length <= 500 -1000 <= nums[i] <= 1000 -104 <= target <= 104
+You are given an integer array nums of length n and an integer target. Find three integers at distinct indices in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution. Example 1: Input: nums = [-1,2,1,-4], target = 1 Output: 2 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2). Example 2: Input: nums = [0,0,0], target = 1 Output: 0 Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0). Constraints: 3 <= nums.length <= 500 -1000 <= nums[i] <= 1000 -104 <= target <= 104
 
 ## Explanation
 
