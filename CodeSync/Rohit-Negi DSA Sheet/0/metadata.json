@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
+  "submissionTimestamp": "2026-09-18T17:17:28.291Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Array",
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
-  "submissionId": "1d9hz8"
+  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "pgx0m"
 }
