@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Design
+- Language: Two Pointers
 - Difficulty: Easy
-- Topics: Design, Simulation, Counting
+- Topics: Array, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/design-parking-system/description/?envType=problem-list-v2&envId=design
-- Synced: 2026-09-16T10:59:23.311Z
+- Problem URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T17:17:28.291Z
 
 ## Problem Description
 
-Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size. Implement the ParkingSystem class: ParkingSystem(int big, int medium, int small) Initializes object of the ParkingSystem class. The number of slots for each parking space are given as part of the constructor. bool addCar(int carType) Checks whether there is a parking space of carType for the car that wants to get into the parking lot. carType can be of three kinds: big, medium, or small, which are represented by 1, 2, and 3 respectively. A car can only park in a parking space of its carType. If there is no space available, return false, else park the car in that size space and return true. Example 1: Input ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"] [[1, 1, 0], [1], [2], [3], [1]] Output [null, true, true, false, false] Explanation ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0); parkingSystem.addCar(1); // return true because there is 1 available slot for a big car parkingSystem.addCar(2); // return true because there is 1 available slot for a medium car parkingSystem.addCar(3); // return false because there is no available slot for a small car parkingSystem.addCar(1); // return false because there is no available slot for a big car. It is already occupied. Constraints: 0 <= big, medium, small <= 1000 carType is 1, 2, or 3 At most 1000 calls will be made to addCar
+You have an array of floating point numbers averages which is initially empty. You are given an array nums of n integers where n is even. You repeat the following procedure n / 2 times: Remove the smallest element, minElement, and the largest element maxElement, from nums. Add (minElement + maxElement) / 2 to averages. Return the minimum element in averages. Example 1: Input: nums = [7,8,3,4,15,13,4,1] Output: 5.5 Explanation: step nums averages 0 [7,8,3,4,15,13,4,1] [] 1 [7,8,3,4,13,4] [8] 2 [7,8,4,4] [8,8] 3 [7,4] [8,8,6] 4 [] [8,8,6,5.5] The smallest element of averages, 5.5, is returned. Example 2: Input: nums = [1,9,8,3,10,5] Output: 5.5 Explanation: step nums averages 0 [1,9,8,3,10,5] [] 1 [9,8,3,5] [5.5] 2 [8,5] [5.5,6] 3 [] [5.5,6,6.5] Example 3: Input: nums = [1,2,3,7,8,9] Output: 5.0 Explanation: step nums averages 0 [1,2,3,7,8,9] [] 1 [2,3,7,8] [5] 2 [3,7] [5,5] 3 [] [5,5,5] Constraints: 2 <= n == nums.length <= 50 n is even. 1 <= nums[i] <= 50
 
 ## Explanation
 
-This solution was accepted on LeetCode using Design. The detected topics are Design, Simulation, Counting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers, Sorting. Review the synced source file for the implementation details.
