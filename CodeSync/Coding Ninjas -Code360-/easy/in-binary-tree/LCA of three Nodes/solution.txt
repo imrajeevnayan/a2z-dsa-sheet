@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/right-view_764605
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: in Binary Trees
+ * Runtime: 4373 ms
+ * Memory: N/A
+ * Synced: 2026-09-18T07:52:04.917Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static ArrayList<Integer> printRightView(BinaryTreeNode<Integer> root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null) return ans;
+ 
+       Queue<BinaryTreeNode<Integer>> q = new LinkedList<>();
+        q.add(root);
+ 
+       while (!q.isEmpty()) {
+        int size = q.size();
+ 
+        for (int i = 0; i < size; i++) {
+            BinaryTreeNode<Integer> curr = q.poll();
+ 
+            // Last node of the level
+            if (i == size - 1) {
+                ans.add(curr.data);
+            }
+ 
+            if (curr.left != null) q.add(curr.left);
+            if (curr.right != null) q.add(curr.right);
+        }
+    }
+ 
+    return ans;
+    }
+}
