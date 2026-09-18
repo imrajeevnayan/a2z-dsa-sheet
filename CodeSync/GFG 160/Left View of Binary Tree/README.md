@@ -1,13 +1,13 @@
 # Left View of Binary Tree
 
 - Platform: GeeksforGeeks
-- Language: vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Samsung
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
-- Synced: 2026-09-18T10:48:55.434Z
+- Synced: 2026-09-18T10:51:56.949Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree. Return the left view of the binary tree. The le
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }. The detected topics are Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Samsung. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Samsung. Review the synced source file for the implementation details.
