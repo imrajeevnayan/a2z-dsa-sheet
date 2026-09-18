@@ -1,24 +1,38 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+ * Language: vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-30T11:58:40.973Z
+ * Synced: 2026-09-18T06:32:56.998Z
  */
 
 class Solution {
-    int missingNum(int arr[]) {
-        int n=arr.length+1;
-        int res=0;
-        for(int i=0;i<=n;i++){
-            res^=i;
+    public ArrayList<Integer> leftView(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null)  return ans;
+    
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+
+            // First node of current level
+            ans.add(queue.peek().data);
+
+            // Process current level
+            for (int i = 0; i < size; i++) {
+                Node curr = queue.poll();
+
+                if (curr.left != null) queue.add(curr.left);
+                if (curr.right != null)  queue.add(curr.right);
+                
+            }
         }
-        for(int num :arr) res^=num;
-        return res;
-        
+        return ans;
     }
 }
