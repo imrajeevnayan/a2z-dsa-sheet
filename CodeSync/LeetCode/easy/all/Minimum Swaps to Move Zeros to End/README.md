@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T17:23:03.520Z
+- Synced: 2026-09-18T17:24:43.905Z
 
 ## Problem Description
 
