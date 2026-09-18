@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Snapdeal, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T10:38:10.622Z
+ * Synced: 2026-09-18T10:39:04.515Z
  */
 
 class Solution {
@@ -22,7 +22,7 @@ class Solution {
                for (int i = 0; i < size; i++) {
                    Node curr = q.poll();
 
-                   if (i == 0) {
+                   if (i == size-1) {
                        ans.add(curr.data);
                    }
 
@@ -36,9 +36,6 @@ class Solution {
                }
            }
 
-           return ans; ArrayList<Integer>ans=new ArrayList<>();
-        if (root == null) return ans;
-
-        
+           return ans; 
     }
 }
