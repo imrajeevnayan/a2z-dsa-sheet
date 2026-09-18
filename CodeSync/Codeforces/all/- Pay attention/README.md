@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://codeforces.com/problemset/submit
-- Synced: 2026-09-18T09:41:09.655Z
+- Synced: 2026-09-18T09:41:55.195Z
 
 ## Problem Description
 
