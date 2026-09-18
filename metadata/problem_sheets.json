@@ -4427,5 +4427,12 @@
   "leetcode:magical-string": [
     "custom:Rohit-Negi_DSA_Sheet",
     "custom:rohit-negi_dsa_sheet"
+  ],
+  "leetcode:minimum-average-of-smallest-and-largest-elements": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
