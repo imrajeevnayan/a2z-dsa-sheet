@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T07:35:59.271Z
+ * Synced: 2026-09-18T07:36:44.340Z
  */
 
 import java.util.*;
@@ -22,20 +22,17 @@ public class Solution {
  
         while (!q.isEmpty()) {
             int size = q.size();
+             ans.add(q.peek().data);
  
-            // Pehla node of current level ? Left View
-            ans.add(q.peek().data);
- 
-            for (int i = 0; i < size; i++) {
-                TreeNode<Integer> curr = q.poll();
- 
-                if (curr.left != null) {
-                    q.add(curr.left);
-                }
-                if (curr.right != null) {
-                    q.add(curr.right);
-                }
-            }
+ while (size > 0) {
+    TreeNode<Integer> curr = q.poll();
+    
+    if (curr.left != null) q.add(curr.left);
+    if (curr.right != null) q.add(curr.right);
+    
+    size--;
+}
+            
         }
  
         return ans;
