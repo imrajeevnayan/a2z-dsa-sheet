@@ -1,0 +1,13 @@
+/*
+ * Platform: Codeforces
+ * Problem: → Pay attention
+ * URL: https://codeforces.com/problemset/submit
+ * Language: Java 21 64bit
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T09:41:09.655Z
+ */
+
+import j
