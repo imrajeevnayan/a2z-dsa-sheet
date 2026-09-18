@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Swaps to Move Zeros to End
- * URL: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/?envType=problem-list-v2&envId=two-pointers
+ * URL: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/?envType=problem-list-v2&envId=two-pointers
  * Language: Two Pointers
  * Difficulty: Easy
  * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T17:22:11.256Z
+ * Synced: 2026-09-18T17:23:03.520Z
  */
 
 class Solution {
