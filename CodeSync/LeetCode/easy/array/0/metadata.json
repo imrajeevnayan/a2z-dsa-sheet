@@ -1,18 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-15T08:07:48.109Z",
+  "submissionTimestamp": "2026-09-18T17:17:28.291Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Math",
-    "Sliding Window",
-    "Enumeration",
-    "Number Theory"
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "kjzcx3"
+  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "pgx0m"
 }
