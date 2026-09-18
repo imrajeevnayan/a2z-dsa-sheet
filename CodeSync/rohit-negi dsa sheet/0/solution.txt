@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+ * URL: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/?envType=problem-list-v2&envId=two-pointers
  * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Array, Two Pointers, Sorting
+ * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T17:17:28.291Z
+ * Synced: 2026-09-18T17:21:17.759Z
  */
 
 class Solution {
-    public double minimumAverage(int[] nums) {
+    public int minimumSwaps(int[] nums) {
         
     }
 }
