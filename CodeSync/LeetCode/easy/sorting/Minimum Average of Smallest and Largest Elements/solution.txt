@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Average of Smallest and Largest Elements
+ * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T17:18:15.048Z
+ */
+
+class Solution {
+    public double minimumAverage(int[] nums) {
+        
+    }
+}
