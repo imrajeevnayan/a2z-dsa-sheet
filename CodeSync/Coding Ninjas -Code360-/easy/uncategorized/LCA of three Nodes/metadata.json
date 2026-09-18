@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-15T18:36:54.388Z",
-  "runtime": "3652 ms",
+  "submissionTimestamp": "2026-09-18T07:35:59.271Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/frequency-in-a-sorted-array_893286",
-  "submissionId": "br4b25"
+  "problemUrl": "https://www.naukri.com/code360/problems/920519",
+  "submissionId": "r7pf4h"
 }
