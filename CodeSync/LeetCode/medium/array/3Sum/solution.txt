@@ -5,34 +5,34 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-18T12:42:42.656Z
+ * Runtime: 1 ms
+ * Memory: 59.18 MB
+ * Synced: 2026-09-18T12:43:31.786Z
  */
 
-if (sum == 0) {
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-            int left = i + 1, right = nums.length - 1;
-            if (nums[i] > 0) break;
-                    // Triplet mil gaya
-                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+}
                     
+                        left++;
                     // Left ke duplicates skip karo
                     while (left < right && nums[left] == nums[left + 1]) {
-                        left++;
-                    }
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     
-                    // Right ke duplicates skip karo
-                    while (left < right && nums[right] == nums[right - 1]) {
-                        right--;
-                    }
-                    
-                    left++;
-                    right--;
-                } 
-                else if (sum < 0) {
-                    left++;   // sum chhota hai, left badhao
-                } 
-                else {
-                    right--;  // sum bada hai, right ghatavo
+                if (sum == 0) {
+                    // Triplet mil gaya
+                int sum = nums[i] + nums[left] + nums[right];
+                
+            int left = i + 1, right = nums.length - 1;
+            while (left < right) {
+            if (nums[i] > 0) break;
+            // Agar current number positive ho gaya to aage kuch nahi milega
+            
+            }
+                continue;
+            if (i > 0 && nums[i] == nums[i - 1]) {
+            // Duplicate skip karo (same number dobara mat lo)
+        for (int i = 0; i < nums.length - 2; i++) {
+        
+        Arrays.sort(nums);
+        List<List<Integer>> result = new ArrayList<>();
+    public List<List<Integer>> threeSum(int[] nums) {
+class Solution {
