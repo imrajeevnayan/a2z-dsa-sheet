@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T11:45:51.815Z
+ * Synced: 2026-09-18T11:46:41.275Z
  */
 
 class Solution {
