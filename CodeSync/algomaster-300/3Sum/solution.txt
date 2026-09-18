@@ -5,12 +5,13 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: 2 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T12:35:27.798Z
+ * Synced: 2026-09-18T12:41:56.633Z
  */
 
-public List<List<Integer>> threeSum(int[] nums) {
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);                       // two pointer ke liye zaroori
         Set<List<Integer>> set = new HashSet<>(); // DUPLICATES KA KHAYAL SET RAKHEGA!
         
@@ -32,4 +33,3 @@ public List<List<Integer>> threeSum(int[] nums) {
         return new ArrayList<>(set);  // Set → List (final answer format)
     }
 }
-class Solution {
