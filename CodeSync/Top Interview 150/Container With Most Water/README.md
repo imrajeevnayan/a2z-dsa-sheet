@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
-- Synced: 2026-09-17T18:16:11.124Z
+- Synced: 2026-09-17T18:16:59.138Z
 
 ## Problem Description
 
