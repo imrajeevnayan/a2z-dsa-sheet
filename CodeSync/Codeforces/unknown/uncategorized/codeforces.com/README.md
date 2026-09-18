@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://codeforces.com/enter?back=%2Fproblemset%2Fproblem%2F71%2FA&__cf_chl_tk=NmAOjPGcZg.EhAKEQftWCCW..BYGzyh73SyaqaQcH8w-1789329543-1.0.1.1-PuDNshBB.zg9AGB3D.UyatFJctJsDpthXNZnGUFGkeM
-- Synced: 2026-09-13T19:59:08.913Z
+- Problem URL: https://codeforces.com/enter?back=%2Fedu%2Fcourses&__cf_chl_tk=1RiSE.DgHPNqaTF6wKj0BeOS2jRUaJGvpZ6IIfPU53g-1789722601-1.0.1.1-_lNqdRB8IONZ4pMZg8hXDsmVV.ymo008twwKpUuF8PM
+- Synced: 2026-09-18T09:10:09.220Z
 
 ## Problem Description
 
