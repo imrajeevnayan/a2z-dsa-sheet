@@ -1,17 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Average of Smallest and Largest Elements
- * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/?envType=problem-list-v2&envId=two-pointers
+ * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/submissions/2145979037/?envType=problem-list-v2&envId=two-pointers
  * Language: Two Pointers
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-18T17:18:15.048Z
+ * Runtime: 1 ms
+ * Memory: 48.18 MB
+ * Synced: 2026-09-18T17:19:00.462Z
  */
 
 class Solution {
     public double minimumAverage(int[] nums) {
+        Arrays.sort(nums);   // pehle sort kar lo
         
+        int left = 0, right = nums.length - 1;
+        double minAverage = Double.MAX_VALUE;
+        
+        while (left < right) {
+            double avg = (nums[left] + nums[right]) / 2.0;
+            minAverage = Math.min(minAverage, avg);
+            
+            left++;
+            right--;
+        }
+        
+        return minAverage;
     }
 }
