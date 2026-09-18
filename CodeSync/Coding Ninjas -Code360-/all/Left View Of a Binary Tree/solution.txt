@@ -1,0 +1,43 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Left View Of a Binary Tree
+ * URL: https://www.naukri.com/code360/problems/920519
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T07:34:56.176Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static ArrayList<Integer> getLeftView(TreeNode<Integer> root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null) return ans;
+ 
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
+        q.add(root);
+ 
+        while (!q.isEmpty()) {
+            int size = q.size();
+ 
+            // Pehla node of current level ? Left View
+            ans.add(q.peek().data);
+ 
+            for (int i = 0; i < size; i++) {
+                TreeNode<Integer> curr = q.poll();
+ 
+                if (curr.left != null) {
+                    q.add(curr.left);
+                }
+                if (curr.right != null) {
+                    q.add(curr.right);
+                }
+            }
+        }
+ 
+        return ans;
+    }
+}
