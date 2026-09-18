@@ -1,27 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Two Pointers (Copy-two-pointers)
+ * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Two Pointers, String
+ * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:44:18.308Z
+ * Synced: 2026-09-18T17:17:28.291Z
  */
 
 class Solution {
-    public String reversePrefix(String s, int k) {
-        char[] arr = s.toCharArray();
-
-        int left = 0, right = k-1;
-        while (left < right) {
-            char temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-            left++;
-            right--;
-        }
-        return new String(arr);
+    public double minimumAverage(int[] nums) {
+        
     }
 }
