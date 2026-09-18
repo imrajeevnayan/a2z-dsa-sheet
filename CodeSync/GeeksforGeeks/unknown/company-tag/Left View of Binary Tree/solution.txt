@@ -2,37 +2,44 @@
  * Platform: GeeksforGeeks
  * Problem: Left View of Binary Tree
  * URL: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
- * Language: Java (21)
+ * Language: vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T10:24:14.212Z
+ * Synced: 2026-09-18T10:29:52.877Z
  */
 
 class Solution {
     public ArrayList<Integer> leftView(Node root) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        if (root == null)  return ans;
-    
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
+        ArrayList<Integer>ans=new ArrayList<>();
+        if (root == null) return ans;
 
-        while (!queue.isEmpty()) {
-            int size = queue.size();
+           Queue<TreeNode> q = new LinkedList<>();
+           q.offer(root);
 
-            // First node of current level
-            ans.add(queue.peek().data);
+           while (!q.isEmpty()) {
 
-            // Process current level
-            for (int i = 0; i < size; i++) {
-                Node curr = queue.poll();
+               int size = q.size();
 
-                if (curr.left != null) queue.add(curr.left);
-                if (curr.right != null)  queue.add(curr.right);
-                
-            }
-        }
-        return ans;
+               for (int i = 0; i < size; i++) {
+
+                   TreeNode node = q.poll();
+
+                   if (i == 0) {
+                       ans.add(node.val);
+                   }
+
+                   if (node.left != null) {
+                       q.offer(node.left);
+                   }
+
+                   if (node.right != null) {
+                       q.offer(node.right);
+                   }
+               }
+           }
+
+           return ans; 
     }
 }
