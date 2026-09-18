@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/magical-string/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T17:16:06.208Z
+- Synced: 2026-09-18T17:16:51.621Z
 
 ## Problem Description
 
