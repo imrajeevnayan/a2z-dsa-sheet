@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: The Description this problem needed
+ * URL: https://leetcode.com/problems/magical-string/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Medium
+ * Topics: Two Pointers, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T17:16:06.208Z
+ */
+
+class Solution {
+    public int magicalString(int n) {
+        
+    }
+}
