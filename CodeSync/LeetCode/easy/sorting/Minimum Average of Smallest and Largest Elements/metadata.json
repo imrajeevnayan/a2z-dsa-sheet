@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-18T17:18:15.048Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-18T17:19:00.462Z",
+  "runtime": "1 ms",
+  "memoryUsage": "48.18 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Two Pointers",
   "problemTitle": "Minimum Average of Smallest and Largest Elements",
-  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "scpnhl"
+  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/submissions/2145979037/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "2j8h3a"
 }
