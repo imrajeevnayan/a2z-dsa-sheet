@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search
- * Language: Binary Search
+ * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Array, Binary Search, Sorting
+ * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-24T12:10:30.602Z
+ * Synced: 2026-09-18T17:17:28.291Z
  */
 
 class Solution {
-    public List<Integer> targetIndices(int[] nums, int target) {
+    public double minimumAverage(int[] nums) {
         
     }
 }
