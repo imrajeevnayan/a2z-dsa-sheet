@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-18T12:50:37.408Z",
+  "submissionTimestamp": "2026-09-18T12:51:24.003Z",
   "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "45.34 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum Closest",
-  "problemUrl": "https://leetcode.com/problems/3sum-closest/",
-  "submissionId": "4drne4"
+  "problemUrl": "https://leetcode.com/problems/3sum-closest/submissions/2145739204/",
+  "submissionId": "ef3m1x"
 }
