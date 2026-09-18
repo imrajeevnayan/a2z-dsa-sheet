@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftWalmart, Company Tags, Amazon, Microsoft, Walmart, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T12:24:38.853Z
+ * Synced: 2026-09-18T12:25:36.848Z
  */
 
 class Solution {
