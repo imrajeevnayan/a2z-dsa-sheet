@@ -7,24 +7,10 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftWalmart, Company Tags, Amazon, Microsoft, Walmart, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T12:06:40.470Z
+ * Synced: 2026-09-18T16:45:51.972Z
  */
 
-/* Structure of binary tree node
-class Node {
-    int data;
-    Node left, right;
+Input: root = [10, 20, 30, 40, 60]
 
-    Node(int d)
-    {
-        data = d;
-        left = right = null;
-    }
-}*/
-
-class Solution {
-    public boolean isBalanced(Node root) {
-        // code here
-        
-    }
-}
+Output: true 
+Explanation: The height difference between the left and right subtrees at all nodes is at most 1. Hence, the tree is balanced.
