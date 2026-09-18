@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-18T07:46:12.124Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-18T07:52:04.917Z",
+  "runtime": "4373 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "in Binary Trees"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/920519",
-  "submissionId": "j0q3cw"
+  "problemUrl": "https://www.naukri.com/code360/problems/right-view_764605",
+  "submissionId": "w1a5io"
 }
