@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE DAY 48/75 DAYS
+ * URL: https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1
+ * Language: from collections import deque class Solution: def height(self, node): if not node: return 0 return 1 + max(self.height(node.left), self.height(node.right)) def isBalanced(self, root): if not root: return True if abs(self.height(root.left) - self.height(root.right)) > 1: return False return self.isBalanced(root.left) and self.isBalanced(root.right)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftWalmart, Company Tags, Amazon, Microsoft, Walmart, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T11:57:48.909Z
+ */
+
+/* Structure of binary tree node
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int d)
+    {
+        data = d;
+        left = right = null;
+    }
+}*/
+
+class Solution {
+    public boolean isBalanced(Node root) {
+        // code here
+        
+    }
+}
