@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Snapdeal, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T08:06:17.667Z
+ * Synced: 2026-09-18T08:07:03.113Z
  */
 
 class Solution {
@@ -16,15 +16,7 @@ class Solution {
         if(root==null)return ans;
         Queue<Node> q = new LinkedList<>();
         q.add(root);
-        int size=q.size();
-        for(int i=0;i<size;i++){
-            Node curr=q.poll();
-            if(i==size-1){
-                ans.add(curr.data);
-            }
-            if(curr.left!=null)q.add(curr.left);
-            if(curr.right!=null)q.add(curr.right);
-        }
+        while(!q.is)
         return ans;
         
     }
