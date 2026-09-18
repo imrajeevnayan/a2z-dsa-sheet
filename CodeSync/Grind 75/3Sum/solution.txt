@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://leetcode.com/problems/3sum/submissions/2145721259/
+ * URL: https://leetcode.com/problems/3sum/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2 ms
- * Memory: 60.24 MB
- * Synced: 2026-09-18T12:33:05.564Z
+ * Memory: N/A
+ * Synced: 2026-09-18T12:33:52.615Z
  */
 
 public List<List<Integer>> threeSum(int[] nums) {
