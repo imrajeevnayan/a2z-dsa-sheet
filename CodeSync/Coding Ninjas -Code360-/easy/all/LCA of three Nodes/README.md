@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3652 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/frequency-in-a-sorted-array_893286
-- Synced: 2026-09-15T18:36:54.388Z
+- Problem URL: https://www.naukri.com/code360/problems/920519
+- Synced: 2026-09-18T07:35:59.271Z
 
 ## Problem Description
 
