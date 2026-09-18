@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 2 ms
-- Memory: N/A
+- Memory: 60.24 MB
 - Problem URL: https://leetcode.com/problems/3sum/submissions/2145721259/
-- Synced: 2026-09-18T12:25:57.915Z
+- Synced: 2026-09-18T12:26:47.463Z
 
 ## Problem Description
 
