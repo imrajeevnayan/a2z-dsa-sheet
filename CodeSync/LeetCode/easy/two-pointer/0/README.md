@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Two Pointers (Copy-two-pointers)
+- Language: Two Pointers
 - Difficulty: Easy
-- Topics: Two Pointers, String
+- Topics: Array, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:44:18.308Z
+- Problem URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T17:17:28.291Z
 
 ## Problem Description
 
-You are given a string s and an integer k. Reverse the first k characters of s and return the resulting string. Example 1: Input: s = "abcd", k = 2 Output: "bacd" Explanation:​​​​​​​ The first k = 2 characters "ab" are reversed to "ba". The final resulting string is "bacd". Example 2: Input: s = "xyz", k = 3 Output: "zyx" Explanation: The first k = 3 characters "xyz" are reversed to "zyx". The final resulting string is "zyx". Example 3: Input: s = "hey", k = 1 Output: "hey" Explanation: The first k = 1 character "h" remains unchanged on reversal. The final resulting string is "hey". Constraints: 1 <= s.length <= 100 s consists of lowercase English letters. 1 <= k <= s.length
+You have an array of floating point numbers averages which is initially empty. You are given an array nums of n integers where n is even. You repeat the following procedure n / 2 times: Remove the smallest element, minElement, and the largest element maxElement, from nums. Add (minElement + maxElement) / 2 to averages. Return the minimum element in averages. Example 1: Input: nums = [7,8,3,4,15,13,4,1] Output: 5.5 Explanation: step nums averages 0 [7,8,3,4,15,13,4,1] [] 1 [7,8,3,4,13,4] [8] 2 [7,8,4,4] [8,8] 3 [7,4] [8,8,6] 4 [] [8,8,6,5.5] The smallest element of averages, 5.5, is returned. Example 2: Input: nums = [1,9,8,3,10,5] Output: 5.5 Explanation: step nums averages 0 [1,9,8,3,10,5] [] 1 [9,8,3,5] [5.5] 2 [8,5] [5.5,6] 3 [] [5.5,6,6.5] Example 3: Input: nums = [1,2,3,7,8,9] Output: 5.0 Explanation: step nums averages 0 [1,2,3,7,8,9] [] 1 [2,3,7,8] [5] 2 [3,7] [5,5] 3 [] [5,5,5] Constraints: 2 <= n == nums.length <= 50 n is even. 1 <= nums[i] <= 50
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Two Pointers, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers, Sorting. Review the synced source file for the implementation details.
