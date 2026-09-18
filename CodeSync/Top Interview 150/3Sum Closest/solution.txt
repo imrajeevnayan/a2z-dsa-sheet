@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-09-18T12:48:47.790Z
+ * Synced: 2026-09-18T12:49:49.841Z
  */
 
 int currentSum = nums[i] + nums[left] + nums[right];
@@ -21,6 +21,13 @@ int currentSum = nums[i] + nums[left] + nums[right];
                 if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
                     closestSum = currentSum;
                 }
+            while (left < right) {
+            
+            int left = i + 1;
+            int right = nums.length - 1;
+            
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            // Duplicate skip (optional, thoda optimization)
                 
                 // Two pointer move karo
                 if (currentSum < target) {
@@ -30,7 +37,3 @@ int currentSum = nums[i] + nums[left] + nums[right];
                 }
             }
         }
-        
-        return closestSum;
-    }
-}
