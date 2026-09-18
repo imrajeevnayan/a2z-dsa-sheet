@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-18T17:18:15.048Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers",
+  "problemTitle": "Minimum Average of Smallest and Largest Elements",
+  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "scpnhl"
+}
