@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-07-24T12:10:30.602Z",
+  "submissionTimestamp": "2026-09-18T17:17:28.291Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Binary Search",
+    "Two Pointers",
     "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Binary Search",
+  "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/description/?envType=problem-list-v2&envId=binary-search",
-  "submissionId": "x9pra5"
+  "problemUrl": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "pgx0m"
 }
