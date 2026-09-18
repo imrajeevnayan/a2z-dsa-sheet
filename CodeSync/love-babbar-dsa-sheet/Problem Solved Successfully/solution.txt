@@ -1,52 +1,38 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Problem Solved Successfully
- * URL: https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
- * Language: class Solution { public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) { Arrays.sort(arr); ArrayList<ArrayList<Integer>> ans = new ArrayList<>(); int start = 0; int end = arr.length - 1; while (start < end) { if (arr[start] + arr[end] == 0) { ans.add(new ArrayList<>(Arrays.asList(arr[start], arr[end]))); start++; end--; while (start < end && arr[start] == arr[start - 1]) { start++; } while (start < end && arr[end] == arr[end + 1]) { end--; } } else if (arr[start] + arr[end] < 0) { start++; } else { end--; } } return ans; } }
+ * URL: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+ * Language: vector<int>chetan_help(Node*root) { //work vector<int>v; // what we will do we will push the first ele of each level in vector if(root==NULL) return v; deque<Node*>ch; ch.push_back(root); while(!ch.empty()) { int size=ch.size(); int j=0; for(int i=0;i<size;i++) { Node*cur=ch.front(); ch.pop_front(); if(j==0) { j=1; v.push_back(cur->data); } if(cur->left) ch.push_back(cur->left); if(cur->right) ch.push_back(cur->right); } } return v; } vector<int> leftView(Node *root) { // code here return chetan_help(root); }
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T06:16:28.506Z
+ * Synced: 2026-09-18T06:32:56.998Z
  */
 
 class Solution {
-    public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) {
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
-        Arrays.sort(arr);
-        int left = 0, right = arr.length - 1;
+    public ArrayList<Integer> leftView(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null)  return ans;
+    
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
 
-        while (left < right) {
-            int sum = arr[left] + arr[right];
-            if (sum == 0) {
+        while (!queue.isEmpty()) {
+            int size = queue.size();
 
-                ArrayList<Integer> pair = new ArrayList<>();
-                pair.add(arr[left]);
-                pair.add(arr[right]);
+            // First node of current level
+            ans.add(queue.peek().data);
 
-                result.add(pair);
+            // Process current level
+            for (int i = 0; i < size; i++) {
+                Node curr = queue.poll();
 
-                left++;
-                right--;
-
-                // Duplicate skip
-                while (left < right && arr[left] == arr[left - 1]) {
-                    left++;
-                }
-
-                while (left < right && arr[right] == arr[right + 1]) {
-                    right--;
-                }
-
-            } 
-            else if (sum < 0) {
-                left++;
-            } 
-            else {
-                right--;
+                if (curr.left != null) queue.add(curr.left);
+                if (curr.right != null)  queue.add(curr.right);
+                
             }
         }
-
-        return result;
+        return ans;
     }
 }
