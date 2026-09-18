@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Snapdeal, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T10:29:23.654Z
+ * Synced: 2026-09-18T10:30:11.652Z
  */
 
 class Solution {
