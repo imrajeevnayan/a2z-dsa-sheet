@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-18T11:57:48.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftWalmart",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Walmart",
+    "Topic Tags",
+    "Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "from collections import deque class Solution: def height(self, node): if not node: return 0 return 1 + max(self.height(node.left), self.height(node.right)) def isBalanced(self, root): if not root: return True if abs(self.height(root.left) - self.height(root.right)) > 1: return False return self.isBalanced(root.left) and self.isBalanced(root.right)",
+  "problemTitle": "75 DAYS GFG POTD ARTICLE CHALLENGE DAY 48/75 DAYS",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1",
+  "submissionId": "jm5vxo"
+}
