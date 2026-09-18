@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/920519
-- Synced: 2026-09-18T07:36:44.340Z
+- Synced: 2026-09-18T07:37:29.844Z
 
 ## Problem Description
 
