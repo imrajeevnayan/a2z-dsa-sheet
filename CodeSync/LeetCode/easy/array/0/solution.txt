@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Sliding Window
+ * URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Array, Math, Sliding Window, Enumeration, Number Theory
+ * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:07:48.109Z
+ * Synced: 2026-09-18T17:17:28.291Z
  */
 
 class Solution {
-    public int maxLength(int[] nums) {
+    public double minimumAverage(int[] nums) {
         
     }
 }
