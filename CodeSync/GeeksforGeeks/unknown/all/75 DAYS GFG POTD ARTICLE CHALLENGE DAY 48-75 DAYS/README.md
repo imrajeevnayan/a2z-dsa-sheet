@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1
-- Synced: 2026-09-18T12:01:39.201Z
+- Synced: 2026-09-18T12:07:27.997Z
 
 ## Problem Description
 
