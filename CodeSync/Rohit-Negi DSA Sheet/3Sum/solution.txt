@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-09-18T12:25:57.915Z
+ * Memory: 60.24 MB
+ * Synced: 2026-09-18T12:26:47.463Z
  */
 
 public List<List<Integer>> threeSum(int[] nums) {
@@ -32,3 +32,4 @@ public List<List<Integer>> threeSum(int[] nums) {
         return new ArrayList<>(set);  // Set → List (final answer format)
     }
 }
+class Solution {
