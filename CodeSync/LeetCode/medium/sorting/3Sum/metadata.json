@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-17T07:07:19.672Z",
-  "runtime": "1 ms",
-  "memoryUsage": "58.74 MB",
+  "submissionTimestamp": "2026-09-18T12:08:34.711Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/",
-  "submissionId": "wopfem"
+  "problemUrl": "https://leetcode.com/problems/3sum/description/",
+  "submissionId": "lt5ql8"
 }
