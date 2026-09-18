@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Medium
-- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+- Language: Two Pointers
+- Difficulty: Easy
+- Topics: Array, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
-- Synced: 2026-09-17T03:59:46.836Z
+- Problem URL: https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/description/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T17:17:28.291Z
 
 ## Problem Description
 
-Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
+You have an array of floating point numbers averages which is initially empty. You are given an array nums of n integers where n is even. You repeat the following procedure n / 2 times: Remove the smallest element, minElement, and the largest element maxElement, from nums. Add (minElement + maxElement) / 2 to averages. Return the minimum element in averages. Example 1: Input: nums = [7,8,3,4,15,13,4,1] Output: 5.5 Explanation: step nums averages 0 [7,8,3,4,15,13,4,1] [] 1 [7,8,3,4,13,4] [8] 2 [7,8,4,4] [8,8] 3 [7,4] [8,8,6] 4 [] [8,8,6,5.5] The smallest element of averages, 5.5, is returned. Example 2: Input: nums = [1,9,8,3,10,5] Output: 5.5 Explanation: step nums averages 0 [1,9,8,3,10,5] [] 1 [9,8,3,5] [5.5] 2 [8,5] [5.5,6] 3 [] [5.5,6,6.5] Example 3: Input: nums = [1,2,3,7,8,9] Output: 5.0 Explanation: step nums averages 0 [1,2,3,7,8,9] [] 1 [2,3,7,8] [5] 2 [3,7] [5,5] 3 [] [5,5,5] Constraints: 2 <= n == nums.length <= 50 n is even. 1 <= nums[i] <= 50
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers, Sorting. Review the synced source file for the implementation details.
