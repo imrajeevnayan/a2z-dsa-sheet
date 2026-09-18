@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-18T12:22:52.718Z",
+  "submissionTimestamp": "2026-09-18T12:23:38.832Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "3Sum",
-  "problemUrl": "https://leetcode.com/problems/3sum/description/",
+  "problemUrl": "https://leetcode.com/problems/3sum/",
   "submissionId": "lt5ql8"
 }
