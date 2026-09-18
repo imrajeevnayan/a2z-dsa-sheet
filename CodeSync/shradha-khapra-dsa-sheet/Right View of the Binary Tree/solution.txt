@@ -7,13 +7,16 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Snapdeal, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T07:58:56.417Z
+ * Synced: 2026-09-18T08:01:31.901Z
  */
 
 class Solution {
     public ArrayList<Integer> rightView(Node root) {
         ArrayList<Integer>ans=new ArrayList<>();
-        Queue
+        if(root==null)return ans;
+        Queue<Node>q=new Linkedlist<>();
+        
+        
         
     }
 }
