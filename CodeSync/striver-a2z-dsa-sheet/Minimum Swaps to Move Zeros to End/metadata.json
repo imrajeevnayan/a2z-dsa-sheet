@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-18T17:22:11.256Z",
+  "submissionTimestamp": "2026-09-18T17:23:03.520Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Two Pointers",
   "problemTitle": "Minimum Swaps to Move Zeros to End",
-  "problemUrl": "https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/?envType=problem-list-v2&envId=two-pointers",
+  "problemUrl": "https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/?envType=problem-list-v2&envId=two-pointers",
   "submissionId": "rj4glc"
 }
