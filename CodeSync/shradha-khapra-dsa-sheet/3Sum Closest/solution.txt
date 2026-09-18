@@ -7,30 +7,32 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-09-18T12:48:47.790Z
+ * Synced: 2026-09-18T12:50:37.408Z
  */
 
-int currentSum = nums[i] + nums[left] + nums[right];
+Arrays.sort(nums);                            // two pointer ka best friend
+        int n = nums.length;
+        
+        int closestSum = nums[0] + nums[1] + nums[2]; // ⚠️ pehla triplet = initial best
+        
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1, right = n - 1;
+            
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
                 
-                // Agar exact target mil gaya to seedha return
-                if (currentSum == target) {
-                    return currentSum;
+                // SCOREBOARD: ye sum zyada kareeb hai kya?
+                if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                    closestSum = sum;
                 }
                 
-                // Check karo currentSum target ke kitna kareeb hai
-                if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
-                    closestSum = currentSum;
-                }
-                
-                // Two pointer move karo
-                if (currentSum < target) {
-                    left++;
-                } else {
-                    right--;
-                }
+                if (sum == target) return target;   // 🎯 PERFECT! Isse behtar kuch nahi — BHAAGO!
+                else if (sum < target) left++;      // bada sum chahiye
+                else right--;                        // chhota sum chahiye
             }
         }
-        
         return closestSum;
     }
+    public int threeSumClosest(int[] nums, int target) {
+class Solution {
 }
