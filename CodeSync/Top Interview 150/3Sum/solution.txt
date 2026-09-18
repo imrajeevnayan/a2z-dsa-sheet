@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3Sum
- * URL: https://leetcode.com/problems/3sum/description/
+ * URL: https://leetcode.com/problems/3sum/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T12:22:52.718Z
+ * Synced: 2026-09-18T12:23:38.832Z
  */
 
 class Solution {
