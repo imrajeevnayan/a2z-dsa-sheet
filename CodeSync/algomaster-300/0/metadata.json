@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-18T18:48:28.793Z",
-  "runtime": ". S",
+  "submissionTimestamp": "2026-09-18T18:50:32.694Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "hvfdg6"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "gk4gqz"
 }
