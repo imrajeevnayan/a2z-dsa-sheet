@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Medium
-- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+- Language: Problem List
+- Difficulty: Easy
+- Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
-- Synced: 2026-09-17T03:59:46.836Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/description/
+- Synced: 2026-09-19T11:20:59.344Z
 
 ## Problem Description
 
-Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
