@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Medium
-- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-- Runtime: N/A
+- Language: Two Pointers
+- Difficulty: Easy
+- Topics: Array, Two Pointers
+- Runtime: . S
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
-- Synced: 2026-09-17T03:59:46.836Z
+- Problem URL: https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T18:48:28.793Z
 
 ## Problem Description
 
-Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree. Example 1: Input: root = [3,1,4,null,2], k = 1 Output: 1 Example 2: Input: root = [5,3,6,2,4,null,null,1], k = 3 Output: 3 Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104 Follow up: If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array. Example 1: Input: nums = [0,1,0,3,12] Output: [1,3,12,0,0] Example 2: Input: nums = [0] Output: [0] Constraints: 1 <= nums.length <= 104 -231 <= nums[i] <= 231 - 1 Follow up: Could you minimize the total number of operations done?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
