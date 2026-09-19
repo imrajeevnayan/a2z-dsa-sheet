@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2638 ms
+- Runtime: 11041 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
-- Synced: 2026-09-19T08:50:41.666Z
+- Problem URL: https://www.naukri.com/code360/problems/fruits-and-baskets_985356
+- Synced: 2026-09-19T09:36:48.984Z
 
 ## Problem Description
 
