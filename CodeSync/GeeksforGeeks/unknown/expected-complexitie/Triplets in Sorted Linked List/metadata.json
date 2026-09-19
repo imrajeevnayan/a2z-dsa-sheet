@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-19T05:28:25.903Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Mathematics",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "int countTriplets(struct Node* head, int x) { unordered_map<int, bool> mp; Node* curr = head; int count = 0; // Store all elements of the linked list in the hashmap while (curr != NULL) { mp[curr->data] = true; curr = curr->next; } // Iterate through pairs in the list for (Node* first = head; first != NULL; first = first->next) { for (Node* second = first->next; second != NULL; second = second->next) { int num = x - (first->data + second->data); // Check if the third element exists and is positioned after 'second' if (mp.find(num) != mp.end()) { // Ensure num is not part of first and second Node* third = second->next; while (third != NULL) { if (third->data == num) { count++; break; // Found a valid triplet, move to the next pair } third = third->next; } } } } return count; }",
+  "problemTitle": "Triplets in Sorted Linked List",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-triplets--141631/1",
+  "submissionId": "p6hqvx"
+}
