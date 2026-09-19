@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T09:40:30.671Z
+ * Synced: 2026-09-19T09:41:15.735Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
     }
         HashMap<Integer,Integer>map=new HashMap<>();
         int left=0,max=0;
-        for()
+        for(int )
 }
