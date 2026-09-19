@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-07-11T16:44:24.419Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-18T18:06:35.794Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,8 +9,8 @@
     "Binary Search"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Two Pointers",
   "problemTitle": "Two Sum II",
-  "problemUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/",
-  "submissionId": "v7r0wt"
+  "problemUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "gcqfv2"
 }
