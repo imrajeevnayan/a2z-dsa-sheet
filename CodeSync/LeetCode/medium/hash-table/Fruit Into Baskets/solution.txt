@@ -1,25 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Fruit Into Baskets
- * URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2142511805/
+ * URL: https://leetcode.com/problems/fruit-into-baskets/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: 0 ms
- * Memory: 70.89 MB
- * Synced: 2026-09-15T11:01:50.935Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-19T09:37:08.229Z
  */
 
-count.put(leftFruit,count.get(leftFruit) - 1 );
-                int leftFruit = fruits[left];
-            while (count.size() > 2) {
-            count.put(fruit,count.getOrDefault(fruit, 0) + 1);
-            int fruit = fruits[right];
-        for (int right = 0; right < fruits.length; right++) {
-        Map<Integer, Integer> count = new HashMap<>();
-        int left = 0,maxLength = 0;
-    public int totalFruit(int[] fruits) {
 class Solution {
+    public int totalFruit(int[] fruits) {
+        int left = 0,maxLength = 0;
+        Map<Integer, Integer> count = new HashMap<>();
+        for (int right = 0; right < fruits.length; right++) {
+            int fruit = fruits[right];
+            count.put(fruit,count.getOrDefault(fruit, 0) + 1);
+            while (count.size() > 2) {
+                int leftFruit = fruits[left];
+                count.put(leftFruit,count.get(leftFruit) - 1 );
 
                 if (count.get(leftFruit) == 0) count.remove(leftFruit);
                 left++;
