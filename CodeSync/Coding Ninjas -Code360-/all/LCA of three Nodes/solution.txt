@@ -2,28 +2,23 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2673 ms
+ * Runtime: 2638 ms
  * Memory: N/A
- * Synced: 2026-09-19T07:37:43.920Z
+ * Synced: 2026-09-19T08:49:55.685Z
  */
 
 import java.util.* ;
 import java.io.*; 
- 
 public class Solution {
- 
     static int[] rotateArray(int[] arr, int n) {
-        int first = arr[0];
- 
-        for (int i = 0; i < n - 1; i++) {
-            arr[i] = arr[i + 1];
+        int last=arr[0];
+        for(int i=0;i<n-1;i++){
+            arr[i]=arr[i+1];
         }
- 
-        arr[n - 1] = first;
- 
+        arr[n-1]=last;
         return arr;
     }
 }
