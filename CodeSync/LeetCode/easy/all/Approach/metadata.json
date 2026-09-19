@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-18T18:03:42.852Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers",
+  "problemTitle": "Approach",
+  "problemUrl": "https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "e0af1d"
+}
