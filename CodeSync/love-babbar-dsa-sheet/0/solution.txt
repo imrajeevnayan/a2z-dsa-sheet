@@ -1,28 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * URL: https://leetcode.com/problems/valid-parentheses/description/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T10:27:41.210Z
+ * Synced: 2026-09-19T11:20:59.344Z
  */
 
 class Solution {
-    public int longestOnes(int[] nums, int k) {
-        int left = 0, zeros = 0, ans = 0;
-
-        for (int right = 0; right < nums.length; right++) {
-            if (nums[right] == 0) zeros++;
-
-            while (zeros > k) {
-                if (nums[left] == 0) zeros--;
-                left++;
+    public boolean isValid(String s) {
+        Deque<Character> st = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+            else {
+                if (st.isEmpty()) return false; 
+                char top = st.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) return false;
             }
-            ans = Math.max(ans, right - left + 1);
         }
-        return ans;
+        return st.isEmpty();
     }
 }
