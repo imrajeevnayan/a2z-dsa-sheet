@@ -1,21 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Approach
- * URL: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/?envType=problem-list-v2&envId=monotonic-stack
- * Language: Monotonic Stack
- * Difficulty: Medium
- * Topics: Array, Stack, Tree, Binary Search Tree, Monotonic Stack, Binary Tree
- * Runtime: 0 ms
+ * URL: https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Two Pointers, Sorting
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-11T12:29:27.422Z
+ * Synced: 2026-09-18T18:03:42.852Z
  */
 
-parent.right = curr;
-            } else {
-                stack.peek().left = curr;
-            }
-
-            stack.push(curr);
-        }
-
-        return root;
+class Solution {
+    public int distinctAverages(int[] nums) {
+        
+    }
+}
