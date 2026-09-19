@@ -1,18 +1,18 @@
 # Pair Sum
 
 - Platform: Coding Ninjas (Code360)
-- Language: Java (SE 1.8)
-- Difficulty: Unknown
+- Language: Java (17)
+- Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 722 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/pair-sum_1171154
-- Synced: 2026-06-19T04:28:22.824Z
+- Problem URL: https://www.naukri.com/code360/problems/pair-sum_697295
+- Synced: 2026-09-19T07:30:37.262Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Problem statement Send feedback
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (17). Review the synced source file for the implementation details.
