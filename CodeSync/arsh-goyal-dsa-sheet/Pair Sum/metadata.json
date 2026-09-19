@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-19T04:28:22.824Z",
-  "runtime": "722 ms",
+  "submissionTimestamp": "2026-09-19T07:30:37.262Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "Java (17)",
   "problemTitle": "Pair Sum",
-  "problemUrl": "https://www.naukri.com/code360/problems/pair-sum_1171154",
-  "submissionId": "fno1rv"
+  "problemUrl": "https://www.naukri.com/code360/problems/pair-sum_697295",
+  "submissionId": "v794kx"
 }
