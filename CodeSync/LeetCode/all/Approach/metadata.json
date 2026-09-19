@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-18T18:03:42.852Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-18T18:04:27.872Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Two Pointers",
   "problemTitle": "Approach",
   "problemUrl": "https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "e0af1d"
+  "submissionId": "wky12s"
 }
