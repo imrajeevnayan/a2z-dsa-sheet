@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Binary Search
  * Runtime: 0 ms
  * Memory: 48.18 MB
- * Synced: 2026-09-18T18:27:22.752Z
+ * Synced: 2026-09-18T18:28:08.746Z
  */
 
 class Solution {
