@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-18T18:06:35.794Z",
+  "submissionTimestamp": "2026-09-18T18:07:21.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Two Pointers",
   "problemTitle": "Two Sum II",
-  "problemUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "gcqfv2"
+  "problemUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "8vvfm"
 }
