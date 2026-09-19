@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Mathematics, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T05:35:37.906Z
+ * Synced: 2026-09-19T05:36:37.922Z
  */
 
 class Solution {
