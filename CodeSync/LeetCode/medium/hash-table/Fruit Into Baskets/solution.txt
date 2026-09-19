@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T09:54:31.586Z
+ * Synced: 2026-09-19T09:55:16.998Z
  */
 
 class Solution {
@@ -19,7 +19,8 @@ class Solution {
         }
         
             while(map.size()>2){
-                map.put
+                 map.put(arr[left],map.getOrDefault(arr[left],0)-1);
             }
     }
+                 if(map)
 }
