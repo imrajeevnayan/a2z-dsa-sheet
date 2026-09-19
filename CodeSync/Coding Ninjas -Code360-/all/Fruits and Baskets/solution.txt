@@ -1,0 +1,37 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Fruits and Baskets
+ * URL: https://www.naukri.com/code360/problems/fruits-and-baskets_985356
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 10927 ms
+ * Memory: N/A
+ * Synced: 2026-09-19T09:11:11.810Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static int findMaxFruits(int []arr, int n) {
+ 
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int left = 0,max = 0;
+ 
+        for (int right = 0; right < n; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+ 
+            while (map.size() > 2) {
+                map.put(arr[left], map.get(arr[left]) - 1);
+ 
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+                left++;
+            }
+            max = Math.max(max, right - left + 1);
+        }
+ 
+        return max;
+    }
+}
