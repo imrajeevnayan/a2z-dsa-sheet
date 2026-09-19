@@ -1,21 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Move Zeroes
- * URL: https://leetcode.com/problems/move-zeroes/submissions/2050249740/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/move-zeroes/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
- * Memory: 47.76 MB
- * Synced: 2026-06-29T16:00:12.187Z
+ * Memory: N/A
+ * Synced: 2026-09-18T18:49:14.785Z
  */
 
 class Solution {
-    public void moveZeroes(int[] arr) {
-        int i=0;
-        for(int j=0;j<arr.length;j++){
-            if(arr[j]!=0)arr[i++]=arr[j];
+    public void moveZeroes(int[] nums) {
+        int insertPos = 0;  // yahan non-zero elements daalenge
+
+        // Pehle saare non-zero elements aage le aao
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[insertPos] = nums[i];
+                insertPos++;
+            }
         }
-        while(i<arr.length)arr[i++]=0;
+
+        // Baaki jagah 0 bhar do
+        while (insertPos < nums.length) {
+            nums[insertPos] = 0;
+            insertPos++;
+        }
     }
 }
