@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-18T18:04:56.223Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-18T18:48:28.793Z",
+  "runtime": ". S",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/duplicate-zeros/description/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "xg44nu"
+  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "hvfdg6"
 }
