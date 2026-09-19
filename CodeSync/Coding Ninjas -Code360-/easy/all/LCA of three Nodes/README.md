@@ -7,7 +7,7 @@
 - Runtime: 11041 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/fruits-and-baskets_985356
-- Synced: 2026-09-19T09:36:48.984Z
+- Synced: 2026-09-19T10:37:11.523Z
 
 ## Problem Description
 
