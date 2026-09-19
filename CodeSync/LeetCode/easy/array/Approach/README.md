@@ -4,10 +4,10 @@
 - Language: Two Pointers
 - Difficulty: Easy
 - Topics: Array, Hash Table, Two Pointers, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T18:03:42.852Z
+- Synced: 2026-09-18T18:04:27.872Z
 
 ## Problem Description
 
