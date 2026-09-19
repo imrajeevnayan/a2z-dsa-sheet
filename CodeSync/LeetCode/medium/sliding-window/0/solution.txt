@@ -1,17 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Sliding Window
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, Sliding Window
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T08:07:33.714Z
+ * Synced: 2026-09-19T10:27:41.210Z
  */
 
 class Solution {
-    public long maxSum(List<Integer> nums, int m, int k) {
-        
+    public int longestOnes(int[] nums, int k) {
+        int left = 0, zeros = 0, ans = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) zeros++;
+
+            while (zeros > k) {
+                if (nums[left] == 0) zeros--;
+                left++;
+            }
+            ans = Math.max(ans, right - left + 1);
+        }
+        return ans;
     }
 }
