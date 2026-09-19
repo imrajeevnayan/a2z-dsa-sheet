@@ -7,7 +7,7 @@
 - Runtime: 2638 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
-- Synced: 2026-09-19T08:49:55.685Z
+- Synced: 2026-09-19T08:50:41.666Z
 
 ## Problem Description
 
