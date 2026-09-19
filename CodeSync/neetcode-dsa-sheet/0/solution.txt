@@ -1,30 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
- * Difficulty: Medium
- * Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
+ * URL: https://leetcode.com/problems/valid-parentheses/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T09:01:22.745Z
+ * Synced: 2026-09-19T11:20:59.344Z
  */
 
 class Solution {
-    public ListNode detectCycle(ListNode head) {
-        ListNode slow = head,fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-            if (slow == fast) {
-                slow = head;
-                while (slow != fast) {
-                    slow = slow.next;
-                    fast = fast.next;
-                }
-                return slow;
+    public boolean isValid(String s) {
+        Deque<Character> st = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+            else {
+                if (st.isEmpty()) return false; 
+                char top = st.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) return false;
             }
         }
-        return null;
+        return st.isEmpty();
     }
 }
