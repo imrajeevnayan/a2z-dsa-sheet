@@ -1,32 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Tree For Placement (Copy-5chyqxsi)
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor, DP on Trees
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T20:42:16.530Z
+ * Synced: 2026-09-19T10:27:41.210Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    public TreeNode lcaDeepestLeaves(TreeNode root) {
-        
+    public int longestOnes(int[] nums, int k) {
+        int left = 0, zeros = 0, ans = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) zeros++;
+
+            while (zeros > k) {
+                if (nums[left] == 0) zeros--;
+                left++;
+            }
+            ans = Math.max(ans, right - left + 1);
+        }
+        return ans;
     }
 }
