@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Duplicate Zeros
+ * URL: https://leetcode.com/problems/duplicate-zeros/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T18:05:50.827Z
+ */
+
+class Solution {
+    public void duplicateZeros(int[] arr) {
+        
+    }
+}
