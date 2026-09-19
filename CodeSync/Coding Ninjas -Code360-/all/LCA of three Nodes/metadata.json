@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-19T08:50:41.666Z",
-  "runtime": "2638 ms",
+  "submissionTimestamp": "2026-09-19T09:36:48.984Z",
+  "runtime": "11041 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "All languages",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278",
-  "submissionId": "z3n7rf"
+  "problemUrl": "https://www.naukri.com/code360/problems/fruits-and-baskets_985356",
+  "submissionId": "uryjbx"
 }
