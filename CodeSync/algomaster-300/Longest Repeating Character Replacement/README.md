@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-repeating-character-replacement/
-- Synced: 2026-09-19T10:36:28.487Z
+- Synced: 2026-09-19T10:37:20.694Z
 
 ## Problem Description
 
