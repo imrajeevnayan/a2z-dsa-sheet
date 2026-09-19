@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-triplets--141631/1
-- Synced: 2026-09-19T05:38:49.198Z
+- Synced: 2026-09-19T05:39:37.201Z
 
 ## Problem Description
 
