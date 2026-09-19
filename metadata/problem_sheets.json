@@ -4446,5 +4446,10 @@
   "leetcode:number-of-distinct-averages": [
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "leetcode:duplicate-zeros": []
+  "leetcode:duplicate-zeros": [],
+  "geeksforgeeks:police-and-thieves--141631": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
