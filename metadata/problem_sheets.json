@@ -545,7 +545,16 @@
     "Top100Liked",
     "StriverA2Z"
   ],
-  "leetcode:move-zeroes": [],
+  "leetcode:move-zeroes": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:arsh-goyal-dsa-sheet",
+    "custom:algomaster-300",
+    "custom:fraz-dsa-sheet",
+    "custom:striver-a2z-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ],
   "leetcode:3sum": [
     "Blind75",
     "Grind75",
