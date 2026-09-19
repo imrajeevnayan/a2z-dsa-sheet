@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-18T07:46:12.124Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-19T07:37:43.920Z",
+  "runtime": "2673 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/920519",
-  "submissionId": "j0q3cw"
+  "problemUrl": "https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278",
+  "submissionId": "o9fizo"
 }
