@@ -1,17 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/is-graph-bipartite/description/?envType=problem-list-v2&envId=graph
- * Language: Graph Theory
- * Difficulty: Medium
- * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Graph Coloring, Bipartite Graph
- * Runtime: N/A
+ * URL: https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-09-10T12:26:04.382Z
+ * Synced: 2026-09-18T18:48:28.793Z
  */
 
 class Solution {
-    public boolean isBipartite(int[][] graph) {
-        
+    public void moveZeroes(int[] arr) {
+        int i=0;
+        for(int j=0;j<arr.length;j++){
+            if(arr[j]!=0)arr[i++]=arr[j];
+        }
+        while(i<arr.length)arr[i++]=0;
     }
 }
