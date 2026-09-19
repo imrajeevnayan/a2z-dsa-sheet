@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/fruit-into-baskets/
-- Synced: 2026-09-19T09:41:15.735Z
+- Synced: 2026-09-19T09:42:02.908Z
 
 ## Problem Description
 
