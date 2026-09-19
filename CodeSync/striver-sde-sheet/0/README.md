@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Two Pointers
-- Difficulty: Easy
-- Topics: Array, Two Pointers
+- Language: Problem List
+- Difficulty: Medium
+- Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T18:50:32.694Z
+- Problem URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+- Synced: 2026-09-19T10:27:41.210Z
 
 ## Problem Description
 
-Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Consider the number of unique elements in nums to be k​​​​​​​​​​​​​​. After removing duplicates, return the number of unique elements k. The first k elements of nums should contain the unique numbers in sorted order. The remaining elements beyond index k - 1 can be ignored. Custom Judge: The judge will test your solution with the following code: int[] nums = [...]; // Input array int[] expectedNums = [...]; // The expected answer with correct length int k = removeDuplicates(nums); // Calls your implementation assert k == expectedNums.length; for (int i = 0; i < k; i++) { assert nums[i] == expectedNums[i]; } If all assertions pass, then your solution will be accepted. Example 1: Input: nums = [1,1,2] Output: 2, nums = [1,2,_] Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively. It does not matter what you leave beyond the returned k (hence they are underscores). Example 2: Input: nums = [0,0,1,1,1,2,2,3,3,4] Output: 5, nums = [0,1,2,3,4,_,_,_,_,_] Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively. It does not matter what you leave beyond the returned k (hence they are underscores). Constraints: 1 <= nums.length <= 3 * 104 -100 <= nums[i] <= 100 nums is sorted in non-decreasing order.
+Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's. Example 1: Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2 Output: 6 Explanation: [1,1,1,0,0,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1. The longest subarray is underlined. Example 2: Input: nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3 Output: 10 Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1] Bolded numbers were flipped from 0 to 1. The longest subarray is underlined. Constraints: 1 <= nums.length <= 105 nums[i] is either 0 or 1. 0 <= k <= nums.length
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Sliding Window, Prefix Sum. Review the synced source file for the implementation details.
