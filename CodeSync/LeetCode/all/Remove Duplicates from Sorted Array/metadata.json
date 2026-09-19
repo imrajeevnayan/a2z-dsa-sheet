@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-16T20:54:57.983Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-18T18:51:22.111Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Two Pointers (Copy-two-pointers)",
+  "language": "Two Pointers",
   "problemTitle": "Remove Duplicates from Sorted Array",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=da2mv5gs",
-  "submissionId": "u4q9f1"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "ugog3v"
 }
