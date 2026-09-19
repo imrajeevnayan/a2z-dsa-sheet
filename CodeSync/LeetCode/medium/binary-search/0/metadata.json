@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-17T03:59:46.836Z",
+  "submissionTimestamp": "2026-09-19T10:27:41.210Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Array",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
-  "submissionId": "1d9hz8"
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
+  "submissionId": "y37fug"
 }
