@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Sliding Window
-- Runtime: 0 ms
-- Memory: 70.89 MB
-- Problem URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2142511805/
-- Synced: 2026-09-15T11:01:50.935Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/
+- Synced: 2026-09-19T09:37:08.229Z
 
 ## Problem Description
 
