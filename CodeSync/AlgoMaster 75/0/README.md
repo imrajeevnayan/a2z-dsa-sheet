@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Java
-- Difficulty: Unknown
-- Topics: Uncategorized
+- Language: Problem List
+- Difficulty: Easy
+- Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-palindrome/submissions/2130673263/
-- Synced: 2026-09-04T15:51:26.008Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/description/
+- Synced: 2026-09-19T11:20:59.344Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
