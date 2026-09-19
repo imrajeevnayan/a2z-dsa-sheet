@@ -1,13 +1,13 @@
 # Move Zeroes
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Two Pointers
 - Difficulty: Easy
 - Topics: Array, Two Pointers
 - Runtime: 0 ms
-- Memory: 47.76 MB
-- Problem URL: https://leetcode.com/problems/move-zeroes/submissions/2050249740/
-- Synced: 2026-06-29T16:00:12.187Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/move-zeroes/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T18:49:14.785Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
