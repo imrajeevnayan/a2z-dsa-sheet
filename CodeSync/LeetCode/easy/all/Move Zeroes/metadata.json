@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-07-14T11:16:25.038Z",
+  "submissionTimestamp": "2026-09-18T18:49:14.785Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -8,8 +8,8 @@
     "Two Pointers"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Two Pointers",
   "problemTitle": "Move Zeroes",
-  "problemUrl": "https://leetcode.com/problems/move-zeroes/",
-  "submissionId": "i2ffhq"
+  "problemUrl": "https://leetcode.com/problems/move-zeroes/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "efaapt"
 }
