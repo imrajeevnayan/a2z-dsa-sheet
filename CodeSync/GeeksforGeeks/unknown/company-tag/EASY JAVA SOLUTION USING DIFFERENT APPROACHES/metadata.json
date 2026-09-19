@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-18T19:15:46.569Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Linked List",
+    "Related Articles",
+    "Remove Occurrences Duplicates Sorted Linked List"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public Node removeAllDuplicates(Node head) { if (head == null || head.next == null) { return head; } HashMap<Integer, Integer> frequencyMap = new HashMap<>(); Node current = head; while (current != null) { frequencyMap.put(current.data, frequencyMap.getOrDefault(current.data, 0) + 1); current = current.next; } Node dummy = new Node(0); Node newCurrent = dummy; current = head; while (current != null) { if (frequencyMap.get(current.data) == 1) { newCurrent.next = new Node(current.data); newCurrent = newCurrent.next; } current = current.next; } return dummy.next; } }",
+  "problemTitle": "EASY JAVA SOLUTION USING DIFFERENT APPROACHES",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-all-occurences-of-duplicates-in-a-linked-list/1",
+  "submissionId": "3drsdo"
+}
