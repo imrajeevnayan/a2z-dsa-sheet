@@ -1,24 +1,37 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
+ * URL: https://www.naukri.com/code360/problems/fruits-and-baskets_985356
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2638 ms
+ * Runtime: 11041 ms
  * Memory: N/A
- * Synced: 2026-09-19T08:50:41.666Z
+ * Synced: 2026-09-19T09:36:48.984Z
  */
 
-import java.util.* ;
-import java.io.*; 
+import java.util.*;
+ 
 public class Solution {
-    static int[] rotateArray(int[] arr, int n) {
-        int last=arr[0];
-        for(int i=0;i<n-1;i++){
-            arr[i]=arr[i+1];
+    public static int findMaxFruits(int []arr, int n) {
+ 
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int left = 0,max = 0;
+ 
+        for (int right = 0; right < n; right++) {
+            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+ 
+            while (map.size() > 2) {
+                map.put(arr[left], map.getOrDefault(arr[left], 0) -1);
+ 
+                if (map.get(arr[left]) == 0) {
+                    map.remove(arr[left]);
+                }
+                left++;
+            }
+            max = Math.max(max, right - left + 1);
         }
-        arr[n-1]=last;
-        return arr;
+ 
+        return max;
     }
 }
