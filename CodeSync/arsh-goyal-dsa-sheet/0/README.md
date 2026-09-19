@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Two Pointers
 - Difficulty: Easy
-- Topics: Array, Two Pointers
+- Topics: Array, Hash Table, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/description/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T17:21:17.759Z
+- Problem URL: https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T18:02:57.227Z
 
 ## Problem Description
 
-You are given an integer array nums. In one operation, you can choose any two distinct indices i and j and swap nums[i] and nums[j]. Return an integer denoting the minimum number of operations required to move all 0s to the end of the array. Example 1: Input: nums = [0,1,0,3,12] Output: 2 Explanation: We perform the following swap operations: Swap nums[0] and nums[3], giving nums = [3, 1, 0, 0, 12]. Swap nums[2] and nums[4], giving nums = [3, 1, 12, 0, 0]. Thus, the answer is 2. Example 2: Input: nums = [0,1,0,2] Output: 1 Explanation: We perform the following swap operations: Swap nums[0] and nums[3], giving nums = [2, 1, 0, 0]. Thus, the answer is 1. Example 3: Input: nums = [1,2,0] Output: 0 Explanation: The array already satisfies the condition. Therefore, no swap operations are needed. Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 100
+You are given a 0-indexed integer array nums of even length. As long as nums is not empty, you must repetitively: Find the minimum number in nums and remove it. Find the maximum number in nums and remove it. Calculate the average of the two removed numbers. The average of two numbers a and b is (a + b) / 2. For example, the average of 2 and 3 is (2 + 3) / 2 = 2.5. Return the number of distinct averages calculated using the above process. Note that when there is a tie for a minimum or maximum number, any can be removed. Example 1: Input: nums = [4,1,4,0,3,5] Output: 2 Explanation: 1. Remove 0 and 5, and the average is (0 + 5) / 2 = 2.5. Now, nums = [4,1,4,3]. 2. Remove 1 and 4. The average is (1 + 4) / 2 = 2.5, and nums = [4,3]. 3. Remove 3 and 4, and the average is (3 + 4) / 2 = 3.5. Since there are 2 distinct numbers among 2.5, 2.5, and 3.5, we return 2. Example 2: Input: nums = [1,100] Output: 1 Explanation: There is only one average to be calculated after removing 1 and 100, so we return 1. Constraints: 2 <= nums.length <= 100 nums.length is even. 0 <= nums[i] <= 100
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Hash Table, Two Pointers, Sorting. Review the synced source file for the implementation details.
