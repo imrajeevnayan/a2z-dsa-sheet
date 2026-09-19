@@ -1,13 +1,13 @@
 # Remove Duplicates from Sorted Array
 
 - Platform: LeetCode
-- Language: Two Pointers (Copy-two-pointers)
+- Language: Two Pointers
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=da2mv5gs
-- Synced: 2026-09-16T20:54:57.983Z
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T18:51:22.111Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums sorted in non-decreasing order, remove the duplicate
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers (Copy-two-pointers). The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
