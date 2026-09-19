@@ -1,0 +1,34 @@
+/*
+ * Platform: LeetCode
+ * Problem: Insert Interval
+ * URL: https://leetcode.com/problems/insert-interval/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-19T18:14:02.526Z
+ */
+
+list.add(interval);
+            }
+
+            // interval newInterval ke baad hai
+            else if (interval[0] > newInterval[1]) {
+                list.add(newInterval);
+                newInterval = interval;
+            }
+
+            // Overlap -> merge
+            else {
+                newInterval[0] = Math.min(newInterval[0], interval[0]);
+                newInterval[1] = Math.max(newInterval[1], interval[1]);
+            }
+        }
+
+        // Last interval
+        list.add(newInterval);
+
+        return list.toArray(new int[list.size()][]);
+    }
+}
