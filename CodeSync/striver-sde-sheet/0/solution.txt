@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Hash Table, Linked List, Two Pointers
+ * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T09:03:33.985Z
+ * Synced: 2026-09-18T18:50:32.694Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) return null;
-        ListNode A = headA;
-        ListNode B = headB;
-        while (A != B) {
-            A = (A == null) ? headB : A.next;
-            B = (B == null) ? headA : B.next;
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
         }
-        return B;
+        return i + 1;
     }
 }
