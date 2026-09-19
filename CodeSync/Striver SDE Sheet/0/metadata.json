@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-16T11:59:25.150Z",
+  "submissionTimestamp": "2026-09-19T11:20:59.344Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "String",
+    "Stack",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "f5kvqy"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/",
+  "submissionId": "xgupxz"
 }
