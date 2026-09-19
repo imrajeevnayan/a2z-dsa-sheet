@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: EASY JAVA SOLUTION USING DIFFERENT APPROACHES
+ * URL: https://www.geeksforgeeks.org/problems/remove-all-occurences-of-duplicates-in-a-linked-list/1
+ * Language: class Solution { public Node removeAllDuplicates(Node head) { if (head == null || head.next == null) { return head; } HashMap<Integer, Integer> frequencyMap = new HashMap<>(); Node current = head; while (current != null) { frequencyMap.put(current.data, frequencyMap.getOrDefault(current.data, 0) + 1); current = current.next; } Node dummy = new Node(0); Node newCurrent = dummy; current = head; while (current != null) { if (frequencyMap.get(current.data) == 1) { newCurrent.next = new Node(current.data); newCurrent = newCurrent.next; } current = current.next; } return dummy.next; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Related Articles, Remove Occurrences Duplicates Sorted Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T19:15:46.569Z
+ */
+
+class Solution {
+    public Node removeDuplicates(Node head) {
+        // Dummy node use karte hain (easy handling ke liye)
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        Node prev = dummy;
+        Node current = head;
+
+        while (current != null) {
+            // Check karo current node ke aage duplicates hain ya nahi
+            boolean isDuplicate = false;
+
+            while (current.next != null && current.data == current.next.data) {
+                isDuplicate = true;
+                current = current.next;  // saare duplicates skip karo
+            }
+
+            if (isDuplicate) {
+                // Saare duplicates hata do
+                prev.next = current.next;
+            } else {
+                // Unique hai → prev aage badhao
+                prev = prev.next;
+            }
+
+            current = current.next;
+        }
+
+        return dummy.next;
+    }
+}
