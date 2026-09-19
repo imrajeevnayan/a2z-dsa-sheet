@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-18T19:09:50.561Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Greedy",
+    "two-pointer-algorithm",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: static int catchThieves(vector<char> &arr, int k) { // Code here int n=arr.size(); int p=0,t=0,cnt=0; while(p<n && t<n){ while(p<n && arr[p]!='P') p++; while(t<n && arr[t]!='T') t++; if(p<n && t<n){ if(p-t>k){ t++; } else if(t-p>k) { p++; } else { t++,p++; cnt++; } } } return cnt; } };",
+  "problemTitle": "Police and Thieves",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/police-and-thieves--141631/1",
+  "submissionId": "fbnbq0"
+}
