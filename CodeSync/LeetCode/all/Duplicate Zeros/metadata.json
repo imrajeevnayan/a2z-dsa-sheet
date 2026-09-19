@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-18T18:05:50.827Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Two Pointers"
+  ],
+  "platform": "LeetCode",
+  "language": "Two Pointers",
+  "problemTitle": "Duplicate Zeros",
+  "problemUrl": "https://leetcode.com/problems/duplicate-zeros/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "d63vro"
+}
