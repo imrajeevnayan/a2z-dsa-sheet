@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-15T11:01:50.935Z",
-  "runtime": "0 ms",
-  "memoryUsage": "70.89 MB",
+  "submissionTimestamp": "2026-09-19T09:37:08.229Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fruit Into Baskets",
-  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/submissions/2142511805/",
-  "submissionId": "amgdnd"
+  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/description/",
+  "submissionId": "3tlv4r"
 }
