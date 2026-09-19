@@ -1,27 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/reverse-string-prefix/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Two Pointers (Copy-two-pointers)
+ * URL: https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
  * Difficulty: Easy
- * Topics: Two Pointers, String
- * Runtime: N/A
+ * Topics: Array, Two Pointers
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-09-16T20:44:18.308Z
+ * Synced: 2026-09-18T18:48:28.793Z
  */
 
 class Solution {
-    public String reversePrefix(String s, int k) {
-        char[] arr = s.toCharArray();
-
-        int left = 0, right = k-1;
-        while (left < right) {
-            char temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-            left++;
-            right--;
+    public void moveZeroes(int[] arr) {
+        int i=0;
+        for(int j=0;j<arr.length;j++){
+            if(arr[j]!=0)arr[i++]=arr[j];
         }
-        return new String(arr);
+        while(i<arr.length)arr[i++]=0;
     }
 }
