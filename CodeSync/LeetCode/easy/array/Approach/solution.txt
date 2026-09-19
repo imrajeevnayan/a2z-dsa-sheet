@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Approach
+ * URL: https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers
+ * Language: Two Pointers
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T18:03:42.852Z
+ */
+
+class Solution {
+    public int distinctAverages(int[] nums) {
+        
+    }
+}
