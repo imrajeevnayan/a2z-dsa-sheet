@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-08-11T12:29:27.422Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-18T18:03:42.852Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "Array",
-    "Stack",
-    "Tree",
-    "Binary Search Tree",
-    "Monotonic Stack",
-    "Binary Tree"
+    "Hash Table",
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Monotonic Stack",
+  "language": "Two Pointers",
   "problemTitle": "Approach",
-  "problemUrl": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/?envType=problem-list-v2&envId=monotonic-stack",
-  "submissionId": "jx88pm"
+  "problemUrl": "https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "e0af1d"
 }
