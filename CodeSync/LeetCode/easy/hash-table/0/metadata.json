@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-16T09:03:33.985Z",
+  "submissionTimestamp": "2026-09-18T18:02:57.227Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Array",
     "Hash Table",
-    "Linked List",
-    "Two Pointers"
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Two Pointers",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "99mf65"
+  "problemUrl": "https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=two-pointers",
+  "submissionId": "mdtpcr"
 }
