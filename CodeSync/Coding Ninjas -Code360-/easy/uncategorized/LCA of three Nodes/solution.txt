@@ -1,39 +1,29 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/920519
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 2673 ms
  * Memory: N/A
- * Synced: 2026-09-18T07:46:12.124Z
+ * Synced: 2026-09-19T07:37:43.920Z
  */
 
-import java.util.*;
+import java.util.* ;
+import java.io.*; 
  
 public class Solution {
-    public static ArrayList<Integer> getLeftView(TreeNode<Integer> root) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        if (root == null) return ans;
  
-        Queue<TreeNode<Integer>> q = new LinkedList<>();
-        q.add(root);
+    static int[] rotateArray(int[] arr, int n) {
+        int first = arr[0];
  
-        while (!q.isEmpty()) {
-            int size = q.size();
-             ans.add(q.peek().data);
-             while (size > 0) {
-              TreeNode<Integer> curr = q.poll();
-    
-            if (curr.left != null) q.add(curr.left);
-            if (curr.right != null) q.add(curr.right);
- 
-         size--;
-         }
-            
+        for (int i = 0; i < n - 1; i++) {
+            arr[i] = arr[i + 1];
         }
  
-        return ans;
+        arr[n - 1] = first;
+ 
+        return arr;
     }
 }
