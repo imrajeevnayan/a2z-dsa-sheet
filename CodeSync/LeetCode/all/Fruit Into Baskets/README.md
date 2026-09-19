@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 70.68 MB
 - Problem URL: https://leetcode.com/problems/fruit-into-baskets/
-- Synced: 2026-09-19T09:59:16.679Z
+- Synced: 2026-09-19T10:00:10.275Z
 
 ## Problem Description
 
