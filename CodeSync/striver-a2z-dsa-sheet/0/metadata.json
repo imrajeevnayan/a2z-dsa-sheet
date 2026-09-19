@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-18T18:50:32.694Z",
+  "submissionTimestamp": "2026-09-19T10:27:41.210Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers"
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
-  "language": "Two Pointers",
+  "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers",
-  "submissionId": "gk4gqz"
+  "problemUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/",
+  "submissionId": "y37fug"
 }
