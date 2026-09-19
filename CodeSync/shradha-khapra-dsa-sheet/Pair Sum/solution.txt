@@ -1,25 +1,51 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Pair Sum
- * URL: https://www.naukri.com/code360/problems/pair-sum_1171154
- * Language: Java (SE 1.8)
- * Difficulty: Unknown
+ * URL: https://www.naukri.com/code360/problems/pair-sum_697295
+ * Language: Java (17)
+ * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 722 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T04:28:22.824Z
+ * Synced: 2026-09-19T07:30:37.262Z
  */
 
-import java.util.*;
-public class Solution {
-    public static int pairSum(int arr[], int n, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            int rem = target - arr[i];
-            if (map.containsKey(rem))count += map.get(rem);
-            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+while (left <= right && arr[left] == start) {
+                    countLeft++;
+                    left++;
+                }
+ 
+                while (left <= right && arr[right] == end) {
+                    countRight++;
+                    right--;
+                }
+ 
+                // Same elements case
+                if (start == end) {
+                    int totalPairs = (countLeft * (countLeft - 1)) / 2;
+ 
+                    for (int i = 0; i < totalPairs; i++) {
+                        ans.add(new int[]{start, end});
+                    }
+                }
+                else {
+                    int totalPairs = countLeft * countRight;
+ 
+                    for (int i = 0; i < totalPairs; i++) {
+                        ans.add(new int[]{start, end});
+                    }
+                }
+            }
+ 
+            else if (sum < s) {
+                left++;
+            }
+ 
+            else {
+                right--;
+            }
         }
-        return count == 0 ? -1 : count;
+ 
+        return ans;
     }
 }
