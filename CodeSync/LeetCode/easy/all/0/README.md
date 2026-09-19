@@ -4,14 +4,14 @@
 - Language: Two Pointers
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: N/A
+- Runtime: . S
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/duplicate-zeros/description/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T18:04:56.223Z
+- Problem URL: https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=two-pointers
+- Synced: 2026-09-18T18:48:28.793Z
 
 ## Problem Description
 
-Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right. Note that elements beyond the length of the original array are not written. Do the above modifications to the input array in place and do not return anything. Example 1: Input: arr = [1,0,2,3,0,4,5,0] Output: [1,0,0,2,3,0,0,4] Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4] Example 2: Input: arr = [1,2,3] Output: [1,2,3] Explanation: After calling your function, the input array is modified to: [1,2,3] Constraints: 1 <= arr.length <= 104 0 <= arr[i] <= 9
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array. Example 1: Input: nums = [0,1,0,3,12] Output: [1,3,12,0,0] Example 2: Input: nums = [0] Output: [0] Constraints: 1 <= nums.length <= 104 -231 <= nums[i] <= 231 - 1 Follow up: Could you minimize the total number of operations done?
 
 ## Explanation
 
