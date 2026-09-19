@@ -7,14 +7,16 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T09:41:15.735Z
+ * Synced: 2026-09-19T09:42:02.908Z
  */
 
 class Solution {
     public int totalFruit(int[] fruits) {
-        
-    }
         HashMap<Integer,Integer>map=new HashMap<>();
         int left=0,max=0;
-        for(int )
+        for(int right=0;right<fruits.length;right++){
+            map.put(arr[right])
+        }
+        
+    }
 }
