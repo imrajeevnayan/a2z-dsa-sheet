@@ -1,18 +1,18 @@
 # 0
 
 - Platform: LeetCode
-- Language: Dynamic Programming
-- Difficulty: Medium
-- Topics: Array, Dynamic Programming
+- Language: Problem List
+- Difficulty: Easy
+- Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber/description/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-09-16T11:59:25.150Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/description/
+- Synced: 2026-09-19T11:20:59.344Z
 
 ## Problem Description
 
-You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police. Example 1: Input: nums = [1,2,3,1] Output: 4 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amount you can rob = 1 + 3 = 4. Example 2: Input: nums = [2,7,9,3,1] Output: 12 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1). Total amount you can rob = 2 + 9 + 1 = 12. Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 400
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type. Example 1: Input: s = "()" Output: true Example 2: Input: s = "()[]{}" Output: true Example 3: Input: s = "(]" Output: false Example 4: Input: s = "([])" Output: true Example 5: Input: s = "([)]" Output: false Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
