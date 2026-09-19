@@ -1,24 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=two-pointers
- * Language: Two Pointers
- * Difficulty: Easy
- * Topics: Array, Two Pointers
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-18T18:50:32.694Z
+ * Synced: 2026-09-19T10:27:41.210Z
  */
 
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int i = 0;
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[j] != nums[i]) {
-                i++;
-                nums[i] = nums[j];
+    public int longestOnes(int[] nums, int k) {
+        int left = 0, zeros = 0, ans = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) zeros++;
+
+            while (zeros > k) {
+                if (nums[left] == 0) zeros--;
+                left++;
             }
+            ans = Math.max(ans, right - left + 1);
         }
-        return i + 1;
+        return ans;
     }
 }
