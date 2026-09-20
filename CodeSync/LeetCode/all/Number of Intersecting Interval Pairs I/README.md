@@ -4,10 +4,10 @@
 - Language: Weekly Contest 520
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/description/
-- Synced: 2026-09-20T08:14:40.494Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/
+- Synced: 2026-09-20T08:16:56.242Z
 
 ## Problem Description
 
