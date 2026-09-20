@@ -4496,5 +4496,6 @@
     "custom:neetcode-dsa-sheet",
     "custom:striver-a2z-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
-  ]
+  ],
+  "leetcode:number-of-intersecting-interval-pairs-i": []
 }
