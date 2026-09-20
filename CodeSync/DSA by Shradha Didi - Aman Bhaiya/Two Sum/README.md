@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 47.24 MB
 - Problem URL: https://leetcode.com/problems/two-sum/
-- Synced: 2026-09-20T10:22:51.324Z
+- Synced: 2026-09-20T10:23:39.410Z
 
 ## Problem Description
 
