@@ -7,11 +7,12 @@
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: 47.24 MB
- * Synced: 2026-09-20T10:24:26.291Z
+ * Synced: 2026-09-20T10:25:12.044Z
  */
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-       HashMap<Integer,Integer>map=bew 
+       HashMap<Integer,Integer>map=new HashMap<>();
     }
+       for 
 }
