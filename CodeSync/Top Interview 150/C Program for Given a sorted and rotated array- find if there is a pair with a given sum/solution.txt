@@ -1,0 +1,135 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C Program for Given a sorted and rotated array, find if there is a pair with a given sum
+ * URL: https://www.geeksforgeeks.org/c/c-program-for-given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
+ * Language: // C code to implement the approach #include <stdio.h> // This function returns true if arr[0..n-1] // has a pair with sum equals to x. int pairInSortedRotated(int arr[], int n, int x) { // Find the pivot element int i; for (i = 0; i < n - 1; i++) { if (arr[i] > arr[i + 1]) { break; } } // l is now index of smallest element int l = (i + 1) % n; // r is now index of largest element int r = i; // Keep moving either l or r till they meet while (l != r) { // If we find a pair with sum x, // we return true if (arr[l] + arr[r] == x) { return 1; } // If current pair sum is less, // move to the higher sum if (arr[l] + arr[r] < x) { l = (l + 1) % n; // Move to the lower sum side } else { r = (n + r - 1) % n; } } return 0; } // Driver code int main() { int arr[] = { 11, 15, 6, 8, 9, 10 }; int sum = 16; int n = sizeof(arr) / sizeof(arr[0]); // Function call if (pairInSortedRotated(arr, n, sum)) { printf("true\n"); } else { printf("false\n"); } return 0; }
+ * Difficulty: Unknown
+ * Topics: Placement 360 Course Explore, Placement 360 Course, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T11:36:37.324Z
+ */
+
+// C code to implement the approach
+#include <stdio.h>
+​
+// This function returns true if arr[0..n-1]
+// has a pair with sum equals to x.
+int pairInSortedRotated(int arr[], int n, int x)
+{
+    // Find the pivot element
+    int i;
+    for (i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            break;
+        }
+    }
+    // l is now index of smallest element
+    int l = (i + 1) % n;
+    // r is now index of largest element
+    int r = i;
+​
+    // Keep moving either l or r till they meet
+    while (l != r) {
+​
+        // If we find a pair with sum x,
+        // we return true
+        if (arr[l] + arr[r] == x) {
+            return 1;
+        }
+​
+        // If current pair sum is less,
+        // move to the higher sum
+        if (arr[l] + arr[r] < x) {
+            l = (l + 1) % n;
+            // Move to the lower sum side
+        }
+        else {
+            r = (n + r - 1) % n;
+        }
+    }
+    return 0;
+}
+​
+// Driver code
+int main()
+{
+    int arr[] = { 11, 15, 6, 8, 9, 10 };
+    int sum = 16;
+    int n = sizeof(arr) / sizeof(arr[0]);
+​
+    // Function call
+    if (pairInSortedRotated(arr, n, sum)) {
+        printf("true\n");
+    }
+    else {
+        printf("false\n");
+    }
+​
+    return 0;
+}
+// C code to implement the approach
+#include <stdio.h>
+​
+// Function to find a pair with a given sum in a sorted and
+// rotated array
+int findPair(int arr[], int n, int x)
+{
+    // Find the pivot element
+    int pivot = 0;
+    for (int i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            pivot = i + 1;
+            break;
+        }
+    }
+​
+    // Set left and right pointers
+    int left = pivot;
+    int right = (pivot - 1 + n) % n;
+​
+    // Loop until left and right pointers meet
+    while (left != right) {
+        // If the sum of elements at left and right pointers
+        // is equal to x, return 1 (true)
+        if (arr[left] + arr[right] == x) {
+            return 1;
+        }
+​
+        // If the sum of elements at left and right pointers
+        // is less than x, move the left pointer to the next
+        // element
+        else if (arr[left] + arr[right] < x) {
+            left = (left + 1) % n;
+        }
+​
+        // If the sum of elements at left and right pointers
+        // is greater than x, move the right pointer to the
+        // previous element
+        else {
+            right = (right - 1 + n) % n;
+        }
+    }
+​
+    // Return 0 (false) if a pair is not found
+    return 0;
+}
+​
+// Driver Code
+int main()
+{
+    // Initialize array and variables
+    int arr[] = { 11, 15, 6, 8, 9, 10 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int x = 16;
+​
+    // Call the function and print the result
+    if (findPair(arr, n, x)) {
+        printf("true\n");
+    }
+    else {
+        printf("false\n");
+    }
+​
+    return 0;
+}
