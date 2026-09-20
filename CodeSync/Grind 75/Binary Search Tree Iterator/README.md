@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-search-tree-iterator/description/
-- Synced: 2026-09-20T11:44:28.331Z
+- Problem URL: https://leetcode.com/problems/binary-search-tree-iterator/
+- Synced: 2026-09-20T11:45:14.103Z
 
 ## Problem Description
 
