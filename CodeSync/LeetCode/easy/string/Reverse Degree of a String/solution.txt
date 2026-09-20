@@ -5,17 +5,18 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-20T08:09:28.392Z
+ * Synced: 2026-09-20T08:11:17.910Z
  */
 
 class Solution {
     public int reverseDegree(String s) {
         long ans=0;
         for(int i=0;i<s.length();i++){
-            int revVal=z-s.charAt(i)+1;
+            int reverseVal='z'-s.charAt(i)+1;
+            ans+=reverseVal *(i+1);
         }
+        return(int) ans;
     }
-            ans+=revVal *(i+1);
 }
