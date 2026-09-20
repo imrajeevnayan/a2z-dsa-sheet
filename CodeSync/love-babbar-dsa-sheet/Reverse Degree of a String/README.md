@@ -1,13 +1,13 @@
 # Reverse Degree of a String
 
 - Platform: LeetCode
-- Language: Algorithms
+- Language: Daily Question
 - Difficulty: Easy
 - Topics: String, Simulation
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-degree-of-a-string/
-- Synced: 2026-07-11T10:17:54.317Z
+- Problem URL: https://leetcode.com/problems/reverse-degree-of-a-string/?envType=daily-question&envId=2026-09-20
+- Synced: 2026-09-20T08:00:03.958Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a string s, calculate its reverse degree. The reverse degree is calculated
 
 ## Explanation
 
-This solution was accepted on LeetCode using Algorithms. The detected topics are String, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are String, Simulation. Review the synced source file for the implementation details.
