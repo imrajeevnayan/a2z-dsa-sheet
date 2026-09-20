@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Hash Table, String, Sorting
+- Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/
-- Synced: 2026-09-14T03:31:05.944Z
+- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/description/
+- Synced: 2026-09-20T11:48:29.130Z
 
 ## Problem Description
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
+Given the root of a binary tree, determine if it is a valid binary search tree (BST). A valid BST is defined as follows: The left subtree of a node contains only nodes with keys strictly less than the node's key. The right subtree of a node contains only nodes with keys strictly greater than the node's key. Both the left and right subtrees must also be binary search trees. Example 1: Input: root = [2,1,3] Output: true Example 2: Input: root = [5,1,4,null,null,3,6] Output: false Explanation: The root node's value is 5 but its right child's value is 4. Constraints: The number of nodes in the tree is in the range [1, 104]. -231 <= Node.val <= 231 - 1
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
