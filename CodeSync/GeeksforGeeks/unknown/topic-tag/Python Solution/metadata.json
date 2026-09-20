@@ -1,19 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-04T07:16:54.938Z",
+  "submissionTimestamp": "2026-09-20T11:34:27.655Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
     "Topic Tags",
-    "Mathematical",
-    "Algorithms",
+    "Arrays",
+    "Hash",
     "Related Articles",
-    "Program To Print Floyds Triangle"
+    "Print All Pairs With Given Sum"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def printFloydTriangle(self, N): #code here c = 0 for i in range(1, N+1): for j in range(1, i+1): c+=1 print(c, end=\" \") print()",
-  "problemTitle": "Python Solution:",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/floyds-triangle1222/1",
-  "submissionId": "j7p5ot"
+  "language": "public List<List<Integer>> distinctPairs(int[] arr, int target) { // Your code here List<List<Integer>> ans = new ArrayList<>(); int n = arr.length; if(n<=1){ return ans; } Arrays.sort(arr); int left = 0; int right = n-1; while(left < right){ int sum = arr[left] + arr[right]; if(sum == target){ List<Integer> temp = new ArrayList<>(); temp.add(arr[left]); temp.add(arr[right]); ans.add(temp); int prev_left = arr[left]; int prev_right = arr[right]; while(arr[left] == prev_left){ left++; if(left >= right){ return ans; } } while(arr[right] == prev_right){ right--; if(left >= right){ return ans; } } } else if(sum < target){ left++; } else{ right--; } } return ans; }",
+  "problemTitle": "Python Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1",
+  "submissionId": "x0c5g"
 }
