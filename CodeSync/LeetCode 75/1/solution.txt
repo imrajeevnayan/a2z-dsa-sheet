@@ -1,22 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
- * Difficulty: Easy
- * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-02T16:49:38.947Z
+ * URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 18 ms
+ * Memory: 50.28 MB
+ * Synced: 2026-09-20T15:13:20.997Z
  */
 
-class Solution {
-    public int maxProfit(int[] prices) {
-     int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-     for(int n :prices){
-        min=Math.min(min,n);
-        max=Math.max(max,n-min);
-     }
-     return max;   
-    }
-}
+1class BSTIterator {
+2    Stack<TreeNode> st = new Stack<>();
+3
+4    public BSTIterator(TreeNode root) {
+5        pushLeft(root);
+6    }
+7
+8    void pushLeft(TreeNode root) {
+9        while (root != null) {
+10            st.push(root);
+11            root = root.left;
+12        }
+13    }
+14
+15    public int next() {
+16        TreeNode node = st.pop();
+17        pushLeft(node.right);
+18        return node.val;
+19    }
+20
+21    public boolean hasNext() {
+22        return !st.isEmpty();
+23    }
+24}
+25
