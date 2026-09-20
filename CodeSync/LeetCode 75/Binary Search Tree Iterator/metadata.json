@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-20T11:44:28.331Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-20T11:45:14.103Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Search Tree Iterator",
-  "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/description/",
-  "submissionId": "705c1"
+  "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+  "submissionId": "2brnax"
 }
