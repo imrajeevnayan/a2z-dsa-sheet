@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-13T22:06:42.832Z",
+  "submissionTimestamp": "2026-09-20T10:22:51.324Z",
   "runtime": "0 ms",
-  "memoryUsage": "47.08 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Two Sum",
-  "problemUrl": "https://leetcode.com/problems/two-sum/submissions/2141035854/",
+  "problemUrl": "https://leetcode.com/problems/two-sum/",
   "submissionId": "hppj7s"
 }
