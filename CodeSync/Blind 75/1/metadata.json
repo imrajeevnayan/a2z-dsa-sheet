@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-14T06:43:55.960Z",
+  "submissionTimestamp": "2026-09-20T11:48:29.130Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "String",
-    "Sliding Window"
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
-  "submissionId": "x2ajuf"
+  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/description/",
+  "submissionId": "o392rz"
 }
