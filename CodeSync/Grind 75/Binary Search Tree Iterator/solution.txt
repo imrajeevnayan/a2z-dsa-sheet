@@ -1,0 +1,36 @@
+/*
+ * Platform: LeetCode
+ * Problem: Binary Search Tree Iterator
+ * URL: https://leetcode.com/problems/binary-search-tree-iterator/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T11:44:28.331Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class BSTIterator {
+
+    public BSTIterator(TreeNode root) {
+        
+    }
+    
+    public int next() {
+        
+    }
