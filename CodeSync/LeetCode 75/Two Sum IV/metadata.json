@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-20T11:08:24.525Z",
+  "submissionTimestamp": "2026-09-20T11:09:09.747Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Two Sum IV",
-  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
-  "submissionId": "n8n2gy"
+  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+  "submissionId": "dm19db"
 }
