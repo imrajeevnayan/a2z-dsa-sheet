@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: String, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-degree-of-a-string/?envType=daily-question&envId=2026-09-20
-- Synced: 2026-09-20T08:09:28.392Z
+- Synced: 2026-09-20T08:11:17.910Z
 
 ## Problem Description
 
