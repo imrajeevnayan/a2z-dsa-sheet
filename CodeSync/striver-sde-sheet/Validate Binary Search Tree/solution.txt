@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:51:02.761Z
+ * Synced: 2026-09-20T11:51:50.761Z
  */
 
 /**
