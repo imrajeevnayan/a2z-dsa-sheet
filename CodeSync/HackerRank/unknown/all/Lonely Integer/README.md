@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/challenges/lonely-integer/problem
-- Synced: 2026-09-20T11:22:45.500Z
+- Synced: 2026-09-20T11:23:31.266Z
 
 ## Problem Description
 
