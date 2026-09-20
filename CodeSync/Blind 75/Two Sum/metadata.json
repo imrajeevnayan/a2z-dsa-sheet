@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-14T04:26:21.823Z",
-  "runtime": "2 ms",
-  "memoryUsage": "47.08 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-20T10:22:51.324Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Two Sum",
-  "problemUrl": "https://leetcode.com/problems/two-sum/submissions/2141035854/",
-  "submissionId": "muq8rs"
+  "problemUrl": "https://leetcode.com/problems/two-sum/",
+  "submissionId": "hppj7s"
 }
