@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
-- Synced: 2026-09-20T11:53:04.745Z
+- Synced: 2026-09-20T11:54:16.746Z
 
 ## Problem Description
 
