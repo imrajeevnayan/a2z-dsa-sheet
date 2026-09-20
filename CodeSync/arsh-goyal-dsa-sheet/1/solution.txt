@@ -1,27 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
+ * URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
  * Language: Problem List
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-20T15:12:36.238Z
+ * Runtime: 18 ms
+ * Memory: 50.28 MB
+ * Synced: 2026-09-20T15:13:20.997Z
  */
 
-class Solution {
-    public boolean isValidBST(TreeNode root) {
-        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
-    }
-
-    boolean check(TreeNode root, long min, long max) {
-        if (root == null) return true;
-
-        if (root.val <= min || root.val >= max)
-            return false;
-
-        return check(root.left, min, root.val) &&
-               check(root.right, root.val, max);
-    }
-}
+1class BSTIterator {
+2    Stack<TreeNode> st = new Stack<>();
+3
+4    public BSTIterator(TreeNode root) {
+5        pushLeft(root);
+6    }
+7
+8    void pushLeft(TreeNode root) {
+9        while (root != null) {
+10            st.push(root);
+11            root = root.left;
+12        }
+13    }
+14
+15    public int next() {
+16        TreeNode node = st.pop();
+17        pushLeft(node.right);
+18        return node.val;
+19    }
+20
+21    public boolean hasNext() {
+22        return !st.isEmpty();
+23    }
+24}
+25
