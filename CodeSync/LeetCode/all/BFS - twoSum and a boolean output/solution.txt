@@ -7,11 +7,12 @@
  * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:26:55.084Z
+ * Synced: 2026-09-20T11:27:40.852Z
  */
 
 class Solution {
     public boolean findTarget(TreeNode root, int k) {
-        if(root)
+        if(root==null)return false;
     }
+        Set<Integer>s=new Hashs
 }
