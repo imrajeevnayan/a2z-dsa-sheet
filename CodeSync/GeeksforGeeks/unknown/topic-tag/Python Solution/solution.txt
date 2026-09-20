@@ -1,27 +1,49 @@
 /*
  * Platform: GeeksforGeeks
- * Problem: Python Solution:
- * URL: https://www.geeksforgeeks.org/problems/floyds-triangle1222/1
- * Language: class Solution: def printFloydTriangle(self, N): #code here c = 0 for i in range(1, N+1): for j in range(1, i+1): c+=1 print(c, end=" ") print()
+ * Problem: Python Solution
+ * URL: https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1
+ * Language: public List<List<Integer>> distinctPairs(int[] arr, int target) { // Your code here List<List<Integer>> ans = new ArrayList<>(); int n = arr.length; if(n<=1){ return ans; } Arrays.sort(arr); int left = 0; int right = n-1; while(left < right){ int sum = arr[left] + arr[right]; if(sum == target){ List<Integer> temp = new ArrayList<>(); temp.add(arr[left]); temp.add(arr[right]); ans.add(temp); int prev_left = arr[left]; int prev_right = arr[right]; while(arr[left] == prev_left){ left++; if(left >= right){ return ans; } } while(arr[right] == prev_right){ right--; if(left >= right){ return ans; } } } else if(sum < target){ left++; } else{ right--; } } return ans; }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program To Print Floyds Triangle
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Print All Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:16:54.938Z
+ * Synced: 2026-09-20T11:34:27.655Z
  */
 
-import java.util.Scanner;
-class GFG {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int ans=1;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=i;j++){
-                System.out.print(ans+" ");
-                ans++;
+class Solution {
+    public List<List<Integer>> distinctPairs(int[] arr, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        Arrays.sort(arr);
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left < right) {
+            int sum = arr[left] + arr[right];
+
+            if (sum == target) {
+                result.add(Arrays.asList(arr[left], arr[right]));
+
+                int leftVal = arr[left];
+                int rightVal = arr[right];
+
+                // Skip duplicates
+                while (left < right && arr[left] == leftVal) {
+                    left++;
+                }
+
+                while (left < right && arr[right] == rightVal) {
+                    right--;
+                }
+
+            } else if (sum < target) {
+                left++;
+            } else {
+                right--;
             }
-            System.out.println();
         }
+
+        return result;
     }
 }
