@@ -1,13 +1,13 @@
 # Validate Binary Search Tree
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-08-07T04:56:35.513Z
+- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/
+- Synced: 2026-09-20T11:49:17.765Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given the root of a binary tree, determine if it is a valid binary search tree (
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Tree, Depth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
