@@ -4581,5 +4581,9 @@
     "custom:fraz-dsa-sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "hackerrank:max-min": [
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ]
 }
