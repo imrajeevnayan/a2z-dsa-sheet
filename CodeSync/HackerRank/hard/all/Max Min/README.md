@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/challenges/angry-children/problem
-- Synced: 2026-09-20T11:19:38.202Z
+- Synced: 2026-09-20T11:20:20.999Z
 
 ## Problem Description
 
