@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Search Tree Iterator
- * URL: https://leetcode.com/problems/binary-search-tree-iterator/
+ * URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-09-20T11:45:14.103Z
+ * Memory: 50.28 MB
+ * Synced: 2026-09-20T11:46:26.759Z
  */
 
-Stack<TreeNode> st = new Stack<>();
-
-    public BSTIterator(TreeNode root) {
+public BSTIterator(TreeNode root) {
         pushLeft(root);
     }
 
@@ -34,4 +32,6 @@ Stack<TreeNode> st = new Stack<>();
     }
 }
 
+
 class BSTIterator {
+    Stack<TreeNode> st = new Stack<>();
