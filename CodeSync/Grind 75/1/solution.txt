@@ -1,28 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-14T06:43:55.960Z
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 18 ms
+ * Memory: 50.28 MB
+ * Synced: 2026-09-20T15:13:20.997Z
  */
 
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        Set<Character>set=new HashSet<>();
-        int left=0,ans=0;
-        for(int right=0;right<s.length();right++){
-            char ch=s.charAt(right);
-            while(set.contains(ch)){
-                set.remove(s.charAt(left));
-                left++;
-            }
-            set.add(ch);
-            ans=Math.max(ans,right-left+1);
-        }
-        return ans;
-    }
-}
+1class BSTIterator {
+2    Stack<TreeNode> st = new Stack<>();
+3
+4    public BSTIterator(TreeNode root) {
+5        pushLeft(root);
+6    }
+7
+8    void pushLeft(TreeNode root) {
+9        while (root != null) {
+10            st.push(root);
+11            root = root.left;
+12        }
+13    }
+14
+15    public int next() {
+16        TreeNode node = st.pop();
+17        pushLeft(node.right);
+18        return node.val;
+19    }
+20
+21    public boolean hasNext() {
+22        return !st.isEmpty();
+23    }
+24}
+25
