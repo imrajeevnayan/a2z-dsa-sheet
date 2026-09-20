@@ -1,19 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-20T11:47:11.759Z",
-  "runtime": "2 ms",
+  "submissionTimestamp": "2026-09-20T11:48:13.077Z",
+  "runtime": "18 ms",
   "memoryUsage": "50.28 MB",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Stack",
-    "Tree",
-    "Design",
-    "Binary Search Tree",
-    "Binary Tree",
-    "Iterator"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Search Tree Iterator",
   "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/",
-  "submissionId": "ln0ikj"
+  "submissionId": "rcrfml"
 }
