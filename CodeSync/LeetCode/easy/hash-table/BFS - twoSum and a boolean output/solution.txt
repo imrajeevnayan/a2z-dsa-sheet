@@ -5,17 +5,17 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-20T11:29:12.489Z
+ * Synced: 2026-09-20T11:31:18.756Z
  */
 
 class Solution {
+            Set<Integer>set=new HashSet<>();
     public boolean findTarget(TreeNode root, int k) {
         if(root==null)return false;
+        if(set.contains(k-root.val))return true;
+        set.add(root.val);
+        return findTarget(root.left, k) || findTarget(root.right,  k) ;
     }
-        Set<Integer>set=new HashSet<>();
-        if(set.contains(k-root.data))return true;
-        set.add(root.data);
-        return findTarget(TreeNode root, int k)
 }
