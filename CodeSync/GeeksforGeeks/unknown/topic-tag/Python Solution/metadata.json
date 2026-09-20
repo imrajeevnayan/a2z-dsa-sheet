@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-20T11:34:27.655Z",
+  "submissionTimestamp": "2026-09-20T11:35:13.072Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -15,5 +15,5 @@
   "language": "public List<List<Integer>> distinctPairs(int[] arr, int target) { // Your code here List<List<Integer>> ans = new ArrayList<>(); int n = arr.length; if(n<=1){ return ans; } Arrays.sort(arr); int left = 0; int right = n-1; while(left < right){ int sum = arr[left] + arr[right]; if(sum == target){ List<Integer> temp = new ArrayList<>(); temp.add(arr[left]); temp.add(arr[right]); ans.add(temp); int prev_left = arr[left]; int prev_right = arr[right]; while(arr[left] == prev_left){ left++; if(left >= right){ return ans; } } while(arr[right] == prev_right){ right--; if(left >= right){ return ans; } } } else if(sum < target){ left++; } else{ right--; } } return ans; }",
   "problemTitle": "Python Solution",
   "problemUrl": "https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1",
-  "submissionId": "x0c5g"
+  "submissionId": "97q0wq"
 }
