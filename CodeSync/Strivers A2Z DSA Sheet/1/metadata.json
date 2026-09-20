@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-20T15:12:36.238Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-20T15:13:20.997Z",
+  "runtime": "18 ms",
+  "memoryUsage": "50.28 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/",
-  "submissionId": "3r0gzk"
+  "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/",
+  "submissionId": "pkgkl2"
 }
