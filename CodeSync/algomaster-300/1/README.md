@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Unknown
-- Topics: Uncategorized
+- Difficulty: Easy
+- Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
-- Synced: 2026-09-20T15:12:36.238Z
+- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+- Synced: 2026-09-20T15:13:02.058Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given the root of a binary search tree and an integer k, return true if there exist two elements in the BST such that their sum is equal to k, or false otherwise. Example 1: Input: root = [5,3,6,2,4,null,7], k = 9 Output: true Example 2: Input: root = [5,3,6,2,4,null,7], k = 28 Output: false Constraints: The number of nodes in the tree is in the range [1, 104]. -104 <= Node.val <= 104 root is guaranteed to be a valid binary search tree. -105 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
