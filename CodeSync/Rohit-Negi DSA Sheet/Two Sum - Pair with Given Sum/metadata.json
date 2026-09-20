@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-20T10:17:28.225Z",
+  "submissionTimestamp": "2026-09-20T10:18:15.306Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Microsoft"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public: bool twoSum(vector<int>& arr, int target) { // code here unordered_set<int>ust; for (const int &data:arr) { if (ust.count(target - data))return true; ust.insert(data); } return false; } };",
   "problemTitle": "Two Sum - Pair with Given Sum",
   "problemUrl": "https://www.geeksforgeeks.org/problems/key-pair5616/1",
-  "submissionId": "qtgr6f"
+  "submissionId": "4maxbo"
 }
