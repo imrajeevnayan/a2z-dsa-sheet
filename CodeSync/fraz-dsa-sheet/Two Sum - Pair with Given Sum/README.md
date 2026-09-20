@@ -1,13 +1,13 @@
 # Two Sum - Pair with Given Sum
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: bool twoSum(vector<int>& arr, int target) { // code here unordered_set<int>ust; for (const int &data:arr) { if (ust.count(target - data))return true; ust.insert(data); } return false; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/key-pair5616/1
-- Synced: 2026-09-20T10:17:28.225Z
+- Synced: 2026-09-20T10:18:15.306Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array arr[] of integers and another integer target. Determine if there 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: bool twoSum(vector<int>& arr, int target) { // code here unordered_set<int>ust; for (const int &data:arr) { if (ust.count(target - data))return true; ust.insert(data); } return false; } };. The detected topics are Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft. Review the synced source file for the implementation details.
