@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14
- * Language: Daily Question
+ * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+ * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, Geometry
+ * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T04:25:57.902Z
+ * Synced: 2026-09-20T11:26:09.533Z
  */
 
 class Solution {
-    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+    public boolean findTarget(TreeNode root, int k) {
         
     }
 }
