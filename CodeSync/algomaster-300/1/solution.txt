@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:26:09.533Z
+ * Synced: 2026-09-20T11:48:29.130Z
  */
 
 class Solution {
-    public boolean findTarget(TreeNode root, int k) {
+    public boolean isValidBST(TreeNode root) {
+        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    private boolean check(TreeNode node, long min, long max) {
+        if (node == null) return true;
         
+        if (node.val <= min || node.val >= max)  return false;
+        return check(node.left, min, node.val) &&  check(node.right, node.val, max);
     }
 }
