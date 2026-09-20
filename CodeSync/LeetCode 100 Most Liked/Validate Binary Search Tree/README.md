@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/
-- Synced: 2026-09-20T11:52:35.763Z
+- Runtime: 0 ms
+- Memory: 45.09 MB
+- Problem URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
+- Synced: 2026-09-20T11:53:25.746Z
 
 ## Problem Description
 
