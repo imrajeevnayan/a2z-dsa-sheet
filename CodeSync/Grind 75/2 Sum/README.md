@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/2-sum/
-- Synced: 2026-09-20T10:28:08.492Z
+- Synced: 2026-09-20T15:13:34.932Z
 
 ## Problem Description
 
