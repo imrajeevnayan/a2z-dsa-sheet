@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.24 MB
 - Problem URL: https://leetcode.com/problems/two-sum/
-- Synced: 2026-09-20T10:23:39.410Z
+- Synced: 2026-09-20T10:24:26.291Z
 
 ## Problem Description
 
