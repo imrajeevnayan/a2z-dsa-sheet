@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-20T08:00:03.958Z",
+  "submissionTimestamp": "2026-09-20T08:00:51.648Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Reverse Degree of a String",
-  "problemUrl": "https://leetcode.com/problems/reverse-degree-of-a-string/?envType=daily-question&envId=2026-09-20",
+  "problemUrl": "https://leetcode.com/problems/reverse-degree-of-a-string/description/?envType=daily-question&envId=2026-09-20",
   "submissionId": "38rbs0"
 }
