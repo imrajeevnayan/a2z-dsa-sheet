@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-20T08:14:40.494Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-20T08:16:56.242Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 520",
   "problemTitle": "Number of Intersecting Interval Pairs I",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/description/",
-  "submissionId": "hi3k85"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/",
+  "submissionId": "hz1wyv"
 }
