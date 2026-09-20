@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.hackerrank.com/challenges/counter-game/problem
-- Synced: 2026-09-20T11:24:11.450Z
+- Synced: 2026-09-20T11:25:46.268Z
 
 ## Problem Description
 
