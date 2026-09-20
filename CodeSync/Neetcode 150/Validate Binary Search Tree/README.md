@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 45.09 MB
 - Problem URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
-- Synced: 2026-09-20T11:58:56.747Z
+- Synced: 2026-09-20T11:59:59.757Z
 
 ## Problem Description
 
