@@ -1,0 +1,17 @@
+/*
+ * Platform: InterviewBit
+ * Problem: 2 Sum
+ * URL: https://www.interviewbit.com/problems/2-sum/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Hashing, Description, Discussion, Submissions, Hints, 44.9%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T10:19:47.040Z
+ */
+
+public class Solution {
+    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+    public int[] twoSum(final int[] A, int B) {
+    }
+}
