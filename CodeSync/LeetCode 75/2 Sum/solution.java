@@ -7,10 +7,7 @@
  * Topics: Programming, Hashing, Description, Discussion, Submissions, Hints, An Increment Problem 51 Minutes Medium Asked in:, Check Palindrome! 19 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T10:28:08.492Z
+ * Synced: 2026-09-20T15:13:34.932Z
  */
 
-public class Solution {
-    public ArrayList<Integer> twoSum(final List<Integer> A, int B) {
-    }
-}
+Output goes here... Test/Submit
