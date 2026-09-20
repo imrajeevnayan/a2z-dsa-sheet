@@ -1,20 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-20T11:26:09.533Z",
+  "submissionTimestamp": "2026-09-20T11:48:29.130Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "Two Pointers",
     "Tree",
     "Depth-First Search",
-    "Breadth-First Search",
     "Binary Search Tree",
     "Binary Tree"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
-  "submissionId": "3rzpry"
+  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/description/",
+  "submissionId": "o392rz"
 }
