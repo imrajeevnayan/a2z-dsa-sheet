@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Two Sum - Pair with Given Sum
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160
+ * URL: https://www.geeksforgeeks.org/problems/key-pair5616/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:30:47.408Z
+ * Synced: 2026-09-20T10:17:28.225Z
  */
 
 class Solution {
