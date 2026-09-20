@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-20T11:43:43.929Z",
+  "submissionTimestamp": "2026-09-20T11:45:16.760Z",
   "runtime": "0 ms",
-  "memoryUsage": "47.44 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -15,6 +15,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "BFS + twoSum and a boolean output",
-  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
-  "submissionId": "dqwb8f"
+  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
+  "submissionId": "ktdknz"
 }
