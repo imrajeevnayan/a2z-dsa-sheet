@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-02T16:49:38.947Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-09-20T15:13:20.997Z",
+  "runtime": "18 ms",
+  "memoryUsage": "50.28 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "z2w5ne"
+  "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/",
+  "submissionId": "pkgkl2"
 }
