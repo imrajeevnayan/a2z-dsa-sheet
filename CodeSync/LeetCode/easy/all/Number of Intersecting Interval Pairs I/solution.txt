@@ -1,20 +1,51 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Intersecting Interval Pairs I
- * URL: https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/description/
+ * URL: https://leetcode.com/contest/weekly-contest-520/problems/number-of-intersecting-interval-pairs-i/
  * Language: Weekly Contest 520
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-20T08:14:40.494Z
+ * Synced: 2026-09-20T08:16:56.242Z
  */
 
 class Solution {
     public int countIntersectingIntervals(int[][] intervals) {
+        int n = intervals.length;
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         
+        List<Integer> ends = new ArrayList<>();
+        long nonIntersecting = 0;
+        
+        for (int[] interval : intervals) {
+            int start = interval[0];
+            
+            // Binary search: count previous ends < current start
+            int lo = 0, hi = ends.size();
+            while (lo < hi) {
+                int mid = (lo + hi) >>> 1;
+                if (ends.get(mid) < start) lo = mid + 1;
+                else hi = mid;
+            }
+            nonIntersecting += lo;
+            
+            // Insert current end in sorted position
+            int pos = Collections.binarySearch(ends, interval[1]);
+            if (pos < 0) pos = -(pos + 1);
+            ends.add(pos, interval[1]);
+        }
+        
+        long totalPairs = (long) n * (n - 1) / 2;
+        return (int) (totalPairs - nonIntersecting);
     }
 }
 [[1,2],[2,3],[3,4]]
 [[1,5],[2,4],[3,6]]
 [[1,2],[3,4],[5,6]]
+[[1,2],[2,3],[3,4]]
+[[1,5],[2,4],[3,6]]
+[[1,2],[3,4],[5,6]]
+2
+3
+0
