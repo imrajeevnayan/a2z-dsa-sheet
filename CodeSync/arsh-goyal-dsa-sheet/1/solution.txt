@@ -1,23 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/validate-binary-search-tree/description/
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:48:29.130Z
+ * Synced: 2026-09-20T15:12:36.238Z
  */
 
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
-    private boolean check(TreeNode node, long min, long max) {
-        if (node == null) return true;
-        
-        if (node.val <= min || node.val >= max)  return false;
-        return check(node.left, min, node.val) &&  check(node.right, node.val, max);
+
+    boolean check(TreeNode root, long min, long max) {
+        if (root == null) return true;
+
+        if (root.val <= min || root.val >= max)
+            return false;
+
+        return check(root.left, min, root.val) &&
+               check(root.right, root.val, max);
     }
 }
