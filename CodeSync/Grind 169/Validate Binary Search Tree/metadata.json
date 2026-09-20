@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-07T04:56:35.513Z",
+  "submissionTimestamp": "2026-09-20T11:49:17.765Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,8 +10,8 @@
     "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "Validate Binary Search Tree",
-  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "qsrusm"
+  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+  "submissionId": "89z5wa"
 }
