@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Daily Question
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Math, Geometry
+- Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14
-- Synced: 2026-09-14T04:25:57.902Z
+- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+- Synced: 2026-09-20T11:26:09.533Z
 
 ## Problem Description
 
-An axis-aligned rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) is the coordinate of its bottom-left corner, and (x2, y2) is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis. Two rectangles overlap if the area of their intersection is positive. To be clear, two rectangles that only touch at the corner or edges do not overlap. Given two axis-aligned rectangles rec1 and rec2, return true if they overlap, otherwise return false. Example 1: Input: rec1 = [0,0,2,2], rec2 = [1,1,3,3] Output: true Example 2: Input: rec1 = [0,0,1,1], rec2 = [1,0,2,1] Output: false Example 3: Input: rec1 = [0,0,1,1], rec2 = [2,2,3,3] Output: false Constraints: rec1.length == 4 rec2.length == 4 -109 <= rec1[i], rec2[i] <= 109 rec1 and rec2 represent a valid rectangle with a non-zero area.
+Given the root of a binary search tree and an integer k, return true if there exist two elements in the BST such that their sum is equal to k, or false otherwise. Example 1: Input: root = [5,3,6,2,4,null,7], k = 9 Output: true Example 2: Input: root = [5,3,6,2,4,null,7], k = 28 Output: false Constraints: The number of nodes in the tree is in the range [1, 104]. -104 <= Node.val <= 104 root is guaranteed to be a valid binary search tree. -105 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Math, Geometry. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
