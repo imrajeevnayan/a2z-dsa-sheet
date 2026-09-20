@@ -6,8 +6,8 @@
 - Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
-- Synced: 2026-09-20T11:08:24.525Z
+- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+- Synced: 2026-09-20T11:09:09.747Z
 
 ## Problem Description
 
