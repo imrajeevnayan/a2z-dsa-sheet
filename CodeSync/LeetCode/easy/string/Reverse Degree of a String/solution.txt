@@ -7,20 +7,14 @@
  * Topics: String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T08:07:12.004Z
+ * Synced: 2026-09-20T08:07:57.404Z
  */
 
 class Solution {
     public int reverseDegree(String s) {
-        int sum = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-            int reversePosition = 'z' - s.charAt(i) + 1;
-            int index = i + 1;
-
-            sum += reversePosition * index;
+        long ans=0;
+        for(int i=0;i<s.length();i++){
+            int revVal
         }
-
-        return sum;
     }
 }
