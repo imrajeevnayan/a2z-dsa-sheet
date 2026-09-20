@@ -1,24 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/group-anagrams/description/
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T03:31:05.944Z
+ * Synced: 2026-09-20T11:48:29.130Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-      HashMap<String,List<String>>ans=new HashMap<>();
-        for(String s:strs){
-            char c[]=s.toCharArray();
-            Arrays.sort(c);
-            String key=String.valueOf(c);
-            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
-        }
-        return new ArrayList<>(ans.values());
+    public boolean isValidBST(TreeNode root) {
+        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    private boolean check(TreeNode node, long min, long max) {
+        if (node == null) return true;
+        
+        if (node.val <= min || node.val >= max)  return false;
+        return check(node.left, min, node.val) &&  check(node.right, node.val, max);
     }
 }
