@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-20T11:48:29.130Z",
+  "submissionTimestamp": "2026-09-20T15:12:36.238Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/description/",
-  "submissionId": "o392rz"
+  "problemUrl": "https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/",
+  "submissionId": "3r0gzk"
 }
