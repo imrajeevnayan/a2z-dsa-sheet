@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
  * Runtime: 2 ms
  * Memory: 50.28 MB
- * Synced: 2026-09-20T11:46:26.759Z
+ * Synced: 2026-09-20T11:47:11.759Z
  */
 
 public BSTIterator(TreeNode root) {
