@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T10:18:15.306Z
+ * Synced: 2026-09-20T10:19:30.306Z
  */
 
 class Solution {
