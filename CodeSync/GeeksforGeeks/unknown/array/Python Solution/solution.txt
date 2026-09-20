@@ -7,43 +7,49 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Print All Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:34:27.655Z
+ * Synced: 2026-09-20T11:35:13.072Z
  */
 
 class Solution {
     public List<List<Integer>> distinctPairs(int[] arr, int target) {
-        List<List<Integer>> result = new ArrayList<>();
-
+        List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(arr);
 
-        int left = 0;
-        int right = arr.length - 1;
+        int l = 0, r = arr.length - 1;
 
-        while (left < right) {
-            int sum = arr[left] + arr[right];
+        while (l < r) {
+            int sum = arr[l] + arr[r];
 
             if (sum == target) {
-                result.add(Arrays.asList(arr[left], arr[right]));
+                ans.add(Arrays.asList(arr[l], arr[r]));
 
-                int leftVal = arr[left];
-                int rightVal = arr[right];
-
-                // Skip duplicates
-                while (left < right && arr[left] == leftVal) {
-                    left++;
-                }
-
-                while (left < right && arr[right] == rightVal) {
-                    right--;
-                }
-
-            } else if (sum < target) {
-                left++;
-            } else {
-                right--;
-            }
+                int a = arr[l], b = arr[r];
+                while (l < r && arr[l] == a) l++;
+                while (l < r && arr[r] == b) r--;
+            } 
+            else if (sum < target) l++;
+            else r--;
         }
 
-        return result;
+        return ans;
     }
 }
+class Solution {
+    public List<List<Integer>> distinctPairs(int[] arr, int target) {
+        List<List<Integer>> ans = new ArrayList<>();
+        Arrays.sort(arr);
+
+        int l = 0, r = arr.length - 1;
+
+        while (l < r) {
+            int sum = arr[l] + arr[r];
+
+            if (sum == target) {
+                ans.add(Arrays.asList(arr[l], arr[r]));
+
+                int a = arr[l], b = arr[r];
+                while (l < r && arr[l] == a) l++;
+                while (l < r && arr[r] == b) r--;
+            } 
+            else if (sum < target) l++;
+            else r--;
