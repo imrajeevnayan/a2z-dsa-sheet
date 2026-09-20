@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Solution
+ * URL: https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1
+ * Language: public List<List<Integer>> distinctPairs(int[] arr, int target) { // Your code here List<List<Integer>> ans = new ArrayList<>(); int n = arr.length; if(n<=1){ return ans; } Arrays.sort(arr); int left = 0; int right = n-1; while(left < right){ int sum = arr[left] + arr[right]; if(sum == target){ List<Integer> temp = new ArrayList<>(); temp.add(arr[left]); temp.add(arr[right]); ans.add(temp); int prev_left = arr[left]; int prev_right = arr[right]; while(arr[left] == prev_left){ left++; if(left >= right){ return ans; } } while(arr[right] == prev_right){ right--; if(left >= right){ return ans; } } } else if(sum < target){ left++; } else{ right--; } } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Print All Pairs With Given Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T11:34:27.655Z
+ */
+
+class Solution {
+    public List<List<Integer>> distinctPairs(int[] arr, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        Arrays.sort(arr);
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left < right) {
+            int sum = arr[left] + arr[right];
+
+            if (sum == target) {
+                result.add(Arrays.asList(arr[left], arr[right]));
+
+                int leftVal = arr[left];
+                int rightVal = arr[right];
+
+                // Skip duplicates
+                while (left < right && arr[left] == leftVal) {
+                    left++;
+                }
+
+                while (left < right && arr[right] == rightVal) {
+                    right--;
+                }
+
+            } else if (sum < target) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return result;
+    }
+}
