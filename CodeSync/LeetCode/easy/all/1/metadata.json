@@ -1,15 +1,20 @@
 {
-  "submissionTimestamp": "2026-09-14T04:25:57.902Z",
+  "submissionTimestamp": "2026-09-20T11:26:09.533Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Geometry"
+    "Hash Table",
+    "Two Pointers",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question&envId=2026-09-14",
-  "submissionId": "jwto3b"
+  "problemUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
+  "submissionId": "3rzpry"
 }
