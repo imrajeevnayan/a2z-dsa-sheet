@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Blind 75 Must Do Leetcode (Copy-xi4ci4ig)
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Hash Table, Linked List, Two Pointers
+- Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=dxlqos71
-- Synced: 2026-06-14T05:41:44.195Z
+- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+- Synced: 2026-09-20T11:26:09.533Z
 
 ## Problem Description
 
-Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter. Return true if there is a cycle in the linked list. Otherwise, return false. Example 1: Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed). Example 2: Input: head = [1,2], pos = 0 Output: true Explanation: There is a cycle in the linked list, where the tail connects to the 0th node. Example 3: Input: head = [1], pos = -1 Output: false Explanation: There is no cycle in the linked list. Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index in the linked-list. Follow up: Can you solve it using O(1) (i.e. constant) memory?
+Given the root of a binary search tree and an integer k, return true if there exist two elements in the BST such that their sum is equal to k, or false otherwise. Example 1: Input: root = [5,3,6,2,4,null,7], k = 9 Output: true Example 2: Input: root = [5,3,6,2,4,null,7], k = 28 Output: false Constraints: The number of nodes in the tree is in the range [1, 104]. -104 <= Node.val <= 104 root is guaranteed to be a valid binary search tree. -105 <= k <= 105
 
 ## Explanation
 
-This solution was accepted on LeetCode using Blind 75 Must Do Leetcode (Copy-xi4ci4ig). The detected topics are Hash Table, Linked List, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
