@@ -1,24 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Two Sum II
- * URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+ * URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/2147614879/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-20T11:15:21.518Z
+ * Memory: 48.51 MB
+ * Synced: 2026-09-20T11:16:51.902Z
  */
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int left=0,right=nums.length-1;
-        while(left<right){
-            int sum=nums[left]+nums[right];
-            if(sum==target)return new int[]{left+1,right+1};
-            else if(sum<target)left++;
+        int left = 0;
+        int right = nums.length - 1;
+        
+        while (left < right) {
+            // Use long to prevent integer overflow!
+            long sum = (long) nums[left] + nums[right];
+            
+            if (sum == target) {
+                return new int[]{left + 1, right + 1}; // 1-based
+            } else if (sum < target) {
+                left++;   // bada number chahiye → left aage
+            } else {
+                right--;  // chhota number chahiye → right peeche
+            }
         }
-    }
-            else right--;
+        
         return new int[]{};
+    }
 }
