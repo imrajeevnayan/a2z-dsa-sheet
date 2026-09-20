@@ -6,8 +6,8 @@
 - Topics: String, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-degree-of-a-string/description/?envType=daily-question&envId=2026-09-20
-- Synced: 2026-09-20T08:06:26.926Z
+- Problem URL: https://leetcode.com/problems/reverse-degree-of-a-string/?envType=daily-question&envId=2026-09-20
+- Synced: 2026-09-20T08:07:12.004Z
 
 ## Problem Description
 
