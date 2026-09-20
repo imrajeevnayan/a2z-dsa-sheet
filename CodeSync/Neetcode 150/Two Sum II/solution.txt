@@ -7,23 +7,25 @@
  * Topics: Array, Two Pointers, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:09:45.196Z
+ * Synced: 2026-09-20T11:10:30.516Z
  */
 
 class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        int left = 0,right = numbers.length - 1;
-
+    public int[] twoSumSorted(int[] nums, int target) {
+        int left = 0,right = nums.length - 1;
+        
         while (left < right) {
-            int sum = numbers[left] + numbers[right];
-
-            if (sum == target) {
-                return new int[]{left + 1, right + 1};  // 1-based index
-            } 
-            else if (sum < target) left++;     // sum chhota hai → left badhao
-            else   right--;    // sum bada hai → right ghatavo
+            //  long to prevent integer overflow!
+            long sum = (long) nums[left] + nums[right];
             
+            if (sum == target) return new int[]{left + 1, right + 1}; // 1-based
+             else if (sum < target) {
+                left++;   // bada number chahiye → left aage
+            } else {
+                right--;  // chhota number chahiye → right peeche
+            }
         }
-        return new int[]{-1, -1}; // yeh case aayega nahi (problem guarantee karti hai)
+        
+        return new int[]{};
     }
 }
