@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/key-pair5616/1
-- Synced: 2026-09-20T10:18:15.306Z
+- Synced: 2026-09-20T10:19:30.306Z
 
 ## Problem Description
 
