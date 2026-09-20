@@ -7,12 +7,9 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:19:38.202Z
+ * Synced: 2026-09-20T11:20:20.999Z
  */
 
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.*;
@@ -43,4 +40,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv
+import java.text.*;
+import java.security.*;
+import java.math.*;
 import java.io.*;
