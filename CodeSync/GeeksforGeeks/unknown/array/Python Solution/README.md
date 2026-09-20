@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1
-- Synced: 2026-09-20T11:34:27.655Z
+- Synced: 2026-09-20T11:35:13.072Z
 
 ## Problem Description
 
