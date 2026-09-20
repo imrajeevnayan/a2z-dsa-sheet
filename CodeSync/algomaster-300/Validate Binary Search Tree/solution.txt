@@ -1,32 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Validate Binary Search Tree
- * URL: https://leetcode.com/problems/validate-binary-search-tree/
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-20T11:52:35.763Z
+ * Runtime: 0 ms
+ * Memory: 45.09 MB
+ * Synced: 2026-09-20T11:53:25.746Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        
+        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+
+    boolean check(TreeNode root, long min, long max) {
+        if (root == null) return true;
+
+        if (root.val <= min || root.val >= max)
+            return false;
+
+        return check(root.left, min, root.val) &&
+               check(root.right, root.val, max);
     }
 }
