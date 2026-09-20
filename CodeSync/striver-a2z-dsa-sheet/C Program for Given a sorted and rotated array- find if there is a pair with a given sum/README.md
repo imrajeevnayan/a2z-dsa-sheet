@@ -1,0 +1,18 @@
+# C Program for Given a sorted and rotated array, find if there is a pair with a given sum
+
+- Platform: GeeksforGeeks
+- Language: // C code to implement the approach #include <stdio.h> // This function returns true if arr[0..n-1] // has a pair with sum equals to x. int pairInSortedRotated(int arr[], int n, int x) { // Find the pivot element int i; for (i = 0; i < n - 1; i++) { if (arr[i] > arr[i + 1]) { break; } } // l is now index of smallest element int l = (i + 1) % n; // r is now index of largest element int r = i; // Keep moving either l or r till they meet while (l != r) { // If we find a pair with sum x, // we return true if (arr[l] + arr[r] == x) { return 1; } // If current pair sum is less, // move to the higher sum if (arr[l] + arr[r] < x) { l = (l + 1) % n; // Move to the lower sum side } else { r = (n + r - 1) % n; } } return 0; } // Driver code int main() { int arr[] = { 11, 15, 6, 8, 9, 10 }; int sum = 16; int n = sizeof(arr) / sizeof(arr[0]); // Function call if (pairInSortedRotated(arr, n, sum)) { printf("true\n"); } else { printf("false\n"); } return 0; }
+- Difficulty: Unknown
+- Topics: Placement 360 Course Explore, Placement 360 Course, Explore
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.geeksforgeeks.org/c/c-program-for-given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
+- Synced: 2026-09-20T11:36:37.324Z
+
+## Problem Description
+
+Problem description was not available on the page at sync time.
+
+## Explanation
+
+This solution was accepted on GeeksforGeeks using // C code to implement the approach #include <stdio.h> // This function returns true if arr[0..n-1] // has a pair with sum equals to x. int pairInSortedRotated(int arr[], int n, int x) { // Find the pivot element int i; for (i = 0; i < n - 1; i++) { if (arr[i] > arr[i + 1]) { break; } } // l is now index of smallest element int l = (i + 1) % n; // r is now index of largest element int r = i; // Keep moving either l or r till they meet while (l != r) { // If we find a pair with sum x, // we return true if (arr[l] + arr[r] == x) { return 1; } // If current pair sum is less, // move to the higher sum if (arr[l] + arr[r] < x) { l = (l + 1) % n; // Move to the lower sum side } else { r = (n + r - 1) % n; } } return 0; } // Driver code int main() { int arr[] = { 11, 15, 6, 8, 9, 10 }; int sum = 16; int n = sizeof(arr) / sizeof(arr[0]); // Function call if (pairInSortedRotated(arr, n, sum)) { printf("true\n"); } else { printf("false\n"); } return 0; }. The detected topics are Placement 360 Course Explore, Placement 360 Course, Explore. Review the synced source file for the implementation details.
