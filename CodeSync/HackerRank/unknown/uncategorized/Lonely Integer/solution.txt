@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:22:45.500Z
+ * Synced: 2026-09-20T11:23:31.266Z
  */
 
-import java.io.*;
-import java.math.*;
 import java.security.*;
 import java.text.*;
 import java.util.*;
@@ -32,12 +30,15 @@ class Result {
      */
 
     public static int lonelyinteger(List<Integer> a) {
-    // Write your code here
+    int result = 0;
 
     }
 
 }
 
+    for (int num : a) {
+        result ^= num;
+    }
+
+    return result;
 public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
