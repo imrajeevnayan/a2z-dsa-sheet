@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Print All Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:35:13.072Z
+ * Synced: 2026-09-20T11:36:06.689Z
  */
 
 class Solution {
@@ -34,22 +34,3 @@ class Solution {
         return ans;
     }
 }
-class Solution {
-    public List<List<Integer>> distinctPairs(int[] arr, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
-        Arrays.sort(arr);
-
-        int l = 0, r = arr.length - 1;
-
-        while (l < r) {
-            int sum = arr[l] + arr[r];
-
-            if (sum == target) {
-                ans.add(Arrays.asList(arr[l], arr[r]));
-
-                int a = arr[l], b = arr[r];
-                while (l < r && arr[l] == a) l++;
-                while (l < r && arr[r] == b) r--;
-            } 
-            else if (sum < target) l++;
-            else r--;
