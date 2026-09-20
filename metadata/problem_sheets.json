@@ -4542,7 +4542,14 @@
     "InterviewBitSet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "leetcode:two-sum-iv-input-is-a-bst": [],
+  "leetcode:two-sum-iv-input-is-a-bst": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:algomaster-300",
+    "custom:neetcode-dsa-sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ],
   "hackerrank:pairs": [
     "StriverSDE",
     "StriverA2Z",
