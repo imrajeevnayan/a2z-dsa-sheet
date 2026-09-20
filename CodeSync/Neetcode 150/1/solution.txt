@@ -1,28 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * URL: https://leetcode.com/problems/validate-binary-search-tree/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T06:43:55.960Z
+ * Synced: 2026-09-20T11:48:29.130Z
  */
 
 class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        Set<Character>set=new HashSet<>();
-        int left=0,ans=0;
-        for(int right=0;right<s.length();right++){
-            char ch=s.charAt(right);
-            while(set.contains(ch)){
-                set.remove(s.charAt(left));
-                left++;
-            }
-            set.add(ch);
-            ans=Math.max(ans,right-left+1);
-        }
-        return ans;
+    public boolean isValidBST(TreeNode root) {
+        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    private boolean check(TreeNode node, long min, long max) {
+        if (node == null) return true;
+        
+        if (node.val <= min || node.val >= max)  return false;
+        return check(node.left, min, node.val) &&  check(node.right, node.val, max);
     }
 }
