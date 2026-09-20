@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/validate-binary-search-tree/
-- Synced: 2026-09-20T11:51:50.761Z
+- Synced: 2026-09-20T11:52:35.763Z
 
 ## Problem Description
 
