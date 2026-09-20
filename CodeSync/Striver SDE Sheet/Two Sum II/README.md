@@ -1,13 +1,13 @@
 # Two Sum II
 
 - Platform: LeetCode
-- Language: Two Pointers
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Two Pointers, Binary Search
-- Runtime: 0 ms
-- Memory: 48.18 MB
-- Problem URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/2146030157/?envType=problem-list-v2&envId=two-pointers
-- Synced: 2026-09-18T18:47:25.208Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+- Synced: 2026-09-20T11:09:45.196Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a 1-indexed array of integers numbers that is already sorted in no
 
 ## Explanation
 
-This solution was accepted on LeetCode using Two Pointers. The detected topics are Array, Two Pointers, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Binary Search. Review the synced source file for the implementation details.
