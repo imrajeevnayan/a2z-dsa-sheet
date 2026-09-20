@@ -7,17 +7,11 @@
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: 47.24 MB
- * Synced: 2026-09-20T10:23:39.410Z
+ * Synced: 2026-09-20T10:24:26.291Z
  */
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer>map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            int rem=target-nums[i];
-            if(map.containsKey(rem)) return new int[]{map.get(rem),i};
-            else map.put(nums[i],i);
-        }
-        return new int[]{-1,-1};
+       HashMap<Integer,Integer>map=bew 
     }
 }
