@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Degree of a String
- * URL: https://leetcode.com/problems/reverse-degree-of-a-string/
- * Language: Algorithms
+ * URL: https://leetcode.com/problems/reverse-degree-of-a-string/?envType=daily-question&envId=2026-09-20
+ * Language: Daily Question
  * Difficulty: Easy
  * Topics: String, Simulation
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-11T10:17:54.317Z
+ * Synced: 2026-09-20T08:00:03.958Z
  */
 
 class Solution {
