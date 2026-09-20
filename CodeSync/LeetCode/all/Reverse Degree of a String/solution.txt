@@ -7,7 +7,7 @@
  * Topics: String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T08:08:43.027Z
+ * Synced: 2026-09-20T08:09:28.392Z
  */
 
 class Solution {
@@ -17,5 +17,5 @@ class Solution {
             int revVal=z-s.charAt(i)+1;
         }
     }
-            ans+=
+            ans+=revVal *(i+1);
 }
