@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-23T08:30:47.408Z",
+  "submissionTimestamp": "2026-09-20T10:17:28.225Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Two Sum - Pair with Given Sum",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-gfg-160",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/key-pair5616/1",
   "submissionId": "qtgr6f"
 }
