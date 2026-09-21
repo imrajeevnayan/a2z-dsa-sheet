@@ -7,30 +7,31 @@
  * Topics: Uncategorized
  * Runtime: 18 ms
  * Memory: 50.28 MB
- * Synced: 2026-09-20T11:52:35.761Z
+ * Synced: 2026-09-20T16:20:11.691Z
  */
 
-class BSTIterator {
-    Stack<TreeNode> st = new Stack<>();
-
-    public BSTIterator(TreeNode root) {
-        pushLeft(root);
-    }
-
-    void pushLeft(TreeNode root) {
-        while (root != null) {
-            st.push(root);
-            root = root.left;
-        }
-    }
-
-    public int next() {
-        TreeNode node = st.pop();
-        pushLeft(node.right);
-        return node.val;
-    }
-
-    public boolean hasNext() {
-        return !st.isEmpty();
-    }
-}
+1class BSTIterator {
+2    Stack<TreeNode> st = new Stack<>();
+3
+4    public BSTIterator(TreeNode root) {
+5        pushLeft(root);
+6    }
+7
+8    void pushLeft(TreeNode root) {
+9        while (root != null) {
+10            st.push(root);
+11            root = root.left;
+12        }
+13    }
+14
+15    public int next() {
+16        TreeNode node = st.pop();
+17        pushLeft(node.right);
+18        return node.val;
+19    }
+20
+21    public boolean hasNext() {
+22        return !st.isEmpty();
+23    }
+24}
+25
