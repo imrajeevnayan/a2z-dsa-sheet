@@ -1,10 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-21T09:50:05.247Z",
+  "submissionTimestamp": "2026-09-21T09:51:30.907Z",
   "runtime": "2191 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Arrays",
+    "Binary Search",
+    "80 Moderate Count Inversions 0",
+    "80 Moderate Allocate Books 0",
+    "80 Moderate Painter's Partition Problem 0",
+    "80 Moderate Flip Bits 0",
+    "40 Easy Next Permutation 0",
+    "80 Moderate Reverse Bits 0"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
