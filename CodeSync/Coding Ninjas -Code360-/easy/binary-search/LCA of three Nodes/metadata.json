@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-31T19:16:38.562Z",
-  "runtime": "4835 ms",
+  "submissionTimestamp": "2026-09-21T09:51:30.907Z",
+  "runtime": "2191 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "in Binary Search"
+    "Arrays",
+    "Binary Search",
+    "80 Moderate Count Inversions 0",
+    "80 Moderate Allocate Books 0",
+    "80 Moderate Painter's Partition Problem 0",
+    "80 Moderate Flip Bits 0",
+    "40 Easy Next Permutation 0",
+    "80 Moderate Reverse Bits 0"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/next-greater-element_670312",
-  "submissionId": "pbrhr0"
+  "problemUrl": "https://www.naukri.com/code360/problems/aggressive-cows_1082559",
+  "submissionId": "wetobd"
 }
