@@ -3,11 +3,11 @@
  * Problem: Validate Binary Search Tree
  * URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/2147641229/
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 45.09 MB
- * Synced: 2026-09-20T12:04:39.755Z
+ * Synced: 2026-09-20T15:17:41.904Z
  */
 
 class Solution {
