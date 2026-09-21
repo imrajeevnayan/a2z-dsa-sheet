@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-19T08:08:20.268Z",
-  "runtime": "181 ms",
-  "memoryUsage": "72.90 MB",
+  "submissionTimestamp": "2026-09-21T11:51:11.620Z",
+  "runtime": "19 ms",
+  "memoryUsage": "45.48 MB",
   "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Online Interview",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/submissions/detail/2073219201/",
-  "submissionId": "rr6qiu"
+  "problemUrl": "https://leetcode.com/problems/3sum-closest/submissions/2148449099/",
+  "submissionId": "y39ehu"
 }
