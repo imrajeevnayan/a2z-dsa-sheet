@@ -2,47 +2,30 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Check if two trees are Mirror
  * URL: https://www.naukri.com/code360/problems/check-if-two-trees-are-mirror_981176
- * Language: Javascript (node v10.20.0)
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 4538 ms
  * Memory: N/A
- * Synced: 2026-09-21T12:04:31.715Z
+ * Synced: 2026-09-21T12:05:33.323Z
  */
 
-process.stdin.resume();
-process.stdin.setEncoding('ascii');
+public class Solution {
  
-var input_stdin = "";
-var input_stdin_array = "";
-var input_currentline = 0;
+    public static boolean areMirror(BinaryTreeNode root1, BinaryTreeNode root2) {
  
-process.stdin.on('data', function (data) {
-input_stdin += data;
-});
+        // Both are empty
+        if (root1 == null && root2 == null) return true;
+        
+        // One is empty
+        if (root1 == null || root2 == null) return false;
+        
  
-process.stdin.on('end', function () {
-input_stdin_array = input_stdin.split("\n");
-main();    
-});
- 
-function readLine() {
-return input_stdin_array[input_currentline++];
+        // Data should be same
+        if (root1.data != root2.data) return false;
+        
+        // Opposite sides should match
+        return areMirror(root1.left, root2.right)
+            && areMirror(root1.right, root2.left);
+    }
 }
- 
- 
-function main() {
- 
-    /* Read your input here 
-    eg: For string variables:   let str = String(readLine()); 
-        For int variables: let var_name = parseInt(readLine());
-        For arrays : const arr = readLine().replace(/\s+$/g, '').split(' ');
-    */
- 
-    /*
-*/
- 
-eg: function example(parameter_name1,parameter_name2....){}
-Handle the input/output from main()
- 
-/* Declare and implement your function here
