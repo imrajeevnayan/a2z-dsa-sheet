@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: 45.48 MB
- * Synced: 2026-09-21T09:21:03.595Z
+ * Synced: 2026-09-21T09:21:52.590Z
  */
 
 for (int i = 0; i < nums.length - 2; i++) {
