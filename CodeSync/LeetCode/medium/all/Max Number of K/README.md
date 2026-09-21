@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/
-- Synced: 2026-09-20T19:30:28.673Z
+- Synced: 2026-09-20T19:31:15.117Z
 
 ## Problem Description
 
