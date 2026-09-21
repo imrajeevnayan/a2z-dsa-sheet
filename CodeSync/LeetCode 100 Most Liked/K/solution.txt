@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: K
+ * URL: https://leetcode.com/problems/k-diff-pairs-in-an-array/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-20T19:18:14.173Z
+ */
+
+for (int n : nums)map.put(n, map.getOrDefault(n, 0) + 1);
+
+        int count = 0;
+        for (int n : map.keySet()) {
+            if (k == 0) {
+                if (map.get(n) >= 2)  count++;
+            } 
+            else {
+                if (map.containsKey(n + k))  count++;
+        if (k < 0) return 0;
+        Map<Integer, Integer> map = new HashMap<>();
+    public int findPairs(int[] nums, int k) {
+class Solution {
+            }
+        }
+        return count;
+    }
+}
