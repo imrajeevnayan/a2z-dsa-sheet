@@ -7,7 +7,7 @@
  * Topics: Array, Math, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T08:58:24.610Z
+ * Synced: 2026-09-21T08:59:14.603Z
  */
 
 class Solution {
