@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Max Number of K
- * URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
+ * URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-28T08:44:14.742Z
+ * Synced: 2026-09-20T19:28:47.081Z
  */
 
 class Solution {
