@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, two-pointer-algorithm, Related Articles, Count Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T17:39:31.751Z
+ * Synced: 2026-09-20T17:40:31.754Z
  */
 
 class Solution {
