@@ -5,24 +5,31 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-09-20T19:28:47.081Z
+ * Synced: 2026-09-20T19:29:41.329Z
  */
 
-class Solution {
-    public int maxOperations(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int ans = 0;
-
-        for (int num : nums) {
-            if (map.getOrDefault(k - num, 0) > 0) {
-                ans++;
-                map.put(k - num, map.get(k - num) - 1);
+Arrays.sort(nums);
+        int left = 0, right = nums.length - 1;
+        int count = 0;
+        
+        while (left < right) {
+            long sum = (long) nums[left] + nums[right]; // overflow safe
+            
+            if (sum == k) {
+                count++;
+                left++;
+                right--;      // Both used, move both
+            } else if (sum < k) {
+                left++;       // Need bigger sum
             } else {
-                map.put(num, map.getOrDefault(num, 0) + 1);
+                right--;      // Need smaller sum
             }
         }
-        return ans;
+        
+        return count;
     }
 }
+class Solution {
+    public int maxOperations(int[] nums, int k) {
