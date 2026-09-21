@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-09-20T17:30:10.397Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Hash",
+    "two-pointer-algorithm",
+    "Related Articles",
+    "Count Pairs With Given Sum"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int countPairs(vector<int> &arr, int target) { // Code here unordered_map<int, int> myMap; int count = 0; for(int i=0; i<arr.size(); i++){ int reqd = target - arr[i]; if(myMap.find(reqd) != myMap.end()){ count+=myMap[reqd]; } myMap[arr[i]]++; } return count; } };",
+  "problemTitle": "Easy C++ solution with O(n) time and O(n) space",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum--150253/1",
+  "submissionId": "3j6bpp"
+}
