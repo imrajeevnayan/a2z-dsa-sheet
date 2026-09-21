@@ -1,37 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/fruits-and-baskets_985356
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/selection-sort_624469
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 11041 ms
+ * Runtime: 12738 ms
  * Memory: N/A
- * Synced: 2026-09-19T10:37:11.523Z
+ * Synced: 2026-09-20T20:14:04.666Z
  */
 
-import java.util.*;
- 
 public class Solution {
-    public static int findMaxFruits(int []arr, int n) {
+    public static void selectionSort(int[] arr) {
+        
+        int n = arr.length;
  
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int left = 0,max = 0;
+        for (int i = 0; i < n - 1; i++) {
  
-        for (int right = 0; right < n; right++) {
-            map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
+            int minIndex = i;
  
-            while (map.size() > 2) {
-                map.put(arr[left], map.getOrDefault(arr[left], 0) -1);
- 
-                if (map.get(arr[left]) == 0) {
-                    map.remove(arr[left]);
+            // Find minimum element in remaining array
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
                 }
-                left++;
             }
-            max = Math.max(max, right - left + 1);
-        }
  
-        return max;
+            // Swap
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+        }
     }
 }
