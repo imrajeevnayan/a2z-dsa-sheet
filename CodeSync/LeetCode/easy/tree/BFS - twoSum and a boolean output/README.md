@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 - Runtime: 0 ms
-- Memory: 47.44 MB
-- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/submissions/2148581831/
-- Synced: 2026-09-21T11:35:37.400Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+- Synced: 2026-09-21T11:36:28.468Z
 
 ## Problem Description
 
