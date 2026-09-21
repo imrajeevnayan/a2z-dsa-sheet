@@ -1,33 +1,32 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Two Sum II
- * URL: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/2147614879/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Two Pointers, Binary Search
- * Runtime: 0 ms
- * Memory: 48.51 MB
- * Synced: 2026-09-20T11:16:51.902Z
+ * URL: https://www.naukri.com/code360/problems/two-sum_4244495
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T11:56:11.006Z
  */
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int[] twoSum(int numbers[], int target) {
+        int left = 0, right = numbers.length - 1;
+ 
         while (left < right) {
-            // Use long to prevent integer overflow!
-            long sum = (long) nums[left] + nums[right];
-            
+            int sum = numbers[left] + numbers[right];
+ 
             if (sum == target) {
-                return new int[]{left + 1, right + 1}; // 1-based
+                return new int[]{left, right};
             } else if (sum < target) {
-                left++;   // bada number chahiye → left aage
+                left++;
             } else {
-                right--;  // chhota number chahiye → right peeche
+                right--;
             }
         }
-        
-        return new int[]{};
+        return new int[]{-1, -1}; // if no pair found
     }
 }
