@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 24 ms
-- Memory: 49.14 MB
-- Problem URL: https://leetcode.com/submissions/detail/2141174492/
-- Synced: 2026-09-14T12:29:45.369Z
+- Runtime: 18 ms
+- Memory: 45.46 MB
+- Problem URL: https://leetcode.com/submissions/detail/2148424578/
+- Synced: 2026-09-21T08:44:13.629Z
 
 ## Problem Description
 
