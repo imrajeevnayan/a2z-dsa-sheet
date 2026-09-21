@@ -1,0 +1,50 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/aggressive-cows_1082559
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Arrays, Binary Search, 80 Moderate Count Inversions 0, 80 Moderate Allocate Books 0, 80 Moderate Painter's Partition Problem 0, 80 Moderate Flip Bits 0, 40 Easy Next Permutation 0, 80 Moderate Reverse Bits 0
+ * Runtime: 2191 ms
+ * Memory: N/A
+ * Synced: 2026-09-21T09:51:30.907Z
+ */
+
+Arrays.sort(stalls);
+        int low = 1;
+        int high = stalls[stalls.length - 1] - stalls[0];
+        int ans = 0;
+ 
+        while (low <= high) {
+ 
+            int mid = low + (high - low) / 2;
+ 
+            if (canPlace(stalls, k, mid)) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return ans;
+    }
+    private static boolean canPlace(int[] stalls, int k, int distance) {
+ 
+        int count = 1;
+        int lastPlaced = stalls[0];
+ 
+        for (int i = 1; i < stalls.length; i++) {
+ 
+            if (stalls[i] - lastPlaced >= distance) {
+                count++;
+                lastPlaced = stalls[i];
+            }
+ 
+            if (count >= k) {
+                return true;
+            }
+        }
+ 
+        return false;
+    }
+}
