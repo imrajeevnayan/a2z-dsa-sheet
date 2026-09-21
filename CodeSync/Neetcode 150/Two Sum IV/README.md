@@ -1,18 +1,18 @@
 # Two Sum IV
 
-- Platform: LeetCode
-- Language: Problem List
-- Difficulty: Easy
-- Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
+- Platform: Coding Ninjas (Code360)
+- Language: Java (17)
+- Difficulty: Unknown
+- Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-- Synced: 2026-09-20T11:09:09.747Z
+- Problem URL: https://www.naukri.com/code360/problems/two-sum-in-a-bst_1062631
+- Synced: 2026-09-21T11:53:53.178Z
 
 ## Problem Description
 
-Given the root of a binary search tree and an integer k, return true if there exist two elements in the BST such that their sum is equal to k, or false otherwise. Example 1: Input: root = [5,3,6,2,4,null,7], k = 9 Output: true Example 2: Input: root = [5,3,6,2,4,null,7], k = 28 Output: false Constraints: The number of nodes in the tree is in the range [1, 104]. -104 <= Node.val <= 104 root is guaranteed to be a valid binary search tree. -105 <= k <= 105
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (17). Review the synced source file for the implementation details.
