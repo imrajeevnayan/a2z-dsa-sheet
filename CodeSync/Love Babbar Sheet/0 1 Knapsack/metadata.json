@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-20T16:32:31.072Z",
-  "runtime": "6119 ms",
+  "submissionTimestamp": "2026-09-20T17:24:09.790Z",
+  "runtime": "5700 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "All languages",
   "problemTitle": "0 1 Knapsack",
   "problemUrl": "https://www.naukri.com/code360/problems/two-sum_839653",
-  "submissionId": "w5oqlg"
+  "submissionId": "ey70ui"
 }
