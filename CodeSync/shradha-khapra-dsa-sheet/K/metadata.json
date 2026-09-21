@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-20T19:18:14.173Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "K",
+  "problemUrl": "https://leetcode.com/problems/k-diff-pairs-in-an-array/",
+  "submissionId": "l4yq74"
+}
