@@ -1,41 +1,33 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: 0 1 Knapsack
- * URL: https://www.naukri.com/code360/problems/two-sum_839653
+ * URL: https://www.naukri.com/code360/problems/remove-duplicates_920325
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 5700 ms
+ * Runtime: 909 ms
  * Memory: N/A
- * Synced: 2026-09-20T17:24:09.790Z
+ * Synced: 2026-09-20T20:23:51.818Z
  */
 
+import java.util.* ;
+import java.io.*; 
 import java.util.ArrayList;
-import java.util.HashMap;
  
 public class Solution {
-    public static ArrayList<Pair<Integer, Integer>> twoSum(
-            ArrayList<Integer> arr, int target, int n) {
  
-        ArrayList<Pair<Integer, Integer>> ans = new ArrayList<>();
-        HashMap<Integer, Integer> map = new HashMap<>();
+    public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> arr) {
+ 
+        HashSet<Integer> set = new HashSet<>();
+        ArrayList<Integer> res = new ArrayList<>();
  
         for (int num : arr) {
-            int rem = target - num;
-            if (map.containsKey(rem) && map.get(rem) > 0) {
-                ans.add(new Pair<>(
-                        Math.min(num, rem),
-                        Math.max(num, rem)
-                ));
-                map.put(rem, map.get(rem) - 1);
-            } 
-                map.put(num, map.getOrDefault(num, 0) + 1);
+            if (!set.contains(num)) {
+                set.add(num);
+                res.add(num);
             }
         }
-        if (ans.size() == 0) {
-            ans.add(new Pair<>(-1, -1));
-        }
-        return ans;
+ 
+        return res;
     }
-            else {
 }
