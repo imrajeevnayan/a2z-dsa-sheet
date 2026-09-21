@@ -1,32 +1,51 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/rotate-linked-list_920454
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/sum-of-infinite-array_873335
+ * Language: Java (17)
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-19T08:25:49.244Z
+ * Synced: 2026-09-20T16:24:47.001Z
  */
 
-public class Solution {
-    public static Node rotate(Node head, int k) {
-       if (head == null || head.next == null || k == 0) return head;
-        Node fast = head,slow = head;
-        
-        for (int i = 0; i < k; i++) {
-            fast = fast.next;
-            if (fast == null) fast = head; 
+long[] prefix = new long[n + 1];
+ 
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + arr[i];
         }
-       if (fast == head) return head;
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
+ 
+        long totalSum = prefix[n];
+ 
+        for (int i = 0; i < q; i++) {
+ 
+            long L = queries.get(i).get(0);
+            long R = queries.get(i).get(1);
+ 
+            long sumR = getSum(R, n, prefix, totalSum);
+            long sumL = getSum(L - 1, n, prefix, totalSum);
+ 
+            long answer = sumR - sumL;
+ 
+            result.add((int) (answer % 1000000007));
         }
-       Node newHead = slow.next;
-        slow.next = null;
-        fast.next = head;       
-        return newHead;
+ 
+        return result;
     }
-}
+ 
+    private static long getSum(long index, int n, long[] prefix, long totalSum) {
+ 
+        if (index <= 0) {
+            return 0;
+        }
+ 
+        // How many complete arrays?
+        long completeArrays = index / n;
+ 
+ 
+        List<Integer> result = new ArrayList<>();
+ 
+    public static List<Integer> sumInRanges(int[] arr, int n, List<List<Long>> queries, int q) {
+ 
+public class Solution {
