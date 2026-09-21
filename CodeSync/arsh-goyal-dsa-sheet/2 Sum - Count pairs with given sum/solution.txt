@@ -7,37 +7,132 @@
  * Topics: Placement 360 Course Explore, Placement 360 Course, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T17:25:56.726Z
+ * Synced: 2026-09-20T17:26:55.468Z
  */
 
-#include <iostream>
-#include <vector>
-using namespace std;
-
-int countPairs(vector<int> &arr, int target) {
-    int n = arr.size();
-    int cnt = 0;
-
-    // Iterate through each element in the array
-    for (int i = 0; i < n; i++) {
-      
-        // For each element arr[i], check every
-        // other element arr[j] that comes after it
-        for (int j = i + 1; j < n; j++) {
+import java.util.Arrays;
+​
+class GfG {
+    
+    // Function to count all pairs whose sum is equal
+    // to the given target value
+    static int countPairs(int[] arr, int target) {
+        int n = arr.length;
+        int cnt = 0;
+​
+        // Iterate through each element in the array
+        for (int i = 0; i < n; i++) {
           
-            // Check if the sum of the current pair
-            // equals the target
-            if (arr[i] + arr[j] == target) {
-                cnt++;
+            // For each element arr[i], check every
+            // other element arr[j] that comes after it
+            for (int j = i + 1; j < n; j++) {
+              
+                // Check if the sum of the current pair
+                // equals the target
+                if (arr[i] + arr[j] == target) {
+                    cnt++;
+                }
             }
         }
+        return cnt;
     }
-    return cnt;
+​
+    public static void main(String[] args) {
+        int[] arr = { 1, 5, 7, -1, 5 };
+        int target = 6;
+        System.out.println(countPairs(arr, target));
+    }
 }
-
-int main() {
-    vector<int> arr = {1, 5, 7, -1, 5};
-    int target = 6;
-    cout << countPairs(arr, target) << endl;
-    return 0;
+import java.util.Arrays;
+​
+class GfG {
+​
+    static int countPairs(int[] arr, int target) {
+        int res = 0;
+        int n = arr.length;
+        int left = 0, right = n - 1;
+​
+        // Sort the array before applying 
+        // two-pointer technique
+        Arrays.sort(arr);
+​
+        while (left < right) {
+​
+            // If target is greater
+            if (arr[left] + arr[right] < target) {
+                left++;
+            }
+​
+            // If target is less
+            else if (arr[left] + arr[right] > target) {
+                right--;
+            }
+​
+            // If sum is equal to target
+            else {
+                int cnt1 = 0, cnt2 = 0;
+                int ele1 = arr[left], ele2 = arr[right];
+​
+                // Count frequency of first element
+                while (left <= right && arr[left] == ele1) {
+                    cnt1++;
+                    left++;
+                }
+​
+                // Count frequency of second element
+                while (left <= right && arr[right] == ele2) {
+                    cnt2++;
+                    right--;
+                }
+​
+                // If both elements are same
+                if (ele1 == ele2) {
+                    res += (cnt1 * (cnt1 - 1)) / 2;
+                } else {
+                    res += cnt1 * cnt2;
+                }
+            }
+        }
+​
+        return res;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {1, 5, 7, -1, 5};
+        int target = 6;
+​
+        System.out.println(countPairs(arr, target));
+    }
+}
+import java.util.Map;
+import java.util.HashMap;
+​
+class GfG {
+    
+    // Returns number of pairs in arr[0...n-1] with
+    // sum equal to 'target'
+    static int countPairs(int[] arr, int target) {
+        Map<Integer, Integer> freq = new HashMap<>();
+        int cnt = 0;
+​
+        for (int i = 0; i < arr.length; i++) {
+          
+            // Check if the complement (target - arr[i])
+            // exists in the map. If yes, increment count
+            if (freq.containsKey(target - arr[i])) {
+                cnt += freq.get(target - arr[i]); 
+            }
+          
+            // Increment the frequency of arr[i]
+            freq.put(arr[i], 
+                     freq.getOrDefault(arr[i], 0) + 1); 
+        }
+        return cnt;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {1, 5, 7, -1, 5}; 
+        int target = 6; 
+        System.out.println(countPairs(arr, target));    
+    }
 }
