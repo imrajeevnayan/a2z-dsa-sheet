@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-21T08:44:13.629Z",
-  "runtime": "18 ms",
-  "memoryUsage": "45.46 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-21T08:53:37.561Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Math",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Java",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/submissions/detail/2148424578/",
-  "submissionId": "ddanem"
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21",
+  "submissionId": "14tqy6"
 }
