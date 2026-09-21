@@ -1,37 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
+ * URL: https://leetcode.com/problems/3sum-closest/description/
  * Language: Problem List
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 18 ms
- * Memory: 50.28 MB
- * Synced: 2026-09-20T15:13:20.997Z
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T08:44:20.624Z
  */
 
-1class BSTIterator {
-2    Stack<TreeNode> st = new Stack<>();
-3
-4    public BSTIterator(TreeNode root) {
-5        pushLeft(root);
-6    }
-7
-8    void pushLeft(TreeNode root) {
-9        while (root != null) {
-10            st.push(root);
-11            root = root.left;
-12        }
-13    }
-14
-15    public int next() {
-16        TreeNode node = st.pop();
-17        pushLeft(node.right);
-18        return node.val;
-19    }
-20
-21    public boolean hasNext() {
-22        return !st.isEmpty();
-23    }
-24}
-25
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        Arrays.sort(nums);                         
+        int n = nums.length;
+        
+        int closestSum = nums[0] + nums[1] + nums[2]; // ⚠️ pehla triplet = initial best
+        
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1, right = n - 1;
+            
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                
+                // SCOREBOARD: ye sum zyada kareeb hai kya?
+                if (Math.abs(sum - target) < Math.abs(closestSum - target))  closestSum = sum;
+                
+                if (sum == target) return target;   // 🎯 PERFECT! Isse behtar kuch nahi — BHAAGO!
+                else if (sum < target) left++;      // bada sum chahiye
+                else right--;                        // chhota sum chahiye
+            }
+        }
+        return closestSum;
+    }
+}
