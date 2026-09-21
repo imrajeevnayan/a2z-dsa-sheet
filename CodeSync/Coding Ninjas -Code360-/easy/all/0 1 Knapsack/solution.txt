@@ -1,28 +1,50 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: 0 1 Knapsack
- * URL: https://www.naukri.com/code360/problems/0-1-knapsack_920542
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/two-sum_839653
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 6119 ms
  * Memory: N/A
- * Synced: 2026-07-07T11:19:06.026Z
+ * Synced: 2026-09-20T16:30:54.832Z
  */
 
-import java.util.* ;
-import java.io.*; 
+import java.util.ArrayList;
+import java.util.HashMap;
  
-public class Solution{
-    static int knapsack(int[] weight, int[] value, int n, int maxWeight) {
+public class Solution {
  
-            /* Your class should be named Solution
-            * Don't write main().
-            * Don't read input, it is passed as function argument.
-            * Change in the given tree itself.
-            * No need to return or print the output.
-            * Taking input and printing output is handled automatically.
-            */
+    public static ArrayList<Pair<Integer, Integer>> twoSum(
+            ArrayList<Integer> arr, int target, int n) {
  
-    }
-}
+        ArrayList<Pair<Integer, Integer>> ans = new ArrayList<>();
+ 
+        HashMap<Integer, Integer> freq = new HashMap<>();
+ 
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+ 
+        for (int num : arr) {
+ 
+            if (freq.get(num) == 0) {
+                continue;
+            }
+ 
+            int other = target - num;
+ 
+            if (freq.getOrDefault(other, 0) > 0) {
+ 
+                // Same element ko do baar use nahi karna
+                if (num == other && freq.get(num) < 2) {
+                    continue;
+                }
+ 
+                ans.add(new Pair<>(Math.min(num, other),
+                                   Math.max(num, other)));
+ 
+                freq.put(num, freq.get(num) - 1);
+                freq.put(other, freq.get(other) - 1);
+            }
+        }
