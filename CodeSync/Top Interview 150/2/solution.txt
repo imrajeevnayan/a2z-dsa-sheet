@@ -1,17 +1,40 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
- * Language: 60 questions to solve (Copy-9xpbvcmc)
- * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-23T19:14:01.516Z
+ * URL: https://leetcode.com/problems/3sum-closest/submissions/2148449099/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 19 ms
+ * Memory: 45.48 MB
+ * Synced: 2026-09-21T11:51:11.620Z
  */
 
-class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-        
-    }
-}
+1class Solution {
+2    public int threeSumClosest(int[] nums, int target) {
+3        Arrays.sort(nums);
+4        int closestSum = Integer.MAX_VALUE / 2; // avoid overflow on diff
+5        
+6        for (int i = 0; i < nums.length - 2; i++) {
+7            int left = i + 1, right = nums.length - 1;
+8            
+9            while (left < right) {
+10                int sum = nums[i] + nums[left] + nums[right];
+11                
+12                // Track closest
+13                if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+14                    closestSum = sum;
+15                }
+16                
+17                if (sum == target) {
+18                    return sum; // exact match, can't do better
+19                } else if (sum < target) {
+20                    left++;
+21                } else {
+22                    right--;
+23                }
+24            }
+25        }
+26        return closestSum;
+27    }
+28}
