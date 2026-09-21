@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sum Of Infinite Array
+ * URL: https://www.naukri.com/code360/problems/sum-of-infinite-array_873335
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T16:23:59.459Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static List<Integer> sumInRanges(int[] arr, int n, List<List<Long>> queries, int q) {
+ 
+        List<Integer> result = new ArrayList<>();
+ 
+        long[] prefix = new long[n + 1];
+ 
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + arr[i];
+        }
+ 
+        long totalSum = prefix[n];
+ 
+        for (int i = 0; i < q; i++) {
+ 
+            long L = queries.get(i).get(0);
+            long R = queries.get(i).get(1);
+ 
+            long sumR = getSum(R, n, prefix, totalSum);
+            long sumL = getSum(L - 1, n, prefix, totalSum);
+ 
+            long answer = sumR - sumL;
+ 
+            result.add((int) (answer % 1000000007));
+        }
+ 
+        return result;
+    }
+ 
+    private static long getSum(long index, int n, long[] prefix, long totalSum) {
+ 
+        if (index <= 0) {
+            return 0;
+        }
+ 
+        // How many complete arrays?
