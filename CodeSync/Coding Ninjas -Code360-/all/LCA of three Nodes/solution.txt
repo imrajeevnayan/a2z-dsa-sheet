@@ -2,34 +2,32 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/selection-sort_624469
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 12738 ms
+ * Runtime: 12648 ms
  * Memory: N/A
- * Synced: 2026-09-20T20:14:04.666Z
+ * Synced: 2026-09-20T20:15:00.982Z
  */
 
 public class Solution {
+ 
     public static void selectionSort(int[] arr) {
         
-        int n = arr.length;
+        for (int i = 0; i < arr.length - 1; i++) {
  
-        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
  
-            int minIndex = i;
- 
-            // Find minimum element in remaining array
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
+                if (arr[j] < arr[i]) {
+                    swap(arr, i, j);
                 }
             }
- 
-            // Swap
-            int temp = arr[i];
-            arr[i] = arr[minIndex];
-            arr[minIndex] = temp;
         }
+    }
+ 
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
