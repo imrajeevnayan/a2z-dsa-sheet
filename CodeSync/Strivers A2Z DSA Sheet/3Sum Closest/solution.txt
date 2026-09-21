@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-09-21T08:10:38.517Z
+ * Memory: 45.46 MB
+ * Synced: 2026-09-21T08:11:27.332Z
  */
 
 class Solution {
