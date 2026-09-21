@@ -7,7 +7,7 @@
 - Runtime: 18 ms
 - Memory: 50.28 MB
 - Problem URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
-- Synced: 2026-09-20T11:52:35.761Z
+- Synced: 2026-09-20T16:20:11.691Z
 
 ## Problem Description
 
