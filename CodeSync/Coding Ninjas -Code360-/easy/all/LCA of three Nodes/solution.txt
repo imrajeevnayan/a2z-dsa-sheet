@@ -1,33 +1,50 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/selection-sort_624469
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/aggressive-cows_1082559
+ * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 12648 ms
+ * Runtime: 2191 ms
  * Memory: N/A
- * Synced: 2026-09-20T20:15:00.982Z
+ * Synced: 2026-09-21T09:45:27.216Z
  */
 
-public class Solution {
+Arrays.sort(stalls);
+        int low = 1;
+        int high = stalls[stalls.length - 1] - stalls[0];
+        int ans = 0;
  
-    public static void selectionSort(int[] arr) {
-        
-        for (int i = 0; i < arr.length - 1; i++) {
+        while (low <= high) {
  
-            for (int j = i + 1; j < arr.length; j++) {
+            int mid = low + (high - low) / 2;
  
-                if (arr[j] < arr[i]) {
-                    swap(arr, i, j);
-                }
+            if (canPlace(stalls, k, mid)) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
+        return ans;
     }
+    private static boolean canPlace(int[] stalls, int k, int distance) {
  
-    public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        int count = 1;
+        int lastPlaced = stalls[0];
+ 
+        for (int i = 1; i < stalls.length; i++) {
+ 
+            if (stalls[i] - lastPlaced >= distance) {
+                count++;
+                lastPlaced = stalls[i];
+            }
+ 
+            if (count >= k) {
+                return true;
+            }
+        }
+ 
+        return false;
     }
 }
