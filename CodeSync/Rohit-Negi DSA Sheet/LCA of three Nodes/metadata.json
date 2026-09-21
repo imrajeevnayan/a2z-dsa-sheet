@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-12T16:25:24.282Z",
-  "runtime": "2631 ms",
+  "submissionTimestamp": "2026-09-20T20:14:04.666Z",
+  "runtime": "12738 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/sliding-window-maximum_980226",
-  "submissionId": "mgnkfc"
+  "problemUrl": "https://www.naukri.com/code360/problems/selection-sort_624469",
+  "submissionId": "vrnsv2"
 }
