@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-20T15:13:20.997Z",
-  "runtime": "18 ms",
-  "memoryUsage": "50.28 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-21T08:44:20.624Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Two Pointers",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/",
-  "submissionId": "pkgkl2"
+  "problemUrl": "https://leetcode.com/problems/3sum-closest/description/",
+  "submissionId": "kgq1tp"
 }
