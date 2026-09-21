@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-20T20:14:04.666Z",
-  "runtime": "12738 ms",
+  "submissionTimestamp": "2026-09-20T20:15:00.982Z",
+  "runtime": "12648 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/selection-sort_624469",
-  "submissionId": "vrnsv2"
+  "submissionId": "f2cptj"
 }
