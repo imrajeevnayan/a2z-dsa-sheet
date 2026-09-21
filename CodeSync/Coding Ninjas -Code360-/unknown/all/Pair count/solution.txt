@@ -1,0 +1,43 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Pair count.
+ * URL: https://www.naukri.com/code360/problems/pair-count_3116719
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T19:34:11.791Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+ 
+    public static int pairCount(int[] nums, int k) {
+        int[] remFreq = new int[k]; // remainder frequency array
+        
+        for (int num : nums) {
+            remFreq[num % k]++;
+        }
+        
+        int count = 0;
+        
+        // remainder 0 pairs with itself
+        count +=  remFreq[0] * (remFreq[0] - 1) / 2;
+        
+        // remainder r pairs with remainder (k-r)
+        for (int r = 1; r <= k / 2; r++) {
+            if (r == k - r) {
+                // Middle element when k is even: pairs with itself
+                count +=  remFreq[r] * (remFreq[r] - 1) / 2;
+            } else {
+                count +=  remFreq[r] * remFreq[k - r];
+            }
+        }
+        
+        return count;
+    }
+ 
+}
