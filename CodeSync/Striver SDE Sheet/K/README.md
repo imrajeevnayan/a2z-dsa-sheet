@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/k-diff-pairs-in-an-array/
-- Synced: 2026-09-20T19:23:13.543Z
+- Synced: 2026-09-20T19:28:04.861Z
 
 ## Problem Description
 
