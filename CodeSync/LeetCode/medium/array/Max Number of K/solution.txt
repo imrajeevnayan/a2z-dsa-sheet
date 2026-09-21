@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Two Pointers, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-09-20T19:30:28.673Z
+ * Synced: 2026-09-20T19:31:15.117Z
  */
 
 Arrays.sort(nums);
@@ -31,5 +31,5 @@ Arrays.sort(nums);
         return count;
     }
 }
-class Solution {
     public int maxOperations(int[] nums, int k) {
+class Solution {
