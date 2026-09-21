@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 5700 ms
+- Runtime: 909 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/two-sum_839653
-- Synced: 2026-09-20T17:24:09.790Z
+- Problem URL: https://www.naukri.com/code360/problems/remove-duplicates_920325
+- Synced: 2026-09-20T20:23:51.818Z
 
 ## Problem Description
 
