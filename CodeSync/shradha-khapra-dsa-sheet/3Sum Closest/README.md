@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 45.48 MB
 - Problem URL: https://leetcode.com/problems/3sum-closest/submissions/2148449099/
-- Synced: 2026-09-21T09:07:42.587Z
+- Synced: 2026-09-21T09:08:28.588Z
 
 ## Problem Description
 
