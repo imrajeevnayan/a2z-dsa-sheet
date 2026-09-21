@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Maximum Sum With Specific Difference
+ * URL: https://www.naukri.com/code360/problems/maximum-sum-of-pairs-with-specific-difference_1230548
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T11:35:48.352Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int maxSumPairWithDifferenceLessThanK(int[] arr, int n, int k) {
+        // Write your code here.
+    }
+}
