@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/two-sum_13863418
-- Synced: 2026-09-20T16:25:56.712Z
+- Problem URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
+- Synced: 2026-09-20T20:12:57.000Z
 
 ## Problem Description
 
