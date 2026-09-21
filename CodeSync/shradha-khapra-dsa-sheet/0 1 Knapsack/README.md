@@ -1,18 +1,18 @@
 # 0 1 Knapsack
 
 - Platform: Coding Ninjas (Code360)
-- Language: Java (17)
+- Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 6119 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/0-1-knapsack_920542
-- Synced: 2026-07-07T11:19:06.026Z
+- Problem URL: https://www.naukri.com/code360/problems/two-sum_839653
+- Synced: 2026-09-20T16:30:54.832Z
 
 ## Problem Description
 
-Problem statement Send feedback
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using Java (17). Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
