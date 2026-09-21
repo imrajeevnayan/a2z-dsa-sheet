@@ -1,51 +1,26 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/sum-of-infinite-array_873335
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/two-sum_13863418
+ * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T16:24:47.001Z
+ * Synced: 2026-09-20T16:25:56.712Z
  */
 
-long[] prefix = new long[n + 1];
- 
-        for (int i = 0; i < n; i++) {
-            prefix[i + 1] = prefix[i] + arr[i];
-        }
- 
-        long totalSum = prefix[n];
- 
-        for (int i = 0; i < q; i++) {
- 
-            long L = queries.get(i).get(0);
-            long R = queries.get(i).get(1);
- 
-            long sumR = getSum(R, n, prefix, totalSum);
-            long sumL = getSum(L - 1, n, prefix, totalSum);
- 
-            long answer = sumR - sumL;
- 
-            result.add((int) (answer % 1000000007));
-        }
- 
-        return result;
-    }
- 
-    private static long getSum(long index, int n, long[] prefix, long totalSum) {
- 
-        if (index <= 0) {
-            return 0;
-        }
- 
-        // How many complete arrays?
-        long completeArrays = index / n;
- 
- 
-        List<Integer> result = new ArrayList<>();
- 
-    public static List<Integer> sumInRanges(int[] arr, int n, List<List<Long>> queries, int q) {
- 
+import java.util.*;
 public class Solution {
+    public static String read(int n, int []book, int target){
+        Map<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<n;i++){
+ 
+            int rem=target-book[i];
+            
+            if(map.containsKey(rem))return "YES";
+            map.put(book[i],i);
+        }
+        return "NO";
+    }
+}
