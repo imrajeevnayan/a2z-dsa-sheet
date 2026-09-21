@@ -5,12 +5,14 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: 1 ms
- * Memory: 45.34 MB
- * Synced: 2026-09-18T12:54:38.056Z
+ * Runtime: 2 ms
+ * Memory: N/A
+ * Synced: 2026-09-21T08:10:38.517Z
  */
 
-Arrays.sort(nums);                         
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        Arrays.sort(nums);                         
         int n = nums.length;
         
         int closestSum = nums[0] + nums[1] + nums[2]; // ⚠️ pehla triplet = initial best
@@ -31,5 +33,4 @@ Arrays.sort(nums);
         }
         return closestSum;
     }
-    public int threeSumClosest(int[] nums, int target) {
 }
