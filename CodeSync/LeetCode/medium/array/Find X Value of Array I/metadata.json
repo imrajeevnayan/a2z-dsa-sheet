@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-21T09:11:53.235Z",
+  "submissionTimestamp": "2026-09-21T09:12:47.604Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Find X Value of Array I",
-  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21",
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/?envType=daily-question&envId=2026-09-21",
   "submissionId": "xlrnzo"
 }
