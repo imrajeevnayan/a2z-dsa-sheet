@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-20T19:29:41.329Z",
+  "submissionTimestamp": "2026-09-20T19:30:28.673Z",
   "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Max Number of K",
-  "problemUrl": "https://leetcode.com/problems/max-number-of-k-sum-pairs/description/",
+  "problemUrl": "https://leetcode.com/problems/max-number-of-k-sum-pairs/",
   "submissionId": "wgzhi"
 }
