@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-19T10:37:11.523Z",
-  "runtime": "11041 ms",
+  "submissionTimestamp": "2026-09-20T20:14:04.666Z",
+  "runtime": "12738 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/fruits-and-baskets_985356",
-  "submissionId": "uryjbx"
+  "problemUrl": "https://www.naukri.com/code360/problems/selection-sort_624469",
+  "submissionId": "vrnsv2"
 }
