@@ -1,28 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21
+ * Language: Daily Question
  * Difficulty: Medium
- * Topics: Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum
+ * Topics: Array, Math, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T16:50:33.113Z
+ * Synced: 2026-09-21T08:53:37.561Z
  */
 
 class Solution {
-    public int maxFrequency(int[] nums, int k) {
-        Arrays.sort(nums);
-        long sum = 0;
-        int left = 0, ans = 1;
-        for (int right = 0; right < nums.length; right++) {
-            sum += nums[right];
-            while ((long) nums[right] * (right - left + 1) - sum > k) {
-                sum -= nums[left];
-                left++;
-            }
-            ans = Math.max(ans, right - left + 1);
-        }
-        return ans;
+    public long[] resultArray(int[] nums, int k) {
+        
     }
 }
