@@ -5,46 +5,37 @@
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 6119 ms
+ * Runtime: 5700 ms
  * Memory: N/A
- * Synced: 2026-09-20T16:32:31.072Z
+ * Synced: 2026-09-20T17:24:09.790Z
  */
 
 import java.util.ArrayList;
 import java.util.HashMap;
  
 public class Solution {
- 
     public static ArrayList<Pair<Integer, Integer>> twoSum(
             ArrayList<Integer> arr, int target, int n) {
  
         ArrayList<Pair<Integer, Integer>> ans = new ArrayList<>();
- 
-        HashMap<Integer, Integer> freq = new HashMap<>();
- 
-        for (int num : arr) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
-        }
+        HashMap<Integer, Integer> map = new HashMap<>();
  
         for (int num : arr) {
- 
-            if (freq.get(num) == 0) {
-                continue;
-            }
- 
-            int other = target - num;
- 
-            if (freq.getOrDefault(other, 0) > 0) {
- 
-                // Same element ko do baar use nahi karna
-                if (num == other && freq.get(num) < 2) {
-                    continue;
-                }
- 
-                ans.add(new Pair<>(Math.min(num, other),
-                                   Math.max(num, other)));
- 
-                freq.put(num, freq.get(num) - 1);
-                freq.put(other, freq.get(other) - 1);
+            int rem = target - num;
+            if (map.containsKey(rem) && map.get(rem) > 0) {
+                ans.add(new Pair<>(
+                        Math.min(num, rem),
+                        Math.max(num, rem)
+                ));
+                map.put(rem, map.get(rem) - 1);
+            } 
+                map.put(num, map.getOrDefault(num, 0) + 1);
             }
         }
+        if (ans.size() == 0) {
+            ans.add(new Pair<>(-1, -1));
+        }
+        return ans;
+    }
+            else {
+}
