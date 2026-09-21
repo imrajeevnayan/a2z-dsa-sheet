@@ -1,17 +1,31 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Two Sum IV
- * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
+ * URL: https://www.naukri.com/code360/problems/two-sum-in-a-bst_1062631
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:09:09.747Z
+ * Synced: 2026-09-21T11:53:53.178Z
  */
 
+import java.util.HashSet;
+import java.util.Set;
+ 
 class Solution {
-    public boolean findTarget(TreeNode root, int k) {
-        
+    public static boolean twoSumInBST(BinaryTreeNode root, int target) {
+        return helper(root, target, new HashSet<>());
+    }
+ 
+    private static boolean helper(BinaryTreeNode root, int target, Set<Integer> set) {
+        if (root == null) return false;
+ 
+        int val = (int) root.data;  // Cast Object to int
+ 
+        if (set.contains(target - val)) return true;
+        set.add(val);
+ 
+        return helper(root.left, target, set) || helper(root.right, target, set);
     }
 }
