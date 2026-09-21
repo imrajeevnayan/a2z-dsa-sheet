@@ -7,7 +7,7 @@
 - Runtime: 6119 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/two-sum_839653
-- Synced: 2026-09-20T16:30:54.832Z
+- Synced: 2026-09-20T16:32:31.072Z
 
 ## Problem Description
 
