@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-07T11:19:06.026Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-20T16:30:54.832Z",
+  "runtime": "6119 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "0 1 Knapsack",
-  "problemUrl": "https://www.naukri.com/code360/problems/0-1-knapsack_920542",
-  "submissionId": "3j1r95"
+  "problemUrl": "https://www.naukri.com/code360/problems/two-sum_839653",
+  "submissionId": "w5oqlg"
 }
