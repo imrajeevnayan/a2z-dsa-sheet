@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/count-pairs-with-given-sum/
-- Synced: 2026-09-20T17:29:48.805Z
+- Synced: 2026-09-20T19:31:27.613Z
 
 ## Problem Description
 
