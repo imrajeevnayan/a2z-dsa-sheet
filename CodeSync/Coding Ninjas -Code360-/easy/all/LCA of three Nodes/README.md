@@ -7,7 +7,7 @@
 - Runtime: 2191 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/aggressive-cows_1082559
-- Synced: 2026-09-21T09:47:56.556Z
+- Synced: 2026-09-21T09:50:05.247Z
 
 ## Problem Description
 
