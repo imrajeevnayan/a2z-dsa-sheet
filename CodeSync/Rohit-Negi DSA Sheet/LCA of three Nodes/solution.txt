@@ -1,51 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/sliding-window-maximum_980226
+ * URL: https://www.naukri.com/code360/problems/selection-sort_624469
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2631 ms
+ * Runtime: 12738 ms
  * Memory: N/A
- * Synced: 2026-09-12T16:25:24.282Z
+ * Synced: 2026-09-20T20:14:04.666Z
  */
 
-import java.util.*;
-import java.io.*;
- 
-import java.util.ArrayList;
- 
 public class Solution {
-    public static ArrayList<Integer> getMaximumOfSubarrays( ArrayList<Integer> nums, int k) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        Deque<Integer> dq = new ArrayDeque<>();
-        int left = 0;
+    public static void selectionSort(int[] arr) {
+        
+        int n = arr.length;
  
-        for (int right = 0; right < nums.size(); right++) {
+        for (int i = 0; i < n - 1; i++) {
  
-            // 1. Window ke bahar wale indices remove karo
-            while (!dq.isEmpty() && dq.peekFirst() < left) {
-                dq.pollFirst();
+            int minIndex = i;
+ 
+            // Find minimum element in remaining array
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
             }
  
-            // 2. Back se smaller elements remove karo
-            while (!dq.isEmpty() &&
-                   nums.get(dq.peekLast()) <= nums.get(right)) {
-                dq.pollLast();
-            }
- 
-            // 3. Current index add karo
-            dq.addLast(right);
- 
-            // 4. Window size == k
-            if (right - left + 1 == k) {
- 
-                // Deque ka front = maximum
-                ans.add(nums.get(dq.peekFirst()));
- 
-                // 5. Window slide
-                left++;
-            }
+            // Swap
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
         }
- 
-        return ans;
+    }
+}
