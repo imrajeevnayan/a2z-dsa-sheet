@@ -1,0 +1,52 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Merge Two BSTs
+ * URL: https://www.naukri.com/code360/problems/h_920474
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: in Binary Search Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:04:02.100Z
+ */
+
+List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+        List<Integer> ans = new ArrayList<>();
+ 
+        inorder(root1, list1);
+        inorder(root2, list2);
+ 
+        int i = 0, j = 0;
+ 
+        // Merge two sorted lists
+        while (i < list1.size() && j < list2.size()) {
+ 
+            if (list1.get(i) <= list2.get(j)) {
+                ans.add(list1.get(i));
+                i++;
+            } else {
+                ans.add(list2.get(j));
+                j++;
+            }
+        }
+ 
+        // Remaining elements of list1
+        while (i < list1.size()) {
+            ans.add(list1.get(i));
+            i++;
+        }
+ 
+        // Remaining elements of list2
+        while (j < list2.size()) {
+            ans.add(list2.get(j));
+            j++;
+        }
+ 
+        return ans;
+    }
+ 
+    public static void inorder(TreeNode root, List<Integer> list) {
+ 
+        if (root == null) {
+            return;
