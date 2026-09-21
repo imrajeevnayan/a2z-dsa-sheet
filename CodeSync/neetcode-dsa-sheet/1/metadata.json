@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-21T08:44:20.624Z",
+  "submissionTimestamp": "2026-09-21T08:53:37.561Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers",
-    "Sorting"
+    "Math",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/3sum-closest/description/",
-  "submissionId": "kgq1tp"
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21",
+  "submissionId": "14tqy6"
 }
