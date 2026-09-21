@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/two-sum-in-a-bst_1062631
-- Synced: 2026-09-21T11:53:53.178Z
+- Problem URL: https://www.naukri.com/code360/problems/pair-sum_4444818
+- Synced: 2026-09-21T12:01:18.455Z
 
 ## Problem Description
 
