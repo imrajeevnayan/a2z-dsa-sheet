@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, two-pointer-algorithm, Related Articles, Count Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T17:32:27.948Z
+ * Synced: 2026-09-20T17:33:13.398Z
  */
 
 class Solution {
@@ -16,8 +16,9 @@ class Solution {
         int count=0;
         for(int n:arr){
             int rem=target-n;
-            if(map.containsKey(rem))count++;
-            map.put(arr)
+            if(map.containsKey(rem)){
+                count+=map.
+            }
         }
         
     }
