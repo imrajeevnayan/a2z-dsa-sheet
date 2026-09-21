@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-x-value-of-array-i/?envType=daily-question&envId=2026-09-21
-- Synced: 2026-09-21T09:28:01.463Z
+- Synced: 2026-09-21T09:28:46.926Z
 
 ## Problem Description
 
