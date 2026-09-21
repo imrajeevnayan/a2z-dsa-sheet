@@ -4,10 +4,10 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2631 ms
+- Runtime: 12738 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/sliding-window-maximum_980226
-- Synced: 2026-09-12T16:25:24.282Z
+- Problem URL: https://www.naukri.com/code360/problems/selection-sort_624469
+- Synced: 2026-09-20T20:14:04.666Z
 
 ## Problem Description
 
