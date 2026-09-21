@@ -7,12 +7,21 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, two-pointer-algorithm, Related Articles, Count Pairs With Given Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T17:29:25.346Z
+ * Synced: 2026-09-20T19:31:31.935Z
  */
 
 class Solution {
     int countPairs(int arr[], int target) {
-        // code here
+        Map<Integer,Integer>map=new HashMap<>();
+        int count=0;
+        for(int n:arr){
+            int rem=target-n;
+            if(map.containsKey(rem)){
+                count+=map.get(rem);
+            }
+            map.put(n,map.getOrDefault(n,0)+1);
+        }
+        return count;
         
     }
 }
