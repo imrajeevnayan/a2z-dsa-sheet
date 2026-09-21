@@ -1,13 +1,13 @@
 # 2
 
 - Platform: LeetCode
-- Language: Online Interview
+- Language: Problem List
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 181 ms
-- Memory: 72.90 MB
-- Problem URL: https://leetcode.com/submissions/detail/2073219201/
-- Synced: 2026-07-19T08:08:20.268Z
+- Runtime: 19 ms
+- Memory: 45.48 MB
+- Problem URL: https://leetcode.com/problems/3sum-closest/submissions/2148449099/
+- Synced: 2026-09-21T11:51:11.620Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Online Interview. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
