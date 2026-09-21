@@ -1,14 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
+ * URL: https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T15:13:02.058Z
+ * Synced: 2026-09-21T08:53:37.561Z
  */
 
-Input: root = [5,3,6,2,4,null,7], k = 9
-Output: true
+class Solution {
+    public long[] resultArray(int[] nums, int k) {
+        
+    }
+}
