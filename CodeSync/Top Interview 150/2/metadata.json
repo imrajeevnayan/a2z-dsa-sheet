@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-23T19:14:01.516Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "submissionTimestamp": "2026-09-21T11:51:11.620Z",
+  "runtime": "19 ms",
+  "memoryUsage": "45.48 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "60 questions to solve (Copy-9xpbvcmc)",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "u9qd6x"
+  "problemUrl": "https://leetcode.com/problems/3sum-closest/submissions/2148449099/",
+  "submissionId": "y39ehu"
 }
