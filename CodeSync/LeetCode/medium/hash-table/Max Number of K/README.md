@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Two Pointers, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/
-- Synced: 2026-09-20T19:28:47.081Z
+- Synced: 2026-09-20T19:29:41.329Z
 
 ## Problem Description
 
