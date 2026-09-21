@@ -1,13 +1,13 @@
 # 1
 
 - Platform: LeetCode
-- Language: Problem List
+- Language: Java
 - Difficulty: Unknown
 - Topics: Uncategorized
 - Runtime: 18 ms
-- Memory: 50.28 MB
-- Problem URL: https://leetcode.com/problems/binary-search-tree-iterator/submissions/2147635737/
-- Synced: 2026-09-20T15:13:20.997Z
+- Memory: 45.46 MB
+- Problem URL: https://leetcode.com/submissions/detail/2148424578/
+- Synced: 2026-09-21T08:44:13.629Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Java. Review the synced source file for the implementation details.
