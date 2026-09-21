@@ -1,13 +1,10 @@
 {
-  "submissionTimestamp": "2026-09-20T12:04:39.755Z",
+  "submissionTimestamp": "2026-09-20T15:17:41.904Z",
   "runtime": "0 ms",
   "memoryUsage": "45.09 MB",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Search Tree",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
