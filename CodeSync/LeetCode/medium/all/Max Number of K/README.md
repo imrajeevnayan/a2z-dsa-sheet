@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Two Pointers, Sorting
 - Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/
-- Synced: 2026-09-20T19:29:41.329Z
+- Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/
+- Synced: 2026-09-20T19:30:28.673Z
 
 ## Problem Description
 
