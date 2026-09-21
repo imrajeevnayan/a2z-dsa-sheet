@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-20T19:18:14.173Z
+ * Synced: 2026-09-20T19:23:13.543Z
  */
 
 for (int n : nums)map.put(n, map.getOrDefault(n, 0) + 1);
