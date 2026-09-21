@@ -1,25 +1,48 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Two Sum
- * URL: https://leetcode.com/problems/two-sum/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Array, Hash Table
- * Runtime: 0 ms
- * Memory: 47.08 MB
- * Synced: 2026-09-20T11:08:06.749Z
+ * URL: https://www.naukri.com/code360/problems/two-sum_839653
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 5700 ms
+ * Memory: N/A
+ * Synced: 2026-09-20T17:22:17.715Z
  */
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-       HashMap<Integer,Integer>map=new HashMap<>();
-       for(int i=0;i<nums.length;i++) {
-        int rem=target-nums[i];
-        if(map.containsKey(rem)){
-            return new int[]{map.get(rem),i};
+import java.util.ArrayList;
+import java.util.HashMap;
+ 
+public class Solution {
+    public static ArrayList<Pair<Integer, Integer>> twoSum(
+            ArrayList<Integer> arr, int target, int n) {
+ 
+        ArrayList<Pair<Integer, Integer>> ans = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+ 
+        for (int num : arr) {
+ 
+            int rem = target - num;
+ 
+            if (map.containsKey(rem) && map.get(rem) > 0) {
+ 
+                ans.add(new Pair<>(
+                        Math.min(num, rem),
+                        Math.max(num, rem)
+                ));
+ 
+                map.put(rem, map.get(rem) - 1);
+ 
+            } else {
+ 
+                map.put(num, map.getOrDefault(num, 0) + 1);
+            }
         }
-       }
+ 
+        if (ans.size() == 0) {
+            ans.add(new Pair<>(-1, -1));
+        }
+ 
+        return ans;
     }
-        map.put(nums[i],i);
-       return new int[]{-1,-1};
 }
