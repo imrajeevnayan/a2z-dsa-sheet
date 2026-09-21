@@ -1,13 +1,13 @@
 # Max Number of K
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Two Pointers, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-07-28T08:44:14.742Z
+- Problem URL: https://leetcode.com/problems/max-number-of-k-sum-pairs/description/
+- Synced: 2026-09-20T19:28:47.081Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums and an integer k. In one operation, you can 
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Hash Table, Two Pointers, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Two Pointers, Sorting. Review the synced source file for the implementation details.
