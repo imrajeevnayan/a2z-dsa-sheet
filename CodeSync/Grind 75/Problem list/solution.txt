@@ -1,49 +1,50 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/pair-sum_4444818
+ * Language: Java (17)
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T20:12:57.000Z
+ * Synced: 2026-09-21T12:02:06.614Z
  */
 
-Arrays.sort(arr);
+import java.util.* ;
+import java.io.*; 
+/***********************************************************
  
-        for (int i = 0; i < n - 2; i++) {
+  import java.util.HashSet;
+import java.util.Set;
  
-            // Same first element => duplicate triplets
-            if (i > 0 && arr[i] == arr[i - 1]) {
-                continue;
-            }
+class Solution {
+    public static boolean twoSumInBST(BinaryTreeNode root, int K) {
+        return dfs(root, K, new HashSet<>());
+    }
  
-            HashSet<Integer> set = new HashSet<>();
-            HashSet<Integer> used = new HashSet<>();
+    private static boolean dfs(BinaryTreeNode node, int K, Set<Integer> seen) {
+        if (node == null) return false;
  
-            for (int j = i + 1; j < n; j++) {
+        int val = (int) node.data; // cast Object to int
+        if (seen.contains(K - val)) return true;
  
-                int required = K - arr[i] - arr[j];
+        seen.add(val);
  
-                if (set.contains(required) && !used.contains(required)) {
- 
-                    ArrayList<Integer> triplet = new ArrayList<>();
- 
-                    triplet.add(arr[i]);
-                    triplet.add(required);
-                    triplet.add(arr[j]);
- 
-                    ans.add(triplet);
- 
-                    // Don't add same triplet again
-                    used.add(required);
-                }
- 
-                set.add(arr[j]);
-            }
-        }
- 
-        return ans;
+        return dfs(node.left, K, seen) || dfs(node.right, K, seen);
     }
 }
+ 
+ ************************************************************/
+ 
+class Solution {
+ 
+    public static boolean kSumPair(TreeNode < Integer > root, int k) {
+        return dfs(root,k,new HashSet<>());
+    }
+    private static boolean dfs(TreeNode<Integer>root,int k,Set<Integer>set){
+        if(root==null)return false;
+        int val=(int)root.data;
+        if(set.contains(k-val))return true;
+        set.add(val);
+        return dfs(root.left,k,set) || dfs(root.right,k,set);
+    }
