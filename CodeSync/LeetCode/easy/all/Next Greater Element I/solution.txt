@@ -1,16 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Next Greater Element I
- * URL: https://leetcode.com/problems/next-greater-element-i/
+ * URL: https://leetcode.com/problems/next-greater-element-i/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Stack, Monotonic Stack
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-18T14:23:17.584Z
+ * Synced: 2026-09-21T18:26:36.915Z
  */
 
-for (int i = nums2.length - 1; i >= 0; i--) {
+class Solution {
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+         Stack<Integer> st = new Stack<>();
+         HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = nums2.length - 1; i >= 0; i--) {
             while (!st.isEmpty() && st.peek() <= nums2[i])  st.pop();
             
             map.put(nums2[i], st.isEmpty() ? -1 : st.peek());
