@@ -7,7 +7,7 @@
 - Runtime: 17300 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
-- Synced: 2026-09-21T12:39:52.603Z
+- Synced: 2026-09-21T12:40:53.600Z
 
 ## Problem Description
 
