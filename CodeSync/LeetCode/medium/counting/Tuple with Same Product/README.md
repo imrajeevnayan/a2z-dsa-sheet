@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Counting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/tuple-with-same-product/description/
-- Synced: 2026-09-21T18:22:49.747Z
+- Runtime: 1 ms
+- Memory: 98.22 MB
+- Problem URL: https://leetcode.com/problems/tuple-with-same-product/submissions/2149001647/
+- Synced: 2026-09-21T18:24:07.739Z
 
 ## Problem Description
 
