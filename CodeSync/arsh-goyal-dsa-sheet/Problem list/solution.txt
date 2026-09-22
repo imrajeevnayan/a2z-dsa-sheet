@@ -1,49 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
+ * URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T20:12:57.000Z
+ * Synced: 2026-09-21T12:42:16.183Z
  */
 
-Arrays.sort(arr);
+public class Solution {
+    public static Node<Integer> deleteNode(Node<Integer> head, int pos) {
  
-        for (int i = 0; i < n - 2; i++) {
- 
-            // Same first element => duplicate triplets
-            if (i > 0 && arr[i] == arr[i - 1]) {
-                continue;
-            }
- 
-            HashSet<Integer> set = new HashSet<>();
-            HashSet<Integer> used = new HashSet<>();
- 
-            for (int j = i + 1; j < n; j++) {
- 
-                int required = K - arr[i] - arr[j];
- 
-                if (set.contains(required) && !used.contains(required)) {
- 
-                    ArrayList<Integer> triplet = new ArrayList<>();
- 
-                    triplet.add(arr[i]);
-                    triplet.add(required);
-                    triplet.add(arr[j]);
- 
-                    ans.add(triplet);
- 
-                    // Don't add same triplet again
-                    used.add(required);
-                }
- 
-                set.add(arr[j]);
-            }
+        // Empty list
+        if (head == null) {
+            return null;
         }
  
-        return ans;
+        // Delete first node
+        if (pos == 0) {
+            return head.next;
+        }
+ 
+        Node<Integer> temp = head;
+ 
+        // Reach the node before the one to delete
+        for (int i = 0; i < pos - 1 && temp.next != null; i++) {
+            temp = temp.next;
+        }
+ 
+        // Delete the node
+        if (temp.next != null) {
+            temp.next = temp.next.next;
+        }
+ 
+        return head;
     }
 }
