@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-21T12:14:09.215Z",
+  "submissionTimestamp": "2026-09-21T12:14:54.597Z",
   "runtime": "0 ms",
   "memoryUsage": "52.56 MB",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2148608431/",
-  "submissionId": "q9idpy"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+  "submissionId": "ngt1jr"
 }
