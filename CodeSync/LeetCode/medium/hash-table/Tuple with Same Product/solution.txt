@@ -1,27 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: Tuple with Same Product
- * URL: https://leetcode.com/problems/tuple-with-same-product/description/
+ * URL: https://leetcode.com/problems/tuple-with-same-product/submissions/2149001647/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Counting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-21T18:22:49.747Z
+ * Runtime: 1 ms
+ * Memory: 98.22 MB
+ * Synced: 2026-09-21T18:24:07.739Z
  */
 
 class Solution {
-    public long countBadPairs(int[] nums) {
-        Map<Integer, Integer> freq = new HashMap<>();
-        long goodPairs = 0;
+    public int tupleSameProduct(int[] nums) {
+        Map<Integer, Integer> productFreq = new HashMap<>();
         
+        // All pair products
         for (int i = 0; i < nums.length; i++) {
-            int transformed = nums[i] - i;
-            goodPairs += freq.getOrDefault(transformed, 0);
-            freq.merge(transformed, 1, Integer::sum);
+            for (int j = i + 1; j < nums.length; j++) {
+                int product = nums[i] * nums[j];
+                productFreq.merge(product, 1, Integer::sum);
+            }
         }
         
-        long totalPairs = (long) nums.length * (nums.length - 1) / 2;
-        return totalPairs - good;
+        int count = 0;
+        for (int freq : productFreq.values()) {
+            if (freq >= 2) {
+                // C(freq, 2) pairs of pairs × 8 permutations
+                count += freq * (freq - 1) / 2 * 8;
+            }
+        }
+        
+        return count;
     }
 }
