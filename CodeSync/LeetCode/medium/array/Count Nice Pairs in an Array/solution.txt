@@ -5,13 +5,30 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Math, Counting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-09-21T18:11:29.043Z
+ * Synced: 2026-09-21T18:12:17.042Z
  */
 
-class Solution {
-    public int countNicePairs(int[] nums) {
+int transformed = num - reverse(num);
+            
+            // Pehle count karo kitne same value pehle aaye
+            count += freq.getOrDefault(transformed, 0);
+            count %= MOD;
+            
+            // Phir frequency update karo
+            freq.merge(transformed, 1, Integer::sum);
+        }
         
+        return (int) count;
+    }
+    
+    private int reverse(int n) {
+        int rev = 0;
+        while (n > 0) {
+            rev = rev * 10 + n % 10;
+            n /= 10;
+        }
+        return rev;
     }
 }
