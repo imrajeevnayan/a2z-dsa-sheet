@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-21T18:21:28.621Z",
+  "submissionTimestamp": "2026-09-21T18:21:51.125Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Prefix Sum"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Intervals Between Identical Elements",
-  "problemUrl": "https://leetcode.com/problems/intervals-between-identical-elements/description/",
-  "submissionId": "plcbtv"
+  "problemUrl": "https://leetcode.com/problems/count-number-of-bad-pairs/",
+  "submissionId": "ajjc4j"
 }
