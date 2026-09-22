@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Intersection of Two Linked Lists
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2148608431/
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 52.56 MB
- * Synced: 2026-09-21T12:13:17.579Z
+ * Synced: 2026-09-21T12:17:23.363Z
  */
 
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
