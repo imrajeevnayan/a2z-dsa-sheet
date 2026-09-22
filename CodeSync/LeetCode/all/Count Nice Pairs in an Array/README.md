@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Math, Counting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-nice-pairs-in-an-array/
-- Synced: 2026-09-21T18:11:29.043Z
+- Synced: 2026-09-21T18:12:17.042Z
 
 ## Problem Description
 
