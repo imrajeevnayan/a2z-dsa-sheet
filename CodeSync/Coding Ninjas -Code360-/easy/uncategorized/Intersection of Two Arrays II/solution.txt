@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Intersection of Two Arrays II
+ * URL: https://www.naukri.com/code360/problems/array-intersection_625161
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:21:33.064Z
+ */
+
+import java.util.HashSet;
+public class Solution {
+ 
+    public static void intersections(int arr1[], int arr2[]) {
+        HashSet<Integer> set = new HashSet<>();
+ 
+        for (int num : arr1) {
+            set.add(num);
+        }
+ 
+        for (int num : arr2) {
+            if (set.contains(num)) {
+                System.out.print(num + " ");
+                set.remove(num);
+ 
+            }
+        }
+    }
+}
