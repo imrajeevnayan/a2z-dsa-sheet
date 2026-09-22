@@ -1,50 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/pair-sum_4444818
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
+ * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T12:02:06.614Z
+ * Synced: 2026-09-21T12:42:16.183Z
  */
 
-import java.util.* ;
-import java.io.*; 
-/***********************************************************
+public class Solution {
+    public static Node<Integer> deleteNode(Node<Integer> head, int pos) {
  
-  import java.util.HashSet;
-import java.util.Set;
+        // Empty list
+        if (head == null) {
+            return null;
+        }
  
-class Solution {
-    public static boolean twoSumInBST(BinaryTreeNode root, int K) {
-        return dfs(root, K, new HashSet<>());
-    }
+        // Delete first node
+        if (pos == 0) {
+            return head.next;
+        }
  
-    private static boolean dfs(BinaryTreeNode node, int K, Set<Integer> seen) {
-        if (node == null) return false;
+        Node<Integer> temp = head;
  
-        int val = (int) node.data; // cast Object to int
-        if (seen.contains(K - val)) return true;
+        // Reach the node before the one to delete
+        for (int i = 0; i < pos - 1 && temp.next != null; i++) {
+            temp = temp.next;
+        }
  
-        seen.add(val);
+        // Delete the node
+        if (temp.next != null) {
+            temp.next = temp.next.next;
+        }
  
-        return dfs(node.left, K, seen) || dfs(node.right, K, seen);
+        return head;
     }
 }
- 
- ************************************************************/
- 
-class Solution {
- 
-    public static boolean kSumPair(TreeNode < Integer > root, int k) {
-        return dfs(root,k,new HashSet<>());
-    }
-    private static boolean dfs(TreeNode<Integer>root,int k,Set<Integer>set){
-        if(root==null)return false;
-        int val=(int)root.data;
-        if(set.contains(k-val))return true;
-        set.add(val);
-        return dfs(root.left,k,set) || dfs(root.right,k,set);
-    }
