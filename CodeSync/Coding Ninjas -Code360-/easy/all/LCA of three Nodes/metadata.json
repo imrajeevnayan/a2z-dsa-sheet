@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-21T12:40:53.600Z",
-  "runtime": "17300 ms",
+  "submissionTimestamp": "2026-09-21T12:43:17.542Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/delete-node-in-ll_5881",
-  "submissionId": "1ktci6"
+  "problemUrl": "https://www.naukri.com/code360/problems/deletion-in-circular-linked-list_630409",
+  "submissionId": "clnse8"
 }
