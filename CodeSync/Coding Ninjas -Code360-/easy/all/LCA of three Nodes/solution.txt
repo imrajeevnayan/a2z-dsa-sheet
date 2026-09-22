@@ -1,22 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/length-of-ll_5884
+ * URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 11124 ms
+ * Runtime: 17300 ms
  * Memory: N/A
- * Synced: 2026-09-21T12:25:53.552Z
+ * Synced: 2026-09-21T12:39:52.603Z
  */
 
 public class Solution {
-    public static int length(Node head){
-        int count=0;
-        while(head!=null){
-            count++;
-            head=head.next;
+    public static Node<Integer> deleteNode(Node<Integer> head, int pos) {
+ 
+        // Empty list
+        if (head == null) {
+            return null;
         }
-        return count;
+ 
+        // Delete first node
+        if (pos == 0) {
+            return head.next;
+        }
+ 
+        Node<Integer> temp = head;
+ 
+        // Reach the node before the one to delete
+        for (int i = 0; i < pos - 1 && temp.next != null; i++) {
+            temp = temp.next;
+        }
+ 
+        // Delete the node
+        if (temp.next != null) {
+            temp.next = temp.next.next;
+        }
+ 
+        return head;
     }
 }
