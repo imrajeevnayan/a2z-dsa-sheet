@@ -1,0 +1,28 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Intersection of Two Arrays II
+ * URL: https://www.naukri.com/code360/problems/array-intersection_625161
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2115 ms
+ * Memory: N/A
+ * Synced: 2026-09-21T12:18:52.588Z
+ */
+
+public class Solution {
+ 
+    public static void intersections(int arr1[], int arr2[]) {
+        boolean[] used = new boolean[arr2.length];
+ 
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
+                if (!used[j] && arr1[i] == arr2[j]) {
+                    System.out.print(arr1[i] + " ");
+                    used[j] = true;
+                    break;
+                }
+            }
+        }
+    }
+}
