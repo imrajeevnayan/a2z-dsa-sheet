@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T19:36:02.262Z",
+  "submissionTimestamp": "2026-09-21T12:18:11.900Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution: def findIntersection(self, head1, head2): intersection = linkedList() while head1 and head2: if head1.data == head2.data: intersection.insert(head1.data) head1, head2 = head1.next, head2.next elif head1.data < head2.data: head1 = head1.next else: head2 = head2.next return intersection.head",
   "problemTitle": "Intersection of Two Sorted Linked Lists",
   "problemUrl": "https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1",
-  "submissionId": "mv8pdn"
+  "submissionId": "n16uto"
 }
