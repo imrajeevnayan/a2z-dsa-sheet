@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-09-21T12:18:52.588Z",
-  "runtime": "2115 ms",
+  "submissionTimestamp": "2026-09-21T12:21:33.064Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
@@ -10,5 +10,5 @@
   "language": "Java (17)",
   "problemTitle": "Intersection of Two Arrays II",
   "problemUrl": "https://www.naukri.com/code360/problems/array-intersection_625161",
-  "submissionId": "3j5j1v"
+  "submissionId": "w5xnx2"
 }
