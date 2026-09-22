@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 17300 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
-- Synced: 2026-09-21T12:40:53.600Z
+- Problem URL: https://www.naukri.com/code360/problems/deletion-in-circular-linked-list_630409
+- Synced: 2026-09-21T12:43:17.542Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
