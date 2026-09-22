@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Nice Pairs in an Array
+ * URL: https://leetcode.com/problems/count-nice-pairs-in-an-array/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Math, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T18:11:29.043Z
+ */
+
+class Solution {
+    public int countNicePairs(int[] nums) {
+        
+    }
+}
