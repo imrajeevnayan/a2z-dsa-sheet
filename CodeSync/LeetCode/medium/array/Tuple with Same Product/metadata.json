@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-21T18:22:49.747Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Tuple with Same Product",
+  "problemUrl": "https://leetcode.com/problems/tuple-with-same-product/description/",
+  "submissionId": "8tz9jo"
+}
