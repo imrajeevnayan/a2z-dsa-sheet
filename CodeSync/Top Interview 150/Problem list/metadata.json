@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-21T12:02:06.614Z",
+  "submissionTimestamp": "2026-09-21T12:42:16.183Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/pair-sum_4444818",
-  "submissionId": "g7jz2l"
+  "problemUrl": "https://www.naukri.com/code360/problems/delete-node-in-ll_5881",
+  "submissionId": "pex910"
 }
