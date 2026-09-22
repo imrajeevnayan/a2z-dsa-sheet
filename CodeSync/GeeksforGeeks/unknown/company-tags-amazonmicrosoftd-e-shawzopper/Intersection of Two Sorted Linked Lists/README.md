@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1
-- Synced: 2026-05-30T19:36:02.262Z
+- Synced: 2026-09-21T12:16:34.970Z
 
 ## Problem Description
 
-Given that two linked lists are sorted in increasing order, create a new linked list representing the intersection of the two linked lists. The new linked list should be made without changing the original lists. Note: The elements of the linked list are not necessarily distinct. Examples: Input: LinkedList1 = 1->2->3->4->6, LinkedList2 = 2->4->6->8 Output: 2->4->6 Explanation: For the given two linked list, 2, 4 and 6 are the elements in the intersection. Input: LinkedList1 = 10->20->40->50, LinkedList2 = 15->40 Output: 40 Explaination: Constraints: 1 <= size of linked lists <= 104 1 <= node->data<= 104
+Given two singly linked lists head1 and head2, where both lists are sorted in increasing order, find their intersection and create a new linked list containing all the common elements. If an element occurs multiple times in both lists, it should appear in the intersection as many times as it occurs in both lists. The original linked lists should not be modified. Examples: Input: head1 = 1 -> 2 -> 3 -> 4 -> 6, head2 = 2 -> 4 -> 6 -> 8 Output: 2 -> 4-> 6 Explanation: For the given two linked list, 2, 4 and 6 are the elements in the intersection. Input: head1 = 1 -> 2 -> 2 -> 3 -> 4, head2 = 2 -> 2 -> 2 -> 4 -> 5 Output: 2 -> 2 -> 2 -> 3 -> 4 Explanation: For the given two linked list, 2, 2 and 4 are the elements in the intersection.
 
 ## Explanation
 
