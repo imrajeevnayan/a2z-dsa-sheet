@@ -1,0 +1,47 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Divide Linked List In Two
+ * URL: https://www.naukri.com/code360/problems/divide-linked-list-in-two_763646
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:50:53.728Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+/************************************************************
+ 
+    Following is the list node structure:
+    
+    class Node {
+        int data;
+        Node next;
+ 
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+    
+    Following is the pair class structure:
+     
+    class Pair {
+    Node first;
+    Node second;
+ 
+    Pair(Node first, Node second) {
+        this.first = first;
+        this.second = second;
+    }
+}
+ 
+************************************************************/
+ 
+public class Solution {
+    public static Pair divideList(Node head) {
+        // Write your code here.
+    }
+}
