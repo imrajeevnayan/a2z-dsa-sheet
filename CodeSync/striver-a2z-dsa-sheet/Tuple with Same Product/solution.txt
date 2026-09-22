@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: Tuple with Same Product
+ * URL: https://leetcode.com/problems/next-greater-element-i/description/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T18:24:27.735Z
+ */
+
+// C(freq, 2) pairs of pairs × 8 permutations
+                count += freq * (freq - 1) / 2 * 8;
+            }
+        }
+        
+        return count;
+    }
+}
