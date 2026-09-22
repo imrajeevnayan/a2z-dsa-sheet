@@ -4839,5 +4839,6 @@
   "coding ninjas (code360):divide-linked-list-in-two_763646": [],
   "leetcode:count-nice-pairs-in-an-array": [],
   "leetcode:intervals-between-identical-elements": [],
-  "leetcode:count-number-of-bad-pairs": []
+  "leetcode:count-number-of-bad-pairs": [],
+  "leetcode:tuple-with-same-product": []
 }
