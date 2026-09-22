@@ -1,0 +1,29 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Is it a Circular Linked List?
+ * URL: https://www.naukri.com/code360/problems/is-it-a-circular-linked-list_981265
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:35:17.087Z
+ */
+
+public class Solution {
+    public static boolean circularLL(Node head) {
+        if (head == null) return true;
+    
+        Node slow = head;
+        Node fast = head;
+ 
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+ 
+            if (slow == fast)  return true;
+            
+        }
+        return false;
+    }
+}
