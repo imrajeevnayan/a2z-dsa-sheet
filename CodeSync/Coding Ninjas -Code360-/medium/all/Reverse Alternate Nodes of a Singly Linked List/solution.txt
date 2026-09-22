@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse Alternate Nodes of a Singly Linked List
+ * URL: https://www.naukri.com/code360/problems/reverse-alternate-nodes-of-a-singly-linked-list_696190
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:47:12.448Z
+ */
+
+public class Solution 
+{
+    public static LinkedListNode<Integer> reverseAlternateNodes(LinkedListNode<Integer> head)
+    {
+        if (head == null || head.next == null) {
+            return head;
+        }
+ 
+        LinkedListNode<Integer> odd = head;
+        LinkedListNode<Integer> even = head.next;
+ 
+        // Reverse the even-positioned nodes
+        LinkedListNode<Integer> prev = null;
+        LinkedListNode<Integer> curr = even;
+ 
+        while (curr != null) {
+            LinkedListNode<Integer> next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+ 
+        // Connect odd-positioned nodes with reversed even nodes
+        LinkedListNode<Integer> oddCurr = odd;
+        LinkedListNode<Integer> evenCurr = prev;
+ 
+        while (evenCurr != null) {
+            LinkedListNode<Integer> nextOdd = oddCurr.next;
+ 
+            oddCurr.next = evenCurr;
+ 
+            evenCurr = evenCurr.next;
+ 
+            oddCurr = nextOdd;
+        }
+ 
+        return head;
+    }
+}
