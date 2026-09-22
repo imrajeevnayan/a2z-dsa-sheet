@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Intervals Between Identical Elements
+ * URL: https://leetcode.com/problems/count-number-of-bad-pairs/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T18:21:51.125Z
+ */
+
+class Solution {
+    public long[] getDistances(int[] arr) {
+        
+    }
+}
