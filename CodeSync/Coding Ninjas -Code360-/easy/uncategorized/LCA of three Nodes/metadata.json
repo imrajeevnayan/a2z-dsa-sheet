@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-21T09:50:05.247Z",
-  "runtime": "2191 ms",
+  "submissionTimestamp": "2026-09-21T12:25:53.552Z",
+  "runtime": "11124 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (17)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/aggressive-cows_1082559",
-  "submissionId": "wetobd"
+  "problemUrl": "https://www.naukri.com/code360/problems/length-of-ll_5884",
+  "submissionId": "whsvq4"
 }
