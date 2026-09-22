@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 52.56 MB
- * Synced: 2026-09-21T12:26:44.510Z
+ * Synced: 2026-09-21T12:27:58.980Z
  */
 
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
