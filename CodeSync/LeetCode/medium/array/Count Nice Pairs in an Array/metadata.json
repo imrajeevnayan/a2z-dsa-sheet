@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-21T18:11:29.043Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Counting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Count Nice Pairs in an Array",
+  "problemUrl": "https://leetcode.com/problems/count-nice-pairs-in-an-array/",
+  "submissionId": "vr51uv"
+}
