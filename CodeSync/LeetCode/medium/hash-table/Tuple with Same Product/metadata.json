@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-21T18:22:49.747Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-21T18:24:07.739Z",
+  "runtime": "1 ms",
+  "memoryUsage": "98.22 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Tuple with Same Product",
-  "problemUrl": "https://leetcode.com/problems/tuple-with-same-product/description/",
-  "submissionId": "8tz9jo"
+  "problemUrl": "https://leetcode.com/problems/tuple-with-same-product/submissions/2149001647/",
+  "submissionId": "26gr9v"
 }
