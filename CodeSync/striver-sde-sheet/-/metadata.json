@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-08-19T12:31:21.782Z",
+  "submissionTimestamp": "2026-09-21T15:55:56.280Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
+    "Hash Table",
     "Linked List",
-    "Recursion"
+    "Two Pointers"
   ],
   "platform": "LeetCode",
   "language": "Text",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
-  "submissionId": "1spnjr"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
+  "submissionId": "m0k5rd"
 }
