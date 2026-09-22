@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-21T18:28:21.872Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Minimum Remove to Make Valid Parentheses",
+  "problemUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/",
+  "submissionId": "adb330"
+}
