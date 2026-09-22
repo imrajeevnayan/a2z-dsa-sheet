@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/intersection-of-linked-lists_3210610
-- Synced: 2026-09-21T12:14:33.602Z
+- Synced: 2026-09-21T12:15:33.602Z
 
 ## Problem Description
 
