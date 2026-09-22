@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Tuple with Same Product
+ * URL: https://leetcode.com/problems/tuple-with-same-product/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T18:22:49.747Z
+ */
+
+class Solution {
+    public long countBadPairs(int[] nums) {
+        Map<Integer, Integer> freq = new HashMap<>();
+        long goodPairs = 0;
+        
+        for (int i = 0; i < nums.length; i++) {
+            int transformed = nums[i] - i;
+            goodPairs += freq.getOrDefault(transformed, 0);
+            freq.merge(transformed, 1, Integer::sum);
+        }
+        
+        long totalPairs = (long) nums.length * (nums.length - 1) / 2;
+        return totalPairs - good;
+    }
+}
