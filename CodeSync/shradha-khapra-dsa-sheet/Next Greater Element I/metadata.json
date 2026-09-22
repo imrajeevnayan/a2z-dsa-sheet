@@ -1,14 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-21T18:25:07.151Z",
+  "submissionTimestamp": "2026-09-21T18:26:36.915Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Hash Table",
+    "Stack",
+    "Monotonic Stack"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Next Greater Element I",
-  "problemUrl": "https://leetcode.com/problems/next-greater-element-ii/",
-  "submissionId": "qgoc2s"
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/description/",
+  "submissionId": "smm8dg"
 }
