@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-08-18T14:23:17.584Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-21T18:26:36.915Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Next Greater Element I",
-  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/",
-  "submissionId": "z3cidl"
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/description/",
+  "submissionId": "smm8dg"
 }
