@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Add One to Linked List
+ * URL: https://www.naukri.com/code360/problems/add-one-to-linked-list_920456
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:50:20.702Z
+ */
+
+int data;
+    LinkedListNode next;
+ 
+    LinkedListNode(int data) {
+        this.data = data;
+        this.next = null;
+    }
+};
+ 
+*************************************************************************/
+public class Solution {
+ 
+    public static LinkedListNode addOneToList(LinkedListNode linkedListNode) {
+        // Write your code here
+    }
+ 
+}
+ 
+    public class LinkedListNode {
+    Following is the class structure of the LinkedListNode class:
+    
+ 
+/*************************************************************************
+ 
+import java.util.* ;
+import java.io.*;
