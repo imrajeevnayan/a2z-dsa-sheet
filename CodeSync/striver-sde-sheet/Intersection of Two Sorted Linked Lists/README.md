@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1
-- Synced: 2026-09-21T12:47:47.891Z
+- Synced: 2026-09-21T12:49:23.891Z
 
 ## Problem Description
 
