@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2191 ms
+- Runtime: 11124 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/aggressive-cows_1082559
-- Synced: 2026-09-21T09:50:05.247Z
+- Problem URL: https://www.naukri.com/code360/problems/length-of-ll_5884
+- Synced: 2026-09-21T12:25:53.552Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
