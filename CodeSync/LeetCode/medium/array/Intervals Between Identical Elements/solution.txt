@@ -1,0 +1,37 @@
+/*
+ * Platform: LeetCode
+ * Problem: Intervals Between Identical Elements
+ * URL: https://leetcode.com/problems/intervals-between-identical-elements/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T18:21:28.621Z
+ */
+
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        Arrays.sort(nums);
+        int closestSum = Integer.MAX_VALUE / 2; // avoid overflow on diff
+        
+        for (int i = 0; i < nums.length - 2; i++) {
+            int left = i + 1, right = nums.length - 1;
+            
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                
+                // Track closest
+                if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                    closestSum = sum;
+                }
+                
+                if (sum == target) {
+                    return sum; // exact match, can't do better
+                } else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
+                }
+            }
+        }
