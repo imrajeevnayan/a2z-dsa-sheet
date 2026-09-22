@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Circle Intersection
+ * URL: https://www.naukri.com/code360/problems/circle-intersection_4609638
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:18:02.451Z
+ */
+
+public class Solution {
+ 
+    static boolean intersectCircle(int x1, int y1, int x2, int y2, int r1, int r2) {
+        // Write your code here.
+ 
+    }
+}
