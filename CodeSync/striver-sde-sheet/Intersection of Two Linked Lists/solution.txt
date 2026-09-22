@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 52.56 MB
- * Synced: 2026-09-21T12:15:39.632Z
+ * Synced: 2026-09-21T12:16:29.063Z
  */
 
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
@@ -21,7 +21,7 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
         // List B mein same node dhundo
         while (headB != null) {
-            if (set.contains(head)) {
+            if (set.contains(headB)) {
                 return headB;
             }
             headB = headB.next;
