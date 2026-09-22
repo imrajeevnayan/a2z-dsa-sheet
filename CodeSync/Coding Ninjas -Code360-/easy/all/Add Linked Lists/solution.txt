@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Add Linked Lists
+ * URL: https://www.naukri.com/code360/problems/add-linked-lists_920495
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:45:21.169Z
+ */
+
+public class Solution {
+ 
+    public static Node addLL(Node head1, Node head2) {
+ 
+        // Reverse both linked lists
+        head1 = reverse(head1);
+        head2 = reverse(head2);
+ 
+        Node dummy = new Node(0);
+        Node current = dummy;
+ 
+        int carry = 0;
+ 
+        // Add digit by digit
+        while (head1 != null || head2 != null || carry != 0) {
+ 
+            int sum = carry;
+ 
+            if (head1 != null) {
+                sum += head1.data;
+                head1 = head1.next;
+            }
+ 
+            if (head2 != null) {
+                sum += head2.data;
+                head2 = head2.next;
+            }
+ 
+            current.next = new Node(sum % 10);
+            current = current.next;
+ 
+            carry = sum / 10;
+        }
+ 
+        // Reverse answer to restore original order
+        return reverse(dummy.next);
+    }
+ 
+    private static Node reverse(Node head) {
