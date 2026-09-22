@@ -7,32 +7,46 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftD-E-ShawZopper, Company Tags, Amazon, Microsoft, D-E-Shaw, Zopper, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T12:15:49.763Z
+ * Synced: 2026-09-21T12:16:34.970Z
  */
-
-/* Structure of a Linked list Node
- class Node {
-    int data;
-    Node next;
-
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-} */
 
 class Solution {
     public Node findIntersection(Node head1, Node head2) {
-        Set<Node>set=new HashSet<>();
-        while(head1 !=null){
+
+        Set<Node> set = new HashSet<>();
+
+        while (head1 != null) {
             set.add(head1);
-            head1=head1.next;
+            head1 = head1.next;
         }
-        while(head2 !=null){
-            if(set.contains(head1)) return head1;
-            head2=head2.next;
+
+        while (head2 != null) {
+            if (set.contains(head2)) {
+                return head2;
+            }
+            head2 = head2.next;
         }
+
         return null;
-        
+    }
+}
+class Solution {
+    public Node findIntersection(Node head1, Node head2) {
+
+        Set<Node> set = new HashSet<>();
+
+        while (head1 != null) {
+            set.add(head1);
+            head1 = head1.next;
+        }
+
+        while (head2 != null) {
+            if (set.contains(head2)) {
+                return head2;
+            }
+            head2 = head2.next;
+        }
+
+        return null;
     }
 }
