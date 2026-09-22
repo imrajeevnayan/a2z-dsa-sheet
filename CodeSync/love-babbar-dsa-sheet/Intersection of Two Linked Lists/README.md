@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 52.56 MB
 - Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
-- Synced: 2026-09-21T12:29:38.255Z
+- Synced: 2026-09-21T12:30:25.628Z
 
 ## Problem Description
 
