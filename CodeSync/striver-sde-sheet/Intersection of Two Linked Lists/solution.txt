@@ -1,25 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Intersection of Two Linked Lists
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2143482450/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2148608431/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: 52.91 MB
- * Synced: 2026-09-16T09:42:08.762Z
+ * Memory: 52.56 MB
+ * Synced: 2026-09-21T12:13:17.579Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) return null;
-        
-        ListNode a = headA, b = headB;
-        
-        while (a != b) {
-            a = (a == null) ? headB : a.next; // khatam? doosri list pe jump
-            b = (b == null) ? headA : b.next;
+public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        HashSet<ListNode> set = new HashSet<>();
+
+        // List A ke saare nodes Set mein daalo
+        while (headA != null) {
+            set.add(headA);
+            headA = headA.next;
         }
-        return a; // intersection node YA null (dono case sahi)
+
+        // List B mein same node dhundo
+        while (headB != null) {
+            if (set.contains(headB)) {
+                return headB;
+            }
+            headB = headB.next;
+        }
+        return null;
     }
+public class Solution {
 }
