@@ -4,14 +4,14 @@
 - Language: Java (17)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 11124 ms
+- Runtime: 17300 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/length-of-ll_5884
-- Synced: 2026-09-21T12:25:53.552Z
+- Problem URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
+- Synced: 2026-09-21T12:39:52.603Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
