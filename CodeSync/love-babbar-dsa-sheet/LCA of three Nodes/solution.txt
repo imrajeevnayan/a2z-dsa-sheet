@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/deletion-in-circular-linked-list_630409
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-21T12:43:17.542Z
+ */
+
+public class Solution {
+    public static Node<Integer> deleteNode(Node<Integer> head, int key) {
+ 
+        // Empty list
+        if (head == null) {
+            return null;
+        }
+ 
+        // Only one node
+        if (head.next == head) {
+            if (head.data == key) {
+                return null;
+            }
+            return head;
+        }
+ 
+        // If head needs to be deleted
+        if (head.data == key) {
+            Node<Integer> temp = head;
+ 
+            // Find the last node
+            while (temp.next != head) {
+                temp = temp.next;
+            }
+ 
+            // Last node points to second node
+            temp.next = head.next;
+ 
+            return head.next;
+        }
+ 
+        // Find the node before the node to delete
+        Node<Integer> temp = head;
+ 
+        while (temp.next != head && temp.next.data != key) {
+            temp = temp.next;
+        }
+ 
+        // Delete the node if found
