@@ -104,10 +104,10 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 
 | Coding Sheet | Solved | Total |
 | :--- | :--- | :--- |
-| Blind 75 | 145 | 75 |
-| Grind 75 | 101 | 75 |
-| Grind 169 | 116 | 169 |
-| NeetCode 150 | 163 | 150 |
+| Blind 75 | 146 | 75 |
+| Grind 75 | 102 | 75 |
+| Grind 169 | 117 | 169 |
+| NeetCode 150 | 164 | 150 |
 | LeetCode 75 | 52 | 75 |
 | Top Interview 150 | 120 | 150 |
 | Top 100 Liked | 4 | 100 |
@@ -115,7 +115,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Striver A2Z DSA | 5 | 450 |
 | Love Babbar 450 | 3 | 450 |
 | Coder Army DSA | 0 | 350 |
-| GFG 160 | 488 | 160 |
+| GFG 160 | 489 | 160 |
 | CSES Problem Set | 15 | 300 |
 | InterviewBit Sets | 8 | 200 |
 | Nishant Chahar 151 | 29 | 151 |
