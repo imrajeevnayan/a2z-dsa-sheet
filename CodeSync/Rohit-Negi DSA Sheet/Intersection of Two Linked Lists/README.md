@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
-- Runtime: 0 ms
-- Memory: 52.56 MB
-- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
-- Synced: 2026-09-21T12:57:12.594Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/
+- Synced: 2026-09-21T15:58:24.913Z
 
 ## Problem Description
 
