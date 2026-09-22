@@ -2,16 +2,16 @@
 
 - Platform: Coding Ninjas (Code360)
 - Language: Java (17)
-- Difficulty: Unknown
+- Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2115 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/array-intersection_625161
-- Synced: 2026-09-21T12:18:52.588Z
+- Synced: 2026-09-21T12:21:33.064Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Problem statement Send feedback
 
 ## Explanation
 
