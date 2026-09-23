@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-24T07:07:00.795Z",
-  "runtime": "54 ms",
-  "memoryUsage": "70.42 MB",
+  "submissionTimestamp": "2026-09-22T13:01:44.423Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Database"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/submissions/2044276962/?envType=problem-list-v2&envId=da2h7mkv",
-  "submissionId": "v5w4rj"
+  "problemUrl": "https://leetcode.com/problems/duplicate-emails/description/",
+  "submissionId": "bkq4h0"
 }
