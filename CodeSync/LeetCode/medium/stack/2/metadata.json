@@ -1,17 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-23T19:08:39.339Z",
+  "submissionTimestamp": "2026-09-22T18:58:04.778Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Linked List",
-    "Two Pointers",
+    "String",
+    "Dynamic Programming",
     "Stack",
-    "Recursion"
+    "Greedy"
   ],
   "platform": "LeetCode",
-  "language": "Two Pointers (Copy-two-pointers)",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=da2mv5gs",
-  "submissionId": "ls8977"
+  "problemUrl": "https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/",
+  "submissionId": "38u1rk"
 }
