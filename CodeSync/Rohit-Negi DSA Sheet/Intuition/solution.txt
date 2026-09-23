@@ -2,32 +2,16 @@
  * Platform: GeeksforGeeks
  * Problem: Intuition
  * URL: https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
- * Language: nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }
+ * Language: class Solution { public: vector<int> nextSmallerEle(vector<int>& arr) { // code here vector<int> nse; int n=arr.size(); vector<int> res(n,-1); for(int i=n-1; i>=0; i--) { while(nse.size() && nse.back()>=arr[i]) nse.pop_back(); if(!nse.size()) res[i]=-1; else res[i]=nse.back(); nse.push_back(arr[i]); } return res; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags FlipkartAmazon, Company Tags, Flipkart, Amazon, Topic Tags, Arrays, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T08:15:22.393Z
+ * Synced: 2026-09-22T16:31:40.798Z
  */
 
 class Solution {
     static ArrayList<Integer> nextSmallerEle(int[] arr) {
-       int n = arr.length;
-        ArrayList<Integer> result = new ArrayList<>(Collections.nCopies(n, -1));
-        Stack<Integer> st = new Stack<>();
-
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && st.peek() >= arr[i]) {
-                st.pop();
-            }
-
-            if (!st.isEmpty())
-                result.set(i, st.peek());
-
-            st.push(arr[i]);
-        }
-
-        return result;
         
     }
 }
