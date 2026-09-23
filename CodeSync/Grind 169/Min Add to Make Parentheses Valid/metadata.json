@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-22T18:59:37.404Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftTCSAdobeIBM",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "TCS",
+    "Adobe",
+    "IBM"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Min Add to Make Parentheses Valid",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1",
+  "submissionId": "a8c91c"
+}
