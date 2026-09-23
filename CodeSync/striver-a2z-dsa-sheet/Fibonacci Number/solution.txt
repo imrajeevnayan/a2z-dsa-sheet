@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/submissions/2150775312/
+ * URL: https://leetcode.com/problems/house-robber/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Math, Dynamic Programming, Recursion, Memoization
- * Runtime: 0 ms
- * Memory: 42.17 MB
- * Synced: 2026-09-23T10:39:08.674Z
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-23T10:40:16.479Z
  */
 
 class Solution {
