@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/check-prime_624674
-- Synced: 2026-09-12T16:31:05.730Z
+- Synced: 2026-09-23T04:23:10.450Z
 
 ## Problem Description
 
