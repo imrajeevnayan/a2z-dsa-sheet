@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-21T11:51:11.620Z",
-  "runtime": "19 ms",
-  "memoryUsage": "45.48 MB",
-  "difficulty": "Unknown",
+  "submissionTimestamp": "2026-09-22T13:01:44.423Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Database"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/3sum-closest/submissions/2148449099/",
-  "submissionId": "y39ehu"
+  "problemUrl": "https://leetcode.com/problems/duplicate-emails/description/",
+  "submissionId": "bkq4h0"
 }
