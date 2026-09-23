@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-23T06:51:48.362Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Breadth-First Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Remove Invalid Parentheses",
+  "problemUrl": "https://leetcode.com/problems/remove-invalid-parentheses/",
+  "submissionId": "e8n16u"
+}
