@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-22T19:00:23.125Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftTCSAdobeIBM",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "TCS",
+    "Adobe",
+    "IBM"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { /** * Returns the minimum number of parentheses required * to make the given parentheses string balanced. * * Approach: * - Count unmatched opening parentheses using `openC`. * - When a closing parenthesis is encountered: * - If an unmatched opening parenthesis exists, match it. * - Otherwise, count it as an unmatched closing parenthesis. * - The total unmatched opening and closing parentheses * represent the minimum number of insertions required. * * Time Complexity: O(n) * Space Complexity: O(1) * * @param s String containing only '(' and ')' * @return Minimum number of parentheses needed to balance the string */ public int minParentheses(String s) { int openC = 0; int closeC = 0; for (char ch : s.toCharArray()) { if (ch == '(') { openC++; } else if (openC != 0) { openC--; } else { closeC++; } } return openC + closeC; } }",
+  "problemTitle": "Easy Java Solution in O(n) :",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1",
+  "submissionId": "6r5csb"
+}
