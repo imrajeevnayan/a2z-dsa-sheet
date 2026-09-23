@@ -1810,7 +1810,12 @@
   "leetcode:second-highest-salary": [],
   "leetcode:nth-highest-salary": [],
   "leetcode:rank-scores": [],
-  "leetcode:duplicate-emails": [],
+  "leetcode:duplicate-emails": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
+  ],
   "leetcode:customers-who-never-order": [],
   "leetcode:department-highest-salary": [],
   "geeksforgeeks:sorting-elements-of-an-array-by-frequency-1587115621": [
