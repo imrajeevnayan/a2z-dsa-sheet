@@ -1,17 +1,18 @@
 {
-  "submissionTimestamp": "2026-07-21T13:48:55.441Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-23T11:09:40.903Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Dynamic Programming",
     "Tree",
     "Depth-First Search",
-    "Binary Tree"
+    "Binary Tree",
+    "DP on Trees"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber III",
   "problemUrl": "https://leetcode.com/problems/house-robber-iii/",
-  "submissionId": "xx9h1o"
+  "submissionId": "jffslb"
 }
