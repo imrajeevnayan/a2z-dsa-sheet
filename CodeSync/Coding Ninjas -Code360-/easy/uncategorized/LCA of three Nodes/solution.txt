@@ -1,51 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/deletion-in-circular-linked-list_630409
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T12:43:17.542Z
+ * Synced: 2026-09-22T16:53:54.041Z
  */
 
 public class Solution {
-    public static Node<Integer> deleteNode(Node<Integer> head, int key) {
- 
-        // Empty list
-        if (head == null) {
-            return null;
-        }
- 
-        // Only one node
-        if (head.next == head) {
-            if (head.data == key) {
-                return null;
+    public static int findMinimumCost(String str) {
+        if (str.length() % 2 != 0) return -1;
+        Stack<Character> st = new Stack<>();
+        for (char ch : str.toCharArray()) {
+            if (ch == '{')st.push(ch);
+            else {
+                if (!st.isEmpty() && st.peek() == '{') st.pop();
+                else {
+                    st.push(ch);
+                }
             }
-            return head;
         }
  
-        // If head needs to be deleted
-        if (head.data == key) {
-            Node<Integer> temp = head;
+        int open = 0;
+        int close = 0;
  
-            // Find the last node
-            while (temp.next != head) {
-                temp = temp.next;
+        while (!st.isEmpty()) {
+            if (st.pop() == '{') {
+                open++;
+            } else {
+                close++;
             }
- 
-            // Last node points to second node
-            temp.next = head.next;
- 
-            return head.next;
         }
  
-        // Find the node before the node to delete
-        Node<Integer> temp = head;
- 
-        while (temp.next != head && temp.next.data != key) {
-            temp = temp.next;
-        }
- 
-        // Delete the node if found
+        return (open + 1) / 2 + (close + 1) / 2;
+    }
+}
+import java.util.*;
