@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.95 MB
- * Synced: 2026-09-23T10:43:44.678Z
+ * Synced: 2026-09-23T10:44:50.678Z
  */
 
 // Choice 1: Current house loot lo, aur agle adjacent ko skip karke i+2 pe jao
