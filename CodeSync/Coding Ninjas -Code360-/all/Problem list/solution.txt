@@ -1,51 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/tree-traversal_981269
+ * URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T16:39:31.877Z
+ * Synced: 2026-09-22T16:52:15.044Z
  */
 
-List<Integer> inorder = new ArrayList<>();
-        List<Integer> preorder = new ArrayList<>();
-        List<Integer> postorder = new ArrayList<>();
- 
-        traversal(root, inorder, preorder, postorder);
- 
-        List<List<Integer>> result = new ArrayList<>();
- 
-        result.add(inorder);
-        result.add(preorder);
-        result.add(postorder);
- 
-        return result;
-    }
- 
-    private static void traversal(
-            TreeNode root,
-            List<Integer> inorder,
-            List<Integer> preorder,
-            List<Integer> postorder) {
- 
-        if (root == null) {
-            return;
+public class Solution {
+    public static int findMinimumCost(String str) {
+        if (str.length() % 2 != 0) return -1;
+        Stack<Character> st = new Stack<>();
+        for (char ch : str.toCharArray()) {
+            if (ch == '{')st.push(ch);
+            else {
+                if (!st.isEmpty() && st.peek() == '{') st.pop();
+                else {
+                    st.push(ch);
+                }
+            }
         }
  
-        // Preorder: Root ? Left ? Right
-        preorder.add(root.data);
+        int open = 0;
+        int close = 0;
  
-        traversal(root.left, inorder, preorder, postorder);
+        while (!st.isEmpty()) {
+            if (st.pop() == '{') {
+                open++;
+            } else {
+                close++;
+            }
+        }
  
-        // Inorder: Left ? Root ? Right
-        inorder.add(root.data);
- 
-        traversal(root.right, inorder, preorder, postorder);
- 
-        // Postorder: Left ? Right ? Root
-        postorder.add(root.data);
+        return (open + 1) / 2 + (close + 1) / 2;
     }
 }
+import java.util.*;
