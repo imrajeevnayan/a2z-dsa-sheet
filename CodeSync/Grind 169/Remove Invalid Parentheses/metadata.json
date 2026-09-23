@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-23T07:15:54.993Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-23T07:16:43.025Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.95 MB",
   "difficulty": "Hard",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Invalid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/remove-invalid-parentheses/",
-  "submissionId": "e8n16u"
+  "problemUrl": "https://leetcode.com/problems/remove-invalid-parentheses/submissions/2150602603/",
+  "submissionId": "j1oc1"
 }
