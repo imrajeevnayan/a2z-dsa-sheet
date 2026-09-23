@@ -1,14 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
+ * Difficulty: Medium
+ * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T15:13:02.058Z
+ * Synced: 2026-09-23T06:48:24.116Z
  */
 
-Input: root = [5,3,6,2,4,null,7], k = 9
-Output: true
+class Solution {
+    public int minAddToMakeValid(String s) {
+        int left=0,right=0;
+        for(char c:s.toCharArray()){
+            if(c=='(') left++;
+            else{
+                if(left >0) left--;
+                else right++;
+            }
+        }
+        return left+right;
+    }
+}
