@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Add to Make Parentheses Valid
+ * URL: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-23T06:50:53.503Z
+ */
+
+class Solution {
+    public int minAddToMakeValid(String s) {
+        int openCount=0, closeCount=0;
+        for(char c:s.toCharArray()){
+            if(c=='(') openCount++;
+            else{
+                if(openCount >0) openCount--;
+                else closeCount++;
+            }
+        }
+        return openCount+closeCount;
+    }
+}
