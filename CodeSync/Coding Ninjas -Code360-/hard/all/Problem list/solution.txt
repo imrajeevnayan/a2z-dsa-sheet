@@ -1,49 +1,51 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
+ * URL: https://www.naukri.com/code360/problems/tree-traversal_981269
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T20:12:57.000Z
+ * Synced: 2026-09-22T16:39:31.877Z
  */
 
-Arrays.sort(arr);
+List<Integer> inorder = new ArrayList<>();
+        List<Integer> preorder = new ArrayList<>();
+        List<Integer> postorder = new ArrayList<>();
  
-        for (int i = 0; i < n - 2; i++) {
+        traversal(root, inorder, preorder, postorder);
  
-            // Same first element => duplicate triplets
-            if (i > 0 && arr[i] == arr[i - 1]) {
-                continue;
-            }
+        List<List<Integer>> result = new ArrayList<>();
  
-            HashSet<Integer> set = new HashSet<>();
-            HashSet<Integer> used = new HashSet<>();
+        result.add(inorder);
+        result.add(preorder);
+        result.add(postorder);
  
-            for (int j = i + 1; j < n; j++) {
+        return result;
+    }
  
-                int required = K - arr[i] - arr[j];
+    private static void traversal(
+            TreeNode root,
+            List<Integer> inorder,
+            List<Integer> preorder,
+            List<Integer> postorder) {
  
-                if (set.contains(required) && !used.contains(required)) {
- 
-                    ArrayList<Integer> triplet = new ArrayList<>();
- 
-                    triplet.add(arr[i]);
-                    triplet.add(required);
-                    triplet.add(arr[j]);
- 
-                    ans.add(triplet);
- 
-                    // Don't add same triplet again
-                    used.add(required);
-                }
- 
-                set.add(arr[j]);
-            }
+        if (root == null) {
+            return;
         }
  
-        return ans;
+        // Preorder: Root ? Left ? Right
+        preorder.add(root.data);
+ 
+        traversal(root.left, inorder, preorder, postorder);
+ 
+        // Inorder: Left ? Root ? Right
+        inorder.add(root.data);
+ 
+        traversal(root.right, inorder, preorder, postorder);
+ 
+        // Postorder: Left ? Right ? Root
+        postorder.add(root.data);
     }
 }
