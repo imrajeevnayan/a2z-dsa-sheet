@@ -1,28 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
+ * URL: https://leetcode.com/problems/valid-parentheses/submissions/2150718028/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-08-21T05:29:25.571Z
+ * Memory: 43.07 MB
+ * Synced: 2026-09-23T09:36:04.673Z
  */
 
-class Solution {
-    public boolean isValid(String s) {
-        Deque<Character> st = new ArrayDeque<>();
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') st.push(c);
+for (char c : s.toCharArray()) {
+            // Opening brackets ko stack mein push karo
+            if (c == '(' || c == '{' || c == '[') stack.push(c);
             else {
-                if (st.isEmpty()) return false; 
-                char top = st.pop();
-                if ((c == ')' && top != '(') ||
-                    (c == '}' && top != '{') ||
-                    (c == ']' && top != '[')) return false;
+                // Closing bracket mila
+                // Agar stack khali hai, toh koi matching opening bracket nahi hai
+                if (stack.isEmpty()) return false;
+                char top = stack.pop();
+                // Check karo ki pair match kar raha hai ya nahi
+                if (c == ')' && top != '(') return false;
+                if (c == '}' && top != '{') return false;
+        Stack<Character> stack = new Stack<>();
+        // Agar length odd hai, toh valid hona impossible hai.
+        // Kyunki har bracket ka pair hona zaroori hai.
+        if (s.length() % 2 != 0) return false;
+    public boolean isValid(String s) {
+class Solution {
+                if (c == ']' && top != '[') return false;
             }
         }
-        return st.isEmpty();
+        // End mein stack khali hona chahiye tabhi string valid hai
+        return stack.isEmpty();
     }
 }
