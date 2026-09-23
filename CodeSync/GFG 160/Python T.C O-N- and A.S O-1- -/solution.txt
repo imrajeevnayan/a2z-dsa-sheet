@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python: T.C: O(N) and A.S: O(1) -:
+ * URL: https://www.geeksforgeeks.org/problems/middle-of-stack/1
+ * Language: class Solution { public: int stackMiddle(stack<int>& st) { // code here int n= st.size(); for(int i=0; i<n/2; i++){ st.pop(); } return st.top(); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T18:19:35.313Z
+ */
+
+class Solution {
+    public int stackMiddle(Stack<Integer> st) {
+        int n=st.size();
+        return st.get(n/2);
+        
+    }
+}
