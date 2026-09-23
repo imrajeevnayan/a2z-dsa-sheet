@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-23T10:48:17.213Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-23T10:49:02.663Z",
+  "runtime": "1 ms",
   "memoryUsage": "44.87 MB",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Min Cost Climbing Stairs",
   "problemUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
-  "submissionId": "jkywpo"
+  "submissionId": "9uawjw"
 }
