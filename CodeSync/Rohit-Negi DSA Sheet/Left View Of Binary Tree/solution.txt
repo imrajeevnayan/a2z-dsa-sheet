@@ -1,0 +1,43 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Left View Of Binary Tree
+ * URL: https://www.naukri.com/code360/problems/left-view-of-binary-tree_625707
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 14784 ms
+ * Memory: N/A
+ * Synced: 2026-09-23T04:31:46.789Z
+ */
+
+import java.util.*;
+import java.util.LinkedList;
+ 
+public class Solution {
+    public static void printLeftView(TreeNode<Integer> root) {
+        if (root == null) return;
+        
+        Queue<TreeNode<Integer>> queue = new LinkedList<>();
+        queue.add(root);
+ 
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+ 
+            for (int i = 0; i < size; i++) {
+                TreeNode<Integer> node = queue.poll();
+ 
+                if (i == 0) {
+                    System.out.print(node.data + " ");
+                }
+ 
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+ 
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+        }
+    }
+}
