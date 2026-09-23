@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-22T16:41:11.010Z",
+  "submissionTimestamp": "2026-09-22T16:42:28.308Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (17)",
+  "language": "All languages",
   "problemTitle": "Minimum Cost To Make String Valid",
   "problemUrl": "https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770",
-  "submissionId": "42tl9y"
+  "submissionId": "e0boy9"
 }
