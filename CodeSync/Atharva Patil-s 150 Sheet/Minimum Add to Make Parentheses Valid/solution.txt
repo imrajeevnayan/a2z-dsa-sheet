@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Add to Make Parentheses Valid
- * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2150576612/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Bracket Sequences
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-23T06:49:55.152Z
+ * Synced: 2026-09-23T06:50:41.098Z
  */
 
 class Solution {
@@ -16,8 +16,10 @@ class Solution {
         for(char c:s.toCharArray()){
             if(c=='(') openCount++;
             else{
-                if(c)
+                if(openCount >0) openCount--;
             }
         }
     }
+                else closeCount++;
+        return openCount+closeCount;
 }
