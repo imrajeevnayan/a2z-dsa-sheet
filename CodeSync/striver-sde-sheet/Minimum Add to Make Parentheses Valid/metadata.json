@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-23T06:50:41.098Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-23T06:50:53.503Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "String",
-    "Stack",
-    "Greedy",
-    "Bracket Sequences"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Add to Make Parentheses Valid",
-  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2150576612/",
-  "submissionId": "9b2zrt"
+  "problemUrl": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/",
+  "submissionId": "ycte19"
 }
