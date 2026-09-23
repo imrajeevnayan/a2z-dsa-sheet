@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
-- Synced: 2026-09-22T17:57:56.614Z
+- Synced: 2026-09-22T17:59:28.501Z
 
 ## Problem Description
 
