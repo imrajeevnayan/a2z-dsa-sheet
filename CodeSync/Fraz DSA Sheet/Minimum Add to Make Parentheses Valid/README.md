@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-- Synced: 2026-09-23T06:49:09.601Z
+- Synced: 2026-09-23T06:49:55.152Z
 
 ## Problem Description
 
