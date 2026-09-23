@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T10:26:48.428Z
+ * Synced: 2026-09-22T10:27:48.431Z
  */
 
 class Solution {
