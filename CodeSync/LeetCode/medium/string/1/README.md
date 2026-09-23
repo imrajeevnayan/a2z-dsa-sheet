@@ -1,18 +1,18 @@
 # 1
 
 - Platform: LeetCode
-- Language: Sliding Window
+- Language: Problem List
 - Difficulty: Medium
-- Topics: String, Sliding Window
+- Topics: String, Stack, Greedy, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-09-14T12:49:08.391Z
+- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+- Synced: 2026-09-23T06:48:24.116Z
 
 ## Problem Description
 
-Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k. Vowel letters in English are 'a', 'e', 'i', 'o', and 'u'. Example 1: Input: s = "abciiidef", k = 3 Output: 3 Explanation: The substring "iii" contains 3 vowel letters. Example 2: Input: s = "aeiou", k = 2 Output: 2 Explanation: Any substring of length 2 contains 2 vowels. Example 3: Input: s = "leetcode", k = 3 Output: 2 Explanation: "lee", "eet" and "ode" contain 2 vowels. Constraints: 1 <= s.length <= 105 s consists of lowercase English letters. 1 <= k <= s.length
+A parentheses string is valid if and only if: It is the empty string, It can be written as AB (A concatenated with B), where A and B are valid strings, or It can be written as (A), where A is a valid string. You are given a parentheses string s. In one move, you can insert a parenthesis at any position of the string. For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))". Return the minimum number of moves required to make s valid. Example 1: Input: s = "())" Output: 1 Example 2: Input: s = "(((" Output: 3 Constraints: 1 <= s.length <= 1000 s[i] is either '(' or ')'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are String, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Greedy, Bracket Sequences. Review the synced source file for the implementation details.
