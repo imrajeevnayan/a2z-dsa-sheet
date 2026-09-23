@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-22T18:03:35.289Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Math",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Rotated Digits",
+  "problemUrl": "https://leetcode.com/problems/rotated-digits/?envType=daily-question&envId=2026-09-22",
+  "submissionId": "hglmc8"
+}
