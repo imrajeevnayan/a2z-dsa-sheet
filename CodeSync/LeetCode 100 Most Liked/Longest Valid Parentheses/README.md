@@ -6,8 +6,8 @@
 - Topics: String, Dynamic Programming, Stack, Bracket Sequences
 - Runtime: 0 ms
 - Memory: 46.36 MB
-- Problem URL: https://leetcode.com/problems/longest-valid-parentheses/submissions/2150711053/
-- Synced: 2026-09-23T09:30:29.669Z
+- Problem URL: https://leetcode.com/problems/valid-parentheses/
+- Synced: 2026-09-23T09:30:35.222Z
 
 ## Problem Description
 
