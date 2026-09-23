@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-23T04:22:25.586Z",
-  "runtime": "4498 ms",
+  "submissionTimestamp": "2026-09-23T06:48:00.211Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "in Number Theory"
+    "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/check-prime_11302365",
-  "submissionId": "v14grc"
+  "problemUrl": "https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770",
+  "submissionId": "9s0pcd"
 }
