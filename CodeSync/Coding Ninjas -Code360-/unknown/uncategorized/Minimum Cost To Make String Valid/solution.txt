@@ -7,30 +7,38 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T16:42:28.308Z
+ * Synced: 2026-09-23T06:47:09.014Z
  */
 
 import java.util.*;
+import java.io.*;
  
 public class Solution {
     public static int findMinimumCost(String str) {
+        // Step 1: Odd length check
         if (str.length() % 2 != 0) return -1;
-        Stack<Character> st = new Stack<>();
+        int openCount = 0, closeCount = 0;
  
-        for (char ch : str.toCharArray()) {
- 
-            if (ch == '{')  st.push(ch);
-            else {
-                if (!st.isEmpty() && st.peek() == '{') st.pop();
-                else st.push(ch); 
+        // Step 2: Remove valid pairs using stack logic
+        for (char c : str.toCharArray()) {
+            if (c == '{') {
+                openCount++;
+            } else {
+                if (openCount > 0) {
+                    openCount--; // Match mil gaya
+                } else {
+                    closeCount++; // Invalid closing brace
+                }
             }
         }
-        int open = 0, close = 0;
  
-        while (!st.isEmpty()) {
-            if (st.pop() == '{') open++;
-        else close++;
-        }
-        return (open + 1) / 2 + (close + 1) / 2;
+        // Step 3: Calculate min swaps
+        // openCount: Bache hue unmatched '{'
+        // closeCount: Bache hue unmatched '}'
+        
+        // Half of the unmatched opens need to be swapped with half of the unmatched closes.
+        // If counts are odd, we need one extra swap for the middle pair.
+        
+        return (openCount + 1) / 2 + (closeCount + 1) / 2;
     }
 }
