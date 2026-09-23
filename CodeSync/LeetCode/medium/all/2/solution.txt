@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
- * Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+ * URL: https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, Sliding Window
+ * Topics: String, Dynamic Programming, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-24T07:04:11.013Z
+ * Synced: 2026-09-22T18:58:04.778Z
  */
 
 class Solution {
-    public int totalFruit(int[] fruits) {
+    public int addMinimum(String word) {
         
     }
 }
