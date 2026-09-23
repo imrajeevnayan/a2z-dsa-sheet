@@ -1,27 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Two Pointers (Copy-two-pointers)
+ * URL: https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: Linked List, Two Pointers, Stack, Recursion
+ * Topics: String, Dynamic Programming, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:08:39.339Z
+ * Synced: 2026-09-22T18:58:04.778Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public void reorderList(ListNode head) {
+    public int addMinimum(String word) {
         
     }
 }
