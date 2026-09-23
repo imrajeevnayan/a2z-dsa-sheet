@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/remove-k-digits/1
-- Synced: 2026-09-22T18:21:36.489Z
+- Synced: 2026-09-23T04:14:49.925Z
 
 ## Problem Description
 
