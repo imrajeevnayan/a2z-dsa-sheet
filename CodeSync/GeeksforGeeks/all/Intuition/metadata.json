@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-22T16:31:40.798Z",
+  "submissionTimestamp": "2026-09-22T17:59:28.501Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: vector<int> nextSmallerEle(vector<int>& arr) { // code here vector<int> nse; int n=arr.size(); vector<int> res(n,-1); for(int i=n-1; i>=0; i--) { while(nse.size() && nse.back()>=arr[i]) nse.pop_back(); if(!nse.size()) res[i]=-1; else res[i]=nse.back(); nse.push_back(arr[i]); } return res; } };",
   "problemTitle": "Intuition",
   "problemUrl": "https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1",
-  "submissionId": "k7lhw1"
+  "submissionId": "z7f05i"
 }
