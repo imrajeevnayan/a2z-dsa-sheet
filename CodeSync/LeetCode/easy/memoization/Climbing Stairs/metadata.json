@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-16T12:12:11.938Z",
+  "submissionTimestamp": "2026-09-23T10:05:28.679Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.07 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -9,8 +9,8 @@
     "Memoization"
   ],
   "platform": "LeetCode",
-  "language": "Dynamic Programming",
+  "language": "Problem List",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/climbing-stairs/?envType=problem-list-v2&envId=dynamic-programming",
-  "submissionId": "ofi5ly"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/submissions/2057667797/",
+  "submissionId": "gp27za"
 }
