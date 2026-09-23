@@ -7,7 +7,7 @@
  * Topics: String, Dynamic Programming, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: 46.36 MB
- * Synced: 2026-09-23T09:28:50.677Z
+ * Synced: 2026-09-23T09:29:40.682Z
  */
 
 if (stack.isEmpty()) {
