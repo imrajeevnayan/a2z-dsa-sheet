@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-22T18:20:45.437Z",
+  "submissionTimestamp": "2026-09-22T18:21:36.489Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Greedy"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public: void MakeMinimum(string &s, int &k, int check, vector<bool>& keep, int n, vector<vector<int>>&nxt) { if(k < 0 || check >= n)return; // c, c + 1, c + 2 -> min char mn = s[check]; int mni = check; for(int i = 0; i < mn - '0'; i++) { int j = nxt[check][i]; if(j <= check + k) { mni = j; break; } } // for(int i = check + 1; i <= check + k; i++) // { // if(i >= s.size())break; // if(s[i] < mn) // { // mn = s[i]; // mni = i; // } // } // cout<<\"check \"<<check<<\" mni \"<<mni<<endl; // cout<<\"mni is \"<<mni<<endl; k -= (mni - check); keep[mni] = true; // for(int i = check; i < mni; i++) // { // keep[i] = false; // } MakeMinimum(s, k, mni + 1, keep, n, nxt); } string removeKdig(string &s, int k) { // check first k + 1 digits // first digit is fixed -- repeat for the 2nd, 3rd and so on int check = 0, n = s.size(); vector<vector<int>>nxt(n, vector<int>(10, INT_MAX)); vector<int>cur(10, INT_MAX); for(int i = n - 1; i >= 0; i--) { cur[s[i] - '0'] = i; nxt[i] = cur; } vector<bool>keep(n, false); MakeMinimum(s, k, check, keep, n, nxt); // cout<<\"k is \"<<k<<endl; string res = \"\"; // for(auto it : keep)cout<<it<<\" \"; // cout<<endl; // cout<< for(int i = n - 1; i >= 0; i--) { if(k == 0)break; if(keep[i]) { k--; keep[i] = false; } } for(int i = 0; i < n; i++) { if(keep[i]) { if(res.size() == 0 && s[i] == '0')continue; res += s[i]; } } // cout<<endl; if(res.size() == 0)return \"0\"; return res; } };",
   "problemTitle": "Remove K Digits",
   "problemUrl": "https://www.geeksforgeeks.org/problems/remove-k-digits/1",
-  "submissionId": "8qh24n"
+  "submissionId": "kqdrfk"
 }
