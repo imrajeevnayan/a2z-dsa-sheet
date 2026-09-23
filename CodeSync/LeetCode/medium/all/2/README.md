@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+- Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Hash Table, Sliding Window
+- Topics: String, Dynamic Programming, Stack, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv
-- Synced: 2026-06-24T07:04:11.013Z
+- Problem URL: https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/
+- Synced: 2026-09-22T18:58:04.778Z
 
 ## Problem Description
 
-You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces. You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow: You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold. Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets. Once you reach a tree with fruit that cannot fit in your baskets, you must stop. Given the integer array fruits, return the maximum number of fruits you can pick. Example 1: Input: fruits = [1,2,1] Output: 3 Explanation: We can pick from all 3 trees. Example 2: Input: fruits = [0,1,2,2] Output: 3 Explanation: We can pick from trees [1,2,2]. If we had started at the first tree, we would only pick from trees [0,1]. Example 3: Input: fruits = [1,2,3,2,2] Output: 4 Explanation: We can pick from trees [2,3,2,2]. If we had started at the first tree, we would only pick from trees [1,2]. Constraints: 1 <= fruits.length <= 105 0 <= fruits[i] < fruits.length
+Given a string word to which you can insert letters "a", "b" or "c" anywhere and any number of times, return the minimum number of letters that must be inserted so that word becomes valid. A string is called valid if it can be formed by concatenating the string "abc" several times. Example 1: Input: word = "b" Output: 2 Explanation: Insert the letter "a" right before "b", and the letter "c" right next to "b" to obtain the valid string "abc". Example 2: Input: word = "aaa" Output: 6 Explanation: Insert letters "b" and "c" next to each "a" to obtain the valid string "abcabcabc". Example 3: Input: word = "abc" Output: 0 Explanation: word is already valid. No modifications are needed. Constraints: 1 <= word.length <= 50 word consists of letters "a", "b" and "c" only.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window Problems (Copy-x1lbzfk3)Zj. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Dynamic Programming, Stack, Greedy. Review the synced source file for the implementation details.
