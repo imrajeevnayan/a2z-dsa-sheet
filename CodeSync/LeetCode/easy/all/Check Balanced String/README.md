@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-balanced-string/description/
-- Synced: 2026-09-23T10:14:57.683Z
+- Synced: 2026-09-23T10:21:04.521Z
 
 ## Problem Description
 
