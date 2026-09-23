@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3340. Check Balanced String
+ * URL: https://leetcode.com/problems/check-balanced-string/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-23T10:09:52.232Z
+ */
+
+class Solution {
+    public boolean isBalanced(String num) {
+        int balance = 0;
+
+        for (int i = 0; i < num.length(); i++) {
+            int digit = num.charAt(i) - '0';
+
+            if (i % 2 == 0)  balance += digit;
+            else balance -= digit;
+        }
+        return balance == 0;
+    }
+}
