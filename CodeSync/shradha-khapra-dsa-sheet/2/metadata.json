@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-22T16:05:12.998Z",
+  "submissionTimestamp": "2026-09-22T18:58:04.778Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Math",
-    "Segment Tree"
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Greedy"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-ii/description/?envType=daily-question&envId=2026-09-22",
-  "submissionId": "k0p4tl"
+  "problemUrl": "https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/",
+  "submissionId": "38u1rk"
 }
