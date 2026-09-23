@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String
-- Runtime: 0 ms
-- Memory: 43.71 MB
-- Problem URL: https://leetcode.com/problems/check-balanced-string/submissions/2150750262/
-- Synced: 2026-09-23T10:08:32.962Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/check-balanced-string/description/
+- Synced: 2026-09-23T10:12:44.722Z
 
 ## Problem Description
 
