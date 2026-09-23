@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-24T07:04:11.013Z",
+  "submissionTimestamp": "2026-09-22T18:58:04.778Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Sliding Window"
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Greedy"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window Problems (Copy-x1lbzfk3)Zj",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=da2h7mkv",
-  "submissionId": "53bcvx"
+  "problemUrl": "https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/",
+  "submissionId": "38u1rk"
 }
