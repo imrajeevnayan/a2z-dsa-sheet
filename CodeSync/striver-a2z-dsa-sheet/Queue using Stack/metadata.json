@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-22T18:18:40.664Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Microsoft",
+    "Company Tags",
+    "Microsoft",
+    "Topic Tags",
+    "Stack",
+    "Queue",
+    "Design-Pattern"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class myQueue { public: queue<int> q; myQueue() { // Initialize your data members } void enqueue(int x) { // Implement enqueue operation q.push(x); } void dequeue() { // Implement dequeue operation if(!q.empty()){ q.pop(); } } int front() { // Implement front operation if(!q.empty()){ return q.front(); } return -1; } int size() { // Implement size operation return q.size(); } };",
+  "problemTitle": "Queue using Stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/queue-using-stack/1",
+  "submissionId": "vwway1"
+}
