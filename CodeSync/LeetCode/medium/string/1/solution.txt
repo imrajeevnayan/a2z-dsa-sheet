@@ -1,29 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Sliding Window
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+ * Language: Problem List
  * Difficulty: Medium
- * Topics: String, Sliding Window
+ * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-14T12:49:08.391Z
+ * Synced: 2026-09-23T06:48:24.116Z
  */
 
 class Solution {
-    private boolean isVowels(char c) {
-        return "aeiouAEIOU".indexOf(c)!=-1;
-    }
-    public int maxVowels(String s, int k) {
-        int left=0,count=0,ans=0;
-        for(int right=0;right<s.length();right++){
-             if(isVowels(s.charAt(right))) count++;
-            if(right-left+1==k){
-             ans=Math.max(ans,count);
-             if(isVowels(s.charAt(left)))count--;
-             left++;
+    public int minAddToMakeValid(String s) {
+        int left=0,right=0;
+        for(char c:s.toCharArray()){
+            if(c=='(') left++;
+            else{
+                if(left >0) left--;
+                else right++;
             }
         }
-        return ans;
+        return left+right;
     }
 }
