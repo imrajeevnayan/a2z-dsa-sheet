@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-06T20:35:34.271Z",
+  "submissionTimestamp": "2026-09-23T10:08:32.962Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.71 MB",
   "difficulty": "Easy",
   "tags": [
     "String"
   ],
   "platform": "LeetCode",
-  "language": "String",
+  "language": "Problem List",
   "problemTitle": "Check Balanced String",
-  "problemUrl": "https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string",
-  "submissionId": "7me2uu"
+  "problemUrl": "https://leetcode.com/problems/check-balanced-string/submissions/2150750262/",
+  "submissionId": "ritzag"
 }
