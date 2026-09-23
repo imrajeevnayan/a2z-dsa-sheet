@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Valid Parentheses
+ * URL: https://leetcode.com/problems/longest-valid-parentheses/submissions/2150711053/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: String, Dynamic Programming, Stack, Bracket Sequences
+ * Runtime: 0 ms
+ * Memory: 46.36 MB
+ * Synced: 2026-09-23T09:27:13.673Z
+ */
+
+if (stack.isEmpty()) {
+                    // Agar stack khali ho gaya, iska matlab ye ')' invalid hai.
+                    // Iske pehle koi matching '(' nahi bacha tha.
+                    // Toh current index 'i' ko naya BASE (boundary) bana do.
+                    // Agla valid substring isi ke baad shuru hoga.
+                    stack.push(i);
+                } else {
+                    // Agar stack khali NAHI hua, iska matlab abhi bhi koi base bacha hai.
+                    // Current valid substring ki length calculate karo:
+                    // Formula: (Current Index) - (Stack ke top pe jo index hai)
+                    int currentLength = i - stack.peek();
+                    
+                    // Max length update karo agar ye wala bada hai
+                    maxLength = Math.max(maxLength, currentLength);
+                }
+            }
+        }
+        
+        return maxLength;
+    }
+}
