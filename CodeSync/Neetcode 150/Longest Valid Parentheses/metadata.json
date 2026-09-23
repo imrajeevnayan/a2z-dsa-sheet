@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-23T09:25:19.451Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Longest Valid Parentheses",
+  "problemUrl": "https://leetcode.com/problems/longest-valid-parentheses/",
+  "submissionId": "mmk4yz"
+}
