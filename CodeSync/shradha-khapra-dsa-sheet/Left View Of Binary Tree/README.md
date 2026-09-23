@@ -7,7 +7,7 @@
 - Runtime: 14784 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/left-view-of-binary-tree_625707
-- Synced: 2026-09-23T04:31:46.789Z
+- Synced: 2026-09-23T05:56:49.253Z
 
 ## Problem Description
 
