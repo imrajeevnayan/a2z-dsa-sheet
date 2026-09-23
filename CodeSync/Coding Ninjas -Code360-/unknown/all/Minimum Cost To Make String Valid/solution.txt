@@ -1,0 +1,36 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Minimum Cost To Make String Valid
+ * URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T16:42:28.308Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static int findMinimumCost(String str) {
+        if (str.length() % 2 != 0) return -1;
+        Stack<Character> st = new Stack<>();
+ 
+        for (char ch : str.toCharArray()) {
+ 
+            if (ch == '{')  st.push(ch);
+            else {
+                if (!st.isEmpty() && st.peek() == '{') st.pop();
+                else st.push(ch); 
+            }
+        }
+        int open = 0, close = 0;
+ 
+        while (!st.isEmpty()) {
+            if (st.pop() == '{') open++;
+        else close++;
+        }
+        return (open + 1) / 2 + (close + 1) / 2;
+    }
+}
