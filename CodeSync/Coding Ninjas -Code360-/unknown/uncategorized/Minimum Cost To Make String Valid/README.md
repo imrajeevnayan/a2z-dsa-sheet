@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
-- Synced: 2026-09-22T16:42:28.308Z
+- Synced: 2026-09-23T06:47:09.014Z
 
 ## Problem Description
 
