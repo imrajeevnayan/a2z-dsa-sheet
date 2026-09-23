@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-23T09:30:29.669Z",
+  "submissionTimestamp": "2026-09-23T09:30:35.222Z",
   "runtime": "0 ms",
   "memoryUsage": "46.36 MB",
   "difficulty": "Hard",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/longest-valid-parentheses/submissions/2150711053/",
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/",
   "submissionId": "x7ipc3"
 }
