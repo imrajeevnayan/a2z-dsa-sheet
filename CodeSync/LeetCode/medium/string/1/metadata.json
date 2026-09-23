@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-14T12:49:08.391Z",
+  "submissionTimestamp": "2026-09-23T06:48:24.116Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "String",
-    "Sliding Window"
+    "Stack",
+    "Greedy",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "Sliding Window",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "qs93dn"
+  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+  "submissionId": "uq504r"
 }
