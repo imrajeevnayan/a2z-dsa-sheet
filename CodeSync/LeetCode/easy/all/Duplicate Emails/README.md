@@ -1,13 +1,13 @@
 # Duplicate Emails
 
 - Platform: LeetCode
-- Language: Database
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 77 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/duplicate-emails/submissions/2099336102/
-- Synced: 2026-08-08T19:20:21.645Z
+- Problem URL: https://leetcode.com/problems/duplicate-emails/description/
+- Synced: 2026-09-22T12:02:27.269Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Table: Person +-------------+---------+ | Column Name | Type | +-------------+--
 
 ## Explanation
 
-This solution was accepted on LeetCode using Database. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
