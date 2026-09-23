@@ -1,13 +1,13 @@
 # Remove K Digits
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { public: void MakeMinimum(string &s, int &k, int check, vector<bool>& keep, int n, vector<vector<int>>&nxt) { if(k < 0 || check >= n)return; // c, c + 1, c + 2 -> min char mn = s[check]; int mni = check; for(int i = 0; i < mn - '0'; i++) { int j = nxt[check][i]; if(j <= check + k) { mni = j; break; } } // for(int i = check + 1; i <= check + k; i++) // { // if(i >= s.size())break; // if(s[i] < mn) // { // mn = s[i]; // mni = i; // } // } // cout<<"check "<<check<<" mni "<<mni<<endl; // cout<<"mni is "<<mni<<endl; k -= (mni - check); keep[mni] = true; // for(int i = check; i < mni; i++) // { // keep[i] = false; // } MakeMinimum(s, k, mni + 1, keep, n, nxt); } string removeKdig(string &s, int k) { // check first k + 1 digits // first digit is fixed -- repeat for the 2nd, 3rd and so on int check = 0, n = s.size(); vector<vector<int>>nxt(n, vector<int>(10, INT_MAX)); vector<int>cur(10, INT_MAX); for(int i = n - 1; i >= 0; i--) { cur[s[i] - '0'] = i; nxt[i] = cur; } vector<bool>keep(n, false); MakeMinimum(s, k, check, keep, n, nxt); // cout<<"k is "<<k<<endl; string res = ""; // for(auto it : keep)cout<<it<<" "; // cout<<endl; // cout<< for(int i = n - 1; i >= 0; i--) { if(k == 0)break; if(keep[i]) { k--; keep[i] = false; } } for(int i = 0; i < n; i++) { if(keep[i]) { if(res.size() == 0 && s[i] == '0')continue; res += s[i]; } } // cout<<endl; if(res.size() == 0)return "0"; return res; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Greedy
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/remove-k-digits/1
-- Synced: 2026-09-22T18:20:45.437Z
+- Synced: 2026-09-22T18:21:36.489Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a non-negative integer s represented as a string and an integer k, remove 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Greedy. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { public: void MakeMinimum(string &s, int &k, int check, vector<bool>& keep, int n, vector<vector<int>>&nxt) { if(k < 0 || check >= n)return; // c, c + 1, c + 2 -> min char mn = s[check]; int mni = check; for(int i = 0; i < mn - '0'; i++) { int j = nxt[check][i]; if(j <= check + k) { mni = j; break; } } // for(int i = check + 1; i <= check + k; i++) // { // if(i >= s.size())break; // if(s[i] < mn) // { // mn = s[i]; // mni = i; // } // } // cout<<"check "<<check<<" mni "<<mni<<endl; // cout<<"mni is "<<mni<<endl; k -= (mni - check); keep[mni] = true; // for(int i = check; i < mni; i++) // { // keep[i] = false; // } MakeMinimum(s, k, mni + 1, keep, n, nxt); } string removeKdig(string &s, int k) { // check first k + 1 digits // first digit is fixed -- repeat for the 2nd, 3rd and so on int check = 0, n = s.size(); vector<vector<int>>nxt(n, vector<int>(10, INT_MAX)); vector<int>cur(10, INT_MAX); for(int i = n - 1; i >= 0; i--) { cur[s[i] - '0'] = i; nxt[i] = cur; } vector<bool>keep(n, false); MakeMinimum(s, k, check, keep, n, nxt); // cout<<"k is "<<k<<endl; string res = ""; // for(auto it : keep)cout<<it<<" "; // cout<<endl; // cout<< for(int i = n - 1; i >= 0; i--) { if(k == 0)break; if(keep[i]) { k--; keep[i] = false; } } for(int i = 0; i < n; i++) { if(keep[i]) { if(res.size() == 0 && s[i] == '0')continue; res += s[i]; } } // cout<<endl; if(res.size() == 0)return "0"; return res; } };. The detected topics are Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Greedy. Review the synced source file for the implementation details.
