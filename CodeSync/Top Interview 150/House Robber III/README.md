@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: 0 ms
-- Memory: 46.44 MB
-- Problem URL: https://leetcode.com/problems/house-robber-iii/submissions/2150804342/
-- Synced: 2026-09-23T11:20:59.904Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/house-robber-iii/description/
+- Synced: 2026-09-23T11:21:58.665Z
 
 ## Problem Description
 
