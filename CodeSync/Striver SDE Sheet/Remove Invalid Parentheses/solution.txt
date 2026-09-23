@@ -5,13 +5,33 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-23T06:57:36.844Z
+ * Runtime: 0 ms
+ * Memory: 47.95 MB
+ * Synced: 2026-09-23T07:17:30.828Z
  */
 
-class Solution {
-    public List<String> removeInvalidParentheses(String s) {
+visited.add(s);
+        queue.add(s);
+        // Step 1: Start with original string
         
+        Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
+        Queue<String> queue = new LinkedList<>();
+
+        List<String> result = new ArrayList<>();
+        if (s == null) return result;
+    public List<String> removeInvalidParentheses(String s) {
     }
-}
+        return count == 0;
+        // At the end, count should be 0 for balanced parentheses
+        }
+            if (count < 0) return false;
+            // If count goes negative, it means extra ')' appeared
+            }
+                count--;
+            } else if (c == ')') {
+                count++;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+    private boolean isValid(String s) {
+        int count = 0;
+class Solution {
