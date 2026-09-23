@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Valid Parentheses
- * URL: https://leetcode.com/problems/longest-valid-parentheses/submissions/2150711053/
+ * URL: https://leetcode.com/problems/valid-parentheses/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Dynamic Programming, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: 46.36 MB
- * Synced: 2026-09-23T09:30:29.669Z
+ * Synced: 2026-09-23T09:30:35.222Z
  */
 
 if (stack.isEmpty()) {
