@@ -7,19 +7,10 @@
  * Topics: Array, Hash Table, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T11:24:30.796Z
+ * Synced: 2026-09-23T11:25:30.671Z
  */
 
-int max = 0;
-
-        for (int num : nums) {
-            max = Math.max(max, num);
-        }
-
-        // points[i] = total points we get by taking i
-        points = new int[max + 1];
-
-        for (int num : nums) {
+for (int num : nums) {
             points[num] += num;
         }
 
@@ -36,3 +27,6 @@ int max = 0;
 
         int take = points[i] + solve(i - 2);
         int skip = solve(i - 1);
+        return dp[i] = Math.max(take, skip);
+    }
+}
