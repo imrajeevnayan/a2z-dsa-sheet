@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Fibonacci Number
- * URL: https://leetcode.com/problems/fibonacci-number/
+ * URL: https://leetcode.com/problems/fibonacci-number/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-15T06:11:18.543Z
+ * Synced: 2026-09-23T10:29:49.836Z
  */
 
 class Solution {
