@@ -7,31 +7,27 @@
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: 0 ms
  * Memory: 47.95 MB
- * Synced: 2026-09-23T07:17:30.828Z
+ * Synced: 2026-09-23T07:20:45.840Z
  */
 
-visited.add(s);
-        queue.add(s);
-        // Step 1: Start with original string
-        
-        Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
-        Queue<String> queue = new LinkedList<>();
-
-        List<String> result = new ArrayList<>();
-        if (s == null) return result;
-    public List<String> removeInvalidParentheses(String s) {
-    }
-        return count == 0;
-        // At the end, count should be 0 for balanced parentheses
-        }
-            if (count < 0) return false;
-            // If count goes negative, it means extra ')' appeared
+if (found) continue;
+            
+            // Step 3: Generate next level strings by removing one bracket at a time
+            for (int i = 0; i < current.length(); i++) {
+                // Only consider removing '(' or ')'
+                if (current.charAt(i) != '(' && current.charAt(i) != ')') continue;
+                
+                // Remove character at index i
+                String nextStr = current.substring(0, i) + current.substring(i + 1);
+                
+                // If we haven't processed this string before, add to queue
+                if (!visited.contains(nextStr)) {
+                    queue.add(nextStr);
+                    visited.add(nextStr);
+                }
             }
-                count--;
-            } else if (c == ')') {
-                count++;
-        for (char c : s.toCharArray()) {
-            if (c == '(') {
-    private boolean isValid(String s) {
-        int count = 0;
-class Solution {
+        }
+        
+        return result;
+    }
+}
