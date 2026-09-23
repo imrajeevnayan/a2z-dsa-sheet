@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Medium
-- Topics: String, Stack, Greedy, Bracket Sequences
-- Runtime: 0 ms
+- Difficulty: Unknown
+- Topics: Uncategorized
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2150576612/
-- Synced: 2026-09-23T06:50:41.098Z
+- Problem URL: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
+- Synced: 2026-09-23T06:50:53.503Z
 
 ## Problem Description
 
-A parentheses string is valid if and only if: It is the empty string, It can be written as AB (A concatenated with B), where A and B are valid strings, or It can be written as (A), where A is a valid string. You are given a parentheses string s. In one move, you can insert a parenthesis at any position of the string. For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))". Return the minimum number of moves required to make s valid. Example 1: Input: s = "())" Output: 1 Example 2: Input: s = "(((" Output: 3 Constraints: 1 <= s.length <= 1000 s[i] is either '(' or ')'.
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Greedy, Bracket Sequences. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
