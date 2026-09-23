@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazon, Company Tags, Flipkart, Amazon, Topic Tags, Arrays, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T18:07:28.491Z
+ * Synced: 2026-09-22T18:08:16.497Z
  */
 
 import java.util.*;
