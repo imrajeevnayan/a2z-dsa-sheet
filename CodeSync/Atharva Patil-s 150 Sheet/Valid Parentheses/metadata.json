@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-06T17:56:09.731Z",
+  "submissionTimestamp": "2026-09-23T09:35:17.805Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.07 MB",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/",
-  "submissionId": "6763rn"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/submissions/2150718028/",
+  "submissionId": "dduu48"
 }
