@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Stack, Bracket Sequences
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parentheses/
-- Synced: 2026-09-23T09:33:30.727Z
+- Memory: 43.07 MB
+- Problem URL: https://leetcode.com/problems/valid-parentheses/submissions/2150718028/
+- Synced: 2026-09-23T09:34:30.671Z
 
 ## Problem Description
 
