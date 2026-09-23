@@ -1,16 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/duplicate-emails/description/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Database
+ * URL: https://leetcode.com/problems/find-x-value-of-array-ii/description/?envType=daily-question&envId=2026-09-22
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Segment Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T13:01:44.423Z
+ * Synced: 2026-09-22T16:05:12.998Z
  */
 
-SELECT email
-FROM Person
-GROUP BY email
-HAVING COUNT(email) > 1;
+class Solution {
+    public int[] resultArray(int[] nums, int k, int[][] queries) {
+        
+    }
+}
