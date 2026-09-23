@@ -1,33 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Invalid Parentheses
- * URL: https://leetcode.com/problems/remove-invalid-parentheses/
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: 0 ms
- * Memory: 47.95 MB
- * Synced: 2026-09-23T07:46:59.213Z
+ * Memory: N/A
+ * Synced: 2026-09-23T07:47:44.815Z
  */
 
-if (found) continue;
-            
-            // Step 3: Generate next level strings by removing one bracket at a time
-            for (int i = 0; i < current.length(); i++) {
-                // Only consider removing '(' or ')'
-                if (current.charAt(i) != '(' && current.charAt(i) != ')') continue;
-                
-                // Remove character at index i
-                String nextStr = current.substring(0, i) + current.substring(i + 1);
-                
-                // If we haven't processed this string before, add to queue
-                if (!visited.contains(nextStr)) {
-                    queue.add(nextStr);
-                    visited.add(nextStr);
-                }
-            }
-        }
+visited.add(s);
+        // Step 1: Start with original string
+        queue.add(s);
+        Queue<String> queue = new LinkedList<>();
         
-        return result;
+
+        Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
+        if (s == null) return result;
+        List<String> result = new ArrayList<>();
+    public List<String> removeInvalidParentheses(String s) {
     }
-}
+        return count == 0;
+        // At the end, count should be 0 for balanced parentheses
+        }
+            if (count < 0) return false;
+            // If count goes negative, it means extra ')' appeared
+            }
+            } else if (c == ')') {
+                count--;
+                count++;
+        int count = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+    private boolean isValid(String s) {
+class Solution {
