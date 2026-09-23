@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/tree-traversal_981269
-- Synced: 2026-09-22T16:39:31.877Z
+- Problem URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
+- Synced: 2026-09-22T16:52:15.044Z
 
 ## Problem Description
 
