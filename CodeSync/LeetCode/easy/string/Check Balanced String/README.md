@@ -1,13 +1,13 @@
 # Check Balanced String
 
 - Platform: LeetCode
-- Language: String
+- Language: Problem List
 - Difficulty: Easy
 - Topics: String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-08-06T20:35:34.271Z
+- Memory: 43.71 MB
+- Problem URL: https://leetcode.com/problems/check-balanced-string/submissions/2150750262/
+- Synced: 2026-09-23T10:08:32.962Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string num consisting of only digits. A string of digits is call
 
 ## Explanation
 
-This solution was accepted on LeetCode using String. The detected topics are String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String. Review the synced source file for the implementation details.
