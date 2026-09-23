@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Min Add to Make Parentheses Valid
+ * URL: https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T18:59:37.404Z
+ */
+
+class Solution {
+    public int minParentheses(String s) {
+        // code here
+        
+    }
+}
