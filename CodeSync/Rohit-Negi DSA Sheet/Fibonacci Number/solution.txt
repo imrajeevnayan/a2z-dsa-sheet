@@ -7,30 +7,24 @@
  * Topics: Math, Dynamic Programming, Recursion, Memoization
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-23T10:35:36.849Z
+ * Synced: 2026-09-23T10:36:21.927Z
  */
 
 class Solution {
-    public int fib(int n) {
-        // DP array of size n+1, initialize with -1
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-        
-        return helper(n, dp);
-    }
-    
     private int helper(int n, int[] dp) {
         // Base Case
         if (n <= 1) return n;
         
         // Step 1: Check if already calculated
-        if (dp[n] != -1) {
-            return dp[n];
-        }
-        
+        if (dp[n] != -1)  return dp[n];
+    
         // Step 2: Calculate and Store
         dp[n] = helper(n - 1, dp) + helper(n - 2, dp);
-        
         return dp[n];
+    }
+    public int fib(int n) {
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, -1);
+        return helper(n, dp);
     }
 }
