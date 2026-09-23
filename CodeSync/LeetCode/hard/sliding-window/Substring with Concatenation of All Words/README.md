@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
-- Synced: 2026-06-17T12:11:14.209Z
+- Synced: 2026-09-23T06:51:38.911Z
 
 ## Problem Description
 
