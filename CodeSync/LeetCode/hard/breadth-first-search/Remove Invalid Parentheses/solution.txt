@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Invalid Parentheses
- * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?utm=codolio
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:38:25.379Z
+ * Synced: 2026-09-23T06:52:33.831Z
  */
 
 class Solution {
