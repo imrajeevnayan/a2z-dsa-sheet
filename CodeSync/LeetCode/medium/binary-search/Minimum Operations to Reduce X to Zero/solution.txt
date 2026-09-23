@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: 101.98 MB
- * Synced: 2026-09-23T04:59:06.091Z
+ * Synced: 2026-09-23T04:59:51.941Z
  */
 
 int target = total - x;
