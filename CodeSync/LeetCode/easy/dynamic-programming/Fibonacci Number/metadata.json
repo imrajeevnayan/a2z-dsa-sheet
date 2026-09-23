@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-23T10:36:21.927Z",
+  "submissionTimestamp": "2026-09-23T10:37:09.684Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.17 MB",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Fibonacci Number",
-  "problemUrl": "https://leetcode.com/problems/fibonacci-number/",
+  "problemUrl": "https://leetcode.com/problems/fibonacci-number/submissions/2150775312/",
   "submissionId": "u4i803"
 }
