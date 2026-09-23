@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-23T11:20:59.904Z",
+  "submissionTimestamp": "2026-09-23T11:21:58.665Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.44 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Dynamic Programming",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "House Robber III",
-  "problemUrl": "https://leetcode.com/problems/house-robber-iii/submissions/2150804342/",
+  "problemUrl": "https://leetcode.com/problems/house-robber-iii/description/",
   "submissionId": "uzji4e"
 }
