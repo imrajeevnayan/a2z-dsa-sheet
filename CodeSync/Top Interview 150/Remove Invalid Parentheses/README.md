@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.95 MB
 - Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/
-- Synced: 2026-09-23T07:18:40.827Z
+- Synced: 2026-09-23T07:19:48.840Z
 
 ## Problem Description
 
