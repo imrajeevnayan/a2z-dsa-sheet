@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/submissions/2057667797/
+ * URL: https://leetcode.com/problems/check-balanced-string/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
  * Memory: 42.07 MB
- * Synced: 2026-09-23T10:07:02.790Z
+ * Synced: 2026-09-23T10:07:47.775Z
  */
 
 Input: n = 2
