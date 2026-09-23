@@ -7,12 +7,33 @@
  * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T18:21:36.489Z
+ * Synced: 2026-09-23T04:14:49.925Z
  */
 
 class Solution {
     public String removeKdig(String s, int k) {
-        // code here
-        
+
+        StringBuilder str = new StringBuilder(s);
+
+        while (k > 0) {
+
+            int i = 0;
+
+            // Pehla digit jo next digit se bada hai, usko remove karo
+            while (i < str.length() - 1 &&
+                   str.charAt(i) <= str.charAt(i + 1)) {
+                i++;
+            }
+
+            str.deleteCharAt(i);
+            k--;
+        }
+
+        // Leading zeros remove karo
+        while (str.length() > 1 && str.charAt(0) == '0') {
+            str.deleteCharAt(0);
+        }
+
+        return str.toString();
     }
 }
