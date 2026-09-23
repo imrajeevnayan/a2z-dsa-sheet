@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/delete-node-in-ll_5881
-- Synced: 2026-09-21T12:42:16.183Z
+- Problem URL: https://www.naukri.com/code360/problems/tree-traversal_981269
+- Synced: 2026-09-22T16:39:31.877Z
 
 ## Problem Description
 
