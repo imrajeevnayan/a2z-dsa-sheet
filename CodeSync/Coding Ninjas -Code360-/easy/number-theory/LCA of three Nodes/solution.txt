@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/check-prime_11302365
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: in Number Theory
+ * Runtime: 4498 ms
+ * Memory: N/A
+ * Synced: 2026-09-23T04:22:25.586Z
+ */
+
+public class Solution {
+    public static String isPrime(int num) {
+        if (num <= 1) {
+            return "NO";
+        }
+ 
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return "NO";
+            }
+        }
+ 
+        return "YES";
+    }
+}
