@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 44.87 MB
 - Problem URL: https://leetcode.com/problems/min-cost-climbing-stairs/
-- Synced: 2026-09-23T10:47:27.115Z
+- Synced: 2026-09-23T10:48:17.213Z
 
 ## Problem Description
 
