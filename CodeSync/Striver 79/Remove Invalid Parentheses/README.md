@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Topics: String, Backtracking, Breadth-First Search
 - Runtime: 0 ms
-- Memory: 47.95 MB
-- Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/
-- Synced: 2026-09-23T07:46:59.213Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/description/
+- Synced: 2026-09-23T07:47:44.815Z
 
 ## Problem Description
 
