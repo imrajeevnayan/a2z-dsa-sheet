@@ -6,8 +6,8 @@
 - Topics: Uncategorized
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
-- Synced: 2026-09-20T20:12:57.000Z
+- Problem URL: https://www.naukri.com/code360/problems/tree-traversal_981269
+- Synced: 2026-09-22T16:39:31.877Z
 
 ## Problem Description
 
