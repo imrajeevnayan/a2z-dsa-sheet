@@ -6,8 +6,8 @@
 - Topics: Array, Math, Segment Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-x-value-of-array-ii/?envType=daily-question&envId=2026-09-22
-- Synced: 2026-09-22T18:02:04.125Z
+- Problem URL: https://leetcode.com/problems/rotated-digits/?envType=daily-question&envId=2026-09-22
+- Synced: 2026-09-22T18:02:49.607Z
 
 ## Problem Description
 
