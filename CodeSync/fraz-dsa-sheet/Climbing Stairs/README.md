@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/climbing-stairs/
-- Synced: 2026-09-23T10:27:13.674Z
+- Synced: 2026-09-23T10:28:06.681Z
 
 ## Problem Description
 
