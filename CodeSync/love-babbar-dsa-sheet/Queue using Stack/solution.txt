@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Queue using Stack
+ * URL: https://www.geeksforgeeks.org/problems/queue-using-stack/1
+ * Language: class myQueue { public: queue<int> q; myQueue() { // Initialize your data members } void enqueue(int x) { // Implement enqueue operation q.push(x); } void dequeue() { // Implement dequeue operation if(!q.empty()){ q.pop(); } } int front() { // Implement front operation if(!q.empty()){ return q.front(); } return -1; } int size() { // Implement size operation return q.size(); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Stack, Queue, Design-Pattern
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T18:18:40.664Z
+ */
+
+class myQueue {
+    ArrayList<Integer> q = new ArrayList<>();
+
+    void enqueue(int x) {
+        q.add(x);
+    }
+    void dequeue() {
+        if (!q.isEmpty()) {
+            q.remove(0);
+        }
+    }
+    int front() {
+        if (!q.isEmpty()) {
+            return q.get(0);
+        }
+        return -1;
+    }
+
+    int size() {
+        return q.size();
+    }
+}
