@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2
+ * URL: https://leetcode.com/problems/find-x-value-of-array-ii/description/?envType=daily-question&envId=2026-09-22
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Segment Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T16:05:12.998Z
+ */
+
+class Solution {
+    public int[] resultArray(int[] nums, int k, int[][] queries) {
+        
+    }
+}
