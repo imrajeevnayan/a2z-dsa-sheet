@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Adobe, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T16:07:19.990Z
+ * Synced: 2026-09-22T16:08:05.864Z
  */
 
 class Solution {
@@ -17,9 +17,10 @@ class Solution {
         Deque<Integer> st = new ArrayDeque<>();
 
         for (int i = 0; i <= n; i++) {
-            while (!st.isEmpty() && arr[i]>arr[st.peek()] ) st.pop();
-        
-            if (!st.isEmpty())  result.set(i, st.peek());
+            while (!st.isEmpty() && arr[i]>arr[st.peek()] ) {
+                result.set()
+            }
+    
             st.push(arr[i]);
         }
         return result;
