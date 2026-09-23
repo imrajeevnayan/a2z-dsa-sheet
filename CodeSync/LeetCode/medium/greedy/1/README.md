@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum
+- Topics: String, Stack, Greedy, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
-- Synced: 2026-09-14T16:50:33.113Z
+- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+- Synced: 2026-09-23T06:48:24.116Z
 
 ## Problem Description
 
-The frequency of an element is the number of times it occurs in an array. You are given an integer array nums and an integer k. In one operation, you can choose an index of nums and increment the element at that index by 1. Return the maximum possible frequency of an element after performing at most k operations. Example 1: Input: nums = [1,2,4], k = 5 Output: 3 Explanation: Increment the first element three times and the second element two times to make nums = [4,4,4]. 4 has a frequency of 3. Example 2: Input: nums = [1,4,8,13], k = 5 Output: 2 Explanation: There are multiple optimal solutions: - Increment the first element three times to make nums = [4,4,8,13]. 4 has a frequency of 2. - Increment the second element four times to make nums = [1,8,8,13]. 8 has a frequency of 2. - Increment the third element five times to make nums = [1,4,13,13]. 13 has a frequency of 2. Example 3: Input: nums = [3,9,6], k = 2 Output: 1 Constraints: 1 <= nums.length <= 105 1 <= nums[i] <= 105 1 <= k <= 105
+A parentheses string is valid if and only if: It is the empty string, It can be written as AB (A concatenated with B), where A and B are valid strings, or It can be written as (A), where A is a valid string. You are given a parentheses string s. In one move, you can insert a parenthesis at any position of the string. For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))". Return the minimum number of moves required to make s valid. Example 1: Input: s = "())" Output: 1 Example 2: Input: s = "(((" Output: 3 Constraints: 1 <= s.length <= 1000 s[i] is either '(' or ')'.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Greedy, Bracket Sequences. Review the synced source file for the implementation details.
