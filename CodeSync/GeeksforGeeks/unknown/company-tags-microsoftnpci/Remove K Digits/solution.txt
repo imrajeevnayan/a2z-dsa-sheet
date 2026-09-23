@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T04:14:49.925Z
+ * Synced: 2026-09-23T06:14:26.497Z
  */
 
 class Solution {
