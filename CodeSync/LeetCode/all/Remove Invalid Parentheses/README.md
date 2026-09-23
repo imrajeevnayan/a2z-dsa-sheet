@@ -6,8 +6,8 @@
 - Topics: String, Backtracking, Breadth-First Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?utm=codolio
-- Synced: 2026-06-03T12:38:25.379Z
+- Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/
+- Synced: 2026-09-23T06:52:33.831Z
 
 ## Problem Description
 
