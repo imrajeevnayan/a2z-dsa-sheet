@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree
+- Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-iii/
-- Synced: 2026-07-21T13:48:55.441Z
+- Memory: 46.44 MB
+- Problem URL: https://leetcode.com/problems/house-robber-iii/submissions/2150804342/
+- Synced: 2026-09-23T11:13:46.681Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ The thief has found himself a new place for his thievery again. There is only on
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Dynamic Programming, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees. Review the synced source file for the implementation details.
