@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-21T08:53:37.561Z",
+  "submissionTimestamp": "2026-09-23T06:48:24.116Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Math",
-    "Dynamic Programming"
+    "String",
+    "Stack",
+    "Greedy",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "Daily Question",
+  "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/description/?envType=daily-question&envId=2026-09-21",
-  "submissionId": "14tqy6"
+  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+  "submissionId": "uq504r"
 }
