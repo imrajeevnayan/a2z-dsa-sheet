@@ -1,19 +1,17 @@
 {
-  "submissionTimestamp": "2026-09-14T16:50:33.113Z",
+  "submissionTimestamp": "2026-09-23T06:48:24.116Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Binary Search",
+    "String",
+    "Stack",
     "Greedy",
-    "Sliding Window",
-    "Sorting",
-    "Prefix Sum"
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/",
-  "submissionId": "e3etbv"
+  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+  "submissionId": "uq504r"
 }
