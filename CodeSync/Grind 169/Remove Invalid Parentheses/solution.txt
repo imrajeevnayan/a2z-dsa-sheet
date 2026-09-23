@@ -1,37 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Invalid Parentheses
- * URL: https://leetcode.com/problems/remove-invalid-parentheses/submissions/2150602603/
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: 0 ms
  * Memory: 47.95 MB
- * Synced: 2026-09-23T07:16:43.025Z
+ * Synced: 2026-09-23T07:17:30.828Z
  */
 
 visited.add(s);
         queue.add(s);
         // Step 1: Start with original string
         
-        Queue<String> queue = new LinkedList<>();
         Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
+        Queue<String> queue = new LinkedList<>();
 
-        if (s == null) return result;
         List<String> result = new ArrayList<>();
+        if (s == null) return result;
     public List<String> removeInvalidParentheses(String s) {
-                count++;
-            } else if (c == ')') {
-                count--;
-            }
-            // If count goes negative, it means extra ')' appeared
-            if (count < 0) return false;
-        }
-        // At the end, count should be 0 for balanced parentheses
-        return count == 0;
     }
-        
-        boolean found = false; // Flag to stop after finding minimum removals level
-        
-        while (!queue.isEmpty()) {
-            String current = queue.poll();
+        return count == 0;
+        // At the end, count should be 0 for balanced parentheses
+        }
+            if (count < 0) return false;
+            // If count goes negative, it means extra ')' appeared
+            }
+                count--;
+            } else if (c == ')') {
+                count++;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+    private boolean isValid(String s) {
+        int count = 0;
+class Solution {
