@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-08-21T05:29:25.571Z",
+  "submissionTimestamp": "2026-09-23T09:36:04.673Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.07 MB",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -9,8 +9,8 @@
     "Bracket Sequences"
   ],
   "platform": "LeetCode",
-  "language": "Top Interview 150",
+  "language": "Problem List",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150",
-  "submissionId": "dccnsc"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/submissions/2150718028/",
+  "submissionId": "dduu48"
 }
