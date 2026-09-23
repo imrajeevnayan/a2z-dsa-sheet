@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Duplicate Emails
- * URL: https://leetcode.com/problems/duplicate-emails/submissions/2099336102/
- * Language: Database
+ * URL: https://leetcode.com/problems/duplicate-emails/description/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 77 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T19:20:21.645Z
+ * Synced: 2026-09-22T12:02:27.269Z
  */
 
 SELECT email
