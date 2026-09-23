@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: String, Backtracking, Breadth-First Search
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 47.95 MB
 - Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/
-- Synced: 2026-09-23T06:56:39.872Z
+- Synced: 2026-09-23T07:17:30.828Z
 
 ## Problem Description
 
