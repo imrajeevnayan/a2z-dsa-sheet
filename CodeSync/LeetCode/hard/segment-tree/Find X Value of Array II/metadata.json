@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-22T13:00:50.308Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Math",
+    "Segment Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Find X Value of Array II",
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-ii/description/?envType=daily-question&envId=2026-09-22",
+  "submissionId": "fdnpsn"
+}
