@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-23T10:07:47.775Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.07 MB",
+  "submissionTimestamp": "2026-09-23T10:22:17.673Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Math",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Climbing Stairs",
-  "problemUrl": "https://leetcode.com/problems/check-balanced-string/",
-  "submissionId": "gp27za"
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/",
+  "submissionId": "weli0p"
 }
