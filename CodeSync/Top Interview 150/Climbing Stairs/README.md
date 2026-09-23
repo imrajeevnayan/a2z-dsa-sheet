@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Memoization
 - Runtime: 0 ms
 - Memory: 42.07 MB
-- Problem URL: https://leetcode.com/problems/climbing-stairs/submissions/2057667797/
-- Synced: 2026-09-23T10:07:02.790Z
+- Problem URL: https://leetcode.com/problems/check-balanced-string/
+- Synced: 2026-09-23T10:07:47.775Z
 
 ## Problem Description
 
