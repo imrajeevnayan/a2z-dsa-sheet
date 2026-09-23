@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 101.98 MB
 - Problem URL: https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/submissions/2150444835/?envType=daily-question&envId=2026-09-23
-- Synced: 2026-09-23T05:49:07.831Z
+- Synced: 2026-09-23T05:49:53.829Z
 
 ## Problem Description
 
