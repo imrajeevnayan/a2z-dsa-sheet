@@ -1,13 +1,13 @@
 # Easy Java Solution in O(n) :
 
 - Platform: GeeksforGeeks
-- Language: class Solution { public: int minParentheses(string& s) { int open = 0; int need = 0; for(int i = 0;i<s.size();i++){ if(s[i] == '(')open++; if(s[i] == ')')open--; if(open<0){ need++; open = 0; } } return need+open; } };
+- Language: class Solution { /** * Returns the minimum number of parentheses required * to make the given parentheses string balanced. * * Approach: * - Count unmatched opening parentheses using `openC`. * - When a closing parenthesis is encountered: * - If an unmatched opening parenthesis exists, match it. * - Otherwise, count it as an unmatched closing parenthesis. * - The total unmatched opening and closing parentheses * represent the minimum number of insertions required. * * Time Complexity: O(n) * Space Complexity: O(1) * * @param s String containing only '(' and ')' * @return Minimum number of parentheses needed to balance the string */ public int minParentheses(String s) { int openC = 0; int closeC = 0; for (char ch : s.toCharArray()) { if (ch == '(') { openC++; } else if (openC != 0) { openC--; } else { closeC++; } } return openC + closeC; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1
-- Synced: 2026-06-04T17:20:05.828Z
+- Synced: 2026-09-22T19:00:23.125Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string s consisting only of the characters '(' and ')'. Your tas
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution { public: int minParentheses(string& s) { int open = 0; int need = 0; for(int i = 0;i<s.size();i++){ if(s[i] == '(')open++; if(s[i] == ')')open--; if(open<0){ need++; open = 0; } } return need+open; } };. The detected topics are Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { /** * Returns the minimum number of parentheses required * to make the given parentheses string balanced. * * Approach: * - Count unmatched opening parentheses using `openC`. * - When a closing parenthesis is encountered: * - If an unmatched opening parenthesis exists, match it. * - Otherwise, count it as an unmatched closing parenthesis. * - The total unmatched opening and closing parentheses * represent the minimum number of insertions required. * * Time Complexity: O(n) * Space Complexity: O(1) * * @param s String containing only '(' and ')' * @return Minimum number of parentheses needed to balance the string */ public int minParentheses(String s) { int openC = 0; int closeC = 0; for (char ch : s.toCharArray()) { if (ch == '(') { openC++; } else if (openC != 0) { openC--; } else { closeC++; } } return openC + closeC; } }. The detected topics are Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM. Review the synced source file for the implementation details.
