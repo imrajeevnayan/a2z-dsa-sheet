@@ -4929,5 +4929,8 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:love-babbar-dsa-sheet",
     "custom:shradha-khapra-dsa-sheet"
+  ],
+  "geeksforgeeks:min-add-to-make-parentheses-valid": [
+    "GFG160"
   ]
 }
