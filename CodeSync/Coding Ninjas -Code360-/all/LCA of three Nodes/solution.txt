@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T17:01:49.919Z
+ * Synced: 2026-09-22T17:02:49.920Z
  */
 
 public class Solution {
