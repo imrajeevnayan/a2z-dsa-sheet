@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 42.09 MB
- * Synced: 2026-09-22T18:07:51.837Z
+ * Synced: 2026-09-22T18:09:07.840Z
  */
 
 int digit = num % 10;
