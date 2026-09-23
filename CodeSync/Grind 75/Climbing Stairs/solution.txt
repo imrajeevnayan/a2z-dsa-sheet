@@ -1,27 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/description/
+ * URL: https://leetcode.com/problems/climbing-stairs/submissions/2057667797/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-23T10:00:40.012Z
+ * Runtime: 0 ms
+ * Memory: 42.07 MB
+ * Synced: 2026-09-23T10:01:25.690Z
  */
 
-class Solution {
-    int[] dp;
-    private int solve(int n) {
-        if (n <= 1) return 1;
-        if (dp[n] != -1) return dp[n];
-        dp[n] = solve(n - 1) + solve(n - 2);
-        return dp[n];
-    }
-
-    public int climbStairs(int n) {
-        dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-        return solve(n);
-    }
-}
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
