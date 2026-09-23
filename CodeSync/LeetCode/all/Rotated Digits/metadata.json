@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-22T18:03:35.289Z",
+  "submissionTimestamp": "2026-09-22T18:04:25.022Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.09 MB",
   "difficulty": "Medium",
   "tags": [
     "Math",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Rotated Digits",
-  "problemUrl": "https://leetcode.com/problems/rotated-digits/?envType=daily-question&envId=2026-09-22",
-  "submissionId": "hglmc8"
+  "problemUrl": "https://leetcode.com/problems/rotated-digits/submissions/2150089657/?envType=daily-question&envId=2026-09-22",
+  "submissionId": "fyuwmb"
 }
