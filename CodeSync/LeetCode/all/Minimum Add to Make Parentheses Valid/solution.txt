@@ -4,22 +4,15 @@
  * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: String, Stack, Greedy
- * Runtime: 0 ms
- * Memory: 42.72 MB
- * Synced: 2026-06-04T17:24:55.160Z
+ * Topics: String, Stack, Greedy, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-23T06:49:09.601Z
  */
 
 class Solution {
     public int minAddToMakeValid(String s) {
-        int left=0,right=0;
-        for(char c:s.toCharArray()){
-            if(c=='(') left++;
-            else{
-        }
-        return left+right;
-                if(left >0) left--;
-            }
+        int openCount=0, closeCount=0;
     }
-                else right++;
+        for(char c:s)
 }
