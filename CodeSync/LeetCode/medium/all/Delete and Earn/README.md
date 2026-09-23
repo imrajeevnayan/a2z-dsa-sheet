@@ -1,13 +1,13 @@
 # Delete and Earn
 
 - Platform: LeetCode
-- Language: Dynamic Programming
+- Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-and-earn/?envType=problem-list-v2&envId=dynamic-programming
-- Synced: 2026-09-16T12:06:25.322Z
+- Problem URL: https://leetcode.com/problems/delete-and-earn/
+- Synced: 2026-09-23T11:24:30.796Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums. You want to maximize the number of points y
 
 ## Explanation
 
-This solution was accepted on LeetCode using Dynamic Programming. The detected topics are Array, Hash Table, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Dynamic Programming. Review the synced source file for the implementation details.
