@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: Sliding Window Problems (Copy-x1lbzfk3)Zj
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Uncategorized
-- Runtime: 54 ms
-- Memory: 70.42 MB
-- Problem URL: https://leetcode.com/problems/fruit-into-baskets/submissions/2044276962/?envType=problem-list-v2&envId=da2h7mkv
-- Synced: 2026-06-24T07:07:00.795Z
+- Topics: Database
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/duplicate-emails/description/
+- Synced: 2026-09-22T13:01:44.423Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Table: Person +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | email | varchar | +-------------+---------+ id is the primary key (column with unique values) for this table. Each row of this table contains an email. The emails will not contain uppercase letters. Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL. Return the result table in any order. The result format is in the following example. Example 1: Input: Person table: +----+---------+ | id | email | +----+---------+ | 1 | a@b.com | | 2 | c@d.com | | 3 | a@b.com | +----+---------+ Output: +---------+ | Email | +---------+ | a@b.com | +---------+ Explanation: a@b.com is repeated two times.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window Problems (Copy-x1lbzfk3)Zj. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
