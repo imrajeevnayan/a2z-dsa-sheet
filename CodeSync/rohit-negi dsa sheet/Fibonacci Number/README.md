@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Dynamic Programming, Recursion, Memoization
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 42.16 MB
 - Problem URL: https://leetcode.com/problems/fibonacci-number/description/
-- Synced: 2026-09-23T10:29:49.836Z
+- Synced: 2026-09-23T10:30:36.675Z
 
 ## Problem Description
 
