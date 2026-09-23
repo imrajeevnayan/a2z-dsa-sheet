@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: String, Stack, Greedy
-- Runtime: 0 ms
-- Memory: 42.72 MB
+- Topics: String, Stack, Greedy, Bracket Sequences
+- Runtime: N/A
+- Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-- Synced: 2026-06-04T17:24:55.160Z
+- Synced: 2026-09-23T06:49:09.601Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A parentheses string is valid if and only if: It is the empty string, It can be 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Greedy. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Greedy, Bracket Sequences. Review the synced source file for the implementation details.
