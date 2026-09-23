@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-08-21T08:15:22.393Z",
+  "submissionTimestamp": "2026-09-22T16:31:40.798Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -14,8 +14,8 @@
     "Stack"
   ],
   "platform": "GeeksforGeeks",
-  "language": "nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }",
+  "language": "class Solution { public: vector<int> nextSmallerEle(vector<int>& arr) { // code here vector<int> nse; int n=arr.size(); vector<int> res(n,-1); for(int i=n-1; i>=0; i--) { while(nse.size() && nse.back()>=arr[i]) nse.pop_back(); if(!nse.size()) res[i]=-1; else res[i]=nse.back(); nse.push_back(arr[i]); } return res; } };",
   "problemTitle": "Intuition",
   "problemUrl": "https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1",
-  "submissionId": "bu6mve"
+  "submissionId": "k7lhw1"
 }
