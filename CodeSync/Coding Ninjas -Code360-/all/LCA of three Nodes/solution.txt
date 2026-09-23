@@ -1,40 +1,27 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/check-prime_11302365
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: N/A
+ * Topics: in Number Theory
+ * Runtime: 4498 ms
  * Memory: N/A
- * Synced: 2026-09-22T17:54:19.835Z
+ * Synced: 2026-09-23T04:22:25.586Z
  */
 
 public class Solution {
-    public static int findMinimumCost(String str) {
-        if (str.length() % 2 != 0) return -1;
-        Stack<Character> st = new Stack<>();
-        for (char ch : str.toCharArray()) {
-            if (ch == '{')st.push(ch);
-            else {
-                if (!st.isEmpty() && st.peek() == '{') st.pop();
-                else {
-                    st.push(ch);
-                }
+    public static String isPrime(int num) {
+        if (num <= 1) {
+            return "NO";
+        }
+ 
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return "NO";
             }
         }
  
-        int open = 0;
-        int close = 0;
- 
-        while (!st.isEmpty()) {
-            if (st.pop() == '{') {
-                open++;
-            } else {
-                close++;
-            }
-        }
- 
-        return (open + 1) / 2 + (close + 1) / 2;
+        return "YES";
     }
-import java.util.*;
+}
