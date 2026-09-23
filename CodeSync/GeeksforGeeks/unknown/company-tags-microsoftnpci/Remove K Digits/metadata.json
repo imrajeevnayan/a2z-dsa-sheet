@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-22T18:20:45.437Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MicrosoftNPCI",
+    "Company Tags",
+    "Microsoft",
+    "NPCI",
+    "Topic Tags",
+    "Stack",
+    "Greedy"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Remove K Digits",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-k-digits/1",
+  "submissionId": "8qh24n"
+}
