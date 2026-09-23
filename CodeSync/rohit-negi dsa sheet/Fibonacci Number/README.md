@@ -6,8 +6,8 @@
 - Topics: Math, Dynamic Programming, Recursion, Memoization
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/fibonacci-number/
-- Synced: 2026-07-15T06:11:18.543Z
+- Problem URL: https://leetcode.com/problems/fibonacci-number/description/
+- Synced: 2026-09-23T10:29:49.836Z
 
 ## Problem Description
 
