@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Middle of Stack
+ * URL: https://www.geeksforgeeks.org/problems/middle-of-stack/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-22T18:18:49.561Z
+ */
+
+class Solution {
+    public int stackMiddle(Stack<Integer> st) {
+        // code here
+        
+    }
+}
