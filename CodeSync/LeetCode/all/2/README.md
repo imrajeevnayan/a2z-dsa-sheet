@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Unknown
-- Topics: Uncategorized
-- Runtime: 19 ms
-- Memory: 45.48 MB
-- Problem URL: https://leetcode.com/problems/3sum-closest/submissions/2148449099/
-- Synced: 2026-09-21T11:51:11.620Z
+- Difficulty: Easy
+- Topics: Database
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/duplicate-emails/description/
+- Synced: 2026-09-22T13:01:44.423Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Table: Person +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | email | varchar | +-------------+---------+ id is the primary key (column with unique values) for this table. Each row of this table contains an email. The emails will not contain uppercase letters. Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL. Return the result table in any order. The result format is in the following example. Example 1: Input: Person table: +----+---------+ | id | email | +----+---------+ | 1 | a@b.com | | 2 | c@d.com | | 3 | a@b.com | +----+---------+ Output: +---------+ | Email | +---------+ | a@b.com | +---------+ Explanation: a@b.com is repeated two times.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
