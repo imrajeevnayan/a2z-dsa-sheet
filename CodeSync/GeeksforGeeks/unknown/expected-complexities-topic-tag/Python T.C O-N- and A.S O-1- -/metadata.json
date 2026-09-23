@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T16:16:31.234Z",
+  "submissionTimestamp": "2026-09-22T18:19:35.313Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,12 +7,11 @@
     "Expected Complexities Topic Tags",
     "Expected Complexities",
     "Topic Tags",
-    "Stack",
-    "Data Structures"
+    "Stack"
   ],
   "platform": "GeeksforGeeks",
-  "language": "Java (21)",
+  "language": "class Solution { public: int stackMiddle(stack<int>& st) { // code here int n= st.size(); for(int i=0; i<n/2; i++){ st.pop(); } return st.top(); } };",
   "problemTitle": "Python: T.C: O(N) and A.S: O(1) -:",
   "problemUrl": "https://www.geeksforgeeks.org/problems/middle-of-stack/1",
-  "submissionId": "htdt09"
+  "submissionId": "snhz0u"
 }
