@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Valid Parentheses
+ * URL: https://leetcode.com/problems/longest-valid-parentheses/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: String, Dynamic Programming, Stack, Bracket Sequences
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-23T09:25:19.451Z
+ */
+
+if (c == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                
+                if (stack.isEmpty()) {
+                    stack.push(i);
+                } else {
+                    int currentLength = i - stack.peek();
+        
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+                    maxLength = Math.max(maxLength, currentLength);
+                }
+            }
+        }
+        
+        return maxLength;
+    }
+}
