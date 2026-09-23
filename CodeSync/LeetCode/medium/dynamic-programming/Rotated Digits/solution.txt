@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Rotated Digits
- * URL: https://leetcode.com/problems/rotated-digits/?envType=daily-question&envId=2026-09-22
+ * URL: https://leetcode.com/problems/rotated-digits/submissions/2150089657/?envType=daily-question&envId=2026-09-22
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Math, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-22T18:03:35.289Z
+ * Memory: 42.09 MB
+ * Synced: 2026-09-22T18:04:25.022Z
  */
 
 int digit = num % 10;
@@ -31,4 +31,7 @@ int digit = num % 10;
         }
         return count;
     }
-}
+        for (int i = 1; i <= n; i++) {
+        int count = 0;
+    public int rotatedDigits(int n) {
+class Solution {
