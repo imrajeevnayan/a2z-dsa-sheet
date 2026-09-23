@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-08-08T19:20:21.645Z",
-  "runtime": "77 ms",
+  "submissionTimestamp": "2026-09-22T12:02:27.269Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Database"
   ],
   "platform": "LeetCode",
-  "language": "Database",
+  "language": "Problem List",
   "problemTitle": "Duplicate Emails",
-  "problemUrl": "https://leetcode.com/problems/duplicate-emails/submissions/2099336102/",
-  "submissionId": "42w5zc"
+  "problemUrl": "https://leetcode.com/problems/duplicate-emails/description/",
+  "submissionId": "tzq864"
 }
