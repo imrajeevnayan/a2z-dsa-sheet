@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/
+ * URL: https://leetcode.com/problems/house-robber/submissions/2150780384/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-23T10:41:49.860Z
+ * Runtime: 0 ms
+ * Memory: 42.95 MB
+ * Synced: 2026-09-23T10:42:53.646Z
  */
 
-// Memoization Step: Agar pehle se calculate hai, toh direct return karo
-        if (dp[i] != -1) return dp[i];
-        
-        // Choice 1: Current house loot lo, aur agle adjacent ko skip karke i+2 pe jao
+// Choice 1: Current house loot lo, aur agle adjacent ko skip karke i+2 pe jao
         int take = nums[i] + amount(nums, i + 2, dp);
         
         // Choice 2: Current house skip karo, aur seedha next house i+1 pe jao
@@ -27,10 +24,11 @@
         // Edge case handle karna acchi practice hai
         if (nums == null || nums.length == 0) return 0;
         
-        
-        // Base Case: Agar index array se bahar chala gaya, toh 0 return karo
-        if (i >= nums.length) return 0;
-    public int amount(int[] nums, int i, int[] dp) {
-class Solution {
         int[] dp = new int[nums.length];
         Arrays.fill(dp, -1);
+        
+        if (dp[i] != -1) return dp[i];
+        // Start from index 0
+        return amount(nums, 0, dp);
+    }
+}
