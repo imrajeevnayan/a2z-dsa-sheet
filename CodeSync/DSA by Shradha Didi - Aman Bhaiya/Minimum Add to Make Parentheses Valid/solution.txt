@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Add to Make Parentheses Valid
- * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: 0 ms
- * Memory: 42.71 MB
- * Synced: 2026-09-24T10:25:32.761Z
+ * Memory: N/A
+ * Synced: 2026-09-24T10:28:28.016Z
  */
 
 class Solution {
