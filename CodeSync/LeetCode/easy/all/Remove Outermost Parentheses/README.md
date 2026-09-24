@@ -6,8 +6,8 @@
 - Topics: String, Stack, Bracket Sequences
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/
-- Synced: 2026-09-24T11:49:42.054Z
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/description/
+- Synced: 2026-09-24T11:50:30.755Z
 
 ## Problem Description
 
