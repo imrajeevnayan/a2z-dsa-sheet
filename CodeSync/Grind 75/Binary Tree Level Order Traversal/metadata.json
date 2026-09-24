@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-24T17:28:54.664Z",
+  "submissionTimestamp": "2026-09-24T17:29:40.091Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Tree Level Order Traversal",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/",
-  "submissionId": "c83gjs"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "submissionId": "uvyndd"
 }
