@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1
-- Synced: 2026-09-24T10:36:17.395Z
+- Synced: 2026-09-24T10:37:07.394Z
 
 ## Problem Description
 
