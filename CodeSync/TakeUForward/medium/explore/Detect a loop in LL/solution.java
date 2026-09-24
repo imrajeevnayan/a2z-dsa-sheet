@@ -7,17 +7,16 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:01:14.977Z
+ * Synced: 2026-09-24T20:01:16.356Z
  */
 
-ListNode(int data1) {
-        val = data1;
-        next = null;
-    }
-
-    ListNode(int data1, ListNode next1) {
-        val = data1;
-        next = next1;
+next = next1;
     }
 }
  */
+
+class Solution {
+    public boolean hasCycle(ListNode head) {
+
+    }
+}
