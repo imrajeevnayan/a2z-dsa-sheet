@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Microsoft, Samsung, FactSet, SAP Labs, Codenation, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:15:51.661Z
+ * Synced: 2026-09-24T09:16:40.242Z
  */
 
 /* Structure of linked list Node
