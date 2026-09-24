@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Good Meals
+ * URL: https://leetcode.com/problems/count-good-meals/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T05:54:48.396Z
+ */
+
+class Solution {
+    public int countPairs(int[] deliciousness) {
+        
+    }
+}
