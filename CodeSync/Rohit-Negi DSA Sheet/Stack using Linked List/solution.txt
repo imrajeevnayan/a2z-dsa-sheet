@@ -1,0 +1,50 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Stack using Linked List
+ * URL: https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Microsoft, Samsung, FactSet, SAP Labs, Codenation, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T09:07:33.917Z
+ */
+
+/* Structure of linked list Node
+class Node {
+    int data;
+    Node next;
+
+    Node(int val) {
+        data = val;
+        next = null;
+    }
+}*/
+
+class myStack {
+
+    public myStack() {
+        // Initialize your data members
+    }
+
+    public boolean isEmpty() {
+        // check if the stack is empty
+    }
+
+    public void push(int x) {
+        // Adds an element x at the rear of the stack.
+    }
+
+    public void pop() {
+        // Removes the front element of the stack.
+    }
+
+    public int peek() {
+        // Returns the front element of the stack.
+        // If stack is empty, return -1.
+    }
+
+    public int size() {
+        // Returns the current size of the stack.
+    }
+}
