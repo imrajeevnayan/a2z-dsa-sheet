@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1
-- Synced: 2026-09-23T15:58:30.736Z
+- Synced: 2026-09-23T15:59:18.728Z
 
 ## Problem Description
 
