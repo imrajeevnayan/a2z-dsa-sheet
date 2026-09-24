@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Stack, Related Articles, Make The Array Beautiful 1
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:36:10.143Z
+ * Synced: 2026-09-24T09:36:59.473Z
  */
 
 class Solution {
@@ -26,7 +26,6 @@ class Solution {
                 st.push(arr[i]);
             }
         }
-
         return new ArrayList<>(st);
     }
 }
