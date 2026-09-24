@@ -7,7 +7,7 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: 43.76 MB
- * Synced: 2026-09-24T12:34:41.754Z
+ * Synced: 2026-09-24T12:35:49.749Z
  */
 
 class Solution {
