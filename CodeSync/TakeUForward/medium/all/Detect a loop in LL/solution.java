@@ -7,16 +7,17 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:01.377Z
+ * Synced: 2026-09-24T20:02:03.573Z
  */
 
-next = next1;
-    }
-}
- */
+// Agar dono mil gaye to cycle hai
+            if (slow == fast) {
+                return true;
+            }
+        }
 
-class Solution {
-    public boolean hasCycle(ListNode head) {
-
+        // Fast null tak pahunch gaya
+        // Matlab cycle nahi hai
+        return false;
     }
 }
