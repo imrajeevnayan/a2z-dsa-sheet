@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.42 MB
 - Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2151939220/
-- Synced: 2026-09-24T12:25:29.768Z
+- Synced: 2026-09-24T12:26:26.747Z
 
 ## Problem Description
 
