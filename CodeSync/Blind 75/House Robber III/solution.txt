@@ -1,36 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber III
- * URL: https://leetcode.com/problems/house-robber-iii/description/
+ * URL: https://leetcode.com/problems/house-robber-iii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T11:23:58.692Z
+ * Synced: 2026-09-23T12:11:19.519Z
  */
 
-private int[] helper(TreeNode node) {
+class Solution {
+    int solve(int i, int[] nums, int end, int[] dp) {
+        if (i > end) return 0;
+        if (dp[i] != -1) return dp[i];
+        int take = nums[i] + solve(i + 2, nums, end, dp);
+        int skip = solve(i + 1, nums, end, dp);
+        return dp[i] = Math.max(take, skip);
     }
-        return Math.max(result[0], result[1]);
-        // Base Case: Agar node null hai, toh rob=0, skip=0
-        if (node == null) return new int[]{0, 0};
-        
-        // Left subtree se values lao
-        int[] left = helper(node.left);
-        // Right subtree se values lao
-        int[] right = helper(node.right);
-        
-        // Choice 1: Current node ko ROB karo
-        // Toh left aur right child ko SKIP karna padega (left[1], right[1])
-        int robCurrent = node.val + left[1] + right[1];
-        
-        // Choice 2: Current node ko SKIP karo
-        // Toh left aur right child ko ROB ya SKIP kar sakte ho (jo max ho)
+    public int rob(int[] nums) {
+        int n = nums.length;
+        if (n == 1) return nums[0];
+        int[] dp = new int[n];
+        Arrays.fill(dp, -1);
+        int case1 = solve(0, nums, n - 2, dp);
 
-        int skipCurrent = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
-        
-        // Return karo: [robCurrent, skipCurrent]
-        return new int[]{robCurrent, skipCurrent};
+        Arrays.fill(dp, -1); //reset
+        int case2 = solve(1, nums, n - 1, dp);
+        return Math.max(case1, case2);
     }
 }
