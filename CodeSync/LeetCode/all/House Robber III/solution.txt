@@ -5,27 +5,13 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T12:22:40.511Z
+ * Synced: 2026-09-23T15:26:59.909Z
  */
 
-// RECURSION: Pehle left aur right subtree se unke results le aao
-        // Yeh "Bottom-Up" approach hai (Pehle neeche jaao, phir upar aakar calculate karo)
-        int[] left = helper(node.left);   // Left child ka [Take, Skip]
-        int[] right = helper(node.right); // Right child ka [Take, Skip]
+class Solution {
+    public int rob(TreeNode root) {
         
-        // CHOICE 1: CURRENT NODE KO TAKE KARO
-        // Agar current node liya, toh children ko SKIP karna padega.
-        // Isliye hum left[1] (Left Skip) aur right[1] (Right Skip) use karenge.
-        int take = node.val + left[1] + right[1];
-        
-        // CHOICE 2: CURRENT NODE KO SKIP KARO
-        // Agar current node chhod diya, toh children ke saath kuch bhi kar sakte ho.
-        // Hum dono children mein se jo best option de (Max of Take/Skip), wo lenge.
-        int skip = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
-        
-        // Result array mein store karo: Index 0 = Take, Index 1 = Skip
-        return new int[]{take, skip};
     }
 }
