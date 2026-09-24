@@ -7,7 +7,7 @@
 - Runtime: 2.129 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/3-sum
-- Synced: 2026-09-24T19:22:17.908Z
+- Synced: 2026-09-24T19:23:17.840Z
 
 ## Problem Description
 
