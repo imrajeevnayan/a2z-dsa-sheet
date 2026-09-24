@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T11:41:28.759Z
+ * Synced: 2026-09-24T11:42:38.762Z
  */
 
 Deque<Integer> stack = new ArrayDeque<>();
