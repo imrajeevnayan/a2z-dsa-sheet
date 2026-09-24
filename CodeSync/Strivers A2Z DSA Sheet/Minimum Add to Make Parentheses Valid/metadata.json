@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-24T10:24:27.769Z",
+  "submissionTimestamp": "2026-09-24T10:25:32.761Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.71 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Add to Make Parentheses Valid",
-  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
   "submissionId": "t6nfjb"
 }
