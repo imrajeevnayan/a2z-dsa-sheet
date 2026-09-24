@@ -7,11 +7,10 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:18.780Z
+ * Synced: 2026-09-24T20:02:21.632Z
  */
 
 // Slow 1 step
-
         while (fast != null && fast.next != null) {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head,fast = head;
@@ -20,3 +19,5 @@ class Solution {
 
             // Fast 2 steps
             fast = fast.next.next;
+
+            // Agar dono mil gaye to cycle hai
