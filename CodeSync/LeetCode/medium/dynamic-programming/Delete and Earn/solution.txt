@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 47.21 MB
- * Synced: 2026-09-23T11:33:26.669Z
+ * Synced: 2026-09-23T11:34:13.669Z
  */
 
 private int solve(int idx) {
