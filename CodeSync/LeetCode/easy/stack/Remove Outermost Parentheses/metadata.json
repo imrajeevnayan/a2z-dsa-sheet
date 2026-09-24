@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-24T16:47:44.605Z",
+  "submissionTimestamp": "2026-09-24T16:48:35.574Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Outermost Parentheses",
-  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/description/",
+  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/",
   "submissionId": "2mcc03"
 }
