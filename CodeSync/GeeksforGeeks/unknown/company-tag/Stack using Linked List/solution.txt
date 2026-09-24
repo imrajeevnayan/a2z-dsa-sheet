@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Microsoft, Samsung, FactSet, SAP Labs, Codenation, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:14:13.517Z
+ * Synced: 2026-09-24T09:15:51.661Z
  */
 
 /* Structure of linked list Node
@@ -15,36 +15,41 @@ class Node {
     int data;
     Node next;
 
-    Node(int val) {
-        data = val;
+    Node(int new_data) {
+        data = new_data;
         next = null;
     }
-}*/
+}
+*/
 
+// Stack class
 class myStack {
+    private Node head;
+    private int count;
 
     public myStack() {
         // Initialize your data members
+        this.head = null;
+        this.count = 0;
     }
 
     public boolean isEmpty() {
         // check if the stack is empty
+        return head == null;
     }
 
     public void push(int x) {
-        // Adds an element x at the rear of the stack.
+        // Adds an element x at the rear of the stack (Top).
+        Node newNode = new Node(x);
+        newNode.next = head;
+        head = newNode;
+        count++;
     }
 
     public void pop() {
-        // Removes the front element of the stack.
-    }
-
-    public int peek() {
-        // Returns the front element of the stack.
-        // If stack is empty, return -1.
-    }
-
-    public int size() {
-        // Returns the current size of the stack.
-    }
-}
+        // Removes the front element of the stack (Top).
+        if (isEmpty()) {
+            return;
+        }
+        head = head.next;
+        count--;
