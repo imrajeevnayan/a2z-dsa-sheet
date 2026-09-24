@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/description/
-- Synced: 2026-09-24T12:42:39.752Z
+- Synced: 2026-09-24T12:43:26.752Z
 
 ## Problem Description
 
