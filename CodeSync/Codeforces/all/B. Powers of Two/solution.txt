@@ -1,0 +1,13 @@
+/*
+ * Platform: Codeforces
+ * Problem: B. Powers of Two
+ * URL: https://codeforces.com/problemset/problem/702/B
+ * Language: Java 21 64bit
+ * Difficulty: Medium
+ * Topics: brute force, data structures, implementation, math, *1500
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T05:11:03.651Z
+ */
+
+47 3 2 1
