@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-23T11:28:14.668Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-23T11:29:37.119Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Delete and Earn",
   "problemUrl": "https://leetcode.com/problems/delete-and-earn/",
-  "submissionId": "y05nei"
+  "submissionId": "eihjm1"
 }
