@@ -7,11 +7,27 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T16:46:15.972Z
+ * Synced: 2026-09-24T16:47:01.569Z
  */
 
-Input: s = "(()())(())"
-Output: "()()()"
-Explanation: 
-The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
-After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
+class Solution {
+    public String removeOuterParentheses(String s) {
+        StringBuilder result = new StringBuilder();
+        int depth = 0;
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
+                if (depth > 0) {
+                    result.append(ch);
+                }
+                depth++;
+            }
+            else {
+                depth--;
+                if (depth > 0) {
+                    result.append(ch);
+                }
+            }
+        }
+        return result.toString();
+    }
+}
