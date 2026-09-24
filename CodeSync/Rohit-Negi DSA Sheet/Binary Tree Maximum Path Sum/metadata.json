@@ -1,14 +1,10 @@
 {
-  "submissionTimestamp": "2026-09-23T12:31:02.544Z",
+  "submissionTimestamp": "2026-09-23T18:05:21.838Z",
   "runtime": "0 ms",
   "memoryUsage": "46.38 MB",
-  "difficulty": "Hard",
+  "difficulty": "Unknown",
   "tags": [
-    "Dynamic Programming",
-    "Tree",
-    "Depth-First Search",
-    "Binary Tree",
-    "DP on Trees"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
