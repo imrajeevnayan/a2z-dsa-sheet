@@ -6,8 +6,8 @@
 - Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-iii/description/
-- Synced: 2026-09-23T15:23:05.917Z
+- Problem URL: https://leetcode.com/problems/house-robber-iii/
+- Synced: 2026-09-23T15:24:52.912Z
 
 ## Problem Description
 
