@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-24T05:11:03.651Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "brute force",
+    "data structures",
+    "implementation",
+    "math",
+    "*1500"
+  ],
+  "platform": "Codeforces",
+  "language": "Java 21 64bit",
+  "problemTitle": "B. Powers of Two",
+  "problemUrl": "https://codeforces.com/problemset/problem/702/B",
+  "submissionId": "f3cbml"
+}
