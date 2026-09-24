@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 46.38 MB
- * Synced: 2026-09-23T18:05:21.838Z
+ * Synced: 2026-09-23T18:06:52.411Z
  */
 
-class Solution {
-    int maxSum = Integer.MIN_VALUE;
+int maxSum = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         dfs(root);
         return maxSum;
@@ -32,3 +31,4 @@ class Solution {
         return node.val + Math.max(leftGain, rightGain);
     }
 }
+class Solution {
