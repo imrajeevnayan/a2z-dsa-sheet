@@ -1,13 +1,13 @@
 # Count Ways with 3, 5 and 10
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Geeks { public int count(int n) { int[] dp = new int[n + 1]; dp[0] = 1; int[] scores = {3, 5, 10}; for (int s : scores) { for (int i = s; i <= n; i++) { dp[i] += dp[i - s]; } } return dp[n]; } }
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Count Number Ways Reach Given Score Game
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1
-- Synced: 2026-09-23T16:02:53.142Z
+- Synced: 2026-09-23T16:03:52.922Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Consider a game where a player can score 3 or 5 or 10 points in a move. Given a 
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Count Number Ways Reach Given Score Game. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Geeks { public int count(int n) { int[] dp = new int[n + 1]; dp[0] = 1; int[] scores = {3, 5, 10}; for (int s : scores) { for (int i = s; i <= n; i++) { dp[i] += dp[i - s]; } } return dp[n]; } }. The detected topics are Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Count Number Ways Reach Given Score Game. Review the synced source file for the implementation details.
