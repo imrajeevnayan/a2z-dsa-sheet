@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-24T04:33:32.900Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "greedy",
+    "strings"
+  ],
+  "platform": "Codeforces",
+  "language": "Java 21 64bit",
+  "problemTitle": "C. AND, OR, Sort!",
+  "problemUrl": "https://codeforces.com/problemset/problem/2266/C",
+  "submissionId": "8vkcrs"
+}
