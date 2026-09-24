@@ -2,12 +2,12 @@
 
 - Platform: Codeforces
 - Language: Java 21 64bit
-- Difficulty: Easy
+- Difficulty: Unknown
 - Topics: divide and conquer, implementation, strings
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://codeforces.com/problemset/problem/2249/E1
-- Synced: 2026-09-24T04:07:25.291Z
+- Synced: 2026-09-24T04:08:28.453Z
 
 ## Problem Description
 
