@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/make-the-array-beautiful--170647/1
-- Synced: 2026-09-24T10:12:50.880Z
+- Synced: 2026-09-24T10:23:27.179Z
 
 ## Problem Description
 
