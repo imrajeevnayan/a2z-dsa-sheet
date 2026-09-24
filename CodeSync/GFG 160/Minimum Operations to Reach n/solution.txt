@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum Operations to Reach n
+ * URL: https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Greedy, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-23T15:45:43.372Z
+ */
+
+class Solution {
+    public int minOperation(int n) {
+        // code here.
+    }
+}
