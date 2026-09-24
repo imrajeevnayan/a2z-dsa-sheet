@@ -1,35 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Remove to Make Valid Parentheses
- * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+ * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2151939220/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-24T11:52:02.773Z
+ * Runtime: 0 ms
+ * Memory: 47.42 MB
+ * Synced: 2026-09-24T11:53:22.761Z
  */
 
-class Solution {
-    public String minRemoveToMakeValid(String s) {
-         Deque<Integer> stack = new ArrayDeque<>();
-       Set<Integer> removeIndices = new HashSet<>();
-    
-    for (int i = 0; i < s.length(); i++) {
-        if (s.charAt(i) == '(') {
-            stack.push(i);
-        } else if (s.charAt(i) == ')') {
-            if (stack.isEmpty()) removeIndices.add(i); // unmatched )
-            else stack.pop();
+if (!st.isEmpty()) st.pop();
+                else  set.add(i);
+
+            }
         }
-    }
-    // Remaining ( in stack are unmatched
-    while (!stack.isEmpty()) removeIndices.add(stack.pop());
-    
-    StringBuilder sb = new StringBuilder();
-    for (int i = 0; i < s.length(); i++) {
-        if (!removeIndices.contains(i)) sb.append(s.charAt(i));
-    }
-    return sb.toString();
-    }
-}
+
+        // Unmatched '('
+        while (!st.isEmpty()) {
+            set.add(st.pop());
+        }
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < s.length(); i++) {
+            else if (ch == ')') {
+        
+
+            if (ch == '(')  st.push(i);
+            char ch = s.charAt(i);
+
+        for (int i = 0; i < s.length(); i++) {
+        Set<Integer> set = new HashSet<>();
+        Stack<Integer> st = new Stack<>();
+
+    public String minRemoveToMakeValid(String s) {
+class Solution {
