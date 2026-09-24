@@ -1,13 +1,13 @@
 # Make Array Beautiful
 
 - Platform: GeeksforGeeks
-- Language: from typing import List class Solution: def makeBeautiful(self, arr: List[int]) -> List[int]: # code here stack = [] i = 0 while(i<len(arr)): if(len(stack)>0 and ((stack[-1]>=0 and arr[i]<0) or (stack[-1]<0 and arr[i]>=0))): stack.pop(-1) else: stack.append(arr[i]) i+=1 return stack
+- Language: Java (21)
 - Difficulty: Unknown
 - Topics: Expected Complexities, Topic Tags, Arrays, Stack, Related Articles, Make The Array Beautiful 1
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/make-the-array-beautiful--170647/1
-- Synced: 2026-09-24T10:23:27.179Z
+- Synced: 2026-09-24T11:02:36.346Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an array of negative and non-negative integers. You need to make the array
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using from typing import List class Solution: def makeBeautiful(self, arr: List[int]) -> List[int]: # code here stack = [] i = 0 while(i<len(arr)): if(len(stack)>0 and ((stack[-1]>=0 and arr[i]<0) or (stack[-1]<0 and arr[i]>=0))): stack.pop(-1) else: stack.append(arr[i]) i+=1 return stack. The detected topics are Expected Complexities, Topic Tags, Arrays, Stack, Related Articles, Make The Array Beautiful 1. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Topic Tags, Arrays, Stack, Related Articles, Make The Array Beautiful 1. Review the synced source file for the implementation details.
