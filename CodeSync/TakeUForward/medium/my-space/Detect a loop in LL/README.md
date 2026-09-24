@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/detect-a-loop-in-ll
-- Synced: 2026-09-24T20:01:13.970Z
+- Synced: 2026-09-24T20:01:14.977Z
 
 ## Problem Description
 
