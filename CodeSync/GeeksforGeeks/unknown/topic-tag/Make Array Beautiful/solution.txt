@@ -2,12 +2,12 @@
  * Platform: GeeksforGeeks
  * Problem: Make Array Beautiful
  * URL: https://www.geeksforgeeks.org/problems/make-the-array-beautiful--170647/1
- * Language: Java (21)
+ * Language: from typing import List class Solution: def makeBeautiful(self, arr: List[int]) -> List[int]: # code here stack = [] i = 0 while(i<len(arr)): if(len(stack)>0 and ((stack[-1]>=0 and arr[i]<0) or (stack[-1]<0 and arr[i]>=0))): stack.pop(-1) else: stack.append(arr[i]) i+=1 return stack
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Arrays, Stack, Related Articles, Make The Array Beautiful 1
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:32:42.906Z
+ * Synced: 2026-09-24T09:33:41.169Z
  */
 
 class Solution {
