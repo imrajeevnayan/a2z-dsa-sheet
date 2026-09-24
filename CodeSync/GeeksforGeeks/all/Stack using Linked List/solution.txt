@@ -7,10 +7,15 @@
  * Topics: Expected Complexities, Company Tags, Microsoft, Samsung, FactSet, SAP Labs, Codenation, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:20:28.358Z
+ * Synced: 2026-09-24T09:21:16.461Z
  */
 
-public myStack() {
+// Stack class
+class myStack {
+    private Node head; // Head acts as the Top of the stack
+    private int count; // To track size in O(1)
+
+    public myStack() {
         // Initialize your data members
         this.head = null;
         this.count = 0;
@@ -46,9 +51,3 @@ public myStack() {
         }
         return head.data;
     }
-
-    public int size() {
-        // Returns the current size of the stack.
-        return count;
-    }
-}
