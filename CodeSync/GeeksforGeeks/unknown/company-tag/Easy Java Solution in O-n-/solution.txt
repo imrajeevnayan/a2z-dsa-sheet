@@ -7,13 +7,18 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T10:36:17.395Z
+ * Synced: 2026-09-24T10:37:07.394Z
  */
 
 class Solution {
     public int minParentheses(String s) {
         int count=0;
         Stack<Character>st=new Stack<>();
-        for(char c:)
+        for(char c:s.toCharArray()){
+            if(c=='(')st.push(c);
+            else{
+                if()
+            }
+        }
     }
 }
