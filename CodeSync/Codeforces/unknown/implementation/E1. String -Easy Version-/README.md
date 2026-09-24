@@ -1,0 +1,18 @@
+# E1. String (Easy Version)
+
+- Platform: Codeforces
+- Language: Java 21 64bit
+- Difficulty: Unknown
+- Topics: divide and conquer, implementation, strings
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://codeforces.com/problemset/problem/2249/E1
+- Synced: 2026-09-24T04:08:28.453Z
+
+## Problem Description
+
+E1. String (Easy Version)time limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard output This is the easy version of the problem. The difference between the versions is that in this version, the constraints on kkk and qqq are smaller. You can hack only if you solved all versions of this problem.Define popcountk(m)popcountk(m)\mathrm{popcount}_k(m) as the sum of all digits of mmm in base kkk.Define a base-kkk integer s=s1s2⋯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯s=s1s2⋯¯s=\overline{s_1s_2\cdots} of infinite length, where the iii-th digit of sss is si=(popcountk(i)modk)si=(popcountk(i)modk)s_i=(\mathrm{popcount}_k(i) \bmod k).There are qqq queries. Each query consists of three integers lll, rrr, and nnn (all of them are given in decimal form), as well as a base-kkk integer ttt with nnn digits. Note that ttt may have leading zeros. Consider ttt as a string, and your task is to find the number of occurrences of ttt in the string slsl+1…srslsl+1…srs_ls_{l+1}\ldots s_r.For digits greater than or equal to decimal 1010\mathtt{10}, uppercase and lowercase letters are used. Specifically, the uppercase letters {A,B,…,Z}{A,B,…,Z}\{\mathtt{A, B,\ldots,Z}\} represent the decimal values {10,11,…,35}{10,11,…,35}\{\mathtt{10, 11,\ldots,35}\}, and the lowercase letters {a,b,…,z}{a,b,…,z}\{\mathtt{a, b,\ldots,z}\} represent the decimal values {36,37,…,61}{36,37,…,61}\{\mathtt{36, 37,\ldots,61}\}.InputThe first line of the input contains two integers kkk and qqq (2≤k≤102≤k≤102\le k\le 10, 1≤q≤10001≤q≤10001\le q\le 1000) — the base and the number of queries.Each query contains two lines. The first line contains the three integers lll, rrr, and nnn (1≤l≤r≤10171≤l≤r≤10171\le l\le r\le 10^{17}, 1≤n≤2⋅1061≤n≤2⋅1061\le n\le 2\cdot 10^6).The second line contains the base-kkk integer ttt with nnn digits (ti∈{0,1,…,9,A,B,…,Z,a,b,…,z}ti∈{0,1,…,9,A,B,…,Z,a,b,…,z}t_i\in\{\mathtt{0,1,\ldots,9,A,B,\ldots,Z,a,b,\ldots,z}\}).It is guaranteed that the sum of nnn over all test cases does not exceed 2⋅1062⋅1062 \cdot 10^6.OutputFor each query, output a single integer — the answer to the query.ExamplesInputCopy3 45 17 32015 17 2011239 1231231209 501201123002 231203 41202OutputCopy2 3 21046666 8325 InputCopy10 31 20 912345678915 20332 36781234 56789 201OutputCopy2 1625 5000 NoteDenote the string slsl+1…srslsl+1…srs_ls_{l+1}\ldots s_r as s[l;r]s[l;r]s[l;r].In the first example, k=3k=3k = 3, s=12120201120201012201120012…s=12120201120201012201120012…s = \mathtt{12120201120201012201120012\ldots}, s[5;17]=0201120201012s[5;17]=0201120201012s[5;17] = \mathtt{0201120201012}, and t=201t=201t = \mathtt{201} appears a total of 222 times in s[5;17]s[5;17]s[5; 17]. Their indices in the string sss are s[6;8]s[6;8]s[6; 8] and s[12;14]s[12;14]s[12; 14]. And t=01t=01t = \mathtt{01} appears 333 times. Their indices in the string sss are s[7;8]s[7;8]s[7;8], s[13;14]s[13;14]s[13;14], and s[15;16]s[15;16]s[15;16].For the second example, k=10k=10k=10, s[1;20]=12345678912345678902s[1;20]=12345678912345678902s[1;20] = \mathtt{12345678912345678902}, and t=123456789t=123456789t = \mathtt{123456789} appears a total of 222 times in s[1;20]s[1;20]s[1;20].
+
+## Explanation
+
+This solution was accepted on Codeforces using Java 21 64bit. The detected topics are divide and conquer, implementation, strings. Review the synced source file for the implementation details.
