@@ -5190,5 +5190,6 @@
     "custom:shradha-khapra-dsa-sheet",
     "custom:love-babbar-dsa-sheet"
   ],
-  "takeuforward:reverse-a-ll": []
+  "takeuforward:reverse-a-ll": [],
+  "takeuforward:detect-a-loop-in-ll": []
 }
