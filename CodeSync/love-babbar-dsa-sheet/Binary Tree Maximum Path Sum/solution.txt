@@ -3,11 +3,11 @@
  * Problem: Binary Tree Maximum Path Sum
  * URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/
  * Language: Problem List
- * Difficulty: Hard
- * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: 0 ms
  * Memory: 46.38 MB
- * Synced: 2026-09-23T12:30:01.878Z
+ * Synced: 2026-09-23T18:05:21.838Z
  */
 
 class Solution {
