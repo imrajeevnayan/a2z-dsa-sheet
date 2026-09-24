@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack, Greedy, Bracket Sequences
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2150576612/
-- Synced: 2026-09-23T06:50:41.098Z
+- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+- Synced: 2026-09-24T10:21:40.898Z
 
 ## Problem Description
 
