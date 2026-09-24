@@ -5,21 +5,12 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-23T12:21:55.236Z
+ * Synced: 2026-09-23T12:22:40.511Z
  */
 
-}
-       return Math.max(result[0], result[1]);
-        int[] result = helper(root);
-        public int rob(TreeNode root) {
-class Solution {
-    private int[] helper(TreeNode node) {
-        if (node == null)return new int[]{0, 0};
-        
-        
-        // RECURSION: Pehle left aur right subtree se unke results le aao
+// RECURSION: Pehle left aur right subtree se unke results le aao
         // Yeh "Bottom-Up" approach hai (Pehle neeche jaao, phir upar aakar calculate karo)
         int[] left = helper(node.left);   // Left child ka [Take, Skip]
         int[] right = helper(node.right); // Right child ka [Take, Skip]
@@ -36,3 +27,5 @@ class Solution {
         
         // Result array mein store karo: Index 0 = Take, Index 1 = Skip
         return new int[]{take, skip};
+    }
+}
