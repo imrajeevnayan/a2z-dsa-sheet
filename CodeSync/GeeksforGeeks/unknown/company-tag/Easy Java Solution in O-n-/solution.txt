@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T10:44:39.757Z
+ * Synced: 2026-09-24T10:45:39.780Z
  */
 
 class Solution {
