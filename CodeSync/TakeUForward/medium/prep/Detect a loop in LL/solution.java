@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:07.814Z
+ * Synced: 2026-09-24T20:02:08.398Z
  */
 
 // Slow 1 step
@@ -17,7 +17,6 @@
 
         // Fast pointer 2 steps chalega
     public boolean hasCycle(ListNode head) {
-
         ListNode slow = head;
 class Solution {
             slow = slow.next;
