@@ -7,60 +7,40 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T04:14:31.648Z
+ * Synced: 2026-09-24T05:09:48.671Z
  */
 
-import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
-        FastScanner fs = new FastScanner(System.in);
-        PrintWriter out = new PrintWriter(System.out);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int t = 1;
-        // t = fs.nextInt();
-        while (t-- > 0) {
+        int n = sc.nextInt();
+        long[] a = new long[n];
 
-            long n = fs.nextLong();
-            long k = fs.nextLong();
-
-            long oddCount = (n + 1) / 2;
-
-            if (k <= oddCount) {
-                out.println(2 * k - 1);
-            } else {
-            long pos = k - oddCount;
-            out.println(2 * pos);
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextLong();
         }
+
+    HashMap<Long, Long> freq = new HashMap<>();
+    long ans = 0;
+
+    for (long x : a) {
+
+        // 2^0 to 2^31
+        for (int k = 0; k <= 31; k++) {
+            long power = 1L << k;
+
+            long need = power - x;
+
+            ans += freq.getOrDefault(need, 0L);
+        }
+
+    // Current element ko map mein add karo
+    freq.put(x, freq.getOrDefault(x, 0L) + 1);
 }
 
-out.flush();
-}
-
-static class FastScanner {
-    private final BufferedReader br;
-    private StringTokenizer st;
-
-    FastScanner(InputStream in) {
-        br = new BufferedReader(new InputStreamReader(in));
-    }
-
-String next() throws IOException {
-    while (st == null || !st.hasMoreTokens()) {
-        String line = br.readLine();
-        if (line == null) return null;
-        st = new StringTokenizer(line);
-    }
-return st.nextToken();
-}
-
-int nextInt() throws IOException {
-    return Integer.parseInt(next());
-}
-
-long nextLong() throws IOException {
-    return Long.parseLong(next());
-}
+System.out.println(ans);
 }
 }
