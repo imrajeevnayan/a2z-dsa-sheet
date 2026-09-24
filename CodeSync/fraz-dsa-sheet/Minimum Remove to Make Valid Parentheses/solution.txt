@@ -7,12 +7,10 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T11:31:46.218Z
+ * Synced: 2026-09-24T11:33:32.751Z
  */
 
-class Solution {
-    public String minRemoveToMakeValid(String s) {
-         Deque<Integer> stack = new ArrayDeque<>();
+Deque<Integer> stack = new ArrayDeque<>();
        Set<Integer> removeIndices = new HashSet<>();
     
     for (int i = 0; i < s.length(); i++) {
