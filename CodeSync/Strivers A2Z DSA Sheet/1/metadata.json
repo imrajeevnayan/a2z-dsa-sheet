@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-21T08:44:20.624Z",
+  "submissionTimestamp": "2026-09-23T14:49:25.067Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Two Pointers",
-    "Sorting"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Java",
   "problemTitle": "1",
-  "problemUrl": "https://leetcode.com/problems/3sum-closest/description/",
-  "submissionId": "kgq1tp"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/",
+  "submissionId": "xvfwpf"
 }
