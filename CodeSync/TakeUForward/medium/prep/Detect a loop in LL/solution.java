@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:21.632Z
+ * Synced: 2026-09-24T20:02:24.948Z
  */
 
 // Slow 1 step
@@ -21,3 +21,4 @@ class Solution {
             fast = fast.next.next;
 
             // Agar dono mil gaye to cycle hai
+            if (slow == fast) {
