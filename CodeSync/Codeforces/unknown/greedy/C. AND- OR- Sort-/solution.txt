@@ -1,0 +1,13 @@
+/*
+ * Platform: Codeforces
+ * Problem: C. AND, OR, Sort!
+ * URL: https://codeforces.com/problemset/problem/2266/C
+ * Language: Java 21 64bit
+ * Difficulty: Unknown
+ * Topics: greedy, strings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T04:33:32.900Z
+ */
+
+640011410005010008010011017010101070111101
