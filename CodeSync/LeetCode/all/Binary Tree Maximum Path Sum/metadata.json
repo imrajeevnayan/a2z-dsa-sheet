@@ -1,17 +1,14 @@
 {
-  "submissionTimestamp": "2026-07-24T13:09:14.056Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "submissionTimestamp": "2026-09-23T18:05:21.838Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.38 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Dynamic Programming",
-    "Tree",
-    "Depth-First Search",
-    "Binary Tree"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Top 100 Liked",
+  "language": "Problem List",
   "problemTitle": "Binary Tree Maximum Path Sum",
-  "problemUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked",
-  "submissionId": "oshhb4"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/",
+  "submissionId": "9lvyfs"
 }
