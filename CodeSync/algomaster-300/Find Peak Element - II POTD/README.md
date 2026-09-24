@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Medium
 - Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
-- Runtime: N/A
+- Runtime: 1.178 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/find-peak-element-ii
-- Synced: 2026-09-24T19:23:26.494Z
+- Synced: 2026-09-24T19:24:11.838Z
 
 ## Problem Description
 
