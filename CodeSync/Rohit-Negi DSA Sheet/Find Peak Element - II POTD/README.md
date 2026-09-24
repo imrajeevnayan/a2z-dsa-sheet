@@ -7,7 +7,7 @@
 - Runtime: 1.178 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/find-peak-element-ii
-- Synced: 2026-09-24T19:24:11.838Z
+- Synced: 2026-09-24T19:25:17.829Z
 
 ## Problem Description
 
