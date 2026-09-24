@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-24T12:41:46.753Z",
+  "submissionTimestamp": "2026-09-24T12:42:39.752Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.76 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Outermost Parentheses",
-  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/submissions/2151968697/",
+  "problemUrl": "https://leetcode.com/problems/remove-outermost-parentheses/description/",
   "submissionId": "2mcc03"
 }
