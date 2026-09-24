@@ -5112,5 +5112,10 @@
   "codeforces:virtual-participation": [],
   "codeforces:c-and-or-sort": [],
   "codeforces:b-powers-of-two": [],
-  "leetcode:count-good-meals": []
+  "leetcode:count-good-meals": [],
+  "geeksforgeeks:implement-stack-using-array": [
+    "custom:Rohit-Negi_DSA_Sheet",
+    "custom:rohit-negi_dsa_sheet",
+    "GFG160"
+  ]
 }
