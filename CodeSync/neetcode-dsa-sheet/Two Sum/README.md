@@ -1,18 +1,18 @@
 # Two Sum
 
-- Platform: Coding Ninjas (Code360)
-- Language: All languages
-- Difficulty: Unknown
-- Topics: Uncategorized
+- Platform: TakeUForward
+- Language: Java
+- Difficulty: Medium
+- Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/two-sum_839653
-- Synced: 2026-09-20T17:25:45.341Z
+- Problem URL: https://takeuforward.org/practice/dsa/two-sum
+- Synced: 2026-09-24T19:43:39.514Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Given an array of integers nums and an integer target. Return the indices(0 - indexed) of two elements in nums such that they add up to target. Each input will have exactly one solution, and the same element cannot be used twice. Return the answer in any order.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
+This solution was accepted on TakeUForward using Java. The detected topics are Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly. Review the synced source file for the implementation details.
