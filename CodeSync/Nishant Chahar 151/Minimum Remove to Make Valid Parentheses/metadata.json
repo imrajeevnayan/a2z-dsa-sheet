@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-21T18:29:08.167Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-24T11:23:59.530Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Remove to Make Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2149008754/",
+  "problemUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/",
   "submissionId": "s79ude"
 }
