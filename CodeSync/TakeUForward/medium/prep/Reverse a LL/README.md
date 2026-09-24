@@ -7,7 +7,7 @@
 - Runtime: 0.877 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/reverse-a-ll
-- Synced: 2026-09-24T19:45:33.850Z
+- Synced: 2026-09-24T19:47:17.868Z
 
 ## Problem Description
 
