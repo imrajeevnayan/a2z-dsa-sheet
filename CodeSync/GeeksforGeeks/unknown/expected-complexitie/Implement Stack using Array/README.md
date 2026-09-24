@@ -1,13 +1,13 @@
 # Implement Stack using Array
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class myStack { int top; vector<int> arr; int size; public: myStack(int n) { top = -1; size = n; arr.resize(n); } bool isEmpty() { return top == -1; } bool isFull() { return top == size - 1; } void push(int x) { if (isFull()) return; arr[++top] = x; } void pop() { if (isEmpty()) return; top--; } int peek() { if (isEmpty()) return -1; return arr[top]; } };
 - Difficulty: Unknown
 - Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
-- Synced: 2026-09-24T08:53:12.020Z
+- Synced: 2026-09-24T08:54:09.305Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Implement a Stack using an Array, where the size of the array, n is given. The S
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class myStack { int top; vector<int> arr; int size; public: myStack(int n) { top = -1; size = n; arr.resize(n); } bool isEmpty() { return top == -1; } bool isFull() { return top == size - 1; } void push(int x) { if (isFull()) return; arr[++top] = x; } void pop() { if (isEmpty()) return; top--; } int peek() { if (isEmpty()) return -1; return arr[top]; } };. The detected topics are Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags. Review the synced source file for the implementation details.
