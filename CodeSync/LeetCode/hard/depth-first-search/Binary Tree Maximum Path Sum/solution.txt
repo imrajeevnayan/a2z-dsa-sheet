@@ -1,25 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Maximum Path Sum
- * URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked
- * Language: Top 100 Liked
+ * URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/
+ * Language: Problem List
  * Difficulty: Hard
- * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-07-24T13:09:14.056Z
+ * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
+ * Runtime: 0 ms
+ * Memory: 46.38 MB
+ * Synced: 2026-09-23T12:30:01.878Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
+class Solution {
+    int maxSum = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root) {
+        dfs(root);
+        return maxSum;
+    }
+    private int dfs(TreeNode node) {
+        if (node == null) return 0;
+
+        // Left aur Right se gain lao (negative ho toh 0 le lo)
+        int leftGain = Math.max(dfs(node.left), 0);
+        int rightGain = Math.max(dfs(node.right), 0);
+
+        // Current node ko peak maankar total sum calculate karo
+        // Ye global answer ko update karne ke liye hai
+        int priceNewpath = node.val + leftGain + rightGain;
+        maxSum = Math.max(maxSum, priceNewpath);
+
+        // Parent ko report karo: Sirf ek side (left YA right) choose kar sakte ho
+        return node.val + Math.max(leftGain, rightGain);
+    }
+}
