@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
-- Synced: 2026-09-24T11:41:28.759Z
+- Synced: 2026-09-24T11:44:59.752Z
 
 ## Problem Description
 
