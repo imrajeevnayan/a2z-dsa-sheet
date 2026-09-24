@@ -7,17 +7,17 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:03.573Z
+ * Synced: 2026-09-24T20:02:05.172Z
  */
 
-// Agar dono mil gaye to cycle hai
-            if (slow == fast) {
-                return true;
-            }
-        }
+// Slow 1 step
+        ListNode fast = head;
 
-        // Fast null tak pahunch gaya
-        // Matlab cycle nahi hai
-        return false;
-    }
-}
+        while (fast != null && fast.next != null) {
+        ListNode slow = head;
+
+        // Fast pointer 2 steps chalega
+    public boolean hasCycle(ListNode head) {
+
+        // Slow pointer 1 step chalega
+class Solution {
