@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Outermost Parentheses
- * URL: https://leetcode.com/problems/remove-outermost-parentheses/description/
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T16:47:44.605Z
+ * Synced: 2026-09-24T16:48:35.574Z
  */
 
 class Solution {
