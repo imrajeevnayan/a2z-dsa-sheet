@@ -7,22 +7,33 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Greedy, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T15:53:49.097Z
+ * Synced: 2026-09-23T15:55:46.828Z
  */
 
 class Solution {
+     private int solve(int num, int[] dp) {
+        if (num == 0) return 0;
+        if (dp[num] != -1)  return dp[num];
+
+        // Choice 1: Pichla step "+1" tha (Source: num - 1)
+        int addOne = 1 + solve(num - 1, dp);
+
+        // Choice 2: Pichla step "*2" tha (Source: num / 2)
+        // Ye tabhi possible hai jab num EVEN ho
+        int doubleOp = Integer.MAX_VALUE;
+        if (num % 2 == 0) {
+            doubleOp = 1 + solve(num / 2, dp);
+        }
+
+        // Result: Dono choices mein se MINIMUM lo
+        dp[num] = Math.min(addOne, doubleOp);
+
+        return dp[num];
+    }
     public int minOperation(int n) {
-        if (n == 0) return 0;
-
-            // Option 1: Last op was +1 (from n-1)
-            int opt1 = 1 + minOperation(n - 1);
-
-            // Option 2: Last op was *2 (only if even)
-            int opt2 = Integer.MAX_VALUE;
-            if (n % 2 == 0) {
-                opt2 = 1 + minOperation(n / 2);
-            }
-
-            return Math.min(opt1, opt2);
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, -1);
+        dp[0] = 0; 
+        return solve(n, dp);
     }
 }
