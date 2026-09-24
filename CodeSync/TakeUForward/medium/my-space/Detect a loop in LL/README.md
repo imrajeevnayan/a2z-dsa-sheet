@@ -7,7 +7,7 @@
 - Runtime: 0.973 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/detect-a-loop-in-ll
-- Synced: 2026-09-24T20:03:38.840Z
+- Synced: 2026-09-24T20:05:17.182Z
 
 ## Problem Description
 
