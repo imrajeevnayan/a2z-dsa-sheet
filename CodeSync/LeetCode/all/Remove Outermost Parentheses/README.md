@@ -1,13 +1,13 @@
 # Remove Outermost Parentheses
 
 - Platform: LeetCode
-- Language: Stack
+- Language: Problem List
 - Difficulty: Easy
 - Topics: String, Stack, Bracket Sequences
-- Runtime: 0 ms
-- Memory: 43.31 MB
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2112756025/?envType=problem-list-v2&envId=stack
-- Synced: 2026-08-19T13:56:51.764Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/
+- Synced: 2026-09-24T11:01:04.566Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A valid parentheses string is either empty "", "(" + A + ")", or A + B, where A 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Stack. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack, Bracket Sequences. Review the synced source file for the implementation details.
