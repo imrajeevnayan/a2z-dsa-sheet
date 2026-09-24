@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String, Stack, Bracket Sequences
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/description/
-- Synced: 2026-09-24T12:33:56.353Z
+- Runtime: 0 ms
+- Memory: 43.76 MB
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2151968697/
+- Synced: 2026-09-24T12:34:41.754Z
 
 ## Problem Description
 
