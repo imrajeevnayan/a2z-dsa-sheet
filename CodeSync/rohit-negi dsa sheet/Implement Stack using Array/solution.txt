@@ -1,0 +1,42 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Implement Stack using Array
+ * URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T08:53:12.020Z
+ */
+
+class myStack {
+    int[] arr;
+    int top;
+
+    public myStack(int n) {
+        arr = new int[n];
+        top = -1;
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == arr.length - 1;
+    }
+
+    public void push(int x) {
+        if (!isFull()) arr[++top] = x;
+    }
+
+    public void pop() {
+        if (!isEmpty()) top--;
+    }
+
+    public int peek() {
+        if (!isEmpty())  return arr[top];
+        return -1;
+    }
+}
