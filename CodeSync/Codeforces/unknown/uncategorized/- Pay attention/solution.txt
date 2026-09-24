@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T05:11:00.463Z
+ * Synced: 2026-09-24T05:24:36.081Z
  */
 
 import java.util.*;
@@ -15,32 +15,31 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int n = sc.nextInt();
-        long[] a = new long[n];
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) a[i] = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextLong();
-        }
+        // Precompute powers of 2 up to 2^30 (> 2 * 10^9)
+        long[] powers = new long[31];
+        for (int i = 0; i <= 30; i++) powers[i] = 1L << i;
 
-    HashMap<Long, Long> freq = new HashMap<>();
-    long ans = 0;
+        Map<Integer, Integer> freq = new HashMap<>();
+        long count = 0;
 
-    for (long x : a) {
+        for (int num : a) {
+            // Check against ALL 31 powers
+            for (long power : powers) {
+                long complement = power - num;
 
-        // 2^0 to 2^31
-        for (int k = 0; k <= 31; k++) {
-            long power = 1L << k;
+                // Skip if complement out of valid range
+                if (complement < 1 || complement > 1_000_000_000L) continue;
 
-            long need = power - x;
+                count += freq.getOrDefault((int) complement, 0);
+            }
 
-            ans += freq.getOrDefault(need, 0L);
-        }
+        freq.merge(num, 1, Integer::sum);
+    }
 
-    // Current element ko map mein add karo
-    freq.put(x, freq.getOrDefault(x, 0L) + 1);
-}
-
-System.out.println(ans);
+System.out.println(count);
 }
 }
