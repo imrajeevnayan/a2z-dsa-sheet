@@ -1,14 +1,21 @@
 {
-  "submissionTimestamp": "2026-09-20T17:25:45.341Z",
+  "submissionTimestamp": "2026-09-24T19:43:39.514Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Prep",
+    "Explore",
+    "My Spaces",
+    "Dashboard",
+    "Prep Hub",
+    "DSA",
+    "SQL",
+    "Planly"
   ],
-  "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "platform": "TakeUForward",
+  "language": "Java",
   "problemTitle": "Two Sum",
-  "problemUrl": "https://www.naukri.com/code360/problems/two-sum_839653",
-  "submissionId": "byc432"
+  "problemUrl": "https://takeuforward.org/practice/dsa/two-sum",
+  "submissionId": "8hcznm"
 }
