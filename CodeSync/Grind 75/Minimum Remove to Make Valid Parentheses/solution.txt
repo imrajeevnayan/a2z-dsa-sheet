@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Remove to Make Valid Parentheses
- * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2151939220/
+ * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
  * Runtime: 0 ms
- * Memory: 47.42 MB
- * Synced: 2026-09-24T12:30:27.761Z
+ * Memory: N/A
+ * Synced: 2026-09-24T12:31:59.748Z
  */
 
 if (!st.isEmpty()) st.pop();
@@ -23,15 +23,11 @@ if (!st.isEmpty()) st.pop();
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < s.length(); i++) {
-            else if (ch == ')') {
-        
 
-            if (ch == '(')  st.push(i);
-            char ch = s.charAt(i);
-
-        for (int i = 0; i < s.length(); i++) {
-        Set<Integer> set = new HashSet<>();
-        Stack<Integer> st = new Stack<>();
-
-    public String minRemoveToMakeValid(String s) {
-class Solution {
+            if (!set.contains(i)) {
+                result.append(s.charAt(i));
+            }
+        }
+        return result.toString();
+    }
+}
