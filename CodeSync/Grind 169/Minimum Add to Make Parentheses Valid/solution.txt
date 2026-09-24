@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: 0 ms
  * Memory: 42.71 MB
- * Synced: 2026-09-24T10:26:43.783Z
+ * Synced: 2026-09-24T10:27:34.709Z
  */
 
 class Solution {
