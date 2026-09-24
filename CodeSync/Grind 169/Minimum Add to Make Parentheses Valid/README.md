@@ -6,8 +6,8 @@
 - Topics: String, Stack, Greedy, Bracket Sequences
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-- Synced: 2026-09-24T10:22:30.763Z
+- Problem URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+- Synced: 2026-09-24T10:23:37.808Z
 
 ## Problem Description
 
