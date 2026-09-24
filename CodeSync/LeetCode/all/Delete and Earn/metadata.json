@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-23T11:28:14.668Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-23T11:30:38.669Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.21 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Delete and Earn",
-  "problemUrl": "https://leetcode.com/problems/delete-and-earn/",
-  "submissionId": "y05nei"
+  "problemUrl": "https://leetcode.com/problems/delete-and-earn/submissions/2150817377/",
+  "submissionId": "eihjm1"
 }
