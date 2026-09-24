@@ -1,16 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/same-tree/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
  * Language: Problem List
- * Difficulty: Unknown
- * Topics: Uncategorized
+ * Difficulty: Medium
+ * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T10:03:31.036Z
+ * Synced: 2026-09-24T17:28:54.664Z
  */
 
-list.add(curr.val);
+class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null)  return ans;
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+
+            int n = q.size();
+            List<Integer> list = new ArrayList<>();
+
+            for (int i = 0; i < n; i++) {
+
+                TreeNode curr = q.remove();
+
+                // Queue se nikala → ArrayList mein add
+                list.add(curr.val);
 
                 if (curr.left != null)  q.add(curr.left);
                 if (curr.right != null) q.add(curr.right);
@@ -18,6 +36,3 @@ list.add(curr.val);
             }
             ans.add(list);
         }
-        return ans;
-    }
-}
