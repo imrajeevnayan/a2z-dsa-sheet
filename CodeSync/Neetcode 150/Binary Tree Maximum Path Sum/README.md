@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/
-- Synced: 2026-09-23T12:28:05.514Z
+- Memory: 46.38 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/
+- Synced: 2026-09-23T12:30:01.878Z
 
 ## Problem Description
 
