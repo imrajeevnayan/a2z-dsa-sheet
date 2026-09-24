@@ -1,13 +1,13 @@
 # Binary Tree Maximum Path Sum
 
 - Platform: LeetCode
-- Language: Top 100 Liked
+- Language: Problem List
 - Difficulty: Hard
-- Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-24T13:09:14.056Z
+- Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
+- Runtime: 0 ms
+- Memory: 46.38 MB
+- Problem URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/
+- Synced: 2026-09-23T12:30:01.878Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ A path in a binary tree is a sequence of nodes where each pair of adjacent nodes
 
 ## Explanation
 
-This solution was accepted on LeetCode using Top 100 Liked. The detected topics are Dynamic Programming, Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees. Review the synced source file for the implementation details.
