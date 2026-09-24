@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Microsoft, Samsung, FactSet, SAP Labs, Codenation, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T09:18:46.629Z
+ * Synced: 2026-09-24T09:20:28.358Z
  */
 
 public myStack() {
@@ -22,24 +22,24 @@ public myStack() {
     }
 
     public void push(int x) {
-        // Adds an element x at the rear of the stack (Top).
+        // Adds an element x at the top of the stack.
         Node newNode = new Node(x);
-        newNode.next = head;
-        head = newNode;
-        count++;
+        newNode.next = head; // New node points to current top
+        head = newNode;      // Update top to be the new node
+        count++;             // Increment size
     }
 
     public void pop() {
-        // Removes the front element of the stack (Top).
+        // Removes the top element of the stack.
         if (isEmpty()) {
-            return;
+            return; // Do nothing if empty
         }
-        head = head.next;
-        count--;
+        head = head.next; // Move top pointer to next node
+        count--;          // Decrement size
     }
 
     public int peek() {
-        // Returns the front element of the stack.
+        // Returns the top element of the stack.
         // If stack is empty, return -1.
         if (isEmpty()) {
             return -1;
