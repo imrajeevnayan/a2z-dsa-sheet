@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Remove to Make Valid Parentheses
- * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/
+ * URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T11:25:52.754Z
+ * Synced: 2026-09-24T11:26:38.764Z
  */
 
 class Solution {
