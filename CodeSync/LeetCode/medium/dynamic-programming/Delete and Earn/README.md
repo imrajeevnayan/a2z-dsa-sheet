@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Hash Table, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-and-earn/
-- Synced: 2026-09-23T11:28:14.668Z
+- Synced: 2026-09-23T11:29:37.119Z
 
 ## Problem Description
 
