@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
-- Synced: 2026-06-02T11:06:44.965Z
+- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/
+- Synced: 2026-09-23T19:32:47.502Z
 
 ## Problem Description
 
