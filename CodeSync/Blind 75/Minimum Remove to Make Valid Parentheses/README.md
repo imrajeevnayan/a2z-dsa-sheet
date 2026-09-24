@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Stack
 - Runtime: 0 ms
-- Memory: 47.42 MB
-- Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2151939220/
-- Synced: 2026-09-24T12:30:27.761Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+- Synced: 2026-09-24T12:31:59.748Z
 
 ## Problem Description
 
