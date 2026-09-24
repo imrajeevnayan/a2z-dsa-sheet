@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-18T09:42:40.771Z",
+  "submissionTimestamp": "2026-09-24T04:05:24.958Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Codeforces",
-  "language": "Java 21 64bit",
+  "language": "Python 3",
   "problemTitle": "→ Pay attention",
-  "problemUrl": "https://codeforces.com/problemset/submit",
-  "submissionId": "gdq61r"
+  "problemUrl": "https://codeforces.com/top",
+  "submissionId": "bk78y"
 }
