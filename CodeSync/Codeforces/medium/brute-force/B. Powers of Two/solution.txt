@@ -7,7 +7,7 @@
  * Topics: brute force, data structures, implementation, math, *1500
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T05:11:03.651Z
+ * Synced: 2026-09-24T05:18:20.804Z
  */
 
 47 3 2 1
