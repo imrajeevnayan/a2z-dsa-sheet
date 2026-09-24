@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Make The String Great
- * URL: https://leetcode.com/problems/make-the-string-great/
+ * URL: https://leetcode.com/problems/make-the-string-great/submissions/2151918544/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-24T11:21:28.395Z
+ * Runtime: 0 ms
+ * Memory: 43.73 MB
+ * Synced: 2026-09-24T11:22:33.763Z
  */
 
 class Solution {
     public String makeGood(String s) {
         Stack<Character> st = new Stack<>();
-        for (char c : s.toCharArray()) {
-            if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
-            else st.push(c);    
+        for (char ch : s.toCharArray()) {
+            if (!st.isEmpty() && Math.abs(st.peek() - ch) == 32) st.pop();
+            else st.push(ch);
         }
-        StringBuilder sb = new StringBuilder();
-        for (char c : st) sb.append(c);
-        return sb.toString();
+        StringBuilder result = new StringBuilder();
+        while (!st.isEmpty()) result.append(st.pop());
+        return result.reverse().toString();
     }
 }
