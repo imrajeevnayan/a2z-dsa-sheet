@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-07T10:03:31.036Z",
+  "submissionTimestamp": "2026-09-24T17:29:40.091Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Tree",
+    "Breadth-First Search",
+    "Binary Tree"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Binary Tree Level Order Traversal",
-  "problemUrl": "https://leetcode.com/problems/same-tree/",
-  "submissionId": "gqho3n"
+  "problemUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "submissionId": "uvyndd"
 }
