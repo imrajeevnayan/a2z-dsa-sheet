@@ -7,13 +7,13 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:02:14.106Z
+ * Synced: 2026-09-24T20:02:14.906Z
  */
 
 // Slow 1 step
 
         while (fast != null && fast.next != null) {
-        ListNodefast = head;
+        Lifast = head;
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
 class Solution {
