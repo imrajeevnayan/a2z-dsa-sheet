@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-09-23T15:46:43.924Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Dynamic Programming",
+    "Greedy",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def minOperation(self, n): # Initialize a variable to keep track of the number of operations. operation_count = 0 # Continue the loop until n becomes zero. while n > 0: # If n is odd, subtract 1; otherwise, divide it by 2. if n % 2: n -= 1 else: n //= 2 # Increment the operation count for each step. operation_count += 1 # Return the total number of operations required to reach zero. return operation_count",
+  "problemTitle": "Minimum Operations to Reach N",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1",
+  "submissionId": "7y0ml1"
+}
