@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-24T20:01:10.673Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Prep",
+    "Explore",
+    "My Spaces",
+    "Dashboard",
+    "Prep Hub",
+    "DSA",
+    "SQL",
+    "Planly"
+  ],
+  "platform": "TakeUForward",
+  "language": "Java",
+  "problemTitle": "Detect a loop in LL",
+  "problemUrl": "https://takeuforward.org/practice/dsa/detect-a-loop-in-ll",
+  "submissionId": "gkks3y"
+}
