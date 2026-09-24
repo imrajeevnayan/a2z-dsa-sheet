@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: House Robber III
- * URL: https://leetcode.com/problems/house-robber-iii/
+ * URL: https://leetcode.com/problems/house-robber-iii/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Dynamic Programming, Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T12:23:26.506Z
+ * Synced: 2026-09-23T15:21:55.990Z
  */
 
 // RECURSION: Pehle left aur right subtree se unke results le aao
