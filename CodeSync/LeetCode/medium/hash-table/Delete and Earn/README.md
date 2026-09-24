@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.21 MB
 - Problem URL: https://leetcode.com/problems/delete-and-earn/submissions/2150817377/
-- Synced: 2026-09-23T11:31:23.670Z
+- Synced: 2026-09-23T11:32:08.675Z
 
 ## Problem Description
 
