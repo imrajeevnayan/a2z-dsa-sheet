@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/submissions/2149008754/
-- Synced: 2026-09-21T18:29:08.167Z
+- Problem URL: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/
+- Synced: 2026-09-24T11:23:59.530Z
 
 ## Problem Description
 
