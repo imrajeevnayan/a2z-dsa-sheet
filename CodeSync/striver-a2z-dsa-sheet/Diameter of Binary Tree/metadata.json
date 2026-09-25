@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-25T06:07:04.119Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-25T06:11:13.934Z",
+  "runtime": "0.794 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -17,5 +17,5 @@
   "language": "Java",
   "problemTitle": "Diameter of Binary Tree",
   "problemUrl": "https://takeuforward.org/practice/dsa/diameter-of-binary-tree",
-  "submissionId": "ccieck"
+  "submissionId": "o6f9ve"
 }
