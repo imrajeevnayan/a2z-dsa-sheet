@@ -117,7 +117,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Coder Army DSA | 0 | 350 |
 | GFG 160 | 496 | 160 |
 | CSES Problem Set | 15 | 300 |
-| InterviewBit Sets | 9 | 200 |
+| InterviewBit Sets | 10 | 200 |
 | Nishant Chahar 151 | 36 | 151 |
 | Kushal Vijay Patterns | 27 | 100 |
 | Apna College 375 | 3 | 375 |
