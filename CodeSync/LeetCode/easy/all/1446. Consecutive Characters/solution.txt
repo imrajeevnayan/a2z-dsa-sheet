@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1446. Consecutive Characters
+ * URL: https://leetcode.com/problems/consecutive-characters/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T09:16:03.888Z
+ */
+
+Input: s = "leetcode"
+Output: 2
+Explanation: The substring "ee" is of length 2 with the character 'e' only.
