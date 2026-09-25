@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Medium
 - Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
-- Runtime: 0.973 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/detect-a-loop-in-ll
-- Synced: 2026-09-24T20:05:17.182Z
+- Synced: 2026-09-24T20:07:39.189Z
 
 ## Problem Description
 
