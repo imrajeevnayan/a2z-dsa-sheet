@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Database
+- Topics: String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/duplicate-emails/description/
-- Synced: 2026-09-22T13:01:44.423Z
+- Problem URL: https://leetcode.com/problems/consecutive-characters/
+- Synced: 2026-09-25T09:16:05.984Z
 
 ## Problem Description
 
-Table: Person +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | email | varchar | +-------------+---------+ id is the primary key (column with unique values) for this table. Each row of this table contains an email. The emails will not contain uppercase letters. Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL. Return the result table in any order. The result format is in the following example. Example 1: Input: Person table: +----+---------+ | id | email | +----+---------+ | 1 | a@b.com | | 2 | c@d.com | | 3 | a@b.com | +----+---------+ Output: +---------+ | Email | +---------+ | a@b.com | +---------+ Explanation: a@b.com is repeated two times.
+The power of the string is the maximum length of a non-empty substring that contains only one unique character. Given a string s, return the power of s. Example 1: Input: s = "leetcode" Output: 2 Explanation: The substring "ee" is of length 2 with the character 'e' only. Example 2: Input: s = "abbcccddddeeeeedcba" Output: 5 Explanation: The substring "eeeee" is of length 5 with the character 'e' only. Constraints: 1 <= s.length <= 500 s consists of only lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Database. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String. Review the synced source file for the implementation details.
