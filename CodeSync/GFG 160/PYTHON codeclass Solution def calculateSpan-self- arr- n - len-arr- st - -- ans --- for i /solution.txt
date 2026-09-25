@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T11:42:50.205Z
+ * Synced: 2026-09-25T12:10:10.255Z
  */
 
 class Solution {
