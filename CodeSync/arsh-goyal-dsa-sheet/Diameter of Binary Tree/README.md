@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/diameter-of-binary-tree
-- Synced: 2026-09-25T06:07:04.119Z
+- Synced: 2026-09-25T06:07:12.836Z
 
 ## Problem Description
 
