@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: 0.794 ms
  * Memory: N/A
- * Synced: 2026-09-25T06:09:28.919Z
+ * Synced: 2026-09-25T06:11:13.934Z
  */
 
 class Solution {
