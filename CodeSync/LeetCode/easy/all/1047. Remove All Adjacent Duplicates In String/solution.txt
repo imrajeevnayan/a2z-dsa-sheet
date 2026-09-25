@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1047. Remove All Adjacent Duplicates In String
+ * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T09:07:51.520Z
+ */
+
+Input: s = "abbaca"
+Output: "ca"
+Explanation: 
+For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
