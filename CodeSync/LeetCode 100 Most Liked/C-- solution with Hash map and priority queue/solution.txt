@@ -7,11 +7,11 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:53:30.879Z
+ * Synced: 2026-09-25T12:53:31.197Z
  */
 
 class Solution {
     public ArrayList<Integer> topKFreq(int[] arr, int k) {
-        PriorityQueue<Integer>pq=new PriorityQueue(Collection.reverseOrde)
+        PriorityQueue<Integer>pq=new PriorityQueue(Collection.reverseOrder)
     }
 }
