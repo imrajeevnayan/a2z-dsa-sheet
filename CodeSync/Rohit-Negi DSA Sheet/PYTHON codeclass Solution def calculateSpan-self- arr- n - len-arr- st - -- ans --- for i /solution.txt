@@ -7,12 +7,49 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:11:37.069Z
+ * Synced: 2026-09-25T12:11:38.739Z
  */
 
 class Solution {
     public ArrayList<Integer> calculateSpan(int[] arr) {
-        // code here
-        
+        int n = arr.length;
+
+        ArrayList<Integer> result =
+            new ArrayList<>(Collections.nCopies(n, 1));
+
+        Deque<Integer> st = new ArrayDeque<>();
+
+        for (int i = 0; i < n; i++) {
+
+            while (!st.isEmpty() && arr[i] >= arr[st.peek()]) {
+                st.pop();
+            }
+
+            if (!st.isEmpty()) {
+                result.set(i, i - st.peek());
+            } else {
+                result.set(i, i + 1);
+            }
+
+            st.push(i);
+        }
+
+        return result;
     }
 }
+class Solution {
+    public ArrayList<Integer> calculateSpan(int[] arr) {
+        int n = arr.length;
+
+        ArrayList<Integer> result =
+            new ArrayList<>(Collections.nCopies(n, 1));
+
+        Deque<Integer> st = new ArrayDeque<>();
+
+        for (int i = 0; i < n; i++) {
+
+            while (!st.isEmpty() && arr[i] >= arr[st.peek()]) {
+                st.pop();
+            }
+
+            if (!st.isEmpty()) {
