@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-24T20:33:19.214Z",
+  "submissionTimestamp": "2026-09-25T09:07:53.702Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Binary Search",
-    "Divide and Conquer"
+    "String",
+    "Stack"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
-  "submissionId": "52rizv"
+  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
+  "submissionId": "fsjrzj"
 }
