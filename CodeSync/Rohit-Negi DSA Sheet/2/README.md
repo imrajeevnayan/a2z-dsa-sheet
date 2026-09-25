@@ -2,17 +2,17 @@
 
 - Platform: LeetCode
 - Language: Problem List
-- Difficulty: Medium
-- Topics: String, Dynamic Programming, Stack, Greedy
+- Difficulty: Easy
+- Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/
-- Synced: 2026-09-22T18:58:04.778Z
+- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+- Synced: 2026-09-25T09:07:53.702Z
 
 ## Problem Description
 
-Given a string word to which you can insert letters "a", "b" or "c" anywhere and any number of times, return the minimum number of letters that must be inserted so that word becomes valid. A string is called valid if it can be formed by concatenating the string "abc" several times. Example 1: Input: word = "b" Output: 2 Explanation: Insert the letter "a" right before "b", and the letter "c" right next to "b" to obtain the valid string "abc". Example 2: Input: word = "aaa" Output: 6 Explanation: Insert letters "b" and "c" next to each "a" to obtain the valid string "abcabcabc". Example 3: Input: word = "abc" Output: 0 Explanation: word is already valid. No modifications are needed. Constraints: 1 <= word.length <= 50 word consists of letters "a", "b" and "c" only.
+You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them. We repeatedly make duplicate removals on s until we no longer can. Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique. Example 1: Input: s = "abbaca" Output: "ca" Explanation: For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move. The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca". Example 2: Input: s = "azxxzy" Output: "ay" Constraints: 1 <= s.length <= 105 s consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Dynamic Programming, Stack, Greedy. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack. Review the synced source file for the implementation details.
