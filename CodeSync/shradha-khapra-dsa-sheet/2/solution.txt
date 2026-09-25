@@ -1,26 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: String, Stack
+ * URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T10:02:23.007Z
+ * Synced: 2026-09-25T12:49:31.852Z
  */
 
 class Solution {
-    public String removeDuplicates(String s) {
-        Stack<Character>st=new Stack<>();
-        for(char ch: s.toCharArray()){
-            if(!st.isEmpty() && st.peek()==ch) st.pop();
-            else st.push(ch);
-        }
-        StringBuilder sb=new StringBuilder();
-        while(!st.isEmpty()){
-            sb.append(st.pop());
-        }
-       return sb.reverse().toString(); 
+    public List<String> braceExpansionII(String expression) {
+        
     }
 }
