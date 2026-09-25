@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Medium
 - Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
-- Runtime: N/A
+- Runtime: 0.794 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/diameter-of-binary-tree
-- Synced: 2026-09-25T06:07:04.119Z
+- Synced: 2026-09-25T06:11:13.934Z
 
 ## Problem Description
 
