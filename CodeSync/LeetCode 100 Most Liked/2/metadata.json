@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-23T19:14:01.516Z",
+  "submissionTimestamp": "2026-09-24T20:33:19.214Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Hard",
   "tags": [
     "Array",
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Binary Search",
+    "Divide and Conquer"
   ],
   "platform": "LeetCode",
-  "language": "60 questions to solve (Copy-9xpbvcmc)",
+  "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id",
-  "submissionId": "u9qd6x"
+  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
+  "submissionId": "52rizv"
 }
