@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: String, Stack
+- Topics: String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
-- Synced: 2026-09-25T09:07:53.702Z
+- Problem URL: https://leetcode.com/problems/consecutive-characters/
+- Synced: 2026-09-25T09:16:05.984Z
 
 ## Problem Description
 
-You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them. We repeatedly make duplicate removals on s until we no longer can. Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique. Example 1: Input: s = "abbaca" Output: "ca" Explanation: For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move. The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca". Example 2: Input: s = "azxxzy" Output: "ay" Constraints: 1 <= s.length <= 105 s consists of lowercase English letters.
+The power of the string is the maximum length of a non-empty substring that contains only one unique character. Given a string s, return the power of s. Example 1: Input: s = "leetcode" Output: 2 Explanation: The substring "ee" is of length 2 with the character 'e' only. Example 2: Input: s = "abbcccddddeeeeedcba" Output: 5 Explanation: The substring "eeeee" is of length 5 with the character 'e' only. Constraints: 1 <= s.length <= 500 s consists of only lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String. Review the synced source file for the implementation details.
