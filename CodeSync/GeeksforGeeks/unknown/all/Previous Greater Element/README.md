@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/previous-greater-element/1
-- Synced: 2026-09-25T12:45:34.068Z
+- Synced: 2026-09-25T12:45:37.976Z
 
 ## Problem Description
 
