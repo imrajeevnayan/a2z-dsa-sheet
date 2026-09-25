@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Related Interview Experiences, Related Articles, Remove Consecutive Duplicates String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T09:15:06.622Z
+ * Synced: 2026-09-25T10:01:03.861Z
  */
 
 class Solution {
