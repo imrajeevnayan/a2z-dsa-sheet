@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
-- Synced: 2026-09-25T12:51:42.452Z
+- Synced: 2026-09-25T12:51:43.255Z
 
 ## Problem Description
 
