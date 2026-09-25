@@ -7,13 +7,12 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-25T12:51:28.318Z
+ * Synced: 2026-09-25T12:51:34.169Z
  */
 
 class Solution {
     public List<String> braceExpansionII(String expression) {
         Set<String> ans = solve(expression);
-
         List<String> res = new ArrayList<>(ans);
         Collections.sort(res);
 
