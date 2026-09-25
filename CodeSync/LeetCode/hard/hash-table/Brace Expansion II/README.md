@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
-- Synced: 2026-09-25T12:51:06.616Z
+- Problem URL: https://leetcode.com/problems/brace-expansion-ii/?envType=daily-question&envId=2026-09-25
+- Synced: 2026-09-25T12:51:21.504Z
 
 ## Problem Description
 
