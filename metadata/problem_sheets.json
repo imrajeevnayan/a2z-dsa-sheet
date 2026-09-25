@@ -5217,5 +5217,10 @@
     "custom:rohit-negi_dsa_sheet",
     "custom:shradha-khapra-dsa-sheet"
   ],
-  "takeuforward:balanced-paranthesis": []
+  "takeuforward:balanced-paranthesis": [],
+  "geeksforgeeks:consecutive-elements2306": [
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet",
+    "GFG160"
+  ]
 }
