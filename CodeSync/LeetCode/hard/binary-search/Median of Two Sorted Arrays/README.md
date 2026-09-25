@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Array, Binary Search, Divide and Conquer
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/median-of-two-sorted-arrays/
-- Synced: 2026-07-13T16:16:43.590Z
+- Synced: 2026-09-24T20:34:51.833Z
 
 ## Problem Description
 
