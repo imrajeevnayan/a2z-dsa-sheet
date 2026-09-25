@@ -764,7 +764,9 @@
   "leetcode:remove-adjacent-almost-equal-characters": [],
   "leetcode:consecutive-characters": [
     "custom:Rohit-Negi_DSA_Sheet",
-    "custom:rohit-negi_dsa_sheet"
+    "custom:rohit-negi_dsa_sheet",
+    "custom:love-babbar-dsa-sheet",
+    "custom:shradha-khapra-dsa-sheet"
   ],
   "leetcode:consecutive-numbers": [],
   "leetcode:longest-consecutive-sequence": [
