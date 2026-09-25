@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-07-14T18:56:31.305Z",
+  "submissionTimestamp": "2026-09-25T09:17:10.810Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "43.13 MB",
   "difficulty": "Easy",
   "tags": [
     "String"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Consecutive Characters",
-  "problemUrl": "https://leetcode.com/problems/consecutive-characters/description/",
+  "problemUrl": "https://leetcode.com/problems/consecutive-characters/submissions/2152827381/",
   "submissionId": "71y29o"
 }
