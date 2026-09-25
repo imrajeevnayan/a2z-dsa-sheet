@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-24T20:35:52.709Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-24T20:35:59.611Z",
+  "runtime": "0.178 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -17,5 +17,5 @@
   "language": "Java",
   "problemTitle": "Median of 2 sorted arrays",
   "problemUrl": "https://takeuforward.org/practice/dsa/median-of-2-sorted-arrays",
-  "submissionId": "j8h1b7"
+  "submissionId": "50zmi0"
 }
