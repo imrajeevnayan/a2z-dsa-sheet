@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
-- Synced: 2026-09-25T11:42:50.205Z
+- Synced: 2026-09-25T12:10:10.255Z
 
 ## Problem Description
 
