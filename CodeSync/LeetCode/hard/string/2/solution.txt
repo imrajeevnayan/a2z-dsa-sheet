@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2
+ * URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T12:49:31.852Z
+ */
+
+class Solution {
+    public List<String> braceExpansionII(String expression) {
+        
+    }
+}
