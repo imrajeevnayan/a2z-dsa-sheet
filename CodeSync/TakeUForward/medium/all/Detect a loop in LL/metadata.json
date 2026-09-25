@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-24T20:03:38.840Z",
-  "runtime": "0.973 ms",
+  "submissionTimestamp": "2026-09-24T20:07:39.189Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -17,5 +17,5 @@
   "language": "Java",
   "problemTitle": "Detect a loop in LL",
   "problemUrl": "https://takeuforward.org/practice/dsa/detect-a-loop-in-ll",
-  "submissionId": "bktohf"
+  "submissionId": "gkks3y"
 }
