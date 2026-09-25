@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 4. Median of Two Sorted Arrays
- * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-100-liked
+ * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
  * Language: Text
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-10T14:47:23.151Z
+ * Synced: 2026-09-24T20:33:17.103Z
  */
 
 Input: nums1 = [1,3], nums2 = [2]
