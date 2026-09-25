@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: Brace Expansion II
- * URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
+ * URL: https://leetcode.com/problems/brace-expansion-ii/?envType=daily-question&envId=2026-09-25
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:51:06.616Z
+ * Synced: 2026-09-25T12:51:21.504Z
  */
 
-class Solution {
-    public List<String> braceExpansionII(String expression) {
-        
+else {
+
+                part = new HashSet<>();
+                part.add(String.valueOf(s.charAt(i)));
+
+                i++;
+            }
+
+            // Concatenate
+            Set<String> next = new HashSet<>();
+
+            for (String a : result) {
+                for (String b : part) {
+                    next.add(a + b);
+                }
+            }
+
+            result = next;
+        }
+
+        return result;
     }
 }
