@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T06:07:04.119Z
+ * Synced: 2026-09-25T06:07:12.836Z
  */
 
 class Solution {
@@ -22,3 +22,14 @@ class Solution {
         if (root == null) return 0;
         // Left subtree ki height
         int left = height(root.left);
+
+        // Right subtree ki height
+        int right = height(root.right);
+
+        // Is node ke through diameter
+        diameter = Math.max(diameter, left + right);
+
+        // Current node ki height
+        return 1 + Math.max(left, right);
+    }
+}
