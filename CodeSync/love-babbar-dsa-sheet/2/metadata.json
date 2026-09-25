@@ -1,15 +1,19 @@
 {
-  "submissionTimestamp": "2026-09-25T10:02:23.007Z",
+  "submissionTimestamp": "2026-09-25T12:49:31.852Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Hard",
   "tags": [
+    "Hash Table",
     "String",
-    "Stack"
+    "Backtracking",
+    "Stack",
+    "Breadth-First Search",
+    "Sorting"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Daily Question",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
-  "submissionId": "fsjrzj"
+  "problemUrl": "https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25",
+  "submissionId": "4off27"
 }
