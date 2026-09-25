@@ -1,40 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/3sum-closest/submissions/2148449099/
+ * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
  * Language: Problem List
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 19 ms
- * Memory: 45.48 MB
- * Synced: 2026-09-21T11:51:11.620Z
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Divide and Conquer
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T20:33:19.214Z
  */
 
-1class Solution {
-2    public int threeSumClosest(int[] nums, int target) {
-3        Arrays.sort(nums);
-4        int closestSum = Integer.MAX_VALUE / 2; // avoid overflow on diff
-5        
-6        for (int i = 0; i < nums.length - 2; i++) {
-7            int left = i + 1, right = nums.length - 1;
-8            
-9            while (left < right) {
-10                int sum = nums[i] + nums[left] + nums[right];
-11                
-12                // Track closest
-13                if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
-14                    closestSum = sum;
-15                }
-16                
-17                if (sum == target) {
-18                    return sum; // exact match, can't do better
-19                } else if (sum < target) {
-20                    left++;
-21                } else {
-22                    right--;
-23                }
-24            }
-25        }
-26        return closestSum;
-27    }
-28}
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int merge[]=new int[nums1.length+nums2.length];
+        int i=0,j=0,k=0;
+        while(i<nums1.length && j<nums2.length ){
+            if(nums1[i]<nums2[j])merge[k++]=nums1[i++];
+            else merge[k++]=nums2[j++];
+        }
+        while(i<nums1.length)merge[k++]=nums1[i++];
+        while(j<nums2.length)merge[k++]=nums2[j++];
+        int total=merge.length;
+        if(total %2==1)return (double)merge[total/2];
+        else return (merge[total/2-1]+merge[total/2])/2.0;
+    }
+}
