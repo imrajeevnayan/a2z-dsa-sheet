@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String
 - Runtime: 0 ms
-- Memory: 43.13 MB
-- Problem URL: https://leetcode.com/problems/consecutive-characters/submissions/2152827381/
-- Synced: 2026-09-25T09:50:10.481Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/consecutive-characters/description/
+- Synced: 2026-09-25T09:51:00.602Z
 
 ## Problem Description
 
