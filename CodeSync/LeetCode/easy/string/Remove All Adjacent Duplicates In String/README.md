@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.96 MB
 - Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2152821149/
-- Synced: 2026-09-25T09:08:42.395Z
+- Synced: 2026-09-25T09:10:25.899Z
 
 ## Problem Description
 
