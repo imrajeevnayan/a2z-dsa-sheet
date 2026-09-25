@@ -1,26 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+ * URL: https://leetcode.com/problems/consecutive-characters/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: String, Stack
+ * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T09:07:53.702Z
+ * Synced: 2026-09-25T09:16:05.984Z
  */
 
 class Solution {
-    public String removeDuplicates(String s) {
-        Stack<Character>st=new Stack<>();
-        for(char ch: s.toCharArray()){
-            if(!st.isEmpty() && st.peek()==ch) st.pop();
-            else st.push(ch);
+    public int maxPower(String s) {
+        int count=1,max=1;
+        for(int i=1;i<s.length();i++){
+            if(s.charAt(i)==s.charAt(i-1))count++;
+            else count=1;
+            max=Math.max(max,count);
         }
-        StringBuilder sb=new StringBuilder();
-        while(!st.isEmpty()){
-            sb.append(st.pop());
-        }
-       return sb.reverse().toString(); 
+        return max;
     }
 }
