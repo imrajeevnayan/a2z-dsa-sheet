@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Divide and Conquer
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-100-liked
-- Synced: 2026-07-10T14:47:23.151Z
+- Problem URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+- Synced: 2026-09-24T20:33:17.103Z
 
 ## Problem Description
 
