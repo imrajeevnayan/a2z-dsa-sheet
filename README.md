@@ -115,7 +115,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Striver A2Z DSA | 5 | 450 |
 | Love Babbar 450 | 3 | 450 |
 | Coder Army DSA | 0 | 350 |
-| GFG 160 | 496 | 160 |
+| GFG 160 | 497 | 160 |
 | CSES Problem Set | 15 | 300 |
 | InterviewBit Sets | 10 | 200 |
 | Nishant Chahar 151 | 36 | 151 |
