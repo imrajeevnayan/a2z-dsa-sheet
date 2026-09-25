@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-09-25T09:07:51.520Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Text",
+  "problemTitle": "1047. Remove All Adjacent Duplicates In String",
+  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
+  "submissionId": "lgraj1"
+}
