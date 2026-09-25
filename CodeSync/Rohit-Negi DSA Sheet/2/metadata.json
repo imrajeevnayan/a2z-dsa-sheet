@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-25T09:16:05.984Z",
+  "submissionTimestamp": "2026-09-25T10:02:23.007Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "String"
+    "String",
+    "Stack"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/consecutive-characters/",
-  "submissionId": "sk4za8"
+  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
+  "submissionId": "fsjrzj"
 }
