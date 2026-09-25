@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/consecutive-elements2306/1
-- Synced: 2026-09-25T09:15:06.622Z
+- Synced: 2026-09-25T10:01:03.861Z
 
 ## Problem Description
 
