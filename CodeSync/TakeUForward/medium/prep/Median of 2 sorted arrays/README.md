@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/median-of-2-sorted-arrays
-- Synced: 2026-09-24T20:35:51.901Z
+- Synced: 2026-09-24T20:35:52.709Z
 
 ## Problem Description
 
