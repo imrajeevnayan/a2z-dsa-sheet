@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:50:20.686Z
+ * Synced: 2026-09-25T12:51:06.616Z
  */
 
 class Solution {
