@@ -1,16 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/duplicate-emails/description/
+ * URL: https://leetcode.com/problems/consecutive-characters/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Database
+ * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T13:01:44.423Z
+ * Synced: 2026-09-25T09:16:05.984Z
  */
 
-SELECT email
-FROM Person
-GROUP BY email
-HAVING COUNT(email) > 1;
+class Solution {
+    public int maxPower(String s) {
+        int count=1,max=1;
+        for(int i=1;i<s.length();i++){
+            if(s.charAt(i)==s.charAt(i-1))count++;
+            else count=1;
+            max=Math.max(max,count);
+        }
+        return max;
+    }
+}
