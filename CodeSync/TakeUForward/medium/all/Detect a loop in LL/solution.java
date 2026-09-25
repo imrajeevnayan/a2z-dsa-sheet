@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:07:39.189Z
+ * Synced: 2026-09-24T20:07:41.289Z
  */
 
-/*Definition of singly linked list:
+class Solution {
