@@ -4,10 +4,10 @@
 - Language: Java
 - Difficulty: Medium
 - Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
-- Runtime: N/A
+- Runtime: 0.178 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/median-of-2-sorted-arrays
-- Synced: 2026-09-24T20:35:52.709Z
+- Synced: 2026-09-24T20:35:59.611Z
 
 ## Problem Description
 
