@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-25T10:01:40.298Z",
+  "submissionTimestamp": "2026-09-25T10:01:41.550Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -17,5 +17,5 @@
   "language": "Java",
   "problemTitle": "Remove Consecutive Characters",
   "problemUrl": "https://www.interviewbit.com/problems/remove-consecutive-characters/",
-  "submissionId": "1jbu90"
+  "submissionId": "dbs1ih"
 }
