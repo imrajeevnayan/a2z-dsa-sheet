@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: 60 questions to solve (Copy-9xpbvcmc)
-- Difficulty: Medium
-- Topics: Array, Hash Table, String, Sorting
+- Language: Problem List
+- Difficulty: Hard
+- Topics: Array, Binary Search, Divide and Conquer
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-06-23T19:14:01.516Z
+- Problem URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+- Synced: 2026-09-24T20:33:19.214Z
 
 ## Problem Description
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). Example 1: Input: nums1 = [1,3], nums2 = [2] Output: 2.00000 Explanation: merged array = [1,2,3] and median is 2. Example 2: Input: nums1 = [1,2], nums2 = [3,4] Output: 2.50000 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5. Constraints: nums1.length == m nums2.length == n 0 <= m <= 1000 0 <= n <= 1000 1 <= m + n <= 2000 -106 <= nums1[i], nums2[i] <= 106
 
 ## Explanation
 
-This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search, Divide and Conquer. Review the synced source file for the implementation details.
