@@ -2,35 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: PYTHON code:class Solution: def calculateSpan(self, arr): n = len(arr) st = [] ans =[] for i in range(n): while st and arr[st[-1]] <= arr[i]: st.pop() if not st: ans.append(i + 1) else: ans.append(i - st[-1]) st.append(i) return ans
  * URL: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
- * Language: class Solution: def calculateSpan(self, arr): span = [1] * len(arr) stack = [] for i, price in enumerate(arr): while stack and arr[stack[-1]] <= price: span[i] += span[stack[-1]] stack.pop() stack.append(i) return span
+ * Language: class Solution { public: vector<int> calculateSpan(vector<int>& arr) { // code here vector<int> span(arr.size()); stack<int> stk; for(int i=0; i<arr.size(); i++){ while(!stk.empty() && arr[stk.top()] <= arr[i]){ stk.pop(); } if(stk.empty()){ span[i]=(i+1); }else{ span[i] = (i-stk.top()); } stk.push(i); } return span; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:40:12.405Z
+ * Synced: 2026-09-25T11:42:50.205Z
  */
-
-import java.util.ArrayList;
-import java.util.Stack;
 
 class Solution {
     public ArrayList<Integer> calculateSpan(int[] arr) {
-        int n = arr.length;
-        ArrayList<Integer> span = new ArrayList<>(n);
-        Stack<Integer> stack = new Stack<>(); // Stores indices of elements in decreasing order
+        // code here
         
-        for (int i = 0; i < n; i++) {
-            while (!stack.isEmpty() && arr[stack.peek()] <= arr[i]) stack.pop();
-            
-            
-            if (stack.isEmpty())  span.add(i + 1);
-            else {
-                span.add(i - stack.peek());
-            }
-            
-            stack.push(i);
-        }
-        
-        return span;
     }
 }
