@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-22T18:58:04.778Z",
+  "submissionTimestamp": "2026-09-25T09:07:53.702Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
     "String",
-    "Dynamic Programming",
-    "Stack",
-    "Greedy"
+    "Stack"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "2",
-  "problemUrl": "https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/",
-  "submissionId": "38u1rk"
+  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
+  "submissionId": "fsjrzj"
 }
