@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:12:03.042Z
+ * Synced: 2026-09-25T12:12:04.523Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
         Deque<Integer> st = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
-
             while (!st.isEmpty() && arr[i] >= arr[st.peek()]) st.pop();
             
 
