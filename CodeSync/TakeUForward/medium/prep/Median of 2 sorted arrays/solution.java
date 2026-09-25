@@ -7,19 +7,17 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T20:35:51.901Z
+ * Synced: 2026-09-24T20:35:52.709Z
  */
 
 int i = 0, j = 0, k = 0;
         int[] merge = new int[arr1.length + arr2.length];
-    public double median(int[] arr1, int[] arr2) {
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] <= arr2[j]) {
                 merge[k++] = arr1[i++];
             } else {
                 merge[k++] = arr2[j++];
             }
-class Solution {
         }
 
         while (i < arr1.length) {
