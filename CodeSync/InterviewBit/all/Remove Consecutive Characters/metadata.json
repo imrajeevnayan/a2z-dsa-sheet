@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-09-25T10:01:41.550Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Programming",
+    "Strings",
+    "Description",
+    "Discussion",
+    "Submissions",
+    "Hints",
+    "Amazing Subarrays 26 Minutes Easy Asked in:",
+    "Convert to Palindrome 40 Minutes Easy Asked in:"
+  ],
+  "platform": "InterviewBit",
+  "language": "Java",
+  "problemTitle": "Remove Consecutive Characters",
+  "problemUrl": "https://www.interviewbit.com/problems/remove-consecutive-characters/",
+  "submissionId": "dbs1ih"
+}
