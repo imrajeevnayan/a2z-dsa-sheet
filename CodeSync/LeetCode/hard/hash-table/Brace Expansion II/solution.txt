@@ -7,26 +7,31 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-25T12:51:42.452Z
+ * Synced: 2026-09-25T12:51:43.255Z
  */
 
-part.add(String.valueOf(s.charAt(i)));
+public List<String> braceExpansionII(String expression) {
+        Set<String> ans = solve(expression);
+        List<String> res = new ArrayList<>(ans);
+        Collections.sort(res);
 
-                i++;
-            }
-
-            // Concatenate
-            Set<String> next = new HashSet<>();
-
-            for (String a : result) {
-                for (String b : part) {
-                    next.add(a + b);
-                }
-            }
-
-            result = next;
-        }
-
-        return result;
+        return res;
     }
-}
+    Set<String> solve(String s) {
+
+        Set<String> result = new HashSet<>();
+
+        // 1. Find top-level comma
+        int level = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+
+            if (s.charAt(i) == '{') level++;
+            else if (s.charAt(i) == '}') level--;
+
+            else if (s.charAt(i) == ',' && level == 0) {
+
+                Set<String> left = solve(s.substring(0, i));
+                Set<String> right = solve(s.substring(i + 1));
+
+class Solution {
