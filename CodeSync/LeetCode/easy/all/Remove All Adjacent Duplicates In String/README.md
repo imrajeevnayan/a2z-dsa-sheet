@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: String, Stack
 - Runtime: 0 ms
-- Memory: 47.19 MB
-- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2151864665/
-- Synced: 2026-09-24T10:14:11.608Z
+- Memory: 46.96 MB
+- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2152821149/
+- Synced: 2026-09-25T09:08:42.395Z
 
 ## Problem Description
 
