@@ -7,32 +7,32 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-25T12:51:44.302Z
+ * Synced: 2026-09-25T12:51:45.103Z
  */
 
-//    Now we need concatenation
+i = j;
+            }
 
-        result.add("");
+            // Normal character
+            else {
 
-        for (int i = 0; i < s.length();) {
+                part = new HashSet<>();
+                part.add(String.valueOf(s.charAt(i)));
 
-            Set<String> part;
+                i++;
+            }
 
-            // Bracket expression
-            if (s.charAt(i) == '{') {
+            // Concatenate
+            Set<String> next = new HashSet<>();
 
-                int level2 = 1;
-                int j = i + 1;
-
-                while (level2 > 0) {
-
-                    if (s.charAt(j) == '{') level2++;
-                    else if (s.charAt(j) == '}') level2--;
-
-                    j++;
+            for (String a : result) {
+                for (String b : part) {
+                    next.add(a + b);
                 }
+            }
 
-                // Remove { }
-                part = solve(s.substring(i + 1, j - 1));
+            result = next;
+        }
 
-                i = j;
+        return result;
+    }
