@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/remove-consecutive-characters/
-- Synced: 2026-09-25T10:01:40.298Z
+- Synced: 2026-09-25T10:01:41.550Z
 
 ## Problem Description
 
