@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: 0.178 ms
  * Memory: N/A
- * Synced: 2026-09-24T20:36:05.101Z
+ * Synced: 2026-09-24T20:36:37.878Z
  */
 
 int i = 0, j = 0, k = 0;
@@ -37,5 +37,3 @@ int i = 0, j = 0, k = 0;
         return (merge[n / 2 - 1] + merge[n / 2]) / 2.0;
     }
 }
-    public double median(int[] arr1, int[] arr2) {
-class Solution {
