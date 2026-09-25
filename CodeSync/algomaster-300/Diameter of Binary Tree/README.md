@@ -7,7 +7,7 @@
 - Runtime: 0.794 ms
 - Memory: N/A
 - Problem URL: https://takeuforward.org/practice/dsa/diameter-of-binary-tree
-- Synced: 2026-09-25T06:07:58.750Z
+- Synced: 2026-09-25T06:08:43.917Z
 
 ## Problem Description
 
