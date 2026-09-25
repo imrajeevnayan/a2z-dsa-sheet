@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-25T12:51:26.203Z
+ * Synced: 2026-09-25T12:51:28.318Z
  */
 
 class Solution {
@@ -19,7 +19,6 @@ class Solution {
 
         return res;
     }
-
     Set<String> solve(String s) {
 
         Set<String> result = new HashSet<>();
@@ -34,3 +33,4 @@ class Solution {
 
             else if (s.charAt(i) == ',' && level == 0) {
                 Set<String> left = solve(s.substring(0, i));
+                Set<String> right = solve(s.substring(i + 1));
