@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
- * Language: 60 questions to solve (Copy-9xpbvcmc)
- * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:14:01.516Z
+ * Synced: 2026-09-25T09:07:53.702Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-        
+    public String removeDuplicates(String s) {
+        Stack<Character>st=new Stack<>();
+        for(char ch: s.toCharArray()){
+            if(!st.isEmpty() && st.peek()==ch) st.pop();
+            else st.push(ch);
+        }
+        StringBuilder sb=new StringBuilder();
+        while(!st.isEmpty()){
+            sb.append(st.pop());
+        }
+       return sb.reverse().toString(); 
     }
 }
