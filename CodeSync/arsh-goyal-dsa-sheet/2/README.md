@@ -1,18 +1,18 @@
 # 2
 
 - Platform: LeetCode
-- Language: 60 questions to solve (Copy-9xpbvcmc)
-- Difficulty: Medium
-- Topics: Array, Hash Table, String, Sorting
+- Language: Problem List
+- Difficulty: Easy
+- Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
-- Synced: 2026-06-23T19:14:01.516Z
+- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+- Synced: 2026-09-25T09:07:53.702Z
 
 ## Problem Description
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order. Example 1: Input: strs = ["eat","tea","tan","ate","nat","bat"] Output: [["bat"],["nat","tan"],["ate","eat","tea"]] Explanation: There is no string in strs that can be rearranged to form "bat". The strings "nat" and "tan" are anagrams as they can be rearranged to form each other. The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other. Example 2: Input: strs = [""] Output: [[""]] Example 3: Input: strs = ["a"] Output: [["a"]] Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.
+You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them. We repeatedly make duplicate removals on s until we no longer can. Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique. Example 1: Input: s = "abbaca" Output: "ca" Explanation: For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move. The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca". Example 2: Input: s = "azxxzy" Output: "ay" Constraints: 1 <= s.length <= 105 s consists of lowercase English letters.
 
 ## Explanation
 
-This solution was accepted on LeetCode using 60 questions to solve (Copy-9xpbvcmc). The detected topics are Array, Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are String, Stack. Review the synced source file for the implementation details.
