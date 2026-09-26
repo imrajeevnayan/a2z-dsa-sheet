@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-13T22:31:31.836Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-09-25T12:55:51.550Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Group Anagrams",
-  "problemUrl": "https://leetcode.com/problems/group-anagrams/",
-  "submissionId": "ykewyk"
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/?utm=codolio",
+  "submissionId": "p4806a"
 }
