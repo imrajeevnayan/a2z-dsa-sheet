@@ -3,11 +3,11 @@
 - Platform: GeeksforGeeks
 - Language: import heapq class Solution: def topKFreq(self, arr, k): # Code here freq = {} for num in arr: freq[num] = freq.get(num, 0) + 1 max_heap = [] for num, fr in freq.items(): heapq.heappush(max_heap, (-fr, -num)) return [-heapq.heappop(max_heap)[1] for _ in range(k)]
 - Difficulty: Unknown
-- Topics: Uncategorized
+- Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1
-- Synced: 2026-09-25T12:54:29.445Z
+- Synced: 2026-09-25T12:54:38.843Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given a non-empty integer array arr[]. Your task is to find and return the top k
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using import heapq class Solution: def topKFreq(self, arr, k): # Code here freq = {} for num in arr: freq[num] = freq.get(num, 0) + 1 max_heap = [] for num, fr in freq.items(): heapq.heappush(max_heap, (-fr, -num)) return [-heapq.heappop(max_heap)[1] for _ in range(k)]. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using import heapq class Solution: def topKFreq(self, arr, k): # Code here freq = {} for num in arr: freq[num] = freq.get(num, 0) + 1 max_heap = [] for num, fr in freq.items(): heapq.heappush(max_heap, (-fr, -num)) return [-heapq.heappop(max_heap)[1] for _ in range(k)]. The detected topics are Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash. Review the synced source file for the implementation details.
