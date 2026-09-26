@@ -7,10 +7,10 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:55:51.550Z
+ * Synced: 2026-09-25T12:55:52.759Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-     Hash
+     HashMp
 }
