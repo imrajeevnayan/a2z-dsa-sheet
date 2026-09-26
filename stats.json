@@ -1,15 +1,22 @@
 {
-  "totalSolved": 0,
-  "currentStreak": 0,
-  "maxStreak": 0,
-  "lastSyncDate": null,
-  "todayCount": 0,
+  "totalSolved": 1,
+  "currentStreak": 1,
+  "maxStreak": 1,
+  "lastSyncDate": "2026-09-26",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "basic": 0
   },
-  "syncedProblems": {},
-  "activityHistory": {}
+  "syncedProblems": {
+    "GeeksForGeeks_Check_Level_Anagrams_in_Binary_Trees": true
+  },
+  "activityHistory": {
+    "2026-09-26": 1
+  },
+  "todayProblems": [
+    "Check Level Anagrams in Binary Trees"
+  ]
 }
