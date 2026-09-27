@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/group-anagrams/?utm=codolio
-- Synced: 2026-09-25T12:56:45.685Z
+- Synced: 2026-09-25T12:56:46.261Z
 
 ## Problem Description
 
