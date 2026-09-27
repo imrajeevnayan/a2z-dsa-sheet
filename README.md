@@ -8,17 +8,17 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 
 | Coding Sheet | Solved | Total |
 | :--- | :--- | :--- |
-| Blind 75 | 167 | 75 |
-| Grind 75 | 118 | 75 |
-| Grind 169 | 133 | 169 |
-| Neetcode 150 | 187 | 150 |
-| LeetCode 75 | 61 | 75 |
-| Top Interview 150 | 140 | 150 |
-| LeetCode 100 Most Liked | 151 | 100 |
+| Blind 75 | 169 | 75 |
+| Grind 75 | 120 | 75 |
+| Grind 169 | 135 | 169 |
+| Neetcode 150 | 189 | 150 |
+| LeetCode 75 | 63 | 75 |
+| Top Interview 150 | 142 | 150 |
+| LeetCode 100 Most Liked | 153 | 100 |
 | SQL 50 | 0 | 50 |
-| Strivers A2Z DSA Sheet | 204 | 455 |
-| Striver SDE Sheet | 144 | 191 |
-| Love Babbar Sheet | 103 | 445 |
+| Strivers A2Z DSA Sheet | 206 | 455 |
+| Striver SDE Sheet | 146 | 191 |
+| Love Babbar Sheet | 105 | 445 |
 | Code Army Sheet | 1 | 726 |
 | GFG 160 | 500 | 160 |
 | CSES Problem Set | 15 | 300 |
