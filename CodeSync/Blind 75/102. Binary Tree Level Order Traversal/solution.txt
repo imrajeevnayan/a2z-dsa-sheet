@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T03:26:48.919Z
+ * Synced: 2026-09-25T19:26:37.891Z
  */
 
 Input: root = [3,9,20,null,null,15,7]
