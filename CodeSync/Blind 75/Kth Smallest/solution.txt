@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:05:01.211Z
+ * Synced: 2026-09-25T13:05:03.252Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
 
         for (int n : arr) {
             pq.add(n);
-        }
+        
 
         while (k > 1) {
             pq.poll();
