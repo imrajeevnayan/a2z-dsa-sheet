@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
- * Runtime: 0 ms
+ * Runtime: 17 ms
  * Memory: 87.83 MB
- * Synced: 2026-09-25T13:09:20.398Z
+ * Synced: 2026-09-25T13:09:36.410Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         Set<Integer> set = new HashSet<>();
         for(int n :nums){
             if(!s.add(n)) return n;
-        }
+        
         return -1;
     }
 }
