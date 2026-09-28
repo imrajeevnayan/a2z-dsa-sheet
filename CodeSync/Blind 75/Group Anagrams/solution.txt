@@ -7,24 +7,17 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:00:23.854Z
+ * Synced: 2026-09-25T13:00:29.156Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
      HashMap<String,List<String>ans=new HashMap<>();
 }
- HashMap<String,List<String>>ans=new HashMap<>();
-        for(String s:strs){
-            char c[]=s.toCharArray();
-            Arrays.sort(c);
-            String key=String.valueOf(c);
-            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
-        }
+
      for(String s:strs){
         char ch[]=s.toCharArray();
      }
-        return new ArrayList<>(ans.values());
         Arrays.sort(ch);
         String key=String.valueOf(c);
         ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
