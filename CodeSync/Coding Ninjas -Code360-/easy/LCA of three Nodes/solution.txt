@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 6570 ms
  * Memory: N/A
- * Synced: 2026-09-25T16:45:24.529Z
+ * Synced: 2026-09-25T16:45:28.984Z
  */
 
 int top = 0;
@@ -47,3 +47,5 @@ int top = 0;
         }
     }
 }
+ 
+        int cols = matrix[0].length;
