@@ -1,0 +1,52 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Print Spiral
+ * URL: https://www.naukri.com/code360/problems/print-spiral_547
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 6570 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T16:44:48.098Z
+ */
+
+if (rows == 0) return;
+        
+        int cols = matrix[0].length;
+ 
+        int top = 0;
+        int bottom = rows - 1;
+        int left = 0;
+        int right = cols - 1;
+ 
+        while (top <= bottom && left <= right) {
+ 
+            // Print top row
+            for (int j = left; j <= right; j++) {
+                System.out.print(matrix[top][j] + " ");
+            }
+            top++;
+ 
+            // Print right column
+            for (int i = top; i <= bottom; i++) {
+                System.out.print(matrix[i][right] + " ");
+            }
+            right--;
+ 
+            // Print bottom row
+            if (top <= bottom) {
+                for (int j = right; j >= left; j--) {
+                    System.out.print(matrix[bottom][j] + " ");
+                }
+                bottom--;
+            }
+ 
+            // Print left column
+            if (left <= right) {
+                for (int i = bottom; i >= top; i--) {
+                    System.out.print(matrix[i][left] + " ");
+                }
+                left++;
+            }
+        }
+    }
