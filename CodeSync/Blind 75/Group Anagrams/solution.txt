@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:58:14.284Z
+ * Synced: 2026-09-25T12:58:15.082Z
  */
 
 class Solution {
@@ -26,4 +26,5 @@ class Solution {
      }
         return new ArrayList<>(ans.values());
         Arrays.sort(ch);
+        
     }
