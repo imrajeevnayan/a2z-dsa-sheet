@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:29:26.847Z
+ * Synced: 2026-09-25T19:29:45.705Z
  */
 
 // Sirf current level ke nodes process karo
@@ -23,15 +23,14 @@
 
         // Jab tak queue empty na ho
         q.add(root);
-        // Root ko queue me daal do
-
         Queue<TreeNode> q = new LinkedList<>();
-        // BFS ke liye Queue use karenge
-
         if (root == null)  return ans;
-        // Agar tree empty hai to empty answer return kar do
-
         List<List<Integer>> ans = new ArrayList<>();
-        // Final answer store karega (har level ki alag list)
     public List<List<Integer>> levelOrder(TreeNode root) {
 class Solution {
+
+                // Queue se front node nikalo
+                TreeNode curr = q.remove();
+
+                // Current node ki value level list me add karo
+                list.add(curr.val);
