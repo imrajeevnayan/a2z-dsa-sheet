@@ -1,21 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Duplicate Number
- * URL: https://leetcode.com/problems/find-the-duplicate-number/submissions/2101978704/?utm=codolio
+ * URL: https://leetcode.com/problems/find-the-duplicate-number/?utm=codolio
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
  * Runtime: 0 ms
- * Memory: 91.91 MB
- * Synced: 2026-09-25T13:08:50.962Z
+ * Memory: 87.83 MB
+ * Synced: 2026-09-25T13:09:16.326Z
  */
 
 class Solution {
     public int findDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            if (set.contains(num))  return num;
-            set.add(num);
+      Set<Integer>s=new HashSet<>();
+        for(int n :nums){
+            if(!s.add(n)) return n;
         }
         return -1;
     }
