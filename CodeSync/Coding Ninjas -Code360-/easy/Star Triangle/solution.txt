@@ -1,0 +1,17 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Star Triangle
+ * URL: https://www.naukri.com/code360/problems/star-triangle_6573671
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T16:27:21.027Z
+ */
+
+public class Solution {
+    public static void nStarTriangle(int n) {
+        // Write your code here
+    }
+}
