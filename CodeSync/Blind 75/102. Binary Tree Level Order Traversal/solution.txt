@@ -1,34 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 102. Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:26:50.704Z
+ * Synced: 2026-09-25T19:27:28.839Z
  */
 
-TreeNode curr = q.remove();
+// Sirf current level ke nodes process karo
+            for (int i = 0; i < n; i++) {
 
-                // Current node ki value level list me add karo
-                list.add(curr.val);
+            List<Integer> list = new ArrayList<>();
+            // Current level ki values store karne ke liye
+            int n = q.size();
 
-                // Agar left child hai to next level ke liye queue me add karo
-                if (curr.left != null)
-                    q.add(curr.left);
 
-                // Agar right child hai to next level ke liye queue me add karo
-                if (curr.right != null)
-                    q.add(curr.right);
-            }
+            // Current level me jitne nodes hain unki count
+        while (!q.isEmpty()) {
 
-            // Current level complete ho gaya, answer me add kar do
-            ans.add(list);
-        }
+        // Jab tak queue empty na ho
+        q.add(root);
+        // Root ko queue me daal do
 
-        // Final level order traversal return karo
-        return ans;
-    }
-}
+        Queue<TreeNode> q = new LinkedList<>();
+        // BFS ke liye Queue use karenge
+
+        if (root == null)  return ans;
+        // Agar tree empty hai to empty answer return kar do
+
+        List<List<Integer>> ans = new ArrayList<>();
+        // Final answer store karega (har level ki alag list)
+    public List<List<Integer>> levelOrder(TreeNode root) {
+class Solution {
