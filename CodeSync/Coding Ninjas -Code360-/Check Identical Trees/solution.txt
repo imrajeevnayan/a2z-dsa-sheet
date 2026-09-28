@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check Identical Trees
+ * URL: https://www.naukri.com/code360/problems/identical-trees_799364
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 14634 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T17:21:36.880Z
+ */
+
+public class Solution {
+ 
+    public static boolean identicalTrees(
+            BinaryTreeNode<Integer> root1,
+            BinaryTreeNode<Integer> root2) {
+ 
+        // Dono empty hain
+        if (root1 == null && root2 == null) {
+            return true;
+        }
+ 
+        // Ek empty hai, doosra nahi
+        if (root1 == null || root2 == null) {
+            return false;
+        }
+ 
+        // Data different hai
+        if (!root1.data.equals(root2.data)) {
+            return false;
+        }
+ 
+        // Left aur right subtree compare karo
+        return identicalTrees(root1.left, root2.left)
+                && identicalTrees(root1.right, root2.right);
+    }
+}
