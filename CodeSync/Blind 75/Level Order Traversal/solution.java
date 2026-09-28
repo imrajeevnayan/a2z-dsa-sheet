@@ -7,18 +7,12 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:27:26.220Z
+ * Synced: 2026-09-25T19:27:38.551Z
  */
 
 List<Integer> list = new ArrayList<>();
-
-            // Sirf current level ke nodes process karo
             for (int i = 0; i < n; i++) {
-
-                // Queue se front node nikalo
                 TreeNode curr = q.remove();
-
-                // Current node ki value level list me add karo
                 list.add(curr.val);
             int n = q.size();
 
@@ -29,8 +23,6 @@ List<Integer> list = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
 class Solution {
-
-                // Agar left child hai to next level ke liye queue me add karo
                 if (curr.left != null)
                     q.add(curr.left);
 
@@ -41,3 +33,9 @@ class Solution {
 
             // Current level complete ho gaya, answer me add kar do
             ans.add(list);
+        }
+
+        // Final level order traversal return karo
+        return ans;
+    }
+}
