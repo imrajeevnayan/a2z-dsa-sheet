@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Day 17 : Count Leaf Nodes
+ * URL: https://www.naukri.com/code360/problems/count-leaf-nodes_893055
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 3845 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T17:23:50.539Z
+ */
+
+public class Solution {
+    public static int noOfLeafNodes(BinaryTreeNode<Integer> root) {
+        if (root == null) return 0;
+        
+ 
+        // Leaf node
+        if (root.left == null && root.right == null) {
+            return 1;
+        }
+        return noOfLeafNodes(root.left) + noOfLeafNodes(root.right);
+    }
+}
