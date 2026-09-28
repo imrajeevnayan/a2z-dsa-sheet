@@ -1,0 +1,45 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse Level Order Traversal
+ * URL: https://www.naukri.com/code360/problems/reverse-level-order-traversal_764339
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 5709 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T17:06:57.011Z
+ */
+
+import java.util.ArrayList;
+import java.util.Queue;
+import java.util.LinkedList;
+ 
+public class Solution {
+ 
+    public static ArrayList<Integer> reverseLevelOrder(TreeNode root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null) return ans;
+        
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+ 
+        while (!q.isEmpty()) {
+            TreeNode current = q.remove();
+ 
+            // Add at the beginning
+            ans.add(0, current.data);
+ 
+            // Left first so that after reversing,
+            // we get right to left
+            if (current.left != null) {
+                q.add(current.left);
+            }
+ 
+            if (current.right != null) {
+                q.add(current.right);
+            }
+        }
+ 
+        return ans;
+    }
+}
