@@ -41,3 +41,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Graph Mastery Sheet | 0 | 29 |
 | Heap Mastery Sheet | 0 | 22 |
 | 4 | [Remove Duplicates from Linked List](https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1) | GeeksForGeeks | Medium | 27 Sept 2026 | 08:46 pm |
+| 5 | [Linked List Traversal](https://www.geeksforgeeks.org/problems/linkedlist-traversal/1) | GeeksForGeeks | Basic | 28 Sept 2026 | 02:35 pm |
