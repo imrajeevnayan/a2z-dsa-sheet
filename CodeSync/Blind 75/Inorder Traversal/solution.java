@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: 0.780 ms
  * Memory: N/A
- * Synced: 2026-09-25T17:24:31.948Z
+ * Synced: 2026-09-25T18:57:50.835Z
  */
 
 return ans;
@@ -18,4 +18,6 @@ return ans;
         ans.add(root.data);
         inorderTraversal(root.right, ans);
     }
+        inorderTraversal(root, ans);
+        List<Integer> ans = new ArrayList<>();
 }
