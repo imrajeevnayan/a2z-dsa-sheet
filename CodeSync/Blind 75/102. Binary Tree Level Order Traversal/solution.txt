@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 102. Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2153326248/
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 46.68 MB
- * Synced: 2026-09-25T19:30:36.705Z
+ * Synced: 2026-09-25T19:30:39.307Z
  */
 
 for (int i = 0; i < n; i++) {
