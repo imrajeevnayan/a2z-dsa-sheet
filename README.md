@@ -46,3 +46,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 7 | [Add 1 to a Linked List Number](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | GeeksForGeeks | Medium | 28 Sept 2026 | 06:18 pm |
 | 8 | [Delete All Occurrences in a Linked list](https://www.geeksforgeeks.org/problems/delete-keys-in-a-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 12:21 am |
 | 9 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | LeetCode | Easy | 29 Sept 2026 | 12:22 am |
+| 10 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | LeetCode | Easy | 29 Sept 2026 | 12:36 am |

@@ -1,11 +1,11 @@
 {
-  "totalSolved": 7,
+  "totalSolved": 8,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
-    "easy": 1,
+    "easy": 2,
     "medium": 4,
     "hard": 0,
     "basic": 2
@@ -17,13 +17,14 @@
     "GeeksForGeeks_Insertion_in_Empty_Circular_List": true,
     "GeeksForGeeks_Add_1_to_a_Linked_List_Number": true,
     "GeeksForGeeks_Delete_All_Occurrences_in_a_Linked_list": true,
-    "LeetCode_Maximum_Nesting_Depth_of_the_Parentheses": true
+    "LeetCode_Maximum_Nesting_Depth_of_the_Parentheses": true,
+    "LeetCode_Minimum_Pair_Removal_to_Sort_Array_I": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 2
+    "2026-09-29": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -32,6 +33,7 @@
     "Insertion in Empty Circular List",
     "Add 1 to a Linked List Number",
     "Delete All Occurrences in a Linked list",
-    "Maximum Nesting Depth of the Parentheses"
+    "Maximum Nesting Depth of the Parentheses",
+    "Minimum Pair Removal to Sort Array I"
   ]
 }
