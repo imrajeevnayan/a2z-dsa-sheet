@@ -1,25 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Group Anagrams
- * URL: https://leetcode.com/problems/group-anagrams/?utm=codolio
+ * URL: https://leetcode.com/problems/group-anagrams/submissions/2152988230/?utm=codolio
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
- * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-09-25T13:01:53.166Z
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 7 ms
+ * Memory: 49.58 MB
+ * Synced: 2026-09-25T13:02:17.089Z
  */
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
      HashMap<String,List<String>>ans=new HashMap<>();
-   }
-
      for(String s:strs){
         char ch[]=s.toCharArray();
-     }
         Arrays.sort(ch);
         String key=String.valueOf(ch);
         ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+     }
      return new ArrayList<>(ans.values());
+   }
+
     }
