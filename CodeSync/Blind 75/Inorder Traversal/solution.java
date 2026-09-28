@@ -7,14 +7,10 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: 0.780 ms
  * Memory: N/A
- * Synced: 2026-09-25T17:10:32.024Z
+ * Synced: 2026-09-25T17:11:01.340Z
  */
 
-class Solution {
-    public List<Integer> inorder(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        inorderTraversal(root, ans);
-        return ans;
+return ans;
     }
     public void inorderTraversal(TreeNode root, List<Integer> ans) {
         if (root == null) return;
@@ -22,3 +18,4 @@ class Solution {
         ans.add(root.data);
         inorderTraversal(root.right, ans);
     }
+}
