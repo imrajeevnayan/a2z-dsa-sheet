@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:57:28.777Z
+ * Synced: 2026-09-25T12:57:33.448Z
  */
 
 class Solution {
@@ -22,5 +22,5 @@ class Solution {
             ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
         }
         return new ArrayList<>(ans.values());
-     for(Str)
+     for(String s:str)
     }
