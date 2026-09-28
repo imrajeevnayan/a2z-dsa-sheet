@@ -7,13 +7,12 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:27:49.623Z
+ * Synced: 2026-09-25T19:28:23.243Z
  */
 
 List<Integer> list = new ArrayList<>();
             for (int i = 0; i < n; i++) {
                 TreeNode curr = q.remove();
-                list.add(curr.val);
             int n = q.size();
 
         while (!q.isEmpty()) {
@@ -23,16 +22,3 @@ List<Integer> list = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
 class Solution {
-                if (curr.left != null) q.add(curr.left);
-                    q.add(curr.right);
-            }
-
-            // Current level complete ho gaya, answer me add kar do
-            ans.add(list);
-        }
-
-        // Final level order traversal return karo
-        return ans;
-    }
-                     if (curr.right != null)
-}
