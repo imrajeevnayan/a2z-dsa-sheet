@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Postorder Traversal
+ * URL: https://www.naukri.com/code360/problems/name_2035933
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 9553 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T16:51:40.911Z
+ */
+
+import java.util.List;
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+    public static List<Integer> postorderTraversal(TreeNode<Integer> root) {
+        List<Integer> ans = new ArrayList<>();
+        postorder(root, ans);
+        return ans;
+    }
+ 
+    public static void postorder(TreeNode<Integer> root, List<Integer> ans) {
+        if (root == null) return;
+ 
+        postorder(root.left, ans);
+        postorder(root.right, ans);
+        ans.add(root.data);
+    }
+}
