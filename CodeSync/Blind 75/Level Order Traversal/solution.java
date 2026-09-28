@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:27:38.551Z
+ * Synced: 2026-09-25T19:27:49.623Z
  */
 
 List<Integer> list = new ArrayList<>();
@@ -23,11 +23,7 @@ List<Integer> list = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
 class Solution {
-                if (curr.left != null)
-                    q.add(curr.left);
-
-                // Agar right child hai to next level ke liye queue me add karo
-                if (curr.right != null)
+                if (curr.left != null) q.add(curr.left);
                     q.add(curr.right);
             }
 
@@ -38,4 +34,5 @@ class Solution {
         // Final level order traversal return karo
         return ans;
     }
+                     if (curr.right != null)
 }
