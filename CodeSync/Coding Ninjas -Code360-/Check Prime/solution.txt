@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check Prime
+ * URL: https://www.naukri.com/code360/problems/check-prime_624674
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 258 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T16:42:39.015Z
+ */
+
+import java.util.Scanner;
+ 
+public class Solution {
+ 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+ 
+        int n = sc.nextInt();
+ 
+        if (n < 2) {
+            System.out.println(false);
+            return;
+        }
+ 
+        boolean isPrime = true;
+ 
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+ 
+        System.out.println(isPrime);
+    }
+}
