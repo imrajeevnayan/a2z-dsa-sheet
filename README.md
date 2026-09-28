@@ -16,9 +16,9 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Top Interview 150 | 142 | 150 |
 | LeetCode 100 Most Liked | 153 | 100 |
 | SQL 50 | 0 | 50 |
-| Strivers A2Z DSA Sheet | 206 | 455 |
-| Striver SDE Sheet | 146 | 191 |
-| Love Babbar Sheet | 105 | 445 |
+| Strivers A2Z DSA Sheet | 207 | 455 |
+| Striver SDE Sheet | 147 | 191 |
+| Love Babbar Sheet | 106 | 445 |
 | Code Army Sheet | 1 | 726 |
 | GFG 160 | 503 | 160 |
 | CSES Problem Set | 15 | 300 |
@@ -31,7 +31,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 6 Companies 30 Days | 33 | 90 |
 | Striver 79 | 37 | 79 |
 | Atharva Patil's 150 Sheet | 37 | 150 |
-| AlgoMaster 300 | 17 | 300 |
+| AlgoMaster 300 | 18 | 300 |
 | Arsh DSA Sheet | 0 | 287 |
 | Neetcode 250 | 0 | 250 |
 | 20 Essential DSA Patterns | 0 | 180 |
