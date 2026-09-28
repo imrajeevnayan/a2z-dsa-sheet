@@ -7,14 +7,14 @@
  * Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
  * Runtime: 17 ms
  * Memory: 87.83 MB
- * Synced: 2026-09-25T13:09:37.782Z
+ * Synced: 2026-09-25T13:09:42.721Z
  */
 
 class Solution {
     public int findDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for(int n :nums){
-            if(!s.add(n)) return n;
+            if(!s.add(n)) return n;\
         return -1;
     }
 }
