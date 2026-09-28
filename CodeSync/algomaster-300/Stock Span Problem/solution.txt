@@ -7,24 +7,14 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:15:43.108Z
+ * Synced: 2026-09-25T19:13:35.808Z
  */
 
-class Solution {
-    public ArrayList<Integer> calculateSpan(int[] arr) {
-        int n = arr.length;
-        ArrayList<Integer> result =new ArrayList<>(Collections.nCopies(n, 1));
-        Deque<Integer> st = new ArrayDeque<>();
-
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[i] >= arr[st.peek()]) st.pop();
-            
-
-            if (!st.isEmpty()) result.set(i, i - st.peek());
-            else result.set(i, i + 1);
-    
-            st.push(i);
-        }
-        return result;
-    }
-}
+Input: arr[] = [100, 80, 90, 120]
+Output: [1, 1, 2, 4]
+Explanation: Consider each day one by one:
+Day 1 (100): Span = 1.
+Day 2 (80): Span = 1 because the previous price (100) is greater than 80.
+Day 3 (90): Span = 2 because 80 ≤ 90, but 100 > 90.
+Day 4 (120): Span = 4 because 100, 80, and 90 are all less than or equal to 120.
+Hence, the output is [1, 1, 2, 4].
