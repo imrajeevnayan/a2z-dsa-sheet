@@ -1,25 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 3
- * URL: https://leetcode.com/problems/group-anagrams/submissions/2152988230/?utm=codolio
+ * URL: https://leetcode.com/problems/top-k-frequent-elements/description/?utm=codolio
  * Language: Problem List
- * Difficulty: Unknown
- * Topics: Uncategorized
- * Runtime: 7 ms
- * Memory: 49.58 MB
- * Synced: 2026-09-25T13:02:16.423Z
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T13:05:34.858Z
  */
 
-1class Solution {
-2    public List<List<String>> groupAnagrams(String[] strs) {
-3     HashMap<String,List<String>>ans=new HashMap<>();
-4     for(String s:strs){
-5        char ch[]=s.toCharArray();
-6        Arrays.sort(ch);
-7        String key=String.valueOf(ch);
-8        ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
-9     }
-10     return new ArrayList<>(ans.values());
-11   }
-12
-13    }
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+        HashMap<Integer,Integer>map=new HashMap<>();
+        for(int n:nums)map.put(n,map.getOrDefault(n,0)+1);
+        PriorityQueue<Integer>pq=new PriorityQueue<>((a,b)->map.get(b)-map.get(a));
+        pq.addAll(map.keySet());
+        int ans[]=new int[k];
+        for(int i=0;i<k;i++) ans[i]=pq.poll();
+        return ans;
+    }
+}
