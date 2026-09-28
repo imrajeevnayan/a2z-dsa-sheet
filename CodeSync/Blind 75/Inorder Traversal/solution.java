@@ -7,7 +7,7 @@
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
  * Runtime: 0.780 ms
  * Memory: N/A
- * Synced: 2026-09-25T18:57:50.835Z
+ * Synced: 2026-09-25T19:05:47.298Z
  */
 
 return ans;
@@ -20,4 +20,5 @@ return ans;
     }
         inorderTraversal(root, ans);
         List<Integer> ans = new ArrayList<>();
+    public List<Integer> inorder(TreeNode root) {
 }
