@@ -2,13 +2,33 @@
  * Platform: LeetCode
  * Problem: 102. Binary Tree Level Order Traversal
  * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:26:37.891Z
+ * Synced: 2026-09-25T19:26:50.704Z
  */
 
-Input: root = [3,9,20,null,null,15,7]
-Output: [[3],[9,20],[15,7]]
+TreeNode curr = q.remove();
+
+                // Current node ki value level list me add karo
+                list.add(curr.val);
+
+                // Agar left child hai to next level ke liye queue me add karo
+                if (curr.left != null)
+                    q.add(curr.left);
+
+                // Agar right child hai to next level ke liye queue me add karo
+                if (curr.right != null)
+                    q.add(curr.right);
+            }
+
+            // Current level complete ho gaya, answer me add kar do
+            ans.add(list);
+        }
+
+        // Final level order traversal return karo
+        return ans;
+    }
+}
