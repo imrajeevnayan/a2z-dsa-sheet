@@ -5,9 +5,9 @@
  * Language: Java
  * Difficulty: Medium
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
- * Runtime: N/A
+ * Runtime: 0.663 ms
  * Memory: N/A
- * Synced: 2026-09-25T19:28:23.243Z
+ * Synced: 2026-09-25T19:28:32.554Z
  */
 
 List<Integer> list = new ArrayList<>();
