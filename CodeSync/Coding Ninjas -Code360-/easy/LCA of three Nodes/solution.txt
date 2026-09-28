@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 6570 ms
  * Memory: N/A
- * Synced: 2026-09-25T16:45:23.778Z
+ * Synced: 2026-09-25T16:45:24.529Z
  */
 
 int top = 0;
@@ -37,7 +37,7 @@ int top = 0;
                 bottom--;
             }
  
-            // Pri left column
+            //  left column
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
                     System.out.print(matrix[i][left] + " ");
