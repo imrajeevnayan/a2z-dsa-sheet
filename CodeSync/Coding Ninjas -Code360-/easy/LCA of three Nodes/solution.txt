@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 6570 ms
  * Memory: N/A
- * Synced: 2026-09-25T16:45:29.852Z
+ * Synced: 2026-09-25T16:45:40.003Z
  */
 
 int top = 0;
@@ -47,4 +47,5 @@ int top = 0;
         if (rows == 0) return;
         int rows = matrix.length;
     public static void spiralPrint(int matrix[][]) {
-public class Solution {
+                left++;
+            }
