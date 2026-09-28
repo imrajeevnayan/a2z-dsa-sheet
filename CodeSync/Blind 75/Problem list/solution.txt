@@ -1,27 +1,29 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/mirror_5204
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/sum-root-to-leaf_1095657
+ * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T04:28:17.777Z
+ * Synced: 2026-09-25T17:14:08.080Z
  */
 
 public class Solution {
  
-    public static void mirrorBinaryTree(BinaryTreeNode<Integer> root) {
-        if (root == null)  return;
-        
-        // Swap left and right
-        BinaryTreeNode<Integer> temp = root.left;
-        root.left = root.right;
-        root.right = temp;
+    public static int rootToLeafSum(BinaryTreeNode<Integer> root) {
+        return solve(root, 0);
+    }
  
-        // Mirror left and right subtrees
-        mirrorBinaryTree(root.left);
-        mirrorBinaryTree(root.right);
+    public static int solve(BinaryTreeNode<Integer> root, int sum) {
+        if (root == null)  return 0;
+    
+        sum = sum * 10 + root.data;
+ 
+        if (root.left == null && root.right == null) {
+            return sum;
+        }
+        return solve(root.left, sum) + solve(root.right, sum);
     }
 }
