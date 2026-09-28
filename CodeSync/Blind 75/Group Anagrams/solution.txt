@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:59:43.147Z
+ * Synced: 2026-09-25T12:59:43.491Z
  */
 
 class Solution {
@@ -28,5 +28,5 @@ class Solution {
         Arrays.sort(ch);
         String key=String.valueOf(c);
 
-        ans.computeIfAbsent(key,)
+        ans.computeIfAbsent(key,k)
     }
