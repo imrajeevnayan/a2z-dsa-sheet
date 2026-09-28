@@ -1,12 +1,12 @@
 {
-  "totalSolved": 5,
-  "currentStreak": 3,
-  "maxStreak": 3,
-  "lastSyncDate": "2026-09-28",
-  "todayCount": 3,
+  "totalSolved": 6,
+  "currentStreak": 4,
+  "maxStreak": 4,
+  "lastSyncDate": "2026-09-29",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 3,
+    "medium": 4,
     "hard": 0,
     "basic": 2
   },
@@ -15,18 +15,21 @@
     "GeeksForGeeks_Remove_Duplicates_from_Linked_List": true,
     "GeeksForGeeks_Linked_List_Traversal": true,
     "GeeksForGeeks_Insertion_in_Empty_Circular_List": true,
-    "GeeksForGeeks_Add_1_to_a_Linked_List_Number": true
+    "GeeksForGeeks_Add_1_to_a_Linked_List_Number": true,
+    "GeeksForGeeks_Delete_All_Occurrences_in_a_Linked_list": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
-    "2026-09-28": 3
+    "2026-09-28": 3,
+    "2026-09-29": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
     "Remove Duplicates from Linked List",
     "Linked List Traversal",
     "Insertion in Empty Circular List",
-    "Add 1 to a Linked List Number"
+    "Add 1 to a Linked List Number",
+    "Delete All Occurrences in a Linked list"
   ]
 }

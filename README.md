@@ -44,3 +44,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 5 | [Linked List Traversal](https://www.geeksforgeeks.org/problems/linkedlist-traversal/1) | GeeksForGeeks | Basic | 28 Sept 2026 | 02:35 pm |
 | 6 | [Insertion in Empty Circular List](https://www.geeksforgeeks.org/problems/insertion-in-an-empty-circular-linked-list/1) | GeeksForGeeks | Basic | 28 Sept 2026 | 02:37 pm |
 | 7 | [Add 1 to a Linked List Number](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | GeeksForGeeks | Medium | 28 Sept 2026 | 06:18 pm |
+| 8 | [Delete All Occurrences in a Linked list](https://www.geeksforgeeks.org/problems/delete-keys-in-a-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 12:21 am |
