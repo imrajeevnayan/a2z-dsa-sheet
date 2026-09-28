@@ -1,0 +1,39 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Diameter Of Binary Tree
+ * URL: https://www.naukri.com/code360/problems/diameter-of-the-binary-tree_920552
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 11502 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T16:49:54.249Z
+ */
+
+public class Solution {
+ 
+    public static int diameterOfBinaryTree(TreeNode<Integer> root) {
+        if (root == null) {
+            return 0;
+        }
+ 
+        int[] ans = new int[1];
+        height(root, ans);
+ 
+        return ans[0];
+    }
+ 
+    public static int height(TreeNode<Integer> root, int[] ans) {
+        if (root == null) {
+            return 0;
+        }
+ 
+        int left = height(root.left, ans);
+        int right = height(root.right, ans);
+ 
+        // Diameter through current node
+        ans[0] = Math.max(ans[0], left + right);
+ 
+        return 1 + Math.max(left, right);
+    }
+}
