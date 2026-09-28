@@ -1,24 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 3
- * URL: https://leetcode.com/problems/group-anagrams/description/?utm=codolio
+ * URL: https://leetcode.com/problems/find-the-duplicate-number/description/?utm=codolio
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * Topics: Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:55:28.415Z
+ * Synced: 2026-09-25T13:08:05.587Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-      HashMap<String,List<String>>ans=new HashMap<>();
-        for(String s:strs){
-            char c[]=s.toCharArray();
-            Arrays.sort(c);
-            String key=String.valueOf(c);
-            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+    public int findDuplicate(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            if (set.contains(num))  return num;
+            set.add(num);
         }
-        return new ArrayList<>(ans.values());
+        return -1;
     }
 }
