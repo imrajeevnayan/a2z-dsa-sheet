@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Kth Smallest
+ * URL: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-25T13:02:38.564Z
+ */
+
+class Solution {
+    public int kthSmallest(int[] arr, int k) {
+      PriorityQueue<Integer>pq=new PriorityQueue<>();
+      for(int n :arr)pq.add(n);
+      for(int i=0;i<k-1;i++)pq.poll();
+     
+       return pq.poll(); 
+    }
+}
