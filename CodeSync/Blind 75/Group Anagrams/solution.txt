@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:58:09.513Z
+ * Synced: 2026-09-25T12:58:10.348Z
  */
 
 class Solution {
@@ -25,5 +25,5 @@ class Solution {
         char ch[]=s.toCharArray();
      }
         return new ArrayList<>(ans.values());
-        Arrays.sort
+        Arrays.sort()
     }
