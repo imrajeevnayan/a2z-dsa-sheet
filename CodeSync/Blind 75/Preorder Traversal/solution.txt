@@ -1,22 +1,26 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: Coding Ninjas (Code360)
  * Problem: Preorder Traversal
- * URL: https://www.geeksforgeeks.org/problems/preorder-traversal/1
- * Language: Java (21)
+ * URL: https://www.naukri.com/code360/problems/preorder-traversal_3838888
+ * Language: Java (17)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-10T08:16:14.862Z
+ * Synced: 2026-09-25T17:25:46.418Z
  */
 
-class Solution {
-    public ArrayList<Integer> preOrder(Node root) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        if (root == null) return ans;
-        ans.add(root.data);
-        ans.addAll(preOrder(root.left));
-        ans.addAll(preOrder(root.right));
+import java.util.*;
+public class Solution {
+    public static List<Integer> getPreOrderTraversal(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        preorder(root, ans);
         return ans;
+    }
+    public static void preorder(TreeNode root, List<Integer> ans) {
+        if (root == null)  return;
+        ans.add(root.data);
+        preorder(root.left, ans);
+        preorder(root.right, ans);
     }
 }
