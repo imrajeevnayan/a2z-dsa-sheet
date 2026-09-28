@@ -1,0 +1,50 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 2784 ms
+ * Memory: N/A
+ * Synced: 2026-09-25T16:35:12.119Z
+ */
+
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static Node removeLoop(Node head) {
+ 
+        if (head == null || head.next == null) {
+            return head;
+        }
+ 
+        Node slow = head;
+        Node fast = head;
+ 
+        // Detect loop
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+ 
+            if (slow == fast) {
+                break;
+            }
+        }
+ 
+        // No loop
+        if (fast == null || fast.next == null) {
+            return head;
+        }
+ 
+        // Find start of loop
+        slow = head;
+ 
+        // Special case: loop starts at head
+        if (slow == fast) {
+            while (fast.next != slow) {
+                fast = fast.next;
+            }
+            fast.next = null;
+            return head;
+        }
