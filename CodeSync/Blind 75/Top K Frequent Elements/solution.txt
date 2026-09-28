@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Top K Frequent Elements
- * URL: https://leetcode.com/problems/top-k-frequent-elements/
+ * URL: https://leetcode.com/problems/top-k-frequent-elements/?utm=codolio
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-07-15T09:25:39.215Z
+ * Synced: 2026-09-25T13:06:19.904Z
  */
 
 class Solution {
