@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:00:04.543Z
+ * Synced: 2026-09-25T18:57:30.690Z
  */
 
 class Solution {
