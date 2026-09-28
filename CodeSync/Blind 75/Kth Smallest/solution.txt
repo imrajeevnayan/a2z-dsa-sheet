@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:05:15.914Z
+ * Synced: 2026-09-25T13:06:01.520Z
  */
 
 class Solution {
