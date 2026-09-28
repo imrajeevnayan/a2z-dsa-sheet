@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:05:03.252Z
+ * Synced: 2026-09-25T13:05:05.083Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for (int n : arr) {
-            pq.add(n);
+    pq.add(n);
         
 
         while (k > 1) {
