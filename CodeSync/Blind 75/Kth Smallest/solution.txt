@@ -7,14 +7,14 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:04:52.370Z
+ * Synced: 2026-09-25T13:04:56.002Z
  */
 
 class Solution {
     public int kthSmallest(int[] arr, int k) {
 
         PriorityQueue<Integer> pq =
-            new PriorityQueue<>();
+           new PriorityQueue<>();
 
         for (int n : arr) {
             pq.add(n);
