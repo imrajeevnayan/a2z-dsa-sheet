@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 10990 ms
  * Memory: N/A
- * Synced: 2026-09-27T19:44:32.765Z
+ * Synced: 2026-09-27T19:44:47.231Z
  */
 
 import java.util.*;
@@ -18,15 +18,11 @@ public class Solution {
  
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         traverse(root, pq, k);
-        if (pq.size() < k)  return -1;
-     
+        if (pq.size() < k)  return -1; 
         return pq.peek();
     }
  
-    private static void traverse(
-            TreeNode root,
-            PriorityQueue<Integer> pq,
-            int k) {
+    private static void traverse( TreeNode root,PriorityQueue<Integer> pq,int k) {
  
         if (root == null) {
             return;
