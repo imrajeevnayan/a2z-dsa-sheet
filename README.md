@@ -62,3 +62,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 23 | [Valid Substring](https://www.geeksforgeeks.org/problems/valid-substring0624/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:08 pm |
 | 24 | [Closest Three Sum](https://www.geeksforgeeks.org/problems/three-sum-closest/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:13 pm |
 | 25 | [Count Subarrays with k Odds](https://www.geeksforgeeks.org/problems/count-subarray-with-k-odds/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:16 pm |
+| 26 | [Count Increasing Subarrays](https://www.geeksforgeeks.org/problems/count-increasing-subarrays5301/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:18 pm |
