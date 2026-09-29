@@ -49,3 +49,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 10 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | LeetCode | Easy | 29 Sept 2026 | 12:36 am |
 | 11 | [Reverse Alternate K in Linked List](https://www.geeksforgeeks.org/problems/xor-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 12:46 am |
 | 12 | [Rotate List](https://leetcode.com/problems/rotate-list/) | LeetCode | Medium | 29 Sept 2026 | 06:05 pm |
+| 13 | [Sort a linked list of 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:22 pm |

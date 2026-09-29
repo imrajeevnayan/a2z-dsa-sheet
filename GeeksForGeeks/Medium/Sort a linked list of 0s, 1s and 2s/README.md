@@ -1,0 +1,13 @@
+# Sort a linked list of 0s, 1s and 2s
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
+
+## Solved On
+29 Sept 2026 at 07:22 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1">Sort a linked list of 0s, 1s and 2s</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 14pt;">Given the <strong>head</strong> of a linked list where nodes can contain values </span><strong style="font-size: 14pt;">0s</strong><span style="font-size: 14pt;">,&nbsp;</span><strong style="font-size: 14pt;">1s,</strong><span style="font-size: 14pt;">&nbsp;and&nbsp;</span><strong style="font-size: 14pt;">2s&nbsp;</strong><span style="font-size: 14pt;">only. Your</span><span style="font-size: 18.6667px;">&nbsp;task is to&nbsp;<strong>rearrange</strong>&nbsp;the list so that all&nbsp;<strong>0s</strong>&nbsp;appear at the beginning, followed by all&nbsp;<strong>1s</strong>, and all&nbsp;<strong>2s</strong>&nbsp;are placed at the end.</span></p><p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p><pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input: </strong><span style="font-size: 14pt;">head =</span><strong style="font-size: 14pt;"> </strong><span style="font-size: 14pt;">1 → 2 → 2 → 1 → 2 → 0 → 2 → 2<br>   <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid0_1756113569.jpg" width="691" height="67"><br></span></span><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Output: </strong><span style="font-size: 18.6667px;">0 → 1 → 1 → 2 → 2 → 2 → 2 → 2<br></span></span><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Explanation: </strong><span style="font-size: 14pt;">All the 0s are segregated to the left end of the linked list, 2s to the right end of the list, and 1s in between. The final list will be:<br>   <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid1_1756113598.jpg" width="680" height="66"></span></span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>head = 2 → 2 → 0 → 1<br>   <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid2_1756113607.jpg" width="457" height="75"><br><strong>Output: </strong>0 → 1 → 2 → 2<br></span><span style="font-size: 14pt;"><strong>Explanation: </strong>After arranging all the 0s, 1s and 2s in the given format, the output will be:<br>   <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/908245/Web/Other/blobid3_1756113615.jpg" width="457" height="75"></span></pre>
