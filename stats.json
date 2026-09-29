@@ -1,12 +1,12 @@
 {
-  "totalSolved": 12,
+  "totalSolved": 13,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 8,
+    "medium": 9,
     "hard": 0,
     "basic": 2
   },
@@ -22,13 +22,14 @@
     "GeeksForGeeks_Reverse_Alternate_K_in_Linked_List": true,
     "LeetCode_Rotate_List": true,
     "GeeksForGeeks_Sort_a_linked_list_of_0s,_1s_and_2s": true,
-    "LeetCode_Swapping_Nodes_in_a_Linked_List": true
+    "LeetCode_Swapping_Nodes_in_a_Linked_List": true,
+    "GeeksForGeeks_Swap_Kth_nodes_from_ends": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 7
+    "2026-09-29": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -42,6 +43,7 @@
     "Reverse Alternate K in Linked List",
     "Rotate List",
     "Sort a linked list of 0s, 1s and 2s",
-    "Swapping Nodes in a Linked List"
+    "Swapping Nodes in a Linked List",
+    "Swap Kth nodes from ends"
   ]
 }
