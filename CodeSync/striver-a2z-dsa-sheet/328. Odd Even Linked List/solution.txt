@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:02:01.173Z
+ * Synced: 2026-09-28T10:02:06.093Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
     }
         ListNode even=head.next;
         if(head==null || head.next==null) return head;
-        ListNode even
+        ListNode evenHead=eve
 }
