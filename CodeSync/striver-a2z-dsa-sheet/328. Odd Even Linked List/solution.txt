@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:02:19.050Z
+ * Synced: 2026-09-28T10:02:25.341Z
  */
 
 class Solution {
@@ -17,5 +17,5 @@ class Solution {
         ListNode even=head.next;
         if(head==null || head.next==null) return head;
         ListNode evenHead=even;
-        while(even !=null &)
+        while(even !=null && even.next)
 }
