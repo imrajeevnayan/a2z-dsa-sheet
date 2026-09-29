@@ -7,11 +7,11 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T05:58:45.428Z
+ * Synced: 2026-09-28T06:02:27.014Z
  */
 
 class Solution {
     public int maxDepth(String s) {
-        
+        for9
     }
 }
