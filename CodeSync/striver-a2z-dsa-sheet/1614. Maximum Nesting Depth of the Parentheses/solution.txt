@@ -7,7 +7,7 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T06:04:03.361Z
+ * Synced: 2026-09-28T06:04:09.797Z
  */
 
 class Solution {
@@ -20,4 +20,5 @@ class Solution {
         }
     }
                 maxDepth=Math.max(maxDepth,depth);
+             else dep
 }
