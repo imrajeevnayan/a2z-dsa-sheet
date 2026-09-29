@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T15:16:52.720Z
+ * Synced: 2026-09-27T15:16:58.019Z
  */
 
 class Solution {
@@ -20,7 +20,7 @@ class Solution {
                 prev.next=curr.next;
             }
             else{
-                // valu
+                // value first time mila 
                 set.add(curr.data);
                 prev=curr;
             }
