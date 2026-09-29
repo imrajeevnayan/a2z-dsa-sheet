@@ -1,12 +1,12 @@
 {
-  "totalSolved": 19,
+  "totalSolved": 20,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 14,
+  "todayCount": 15,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 15,
+    "medium": 16,
     "hard": 0,
     "basic": 2
   },
@@ -29,13 +29,14 @@
     "GeeksForGeeks_Root_to_Leaf_Paths": true,
     "GeeksForGeeks_String_Rotation_Check": true,
     "GeeksForGeeks_Look_and_Say_Pattern": true,
-    "GeeksForGeeks_Minimum_Operations_to_Print_'A'_N_Times": true
+    "GeeksForGeeks_Minimum_Operations_to_Print_'A'_N_Times": true,
+    "GeeksForGeeks_Count_Substrings_with_a,_b_and_c": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 14
+    "2026-09-29": 15
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -56,6 +57,7 @@
     "Root to Leaf Paths",
     "String Rotation Check",
     "Look and Say Pattern",
-    "Minimum Operations to Print 'A' N Times"
+    "Minimum Operations to Print 'A' N Times",
+    "Count Substrings with a, b and c"
   ]
 }

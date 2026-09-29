@@ -58,3 +58,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 19 | [String Rotation Check](https://www.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 10:57 pm |
 | 20 | [Look and Say Pattern](https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:00 pm |
 | 21 | [Minimum Operations to Print 'A' N Times](https://www.geeksforgeeks.org/problems/special-keyboard-2/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:03 pm |
+| 22 | [Count Substrings with a, b and c](https://www.geeksforgeeks.org/problems/count-substring/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:05 pm |
