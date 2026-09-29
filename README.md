@@ -55,3 +55,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 16 | [Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:34 pm |
 | 17 | [Minimum Swaps to Sort](https://www.geeksforgeeks.org/problems/minimum-swaps/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:35 pm |
 | 18 | [Root to Leaf Paths](https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 08:09 pm |
+| 19 | [String Rotation Check](https://www.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 10:57 pm |
