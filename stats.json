@@ -1,12 +1,12 @@
 {
-  "totalSolved": 15,
+  "totalSolved": 16,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 10,
+  "todayCount": 11,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 11,
+    "medium": 12,
     "hard": 0,
     "basic": 2
   },
@@ -25,13 +25,14 @@
     "LeetCode_Swapping_Nodes_in_a_Linked_List": true,
     "GeeksForGeeks_Swap_Kth_nodes_from_ends": true,
     "GeeksForGeeks_Frog_Jump": true,
-    "GeeksForGeeks_Minimum_Swaps_to_Sort": true
+    "GeeksForGeeks_Minimum_Swaps_to_Sort": true,
+    "GeeksForGeeks_Longest_Subarray_Sum_Divisible_by_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 10
+    "2026-09-29": 11
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -48,6 +49,7 @@
     "Swapping Nodes in a Linked List",
     "Swap Kth nodes from ends",
     "Frog Jump",
-    "Minimum Swaps to Sort"
+    "Minimum Swaps to Sort",
+    "Longest Subarray Sum Divisible by K"
   ]
 }
