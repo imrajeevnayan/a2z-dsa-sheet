@@ -7,45 +7,39 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T20:00:40.434Z
+ * Synced: 2026-09-27T20:01:06.285Z
  */
 
 import java.util.*;
- 
 class Solution {
- 
     public static int KthLargest(TreeNode<Integer> root, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
  
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        store(root, pq);
  
-        inorder(root, pq, k);
- 
-        // K-th largest doesn't exist
         if (pq.size() < k) {
             return -1;
+        }
+ 
+        // K-1 largest elements remove karo
+        for (int i = 1; i < k; i++) {
+            pq.poll();
         }
  
         return pq.peek();
     }
  
-    private static void inorder(
+    private static void store(
             TreeNode<Integer> root,
-            PriorityQueue<Integer> pq,
-            int k) {
+            PriorityQueue<Integer> pq) {
  
         if (root == null) {
             return;
         }
  
-        inorder(root.left, pq, k);
- 
         pq.offer(root.data);
  
-        // Keep only K largest elements
-        if (pq.size() > k) {
-            pq.poll();
-        }
- 
-        inorder(root.right, pq, k);
+        store(root.left, pq);
+        store(root.right, pq);
     }
 }
