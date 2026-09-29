@@ -1,29 +1,31 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/sum-root-to-leaf_1095657
+ * URL: https://www.naukri.com/code360/problems/pair-sum-in-bst_920493
  * Language: All languages
  * Difficulty: Hard
- * Topics: Uncategorized
+ * Topics: Binary Search Trees Clear all, Binary Search Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T17:14:08.080Z
+ * Synced: 2026-09-27T19:52:16.338Z
  */
 
+import java.util.*;
+ 
 public class Solution {
  
-    public static int rootToLeafSum(BinaryTreeNode<Integer> root) {
-        return solve(root, 0);
+    public static boolean pairSumBst(TreeNode root, int k) {
+        Set<Integer> set = new HashSet<>();
+        return solve(root, k, set);
     }
  
-    public static int solve(BinaryTreeNode<Integer> root, int sum) {
-        if (root == null)  return 0;
-    
-        sum = sum * 10 + root.data;
+    private static boolean solve(TreeNode root,int k,Set<Integer> set) {
+        if (root == null)return false;
+        int rem = k - root.data;
  
-        if (root.left == null && root.right == null) {
-            return sum;
-        }
-        return solve(root.left, sum) + solve(root.right, sum);
+        if (set.contains(rem)) return true;
+        set.add(root.data);
+ 
+        return solve(root.left, k, set) || solve(root.right, k, set);
     }
 }
