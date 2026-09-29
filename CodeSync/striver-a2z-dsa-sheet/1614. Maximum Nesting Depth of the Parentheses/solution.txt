@@ -7,14 +7,14 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T06:03:06.441Z
+ * Synced: 2026-09-28T06:03:13.694Z
  */
 
 class Solution {
     public int maxDepth(String s) {
         for(char ch: s.toCharArray()){
-
+             
         }
     }
-        int depth=0,maxDept
+        int depth=0,maxDepth=0;
 }
