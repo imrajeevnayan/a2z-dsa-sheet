@@ -2,13 +2,16 @@
  * Platform: LeetCode
  * Problem: 1190. Reverse Substrings Between Each Pair of Parentheses
  * URL: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question&envId=2026-09-27
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T11:26:20.695Z
+ * Synced: 2026-09-27T11:26:22.910Z
  */
 
-Input: s = "(abcd)"
-Output: "dcba"
+class Solution {
+    public String reverseParentheses(String s) {
+        
+    }
+}
