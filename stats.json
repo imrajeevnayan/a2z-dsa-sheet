@@ -1,12 +1,12 @@
 {
-  "totalSolved": 28,
+  "totalSolved": 29,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 23,
+  "todayCount": 24,
   "difficultyCounts": {
     "easy": 7,
-    "medium": 19,
+    "medium": 20,
     "hard": 0,
     "basic": 2
   },
@@ -38,13 +38,14 @@
     "GeeksForGeeks_Ceil_in_BST": true,
     "GeeksForGeeks_Binary_Tree_to_BST": true,
     "GeeksForGeeks_Inorder_Traversal_and_BST": true,
-    "LeetCode_Valid_Anagram": true
+    "LeetCode_Valid_Anagram": true,
+    "LeetCode_Sort_Colors": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 23
+    "2026-09-29": 24
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -74,6 +75,7 @@
     "Ceil in BST",
     "Binary Tree to BST",
     "Inorder Traversal and BST",
-    "Valid Anagram"
+    "Valid Anagram",
+    "Sort Colors"
   ]
 }

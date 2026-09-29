@@ -67,3 +67,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 28 | [Binary Tree to BST](https://www.geeksforgeeks.org/problems/binary-tree-to-bst/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:28 pm |
 | 29 | [Inorder Traversal and BST](https://www.geeksforgeeks.org/problems/inorder-traversal-and-bst5855/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:29 pm |
 | 30 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | LeetCode | Easy | 29 Sept 2026 | 11:39 pm |
+| 31 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | LeetCode | Medium | 29 Sept 2026 | 11:42 pm |
