@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Max element in the path
+ * URL: https://www.naukri.com/code360/problems/max-element-in-the-path_842785
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Binary Search Trees Clear all, Binary Search Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T19:48:41.472Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+/*******************************************************
+ 
+    Following is the BinaryTreeNode class structure
+ 
+    class BinaryTreeNode<T> {
+        T data;
+        BinaryTreeNode<T> left;
+        BinaryTreeNode<T> right;
+        
+        public BinaryTreeNode(T data) {
+            this.data = data;
+        }
+    }
+ 
+**********************************************************/
+ 
+public class Solution {
+    public static int findMaxElement(BinaryTreeNode<Integer> root, int node1, int node2) {
+        // Write your code here.    
+    }
+}
