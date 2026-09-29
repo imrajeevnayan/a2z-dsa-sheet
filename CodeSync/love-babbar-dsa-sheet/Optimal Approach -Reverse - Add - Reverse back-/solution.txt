@@ -7,14 +7,14 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:34:17.719Z
+ * Synced: 2026-09-28T12:34:24.034Z
  */
 
 /*
 3 approch se solve hoga 
 1. revese the linkedlist
 2. add 1 to linkedlist
-2
+3. reverse the li
 class Solution {
     public Node addOne(Node head) {
         // code here.
