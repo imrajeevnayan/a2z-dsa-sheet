@@ -53,3 +53,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 14 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | LeetCode | Medium | 29 Sept 2026 | 07:31 pm |
 | 15 | [Swap Kth nodes from ends](https://www.geeksforgeeks.org/problems/swap-kth-node-from-beginning-and-kth-node-from-end-in-a-singly-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:32 pm |
 | 16 | [Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:34 pm |
+| 17 | [Minimum Swaps to Sort](https://www.geeksforgeeks.org/problems/minimum-swaps/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:35 pm |
