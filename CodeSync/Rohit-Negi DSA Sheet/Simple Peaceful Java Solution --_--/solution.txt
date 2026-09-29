@@ -7,13 +7,14 @@
  * Topics: Expected Complexities, Company Tags AmazonIntuit, Company Tags, Amazon, Intuit, Topic Tags, Linked List, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T15:10:41.798Z
+ * Synced: 2026-09-27T15:10:55.868Z
  */
 
 class Solution {
     public Node removeDuplicates(Node head) {
         HashSet<Integer>set=new HashSet<>();
-        Node head=curr,next=null
+        Node head=curr,next=null;
+        while()
         
     }
 }
