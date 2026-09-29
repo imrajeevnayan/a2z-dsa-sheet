@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 2129. Capitalize the Title
- * URL: https://leetcode.com/problems/capitalize-the-title/description/
+ * URL: https://leetcode.com/problems/capitalize-the-title/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-26T12:18:18.587Z
+ * Synced: 2026-09-26T12:22:32.410Z
  */
 
 class Solution {
     public String capitalizeTitle(String title) {
-        
+        String[] words = title.toLowerCase().split(" ");
+        StringBuilder sb = new StringBuilder();
+
+        for (String w : words) {
+            if (w.length() <= 2) sb.append(w);
+            } else {
+                sb.append(Character.toUpperCase(w.charAt(0)))
+                  .append(w.substring(1));
+            }
+            sb.append(" ");
+        }
+
+        return sb.toString().trim();
     }
 }
