@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:02:53.973Z
+ * Synced: 2026-09-28T10:02:59.206Z
  */
 
 class Solution {
@@ -20,5 +20,6 @@ class Solution {
             odd.next=even.next;
         }
     }
-            odd-
+            odd=odd.next;
+            
 }
