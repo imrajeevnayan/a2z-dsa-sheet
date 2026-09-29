@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove Duplicates From an Unsorted Linked List
+ * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 3662 ms
+ * Memory: N/A
+ * Synced: 2026-09-27T15:29:49.587Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    
+    public static LinkedListNode<Integer> removeDuplicates(LinkedListNode<Integer> head) {
+        if (head == null) return head;
+        
+        HashSet<Integer> set = new HashSet<>();
+        LinkedListNode<Integer> curr = head, prev = null;
+        
+        while (curr != null) {
+            if (set.contains(curr.data)) {
+                prev.next = curr.next;
+            } else {
+                set.add(curr.data);
+                prev = curr;
+            }
+            curr = curr.next;
+        }
+        
+        return head;
+    }
+}
