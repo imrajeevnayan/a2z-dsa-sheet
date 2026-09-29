@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T19:35:31.161Z
+ * Synced: 2026-09-27T19:35:43.095Z
  */
 
 import java.util.*;
@@ -18,15 +18,9 @@ public class Solution {
         return pq.peek();
     }
     private static void inorder(TreeNode<Integer> root, int k, PriorityQueue<Integer> pq) {
- 
-        if (root == null) {
-            return;
-        }
- 
+        if (root == null)  return;
         inorder(root.left, k, pq);
- 
         pq.add(root.data);
- 
         if (pq.size() > k) {
             pq.poll();
         }
