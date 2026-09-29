@@ -59,3 +59,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 20 | [Look and Say Pattern](https://www.geeksforgeeks.org/problems/decode-the-pattern1138/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:00 pm |
 | 21 | [Minimum Operations to Print 'A' N Times](https://www.geeksforgeeks.org/problems/special-keyboard-2/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:03 pm |
 | 22 | [Count Substrings with a, b and c](https://www.geeksforgeeks.org/problems/count-substring/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:05 pm |
+| 23 | [Valid Substring](https://www.geeksforgeeks.org/problems/valid-substring0624/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:08 pm |
