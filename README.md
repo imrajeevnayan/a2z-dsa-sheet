@@ -54,4 +54,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 15 | [Swap Kth nodes from ends](https://www.geeksforgeeks.org/problems/swap-kth-node-from-beginning-and-kth-node-from-end-in-a-singly-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:32 pm |
 | 16 | [Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:34 pm |
 | 17 | [Minimum Swaps to Sort](https://www.geeksforgeeks.org/problems/minimum-swaps/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:35 pm |
-| 18 | [Longest Subarray Sum Divisible by K](https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 08:08 pm |
+| 18 | [Root to Leaf Paths](https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 08:09 pm |

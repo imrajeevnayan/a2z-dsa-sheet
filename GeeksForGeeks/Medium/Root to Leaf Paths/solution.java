@@ -1,0 +1,42 @@
+class Solution {
+    public ArrayList<ArrayList<Integer>> paths(Node root) {
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+
+        // Agar tree empty hai to empty answer return karo
+        if (root == null) {
+            return ans;
+        }
+
+        ArrayList<Integer> path = new ArrayList<>();
+
+        dfs(root, path, ans);
+
+        return ans;
+    }
+
+    private void dfs(Node node, ArrayList<Integer> path,
+                     ArrayList<ArrayList<Integer>> ans) {
+
+        // Current node ko path mein add karo
+        path.add(node.data);
+
+        // Agar leaf node hai, to current path ko answer mein add karo
+        if (node.left == null && node.right == null) {
+            ans.add(new ArrayList<>(path));
+        } else {
+
+            // Left subtree mein jao agar left child present hai
+            if (node.left != null) {
+                dfs(node.left, path, ans);
+            }
+
+            // Right subtree mein jao agar right child present hai
+            if (node.right != null) {
+                dfs(node.right, path, ans);
+            }
+        }
+
+        // Backtrack: current node ko path se remove karo
+        path.remove(path.size() - 1);
+    }
+}
