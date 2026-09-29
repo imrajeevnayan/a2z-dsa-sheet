@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1137. N-th Tribonacci Number
- * URL: https://leetcode.com/problems/n-th-tribonacci-number/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/n-th-tribonacci-number/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T18:39:34.125Z
+ * Synced: 2026-09-27T18:39:50.054Z
  */
 
-Input: n = 4
-Output: 4
-Explanation:
-T_3 = 0 + 1 + 1 = 2
-T_4 = 1 + 1 + 2 = 4
+class Solution {
+    public int tribonacci(int n) {
+        if(n==0)return 0;
+        if(n==1|| n==2)return 1;
+        int dp[]=new int[n+1];
