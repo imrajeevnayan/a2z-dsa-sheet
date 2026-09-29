@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 2129. Capitalize the Title
- * URL: https://leetcode.com/problems/capitalize-the-title/
+ * URL: https://leetcode.com/problems/capitalize-the-title/submissions/2153847177/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-26T12:22:42.365Z
+ * Memory: 43.88 MB
+ * Synced: 2026-09-26T12:22:58.385Z
  */
 
 class Solution {
@@ -22,7 +22,6 @@ class Solution {
             }
             sb.append(" ");
         }
-
         return sb.toString().trim();
     }
 }
