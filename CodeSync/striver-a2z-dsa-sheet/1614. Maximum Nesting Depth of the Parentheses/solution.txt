@@ -7,14 +7,17 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T06:03:30.821Z
+ * Synced: 2026-09-28T06:03:39.311Z
  */
 
 class Solution {
     public int maxDepth(String s) {
+        int depth=0,maxDepth=0;
         for(char ch: s.toCharArray()){
-             if(ch=='(')
+             if(ch=='('){
+                depth++;
+             }
         }
     }
-        int depth=0,maxDepth=0;
+                m
 }
