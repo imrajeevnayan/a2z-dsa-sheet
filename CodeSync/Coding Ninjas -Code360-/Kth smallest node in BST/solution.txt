@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Kth smallest node in BST
+ * URL: https://www.naukri.com/code360/problems/kth-smallest-node-in-bst_920441
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 10990 ms
+ * Memory: N/A
+ * Synced: 2026-09-27T19:44:13.548Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static int kthSmallest(TreeNode root, int k) {
+ 
+        PriorityQueue<Integer> pq =
+                new PriorityQueue<>(Collections.reverseOrder());
+ 
+        traverse(root, pq, k);
+ 
+        if (pq.size() < k) {
+            return -1;
+        }
+ 
+        return pq.peek();
+    }
+ 
+    private static void traverse(
+            TreeNode root,
+            PriorityQueue<Integer> pq,
+            int k) {
+ 
+        if (root == null) {
+            return;
+        }
+ 
+        traverse(root.left, pq, k);
+ 
+        pq.offer(root.data);
+ 
+        // Keep only k smallest elements
+        if (pq.size() > k) {
+            pq.poll();
+        }
+ 
+        traverse(root.right, pq, k);
+    }
+}
