@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: K-th largest Number BST
+ * URL: https://www.naukri.com/code360/problems/k-th-largest-number_920438
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Binary Search Trees Clear all, Binary Search Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T19:40:02.817Z
+ */
+
+class TreeNode<T> {
+        public T data;
+        public TreeNode<T> left;
+        public TreeNode<T> right;
+ 
+        TreeNode(T data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
+ 
+*************************************************************/
+ 
+import java.util.ArrayList;
+ 
+public class Solution {
+    private static void inorder(
+        TreeNode<Integer> root,
+        PriorityQueue<Integer> pq,
+        int k) {
+       if (root == null) {
+        return;
+    }
+    inorder(root.left, pq, k);
+    pq.offer(root.data);
+ 
+    if (pq.size() > k) {
+        pq.poll();
+    }
+ 
+    inorder(root.right, pq, k);
+}
+    public static int KthLargestNumber(TreeNode<Integer> root, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        inorder(root, pq, k);
+        return pq.peek();
+    }
+}
