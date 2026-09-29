@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 10990 ms
  * Memory: N/A
- * Synced: 2026-09-27T19:44:47.231Z
+ * Synced: 2026-09-27T19:45:02.206Z
  */
 
 import java.util.*;
@@ -23,20 +23,14 @@ public class Solution {
     }
  
     private static void traverse( TreeNode root,PriorityQueue<Integer> pq,int k) {
- 
-        if (root == null) {
-            return;
-        }
- 
+        if (root == null)  return;
         traverse(root.left, pq, k);
- 
         pq.offer(root.data);
  
         // Keep only k smallest elements
         if (pq.size() > k) {
             pq.poll();
         }
- 
         traverse(root.right, pq, k);
     }
 }
