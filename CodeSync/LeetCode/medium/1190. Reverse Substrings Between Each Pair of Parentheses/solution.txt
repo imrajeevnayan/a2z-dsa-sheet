@@ -7,11 +7,12 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T13:38:05.040Z
+ * Synced: 2026-09-27T13:38:21.404Z
  */
 
 class Solution {
     public String reverseParentheses(String s) {
-        Stack<Integer>st=new Stack<>()
+        Stack<Integer>st=new Stack<>();
     }
+        StringB
 }
