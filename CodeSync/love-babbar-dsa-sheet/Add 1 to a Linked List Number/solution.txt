@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Add 1 to a Linked List Number
+ * URL: https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T12:32:47.750Z
+ */
+
+class Solution {
+    public Node addOne(Node head) {
+        int carry = helper(head);
+        if (carry == 1) {
+            Node newNode = new Node(1);
+            newNode.next = head;
+            return newNode;
+        }
+        return head;
+    }
+
+    private int helper(Node node) {
+        if (node == null) return 1; 
+        int carry = helper(node.next);
+        int sum = node.data + carry;
+        
+        node.data = sum % 10;   
+        return sum / 10;      
+    }
+}
