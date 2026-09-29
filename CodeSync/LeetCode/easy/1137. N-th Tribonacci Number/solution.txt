@@ -7,16 +7,14 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T18:42:54.055Z
+ * Synced: 2026-09-27T18:43:02.848Z
  */
 
 class Solution {
     public int tribonacci(int n) {
         if (n == 0)  return 0;
         if (n == 1 || n == 2) return 1;
-    
-        return tribonacci(n - 1) 
-             + tribonacci(n - 2) 
-             + tribonacci(n - 3);
+        return tribonacci(n - 1)  + tribonacci(n - 2) 
+    + tribonacci(n - 3);
     }
 }
