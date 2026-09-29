@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2129. Capitalize the Title
+ * URL: https://leetcode.com/problems/capitalize-the-title/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-26T12:18:16.101Z
+ */
+
+Input: title = "capiTalIze tHe titLe"
+Output: "Capitalize The Title"
+Explanation:
+Since all the words have a length of at least 3, the first letter of each word is uppercase, and the remaining letters are lowercase.
