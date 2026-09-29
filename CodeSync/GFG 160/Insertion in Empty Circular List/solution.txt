@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Insertion in Empty Circular List
+ * URL: https://www.geeksforgeeks.org/problems/insertion-in-an-empty-circular-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T09:07:35.454Z
+ */
+
+/*class Node {
+    int data;
+    Node next;
+
+    public Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}*/
+class Solution {
+    public Node insertIntoEmpty(Node last, int data) {
+        while(last !=null){
+            return null;
+        }
+        Node newNode=new Node(data);
+        newNode.next=newNode;
+        return newNode;
+        
+    }
+}
