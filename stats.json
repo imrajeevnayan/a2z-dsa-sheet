@@ -1,12 +1,12 @@
 {
-  "totalSolved": 22,
+  "totalSolved": 23,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 17,
+  "todayCount": 18,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 18,
+    "medium": 19,
     "hard": 0,
     "basic": 2
   },
@@ -32,13 +32,14 @@
     "GeeksForGeeks_Minimum_Operations_to_Print_'A'_N_Times": true,
     "GeeksForGeeks_Count_Substrings_with_a,_b_and_c": true,
     "GeeksForGeeks_Valid_Substring": true,
-    "GeeksForGeeks_Closest_Three_Sum": true
+    "GeeksForGeeks_Closest_Three_Sum": true,
+    "GeeksForGeeks_Count_Subarrays_with_k_Odds": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 17
+    "2026-09-29": 18
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -62,6 +63,7 @@
     "Minimum Operations to Print 'A' N Times",
     "Count Substrings with a, b and c",
     "Valid Substring",
-    "Closest Three Sum"
+    "Closest Three Sum",
+    "Count Subarrays with k Odds"
   ]
 }
