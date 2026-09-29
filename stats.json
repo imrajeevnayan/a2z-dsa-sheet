@@ -1,12 +1,12 @@
 {
-  "totalSolved": 18,
+  "totalSolved": 19,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 13,
+  "todayCount": 14,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 14,
+    "medium": 15,
     "hard": 0,
     "basic": 2
   },
@@ -28,13 +28,14 @@
     "GeeksForGeeks_Minimum_Swaps_to_Sort": true,
     "GeeksForGeeks_Root_to_Leaf_Paths": true,
     "GeeksForGeeks_String_Rotation_Check": true,
-    "GeeksForGeeks_Look_and_Say_Pattern": true
+    "GeeksForGeeks_Look_and_Say_Pattern": true,
+    "GeeksForGeeks_Minimum_Operations_to_Print_'A'_N_Times": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 13
+    "2026-09-29": 14
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -54,6 +55,7 @@
     "Minimum Swaps to Sort",
     "Root to Leaf Paths",
     "String Rotation Check",
-    "Look and Say Pattern"
+    "Look and Say Pattern",
+    "Minimum Operations to Print 'A' N Times"
   ]
 }
