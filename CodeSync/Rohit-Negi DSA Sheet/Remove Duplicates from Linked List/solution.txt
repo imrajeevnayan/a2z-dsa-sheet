@@ -7,19 +7,9 @@
  * Topics: Expected Complexities, Company Tags AmazonIntuit, Company Tags, Amazon, Intuit, Topic Tags, Linked List, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T15:08:23.516Z
+ * Synced: 2026-09-27T15:08:31.816Z
  */
 
-/* Structure of linked list Node
-class Node
-{
-    int data;
-    Node next;
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}*/
 class Solution {
     public Node removeDuplicates(Node head) {
         // code here
