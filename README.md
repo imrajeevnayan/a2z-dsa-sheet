@@ -64,3 +64,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 25 | [Count Subarrays with k Odds](https://www.geeksforgeeks.org/problems/count-subarray-with-k-odds/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 11:16 pm |
 | 26 | [Count Increasing Subarrays](https://www.geeksforgeeks.org/problems/count-increasing-subarrays5301/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:18 pm |
 | 27 | [Ceil in BST](https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:27 pm |
+| 28 | [Binary Tree to BST](https://www.geeksforgeeks.org/problems/binary-tree-to-bst/1) | GeeksForGeeks | Easy | 29 Sept 2026 | 11:28 pm |

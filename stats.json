@@ -1,11 +1,11 @@
 {
-  "totalSolved": 25,
+  "totalSolved": 26,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-09-29",
-  "todayCount": 20,
+  "todayCount": 21,
   "difficultyCounts": {
-    "easy": 4,
+    "easy": 5,
     "medium": 19,
     "hard": 0,
     "basic": 2
@@ -35,13 +35,14 @@
     "GeeksForGeeks_Closest_Three_Sum": true,
     "GeeksForGeeks_Count_Subarrays_with_k_Odds": true,
     "GeeksForGeeks_Count_Increasing_Subarrays": true,
-    "GeeksForGeeks_Ceil_in_BST": true
+    "GeeksForGeeks_Ceil_in_BST": true,
+    "GeeksForGeeks_Binary_Tree_to_BST": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
-    "2026-09-29": 20
+    "2026-09-29": 21
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -68,6 +69,7 @@
     "Closest Three Sum",
     "Count Subarrays with k Odds",
     "Count Increasing Subarrays",
-    "Ceil in BST"
+    "Ceil in BST",
+    "Binary Tree to BST"
   ]
 }
