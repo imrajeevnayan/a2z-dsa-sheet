@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonIntuit, Company Tags, Amazon, Intuit, Topic Tags, Linked List, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T15:11:53.767Z
+ * Synced: 2026-09-27T15:12:13.702Z
  */
 
 class Solution {
@@ -17,6 +17,9 @@ class Solution {
         while(curr!=null){
             if(set.contains(curr.data)){
                 prev.next=curr.next;
+            }
+            else{
+                s
             }
         }
         
