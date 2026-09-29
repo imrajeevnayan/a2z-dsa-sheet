@@ -7,12 +7,16 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:18:26.935Z
+ * Synced: 2026-09-26T10:45:46.080Z
  */
 
-class Solution {
-    public ArrayList<Integer> preGreaterEle(int[] arr) {
-        // code here
-        
-    }
-}
+Input: arr[] = [10, 4, 2, 20, 40, 12, 30]
+Output: [-1, 10, 4, -1, -1, 40, 40]
+Explanation:
+For 10, no elements on the left, so answer is -1.
+For 4, previous greater element is 10.
+For 2, previous greater element is 4.
+For 20, no element on the left greater than 20, so answer is -1.
+For 40, no element on the left greater than 40, so answer is -1.
+For 12, previous greater element is 40.
+For 30, previous greater element is 40.
