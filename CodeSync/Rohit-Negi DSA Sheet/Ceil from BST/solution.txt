@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Ceil from BST
+ * URL: https://www.naukri.com/code360/problems/ceil-from-bst_920464
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2979 ms
+ * Memory: N/A
+ * Synced: 2026-09-27T19:32:44.198Z
+ */
+
+public class Solution {
+    public static int findCeil(TreeNode<Integer> node, int x) {
+        int ceil = -1;
+        while (node != null) {
+            if (node.data == x)  return x;
+            
+            if (x > node.data) node = node.right;
+            else {
+                ceil = node.data;
+                node = node.left;
+            }
+        }
+        return ceil;
+    }
+}
