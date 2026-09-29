@@ -7,32 +7,11 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T11:27:08.275Z
+ * Synced: 2026-09-27T13:37:28.068Z
  */
 
-sb.append(stack.pop());
-                }
-                // Remove '('
-                stack.pop();
-                // Push reversed substring back
-                for (char ch : sb.toString().toCharArray()) {
-                    stack.push(ch);
-                }
-            } else {
-                stack.push(c);
-            }
-        }
-        
-        // Build final result
-                StringBuilder sb = new StringBuilder();
-                while (!stack.isEmpty() && stack.peek() != '(') {
-            if (c == ')') {
-                // Collect characters until '('
-        for (char c : s.toCharArray()) {
-        StringBuilder result = new StringBuilder();
-        for (char c : stack) {
-            result.append(c);
-        }
-        
-        return result.toString();
+class Solution {
+    public String reverseParentheses(String s) {
+        Stc
     }
+}
