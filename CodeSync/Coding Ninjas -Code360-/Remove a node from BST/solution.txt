@@ -1,0 +1,50 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove a node from BST
+ * URL: https://www.naukri.com/code360/problems/remove-node-in-bst_920452
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Binary Search Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T19:50:10.102Z
+ */
+
+public static BinaryTreeNode<Integer> removeNode(
+            BinaryTreeNode<Integer> root, int data) {
+ 
+        // Node not found
+        if (root == null) {
+            return null;
+        }
+ 
+        // Search in left subtree
+        if (data < root.data) {
+ 
+            root.left = removeNode(root.left, data);
+ 
+        }
+ 
+        // Search in right subtree
+        else if (data > root.data) {
+ 
+            root.right = removeNode(root.right, data);
+ 
+        }
+ 
+        // Node found
+        else {
+ 
+            // Case 1: No child
+            if (root.left == null && root.right == null) {
+                return null;
+            }
+ 
+            // Case 2: Only right child
+            if (root.left == null) {
+                return root.right;
+            }
+ 
+            // Case 2: Only left child
+            if (root.right == null) {
+                return root.left;
