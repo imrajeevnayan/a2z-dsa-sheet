@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T20:01:37.736Z
+ * Synced: 2026-09-27T20:01:46.170Z
  */
 
 import java.util.*;
@@ -24,12 +24,8 @@ class Solution {
         return pq.peek();
     }
     private static void store( TreeNode<Integer> root, PriorityQueue<Integer> pq) {
-        if (root == null) {
-            return;
-        }
- 
+        if (root == null) return;
         pq.offer(root.data);
- 
         store(root.left, pq);
         store(root.right, pq);
     }
