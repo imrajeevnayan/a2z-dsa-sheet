@@ -3,43 +3,35 @@
  * Problem: K
  * URL: https://www.naukri.com/code360/problems/k-th-largest-number_920438
  * Language: Java (17)
- * Difficulty: Hard
+ * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T19:34:06.570Z
+ * Synced: 2026-09-27T19:35:29.977Z
  */
 
 import java.util.*;
-import java.io.*;
- 
 public class Solution {
- 
     public static int KthLargestNumber(TreeNode<Integer> root, int k) {
-        
-        Stack<TreeNode<Integer>> stack = new Stack<>();
-        TreeNode<Integer> curr = root;
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        inorder(root, k, pq);
+        return pq.peek();
+    }
+    private static void inorder(TreeNode<Integer> root, int k,
+             PriorityQueue<Integer> pq) {
  
-        while (curr != null || !stack.isEmpty()) {
- 
-            // Go to the rightmost node
-            while (curr != null) {
-                stack.push(curr);
-                curr = curr.right;
-            }
- 
-            // Process node
-            curr = stack.pop();
-            k--;
- 
-            if (k == 0) {
-                return curr.data;
-            }
- 
-            // Move to left subtree
-            curr = curr.left;
+        if (root == null) {
+            return;
         }
  
-        return -1;
+        inorder(root.left, k, pq);
+ 
+        pq.add(root.data);
+ 
+        if (pq.size() > k) {
+            pq.poll();
+        }
+ 
+        inorder(root.right, k, pq);
     }
 }
