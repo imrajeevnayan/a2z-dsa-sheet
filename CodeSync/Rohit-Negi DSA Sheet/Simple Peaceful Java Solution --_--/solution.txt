@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple Peaceful Java Solution (~_~)
+ * URL: https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1
+ * Language: class Solution: def removeDuplicates(self, head): current = head while current: runner = current while runner.next: if runner.next.data == current.data: runner.next = runner.next.next else: runner = runner.next current = current.next return head
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonIntuit, Company Tags, Amazon, Intuit, Topic Tags, Linked List, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T15:08:35.184Z
+ */
+
+class Solution {
+    public Node removeDuplicates(Node head) {
+        // code her
+        
+    }
+}
