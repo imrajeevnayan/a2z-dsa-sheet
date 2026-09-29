@@ -1,26 +1,51 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/preorder-traversal_3838888
+ * URL: https://www.naukri.com/code360/problems/kth-largest-element-in-bst_4414080
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:12:07.176Z
+ * Synced: 2026-09-27T20:00:40.434Z
  */
 
 import java.util.*;
-public class Solution {
-    public static List<Integer> getPreOrderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        preorder(root, ans);
-        return ans;
+ 
+class Solution {
+ 
+    public static int KthLargest(TreeNode<Integer> root, int k) {
+ 
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+ 
+        inorder(root, pq, k);
+ 
+        // K-th largest doesn't exist
+        if (pq.size() < k) {
+            return -1;
+        }
+ 
+        return pq.peek();
     }
-    public static void preorder(TreeNode root, List<Integer> ans) {
-        if (root == null)  return;
-        ans.add(root.data);
-        preorder(root.left, ans);
-        preorder(root.right, ans);
+ 
+    private static void inorder(
+            TreeNode<Integer> root,
+            PriorityQueue<Integer> pq,
+            int k) {
+ 
+        if (root == null) {
+            return;
+        }
+ 
+        inorder(root.left, pq, k);
+ 
+        pq.offer(root.data);
+ 
+        // Keep only K largest elements
+        if (pq.size() > k) {
+            pq.poll();
+        }
+ 
+        inorder(root.right, pq, k);
     }
 }
