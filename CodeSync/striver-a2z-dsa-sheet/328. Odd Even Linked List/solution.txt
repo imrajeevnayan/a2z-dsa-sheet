@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:01:07.661Z
+ * Synced: 2026-09-28T10:01:15.651Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         ListNode odd=head;
     }
         ListNode evn=head.next;
-        if(head==)
+        if(head==null || he)
 }
