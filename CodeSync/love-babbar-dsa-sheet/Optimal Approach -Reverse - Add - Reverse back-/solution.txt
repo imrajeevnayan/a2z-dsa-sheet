@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:35:41.686Z
+ * Synced: 2026-09-28T12:35:49.402Z
  */
 
 /*
@@ -22,10 +22,10 @@ class Solution {
     private Node reverse(Node head) {
             Node prev = null, curr = head;
             while (curr != null) {
-                Node n = curr.next;
+                Node temp = curr.next;
                 curr.next = prev;
                 prev = curr;
-                curr = next;
+                curr = ;
             }
 
             return prev;
