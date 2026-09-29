@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 10990 ms
  * Memory: N/A
- * Synced: 2026-09-27T19:44:13.548Z
+ * Synced: 2026-09-27T19:44:17.281Z
  */
 
 import java.util.*;
@@ -17,7 +17,7 @@ public class Solution {
     public static int kthSmallest(TreeNode root, int k) {
  
         PriorityQueue<Integer> pq =
-                new PriorityQueue<>(Collections.reverseOrder());
+    new PriorityQueue<>(Collections.reverseOrder());
  
         traverse(root, pq, k);
  
