@@ -1,0 +1,32 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Detect The Cycle
+ * URL: https://www.naukri.com/code360/problems/detect-the-cycle_1822910
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2296 ms
+ * Memory: N/A
+ * Synced: 2026-09-27T20:08:27.722Z
+ */
+
+public class Solution {
+ 
+    public static boolean detectCycle(Node<Integer> head) {
+ 
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+ 
+        while (fast != null && fast.next != null) {
+ 
+            slow = slow.next;           // 1 step
+            fast = fast.next.next;      // 2 steps
+ 
+            if (slow == fast) {
+                return true;
+            }
+        }
+ 
+        return false;
+    }
+}
