@@ -48,3 +48,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 9 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | LeetCode | Easy | 29 Sept 2026 | 12:22 am |
 | 10 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | LeetCode | Easy | 29 Sept 2026 | 12:36 am |
 | 11 | [Reverse Alternate K in Linked List](https://www.geeksforgeeks.org/problems/xor-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 12:46 am |
+| 12 | [Rotate List](https://leetcode.com/problems/rotate-list/) | LeetCode | Medium | 29 Sept 2026 | 06:05 pm |
