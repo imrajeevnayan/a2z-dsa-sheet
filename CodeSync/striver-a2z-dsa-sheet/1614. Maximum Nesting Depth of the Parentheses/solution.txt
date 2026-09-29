@@ -7,7 +7,7 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T06:03:01.214Z
+ * Synced: 2026-09-28T06:03:06.441Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
 
         }
     }
-        int depth
+        int depth=0,maxDept
 }
