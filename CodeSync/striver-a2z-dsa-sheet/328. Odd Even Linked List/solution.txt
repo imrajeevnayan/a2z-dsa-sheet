@@ -7,12 +7,12 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:00:43.345Z
+ * Synced: 2026-09-28T10:00:47.843Z
  */
 
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         ListNode odd=head;
     }
-        ListNode evn=hea
+        ListNode evn=head.next;
 }
