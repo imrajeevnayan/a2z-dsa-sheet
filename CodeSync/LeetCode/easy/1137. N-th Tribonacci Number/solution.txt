@@ -7,7 +7,7 @@
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 7 ms
  * Memory: N/A
- * Synced: 2026-09-27T18:44:28.807Z
+ * Synced: 2026-09-27T18:44:40.346Z
  */
 
 class Solution {
@@ -19,4 +19,4 @@ class Solution {
         return tribonacci(n - 1)  + tribonacci(n - 2) + tribonacci(n - 3);
     }
 }
-        return
+        return solve(n,d)
