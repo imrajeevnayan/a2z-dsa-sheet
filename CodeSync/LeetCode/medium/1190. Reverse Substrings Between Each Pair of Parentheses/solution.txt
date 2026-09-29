@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 1190. Reverse Substrings Between Each Pair of Parentheses
- * URL: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question&envId=2026-09-27
+ * URL: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/?envType=daily-question&envId=2026-09-27
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T11:26:22.910Z
+ * Synced: 2026-09-27T11:27:08.275Z
  */
 
-class Solution {
-    public String reverseParentheses(String s) {
+sb.append(stack.pop());
+                }
+                // Remove '('
+                stack.pop();
+                // Push reversed substring back
+                for (char ch : sb.toString().toCharArray()) {
+                    stack.push(ch);
+                }
+            } else {
+                stack.push(c);
+            }
+        }
         
+        // Build final result
+                StringBuilder sb = new StringBuilder();
+                while (!stack.isEmpty() && stack.peek() != '(') {
+            if (c == ')') {
+                // Collect characters until '('
+        for (char c : s.toCharArray()) {
+        StringBuilder result = new StringBuilder();
+        for (char c : stack) {
+            result.append(c);
+        }
+        
+        return result.toString();
     }
-}
