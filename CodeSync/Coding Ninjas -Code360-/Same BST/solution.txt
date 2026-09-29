@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Same BST
+ * URL: https://www.naukri.com/code360/problems/same-bst_920453
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T19:57:07.436Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static Boolean checkBSTs( TreeNode<Integer> root1,TreeNode<Integer> root2) {
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> set2 = new HashSet<>();
+ 
+        store(root1, set1);
+        store(root2, set2);
+ 
+        return set1.equals(set2);
+    }
+    private static void store(TreeNode<Integer> root, Set<Integer> set) {
+        if (root == null) return;
+        
+ 
+        set.add(root.data);
+ 
+        store(root.left, set);
+        store(root.right, set);
+    }
+}
