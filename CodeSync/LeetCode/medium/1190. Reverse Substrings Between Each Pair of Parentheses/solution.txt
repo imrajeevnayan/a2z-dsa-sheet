@@ -7,7 +7,7 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T13:39:46.427Z
+ * Synced: 2026-09-27T13:40:04.824Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         Stack<Integer>st=new Stack<>();
         StringBuilder sb=new StringBuilder();
           for(char ch:s.toCharArray()){
-            if
+            if(ch=='()')
           }
     }
-99870698
+}
