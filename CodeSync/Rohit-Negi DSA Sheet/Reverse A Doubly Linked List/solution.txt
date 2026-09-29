@@ -2,12 +2,32 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Reverse A Doubly Linked List
  * URL: https://www.naukri.com/code360/problems/reverse-a-doubly-linked-list_1116098
- * Language: Text
- * Difficulty: Easy
- * Topics: Linked List, 120 Hard Flatten A Linked List 0, 40 Easy Implement a Queue 0, 40 Easy Reverse A Doubly Linked List 0, 40 Easy Copy List with Random Pointer 0, 40 Easy Insertion In A Singly Linked List 0, 40 Easy Delete Middle Node 0, 40 Easy Flatten Binary Tree to Linked List 0
- * Runtime: N/A
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 12738 ms
  * Memory: N/A
- * Synced: 2026-09-27T20:02:56.005Z
+ * Synced: 2026-09-27T20:04:17.922Z
  */
 
-A doubly linked list is a kind of linked list that is bidirectional, meaning it can be traversed in both forward and backward directions.
+public class Solution {
+    public static Node reverseDLL(Node head) {
+        if (head == null) return null;
+        
+        Node curr = head;
+        Node newHead = null;
+ 
+        while (curr != null) {
+            Node temp = curr.prev;
+            curr.prev = curr.next;
+            curr.next = temp;
+ 
+            newHead = curr;
+ 
+            // Move to old next
+            curr = curr.prev;
+        }
+ 
+        return newHead;
+    }
+}
