@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: leetcode.com
+ * URL: https://leetcode.com/
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T13:29:13.284Z
+ */
+
+a41a26ef8e2cbd55
