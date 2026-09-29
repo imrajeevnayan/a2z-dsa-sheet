@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-28T10:03:37.477Z
+ * Synced: 2026-09-28T10:04:46.491Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         ListNode odd=head;
         ListNode even=head.next;
         ListNode evenHead=even;
-        while(even !=null && even.next!=null){
+        while(odd !=null && o.next!=null){
             odd.next=even.next;
         }
     }
