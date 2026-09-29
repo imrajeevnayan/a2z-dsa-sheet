@@ -5,9 +5,9 @@
  * Language: Java
  * Difficulty: Medium
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, DSA, SQL, Planly
- * Runtime: N/A
+ * Runtime: 0.919 ms
  * Memory: N/A
- * Synced: 2026-09-25T19:48:45.260Z
+ * Synced: 2026-09-25T19:48:51.978Z
  */
 
 class Solution {
