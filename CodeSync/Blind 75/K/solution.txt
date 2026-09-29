@@ -2,29 +2,50 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: K
  * URL: https://www.naukri.com/code360/problems/k-th-largest-number_920438
- * Language: Java (17)
+ * Language: All languages
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T19:35:43.095Z
+ * Synced: 2026-09-27T19:42:36.405Z
  */
 
 import java.util.*;
+ 
 public class Solution {
+ 
     public static int KthLargestNumber(TreeNode<Integer> root, int k) {
+ 
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        inorder(root, k, pq);
+ 
+        inorder(root, pq, k);
+ 
+        // k-th largest exists nahi karta
+        if (pq.size() < k) {
+            return -1;
+        }
+ 
         return pq.peek();
     }
-    private static void inorder(TreeNode<Integer> root, int k, PriorityQueue<Integer> pq) {
-        if (root == null)  return;
-        inorder(root.left, k, pq);
-        pq.add(root.data);
+ 
+    private static void inorder(
+            TreeNode<Integer> root,
+            PriorityQueue<Integer> pq,
+            int k) {
+ 
+        if (root == null) {
+            return;
+        }
+ 
+        inorder(root.left, pq, k);
+ 
+        pq.offer(root.data);
+ 
+        // Sirf k largest elements rakho
         if (pq.size() > k) {
             pq.poll();
         }
  
-        inorder(root.right, k, pq);
+        inorder(root.right, pq, k);
     }
 }
