@@ -1,0 +1,34 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Floor in BST
+ * URL: https://www.naukri.com/code360/problems/floor-from-bst_920457
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2440 ms
+ * Memory: N/A
+ * Synced: 2026-09-27T19:46:45.934Z
+ */
+
+public class Solution {
+    public static int floorInBST(TreeNode<Integer> root, int X) {
+        int floor = -1;
+        while (root != null) {
+ 
+            if (root.data == X)  return root.data;
+            if (root.data < X) {
+                // Current node can be a possible floor
+                floor = root.data;
+                // Try to find a bigger value <= X
+                root = root.right;
+ 
+            } else {
+                // root.data > X
+                // Need smaller value
+                root = root.left;
+            }
+        }
+ 
+        return floor;
+    }
+}
