@@ -7,11 +7,12 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:33:39.317Z
+ * Synced: 2026-09-28T12:33:43.445Z
  */
 
 /*
-3 approch se solv
+3 approch se solve hoga 
+
 class Solution {
     public Node addOne(Node head) {
         // code here.
