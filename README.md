@@ -50,3 +50,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 11 | [Reverse Alternate K in Linked List](https://www.geeksforgeeks.org/problems/xor-linked-list/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 12:46 am |
 | 12 | [Rotate List](https://leetcode.com/problems/rotate-list/) | LeetCode | Medium | 29 Sept 2026 | 06:05 pm |
 | 13 | [Sort a linked list of 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | GeeksForGeeks | Medium | 29 Sept 2026 | 07:22 pm |
+| 14 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | LeetCode | Medium | 29 Sept 2026 | 07:31 pm |
