@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Linked List Traversal
+ * URL: https://www.geeksforgeeks.org/problems/linkedlist-traversal/1
+ * Language: public static void LinkedListTraversal(LinkedList<Integer>ll) { //Your code here ll.stream().forEach(x->System.out.print(x+" ")); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Traversal Of Singly Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T09:05:27.284Z
+ */
+
+class Solution {
+    void printList(Node head) {
+        Node curr=head;
+        while(curr !=null){
+            System.out.print(curr.data +" ");
+            curr=curr.next;
+        }
+        
+    }
+}
