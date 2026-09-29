@@ -2,33 +2,28 @@
  * Platform: GeeksforGeeks
  * Problem: Segregate Evens and Odds in a Linked List
  * URL: https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1
- * Language: Java (21)
+ * Language: class Solution { Node divide(Node head) { Node prev = null, temp = head, tail = null, newHead = null; int cnt = 0; int even = 0; while (temp != null) { if (temp.data % 2 == 0) even++; cnt++; tail = temp; temp = temp.next; } if (even == 0) return head; // if no even node then return head temp = head; for (int i = 0 ; i < cnt ; i++) { if (temp.data % 2 != 0) { if (prev != null && prev.next != null) { prev.next = prev.next.next; } Node next = temp.next; temp.next = null; if (temp == tail) { // This condition is only useful when tail is also odd prev.next = temp; } else { tail.next = temp; tail = tail.next; temp = next; } } else { if (prev == null) newHead = temp; prev = temp; temp = temp.next; } } return newHead; } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles, Segregate Even And Odd Elements In A Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-06T06:48:25.330Z
+ * Synced: 2026-09-28T10:08:34.391Z
  */
+
+/* Structure of a Linked List Node
+class Node {
+    int data;
+    Node next;
+
+    Node(int x){
+        data = x;
+        next = null;
+    }
+}*/
 
 class Solution {
     Node divide(Node head) {
-        Node even = new Node(0), odd = new Node(0);
-        Node e = even, o = odd;
-
-        while (head != null) {
-            if (head.data % 2 == 0) {
-                e.next = head;
-                e = e.next;
-            } else {
-                o.next = head;
-                o = o.next;
-            }
-            head = head.next;
-        }
-
-        e.next = odd.next;
-        o.next = null;
-
-        return even.next;
+        // code here
+        
     }
 }
