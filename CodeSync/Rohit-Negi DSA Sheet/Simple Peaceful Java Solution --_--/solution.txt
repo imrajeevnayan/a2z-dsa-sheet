@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T15:16:34.203Z
+ * Synced: 2026-09-27T15:16:39.496Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         Node curr=head,prev=null;
         while(curr!=null){
             if(set.contains(curr.data)){
-                // dupli
+                // duplicate ko remove kr
                 prev.next=curr.next;
             }
             else{
