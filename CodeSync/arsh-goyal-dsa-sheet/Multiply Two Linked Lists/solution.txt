@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Multiply Two Linked Lists
+ * URL: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Modular Arithmetic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T13:55:56.317Z
+ */
+
+class Solution {
+    int multiplyTwoLists(Node first, Node second) {
+        long mod = 1000000007;
+        long num1 = 0;
+        long num2 = 0;
+
+        while (first != null) {
+            num1 = (num1 * 10 + first.data) % mod;
+            first = first.next;
+        }
+
+        while (second != null) {
+            num2 = (num2 * 10 + second.data) % mod;
+            second = second.next;
+        }
+
+        return (int)((num1 * num2) % mod);
+    }
+}
