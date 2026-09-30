@@ -7,10 +7,25 @@
  * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:28:46.671Z
+ * Synced: 2026-09-30T18:28:47.470Z
  */
 
-Input: x = 4,
+/* Structure of Linked List Node
+class Node
+{
+    int data;
+    Node next;
 
-Output: 1 -> 2 -> 3 -> 5
-Explanation: After deleting the node at the 4th position, the linked list is as
+    Node(int d)
+    {
+        this.data = d;
+        this.next = null;
+    }
+}
+*/
+class Solution {
+    Node deleteNode(Node head, int x) {
+        // code here
+        
+    }
+}
