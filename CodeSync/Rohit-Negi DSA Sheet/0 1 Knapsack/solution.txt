@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T07:53:42.664Z
+ * Synced: 2026-09-30T07:53:47.275Z
  */
 
 import java.util.*;
@@ -23,9 +23,8 @@ public class Solution {
         }
  
         for (int freq : map.values()) {
-            if (freq % 2 != 0) {
-                return false;
-            
+            if (freq % 2 != 0)  return false;
+ 
         }
  
         return true;
