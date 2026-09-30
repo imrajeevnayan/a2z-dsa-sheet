@@ -2,29 +2,54 @@
  * Platform: GeeksforGeeks
  * Problem: Sort a linked list of 0s, 1s and 2s
  * URL: https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
- * Language: Java (21)
+ * Language: /* Node is defined as class Node { public: int data; Node* next; Node(int x) { data = x; next = nullptr; } }; */ class Solution { private: Node* merge(Node* l1, Node* l2) { Node dummy(-1); Node* tail = &dummy; while(l1 && l2){ if(l1->data<=l2->data){ tail->next=l1; l1=l1->next; }else{ tail->next=l2; l2=l2->next; } tail=tail->next; } if(l1) tail->next=l1; if(l2) tail->next=l2; return dummy.next; } public: Node* segregate(Node* head) { // code here if(head == NULL || head->next == NULL) return head; Node* slow = head; Node* fast = head->next; while(fast && fast->next){ slow = slow->next; fast = fast->next->next; } Node* mid = slow->next; slow->next=NULL; Node* left = segregate(head); Node* right= segregate(mid); return merge(left,right); } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTripNPCI, Company Tags, Amazon, Microsoft, MakeMyTrip, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T13:46:58.741Z
+ * Synced: 2026-09-29T13:53:23.865Z
  */
-
-/*
-class Node {
-    int data;
-    Node next;
-
-    Node(int d)
-    {
-        data = d;
-        next = null;
-    }
-}*/
 
 class Solution {
     public Node segregate(Node head) {
-        // code here
-        
-    }
-}
+
+        // Dummy nodes for 0, 1 and 2 lists
+        Node zero = new Node(-1);
+        Node one = new Node(-1);
+        Node two = new Node(-1);
+
+        // Tail pointers
+        Node z = zero;
+        Node o = one;
+        Node t = two;
+
+        Node curr = head;
+
+        while (curr != null) {
+
+            // Put node in 0-list
+            if (curr.data == 0) {
+                z.next = curr;
+                z = z.next;
+            }
+
+            // Put node in 1-list
+            else if (curr.data == 1) {
+                o.next = curr;
+                o = o.next;
+            }
+
+            // Put node in 2-list
+            else {
+                t.next = curr;
+                t = t.next;
+            }
+
+            curr = curr.next;
+        }
+
+        // Connect 0-list to 1-list.
+        // If 1-list is empty, connect directly to 2-list.
+        z.next = (one.next != null) ? one.next : two.next;
+
+        // Connect 1-list to 2-list
