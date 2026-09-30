@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 61. Rotate List
+ * URL: https://leetcode.com/problems/rotate-list/description/?envType=problem-list-v2&envId=linked-list
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T19:04:50.087Z
+ */
+
+Input: head = [1,2,3,4,5], k = 2
+Output: [4,5,1,2,3]
