@@ -1,0 +1,29 @@
+/*
+ * Platform: LeetCode
+ * Problem: Delete Leaves With a Given Value
+ * URL: https://leetcode.com/problems/delete-leaves-with-a-given-value/submissions/2157791768/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T06:30:03.608Z
+ */
+
+1class Solution {
+2    public TreeNode removeLeafNodes(TreeNode root, int target) {
+3        if (root == null) return null;
+4
+5
+6        // Pehle children ko process karo
+7        root.left = removeLeafNodes(root.left, target);
+8        root.right = removeLeafNodes(root.right, target);
+9
+10        // Ab check karo ki current node leaf hai aur target hai
+11        if (root.left == null && root.right == null && root.val == target) {
+12            return null;
+13        }
+14        return root;
+15    }
+16}
+17
