@@ -7,9 +7,12 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, Samsung, Adobe, Google
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T17:27:35.408Z
+ * Synced: 2026-09-29T17:27:35.847Z
  */
 
-Input: s1 = "0033", s2 = "2"
-Output: "66"
-Explanation: 33 * 2 = 66
+class Solution {
+    public String multiplyStrings(String s1, String s2) {
+        // code here
+        
+    }
+}
