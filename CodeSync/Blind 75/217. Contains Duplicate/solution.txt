@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: 217. Contains Duplicate
+ * URL: https://leetcode.com/problems/contains-duplicate/description/?utm=codolio
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T18:09:52.775Z
+ */
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer>set=new HashSet<>();
+        for(int n :nums){
+            if(!set.add(n))return true;
+        }
+       return false;
+    }
+}
