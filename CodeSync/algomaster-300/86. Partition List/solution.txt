@@ -1,14 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 86. Partition List
- * URL: https://leetcode.com/problems/partition-list/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/partition-list/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T12:38:34.033Z
+ * Synced: 2026-09-30T12:39:27.417Z
  */
 
-Input: head = [1,4,3,2,5,2], x = 3
-Output: [1,2,2,4,3,5]
+while (head != null) {
+
+            if (head.val < x) {
+                small.next = head;
+                small = small.next;
+            } else {
+        ListNode large = largeDummy;
+        ListNode small = smallDummy;
+
+        ListNode largeDummy = new ListNode(0);
+        ListNode smallDummy = new ListNode(0);
+
+    public ListNode partition(ListNode head, int x) {
+class Solution {
