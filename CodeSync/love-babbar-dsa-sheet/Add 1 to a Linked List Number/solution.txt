@@ -7,26 +7,48 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:32:47.750Z
+ * Synced: 2026-09-28T16:25:16.958Z
  */
 
+*/
+
 class Solution {
-    public Node addOne(Node head) {
-        int carry = helper(head);
-        if (carry == 1) {
-            Node newNode = new Node(1);
-            newNode.next = head;
-            return newNode;
+
+    // Reverse linked list
+    private Node reverse(Node head) {
+        Node prev = null;
+        Node curr = head;
+
+        while (curr != null) {
+            Node temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
         }
-        return head;
+
+        return prev;
     }
 
-    private int helper(Node node) {
-        if (node == null) return 1; 
-        int carry = helper(node.next);
-        int sum = node.data + carry;
-        
-        node.data = sum % 10;   
-        return sum / 10;      
-    }
-}
+    public Node addOne(Node head) {
+        // Step 1: Reverse the linked list
+        head = reverse(head);
+
+        // Step 2: Add 1
+        Node curr = head;
+        int carry = 1;
+
+        while (curr != null) {
+
+            int sum = curr.data + carry;
+
+            curr.data = sum % 10;
+            carry = sum / 10;
+
+            // Last node and carry is still remaining
+            if (curr.next == null && carry != 0) {
+                curr.next = new Node(carry);
+                carry = 0;
+            }
+
+            curr = curr.next;
+        }
