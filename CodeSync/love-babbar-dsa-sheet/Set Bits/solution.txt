@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Set Bits
+ * URL: https://www.naukri.com/code360/problems/set-bits_1164179
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1946 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T19:03:08.214Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+  public static int countSetBits(int n) {
+    // Write your code here.
+    int count = 0;
+ 
+        while (n > 0) {
+        count += n & 1;
+        n = n >> 1;
+    }
+ 
+      return count;
+  }
+}
