@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 2442 ms
  * Memory: N/A
- * Synced: 2026-09-28T17:40:18.906Z
+ * Synced: 2026-09-28T17:40:25.772Z
  */
 
 import java.util.* ;
@@ -22,6 +22,6 @@ public class Solution {
         }
         return slow;
     }
-            if(fast==n)
+            if(fast==null) ret
         } fast=fast.next;
 }
