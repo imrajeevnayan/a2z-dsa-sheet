@@ -1,37 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 707. Design Linked List
- * URL: https://leetcode.com/problems/design-linked-list/description/
+ * URL: https://leetcode.com/problems/design-linked-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Design
- * Runtime: N/A
+ * Runtime: 39 ms
  * Memory: N/A
- * Synced: 2026-09-30T18:50:17.834Z
+ * Synced: 2026-09-30T18:51:11.227Z
  */
 
-class MyLinkedList {
+public void deleteAtIndex(int index) {
+        if (index < 0 || index >= size) {
+            return;
+        }
 
-    public MyLinkedList() {
-        
+        if (index == 0) {
+            head = head.next;
+            size--;
     }
-    
-    public int get(int index) {
-        
-    }
-    
-    public void addAtHead(int val) {
-        
-    }
-    
-    public void addAtTail(int val) {
-        
-    }
-    
-    public void addAtIndex(int index, int val) {
-        
-    }
-    
-    public void deleteAtIndex(int index) {
-        
-    }
+
+        size++;
+        newNode.next = curr.next;
+        curr.next = newNode;
+
+        }
+
+        for (int i = 0; i < index - 1; i++) {
+            curr = curr.next;
+        // index - 1 wale node tak
+
+        Node curr = head;
+
+        Node newNode = new Node(val);
+
+        }
+            return;
