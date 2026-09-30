@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Arrays, Related Articles, Minimum Cost For Hopping Frog To Reach Stair N
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T14:03:58.184Z
+ * Synced: 2026-09-29T14:04:10.186Z
  */
 
 class Solution {
@@ -23,11 +23,9 @@ class Solution {
     int solve(int i, int[] height, int[] dp) {
         if (i == 0)  return 0;
         
-
         // Already calculated
-        if (dp[i] != -1) {
-            return dp[i];
-        }
+        if (dp[i] != -1)  return dp[i];
+        
 
         // Jump from previous stone (i - 1)
         int oneJump = solve(i - 1, height, dp)
