@@ -1,27 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1721. Swapping Nodes in a Linked List
- * URL: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
+ * URL: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T13:58:09.150Z
+ * Synced: 2026-09-29T14:00:38.435Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode swapNodes(ListNode head, int k) {
-        
+// fast pointer starts from k-th node
+        ListNode fast = first;
+
+        // slow pointer starts from head
+        ListNode second = head;
+
+        // Move fast to the end.
+        // At the same time, second will reach
+        // k-th node from the end.
+        while (fast.next != null) {
+            fast = fast.next;
+            second = second.next;
+        }
+
+        // Swap values of k-th node from beginning
+
+        }
+        // and k-th node from end
+        int temp = first.val;
+        first.val = second.val;
+        second.val = temp;
+
+        return head;
     }
 }
