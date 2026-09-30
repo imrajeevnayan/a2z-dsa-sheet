@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse Bits
+ * URL: https://www.naukri.com/code360/problems/reverse-bits_2181102
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2334 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T07:02:15.193Z
+ */
+
+public class Solution {
+    public static long reverseBits(long n) {
+        long result = 0;
+ 
+        for (int i = 0; i < 32; i++) {
+            // Get the last bit of n
+            long bit = n & 1;
+ 
+            // Shift result left and add the bit
+            result = (result << 1) | bit;
+ 
+            // Remove the last bit from n
+            n = n >> 1;
+        }
+ 
+        return result;
+    }
+}
