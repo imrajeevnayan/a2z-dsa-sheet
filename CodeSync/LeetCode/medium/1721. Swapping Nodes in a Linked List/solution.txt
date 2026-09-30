@@ -2,13 +2,26 @@
  * Platform: LeetCode
  * Problem: 1721. Swapping Nodes in a Linked List
  * URL: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T13:58:07.108Z
+ * Synced: 2026-09-29T13:58:09.150Z
  */
 
-Input: head = [1,2,3,4,5], k = 2
-Output: [1,4,3,2,5]
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode swapNodes(ListNode head, int k) {
+        
+    }
+}
