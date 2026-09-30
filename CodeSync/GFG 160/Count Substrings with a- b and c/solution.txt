@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Substrings with a, b and c
+ * URL: https://www.geeksforgeeks.org/problems/count-substring/1
+ * Language: int countSubstring(string s) { int sz = s.size(); int hash[3] = {-1,-1,-1}; int cnt = 0; for(int i=0;i<sz;++i){ hash[s[i]-'a'] = i; if(hash[0] != -1 && hash[1] != -1 && hash[2] != -1){ cnt += 1 + min(min(hash[0],hash[1]),hash[2]); } } return cnt; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Related Articles, Sliding Window Count Substrings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T17:35:38.774Z
+ */
+
+class Solution {
+    public static int countSubstring(String s) {
+        int n = s.length();
+        if (n < 3) return 0;
+
+        int left = 0;
+        int countA = 0, countB = 0, countC = 0;
+        long result = 0; // Use long to avoid overflow for large strings
+
+        for (int right = 0; right < n; right++) {
+            // Character include karo
+            char ch = s.charAt(right);
+            if (ch == 'a') countA++;
+            else if (ch == 'b') countB++;
+            else if (ch == 'c') countC++;
+
+            // Jab tak window valid hai (teeno characters present hain)
+            while (countA > 0 && countB > 0 && countC > 0) {
+                result += (n - right);
+
+                // Ab left pointer ko aage badhao taaki next window check kar sako
+                char leftChar = s.charAt(left);
+                if (leftChar == 'a') countA--;
+                else if (leftChar == 'b') countB--;
+                else if (leftChar == 'c') countC--;
+
+                left++;
+            }
+        }
+
+        return (int) result;
+    }
+}
