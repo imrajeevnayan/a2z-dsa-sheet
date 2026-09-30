@@ -1,13 +1,13 @@
 {
-  "totalSolved": 31,
+  "totalSolved": 32,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-09-30",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 8,
     "medium": 21,
-    "hard": 0,
+    "hard": 1,
     "basic": 2
   },
   "syncedProblems": {
@@ -41,14 +41,15 @@
     "LeetCode_Valid_Anagram": true,
     "LeetCode_Sort_Colors": true,
     "LeetCode_Maximum_Depth_of_N-ary_Tree": true,
-    "LeetCode_Add_One_Row_to_Tree": true
+    "LeetCode_Add_One_Row_to_Tree": true,
+    "LeetCode_Sum_of_Distances_in_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
     "2026-09-29": 24,
-    "2026-09-30": 2
+    "2026-09-30": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -81,6 +82,7 @@
     "Valid Anagram",
     "Sort Colors",
     "Maximum Depth of N-ary Tree",
-    "Add One Row to Tree"
+    "Add One Row to Tree",
+    "Sum of Distances in Tree"
   ]
 }
