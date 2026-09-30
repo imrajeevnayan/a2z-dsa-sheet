@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 44.46 MB
- * Synced: 2026-09-29T12:58:20.051Z
+ * Synced: 2026-09-29T12:58:23.748Z
  */
 
 return head;
@@ -30,8 +30,9 @@ return head;
         int n = 1;
         // Find length and last node
 
-            return head;
+        // Find new tail
+        int steps = n - k;
+        ListNode newTail = head;
         }
+            return head;
         if (head == null || head.next == null || k == 0) {
-    public ListNode rotateRight(ListNode head, int k) {
-class Solution {
