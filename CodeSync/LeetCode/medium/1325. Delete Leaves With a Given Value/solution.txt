@@ -1,16 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 1325. Delete Leaves With a Given Value
- * URL: https://leetcode.com/problems/delete-leaves-with-a-given-value/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * URL: https://leetcode.com/problems/delete-leaves-with-a-given-value/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T05:04:55.129Z
+ * Synced: 2026-09-30T05:04:57.654Z
  */
 
-Input: root = [1,2,3,2,null,2,4], target = 2
-Output: [1,null,3,null,4]
-Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left). 
-After removing, new nodes become leaf nodes with value (target = 2) (Picture in center).
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode removeLeafNodes(TreeNode root, int target) {
+        
+    }
+}
