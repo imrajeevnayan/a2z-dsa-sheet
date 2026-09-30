@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 2442 ms
  * Memory: N/A
- * Synced: 2026-09-28T17:40:25.772Z
+ * Synced: 2026-09-28T17:40:38.674Z
  */
 
 import java.util.* ;
@@ -16,12 +16,13 @@ public class Solution {
     public static Node findKthFromLast(Node head, int K) {
        Node slow=head,fast=head;
         for(int i=1;i<=K;i++){
+            if(fast==null) return -1;
+             fast=fast.next;
+        }
         while(fast!=null){
             fast=fast.next;
             slow=slow.next;
         }
         return slow;
     }
-            if(fast==null) ret
-        } fast=fast.next;
 }
