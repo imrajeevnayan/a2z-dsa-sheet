@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 86. Partition List
+ * URL: https://leetcode.com/problems/partition-list/description/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T06:43:27.393Z
+ */
+
+Input: head = [1,4,3,2,5,2], x = 3
+Output: [1,2,2,4,3,5]
