@@ -6,6 +6,8 @@
 -- Topics: Databases, SQL Programming, Description, Discussion, Submissions, Hints, Student Query 8 Minutes Easy Asked in:, Many Tables 21 Minutes Easy Asked in:
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-09-30T18:20:47.857Z
+-- Synced: 2026-09-30T18:20:48.261Z
 
-Output goes here... Test/Submit
+/* YOUR QUERY GOES HERE
+   Example: SELECT * FROM EMPLOYEE; 
+*/
