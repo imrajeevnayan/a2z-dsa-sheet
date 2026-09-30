@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 455. Assign Cookies
+ * URL: https://leetcode.com/problems/assign-cookies/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Greedy, Sorting, Quicksort
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T17:48:37.493Z
+ */
+
+class Solution {
+    public ListNode sortList(ListNode head) {
+        
+    }
+}
