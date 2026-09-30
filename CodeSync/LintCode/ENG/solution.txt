@@ -1,0 +1,14 @@
+/*
+ * Platform: LintCode
+ * Problem: ENG
+ * URL: https://www.lintcode.com/problem/1281?utm=codolio
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Hash TableHeap, Hash Table, Heap, Pocket Gems Yelp, Pocket Gems, Yelp
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T18:13:07.960Z
+ */
+
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
