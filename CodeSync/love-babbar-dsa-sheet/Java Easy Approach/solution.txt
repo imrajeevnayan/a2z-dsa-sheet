@@ -7,38 +7,49 @@
  * Topics: Expected Complexities, Company Tags AmazonNPCI, Company Tags, Amazon, NPCI, Topic Tags, Strings, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T17:38:21.166Z
+ * Synced: 2026-09-29T17:40:31.103Z
  */
 
 class Solution {
     public int maxLength(String s) {
-        Stack<Integer> stack = new Stack<>();
-        stack.push(-1); // Base index
         int maxLen = 0;
+        int open = 0, close = 0;
 
+        // --- Pass 1: Left to Right ---
+        // Ye handle karta hai cases jahan ')' zyada ho jayein (e.g., ")()")
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-
-            if (ch == '(') {
-                // Opening bracket: index push karo
-                stack.push(i);
+            if (s.charAt(i) == '(') {
+                open++;
             } else {
-                // Closing bracket: pop karo
-                stack.pop();
+                close++;
+            }
 
-                if (stack.isEmpty()) {
-                    // Agar stack empty ho gaya, toh ye closing bracket invalid hai
-                    // Isse naya base banao
-                    stack.push(i);
-                } else {
-                    // Valid pair mila, length calculate karo
-                    // Current index - top of stack (jo last invalid index ya start hai)
-                    int len = i - stack.peek();
-                    maxLen = Math.max(maxLen, len);
-                }
+            // Agar balance match ho gaya
+            if (open == close) {
+                maxLen = Math.max(maxLen, 2 * open);
+            } 
+            // Agar closing brackets zyada ho gaye, toh sequence invalid hai -> RESET
+            else if (close > open) {
+                open = 0;
+                close = 0;
             }
         }
 
-        return maxLen;
-    }
-}
+        // Reset variables for second pass
+        open = 0;
+        close = 0;
+
+        // --- Pass 2: Right to Left ---
+        // Ye handle karta hai cases jahan '(' zyada ho jayein (e.g., "(()")
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (s.charAt(i) == '(') {
+                open++;
+            } else {
+                close++;
+            }
+
+            // Agar balance match ho gaya
+            if (open == close) {
+                maxLen = Math.max(maxLen, 2 * open);
+            } 
+            // Agar opening brackets zyada ho gaye, toh sequence invalid hai -> RESET
