@@ -1,23 +1,25 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/tree-height_4609628
+ * URL: https://www.naukri.com/code360/problems/k-th-node-from-the-end-of-the-linked-list_1171164
  * Language: Java (17)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 14020 ms
+ * Runtime: 2442 ms
  * Memory: N/A
- * Synced: 2026-09-25T17:02:32.011Z
+ * Synced: 2026-09-28T17:40:09.872Z
  */
 
+import java.util.* ;
+import java.io.*; 
 public class Solution {
- 
-    public static int heightOfBinaryTree(TreeNode root) {
-        if (root == null) return 0;
-    
-        int left = heightOfBinaryTree(root.left);
-        int right = heightOfBinaryTree(root.right);
- 
-        return 1 + Math.max(left, right);
+    public static Node findKthFromLast(Node head, int K) {
+       Node slow=head,fast=head;
+        for(int i=1;i<=K;i++){} fast=fast.next;
+        while(fast!=null){
+            fast=fast.next;
+            slow=slow.next;
+        }
+        return slow;
     }
 }
