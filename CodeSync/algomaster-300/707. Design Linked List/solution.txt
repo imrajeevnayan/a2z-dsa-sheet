@@ -7,32 +7,30 @@
  * Topics: Linked List, Design
  * Runtime: 39 ms
  * Memory: N/A
- * Synced: 2026-09-30T18:51:11.227Z
+ * Synced: 2026-09-30T18:51:20.931Z
  */
 
-public void deleteAtIndex(int index) {
+}
+            return -1;
         if (index < 0 || index >= size) {
-            return;
-        }
-
-        if (index == 0) {
-            head = head.next;
-            size--;
+    public int get(int index) {
     }
 
-        size++;
-        newNode.next = curr.next;
-        curr.next = newNode;
+    public MyLinkedList() {
+        head = null;
+        size = 0;
+    private int size;
 
-        }
 
-        for (int i = 0; i < index - 1; i++) {
-            curr = curr.next;
-        // index - 1 wale node tak
-
+    private Node head;
         Node curr = head;
 
-        Node newNode = new Node(val);
-
+        for (int i = 0; i < index; i++) {
+            curr = curr.next;
         }
-            return;
+
+        return curr.val;
+    }
+
+    public void addAtHead(int val) {
+        Node newNode = new Node(val);
