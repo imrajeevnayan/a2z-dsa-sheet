@@ -2,13 +2,26 @@
  * Platform: LeetCode
  * Problem: 86. Partition List
  * URL: https://leetcode.com/problems/partition-list/description/?envType=problem-list-v2&envId=da2mv5gs
- * Language: Text
+ * Language: Two Pointers (Copy-two-pointers)
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T06:43:27.393Z
+ * Synced: 2026-09-30T06:43:29.174Z
  */
 
-Input: head = [1,4,3,2,5,2], x = 3
-Output: [1,2,2,4,3,5]
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode partition(ListNode head, int x) {
+        
+    }
+}
