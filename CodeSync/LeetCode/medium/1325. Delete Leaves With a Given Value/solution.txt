@@ -7,26 +7,22 @@
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T05:04:57.654Z
+ * Synced: 2026-09-30T05:05:43.421Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
-        
+        if (root == null) return null;
+
+
+        // Pehle children ko process karo
+        root.left = removeLeafNodes(root.left, target);
+        root.right = removeLeafNodes(root.right, target);
+
+        // Ab check karo ki current node leaf hai aur target hai
+        if (root.left == null && root.right == null && root.val == target) {
+            return null;
+        }
+        return root;
     }
 }
