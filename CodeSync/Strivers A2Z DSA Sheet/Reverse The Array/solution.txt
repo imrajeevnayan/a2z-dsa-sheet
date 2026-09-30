@@ -2,12 +2,12 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Reverse The Array
  * URL: https://www.naukri.com/code360/problems/reverse-the-array_1262298
- * Language: Java (17)
- * Difficulty: Hard
+ * Language: All languages
+ * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 2852 ms
+ * Runtime: 842 ms
  * Memory: N/A
- * Synced: 2026-08-20T06:24:24.867Z
+ * Synced: 2026-09-30T04:57:19.350Z
  */
 
 import java.util.* ;
@@ -18,16 +18,19 @@ public class Solution
 {
     public static void reverseArray(ArrayList<Integer> arr, int m)
     {
-        int left = m + 1;
-        int right = arr.size() - 1;
- 
-        while (left < right) {
-            int temp = arr.get(left);
-            arr.set(left, arr.get(right));
-            arr.set(right, temp);
- 
-            left++;
-            right--;
-        }
+        // Write your code here.
+        int start = m + 1;
+        int end = arr.size() - 1;
+        // Reverse the portion of the ArrayList after index m
+        while (start < end) {
+            // Swap elements at 'start' and 'end'
+            int temp = arr.get(start);
+            arr.set(start, arr.get(end));
+            arr.set(end, temp);
+            // Move pointers
+            start++;
+            end--;
+        
     }
+}
 }
