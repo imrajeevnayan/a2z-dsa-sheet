@@ -7,17 +7,15 @@
  * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:37:56.249Z
+ * Synced: 2026-09-30T18:38:07.666Z
  */
 
 class Solution {
     Node deleteNode(Node head, int x) {
 
         // Agar head hi delete karna hai
-        if (x == 1) {
-            return head.next;
-        }
-
+        if (x == 1) return head.next;
+        
         Node curr = head;
 
         // x-th node ke previous node tak jao
