@@ -7,7 +7,7 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Convert to Palindrome 40 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T18:08:17.939Z
+ * Synced: 2026-09-29T18:08:38.684Z
  */
 
 int currentRow = 0;
@@ -22,6 +22,10 @@ int currentRow = 0;
                 goingDown = !goingDown;
             }
 
+            rows.add(new StringBuilder());
+        }
+        ArrayList<StringBuilder> rows = new ArrayList<>();
+        for (int i = 0; i < B; i++) {
             // Next row decide karo
             currentRow += goingDown ? 1 : -1;
         }
@@ -31,7 +35,3 @@ int currentRow = 0;
         for (StringBuilder row : rows) {
             result.append(row.toString());
         }
-
-        return result.toString();
-    }
-}
