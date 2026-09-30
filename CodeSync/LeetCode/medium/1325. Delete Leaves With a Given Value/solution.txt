@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1325. Delete Leaves With a Given Value
+ * URL: https://leetcode.com/problems/delete-leaves-with-a-given-value/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T05:04:55.129Z
+ */
+
+Input: root = [1,2,3,2,null,2,4], target = 2
+Output: [1,null,3,null,4]
+Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left). 
+After removing, new nodes become leaf nodes with value (target = 2) (Picture in center).
