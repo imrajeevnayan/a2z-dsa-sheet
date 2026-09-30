@@ -1,0 +1,15 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Zigzag String
+ * URL: https://www.interviewbit.com/problems/zigzag-string/?utm=codolio
+ * Language: string convert(string text, int nRows); convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR"
+ * Difficulty: Medium
+ * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, 49.7%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T18:07:18.579Z
+ */
+
+P.......A........H.......N
+..A..P....L....S....I...I....G
+....Y.........I........R
