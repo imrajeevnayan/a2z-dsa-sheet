@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 834. Sum of Distances in Tree
+ * URL: https://leetcode.com/problems/sum-of-distances-in-tree/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Dynamic Programming, Tree, Depth-First Search, Graph Theory, DP on Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T06:40:56.488Z
+ */
+
+Input: n = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
+Output: [8,12,6,10,10,10]
+Explanation: The tree is shown above.
+We can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)
+equals 1 + 1 + 2 + 2 + 2 = 8.
+Hence, answer[0] = 8, and so on.
