@@ -1,16 +1,37 @@
 /*
  * Platform: InterviewBit
  * Problem: Zigzag String
- * URL: https://www.interviewbit.com/problems/zigzag-string/?utm=codolio
+ * URL: https://www.interviewbit.com/problems/zigzag-string/?utm=codolio/
  * Language: string convert(string text, int nRows); convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR"
  * Difficulty: Medium
- * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, 49.7%
+ * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Convert to Palindrome 40 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T18:07:19.600Z
+ * Synced: 2026-09-29T18:08:17.939Z
  */
 
-public class Solution {
-    public String convert(String A, int B) {
+int currentRow = 0;
+        boolean goingDown = false;
+
+        for (char c : A.toCharArray()) {
+            // Current character ko current row mein add karo
+            rows.get(currentRow).append(c);
+
+            // Direction change logic
+            if (currentRow == 0 || currentRow == B - 1) {
+                goingDown = !goingDown;
+            }
+
+            // Next row decide karo
+            currentRow += goingDown ? 1 : -1;
+        }
+
+        // Saari rows ko join karo
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder row : rows) {
+            result.append(row.toString());
+        }
+
+        return result.toString();
     }
 }
