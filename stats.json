@@ -1,12 +1,12 @@
 {
-  "totalSolved": 34,
+  "totalSolved": 35,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-09-30",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 8,
-    "medium": 22,
+    "medium": 23,
     "hard": 1,
     "basic": 3
   },
@@ -44,14 +44,15 @@
     "LeetCode_Add_One_Row_to_Tree": true,
     "LeetCode_Sum_of_Distances_in_Tree": true,
     "LeetCode_Partition_List": true,
-    "GeeksForGeeks_Height_of_Heap": true
+    "GeeksForGeeks_Height_of_Heap": true,
+    "GeeksForGeeks_Merge_Sort_for_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
     "2026-09-27": 1,
     "2026-09-28": 3,
     "2026-09-29": 24,
-    "2026-09-30": 5
+    "2026-09-30": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -87,6 +88,7 @@
     "Add One Row to Tree",
     "Sum of Distances in Tree",
     "Partition List",
-    "Height of Heap"
+    "Height of Heap",
+    "Merge Sort for Linked List"
   ]
 }

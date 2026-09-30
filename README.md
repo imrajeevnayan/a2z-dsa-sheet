@@ -73,3 +73,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 34 | [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | LeetCode | Hard | 30 Sept 2026 | 12:12 pm |
 | 35 | [Partition List](https://leetcode.com/problems/partition-list/) | LeetCode | Medium | 30 Sept 2026 | 06:12 pm |
 | 36 | [Height of Heap](https://www.geeksforgeeks.org/problems/height-of-heap5025/1) | GeeksForGeeks | Basic | 30 Sept 2026 | 11:06 pm |
+| 37 | [Merge Sort for Linked List](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1) | GeeksForGeeks | Medium | 30 Sept 2026 | 11:17 pm |
