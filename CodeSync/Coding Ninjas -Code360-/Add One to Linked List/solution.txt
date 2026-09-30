@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Add One to Linked List
+ * URL: https://www.naukri.com/code360/problems/add-one-to-linked-list_920456
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T18:37:16.061Z
+ */
+
+import java.util.*;
+import java.io.*; 
+ 
+public class Solution {
+ 
+    public static LinkedListNode addOneToList(LinkedListNode head) {
+ 
+        // Find and remove the -1 terminator
+        LinkedListNode curr = head;
+ 
+        while (curr != null && curr.next != null) {
+            if (curr.next.data == -1) {
+                curr.next = null;
+                break;
+            }
+            curr = curr.next;
+        }
+ 
+        // Reverse the actual number
+        LinkedListNode prev = null;
+        curr = head;
+ 
+        while (curr != null) {
+            LinkedListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+ 
+        // Add 1
+        curr = prev;
+        int carry = 1;
+ 
+        while (curr != null && carry != 0) {
+ 
+            int sum = curr.data + carry;
+ 
+            curr.data = sum % 10;
+            carry = sum / 10;
