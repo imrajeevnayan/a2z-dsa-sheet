@@ -7,14 +7,10 @@
  * Topics: Expected Complexities, Company Tags MicrosoftSnapdeal, Company Tags, Microsoft, Snapdeal, Topic Tags, Prefix Sum, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T14:38:27.247Z
+ * Synced: 2026-09-29T17:12:04.189Z
  */
 
-class Solution {
-    public int longestSubarrayDivK(int[] arr, int k) {
-        int n = arr.length;
-
-        // Har remainder ka first occurrence store karenge
+// Har remainder ka first occurrence store karenge
         int[] first = new int[k];
 
         // -1 ka matlab hai ki remainder abhi tak nahi mila
@@ -53,3 +49,5 @@ class Solution {
         }
 
         return maxLen;
+    }
+}
