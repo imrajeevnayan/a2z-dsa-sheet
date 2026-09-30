@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: THREE POINTER SOLUTION O(n²) time
+ * URL: https://www.geeksforgeeks.org/problems/three-sum-closest/1
+ * Language: // User function template for C++ // arr : given vector of elements // target : given sum value class Solution { public: int threeSumClosest(vector<int> arr, int target) { // Your code goes here int close = arr[0] + arr[1] + arr[2]; sort(arr.begin(), arr.end()); for(int i = 0 ; i < arr.size() - 2 ; i++){ int j = i + 1, k = arr.size() - 1; while(j < k){ int sum3 = arr[i] + arr[j] + arr[k]; if(abs(close - target) > abs(sum3 - target)) close = sum3; if(abs(target - sum3) == abs(target - close)) close = max(sum3, close); if(sum3 > target) k--; else if(sum3 < target) j++; else return sum3; } } return close; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Google, Apple, Facebook, Adobe
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T17:43:11.028Z
+ */
+
+int closestSum = 0;
+        int minDiff = Integer.MAX_VALUE;
+
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1;
+            int right = n - 1;
+
+            while (left < right) {
+                int currentSum = arr[i] + arr[left] + arr[right];
+                int diff = Math.abs(currentSum - target);
+
+                // KEY CHANGE: 
+                // 1. Agar naya diff chota hai -> Update
+                // 2. Agar diff barabar hai BUT currentSum bada hai -> Update (Max sum on tie)
+                if (diff < minDiff || (diff == minDiff && currentSum > closestSum)) {
+                    minDiff = diff;
+                    closestSum = currentSum;
+                }
+
+                // Standard Two Pointer Movement
+                if (currentSum < target) {
+                    left++;
+                } else if (currentSum > target) {
+                    right--;
+                } else {
+                    // Exact match mil gaya. 
+                    // Since we want MAX sum on tie, and exact match has diff=0 (best possible),
+                    // we can only return immediately if we are sure no other triplet 
+                    // also has diff=0 with a LARGER sum.
+                    // But wait! If currentSum == target, diff is 0. 
+                    // Can there be another triplet with sum == target but LARGER value? 
+                    // No, because sum == target means sum IS target. All exact matches have same sum.
+                    // So we can safely return.
+                    return target;
+                }
+            }
+        }
+
+        return closestSum;
+    }
+}
