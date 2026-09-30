@@ -5,34 +5,33 @@
  * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Hard
  * Topics: Dynamic Programming, Tree, Depth-First Search, Graph Theory, DP on Trees
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-30T06:41:55.057Z
+ * Synced: 2026-09-30T06:42:04.390Z
  */
 
-dfs2(0, -1, graph, count, ans, n);
-        dfs1(0, -1, graph, count, ans);
-
-        // Second DFS
-        // First DFS
-
-        int[] ans = new int[n];
-        int[] count = new int[n];
-
-        }
-
-        return ans;
-    }
-
-    private void dfs1(int node, int parent,List<Integer>[] graph,int[] count,int[] ans) {
-
-        count[node] = 1;
+count[node] = 1;
 
         for (int child : graph[node]) {
             if (child == parent) {
                 continue;
             }
-
             dfs1(child, node, graph, count, ans);
 
             count[node] += count[child];
+
+            ans[node] += ans[child] + count[child];
+        }
+    }
+
+    private void dfs2(int node, int parent,
+                       List<Integer>[] graph,
+                       int[] count,
+                       int[] ans,
+        int n) {
+
+        for (int child : graph[node]) {
+
+            if (child == parent) {
+                continue;
+            }
