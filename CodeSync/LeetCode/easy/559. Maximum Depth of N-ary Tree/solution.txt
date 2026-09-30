@@ -1,14 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 559. Maximum Depth of N-ary Tree
- * URL: https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * URL: https://leetcode.com/problems/maximum-depth-of-n-ary-tree/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T05:02:38.528Z
+ * Synced: 2026-09-30T05:03:04.330Z
  */
 
-Input: root = [1,null,3,2,4,null,5,6]
-Output: 3
+class Solution {
+    public int maxDepth(Node root) {
+
+        if (root == null) {
+            return 0;
+        }
+
+        int max = 0;
+
+        for (Node child : root.children) {
+            max = Math.max(max, maxDepth(child));
+        }
+
+        return max + 1;
+    }
+}
