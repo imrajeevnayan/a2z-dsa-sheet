@@ -1,0 +1,54 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smallest Window with All
+ * URL: https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1
+ * Language: string smallestWindow (string s, string p) { // Step 1: Edge case check - if p is longer than s, return "-1" if (p.length() > s.length()) return "-1"; int n = s.length(), m = p.length(); // n: length of s, m: length of p int start = -1, end = -1; // To store the start and end of the smallest window int len = INT_MAX; // Store the length of the smallest window int uniqueCharsInP = 0, matchCount = 0;// uniqueCharsInP: distinct chars in p, matchCount: chars matched in the window int left = 0; // Left pointer of the window // Step 2: Frequency maps for characters in s and p (only lowercase letters) vector<int> freqS(26, 0), freqP(26, 0); // Step 3: Fill the frequency map for string p for (int i = 0; i < m; i++) { freqP[p[i] - 'a']++; if (freqP[p[i] - 'a'] == 1) uniqueCharsInP++; // Count distinct characters in p } // Step 4: Sliding window approach to find the smallest window for (int right = 0; right < n; right++) { // Expand the window by adding the current character s[right] to freqS freqS[s[right] - 'a']++; // If the current character count in window matches the frequency in p, increment matchCount if (freqS[s[right] - 'a'] == freqP[s[right] - 'a']) matchCount++; // When the window has all characters of p (matchCount == uniqueCharsInP) if (matchCount == uniqueCharsInP) { // Try to minimize the window by moving the left pointer while (freqS[s[left] - 'a'] > freqP[s[left] - 'a']) { freqS[s[left] - 'a']--; // Decrease the count of the character and move the left pointer left++; } // Step 5: Update the result if the current window is smaller if (len > right - left + 1) { start = left; end = right; len = right - left + 1; } } } // Step 6: If no valid window is found, return "-1". Otherwise, return the smallest window substring if (start == -1) return "-1"; return s.substr(start, len); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, MakeMyTrip, Google, Streamoid Technologies
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T17:52:33.730Z
+ */
+
+class Solution {
+    public static String minWindow(String s, String p) {
+        if (s == null || p == null || s.length() < p.length()) {
+            return "";
+        }
+
+        // Step 1: Store frequency of characters in p
+        HashMap<Character, Integer> freqP = new HashMap<>();
+        for (char c : p.toCharArray()) {
+            freqP.put(c, freqP.getOrDefault(c, 0) + 1);
+        }
+
+        int required = freqP.size(); // Kitne unique characters match karne hain
+        int formed = 0; // Kitne characters abhi tak satisfy ho chuke hain
+
+        // Window ke andar ki frequencies
+        HashMap<Character, Integer> windowFreq = new HashMap<>();
+
+        int left = 0, right = 0;
+        int minLen = Integer.MAX_VALUE;
+        int startIndex = 0;
+
+        while (right < s.length()) {
+            char c = s.charAt(right);
+            windowFreq.put(c, windowFreq.getOrDefault(c, 0) + 1);
+
+            // Agar current character 'p' mein hai aur uski frequency match ho gayi
+            if (freqP.containsKey(c) && windowFreq.get(c).intValue() == freqP.get(c).intValue()) {
+                formed++;
+            }
+
+            // Step 2: Try to shrink the window from the left
+            while (left <= right && formed == required) {
+                char startChar = s.charAt(left);
+
+                // Update minimum window
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    startIndex = left;
+                }
+
+                // Remove character from window
