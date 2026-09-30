@@ -7,47 +7,14 @@
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Google, Apple, Facebook, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T17:43:11.028Z
+ * Synced: 2026-09-29T17:43:22.633Z
  */
 
-int closestSum = 0;
-        int minDiff = Integer.MAX_VALUE;
-
-        for (int i = 0; i < n - 2; i++) {
-            int left = i + 1;
-            int right = n - 1;
-
-            while (left < right) {
-                int currentSum = arr[i] + arr[left] + arr[right];
-                int diff = Math.abs(currentSum - target);
-
-                // KEY CHANGE: 
-                // 1. Agar naya diff chota hai -> Update
-                // 2. Agar diff barabar hai BUT currentSum bada hai -> Update (Max sum on tie)
-                if (diff < minDiff || (diff == minDiff && currentSum > closestSum)) {
-                    minDiff = diff;
-                    closestSum = currentSum;
-                }
-
-                // Standard Two Pointer Movement
-                if (currentSum < target) {
-                    left++;
-                } else if (currentSum > target) {
-                    right--;
-                } else {
-                    // Exact match mil gaya. 
-                    // Since we want MAX sum on tie, and exact match has diff=0 (best possible),
-                    // we can only return immediately if we are sure no other triplet 
-                    // also has diff=0 with a LARGER sum.
-                    // But wait! If currentSum == target, diff is 0. 
-                    // Can there be another triplet with sum == target but LARGER value? 
-                    // No, because sum == target means sum IS target. All exact matches have same sum.
-                    // So we can safely return.
-                    return target;
-                }
-            }
-        }
-
-        return closestSum;
-    }
-}
+Input: arr[] = [-1, 2, 2, 4], target = 4
+Output: 5
+Explanation: All possible triplets
+[-1, 2, 2], sum = (-1) + 2 + 2 = 3
+[-1, 2, 4], sum = (-1) + 2 + 4 = 5
+[-1, 2, 4], sum = (-1) + 2 + 4 = 5
+[2, 2, 4], sum = 2 + 2 + 4 = 8
+Triplet [-1, 2, 2], [-1, 2, 4] and [-1, 2, 4] have sum closest to target, so return the maximum one, that is 5.
