@@ -7,47 +7,10 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:45:42.777Z
+ * Synced: 2026-09-28T12:46:55.524Z
  */
 
-/*
-3 approch se solve hoga 
-1. revese the linkedlist
-2. add 1 to linkedlist
-3. reverse the linkedlist 
-*/
+Input: Head: 4->5->6
+Output: 457
 
-class Solution {
-    // revese 
-    private Node reverse(Node head) {
-            Node prev = null, curr = head;
-            while (curr != null) {
-                Node temp = curr.next;
-                curr.next = prev;
-                prev = curr;
-                curr = temp;
-            }
-            return prev;
-        }
-    public Node addOne(Node head) {
-     // step 1 revese the linkedlist
-     head=reverse(head);
-     Node curr=head;
-     int carry=1;
-     while(curr !=null){
-         int value=curr.data;
-         int sum=value+carry;
-         int digit=sum %10;
-         curr.data=digit;
-         carry=sum/10;
-         //move curr ko aagee
-         if(curr.next ==null && carry!=0){
-             curr.next=new Node(carry);
-             carry=0;
-         }
-         curr=curr.next;
-     }
-     head=reverse(head);
-     return hraaa
-    }
-}
+Explanation: 4->5->6 represents 456 and when 1 is added it becomes 457.
