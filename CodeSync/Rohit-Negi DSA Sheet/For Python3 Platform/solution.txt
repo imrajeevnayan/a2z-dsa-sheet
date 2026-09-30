@@ -7,22 +7,17 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T17:32:26.652Z
+ * Synced: 2026-09-28T17:34:02.661Z
  */
 
 class Solution {
     public int getKthFromLast(Node head, int k) {
-        Node fast = head,slow = head;
-
-        for (int i = 0; i < k; i++) {
-            
-            fast = fast.next;
-        }
-
-        while (fast != null) {
-            fast = fast.next;
-            slow = slow.next;
-        }
-        return slow.data;
+       Node slow=head,fast=head;
+              for(int i=1;i<=K;i++) fast=fast.next;
+              while(fast!=null){
+                  fast=fast.next;
+                  slow=slow.next;
+              }
+              return slow.da;
     }
 }
