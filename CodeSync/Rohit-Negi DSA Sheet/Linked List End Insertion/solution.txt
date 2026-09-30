@@ -7,23 +7,26 @@
  * Topics: Expected Complexities, Company Tags HikeWiproTCS, Company Tags, Hike, Wipro, TCS, Topic Tags, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:21:33.578Z
+ * Synced: 2026-09-30T18:23:40.636Z
  */
 
-/*
-class Node{
-    int data;
-    Node next;
-
-    Node(int x){
-        data = x;
-        next = null;
-    }
-}
-*/
 class Solution {
     public Node insertAtEnd(Node head, int x) {
-        // code here
+        Node newNode = new Node(x);
+
+        // Empty linked list
+        if (head == null) return newNode;
         
+        // Last node tak jao
+        Node curr = head;
+
+        while (curr.next != null) {
+            curr = curr.next;
+        }
+
+        // New node ko end mein attach karo
+        curr.next = newNode;
+
+        return head;
     }
 }
