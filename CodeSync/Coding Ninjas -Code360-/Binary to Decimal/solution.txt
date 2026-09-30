@@ -1,0 +1,27 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Binary to Decimal
+ * URL: https://www.naukri.com/code360/problems/binary-to-decimal_893273
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T19:08:15.175Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    public static int convert(int N, String str) {
+    int ans = 0;
+ 
+    for (int i = 0; i < N; i++) {
+        ans = ans * 2 + (str.charAt(i) - '0');
+    }
+ 
+    return ans;
+}
+ 
+}
