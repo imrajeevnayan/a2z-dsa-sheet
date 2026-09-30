@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3507. Minimum Pair Removal to Sort Array I
+ * URL: https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/?envType=problem-list-v2&envId=linked-list
+ * Language: Linked List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Linked List, Heap (Priority Queue), Simulation, Doubly-Linked List, Ordered Set
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T19:05:27.027Z
+ */
+
+class Solution {
+    public int minimumPairRemoval(int[] nums) {
+        
+    }
+}
