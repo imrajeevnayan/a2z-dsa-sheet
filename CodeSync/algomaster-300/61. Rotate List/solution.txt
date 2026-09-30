@@ -7,32 +7,26 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 44.46 MB
- * Synced: 2026-09-29T12:58:23.748Z
+ * Synced: 2026-09-29T12:58:36.069Z
  */
 
-return head;
-        }
-
-        // Make the list circular
+// Make the list circular
         tail.next = head;
-
-        if (k == 0) {
-        k = k % n;
-
-        // Avoid unnecessary rotations
-        }
-
-            tail = tail.next;
-            n++;
-
-        while (tail.next != null) {
-        ListNode tail = head;
-        int n = 1;
-        // Find length and last node
 
         // Find new tail
         int steps = n - k;
         ListNode newTail = head;
+
+        for (int i = 1; i < steps; i++) {
+            newTail = newTail.next;
         }
-            return head;
-        if (head == null || head.next == null || k == 0) {
+
+        // New head is next of new tail
+        ListNode newHead = newTail.next;
+
+        // Break the circle
+        newTail.next = null;
+
+        return newHead;
+    }
+}
