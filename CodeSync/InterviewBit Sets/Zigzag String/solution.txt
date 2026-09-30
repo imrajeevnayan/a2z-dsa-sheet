@@ -7,9 +7,10 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, 49.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T18:07:18.579Z
+ * Synced: 2026-09-29T18:07:19.600Z
  */
 
-P.......A........H.......N
-..A..P....L....S....I...I....G
-....Y.........I........R
+public class Solution {
+    public String convert(String A, int B) {
+    }
+}
