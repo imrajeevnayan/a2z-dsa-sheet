@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 993. Cousins in Binary Tree
+ * URL: https://leetcode.com/problems/cousins-in-binary-tree/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T05:03:37.520Z
+ */
+
+Input: root = [1,2,3,4], x = 4, y = 3
+Output: false
