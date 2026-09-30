@@ -1,18 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 834. Sum of Distances in Tree
- * URL: https://leetcode.com/problems/sum-of-distances-in-tree/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * URL: https://leetcode.com/problems/sum-of-distances-in-tree/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Hard
  * Topics: Dynamic Programming, Tree, Depth-First Search, Graph Theory, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T06:40:56.488Z
+ * Synced: 2026-09-30T06:41:25.757Z
  */
 
-Input: n = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
-Output: [8,12,6,10,10,10]
-Explanation: The tree is shown above.
-We can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)
-equals 1 + 1 + 2 + 2 + 2 = 8.
-Hence, answer[0] = 8, and so on.
+ans[node] += ans[child] + count[child];
+        }
+    }
+
+    private void dfs2(int node, int parent,
+                       List<Integer>[] graph,
+                       int[] count,
+                       int[] ans,
+                       int n) {
+
+        for (int child : graph[node]) {
+
+            if (child == parent) {
+                continue;
+            }
+
+            ans[child] = ans[node] + n - 2 * count[child];
+
+            dfs2(child, node, graph, count, ans, n);
+        }
+    }
+}
