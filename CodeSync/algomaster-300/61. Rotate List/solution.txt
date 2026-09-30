@@ -7,14 +7,10 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T12:34:40.848Z
+ * Synced: 2026-09-29T12:34:53.339Z
  */
 
-}
-        // Step 2: Reduce unnecessary rotations
-        k = k % n;
-        if (k == 0) return head;
-        // Step 3: Make the list circular
+// Step 3: Make the list circular
         tail.next = head;
 
         // Step 4: Find new tail
@@ -25,12 +21,18 @@
         for (int i = 1; i < steps; i++) {
             newTail = newTail.next;
         }
+        if (k == 0) return head;
+        k = k % n;
+        // Step 2: Reduce unnecessary rotations
+            n++;
+        }
+            tail = tail.next;
+
+        while (tail.next != null) {
+        ListNode tail = head;
+        int n = 1;
         // Step 5: New head
         ListNode newHead = newTail.next;
 
         // Step 6: Break the circle
         newTail.next = null;
-
-        return newHead;
-    }
-}
