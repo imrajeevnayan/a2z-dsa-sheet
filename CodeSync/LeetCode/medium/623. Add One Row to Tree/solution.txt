@@ -1,14 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 623. Add One Row to Tree
- * URL: https://leetcode.com/problems/add-one-row-to-tree/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * URL: https://leetcode.com/problems/add-one-row-to-tree/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-30T06:30:32.308Z
+ * Synced: 2026-09-30T06:34:26.735Z
  */
 
-Input: root = [4,2,6,3,1,5], val = 1, depth = 2
-Output: [4,1,1,2,null,null,6,3,1,5]
+return;
+        }
+
+        // Humein depth - 1 tak jaana hai
+        if (currentDepth == depth - 1) {
+
+            // Left side
+            TreeNode newLeft = new TreeNode(val);
+        if (node == null) {
+    private void addRow(TreeNode node, int val, int depth, int currentDepth) {
+        
+
+        return root;
+    }
+        addRow(root, val, depth, 1);
+
+        }
+            newRoot.left = root;
+            return newRoot;
+        if (depth == 1) {
+            TreeNode newRoot = new TreeNode(val);
+        
+        // Agar depth 1 hai, naya node root ke upar lagega
+    public TreeNode addOneRow(TreeNode root, int val, int depth) {
+class Solution {
