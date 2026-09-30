@@ -7,12 +7,12 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T12:41:30.225Z
+ * Synced: 2026-09-30T12:41:34.095Z
  */
 
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode smallDummy=new ListNode(0);
     }
-        ListNode la
+        ListNode largeDummy=
 }
