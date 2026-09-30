@@ -76,3 +76,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 37 | [Merge Sort for Linked List](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1) | GeeksForGeeks | Medium | 30 Sept 2026 | 11:17 pm |
 | 38 | [Search in Linked List](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1) | GeeksForGeeks | Basic | 30 Sept 2026 | 11:47 pm |
 | 39 | [Linked List End Insertion](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1) | GeeksForGeeks | Basic | 30 Sept 2026 | 11:53 pm |
+| 40 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | LeetCode | Medium | 30 Sept 2026 | 11:59 pm |
