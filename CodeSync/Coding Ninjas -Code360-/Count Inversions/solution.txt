@@ -1,0 +1,54 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count Inversions
+ * URL: https://www.naukri.com/code360/problems/count-inversions_615
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 879 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T07:19:31.644Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+ 
+    public static long getInversions(long arr[], int n) {
+        return mergeSort(arr, 0, n - 1);
+    }
+ 
+    static long mergeSort(long[] arr, int low, int high) {
+        if (low >= high) {
+            return 0;
+        }
+ 
+        int mid = low + (high - low) / 2;
+ 
+        long count = 0;
+ 
+        count += mergeSort(arr, low, mid);
+        count += mergeSort(arr, mid + 1, high);
+        count += merge(arr, low, mid, high);
+ 
+        return count;
+    }
+ 
+    static long merge(long[] arr, int low, int mid, int high) {
+ 
+        long count = 0;
+ 
+        long[] temp = new long[high - low + 1];
+ 
+        int i = low;
+        int j = mid + 1;
+        int k = 0;
+ 
+        while (i <= mid && j <= high) {
+ 
+            if (arr[i] <= arr[j]) {
+                temp[k++] = arr[i++];
+            } 
+            else {
+                temp[k++] = arr[j++];
