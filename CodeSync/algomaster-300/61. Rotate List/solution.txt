@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-09-29T12:34:57.062Z
+ * Runtime: 0 ms
+ * Memory: 44.16 MB
+ * Synced: 2026-09-29T12:37:00.671Z
  */
 
 // Step 3: Make the list circular
@@ -23,6 +23,9 @@
         }
         if (k == 0) return head;
         k = k % n;
+        // Step 2: Reduce unnecessary rotations
+        }
+            n++;
         // Step 5: New head
         ListNode newHead = newTail.next;
 
