@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T05:04:22.347Z
+ * Synced: 2026-09-30T06:30:14.930Z
  */
 
 class Solution {
@@ -28,9 +28,3 @@ class Solution {
 
                 // Check if x and y are siblings
                 if (curr.left != null && curr.right != null) {
-
-                    if ((curr.left.val == x && curr.right.val == y) ||
-                        (curr.left.val == y && curr.right.val == x)) {
-                        return false;
-                    }
-                }
