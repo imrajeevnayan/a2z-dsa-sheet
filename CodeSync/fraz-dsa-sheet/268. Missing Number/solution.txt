@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 268. Missing Number
- * URL: https://leetcode.com/problems/missing-number/description/?utm=codolio
+ * URL: https://leetcode.com/problems/missing-number/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T18:02:46.716Z
+ * Synced: 2026-09-28T18:02:55.096Z
  */
 
 class Solution {
@@ -18,7 +18,6 @@ class Solution {
             xor ^= i;
             xor ^= nums[i];
         }
-
         return xor;
     }
 }
