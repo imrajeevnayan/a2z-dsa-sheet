@@ -1,34 +1,46 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Insert Interval
- * URL: https://leetcode.com/problems/insert-interval/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array
- * Runtime: 0 ms
+ * URL: https://www.naukri.com/code360/problems/interview-shuriken-49-insert-interval_285893
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T18:14:02.526Z
+ * Synced: 2026-09-30T07:55:57.204Z
  */
 
-list.add(interval);
-            }
-
-            // interval newInterval ke baad hai
-            else if (interval[0] > newInterval[1]) {
-                list.add(newInterval);
-                newInterval = interval;
-            }
-
-            // Overlap -> merge
-            else {
-                newInterval[0] = Math.min(newInterval[0], interval[0]);
-                newInterval[1] = Math.max(newInterval[1], interval[1]);
-            }
+import java.util.*;
+ 
+public class Solution {
+    public static int[][] addInterval(int[][] intervals, int n, int[] newInterval) {
+ 
+        ArrayList<int[]> result = new ArrayList<>();
+ 
+        int i = 0;
+ 
+        // Jo intervals newInterval se pehle hain
+        while (i < n && intervals[i][1] < newInterval[0]) {
+            result.add(intervals[i]);
+            i++;
         }
-
-        // Last interval
-        list.add(newInterval);
-
-        return list.toArray(new int[list.size()][]);
+ 
+        // Overlapping intervals ko merge karo
+        while (i < n && intervals[i][0] <= newInterval[1]) {
+            newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
+            newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
+            i++;
+        }
+ 
+        // Merged newInterval add karo
+        result.add(newInterval);
+ 
+        // Remaining intervals
+        while (i < n) {
+            result.add(intervals[i]);
+            i++;
+        }
+ 
+        return result.toArray(new int[result.size()][]);
     }
 }
