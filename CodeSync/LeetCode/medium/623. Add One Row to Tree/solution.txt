@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 623. Add One Row to Tree
+ * URL: https://leetcode.com/problems/add-one-row-to-tree/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T06:30:32.308Z
+ */
+
+Input: root = [4,2,6,3,1,5], val = 1, depth = 2
+Output: [4,1,1,2,null,null,6,3,1,5]
