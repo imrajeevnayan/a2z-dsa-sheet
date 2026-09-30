@@ -7,11 +7,20 @@
  * Topics: Array, Two Pointers, Greedy, Sorting, Quicksort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T17:48:37.493Z
+ * Synced: 2026-09-30T17:48:37.791Z
  */
 
 class Solution {
-    public ListNode sortList(ListNode head) {
-        
+    public int findContentChildren(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int i = 0, j = 0; 
+        while (i < g.length && j < s.length) {
+            if (s[j] >= g[i]) {
+                i++; 
+            }
+            j++; 
+        }
+        return i; 
     }
 }
