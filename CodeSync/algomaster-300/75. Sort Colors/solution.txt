@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 75. Sort Colors
+ * URL: https://leetcode.com/problems/sort-colors/?utm=codolio
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, Sorting, Quicksort, Bubble Sort
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-29T18:10:57.078Z
+ */
+
+class Solution {
+    public void sortColors(int[] nums) {
+        int low = 0, mid = 0, high = nums.length - 1;
+        while (mid <= high) {
+            if (nums[mid] == 0) swap(nums, low++, mid++);
