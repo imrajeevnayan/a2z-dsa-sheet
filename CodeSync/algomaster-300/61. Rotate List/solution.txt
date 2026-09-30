@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 61. Rotate List
- * URL: https://leetcode.com/problems/rotate-list/
+ * URL: https://leetcode.com/problems/rotate-list/submissions/2157086000/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-09-29T12:56:09.960Z
+ * Memory: 44.46 MB
+ * Synced: 2026-09-29T12:58:20.051Z
  */
 
 return head;
@@ -30,8 +30,8 @@ return head;
         int n = 1;
         // Find length and last node
 
-        }
             return head;
+        }
         if (head == null || head.next == null || k == 0) {
-        // Find new tail
-        int steps = n - k;
+    public ListNode rotateRight(ListNode head, int k) {
+class Solution {
