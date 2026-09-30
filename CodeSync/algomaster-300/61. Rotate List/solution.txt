@@ -2,13 +2,36 @@
  * Platform: LeetCode
  * Problem: 61. Rotate List
  * URL: https://leetcode.com/problems/rotate-list/description/?envType=problem-list-v2&envId=linked-list
- * Language: Text
+ * Language: Linked List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T19:04:50.087Z
+ * Synced: 2026-09-28T19:04:53.173Z
  */
 
-Input: head = [1,2,3,4,5], k = 2
-Output: [4,5,1,2,3]
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || head.next == null || k == 0) return head;
+        // Step 1: Find length and tail
+        int n = 1;
+        ListNode tail = head;
+
+        while (tail.next != null) {
+            tail = tail.next;
+            n++;
+        }
+        // Step 2: Reduce unnecessary rotations
+        k = k % n;
+        if (k == 0) return head;
+        // Step 3: Make the list circular
+        tail.next = head;
+
+        // Step 4: Find new tail
+        int steps = n - k;
+
+        ListNode newTail = head;
+
+        for (int i = 1; i < steps; i++) {
+            newTail = newTail.next;
+        }
