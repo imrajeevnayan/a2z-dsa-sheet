@@ -7,17 +7,15 @@
  * Topics: Expected Complexities, Company Tags OracleAdobeNPCI, Company Tags, Oracle, Adobe, NPCI, Topic Tags, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T17:27:02.035Z
+ * Synced: 2026-09-29T17:27:07.870Z
  */
 
 class Solution {
     public boolean areRotations(String s1, String s2) {
-        if (s1.length() != s2.length()) return false;
+        if (s1.length() != s2.length())return false;
         
-
-        if (s1.isEmpty()) {
-            return true;
-        }
+        if (s1.isEmpty())  return true;
+    
 
         String concatenated = s1 + s1;
 
@@ -53,3 +51,4 @@ class Solution {
         int n = pattern.length();
         int[] lps = new int[n];
         int len = 0;
+        int i = 1;
