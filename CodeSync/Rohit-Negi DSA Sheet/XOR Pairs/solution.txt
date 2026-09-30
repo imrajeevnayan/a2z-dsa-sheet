@@ -1,0 +1,33 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: XOR Pairs
+ * URL: https://www.naukri.com/code360/problems/xor-pairs_625922
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T07:53:27.437Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static boolean checkXORPairs(int[] arr, int n) {
+ 
+        HashMap<Integer, Integer> map = new HashMap<>();
+ 
+        for (int i = 0; i < n; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        }
+ 
+        for (int freq : map.values()) {
+            if (freq % 2 != 0) {
+                return false;
+            }
+        }
+ 
+        return true;
+    }
+}
