@@ -1,17 +1,18 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Frog Jump
- * URL: https://leetcode.com/problems/frog-jump/description/
- * Language: Problem List
- * Difficulty: Hard
- * Topics: Array, Dynamic Programming
+ * URL: https://www.geeksforgeeks.org/problems/geek-jump/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Arrays, Related Articles, Minimum Cost For Hopping Frog To Reach Stair N
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-09T09:31:31.089Z
+ * Synced: 2026-09-29T14:03:03.897Z
  */
 
-class Solution {
-    public boolean canCross(int[] stones) {
-        
-    }
-}
+Input: heights[] = [20, 30, 40, 20]
+Output: 20
+Explanation: Minimum cost is incurred when the frog jumps from stair 0 to 1 then 1 to 3:
+jump from stair 0 to 1: cost = |30 - 20| = 10
+jump from stair 1 to 3: cost = |20 - 30| = 10
+Total Cost = 10 + 10 = 20
