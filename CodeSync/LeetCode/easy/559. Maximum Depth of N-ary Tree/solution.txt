@@ -7,15 +7,12 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T05:03:04.330Z
+ * Synced: 2026-09-30T05:03:14.956Z
  */
 
 class Solution {
     public int maxDepth(Node root) {
-
-        if (root == null) {
-            return 0;
-        }
+        if (root == null) return 0;
 
         int max = 0;
 
