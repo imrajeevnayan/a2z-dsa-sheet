@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T12:45:10.920Z
+ * Synced: 2026-09-28T12:45:21.922Z
  */
 
 /*
@@ -46,7 +46,7 @@ class Solution {
              carry=0;
          }
          curr=curr.next;
-         ]]
      }
+     he
     }
 }
