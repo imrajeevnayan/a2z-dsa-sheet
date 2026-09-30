@@ -5,19 +5,20 @@
  * Language: Bit Manipulation
  * Difficulty: Hard
  * Topics: Math, Dynamic Programming, Bit Manipulation, Recursion, Memoization
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-30T19:13:51.624Z
+ * Synced: 2026-09-30T19:14:40.037Z
  */
 
 class Solution {
     public int minimumOneBitOperations(int n) {
-        if (n == 0) return 0;
+        int ans = 0;
 
-        int msb = 31 - Integer.numberOfLeadingZeros(n);
-        int mask = (1 << msb) - 1;
+        while (n > 0) {
+            ans ^= n;
+            n >>= 1;
+        }
 
-        return (1 << (msb + 1)) - 1
-               - minimumOneBitOperations(n ^ mask);
+        return ans;
     }
 }
