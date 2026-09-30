@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA 1 LINE SOLUTION
+ * URL: https://www.geeksforgeeks.org/problems/height-of-heap5025/1
+ * Language: class Solution: def heapHeight(self, N, arr): count = -1 while N != 0: N = N//2 count += 1 return count
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Heap, Related Articles, Height Complete Binary Tree Heap N Nodes
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T17:36:04.780Z
+ */
+
+class Solution {
+    static int heapHeight(int n, int arr[]) {
+        if (n == 1) return 1;
+        int height = 0;
+
+        while (n > 1) {
+            n /= 2;
+            height++;
+        }
+        return height;
+    }
+}
