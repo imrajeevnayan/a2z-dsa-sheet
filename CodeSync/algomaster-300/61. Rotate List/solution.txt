@@ -6,33 +6,32 @@
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: 44.16 MB
- * Synced: 2026-09-29T12:52:42.861Z
+ * Memory: N/A
+ * Synced: 2026-09-29T12:56:09.960Z
  */
 
-// Step 3: Make the list circular
+return head;
+        }
+
+        // Make the list circular
         tail.next = head;
 
-        // Step 4: Find new tail
-        int steps = n - k;
-
-        ListNode newTail = head;
-
-        for (int i = 1; i < steps; i++) {
-            newTail = newTail.next;
-        }
+        if (k == 0) {
         k = k % n;
-        if (k == 0) return head;
+
+        // Avoid unnecessary rotations
         }
-        // Step 2: Reduce unnecessary rotations
-        while (tail.next != null) {
+
             tail = tail.next;
             n++;
+
+        while (tail.next != null) {
         ListNode tail = head;
-
         int n = 1;
-        // Step 1: Find length and tail
-        // Step 5: New head
-        ListNode newHead = newTail.next;
+        // Find length and last node
 
-        // Step 6: Break the circle
+        }
+            return head;
+        if (head == null || head.next == null || k == 0) {
+        // Find new tail
+        int steps = n - k;
