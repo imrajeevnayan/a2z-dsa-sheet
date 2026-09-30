@@ -1,0 +1,25 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Multiples of 2 and 3
+ * URL: https://www.naukri.com/code360/problems/multiples-of-2-and-3_624777
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2836 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T07:27:12.333Z
+ */
+
+public class solution {
+    public static int findSum(int arr[]) {
+        int sum = 0;
+ 
+        for (int num : arr) {
+            if (num % 2 == 0 || num % 3 == 0) {
+                sum += num;
+            }
+        }
+ 
+        return sum;
+    }
+}
