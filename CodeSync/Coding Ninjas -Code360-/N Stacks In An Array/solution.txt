@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: N Stacks In An Array
+ * URL: https://www.naukri.com/code360/problems/n-stacks-in-an-array_1164271
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-28T19:11:36.520Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class NStack {
+ 
+    int[] arr;      // Stores actual elements
+    int[] top;      // top[i] = index of top element of stack i
+    int[] next;     // Links free spaces / next element
+    int freeSpot;   // First free index
+ 
+    // Initialize your data structure.
+    public NStack(int N, int S) {
+        arr = new int[S];
+        top = new int[N];
+        next = new int[S];
+ 
+        // Initially all stacks are empty
+        Arrays.fill(top, -1);
+ 
+        // All S spaces are free
+        for (int i = 0; i < S - 1; i++) {
+            next[i] = i + 1;
+        }
+ 
+        next[S - 1] = -1;
+ 
+        freeSpot = 0;
+    }
+ 
+    // Pushes 'X' into the Mth stack.
+    public boolean push(int x, int m) {
+ 
+        // No free space
+        if (freeSpot == -1) {
+            return false;
+        }
+ 
+        // Get a free index
+        int index = freeSpot;
