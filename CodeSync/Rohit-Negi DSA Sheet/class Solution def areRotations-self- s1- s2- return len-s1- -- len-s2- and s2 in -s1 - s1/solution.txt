@@ -7,15 +7,13 @@
  * Topics: Expected Complexities, Company Tags OracleAdobeNPCI, Company Tags, Oracle, Adobe, NPCI, Topic Tags, Strings
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T17:25:04.138Z
+ * Synced: 2026-09-29T17:25:14.616Z
  */
 
 class Solution {
     public boolean areRotations(String s1, String s2) {
-       if (s1.length() != s2.length()) {
-                   return false;
-               }
-
+       if (s1.length() != s2.length()) return false;
+             
                int n = s1.length();
 
                // Har possible rotation check karo
