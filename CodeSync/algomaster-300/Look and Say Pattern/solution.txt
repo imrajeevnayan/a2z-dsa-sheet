@@ -7,29 +7,38 @@
  * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftFacebook, Company Tags, Zoho, Amazon, Microsoft, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-21T09:16:23.429Z
+ * Synced: 2026-09-29T17:30:47.439Z
  */
 
 class Solution {
     public String countAndSay(int n) {
-        String s = "1";
+        if (n == 1)  return "1";
+        
+        // Recursively get (n-1)th term
+        String prev = countAndSay(n - 1);
 
-        for (int k = 1; k < n; k++) {
-            StringBuilder sb = new StringBuilder();
+        // Process it to get nth term
+        return getNextSequence(prev);
+    }
 
-            for (int i = 0; i < s.length(); ) {
-                int j = i;
+    private String getNextSequence(String s) {
+        StringBuilder sb = new StringBuilder();
+        int count = 1;
+        char currentChar = s.charAt(0);
 
-                while (j < s.length() && s.charAt(j) == s.charAt(i))
-                    j++;
-
-                sb.append(j - i).append(s.charAt(i));
-                i = j;
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == currentChar) {
+                count++;
+            } else {
+                sb.append(count).append(currentChar);
+                currentChar = s.charAt(i);
+                count = 1;
             }
-
-            s = sb.toString();
         }
 
-        return s;
+        // Don't forget the last group!
+        sb.append(count).append(currentChar);
+
+        return sb.toString();
     }
 }
