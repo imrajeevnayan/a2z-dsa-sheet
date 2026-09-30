@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:17:01.959Z
+ * Synced: 2026-09-30T18:17:06.132Z
  */
 
 /* Structure of Linked List Node
@@ -25,7 +25,7 @@ class Solution {
     public boolean searchKey(Node head, int key) {
         Node curr=head;
         while(curr!=null){
-            if(curr.da)
+            if(curr.data==key)
         }
         
     }
