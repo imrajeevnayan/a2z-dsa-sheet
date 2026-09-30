@@ -1,37 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 1721. Swapping Nodes in a Linked List
- * URL: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
+ * URL: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/submissions/2157153027/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-29T14:00:38.435Z
+ * Synced: 2026-09-29T14:01:15.996Z
  */
 
-// fast pointer starts from k-th node
-        ListNode fast = first;
-
-        // slow pointer starts from head
-        ListNode second = head;
-
-        // Move fast to the end.
-        // At the same time, second will reach
-        // k-th node from the end.
-        while (fast.next != null) {
-            fast = fast.next;
-            second = second.next;
-        }
-
-        // Swap values of k-th node from beginning
-
-        }
-        // and k-th node from end
-        int temp = first.val;
-        first.val = second.val;
-        second.val = temp;
-
-        return head;
-    }
-}
+[1,2,3,4,5]
+2
+[7,9,6,6,7,8,3,0,9,5]
+5
+[1,4,3,2,5]
+[7,9,6,6,8,7,3,0,9,5]
+[1,4,3,2,5]
+[7,9,6,6,8,7,3,0,9,5]
