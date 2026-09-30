@@ -7,10 +7,22 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Related Articles, Add 1 Number Represented Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T18:00:32.311Z
+ * Synced: 2026-09-28T18:00:32.680Z
  */
 
-Node curr = head;
+/*
+3 approach se solve hoga:
+1. Reverse the linked list
+2. Add 1 to linked list
+3. Reverse the linked list
+*/
+
+class Solution {
+
+    // Reverse linked list
+    private Node reverse(Node head) {
+        Node prev = null;
+        Node curr = head;
 
         while (curr != null) {
             Node temp = curr.next;
@@ -41,14 +53,3 @@ Node curr = head;
             if (curr.next == null && carry != 0) {
                 curr.next = new Node(carry);
                 carry = 0;
-            }
-
-            curr = curr.next;
-        }
-
-        // Step 3: Reverse again
-        head = reverse(head);
-
-        return head;
-    }
-}
