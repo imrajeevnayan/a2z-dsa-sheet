@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T12:34:53.339Z
+ * Synced: 2026-09-29T12:34:57.062Z
  */
 
 // Step 3: Make the list circular
@@ -23,16 +23,12 @@
         }
         if (k == 0) return head;
         k = k % n;
-        // Step 2: Reduce unnecessary rotations
-            n++;
-        }
-            tail = tail.next;
-
-        while (tail.next != null) {
-        ListNode tail = head;
-        int n = 1;
         // Step 5: New head
         ListNode newHead = newTail.next;
 
         // Step 6: Break the circle
         newTail.next = null;
+
+        return newHead;
+    }
+}
