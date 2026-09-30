@@ -7,20 +7,11 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T12:39:27.417Z
+ * Synced: 2026-09-30T12:39:54.072Z
  */
 
-while (head != null) {
-
-            if (head.val < x) {
-                small.next = head;
-                small = small.next;
-            } else {
-        ListNode large = largeDummy;
-        ListNode small = smallDummy;
-
-        ListNode largeDummy = new ListNode(0);
-        ListNode smallDummy = new ListNode(0);
-
-    public ListNode partition(ListNode head, int x) {
 class Solution {
+    public ListNode partition(ListNode head, int x) {
+        List
+    }
+}
