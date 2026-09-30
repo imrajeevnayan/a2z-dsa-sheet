@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Swap Alternate
+ * URL: https://www.naukri.com/code360/problems/swap-alternate_624941
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 10524 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T07:29:03.769Z
+ */
+
+public class Solution {
+    public static void swapAlternate(int arr[]) {
+        for (int i = 0; i < arr.length - 1; i += 2) {
+            
+            int temp = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = temp;
+        }
+    }
+}
