@@ -7,7 +7,7 @@
  * Topics: Dynamic Programming, Tree, Depth-First Search, Graph Theory, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T06:41:34.098Z
+ * Synced: 2026-09-30T06:41:42.479Z
  */
 
 dfs2(0, -1, graph, count, ans, n);
@@ -22,16 +22,17 @@ dfs2(0, -1, graph, count, ans, n);
             graph[u].add(v);
             graph[v].add(u);
         }
-            int u = edge[0];
-            int v = edge[1];
-
 
         return ans;
     }
 
-    private void dfs1(int node, int parent,
-                       List<Integer>[] graph,
+    private void dfs1(int node, int parent,List<Integer>[] graph,
                        int[] count,
-                       int[] ans) {
+                int[] ans) {
 
         count[node] = 1;
+
+        for (int child : graph[node]) {
+
+            if (child == parent) {
+                continue;
