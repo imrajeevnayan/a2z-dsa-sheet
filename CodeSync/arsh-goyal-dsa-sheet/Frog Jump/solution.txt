@@ -7,12 +7,44 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Arrays, Related Articles, Minimum Cost For Hopping Frog To Reach Stair N
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T14:03:03.897Z
+ * Synced: 2026-09-29T14:03:55.362Z
  */
 
-Input: heights[] = [20, 30, 40, 20]
-Output: 20
-Explanation: Minimum cost is incurred when the frog jumps from stair 0 to 1 then 1 to 3:
-jump from stair 0 to 1: cost = |30 - 20| = 10
-jump from stair 1 to 3: cost = |20 - 30| = 10
-Total Cost = 10 + 10 = 20
+class Solution {
+
+    int minCost(int[] height) {
+        int n = height.length;
+        int[] dp = new int[n];
+
+        // -1 means not calculated yet
+        Arrays.fill(dp, -1);
+        return solve(n - 1, height, dp);
+    }
+    int solve(int i, int[] height, int[] dp) {
+        if (i == 0) {
+            return 0;
+        
+
+        // Already calculated
+        if (dp[i] != -1) {
+            return dp[i];
+        }
+
+        // Jump from previous stone (i - 1)
+        int oneJump = solve(i - 1, height, dp)
+                + Math.abs(height[i] - height[i - 1]);
+
+        int twoJump = Integer.MAX_VALUE;
+
+        // Jump from i - 2 if possible
+        if (i > 1) {
+            twoJump = solve(i - 2, height, dp)
+                    + Math.abs(height[i] - height[i - 2]);
+        }
+
+        // Minimum cost to reach i
+        dp[i] = Math.min(oneJump, twoJump);
+
+        return dp[i];
+    }
+}
