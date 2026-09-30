@@ -1,0 +1,52 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easiest Intuition Out There :-
+ * URL: https://www.geeksforgeeks.org/problems/swap-kth-node-from-beginning-and-kth-node-from-end-in-a-singly-linked-list/1
+ * Language: Node* swapKth(Node* head, int k) { // code here if(!head->next && k==1) return head; Node* startNode=head, *endNode=head, *curr=head; while(curr){ if(k>1){ startNode=startNode->next; }else if(k<1){ endNode=endNode->next; } k--; curr=curr->next; } // it means there was no point where data can be switched if(k>1) return head; int temp=endNode->data; endNode->data=startNode->data; startNode->data=temp; return head; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Morgan StanleyAmazonNPCI, Company Tags, Morgan Stanley, Amazon, NPCI, Topic Tags, Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T14:02:28.614Z
+ */
+
+class Solution {
+    public Node swapKth(Node head, int k) {
+
+        // Empty list
+        if (head == null) {
+            return head;
+        }
+
+        // Find k-th node from the beginning
+        Node first = head;
+
+        for (int i = 1; i < k; i++) {
+            first = first.next;
+
+            // k is greater than length
+            if (first == null) {
+                return head;
+            }
+        }
+
+        // fast starts from k-th node
+        Node fast = first;
+
+        // second starts from head
+        // It will reach k-th node from the end
+        Node second = head;
+
+        while (fast.next != null) {
+            fast = fast.next;
+            second = second.next;
+        }
+
+        // Swap the data of both nodes
+        int temp = first.data;
+        first.data = second.data;
+        second.data = temp;
+
+        return head;
+    }
+}
