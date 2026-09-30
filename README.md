@@ -79,3 +79,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 40 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | LeetCode | Medium | 30 Sept 2026 | 11:59 pm |
 | 41 | [Linked List Delete at Position](https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) | GeeksForGeeks | Easy | 01 Oct 2026 | 12:08 am |
 | 42 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | LeetCode | Medium | 01 Oct 2026 | 12:21 am |
+| 43 | [Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | LeetCode | Hard | 01 Oct 2026 | 12:44 am |

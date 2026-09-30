@@ -1,13 +1,13 @@
 {
-  "totalSolved": 40,
+  "totalSolved": 41,
   "currentStreak": 6,
   "maxStreak": 6,
   "lastSyncDate": "2026-10-01",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 9,
     "medium": 25,
-    "hard": 1,
+    "hard": 2,
     "basic": 5
   },
   "syncedProblems": {
@@ -50,7 +50,8 @@
     "GeeksForGeeks_Linked_List_End_Insertion": true,
     "LeetCode_Remove_Nth_Node_From_End_of_List": true,
     "GeeksForGeeks_Linked_List_Delete_at_Position": true,
-    "LeetCode_Design_Linked_List": true
+    "LeetCode_Design_Linked_List": true,
+    "LeetCode_Minimum_One_Bit_Operations_to_Make_Integers_Zero": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -58,7 +59,7 @@
     "2026-09-28": 3,
     "2026-09-29": 24,
     "2026-09-30": 9,
-    "2026-10-01": 2
+    "2026-10-01": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -100,6 +101,7 @@
     "Linked List End Insertion",
     "Remove Nth Node From End of List",
     "Linked List Delete at Position",
-    "Design Linked List"
+    "Design Linked List",
+    "Minimum One Bit Operations to Make Integers Zero"
   ]
 }
