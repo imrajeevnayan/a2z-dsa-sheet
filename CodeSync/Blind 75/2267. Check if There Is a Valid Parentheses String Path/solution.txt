@@ -2,17 +2,16 @@
  * Platform: LeetCode
  * Problem: 2267. Check if There Is a Valid Parentheses String Path
  * URL: https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/?envType=daily-question&envId=2026-09-29
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Dynamic Programming, Matrix, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T12:56:19.132Z
+ * Synced: 2026-09-29T12:56:21.080Z
  */
 
-Input: grid = [["(","(","("],[")","(",")"],["(","(",")"],["(","(",")"]]
-Output: true
-Explanation: The above diagram shows two possible paths that form valid parentheses strings.
-The first path shown results in the valid parentheses string "()(())".
-The second path shown results in the valid parentheses string "((()))".
-Note that there may be other valid parentheses string paths.
+class Solution {
+    public boolean hasValidPath(char[][] grid) {
+        
+    }
+}
