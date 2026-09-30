@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1611. Minimum One Bit Operations to Make Integers Zero
- * URL: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/description/?envType=problem-list-v2&envId=bit-manipulation
- * Language: Text
+ * URL: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/?envType=problem-list-v2&envId=bit-manipulation
+ * Language: Bit Manipulation
  * Difficulty: Hard
  * Topics: Math, Dynamic Programming, Bit Manipulation, Recursion, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T19:13:15.936Z
+ * Synced: 2026-09-30T19:13:51.624Z
  */
 
-Input: n = 3
-Output: 2
-Explanation: The binary representation of 3 is "11".
-"11" -> "01" with the 2nd operation since the 0th bit is 1.
-"01" -> "00" with the 1st operation.
+class Solution {
+    public int minimumOneBitOperations(int n) {
+        if (n == 0) return 0;
+
+        int msb = 31 - Integer.numberOfLeadingZeros(n);
+        int mask = (1 << msb) - 1;
+
+        return (1 << (msb + 1)) - 1
+               - minimumOneBitOperations(n ^ mask);
+    }
+}
