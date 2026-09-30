@@ -69,3 +69,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 30 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | LeetCode | Easy | 29 Sept 2026 | 11:39 pm |
 | 31 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | LeetCode | Medium | 29 Sept 2026 | 11:42 pm |
 | 32 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | LeetCode | Easy | 30 Sept 2026 | 10:33 am |
+| 33 | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | LeetCode | Medium | 30 Sept 2026 | 12:04 pm |
