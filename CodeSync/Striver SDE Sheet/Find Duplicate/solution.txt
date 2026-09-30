@@ -1,0 +1,31 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find Duplicate
+ * URL: https://www.naukri.com/code360/problems/find-duplicate_625160
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1399 ms
+ * Memory: N/A
+ * Synced: 2026-09-30T07:31:00.664Z
+ */
+
+public class Solution {  
+    
+    public static int duplicateNumber(int arr[]) {
+        
+        int ans = 0;
+ 
+        // Array ke saare elements ka XOR
+        for (int i = 0; i < arr.length; i++) {
+            ans = ans ^ arr[i];
+        }
+ 
+        // 0 se n-2 tak ke numbers ka XOR
+        for (int i = 0; i < arr.length - 1; i++) {
+            ans = ans ^ i;
+        }
+ 
+        return ans;
+    }
+}
