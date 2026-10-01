@@ -1,13 +1,13 @@
 /*
  * Platform: TakeUForward
- * Problem: Striver’s A2Z DSA Sheet
+ * Problem: Striver's A2Z DSA Sheet
  * URL: https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet
  * Language: Java
  * Difficulty: Medium
  * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, Planly, Community, Blogs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-26T10:52:26.009Z
+ * Synced: 2026-10-01T18:20:10.340Z
  */
 
 class Solution {
