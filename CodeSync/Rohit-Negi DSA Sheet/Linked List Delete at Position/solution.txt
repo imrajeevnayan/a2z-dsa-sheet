@@ -2,30 +2,15 @@
  * Platform: GeeksforGeeks
  * Problem: Linked List Delete at Position
  * URL: https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1
- * Language: /* class Node { public: int data; Node* next; Node(int data) { this->data = data; this->next = nullptr; } }; */ class Solution { void delete_at_pos(Node* temp, int &pos) { if(pos==1) { if(temp->next->next==NULL) { Node*del=temp->next; temp->next=NULL; delete del; return; } else { Node*del=temp->next; temp->next=temp->next->next; delete del; return; } } delete_at_pos(temp->next, --pos); } public: Node* deleteNode(Node* head, int x) { // code here if(x==1) { Node*temp=head; head=head->next; delete temp; } else delete_at_pos(head, --x); return head; } };
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:38:07.666Z
+ * Synced: 2026-10-01T04:56:05.606Z
  */
 
-class Solution {
-    Node deleteNode(Node head, int x) {
+Input: x = 4,
 
-        // Agar head hi delete karna hai
-        if (x == 1) return head.next;
-        
-        Node curr = head;
-
-        // x-th node ke previous node tak jao
-        for (int i = 1; i < x - 1; i++) {
-            curr = curr.next;
-        }
-
-        // x-th node ko delete karo
-        curr.next = curr.next.next;
-
-        return head;
-    }
-}
+Output: 1 -> 2 -> 3 -> 5
+Explanation: After deleting the node at the 4th position, the linked list is as
