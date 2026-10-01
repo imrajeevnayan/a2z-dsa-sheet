@@ -1,12 +1,12 @@
 {
-  "totalSolved": 45,
+  "totalSolved": 46,
   "currentStreak": 6,
   "maxStreak": 6,
   "lastSyncDate": "2026-10-01",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 27,
+    "medium": 28,
     "hard": 2,
     "basic": 5
   },
@@ -55,7 +55,8 @@
     "LeetCode_Odd_Even_Linked_List": true,
     "GeeksForGeeks_Rearrange_a_linked_list": true,
     "LeetCode_Intersection_of_Two_Linked_Lists": true,
-    "GeeksForGeeks_Intersection_of_Two_Linked_Lists": true
+    "GeeksForGeeks_Intersection_of_Two_Linked_Lists": true,
+    "GeeksForGeeks_Sort_according_to_an_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -63,7 +64,7 @@
     "2026-09-28": 3,
     "2026-09-29": 24,
     "2026-09-30": 9,
-    "2026-10-01": 7
+    "2026-10-01": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -109,6 +110,7 @@
     "Minimum One Bit Operations to Make Integers Zero",
     "Odd Even Linked List",
     "Rearrange a linked list",
-    "Intersection of Two Linked Lists"
+    "Intersection of Two Linked Lists",
+    "Sort according to an Array"
   ]
 }
