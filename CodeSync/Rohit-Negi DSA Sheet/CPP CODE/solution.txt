@@ -7,25 +7,46 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Linked List, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T12:48:38.716Z
+ * Synced: 2026-10-01T12:49:54.917Z
  */
 
 class Solution {
     public void rearrangeEvenOdd(Node head) {
-        if (head == null || head.next == null) return;
 
+        // Agar list empty hai ya sirf 1 node hai,
+        // rearrangement ki zarurat nahi hai
+        if (head == null || head.next == null) {
+            return;
+        
+
+        // odd pointer -> odd positions (1st, 3rd, 5th...)
         Node odd = head;
+
+        // even pointer -> even positions (2nd, 4th, 6th...)
         Node even = head.next;
+
+        // Even-position wali list ka first node save kar liya
+        // Baad mein odd list ke end mein attach karenge
         Node evenHead = even;
 
+        // Jab tak even aur uske next node available hain
         while (even != null && even.next != null) {
+
+            // Odd node ko next odd-position node se connect karo
             odd.next = even.next;
+
+            // odd pointer ko aage move karo
             odd = odd.next;
 
+            // Even node ko next even-position node se connect karo
             even.next = odd.next;
+
+            // even pointer ko aage move karo
             even = even.next;
         }
 
+        // Ab odd-position wali list ke end mein
+        // poori even-position wali list attach kar do
         odd.next = evenHead;
     }
 }
