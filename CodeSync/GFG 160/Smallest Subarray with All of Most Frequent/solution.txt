@@ -1,0 +1,59 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Smallest Subarray with All of Most Frequent
+ * URL: https://www.geeksforgeeks.org/problems/smallest-subarray-with-all-occurrences-of-a-most-frequent-element2258/1
+ * Language: #User function Template for python3 from collections import defaultdict class Solution: def smallestSubsegment (self, arr) : #Complete the function dc = defaultdict(list) min_ln = 0 max_ocur = 1 l = 0 r = 0 for ind, num in enumerate(arr): dc[num].append(ind) cur_ocur = len(dc[num]) #print(dc) if cur_ocur > max_ocur: l = dc[num][0] r = dc[num][-1] min_ln = r-l max_ocur = cur_ocur elif cur_ocur == max_ocur: cur_ln = dc[num][-1] - dc[num][0] if cur_ln < min_ln: l = dc[num][0] r = dc[num][-1] min_ln = r-l return arr[l:r+1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:38:46.440Z
+ */
+
+int first = info[1];
+            int last = info[2];
+
+            // Agar frequency maximum hai
+            if (freq > maxFreq) {
+
+                maxFreq = freq;
+
+                bestStart = first;
+                bestEnd = last;
+
+                bestLength = last - first + 1;
+
+            } else if (freq == maxFreq) {
+
+                // Same maximum frequency hai
+                // to smaller subarray choose karna hai
+                int length = last - first + 1;
+
+                if (length < bestLength) {
+
+                    bestStart = first;
+                    bestEnd = last;
+                    bestLength = length;
+
+                } else if (length == bestLength) {
+
+                    // Same length hai to jo pehle aata hai
+                    // usko choose karenge
+                    if (first < bestStart) {
+                        bestStart = first;
+                        bestEnd = last;
+                    }
+                }
+            }
+        }
+
+        // Answer list mein add karo
+        List<Integer> ans = new ArrayList<>();
+
+        for (int i = bestStart; i <= bestEnd; i++) {
+            ans.add(arr[i]);
+        }
+
+        return ans;
+    }
+}
