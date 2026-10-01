@@ -1,31 +1,54 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/pair-sum-in-bst_920493
+ * URL: https://www.naukri.com/code360/problems/triplets-in-binary-tree_668907
  * Language: All languages
  * Difficulty: Hard
- * Topics: Binary Search Trees Clear all, Binary Search Trees
+ * Topics: Trees Clear all, Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T19:52:16.338Z
+ * Synced: 2026-10-01T17:55:02.996Z
  */
 
 import java.util.*;
  
 public class Solution {
- 
-    public static boolean pairSumBst(TreeNode root, int k) {
-        Set<Integer> set = new HashSet<>();
-        return solve(root, k, set);
-    }
- 
-    private static boolean solve(TreeNode root,int k,Set<Integer> set) {
-        if (root == null)return false;
-        int rem = k - root.data;
- 
-        if (set.contains(rem)) return true;
-        set.add(root.data);
- 
-        return solve(root.left, k, set) || solve(root.right, k, set);
-    }
-}
+    
+    public static List<List<Integer>> findTriplets(TreeNode<Integer> root, int x) {
+        
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> values = new ArrayList<>();
+        
+        // Tree ke saare elements list mein store karo
+        storeValues(root, values);
+        
+        // Sorting se 3-sum efficiently kar sakte hain
+        Collections.sort(values);
+        
+        int n = values.size();
+        
+        for (int i = 0; i < n - 2; i++) {
+            
+            // Duplicate triplets avoid karo
+            if (i > 0 && values.get(i).equals(values.get(i - 1))) {
+                continue;
+            }
+            
+            int left = i + 1;
+            int right = n - 1;
+            
+            while (left < right) {
+                
+                long sum = (long) values.get(i)
+                         + values.get(left)
+                         + values.get(right);
+                
+                if (sum == x) {
+                    
+                    ans.add(Arrays.asList(
+                        values.get(i),
+                        values.get(left),
+                        values.get(right)
+                    ));
+                    
+                    left++;
