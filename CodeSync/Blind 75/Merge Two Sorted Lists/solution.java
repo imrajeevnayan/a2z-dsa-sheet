@@ -7,13 +7,12 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, Palindrome List 47 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T18:03:40.836Z
+ * Synced: 2026-10-01T18:03:48.119Z
  */
 
 // Agar second list empty hai, first list return karo
-        if (B == null) {
-            return A;
-        }
+        if (B == null) return A;
+        
 
         // Chhote node ko current node banao
         if (A.val <= B.val) {
@@ -35,3 +34,5 @@ public class Solution {
 
             return B;
         }
+    }
+}
