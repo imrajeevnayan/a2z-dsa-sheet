@@ -1,0 +1,50 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Day 16 : Maximum Level Sum
+ * URL: https://www.naukri.com/code360/problems/hey_873145
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:55:56.292Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    public static int maxLevelSum(BinaryTreeNode root) {
+        
+        if (root == null) return 0;
+ 
+        Queue<BinaryTreeNode> q = new LinkedList<>();
+        q.add(root);
+        int maxSum = Integer.MIN_VALUE;
+        
+        while (!q.isEmpty()) {
+            
+            int size = q.size();
+            int levelSum = 0;
+            
+            // Current level ke saare nodes
+            for (int i = 0; i < size; i++) {
+                
+                BinaryTreeNode node = q.poll();
+                levelSum += node.val;
+                
+                if (node.left != null) {
+                    q.add(node.left);
+                }
+                
+                if (node.right != null) {
+                    q.add(node.right);
+                }
+            }
+            
+            maxSum = Math.max(maxSum, levelSum);
+        }
+        
+        return maxSum;
+    }
+}
