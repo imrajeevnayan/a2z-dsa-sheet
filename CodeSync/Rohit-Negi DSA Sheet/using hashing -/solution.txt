@@ -7,37 +7,42 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, 24*7 Innovation Labs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T12:52:18.455Z
+ * Synced: 2026-10-01T12:52:56.093Z
  */
 
 class Solution {
     public Node findIntersection(Node head1, Node head2) {
 
-        // List 1 ke saare nodes Set mein store karo
-        HashSet<Node> set = new HashSet<>();
+        // Head2 ke saare values Set mein daal do
+        HashSet<Integer> set = new HashSet<>();
 
-        Node curr = head1;
+        Node curr = head2;
 
         while (curr != null) {
-            set.add(curr);
+            set.add(curr.data);
             curr = curr.next;
         }
 
-        // List 2 traverse karo
-        curr = head2;
+        // Answer list banane ke liye dummy node
+        Node dummy = new Node(-1);
+        Node tail = dummy;
+
+        // Head1 ko original order mein traverse karo
+        curr = head1;
 
         while (curr != null) {
 
-            // Agar same node List 1 mein bhi hai,
-            // to wahi intersection node hai
-            if (set.contains(curr)) {
-                return curr;
+            // Agar head1 ka data head2 mein bhi present hai
+            if (set.contains(curr.data)) {
+
+                // New node bana ke answer mein add karo
+                tail.next = new Node(curr.data);
+                tail = tail.next;
             }
 
             curr = curr.next;
         }
 
-        // Intersection nahi mila
-        return null;
+        return dummy.next;
     }
 }
