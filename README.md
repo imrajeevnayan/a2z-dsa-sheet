@@ -81,3 +81,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 42 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | LeetCode | Medium | 01 Oct 2026 | 12:21 am |
 | 43 | [Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | LeetCode | Hard | 01 Oct 2026 | 12:44 am |
 | 44 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | LeetCode | Medium | 01 Oct 2026 | 06:17 pm |
+| 45 | [Rearrange a linked list](https://www.geeksforgeeks.org/problems/rearrange-a-linked-list/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 06:18 pm |
