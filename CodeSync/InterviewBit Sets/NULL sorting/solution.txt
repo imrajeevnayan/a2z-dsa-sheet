@@ -1,0 +1,13 @@
+/*
+ * Platform: InterviewBit
+ * Problem: NULL sorting
+ * URL: https://www.interviewbit.com/problems/null-sorting/
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Student Query 8 Minutes Easy Asked in:, Many Tables 21 Minutes Easy Asked in:, Role Counter 17 Minutes Medium Asked in:, Visit Old View, 65.6%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T18:06:26.779Z
+ */
+
+/* YOUR QUERY GOES HERE
