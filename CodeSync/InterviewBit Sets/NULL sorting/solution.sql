@@ -6,8 +6,12 @@
 -- Topics: Databases, SQL Programming, Description, Discussion, Submissions, Hints, Student Query 8 Minutes Easy Asked in:, Many Tables 21 Minutes Easy Asked in:
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-10-01T18:06:11.187Z
+-- Synced: 2026-10-01T18:09:42.087Z
 
-/* YOUR QUERY GOES HERE
-   Example: SELECT * FROM EMPLOYEE; 
-*/
+SELECT Name
+FROM Students
+ORDER BY
+  (TRIM(UPPER(Marks)) = 'ABSENT') DESC,
+  CASE WHEN TRIM(UPPER(Marks)) = 'ABSENT' THEN Name END ASC,
+  CASE WHEN TRIM(UPPER(Marks)) <> 'ABSENT' THEN CAST(Marks AS UNSIGNED) END ASC,
+  Name ASC;
