@@ -86,3 +86,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 47 | [Intersection of Two Linked Lists](https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1) | GeeksForGeeks | Easy | 01 Oct 2026 | 06:23 pm |
 | 48 | [Sort according to an Array](https://www.geeksforgeeks.org/problems/relative-sorting4323/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 10:54 pm |
 | 49 | [Make array elements unique](https://www.geeksforgeeks.org/problems/make-array-elements-unique--170645/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 10:57 pm |
+| 50 | [Longest Subarray with Majority Greater than K](https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 11:03 pm |

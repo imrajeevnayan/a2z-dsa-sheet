@@ -1,12 +1,12 @@
 {
-  "totalSolved": 47,
+  "totalSolved": 48,
   "currentStreak": 6,
   "maxStreak": 6,
   "lastSyncDate": "2026-10-01",
-  "todayCount": 9,
+  "todayCount": 10,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 29,
+    "medium": 30,
     "hard": 2,
     "basic": 5
   },
@@ -57,7 +57,8 @@
     "LeetCode_Intersection_of_Two_Linked_Lists": true,
     "GeeksForGeeks_Intersection_of_Two_Linked_Lists": true,
     "GeeksForGeeks_Sort_according_to_an_Array": true,
-    "GeeksForGeeks_Make_array_elements_unique": true
+    "GeeksForGeeks_Make_array_elements_unique": true,
+    "GeeksForGeeks_Longest_Subarray_with_Majority_Greater_than_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -65,7 +66,7 @@
     "2026-09-28": 3,
     "2026-09-29": 24,
     "2026-09-30": 9,
-    "2026-10-01": 9
+    "2026-10-01": 10
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -113,6 +114,7 @@
     "Rearrange a linked list",
     "Intersection of Two Linked Lists",
     "Sort according to an Array",
-    "Make array elements unique"
+    "Make array elements unique",
+    "Longest Subarray with Majority Greater than K"
   ]
 }
