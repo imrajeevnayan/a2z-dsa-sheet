@@ -1,33 +1,35 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Intersection of Two Linked Lists
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/
- * Language: Problem List
- * Difficulty: Easy
- * Topics: Hash Table, Linked List, Two Pointers
+ * URL: https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, 24*7 Innovation Labs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T18:11:18.077Z
+ * Synced: 2026-10-01T12:50:41.543Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        HashSet<ListNode> set = new HashSet<>();
-
-        // List A ke saare nodes Set mein daalo
-        while (headA != null) {
-            set.add(headA);
-            headA = headA.next;
+class Solution {
+    public Node findIntersection(Node head1, Node head2) {
+        HashSet<Integer> set = new HashSet<>();
+        
+        while (head2 != null) {
+            set.add(head2.data);
+            head2 = head2.next;
         }
 
-        // List B mein same node dhundo
-        while (headB != null) {
-            if (set.contains(headB)) {
-                return headB;
+        Node dummy = new Node(0);
+        Node tail = dummy;
+
+        while (head1 != null) {
+            if (set.contains(head1.data)) {
+                tail.next = new Node(head1.data);
+                tail = tail.next;
             }
-            headB = headB.next;
+            head1 = head1.next;
         }
 
-        return null;
+        return dummy.next;
     }
 }
