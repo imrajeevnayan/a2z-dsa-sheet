@@ -1,34 +1,30 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Level Order Traversal
- * URL: https://www.naukri.com/code360/problems/level-order-traversal_796002
+ * URL: https://www.naukri.com/code360/problems/zigzag-binary-tree-traversal_920532
  * Language: Java (17)
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 5994 ms
+ * Runtime: 13541 ms
  * Memory: N/A
- * Synced: 2026-09-25T16:56:48.490Z
+ * Synced: 2026-10-01T17:57:47.644Z
  */
 
-import java.util.ArrayList;
-import java.util.Queue;
-import java.util.LinkedList;
+import java.util.*;
  
 public class Solution {
- 
-    public static ArrayList<Integer> getLevelOrder(BinaryTreeNode root) {
-        ArrayList<Integer> ans = new ArrayList<>();
+    public static List<Integer> levelOrder(TreeNode<Integer> root) {
+        List<Integer> ans = new ArrayList<>();
         if (root == null) return ans;
-        
-        Queue<BinaryTreeNode> q = new LinkedList<>();
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
         q.add(root);
  
         while (!q.isEmpty()) {
-            BinaryTreeNode current = q.remove();
-            ans.add(current.val);
+            TreeNode<Integer> node = q.poll();
+            ans.add(node.data);
  
-            if (current.left != null)  q.add(current.left);
-            if (current.right != null)  q.add(current.right);
+            if (node.left != null) q.add(node.left);
+            if (node.right != null) q.add(node.right);
             
         }
         return ans;
