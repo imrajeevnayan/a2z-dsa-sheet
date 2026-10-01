@@ -1,0 +1,52 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Code:The list a1 should be sorted in-place. The python solution in the comments failed in this.
+ * URL: https://www.geeksforgeeks.org/problems/relative-sorting4323/1
+ * Language: class Solution: def relativeSort(self, a1, a2): freq = {} for x in a1: freq[x] = freq.get(x, 0) + 1 a1.clear() used = set() for x in a2: if x in used: continue if x in freq: a1.extend([x] * freq[x]) used.add(x) del freq[x] remaining = [] for x, count in freq.items(): remaining.extend([x] * count) remaining.sort() a1.extend(remaining) return a1
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Searching, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:24:44.428Z
+ */
+
+class Solution {
+    static void relativeSort(int[] a1, int[] a2) {
+        // Find maximum element in a1
+        int max = 0;
+
+        for (int x : a1) {
+            max = Math.max(max, x);
+        }
+
+        // Frequency array
+        int[] freq = new int[max + 1];
+
+        // Count frequency of elements in a1
+        for (int x : a1) {
+            freq[x]++;
+        }
+
+        int index = 0;
+
+        // First: arrange according to a2
+        for (int x : a2) {
+
+            // Important: x may be greater than max
+            if (x <= max) {
+                while (freq[x] > 0) {
+                    a1[index++] = x;
+                    freq[x]--;
+                }
+            }
+        }
+
+        // Second: remaining elements in ascending order
+        for (int i = 0; i <= max; i++) {
+            while (freq[i] > 0) {
+                a1[index++] = i;
+                freq[i]--;
+            }
+        }
+    }
+}
