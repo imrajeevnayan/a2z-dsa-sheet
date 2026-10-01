@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, 24*7 Innovation Labs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T16:12:40.826Z
+ * Synced: 2026-10-01T17:36:22.311Z
  */
 
 class Solution {
