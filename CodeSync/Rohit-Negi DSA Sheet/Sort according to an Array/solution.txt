@@ -1,0 +1,58 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort according to an Array
+ * URL: https://www.geeksforgeeks.org/problems/relative-sorting4323/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Searching, Hash
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:26:17.776Z
+ */
+
+// Frequency array banayenge
+        // freq[i] batayega ki i kitni baar a1 mein present hai
+        int[] freq = new int[max + 1];
+
+        // a1 ke har element ki frequency count karo
+        for (int x : a1) {
+            freq[x]++;
+        }
+
+        // Ye index batayega ki a1 mein next element kaha daalna hai
+        int index = 0;
+
+        // Pehle a2 ke order ke according elements arrange karenge
+        for (int x : a2) {
+
+            // Ye check zaroori hai kyunki a2 mein
+            // a1 ke maximum se bada element ho sakta hai
+            if (x <= max) {
+
+                // Jab tak x a1 mein present hai,
+                // usko a1 mein daalte jao
+                while (freq[x] > 0) {
+                    a1[index] = x;
+                    index++;
+
+                    // Ek occurrence use ho gaya
+                    freq[x]--;
+                }
+            }
+        }
+
+        // Ab a1 ke jo elements bach gaye hain,
+        // unko ascending order mein daalenge
+        for (int i = 0; i <= max; i++) {
+
+            // Agar i present hai to usko a1 mein daalte jao
+            while (freq[i] > 0) {
+                a1[index] = i;
+                index++;
+
+                // Ek occurrence use ho gaya
+                freq[i]--;
+            }
+        }
+    }
+}
