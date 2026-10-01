@@ -1,0 +1,53 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Diagonal Sum
+ * URL: https://www.naukri.com/code360/problems/diagonal-sum_790722
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:53:42.045Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    
+    public static ArrayList<Long> diagonalSum(BinaryTreeNode<Integer> root) {
+        ArrayList<Long> ans = new ArrayList<>();
+        if (root == null) return ans;
+    
+        Queue<BinaryTreeNode<Integer>> q = new LinkedList<>();
+        q.add(root);
+        
+        while (!q.isEmpty()) {
+            
+            long sum = 0;
+            int size = q.size();
+            
+            while (size-- > 0) {
+                
+                BinaryTreeNode<Integer> node = q.poll();
+                
+                while (node != null) {
+                    
+                    sum += node.data;
+                    
+                    // Left child next diagonal mein
+                    if (node.left != null) {
+                        q.add(node.left);
+                    }
+                    
+                    // Right child same diagonal mein
+                    node = node.right;
+                }
+            }
+            
+            ans.add(sum);
+        }
+        
+        return ans;
+    }
+}
