@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: using hashing :-
+ * URL: https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1
+ * Language: class Solution { // Function to find the intersection of two linked lists public Node findIntersection(Node head1, Node head2) { // add your code here HashSet<Integer> set = new HashSet<>(); // Store data of 2nd LinkedList Node newHead = new Node(0); // Creating Head Node OF Intersection List with dummy value Node curr = newHead; // Iterator for new LinkedList while(head2 != null){ // Adding Elements of 2nd LinkedList to Set set.add(head2.data); head2 = head2.next; } while(head1 != null){ // Iterating on 1st LinkedList if(set.contains(head1.data)){ Node temp = new Node(head1.data); // Creating new Node of Data which Exists in both LinkedLists curr.next = temp; // Moving Iterator to next Node curr = curr.next; } head1 = head1.next; } return newHead.next; // returning New LinkedList from Second Value since First Node data is dummy } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, 24*7 Innovation Labs
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T12:51:05.700Z
+ */
+
+/* structure of list node:
+
+class Node
+{
+    int data;
+    Node next;
+    Node(int val)
+    {
+        data=val;
+        next=null;
+    }
+}
+
+*/
+
+class Solution {
+    public Node findIntersection(Node head1, Node head2) {
+        // code here
+        
+    }
+}
