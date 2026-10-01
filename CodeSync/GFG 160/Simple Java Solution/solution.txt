@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple Java Solution
+ * URL: https://www.geeksforgeeks.org/problems/missing-element-in-range/1
+ * Language: def missingRange(self, arr, low, high): prev = low-1 arr.sort() ans = [] for ele in arr: if ele<low: continue elif ele>high: break if ele>prev+1: r1 = prev+1 r2 = ele-1 for j in range(r1,r2+1): ans.append(j) prev = ele if prev<high: for ele in range(prev+1,high+1): ans.append(ele) return ans
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Related Articles, Find Missing Elements Of A Range
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:35:19.009Z
+ */
+
+class Solution {
+    public ArrayList<Integer> missingRange(int[] arr, int low, int high) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        // Array ke saare elements ko HashSet mein store karenge
+        HashSet<Integer> set = new HashSet<>();
+        for (int x : arr) set.add(x);
+        
+        // low se high tak har number check karo
+        for (int i = low; i <= high; i++) {
+
+            // Agar number array mein nahi hai,
+            // to ye missing number hai
+            if (!set.contains(i)) ans.add(i);
+        }
+
+        return ans;
+    }
+}
