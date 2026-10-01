@@ -7,13 +7,10 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, Palindrome List 47 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T18:03:29.252Z
+ * Synced: 2026-10-01T18:03:40.836Z
  */
 
-return B;
-        }
-
-        // Agar second list empty hai, first list return karo
+// Agar second list empty hai, first list return karo
         if (B == null) {
             return A;
         }
@@ -25,15 +22,16 @@ return B;
             A.next = mergeTwoLists(A.next, B);
 
         // Agar first list empty hai, second list return karo
-        if (A == null) {
+        if (A == null) return B;
 
-public class Solution {
     public ListNode mergeTwoLists(ListNode A, ListNode B) {
- */
- *     ListNode(int x) { val = x; next = null; }
- * }
- *     public ListNode next;
- *     public int val;
- * class ListNode {
- * Definition for singly-linked list.
-/**
+public class Solution {
+            return A;
+
+        } else {
+
+            // B ke next ko recursively merge karo
+            B.next = mergeTwoLists(A, B.next);
+
+            return B;
+        }
