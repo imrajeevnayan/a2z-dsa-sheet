@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Allocate Books
+ * URL: https://www.naukri.com/code360/problems/ayush-gives-ninjatest_1097574
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:40:38.927Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static long ayushGivesNinjatest(int n, int m, int[] time) {
+        // Write your code here.
+    }
+}
