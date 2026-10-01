@@ -7,25 +7,33 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, Palindrome List 47 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T18:02:43.400Z
+ * Synced: 2026-10-01T18:03:29.252Z
  */
 
-// Chhoti value ko merged list mein add karo
-            if (A.val <= B.val) {
-                currentNode.next = A;
-                A = A.next;
-            } else {
-                currentNode.next = B;
-                B = B.next;
-        while (A != null && B != null) {
+return B;
+        }
 
-        // Jab tak dono lists mein nodes available hain
-        ListNode currentNode = dummyNode;
+        // Agar second list empty hai, first list return karo
+        if (B == null) {
+            return A;
+        }
 
-        // merged list ke end ko track karega
-        // Dummy node banaya taaki first node handle karna easy ho
-        ListNode dummyNode = new ListNode(0);
+        // Chhote node ko current node banao
+        if (A.val <= B.val) {
 
-    public ListNode mergeTwoLists(ListNode A, ListNode B) {
+            // A ke next ko recursively merge karo
+            A.next = mergeTwoLists(A.next, B);
+
+        // Agar first list empty hai, second list return karo
+        if (A == null) {
+
 public class Solution {
+    public ListNode mergeTwoLists(ListNode A, ListNode B) {
+ */
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ *     public ListNode next;
+ *     public int val;
+ * class ListNode {
+ * Definition for singly-linked list.
 /**
