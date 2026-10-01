@@ -7,8 +7,18 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, Palindrome List 47 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T18:02:01.320Z
+ * Synced: 2026-10-01T18:02:02.190Z
  */
 
-5 -> 8 -> 20 
-  4 -> 11 -> 15
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
+public class Solution {
+    public ListNode mergeTwoLists(ListNode A, ListNode B) {
+    }
+}
