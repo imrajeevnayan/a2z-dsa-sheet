@@ -7,18 +7,30 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Even Reverse 46 Minutes Medium Asked in:, Kth Node From Middle 30 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T17:59:15.948Z
+ * Synced: 2026-10-01T18:01:19.185Z
  */
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     public int val;
- *     public ListNode next;
- *     ListNode(int x) { val = x; next = null; }
- * }
- */
-public class Solution {
-    public ListNode partition(ListNode A, int B) {
+ListNode smallerTail = smallerHead;
+        ListNode greaterOrEqualTail = greaterOrEqualHead;
+
+        while (head != null) {
+
+            if (head.val < B) {
+                smallerTail.next = head;
+                smallerTail = smallerTail.next;
+            } else {
+                greaterOrEqualTail.next = head;
+                greaterOrEqualTail = greaterOrEqualTail.next;
+            }
+
+            head = head.next;
+        }
+
+        greaterOrEqualTail.next = null;
+        smallerTail.next = greaterOrEqualHead.next;
+
+        ListNode smallerHead = new ListNode(0);
+        ListNode greaterOrEqualHead = new ListNode(0);
+        return smallerHead.next;
     }
 }
