@@ -83,3 +83,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 44 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | LeetCode | Medium | 01 Oct 2026 | 06:17 pm |
 | 45 | [Rearrange a linked list](https://www.geeksforgeeks.org/problems/rearrange-a-linked-list/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 06:18 pm |
 | 46 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Easy | 01 Oct 2026 | 06:20 pm |
+| 47 | [Intersection of Two Linked Lists](https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1) | GeeksForGeeks | Easy | 01 Oct 2026 | 06:23 pm |
