@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: CPP CODE:
+ * URL: https://www.geeksforgeeks.org/problems/rearrange-a-linked-list/1
+ * Language: void rearrangeEvenOdd(Node *head) { // Your Code here Node* odd = head; Node* newHead = odd; Node* even = head->next; Node* newHeadEven = even; while(even){ Node* temp = even->next; odd->next = temp; if(!temp){ even->next = NULL; break; } even->next = temp->next; odd = odd->next; even = even->next; } odd->next = newHeadEven; head = newHead; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Linked List, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T12:48:38.716Z
+ */
+
+class Solution {
+    public void rearrangeEvenOdd(Node head) {
+        if (head == null || head.next == null) return;
+
+        Node odd = head;
+        Node even = head.next;
+        Node evenHead = even;
+
+        while (even != null && even.next != null) {
+            odd.next = even.next;
+            odd = odd.next;
+
+            even.next = odd.next;
+            even = even.next;
+        }
+
+        odd.next = evenHead;
+    }
+}
