@@ -7,7 +7,7 @@
  * Topics: Instagram
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T18:15:10.284Z
+ * Synced: 2026-10-01T18:16:54.771Z
  */
 
 class Solution {
