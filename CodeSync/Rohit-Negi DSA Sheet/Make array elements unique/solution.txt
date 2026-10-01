@@ -1,0 +1,42 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Make array elements unique
+ * URL: https://www.geeksforgeeks.org/problems/make-array-elements-unique--170645/1
+ * Language: long long int minIncrements(vector<int> arr, int N) { long long int i,j,count=0,max_val=0; map<int,long long >m1; // sort the array sort(arr.begin(),arr.end()); // to calculate the count of operation for(i=0;i<N;i++) { if(max_val<arr[i]) { max_val=arr[i]; //update the max_val } else { max_val++; count+=max_val-arr[i]; // operations to increment the curr_element } } return count; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Dunzo, Company Tags, Dunzo, Topic Tags, Arrays, Hash, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:27:56.652Z
+ */
+
+class Solution {
+    public int minIncrements(int[] arr) {
+
+        // Array ko sort kar do
+        Arrays.sort(arr);
+
+        int operations = 0;
+
+        // Pehla element as it is rahega
+        for (int i = 1; i < arr.length; i++) {
+
+            // Agar current element previous element se
+            // chhota ya equal hai, to usko increment karna padega
+            if (arr[i] <= arr[i - 1]) {
+
+                // Current element ko unique banane ke liye
+                // minimum value = previous element + 1
+                int required = arr[i - 1] + 1;
+
+                // Kitne increments chahiye
+                operations += required - arr[i];
+
+                // Current element ko required value par update karo
+                arr[i] = required;
+            }
+        }
+
+        return operations;
+    }
+}
