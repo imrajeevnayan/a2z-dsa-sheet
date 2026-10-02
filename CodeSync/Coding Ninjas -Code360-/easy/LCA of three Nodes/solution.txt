@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 949 ms
  * Memory: N/A
- * Synced: 2026-10-02T18:03:20.391Z
+ * Synced: 2026-10-02T18:03:27.055Z
  */
 
 import java.util.* ;
@@ -20,4 +20,4 @@ public class Solution {
             res.append(str.charAt(i));
         }
 }
-        retur
+        return re
