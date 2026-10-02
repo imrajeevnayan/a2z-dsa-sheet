@@ -7,7 +7,7 @@
  * Topics: DSA, String, StringInterviewQues, Java, Interview Questions, StringProblems, SlidingWindow, LeetCode
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:52:05.539Z
+ * Synced: 2026-10-02T09:52:07.952Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
@@ -1100,10 +1100,7 @@
  👉 Generate karna hai? → Recursion / Backtracking
 
 
- 👉 Prefix search hai? → Trie
-
-
- 👉 Minimum operations between strings? → D
+ 👉 Prefix search 
 
  🚀 Crack the Interview
 
