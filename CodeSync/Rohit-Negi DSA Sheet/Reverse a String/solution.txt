@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse a String
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-string/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Reverse A String In C Cpp Different Methods, Reverse A String In Java, String Reverse
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T17:58:28.036Z
+ */
+
+class Solution {
+    public static String reverseString(String s) {
+        // code here
+        
+    }
+}
