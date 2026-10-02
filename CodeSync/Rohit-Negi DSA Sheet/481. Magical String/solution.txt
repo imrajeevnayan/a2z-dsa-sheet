@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 481. Magical String
+ * URL: https://leetcode.com/problems/magical-string/description/?envType=problem-list-v2&envId=string
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Two Pointers, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T11:34:18.862Z
+ */
+
+Input: n = 6
+Output: 3
+Explanation: The first 6 elements of magical string s is "122112" and it contains three 1's, so return 3.
