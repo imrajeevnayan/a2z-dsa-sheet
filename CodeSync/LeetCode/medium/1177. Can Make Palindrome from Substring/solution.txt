@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 1177. Can Make Palindrome from Substring
- * URL: https://leetcode.com/problems/can-make-palindrome-from-substring/?envType=problem-list-v2&envId=da2hb3jj
+ * URL: https://leetcode.com/problems/can-make-palindrome-from-substring/submissions/2159997253/?envType=problem-list-v2&envId=da2hb3jj
  * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Bit Manipulation, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-02T09:31:16.126Z
+ * Runtime: 0 ms
+ * Memory: 124.12 MB
+ * Synced: 2026-10-02T09:32:21.935Z
  */
 
-// Bit j is 1 iff char ('a'+j) appears odd times in s[0..i-1]
-        int[] prefix = new int[n + 1];
-        for (int i = 0; i < n; i++) {
-            prefix[i + 1] = prefix[i] ^ (1 << (s.charAt(i) - 'a'));
+prefix[i + 1] = prefix[i] ^ (1 << (s.charAt(i) - 'a'));
         }
         
         List<Boolean> result = new ArrayList<>();
@@ -34,3 +31,5 @@
         return result;
     }
 }
+        int[] prefix = new int[n + 1];
+        for (int i = 0; i < n; i++) {
