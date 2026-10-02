@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Max Product Subarray
+ * URL: https://www.interviewbit.com/problems/max-product-subarray/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Dynamic Programming, Description, Discussion, Submissions, Hints, Max edge queries! 56 Minutes Medium Asked in:, 38.0%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T16:18:00.686Z
+ */
+
+Input : [2, 3, -2, 4]
+Return : 6 
+
+Possible with [2, 3]
