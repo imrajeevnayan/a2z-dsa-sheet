@@ -3,10 +3,10 @@
 # URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
 # Language: Python
 # Difficulty: Unknown
-# Topics: DSA, StringProblems, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic
+# Topics: DSA, StringI, StringProblems, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-10-02T09:50:13.280Z
+# Synced: 2026-10-02T09:50:25.013Z
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
 
@@ -1125,7 +1125,7 @@
  🚀 Crack the Interview
 
 
- #DSA#Strings #StringInterview #CodingInterview\
+ #DSA#Strings #StringIterview #CodingInterview\
 
  #InterviewPreparation\
 
