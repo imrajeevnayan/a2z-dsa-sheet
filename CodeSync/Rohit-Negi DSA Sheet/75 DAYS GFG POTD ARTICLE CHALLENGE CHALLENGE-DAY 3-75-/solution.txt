@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Reverse A String In C Cpp Different Methods, Reverse A String In Java, String Reverse
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T17:59:34.111Z
+ * Synced: 2026-10-02T17:59:37.768Z
  */
 
 class Solution {
     public static String reverseString(String s) {
-        return new 
+        return new String
         
     }
 }
