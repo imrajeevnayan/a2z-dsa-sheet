@@ -7,7 +7,7 @@
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T15:56:36.785Z
+ * Synced: 2026-10-02T15:56:43.779Z
  */
 
 if (absent >= 2) {
@@ -24,12 +24,14 @@ if (absent >= 2) {
                     return false;
                 }
             }
+                absent++;
+
+
+            if (c == 'A') {
+
+        for (char c : s.toCharArray()) {
+        int absent = 0 late = 0;
+    public boolean checkRecord(String s) {
+class Solution {
 
             else { // P
-                late = 0;
-            }
-        }
-
-        return true;
-    }
-}
