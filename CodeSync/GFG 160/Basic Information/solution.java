@@ -7,7 +7,7 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:59:46.298Z
+ * Synced: 2026-10-02T09:59:52.067Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
@@ -124,11 +124,6 @@
  👉 Print All Subsequences\
 
  👉 Longest Common Subsequence\
-
-
- 👉 Longest Repeating Subsequence\
-
- 👉 Longest Palindromic Subsequence\
 
  👉 Count Distinct Subsequences\
 
