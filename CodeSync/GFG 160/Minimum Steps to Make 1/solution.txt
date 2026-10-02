@@ -7,32 +7,39 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Minimum Steps Minimize N Per Given Condition
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:24:53.439Z
+ * Synced: 2026-10-02T09:26:21.362Z
  */
 
 class Solution {
-    // Method name MUST be getMinSteps to match GFG's driver code
+    // Cheat sheet to store already calculated results
+    int[] memo; 
+
     int getMinSteps(int n) {
-        if (n <= 1) return 0;
-
-        int[] dp = new int[n + 1];
-        dp[1] = 0;
-
-        for (int i = 2; i <= n; i++) {
-            // Option 1: Subtract 1 (always possible)
-            dp[i] = dp[i - 1] + 1;
-
-            // Option 2: Divide by 2
-            if (i % 2 == 0) {
-                dp[i] = Math.min(dp[i], dp[i / 2] + 1);
-            }
-
-            // Option 3: Divide by 3
-            if (i % 3 == 0) {
-                dp[i] = Math.min(dp[i], dp[i / 3] + 1);
-            }
+        // Initialize memo array only once (or if null)
+        if (memo == null || memo.length <= n) {
+            memo = new int[n + 1];
         }
 
-        return dp[n];
+        // Base Case
+        if (n <= 1) return 0;
+
+        // Step 1: Check if answer is already in cheat sheet
+        if (memo[n] != 0) return memo[n];
+
+        // Step 2: Pure Recursion Logic (Same as before)
+        int res = getMinSteps(n - 1) + 1;
+
+        if (n % 2 == 0) {
+            res = Math.min(res, getMinSteps(n / 2) + 1);
+        }
+
+        if (n % 3 == 0) {
+            res = Math.min(res, getMinSteps(n / 3) + 1);
+        }
+
+        // Step 3: Save result to cheat sheet before returning
+        memo[n] = res;
+
+        return res;
     }
 }
