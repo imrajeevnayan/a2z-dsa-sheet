@@ -7,95 +7,15 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:58:09.697Z
+ * Synced: 2026-10-02T09:58:54.357Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
 
  String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
+
 🟢 1. BASIC STRING
-
-👉 Reverse a String\
-
- https://www.geeksforgeeks.org/problems/reverse-a-string/1
-
-
- 👉 Reverse Words in a String\
-
- https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
-
-
- 👉 Remove Duplicates from String\
-
- 👉 Remove Consecutive Duplicates\
-
- 👉 Longest Common Prefix\
-
- 👉 Check Palindrome\
-
- 👉 Check Anagram
-
-
- 🟡 2. FREQUENCY / HASHMAP
-
-
- 💡 Pattern: Frequency Array + HashMap
-
-
- 👉 First Non-Repeating Character\
-
- https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/0
-
-
- 👉 First Repeating Character\
-
- 👉 Group Anagrams\
-
- 👉 Find Frequency of Characters\
-
- 👉 Find Uncommon Characters\
-
- 👉 Check Anagram\
-
- 👉 Rearrange String to Form Palindrome
-
-
- 🔥 3. PALINDROME
-
-
- 👉 Valid Palindrome\
-
- 👉 Longest Palindromic Substring\
-
- https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/
-
-
- 👉 Longest Palindromic Subsequence\
-
- https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
-
-
- 👉 Minimum Insertions to Make Palindrome\
-
- 👉 Minimum Deletions to Make Palindrome\
-
- 👉 Minimum Characters to
-
-
- Haan 👍 Screenshot mein limit 5000 WORDS nahi, 5000 CHARACTERS hai — “Character Count: 0/5000”.
-
-
- Isliye previous post bahut bada tha. Neeche wala version 5000-character limit ko dhyan mein rakhkar condensed hai aur GFG mein direct copy-paste kar sakte ho. `**` ya Markdown formatting nahi hai.
-
-
- 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
-
-
- String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
-
-
- 🟢 1. BASIC STRING
 
 
  👉 Reverse a String\
