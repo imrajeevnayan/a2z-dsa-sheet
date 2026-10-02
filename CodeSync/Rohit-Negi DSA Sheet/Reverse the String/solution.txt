@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse the String
+ * URL: https://www.naukri.com/code360/problems/reverse-the-string_799927
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 949 ms
+ * Memory: N/A
+ * Synced: 2026-10-02T18:01:28.219Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution { 
+    public static String reverseString(String str) {
+        return new StringBuilder(str).reverse().toString();
+    }
+}
