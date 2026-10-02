@@ -1,12 +1,12 @@
 {
-  "totalSolved": 54,
+  "totalSolved": 55,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 13,
-    "medium": 34,
+    "medium": 35,
     "hard": 2,
     "basic": 5
   },
@@ -64,7 +64,8 @@
     "GeeksForGeeks_Target_Sum_Combinations": true,
     "GeeksForGeeks_Max_Sum_Pairing_with_Diff_Less_than_K": true,
     "GeeksForGeeks_Minimum_Steps_to_Make_1": true,
-    "LeetCode_Generate_Parentheses": true
+    "LeetCode_Generate_Parentheses": true,
+    "LeetCode_Can_Make_Palindrome_from_Substring": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -73,7 +74,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 4
+    "2026-10-02": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -128,6 +129,7 @@
     "Target Sum Combinations",
     "Max Sum Pairing with Diff Less than K",
     "Minimum Steps to Make 1",
-    "Generate Parentheses"
+    "Generate Parentheses",
+    "Can Make Palindrome from Substring"
   ]
 }
