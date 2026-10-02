@@ -1,11 +1,11 @@
 {
-  "totalSolved": 51,
+  "totalSolved": 52,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 11,
+    "easy": 12,
     "medium": 33,
     "hard": 2,
     "basic": 5
@@ -61,7 +61,8 @@
     "GeeksForGeeks_Longest_Subarray_with_Majority_Greater_than_K": true,
     "GeeksForGeeks_Missing_Element_in_Range": true,
     "GeeksForGeeks_Smallest_Subarray_with_All_of_Most_Frequent": true,
-    "GeeksForGeeks_Target_Sum_Combinations": true
+    "GeeksForGeeks_Target_Sum_Combinations": true,
+    "GeeksForGeeks_Max_Sum_Pairing_with_Diff_Less_than_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -70,7 +71,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 1
+    "2026-10-02": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -122,6 +123,7 @@
     "Longest Subarray with Majority Greater than K",
     "Missing Element in Range",
     "Smallest Subarray with All of Most Frequent",
-    "Target Sum Combinations"
+    "Target Sum Combinations",
+    "Max Sum Pairing with Diff Less than K"
   ]
 }
