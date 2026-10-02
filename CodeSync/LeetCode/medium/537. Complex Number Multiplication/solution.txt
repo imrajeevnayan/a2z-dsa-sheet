@@ -7,9 +7,11 @@
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T15:55:38.428Z
+ * Synced: 2026-10-02T15:55:39.460Z
  */
 
-Input: num1 = "1+1i", num2 = "1+1i"
-Output: "0+2i"
-Explanation: (1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i, and you need convert it to the form of 0+2i.
+class Solution {
+    public String complexNumberMultiply(String num1, String num2) {
+        
+    }
+}
