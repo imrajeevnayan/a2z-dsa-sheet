@@ -95,3 +95,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 56 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | LeetCode | Medium | 02 Oct 2026 | 02:59 pm |
 | 57 | [Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/) | LeetCode | Medium | 02 Oct 2026 | 03:01 pm |
 | 58 | [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/) | LeetCode | Medium | 02 Oct 2026 | 03:04 pm |
+| 59 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | LeetCode | Medium | 02 Oct 2026 | 03:07 pm |
