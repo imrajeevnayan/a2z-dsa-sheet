@@ -6,28 +6,12 @@
 -- Topics: Uncategorized
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-10-02T06:55:55.639Z
+-- Synced: 2026-10-02T06:56:33.949Z
 
-Table: FriendRequest
-
-+----------------+---------+
-| Column Name    | Type    |
-+----------------+---------+
-| sender_id      | int     |
-| send_to_id     | int     |
-| request_date   | date    |
-+----------------+---------+
-There is no primary key for this table, it may contain duplicates.
-This table contains the ID of the user who sent the request, the ID of the user who received the request, and the date of the request.
-
-
-Table: RequestAccepted
-
-+----------------+---------+
-| Column Name    | Type    |
-+----------------+---------+
-| requester_id   | int     |
-| accepter_id    | int     |
-| accept_date    | date    |
-+----------------+---------+
- There is no primary key for this table, it may contain duplicates.
+SELECT 
+    ROUND(
+        IFNULL(
+            (SELECT COUNT(*) FROM RequestAccepted) / 
+            NULLIF((SELECT COUNT(DISTINCT sender_id, send_to_date) FROM FriendRequest), 0),
+        0),
+    2) AS accept_rate;
