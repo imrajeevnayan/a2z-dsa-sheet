@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Detect Loop in Linked List
+ * URL: https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags, Paytm, VMWare, Accolite, Amazon, OYO Rooms, Samsung, Snapdeal
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T15:35:04.815Z
+ */
+
+Input: pos = 2,
+   
+Output: true
+Explanation: There exists a loop as last node is connected back to the second node.
