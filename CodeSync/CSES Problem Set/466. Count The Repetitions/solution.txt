@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 466. Count The Repetitions
+ * URL: https://leetcode.com/problems/count-the-repetitions/description/?envType=problem-list-v2&envId=string
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Two Pointers, String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T11:26:44.152Z
+ */
+
+Input: s1 = "acb", n1 = 4, s2 = "ab", n2 = 2
+Output: 2
