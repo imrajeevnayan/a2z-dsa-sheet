@@ -1,16 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 1297. Maximum Number of Occurrences of a Substring
- * URL: https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/?envType=problem-list-v2&envId=da2hb3jj
- * Language: Text
+ * URL: https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:33:25.830Z
+ * Synced: 2026-10-02T09:34:19.229Z
  */
 
-Input: s = "aababcaab", maxLetters = 2, minSize = 3, maxSize = 4
-Output: 2
-Explanation: Substring "aab" has 2 occurrences in the original string.
-It satisfies the conditions, 2 unique letters and size 3 (between minSize and maxSize).
+freqMap.put(sub, freqMap.getOrDefault(sub, 0) + 1);
+            }
+        }
+        
+        // Find maximum frequency among all valid substrings
+        int maxOccurrence = 0;
+        for (int count : freqMap.values()) {
+            maxOccurrence = Math.max(maxOccurrence, count);
+        }
+        
+        return maxOccurrence;
+    }
+    
+    private boolean isValid(String sub, int maxLetters) {
+        Set<Character> uniqueChars = new HashSet<>();
+        for (char c : sub.toCharArray()) {
+            uniqueChars.add(c);
+            // Early exit: agar already maxLetters cross ho gaye, 
+            // baaki chars check karne ki zaroorat nahi
+            if (uniqueChars.size() > maxLetters) return false;
+        }
+        return true;
+    }
+}
