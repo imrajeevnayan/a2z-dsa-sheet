@@ -7,18 +7,16 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:57:37.102Z
+ * Synced: 2026-10-02T09:58:09.697Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
 
  String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
+🟢 1. BASIC STRING
 
- 🟢 1. BASIC STRING
-
-
- 👉 Reverse a String\
+👉 Reverse a String\
 
  https://www.geeksforgeeks.org/problems/reverse-a-string/1
 
@@ -128,9 +126,6 @@
 
 
  👉 First Non-Repeating Character\
-
- https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/0
-
 
  👉 First Repeating Character\
 
@@ -458,7 +453,6 @@
  🚀 KMP + Z + Rabin-Karp\
 
  💎 Trie + Hard Problems
-
 
  🔖 SAVE | 💻 PRACTICE | 🧠 REVISE | 🚀 SHARE
 
