@@ -1,0 +1,51 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Target Sum Combinations
+ * URL: https://www.geeksforgeeks.org/problems/combination-sum-1587115620/1
+ * Language: class Solution { public ArrayList<ArrayList<Integer>> targetSumComb(int[] A, int B) { // code here java.util.Arrays.sort(A); ArrayList<Integer> uniqueCandidates = new ArrayList<>(); if (A.length > 0) { uniqueCandidates.add(A[0]); for (int i = 1; i < A.length; i++) { if (A[i] != A[i - 1]) uniqueCandidates.add(A[i]); } } ArrayList<ArrayList<Integer>> res = new ArrayList<>(); helper(uniqueCandidates, B, new ArrayList<>(), res, 0, 0); return res; } static void helper(ArrayList<Integer> arr, int target, ArrayList<Integer> currentList,ArrayList<ArrayList<Integer>> res, int currentSum, int starIdx) { if (currentSum == target) { res.add(new ArrayList<>(currentList)); return; } if (currentSum > target) return; for (int i = starIdx; i < arr.size(); i++) { currentList.add(arr.get(i)); helper(arr, target, currentList, res, currentSum + arr .get(i), i); currentList.remove(currentList.size() - 1); } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftAdobeNPCI, Company Tags, Amazon, Microsoft, Adobe, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T09:09:39.023Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> targetSumComb(int[] arr, int target) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        Arrays.sort(arr); // Sorting helps in pruning & avoiding duplicates easily
+        backtrack(result, new ArrayList<>(), arr, target, 0);
+        return result;
+    }
+
+    private void backtrack(ArrayList<ArrayList<Integer>> result, 
+                           ArrayList<Integer> current, 
+                           int[] arr, int remaining, int start) {
+
+        // Base Case: Target achieved
+        if (remaining == 0) {
+            result.add(new ArrayList<>(current)); // Add copy of current combination
+            return;
+        }
+
+        // Explore choices starting from 'start' index
+        for (int i = start; i < arr.length; i++) {
+
+            // Pruning: Since array is sorted, if current element > remaining, 
+            // all next elements will also be greater. Stop here.
+            if (arr[i] > remaining) break; 
+
+            // Skip duplicates to avoid duplicate combinations in result
+            if (i > start && arr[i] == arr[i - 1]) continue; 
+
+            // Choose
+            current.add(arr[i]);
+
+            // Recurse: Pass 'i' (not i+1) because we can reuse same element
+            backtrack(result, current, arr, remaining - arr[i], i);
+
+            // Un-choose (Backtrack)
+            current.remove(current.size() - 1);
+        }
+    }
+}
