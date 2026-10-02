@@ -3,24 +3,14 @@
 # URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
 # Language: Python
 # Difficulty: Unknown
-# Topics: DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic, GeeksForGeeks
+# Topics: StringProblems, DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-10-02T09:48:44.862Z
+# Synced: 2026-10-02T09:49:11.867Z
 
-Bilkul 👍 Neeche poora post GFG editor mein direct copy-paste karne ke liye plain format mein hai.
+🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
 
-
- Maine Markdown ke \*\*, #, \`\`\` jaise characters hata diye hain. Sirf normal text \+ emoji + Unicode bullets use kiye hain.
-
-
- Aap START se END tak pura copy kar sakte ho 👇
-
-
- 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
-
-
- String DSA interview preparation kar rahe ho? 🤝
+     String DSA interview preparation kar rahe ho? 🤝
 
 
  Random questions solve karne ke bajay Strings ko pattern-wise prepare karo.
