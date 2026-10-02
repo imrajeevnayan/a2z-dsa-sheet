@@ -1,11 +1,11 @@
 {
-  "totalSolved": 60,
+  "totalSolved": 61,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 10,
+  "todayCount": 11,
   "difficultyCounts": {
-    "easy": 14,
+    "easy": 15,
     "medium": 39,
     "hard": 2,
     "basic": 5
@@ -70,7 +70,8 @@
     "LeetCode_Longest_Substring_Without_Repeating_Characters": true,
     "LeetCode_Ones_and_Zeroes": true,
     "LeetCode_Replace_Words": true,
-    "LeetCode_Middle_of_the_Linked_List": true
+    "LeetCode_Middle_of_the_Linked_List": true,
+    "GeeksForGeeks_Middle_of_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -79,7 +80,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 10
+    "2026-10-02": 11
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -140,6 +141,7 @@
     "Longest Substring Without Repeating Characters",
     "Ones and Zeroes",
     "Replace Words",
-    "Middle of the Linked List"
+    "Middle of the Linked List",
+    "Middle of Linked List"
   ]
 }
