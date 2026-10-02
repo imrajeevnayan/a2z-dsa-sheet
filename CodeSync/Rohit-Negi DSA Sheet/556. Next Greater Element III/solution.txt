@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 556. Next Greater Element III
+ * URL: https://leetcode.com/problems/next-greater-element-iii/description/?envType=problem-list-v2&envId=string
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Math, Two Pointers, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T11:34:46.516Z
+ */
+
+Input: n = 12
+Output: 21
