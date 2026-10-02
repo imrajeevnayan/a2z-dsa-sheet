@@ -7,11 +7,11 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T17:57:02.727Z
+ * Synced: 2026-10-02T17:57:05.849Z
  */
 
 class Solution {
     public void reverseString(char[] s) {
-        retur
+        return new Strin
     }
 }
