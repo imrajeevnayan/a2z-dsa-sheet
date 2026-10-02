@@ -2,14 +2,36 @@
  * Platform: LeetCode
  * Problem: 481. Magical String
  * URL: https://leetcode.com/problems/magical-string/description/?envType=problem-list-v2&envId=string
- * Language: Text
+ * Language: String
  * Difficulty: Medium
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T11:34:18.862Z
+ * Synced: 2026-10-02T11:34:23.390Z
  */
 
-Input: n = 6
-Output: 3
-Explanation: The first 6 elements of magical string s is "122112" and it contains three 1's, so return 3.
+class Solution {
+    public int magicalString(int n) {
+        if (n == 0) return 0;
+        if (n <= 3) return 1;   // "1", "12", "122" → sabme 1 ek hi baar aata hai
+
+        // String banate hain
+        StringBuilder s = new StringBuilder("122");
+        int i = 2;              // pointer jo batata hai kitne baar next number lagana hai
+
+        while (s.length() < n) {
+            int count = s.charAt(i) - '0';   // kitni baar lagana hai
+            char next = (s.charAt(s.length() - 1) == '1') ? '2' : '1';  // last se opposite
+
+            for (int j = 0; j < count; j++) {
+                s.append(next);
+            }
+            i++;
+        }
+
+        // Ab pehle n characters mein kitne '1' hain count karo
+        int countOne = 0;
+        for (int k = 0; k < n; k++) {
+            if (s.charAt(k) == '1') {
+                countOne++;
+            }
