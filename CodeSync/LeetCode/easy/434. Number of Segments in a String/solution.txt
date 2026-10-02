@@ -7,7 +7,7 @@
  * Topics: String
  * Runtime: 0 ms
  * Memory: 42.53 MB
- * Synced: 2026-10-02T15:52:42.951Z
+ * Synced: 2026-10-02T15:52:46.518Z
  */
 
 class Solution {
@@ -15,9 +15,7 @@ class Solution {
         int count = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) != ' ' && (i == 0 || s.charAt(i - 1) == ' ')) {
-    count++;
-            
+            if (s.charAt(i) != ' ' && (i == 0 || s.charAt(i - 1) == ' ')) count++;
         }
 
         return count;
