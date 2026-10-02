@@ -103,3 +103,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 64 | [Detect Loop in Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) | GeeksForGeeks | Medium | 02 Oct 2026 | 09:06 pm |
 | 65 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | LeetCode | Easy | 02 Oct 2026 | 09:22 pm |
 | 66 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | LeetCode | Easy | 02 Oct 2026 | 09:24 pm |
+| 67 | [Reverse String](https://leetcode.com/problems/reverse-string/) | LeetCode | Easy | 02 Oct 2026 | 11:28 pm |
