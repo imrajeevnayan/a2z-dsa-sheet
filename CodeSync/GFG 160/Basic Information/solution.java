@@ -7,7 +7,7 @@
  * Topics: DSA, String, StringInterviewQues, Java, Interview Questions, StringProblems, SlidingWindow, LeetCode
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:52:01.206Z
+ * Synced: 2026-10-02T09:52:03.734Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
@@ -1106,7 +1106,7 @@
  👉 Minimum operations between strings? → DP
 
 
- Agar ye patterns strong hain, to naye String questions ko bhi approach karna kaafi easy ho jaata hai. 
+ Agar ye patterns strong hain, 
 
  🚀 Crack the Interview
 
