@@ -1,20 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 1177. Can Make Palindrome from Substring
- * URL: https://leetcode.com/problems/can-make-palindrome-from-substring/description/?envType=problem-list-v2&envId=da2hb3jj
- * Language: Text
+ * URL: https://leetcode.com/problems/can-make-palindrome-from-substring/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Bit Manipulation, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:30:26.447Z
+ * Synced: 2026-10-02T09:31:16.126Z
  */
 
-Input: s = "abcda", queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
-Output: [true,false,false,true,true]
-Explanation:
-queries[0]: substring = "d", is palidrome.
-queries[1]: substring = "bc", is not palidrome.
-queries[2]: substring = "abcd", is not palidrome after replacing only 1 character.
-queries[3]: substring = "abcd", could be changed to "abba" which is palidrome. Also this can be changed to "baab" first rearrange it "bacd" then replace "cd" with "ab".
-queries[4]: substring = "abcda", could be changed to "abcba" which is palidrome.
+// Bit j is 1 iff char ('a'+j) appears odd times in s[0..i-1]
+        int[] prefix = new int[n + 1];
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] ^ (1 << (s.charAt(i) - 'a'));
+        }
+        
+        List<Boolean> result = new ArrayList<>();
+        for (int[] q : queries) {
+            int left = q[0], right = q[1], k = q[2];
+            
+            // XOR gives parity mask for substring s[left..right]
+            int xorMask = prefix[right + 1] ^ prefix[left];
+            
+            // Count how many chars have odd frequency
+            int oddCount = Integer.bitCount(xorMask);
+            
+            // Each replacement fixes 2 odd-count chars (make one even, another even)
+            // So we need oddCount/2 replacements at minimum
+            result.add(oddCount / 2 <= k);
+        }
+        
+        return result;
+    }
+}
