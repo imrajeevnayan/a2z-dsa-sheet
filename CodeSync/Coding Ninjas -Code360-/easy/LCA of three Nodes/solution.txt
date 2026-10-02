@@ -1,28 +1,19 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/k-th-node-from-the-end-of-the-linked-list_1171164
- * Language: Java (17)
+ * URL: https://www.naukri.com/code360/problems/reverse-the-string_799927
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2442 ms
+ * Runtime: 949 ms
  * Memory: N/A
- * Synced: 2026-09-28T17:40:38.674Z
+ * Synced: 2026-10-02T18:01:53.126Z
  */
 
 import java.util.* ;
 import java.io.*; 
-public class Solution {
-    public static Node findKthFromLast(Node head, int K) {
-       Node slow=head,fast=head;
-        for(int i=1;i<=K;i++){
-            if(fast==null) return -1;
-             fast=fast.next;
-        }
-        while(fast!=null){
-            fast=fast.next;
-            slow=slow.next;
-        }
-        return slow;
+public class Solution { 
+    public static String reverseString(String str) {
+        
     }
 }
