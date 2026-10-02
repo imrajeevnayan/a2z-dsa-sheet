@@ -7,7 +7,7 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Convert to Palindrome 40 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T16:07:05.689Z
+ * Synced: 2026-10-02T16:07:08.104Z
  */
 
 public class Solution {
@@ -17,9 +17,7 @@ public class Solution {
         for (int i = words.length - 1; i >= 0; i--) {
             ans.append(words[i]);
 
-            if (i != 0) {
- ans.append(" ");
-            
+            if (i != 0)  ans.append(" ");
         }
 
         return ans.toString();
