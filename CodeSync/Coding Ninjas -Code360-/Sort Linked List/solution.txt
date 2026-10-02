@@ -1,0 +1,54 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Sort Linked List
+ * URL: https://www.naukri.com/code360/problems/sort-linked-list_920517
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2794 ms
+ * Memory: N/A
+ * Synced: 2026-10-02T07:01:45.968Z
+ */
+
+public class Solution {
+    public static Node sortLL(Node head) {
+        // Base case: empty list or single node
+        if (head == null || head.next == null) {
+            return head;
+        }
+        
+        // Step 1: Find the middle using slow/fast pointers
+        Node mid = getMiddle(head);
+        Node rightHead = mid.next;
+        mid.next = null; // Split the list into two halves
+        
+        // Step 2: Recursively sort both halves
+        Node left = sortLL(head);
+        Node right = sortLL(rightHead);
+        
+        // Step 3: Merge the two sorted halves
+        return merge(left, right);
+    }
+    
+    private static Node getMiddle(Node head) {
+        Node slow = head;
+        Node fast = head.next; // Start fast one step ahead to get left-middle
+        
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+    
+    private static Node merge(Node l1, Node l2) {
+        Node dummy = new Node(-1);
+        Node tail = dummy;
+        
+        while (l1 != null && l2 != null) {
+            if (l1.data <= l2.data) { // <= ensures stable sort
+                tail.next = l1;
+                l1 = l1.next;
+            } else {
+                tail.next = l2;
+                l2 = l2.next;
