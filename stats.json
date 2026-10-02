@@ -1,12 +1,12 @@
 {
-  "totalSolved": 57,
+  "totalSolved": 58,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 13,
-    "medium": 37,
+    "medium": 38,
     "hard": 2,
     "basic": 5
   },
@@ -67,7 +67,8 @@
     "LeetCode_Generate_Parentheses": true,
     "LeetCode_Can_Make_Palindrome_from_Substring": true,
     "LeetCode_Maximum_Number_of_Occurrences_of_a_Substring": true,
-    "LeetCode_Longest_Substring_Without_Repeating_Characters": true
+    "LeetCode_Longest_Substring_Without_Repeating_Characters": true,
+    "LeetCode_Ones_and_Zeroes": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -76,7 +77,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 7
+    "2026-10-02": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -134,6 +135,7 @@
     "Generate Parentheses",
     "Can Make Palindrome from Substring",
     "Maximum Number of Occurrences of a Substring",
-    "Longest Substring Without Repeating Characters"
+    "Longest Substring Without Repeating Characters",
+    "Ones and Zeroes"
   ]
 }
