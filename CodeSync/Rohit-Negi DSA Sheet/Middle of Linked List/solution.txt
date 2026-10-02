@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Middle of Linked List
+ * URL: https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Flipkart, Morgan Stanley, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T15:22:55.820Z
+ */
+
+Input: 
+   
+Output: 3
+Explanation: The given linked list is 1->2->3->4->5 and its middle is 3.
