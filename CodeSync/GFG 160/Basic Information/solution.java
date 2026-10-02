@@ -7,7 +7,7 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:59:22.653Z
+ * Synced: 2026-10-02T09:59:46.298Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
@@ -84,15 +84,9 @@
 
  👉 Longest Substring Without Repeating Characters\
 
- https://www.geeksforgeeks.org/dsa/length-of-the-longest-substring-without-repeating-characters/
-
-
  👉 Longest K Unique Characters\
 
  👉 Smallest Window Containing All Characters\
-
- https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1
-
 
  👉 Count Substrings with K Distinct Characters\
 
@@ -103,9 +97,7 @@
 
  🔵 5. SUBSTRING
 
-
  💡 Substring = Continuous Characters
-
 
  👉 Print All Substrings\
 
@@ -124,7 +116,6 @@
 
  🟣 6. SUBSEQUENCE
 
-
  💡 Subsequence mein characters continuous hona zaroori nahi, order same hona chahiye.
 
 
@@ -133,8 +124,6 @@
  👉 Print All Subsequences\
 
  👉 Longest Common Subsequence\
-
- https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/
 
 
  👉 Longest Repeating Subsequence\
