@@ -7,19 +7,17 @@
  * Topics: String
  * Runtime: 0 ms
  * Memory: 42.53 MB
- * Synced: 2026-10-02T15:52:34.049Z
+ * Synced: 2026-10-02T15:52:42.951Z
  */
 
 class Solution {
     public int countSegments(String s) {
-
         int count = 0;
 
         for (int i = 0; i < s.length(); i++) {
-
             if (s.charAt(i) != ' ' && (i == 0 || s.charAt(i - 1) == ' ')) {
-                count++;
-            }
+    count++;
+            
         }
 
         return count;
