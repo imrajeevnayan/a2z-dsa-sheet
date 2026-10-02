@@ -7,7 +7,7 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:59:05.269Z
+ * Synced: 2026-10-02T09:59:22.653Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
@@ -61,15 +61,7 @@
 
 👉 Valid Palindrome\
 
- 👉 Longest Palindromic Substring\
-
- https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/
-
-
  👉 Longest Palindromic Subsequence\
-
- https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
-
 
  👉 Minimum Insertions to Make Palindrome\
 
@@ -88,9 +80,7 @@
 
  🚀 4. SLIDING WINDOW
 
-
  💡 Pattern: Left + Right Pointer + Frequency Map
-
 
  👉 Longest Substring Without Repeating Characters\
 
