@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 22. Generate Parentheses
+ * URL: https://leetcode.com/problems/generate-parentheses/description/?envType=daily-question&envId=2026-10-02
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming, Backtracking, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T07:02:19.802Z
+ */
+
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
