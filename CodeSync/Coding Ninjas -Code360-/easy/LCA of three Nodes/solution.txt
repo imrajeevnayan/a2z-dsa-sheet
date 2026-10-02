@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 949 ms
  * Memory: N/A
- * Synced: 2026-10-02T18:02:19.618Z
+ * Synced: 2026-10-02T18:02:25.316Z
  */
 
 import java.util.* ;
@@ -17,4 +17,4 @@ public class Solution {
         StringBuilder res=new StringBuilder();
     }
 }
-        for(int)
+        for(int i=s.leng)
