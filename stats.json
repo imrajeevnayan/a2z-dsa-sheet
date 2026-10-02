@@ -1,11 +1,11 @@
 {
-  "totalSolved": 63,
+  "totalSolved": 64,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 13,
+  "todayCount": 14,
   "difficultyCounts": {
-    "easy": 16,
+    "easy": 17,
     "medium": 40,
     "hard": 2,
     "basic": 5
@@ -73,7 +73,8 @@
     "LeetCode_Middle_of_the_Linked_List": true,
     "GeeksForGeeks_Middle_of_Linked_List": true,
     "GeeksForGeeks_Detect_Loop_in_Linked_List": true,
-    "LeetCode_Number_of_Segments_in_a_String": true
+    "LeetCode_Number_of_Segments_in_a_String": true,
+    "LeetCode_Generate_a_String_With_Characters_That_Have_Odd_Counts": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -82,7 +83,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 13
+    "2026-10-02": 14
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -146,6 +147,7 @@
     "Middle of the Linked List",
     "Middle of Linked List",
     "Detect Loop in Linked List",
-    "Number of Segments in a String"
+    "Number of Segments in a String",
+    "Generate a String With Characters That Have Odd Counts"
   ]
 }
