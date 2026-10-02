@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 434. Number of Segments in a String
- * URL: https://leetcode.com/problems/number-of-segments-in-a-string/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/find-permutation/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
  * Topics: String
  * Runtime: 0 ms
- * Memory: 42.53 MB
- * Synced: 2026-10-02T15:52:46.518Z
+ * Memory: N/A
+ * Synced: 2026-10-02T15:55:25.005Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) != ' ' && (i == 0 || s.charAt(i - 1) == ' ')) count++;
         }
-
         return count;
     }
 }
