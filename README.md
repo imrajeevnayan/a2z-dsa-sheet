@@ -94,3 +94,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 55 | [Minimum Steps to Make 1](https://www.geeksforgeeks.org/problems/minimum-steps-to-minimize-n-as-per-given-condition0618/1) | GeeksForGeeks | Easy | 02 Oct 2026 | 02:54 pm |
 | 56 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | LeetCode | Medium | 02 Oct 2026 | 02:59 pm |
 | 57 | [Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/) | LeetCode | Medium | 02 Oct 2026 | 03:01 pm |
+| 58 | [Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/) | LeetCode | Medium | 02 Oct 2026 | 03:04 pm |
