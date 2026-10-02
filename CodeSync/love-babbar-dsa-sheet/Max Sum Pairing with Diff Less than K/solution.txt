@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Sum Pairing with Diff Less than K
+ * URL: https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1
+ * Language: class Solution { public: int sumDiffPairs(vector<int>& arr, int k) { // code here sort(arr.begin(),arr.end()); int n=arr.size(); int sum=0,i=n-1; int prev=-1; while(i>0){ int diff=arr[i]-arr[i-1]; if(prev!=arr[i-1] && diff<k){ sum+=arr[i]+arr[i-1]; prev=arr[i-1]; i--; } i--; } return sum; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Dynamic Programming, Related Articles, Maximum Sum Pairs Specific Difference
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T09:22:41.178Z
+ */
+
+class Solution {
+    public int sumDiffPairs(int[] arr, int k) {
+        Arrays.sort(arr);
+        int n = arr.length;
+        int maxSum = 0;
+
+        // Start from the largest element
+        int i = n - 1;
+        while (i > 0) {
+            // Check if current and previous element can form a valid pair
+            if (arr[i] - arr[i - 1] < k) {
+                // Valid pair found! Add sum and skip both elements
+                maxSum += arr[i] + arr[i - 1];
+                i -= 2;
+            } else {
+                // Current element cannot pair with anyone to its left
+                // (difference already too big with closest neighbor)
+                i -= 1;
+            }
+        }
+
+        return maxSum;
+    }
+}
