@@ -7,10 +7,8 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Convert to Palindrome 40 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T16:05:51.519Z
+ * Synced: 2026-10-02T16:05:50.560Z
  */
 
-public class Solution {
-    public String solve(String A) {
-    }
-}
+Input 1:
+    A = "the sky is blue"
