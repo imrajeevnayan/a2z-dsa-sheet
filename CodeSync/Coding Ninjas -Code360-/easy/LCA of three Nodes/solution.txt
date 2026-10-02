@@ -7,13 +7,13 @@
  * Topics: Uncategorized
  * Runtime: 949 ms
  * Memory: N/A
- * Synced: 2026-10-02T18:02:01.955Z
+ * Synced: 2026-10-02T18:02:03.023Z
  */
 
 import java.util.* ;
 import java.io.*; 
 public class Solution { 
     public static String reverseString(String str) {
-        StringBui
+        StringBuilder 
     }
 }
