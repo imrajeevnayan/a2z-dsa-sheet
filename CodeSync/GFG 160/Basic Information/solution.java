@@ -4,565 +4,467 @@
  * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
  * Language: Java
  * Difficulty: Unknown
- * Topics: DSA, String, StringInterviewQues, Java, Interview Questions, StringProblems, SlidingWindow, LeetCode
+ * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:54:40.148Z
+ * Synced: 2026-10-02T09:55:13.139Z
  */
 
-🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
+🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
 
-       String DSA interview preparation kar rahe ho? 🤝
- Random questions solve karne ke bajay Strings ko pattern-wise prepare karo.
 
+ String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
- Is post mein important String interview questions ko pattern-wise arrange kiya gaya hai, taaki interview mein question dekhte hi pattern identify kar sako. 💯
 
+ 🟢 1. BASIC STRING
 
- 🔢 11. STRING + NUMBER / CONVERSION PATTERN
 
+ 👉 Reverse a String\
 
- 👉 Implement atoi
+ https://www.geeksforgeeks.org/problems/reverse-a-string/1
 
 
- 👉 Roman Number to Integer
+ 👉 Reverse Words in a String\
 
+ https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
 
- 👉 Integer to Roman
 
+ 👉 Remove Duplicates from String\
 
- 👉 Integer to Words
+ 👉 Remove Consecutive Duplicates\
 
+ 👉 Longest Common Prefix\
 
- 👉 Add Binary Strings
+ 👉 Check Palindrome\
 
+ 👉 Check Anagram
 
- 👉 Multiply Two Strings
 
+ 🟡 2. FREQUENCY / HASHMAP
 
- 👉 Sum of Two Large Numbers
 
+ 💡 Pattern: Frequency Array + HashMap
 
- 👉 Excel Sheet Column Number
 
+ 👉 First Non-Repeating Character\
 
- 👉 Excel Sheet Column Title
+ https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/0
 
 
- 👉 Next Palindromic Number
+ 👉 First Repeating Character\
 
+ 👉 Group Anagrams\
 
- 👉 Find N-th Character in String
+ 👉 Find Frequency of Characters\
 
+ 👉 Find Uncommon Characters\
 
- 👉 String to Integer Conversion
+ 👉 Check Anagram\
 
+ 👉 Rearrange String to Form Palindrome
 
- 👉 Integer to String Conversion
 
+ 🔥 3. PALINDROME
 
- 🔥 12. STRING CONSTRUCTION / GREEDY PATTERN
 
+ 👉 Valid Palindrome\
 
- 👉 Make Largest Palindrome by Changing at Most K Digits
+ 👉 Longest Palindromic Substring\
 
+ https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/
 
- 👉 Rank the Permutation
 
+ 👉 Longest Palindromic Subsequence\
 
- 👉 Find and Replace in String
+ https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
 
 
- 👉 Look-and-Say Pattern
+ 👉 Minimum Insertions to Make Palindrome\
 
+ 👉 Minimum Deletions to Make Palindrome\
 
- 👉 Minimum Repetitions to Make String a Substring
+ 👉 Minimum Characters to
 
 
- 👉 Generate Binary Strings Without Consecutive 1s
+ Haan 👍 Screenshot mein limit 5000 WORDS nahi, 5000 CHARACTERS hai — “Character Count: 0/5000”.
 
 
- 👉 Generate N-bit Gray Codes
+ Isliye previous post bahut bada tha. Neeche wala version 5000-character limit ko dhyan mein rakhkar condensed hai aur GFG mein direct copy-paste kar sakte ho. `**` ya Markdown formatting nahi hai.
 
 
- 👉 Number of Flips to Make Binary String Alternate
+ 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
 
 
- 👉 Check if All Bits Can Be Made Same by Single Flip
+ String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
 
- 👉 Minimum Deletions to Make String Valid
+ 🟢 1. BASIC STRING
 
 
- 🟢 13. BINARY STRING PATTERN
+ 👉 Reverse a String\
 
+ https://www.geeksforgeeks.org/problems/reverse-a-string/1
 
- 👉 Generate Binary Strings Without Consecutive 1s
 
+ 👉 Reverse Words in a String\
 
- 👉 Count Binary Strings Without Consecutive 1s
+ https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
 
 
- 👉 Number of Flips to Make Binary String Alternate
+ 👉 Remove Duplicates from String\
 
+ 👉 Remove Consecutive Duplicates\
 
- 👉 Add Two Binary Strings
+ 👉 Longest Common Prefix\
 
+ 👉 Check Palindrome\
 
- 👉 Longest Substring of 1s
+ 👉 Check Anagram
 
 
- 👉 Maximum Consecutive 1s
+ 🟡 2. FREQUENCY / HASHMAP
 
 
- 👉 Minimum Flips to Make Binary String Alternate
+ 💡 Pattern: Frequency Array \+ HashMap
 
 
- 👉 Check if Binary String Can Become Same with One Flip
+ 👉 First Non-Repeating Character\
 
+ https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/0
 
- 👉 Count Substrings with Equal Number of 0s and 1s
 
+ 👉 First Repeating Character\
 
- 🟣 14. RECURSION / BACKTRACKING \+ STRING
+ 👉 Group Anagrams\
 
+ 👉 Find Frequency of Characters\
 
- 👉 Print All Subsequences
+ 👉 Find Uncommon Characters\
 
+ 👉 Check Anagram\
 
- 👉 Print All Permutations of String
+ 👉 Rearrange String to Form Palindrome
 
 
- 👉 Generate All Strings of Given Length
+ 🔥 3. PALINDROME
 
 
- 👉 Generate Binary Strings
+ 👉 Valid Palindrome\
 
+ 👉 Longest Palindromic Substring\
 
- 👉 Generate Balanced Parentheses
+ https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/
 
 
- 👉 Palindrome Partitioning
+ 👉 Longest Palindromic Subsequence\
 
+ https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
 
- 👉 Word Break
 
+ 👉 Minimum Insertions to Make Palindrome\
 
- 👉 Letter Combinations
+ 👉 Minimum Deletions to Make Palindrome\
 
+ 👉 Minimum Characters to Add at Front\
 
- 👉 Restore IP Addresses
+ 👉 Minimum Appends to Make Palindrome\
 
+ 👉 Palindrome Partitioning\
 
- 👉 Generate All Palindromic Partitions
-
-
- 👉 String Permutations with Duplicates
-
-
- 🔴 15. PERMUTATION PATTERN
-
-
- 👉 Print All Permutations of a String
-
-
- 👉 Next Permutation
-
-
- 👉 Previous Permutation
-
-
- 👉 Rank of a String
-
-
- 👉 Rank of String with Repeated Characters
-
-
- 👉 Check if Two Strings are Permutations
-
-
- 👉 Find All Permutations of Pattern in Text
-
-
- 👉 Group Anagrams
-
-
- 🟡 16. ANAGRAM PATTERN
-
-
- 👉 Check Whether Two Strings are Anagrams
-
-
- 👉 Group Anagrams
-
-
- 👉 Find All Anagrams in a String
-
-
- 👉 Count Occurrences of Anagrams
-
-
- 👉 Find First Anagram
-
-
- 👉 Check if String Can Be Rearranged into Palindrome
-
-
- 👉 Minimum Number of Changes to Make Anagrams
-
-
- 👉 Find Common Characters
-
-
- 💙 17. STRING ROTATION PATTERN
-
-
- 👉 Check if One String is Rotation of Another
-
-
- 👉 Check Rotation of Palindrome
-
-
- 👉 Left Rotate String
-
-
- 👉 Right Rotate String
-
-
- 👉 Rotate String by K Positions
-
-
- 👉 Find Minimum Rotations
-
-
- 👉 Check if Strings are Rotations
-
-
- 🧩 18. PREFIX / SUFFIX PATTERN
-
-
- 👉 Longest Common Prefix
-
-
- 👉 Longest Common Suffix
-
-
- 👉 Prefix Function
-
-
- 👉 KMP Prefix Array / LPS Array
-
-
- 👉 Longest Prefix Which is Also Suffix
-
-
- 👉 Repeated Substring Pattern
-
-
- 👉 Minimum Characters to Add to Front to Make Palindrome
-
-
- 👉 String Matching using Prefix Function
-
-
- ⚡ 19. TRIE + STRING PATTERN
-
-
- 👉 Implement Trie
-
-
- 👉 Insert and Search Word
-
-
- 👉 Word Search
-
-
- 👉 Auto Complete
-
-
- 👉 Longest Prefix Matching
-
-
- 👉 Count Words with Given Prefix
-
-
- 👉 Maximum XOR Pair using Binary Trie
-
-
- 👉 Word Break using Trie
-
-
- 👉 Search Suggestions
-
-
- 🧠 20. IMPORTANT HARD STRING PROBLEMS
-
-
- 🔥 Ye questions advanced preparation ke liye hain.
-
-
- 👉 Minimum Window Subsequence
-
-
- 👉 Longest Palindromic Substring
-
-
- 👉 Longest Palindromic Subsequence
-
-
- 👉 Count Distinct Subsequences
-
-
- 👉 Shortest Common Supersequence
-
-
- 👉 Edit Distance
-
-
- 👉 Regular Expression Matching
-
-
- 👉 Wildcard Pattern Matching
-
-
- 👉 Palindrome Partitioning
-
+ 👉 Count Palindromic Substrings\
 
  👉 K-Palindrome
 
 
+ 🚀 4. SLIDING WINDOW
+
+
+ 💡 Pattern: Left + Right Pointer + Frequency Map
+
+
+ 👉 Longest Substring Without Repeating Characters\
+
+ https://www.geeksforgeeks.org/dsa/length-of-the-longest-substring-without-repeating-characters/
+
+
+ 👉 Longest K Unique Characters\
+
+ 👉 Smallest Window Containing All Characters\
+
+ https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1
+
+
+ 👉 Count Substrings with K Distinct Characters\
+
+ 👉 Find All Anagrams in a String\
+
+ 👉 Minimum Window Substring
+
+
+ 🔵 5. SUBSTRING
+
+
+ 💡 Substring = Continuous Characters
+
+
+ 👉 Print All Substrings\
+
+ 👉 Count Number of Substrings\
+
+ 👉 Longest Substring Without Repeating Characters\
+
+ 👉 Longest K Unique Substring\
+
+ 👉 Longest Palindromic Substring\
+
+ 👉 Count Distinct Substrings\
+
+ 👉 Smallest Window Substring
+
+
+ 🟣 6. SUBSEQUENCE
+
+
+ 💡 Subsequence mein characters continuous hona zaroori nahi, order same hona chahiye.
+
+
+ 👉 Check Subsequence\
+
+ 👉 Print All Subsequences\
+
+ 👉 Longest Common Subsequence\
+
+ https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/
+
+
+ 👉 Longest Repeating Subsequence\
+
+ 👉 Longest Palindromic Subsequence\
+
+ 👉 Count Distinct Subsequences\
+
+ 👉 Shortest Common Supersequence\
+
+ https://www.geeksforgeeks.org/dsa/shortest-common-supersequence/
+
+
+ 🧩 7. PATTERN SEARCHING
+
+
+ 👉 Naive Pattern Searching\
+
+ 👉 KMP Algorithm\
+
+ https://www.geeksforgeeks.org/dsa/kmp-algorithm-for-pattern-searching/
+
+
+ 👉 Rabin-Karp Algorithm\
+
+ 👉 Z Algorithm\
+
+ https://www.geeksforgeeks.org/dsa/z-algorithm-linear-time-pattern-searching-algorithm/
+
+
+ 👉 Wildcard Pattern Matching\
+
+ 👉 Regular Expression Matching\
+
  👉 Aho-Corasick Algorithm
 
 
- 👉 Rabin-Karp Algorithm
+ 🟠 8. TWO POINTER
 
 
- 👉 KMP Algorithm
+ 👉 Reverse String\
 
+ 👉 Valid Palindrome\
 
- 👉 Z Algorithm
+ 👉 Sentence Palindrome\
 
+ 👉 Reverse String with Spaces\
 
- 👉 Longest Repeating Subsequence
+ 👉 Check String Rotation\
 
+ 👉 Minimum Characters for Palindrome
 
- 👉 Interleaved Strings
 
+ 🟤 9. STACK + STRING
 
- 👉 Word Break II
 
+ 👉 Parenthesis Checker\
 
- 👉 Distinct Substrings
+ 👉 Longest Valid Parentheses\
 
+ 👉 Remove Adjacent Duplicates\
 
- 👉 String Compression
+ 👉 Decode String\
 
+ 👉 Remove Invalid Parentheses\
 
- 🎯 ACTUAL INTERVIEW EXPERIENCE BASED STRING QUESTIONS
+ 👉 Remove Redundant Parentheses\
 
+ 👉 Evaluate Expression
 
- Interview experiences mein String-related questions ke examples bhi milte hain:
 
+ 🧠 10. STRING + DP
 
- 👉 Anagram ka modified version
 
+ 👉 Longest Common Subsequence\
 
- 👉 Minimum Characters Added at Front to Make String Palindrome
+ 👉 Edit Distance\
 
+ https://www.geeksforgeeks.org/problems/edit-distance3702/1
 
- 👉 Remove Three Consecutive Duplicates from String
 
+ 👉 Longest Palindromic Subsequence\
 
- 👉 Minimum Number of Appends Needed to Make String Palindrome
+ 👉 Shortest Common Supersequence\
 
+ 👉 Count Distinct Subsequences\
 
- 👉 K-Palindrome ka variation
+ 👉 Word Break\
 
+ 👉 Interleaved Strings\
 
- 👉 String Construction based problem
+ 👉 Palindrome Partitioning\
 
+ 👉 Wildcard Matching\
 
- 👉 Sentence ke words reverse karna
+ 👉 Regular Expression Matching
 
 
- 👉 Palindrome based variations
+ 🔢 11. STRING + NUMBER
 
 
- 👉 String + HashMap based problems
+ 👉 Implement atoi\
 
+ 👉 Roman Number to Integer\
 
- 👉 String + Sliding Window based problems
+ 👉 Integer to Roman\
 
+ 👉 Add Binary Strings\
 
- ⭐ TOP 20 STRING QUESTIONS – AGAR TIME KAM HAI
+ 👉 Multiply Two Strings\
 
+ 👉 Sum of Two Large Numbers\
 
- Agar interview se pehle time limited hai, to ye questions pehle solve karo:
+ 👉 Excel Sheet Column Number\
 
+ 👉 Excel Sheet Column Title
 
- 1️⃣ Reverse a String
 
+ 🔥 12. GREEDY / CONSTRUCTION
 
- 2️⃣ Reverse Words in a String
 
+ 👉 Make Largest Palindrome with K Changes\
 
- 3️⃣ Check Anagram
+ 👉 Rank of a String\
 
+ 👉 Look-and-Say\
 
- 4️⃣ First Non-Repeating Character
+ 👉 Minimum Repetitions to Make String a Substring\
 
+ 👉 Generate Binary Strings Without Consecutive 1s\
 
- 5️⃣ Longest Common Prefix
+ 👉 Minimum Flips to Make Binary String Alternate
 
 
- 6️⃣ Valid Palindrome
+ 🎯 TOP 20 MUST-DO STRING QUESTIONS
 
 
- 7️⃣ Longest Palindromic Substring
+ 1️⃣ Reverse a String\
 
+ 2️⃣ Reverse Words\
 
- 8️⃣ Longest Palindromic Subsequence
+ 3️⃣ Anagram\
 
+ 4️⃣ First Non-Repeating Character\
 
- 9️⃣ Longest Substring Without Repeating Characters
+ 5️⃣ Longest Common Prefix\
 
+ 6️⃣ Valid Palindrome\
 
- 🔟 Longest K Unique Characters Substring
+ 7️⃣ Longest Palindromic Substring\
 
+ 8️⃣ Longest Palindromic Subsequence\
 
- 1️⃣1️⃣ Smallest Window Containing All Characters
+ 9️⃣ Longest Substring Without Repeating Characters\
 
+ 🔟 Longest K Unique Characters\
 
- 1️⃣2️⃣ Check Subsequence
+ 1️⃣1️⃣ Smallest Window\
 
+ 1️⃣2️⃣ Check Subsequence\
 
- 1️⃣3️⃣ Longest Common Subsequence
+ 1️⃣3️⃣ LCS\
 
+ 1️⃣4️⃣ Edit Distance\
 
- 1️⃣4️⃣ Edit Distance
+ 1️⃣5️⃣ Word Break\
 
+ 1️⃣6️⃣ Count Distinct Subsequences\
 
- 1️⃣5️⃣ Word Break
+ 1️⃣7️⃣ KMP\
 
+ 1️⃣8️⃣ Rabin-Karp\
 
- 1️⃣6️⃣ Count Distinct Subsequences
-
-
- 1️⃣7️⃣ KMP Pattern Searching
-
-
- 1️⃣8️⃣ Rabin-Karp
-
-
- 1️⃣9️⃣ Decode String
-
+ 1️⃣9️⃣ Decode String\
 
  2️⃣0️⃣ Shortest Common Supersequence
 
 
- 🧠 HOW TO IDENTIFY STRING PATTERN IN INTERVIEW?
+ 🧠 INTERVIEW MEIN PATTERN KAISE IDENTIFY KARE?
 
 
- Question dekhte hi ye checklist follow karo 👇
+ 👉 Frequency → HashMap / Frequency Array\
 
+ 👉 Continuous Substring → Sliding Window\
 
- 🔹 Character Frequency?\
+ 👉 Palindrome → Two Pointer / DP\
 
- ➡️ HashMap / Frequency Array
+ 👉 Subsequence → DP\
 
+ 👉 Pattern Search → KMP / Z / Rabin-Karp\
 
- 🔹 Continuous Substring?\
+ 👉 Brackets / Decode → Stack\
 
- ➡️ Sliding Window
+ 👉 Generate All → Recursion / Backtracking\
 
+ 👉 Prefix Search → Trie\
 
- 🔹 Same Order but Deletion Allowed?\
+ 👉 Minimum String Operations → DP
 
- ➡️ Subsequence / DP
 
+ 🚀 PREPARATION ORDER
 
- 🔹 Same From Both Sides?\
 
- ➡️ Palindrome / Two Pointer
+ 🟢 Basic Strings\
 
+ 🟡 Frequency + HashMap\
 
- 🔹 Pattern Search?\
+ 🟠 Two Pointer\
 
- ➡️ KMP / Z Algorithm / Rabin-Karp
+ 🔵 Palindrome\
 
+ 🟣 Sliding Window\
 
- 🔹 Nested Brackets / Decoding?\
+ 🟠 Substring + Subsequence\
 
- ➡️ Stack
+ 🟤 Stack\
 
+ 🔵 Recursion / Backtracking\
 
- 🔹 Two Strings + Minimum Operations?\
+ 🔥 Dynamic Programming\
 
- ➡️ Dynamic Programming
+ 🚀 KMP + Z + Rabin-Karp\
 
+ 💎 Trie + Hard Problems
 
- 🔹 Generate All Possibilities?\
 
- ➡️ Recursion / Backtracking
+ 💡 String questions ko ratne ke bajay PATTERN identify karna seekho. Ek pattern ke multiple questions solve karo aur har question mein approach samjho.
 
 
- 🔹 Prefix Search?\
+ 🔖 SAVE | 💻 PRACTICE | 🧠 REVISE | 🚀 SHARE
 
- ➡️ Trie / Prefix Array
 
-
- 🔹 Anagram?\
-
- ➡️ Frequency Array / HashMap / Sliding Window
-
-
- 📚 STRING INTERVIEW PREPARATION ORDER
-
-
- Agar Strings zero se prepare kar rahe ho, to is order mein karo:
-
-
- 🟢 Step 1 → Basic String Manipulation
-
-
- 🟡 Step 2 → Frequency \+ HashMap
-
-
- 🟢 Step 3 → Two Pointer
-
-
- 🟡 Step 4 → Palindrome
-
-
- 🟠 Step 5 → Sliding Window
-
-
- 🔵 Step 6 → Substring \+ Subsequence
-
-
- 🟣 Step 7 → Stack \+ String
-
-
- 🟠 Step 8 → Recursion \+ Backtracking
-
-
- 🔵 Step 9 → String \+ DP
-
-
- 🟣 Step 10 → KMP \+ Rabin-Karp + Z Algorithm
-
-
- 🔴 Step 11 → Trie
-
-
- 🔥 Step 12 → Hard String Problems
-
-
- 🚀 Crack the Interview
-
-
- #DSA #String #StringInterviewQues #Java #Interview Questions
-
- #StringProblems
-
-💬 Agar aapko ye post useful laga, to SAVE 🔖 aur SHARE 🔄 zaroor karein.
+ #DSA #Strings #StringInterview #CodingInterview #GeeksforGeeks #DSAInterview #SDE #Placement #Coding #Programming
