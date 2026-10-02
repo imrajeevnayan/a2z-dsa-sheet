@@ -7,11 +7,28 @@
  * Topics: Programming, Dynamic Programming, Description, Discussion, Submissions, Hints, Max edge queries! 56 Minutes Medium Asked in:, 38.0%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T16:18:01.392Z
+ * Synced: 2026-10-02T16:19:12.382Z
  */
 
 public class Solution {
-    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int maxProduct(final int[] A) {
+
+        int max = A[0];
+        int min = A[0];
+        int ans = A[0];
+
+        for (int i = 1; i < A.length; i++) {
+            int num = A[i];
+
+            int newMax = Math.max(num, Math.max(num * max, num * min));
+            int newMin = Math.min(num, Math.min(num * max, num * min));
+
+            max = newMax;
+            min = newMin;
+
+            ans = Math.max(ans, max);
+        }
+
+        return ans;
     }
 }
