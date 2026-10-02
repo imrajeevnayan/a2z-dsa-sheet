@@ -7,11 +7,21 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T17:57:05.849Z
+ * Synced: 2026-10-02T17:57:50.742Z
  */
 
 class Solution {
     public void reverseString(char[] s) {
-        return new Strin
+        int left = 0;
+        int right = s.length - 1;
+
+        while (left < right) {
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+
+            left++;
+            right--;
+        }
     }
 }
