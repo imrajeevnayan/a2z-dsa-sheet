@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 876. Middle of the Linked List
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T15:22:31.776Z
+ */
+
+Input: head = [1,2,3,4,5]
+Output: [3,4,5]
+Explanation: The middle node of the list is node 3.
