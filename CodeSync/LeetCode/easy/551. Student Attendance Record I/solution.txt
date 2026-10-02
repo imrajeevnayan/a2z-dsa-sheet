@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 551. Student Attendance Record I
+ * URL: https://leetcode.com/problems/student-attendance-record-i/description/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-02T15:55:48.983Z
+ */
+
+class Solution {
+    public boolean checkRecord(String s) {
+        
+    }
+}
