@@ -1,12 +1,12 @@
 {
-  "totalSolved": 66,
+  "totalSolved": 67,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 16,
+  "todayCount": 17,
   "difficultyCounts": {
     "easy": 18,
-    "medium": 40,
+    "medium": 41,
     "hard": 2,
     "basic": 6
   },
@@ -76,7 +76,8 @@
     "LeetCode_Number_of_Segments_in_a_String": true,
     "LeetCode_Generate_a_String_With_Characters_That_Have_Odd_Counts": true,
     "LeetCode_Reverse_String": true,
-    "GeeksForGeeks_Reverse_a_String": true
+    "GeeksForGeeks_Reverse_a_String": true,
+    "LeetCode_Reverse_Words_in_a_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -85,7 +86,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 16
+    "2026-10-02": 17
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -152,6 +153,7 @@
     "Number of Segments in a String",
     "Generate a String With Characters That Have Odd Counts",
     "Reverse String",
-    "Reverse a String"
+    "Reverse a String",
+    "Reverse Words in a String"
   ]
 }
