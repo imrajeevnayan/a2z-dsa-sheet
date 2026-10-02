@@ -4,10 +4,10 @@
  * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
  * Language: Java
  * Difficulty: Unknown
- * Topics: DSA, String, StringInterviewQues, Java, StringProblems, SlidingWindow, LeetCode, ProblemSolving
+ * Topics: DSA, String, StringInterviewQues, Java, Interview Questions, StringProblems, SlidingWindow, LeetCode
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:51:40.516Z
+ * Synced: 2026-10-02T09:52:01.206Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE COMPLETE ROADMAP 🔥
@@ -1106,28 +1106,12 @@
  👉 Minimum operations between strings? → DP
 
 
- Agar ye patterns strong hain, to naye String questions ko bhi approach karna kaafi easy ho jaata hai. 🚀🔥
-
-
- 📌 SAVE THIS POST FOR STRING INTERVIEW PREPARATION
-
-
- 🔖 Save
-
-
- 💻 Practice
-
-
- 🧠 Understand the Pattern
-
-
- 🔥 Revise
-
+ Agar ye patterns strong hain, to naye String questions ko bhi approach karna kaafi easy ho jaata hai. 
 
  🚀 Crack the Interview
 
 
- #DSA #String #StringInterviewQues #Java #Intervi
+ #DSA #String #StringInterviewQues #Java #Interview Questions
 
  #StringProblems
 
