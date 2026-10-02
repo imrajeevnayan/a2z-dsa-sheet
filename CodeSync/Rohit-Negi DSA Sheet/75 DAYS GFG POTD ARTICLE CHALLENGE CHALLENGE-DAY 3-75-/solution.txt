@@ -7,24 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Reverse A String In C Cpp Different Methods, Reverse A String In Java, String Reverse
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T17:58:52.555Z
+ * Synced: 2026-10-02T17:59:28.258Z
  */
 
 class Solution {
     public static String reverseString(String s) {
-        char[] arr = s.toCharArray();
-
-        int left = 0,right = arr.length - 1;
-
-        while (left < right) {
-            char temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-
-            left++;
-            right--;
-        }
-
-        return new String(arr);
+        r
+        
     }
 }
