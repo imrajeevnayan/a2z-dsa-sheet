@@ -7,18 +7,16 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T09:58:54.357Z
+ * Synced: 2026-10-02T09:59:05.269Z
  */
 
 🚀 STRING INTERVIEW QUESTIONS – PATTERN WISE ROADMAP 🔥
 
  String DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
-
 🟢 1. BASIC STRING
 
-
- 👉 Reverse a String\
+👉 Reverse a String\
 
  https://www.geeksforgeeks.org/problems/reverse-a-string/1
 
@@ -59,11 +57,9 @@
 
  👉 Rearrange String to Form Palindrome
 
+🔥 3. PALINDROME
 
- 🔥 3. PALINDROME
-
-
- 👉 Valid Palindrome\
+👉 Valid Palindrome\
 
  👉 Longest Palindromic Substring\
 
