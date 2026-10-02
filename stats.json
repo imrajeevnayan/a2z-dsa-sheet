@@ -1,12 +1,12 @@
 {
-  "totalSolved": 61,
+  "totalSolved": 62,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 11,
+  "todayCount": 12,
   "difficultyCounts": {
     "easy": 15,
-    "medium": 39,
+    "medium": 40,
     "hard": 2,
     "basic": 5
   },
@@ -71,7 +71,8 @@
     "LeetCode_Ones_and_Zeroes": true,
     "LeetCode_Replace_Words": true,
     "LeetCode_Middle_of_the_Linked_List": true,
-    "GeeksForGeeks_Middle_of_Linked_List": true
+    "GeeksForGeeks_Middle_of_Linked_List": true,
+    "GeeksForGeeks_Detect_Loop_in_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -80,7 +81,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 11
+    "2026-10-02": 12
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -142,6 +143,7 @@
     "Ones and Zeroes",
     "Replace Words",
     "Middle of the Linked List",
-    "Middle of Linked List"
+    "Middle of Linked List",
+    "Detect Loop in Linked List"
   ]
 }

@@ -100,3 +100,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 61 | [Replace Words](https://leetcode.com/problems/replace-words/) | LeetCode | Medium | 02 Oct 2026 | 05:06 pm |
 | 62 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | LeetCode | Easy | 02 Oct 2026 | 08:52 pm |
 | 63 | [Middle of Linked List](https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) | GeeksForGeeks | Easy | 02 Oct 2026 | 08:55 pm |
+| 64 | [Detect Loop in Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) | GeeksForGeeks | Medium | 02 Oct 2026 | 09:06 pm |
