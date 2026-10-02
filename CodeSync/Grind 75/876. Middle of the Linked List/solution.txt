@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T15:22:31.776Z
+ * Synced: 2026-10-02T15:23:53.758Z
  */
 
 Input: head = [1,2,3,4,5]
