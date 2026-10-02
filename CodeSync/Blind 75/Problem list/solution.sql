@@ -1,18 +1,16 @@
 -- Platform: Coding Ninjas (Code360)
 -- Problem: Problem list
--- URL: https://www.naukri.com/code360/problems/top-travellers_2117112
+-- URL: https://www.naukri.com/code360/problems/delete-duplicate-emails_2111947
 -- Language: SQL
 -- Difficulty: Hard
 -- Topics: SQL Databases Clear all, SQL Databases
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-10-02T06:24:53.682Z
+-- Synced: 2026-10-02T06:55:48.993Z
 
-SELECT
-    u.name,
-    COALESCE(SUM(r.distance), 0) AS travelled_distance
-FROM Users u
-LEFT JOIN Rides r
-    ON u.id = r.user_id
-GROUP BY u.id, u.name
-ORDER BY travelled_distance DESC, u.name ASC;
+DELETE FROM Person
+WHERE Id NOT IN (
+    SELECT MIN(Id)
+    FROM Person
+    GROUP BY Email
+);
