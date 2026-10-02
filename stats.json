@@ -1,12 +1,12 @@
 {
-  "totalSolved": 53,
+  "totalSolved": 54,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-10-02",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 13,
-    "medium": 33,
+    "medium": 34,
     "hard": 2,
     "basic": 5
   },
@@ -63,7 +63,8 @@
     "GeeksForGeeks_Smallest_Subarray_with_All_of_Most_Frequent": true,
     "GeeksForGeeks_Target_Sum_Combinations": true,
     "GeeksForGeeks_Max_Sum_Pairing_with_Diff_Less_than_K": true,
-    "GeeksForGeeks_Minimum_Steps_to_Make_1": true
+    "GeeksForGeeks_Minimum_Steps_to_Make_1": true,
+    "LeetCode_Generate_Parentheses": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -72,7 +73,7 @@
     "2026-09-29": 24,
     "2026-09-30": 9,
     "2026-10-01": 12,
-    "2026-10-02": 3
+    "2026-10-02": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -126,6 +127,7 @@
     "Smallest Subarray with All of Most Frequent",
     "Target Sum Combinations",
     "Max Sum Pairing with Diff Less than K",
-    "Minimum Steps to Make 1"
+    "Minimum Steps to Make 1",
+    "Generate Parentheses"
   ]
 }

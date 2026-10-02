@@ -92,3 +92,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 53 | [Target Sum Combinations](https://www.geeksforgeeks.org/problems/combination-sum-1587115620/1) | GeeksForGeeks | Medium | 02 Oct 2026 | 02:39 pm |
 | 54 | [Max Sum Pairing with Diff Less than K](https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1) | GeeksForGeeks | Easy | 02 Oct 2026 | 02:52 pm |
 | 55 | [Minimum Steps to Make 1](https://www.geeksforgeeks.org/problems/minimum-steps-to-minimize-n-as-per-given-condition0618/1) | GeeksForGeeks | Easy | 02 Oct 2026 | 02:54 pm |
+| 56 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | LeetCode | Medium | 02 Oct 2026 | 02:59 pm |
