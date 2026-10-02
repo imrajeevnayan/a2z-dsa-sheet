@@ -7,13 +7,11 @@
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T15:56:54.714Z
+ * Synced: 2026-10-02T15:57:03.979Z
  */
 
-if (absent >= 2) {
-                 return false;
+if (absent >= 2)  return false;
                 
-
                 late = 0;
             }
 
@@ -35,3 +33,5 @@ class Solution {
                 late = 0;
             }
         }
+
+        return true;
