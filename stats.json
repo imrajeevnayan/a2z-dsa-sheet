@@ -1,12 +1,12 @@
 {
-  "totalSolved": 50,
-  "currentStreak": 6,
-  "maxStreak": 6,
-  "lastSyncDate": "2026-10-01",
-  "todayCount": 12,
+  "totalSolved": 51,
+  "currentStreak": 7,
+  "maxStreak": 7,
+  "lastSyncDate": "2026-10-02",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 32,
+    "medium": 33,
     "hard": 2,
     "basic": 5
   },
@@ -60,7 +60,8 @@
     "GeeksForGeeks_Make_array_elements_unique": true,
     "GeeksForGeeks_Longest_Subarray_with_Majority_Greater_than_K": true,
     "GeeksForGeeks_Missing_Element_in_Range": true,
-    "GeeksForGeeks_Smallest_Subarray_with_All_of_Most_Frequent": true
+    "GeeksForGeeks_Smallest_Subarray_with_All_of_Most_Frequent": true,
+    "GeeksForGeeks_Target_Sum_Combinations": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -68,7 +69,8 @@
     "2026-09-28": 3,
     "2026-09-29": 24,
     "2026-09-30": 9,
-    "2026-10-01": 12
+    "2026-10-01": 12,
+    "2026-10-02": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -119,6 +121,7 @@
     "Make array elements unique",
     "Longest Subarray with Majority Greater than K",
     "Missing Element in Range",
-    "Smallest Subarray with All of Most Frequent"
+    "Smallest Subarray with All of Most Frequent",
+    "Target Sum Combinations"
   ]
 }

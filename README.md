@@ -89,3 +89,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 50 | [Longest Subarray with Majority Greater than K](https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 11:03 pm |
 | 51 | [Missing Element in Range](https://www.geeksforgeeks.org/problems/missing-element-in-range/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 11:05 pm |
 | 52 | [Smallest Subarray with All of Most Frequent](https://www.geeksforgeeks.org/problems/smallest-subarray-with-all-occurrences-of-a-most-frequent-element2258/1) | GeeksForGeeks | Medium | 01 Oct 2026 | 11:08 pm |
+| 53 | [Target Sum Combinations](https://www.geeksforgeeks.org/problems/combination-sum-1587115620/1) | GeeksForGeeks | Medium | 02 Oct 2026 | 02:39 pm |
