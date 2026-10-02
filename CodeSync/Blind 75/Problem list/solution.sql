@@ -1,13 +1,18 @@
 -- Platform: Coding Ninjas (Code360)
 -- Problem: Problem list
--- URL: https://www.naukri.com/code360/problems/second-highest-salary_2110760
+-- URL: https://www.naukri.com/code360/problems/top-travellers_2117112
 -- Language: SQL
 -- Difficulty: Hard
--- Topics: Uncategorized
+-- Topics: SQL Databases Clear all, SQL Databases
 -- Runtime: N/A
 -- Memory: N/A
--- Synced: 2026-09-12T16:36:10.669Z
+-- Synced: 2026-10-02T06:24:53.682Z
 
-SELECT MAX(salary) as salary
-FROM Employee
-WHERE salary < (SELECT MAX(salary) FROM Employee);
+SELECT
+    u.name,
+    COALESCE(SUM(r.distance), 0) AS travelled_distance
+FROM Users u
+LEFT JOIN Rides r
+    ON u.id = r.user_id
+GROUP BY u.id, u.name
+ORDER BY travelled_distance DESC, u.name ASC;
