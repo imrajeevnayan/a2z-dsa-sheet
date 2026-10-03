@@ -1,22 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 2798. Number of Employees Who Met the Target
- * URL: https://leetcode.com/problems/number-of-employees-who-met-the-target/
+ * URL: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
  * Language: Algorithms
  * Difficulty: Easy
  * Topics: Array
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-03T17:40:19.320Z
+ * Runtime: 0 ms
+ * Memory: 44.13 MB
+ * Synced: 2026-10-03T17:41:11.024Z
  */
 
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int count=0;
         for(int h:hours){
-            if(h> =target) count++;
+            if(h >=target) count++;
 
         }
-        return
+        return count;
     }
 }
