@@ -2,14 +2,36 @@
  * Platform: LeetCode
  * Problem: 32. Longest Valid Parentheses
  * URL: https://leetcode.com/problems/longest-valid-parentheses/description/?envType=daily-question&envId=2026-10-03
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Hard
  * Topics: String, Dynamic Programming, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T04:28:57.592Z
+ * Synced: 2026-10-03T04:28:59.704Z
  */
 
-Input: s = "(()"
-Output: 2
-Explanation: The longest valid parentheses substring is "()".
+class Solution {
+    public int longestValidParentheses(String s) {
+        // Stack banayenge jo sirf INDICES (positions) store karega, characters nahi.
+        Stack<Integer> stack = new Stack<>();
+         stack.push(-1);
+        
+        int maxLength = 0; // Final answer store karne ke liye
+        
+        // String ko start se end tak traverse karo
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            
+            if (c == '(') {
+                // Agar opening bracket mila, toh uska INDEX stack mein daal do.
+                // Hum baad mein isse match karenge.
+                stack.push(i);
+            } else {
+                // Agar closing bracket ')' mila:
+                
+                // Sabse pehle top element ko pop karo.
+                // Kyunki ye ')' apne se pehle wale '(' se match hone ki try kar raha hai.
+                stack.pop();
+                
+                // Ab check karo ki stack khali toh nahi ho gaya?
+                if (stack.isEmpty()) {
