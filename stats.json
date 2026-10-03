@@ -1,11 +1,11 @@
 {
-  "totalSolved": 81,
+  "totalSolved": 82,
   "currentStreak": 8,
   "maxStreak": 8,
   "lastSyncDate": "2026-10-03",
-  "todayCount": 14,
+  "todayCount": 15,
   "difficultyCounts": {
-    "easy": 28,
+    "easy": 29,
     "medium": 44,
     "hard": 3,
     "basic": 6
@@ -91,7 +91,8 @@
     "LeetCode_Number_of_Employees_Who_Met_the_Target": true,
     "LeetCode_Minimum_Number_of_Moves_to_Seat_Everyone": true,
     "LeetCode_Linked_List_Cycle_II": true,
-    "LeetCode_Build_Array_from_Permutation": true
+    "LeetCode_Build_Array_from_Permutation": true,
+    "LeetCode_Count_Number_of_Pairs_With_Absolute_Difference_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -101,7 +102,7 @@
     "2026-09-30": 9,
     "2026-10-01": 12,
     "2026-10-02": 17,
-    "2026-10-03": 14
+    "2026-10-03": 15
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -183,6 +184,7 @@
     "Number of Employees Who Met the Target",
     "Minimum Number of Moves to Seat Everyone",
     "Linked List Cycle II",
-    "Build Array from Permutation"
+    "Build Array from Permutation",
+    "Count Number of Pairs With Absolute Difference K"
   ]
 }
