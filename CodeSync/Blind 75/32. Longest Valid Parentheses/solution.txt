@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 32. Longest Valid Parentheses
+ * URL: https://leetcode.com/problems/longest-valid-parentheses/description/?envType=daily-question&envId=2026-10-03
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: String, Dynamic Programming, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T04:28:57.592Z
+ */
+
+Input: s = "(()"
+Output: 2
+Explanation: The longest valid parentheses substring is "()".
