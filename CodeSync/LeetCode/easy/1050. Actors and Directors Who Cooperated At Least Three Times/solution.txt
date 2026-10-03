@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:33:53.929Z
+ * Synced: 2026-10-03T17:33:56.942Z
  */
 
-select actoe
+select actor_id,
