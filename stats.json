@@ -1,11 +1,11 @@
 {
-  "totalSolved": 77,
+  "totalSolved": 78,
   "currentStreak": 8,
   "maxStreak": 8,
   "lastSyncDate": "2026-10-03",
-  "todayCount": 10,
+  "todayCount": 11,
   "difficultyCounts": {
-    "easy": 25,
+    "easy": 26,
     "medium": 43,
     "hard": 3,
     "basic": 6
@@ -87,7 +87,8 @@
     "GeeksForGeeks_Sum_Tree": true,
     "LeetCode_Path_Sum": true,
     "LeetCode_Binary_Search": true,
-    "LeetCode_Actors_and_Directors_Who_Cooperated_At_Least_Three_Times": true
+    "LeetCode_Actors_and_Directors_Who_Cooperated_At_Least_Three_Times": true,
+    "LeetCode_Number_of_Employees_Who_Met_the_Target": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -97,7 +98,7 @@
     "2026-09-30": 9,
     "2026-10-01": 12,
     "2026-10-02": 17,
-    "2026-10-03": 10
+    "2026-10-03": 11
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -175,6 +176,7 @@
     "Sum Tree",
     "Path Sum",
     "Binary Search",
-    "Actors and Directors Who Cooperated At Least Three Times"
+    "Actors and Directors Who Cooperated At Least Three Times",
+    "Number of Employees Who Met the Target"
   ]
 }
