@@ -1,0 +1,33 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count Ways To Reach The N
+ * URL: https://www.naukri.com/code360/problems/count-ways-to-reach-nth-stairs_798650
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1009 ms
+ * Memory: N/A
+ * Synced: 2026-10-03T04:16:12.940Z
+ */
+
+public class Solution {
+ 
+    public static long countDistinctWayToClimbStair(int n) {
+        long MOD = 1000000007;
+ 
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+ 
+        long prev2 = 1; // ways(0)
+        long prev1 = 1; // ways(1)
+ 
+        for (int i = 2; i <= n; i++) {
+            long curr = (prev1 + prev2) % MOD;
+            prev2 = prev1;
+            prev1 = curr;
+        }
+ 
+        return prev1;
+    }
+}
