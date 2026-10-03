@@ -1,0 +1,59 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Top View of Binary Tree
+ * URL: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
+ * Language: class Solution { public: vector<int> topView(Node *root) { vector<int>ans; map<int, int>visited; queue<pair<Node*, int>>q; // node and vertical line level q.push({root, 0}); while(!q.empty()){ auto [node , v] = q.front(); q.pop(); if(!visited.count(v)){visited[v] = node -> data;} // if node !visit then add if(node -> left) q.push({node->left, v-1}); if(node -> right) q.push({node->right, v+1}); } for(auto x : visited){ ans.push_back(x.second); } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags PaytmOla CabsWalmartNPCI, Company Tags, Paytm, Ola Cabs, Walmart, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T04:46:43.409Z
+ */
+
+// Queue mein node aur uska horizontal distance store karenge
+        Queue<Pair> queue = new LinkedList<>();
+
+        // Root ka horizontal distance 0 hota hai
+        queue.add(new Pair(root, 0));
+
+        while (!queue.isEmpty()) {
+
+            Pair curr = queue.poll();
+
+            Node node = curr.node;
+            int hd = curr.hd;
+
+            // Agar is HD par pehli baar node mila hai,
+            // toh wahi top view mein aayega
+            if (!map.containsKey(hd)) {
+                map.put(hd, node.data);
+            }
+
+            // Left child ka HD = current HD - 1
+            if (node.left != null) {
+                queue.add(new Pair(node.left, hd - 1));
+            }
+
+            // Right child ka HD = current HD + 1
+            if (node.right != null) {
+                queue.add(new Pair(node.right, hd + 1));
+            }
+        }
+
+        // TreeMap leftmost HD se rightmost HD tak sorted hai
+        ans.addAll(map.values());
+
+        return ans;
+    }
+
+    // Node ke saath horizontal distance store karne ke liye Pair
+    static class Pair {
+        Node node;
+        int hd;
+
+        Pair(Node node, int hd) {
+            this.node = node;
+            this.hd = hd;
+        }
+    }
+}
