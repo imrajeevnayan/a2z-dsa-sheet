@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Tree, Related Interview Experiences, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T04:44:49.823Z
+ * Synced: 2026-10-03T04:44:51.092Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
 
         // Agar tree empty hai
         if (root == null) {
-            return 0;
+           return 0;
         
 
         // BFS ke liye queue use karenge
