@@ -7,33 +7,33 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:16:04.418Z
+ * Synced: 2026-10-03T10:17:57.734Z
  */
 
+} else if (A[mid] < B) {
+                ans = mid;        // Exact match found
+                break;            // Ascending mein exact match = final answer
+            int mid = low + (high - low) / 2;
+            if (A[mid] == B) {
+        int ans = -1;
+        while (low <= high) {
+        low = 0; 
+        high = peak;
+        // Step 2: Search Ascending Part [0...peak] with ans
+        
+        }
+            }
+                low = mid + 1;    // Peak right side mein hai
+            } else {
+                high = mid - 1;   // Left side check karo better peak ke liye
+                peak = mid;       // Store as potential peak
+            if (mid == n - 1 || A[mid] > A[mid + 1]) {
+            // Agar mid right neighbor se bada hai, toh yeh potential peak hai
+            int mid = low + (high - low) / 2;
+        int low = 0, high = n - 1, peak = 0;
+        while (low <= high) {
+        
+        // Step 1: Find Peak Index using ans variable
+        int n = A.length;
 public class Solution {
     public int solve(int[] A, int B) {
-        int n = A.length;
-
-        // Find peak
-        int l = 0, r = n - 1;
-        while (l < r) {
-            int mid = l + (r - l) / 2;
-            if (A[mid] < A[mid + 1]) l = mid + 1;
-            else r = mid;
-        }
-        int peak = l;
-        // Search in increasing part
-        int ans = -1;
-
-        l = 0;
-        r = peak;
-
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-
-            if (A[mid] == B) {
-                ans = mid;
-                break;
-            } 
-            else if (A[mid] < B) {
-                l = mid + 1;
