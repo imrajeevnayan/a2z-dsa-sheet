@@ -7,10 +7,31 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:06:42.824Z
+ * Synced: 2026-10-03T10:08:20.470Z
  */
 
-public class Solution {
-    public int solve(int[] A, int B) {
+return ans;
+        }
+
+        // Search in decreasing part
+        l = peak + 1;
+        r = n - 1;
+
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+
+            if (A[mid] == B) {
+                ans = mid;
+                break;
+            } 
+            else if (A[mid] > B) {
+                l = mid + 1;
+            } 
+            else {
+                r = mid - 1;
+            }
+        }
+
+        return ans;
     }
 }
