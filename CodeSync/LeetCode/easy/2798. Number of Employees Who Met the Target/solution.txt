@@ -7,14 +7,14 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:39:57.651Z
+ * Synced: 2026-10-03T17:40:04.878Z
  */
 
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int count=0;
-        for(int hou:hours){
-            if(h)
+        for(int h:hours){
+            if(h> =taa)
         }
     }
 }
