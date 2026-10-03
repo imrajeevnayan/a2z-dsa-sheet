@@ -7,8 +7,33 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:16:03.242Z
+ * Synced: 2026-10-03T10:16:04.418Z
  */
 
-A = [3, 9, 10, 20, 17, 5, 1]
- B = 20
+public class Solution {
+    public int solve(int[] A, int B) {
+        int n = A.length;
+
+        // Find peak
+        int l = 0, r = n - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (A[mid] < A[mid + 1]) l = mid + 1;
+            else r = mid;
+        }
+        int peak = l;
+        // Search in increasing part
+        int ans = -1;
+
+        l = 0;
+        r = peak;
+
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+
+            if (A[mid] == B) {
+                ans = mid;
+                break;
+            } 
+            else if (A[mid] < B) {
+                l = mid + 1;
