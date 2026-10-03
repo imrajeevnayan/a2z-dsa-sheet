@@ -2,60 +2,15 @@
  * Platform: GeeksforGeeks
  * Problem: Sum of Leaf Nodes at Min Level
  * URL: https://www.geeksforgeeks.org/problems/sum-of-leaf-nodes-at-min-level/1
- * Language: int minLeafSum(Node *root) { if (!root) return 0; int sum = 0; queue<Node *> q; q.push(root); while (!q.empty()) { int n = q.size(); while (n--) { Node *node = q.front(); q.pop(); if (!node->left && !node->right) { sum += node->data; } if (node->left) { q.push(node->left); } if (node->right) { q.push(node->right); } } if (sum > 0) { return sum; } } return 0; }
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Tree, Related Interview Experiences, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T04:44:51.092Z
+ * Synced: 2026-10-03T04:45:13.636Z
  */
 
-class Solution {
-    public int minLeafSum(Node root) {
-
-        // Agar tree empty hai
-        if (root == null) {
-           return 0;
-        
-
-        // BFS ke liye queue use karenge
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-
-        // Level by level tree traverse karenge
-        while (!queue.isEmpty()) {
-
-            int size = queue.size();
-            int sum = 0;
-            boolean foundLeaf = false;
-
-            // Current level ke saare nodes process karo
-            for (int i = 0; i < size; i++) {
-
-                Node curr = queue.poll();
-
-                // Agar current node leaf hai
-                if (curr.left == null && curr.right == null) {
-                    sum += curr.data;
-                    foundLeaf = true;
-                }
-
-                // Left child ko next level ke liye queue mein daalo
-                if (curr.left != null) {
-                    queue.add(curr.left);
-                }
-
-                // Right child ko next level ke liye queue mein daalo
-                if (curr.right != null) {
-                    queue.add(curr.right);
-                }
-            }
-
-            // Jaise hi kisi level par leaf mila,
-            // wahi minimum level hai, answer return karo
-            if (foundLeaf) {
-                return sum;
-            }
-        }
-
-        return 0;
+Input: root[] = [1, 2, 3, 4, 5, N, 8, 7, 2, N, N, N, N]
+     
+Output: 13
+Explanation: sum = 5 + 8 = 13
