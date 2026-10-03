@@ -7,10 +7,42 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:47:54.335Z
+ * Synced: 2026-10-03T17:47:55.140Z
  */
 
-Input:
+class Solution {
+    public static void removeLoop(Node head) {
 
-Output: true
-Explanation: The linked list contains a loop that begins at node x = 2. After removing the loop, the driver code prints true.
+        Node slow = head;
+        Node fast = head;
+
+        // Find the loop
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+                break;
+        }
+
+        // No loop
+        if (fast == null || fast.next == null)
+            return;
+
+        // Find the starting node of the loop
+        slow = head;
+
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        // Find the last node of the loop
+        while (fast.next != slow) {
+            fast = fast.next;
+        }
+
+        // Remove the loop
+        fast.next = null;
+    }
+}
