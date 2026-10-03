@@ -1,33 +1,45 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: House Robber II
- * URL: https://leetcode.com/problems/house-robber-ii/submissions/2054655793/
- * Language: Problem List
+ * URL: https://www.naukri.com/code360/problems/house-robber_839733
+ * Language: Java (17)
  * Difficulty: Medium
- * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 42.67 MB
- * Synced: 2026-07-03T12:39:19.745Z
+ * Topics: Dynamic Programming Clear all, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T04:23:52.489Z
  */
 
-int option1 = robLinear(nums, 0, nums.length - 2);
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    public static long houseRobber(int[] valueInHouse) {
         
-        int option2 = robLinear(nums, 1, nums.length - 1);
-        
-        return Math.max(option1, option2);
-    }
-        private int robLinear(int[] nums, int start, int end) {
-        int prev1 = 0; // Max profit up to i-1
-        int prev2 = 0; // Max profit up to i-2
-        
-        for (int i = start; i <= end; i++) {
-            int current = Math.max(prev1, prev2 + nums[i]);
-            prev2 = prev1;
-            prev1 = current;
+        int n = valueInHouse.length;
+ 
+        if (n == 0) {
+            return 0;
         }
+ 
+        if (n == 1) {
+            return valueInHouse[0];
+        }
+ 
+        long prev2 = 0;
+        long prev1 = valueInHouse[0];
+ 
+        for (int i = 1; i < n; i++) {
+            
+            long rob = valueInHouse[i] + prev2;
+            long skip = prev1;
+ 
+            long curr = Math.max(rob, skip);
+ 
+            prev2 = prev1;
+            prev1 = curr;
+        }
+ 
         return prev1;
     }
-        if (nums.length == 1) return nums[0];
-        if (nums == null || nums.length == 0) return 0;
-class Solution {
-    public int rob(int[] nums) {
+}
