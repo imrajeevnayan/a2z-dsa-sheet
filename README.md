@@ -108,3 +108,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 69 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | LeetCode | Medium | 02 Oct 2026 | 11:39 pm |
 | 70 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | LeetCode | Hard | 03 Oct 2026 | 09:59 am |
 | 71 | [Two Mirror Trees](https://www.geeksforgeeks.org/problems/two-mirror-trees/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:03 am |
+| 72 | [Max Level Sum in Binary Tree](https://www.geeksforgeeks.org/problems/max-level-sum-in-binary-tree/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:06 am |
