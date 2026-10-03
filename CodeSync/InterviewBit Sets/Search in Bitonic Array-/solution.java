@@ -7,8 +7,10 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:06:22.460Z
+ * Synced: 2026-10-03T10:06:42.824Z
  */
 
-A = [3, 9, 10, 20, 17, 5, 1]
- B = 20
+public class Solution {
+    public int solve(int[] A, int B) {
+    }
+}
