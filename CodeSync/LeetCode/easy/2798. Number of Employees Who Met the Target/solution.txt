@@ -7,12 +7,12 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:39:37.968Z
+ * Synced: 2026-10-03T17:39:44.333Z
  */
 
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int count=0;
     }
-        
+        for(int ho)
 }
