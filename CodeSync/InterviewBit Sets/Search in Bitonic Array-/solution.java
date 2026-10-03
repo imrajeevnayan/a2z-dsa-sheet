@@ -7,7 +7,7 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:08:37.258Z
+ * Synced: 2026-10-03T10:08:49.241Z
  */
 
 r = peak;
@@ -20,11 +20,10 @@ r = peak;
 
 
         }
-            }
-                r = mid;
-            } else {
-                l = mid + 1;
-            if (A[mid] < A[mid + 1]) {
+            
+            r = mid;
+            else {
+            if (A[mid] < A[mid + 1]) l = mid + 1;
 
             int mid = l + (r - l) / 2;
         while (l < r) {
@@ -36,3 +35,5 @@ r = peak;
 public class Solution {
         while (l <= r) {
             int mid = l + (r - l) / 2;
+
+            if (A[mid] == B) {
