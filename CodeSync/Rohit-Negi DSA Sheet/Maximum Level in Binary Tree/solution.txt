@@ -7,37 +7,50 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftFacebook, Company Tags, Amazon, Microsoft, Facebook, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T04:39:43.018Z
+ * Synced: 2026-10-03T04:40:52.253Z
  */
 
 class Solution {
     public static int maxLevel(Node root) {
+
+        // Agar tree empty hai, toh koi level nahi hai
         if (root == null) {
             return 0;
         }
 
+        // BFS ke liye Queue use karenge
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
 
         int level = 0;
 
+        // Jab tak queue empty nahi hoti,
+        // tab tak tree ke levels process karte rahenge
         while (!queue.isEmpty()) {
+
+            // Current level par kitne nodes hain
             int size = queue.size();
+
+            // Ek naya level mil gaya
             level++;
 
+            // Current level ke saare nodes process karo
             for (int i = 0; i < size; i++) {
                 Node curr = queue.poll();
 
+                // Left child ko next level ke liye queue mein daalo
                 if (curr.left != null) {
                     queue.add(curr.left);
                 }
 
+                // Right child ko next level ke liye queue mein daalo
                 if (curr.right != null) {
                     queue.add(curr.right);
                 }
             }
         }
 
+        // Last processed level hi maximum/deepest level hai
         return level;
     }
 }
