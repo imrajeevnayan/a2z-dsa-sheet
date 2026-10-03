@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2798. Number of Employees Who Met the Target
- * URL: https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
+ * URL: https://leetcode.com/problems/number-of-employees-who-met-the-target/
  * Language: Algorithms
  * Difficulty: Easy
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:38:56.496Z
+ * Synced: 2026-10-03T17:39:34.815Z
  */
 
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
-        
+        int c
     }
 }
