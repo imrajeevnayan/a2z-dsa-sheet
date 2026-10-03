@@ -114,3 +114,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 75 | [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:16 am |
 | 76 | [Sum Tree](https://www.geeksforgeeks.org/problems/sum-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:17 am |
 | 77 | [Path Sum](https://leetcode.com/problems/path-sum/) | LeetCode | Easy | 03 Oct 2026 | 02:02 pm |
+| 78 | [Binary Search](https://leetcode.com/problems/binary-search/) | LeetCode | Easy | 03 Oct 2026 | 03:57 pm |
