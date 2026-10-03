@@ -115,3 +115,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 76 | [Sum Tree](https://www.geeksforgeeks.org/problems/sum-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:17 am |
 | 77 | [Path Sum](https://leetcode.com/problems/path-sum/) | LeetCode | Easy | 03 Oct 2026 | 02:02 pm |
 | 78 | [Binary Search](https://leetcode.com/problems/binary-search/) | LeetCode | Easy | 03 Oct 2026 | 03:57 pm |
+| 79 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | LeetCode | Easy | 03 Oct 2026 | 11:05 pm |
