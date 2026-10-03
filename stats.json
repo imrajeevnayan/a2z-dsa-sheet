@@ -1,11 +1,11 @@
 {
-  "totalSolved": 82,
-  "currentStreak": 8,
-  "maxStreak": 8,
-  "lastSyncDate": "2026-10-03",
-  "todayCount": 15,
+  "totalSolved": 83,
+  "currentStreak": 9,
+  "maxStreak": 9,
+  "lastSyncDate": "2026-10-04",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 29,
+    "easy": 30,
     "medium": 44,
     "hard": 3,
     "basic": 6
@@ -92,7 +92,8 @@
     "LeetCode_Minimum_Number_of_Moves_to_Seat_Everyone": true,
     "LeetCode_Linked_List_Cycle_II": true,
     "LeetCode_Build_Array_from_Permutation": true,
-    "LeetCode_Count_Number_of_Pairs_With_Absolute_Difference_K": true
+    "LeetCode_Count_Number_of_Pairs_With_Absolute_Difference_K": true,
+    "LeetCode_Merge_Sorted_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -102,7 +103,8 @@
     "2026-09-30": 9,
     "2026-10-01": 12,
     "2026-10-02": 17,
-    "2026-10-03": 15
+    "2026-10-03": 15,
+    "2026-10-04": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -185,6 +187,7 @@
     "Minimum Number of Moves to Seat Everyone",
     "Linked List Cycle II",
     "Build Array from Permutation",
-    "Count Number of Pairs With Absolute Difference K"
+    "Count Number of Pairs With Absolute Difference K",
+    "Merge Sorted Array"
   ]
 }

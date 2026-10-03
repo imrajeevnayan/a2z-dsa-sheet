@@ -121,3 +121,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 82 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | LeetCode | Medium | 03 Oct 2026 | 11:17 pm |
 | 83 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | LeetCode | Easy | 03 Oct 2026 | 11:21 pm |
 | 84 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | LeetCode | Easy | 03 Oct 2026 | 11:23 pm |
+| 85 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | LeetCode | Easy | 04 Oct 2026 | 01:06 am |
