@@ -2,14 +2,32 @@
  * Platform: LeetCode
  * Problem: 142. Linked List Cycle II
  * URL: https://leetcode.com/problems/linked-list-cycle-ii/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Linked List, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:47:29.952Z
+ * Synced: 2026-10-03T17:47:32.249Z
  */
 
-Input: head = [3,2,0,-4], pos = 1
-Output: tail connects to node index 1
-Explanation: There is a cycle in the linked list, where tail connects to the second node.
+public class Solution {
+    public ListNode detectCycle(ListNode head) {
+        ListNode slow = head, fast = head;
+        
+        // Phase 1: meeting point dhundo
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                // Phase 2: ek pointer head se chalao
+                ListNode ptr = head;
+                while (ptr != slow) {
+                    ptr = ptr.next;
+                    slow = slow.next;
+                }
+                return slow; // dono cycle start pe mile
+            }
+        }
+        return null;
+    }
+}
