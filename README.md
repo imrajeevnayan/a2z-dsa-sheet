@@ -113,3 +113,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 74 | [Sum of Leaf Nodes at Min Level](https://www.geeksforgeeks.org/problems/sum-of-leaf-nodes-at-min-level/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:14 am |
 | 75 | [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:16 am |
 | 76 | [Sum Tree](https://www.geeksforgeeks.org/problems/sum-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:17 am |
+| 77 | [Path Sum](https://leetcode.com/problems/path-sum/) | LeetCode | Easy | 03 Oct 2026 | 02:02 pm |
