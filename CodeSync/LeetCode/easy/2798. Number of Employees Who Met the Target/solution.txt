@@ -2,20 +2,16 @@
  * Platform: LeetCode
  * Problem: 2798. Number of Employees Who Met the Target
  * URL: https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
- * Language: Text
+ * Language: Algorithms
  * Difficulty: Easy
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:38:53.560Z
+ * Synced: 2026-10-03T17:38:56.496Z
  */
 
-Input: hours = [0,1,2,3,4], target = 2
-Output: 3
-Explanation: The company wants each employee to work for at least 2 hours.
-- Employee 0 worked for 0 hours and didn't meet the target.
-- Employee 1 worked for 1 hours and didn't meet the target.
-- Employee 2 worked for 2 hours and met the target.
-- Employee 3 worked for 3 hours and met the target.
-- Employee 4 worked for 4 hours and met the target.
-There are 3 employees who met the target.
+class Solution {
+    public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
+        
+    }
+}
