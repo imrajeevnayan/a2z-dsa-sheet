@@ -7,11 +7,12 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:50:24.393Z
+ * Synced: 2026-10-03T17:50:31.365Z
  */
 
 class Solution {
     public int[] buildArray(int[] nums) {
-        int []ans=new int[nums.l]
+        int []ans=new int[nums.length];
     }
+        f
 }
