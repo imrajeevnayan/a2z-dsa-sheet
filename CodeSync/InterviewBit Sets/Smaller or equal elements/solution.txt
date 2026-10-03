@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Smaller or equal elements
+ * URL: https://www.interviewbit.com/problems/smaller-or-equal-elements/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 60.8%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T10:18:53.577Z
+ */
+
+public class Solution {
+    public int solve(int[] A, int B) {
+    }
+}
