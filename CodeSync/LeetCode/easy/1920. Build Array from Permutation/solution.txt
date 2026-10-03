@@ -7,7 +7,7 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:51:08.452Z
+ * Synced: 2026-10-03T17:51:13.374Z
  */
 
 class Solution {
@@ -17,4 +17,5 @@ class Solution {
             ans[i]=nums[nums[i]];
         }
     }
+        return 
 }
