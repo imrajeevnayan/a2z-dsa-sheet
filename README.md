@@ -119,3 +119,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 80 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | LeetCode | Easy | 03 Oct 2026 | 11:10 pm |
 | 81 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | LeetCode | Easy | 03 Oct 2026 | 11:13 pm |
 | 82 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | LeetCode | Medium | 03 Oct 2026 | 11:17 pm |
+| 83 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | LeetCode | Easy | 03 Oct 2026 | 11:21 pm |
