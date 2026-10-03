@@ -7,7 +7,8 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:34:00.303Z
+ * Synced: 2026-10-03T17:34:08.551Z
  */
 
-select actor_id,directo
+select actor_id,director_id 
+Fro
