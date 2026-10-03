@@ -1,11 +1,11 @@
 {
-  "totalSolved": 70,
+  "totalSolved": 71,
   "currentStreak": 8,
   "maxStreak": 8,
   "lastSyncDate": "2026-10-03",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 20,
+    "easy": 21,
     "medium": 41,
     "hard": 3,
     "basic": 6
@@ -80,7 +80,8 @@
     "LeetCode_Reverse_Words_in_a_String": true,
     "LeetCode_Longest_Valid_Parentheses": true,
     "GeeksForGeeks_Two_Mirror_Trees": true,
-    "GeeksForGeeks_Max_Level_Sum_in_Binary_Tree": true
+    "GeeksForGeeks_Max_Level_Sum_in_Binary_Tree": true,
+    "GeeksForGeeks_Maximum_Level_in_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -90,7 +91,7 @@
     "2026-09-30": 9,
     "2026-10-01": 12,
     "2026-10-02": 17,
-    "2026-10-03": 3
+    "2026-10-03": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -161,6 +162,7 @@
     "Reverse Words in a String",
     "Longest Valid Parentheses",
     "Two Mirror Trees",
-    "Max Level Sum in Binary Tree"
+    "Max Level Sum in Binary Tree",
+    "Maximum Level in Binary Tree"
   ]
 }

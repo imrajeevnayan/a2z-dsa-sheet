@@ -109,3 +109,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 70 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | LeetCode | Hard | 03 Oct 2026 | 09:59 am |
 | 71 | [Two Mirror Trees](https://www.geeksforgeeks.org/problems/two-mirror-trees/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:03 am |
 | 72 | [Max Level Sum in Binary Tree](https://www.geeksforgeeks.org/problems/max-level-sum-in-binary-tree/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:06 am |
+| 73 | [Maximum Level in Binary Tree](https://www.geeksforgeeks.org/problems/maximum-depth-of-binary-tree/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:09 am |
