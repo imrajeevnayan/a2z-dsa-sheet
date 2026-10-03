@@ -7,7 +7,7 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, 67.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:08:30.275Z
+ * Synced: 2026-10-03T10:08:37.258Z
  */
 
 r = peak;
@@ -28,12 +28,11 @@ r = peak;
 
             int mid = l + (r - l) / 2;
         while (l < r) {
-        in r = n - 1;
-
         // Find peak
-        int l = 0;
+        int l = 0, r = n - 1;
         int n = A.length;
 
     public int solve(int[] A, int B) {
 public class Solution {
         while (l <= r) {
+            int mid = l + (r - l) / 2;
