@@ -7,10 +7,8 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 60.8%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T10:18:53.577Z
+ * Synced: 2026-10-03T10:18:52.765Z
  */
 
-public class Solution {
-    public int solve(int[] A, int B) {
-    }
-}
+A = [1, 3, 4, 4, 6]
+ B = 4
