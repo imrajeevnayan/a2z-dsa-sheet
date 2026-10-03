@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:48:08.165Z
+ * Synced: 2026-10-03T17:48:08.538Z
  */
 
 class Solution {
@@ -27,7 +27,7 @@ class Solution {
 
         // No loop
         if (fast == null || fast.next == null)
-           return;
+     return;
 
         // Find the starting node of the loop
         slow = head;
