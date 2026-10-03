@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Two Mirror Trees
+ * URL: https://www.geeksforgeeks.org/problems/two-mirror-trees/1
+ * Language: class Solution: def leftInorder(self, root, arr): if not root: return self.leftInorder(root.left,arr) arr.append(root.data) self.leftInorder(root.right,arr) return arr def rightInorder(self, root, arr): if not root: return self.rightInorder(root.left,arr) arr.append(root.data) self.rightInorder(root.right,arr) return arr def areMirror(self, a, b): ''' :param root1,root2: two root of the given trees. :return: True False ''' #code here _left = self.leftInorder(a, []) _right = self.rightInorder(b, []) return _left == _right[::-1]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonD-E-ShawHike, Company Tags, Amazon, D-E-Shaw, Hike, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T04:33:48.166Z
+ */
+
+class Solution {
+    public boolean areMirror(Node a, Node b) {
+        // Both are empty
+        if (a == null && b == null) return true;
+    
+        // Only one is empty
+        if (a == null || b == null)  return false;
+    
+
+        // Values must match, and subtrees must be mirrors
+        return a.data == b.data
+            && areMirror(a.left, b.right)
+            && areMirror(a.right, b.left);
+    }
+}
