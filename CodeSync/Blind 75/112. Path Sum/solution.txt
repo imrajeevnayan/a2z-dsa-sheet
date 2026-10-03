@@ -7,17 +7,14 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T08:31:44.001Z
+ * Synced: 2026-10-03T08:31:56.047Z
  */
 
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
-
         // Tree empty hai
-        if (root == null) {
-            return false;
-        }
-
+        if (root == null) return false;
+        
         // Current node ko target se minus kar do
         targetSum = targetSum - root.val;
 
