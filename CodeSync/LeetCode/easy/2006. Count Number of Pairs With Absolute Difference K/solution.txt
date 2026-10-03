@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:53:38.604Z
+ * Synced: 2026-10-03T17:53:41.751Z
  */
 
 class Solution {
@@ -16,9 +16,7 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
-                if (Math.abs(nums[i] - nums[j]) == k) {
- count++;
-                
+                if (Math.abs(nums[i] - nums[j]) == k)  count++; 
             }
         }
 
