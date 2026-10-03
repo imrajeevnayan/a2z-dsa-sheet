@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1050. Actors and Directors Who Cooperated At Least Three Times
+ * URL: https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T17:33:14.609Z
+ */
+
+# Write your MySQL query statement below
