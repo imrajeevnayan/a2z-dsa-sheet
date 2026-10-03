@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1920. Build Array from Permutation
- * URL: https://leetcode.com/problems/build-array-from-permutation/description/
+ * URL: https://leetcode.com/problems/build-array-from-permutation/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:49:39.068Z
+ * Synced: 2026-10-03T17:50:15.081Z
  */
 
 class Solution {
     public int[] buildArray(int[] nums) {
-        
+        int []aaaaaa
     }
 }
