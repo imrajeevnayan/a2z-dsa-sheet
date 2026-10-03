@@ -118,3 +118,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 79 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | LeetCode | Easy | 03 Oct 2026 | 11:05 pm |
 | 80 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | LeetCode | Easy | 03 Oct 2026 | 11:10 pm |
 | 81 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | LeetCode | Easy | 03 Oct 2026 | 11:13 pm |
+| 82 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | LeetCode | Medium | 03 Oct 2026 | 11:17 pm |
