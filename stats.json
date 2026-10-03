@@ -1,12 +1,12 @@
 {
-  "totalSolved": 72,
+  "totalSolved": 73,
   "currentStreak": 8,
   "maxStreak": 8,
   "lastSyncDate": "2026-10-03",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 22,
-    "medium": 41,
+    "medium": 42,
     "hard": 3,
     "basic": 6
   },
@@ -82,7 +82,8 @@
     "GeeksForGeeks_Two_Mirror_Trees": true,
     "GeeksForGeeks_Max_Level_Sum_in_Binary_Tree": true,
     "GeeksForGeeks_Maximum_Level_in_Binary_Tree": true,
-    "GeeksForGeeks_Sum_of_Leaf_Nodes_at_Min_Level": true
+    "GeeksForGeeks_Sum_of_Leaf_Nodes_at_Min_Level": true,
+    "GeeksForGeeks_Top_View_of_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -92,7 +93,7 @@
     "2026-09-30": 9,
     "2026-10-01": 12,
     "2026-10-02": 17,
-    "2026-10-03": 5
+    "2026-10-03": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -165,6 +166,7 @@
     "Two Mirror Trees",
     "Max Level Sum in Binary Tree",
     "Maximum Level in Binary Tree",
-    "Sum of Leaf Nodes at Min Level"
+    "Sum of Leaf Nodes at Min Level",
+    "Top View of Binary Tree"
   ]
 }

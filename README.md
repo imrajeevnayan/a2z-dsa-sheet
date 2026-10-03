@@ -111,3 +111,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 72 | [Max Level Sum in Binary Tree](https://www.geeksforgeeks.org/problems/max-level-sum-in-binary-tree/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:06 am |
 | 73 | [Maximum Level in Binary Tree](https://www.geeksforgeeks.org/problems/maximum-depth-of-binary-tree/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:09 am |
 | 74 | [Sum of Leaf Nodes at Min Level](https://www.geeksforgeeks.org/problems/sum-of-leaf-nodes-at-min-level/1) | GeeksForGeeks | Easy | 03 Oct 2026 | 10:14 am |
+| 75 | [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | GeeksForGeeks | Medium | 03 Oct 2026 | 10:16 am |
