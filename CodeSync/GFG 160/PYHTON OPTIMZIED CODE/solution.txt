@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: PYHTON OPTIMZIED CODE
+ * URL: https://www.geeksforgeeks.org/problems/max-level-sum-in-binary-tree/1
+ * Language: class Solution{ public: int maxLevelSum(Node* root) { // Your code here int sum = 0; int maxi = INT_MIN; queue<Node*> q; q.push(root); q.push(NULL); while(!q.empty()){ Node* tmp = q.front(); q.pop(); if(tmp == NULL) { maxi = max(sum, maxi); sum = 0; if(!q.empty()) q.push(NULL); } else { sum += tmp->data; if(tmp->left) q.push(tmp->left); if(tmp->right) q.push(tmp->right); } } return maxi; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags VMWareFlipkartAmazon, Company Tags, VMWare, Flipkart, Amazon, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-03T04:36:57.799Z
+ */
+
+class Solution {
+    public int maxLevelSum(Node root) {
+        if (root == null)  return 0;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        int maxSum = Integer.MIN_VALUE;
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            int levelSum = 0;
+
+            for (int i = 0; i < size; i++) {
+                Node curr = q.poll();
+
+                levelSum += curr.data;
+
+                if (curr.left != null) q.add(curr.left);
+
+                if (curr.right != null) q.add(curr.right);
+                
+            }
+            maxSum = Math.max(maxSum, levelSum);
+        }
+        return maxSum;
+    }
+}
