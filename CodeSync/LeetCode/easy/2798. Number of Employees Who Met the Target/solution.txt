@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T17:40:14.209Z
+ * Synced: 2026-10-03T17:40:19.320Z
  */
 
 class Solution {
@@ -15,7 +15,8 @@ class Solution {
         int count=0;
         for(int h:hours){
             if(h> =target) count++;
+
         }
+        return
     }
-            
 }
