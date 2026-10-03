@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftFacebook, Company Tags, Amazon, Microsoft, Facebook, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T04:40:52.253Z
+ * Synced: 2026-10-03T04:42:29.889Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         // Agar tree empty hai, toh koi level nahi hai
         if (root == null) {
             return 0;
-        }
+        
 
         // BFS ke liye Queue use karenge
         Queue<Node> queue = new LinkedList<>();
