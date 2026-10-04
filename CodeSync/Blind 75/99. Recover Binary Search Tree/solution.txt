@@ -1,15 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 99. Recover Binary Search Tree
- * URL: https://leetcode.com/problems/recover-binary-search-tree/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/recover-binary-search-tree/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T03:14:58.309Z
+ * Synced: 2026-10-04T03:16:50.587Z
  */
 
-Input: root = [1,3,null,null,2]
-Output: [3,1,null,null,2]
-Explanation: 3 cannot be a left child of 1 because 3 > 1. Swapping 1 and 3 makes the BST valid.
+if (root == null) {
+            return;
+        }
+
+        // Left
+        inorder(root.left);
+
+        // Current
+        if (prev != null && prev.val > root.val) {
+            
+            if (first == null) {
+                first = prev;
+            }
+
+            second = root;
+        }
+
+        prev = root;
+
+        // Right
+        inorder(root.right);
+    }
+}
