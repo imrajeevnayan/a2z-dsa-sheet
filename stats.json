@@ -1,12 +1,12 @@
 {
-  "totalSolved": 87,
+  "totalSolved": 88,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-10-04",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 30,
-    "medium": 48,
+    "medium": 49,
     "hard": 3,
     "basic": 6
   },
@@ -97,7 +97,8 @@
     "LeetCode_Recover_Binary_Search_Tree": true,
     "LeetCode_Valid_Parenthesis_String": true,
     "LeetCode_Number_of_Substrings_Containing_All_Three_Characters": true,
-    "LeetCode_Kth_Smallest_Element_in_a_Sorted_Matrix": true
+    "LeetCode_Kth_Smallest_Element_in_a_Sorted_Matrix": true,
+    "LeetCode_4Sum_II": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -108,7 +109,7 @@
     "2026-10-01": 12,
     "2026-10-02": 17,
     "2026-10-03": 15,
-    "2026-10-04": 5
+    "2026-10-04": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -196,6 +197,7 @@
     "Recover Binary Search Tree",
     "Valid Parenthesis String",
     "Number of Substrings Containing All Three Characters",
-    "Kth Smallest Element in a Sorted Matrix"
+    "Kth Smallest Element in a Sorted Matrix",
+    "4Sum II"
   ]
 }
