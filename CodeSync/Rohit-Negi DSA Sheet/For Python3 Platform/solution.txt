@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Accolite, Amazon, OYO Rooms, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T17:35:03.188Z
+ * Synced: 2026-10-04T13:50:38.781Z
  */
 
 class Solution {
@@ -15,20 +15,21 @@ class Solution {
         Node slow = head;
         Node fast = head;
 
-        // Move fast k nodes ahead
+        // Step 1: Fast ko k steps aage bhejo
         for (int i = 0; i < k; i++) {
-            if (fast == null) {
-                return -1;
-            }
+            // Agar fast null ho gaya → k > list length → invalid
+            if (fast == null) return -1;
             fast = fast.next;
         }
 
-        // Move both pointers
+        // Step 2: Dono saath chalao jab tak fast null na ho jaye
+        // Jab fast end cross karega → slow exactly kth-from-end pe hoga
         while (fast != null) {
             slow = slow.next;
             fast = fast.next;
         }
 
+        // Slow ab kth node from end pe hai
         return slow.data;
     }
 }
