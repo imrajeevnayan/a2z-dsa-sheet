@@ -1,36 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 457. Circular Array Loop
- * URL: https://leetcode.com/problems/circular-array-loop/?envType=problem-list-v2&envId=array
+ * URL: https://leetcode.com/problems/circular-array-loop/submissions/2161808838/?envType=problem-list-v2&envId=array
  * Language: Array
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Floyd's Cycle Finding Algorithm
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-04T06:25:59.934Z
+ * Runtime: 0 ms
+ * Memory: 42.74 MB
+ * Synced: 2026-10-04T06:26:20.224Z
  */
 
-int next = ((curr + nums[curr]) % n + n) % n;
+fast = getNextIndex(nums, fast, n, isPositive);
+                if (fast == -1) break;
+                
+                // Fast do steps aage
+                fast = getNextIndex(nums, fast, n, isPositive);
+                if (fast == -1) break;
+                
+                // Cycle mil gayi!
+                if (slow == fast) return true;
+            }
+            
+            // Ye path valid cycle nahi bana paya
+            // Is path ke saare nodes ko 0 mark karo (visited)
+            // Taaki future iterations mein dobara process na ho
+            markVisited(nums, i, n, isPositive);
+        }
         
-        // Self-loop check: cycle length must be > 1
-        if (next == curr) return -1;
-        
-        return next;
+        return false;
     }
     
-    // Path ke saare nodes ko 0 mark karo (visited)
-    private void markVisited(int[] nums, int start, int n, boolean isPositive) {
-        int curr = start;
-        while (curr != -1 && nums[curr] != 0) {
-            // Direction mismatch pe ruk jaao
-            if ((nums[curr] > 0) != isPositive) break;
-            
-            int next = ((curr + nums[curr]) % n + n) % n;
-            nums[curr] = 0; // Mark as visited
-            
-            // Self-loop pe bhi mark karo aur ruko
-            if (next == curr) break;
-            curr = next;
-        }
-    }
-}
+    // Agla index calculate karo with validation
+    // Return -1 agar invalid ho (direction change / self-loop)
+    private int getNextIndex(int[] nums, int curr, int n, boolean isPositive) {
+        // Direction check: agar sign alag hai → invalid path
+        if ((nums[curr] > 0) != isPositive) return -1;
