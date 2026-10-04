@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 421. Maximum XOR of Two Numbers in an Array
+ * URL: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/?envType=problem-list-v2&envId=array
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Bit Manipulation, Trie
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T05:24:01.669Z
+ */
+
+Input: nums = [3,10,5,25,2,8]
+Output: 28
+Explanation: The maximum result is 5 XOR 25 = 28.
