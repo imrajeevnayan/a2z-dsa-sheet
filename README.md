@@ -130,3 +130,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 91 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | LeetCode | Medium | 04 Oct 2026 | 11:56 am |
 | 92 | [Merge Two BSTs](https://www.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 11:58 am |
 | 93 | [Delete Nodes Greater than K](https://www.geeksforgeeks.org/problems/delete-nodes-greater-than-k/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 12:03 pm |
+| 94 | [Kth from End of Linked List](https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) | GeeksForGeeks | Easy | 04 Oct 2026 | 07:20 pm |

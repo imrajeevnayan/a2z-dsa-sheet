@@ -1,11 +1,11 @@
 {
-  "totalSolved": 91,
+  "totalSolved": 92,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-10-04",
-  "todayCount": 9,
+  "todayCount": 10,
   "difficultyCounts": {
-    "easy": 30,
+    "easy": 31,
     "medium": 52,
     "hard": 3,
     "basic": 6
@@ -101,7 +101,8 @@
     "LeetCode_4Sum_II": true,
     "LeetCode_Circular_Array_Loop": true,
     "GeeksForGeeks_Merge_Two_BSTs": true,
-    "GeeksForGeeks_Delete_Nodes_Greater_than_K": true
+    "GeeksForGeeks_Delete_Nodes_Greater_than_K": true,
+    "GeeksForGeeks_Kth_from_End_of_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -112,7 +113,7 @@
     "2026-10-01": 12,
     "2026-10-02": 17,
     "2026-10-03": 15,
-    "2026-10-04": 9
+    "2026-10-04": 10
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -204,6 +205,7 @@
     "4Sum II",
     "Circular Array Loop",
     "Merge Two BSTs",
-    "Delete Nodes Greater than K"
+    "Delete Nodes Greater than K",
+    "Kth from End of Linked List"
   ]
 }
