@@ -7,11 +7,29 @@
  * Topics: Array, Hash Table
  * Runtime: 1 ms
  * Memory: 46.79 MB
- * Synced: 2026-10-04T05:27:52.713Z
+ * Synced: 2026-10-04T05:29:23.333Z
  */
 
-class Solution {
-    public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
-        // Step 1: Compute all A+B sums with frequency
-        Map<Integer, Integer> abMap = new HashMap<>();
-        for (int a : A) {
+// Pehle nums1 aur nums2 ke saare pair sums ka frequency map banao
+        // Kyunki a+b+c+d=0 ko hum (a+b) = -(c+d) mein tod sakte hain
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int a : nums1) {
+            for (int b : nums2) {
+                // Har a+b sum ki frequency badhao
+                map.merge(a + b, 1, Integer::sum);
+            }
+        }
+        
+        // Ab nums3 aur nums4 ke har pair ke liye check karo
+        // ki uska negative complement map mein kitni baar aaya tha
+        int count = 0;
+        for (int c : nums3) {
+            for (int d : nums4) {
+                // -(c+d) isliye kyunki a+b = -(c+d) hona chahiye tabhi total sum 0 hoga
+                count += map.getOrDefault(-(c + d), 0);
+            }
+        }
+        
+        return count;
+    }
+}
