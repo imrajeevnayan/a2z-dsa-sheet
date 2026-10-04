@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3306. Count of Substrings Containing Every Vowel and K Consonants II
+ * URL: https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/description/?envType=daily-question&envId=2025-03-10
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:33:13.780Z
+ */
+
+class Solution {
+    public long countOfSubstrings(String word, int k) {
+        
+    }
+}
