@@ -7,7 +7,7 @@
  * Topics: Programming, Bit Manipulation, Description, Discussion, Submissions, Hints, Count Total Set Bits 66 Minutes Hard Asked in:, OR equal XOR 19 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T17:17:49.252Z
+ * Synced: 2026-10-04T17:17:54.916Z
  */
 
 public class Solution {
@@ -19,4 +19,4 @@ public class Solution {
         }
 }
             count+=A;
-        re
+        return count
