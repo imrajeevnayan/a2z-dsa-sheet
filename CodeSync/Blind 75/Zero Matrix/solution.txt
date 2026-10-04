@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Zero Matrix
+ * URL: https://www.naukri.com/code360/problems/zero-matrix_1171153
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2663 ms
+ * Memory: N/A
+ * Synced: 2026-10-04T05:59:51.640Z
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class Solution {
+    public static ArrayList<ArrayList<Integer>> zeroMatrix(ArrayList<ArrayList<Integer>> matrix, Integer n, Integer m) {
+        
+        // Step 0: Pehli row aur pehle column mein khud 0 hai ya nahi?
+        boolean firstRowZero = false;
+        boolean firstColZero = false;
+        
+        for (int j = 0; j < m; j++) {
+            if (matrix.get(0).get(j) == 0) firstRowZero = true;
+        }
+        for (int i = 0; i < n; i++) {
+            if (matrix.get(i).get(0) == 0) firstColZero = true;
+        }
+        
+        // Step 1: Inner cells scan ? markers set karo
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix.get(i).get(j) == 0) {
+                    matrix.get(i).set(0, 0);
+                    matrix.get(0).set(j, 0);
+                }
+            }
+        }
+        
+        // Step 2: Markers dekh kar inner cells 0 karo
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix.get(i).get(0) == 0 || matrix.get(0).get(j) == 0) {
+                    matrix.get(i).set(j, 0);
+                }
+            }
+        }
+        
+        // Step 3: Pehli row/col ko handle karo
+        if (firstRowZero) {
+            for (int j = 0; j < m; j++) matrix.get(0).set(j, 0);
