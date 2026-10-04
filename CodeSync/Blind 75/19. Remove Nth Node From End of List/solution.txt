@@ -1,26 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 19. Remove Nth Node From End of List
- * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/2162151572/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-04T13:45:12.449Z
+ * Synced: 2026-10-04T13:46:08.641Z
  */
 
-class Solution {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        if (head == null || head.next == null)  return null;
-        ListNode slow = head, fast = head;
-       for(int i=0;i<n;i++)fast=fast.next;
-        if (fast == null) return head.next;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
+ListNode slow = dummy;
+        
+        // Step 1: Fast ko n+1 steps aage bhejo
+        // n+1 isliye kyunki slow ko DELETE TARGET KE PEECHE rukna hai
+        for (int i = 0; i <= n; i++) {
             fast = fast.next;
         }
+        
+        // Step 2: Dono ko ek saath chalao jab tak fast null na ho jaye
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        
+        // Step 3: Ab slow ke next ko skip karo (delete)
+        // slow ab delete target ke PEHLE wale node pe hai
         slow.next = slow.next.next;
-        return head;
-    }
-}
+        ListNode fast = dummy;
+        
+        
+        dummy.next = head;
+        // Agar n == list length hai toh head hi delete hoga
+        ListNode dummy = new ListNode(0);
+        // Dummy node banao taaki head deletion bhi easily handle ho
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+class Solution {
