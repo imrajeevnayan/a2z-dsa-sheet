@@ -1,15 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 378. Kth Smallest Element in a Sorted Matrix
- * URL: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=array
- * Language: Text
+ * URL: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/?envType=problem-list-v2&envId=array
+ * Language: Array
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T05:08:03.986Z
+ * Synced: 2026-10-04T05:22:49.304Z
  */
 
-Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
-Output: 13
-Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15], and the 8th smallest number is 13
+// Min Heap: [value, row, col]
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        
+        // Step 1: First row ke saare elements add karo
+        for (int col = 0; col < n; col++) {
+            pq.offer(new int[]{matrix[0][col], 0, col});
+        }
+        
+        // Step 2: k-1 times pop karo (kth element chahiye)
+        for (int i = 0; i < k - 1; i++) {
+            int[] curr = pq.poll();
+            int row = curr[1];
+            int col = curr[2];
+            
+            // Neeche wala element push karo (if exists)
+            if (row + 1 < n) {
+                pq.offer(new int[]{matrix[row + 1][col], row + 1, col});
+            }
+        }
+        
+        // Step 3: kth pop = answer
+        return pq.poll()[0];
+    }
+}
