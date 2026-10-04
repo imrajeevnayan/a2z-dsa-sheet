@@ -1,0 +1,37 @@
+/*
+ * Platform: LeetCode
+ * Problem: 678. Valid Parenthesis String
+ * URL: https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question&envId=2026-10-04
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming, Stack, Greedy, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:25:14.287Z
+ */
+
+class Solution {
+    public boolean checkValidString(String s) {
+        int low = 0;
+        int high = 0;
+
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
+                low++;
+                high++;
+            }
+            else if (ch == ')') {
+                low--;
+                high--;
+            }
+            else { // '*'
+                low--;     // if '*' acts as ')'
+                high++;    // if '*' acts as '('
+            }
+
+            // too many ')'
+            if (high < 0) {
+                return false;
+            }
+
+            // low should never be negative
