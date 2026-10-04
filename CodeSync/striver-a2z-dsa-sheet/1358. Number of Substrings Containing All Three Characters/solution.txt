@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: 0 ms
  * Memory: 46.14 MB
- * Synced: 2026-10-04T03:30:55.198Z
+ * Synced: 2026-10-04T03:30:59.002Z
  */
 
 int left = 0, ans = 0;
@@ -16,8 +16,7 @@ int left = 0, ans = 0;
             count[s.charAt(right) - 'a']++;
 
             // Current window contains a, b and c
-            while (count[0] > 0 && count[1] > 0 &&
-                   count[2] > 0) {
+            while (count[0] > 0 &&  count[1] > 0 &&  count[2] > 0) {
 
                 count[s.charAt(left) - 'a']--;
                 left++;
