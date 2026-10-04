@@ -7,11 +7,11 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T03:30:09.385Z
+ * Synced: 2026-10-04T03:30:15.667Z
  */
 
 int left = 0;
-        int ans = 0;
+ans = 0;
 
         for (int right = 0; right < s.length(); right++) {
 
@@ -31,5 +31,7 @@ int left = 0;
         }
 
         return ans;
-    }
-}
+
+class Solution {
+    public int numberOfSubstrings(String s) {
+        int[] count = new int[3];
