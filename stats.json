@@ -1,12 +1,12 @@
 {
-  "totalSolved": 85,
+  "totalSolved": 86,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-10-04",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 30,
-    "medium": 46,
+    "medium": 47,
     "hard": 3,
     "basic": 6
   },
@@ -95,7 +95,8 @@
     "LeetCode_Count_Number_of_Pairs_With_Absolute_Difference_K": true,
     "LeetCode_Merge_Sorted_Array": true,
     "LeetCode_Recover_Binary_Search_Tree": true,
-    "LeetCode_Valid_Parenthesis_String": true
+    "LeetCode_Valid_Parenthesis_String": true,
+    "LeetCode_Number_of_Substrings_Containing_All_Three_Characters": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -106,7 +107,7 @@
     "2026-10-01": 12,
     "2026-10-02": 17,
     "2026-10-03": 15,
-    "2026-10-04": 3
+    "2026-10-04": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -192,6 +193,7 @@
     "Count Number of Pairs With Absolute Difference K",
     "Merge Sorted Array",
     "Recover Binary Search Tree",
-    "Valid Parenthesis String"
+    "Valid Parenthesis String",
+    "Number of Substrings Containing All Three Characters"
   ]
 }

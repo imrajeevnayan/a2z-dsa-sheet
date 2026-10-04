@@ -124,3 +124,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 85 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | LeetCode | Easy | 04 Oct 2026 | 01:06 am |
 | 86 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | LeetCode | Medium | 04 Oct 2026 | 08:47 am |
 | 87 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | LeetCode | Medium | 04 Oct 2026 | 08:55 am |
+| 88 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | LeetCode | Medium | 04 Oct 2026 | 09:00 am |
