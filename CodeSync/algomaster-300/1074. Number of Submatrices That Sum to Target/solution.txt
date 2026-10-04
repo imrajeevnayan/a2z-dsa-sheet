@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1074. Number of Submatrices That Sum to Target
+ * URL: https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Matrix, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:24:37.285Z
+ */
+
+Input: matrix = [[0,1,0],[1,1,1],[0,1,0]], target = 0
+Output: 4
+Explanation: The four 1x1 submatrices that only contain 0.
