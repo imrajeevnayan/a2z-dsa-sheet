@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 378. Kth Smallest Element in a Sorted Matrix
+ * URL: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=array
+ * Language: Array
+ * Difficulty: Medium
+ * Topics: Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T05:08:06.102Z
+ */
+
+class Solution {
+    public int kthSmallest(int[][] matrix, int k) {
+        
+    }
+}
