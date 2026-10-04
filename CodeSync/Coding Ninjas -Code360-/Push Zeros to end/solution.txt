@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Push Zeros to end
+ * URL: https://www.naukri.com/code360/problems/push-zeros-to-end_583
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 8083 ms
+ * Memory: N/A
+ * Synced: 2026-10-04T06:04:16.293Z
+ */
+
+public class Solution {  
+    public static void pushZerosAtEnd(int[] arr) {
+        int i=0;
+        for(int j=0;j<arr.length;j++){
+            if(arr[j]!=0)arr[i++]=arr[j];
+        }
+        while(i<arr.length)arr[i++]=0;
+    }
+ 
+}
