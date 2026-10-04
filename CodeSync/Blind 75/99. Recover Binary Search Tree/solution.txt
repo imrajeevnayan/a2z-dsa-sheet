@@ -7,11 +7,10 @@
  * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T03:17:09.998Z
+ * Synced: 2026-10-04T03:17:23.110Z
  */
 
 if (root == null) return;
-
         // Left
         inorder(root.left);
 
@@ -19,19 +18,16 @@ if (root == null) return;
         if (prev != null && prev.val > root.val) {
 
     private void inorder(TreeNode root) {
-        first.val = second.val;
-        second.val = temp;
-    }
-            
             if (first == null) {
                 first = prev;
             }
-
             second = root;
         }
-
         prev = root;
 
         // Right
         inorder(root.right);
+    }
+}
+
     }
