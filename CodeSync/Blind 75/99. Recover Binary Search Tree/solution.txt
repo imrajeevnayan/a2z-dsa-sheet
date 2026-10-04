@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: 99. Recover Binary Search Tree
+ * URL: https://leetcode.com/problems/recover-binary-search-tree/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:15:00.565Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public void recoverTree(TreeNode root) {
+        
+    }
+}
