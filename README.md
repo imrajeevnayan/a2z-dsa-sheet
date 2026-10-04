@@ -128,3 +128,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 89 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | LeetCode | Medium | 04 Oct 2026 | 10:53 am |
 | 90 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | LeetCode | Medium | 04 Oct 2026 | 10:57 am |
 | 91 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | LeetCode | Medium | 04 Oct 2026 | 11:56 am |
+| 92 | [Merge Two BSTs](https://www.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 11:58 am |
