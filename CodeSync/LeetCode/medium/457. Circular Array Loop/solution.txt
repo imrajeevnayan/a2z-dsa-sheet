@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 457. Circular Array Loop
+ * URL: https://leetcode.com/problems/circular-array-loop/description/?envType=problem-list-v2&envId=array
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Two Pointers, Floyd's Cycle Finding Algorithm
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T06:25:16.540Z
+ */
+
+Input: nums = [2,-1,1,2,2]
+Output: true
+Explanation: The graph shows how the indices are connected. White nodes are jumping forward, while red is jumping backward.
+We can see the cycle 0 --> 2 --> 3 --> 0 --> ..., and all of its nodes are white (jumping in the same direction).
