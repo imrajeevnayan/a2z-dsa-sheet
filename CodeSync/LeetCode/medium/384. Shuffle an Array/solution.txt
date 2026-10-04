@@ -2,24 +2,32 @@
  * Platform: LeetCode
  * Problem: 384. Shuffle an Array
  * URL: https://leetcode.com/problems/shuffle-an-array/description/?envType=problem-list-v2&envId=array
- * Language: Text
+ * Language: Array
  * Difficulty: Medium
  * Topics: Array, Math, Design, Randomized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T05:23:30.336Z
+ * Synced: 2026-10-04T05:23:32.921Z
  */
 
-Input
-["Solution", "shuffle", "reset", "shuffle"]
-[[[1, 2, 3]], [], [], []]
-Output
-[null, [3, 1, 2], [1, 2, 3], [1, 3, 2]]
+class Solution {
 
-Explanation
-Solution solution = new Solution([1, 2, 3]);
-solution.shuffle();    // Shuffle the array [1,2,3] and return its result.
-                       // Any permutation of [1,2,3] must be equally likely to be returned.
-                       // Example: return [3, 1, 2]
-solution.reset();      // Resets the array back to its original configuration [1,2,3]. Return [1, 2, 3]
-solution.shuffle();    // Returns the random shuffling of array [1,2,3]. Example: return [1, 3, 2]
+    public Solution(int[] nums) {
+        
+    }
+    
+    public int[] reset() {
+        
+    }
+    
+    public int[] shuffle() {
+        
+    }
+}
+
+/**
+ * Your Solution object will be instantiated and called as such:
+ * Solution obj = new Solution(nums);
+ * int[] param_1 = obj.reset();
+ * int[] param_2 = obj.shuffle();
+ */
