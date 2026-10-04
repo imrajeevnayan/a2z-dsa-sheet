@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 236. Lowest Common Ancestor of a Binary Tree
+ * URL: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree, Binary Lifting, Lowest Common Ancestor
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:10:54.007Z
+ */
+
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+Output: 3
+Explanation: The LCA of nodes 5 and 1 is 3.
