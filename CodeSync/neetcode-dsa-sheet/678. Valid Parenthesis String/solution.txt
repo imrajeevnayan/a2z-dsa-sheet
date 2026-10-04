@@ -7,7 +7,7 @@
  * Topics: String, Dynamic Programming, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T03:25:14.287Z
+ * Synced: 2026-10-04T03:25:20.648Z
  */
 
 class Solution {
@@ -35,3 +35,4 @@ class Solution {
             }
 
             // low should never be negative
+            low = Math.max(low, 0);
