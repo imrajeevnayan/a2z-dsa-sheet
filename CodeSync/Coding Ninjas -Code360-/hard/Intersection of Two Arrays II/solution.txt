@@ -1,0 +1,34 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Intersection of Two Arrays II
+ * URL: https://www.naukri.com/code360/problems/array-intersection_625161
+ * Language: All languages
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 2163 ms
+ * Memory: N/A
+ * Synced: 2026-10-04T06:13:41.759Z
+ */
+
+import java.util.*;
+public class Solution {  
+    public static void intersections(int arr1[], int arr2[]) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int num : arr2)map.put(num, map.getOrDefault(num, 0) + 1);
+        
+        
+        // Step 2: arr1 scan karo (taaki output arr1 ke order mein aaye)
+        for (int num : arr1) {
+            int count = map.getOrDefault(num, 0);
+            
+            // Agar ye element arr2 mein abhi available hai
+            if (count > 0) {
+                System.out.print(num + " ");
+                
+                // Ek baar use kar liya ? count kam karo
+                // Taaki same element limit se zyada match na ho
+                map.put(num, count - 1);
+            }
+        }
+    }
+}
