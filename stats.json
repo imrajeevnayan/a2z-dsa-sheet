@@ -1,12 +1,12 @@
 {
-  "totalSolved": 84,
+  "totalSolved": 85,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-10-04",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 30,
-    "medium": 45,
+    "medium": 46,
     "hard": 3,
     "basic": 6
   },
@@ -94,7 +94,8 @@
     "LeetCode_Build_Array_from_Permutation": true,
     "LeetCode_Count_Number_of_Pairs_With_Absolute_Difference_K": true,
     "LeetCode_Merge_Sorted_Array": true,
-    "LeetCode_Recover_Binary_Search_Tree": true
+    "LeetCode_Recover_Binary_Search_Tree": true,
+    "LeetCode_Valid_Parenthesis_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -105,7 +106,7 @@
     "2026-10-01": 12,
     "2026-10-02": 17,
     "2026-10-03": 15,
-    "2026-10-04": 2
+    "2026-10-04": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -190,6 +191,7 @@
     "Build Array from Permutation",
     "Count Number of Pairs With Absolute Difference K",
     "Merge Sorted Array",
-    "Recover Binary Search Tree"
+    "Recover Binary Search Tree",
+    "Valid Parenthesis String"
   ]
 }
