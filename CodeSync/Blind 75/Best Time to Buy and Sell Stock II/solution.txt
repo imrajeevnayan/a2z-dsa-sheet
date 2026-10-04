@@ -1,0 +1,28 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Best Time to Buy and Sell Stock II
+ * URL: https://www.naukri.com/code360/problems/selling-stock_630282
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1539 ms
+ * Memory: N/A
+ * Synced: 2026-10-04T06:16:05.098Z
+ */
+
+public class Solution {
+    public static long getMaximumProfit(int n, long[] values) {
+        // Profit track karne ke liye variable
+        long profit = 0;
+        
+        // Index 1 se start karo kyunki hum current ko previous se compare karenge
+        for (int i = 1; i < n; i++) {
+            // Agar aaj ka price kal se zyada hai ? profit lo
+            if (values[i] > values[i - 1]) {
+                profit += values[i] - values[i - 1];
+            }
+        }
+        
+        return profit;
+    }
+}
