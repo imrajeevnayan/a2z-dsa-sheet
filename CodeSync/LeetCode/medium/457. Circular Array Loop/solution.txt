@@ -1,16 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 457. Circular Array Loop
- * URL: https://leetcode.com/problems/circular-array-loop/description/?envType=problem-list-v2&envId=array
- * Language: Text
+ * URL: https://leetcode.com/problems/circular-array-loop/?envType=problem-list-v2&envId=array
+ * Language: Array
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Floyd's Cycle Finding Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T06:25:16.540Z
+ * Synced: 2026-10-04T06:25:59.934Z
  */
 
-Input: nums = [2,-1,1,2,2]
-Output: true
-Explanation: The graph shows how the indices are connected. White nodes are jumping forward, while red is jumping backward.
-We can see the cycle 0 --> 2 --> 3 --> 0 --> ..., and all of its nodes are white (jumping in the same direction).
+int next = ((curr + nums[curr]) % n + n) % n;
+        
+        // Self-loop check: cycle length must be > 1
+        if (next == curr) return -1;
+        
+        return next;
+    }
+    
+    // Path ke saare nodes ko 0 mark karo (visited)
+    private void markVisited(int[] nums, int start, int n, boolean isPositive) {
+        int curr = start;
+        while (curr != -1 && nums[curr] != 0) {
+            // Direction mismatch pe ruk jaao
+            if ((nums[curr] > 0) != isPositive) break;
+            
+            int next = ((curr + nums[curr]) % n + n) % n;
+            nums[curr] = 0; // Mark as visited
+            
+            // Self-loop pe bhi mark karo aur ruko
+            if (next == curr) break;
+            curr = next;
+        }
+    }
+}
