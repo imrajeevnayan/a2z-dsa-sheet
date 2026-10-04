@@ -7,14 +7,12 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T03:30:15.667Z
+ * Synced: 2026-10-04T03:30:30.739Z
  */
 
-int left = 0;
-ans = 0;
+int left = 0, ans = 0;
 
         for (int right = 0; right < s.length(); right++) {
-
             count[s.charAt(right) - 'a']++;
 
             // Current window contains a, b and c
@@ -25,13 +23,12 @@ ans = 0;
                 count[s.charAt(left) - 'a']--;
                 left++;
             }
-
             // Number of valid substrings ending at right
             ans += left;
         }
-
         return ans;
-
 class Solution {
     public int numberOfSubstrings(String s) {
         int[] count = new int[3];
+    }
+}
