@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple Solution
+ * URL: https://www.geeksforgeeks.org/problems/delete-nodes-greater-than-k/1
+ * Language: Node* deleteNode(Node* root, int k) { // Your code here if(!root) return root; if(k > root->data){ root->right = deleteNode(root->right,k); return root; } return deleteNode(root->left,k); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Binary Search Tree, Tree, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T06:33:35.451Z
+ */
+
+class Solution {
+    public Node deleteNode(Node root, int k) {
+        if (root == null) return null;
+
+        // Agar current node >= k hai (NOT just >)
+        // Ye node + poora right subtree delete hoga
+        // Sirf left subtree mein valid nodes ho sakte hain
+        if (root.data >= k) {
+            return deleteNode(root.left, k);
+        }
+
+        // Current node < k → safe hai
+        // Right subtree mein kuch nodes >= k ho sakte hain → prune karo
+        root.right = deleteNode(root.right, k);
+
+        return root;
+    }
+}
