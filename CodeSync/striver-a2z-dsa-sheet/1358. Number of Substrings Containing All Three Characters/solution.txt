@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1358. Number of Substrings Containing All Three Characters
+ * URL: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/?envType=daily-question&envId=2025-03-11
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-04T03:27:53.598Z
+ */
+
+class Solution {
+    public int numberOfSubstrings(String s) {
+        
+    }
+}
