@@ -129,3 +129,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 90 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | LeetCode | Medium | 04 Oct 2026 | 10:57 am |
 | 91 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | LeetCode | Medium | 04 Oct 2026 | 11:56 am |
 | 92 | [Merge Two BSTs](https://www.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 11:58 am |
+| 93 | [Delete Nodes Greater than K](https://www.geeksforgeeks.org/problems/delete-nodes-greater-than-k/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 12:03 pm |

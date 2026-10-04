@@ -1,12 +1,12 @@
 {
-  "totalSolved": 90,
+  "totalSolved": 91,
   "currentStreak": 9,
   "maxStreak": 9,
   "lastSyncDate": "2026-10-04",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 30,
-    "medium": 51,
+    "medium": 52,
     "hard": 3,
     "basic": 6
   },
@@ -100,7 +100,8 @@
     "LeetCode_Kth_Smallest_Element_in_a_Sorted_Matrix": true,
     "LeetCode_4Sum_II": true,
     "LeetCode_Circular_Array_Loop": true,
-    "GeeksForGeeks_Merge_Two_BSTs": true
+    "GeeksForGeeks_Merge_Two_BSTs": true,
+    "GeeksForGeeks_Delete_Nodes_Greater_than_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -111,7 +112,7 @@
     "2026-10-01": 12,
     "2026-10-02": 17,
     "2026-10-03": 15,
-    "2026-10-04": 8
+    "2026-10-04": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -202,6 +203,7 @@
     "Kth Smallest Element in a Sorted Matrix",
     "4Sum II",
     "Circular Array Loop",
-    "Merge Two BSTs"
+    "Merge Two BSTs",
+    "Delete Nodes Greater than K"
   ]
 }
