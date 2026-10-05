@@ -6,28 +6,8 @@
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-05T16:07:06.046Z
+ * Memory: 42.92 MB
+ * Synced: 2026-10-05T16:08:39.618Z
  */
 
 class Solution {
-    public int scoreOfParentheses(String s) {
-        int score = 0;
-        int depth = 0;
-        
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(') {
-                depth++;
-            } else {
-                depth--;
-                // Jab "()" pair close ho → 2^depth add karo
-                // Ye tabhi hota hai jab pichla char '(' tha
-                if (s.charAt(i - 1) == '(') {
-                    score += (1 << depth); // 2^depth
-                }
-            }
-        }
-        
-        return score;
-    }
-}
