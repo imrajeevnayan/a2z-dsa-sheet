@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Diagonal Traversal
+ * URL: https://www.naukri.com/code360/problems/diagonal-traversal_893029
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Stacks & Queues Clear all, Stacks & Queues
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:57:37.627Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+/*************************************************************
+      Following is the Binary Tree node structure.
+      
+      class BinaryTreeNode<T> {
+          T data;
+          BinaryTreeNode<T> left;
+          BinaryTreeNode<T> right;
+ 
+          BinaryTreeNode(T data) {
+              this.data = data;
+              left = null;
+              right = null;
+          }
+      };
+*************************************************************/
+ 
+public class Solution {
+    public static ArrayList<Integer> diagonalPath(BinaryTreeNode<Integer> root) {
+        // Write your code here.
+    }
+}
