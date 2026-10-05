@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 856. Score of Parentheses
+ * URL: https://leetcode.com/problems/score-of-parentheses/description/?envType=daily-question&envId=2026-10-05
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:03:44.800Z
+ */
+
+Input: s = "()"
+Output: 1
