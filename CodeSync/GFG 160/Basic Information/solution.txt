@@ -7,7 +7,7 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:57:27.268Z
+ * Synced: 2026-10-05T17:58:00.204Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
@@ -120,7 +120,6 @@ for (int r = 0; r < n; r++) {
 
 }
 
-
 📋 Problems:
 
 👉 Longest Substring Without Repeating (LC 3) ⭐
@@ -154,24 +153,6 @@ https://leetcode.com/problems/subarray-product-less-than-k/
 🔴 3. SHORTEST VALID WINDOW
 
 💡 Pattern: Expand right → Valid → Min → Shrink left
-
-
-for (int r = 0; r < n; r++) {
-
-    add(arr[r]);
-
-    while (valid()) {
-
-        ans = min(ans, r - l + 1);
-
-        remove(arr[l]);
-
-        l++;
-
-    }
-
-}
-
 
 📋 Problems:
 
@@ -313,9 +294,6 @@ Frequency   → HashMap / Array
 👉 "Max/Min in every window" → Monotonic Deque
 
 👉 "Negative + exact sum" → Prefix Sum + HashMap
-
-
-🎯 PREPARA
 
 Sliding Window ek baar samajh aa gaya → 30+ problems easily solve. 💪
 
