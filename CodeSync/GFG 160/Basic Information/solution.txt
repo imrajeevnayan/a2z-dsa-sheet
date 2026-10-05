@@ -7,7 +7,7 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:57:23.402Z
+ * Synced: 2026-10-05T17:57:27.268Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
@@ -315,10 +315,7 @@ Frequency   → HashMap / Array
 👉 "Negative + exact sum" → Prefix Sum + HashMap
 
 
-🎯 PREPARATION ORDER
-
-
-🟢 Fixed Size Basi
+🎯 PREPARA
 
 Sliding Window ek baar samajh aa gaya → 30+ problems easily solve. 💪
 
