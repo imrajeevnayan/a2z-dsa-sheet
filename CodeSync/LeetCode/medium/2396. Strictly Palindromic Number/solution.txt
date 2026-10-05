@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2396. Strictly Palindromic Number
+ * URL: https://leetcode.com/problems/strictly-palindromic-number/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Two Pointers, Brainteaser
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:25:02.201Z
+ */
+
+class Solution {
+    public int numberOfMatches(int n) {
+        return n-1;
+    }
+}
