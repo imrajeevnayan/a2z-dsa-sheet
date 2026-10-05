@@ -7,7 +7,7 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:58:39.620Z
+ * Synced: 2026-10-05T17:58:41.270Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
@@ -33,9 +33,6 @@ Jab bhi problem mein ye keywords hon:
 
 
 💡 Pattern: Add right → Size==K → Answer → Remove left
-
-
-for (in
 
 
 📋 Problems:
