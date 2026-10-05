@@ -132,3 +132,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 93 | [Delete Nodes Greater than K](https://www.geeksforgeeks.org/problems/delete-nodes-greater-than-k/1) | GeeksForGeeks | Medium | 04 Oct 2026 | 12:03 pm |
 | 94 | [Kth from End of Linked List](https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) | GeeksForGeeks | Easy | 04 Oct 2026 | 07:20 pm |
 | 95 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | LeetCode | Medium | 05 Oct 2026 | 09:34 pm |
+| 96 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) | LeetCode | Easy | 05 Oct 2026 | 09:47 pm |
