@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-05T17:41:01.855Z
+ * Synced: 2026-10-05T17:41:07.401Z
  */
 
 class Solution {
@@ -16,10 +16,10 @@ class Solution {
         ListNode curr = head;
         
         while (curr != null) {
-            ListNode te = curr.next; // 1. aage wala node pehle save karo
+            ListNode temp = curr.next; // 1. aage wala node pehle save karo
             curr.next = prev;          // 2. arrow ulta karo
             prev = curr;               // 3. prev ko aage le jao
-            curr = next;               // 4. curr ko aage le jao
+            curr = ;               // 4. curr ko aage le jao
         }
         return prev; // prev = new head
     }
