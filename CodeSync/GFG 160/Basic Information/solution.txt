@@ -7,12 +7,13 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:56:43.893Z
+ * Synced: 2026-10-05T17:57:17.960Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
 
 Random questions solve karne ke bajay patterns ko master karo. 👇
+
 
 Jab bhi problem mein ye keywords hon:
 
@@ -26,12 +27,7 @@ Jab bhi problem mein ye keywords hon:
 
 🔹 At most K / Exactly K
 
-
-Ask: "Can I represent answer as one continuous window [l...r]?"
-
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 
 🟢 1. FIXED SIZE WINDOW (Size = K given)
 
@@ -156,7 +152,6 @@ https://leetcode.com/problems/subarray-product-less-than-k/
 
 
 🔴 3. SHORTEST VALID WINDOW
-
 
 💡 Pattern: Expand right → Valid → Min → Shrink left
 
@@ -331,7 +326,7 @@ Frequency   → HashMap / Array
 
 🔥 Exactly K Trick
 
-⚫ Advanced (Deque + BS + DP)
+⚫ Advanced (Deque + BS + DP
 
 Sliding Window ek baar samajh aa gaya → 30+ problems easily solve. 💪
 
