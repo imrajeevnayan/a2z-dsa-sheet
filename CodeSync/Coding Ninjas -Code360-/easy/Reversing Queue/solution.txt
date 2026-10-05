@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reversing Queue
+ * URL: https://www.naukri.com/code360/problems/reversing-queue_1170046
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:56:43.337Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.Queue;
+ 
+public class Solution {
+    public static void reverse(Queue < Integer > q) {
+        // Write your code here.
+    }
+}
