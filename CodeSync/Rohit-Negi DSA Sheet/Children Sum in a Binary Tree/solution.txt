@@ -7,26 +7,23 @@
  * Topics: Expected Complexities, Company Tags Intuit, Company Tags, Intuit, Topic Tags, Tree, Related Articles, Check For Children Sum Property In A Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:47:29.212Z
+ * Synced: 2026-10-05T17:48:34.797Z
  */
 
 class Solution {
     public boolean isSumProperty(Node root) {
-        // Base case: null node ya leaf node → always valid
+        // Base case: null ya leaf node → always valid
         if (root == null || (root.left == null && root.right == null)) {
             return true;
         }
 
         // Left aur right child ka sum nikalo
-        int leftData = (root.left != null) ? root.left.data : 0;
-        int rightData = (root.right != null) ? root.right.data : 0;
+        int leftVal = (root.left != null) ? root.left.data : 0;
+        int rightVal = (root.right != null) ? root.right.data : 0;
 
-        // Current node check: data == children sum?
-        if (root.data != leftData + rightData) {
-            return false;
-        }
-
-        // Recursively dono subtrees bhi check karo
-        return isSumProperty(root.left) && isSumProperty(root.right);
+        // Current node check + dono subtrees recursively check
+        return (root.data == leftVal + rightVal)
+            && isSumProperty(root.left)
+            && isSumProperty(root.right);
     }
 }
