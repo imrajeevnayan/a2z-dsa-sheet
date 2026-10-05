@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Implement Deque
+ * URL: https://www.naukri.com/code360/problems/deque_1170059
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Stacks & Queues Clear all, Stacks & Queues
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:59:34.064Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Deque 
+{
+    // Initialize your data structure.
+    public Deque(int n) 
+    {
+        // Write your code here.
+    }
+ 
+    // Pushes 'X' in the front of the deque. Returns true if it gets pushed into the deque, and false otherwise.
+    public boolean pushFront(int x) 
+    {
+        // Write your code here.
+    }
+ 
+    // Pushes 'X' in the back of the deque. Returns true if it gets pushed into the deque, and false otherwise.
+    public boolean pushRear(int x) 
+    {
+        // Write your code here.
+    }
+ 
+    // Pops an element from the front of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
+    public int popFront() 
+    {
+        // Write your code here.
+    }
+ 
+    // Pops an element from the back of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
+    public int popRear() 
+    {
+        // Write your code here.
+    }
+ 
+    // Returns the first element of the deque. If the deque is empty, it returns -1.
+    public int getFront() 
+    {
+        // Write your code here.
+    }
