@@ -2,13 +2,25 @@
  * Platform: LeetCode
  * Problem: 206. Reverse Linked List
  * URL: https://leetcode.com/problems/reverse-linked-list/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:40:27.619Z
+ * Synced: 2026-10-05T17:40:29.606Z
  */
 
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        
+        while (curr != null) {
+            ListNode next = curr.next; // 1. aage wala node pehle save karo
+            curr.next = prev;          // 2. arrow ulta karo
+            prev = curr;               // 3. prev ko aage le jao
+            curr = next;               // 4. curr ko aage le jao
+        }
+        return prev; // prev = new head
+    }
+}
