@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 206. Reverse Linked List
+ * URL: https://leetcode.com/problems/reverse-linked-list/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Linked List, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T17:40:27.619Z
+ */
+
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
