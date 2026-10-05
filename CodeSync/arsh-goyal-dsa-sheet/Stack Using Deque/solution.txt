@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Stack Using Deque
+ * URL: https://www.naukri.com/code360/problems/stack-using-deque_1170512
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:59:13.495Z
+ */
+
+q = new LinkedList<>();
+    }
+ 
+    // Push: x ko front pe laao taaki pop/top O(1) ho
+    public boolean push(int x) {
+        q.add(x);
+        
+        // Pichle saare elements ko peeche ghuma do
+        // Taaki naya element front pe aa jaye
+        int size = q.size();
+        for (int i = 0; i < size - 1; i++) {
+            q.add(q.poll());
+        }
+        
+        return true;
+    }
+ 
+    // Pop: front se nikalo (kyunki top element front pe hai)
+    public int pop() {
+        if (q.isEmpty()) return -1;
+        return q.poll();
+    }
+ 
+    // Top: front dekho
+    public int top() {
+        if (q.isEmpty()) return -1;
+        return q.peek();
+    }
+ 
+    // Empty check
+    public boolean isEmpty() {
+        return q.isEmpty();
+import java.util.*;
+ 
+public class Stack {
+    private Queue<Integer> q;
+ 
+    // Initialize your data structure
+    Stack() {
