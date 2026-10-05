@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1688. Count of Matches in Tournament
- * URL: https://leetcode.com/problems/count-of-matches-in-tournament/description/
+ * URL: https://leetcode.com/problems/count-of-matches-in-tournament/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T16:17:07.498Z
+ * Synced: 2026-10-05T16:17:16.536Z
  */
 
 class Solution {
     public int numberOfMatches(int n) {
-        
+        return n-2
     }
 }
