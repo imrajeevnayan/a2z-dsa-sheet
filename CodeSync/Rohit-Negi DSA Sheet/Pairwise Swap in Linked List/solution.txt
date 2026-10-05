@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pairwise Swap in Linked List
+ * URL: https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Moonfrog LabsAmazonMicrosoftIntuit, Company Tags, Moonfrog Labs, Amazon, Microsoft, Intuit, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T17:49:50.767Z
+ */
+
+class Solution {
+    public Node pairwiseSwap(Node head) {
+        // Edge case: empty ya single node → no swap needed
+        if (head == null || head.next == null) return head;
+
+        // Dummy node taaki head swap bhi easily handle ho
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        Node prev = dummy;
+
+        // Jab tak pair available hai
+        while (prev.next != null && prev.next.next != null) {
+            Node first = prev.next;       // Pehla node of pair
+            Node second = prev.next.next; // Dusra node of pair
+
+            // Swap: prev→second→first→(next pair)
+            prev.next = second;
+            first.next = second.next;
+            second.next = first;
+
+            // Prev ko agle pair ke pehle node pe move karo
+            prev = first;
+        }
+
+        return dummy.next;
+    }
+}
