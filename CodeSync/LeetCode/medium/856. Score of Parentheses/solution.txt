@@ -1,27 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 856. Score of Parentheses
- * URL: https://leetcode.com/problems/score-of-parentheses/description/?envType=daily-question&envId=2026-10-05
+ * URL: https://leetcode.com/problems/score-of-parentheses/?envType=daily-question&envId=2026-10-05
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-05T16:03:47.603Z
+ * Synced: 2026-10-05T16:07:06.046Z
  */
 
 class Solution {
     public int scoreOfParentheses(String s) {
-        Deque<Integer> st = new ArrayDeque<>();
-        st.push(0);
-        for (char c : s.toCharArray()) {
-            if (c == '(') st.push(0);
-            else {
-                int v = st.pop();
-                int w = st.pop();
-                st.push(w + Math.max(2 * v, 1));
+        int score = 0;
+        int depth = 0;
+        
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                depth++;
+            } else {
+                depth--;
+                // Jab "()" pair close ho → 2^depth add karo
+                // Ye tabhi hota hai jab pichla char '(' tha
+                if (s.charAt(i - 1) == '(') {
+                    score += (1 << depth); // 2^depth
+                }
             }
         }
-        return st.pop();
+        
+        return score;
     }
 }
