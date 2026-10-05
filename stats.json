@@ -1,12 +1,12 @@
 {
-  "totalSolved": 99,
+  "totalSolved": 100,
   "currentStreak": 10,
   "maxStreak": 10,
   "lastSyncDate": "2026-10-05",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 36,
-    "medium": 54,
+    "medium": 55,
     "hard": 3,
     "basic": 6
   },
@@ -109,7 +109,8 @@
     "GeeksForGeeks_Pairwise_Swap_in_Linked_List": true,
     "LeetCode_Reverse_Linked_List": true,
     "GeeksForGeeks_Reverse_a_Linked_List": true,
-    "GeeksForGeeks_Zig-Zag_Tree_Traversal": true
+    "GeeksForGeeks_Zig-Zag_Tree_Traversal": true,
+    "GeeksForGeeks_Children_Sum_in_a_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -121,7 +122,7 @@
     "2026-10-02": 17,
     "2026-10-03": 15,
     "2026-10-04": 10,
-    "2026-10-05": 7
+    "2026-10-05": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -221,6 +222,7 @@
     "Pairwise Swap in Linked List",
     "Reverse Linked List",
     "Reverse a Linked List",
-    "Zig-Zag Tree Traversal"
+    "Zig-Zag Tree Traversal",
+    "Children Sum in a Binary Tree"
   ]
 }
