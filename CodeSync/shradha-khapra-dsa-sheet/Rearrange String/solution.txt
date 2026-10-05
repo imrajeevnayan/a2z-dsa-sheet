@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Rearrange String
+ * URL: https://www.naukri.com/code360/problems/rearrange-string_985247
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:50:37.584Z
+ */
+
+// Step 2: Max Heap banao (most frequent pehle)
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[0] - a[0]);
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > 0) {
+                pq.offer(new int[]{freq[i], i});
+            }
+        }
+        
+        // Impossible check: agar max frequency > (n+1)/2 hai
+        if (!pq.isEmpty() && pq.peek()[0] > (n + 1) / 2) {
+            return "NO SOLUTION";
+        }
+        
+        // Step 3: Greedily 2-2 characters pick karo
+        StringBuilder sb = new StringBuilder();
+        
+        while (pq.size() >= 2) {
+            int[] first = pq.poll();
+            int[] second = pq.poll();
+            
+            sb.append((char) (first[1] + 'a'));
+            sb.append((char) (second[1] + 'a'));
+            
+            first[0]--;
+            second[0]--;
+            if (first[0] > 0) pq.offer(first);
+            if (second[0] > 0) pq.offer(second);
+        }
+        
+        // Step 4: Agar ek character bacha hai
+        if (!pq.isEmpty()) {
+            int[] last = pq.poll();
+            if (last[0] > 1) return "NO SOLUTION";
+            sb.append((char) (last[1] + 'a'));
+        }
+        
+        return sb.toString();
+    }
+}
