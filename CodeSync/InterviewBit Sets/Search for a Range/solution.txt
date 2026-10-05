@@ -1,0 +1,14 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Search for a Range
+ * URL: https://www.interviewbit.com/problems/search-for-a-range/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 42.5%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T16:28:47.705Z
+ */
+
+A = [5, 7, 7, 8, 8, 10]
+ B = 8
