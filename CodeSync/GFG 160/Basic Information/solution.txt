@@ -7,331 +7,344 @@
  * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:53:44.818Z
+ * Synced: 2026-10-05T17:56:05.752Z
  */
 
-Bilkul. Aapke  GeeksforGeeks profile ke Posts section  ke liye main ek **clean, impressive aur pattern-wise Sliding Window post** bana deta hoon—aisa ki reader ko sirf questions ki list nahi, **pattern samajh aaye aur revision sheet jaisi feel ho**.
+🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
 
 
- GFG ke according Sliding Window ko broadly **Fixed Size** aur **Variable Size** patterns mein divide kiya ja sakta hai.  GeeksforGeeks+1
+Sliding Window DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
 
 
- ### 🚀 SLIDING WINDOW — Master Pattern Before Your Next DSA Interview
+🧠 KAB USE KAREIN?
 
+Jab bhi problem mein ye keywords hon:
 
- **If you are solving Subarray / Substring problems, STOP memorizing questions.\
+🔹 Subarray / Substring
 
- Start recognizing the pattern. 👇**
+🔹 Contiguous / Consecutive
 
+🔹 Longest / Shortest
 
- Sliding Window is one of the most useful patterns for converting many **O(N²)** brute-force solutions into **O(N)** solutions.  GeeksforGeeks
+🔹 Maximum / Minimum in window
 
+🔹 At most K / Exactly K
 
----
 
+Ask: "Can I represent answer as one continuous window [l...r]?"
 
- ## 🟢 PATTERN 1 — FIXED SIZE WINDOW
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- 👉 Window size **K is fixed**
 
+🟢 1. FIXED SIZE WINDOW (Size = K given)
 
- ### 🔹 Basic
 
+💡 Pattern: Add right → Size==K → Answer → Remove left
 
- 1. Maximum Sum Subarray of Size K
 
-2. Maximum Average Subarray
+for (int r = 0; r < n; r++) {
 
-3. Maximum XOR of K Consecutive Elements
+    add(arr[r]);
 
+    if (r - l + 1 == k) {
 
- ### 🔹 Frequency / Counting
+        updateAnswer();
 
+        remove(arr[l]);
 
- 4. Count Distinct Elements in Every Window of Size K
+        l++;
 
-5. First Negative Integer in Every Window of Size K
+    }
 
-6. Count Occurrences of Anagrams
+}
 
-7. Find All Anagrams in a String
 
+📋 Problems:
 
- ### 🔹 Maximum / Minimum
+👉 Maximum Sum Subarray of Size K
 
+https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
 
- 8. Sliding Window Maximum
+👉 First Negative in Every Window of Size K
 
-9. Sliding Window Minimum
+https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
 
-10. Sum of Minimum and Maximum Elements of Every Window
+👉 Count Distinct Elements in Every Window
 
-11. Maximum MEX of All Subarrays of Size K
+https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
 
+👉 Sliding Window Maximum (LC 239) ⭐
 
- These are the **foundation problems**. Master the basic `add → remove → update` movement first.  GeeksforGeeks+1
+https://leetcode.com/problems/sliding-window-maximum/
 
+👉 Maximum Average Subarray I (LC 643)
 
----
+https://leetcode.com/problems/maximum-average-subarray-i/
 
+👉 Find All Anagrams in a String (LC 438)
 
- ## 🟡 PATTERN 2 — VARIABLE SIZE — LONGEST WINDOW
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
+👉 Permutation in String (LC 567)
 
- 👉 Expand `right`\
+https://leetcode.com/problems/permutation-in-string/
 
- 👉 Condition break ho → move `left`\
+👉 Max Points From Cards (LC 1423)
 
- 👉 Maintain the **maximum valid window**
+https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 
+👉 Max Vowels in Substring (LC 1456)
 
- ### 🔹 Must Do
+https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 
+👉 Subarrays with Avg ≥ Threshold (LC 1343)
 
- 12. Longest Substring Without Repeating Characters
+https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
 
-13. Longest Substring with K Distinct Characters
 
-14. Longest Substring with At Most K Distinct Characters
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-15. Fruit Into Baskets
 
-16. Max Consecutive Ones III
+🟡 2. LONGEST VALID WINDOW (Variable Size)
 
-17. Longest Repeating Character Replacement
 
-18. Longest Subarray with At Most K Distinct Elements
+💡 Pattern: Expand right → Invalid → Shrink left → Max
 
-19. Longest Subarray with Sum ≤ K
 
+for (int r = 0; r < n; r++) {
 
- This pattern is essentially:
+    add(arr[r]);
 
+    while (invalid()) {
 
- **Expand → Check → Shrink → Update Answer** 🔥
+        remove(arr[l]);
 
+        l++;
 
----
+    }
 
+    ans = max(ans, r - l + 1);
 
- ## 🟠 PATTERN 3 — VARIABLE SIZE — SHORTEST / MINIMUM WINDOW
+}
 
 
- 👉 Expand until condition becomes valid\
+📋 Problems:
 
- 👉 Then shrink aggressively\
+👉 Longest Substring Without Repeating (LC 3) ⭐
 
- 👉 Store the **minimum valid window**
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+👉 Fruit Into Baskets (LC 904)
 
- ### 🔹 Must Do
+https://leetcode.com/problems/fruit-into-baskets/
 
+👉 Longest K Unique Chars Substring
 
- 20. Minimum Size Subarray Sum
+https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
 
-21. Smallest Subarray with Sum Greater Than X
+👉 Max Consecutive Ones III (LC 1004)
 
-22. Minimum Window Substring
+https://leetcode.com/problems/max-consecutive-ones-iii/
 
-23. Minimum Window Subsequence
+👉 Longest Repeating Char Replacement (LC 424)
 
-24. Smallest Window Containing 0, 1 and 2
+https://leetcode.com/problems/longest-repeating-character-replacement/
 
-25. Minimum Removals for Target Sum
+👉 Subarray Product Less Than K (LC 713)
 
+https://leetcode.com/problems/subarray-product-less-than-k/
 
- **Golden Rule:**
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- > For LONGEST → shrink when invalid\
 
->  For SHORTEST → shrink while valid
+🔴 3. SHORTEST VALID WINDOW
 
 
----
+💡 Pattern: Expand right → Valid → Min → Shrink left
 
 
- ## 🔵 PATTERN 4 — FREQUENCY / HASHMAP WINDOW
+for (int r = 0; r < n; r++) {
 
+    add(arr[r]);
 
- When the question talks about:
+    while (valid()) {
 
+        ans = min(ans, r - l + 1);
 
- **Characters + Frequency + Distinct + Anagram + Pattern**
+        remove(arr[l]);
 
+        l++;
 
- Think:
+    }
 
+}
 
- `Sliding Window + HashMap/Frequency Array`
 
+📋 Problems:
 
- ### Practice:
+👉 Minimum Size Subarray Sum (LC 209)
 
+https://leetcode.com/problems/minimum-size-subarray-sum/
 
- 26. Permutation in String
+👉 Minimum Window Substring (LC 76) ⭐
 
-27. Find All Anagrams in a String
+https://leetcode.com/problems/minimum-window-substring/
 
-28. Longest Substring Without Repeating Characters
+👉 Smallest Distinct Window
 
-29. Longest Substring with K Distinct Characters
+https://www.geeksforgeeks.org/problems/smallest-distant-window3132/1
 
-30. Count Substrings with Exactly K Distinct Characters
+👉 Min Consecutive Cards to Pick Up (LC 2260)
 
-31. Minimum Window Substring
+https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/
 
-32. Substring with Concatenation of All Words
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
----
 
+🔥 4. GOLDEN TRICKS
 
- ## 🔴 PATTERN 5 — “AT MOST K” → “EXACTLY K”
 
+💡 Exactly K = AtMost(K) - AtMost(K-1)
 
- One of the **most important interview tricks**:
+Example: Exactly 3 distinct = AtMost(3) - AtMost(2)
 
 
- ### `Exactly(K) = AtMost(K) - AtMost(K-1)`
+📋 Problems:
 
+👉 Subarrays with K Different Integers (LC 992)
 
- Use this for:
+https://leetcode.com/problems/subarrays-with-k-different-integers/
 
+👉 Binary Subarrays With Sum (LC 930)
 
- 33. Subarrays with K Different Integers
+https://leetcode.com/problems/binary-subarrays-with-sum/
 
-34. Subarrays with Exactly K Distinct Elements
+👉 Number of Nice Subarrays (LC 1248)
 
-35. Binary Subarrays With Sum
+https://leetcode.com/problems/count-number-of-nice-subarrays/
 
-36. Count Number of Nice Subarrays
 
-37. Substrings with Exactly K Distinct Characters
+💡 Counting Windows:
 
+Agar window [l...r] valid hai → ans += (r - l + 1)
 
- 🔥 Once you understand this transformation, many “exactly K” problems become much easier.
 
+💡 Negative numbers + exact sum?
 
----
+→ Prefix Sum + HashMap (normal sliding window breaks)
 
 
- ## 🟣 PATTERN 6 — SLIDING WINDOW + DEQUE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
- When you need **Maximum / Minimum of every window**:
+⚫ 5. ADVANCED PATTERNS
 
 
- 38. Sliding Window Maximum
+🔹 Sliding Window + Monotonic Deque
 
-39. Sliding Window Minimum
+   → Sliding Window Maximum / Minimum
 
-40. Max of Minimum for Every Window Size
+🔹 Sliding Window + Binary Search
 
-41. First Negative Integer in Every Window
+   → Max subarray size with condition
 
+🔹 Sliding Window + DP
 
- Core idea:
+   → Partition problems
 
+🔹 Sliding Window on Gaps/Groups
 
- **Monotonic Deque → O(N)**
+   → Meeting scheduling problems
 
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
- # 🧠 QUICK REVISION CHEAT SHEET
+🏆 TOP 10 MUST-DO (Interview Favourite)
 
 
- | Question says... | Think... |
+1️⃣ Max Sum Subarray of Size K
 
-| --- | --- |
+2️⃣ First Negative in Every Window
 
-| Size K | Fixed Window |
+3️⃣ Sliding Window Maximum ⭐
 
-| Maximum Sum | Fixed / Variable Window |
+4️⃣ Longest Substring Without Repeating ⭐
 
-| Longest + condition | Expand + Shrink |
+5️⃣ Minimum Window Substring ⭐
 
-| Shortest / Minimum | Shrink while valid |
+6️⃣ Fruit Into Baskets
 
-| K Distinct | HashMap + Window |
+7️⃣ Longest Repeating Char Replacement
 
-| Anagram / Permutation | Frequency + Fixed Window |
+8️⃣ Find All Anagrams
 
-| Exactly K | AtMost(K) − AtMost(K−1) |
+9️⃣ Permutation in String
 
-| Max/Min in every window | Monotonic Deque |
+🔟 Max Consecutive Ones III
 
-| String + frequency | Sliding Window + HashMap |
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
----
 
+🧠 FINAL CHEAT SHEET
 
- ### 🎯 Recommended Practice Order
 
+Fixed K     → Add → Answer → Remove
 
- **Beginner → Intermediate → Advanced**
+Longest     → Expand → Invalid → Shrink → Max
 
+Shortest    → Expand → Valid → Min → Shrink
 
- `Maximum Sum K`\
+Count       → Valid → ans += window length
 
- ↓\
+Exactly K   → AtMost(K) - AtMost(K-1)
 
- `First Negative in Window`\
+Max/Min     → Monotonic Deque
 
- ↓\
+Frequency   → HashMap / Array
 
- `Distinct Elements in Window`\
 
- ↓\
+🧠 INTERVIEW MEIN KAISE IDENTIFY KAREIN?
 
- `Longest Substring Without Repeating`\
 
- ↓\
+👉 "Subarray of size K" → Fixed Window
 
- `Fruit Into Baskets`\
+👉 "Longest without..." → Variable (Longest)
 
- ↓\
+👉 "Minimum/Shortest..." → Variable (Shortest)
 
- `Longest Repeating Character Replacement`\
+👉 "At most K / Exactly K" → Frequency Map
 
- ↓\
+👉 "Max/Min in every window" → Monotonic Deque
 
- `Minimum Size Subarray Sum`\
+👉 "Negative + exact sum" → Prefix Sum + HashMap
 
- ↓\
 
- `Permutation in String`\
+🎯 PREPARATION ORDER
 
- ↓\
 
- `Find All Anagrams`\
+🟢 Fixed Size Basics
 
- ↓\
+🟡 Longest Valid Window
 
- `Subarrays with K Different Integers`\
+🔴 Shortest Valid Window
 
- ↓\
+🔥 Exactly K Trick
 
- `Sliding Window Maximum`\
+⚫ Advanced (Deque + BS + DP)
 
- ↓\
 
- `Minimum Window Substring` 🔥
+🔥 MASTER THE PATTERN, NOT THE PROBLEM!
 
 
- **Master these patterns → and you’ll stop seeing 40 different questions.\
+Sliding Window ek baar samajh aa gaya → 30+ problems easily solve. 💪
 
- You’ll start seeing 5–6 reusable patterns. 🧠💻**
 
+🔖 SAVE | 💻 PRACTICE | 🧠 REVISE | 🚀 SHARE
 
- **Save this post 📌 | Practice → Code → Repeat 🔁**
 
-
- #DSA #SlidingWindow #DSAProblems #CodingInterview #Java #CPlusPlus #LeetCode #GeeksforGeeks #Coding #Programming #InterviewPreparation #DSARevision
-
-
-  GeeksforGeeks
+#DSA #SlidingWindow #CodingInterview #GeeksforGeeks #LeetCode #Java #PlacementPreparation #SDE #ProblemSolving #100DaysOfCode
