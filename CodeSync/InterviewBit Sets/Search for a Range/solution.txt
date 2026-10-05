@@ -7,25 +7,12 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 42.5%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T16:30:04.746Z
+ * Synced: 2026-10-05T16:33:57.533Z
  */
 
 hi = mid - 1;
             }
-            } else {
                 // Target left side mein hai
-                lo = mid + 1;
-                // Target right side mein hai
-            } else if (A[mid] < B) {
-                hi = mid - 1;
-                result = mid;
-            if (A[mid] == B) {
-                // Mil gaya! But ye pehla ho sakta hai ya nahi
-                // Isse store karo aur LEFT side dhundte raho
-            int mid = lo + (hi - lo) / 2;
-            
-        while (lo <= hi) {
-        
         }
         
         return result;
@@ -35,5 +22,18 @@ hi = mid - 1;
     private int findLast(int[] A, int B) {
         int lo = 0, hi = A.length - 1;
         int result = -1;
-        
+                lo = mid + 1;
+            } else {
+                // Target right side mein hai
+            } else if (A[mid] < B) {
+                hi = mid - 1;
+                result = mid;
+                // Isse store karo aur LEFT side dhundte raho
+                // Mil gaya! But ye pehla ho sakta hai ya nahi
+            if (A[mid] == B) {
+            
+            int mid = lo + (hi - lo) / 2;
         while (lo <= hi) {
+        
+        int result = -1;
+        int lo = 0, hi = A.length - 1;
