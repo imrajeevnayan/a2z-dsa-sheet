@@ -7,13 +7,13 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:56:34.494Z
+ * Synced: 2026-10-05T17:56:36.647Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
 
 
-Sliding Window DSA interview ki preparRandom questions solve karne ke bajay patterns ko master karo. 👇
+SlidiRandom questions solve karne ke bajay patterns ko master karo. 👇
 
 
 🧠 KAB USE KAREIN?
