@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 75 DAYS GFG POTD ARTICLE CHALLENGE CHALLENGE(DAY 44/75)
+ * URL: https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1
+ * Language: class Solution: def pairWiseSwap(self, head): if not head or not head.next: return head def swap_nodes(node1, node2): node1.next, node2.next = node2.next, node1 return node2, node1 new_head, prev_last = swap_nodes(head, head.next) while prev_last.next and prev_last.next.next: prev_last.next, prev_last = swap_nodes(prev_last.next, prev_last.next.next) return new_head
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Moonfrog LabsAmazonMicrosoftIntuit, Company Tags, Moonfrog Labs, Amazon, Microsoft, Intuit, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T17:39:47.707Z
+ */
+
+class Solution {
+    public Node pairwiseSwap(Node head) {
+        // Edge case: empty ya single node → no swap needed
+        if (head == null || head.next == null) return head;
+
+        // Dummy node taaki head swap bhi easily handle ho
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        Node prev = dummy;
+
+        // Jab tak pair available hai
+        while (prev.next != null && prev.next.next != null) {
+            Node first = prev.next;       // Pehla node of pair
+            Node second = prev.next.next; // Dusra node of pair
+
+            // Swap: prev→second→first→(next pair)
+            prev.next = second;
+            first.next = second.next;
+            second.next = first;
+
+            // Prev ko agle pair ke pehle node pe move karo
+            prev = first;
+        }
+
+        return dummy.next;
+    }
+}
