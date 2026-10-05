@@ -7,15 +7,23 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T16:56:43.337Z
+ * Synced: 2026-10-05T16:57:04.088Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.Queue;
+import java.util.*;
  
 public class Solution {
-    public static void reverse(Queue < Integer > q) {
-        // Write your code here.
+    public static void reverse(Queue<Integer> q) {
+        // Step 1: Queue ke saare elements stack mein daalo
+        Stack<Integer> stack = new Stack<>();
+        while (!q.isEmpty()) {
+            stack.push(q.poll());
+        }
+        
+        // Step 2: Stack se wapas queue mein daalo
+        // Stack LIFO hai toh order reverse ho jayega
+        while (!stack.isEmpty()) {
+            q.add(stack.pop());
+        }
     }
 }
