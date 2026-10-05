@@ -1,0 +1,51 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Zig-Zag Tree Traversal
+ * URL: https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1
+ * Language: from collections import deque class Solution: def zigZagTraversal(self, root): result, left_to_right, queue = [root.data], True, deque([root]) while queue: temp_queue, level_values = deque(), [] for node in queue: if node.left: temp_queue.append(node.left) level_values.append(node.left.data) if node.right: temp_queue.append(node.right) level_values.append(node.right.data) result.extend(level_values[::-1] if left_to_right else level_values) queue, left_to_right = temp_queue, not left_to_right return result
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, Snapdeal, FactSet, Hike
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T17:45:01.656Z
+ */
+
+class Solution {
+    ArrayList<Integer> zigZagTraversal(Node root) {
+        ArrayList<Integer> result = new ArrayList<>();
+
+        if (root == null) return result;
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        boolean leftToRight = true; // Direction flag
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            ArrayList<Integer> level = new ArrayList<>();
+
+            // Is level ke saare nodes process karo
+            for (int i = 0; i < size; i++) {
+                Node node = queue.poll();
+                level.add(node.data);
+
+                // Children add karo (always left then right)
+                if (node.left != null) queue.offer(node.left);
+                if (node.right != null) queue.offer(node.right);
+            }
+
+            // Agar right-to-left level hai → reverse karo
+            if (!leftToRight) {
+                Collections.reverse(level);
+            }
+
+            // Result mein add karo
+            result.addAll(level);
+
+            // Direction flip karo next level ke liye
+            leftToRight = !leftToRight;
+        }
+
+        return result;
+    }
+}
