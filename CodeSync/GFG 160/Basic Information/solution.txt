@@ -7,7 +7,7 @@
  * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:58:07.739Z
+ * Synced: 2026-10-05T17:58:33.620Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
@@ -37,19 +37,7 @@ Jab bhi problem mein ye keywords hon:
 
 for (int r = 0; r < n; r++) {
 
-    add(arr[r]);
-
-    if (r - l + 1 == k) {
-
-        updateAnswer();
-
-        remove(arr[l]);
-
-        l++;
-
-    }
-
-}
+    add(arr[r])
 
 
 📋 Problems:
@@ -94,9 +82,7 @@ https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-l
 
 https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
 
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 
 🟡 2. LONGEST VALID WINDOW (Variable Size)
 
