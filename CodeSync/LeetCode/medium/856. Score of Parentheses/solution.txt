@@ -2,13 +2,26 @@
  * Platform: LeetCode
  * Problem: 856. Score of Parentheses
  * URL: https://leetcode.com/problems/score-of-parentheses/description/?envType=daily-question&envId=2026-10-05
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T16:03:44.800Z
+ * Synced: 2026-10-05T16:03:47.603Z
  */
 
-Input: s = "()"
-Output: 1
+class Solution {
+    public int scoreOfParentheses(String s) {
+        Deque<Integer> st = new ArrayDeque<>();
+        st.push(0);
+        for (char c : s.toCharArray()) {
+            if (c == '(') st.push(0);
+            else {
+                int v = st.pop();
+                int w = st.pop();
+                st.push(w + Math.max(2 * v, 1));
+            }
+        }
+        return st.pop();
+    }
+}
