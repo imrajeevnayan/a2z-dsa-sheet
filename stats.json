@@ -1,11 +1,11 @@
 {
-  "totalSolved": 96,
+  "totalSolved": 97,
   "currentStreak": 10,
   "maxStreak": 10,
   "lastSyncDate": "2026-10-05",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
-    "easy": 34,
+    "easy": 35,
     "medium": 53,
     "hard": 3,
     "basic": 6
@@ -106,7 +106,8 @@
     "LeetCode_Score_of_Parentheses": true,
     "LeetCode_Count_of_Matches_in_Tournament": true,
     "GeeksForGeeks_Deletion_at_the_End_of_a_Linked_List": true,
-    "GeeksForGeeks_Pairwise_Swap_in_Linked_List": true
+    "GeeksForGeeks_Pairwise_Swap_in_Linked_List": true,
+    "LeetCode_Reverse_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -118,7 +119,7 @@
     "2026-10-02": 17,
     "2026-10-03": 15,
     "2026-10-04": 10,
-    "2026-10-05": 4
+    "2026-10-05": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -215,6 +216,7 @@
     "Score of Parentheses",
     "Count of Matches in Tournament",
     "Deletion at the End of a Linked List",
-    "Pairwise Swap in Linked List"
+    "Pairwise Swap in Linked List",
+    "Reverse Linked List"
   ]
 }
