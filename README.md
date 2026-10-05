@@ -137,3 +137,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 98 | [Pairwise Swap in Linked List](https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1) | GeeksForGeeks | Easy | 05 Oct 2026 | 11:09 pm |
 | 99 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | LeetCode | Easy | 05 Oct 2026 | 11:11 pm |
 | 100 | [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1) | GeeksForGeeks | Easy | 05 Oct 2026 | 11:12 pm |
+| 101 | [Zig-Zag Tree Traversal](https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1) | GeeksForGeeks | Medium | 05 Oct 2026 | 11:15 pm |
