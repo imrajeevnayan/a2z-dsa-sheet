@@ -4,65 +4,334 @@
  * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
  * Language: All Submissions
  * Difficulty: Medium
- * Topics: DSA, Java, SlidingWindow, LeetCode, ProblemSolving, 100DaysOfCode, LearningInPublic, GeeksForGeeks
+ * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-13T21:02:17.967Z
+ * Synced: 2026-10-05T17:53:44.818Z
  */
 
-🚀 Day 2 of Fixed Size Sliding Window
+Bilkul. Aapke  GeeksforGeeks profile ke Posts section  ke liye main ek **clean, impressive aur pattern-wise Sliding Window post** bana deta hoon—aisa ki reader ko sirf questions ki list nahi, **pattern samajh aaye aur revision sheet jaisi feel ho**.
 
 
-Aaj maine Fixed Size Sliding Window ke kuch important problems practice kiye.
+ GFG ke according Sliding Window ko broadly **Fixed Size** aur **Variable Size** patterns mein divide kiya ja sakta hai.  GeeksforGeeks+1
 
 
-Yeh rahe aaj ke questions:
+ ### 🚀 SLIDING WINDOW — Master Pattern Before Your Next DSA Interview
 
 
-1️⃣ Maximum Number of Vowels in a Substring of Given Length (LC 1456)  
+ **If you are solving Subarray / Substring problems, STOP memorizing questions.\
 
-→ Classic Fixed Size + Frequency (vowel counting)
-
-
-2️⃣ Longest Subarray with At Most Two Distinct Elements  
-
-→ Window maintain karke distinct count track kiya
+ Start recognizing the pattern. 👇**
 
 
-3️⃣ Count Distinct Elements in Every Window of Size K  
-
-→ HashMap + Sliding Window  
-
-(Rule: frequency 0 hone par map se remove karo)
+ Sliding Window is one of the most useful patterns for converting many **O(N²)** brute-force solutions into **O(N)** solutions.  GeeksforGeeks
 
 
-4️⃣ Count Occurrences of Anagrams  
-
-→ Frequency map of pattern + sliding window comparison
+---
 
 
-5️⃣ First Negative Integer in every window of size K  
-
-→ Queue use karke indices store kiye (values nahi)
+ ## 🟢 PATTERN 1 — FIXED SIZE WINDOW
 
 
-💡 Key Learnings from Day 2:
+ 👉 Window size **K is fixed**
 
 
-• Frequency map maintain karna bahut important hai  
-
-• Queue mein indices store karna better hota hai (window se bahar nikalne ke liye)  
-
-• Anagram problems mein pattern ka frequency map pehle bana lo, phir window compare karo  
-
-• Har problem mein yeh sawal poocho:  
-
-  “Is window ke andar mujhe kya track karna hai?”
+ ### 🔹 Basic
 
 
-📌 Day 2 ✅ Fixed Size Sliding Window (Practice)  
+ 1. Maximum Sum Subarray of Size K
 
-Next → More Fixed Size + Variable Size Sliding Window 🚀
+2. Maximum Average Subarray
+
+3. Maximum XOR of K Consecutive Elements
 
 
-#DSA #Java #SlidingWindow #LeetCode #ProblemSolving #100DaysOfCode #LearningInPublic
+ ### 🔹 Frequency / Counting
+
+
+ 4. Count Distinct Elements in Every Window of Size K
+
+5. First Negative Integer in Every Window of Size K
+
+6. Count Occurrences of Anagrams
+
+7. Find All Anagrams in a String
+
+
+ ### 🔹 Maximum / Minimum
+
+
+ 8. Sliding Window Maximum
+
+9. Sliding Window Minimum
+
+10. Sum of Minimum and Maximum Elements of Every Window
+
+11. Maximum MEX of All Subarrays of Size K
+
+
+ These are the **foundation problems**. Master the basic `add → remove → update` movement first.  GeeksforGeeks+1
+
+
+---
+
+
+ ## 🟡 PATTERN 2 — VARIABLE SIZE — LONGEST WINDOW
+
+
+ 👉 Expand `right`\
+
+ 👉 Condition break ho → move `left`\
+
+ 👉 Maintain the **maximum valid window**
+
+
+ ### 🔹 Must Do
+
+
+ 12. Longest Substring Without Repeating Characters
+
+13. Longest Substring with K Distinct Characters
+
+14. Longest Substring with At Most K Distinct Characters
+
+15. Fruit Into Baskets
+
+16. Max Consecutive Ones III
+
+17. Longest Repeating Character Replacement
+
+18. Longest Subarray with At Most K Distinct Elements
+
+19. Longest Subarray with Sum ≤ K
+
+
+ This pattern is essentially:
+
+
+ **Expand → Check → Shrink → Update Answer** 🔥
+
+
+---
+
+
+ ## 🟠 PATTERN 3 — VARIABLE SIZE — SHORTEST / MINIMUM WINDOW
+
+
+ 👉 Expand until condition becomes valid\
+
+ 👉 Then shrink aggressively\
+
+ 👉 Store the **minimum valid window**
+
+
+ ### 🔹 Must Do
+
+
+ 20. Minimum Size Subarray Sum
+
+21. Smallest Subarray with Sum Greater Than X
+
+22. Minimum Window Substring
+
+23. Minimum Window Subsequence
+
+24. Smallest Window Containing 0, 1 and 2
+
+25. Minimum Removals for Target Sum
+
+
+ **Golden Rule:**
+
+
+ > For LONGEST → shrink when invalid\
+
+>  For SHORTEST → shrink while valid
+
+
+---
+
+
+ ## 🔵 PATTERN 4 — FREQUENCY / HASHMAP WINDOW
+
+
+ When the question talks about:
+
+
+ **Characters + Frequency + Distinct + Anagram + Pattern**
+
+
+ Think:
+
+
+ `Sliding Window + HashMap/Frequency Array`
+
+
+ ### Practice:
+
+
+ 26. Permutation in String
+
+27. Find All Anagrams in a String
+
+28. Longest Substring Without Repeating Characters
+
+29. Longest Substring with K Distinct Characters
+
+30. Count Substrings with Exactly K Distinct Characters
+
+31. Minimum Window Substring
+
+32. Substring with Concatenation of All Words
+
+
+---
+
+
+ ## 🔴 PATTERN 5 — “AT MOST K” → “EXACTLY K”
+
+
+ One of the **most important interview tricks**:
+
+
+ ### `Exactly(K) = AtMost(K) - AtMost(K-1)`
+
+
+ Use this for:
+
+
+ 33. Subarrays with K Different Integers
+
+34. Subarrays with Exactly K Distinct Elements
+
+35. Binary Subarrays With Sum
+
+36. Count Number of Nice Subarrays
+
+37. Substrings with Exactly K Distinct Characters
+
+
+ 🔥 Once you understand this transformation, many “exactly K” problems become much easier.
+
+
+---
+
+
+ ## 🟣 PATTERN 6 — SLIDING WINDOW + DEQUE
+
+
+ When you need **Maximum / Minimum of every window**:
+
+
+ 38. Sliding Window Maximum
+
+39. Sliding Window Minimum
+
+40. Max of Minimum for Every Window Size
+
+41. First Negative Integer in Every Window
+
+
+ Core idea:
+
+
+ **Monotonic Deque → O(N)**
+
+
+---
+
+
+ # 🧠 QUICK REVISION CHEAT SHEET
+
+
+ | Question says... | Think... |
+
+| --- | --- |
+
+| Size K | Fixed Window |
+
+| Maximum Sum | Fixed / Variable Window |
+
+| Longest + condition | Expand + Shrink |
+
+| Shortest / Minimum | Shrink while valid |
+
+| K Distinct | HashMap + Window |
+
+| Anagram / Permutation | Frequency + Fixed Window |
+
+| Exactly K | AtMost(K) − AtMost(K−1) |
+
+| Max/Min in every window | Monotonic Deque |
+
+| String + frequency | Sliding Window + HashMap |
+
+
+---
+
+
+ ### 🎯 Recommended Practice Order
+
+
+ **Beginner → Intermediate → Advanced**
+
+
+ `Maximum Sum K`\
+
+ ↓\
+
+ `First Negative in Window`\
+
+ ↓\
+
+ `Distinct Elements in Window`\
+
+ ↓\
+
+ `Longest Substring Without Repeating`\
+
+ ↓\
+
+ `Fruit Into Baskets`\
+
+ ↓\
+
+ `Longest Repeating Character Replacement`\
+
+ ↓\
+
+ `Minimum Size Subarray Sum`\
+
+ ↓\
+
+ `Permutation in String`\
+
+ ↓\
+
+ `Find All Anagrams`\
+
+ ↓\
+
+ `Subarrays with K Different Integers`\
+
+ ↓\
+
+ `Sliding Window Maximum`\
+
+ ↓\
+
+ `Minimum Window Substring` 🔥
+
+
+ **Master these patterns → and you’ll stop seeing 40 different questions.\
+
+ You’ll start seeing 5–6 reusable patterns. 🧠💻**
+
+
+ **Save this post 📌 | Practice → Code → Repeat 🔁**
+
+
+ #DSA #SlidingWindow #DSAProblems #CodingInterview #Java #CPlusPlus #LeetCode #GeeksforGeeks #Coding #Programming #InterviewPreparation #DSARevision
+
+
+  GeeksforGeeks
