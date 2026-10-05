@@ -7,8 +7,11 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 42.5%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T16:28:47.705Z
+ * Synced: 2026-10-05T16:28:49.087Z
  */
 
-A = [5, 7, 7, 8, 8, 10]
- B = 8
+public class Solution {
+    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+    public int[] searchRange(final int[] A, int B) {
+    }
+}
