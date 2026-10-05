@@ -4,16 +4,16 @@
  * URL: https://www.geeksforgeeks.org/profile/imrajeevnayan
  * Language: All Submissions
  * Difficulty: Medium
- * Topics: DSA, Strings, StringInterview, CodingInterview, GeeksforGeeks, DSAInterview, SDE, Placement
+ * Topics: DSA, SlidingWindow, CodingInterview, GeeksforGeeks, LeetCode, Java, PlacementPreparation, SDE
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T17:56:05.752Z
+ * Synced: 2026-10-05T17:56:34.494Z
  */
 
 🚀 SLIDING WINDOW TECHNIQUE — COMPLETE PATTERN ROADMAP 🔥
 
 
-Sliding Window DSA interview ki preparation kar rahe ho? Random questions solve karne ke bajay patterns ko master karo. 👇
+Sliding Window DSA interview ki preparRandom questions solve karne ke bajay patterns ko master karo. 👇
 
 
 🧠 KAB USE KAREIN?
@@ -337,14 +337,6 @@ Frequency   → HashMap / Array
 
 ⚫ Advanced (Deque + BS + DP)
 
-
-🔥 MASTER THE PATTERN, NOT THE PROBLEM!
-
-
 Sliding Window ek baar samajh aa gaya → 30+ problems easily solve. 💪
-
-
-🔖 SAVE | 💻 PRACTICE | 🧠 REVISE | 🚀 SHARE
-
 
 #DSA #SlidingWindow #CodingInterview #GeeksforGeeks #LeetCode #Java #PlacementPreparation #SDE #ProblemSolving #100DaysOfCode
