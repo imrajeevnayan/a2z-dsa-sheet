@@ -1,14 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 92. Reverse Linked List II
- * URL: https://leetcode.com/problems/reverse-linked-list-ii/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/reverse-linked-list-ii/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-06T18:12:32.952Z
+ * Synced: 2026-10-06T18:18:56.644Z
  */
 
-Input: head = [1,2,3,4,5], left = 2, right = 4
-Output: [1,4,3,2,5]
+// Step 3: curr = reversal start point
+        ListNode curr = prev.next;
+        
+        // Step 4: right-left times reversal karo
+        for (int i = 0; i < right - left; i++) {
+        
+            prev = prev.next;
+        }
+        // Step 2: prev ko left-1 position tak le jao
+        ListNode prev = dummy;
+        for (int i = 1; i < left; i++) {
+        dummy.next = head;
+        
+        ListNode dummy = new ListNode(0);
+        // Step 1: Dummy node banao
+        
+        if (head == null || left == right) return head;
+        // Edge case: no reversal needed
+            // curr.next ko nikalo
+            ListNode nextNode = curr.next;
