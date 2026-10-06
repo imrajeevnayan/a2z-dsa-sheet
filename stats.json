@@ -1,13 +1,13 @@
 {
-  "totalSolved": 101,
+  "totalSolved": 102,
   "currentStreak": 11,
   "maxStreak": 11,
   "lastSyncDate": "2026-10-06",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 36,
     "medium": 56,
-    "hard": 3,
+    "hard": 4,
     "basic": 6
   },
   "syncedProblems": {
@@ -111,7 +111,8 @@
     "GeeksForGeeks_Reverse_a_Linked_List": true,
     "GeeksForGeeks_Zig-Zag_Tree_Traversal": true,
     "GeeksForGeeks_Children_Sum_in_a_Binary_Tree": true,
-    "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true
+    "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true,
+    "LeetCode_Number_of_Visible_People_in_a_Queue": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -124,7 +125,7 @@
     "2026-10-03": 15,
     "2026-10-04": 10,
     "2026-10-05": 8,
-    "2026-10-06": 1
+    "2026-10-06": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -226,6 +227,7 @@
     "Reverse a Linked List",
     "Zig-Zag Tree Traversal",
     "Children Sum in a Binary Tree",
-    "Minimum Add to Make Parentheses Valid"
+    "Minimum Add to Make Parentheses Valid",
+    "Number of Visible People in a Queue"
   ]
 }
