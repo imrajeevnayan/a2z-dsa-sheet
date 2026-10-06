@@ -2,17 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Reverse Each Word in String
  * URL: https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1
- * Language: Java (21)
+ * Language: class Solution { public: string reverseWords(string &s) { // code here stack<char> st; string result = ""; for(int i=0; i<s.length(); i++){ if(s[i] != ' '){ st.push(s[i]); }else{ if(!st.empty()){ while(!st.empty()){ result+=st.top(); st.pop(); } result+=" "; } } } while(!st.empty()){ result+=st.top(); st.pop(); } if(!result.empty() && result.back() == ' '){ result.pop_back(); } return result; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T16:41:55.745Z
+ * Synced: 2026-10-06T16:46:41.343Z
  */
 
 class Solution {
     public String reverseWords(String s) {
-        // Code here
+        // Code her
         
     }
 }
