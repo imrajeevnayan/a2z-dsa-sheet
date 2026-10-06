@@ -1,0 +1,41 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: A bit complex :-
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-sublist-of-a-linked-list/1
+ * Language: class Solution: # https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1 def reverseList(self, head, counter): tail = head next_node = tail.next head.next = None while counter: counter -= 1 prev = tail tail = next_node next_node = next_node.next tail.next = prev new_tail = head head = tail return head, new_tail def reverseBetween(self, a, b, head): # The list is divided into three parts # Part - 1 - Sub-List to the left of reverse list # Part - 2 - The sub-list to reverse # Part - 3 - Sub-List to the right of reverse list tail = head prev = None counter = b - a a -= 1 # Head of right sub-list right_head = head while b: b -= 1 right_head = right_head.next # Head of reverse sub-list (before reversing) while a: a -= 1 prev = tail tail = tail.next sub_head = tail # Get the head and tail of reversed list sub_head, sub_tail = self.reverseList(sub_head, counter) # If the original head was in the reverse list, the reversed head is the new head if prev == None: head = sub_head # Else attach the tail of left-sub-list to reversed head else: prev.next = sub_head # Attached the tail of reversed list to the head of right sub-list sub_tail.next = right_head return head
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Related Articles, Reverse Sublist Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T17:34:05.410Z
+ */
+
+class Solution {
+    public static Node reverseBetween(int a, int b, Node head) {
+        // Edge case: no reversal needed
+        if (head == null || a == b) return head;
+
+        // Step 1: Dummy node banao
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        // Step 2: prev ko a-1 position tak le jao
+        Node prev = dummy;
+        for (int i = 1; i < a; i++) {
+            prev = prev.next;
+        }
+
+        // Step 3: curr = reversal start point
+        Node curr = prev.next;
+
+        // Step 4: b-a times head-insertion reversal
+        for (int i = 0; i < b - a; i++) {
+            Node nextNode = curr.next;
+            curr.next = nextNode.next;
+            nextNode.next = prev.next;
+            prev.next = nextNode;
+        }
+
+        return dummy.next;
+    }
+}
