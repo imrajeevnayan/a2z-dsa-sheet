@@ -2,13 +2,16 @@
  * Platform: LeetCode
  * Problem: 1944. Number of Visible People in a Queue
  * URL: https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/?envType=problem-list-v2&envId=monotonic-stack
- * Language: Text
+ * Language: Monotonic Stack
  * Difficulty: Hard
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T15:23:25.256Z
+ * Synced: 2026-10-06T15:23:27.240Z
  */
 
-[10,6,8,5,11,9]
-[5,1,2,3,10]
+class Solution {
+    public int[] canSeePersonsCount(int[] heights) {
+        
+    }
+}
