@@ -1,54 +1,51 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/triplets-in-binary-tree_668907
+ * URL: https://www.naukri.com/code360/problems/boundary-traversal_790725
  * Language: All languages
  * Difficulty: Hard
- * Topics: Trees Clear all, Trees
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-01T17:55:02.996Z
+ * Synced: 2026-10-06T20:47:07.347Z
  */
 
 import java.util.*;
  
 public class Solution {
-    
-    public static List<List<Integer>> findTriplets(TreeNode<Integer> root, int x) {
-        
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> values = new ArrayList<>();
-        
-        // Tree ke saare elements list mein store karo
-        storeValues(root, values);
-        
-        // Sorting se 3-sum efficiently kar sakte hain
-        Collections.sort(values);
-        
-        int n = values.size();
-        
-        for (int i = 0; i < n - 2; i++) {
-            
-            // Duplicate triplets avoid karo
-            if (i > 0 && values.get(i).equals(values.get(i - 1))) {
-                continue;
+    public static List<Integer> traverseBoundary(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+ 
+        if (root == null) return ans;
+ 
+        // Root
+        ans.add(root.data);
+ 
+        // Left boundary (excluding leaf nodes)
+        addLeftBoundary(root.left, ans);
+ 
+        // Leaf nodes
+        addLeaves(root.left, ans);
+        addLeaves(root.right, ans);
+ 
+        // Right boundary (excluding leaf nodes), in reverse
+        addRightBoundary(root.right, ans);
+ 
+        return ans;
+    }
+ 
+    private static void addLeftBoundary(TreeNode node, List<Integer> ans) {
+        while (node != null) {
+            if (!isLeaf(node)) {
+                ans.add(node.data);
             }
-            
-            int left = i + 1;
-            int right = n - 1;
-            
-            while (left < right) {
-                
-                long sum = (long) values.get(i)
-                         + values.get(left)
-                         + values.get(right);
-                
-                if (sum == x) {
-                    
-                    ans.add(Arrays.asList(
-                        values.get(i),
-                        values.get(left),
-                        values.get(right)
-                    ));
-                    
-                    left++;
+ 
+            if (node.left != null) {
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+        }
+    }
+ 
+    private static void addRightBoundary(TreeNode node, List<Integer> ans) {
