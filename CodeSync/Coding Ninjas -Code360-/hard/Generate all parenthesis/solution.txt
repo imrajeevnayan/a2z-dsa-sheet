@@ -1,0 +1,37 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Generate all parenthesis
+ * URL: https://www.naukri.com/code360/problems/generate-all-parenthesis_571
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T20:48:17.612Z
+ */
+
+public class Solution {
+ 
+    public static void printWellFormedParanthesis(int n) {
+        generate("", 0, 0, n);
+    }
+ 
+    private static void generate(String current, int open, int close, int n) {
+ 
+        // A complete valid combination
+        if (current.length() == 2 * n) {
+            System.out.println(current);
+            return;
+        }
+ 
+        // Add opening parenthesis
+        if (open < n) {
+            generate(current + "(", open + 1, close, n);
+        }
+ 
+        // Add closing parenthesis only when valid
+        if (close < open) {
+            generate(current + ")", open, close + 1, n);
+        }
+    }
+}
