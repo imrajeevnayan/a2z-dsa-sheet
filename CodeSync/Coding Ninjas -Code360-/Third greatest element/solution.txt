@@ -1,0 +1,42 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Third greatest element
+ * URL: https://www.naukri.com/code360/problems/third-greatest-element_1095642
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T19:56:06.352Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static int findThirdLagrest(ArrayList<Integer> arr) {
+ 
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        int third = Integer.MIN_VALUE;
+ 
+        for (int num : arr) {
+ 
+            if (num > first) {
+                third = second;
+                second = first;
+                first = num;
+            }
+            else if (num > second && num != first) {
+                third = second;
+                second = num;
+            }
+            else if (num > third && num != second && num != first) {
+                third = num;
+            }
+        }
+ 
+        return third;
+    }
+}
