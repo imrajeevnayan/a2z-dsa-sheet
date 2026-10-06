@@ -7,10 +7,30 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, Hotel Service 51 Minutes Medium Asked in:, MAXSPPROD 88 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T18:13:36.250Z
+ * Synced: 2026-10-06T18:14:19.359Z
  */
 
-public class Solution {
-    public int[] prevSmaller(int[] A) {
+for (int i = 0; i < n; i++) {
+
+            // Jab tak top current element se chhota nahi hai,
+            // tab tak usko hata do.
+            // Kyunki wo future mein useful nahi hoga.
+            while (!st.isEmpty() && st.peek() >= A[i]) {
+                st.pop();
+            }
+
+            // Stack ka top hi nearest smaller element hai
+            if (st.isEmpty()) {
+                ans[i] = -1;
+            } else {
+                ans[i] = st.peek();
+            }
+
+            // Current element ko stack mein daal do
+            // taaki aage ke elements ke liye ye candidate ban sake.
+            st.push(A[i]);
+        }
+
+        return ans;
     }
 }
