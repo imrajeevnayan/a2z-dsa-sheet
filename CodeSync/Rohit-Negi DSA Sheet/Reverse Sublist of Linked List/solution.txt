@@ -1,0 +1,41 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse Sublist of Linked List
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-sublist-of-a-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Related Articles, Reverse Sublist Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T18:12:27.619Z
+ */
+
+class Solution {
+    public static Node reverseBetween(int a, int b, Node head) {
+        // Edge case: no reversal needed
+        if (head == null || a == b) return head;
+
+        // Step 1: Dummy node banao
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        // Step 2: prev ko a-1 position tak le jao
+        Node prev = dummy;
+        for (int i = 1; i < a; i++) {
+            prev = prev.next;
+        }
+
+        // Step 3: curr = reversal start point
+        Node curr = prev.next;
+
+        // Step 4: b-a times head-insertion reversal
+        for (int i = 0; i < b - a; i++) {
+            Node nextNode = curr.next;
+            curr.next = nextNode.next;
+            nextNode.next = prev.next;
+            prev.next = nextNode;
+        }
+
+        return dummy.next;
+    }
+}
