@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Two Stacks
+ * URL: https://www.naukri.com/code360/problems/two-stacks_983634
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 8206 ms
+ * Memory: N/A
+ * Synced: 2026-10-06T17:50:53.342Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class TwoStack {
+ 
+    private int[] arr;
+    private int top1;
+    private int top2;
+ 
+    // Initialize TwoStack.
+    public TwoStack(int s) {
+        arr = new int[s];
+        top1 = -1;
+        top2 = s;
+    }
+ 
+    // Push in stack 1.
+    public void push1(int num) {
+        // Check if array is full
+        if (top1 + 1 < top2) {
+            arr[++top1] = num;
+        }
+    }
+ 
+    // Push in stack 2.
+    public void push2(int num) {
+        // Check if array is full
+        if (top1 + 1 < top2) {
+            arr[--top2] = num;
+        }
+    }
+ 
+    // Pop from stack 1 and return popped element.
+    public int pop1() {
+        if (top1 == -1) {
+            return -1;
+        }
+ 
+        return arr[top1--];
