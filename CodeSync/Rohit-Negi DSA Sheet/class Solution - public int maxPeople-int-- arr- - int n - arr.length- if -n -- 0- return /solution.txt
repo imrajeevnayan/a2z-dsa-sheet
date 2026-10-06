@@ -1,0 +1,54 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: class Solution { public int maxPeople(int[] arr) { int n = arr.length; if (n == 0) return 0; int[] leftRange = new int[n]; int[] rightRange = new int[n]; ArrayDeque<Integer> stack = new ArrayDeque<>(); for (int i = 0; i < n; i++) { while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) { stack.pop(); } leftRange[i] = stack.isEmpty() ? i + 1 : i - stack.peek(); stack.push(i); } stack.clear(); for (int i = n - 1; i >= 0; i--) { while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) { stack.pop(); } rightRange[i] = stack.isEmpty() ? n - i : stack.peek() - i; stack.push(i); } int maxPeople = 0; for (int i = 0; i < n; i++) { maxPeople = Math.max(maxPeople, leftRange[i] + rightRange[i] - 1); } return maxPeople; } }
+ * URL: https://www.geeksforgeeks.org/problems/maximum-people-visible-in-a-line/1
+ * Language: class Solution: def nge(self,arr): n = len(arr) ans = [n]*n stack = [] for i in range(n-1,-1,-1): while stack and arr[i]>arr[stack[-1]]: stack.pop() if stack: ans[i] = stack[-1] stack.append(i) return ans def pge(self,arr): n = len(arr) ans = [-1]*n stack = [] for i in range(n): while stack and arr[i]>arr[stack[-1]]: stack.pop() if stack: ans[i] = stack[-1] stack.append(i) return ans def maxPeople(self, arr): n = len(arr) ans = float('-inf') ngem = self.nge(arr) pgem = self.pge(arr) for i in range(n): ans = max(ans,ngem[i]-pgem[i]-1) return ans
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Stack, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T17:16:03.670Z
+ */
+
+class Solution {
+    static int maxPeople(int[] arr) {
+        int n = arr.length;
+
+        // Step 1: Previous Greater Element (left boundary)
+        int[] left = new int[n];
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        for (int i = 0; i < n; i++) {
+            // Stack se sab chhote elements pop karo
+            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                stack.pop();
+            }
+            // Stack top = previous greater element (-1 if none)
+            left[i] = stack.isEmpty() ? -1 : stack.peek();
+            stack.push(i);
+        }
+
+        // Step 2: Next Greater Element (right boundary)
+        stack.clear();
+        int[] right = new int[n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                stack.pop();
+            }
+            // Stack top = next greater element (n if none)
+            right[i] = stack.isEmpty() ? n : stack.peek();
+            stack.push(i);
+        }
+
+        // Step 3: Har person ke liye visible count nikalo
+        int maxCount = 0;
+        for (int i = 0; i < n; i++) {
+            // Boundaries ke beech ke log = right[i] - left[i] - 1
+            int visible = right[i] - left[i] - 1;
+            maxCount = Math.max(maxCount, visible);
+        }
+
+        return maxCount;
+    }
+}
