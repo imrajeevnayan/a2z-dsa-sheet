@@ -1,0 +1,48 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Rearrange string
+ * URL: https://www.naukri.com/code360/problems/rearrange-string_982765
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Hard Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T20:49:01.730Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static String reArrangeString(String s) {
+        int[] freq = new int[26];
+        for (char c : s.toCharArray()) freq[c - 'a']++;
+ 
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > 0) maxHeap.offer(new int[]{i, freq[i]});
+        }
+ 
+        StringBuilder sb = new StringBuilder();
+        Queue<int[]> waitQueue = new LinkedList<>(); // [charIndex, remainingFreq, availableAt]
+ 
+        while (!maxHeap.isEmpty() || !waitQueue.isEmpty()) {
+            int idx = sb.length();
+ 
+            if (!waitQueue.isEmpty() && waitQueue.peek()[2] == idx) {
+                int[] ready = waitQueue.poll();
+                maxHeap.offer(new int[]{ready[0], ready[1]});
+            }
+ 
+            if (maxHeap.isEmpty()) return ""; // Impossible to rearrange
+ 
+            int[] curr = maxHeap.poll();
+            sb.append((char) (curr[0] + 'a'));
+ 
+            if (curr[1] > 1) {
+                waitQueue.offer(new int[]{curr[0], curr[1] - 1, idx + 1});
+            }
+        }
+        return sb.toString();
+    }
+}
