@@ -141,3 +141,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 102 | [Children Sum in a Binary Tree](https://www.geeksforgeeks.org/problems/children-sum-parent/1) | GeeksForGeeks | Medium | 05 Oct 2026 | 11:18 pm |
 | 103 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | LeetCode | Medium | 06 Oct 2026 | 08:49 pm |
 | 104 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | LeetCode | Hard | 06 Oct 2026 | 08:54 pm |
+| 105 | [Reverse Each Word in String](https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1) | GeeksForGeeks | Medium | 06 Oct 2026 | 10:28 pm |
