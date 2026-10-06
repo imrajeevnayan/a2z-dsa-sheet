@@ -1,12 +1,12 @@
 {
-  "totalSolved": 100,
-  "currentStreak": 10,
-  "maxStreak": 10,
-  "lastSyncDate": "2026-10-05",
-  "todayCount": 8,
+  "totalSolved": 101,
+  "currentStreak": 11,
+  "maxStreak": 11,
+  "lastSyncDate": "2026-10-06",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 36,
-    "medium": 55,
+    "medium": 56,
     "hard": 3,
     "basic": 6
   },
@@ -110,7 +110,8 @@
     "LeetCode_Reverse_Linked_List": true,
     "GeeksForGeeks_Reverse_a_Linked_List": true,
     "GeeksForGeeks_Zig-Zag_Tree_Traversal": true,
-    "GeeksForGeeks_Children_Sum_in_a_Binary_Tree": true
+    "GeeksForGeeks_Children_Sum_in_a_Binary_Tree": true,
+    "LeetCode_Minimum_Add_to_Make_Parentheses_Valid": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -122,7 +123,8 @@
     "2026-10-02": 17,
     "2026-10-03": 15,
     "2026-10-04": 10,
-    "2026-10-05": 8
+    "2026-10-05": 8,
+    "2026-10-06": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -223,6 +225,7 @@
     "Reverse Linked List",
     "Reverse a Linked List",
     "Zig-Zag Tree Traversal",
-    "Children Sum in a Binary Tree"
+    "Children Sum in a Binary Tree",
+    "Minimum Add to Make Parentheses Valid"
   ]
 }

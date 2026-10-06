@@ -139,3 +139,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 100 | [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1) | GeeksForGeeks | Easy | 05 Oct 2026 | 11:12 pm |
 | 101 | [Zig-Zag Tree Traversal](https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1) | GeeksForGeeks | Medium | 05 Oct 2026 | 11:15 pm |
 | 102 | [Children Sum in a Binary Tree](https://www.geeksforgeeks.org/problems/children-sum-parent/1) | GeeksForGeeks | Medium | 05 Oct 2026 | 11:18 pm |
+| 103 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | LeetCode | Medium | 06 Oct 2026 | 08:49 pm |
