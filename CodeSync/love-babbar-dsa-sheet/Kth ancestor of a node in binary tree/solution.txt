@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Kth ancestor of a node in binary tree
+ * URL: https://www.naukri.com/code360/problems/kth-ancestor-of-a-node-in-binary-tree_842561
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: in Breadth-first Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T20:50:45.866Z
+ */
+
+import java.util.List;
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+    static int findKthAncestor(BinaryTreeNode<Integer> root,
+                               int targetNodeVal, int kth) {
+ 
+        List<BinaryTreeNode<Integer>> path = new ArrayList<>();
+ 
+        if (!findPath(root, targetNodeVal, path)) {
+            return -1;
+        }
+ 
+        int index = path.size() - 1 - kth;
+ 
+        if (index < 0) {
+            return -1;
+        }
+ 
+        return path.get(index).data;
+    }
+ 
+    private static boolean findPath(BinaryTreeNode<Integer> root,
+                                    int target,
+                                    List<BinaryTreeNode<Integer>> path) {
+ 
+        if (root == null) {
+            return false;
+        }
+ 
+        path.add(root);
+ 
+        if (root.data == target) {
+            return true;
+        }
+ 
+        if (findPath(root.left, target, path) ||
+            findPath(root.right, target, path)) {
