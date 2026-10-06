@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3870. Count Commas in Range
- * URL: https://leetcode.com/problems/count-commas-in-range/?envType=daily-question&envId=2026-10-06
+ * URL: https://leetcode.com/problemset/
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T15:21:27.418Z
+ * Synced: 2026-10-06T15:21:38.613Z
  */
 
 class Solution {
