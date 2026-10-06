@@ -7,14 +7,10 @@
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T15:24:31.941Z
+ * Synced: 2026-10-06T15:24:39.901Z
  */
 
-public int[] canSeePersonsCount(int[] heights) {
-        int n = heights.length;
-        int[] result = new int[n];
-        
-        // Monotonic decreasing stack (indices store karo)
+// Monotonic decreasing stack (indices store karo)
         Deque<Integer> stack = new ArrayDeque<>();
         
         // Right se left traverse karo
@@ -32,7 +28,6 @@ public int[] canSeePersonsCount(int[] heights) {
             if (!stack.isEmpty()) {
                 count++;
             }
-            
             result[i] = count;
             
             // Current person ko stack mein push karo
@@ -41,4 +36,4 @@ public int[] canSeePersonsCount(int[] heights) {
         
         return result;
     }
-class Solution {
+}
