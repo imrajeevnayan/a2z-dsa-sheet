@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T16:56:39.611Z
+ * Synced: 2026-10-06T16:56:49.274Z
  */
 
 class Solution {
@@ -19,8 +19,9 @@ class Solution {
             StrinBuilder word=new StringBuilder(w[i]);
             word.reverse();
             // ab res me add krna haai sare word with space
-            if(i >0) res.append(" ").append()
+            if(i >0) res.append(" ").append(word);
         }
+        r
         
     }
 }
