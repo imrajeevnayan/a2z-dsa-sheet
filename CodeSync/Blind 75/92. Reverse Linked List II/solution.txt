@@ -2,16 +2,13 @@
  * Platform: LeetCode
  * Problem: 92. Reverse Linked List II
  * URL: https://leetcode.com/problems/reverse-linked-list-ii/description/
- * Language: Problem List
+ * Language: Text
  * Difficulty: Medium
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T17:26:33.727Z
+ * Synced: 2026-10-06T18:12:32.952Z
  */
 
-class Solution {
-    public ListNode reverseBetween(ListNode head, int left, int right) {
-        
-    }
-}
+Input: head = [1,2,3,4,5], left = 2, right = 4
+Output: [1,4,3,2,5]
