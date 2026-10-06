@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 921. Minimum Add to Make Parentheses Valid
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question&envId=2026-10-06
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Stack, Greedy, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-06T15:18:46.620Z
+ */
+
+Input: s = "())"
+Output: 1
