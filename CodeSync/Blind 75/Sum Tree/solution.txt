@@ -3,32 +3,48 @@
  * Problem: Sum Tree
  * URL: https://www.naukri.com/code360/problems/sum-tree_10373
  * Language: Java (17)
- * Difficulty: Medium
+ * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-22T16:34:35.747Z
+ * Synced: 2026-10-06T20:52:25.319Z
  */
 
 import java.util.ArrayList;
  
 public class Solution {
-    
+ 
     public static ArrayList<Integer> sumTree(BinaryTreeNode<Integer> root) {
         ArrayList<Integer> result = new ArrayList<>();
-        computeSum(root, result);
+ 
+        convert(root);
+        preorder(root, result);
+ 
         return result;
     }
-    
-    private static int computeSum(BinaryTreeNode<Integer> node, ArrayList<Integer> result) {
-        if (node == null) return 0;
-        
-        int leftSum = computeSum(node.left, result);
-        int rightSum = computeSum(node.right, result);
-        
-        int total = node.data + leftSum + rightSum;
-        result.add(total);
-        
-        return total;
+ 
+    private static void convert(BinaryTreeNode<Integer> root) {
+        if (root == null) {
+            return;
+        }
+ 
+        int left = root.left == null ? 0 : root.left.data;
+        int right = root.right == null ? 0 : root.right.data;
+ 
+        convert(root.left);
+        convert(root.right);
+ 
+        root.data = left + right;
+    }
+ 
+    private static void preorder(BinaryTreeNode<Integer> root,
+                                  ArrayList<Integer> result) {
+        if (root == null) {
+            return;
+        }
+ 
+        result.add(root.data);
+        preorder(root.left, result);
+        preorder(root.right, result);
     }
 }
