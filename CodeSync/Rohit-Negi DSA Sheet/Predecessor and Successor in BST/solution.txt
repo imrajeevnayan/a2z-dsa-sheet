@@ -1,0 +1,60 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Predecessor and Successor in BST
+ * URL: https://www.geeksforgeeks.org/problems/predecessor-and-successor/1
+ * Language: /* Structure of a Binary Search Tree node class Node { public: int data; Node* left; Node* right; Node(int x) { data = x; left = nullptr; right = nullptr; } }; */ class Solution { private: Node *rightMost(Node *node){ while(node->right) node=node->right; return node; } Node *lefttMost(Node *node){ while(node->left) node=node->left; return node; } public: vector<Node*> findPreSuc(Node* root, int key) { // code here Node *pre = NULL; Node *succ = NULL; Node *curr=root; while(curr){ if(curr->data < key){ pre=curr; curr=curr->right; } else if(curr->data > key){ succ=curr; curr=curr->left; } else{ if(curr->left){ pre=rightMost(curr->left); } if(curr->right){ succ=lefttMost(curr->right); } break; } } return {pre, succ}; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Ola Cabs, NPCI, Topic Tags, Binary Search Tree, Tree, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T18:11:13.595Z
+ */
+
+class Solution {
+    public ArrayList<Node> findPreSuc(Node root, int key) {
+        ArrayList<Node> result = new ArrayList<>();
+        Node pre = null;
+        Node suc = null;
+
+        Node curr = root;
+
+        while (curr != null) {
+            if (key > curr.data) {
+                // Key is greater than current node.
+                // Current node could be the predecessor.
+                pre = curr;
+                curr = curr.right;
+            } else if (key < curr.data) {
+                // Key is smaller than current node.
+                // Current node could be the successor.
+                suc = curr;
+                curr = curr.left;
+            } else {
+                // Key found! 
+                // Predecessor will be the maximum in left subtree.
+                // Successor will be the minimum in right subtree.
+
+                if (curr.left != null) {
+                    Node temp = curr.left;
+                    while (temp.right != null) {
+                        temp = temp.right;
+                    }
+                    pre = temp;
+                }
+
+                if (curr.right != null) {
+                    Node temp = curr.right;
+                    while (temp.left != null) {
+                        temp = temp.left;
+                    }
+                    suc = temp;
+                }
+                break;
+            }
+        }
+
+        result.add(pre);
+        result.add(suc);
+        return result;
+    }
+}
