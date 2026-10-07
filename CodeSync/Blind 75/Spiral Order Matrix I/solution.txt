@@ -1,0 +1,18 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Spiral Order Matrix I
+ * URL: https://www.interviewbit.com/problems/spiral-order-matrix-i/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 34.0%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T17:38:03.017Z
+ */
+
+A = 
+    [
+        [ 1, 2, 3 ],
+        [ 4, 5, 6 ],
+        [ 7, 8, 9 ]
+    ]
