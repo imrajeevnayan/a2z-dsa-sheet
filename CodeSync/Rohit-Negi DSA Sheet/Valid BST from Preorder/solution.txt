@@ -7,10 +7,32 @@
  * Topics: Programming, Tree Data Structure, Description, Discussion, Submissions, Hints, Merge two Binary Tree 32 Minutes Easy Asked in:, 48.0%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:38:29.277Z
+ * Synced: 2026-10-07T17:39:37.201Z
  */
 
-public class Solution {
-    public int solve(int[] A) {
+}
+            seen.add(value);
+        }
+        
+        Stack<Integer> stack = new Stack<>();
+        int minAllowed = Integer.MIN_VALUE;
+        
+        for (int value : A) {
+            // If current value is less than minimum allowed, it's invalid
+            if (value < minAllowed) {
+                return 0;
+            }
+            
+            // Pop all elements smaller than current value
+            // This means we're moving to right subtree
+            while (!stack.isEmpty() && stack.peek() < value) {
+                minAllowed = stack.pop();
+            }
+            
+            // Push current value
+            stack.push(value);
+        }
+        
+        return 1;
     }
 }
