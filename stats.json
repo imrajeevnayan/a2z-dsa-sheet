@@ -1,12 +1,12 @@
 {
-  "totalSolved": 110,
+  "totalSolved": 111,
   "currentStreak": 12,
   "maxStreak": 12,
   "lastSyncDate": "2026-10-07",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 38,
-    "medium": 60,
+    "medium": 61,
     "hard": 6,
     "basic": 6
   },
@@ -120,7 +120,8 @@
     "LeetCode_Move_Zeroes": true,
     "LeetCode_Remove_Invalid_Parentheses": true,
     "LeetCode_Palindrome_Linked_List": true,
-    "GeeksForGeeks_Palindrome_Linked_List": true
+    "GeeksForGeeks_Palindrome_Linked_List": true,
+    "GeeksForGeeks_Substring_with_Equal_0,_1_and_2": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -134,7 +135,7 @@
     "2026-10-04": 10,
     "2026-10-05": 8,
     "2026-10-06": 6,
-    "2026-10-07": 4
+    "2026-10-07": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -244,6 +245,7 @@
     "Reverse Linked List II",
     "Move Zeroes",
     "Remove Invalid Parentheses",
-    "Palindrome Linked List"
+    "Palindrome Linked List",
+    "Substring with Equal 0, 1 and 2"
   ]
 }
