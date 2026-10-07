@@ -7,10 +7,14 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Find Maximum Sum Pair With Same Digit Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T18:07:45.194Z
+ * Synced: 2026-10-07T18:07:49.766Z
  */
 
-public int maxPair(int[] arr) {
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public int maxPair(int[] arr) {
         // Map: Key = Digit Sum, Value = int[2] (Top 2 largest numbers for that sum)
         Map<Integer, int[]> map = new HashMap<>();
         int maxSum = -1;
@@ -55,6 +59,3 @@ public int maxPair(int[] arr) {
             sum += n % 10;
             n /= 10;
         }
-        return sum;
-    }
-}
