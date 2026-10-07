@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 234. Palindrome Linked List
+ * URL: https://leetcode.com/problems/palindrome-linked-list/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers, Stack, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T17:42:16.775Z
+ */
+
+Input: head = [1,2,2,1]
+Output: true
