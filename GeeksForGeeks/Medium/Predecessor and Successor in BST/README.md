@@ -1,0 +1,25 @@
+# Predecessor and Successor in BST
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/predecessor-and-successor/1)
+
+## Solved On
+07 Oct 2026 at 11:41 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/predecessor-and-successor/1">Predecessor and Successor in BST</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 14pt;">Given a Binary Search Tree (BST) and an integer key, find the inorder predecessor and inorder successor of the given key.</span></p>
+<ul>
+<li><span style="font-size: 14pt;">The inorder predecessor is the node with the largest value smaller than the given key.</span></li>
+<li><span style="font-size: 14pt;">The inorder successor is the node with the smallest value greater than the given key.</span></li>
+</ul>
+<p><span style="font-size: 14pt;">If the predecessor or successor does not exist, return NULL for that position.</span></p>
+<p><span style="font-size: 14pt;"><strong>Note:</strong> The key may or may not be present in the BST.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [50, 30, 70, 20, 40, 60, 80], key = 65<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932638/Web/Other/blobid0_1785578019.png" width="228" height="146"><br><strong>Output: </strong>[60, 70]<strong>
+Explanation: </strong>In the given BST the inorder predecessor of 65 is 60 and inorder successor of 65 is 70.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932638/Web/Other/blobid1_1785578036.png" width="240" height="154"><br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [8, 1, 9, N, 4, N, 10, 3], key = 8<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932638/Web/Other/blobid2_1785578094.png" width="166" height="167"> <br><strong>Output: </strong>[4, 9]<strong>
+Explanation: </strong>In the given BST the inorder predecessor of 8 is 4 and inorder successor of 8 is 9.<strong><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932638/Web/Other/blobid3_1785578109.png" width="176" height="178"><br></strong></span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:&nbsp;</strong><br>1&nbsp;<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;no. of nodes&nbsp;</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;10</span><sup style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">5<br></sup>0 <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤ </span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">node-&gt;data&nbsp;</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;10</span><sup style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">6<br></sup>1&nbsp;<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;key&nbsp;</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≤ </span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">10</span><sup style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">6</sup></span></p>
