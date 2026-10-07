@@ -7,23 +7,10 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, MakeMyTrip, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:42:46.113Z
+ * Synced: 2026-10-07T17:42:45.709Z
  */
 
-/*
-class Node {
-    int data;
-    Node next;
-
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}*/
-
-class Solution {
-    public boolean isPalindrome(Node head) {
-        // code here
-        
-    }
-}
+Input:
+   
+Output: true
+Explanation: The given linked list is 1 -> 2 -> 1 -> 1 -> 2 -> 1, which is a palindrome.
