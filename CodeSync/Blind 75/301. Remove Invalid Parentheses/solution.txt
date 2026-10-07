@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 301. Remove Invalid Parentheses
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?envType=daily-question&envId=2026-10-07
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: String, Backtracking, Breadth-First Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T09:43:06.464Z
+ */
+
+Input: s = "()())()"
+Output: ["(())()","()()()"]
