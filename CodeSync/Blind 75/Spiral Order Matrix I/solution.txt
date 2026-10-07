@@ -7,12 +7,11 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 34.0%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:38:03.017Z
+ * Synced: 2026-10-07T17:38:04.184Z
  */
 
-A = 
-    [
-        [ 1, 2, 3 ],
-        [ 4, 5, 6 ],
-        [ 7, 8, 9 ]
-    ]
+public class Solution {
+    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+    public int[] spiralOrder(final int[][] A) {
+    }
+}
