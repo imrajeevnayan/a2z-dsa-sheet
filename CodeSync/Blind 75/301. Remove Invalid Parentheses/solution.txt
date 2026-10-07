@@ -2,13 +2,31 @@
  * Platform: LeetCode
  * Problem: 301. Remove Invalid Parentheses
  * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?envType=daily-question&envId=2026-10-07
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T09:43:06.464Z
+ * Synced: 2026-10-07T09:43:15.728Z
  */
 
-Input: s = "()())()"
-Output: ["(())()","()()()"]
+class Solution {
+    private boolean isValid(String s) {
+        int count = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                count++;
+            } else if (c == ')') {
+                count--;
+            }
+            // If count goes negative, it means extra ')' appeared
+            if (count < 0) return false;
+        }
+        // At the end, count should be 0 for balanced parentheses
+        return count == 0;
+    }
+    public List<String> removeInvalidParentheses(String s) {
+        List<String> result = new ArrayList<>();
+        if (s == null) return result;
+
+        Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
