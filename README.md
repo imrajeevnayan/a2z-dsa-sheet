@@ -150,3 +150,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 111 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | LeetCode | Easy | 07 Oct 2026 | 11:12 pm |
 | 112 | [Palindrome Linked List](https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:14 pm |
 | 113 | [Substring with Equal 0, 1 and 2](https://www.geeksforgeeks.org/problems/equal-0-1-and-23208/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:36 pm |
+| 114 | [Maximum Pair Sum with Equal Digit Sum](https://www.geeksforgeeks.org/problems/ruling-pair--141631/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:37 pm |
