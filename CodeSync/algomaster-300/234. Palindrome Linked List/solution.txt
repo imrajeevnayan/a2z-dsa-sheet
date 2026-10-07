@@ -1,14 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: 234. Palindrome Linked List
- * URL: https://leetcode.com/problems/palindrome-linked-list/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/palindrome-linked-list/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers, Stack, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-07T17:42:16.775Z
+ * Synced: 2026-10-07T17:42:29.379Z
  */
 
-Input: head = [1,2,2,1]
-Output: true
+// Pass 1: saari values stack mein push karo
+        while (curr != null) {
+            stack.push(curr.val);
+            curr = curr.next;
+        }
+        
+        // Pass 2: aage se chalo, stack se pop (peeche se) — compare
+        curr = head;
+        while (curr != null) {
+            if (curr.val != stack.pop()) return false;
+            curr = curr.next;
+        }
+        return true;
+    }
+}
+        ListNode curr = head;
+    public boolean isPalindrome(ListNode head) {
+        Stack<Integer> stack = new Stack<>();
+class Solution {
