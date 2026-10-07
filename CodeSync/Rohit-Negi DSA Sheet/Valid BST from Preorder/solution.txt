@@ -7,7 +7,10 @@
  * Topics: Programming, Tree Data Structure, Description, Discussion, Submissions, Hints, Merge two Binary Tree 32 Minutes Easy Asked in:, 48.0%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:38:28.120Z
+ * Synced: 2026-10-07T17:38:29.277Z
  */
 
-A = [7, 7, 10, 10, 9, 5, 2, 8]
+public class Solution {
+    public int solve(int[] A) {
+    }
+}
