@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, MakeMyTrip, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:43:47.068Z
+ * Synced: 2026-10-07T17:43:54.948Z
  */
 
 import java.util.Stack;
@@ -17,7 +17,7 @@ class Solution {
         // Edge case handling
         if (head == null || head.next == null) {
             return true;
-        }
+        }=
 
         Stack<Integer> stack = new Stack<>();
         Node curr = head;
