@@ -1,11 +1,11 @@
 {
-  "totalSolved": 106,
-  "currentStreak": 11,
-  "maxStreak": 11,
-  "lastSyncDate": "2026-10-06",
-  "todayCount": 6,
+  "totalSolved": 107,
+  "currentStreak": 12,
+  "maxStreak": 12,
+  "lastSyncDate": "2026-10-07",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 36,
+    "easy": 37,
     "medium": 59,
     "hard": 5,
     "basic": 6
@@ -116,7 +116,8 @@
     "GeeksForGeeks_Reverse_Each_Word_in_String": true,
     "GeeksForGeeks_Max_People_Visible_in_a_Line": true,
     "GeeksForGeeks_Reverse_Sublist_of_Linked_List": true,
-    "LeetCode_Reverse_Linked_List_II": true
+    "LeetCode_Reverse_Linked_List_II": true,
+    "LeetCode_Move_Zeroes": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -129,7 +130,8 @@
     "2026-10-03": 15,
     "2026-10-04": 10,
     "2026-10-05": 8,
-    "2026-10-06": 6
+    "2026-10-06": 6,
+    "2026-10-07": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -236,6 +238,7 @@
     "Reverse Each Word in String",
     "Max People Visible in a Line",
     "Reverse Sublist of Linked List",
-    "Reverse Linked List II"
+    "Reverse Linked List II",
+    "Move Zeroes"
   ]
 }

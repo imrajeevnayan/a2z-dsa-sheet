@@ -145,3 +145,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 106 | [Max People Visible in a Line](https://www.geeksforgeeks.org/problems/maximum-people-visible-in-a-line/1) | GeeksForGeeks | Medium | 06 Oct 2026 | 10:46 pm |
 | 107 | [Reverse Sublist of Linked List](https://www.geeksforgeeks.org/problems/reverse-a-sublist-of-a-linked-list/1) | GeeksForGeeks | Hard | 06 Oct 2026 | 11:04 pm |
 | 108 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | LeetCode | Medium | 06 Oct 2026 | 11:49 pm |
+| 109 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | LeetCode | Easy | 07 Oct 2026 | 03:08 pm |
