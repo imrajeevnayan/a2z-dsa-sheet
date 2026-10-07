@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Delete Nodes Greater than K
+ * URL: https://www.geeksforgeeks.org/problems/delete-nodes-greater-than-k/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Binary Search Tree, Tree, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T18:09:23.425Z
+ */
+
+Input: root[] = [4, 1, 9], k = 2
+
+Output: [1]
+Explanation: Nodes 4 and 9 are greater than or equal to 2, so they are deleted. The remaining BST contains only 1.
