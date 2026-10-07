@@ -1,16 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 301. Remove Invalid Parentheses
- * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?envType=daily-question&envId=2026-10-07
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/submissions/2165142581/?envType=daily-question&envId=2026-10-07
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-07T09:44:13.577Z
+ * Synced: 2026-10-07T09:44:24.368Z
  */
 
-if (c == '(') {
+class Solution {
+    private boolean isValid(String s) {
+        int count = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
                 count++;
             } else if (c == ')') {
                 count--;
@@ -26,7 +30,3 @@ if (c == '(') {
         if (s == null) return result;
 
         Set<String> visited = new HashSet<>(); // Duplicates avoid karne ke liye
-        Queue<String> queue = new LinkedList<>();
-        
-        // Step 1: Start with original string
-        queue.add(s);
