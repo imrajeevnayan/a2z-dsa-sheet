@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Palindrome Linked List
+ * URL: https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, MakeMyTrip, Adobe
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-07T17:42:46.113Z
+ */
+
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}*/
+
+class Solution {
+    public boolean isPalindrome(Node head) {
+        // code here
+        
+    }
+}
