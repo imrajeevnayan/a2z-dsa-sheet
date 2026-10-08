@@ -7,12 +7,10 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T17:45:43.677Z
+ * Synced: 2026-10-08T18:06:16.070Z
  */
 
-class Solution {
-    public int pairSum(ListNode head) {
-        // Step 1: Find the middle of the linked list
+// Step 1: Find the middle of the linked list
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
@@ -30,3 +28,5 @@ class Solution {
         }
 
         // Step 3: Compare twin nodes
+        ListNode first = head;
+        ListNode second = prev;
