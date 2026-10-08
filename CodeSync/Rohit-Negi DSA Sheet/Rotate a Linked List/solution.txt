@@ -2,45 +2,19 @@
  * Platform: GeeksforGeeks
  * Problem: Rotate a Linked List
  * URL: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
- * Language: class Solution: def rotate(self, head, k): # code here if head is None or k == 0: return head # find length and tail tail, curr = None, head length = 0 while curr: length += 1 tail = curr curr = curr.next # edge case to avoid loop k = k%length if k == 0: return head # break the LL and make new connections prev, curr = None, head for _ in range(k): prev = curr curr = curr.next prev.next = None tail.next = head return curr
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-05T18:37:29.246Z
+ * Synced: 2026-10-08T18:08:07.880Z
  */
 
-class Solution {
-    public Node rotate(Node head, int k) {
-       if (head == null || head.next == null || k == 0) return head;
-              // Step 1: Find length and tail
-              int n = 1;
-              Node tail = head;
-
-              while (tail.next != null) {
-                  tail = tail.next;
-                  n++;
-              }
-              // Step 2: Remove unnecessary rotations
-              k = k % n;
-              if (k == 0) return head;
-              
-              // Step 3: Make list circular
-              tail.next = head;
-
-              // Step 4: Find new tail
-              Node newTail = head;
-
-              for (int i = 1; i < k; i++) {
-                  newTail = newTail.next;
-              }
-
-              // Step 5: New head
-              Node newHead = newTail.next;
-
-              // Step 6: Break the circle
-              newTail.next = null;
-
-              return newHead;
-          }
-      }
+Input: k = 4,
+   
+Output: 50 -> 10 -> 20 -> 30 -> 40
+Explanation:
+Rotate 1: 20 -> 30 -> 40 -> 50 -> 10
+Rotate 2: 30 -> 40 -> 50 -> 10 -> 20
+Rotate 3: 40 -> 50 -> 10 -> 20 -> 30
+Rotate 4: 50 -> 10 -> 20 -> 30 -> 40
