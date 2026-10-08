@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 1021. Remove Outermost Parentheses
- * URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=daily-question&envId=2026-10-08
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2166293777/?envType=daily-question&envId=2026-10-08
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-08T12:14:05.686Z
+ * Synced: 2026-10-08T12:14:11.993Z
  */
 
-// Agar balance > 1 hai, toh ye outermost nahi hai
-                if (balance > 1) {
-                    sb.append(c);
+sb.append(c);
                 }
             } else {
                 // Pehle balance ghatao, phir check karo
@@ -20,12 +18,15 @@
                 
                 // Agar balance >= 1 hai (ghatane ke baad), toh ye outermost nahi hai
                 if (balance >= 1) {
-                    sb.append(c);
-                }
-            }
-                
-        }
+        int balance = 0;
         
-        return sb.toString();
-    }
-}
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                // Pehle balance badhao, phir check karo
+                balance++;
+                
+                // Agar balance > 1 hai, toh ye outermost nahi hai
+                if (balance > 1) {
+class Solution {
+    public String removeOuterParentheses(String s) {
+        StringBuilder sb = new StringBuilder();
