@@ -2,17 +2,19 @@
  * Platform: InterviewBit
  * Problem: Palindrome List
  * URL: https://www.interviewbit.com/problems/palindrome-list/
- * Language: Text
- * Difficulty: Medium
- * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, 42.2%
+ * Language: null
+ * Difficulty: Unknown
+ * Topics: Fast Track Courses, Programming, Linked Lists, Previous Submissions, Scripting, System Design, Databases, Python
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T19:29:06.794Z
+ * Synced: 2026-10-08T19:31:55.569Z
  */
 
-return 1;
-        }
-
+import java.util.Stack;
+public class Solution {
+    public int lPalin(ListNode A) {
+        // Edge case: Empty list or single node is always palindrome
+        if (A == null || A.next == null) return 1;
         Stack<Integer> stack = new Stack<>();
         ListNode curr = A;
 
@@ -21,7 +23,6 @@ return 1;
             stack.push(curr.val);
             curr = curr.next;
         }
-
         // Step 2: Head se start karo aur stack ke top se compare karo
         curr = A;
         while (curr != null) {
@@ -31,7 +32,6 @@ return 1;
             }
             curr = curr.next;
         }
-
         // Agar pura loop chal gaya, toh sab match hua
         return 1;
     }
