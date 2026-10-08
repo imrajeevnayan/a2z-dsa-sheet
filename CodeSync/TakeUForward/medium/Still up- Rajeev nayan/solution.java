@@ -4,24 +4,19 @@
  * URL: https://takeuforward.org/dashboard
  * Language: Java
  * Difficulty: Medium
- * Topics: Prep, Explore, My Spaces, Dashboard, Prep Hub, Planly, Community, Blogs
+ * Topics: Prep, Additionals, My Spaces, Dashboard, Prep Hub, DSA, SQL, Quantitative
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T19:49:54.618Z
+ * Synced: 2026-10-08T18:18:17.627Z
  */
 
 class Solution {
-    public int[] nextLargerElement(int[] arr) {
-        int n=arr.length;
-        int [] ans=new int[n];
-        Arrays.fill(ans,-1);
-        Deque<Integer>st=new ArrayDeque<>();
-        for(int i=0;i<arr.length;i++){
-           while(!st.isEmpty() && arr[i]>arr[st.peek()]){
-            ans[st.pop()]=arr[i];
-           }
-           st.push(i);
-        }
-      return ans;
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+
+        if (p.data != q.data)  return false;
+        
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
