@@ -7,10 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T06:47:00.322Z
+ * Synced: 2026-10-08T06:47:14.325Z
  */
 
-import java.util.*;
+mport java.util.*;
 import java.io.*;
  
 public class Solution {
@@ -35,7 +35,7 @@ public class Solution {
         }
         
         // Traverse from third last element to the first
-        for (int i = n - 3; i >= 0; i--) {
+        for (inti i = n - 3; i >= 0; i--) {
             int curr = arr.get(i);
             
             // Current element should be either smaller than min or larger than max
