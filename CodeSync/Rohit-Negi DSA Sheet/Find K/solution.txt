@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find K
+ * URL: https://www.naukri.com/code360/problems/find-k-th-smallest-element-in-bst_1069333
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-08T06:44:00.856Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    
+    // Class level variables taaki recursion ke beech state maintain rahe
+    private static int count;
+    private static int result;
+ 
+    public static int kthSmallest(TreeNode<Integer> root, int k) {
+        count = 0;
+        result = -1; 
+        
+        findKthSmallest(root, k);
+        
+        return result;
+    }
+    
+    private static void findKthSmallest(TreeNode<Integer> node, int k) {
+        // Base case: Agar node null hai toh wapas aa jao
+        if (node == null) {
+            return;
+        }
+        
+        // 1. Left Subtree ko pehle traverse karo (Kyunki wo chhote elements hote hain)
+        findKthSmallest(node.left, k);
+        
+        // 2. Current Node ko process karo
+        count++;
+        
+        // Check karo ki kya ye wo k-th node hai?
+        if (count == k) {
+            result = node.data;
+            return; // Early Exit: Ab aage dekhne ki zaroorat nahi hai
+        }
+        
+        // 3. Right Subtree ko tabhi traverse karo agar abhi tak k-th node nahi mila
+        if (count < k) {
+            findKthSmallest(node.right, k);
+        }
