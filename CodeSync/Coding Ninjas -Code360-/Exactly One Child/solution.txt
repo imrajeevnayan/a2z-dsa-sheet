@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T07:16:23.239Z
+ * Synced: 2026-10-08T07:39:51.439Z
  */
 
 // kyunki koi bhi node ke 2 children nahi hain.
@@ -43,10 +43,10 @@
                 // toh iska matlab ye node us existing path ke beech mein aa raha hai,
                 // jo ki branching imply karta hai (ya invalid structure).
                 return false;
+        // Edge case: Agar 0 ya 1 node hai, toh condition vacuously true maani ja sakti hai 
+ 
+public class Solution {
+    public static boolean hasExactlyOneChild(ArrayList<Integer> arr, int n) {
+import java.util.*;
+import java.io.*;
             }
-        }
-        
-        return true;
-    }
-}
-        // Edge case: Agar 0 ya 1 node hai, toh condition vacuously true maani ja sakti hai
