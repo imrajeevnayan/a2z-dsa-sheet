@@ -1,51 +1,47 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/boundary-traversal_790725
+ * URL: https://www.naukri.com/code360/problems/encode-the-message_699836
  * Language: All languages
  * Difficulty: Hard
- * Topics: Uncategorized
+ * Topics: Programming Fundamentals Clear all, Programming Fundamentals
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-06T20:47:07.347Z
+ * Synced: 2026-10-08T19:04:21.570Z
  */
 
 import java.util.*;
+import java.io.*;
  
 public class Solution {
-    public static List<Integer> traverseBoundary(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+    public static String encode(String message) {
+        // Agar string empty hai toh wapas aa jao
+        if (message.length() == 0) {
+            return "";
+        }
  
-        if (root == null) return ans;
- 
-        // Root
-        ans.add(root.data);
- 
-        // Left boundary (excluding leaf nodes)
-        addLeftBoundary(root.left, ans);
- 
-        // Leaf nodes
-        addLeaves(root.left, ans);
-        addLeaves(root.right, ans);
- 
-        // Right boundary (excluding leaf nodes), in reverse
-        addRightBoundary(root.right, ans);
- 
-        return ans;
-    }
- 
-    private static void addLeftBoundary(TreeNode node, List<Integer> ans) {
-        while (node != null) {
-            if (!isLeaf(node)) {
-                ans.add(node.data);
-            }
- 
-            if (node.left != null) {
-                node = node.left;
+        StringBuilder result = new StringBuilder();
+        int count = 1;
+        
+        // Loop 0 se n-2 tak chalega taaki hum current aur next ko compare kar sakein
+        for (int i = 0; i < message.length() - 1; i++) {
+            char curr = message.charAt(i);
+            char next = message.charAt(i + 1);
+            
+            if (curr == next) {
+                count++;
             } else {
-                node = node.right;
+                // Character badal gaya, toh purane wale ko add karo
+                result.append(curr);
+                result.append(count);
+                count = 1; // Count reset karo
             }
         }
+        
+        // Last character ko alag se handle karo (kyunki loop usse chhod deta hai)
+        result.append(message.charAt(message.length() - 1));
+        result.append(count);
+        
+        return result.toString();
     }
- 
-    private static void addRightBoundary(TreeNode node, List<Integer> ans) {
+}
