@@ -7,15 +7,25 @@
  * Topics: String, Stack, Bracket Sequences
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-08T12:13:21.499Z
+ * Synced: 2026-10-08T12:13:54.371Z
  */
 
-"(()())(())"
-"(()())(())(()(()))"
-"()()"
-"()()()"
-"()()()()(())"
-""
-"()()()"
-"()()()()(())"
-""
+// Agar balance > 1 hai, toh ye outermost nahi hai
+                if (balance > 1) {
+                    sb.append(c);
+                }
+            } else {
+                // Pehle balance ghatao, phir check karo
+                balance--;
+                
+                // Agar balance >= 1 hai (ghatane ke baad), toh ye outermost nahi hai
+                if (balance >= 1) {
+            if (c == '(') {
+                // Pehle balance badhao, phir check karo
+                balance++;
+                    sb.append(c);
+                }
+            }
+        }
+        
+        return sb.toString();
