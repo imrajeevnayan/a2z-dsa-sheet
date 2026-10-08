@@ -7,7 +7,7 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, 42.2%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T19:29:07.841Z
+ * Synced: 2026-10-08T19:29:11.416Z
  */
 
 return 1;
@@ -27,13 +27,13 @@ return 1;
         // Edge case: Empty list or single node is always palindrome
 public class Solution {
     public int lPalin(ListNode A) {
- */
- * }
- *     ListNode(int x) { val = x; next = null; }
- *     public ListNode next;
- *     public int val;
- * class ListNode {
- * Definition for singly-linked list.
-/**
+
 
 import java.util.Stack;
+        curr = A;
+        while (curr != null) {
+            // Agar value match nahi hui, toh palindrome nahi hai
+            if (curr.val != stack.pop()) {
+                return 0;
+            }
+            curr = curr.next;
