@@ -7,18 +7,32 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, 42.2%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T19:28:15.731Z
+ * Synced: 2026-10-08T19:29:06.794Z
  */
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     public int val;
- *     public ListNode next;
- *     ListNode(int x) { val = x; next = null; }
- * }
- */
-public class Solution {
-    public int lPalin(ListNode A) {
+return 1;
+        }
+
+        Stack<Integer> stack = new Stack<>();
+        ListNode curr = A;
+
+        // Step 1: Saare elements ko stack mein daalo
+        while (curr != null) {
+            stack.push(curr.val);
+            curr = curr.next;
+        }
+
+        // Step 2: Head se start karo aur stack ke top se compare karo
+        curr = A;
+        while (curr != null) {
+            // Agar value match nahi hui, toh palindrome nahi hai
+            if (curr.val != stack.pop()) {
+                return 0;
+            }
+            curr = curr.next;
+        }
+
+        // Agar pura loop chal gaya, toh sab match hua
+        return 1;
     }
 }
