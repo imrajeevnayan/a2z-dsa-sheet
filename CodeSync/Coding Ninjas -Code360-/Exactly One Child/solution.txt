@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Exactly One Child
+ * URL: https://www.naukri.com/code360/problems/h_920463
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-08T06:47:00.322Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static boolean hasExactlyOneChild(ArrayList<Integer> arr, int n) {
+        // Edge case: Agar 0 ya 1 node hai, toh condition vacuously true maani ja sakti hai 
+        // kyunki koi bhi node ke 2 children nahi hain.
+        if (n <= 2) {
+            return true;
+        }
+        
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        
+        // Last element is always a leaf. Second last is its parent.
+        // We initialize min and max with the last two elements.
+        if (arr.get(n - 1) < arr.get(n - 2)) {
+            min = arr.get(n - 1);
+            max = arr.get(n - 2);
+        } else {
+            min = arr.get(n - 2);
+            max = arr.get(n - 1);
+        }
+        
+        // Traverse from third last element to the first
+        for (int i = n - 3; i >= 0; i--) {
+            int curr = arr.get(i);
+            
+            // Current element should be either smaller than min or larger than max
+            // to maintain the single-child path property relative to the already processed suffix.
+            if (curr < min) {
+                min = curr;
+            } else if (curr > max) {
+                max = curr;
+            } else {
+                // Agar curr min aur max ke beech mein hai, 
+                // toh iska matlab ye node us existing path ke beech mein aa raha hai,
+                // jo ki branching imply karta hai (ya invalid structure).
+                return false;
