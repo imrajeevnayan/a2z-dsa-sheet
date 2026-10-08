@@ -7,14 +7,12 @@
  * Topics: Programming, Linked Lists, Description, Discussion, Submissions, Hints, Kth Node From Middle 30 Minutes Easy Asked in:, 49.5%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T18:14:14.636Z
+ * Synced: 2026-10-08T18:18:56.657Z
  */
 
 public ListNode getIntersectionNode(ListNode a, ListNode b) {
         // Edge case: Agar koi ek list empty hai
-        if (a == null || b == null) {
-     return null;
-        
+        if (a == null || b == null) return null;
         
         ListNode ptrA = a;
         ListNode ptrB = b;
