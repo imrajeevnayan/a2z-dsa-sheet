@@ -152,3 +152,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 113 | [Substring with Equal 0, 1 and 2](https://www.geeksforgeeks.org/problems/equal-0-1-and-23208/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:36 pm |
 | 114 | [Maximum Pair Sum with Equal Digit Sum](https://www.geeksforgeeks.org/problems/ruling-pair--141631/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:37 pm |
 | 115 | [Predecessor and Successor in BST](https://www.geeksforgeeks.org/problems/predecessor-and-successor/1) | GeeksForGeeks | Medium | 07 Oct 2026 | 11:41 pm |
+| 116 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | LeetCode | Easy | 08 Oct 2026 | 05:44 pm |
