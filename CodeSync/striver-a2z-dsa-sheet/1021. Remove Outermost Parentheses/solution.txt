@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1021. Remove Outermost Parentheses
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=daily-question&envId=2026-10-08
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-08T12:10:17.102Z
+ */
+
+Input: s = "(()())(())"
+Output: "()()()"
+Explanation: 
+The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
+After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
