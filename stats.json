@@ -1,12 +1,12 @@
 {
-  "totalSolved": 114,
+  "totalSolved": 115,
   "currentStreak": 13,
   "maxStreak": 13,
   "lastSyncDate": "2026-10-08",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 39,
-    "medium": 63,
+    "medium": 64,
     "hard": 6,
     "basic": 6
   },
@@ -124,7 +124,8 @@
     "GeeksForGeeks_Substring_with_Equal_0,_1_and_2": true,
     "GeeksForGeeks_Maximum_Pair_Sum_with_Equal_Digit_Sum": true,
     "GeeksForGeeks_Predecessor_and_Successor_in_BST": true,
-    "LeetCode_Remove_Outermost_Parentheses": true
+    "LeetCode_Remove_Outermost_Parentheses": true,
+    "LeetCode_Maximum_Twin_Sum_of_a_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -139,7 +140,7 @@
     "2026-10-05": 8,
     "2026-10-06": 6,
     "2026-10-07": 7,
-    "2026-10-08": 1
+    "2026-10-08": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -253,6 +254,7 @@
     "Substring with Equal 0, 1 and 2",
     "Maximum Pair Sum with Equal Digit Sum",
     "Predecessor and Successor in BST",
-    "Remove Outermost Parentheses"
+    "Remove Outermost Parentheses",
+    "Maximum Twin Sum of a Linked List"
   ]
 }
