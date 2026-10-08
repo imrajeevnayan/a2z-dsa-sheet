@@ -1,0 +1,43 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Convert String
+ * URL: https://www.naukri.com/code360/problems/convert-string_1062635
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Programming Fundamentals Clear all, Programming Fundamentals
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-08T19:01:08.264Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static String convertString(String str) {
+        if (str == null || str.length() == 0) {
+            return "";
+        }
+ 
+        StringBuilder sb = new StringBuilder();
+        boolean nextUpper = true;
+ 
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            
+            if (c == ' ') {
+                sb.append(c);
+                nextUpper = true;
+            } else {
+                if (nextUpper) {
+                    sb.append(Character.toUpperCase(c));
+                    nextUpper = false;
+                } else {
+                    sb.append(Character.toLowerCase(c));
+                }
+            }
+        }
+        
+        return sb.toString();
+    }
+}
