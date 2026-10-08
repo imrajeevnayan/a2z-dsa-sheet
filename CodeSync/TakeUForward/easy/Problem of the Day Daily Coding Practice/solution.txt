@@ -1,0 +1,22 @@
+/*
+ * Platform: TakeUForward
+ * Problem: Problem of the Day: Daily Coding Practice
+ * URL: https://takeuforward.org/potd
+ * Language: 20 per page
+ * Difficulty: Easy
+ * Topics: Prep, Additionals, My Spaces, Dashboard, Prep Hub, DSA, SQL, Quantitative
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-08T18:18:31.985Z
+ */
+
+class Solution {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+
+        if (p.data != q.data)  return false;
+        
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    }
+}
