@@ -2,17 +2,31 @@
  * Platform: LeetCode
  * Problem: 2130. Maximum Twin Sum of a Linked List
  * URL: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T17:45:40.420Z
+ * Synced: 2026-10-08T17:45:43.677Z
  */
 
-Input: head = [5,4,2,1]
-Output: 6
-Explanation:
-Nodes 0 and 1 are the twins of nodes 3 and 2, respectively. All have twin sum = 6.
-There are no other nodes with twins in the linked list.
-Thus, the maximum twin sum of the linked list is 6.
+class Solution {
+    public int pairSum(ListNode head) {
+        // Step 1: Find the middle of the linked list
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        // Step 2: Reverse the second half
+        ListNode prev = null;
+
+        while (slow != null) {
+            ListNode next = slow.next;
+            slow.next = prev;
+            prev = slow;
+            slow = next;
+        }
+
+        // Step 3: Compare twin nodes
