@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T06:44:00.856Z
+ * Synced: 2026-10-08T06:44:01.249Z
  */
 
-import java.util.*;
- 
 public class Solution {
     
     // Class level variables taaki recursion ke beech state maintain rahe
@@ -49,3 +47,4 @@ public class Solution {
         if (count < k) {
             findKthSmallest(node.right, k);
         }
+    }
