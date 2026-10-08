@@ -1,32 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 1021. Remove Outermost Parentheses
- * URL: https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=daily-question&envId=2026-10-08
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=daily-question&envId=2026-10-08
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-08T12:10:19.860Z
+ * Synced: 2026-10-08T12:13:21.499Z
  */
 
-class Solution {
-    public String removeOuterParentheses(String s) {
-        StringBuilder result = new StringBuilder();
-        int depth = 0;
-        for (char ch : s.toCharArray()) {
-            if (ch == '(') {
-                if (depth > 0) {
-                    result.append(ch);
-                }
-                depth++;
-            }
-            else {
-                depth--;
-                if (depth > 0) {
-                    result.append(ch);
-                }
-            }
-        }
-        return result.toString();
-    }
+"(()())(())"
+"(()())(())(()(()))"
+"()()"
+"()()()"
+"()()()()(())"
+""
+"()()()"
+"()()()()(())"
+""
