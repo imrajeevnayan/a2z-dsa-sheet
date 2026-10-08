@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Bottom View Of Binary Tree
+ * URL: https://www.naukri.com/code360/problems/bottom-view-of-binary-tree_893110
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 12665 ms
+ * Memory: N/A
+ * Synced: 2026-10-08T19:07:31.432Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static List<Integer> bottomView(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        if (root == null) return result;
+ 
+        // Map: Key = Horizontal Distance, Value = Node's Data
+        // TreeMap automatically sorts keys (HD) so we get left-to-right order
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        
+        // Queue for BFS: Stores pair of (Node, HorizontalDistance)
+        Queue<Pair> queue = new LinkedList<>();
+        queue.add(new Pair(root, 0));
+ 
+        while (!queue.isEmpty()) {
+            Pair current = queue.poll();
+            TreeNode node = current.node;
+            int hd = current.hd;
+ 
+            // Put the node in map. If same HD exists, it will be overwritten 
+            // by the later (bottom-most) node because we are doing BFS.
+            map.put(hd, node.val);
+ 
+            if (node.left != null) {
+                queue.add(new Pair(node.left, hd - 1));
+            }
+            if (node.right != null) {
+                queue.add(new Pair(node.right, hd + 1));
+            }
+        }
+ 
+        // Add all values from the map to the result list
+        for (int val : map.values()) {
+            result.add(val);
+        }
+ 
+        return result;
+    }
