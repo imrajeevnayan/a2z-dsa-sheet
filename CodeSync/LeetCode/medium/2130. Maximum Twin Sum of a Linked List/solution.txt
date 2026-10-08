@@ -7,22 +7,25 @@
  * Topics: Linked List, Two Pointers, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-08T18:07:09.064Z
+ * Synced: 2026-10-08T18:07:19.562Z
  */
 
-int maxSum = 0;
-        
-        while (secondHalf != null) {
-            int currentSum = firstHalf.val + secondHalf.val;
-            maxSum = Math.max(maxSum, currentSum);
-            
-            firstHalf = firstHalf.next;
-            secondHalf = secondHalf.next;
-        }
-        
-        return maxSum;
-    }
-    
-    // Helper function to reverse linked list
-    
 }
+        
+        return prev;
+    }
+    public int pairSum(ListNode head) {
+        // Step 1: Middle node dhundo
+        ListNode slow = head, fast = head;
+        
+class Solution {
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        
+        while (curr != null) {
+            ListNode nextNode = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextNode;
+        // Helper function to reverse linked list
