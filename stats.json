@@ -1,11 +1,11 @@
 {
-  "totalSolved": 117,
+  "totalSolved": 118,
   "currentStreak": 14,
   "maxStreak": 14,
   "lastSyncDate": "2026-10-09",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 39,
+    "easy": 40,
     "medium": 66,
     "hard": 6,
     "basic": 6
@@ -127,7 +127,8 @@
     "LeetCode_Remove_Outermost_Parentheses": true,
     "LeetCode_Maximum_Twin_Sum_of_a_Linked_List": true,
     "GeeksForGeeks_Rotate_a_Linked_List": true,
-    "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true
+    "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true,
+    "GeeksForGeeks_Minimum_Operations_to_Reach_n": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -143,7 +144,7 @@
     "2026-10-06": 6,
     "2026-10-07": 7,
     "2026-10-08": 3,
-    "2026-10-09": 1
+    "2026-10-09": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -260,6 +261,7 @@
     "Remove Outermost Parentheses",
     "Maximum Twin Sum of a Linked List",
     "Rotate a Linked List",
-    "Minimum Insertions to Balance a Parentheses String"
+    "Minimum Insertions to Balance a Parentheses String",
+    "Minimum Operations to Reach n"
   ]
 }

@@ -156,3 +156,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 117 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | LeetCode | Medium | 08 Oct 2026 | 11:37 pm |
 | 118 | [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | GeeksForGeeks | Medium | 08 Oct 2026 | 11:39 pm |
 | 119 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | LeetCode | Medium | 09 Oct 2026 | 12:03 pm |
+| 120 | [Minimum Operations to Reach n](https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1) | GeeksForGeeks | Easy | 09 Oct 2026 | 03:08 pm |
