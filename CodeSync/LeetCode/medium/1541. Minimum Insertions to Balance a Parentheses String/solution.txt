@@ -7,25 +7,27 @@
  * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T06:31:44.991Z
+ * Synced: 2026-10-09T06:32:21.528Z
  */
 
-// Too many ')', need to insert a '('
-                    insertions++;
-                    balance += 2; // Inserting '(' adds a requirement of 2 ')', but we already have 1, so net +1? 
-                                  // Actually, simpler logic: balance becomes 1 because we inserted '(' and used current ')'
-                                  // Let's stick to standard logic:
-                                  // If balance < 0, it means we have an extra ')'. We insert '('.
-                                  // Now this new '(' needs 2 ')'. We just consumed 1. So we still need 1 more.
-                                  // So balance should become 1.
-                    balance = 1; 
+res++;      // Insert '('
+                if (need < 0) {
+                need--;         // Found a ')', so we satisfy one need
+                
+                // If need < 0, it means we have a ')' without a matching '('
+                need += 2;      // Current '(' needs 2 ')'
+            } else {
+                    res++;      // Insert ')'
+                    need--;     // One less ')' needed now
                 }
-            }
-        }
+                // We must insert another ')' to complete the previous '('.
+                if (need % 2 == 1) {
+                // If need is odd, it means we have a single ')' waiting for its pair.
+            if (c == '(') {
+        for (char c : s.toCharArray()) {
         
-        // Add remaining required closing brackets
-        insertions += balance;
-        
-        return insertions;
-    }
-}
+        int need = 0;   // Number of right parentheses needed
+        int res = 0;    // Count of insertions
+    public int minInsertions(String s) {
+class Solution {
+                    need += 2;  // This new '(' needs 2 ')', but we just processed 1 ')',
