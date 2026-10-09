@@ -1,12 +1,12 @@
 {
-  "totalSolved": 116,
-  "currentStreak": 13,
-  "maxStreak": 13,
-  "lastSyncDate": "2026-10-08",
-  "todayCount": 3,
+  "totalSolved": 117,
+  "currentStreak": 14,
+  "maxStreak": 14,
+  "lastSyncDate": "2026-10-09",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 39,
-    "medium": 65,
+    "medium": 66,
     "hard": 6,
     "basic": 6
   },
@@ -126,7 +126,8 @@
     "GeeksForGeeks_Predecessor_and_Successor_in_BST": true,
     "LeetCode_Remove_Outermost_Parentheses": true,
     "LeetCode_Maximum_Twin_Sum_of_a_Linked_List": true,
-    "GeeksForGeeks_Rotate_a_Linked_List": true
+    "GeeksForGeeks_Rotate_a_Linked_List": true,
+    "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -141,7 +142,8 @@
     "2026-10-05": 8,
     "2026-10-06": 6,
     "2026-10-07": 7,
-    "2026-10-08": 3
+    "2026-10-08": 3,
+    "2026-10-09": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -257,6 +259,7 @@
     "Predecessor and Successor in BST",
     "Remove Outermost Parentheses",
     "Maximum Twin Sum of a Linked List",
-    "Rotate a Linked List"
+    "Rotate a Linked List",
+    "Minimum Insertions to Balance a Parentheses String"
   ]
 }
