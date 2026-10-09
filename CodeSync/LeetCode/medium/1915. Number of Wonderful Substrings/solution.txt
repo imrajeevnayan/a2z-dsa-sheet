@@ -1,17 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 1915. Number of Wonderful Substrings
- * URL: https://leetcode.com/problems/number-of-wonderful-substrings/description/?envType=problem-list-v2&envId=da2hb3jj
+ * URL: https://leetcode.com/problems/number-of-wonderful-substrings/?envType=problem-list-v2&envId=da2hb3jj
  * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Hash Table, String, Bit Manipulation, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T18:14:00.937Z
+ * Synced: 2026-10-09T18:14:59.226Z
  */
 
-class Solution {
-    public long wonderfulSubstrings(String word) {
+// Case 1: Substring with ALL characters having even frequency
+            // If same mask appeared before, the substring between them has even counts for all chars
+            result += count[mask];
+            
+            // Case 2: Substring with EXACTLY ONE character having odd frequency
+            // Try flipping each of the 10 bits one by one
+            for (int i = 0; i < 10; i++) {
+                int targetMask = mask ^ (1 << i);
+                result += count[targetMask];
+            }
+            
+            // Update the count for the current mask
+            count[mask]++;
+        }
         
+        return result;
     }
 }
