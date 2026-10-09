@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 61. Rotate List
- * URL: https://leetcode.com/problems/rotate-list/submissions/2167585840/
+ * URL: https://leetcode.com/problems/rotate-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 44.34 MB
- * Synced: 2026-10-09T18:26:03.288Z
+ * Synced: 2026-10-09T18:36:33.266Z
  */
 
 k = k % length;
@@ -30,3 +30,4 @@ k = k % length;
         // 1. Edge Cases Handle Karo (Safety First!)
     public ListNode rotateRight(ListNode head, int k) {
 class Solution {
+        // Humein us node tak jaana hai jiska next 'new head' hoga
