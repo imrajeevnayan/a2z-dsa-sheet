@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Counting Binary Strings with No Consecutive 1's
+ * URL: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1
+ * Language: class Solution: def countStrings(self, n): if n<3: return n+1 a, b = 2, 3 # dp[1], dp[2] for _ in range(3, n + 1): a, b = b, a + b return b
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Morgan Stanley, Microsoft, Snapdeal, Swiggy, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-09T09:39:44.306Z
+ */
+
+class Solution {
+    int countStrings(int n) {
+        // Base cases
+        if (n == 1) return 2;
+        if (n == 2) return 3;
+
+        int prev2 = 2; // count for n=1
+        int prev1 = 3; // count for n=2
+        int current = 0;
+
+        for (int i = 3; i <= n; i++) {
+            current = prev1 + prev2;
+            prev2 = prev1;
+            prev1 = current;
+        }
+
+        return current;
+    }
+}
