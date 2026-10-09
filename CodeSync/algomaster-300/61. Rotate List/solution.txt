@@ -7,13 +7,11 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-09T18:25:24.437Z
+ * Synced: 2026-10-09T18:25:37.899Z
  */
 
-}
-            return head; // Agar k length ka multiple hai, toh list wapas same aa jayegi
-        k = k % length;
-        if (k == 0) {
+k = k % length;
+        if (k == 0) return head; // Agar k length ka multiple hai, toh list wapas same aa jayegi
             length++;
         }
 
@@ -22,10 +20,13 @@
             tail = tail.next;
         ListNode tail = head;
         int length = 1;
-
         // 2. Length Find Karo aur Tail Node Pakdo
         
-        if (head == null || head.next == null || k == 0)return head;
-        // 1. Edge Cases Handle Karo (Safety First!)
-    public ListNode rotateRight(ListNode head, int k) {
-class Solution {
+
+        // 4. Circular Linked List Banao
+        tail.next = head;
+
+        // 5. New Tail Find Karo (Right Rotation ke liye: length - k steps)
+        // Humein us node tak jaana hai jiska next 'new head' hoga
+        ListNode newTail = head;
+        for (int i = 0; i < length - k - 1; i++) {
