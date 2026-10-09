@@ -7,27 +7,24 @@
  * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T06:32:21.528Z
+ * Synced: 2026-10-09T06:33:25.361Z
  */
 
-res++;      // Insert '('
-                if (need < 0) {
-                need--;         // Found a ')', so we satisfy one need
-                
-                // If need < 0, it means we have a ')' without a matching '('
-                need += 2;      // Current '(' needs 2 ')'
+need--;
+                // ')' mila, toh need kam karo
+                need += 2;
             } else {
-                    res++;      // Insert ')'
-                    need--;     // One less ')' needed now
                 }
-                // We must insert another ')' to complete the previous '('.
-                if (need % 2 == 1) {
-                // If need is odd, it means we have a single ')' waiting for its pair.
-            if (c == '(') {
-        for (char c : s.toCharArray()) {
-        
-        int need = 0;   // Number of right parentheses needed
-        int res = 0;    // Count of insertions
-    public int minInsertions(String s) {
-class Solution {
-                    need += 2;  // This new '(' needs 2 ')', but we just processed 1 ')',
+                // Naya '(' shuru hua, uske liye 2 ')' chahiye
+                    insertions++; // Ek ')' insert kiya
+                    need--;       // Ab need puri ho gayi uske liye
+                if (need % 2 != 0) {
+                // Agar need negative ho gayi, iska matlab ')' zyada hai bina '(' ke
+                if (need < 0) {
+                    insertions++; // Ek '(' insert karo
+                    need += 2;    // Us '(' ke liye 2 ')' chahiye the, 
+                                  // lekin current ')' use ho chuka hai, toh net need 1 bachti hai.
+                                  // Logic: need was -1. Add 2 -> need becomes 1.
+                }
+            }
+        }
