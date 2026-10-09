@@ -7,38 +7,25 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Greedy, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T16:01:42.718Z
+ * Synced: 2026-10-09T09:37:51.817Z
  */
 
 class Solution {
     public int minOperation(int n) {
-        // Edge Case
-        if (n == 0) return 0;
+        int operations = 0;
 
-        // Step 1: DP array banayo size n+1
-        // dp[i] will store min operations to reach 'i' from '0'
-        int[] dp = new int[n + 1];
-
-        // Step 2: Base Case set karo
-        dp[0] = 0; 
-
-        // Step 3: Loop chalao 1 se lekar n tak
-        for (int i = 1; i <= n; i++) {
-
-            // Default Assumption: Hum pichle number (i-1) se '+1' operation karke aaye hain.
-            // Toh cost hogi: dp[i-1] + 1
-            dp[i] = dp[i - 1] + 1;
-
-            // Optimization Check: Agar current number 'i' EVEN hai, 
-            // toh shayad humne usse 'i/2' se '*2' operation karke paya ho.
-            if (i % 2 == 0) {
-                // Compare existing cost with the cost of coming from half
-                // Cost via doubling: dp[i/2] + 1
-                dp[i] = Math.min(dp[i], dp[i / 2] + 1);
+        // Jab tak n 0 nahi ho jata
+        while (n > 0) {
+            if (n % 2 == 0) {
+                // Agar even hai, toh divide by 2 (reverse of multiply by 2)
+                n = n / 2;
+            } else {
+                // Agar odd hai, toh subtract 1 (reverse of add 1)
+                n = n - 1;
             }
+            operations++;
         }
 
-        // Final answer is stored in dp[n]
-        return dp[n];
+        return operations;
     }
 }
