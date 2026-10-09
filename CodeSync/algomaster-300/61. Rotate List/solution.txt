@@ -1,30 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: 61. Rotate List
- * URL: https://leetcode.com/problems/rotate-list/description/
+ * URL: https://leetcode.com/problems/rotate-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T18:21:17.052Z
+ * Synced: 2026-10-09T18:25:14.979Z
  */
 
-ListNode newTail = head;
+}
 
-        for (int i = 1; i < steps; i++) {
+        // 4. Circular Linked List Banao
+        tail.next = head;
+
+        // 5. New Tail Find Karo (Right Rotation ke liye: length - k steps)
+        // Humein us node tak jaana hai jiska next 'new head' hoga
+        ListNode newTail = head;
+        for (int i = 0; i < length - k - 1; i++) {
             newTail = newTail.next;
         }
 
-        // New head is next of new tail
+        // 6. Circle Todo aur New Head Set Karo
         ListNode newHead = newTail.next;
-
-        // Break the circle
-        newTail.next = null;
+        newTail.next = null; // Breaking the cycle is crucial!
 
         return newHead;
     }
 }
-
-        // Find new tail
-        int steps = n - k;
