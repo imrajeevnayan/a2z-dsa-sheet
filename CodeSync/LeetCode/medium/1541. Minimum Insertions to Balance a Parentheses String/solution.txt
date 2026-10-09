@@ -1,17 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: 1541. Minimum Insertions to Balance a Parentheses String
- * URL: https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/?envType=daily-question&envId=2026-10-09
+ * URL: https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/?envType=daily-question&envId=2026-10-09
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T06:30:55.562Z
+ * Synced: 2026-10-09T06:31:44.991Z
  */
 
-class Solution {
-    public int minInsertions(String s) {
+// Too many ')', need to insert a '('
+                    insertions++;
+                    balance += 2; // Inserting '(' adds a requirement of 2 ')', but we already have 1, so net +1? 
+                                  // Actually, simpler logic: balance becomes 1 because we inserted '(' and used current ')'
+                                  // Let's stick to standard logic:
+                                  // If balance < 0, it means we have an extra ')'. We insert '('.
+                                  // Now this new '(' needs 2 ')'. We just consumed 1. So we still need 1 more.
+                                  // So balance should become 1.
+                    balance = 1; 
+                }
+            }
+        }
         
+        // Add remaining required closing brackets
+        insertions += balance;
+        
+        return insertions;
     }
 }
