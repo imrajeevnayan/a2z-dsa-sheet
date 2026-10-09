@@ -157,3 +157,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 118 | [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | GeeksForGeeks | Medium | 08 Oct 2026 | 11:39 pm |
 | 119 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | LeetCode | Medium | 09 Oct 2026 | 12:03 pm |
 | 120 | [Minimum Operations to Reach n](https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1) | GeeksForGeeks | Easy | 09 Oct 2026 | 03:08 pm |
+| 121 | [Consecutive 1's not allowed](https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1) | GeeksForGeeks | Medium | 09 Oct 2026 | 03:09 pm |
