@@ -2,37 +2,13 @@
  * Platform: LeetCode
  * Problem: 61. Rotate List
  * URL: https://leetcode.com/problems/rotate-list/description/
- * Language: Problem List
+ * Language: Text
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-29T13:04:10.477Z
+ * Synced: 2026-10-09T18:21:10.307Z
  */
 
-// Make the list circular
-        tail.next = head;
-
-
-        if (k == 0) {
-            return head;
-        }
-        // Avoid unnecessary rotations
-        k = k % n;
-
-        }
-
-            n++;
-        // Find new tail
-        int steps = n - k;
-        ListNode newTail = head;
-
-        for (int i = 1; i < steps; i++) {
-            newTail = newTail.next;
-        }
-
-        // New head is next of new tail
-        ListNode newHead = newTail.next;
-
-        // Break the circle
-        newTail.next = null;
+Input: head = [1,2,3,4,5], k = 2
+Output: [4,5,1,2,3]
