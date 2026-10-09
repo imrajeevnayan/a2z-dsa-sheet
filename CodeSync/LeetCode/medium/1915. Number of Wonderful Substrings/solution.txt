@@ -2,18 +2,16 @@
  * Platform: LeetCode
  * Problem: 1915. Number of Wonderful Substrings
  * URL: https://leetcode.com/problems/number-of-wonderful-substrings/description/?envType=problem-list-v2&envId=da2hb3jj
- * Language: Text
+ * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Hash Table, String, Bit Manipulation, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T18:13:57.723Z
+ * Synced: 2026-10-09T18:14:00.937Z
  */
 
-Input: word = "aba"
-Output: 4
-Explanation: The four wonderful substrings are underlined below:
-- "aba" -> "a"
-- "aba" -> "b"
-- "aba" -> "a"
-- "aba" -> "aba"
+class Solution {
+    public long wonderfulSubstrings(String word) {
+        
+    }
+}
