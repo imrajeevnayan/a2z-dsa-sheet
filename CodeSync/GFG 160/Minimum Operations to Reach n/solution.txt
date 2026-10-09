@@ -7,11 +7,9 @@
  * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Greedy, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T15:45:43.372Z
+ * Synced: 2026-10-09T09:37:16.146Z
  */
 
-class Solution {
-    public int minOperation(int n) {
-        // code here.
-    }
-}
+Input: n = 8
+Output: 4
+Explanation: 0 + 1 = 1 --> 1 + 1 = 2 --> 2 * 2 = 4 --> 4 * 2 = 8.
