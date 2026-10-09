@@ -1,32 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 61. Rotate List
- * URL: https://leetcode.com/problems/rotate-list/
+ * URL: https://leetcode.com/problems/rotate-list/submissions/2167585840/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-09T18:25:37.899Z
+ * Memory: 44.34 MB
+ * Synced: 2026-10-09T18:26:03.288Z
  */
 
 k = k % length;
         if (k == 0) return head; // Agar k length ka multiple hai, toh list wapas same aa jayegi
-            length++;
-        }
-
         // 3. Effective K Calculate Karo (Optimization)
-        while (tail.next != null) {
-            tail = tail.next;
-        ListNode tail = head;
-        int length = 1;
-        // 2. Length Find Karo aur Tail Node Pakdo
-        
-
         // 4. Circular Linked List Banao
         tail.next = head;
 
         // 5. New Tail Find Karo (Right Rotation ke liye: length - k steps)
-        // Humein us node tak jaana hai jiska next 'new head' hoga
-        ListNode newTail = head;
-        for (int i = 0; i < length - k - 1; i++) {
+        }
+
+            tail = tail.next;
+            length++;
+        int length = 1;
+        while (tail.next != null) {
+        ListNode tail = head;
+        // 2. Length Find Karo aur Tail Node Pakdo
+        
+        if (head == null || head.next == null || k == 0) return head;
+        // 1. Edge Cases Handle Karo (Safety First!)
+    public ListNode rotateRight(ListNode head, int k) {
+class Solution {
