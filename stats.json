@@ -1,12 +1,12 @@
 {
-  "totalSolved": 119,
+  "totalSolved": 120,
   "currentStreak": 14,
   "maxStreak": 14,
   "lastSyncDate": "2026-10-09",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 40,
-    "medium": 67,
+    "medium": 68,
     "hard": 6,
     "basic": 6
   },
@@ -129,7 +129,8 @@
     "GeeksForGeeks_Rotate_a_Linked_List": true,
     "LeetCode_Minimum_Insertions_to_Balance_a_Parentheses_String": true,
     "GeeksForGeeks_Minimum_Operations_to_Reach_n": true,
-    "GeeksForGeeks_Consecutive_1's_not_allowed": true
+    "GeeksForGeeks_Consecutive_1's_not_allowed": true,
+    "LeetCode_Number_of_Wonderful_Substrings": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -145,7 +146,7 @@
     "2026-10-06": 6,
     "2026-10-07": 7,
     "2026-10-08": 3,
-    "2026-10-09": 3
+    "2026-10-09": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -264,6 +265,7 @@
     "Rotate a Linked List",
     "Minimum Insertions to Balance a Parentheses String",
     "Minimum Operations to Reach n",
-    "Consecutive 1's not allowed"
+    "Consecutive 1's not allowed",
+    "Number of Wonderful Substrings"
   ]
 }

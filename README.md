@@ -158,3 +158,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 119 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | LeetCode | Medium | 09 Oct 2026 | 12:03 pm |
 | 120 | [Minimum Operations to Reach n](https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1) | GeeksForGeeks | Easy | 09 Oct 2026 | 03:08 pm |
 | 121 | [Consecutive 1's not allowed](https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1) | GeeksForGeeks | Medium | 09 Oct 2026 | 03:09 pm |
+| 122 | [Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | LeetCode | Medium | 09 Oct 2026 | 11:45 pm |
