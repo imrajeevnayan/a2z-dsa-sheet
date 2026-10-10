@@ -163,3 +163,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 124 | [Divisibility by 8](https://www.geeksforgeeks.org/problems/check-if-a-number-is-divisible-by-83957/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:55 pm |
 | 125 | [Longest Consecutive 1's](https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:56 pm |
 | 126 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | LeetCode | Easy | 10 Oct 2026 | 10:59 pm |
+| 127 | [Merge Two Sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1) | GeeksForGeeks | Medium | 10 Oct 2026 | 11:03 pm |
