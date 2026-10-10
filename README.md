@@ -160,3 +160,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 121 | [Consecutive 1's not allowed](https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1) | GeeksForGeeks | Medium | 09 Oct 2026 | 03:09 pm |
 | 122 | [Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | LeetCode | Medium | 09 Oct 2026 | 11:45 pm |
 | 123 | [XOR of a Number Range](https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:51 pm |
+| 124 | [Divisibility by 8](https://www.geeksforgeeks.org/problems/check-if-a-number-is-divisible-by-83957/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:55 pm |
