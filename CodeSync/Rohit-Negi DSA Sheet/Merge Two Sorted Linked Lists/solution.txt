@@ -7,10 +7,23 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T17:29:46.705Z
+ * Synced: 2026-10-10T17:29:48.147Z
  */
 
-Input:
-  
-Output: 2 -> 3 -> 5 -> 10 -> 15 -> 20 -> 40
-Explanation:
+/*  Structure of Linked List Node
+class Node
+{
+    int data;
+    Node next;
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+} */
+
+class Solution {
+    Node sortedMerge(Node head1, Node head2) {
+        // code here
+        
+    }
+}
