@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: All Pairs with Diff k
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Related Articles, Count Pairs Difference Equal K
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:19:27.863Z
+ */
+
+class Solution {
+    int countPairs(int[] arr, int k) {
+        // code here
+        
+    }
+}
