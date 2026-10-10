@@ -5,29 +5,13 @@
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Binary Search, Greedy, Sorting, Heap (Priority Queue)
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T17:36:41.807Z
+ * Synced: 2026-10-10T17:44:23.459Z
  */
 
-}
-        }
-        
-    
-        // Simpler accurate approach after BS:
-        // Reset result and recalculate precisely
-        result = 0;
-        long opsUsed = 0;
-        
-        // Pehle sabko threshold tak lao
-        List<Long> atThreshold = new ArrayList<>();
-        for (long d : diffs) {
-            if (d > threshold) {
-                opsUsed += (d - threshold);
-                atThreshold.add(threshold);
-            } else {
-                result += d * d;
-            }
-        }
-        
-        // Ab remainingOps ko atThreshold list mein evenly distribute karo
+import java.util.*;
+
+class Solution {
+    public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
+        // Total operations combine karo
