@@ -2,28 +2,34 @@
  * Platform: GeeksforGeeks
  * Problem: Merge Two Sorted Linked Lists
  * URL: https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
- * Language: Java (21)
+ * Language: class Solution: def sortedMerge(self, head1, head2): dummy = Node(0) temp = dummy while head1 is not None and head2 is not None: # pick smaller & add to merged ll if head1.data <= head2.data: temp.next = head1 head1 = head1.next else: temp.next = head2 head2 = head2.next temp = temp.next # add remaining if head1 is not None: temp.next = head1 else: temp.next = head2 return dummy.next
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T17:29:48.147Z
+ * Synced: 2026-10-10T17:30:30.958Z
  */
-
-/*  Structure of Linked List Node
-class Node
-{
-    int data;
-    Node next;
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-} */
 
 class Solution {
     Node sortedMerge(Node head1, Node head2) {
-        // code here
+       ListNode dummy = new ListNode(-1); // fake starting node
+              ListNode tail = dummy;
+
+              while ( != null && list2 != null) {
+                  if (list1.val <= list2.val) {
+                      tail.next = list1;
+                      list1 = list1.next;
+                  } else {
+                      tail.next = list2;
+                      list2 = list2.next;
+                  }
+                  tail = tail.next;
+              }
+
+              // ek list khatam ho gayi? baaki wali seedha attach karo
+              tail.next = (list1 != null) ? list1 : list2;
+
+              return dummy.next;
         
     }
 }
