@@ -1,12 +1,12 @@
 {
-  "totalSolved": 125,
+  "totalSolved": 126,
   "currentStreak": 15,
   "maxStreak": 15,
   "lastSyncDate": "2026-10-10",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 44,
-    "medium": 69,
+    "medium": 70,
     "hard": 6,
     "basic": 6
   },
@@ -135,7 +135,8 @@
     "GeeksForGeeks_Divisibility_by_8": true,
     "GeeksForGeeks_Longest_Consecutive_1's": true,
     "LeetCode_Merge_Two_Sorted_Lists": true,
-    "GeeksForGeeks_Merge_Two_Sorted_Linked_Lists": true
+    "GeeksForGeeks_Merge_Two_Sorted_Linked_Lists": true,
+    "LeetCode_Minimum_Sum_of_Squared_Difference": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -152,7 +153,7 @@
     "2026-10-07": 7,
     "2026-10-08": 3,
     "2026-10-09": 4,
-    "2026-10-10": 5
+    "2026-10-10": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -277,6 +278,7 @@
     "Divisibility by 8",
     "Longest Consecutive 1's",
     "Merge Two Sorted Lists",
-    "Merge Two Sorted Linked Lists"
+    "Merge Two Sorted Linked Lists",
+    "Minimum Sum of Squared Difference"
   ]
 }
