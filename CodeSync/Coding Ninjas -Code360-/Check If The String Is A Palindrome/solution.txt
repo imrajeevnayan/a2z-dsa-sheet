@@ -1,0 +1,44 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Check If The String Is A Palindrome
+ * URL: https://www.naukri.com/code360/problems/easy_9526388
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1394 ms
+ * Memory: N/A
+ * Synced: 2026-10-10T18:48:09.905Z
+ */
+
+public class Solution {
+    public static boolean checkPalindrome(String str) {
+        if (str == null || str.isEmpty()) return true;
+        
+        int left = 0;
+        int right = str.length() - 1;
+        
+        while (left < right) {
+            // Left pointer ko tab tak badhao jab tak alphanumeric na mile
+            while (left < right && !Character.isLetterOrDigit(str.charAt(left))) {
+                left++;
+            }
+            
+            // Right pointer ko tab tak ghatao jab tak alphanumeric na mile
+            while (left < right && !Character.isLetterOrDigit(str.charAt(right))) {
+                right--;
+            }
+            
+            // Case-insensitive comparison karo
+            if (Character.toLowerCase(str.charAt(left)) != 
+                Character.toLowerCase(str.charAt(right))) {
+                return false;
+            }
+            
+            // Dono pointers ko center ki taraf move karo
+            left++;
+            right--;
+        }
+        
+        return true;
+    }
+}
