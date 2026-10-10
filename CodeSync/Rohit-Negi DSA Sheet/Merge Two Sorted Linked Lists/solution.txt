@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Merge Two Sorted Linked Lists
+ * URL: https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Accolite, Amazon, Microsoft, Samsung
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:29:46.705Z
+ */
+
+Input:
+  
+Output: 2 -> 3 -> 5 -> 10 -> 15 -> 20 -> 40
+Explanation:
