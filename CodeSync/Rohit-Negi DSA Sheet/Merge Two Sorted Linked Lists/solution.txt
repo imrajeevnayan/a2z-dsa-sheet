@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Accolite, Amazon, Microsoft, Samsung
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T17:32:18.363Z
+ * Synced: 2026-10-10T17:32:22.538Z
  */
 
 class Solution {
@@ -21,7 +21,7 @@ class Solution {
                       head1 = head1.next;
                   } else {
                       tail.next = head2;
-                      hea2 = list2.next;
+                      head2 = hea2.next;
                   }
                   tail = tail.next;
               }
