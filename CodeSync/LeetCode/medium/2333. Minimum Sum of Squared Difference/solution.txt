@@ -7,27 +7,27 @@
  * Topics: Array, Binary Search, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-10T17:36:34.319Z
+ * Synced: 2026-10-10T17:36:41.807Z
  */
 
-// Edge case: Agar total operations saare differences ko 0 karne ke liye kaafi hain
-        if (totalOps >= sumDiffs) return 0;
+}
+        }
         
-        // Binary Search on Answer
-        // Hum dhund rahe hain ki final max difference 'mid' kitna hoga
-        long left = 0, right = 0;
-        for (long d : diffs) right = Math.max(right, d);
+    
+        // Simpler accurate approach after BS:
+        // Reset result and recalculate precisely
+        result = 0;
+        long opsUsed = 0;
         
-        while (left < right) {
-            long mid = left + (right - left) / 2;
-            
-            // Check karo: Kya 'mid' threshold tak lane ke liye ops kaafi hain?
-            // Har element jo mid se bada hai, usse mid tak lana padega
-            long opsNeeded = 0;
-            for (long d : diffs) {
-                if (d > mid) {
-                    opsNeeded += (d - mid);
-                }
+        // Pehle sabko threshold tak lao
+        List<Long> atThreshold = new ArrayList<>();
+        for (long d : diffs) {
+            if (d > threshold) {
+                opsUsed += (d - threshold);
+                atThreshold.add(threshold);
+            } else {
+                result += d * d;
             }
-            
-            if (opsNeeded <= totalOps) {
+        }
+        
+        // Ab remainingOps ko atThreshold list mein evenly distribute karo
