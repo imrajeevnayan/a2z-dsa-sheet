@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: [Naive Approach] By Exploring All the Subarrays - O(n^2) Time and O(1) Space
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems
+ * Language: #include <vector> using namespace std; int maxOnes(vector<int> &arr, int k) { int res = 0; // Exploring all subarrays for(int i = 0; i < arr.size(); i++) { // Counter for zeroes int cnt = 0; for(int j = i; j < arr.size(); j++) { if(arr[j] == 0) cnt++; // If cnt is less than or equal to k, then // all zeroes can be flipped to one if(cnt <= k) res = max(res, (j - i + 1)); } } return res; } int main() { vector<int> arr= {1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1}; int k = 2; cout << maxOnes(arr, k); return 0; }
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:18:38.436Z
+ */
+
+#include <vector>
+using namespace std;
+
+int maxOnes(vector<int> &arr, int k) {
+    int res = 0;
+    
+    // Exploring all subarrays
+    for(int i = 0; i < arr.size(); i++) {
+        
+        // Counter for zeroes
+        int cnt = 0;
+        for(int j = i; j < arr.size(); j++) {
+            if(arr[j] == 0)
+                cnt++;
+            
+            // If cnt is less than or equal to k, then  
+            // all zeroes can be flipped to one
+            if(cnt <= k)
+                res = max(res, (j - i + 1));
+        }
+    }
+    
+    return res;
+}
+
+int main() {
+	vector<int> arr= {1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1};
+	int k = 2;
+	cout << maxOnes(arr, k);
+	return 0;
+}
