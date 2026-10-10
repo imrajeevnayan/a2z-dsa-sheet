@@ -1,11 +1,11 @@
 {
-  "totalSolved": 123,
+  "totalSolved": 124,
   "currentStreak": 15,
   "maxStreak": 15,
   "lastSyncDate": "2026-10-10",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 43,
+    "easy": 44,
     "medium": 68,
     "hard": 6,
     "basic": 6
@@ -133,7 +133,8 @@
     "LeetCode_Number_of_Wonderful_Substrings": true,
     "GeeksForGeeks_XOR_of_a_Number_Range": true,
     "GeeksForGeeks_Divisibility_by_8": true,
-    "GeeksForGeeks_Longest_Consecutive_1's": true
+    "GeeksForGeeks_Longest_Consecutive_1's": true,
+    "LeetCode_Merge_Two_Sorted_Lists": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -150,7 +151,7 @@
     "2026-10-07": 7,
     "2026-10-08": 3,
     "2026-10-09": 4,
-    "2026-10-10": 3
+    "2026-10-10": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -273,6 +274,7 @@
     "Number of Wonderful Substrings",
     "XOR of a Number Range",
     "Divisibility by 8",
-    "Longest Consecutive 1's"
+    "Longest Consecutive 1's",
+    "Merge Two Sorted Lists"
   ]
 }

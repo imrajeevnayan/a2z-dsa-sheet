@@ -162,3 +162,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 123 | [XOR of a Number Range](https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:51 pm |
 | 124 | [Divisibility by 8](https://www.geeksforgeeks.org/problems/check-if-a-number-is-divisible-by-83957/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:55 pm |
 | 125 | [Longest Consecutive 1's](https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1) | GeeksForGeeks | Easy | 10 Oct 2026 | 10:56 pm |
+| 126 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | LeetCode | Easy | 10 Oct 2026 | 10:59 pm |
