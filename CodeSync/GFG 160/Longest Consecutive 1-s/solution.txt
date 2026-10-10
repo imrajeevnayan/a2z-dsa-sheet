@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Longest Consecutive 1's
+ * URL: https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1
+ * Language: def maxConsecutiveOnes(self, N): #code here return max(map(len,bin(N)[2:].split('0')))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Bit Magic, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:26:45.925Z
+ */
+
+class Solution {
+    public static int maxConsecutiveOnes(int n) {
+        int count = 0;
+
+        // Each iteration removes one '1' from every consecutive group
+        while (n != 0) {
+            n = n & (n << 1);
+            count++;
+        }
+
+        return count;
+    }
+}
