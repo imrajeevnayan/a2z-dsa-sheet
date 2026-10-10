@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Replace character
+ * URL: https://www.naukri.com/code360/problems/replace-character_625036
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T18:54:35.790Z
+ */
+
+public class Solution {
+    public static String replaceCharacter(String input, char c1, char c2) {
+        // Edge case: Agar string null ya empty hai, seedha return karo
+        if (input == null || input.isEmpty())  return input;
+        
+ 
+        // StringBuilder use karo kyunki ye mutable hai aur efficient append support karta hai
+        StringBuilder result = new StringBuilder(input.length()); // Pre-allocate capacity
+        
+        for (int i = 0; i < input.length(); i++) {
+            char currentChar = input.charAt(i);
+            
+            // Agar character match kare toh replace karo, warna original rakho
+            if (currentChar == c1) {
+                result.append(c2);
+            } else {
+                result.append(currentChar);
+            }
+        }
+        
+        return result.toString();
+    }
+}
