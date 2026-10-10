@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Divisibility by 8
+ * URL: https://www.geeksforgeeks.org/problems/check-if-a-number-is-divisible-by-83957/1
+ * Language: class Solution { public: bool isDivBy8(string &s) { unsigned int rem = 0; for(int i = 0; i < s.size(); i++) rem = ((rem * 10) + s[i]) % 8; return (rem == 0); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematics, Bit Magic, Binary Representation, Related Articles, Check Number Divisible 8 Using Bitwise Operators
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:25:08.645Z
+ */
+
+class Solution {
+    public boolean isDivBy8(String s) {
+        if (s == null || s.isEmpty()) return false;
+
+        // Take at most last 3 characters
+        int len = s.length();
+        String lastDigits = s.substring(Math.max(0, len - 3));
+
+        // Convert to integer and check divisibility
+        int num = Integer.parseInt(lastDigits);
+
+        return num % 8 == 0;
+    }
+}
