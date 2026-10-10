@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easiest Explanation! - Java
+ * URL: https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
+ * Language: // User function Template for Java class Solution { public static int xorUpto(int n){ // f(x): // x % 4 == 0 → x // x % 4 == 1 → 1 // x % 4 == 2 → x + 1 // x % 4 == 3 → 0 int rem = n%4; if(rem==1) return 1; else if(rem==2) return n+1; else if(rem==3) return 0; return n; } public static int findXOR(int l, int r) { // Pattern Observation - // x % 4 == 1 → 1 // x % 4 == 2 → 3 // x % 4 == 3 → 0 // x % 4 == 0 → 4 return xorUpto(r) ^ xorUpto(l-1); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Bit Magic, Related Articles, Find Xor Of Numbers From The Range L R
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:21:40.361Z
+ */
+
+class Solution {
+    public static int findXOR(int l, int r) {
+        return xorFromZero(r) ^ xorFromZero(l - 1);
+    }
+
+    private static int xorFromZero(int n) {
+        if (n < 0) return 0; // Edge case when l=0
+
+        switch (n % 4) {
+            case 0: return n;
+            case 1: return 1;
+            case 2: return n + 1;
+            default: return 0; // case 3
+        }
+    }
+}
