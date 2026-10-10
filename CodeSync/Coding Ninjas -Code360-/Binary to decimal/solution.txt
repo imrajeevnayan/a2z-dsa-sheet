@@ -1,0 +1,43 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Binary to decimal
+ * URL: https://www.naukri.com/code360/problems/binary-to-decimal_624649
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1189 ms
+ * Memory: N/A
+ * Synced: 2026-10-10T18:56:56.596Z
+ */
+
+import java.util.Scanner;
+ 
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Directly read integer without hasNextInt() check
+        // Platforms always guarantee valid input as per constraints
+        int binaryNum = sc.nextInt();
+        
+        // Edge case: Agar input 0 hai toh seedha print karo
+        if (binaryNum == 0) {
+            System.out.println(0);
+            return;
+        }
+        
+        long decimalValue = 0;
+        long multiplier = 1;
+        int temp = binaryNum;
+        
+        // Right-to-left digit extraction using base-10 operations
+        while (temp > 0) {
+            int lastDigit = temp % 10; // Binary digit extract karo (0 ya 1)
+            decimalValue += lastDigit * multiplier;
+            multiplier *= 2;           // Next power of 2
+            temp /= 10;                // Next digit par jao
+        }
+        
+        System.out.println(decimalValue);
+    }
+}
