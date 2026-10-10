@@ -1,17 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 2333. Minimum Sum of Squared Difference
- * URL: https://leetcode.com/problems/minimum-sum-of-squared-difference/description/?envType=daily-question&envId=2026-10-10
+ * URL: https://leetcode.com/problems/minimum-sum-of-squared-difference/?envType=daily-question&envId=2026-10-10
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Binary Search, Greedy, Sorting, Heap (Priority Queue)
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-10T17:34:13.152Z
+ * Synced: 2026-10-10T17:36:26.595Z
  */
 
-class Solution {
-    public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
+// Final calculation: Threshold se upar wale elements ko threshold pe lao
+        // Aur bachi hui ops ko evenly distribute karo
+        for (long d : diffs) {
+            if (d > threshold) {
+                remainingOps -= (d - threshold);
+                result += threshold * threshold;
+            } else {
+                // Nahi, mid bohot chota hai. Bada value try karo
+                left = mid + 1;
+            }
+        }
         
-    }
-}
+        // Ab 'left' wo optimal threshold hai
+        long threshold = left;
+        long remainingOps = totalOps;
+        long result = 0;
+            
+            if (opsNeeded <= totalOps) {
+                // Haan, mid achievable hai. Ab try karo aur chota value
+                right = mid;
