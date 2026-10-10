@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Digital Root
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Facebook, FiberLink, Adobe, FactSet, Amazon
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T17:17:52.789Z
+ */
+
+class Solution {
+    public int digitalRoot(int n) {
+        if (n < 10) return n;
+        // Calculate sum of digits
+        int sum = 0;
+        int temp = n;
+        while (temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
+        }
+        return digitalRoot(sum);
+    }
+}
