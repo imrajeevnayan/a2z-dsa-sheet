@@ -7,26 +7,27 @@
  * Topics: Array, Binary Search, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-10T17:36:26.595Z
+ * Synced: 2026-10-10T17:36:34.319Z
  */
 
-// Final calculation: Threshold se upar wale elements ko threshold pe lao
-        // Aur bachi hui ops ko evenly distribute karo
-        for (long d : diffs) {
-            if (d > threshold) {
-                remainingOps -= (d - threshold);
-                result += threshold * threshold;
-            } else {
-                // Nahi, mid bohot chota hai. Bada value try karo
-                left = mid + 1;
-            }
-        }
+// Edge case: Agar total operations saare differences ko 0 karne ke liye kaafi hain
+        if (totalOps >= sumDiffs) return 0;
         
-        // Ab 'left' wo optimal threshold hai
-        long threshold = left;
-        long remainingOps = totalOps;
-        long result = 0;
+        // Binary Search on Answer
+        // Hum dhund rahe hain ki final max difference 'mid' kitna hoga
+        long left = 0, right = 0;
+        for (long d : diffs) right = Math.max(right, d);
+        
+        while (left < right) {
+            long mid = left + (right - left) / 2;
+            
+            // Check karo: Kya 'mid' threshold tak lane ke liye ops kaafi hain?
+            // Har element jo mid se bada hai, usse mid tak lana padega
+            long opsNeeded = 0;
+            for (long d : diffs) {
+                if (d > mid) {
+                    opsNeeded += (d - mid);
+                }
+            }
             
             if (opsNeeded <= totalOps) {
-                // Haan, mid achievable hai. Ab try karo aur chota value
-                right = mid;
