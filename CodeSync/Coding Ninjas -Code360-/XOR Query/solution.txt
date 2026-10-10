@@ -1,0 +1,46 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: XOR Query
+ * URL: https://www.naukri.com/code360/problems/xor-query_893314
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T18:36:16.138Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+ 
+    public static ArrayList<Integer> xorQuery(ArrayList<ArrayList<Integer>> queries) {
+        ArrayList<Integer> storedValues = new ArrayList<>();
+        int globalXor = 0;
+        
+        // Process all queries in O(Q)
+        for (ArrayList<Integer> query : queries) {
+            int type = query.get(0);
+            int val = query.get(1);
+            
+            if (type == 1) {
+                // Store value compensated by current globalXor
+                // Real value at any time t = storedValue ^ globalXor_at_time_t
+                storedValues.add(val ^ globalXor);
+            } else {
+                // Lazy update: Just accumulate the XOR
+                globalXor ^= val;
+            }
+        }
+        
+        // Construct final result by applying the accumulated globalXor
+        // This single pass is O(N) which is totally fine since N <= Q
+        ArrayList<Integer> result = new ArrayList<>(storedValues.size());
+        for (int stored : storedValues) {
+            result.add(stored ^ globalXor);
+        }
+        
+        return result;
+    }
+}
