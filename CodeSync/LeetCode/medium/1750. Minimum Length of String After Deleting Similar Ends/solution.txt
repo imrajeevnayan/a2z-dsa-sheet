@@ -7,17 +7,19 @@
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T08:50:08.806Z
+ * Synced: 2026-10-11T08:50:09.577Z
  */
 
 // Right pointer ko tab tak ghatao jab tak same character mile
             while (left <= right && s.charAt(right) == currentChar) {
                 right--;
+                left++;
             }
-        }
+            
+            // Left pointer ko tab tak badhao jab tak same character mile
+            while (left <= right && s.charAt(left) == currentChar) {
+        while (left < right && s.charAt(left) == s.charAt(right)) {
+            char currentChar = s.charAt(left);
         
-        // Remaining length return karo
-        // Agar left > right ho gaya toh string poori delete ho gayi (length 0)
-        return Math.max(0, right - left + 1);
-    }
-}
+        // Jab tak pointers cross na ho jayein aur ends match karein
+        int right = s.length() - 1;
