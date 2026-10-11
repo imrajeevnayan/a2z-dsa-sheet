@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T15:04:54.075Z
+ * Synced: 2026-10-11T15:05:09.202Z
  */
 
 class Solution {
@@ -19,9 +19,9 @@ class Solution {
         // Taaki same strength wale frogs baar-baar marking na karein
         
         
-        Set<Integer> uniqueStrengths = new HashSet<>();
+        Set<Integer> unique = new HashSet<>();
         for (int s : arr) {
-            uniqueStrengths.add(s);
+            uniqueStrength.add(s);
         }
 
         // Har unique strength ke multiples mark karo
