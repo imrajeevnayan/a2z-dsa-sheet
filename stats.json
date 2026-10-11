@@ -1,11 +1,11 @@
 {
-  "totalSolved": 135,
+  "totalSolved": 136,
   "currentStreak": 16,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-11",
-  "todayCount": 9,
+  "todayCount": 10,
   "difficultyCounts": {
-    "easy": 51,
+    "easy": 52,
     "medium": 72,
     "hard": 6,
     "basic": 6
@@ -145,7 +145,8 @@
     "GeeksForGeeks_Level_of_a_Node_in_Binary_Tree": true,
     "GeeksForGeeks_Sum_of_Leaf_Nodes": true,
     "GeeksForGeeks_Sum_of_Right_Leaf_Nodes": true,
-    "GeeksForGeeks_Frogs_and_Jumps": true
+    "GeeksForGeeks_Frogs_and_Jumps": true,
+    "GeeksForGeeks_Check_for_4_Sum": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -163,7 +164,7 @@
     "2026-10-08": 3,
     "2026-10-09": 4,
     "2026-10-10": 6,
-    "2026-10-11": 9
+    "2026-10-11": 10
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -298,6 +299,7 @@
     "Level of a Node in Binary Tree",
     "Sum of Leaf Nodes",
     "Sum of Right Leaf Nodes",
-    "Frogs and Jumps"
+    "Frogs and Jumps",
+    "Check for 4 Sum"
   ]
 }
