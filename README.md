@@ -167,3 +167,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 128 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | LeetCode | Medium | 10 Oct 2026 | 11:19 pm |
 | 129 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | LeetCode | Easy | 11 Oct 2026 | 02:23 pm |
 | 130 | [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | LeetCode | Medium | 11 Oct 2026 | 03:10 pm |
+| 131 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | LeetCode | Easy | 11 Oct 2026 | 03:43 pm |

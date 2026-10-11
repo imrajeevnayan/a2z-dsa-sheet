@@ -1,11 +1,11 @@
 {
-  "totalSolved": 128,
+  "totalSolved": 129,
   "currentStreak": 16,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-11",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
-    "easy": 45,
+    "easy": 46,
     "medium": 71,
     "hard": 6,
     "basic": 6
@@ -138,7 +138,8 @@
     "GeeksForGeeks_Merge_Two_Sorted_Linked_Lists": true,
     "LeetCode_Minimum_Sum_of_Squared_Difference": true,
     "LeetCode_Sum_of_Squares_of_Special_Elements_": true,
-    "LeetCode_Sentence_Similarity_III": true
+    "LeetCode_Sentence_Similarity_III": true,
+    "LeetCode_Maximum_Depth_of_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -156,7 +157,7 @@
     "2026-10-08": 3,
     "2026-10-09": 4,
     "2026-10-10": 6,
-    "2026-10-11": 2
+    "2026-10-11": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -284,6 +285,7 @@
     "Merge Two Sorted Linked Lists",
     "Minimum Sum of Squared Difference",
     "Sum of Squares of Special Elements ",
-    "Sentence Similarity III"
+    "Sentence Similarity III",
+    "Maximum Depth of Binary Tree"
   ]
 }
