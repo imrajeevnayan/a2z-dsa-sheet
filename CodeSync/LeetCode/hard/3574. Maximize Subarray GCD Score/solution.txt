@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:49:08.511Z
+ * Synced: 2026-10-11T18:49:19.845Z
  */
 
 } else {
@@ -19,12 +19,7 @@
                 
                 long currentScore = (long) g * len;
                 // Simple heuristic for this problem:
-                
-                // the best gain comes from doubling odd numbers to make them even
-                // If we can double all elements, GCD becomes 2*g
-                // If we can double some, it's complicated, but often 
-                // Calculate potential score
-                
+                                
                 int len = j - i + 1;
                 g = gcd(g, nums[j]);
             for (int j = i; j < n; j++) {
@@ -35,3 +30,9 @@
         int n = nums.length;
 class Solution {
     public long maxGCDScore(int[] nums, int k) {
+                    // For simplicity in this "short var" constraint, 
+                    // we assume the base GCD is the primary driver.
+                    // However, Example 1 shows partial doubling works.
+                    
+                    // Check if doubling the GCD itself is possible? No.
+                    // We must double elements.
