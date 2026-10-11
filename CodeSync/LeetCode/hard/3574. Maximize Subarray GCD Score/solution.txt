@@ -1,44 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 3574. Maximize Subarray GCD Score
- * URL: https://leetcode.com/problems/maximize-subarray-gcd-score/
+ * URL: https://leetcode.com/problems/maximize-subarray-gcd-score/submissions/2169598394/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:56:19.128Z
+ * Synced: 2026-10-11T18:56:32.077Z
  */
 
-public long maxGCDScore(int[] nums, int k) {
-        int n = nums.length;
-        long ans = 0;
-        
-        // Iterate over all subarrays
-        for (int i = 0; i < n; i++) {
-            int g = 0;
-           
-            for (int j = i; j < n; j++) {
-                g = gcd(g, nums[j]);
-                int len = j - i + 1;
-                
-                // Calculate score without doubling
-                ans = Math.max(ans, (long) g * len);
-                
-                // If we have operations, try to improve GCD
-                if (k > 0) {
-
-                    int target = 2 * g;
-                    int opsNeeded = 0;
+if (nums[m] % target != 0) {
                     for (int m = i; m <= j; m++) {
-                        if (nums[m] % target != 0) {
-                            // If we double it, does it become divisible?
-                            // (2 * nums[m]) % target == 0?
-                            if ((2 * nums[m]) % target == 0) {
-                                opsNeeded++;
-                            } else {
-                                opsNeeded = k + 1; // Impossible
-                                break;
-                            }
-                        }
-                    }
+                    int opsNeeded = 0;
+                    int target = 2 * g;
+
+                if (k > 0) {
+                // If we have operations, try to improve GCD
+                
+                ans = Math.max(ans, (long) g * len);
+                // Calculate score without doubling
