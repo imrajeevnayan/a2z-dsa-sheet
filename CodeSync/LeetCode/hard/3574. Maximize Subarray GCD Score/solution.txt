@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:56:16.525Z
+ * Synced: 2026-10-11T18:56:19.128Z
  */
 
 public long maxGCDScore(int[] nums, int k) {
@@ -27,7 +27,7 @@ public long maxGCDScore(int[] nums, int k) {
                 
                 // If we have operations, try to improve GCD
                 if (k > 0) {
-                    =
+
                     int target = 2 * g;
                     int opsNeeded = 0;
                     for (int m = i; m <= j; m++) {
