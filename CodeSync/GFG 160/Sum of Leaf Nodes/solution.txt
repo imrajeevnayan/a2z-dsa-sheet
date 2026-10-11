@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of Leaf Nodes
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-leaf-nodes/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Tree, Related Articles, Sum Leaf Nodes Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T12:55:50.143Z
+ */
+
+Input: root[] = [3, 1, 2]
+ 
+Output: 3
+Explanation: The sum of all the leaf nodes is: 1 + 2 = 3.
