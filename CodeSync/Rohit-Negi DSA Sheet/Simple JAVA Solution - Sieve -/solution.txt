@@ -4,17 +4,45 @@
  * URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
  * Language: public int unvisitedLeaves(int N, int leaves, int frogs[]) { // Code here // Create a BitSet with a size of `leaves+1` BitSet visited = new BitSet(leaves + 1); // Loop through the frogs array for (int frog : frogs) { // If the frog is within the range of leaves and has not been visited yet if (frog <= leaves && !visited.get(frog)) { // Loop through every multiple of the frog and mark it as visited for (int j = frog; j <= leaves; j += frog) { visited.set(j); } } } // Count the number of unvisited leaves int unvisited = leaves- visited.cardinality(); // Return the number of unvisited leaves return unvisited; }
  * Difficulty: Unknown
- * Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
+ * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T12:19:57.657Z
+ * Synced: 2026-10-11T15:04:54.075Z
  */
 
-// User function Template for Java
-
 class Solution {
-    public int unvisitedLeaves(int N, int leaves, int frogs[]) {
-        // Code here
+    int unvisitedLeaves(int arr[], int k) {
+        // Visited array: index 1 se k tak leaves represent karte hain
+        boolean[] visited = new boolean[k + 1];
+
+        // Duplicate strengths avoid karne ke liye HashSet use karo
+        // Taaki same strength wale frogs baar-baar marking na karein
         
+        
+        Set<Integer> uniqueStrengths = new HashSet<>();
+        for (int s : arr) {
+            uniqueStrengths.add(s);
+        }
+
+        // Har unique strength ke multiples mark karo
+        for (int strength : uniqueStrengths) {
+            // Optimization: Agar strength > k hai toh wo kisi leaf par land nahi karega
+            if (strength > k) continue;
+
+            // Strength ke saare multiples ko visit mark karo
+            for (int leaf = strength; leaf <= k; leaf += strength) {
+                visited[leaf] = true;
+            }
+        }
+
+        // Count unvisited leaves (index 1 se start hota hai)
+        int count = 0;
+        for (int i = 1; i <= k; i++) {
+            if (!visited[i]) {
+                count++;
+            }
+        }
+
+        return count;
     }
 }
