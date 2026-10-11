@@ -7,15 +7,15 @@
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-10-11T17:14:58.935Z
+ * Synced: 2026-10-11T17:15:06.451Z
  */
 
 class Solution {
     public int majorityElement(int[] nums) {
           int candidate = 0;
-    int count = 0;
+          int count = 0;
     
-    for (int num : nums) {
+        for (int num : nums) {
         if (count == 0) {
             candidate = num; // Naya candidate choose karo
         }
