@@ -1,38 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 923. 3Sum With Multiplicity
- * URL: https://leetcode.com/problems/3sum-with-multiplicity/?envType=problem-list-v2&envId=da2x5psh
+ * URL: https://leetcode.com/problems/3sum-with-multiplicity/submissions/2169128019/?envType=problem-list-v2&envId=da2x5psh
  * Language: Two Pointers - Classic (Copy-e9snhf4h)
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting, Counting
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-11T09:37:28.913Z
+ * Memory: 45.48 MB
+ * Synced: 2026-10-11T09:37:47.509Z
  */
 
-if (count[k] == 0) continue;
-                // k valid range mein hona chahiye aur ordering maintain karni hai
-                if (k < j || k > 100) continue; 
-                int k = target - i - j;
+// Formula: C(n, 2) * m
+                    result += count[i] * (count[i] - 1) / 2 * count[k];
+                    
+                } else if (j == k) {
+                    // Case 3: Last two same (e.g., 5,8,8)
+                    // Formula: n * C(m, 2)
+                    result += count[i] * count[j] * (count[j] - 1) / 2;
+                    
+                } else {
+                    // Case 4: All distinct (e.g., 5,8,12)
+                    // Formula: n * m * p
+                    result += count[i] * count[j] * count[k];
+                }
                 
-                if (count[j] == 0) continue;
-                
-            for (int j = i; j <= 100; j++) {
-            
-        for (int i = 0; i <= 100; i++) {
-            if (count[i] == 0) continue;
-        // Isse duplicate counting automatically avoid hoti hai
-        // Step 2: Do numbers fix karo (i <= j <= k maintain karne ke liye)
-        
-        long result = 0;
-        
+                result %= MOD;
+            }
         }
-            count[num]++;
-        // Step 1: Frequency map banao
-        for (int num : arr) {
-                
-                // Step 3: Combinations calculate karo based on equality cases
-                if (i == j && j == k) {
-                    // Case 1: All three same (e.g., 5,5,5)
-                    // Formula: C(n, 3) = n * (n-1) * (n-2) / 6
+        
+        return (int) result;
+    }
+}
+                    // Case 2: First two same (e.g., 5,5,8)
+                } else if (i == j) {
+                    
                     result += count[i] * (count[i] - 1) * (count[i] - 2) / 6;
