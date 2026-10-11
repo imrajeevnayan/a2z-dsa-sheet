@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3407. Substring Matching Pattern
+ * URL: https://leetcode.com/problems/substring-matching-pattern/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, String Matching
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T10:07:04.600Z
+ */
+
+class Solution {
+    public boolean hasMatch(String s, String p) {
+        
+    }
+}
