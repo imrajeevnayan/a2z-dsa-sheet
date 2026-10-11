@@ -1,24 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 1750. Minimum Length of String After Deleting Similar Ends
- * URL: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/?envType=problem-list-v2&envId=da2x5psh
+ * URL: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/submissions/2169095329/?envType=problem-list-v2&envId=da2x5psh
  * Language: Two Pointers - Classic (Copy-e9snhf4h)
  * Difficulty: Medium
  * Topics: Two Pointers, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-11T08:50:41.754Z
+ * Runtime: 0 ms
+ * Memory: 47.73 MB
+ * Synced: 2026-10-11T08:51:37.842Z
  */
 
-// Left pointer ko tab tak badhao jab tak same character mile
-            while (left <= right && s.charAt(left) == currChar) {
-        while (left < right && s.charAt(left) == s.charAt(right)) {
-            char currChar = s.charAt(left);
-                left++;
-            }
-            
-            // Right pointer ko tab tak ghatao jab tak same character mile
-            while (left <= right && s.charAt(right) == currentChar) {
+while (left <= right && s.charAt(right) == currChar) {
                 right--;
             }
         }
+        
+        // Remaining length return karo
+        // Agar left > right ho gaya toh string poori delete ho gayi (length 0)
+        return Math.max(0, right - left + 1);
+    }
+}
+            // Right pointer ko tab tak ghatao jab tak same character mile
