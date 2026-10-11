@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3574. Maximize Subarray GCD Score
+ * URL: https://leetcode.com/problems/maximize-subarray-gcd-score/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Math, Enumeration, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T18:25:46.773Z
+ */
+
+class Solution {
+    public long maxGCDScore(int[] nums, int k) {
+        
+    }
+}
