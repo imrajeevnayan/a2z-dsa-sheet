@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T15:05:09.202Z
+ * Synced: 2026-10-11T15:05:16.299Z
  */
 
 class Solution {
@@ -21,11 +21,11 @@ class Solution {
         
         Set<Integer> unique = new HashSet<>();
         for (int s : arr) {
-            uniqueStrength.add(s);
+            unique.add(s);
         }
 
         // Har unique strength ke multiples mark karo
-        for (int strength : uniqueStrengths) {
+        for (int strength : unique) {
             // Optimization: Agar strength > k hai toh wo kisi leaf par land nahi karega
             if (strength > k) continue;
 
