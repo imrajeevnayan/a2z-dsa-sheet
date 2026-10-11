@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 15
+ * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2169154115/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T12:00:06.439Z
+ */
+
+class Solution {
+    public int maxDepth(TreeNode root) {
+        if(root==null)return 0;
+        return 1+ Math.max(maxDepth(root.left),maxDepth(root.right));
+    }
+}
