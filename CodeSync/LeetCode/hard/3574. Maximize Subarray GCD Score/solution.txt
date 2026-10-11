@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:49:51.991Z
+ * Synced: 2026-10-11T18:49:58.453Z
  */
 
 } else {
@@ -17,10 +17,9 @@
                 
                 long currentScore = (long) g * len;
                     if (k > 0) {
-            
                     }
                 }
-                
+    
                 ans = Math.max(ans, currentScore);
             }
         }
