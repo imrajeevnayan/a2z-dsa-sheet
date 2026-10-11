@@ -1,0 +1,18 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Reverse an array
+ * URL: https://www.naukri.com/code360/problems/reverse-an-array_32262
+ * Language: C++ (g++ 5.4)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T20:59:50.886Z
+ */
+
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+ 
+    // Write your code here
+}
