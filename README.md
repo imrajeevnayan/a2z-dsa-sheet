@@ -169,3 +169,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 130 | [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | LeetCode | Medium | 11 Oct 2026 | 03:10 pm |
 | 131 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | LeetCode | Easy | 11 Oct 2026 | 03:43 pm |
 | 132 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | LeetCode | Easy | 11 Oct 2026 | 05:14 pm |
+| 133 | [Remove Half Nodes](https://www.geeksforgeeks.org/problems/remove-half-nodes/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 05:39 pm |
