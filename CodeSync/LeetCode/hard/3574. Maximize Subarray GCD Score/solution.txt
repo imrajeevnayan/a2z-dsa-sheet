@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 3574. Maximize Subarray GCD Score
- * URL: https://leetcode.com/problems/maximize-subarray-gcd-score/description/
+ * URL: https://leetcode.com/problems/maximize-subarray-gcd-score/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Math, Enumeration, Number Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:30:31.743Z
+ * Synced: 2026-10-11T18:49:08.511Z
  */
 
+} else {
+                    // If k < len, we can't double all. 
+                    // But doubling some might help if it aligns factors.
+                if (k >= len) {
+                    currentScore = Math.max(currentScore, (long) (g * 2) * len);
+                // If we have enough ops to double ALL elements in this subarray
+                
+                long currentScore = (long) g * len;
+                // Simple heuristic for this problem:
+                
+                // the best gain comes from doubling odd numbers to make them even
+                // If we can double all elements, GCD becomes 2*g
+                // If we can double some, it's complicated, but often 
+                // Calculate potential score
+                
+                int len = j - i + 1;
+                g = gcd(g, nums[j]);
+            for (int j = i; j < n; j++) {
+            int g = 0;
+        for (int i = 0; i < n; i++) {
+        long ans = 0;
+        
+        int n = nums.length;
 class Solution {
     public long maxGCDScore(int[] nums, int k) {
-        
-    }
-}
