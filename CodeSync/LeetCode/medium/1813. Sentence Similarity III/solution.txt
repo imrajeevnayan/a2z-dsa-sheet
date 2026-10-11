@@ -1,13 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 1813. Sentence Similarity III
- * URL: https://leetcode.com/problems/sentence-similarity-iii/description/?envType=problem-list-v2&envId=da2x5psh
- * Language: Text
+ * URL: https://leetcode.com/problems/sentence-similarity-iii/?envType=problem-list-v2&envId=da2x5psh
+ * Language: Two Pointers - Classic (Copy-e9snhf4h)
  * Difficulty: Medium
  * Topics: Array, Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T09:39:26.189Z
+ * Synced: 2026-10-11T09:40:07.181Z
  */
 
-sentence1
+int m = words2.length;
+        
+        // Left pointer: Prefix match count karo
+        int left = 0;
+        while (left < n && words1[left].equals(words2[left])) {
+            left++;
+        }
+        
+        // Agar poora chota sentence prefix se match ho gaya
+        if (left == n) return true;
+        
+        // Right pointer: Suffix match count karo
+        int right1 = n - 1;
+        int right2 = m - 1;
+        while (right1 >= left && words1[right1].equals(words2[right2])) {
+            right1--;
+            right2--;
+        }
+        
+        // Agar saare remaining words of smaller sentence suffix se match ho gaye
+        // Matlab middle part skip ho sakta hai
+        return right1 < left;
+    }
+}
