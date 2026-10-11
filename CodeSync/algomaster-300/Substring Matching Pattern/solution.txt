@@ -7,51 +7,30 @@
  * Topics: Uncategorized
  * Runtime: 3 ms
  * Memory: 44.66 MB
- * Synced: 2026-10-11T11:47:47.813Z
+ * Synced: 2026-10-11T11:47:48.740Z
  */
 
-1class Solution {
-2    public boolean hasMatch(String s, String p) {
-3        // Pattern ko '*' ke basis par split karo
-4        // Example: "ee*e" -> ["ee", "e"]
-5        String[] parts = p.split("\\*", -1); 
-6        String prefix = parts[0];
-7        String suffix = parts[1];
-8        
-9        int n = s.length();
-10        int preLen = prefix.length();
-11        int sufLen = suffix.length();
-12        
-13        // Edge case: Agar prefix aur suffix dono empty hain ("*")
-14        // Toh wo har string ka substring hai (empty string always exists)
-15        if (preLen == 0 && sufLen == 0) return true;
-16        
-17        // String 's' ke har possible starting index ko check karo
-18        for (int i = 0; i <= n - preLen; i++) {
-19            // Check karo ki kya current position par prefix match ho raha hai?
-20            if (s.startsWith(prefix, i)) {
-21                
-22                // Ab check karo ki kya iske baad kahin suffix bhi fit ho sakta hai?
-23                // Suffix kabhi bhi aa sakta hai, bas uski length available honi chahiye
-24                // Aur wo prefix ke turant baad ya uske baad kisi jagah aa sakta hai
-25                
-26                // Simple logic: Prefix match milne ke baad, 
-27                // remaining string mein suffix dhundo
-28                // Note: * zero or more chars allow karta hai, 
-29                // toh suffix prefix ke turant baad bhi ho sakta hai
-30                
-31                int minStartForSuffix = i + preLen;
-32                
-33                // Remaining string mein suffix dhoondna
-34                // startsWith/endWith ya indexOf use kar sakte hain
-35                if (s.indexOf(suffix, minStartForSuffix) != -1) {
-36                    // Bas itna ensure karo ki suffix puri tarah string ke andar fit ho
-37                    // indexOf already boundary handle kar leta hai
-38                    return true;
-39                }
-40            }
-41        }
-42        
-43        return false;
-44    }
-45}
+// 2. Edge case: agar pattern sirf "*" hai
+        if (prefix.isEmpty() && suffix.isEmpty()) return true;
+        
+        // 3. 's' mein har possible position check karo
+        for (int i = 0; i <= s.length() - prefix.length(); i++) {
+            
+            // Kya yahan prefix match ho raha hai?
+            if (s.startsWith(prefix, i)) {
+                
+                // Prefix mil gaya! Ab check karo ki iske BAAD suffix bhi hai ya nahi
+                // indexOf(suffix, startIndex) exactly yahi karta hai
+                int suffixPos = s.indexOf(suffix, i + prefix.length());
+                
+                // Agar suffix mil gaya (position != -1), toh answer TRUE
+                if (suffixPos != -1) {
+                    return true;
+                }
+            }
+        }
+        
+        // Kahin bhi valid combination nahi mila
+        return false;
+    }
+}
