@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/
- * Language: Text
- * Difficulty: Easy
- * Topics: Hash Table, Linked List, Two Pointers
+ * URL: https://leetcode.com/problems/substring-matching-pattern/submissions/2169221433/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-21T15:55:56.280Z
+ * Synced: 2026-10-11T11:47:46.252Z
  */
 
-Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
-Output: Intersected at '8'
-Explanation: The intersected node's value is 8 (note that this must not be 0 if the two lists intersect).
-From the head of A, it reads as [4,1,8,4,5]. From the head of B, it reads as [5,6,1,8,4,5]. There are 2 nodes before the intersected node in A; There are 3 nodes before the intersected node in B.
-- Note that the intersected node's value is not 1 because the nodes with value 1 in A and B (2nd node in A and 3rd node in B) are different node references. In other words, they point to two different locations in memory, while the nodes with value 8 in A and B (3rd node in A and 4th node in B) point to the same location in memory.
+class Solution {
+    public boolean hasMatch(String s, String p) {
+        // Pattern ko '*' ke basis par split karo
+        // Example: "ee*e" -> ["ee", "e"]
+        String[] parts = p.split("\\*", -1); 
+        String prefix = parts[0];
+        String suffix = parts[1];
+        
+        int n = s.length();
+        int preLen = prefix.length();
+        int sufLen = suffix.length();
+        
+        // Edge case: Agar prefix aur suffix dono empty hain ("*")
+        // Toh wo har string ka substring hai (empty string always exists)
+        if (preLen == 0 && sufLen == 0) return true;
+        
+        // String 's' ke har possible starting index ko check karo
+        for (int i = 0; i <= n - preLen; i++) {
+            // Check karo ki kya current position par prefix match ho raha hai?
+            if (s.startsWith(prefix, i)) {
+                
+                // Ab check karo ki kya iske baad kahin suffix bhi fit ho sakta hai?
+                // Suffix kabhi bhi aa sakta hai, bas uski length available honi chahiye
+                // Aur wo prefix ke turant baad ya uske baad kisi jagah aa sakta hai
