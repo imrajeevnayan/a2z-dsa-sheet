@@ -1,11 +1,11 @@
 {
-  "totalSolved": 126,
-  "currentStreak": 15,
-  "maxStreak": 15,
-  "lastSyncDate": "2026-10-10",
-  "todayCount": 6,
+  "totalSolved": 127,
+  "currentStreak": 16,
+  "maxStreak": 16,
+  "lastSyncDate": "2026-10-11",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 44,
+    "easy": 45,
     "medium": 70,
     "hard": 6,
     "basic": 6
@@ -136,7 +136,8 @@
     "GeeksForGeeks_Longest_Consecutive_1's": true,
     "LeetCode_Merge_Two_Sorted_Lists": true,
     "GeeksForGeeks_Merge_Two_Sorted_Linked_Lists": true,
-    "LeetCode_Minimum_Sum_of_Squared_Difference": true
+    "LeetCode_Minimum_Sum_of_Squared_Difference": true,
+    "LeetCode_Sum_of_Squares_of_Special_Elements_": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -153,7 +154,8 @@
     "2026-10-07": 7,
     "2026-10-08": 3,
     "2026-10-09": 4,
-    "2026-10-10": 6
+    "2026-10-10": 6,
+    "2026-10-11": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -279,6 +281,7 @@
     "Longest Consecutive 1's",
     "Merge Two Sorted Lists",
     "Merge Two Sorted Linked Lists",
-    "Minimum Sum of Squared Difference"
+    "Minimum Sum of Squared Difference",
+    "Sum of Squares of Special Elements "
   ]
 }
