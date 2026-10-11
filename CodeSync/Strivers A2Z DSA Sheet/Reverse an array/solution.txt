@@ -2,17 +2,50 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: Reverse an array
  * URL: https://www.naukri.com/code360/problems/reverse-an-array_32262
- * Language: C++ (g++ 5.4)
- * Difficulty: Medium
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T20:59:50.886Z
+ * Synced: 2026-10-11T21:01:21.232Z
  */
 
-#include<bits/stdc++.h>
-using namespace std;
-int main() {
+import java.util.Scanner;
  
-    // Write your code here
-}
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Input N
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        
+        // Array input lo
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        
+        // Recursive function call karo (start=0, end=n-1)
+        reverseArray(arr, 0, n - 1);
+        
+        // Reversed array print karo
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+ 
+    // Recursive function to reverse array in-place
+    public static void reverseArray(int[] arr, int s, int e) {
+        // Base case: Agar pointers cross ho jayein ya mil jayein, toh ruk jao
+        if (s >= e) {
+            return;
+        }
+        
+        // Swap start and end elements
+        int temp = arr[s];
+        arr[s] = arr[e];
+        arr[e] = temp;
+        
+        // Recursively call for remaining middle part
+        reverseArray(arr, s + 1, e - 1);
+    }
