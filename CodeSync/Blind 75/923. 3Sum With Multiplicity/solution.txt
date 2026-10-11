@@ -1,20 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 923. 3Sum With Multiplicity
- * URL: https://leetcode.com/problems/3sum-with-multiplicity/description/?envType=problem-list-v2&envId=da2x5psh
- * Language: Text
+ * URL: https://leetcode.com/problems/3sum-with-multiplicity/?envType=problem-list-v2&envId=da2x5psh
+ * Language: Two Pointers - Classic (Copy-e9snhf4h)
  * Difficulty: Medium
  * Topics: Array, Hash Table, Two Pointers, Sorting, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T09:36:45.971Z
+ * Synced: 2026-10-11T09:37:20.402Z
  */
 
-Input: arr = [1,1,2,2,3,3,4,4,5,5], target = 8
-Output: 20
-Explanation: 
-Enumerating by the values (arr[i], arr[j], arr[k]):
-(1, 2, 5) occurs 8 times;
-(1, 3, 4) occurs 8 times;
-(2, 2, 4) occurs 2 times;
-(2, 3, 3) occurs 2 times.
+} else if (i == j) {
+                    // Case 2: First two same (e.g., 5,5,8)
+                    // Formula: C(n, 2) * m
+                    result += count[i] * (count[i] - 1) / 2 * count[k];
+                    
+                } else if (j == k) {
+                    // Case 3: Last two same (e.g., 5,8,8)
+                    // Formula: n * C(m, 2)
+                    result += count[i] * count[j] * (count[j] - 1) / 2;
+                    
+                } else {
+                    // Case 4: All distinct (e.g., 5,8,12)
+                    // Formula: n * m * p
+                    result += count[i] * count[j] * count[k];
+                }
+                
+                result %= MOD;
+            }
+        }
+        
+        return (int) result;
+    }
+}
