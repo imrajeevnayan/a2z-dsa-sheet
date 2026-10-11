@@ -7,12 +7,12 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T12:00:06.439Z
+ * Synced: 2026-10-11T12:00:07.285Z
  */
 
-class Solution {
-    public int maxDepth(TreeNode root) {
-        if(root==null)return 0;
-        return 1+ Math.max(maxDepth(root.left),maxDepth(root.right));
-    }
-}
+1class Solution {
+2    public int maxDepth(TreeNode root) {
+3        if(root==null)return 0;
+4        return 1+ Math.max(maxDepth(root.left),maxDepth(root.right));
+5    }
+6}
