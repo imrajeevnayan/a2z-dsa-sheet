@@ -1,27 +1,18 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Majority Element
- * URL: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
- * Language: Top Interview 150
- * Difficulty: Easy
- * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
- * Runtime: 0 ms
+ * URL: https://www.geeksforgeeks.org/problems/majority-element-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, D-E-Shaw, Google
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T05:09:45.382Z
+ * Synced: 2026-10-11T17:10:11.297Z
  */
 
-if (count == 0) {
-                candidate = num;
-            }
-            if (num == candidate) {
-                count++;
-            } else {
-        for (int num : nums) {
-        int candidate = 0;
-        int count = 0;
-                count--;
-            }
-        }
-        return candidate;
+class Solution {
+    int majorityElement(int arr[]) {
+        // code here
+        
     }
 }
