@@ -7,39 +7,25 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:55:13.211Z
+ * Synced: 2026-10-11T18:55:27.662Z
  */
 
-// Length * (Max GCD achievable with k doublings)
-            // The answer is always max over all subarrays of:
-            // Okay, here is the trick that works for LeetCode 3574:
-            
-            // Also, create a temporary array where we double the 'best' k elements? No.
-            // Check all subarrays. For each, calculate GCD.
-            // Let's try the most robust "Simple" approach:
-            
-            // This is still complex.
-            // assume we double the elements that are NOT divisible by the current GCD's next potential factor.
-            // Since N is small, let's just try all subarrays and for each,
-            
-            // To find Max GCD with k doublings for a fixed subarray:
-            // It's hard. BUT, notice that doubling only adds factor 2.
-            // So, the GCD will be of the form: Original_GCD * (Power of 2).
-            
-            // Let's just implement the O(N^2) loop and inside, 
-            // we'll check if doubling helps by checking parity.
+int target = 2 * g;
+                    int opsNeeded = 0;
+                    for (int m = i; m <= j; m++) {
+                        if (nums[m] % target != 0) {
+                            // If we double it, does it become divisible?
+                            // (2 * nums[m]) % target == 0?
+                            if ((2 * nums[m]) % target == 0) {
+           
             
             for (int j = i; j < n; j++) {
-            
-            
-            // However, to pass [2,4] k=1, we MUST simulate doubling.
-            // A very common pattern in these problems is that doubling 
-            // allows us to extract more powers of 2.
-            // Then, check if doubling min(k, len) elements can increase GCD.
-            // For each subarray, calculate original GCD.
-            
-            // Let's use a simpler approach:
-            // But we also need to track how doubling affects it.
-            // For each starting point i, we maintain GCD as we extend j.
-            
-            // GCD(2a, 2b) = 2*GCD(a,b).
+                g = gcd(g, nums[j]);
+                int len = j - i + 1;
+                
+                // Calculate score without doubling
+                ans = Math.max(ans, (long) g * len);
+                
+                // If we have operations, try to improve GCD
+                if (k > 0) {
+                    // Heuristic: If we double ALL elements, GCD becomes 2*g.
