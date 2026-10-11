@@ -7,42 +7,31 @@
  * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T15:05:16.299Z
+ * Synced: 2026-10-11T15:06:28.699Z
  */
 
 class Solution {
     int unvisitedLeaves(int arr[], int k) {
-        // Visited array: index 1 se k tak leaves represent karte hain
-        boolean[] visited = new boolean[k + 1];
+        boolean[] vis = new boolean[k + 1];
+        javSet<Integer> set = new java.util.HashSet<>();
 
-        // Duplicate strengths avoid karne ke liye HashSet use karo
-        // Taaki same strength wale frogs baar-baar marking na karein
-        
-        
-        Set<Integer> unique = new HashSet<>();
-        for (int s : arr) {
-            unique.add(s);
-        }
+        // Duplicates remove karo
+        for (int s : arr) set.add(s);
 
-        // Har unique strength ke multiples mark karo
-        for (int strength : unique) {
-            // Optimization: Agar strength > k hai toh wo kisi leaf par land nahi karega
-            if (strength > k) continue;
-
-            // Strength ke saare multiples ko visit mark karo
-            for (int leaf = strength; leaf <= k; leaf += strength) {
-                visited[leaf] = true;
+        // Multiples mark karo
+        for (int s : set) {
+            if (s > k) continue;
+            for (int i = s; i <= k; i += s) {
+                vis[i] = true;
             }
         }
 
-        // Count unvisited leaves (index 1 se start hota hai)
-        int count = 0;
+        // Unvisited count karo
+        int cnt = 0;
         for (int i = 1; i <= k; i++) {
-            if (!visited[i]) {
-                count++;
-            }
+            if (!vis[i]) cnt++;
         }
 
-        return count;
+        return cnt;
     }
 }
