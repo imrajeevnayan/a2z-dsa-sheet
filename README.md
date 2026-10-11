@@ -170,3 +170,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 131 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | LeetCode | Easy | 11 Oct 2026 | 03:43 pm |
 | 132 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | LeetCode | Easy | 11 Oct 2026 | 05:14 pm |
 | 133 | [Remove Half Nodes](https://www.geeksforgeeks.org/problems/remove-half-nodes/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 05:39 pm |
+| 134 | [Level of a Node in Binary Tree](https://www.geeksforgeeks.org/problems/level-of-a-node-in-binary-tree/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 06:25 pm |
