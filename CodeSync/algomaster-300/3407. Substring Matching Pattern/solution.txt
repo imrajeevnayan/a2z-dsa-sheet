@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 3407. Substring Matching Pattern
- * URL: https://leetcode.com/problems/substring-matching-pattern/description/
+ * URL: https://leetcode.com/problems/substring-matching-pattern/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, String Matching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T11:43:20.239Z
+ * Synced: 2026-10-11T11:44:14.146Z
  */
 
+// Ab check karo ki kya iske baad kahin suffix bhi fit ho sakta hai?
+                // Suffix kabhi bhi aa sakta hai, bas uski length available honi chahiye
+                // Aur wo prefix ke turant baad ya uske baad kisi jagah aa sakta hai
+                
+                
+            // Check karo ki kya current position par prefix match ho raha hai?
+            if (s.startsWith(prefix, i)) {
+        
+        // String 's' ke har possible starting index ko check karo
+        for (int i = 0; i <= n - preLen; i++) {
+        // Toh wo har string ka substring hai (empty string always exists)
+        if (preLen == 0 && sufLen == 0) return true;
+        
+        // Edge case: Agar prefix aur suffix dono empty hain ("*")
+        int preLen = prefix.length();
+        int sufLen = suffix.length();
+        int n = s.length();
+        
+        String suffix = parts[1];
+        String prefix = parts[0];
+        String[] parts = p.split("\\*", -1); 
+        // Example: "ee*e" -> ["ee", "e"]
+        // Pattern ko '*' ke basis par split karo
 class Solution {
     public boolean hasMatch(String s, String p) {
-        
-    }
-}
