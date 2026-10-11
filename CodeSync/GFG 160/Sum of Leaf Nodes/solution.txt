@@ -7,10 +7,26 @@
  * Topics: Expected Complexities, Topic Tags, Tree, Related Articles, Sum Leaf Nodes Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T12:55:50.143Z
+ * Synced: 2026-10-11T12:55:50.452Z
  */
 
-Input: root[] = [3, 1, 2]
- 
-Output: 3
-Explanation: The sum of all the leaf nodes is: 1 + 2 = 3.
+/*
+class Node
+{
+    int data;
+    Node left, right;
+
+    Node(int x)
+    {
+        data = x;
+        left = right = null;
+    }
+}
+*/
+
+class Solution {
+    public int leafSum(Node root) {
+        // code here
+        
+    }
+}
