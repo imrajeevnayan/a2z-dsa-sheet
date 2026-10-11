@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 3 ms
  * Memory: 44.66 MB
- * Synced: 2026-10-11T11:47:48.740Z
+ * Synced: 2026-10-11T11:47:59.398Z
  */
 
 // 2. Edge case: agar pattern sirf "*" hai
@@ -27,6 +27,7 @@
                 if (suffixPos != -1) {
                     return true;
                 }
+        
             }
         }
         
