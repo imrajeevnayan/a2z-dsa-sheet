@@ -7,30 +7,16 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:50:19.302Z
+ * Synced: 2026-10-11T18:55:05.838Z
  */
 
-} else {
-                if (k >= len) {
-                    currentScore = Math.max(currentScore, (long) (g * 2) * len);
-                // If we have enough ops to double ALL elements in this subarray
-                
-                long currentScore = (long) g * len;
-                    if (k > 0) {
-                    }
-                }
-                ans = Math.max(ans, currentScore);
-            }
-        }
-                // Simple heuristic for this problem:
-                g = gcd(g, nums[j]);
-                int len = j - i + 1;
-                                
-            for (int j = i; j < n; j++) {
-        for (int i = 0; i < n; i++) {
-            int g = 0;
-        long ans = 0;
-        
-    public long maxGCDScore(int[] nums, int k) {
-        int n = nums.length;
-class Solution {
+opsNeeded = k + 1;
+                            } else {
+                                opsNeeded++;
+                            if ((2 * nums[m]) % target == 0) {
+                         if (nums[m] % target != 0) {
+                    for (int m = i; m <= j; m++) {
+                    opsNeeded = 0;
+                    target = 4 * g;
+                    // Try 4*g if k allows
+                    // Can we go higher? 4*g?
