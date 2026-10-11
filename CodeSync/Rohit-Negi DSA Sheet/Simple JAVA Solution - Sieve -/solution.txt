@@ -7,13 +7,13 @@
  * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T15:06:28.699Z
+ * Synced: 2026-10-11T15:06:33.127Z
  */
 
 class Solution {
     int unvisitedLeaves(int arr[], int k) {
         boolean[] vis = new boolean[k + 1];
-        javSet<Integer> set = new java.util.HashSet<>();
+        Set<Integer> set = new java.HashSet<>();
 
         // Duplicates remove karo
         for (int s : arr) set.add(s);
