@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 2778. Sum of Squares of Special Elements
- * URL: https://leetcode.com/problems/sum-of-squares-of-special-elements/?envType=daily-question&envId=2026-10-11
+ * URL: https://leetcode.com/problems/sum-of-squares-of-special-elements/submissions/2169096769/?envType=daily-question&envId=2026-10-11
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Enumeration
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T08:53:17.479Z
+ * Synced: 2026-10-11T08:59:39.716Z
  */
 
-for (int i = 1; i <= n; i++) {
-            // Check karo ki kya current index 'n' ko divide karta hai
-            if (n % i == 0) {
-                // Array 0-indexed hai, isliye (i-1) use karo access karne ke liye
+// Array 0-indexed hai, isliye (i-1) use karo access karne ke liye
                 int val = nums[i - 1];
                 sum += val * val;
             }
