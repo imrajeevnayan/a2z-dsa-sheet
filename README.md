@@ -172,3 +172,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 133 | [Remove Half Nodes](https://www.geeksforgeeks.org/problems/remove-half-nodes/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 05:39 pm |
 | 134 | [Level of a Node in Binary Tree](https://www.geeksforgeeks.org/problems/level-of-a-node-in-binary-tree/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 06:25 pm |
 | 135 | [Sum of Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-leaf-nodes/1) | GeeksForGeeks | Medium | 11 Oct 2026 | 06:26 pm |
+| 136 | [Sum of Right Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 06:29 pm |
