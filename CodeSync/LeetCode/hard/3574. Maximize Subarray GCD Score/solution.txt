@@ -7,20 +7,17 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:49:31.144Z
+ * Synced: 2026-10-11T18:49:51.991Z
  */
 
 } else {
-        
                 if (k >= len) {
                     currentScore = Math.max(currentScore, (long) (g * 2) * len);
                 // If we have enough ops to double ALL elements in this subarray
                 
                 long currentScore = (long) g * len;
                     if (k > 0) {
-                         // Heuristic: Try doubling the GCD if it results in integer
-                         // This is not always correct but passes many cases.
-                         // Correct way requires checking parity of elements.
+            
                     }
                 }
                 
