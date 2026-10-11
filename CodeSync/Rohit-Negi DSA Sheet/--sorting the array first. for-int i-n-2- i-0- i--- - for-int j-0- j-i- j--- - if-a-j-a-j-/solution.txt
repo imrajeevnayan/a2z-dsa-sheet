@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonOYO Rooms, Company Tags, Amazon, OYO Rooms, Topic Tags, two-pointer-algorithm, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T15:07:56.814Z
+ * Synced: 2026-10-11T15:45:45.501Z
  */
 
 class Solution {
@@ -25,7 +25,7 @@ class Solution {
                 // Duplicate skip karo
                 if (j > i + 1 && arr[j] == arr[j-1]) continue;
 
-                // Ab left aur right pointers se remaining 2 numbers dhoondo
+                // Ab left  aur right pointers se remaining 2 numbers dhoondo
                 int left = j + 1;
                 int right = n - 1;
 
