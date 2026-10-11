@@ -7,39 +7,39 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:55:53.725Z
+ * Synced: 2026-10-11T18:55:59.214Z
  */
 
-} else {
-                            if ((2 * nums[m]) % target == 0) {
-                                opsNeeded++;
-                            // If we double it, does it become divisible?
-                            // (2 * nums[m]) % target == 0?
-                        if (nums[m] % target != 0) {
-                    for (int m = i; m <= j; m++) {
-                    int opsNeeded = 0;
-                    int target = 2 * g;
-                    
-                    // So if count of elements not divisible by 2*g is <= k, then new GCD >= 2*g.
-                    // 4 is divisible by 4.
-                    // 2 is not divisible by 4. Double it -> 4 (divisible).
-                    // Actually, for [2,4], g=2. 2*g=4.
-                    // No, doubling x makes it 2x. If x was not divisible by g, 2x might be?
-                    
-                    // This requires that after doubling k elements, all are divisible by 2*g.
-                    // This is true if at most k elements are NOT divisible by 2*g originally?
-                    // Note that 4 = 2 * 2.
-                    
-                    // Let's check if we can make GCD at least 2*g.
-                    // If we double SOME, it depends.
-                    // For [2,4], g=2. If we double 2->4, GCD(4,4)=4.
-                    // Heuristic: If we double ALL elements, GCD becomes 2*g.
-                if (k > 0) {
-                // If we have operations, try to improve GCD
-                
-                ans = Math.max(ans, (long) g * len);
-                // Calculate score without doubling
-                
-                int len = j - i + 1;
-                g = gcd(g, nums[j]);
-            for (int j = i; j < n; j++) {
+// Okay, here is the trick that works for LeetCode 3574:
+            
+            // Also, create a temporary array where we double the 'best' k elements? No.
+            // Check all subarrays. For each, calculate GCD.
+            // Let's try the most robust "Simple" approach:
+            
+            // This is still complex.
+            // assume we double the elements that are NOT divisible by the current GCD's next potential factor.
+            // Since N is small, let's just try all subarrays and for each,
+            
+            // However, to pass [2,4] k=1, we MUST simulate doubling.
+            
+            // allows us to extract more powers of 2.
+            // A very common pattern in these problems is that doubling 
+            // Then, check if doubling min(k, len) elements can increase GCD.
+            // For each subarray, calculate original GCD.
+            // Let's use a simpler approach:
+            // But we also need to track how doubling affects it.
+            
+            // For each starting point i, we maintain GCD as we extend j.
+            
+            // GCD(2a, 2b) = 2*GCD(a,b).
+            // Doubling an element x makes it 2x.
+            // Instead of complex DP, let's observe:
+            // We need to know: if we double some elements, what's the best GCD?
+            int g = 0;
+        // Iterate over all subarrays
+        for (int i = 0; i < n; i++) {
+        
+        long ans = 0;
+        int n = nums.length;
+    public long maxGCDScore(int[] nums, int k) {
+class Solution {
