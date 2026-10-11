@@ -7,32 +7,32 @@
  * Topics: Programming, Tree Data Structure, Description, Discussion, Submissions, Hints, Merge two Binary Tree 32 Minutes Easy Asked in:, Nodes at Distance K 57 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T13:04:56.956Z
+ * Synced: 2026-10-11T13:06:46.438Z
  */
 
-public int kthsmallest(TreeNode A, int B) {
-        count = 0;
-        result = -1;
-        inorder(A, B);
-        return result;
-    }
-    
-    private void inorder(TreeNode node, int k) {
-        // Base case or Early termination if already found
-        if (node == null || result != -1) return;
+if (node == null || result != -1) return;
         
         // Step 1: Left Subtree (Smaller elements)
-    private int count = 0;
-    private int result = -1;
+        inorder(node.left, k);
+        
+        // Step 2: Process Current Node
+        count++;
+        if (count == k) {
+            result = node.val;
+            return; // Found! Stop further traversal immediately
+        }
+        
+        // Base case or Early termination if already found
+    private void inorder(TreeNode node, int k) {
     
+    }
+        return result;
+        inorder(A, B);
+        result = -1;
+        count = 0;
+    public int kthsmallest(TreeNode A, int B) {
+    
+    private int result = -1;
+    private int count = 0;
     // Instance variables to track state across recursive calls
- */
 public class Solution {
- *     TreeNode(int x) { val = x; left=null; right=null; }
- * }
- *     TreeNode right;
- *     TreeNode left;
- *     int val;
- * class TreeNode {
- * Definition for binary tree
-/**
