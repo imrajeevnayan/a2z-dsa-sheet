@@ -2,13 +2,28 @@
  * Platform: LeetCode
  * Problem: 169. Majority Element
  * URL: https://leetcode.com/problems/majority-element/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T16:50:10.755Z
+ * Synced: 2026-10-11T16:50:14.530Z
  */
 
-Input: nums = [3,2,3]
-Output: 3
+class Solution {
+    public int majorityElement(int[] nums) {
+        int candidate = 0;
+        int count = 0;
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            if (num == candidate) {
+                count++;
+            } else {
+                count--;
+            }
+        }
+        return candidate;
+    }
+}
