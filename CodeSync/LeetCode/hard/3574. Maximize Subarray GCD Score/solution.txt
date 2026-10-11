@@ -7,39 +7,38 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:55:59.214Z
+ * Synced: 2026-10-11T18:56:16.525Z
  */
 
-// Okay, here is the trick that works for LeetCode 3574:
-            
-            // Also, create a temporary array where we double the 'best' k elements? No.
-            // Check all subarrays. For each, calculate GCD.
-            // Let's try the most robust "Simple" approach:
-            
-            // This is still complex.
-            // assume we double the elements that are NOT divisible by the current GCD's next potential factor.
-            // Since N is small, let's just try all subarrays and for each,
-            
-            // However, to pass [2,4] k=1, we MUST simulate doubling.
-            
-            // allows us to extract more powers of 2.
-            // A very common pattern in these problems is that doubling 
-            // Then, check if doubling min(k, len) elements can increase GCD.
-            // For each subarray, calculate original GCD.
-            // Let's use a simpler approach:
-            // But we also need to track how doubling affects it.
-            
-            // For each starting point i, we maintain GCD as we extend j.
-            
-            // GCD(2a, 2b) = 2*GCD(a,b).
-            // Doubling an element x makes it 2x.
-            // Instead of complex DP, let's observe:
-            // We need to know: if we double some elements, what's the best GCD?
-            int g = 0;
+public long maxGCDScore(int[] nums, int k) {
+        int n = nums.length;
+        long ans = 0;
+        
         // Iterate over all subarrays
         for (int i = 0; i < n; i++) {
-        
-        long ans = 0;
-        int n = nums.length;
-    public long maxGCDScore(int[] nums, int k) {
-class Solution {
+            int g = 0;
+           
+            for (int j = i; j < n; j++) {
+                g = gcd(g, nums[j]);
+                int len = j - i + 1;
+                
+                // Calculate score without doubling
+                ans = Math.max(ans, (long) g * len);
+                
+                // If we have operations, try to improve GCD
+                if (k > 0) {
+                    =
+                    int target = 2 * g;
+                    int opsNeeded = 0;
+                    for (int m = i; m <= j; m++) {
+                        if (nums[m] % target != 0) {
+                            // If we double it, does it become divisible?
+                            // (2 * nums[m]) % target == 0?
+                            if ((2 * nums[m]) % target == 0) {
+                                opsNeeded++;
+                            } else {
+                                opsNeeded = k + 1; // Impossible
+                                break;
+                            }
+                        }
+                    }
