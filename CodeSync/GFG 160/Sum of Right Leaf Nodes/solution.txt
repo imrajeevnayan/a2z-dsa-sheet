@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of Right Leaf Nodes
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Traversal, Tree, Related Articles, Find Sum Right Leaves Given Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T12:59:17.622Z
+ */
+
+class Solution {
+    int rightLeafSum(Node root) {
+       if(root==null) return 0;
+       int sum=0;
+       if(root.right!=null  && root.right.left==null && root.right.right ==null){
+           sum+=root.right.data;
+       }
+       return sum + rightLeafSum(root.left)+ rightLeafSum(root.right);
+    }
+}
