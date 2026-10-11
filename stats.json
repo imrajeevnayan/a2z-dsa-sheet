@@ -1,11 +1,11 @@
 {
-  "totalSolved": 136,
+  "totalSolved": 137,
   "currentStreak": 16,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-11",
-  "todayCount": 10,
+  "todayCount": 11,
   "difficultyCounts": {
-    "easy": 52,
+    "easy": 53,
     "medium": 72,
     "hard": 6,
     "basic": 6
@@ -146,7 +146,8 @@
     "GeeksForGeeks_Sum_of_Leaf_Nodes": true,
     "GeeksForGeeks_Sum_of_Right_Leaf_Nodes": true,
     "GeeksForGeeks_Frogs_and_Jumps": true,
-    "GeeksForGeeks_Check_for_4_Sum": true
+    "GeeksForGeeks_Check_for_4_Sum": true,
+    "LeetCode_Majority_Element": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -164,7 +165,7 @@
     "2026-10-08": 3,
     "2026-10-09": 4,
     "2026-10-10": 6,
-    "2026-10-11": 10
+    "2026-10-11": 11
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -300,6 +301,7 @@
     "Sum of Leaf Nodes",
     "Sum of Right Leaf Nodes",
     "Frogs and Jumps",
-    "Check for 4 Sum"
+    "Check for 4 Sum",
+    "Majority Element"
   ]
 }

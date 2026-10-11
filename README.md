@@ -175,3 +175,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 136 | [Sum of Right Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 06:29 pm |
 | 137 | [Frogs and Jumps](https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 08:34 pm |
 | 138 | [Check for 4 Sum](https://www.geeksforgeeks.org/problems/four-elements2452/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 08:37 pm |
+| 139 | [Majority Element](https://leetcode.com/problems/majority-element/) | LeetCode | Easy | 11 Oct 2026 | 10:43 pm |
