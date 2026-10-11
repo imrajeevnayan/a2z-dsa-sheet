@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Ways To Make Coin Change
+ * URL: https://www.naukri.com/code360/problems/ways-to-make-coin-change_630471
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Dynamic Programming
+ * Runtime: 2024 ms
+ * Memory: N/A
+ * Synced: 2026-10-11T20:56:50.137Z
+ */
+
+public class Solution {
+    public static long countWaysToMakeChange(int denominations[], int value) {
+        // dp[i] will store the number of ways to make value 'i'
+        long[] dp = new long[value + 1];
+        
+        // Base case: 0 value banane ka 1 tareeka hai (koi coin na lena)
+        dp[0] = 1;
+        
+        // Har denomination ke liye dp array update karo
+        for (int coin : denominations) {
+            for (int i = coin; i <= value; i++) {
+                dp[i] += dp[i - coin];
+            }
+        }
+        
+        return dp[value];
+    }
+}
