@@ -1,0 +1,29 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Kth Smallest Element In Tree
+ * URL: https://www.interviewbit.com/problems/kth-smallest-element-in-tree/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Tree Data Structure, Description, Discussion, Submissions, Hints, Merge two Binary Tree 32 Minutes Easy Asked in:, Nodes at Distance K 57 Minutes Medium Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T13:04:02.835Z
+ */
+
+/**
+ * Definition for binary tree
+ * class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) {
+ *      val = x;
+ *      left=null;
+ *      right=null;
+ *     }
+ * }
+ */
+public class Solution {
+    public int kthsmallest(TreeNode A, int B) {
+    }
+}
