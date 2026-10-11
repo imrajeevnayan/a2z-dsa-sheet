@@ -1,12 +1,12 @@
 {
-  "totalSolved": 132,
+  "totalSolved": 133,
   "currentStreak": 16,
   "maxStreak": 16,
   "lastSyncDate": "2026-10-11",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 49,
-    "medium": 71,
+    "medium": 72,
     "hard": 6,
     "basic": 6
   },
@@ -142,7 +142,8 @@
     "LeetCode_Maximum_Depth_of_Binary_Tree": true,
     "LeetCode_Substring_Matching_Pattern": true,
     "GeeksForGeeks_Remove_Half_Nodes": true,
-    "GeeksForGeeks_Level_of_a_Node_in_Binary_Tree": true
+    "GeeksForGeeks_Level_of_a_Node_in_Binary_Tree": true,
+    "GeeksForGeeks_Sum_of_Leaf_Nodes": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -160,7 +161,7 @@
     "2026-10-08": 3,
     "2026-10-09": 4,
     "2026-10-10": 6,
-    "2026-10-11": 6
+    "2026-10-11": 7
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -292,6 +293,7 @@
     "Maximum Depth of Binary Tree",
     "Substring Matching Pattern",
     "Remove Half Nodes",
-    "Level of a Node in Binary Tree"
+    "Level of a Node in Binary Tree",
+    "Sum of Leaf Nodes"
   ]
 }
