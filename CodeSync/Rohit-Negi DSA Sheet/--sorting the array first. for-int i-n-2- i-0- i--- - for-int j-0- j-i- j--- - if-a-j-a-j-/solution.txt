@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: //sorting the array first. for(int i=n-2; i>=0; i--) { for(int j=0; j<=i; j++) { if(a[j]>a[j+1]) swap(a[j], a[j+1]); } } //finding 4 sum now. for(int i=0; i<n-3; i++) { for(int j=i+1; j<n-2; j++) { int start=j+1, end=n-1; while(start<end) { if(a[start]+a[end]==X-a[i]-a[j]) return 1; else if(a[start]+a[end]>X-a[i]-a[j]) end--; else start++; } } } return 0;
+ * URL: https://www.geeksforgeeks.org/problems/four-elements2452/1
+ * Language: def find4Numbers( A, n, X): # return true or false A.sort() for item1 in range(len(A)-3): for item2 in range(item1+1, len(A)-2): left = item2+1 right = len(A)-1 target = X - (A[item1]+A[item2]) while left < right: curr_sum = A[left] + A[right] if curr_sum == target: return True elif curr_sum < target: left += 1 else: right -= 1 return False # Let's see this Approach which had an issue of time complexity, # but you can easily understand what's going on in this approach. # If you'll get it then you can easily think about its best approach. def find4Numbers( A, n, X): for i in range(n): for j in range(i + 1, n): for k in range(j + 1, n): for l in range(k + 1, n): if A[i] + A[j] + A[k] + A[l] == X: return True return False
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonOYO Rooms, Company Tags, Amazon, OYO Rooms, Topic Tags, two-pointer-algorithm, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T15:07:56.814Z
+ */
+
+class Solution {
+    public boolean fourSum(int[] arr, int x) {
+        Arrays.sort(arr); // Pehle sort karo taaki two pointers kaam kar sake
+        int n = arr.length;
+
+        // First number fix karo
+        for (int i = 0; i < n - 3; i++) {
+            // Duplicate skip karo (optional optimization)
+            if (i > 0 && arr[i] == arr[i-1]) continue;
+
+            // Second number fix karo
+            for (int j = i + 1; j < n - 2; j++) {
+                // Duplicate skip karo
+                if (j > i + 1 && arr[j] == arr[j-1]) continue;
+
+                // Ab left aur right pointers se remaining 2 numbers dhoondo
+                int left = j + 1;
+                int right = n - 1;
+
+                while (left < right) {
+                    long sum = (long)arr[i] + arr[j] + arr[left] + arr[right];
+
+                    if (sum == x) return true;
+                    else if (sum < x) left++;  // Sum badhana hai
+                    else right--;              // Sum kam karna hai
+                }
+            }
+        }
+
+        return false;
+    }
+}
