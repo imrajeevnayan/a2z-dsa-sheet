@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:49:58.453Z
+ * Synced: 2026-10-11T18:50:19.302Z
  */
 
 } else {
@@ -19,15 +19,18 @@
                     if (k > 0) {
                     }
                 }
-    
                 ans = Math.max(ans, currentScore);
             }
         }
-        return ans;
-    }
-    
-    private int gcd(int a, int b) {
-        while (b > 0) { int t = b; b = a % b; a = t; }
-        return a;
-    }
-}
+                // Simple heuristic for this problem:
+                g = gcd(g, nums[j]);
+                int len = j - i + 1;
+                                
+            for (int j = i; j < n; j++) {
+        for (int i = 0; i < n; i++) {
+            int g = 0;
+        long ans = 0;
+        
+    public long maxGCDScore(int[] nums, int k) {
+        int n = nums.length;
+class Solution {
