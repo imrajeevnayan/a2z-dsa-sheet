@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: 923. 3Sum With Multiplicity
+ * URL: https://leetcode.com/problems/3sum-with-multiplicity/description/?envType=problem-list-v2&envId=da2x5psh
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Two Pointers, Sorting, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-11T09:36:45.971Z
+ */
+
+Input: arr = [1,1,2,2,3,3,4,4,5,5], target = 8
+Output: 20
+Explanation: 
+Enumerating by the values (arr[i], arr[j], arr[k]):
+(1, 2, 5) occurs 8 times;
+(1, 3, 4) occurs 8 times;
+(2, 2, 4) occurs 2 times;
+(2, 3, 3) occurs 2 times.
