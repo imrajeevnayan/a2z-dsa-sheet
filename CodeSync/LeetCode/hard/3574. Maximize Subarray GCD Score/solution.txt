@@ -7,18 +7,39 @@
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-11T18:55:39.423Z
+ * Synced: 2026-10-11T18:55:53.725Z
  */
 
-[2,4]
-1
-[3,5,7]
-2
-[5,5,5]
-1
-8
-14
-15
-8
-14
-15
+} else {
+                            if ((2 * nums[m]) % target == 0) {
+                                opsNeeded++;
+                            // If we double it, does it become divisible?
+                            // (2 * nums[m]) % target == 0?
+                        if (nums[m] % target != 0) {
+                    for (int m = i; m <= j; m++) {
+                    int opsNeeded = 0;
+                    int target = 2 * g;
+                    
+                    // So if count of elements not divisible by 2*g is <= k, then new GCD >= 2*g.
+                    // 4 is divisible by 4.
+                    // 2 is not divisible by 4. Double it -> 4 (divisible).
+                    // Actually, for [2,4], g=2. 2*g=4.
+                    // No, doubling x makes it 2x. If x was not divisible by g, 2x might be?
+                    
+                    // This requires that after doubling k elements, all are divisible by 2*g.
+                    // This is true if at most k elements are NOT divisible by 2*g originally?
+                    // Note that 4 = 2 * 2.
+                    
+                    // Let's check if we can make GCD at least 2*g.
+                    // If we double SOME, it depends.
+                    // For [2,4], g=2. If we double 2->4, GCD(4,4)=4.
+                    // Heuristic: If we double ALL elements, GCD becomes 2*g.
+                if (k > 0) {
+                // If we have operations, try to improve GCD
+                
+                ans = Math.max(ans, (long) g * len);
+                // Calculate score without doubling
+                
+                int len = j - i + 1;
+                g = gcd(g, nums[j]);
+            for (int j = i; j < n; j++) {
