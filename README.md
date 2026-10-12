@@ -183,3 +183,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 144 | [Top K Frequent in Array](https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1) | GeeksForGeeks | Medium | 12 Oct 2026 | 10:33 pm |
 | 145 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | LeetCode | Easy | 12 Oct 2026 | 11:03 pm |
 | 146 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | LeetCode | Medium | 12 Oct 2026 | 11:19 pm |
+| 147 | [3Sum](https://leetcode.com/problems/3sum/) | LeetCode | Medium | 12 Oct 2026 | 11:20 pm |
