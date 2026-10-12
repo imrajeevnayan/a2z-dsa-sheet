@@ -1,13 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 15
- * URL: https://leetcode.com/discuss/post/8447543/if-i-had-to-restart-leetcode-today-this-cc0e9/
+ * URL: https://leetcode.com/discuss/post/8433297/fixed-size-sliding-window-pattern-comple-srmf/
  * Language: India
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T18:56:24.079Z
+ * Synced: 2026-10-12T18:57:37.924Z
  */
 
-Easy → Medium → Hard → Random Problem → Editorial → Repeat
+Subarray / Substring?
+
+        ↓
+
+Exactly K Elements?
+
+        ↓
+
+Need Every Window?
+
+        ↓
+
+Maximum / Minimum / Count?
