@@ -1,32 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 2331. Evaluate Boolean Binary Tree
- * URL: https://leetcode.com/problems/evaluate-boolean-binary-tree/description/
+ * URL: https://leetcode.com/problems/evaluate-boolean-binary-tree/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T17:32:25.193Z
+ * Synced: 2026-10-12T17:33:17.729Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public boolean evaluateTree(TreeNode root) {
+        // Base Case: Leaf nodes (0 or 1)
+        if (root.val == 0) return false;
+        if (root.val == 1) return true;
         
+        // Recursive Step: Evaluate left and right subtrees
+        boolean leftVal = evaluateTree(root.left);
+        boolean rightVal = evaluateTree(root.right);
+        
+        // Apply Operation based on node value
+        if (root.val == 2) {
+            return leftVal || rightVal; // OR
+        } else {
+            return leftVal && rightVal; // AND (val == 3)
+        }
     }
 }
