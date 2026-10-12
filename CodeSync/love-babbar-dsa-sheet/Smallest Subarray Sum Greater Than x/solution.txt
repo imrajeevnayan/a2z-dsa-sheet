@@ -7,14 +7,13 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T11:55:46.433Z
+ * Synced: 2026-10-12T11:55:53.986Z
  */
 
 class Solution {
     public static int smallestSubWithSum(int x, int[] arr) {
         int n = arr.length;
-        int left = 0;
-        int sum = 0;
+        int left = 0,sum = 0;
         int minLen = Integer.MAX_VALUE;
 
         // Right pointer window ko expand karega
