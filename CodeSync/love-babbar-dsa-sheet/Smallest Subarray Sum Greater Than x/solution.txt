@@ -7,35 +7,29 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T11:54:36.472Z
+ * Synced: 2026-10-12T11:55:46.433Z
  */
 
 class Solution {
     public static int smallestSubWithSum(int x, int[] arr) {
         int n = arr.length;
-        int start = 0;
-        int end = 0;
-        int currSum = 0;
+        int left = 0;
+        int sum = 0;
         int minLen = Integer.MAX_VALUE;
 
-        while (end < n) {
-            // Expand window: Element add karo
-            currSum += arr[end];
+        // Right pointer window ko expand karega
+        for (int right = 0; right < n; right++) {
+            sum += arr[right];
 
-            // Shrink window: Jab tak sum > x hai, start ko aage badhao
-            while (currSum > x) {
-                // Update minimum length
-                minLen = Math.min(minLen, end - start + 1);
-
-                // Start element ko remove karo aur start badhao
-                currSum -= arr[start];
-                start++;
+            // Left pointer window ko shrink karega jab tak condition valid hai
+            while (sum > x) {
+                minLen = Math.min(minLen, right - left + 1);
+                sum -= arr[left];
+                left++;
             }
-
-            end++;
         }
 
-        // Agar minLen update nahi hua, matlab koi subarray nahi mila
+        // Agar minLen change nahi hua, toh 0 return karo
         return (minLen == Integer.MAX_VALUE) ? 0 : minLen;
     }
 }
