@@ -2,18 +2,37 @@
  * Platform: GeeksforGeeks
  * Problem: Frogs and Jumps
  * URL: https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1
- * Language: Text
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Data Structures, Algorithms
+ * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-15T16:19:25.863Z
+ * Synced: 2026-10-12T06:23:03.913Z
  */
 
-Input:
-N = 3
-leaves = 4
-frogs[] = {3, 2, 4} 
-Output: 1
-Explanation:
-Leaf 1 will not be visited by any frog.
+class Solution {
+    int unvisitedLeaves(int arr[], int k) {
+        boolean[] vis = new boolean[k + 1];
+        
+        Set<Integer> set = new  HashSet<>();
+
+        // Duplicates remove karo
+        for (int s : arr) set.add(s);
+
+        // Multiples mark karo
+        for (int s : set) {
+            if (s > k) continue;
+            for (int i = s; i <= k; i += s) {
+                vis[i] = true;
+            }
+        }
+
+        // Unvisited count karo
+        int cnt = 0;
+        for (int i = 1; i <= k; i++) {
+            if (!vis[i]) cnt++;
+        }
+
+        return cnt;
+    }
+}
