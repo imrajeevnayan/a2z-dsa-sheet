@@ -7,40 +7,9 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-12T11:14:49.949Z
+ * Synced: 2026-10-12T11:53:37.231Z
  */
 
-class Solution {
-    public static int smallestSubWithSum(int x, int[] arr) {
-
-        int n = arr.length;
-
-        int left = 0;
-        int sum = 0;
-        int minLen = n + 1;
-
-        for (int right = 0; right < n; right++) {
-
-            // Right se element window mein add karo
-            sum += arr[right];
-
-            // Jab sum > x ho gaya
-            while (sum > x) {
-
-                // Current window ki length
-                minLen = Math.min(minLen, right - left + 1);
-
-                // Left se element remove karo
-                sum -= arr[left];
-                left++;
-            }
-        }
-
-        // Koi valid subarray nahi mila
-        if (minLen == n + 1) {
-            return 0;
-        }
-
-        return minLen;
-    }
-}
+Input: x = 51, arr[] = [1, 4, 45, 6, 0, 19]
+Output: 3
+Explanation: Minimum length subarray is [4, 45, 6]
