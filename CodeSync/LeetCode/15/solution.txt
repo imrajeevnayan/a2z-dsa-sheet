@@ -1,26 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 15
- * URL: https://leetcode.com/discuss/post/5031884/doing-leetcode-the-wrong-way-by-dartist-6gfr/
+ * URL: https://leetcode.com/discuss/post/8447543/if-i-had-to-restart-leetcode-today-this-cc0e9/
  * Language: India
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T17:46:18.591Z
+ * Synced: 2026-10-12T18:56:24.079Z
  */
 
-// Solution:
-// add each number to the map where key is a num and value is its index
-// check if the map contains (target - x) 
-// if yes return
-// if no continue
-// Time: O(n)
-// Space: O(n)
-// Example:
-// 1,5,92 6
-// ^            -> {1 -> 0}
-//    ^         -> 6 -5 =1 is in the map ---> return {0, 1}
-// .... a couple more of the examples (ask interviewer if you need to cover additional corner cases)
-///
-/// implementation:
+Easy → Medium → Hard → Random Problem → Editorial → Repeat
