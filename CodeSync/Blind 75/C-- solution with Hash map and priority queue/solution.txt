@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T16:59:36.877Z
+ * Synced: 2026-10-12T17:00:15.195Z
  */
 
 class Solution {
@@ -21,7 +21,7 @@ class Solution {
         
         // 2. Max-Heap banao (Frequency ke basis par)
         PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> 
-            map.get(b) - map.get(a)
+            map.get() - map.get(a)
         );
 
         pq.addAll(map.keySet());
@@ -32,7 +32,7 @@ class Solution {
         for (int i = 0; i < k; i++) {
             ans.add(pq.poll());
         }
-
         return ans;
+        
     }
 }
