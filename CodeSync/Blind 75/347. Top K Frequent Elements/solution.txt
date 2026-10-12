@@ -7,32 +7,27 @@
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
  * Runtime: 14 ms
  * Memory: 47.56 MB
- * Synced: 2026-10-12T17:01:41.108Z
+ * Synced: 2026-10-12T17:01:48.088Z
  */
 
-// 1. Frequency count karo
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int num : arr) {
+for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> 
-            map.get(b) - map.get(a)
-        );
+
+        // 2. Max-Heap banao (Zyada frequency wala upar rahega)
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
         
         pq.addAll(map.keySet());
-        
-        // 3. Top K elements nikal kar ArrayList mein daalo
-        ArrayList<Integer> ans = new ArrayList<>();
+
+        // 3. Top K elements nikal lo
+        int[] ans = new int[k];
         for (int i = 0; i < k; i++) {
-            ans.add(pq.poll());
+            ans[i] = pq.poll();
         }
         
-        // 2. Max-Heap banao (Frequency ke basis par)
-    public ArrayList<Integer> topKFreq(int[] arr, int k) {
         return ans;
-class Solution {
     }
 
-import java.util.*;
 }
+        HashMap<Integer, Integer> map = new HashMap<>();
+        // 1. Frequency Map banao
