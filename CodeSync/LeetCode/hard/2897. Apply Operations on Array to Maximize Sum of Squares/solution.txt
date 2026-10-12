@@ -2,18 +2,16 @@
  * Platform: LeetCode
  * Problem: 2897. Apply Operations on Array to Maximize Sum of Squares
  * URL: https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/description/?envType=daily-question&envId=2026-10-12
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Hash Table, Greedy, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T06:24:42.793Z
+ * Synced: 2026-10-12T06:24:44.859Z
  */
 
-Input: nums = [2,6,5,8], k = 2
-Output: 261
-Explanation: We can do the following operations on the array:
-- Choose i = 0 and j = 3, then change nums[0] to (2 AND 8) = 0 and nums[3] to (2 OR 8) = 10. The resulting array is nums = [0,6,5,10].
-- Choose i = 2 and j = 3, then change nums[2] to (5 AND 10) = 0 and nums[3] to (5 OR 10) = 15. The resulting array is nums = [0,6,0,15].
-We can choose the elements 15 and 6 from the final array. The sum of squares is 152 + 62 = 261.
-It can be shown that this is the maximum value we can get.
+class Solution {
+    public int maxSum(List<Integer> nums, int k) {
+        
+    }
+}
