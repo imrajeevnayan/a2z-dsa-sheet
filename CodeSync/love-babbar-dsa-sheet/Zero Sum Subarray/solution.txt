@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:14:54.862Z
+ * Synced: 2026-10-12T12:15:05.208Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
         // Example: [1, -1] -> Prefix sums: 1, 0. Jab 0 aayega, wo set mein already hai? 
         // Nahi, isliye hum check karenge ki currSum==0 OR set contains currSum.
         // Better approach: Add 0 initially to handle subarray starting from index 0.
-        pr.add(0);
+        set.add(0);
 
         for (int num : arr) {
             currSum += num;
@@ -27,7 +27,7 @@ class Solution {
             // Check karo:
             // 1. Kya ye sum pehle kabhi aaya tha? (Matlab beech ka sum 0 hai)
             // 2. Note: Humne 0 pehle se add kiya hai, toh agar currSum 0 hua toh wo bhi catch ho jayega.
-            if (prefixSums.contains(currSum)) {
+            if (pre.contains(currSum)) {
                 return true;
             }
 
