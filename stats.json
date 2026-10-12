@@ -1,12 +1,12 @@
 {
-  "totalSolved": 140,
+  "totalSolved": 141,
   "currentStreak": 17,
   "maxStreak": 17,
   "lastSyncDate": "2026-10-12",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 55,
-    "medium": 73,
+    "medium": 74,
     "hard": 6,
     "basic": 6
   },
@@ -150,7 +150,8 @@
     "LeetCode_Majority_Element": true,
     "GeeksForGeeks_Smallest_Subarray_Sum_Greater_Than_x": true,
     "GeeksForGeeks_Smallest_window_containing_0,_1_and_2": true,
-    "GeeksForGeeks_Zero_Sum_Subarray": true
+    "GeeksForGeeks_Zero_Sum_Subarray": true,
+    "LeetCode_Top_K_Frequent_Elements": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -169,7 +170,7 @@
     "2026-10-09": 4,
     "2026-10-10": 6,
     "2026-10-11": 11,
-    "2026-10-12": 3
+    "2026-10-12": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -309,6 +310,7 @@
     "Majority Element",
     "Smallest Subarray Sum Greater Than x",
     "Smallest window containing 0, 1 and 2",
-    "Zero Sum Subarray"
+    "Zero Sum Subarray",
+    "Top K Frequent Elements"
   ]
 }
