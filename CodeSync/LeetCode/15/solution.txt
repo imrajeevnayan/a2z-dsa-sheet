@@ -1,32 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 15
- * URL: https://leetcode.com/discuss/post/8032884/sliding-window-pattern-and-intuition-by-qx6xx/
+ * URL: https://leetcode.com/discuss/post/7487949/10-easy-pattern-to-start-before-solving-mccrl/
  * Language: India
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T19:00:40.834Z
+ * Synced: 2026-10-12T19:01:55.817Z
  */
 
-/** self explainatory comments **/
-int slidingwindow(vector<int>& nums, int desired){
-        unordered_map<int,int> mp;
-        int l =0;
-        int totalcount = 0;
-        for(int r = 0; r<nums.size(); r++){
-            //EXPAND window(r)
-            mp[nums[r]]++; //some code
-            
-            //INVALID state
-            while(mp.size() > desired){
-                mp[nums[l]] --;
-                if(mp[nums[l]] == 0)
-                    mp.erase(nums[l]);
-                l++; // SHRINK window(l) 
-            }
-            totalcount += (r - l +1); //CALCULATE ans
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 4, cols = 5;
+    for(int i=0; i<rows; i++) {
+        for(int j=0; j<cols; j++) {
+            cout << "* ";
         }
-        return totalcount;
+        cout << endl;
     }
+}
