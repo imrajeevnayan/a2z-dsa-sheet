@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:15:05.208Z
+ * Synced: 2026-10-12T12:15:10.692Z
  */
 
 class Solution {
@@ -27,12 +27,12 @@ class Solution {
             // Check karo:
             // 1. Kya ye sum pehle kabhi aaya tha? (Matlab beech ka sum 0 hai)
             // 2. Note: Humne 0 pehle se add kiya hai, toh agar currSum 0 hua toh wo bhi catch ho jayega.
-            if (pre.contains(currSum)) {
+            if (set.contains(currSum)) {
                 return true;
             }
 
             // Current sum ko set mein daal do future checks ke liye
-            prefixSums.add(currSum);
+            prefixSu.add(currSum);
         }
 
         return false;
