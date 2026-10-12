@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:52:18.094Z
+ * Synced: 2026-10-12T16:57:00.149Z
  */
 
-class Solution {
-    public ArrayList<Integer> topKFreq(int[] arr, int k) {
-        // Code here
-        
-    }
-}
+Input: arr[] = [3, 1, 4, 4, 5, 2, 6, 1], k = 2
+Output: [4, 1]
+Explanation: Frequency of 4 is 2 and frequency of 1 is 2, these two have the maximum frequency and 4 is larger than 1.
