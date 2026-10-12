@@ -7,9 +7,33 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, sliding-window, Related Articles, Nth Geeky Number 1
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:06:17.140Z
+ * Synced: 2026-10-12T12:06:17.781Z
  */
 
-Input: n = 5, geekNum[] = [0, 1, 2]
-Output: 6
-Explanation: The array geekNum[] contains 3 initial terms, so each subsequent term is the sum of the previous 3 terms.  The sequence is: 0, 1, 2, (0 + 1 + 2), (1 + 2 + 3). Therefore, the sequence becomes 0, 1, 2, 3, 6 and the 5th term is 6.|
+class Solution {
+    public int nthGeekyNumber(int n, int[] geekNum) {
+        int k = geekNum.length;
+
+        if (n <= k)
+            return geekNum[n - 1];
+
+        int[] arr = new int[n];
+
+        for (int i = 0; i < k; i++)
+            arr[i] = geekNum[i];
+
+        long sum = 0;
+
+        for (int i = 0; i < k; i++)
+            sum += arr[i];
+
+        for (int i = k; i < n; i++) {
+            arr[i] = (int) sum;
+
+            sum += arr[i];
+            sum -= arr[i - k];
+        }
+
+        return arr[n - 1];
+    }
+}
