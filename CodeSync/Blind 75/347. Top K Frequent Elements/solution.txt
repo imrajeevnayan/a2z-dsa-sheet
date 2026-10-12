@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
- * Runtime: 1 ms
+ * Runtime: 14 ms
  * Memory: 47.56 MB
- * Synced: 2026-10-12T17:01:28.752Z
+ * Synced: 2026-10-12T17:01:41.108Z
  */
 
 // 1. Frequency count karo
@@ -33,4 +33,6 @@
         return ans;
 class Solution {
     }
+
+import java.util.*;
 }
