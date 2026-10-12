@@ -7,14 +7,12 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:07:47.095Z
+ * Synced: 2026-10-12T12:14:46.825Z
  */
-
-import java.util.HashSet;
 
 class Solution {
     public boolean subArrayExists(int arr[]) {
-        HashSet<Integer> prefixSums = new HashSet<>();
+        HashSet<Integer> prefixSum = new HashSet<>();
         int currSum = 0;
 
         // Important: 0 ko pehle se add karo taaki agar shuruwat mein hi sum 0 ho jaye toh pakda ja sake
