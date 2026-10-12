@@ -7,32 +7,32 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Arrays, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T17:00:15.195Z
+ * Synced: 2026-10-12T17:01:55.174Z
  */
+
+import java.util.*;
 
 class Solution {
     public ArrayList<Integer> topKFreq(int[] arr, int k) {
         // 1. Frequency count karo
         HashMap<Integer, Integer> map = new HashMap<>();
-        
         for (int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        
+
         // 2. Max-Heap banao (Frequency ke basis par)
         PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> 
-            map.get() - map.get(a)
+            map.get(b) - map.get(a)
         );
 
         pq.addAll(map.keySet());
 
         // 3. Top K elements nikal kar ArrayList mein daalo
         ArrayList<Integer> ans = new ArrayList<>();
-        
         for (int i = 0; i < k; i++) {
             ans.add(pq.poll());
         }
+
         return ans;
-        
     }
 }
