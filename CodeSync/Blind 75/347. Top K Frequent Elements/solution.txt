@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
- * Runtime: 14 ms
+ * Runtime: 2 ms
  * Memory: 47.56 MB
- * Synced: 2026-10-12T17:01:49.739Z
+ * Synced: 2026-10-12T17:07:06.121Z
  */
 
 for (int num : nums) {
@@ -28,8 +28,9 @@ for (int num : nums) {
         return ans;
     }
 
-}
         HashMap<Integer, Integer> map = new HashMap<>();
         // 1. Frequency Map banao 
     public int[] topKFrequent(int[] nums, int k) {
 class Solution {
+        
+}
