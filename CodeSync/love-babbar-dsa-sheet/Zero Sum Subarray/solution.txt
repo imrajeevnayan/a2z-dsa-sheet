@@ -7,26 +7,21 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:15:24.618Z
+ * Synced: 2026-10-12T12:15:34.458Z
  */
 
 class Solution {
     public boolean subArrayExists(int arr[]) {
         HashSet<Integer> set = new HashSet<>();
         int currSum = 0;
-
-    
         set.add(0);
 
         for (int num : arr) {
             currSum += num;
 
-            // Check karo:
-            // 1. Kya ye sum pehle kabhi aaya tha? (Matlab beech ka sum 0 hai)
-            // 2. Note: Humne 0 pehle se add kiya hai, toh agar currSum 0 hua toh wo bhi catch ho jayega.
             if (set.contains(currSum)) {
                 return true;
-            }
+            
 
             // Current sum ko set mein daal do future checks ke liye
             set.add(currSum);
