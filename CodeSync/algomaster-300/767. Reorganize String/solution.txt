@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: 767. Reorganize String
+ * URL: https://leetcode.com/problems/reorganize-string/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-12T17:45:53.889Z
+ */
+
+class Solution {
+    public String reorganizeString(String s) {
+        Map<Character, Integer> freq = new HashMap<>();
+        for (char c : s.toCharArray()) freq.put(c, freq.getOrDefault(c, 0) + 1);
+        PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> freq.get(b) - freq.get(a));
+        pq.addAll(freq.keySet());
+        StringBuilder sb = new StringBuilder();
+        Character prev = null;
+        while (!pq.isEmpty()) {
+            char curr = pq.poll();
+            sb.append(curr);
+            freq.put(curr, freq.get(curr) - 1);
+            if (prev != null && freq.get(prev) > 0)pq.add(prev);
+            prev = curr;
+        }
+        for (int v : freq.values()) {
+            if (v > 0) return "";
+        }
+        return sb.toString();
+    }
+}
