@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Nth Geeky Number
+ * URL: https://www.geeksforgeeks.org/problems/is-it-fibonacci--170647/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, sliding-window, Related Articles, Nth Geeky Number 1
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-12T12:06:17.140Z
+ */
+
+Input: n = 5, geekNum[] = [0, 1, 2]
+Output: 6
+Explanation: The array geekNum[] contains 3 initial terms, so each subsequent term is the sum of the previous 3 terms.  The sequence is: 0, 1, 2, (0 + 1 + 2), (1 + 2 + 3). Therefore, the sequence becomes 0, 1, 2, 3, 6 and the 5th term is 6.|
