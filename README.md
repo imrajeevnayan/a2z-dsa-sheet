@@ -181,3 +181,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 142 | [Zero Sum Subarray](https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1) | GeeksForGeeks | Medium | 12 Oct 2026 | 05:46 pm |
 | 143 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | LeetCode | Medium | 12 Oct 2026 | 10:20 pm |
 | 144 | [Top K Frequent in Array](https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1) | GeeksForGeeks | Medium | 12 Oct 2026 | 10:33 pm |
+| 145 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | LeetCode | Easy | 12 Oct 2026 | 11:03 pm |

@@ -1,11 +1,11 @@
 {
-  "totalSolved": 142,
+  "totalSolved": 143,
   "currentStreak": 17,
   "maxStreak": 17,
   "lastSyncDate": "2026-10-12",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 55,
+    "easy": 56,
     "medium": 75,
     "hard": 6,
     "basic": 6
@@ -152,7 +152,8 @@
     "GeeksForGeeks_Smallest_window_containing_0,_1_and_2": true,
     "GeeksForGeeks_Zero_Sum_Subarray": true,
     "LeetCode_Top_K_Frequent_Elements": true,
-    "GeeksForGeeks_Top_K_Frequent_in_Array": true
+    "GeeksForGeeks_Top_K_Frequent_in_Array": true,
+    "LeetCode_Evaluate_Boolean_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -171,7 +172,7 @@
     "2026-10-09": 4,
     "2026-10-10": 6,
     "2026-10-11": 11,
-    "2026-10-12": 5
+    "2026-10-12": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -313,6 +314,7 @@
     "Smallest window containing 0, 1 and 2",
     "Zero Sum Subarray",
     "Top K Frequent Elements",
-    "Top K Frequent in Array"
+    "Top K Frequent in Array",
+    "Evaluate Boolean Binary Tree"
   ]
 }
