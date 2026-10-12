@@ -1,25 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 15
- * URL: https://leetcode.com/discuss/post/8433297/fixed-size-sliding-window-pattern-comple-srmf/
+ * URL: https://leetcode.com/discuss/post/8032884/sliding-window-pattern-and-intuition-by-qx6xx/
  * Language: India
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T18:57:37.924Z
+ * Synced: 2026-10-12T19:00:40.834Z
  */
 
-Subarray / Substring?
-
-        ↓
-
-Exactly K Elements?
-
-        ↓
-
-Need Every Window?
-
-        ↓
-
-Maximum / Minimum / Count?
+/** self explainatory comments **/
+int slidingwindow(vector<int>& nums, int desired){
+        unordered_map<int,int> mp;
+        int l =0;
+        int totalcount = 0;
+        for(int r = 0; r<nums.size(); r++){
+            //EXPAND window(r)
+            mp[nums[r]]++; //some code
+            
+            //INVALID state
+            while(mp.size() > desired){
+                mp[nums[l]] --;
+                if(mp[nums[l]] == 0)
+                    mp.erase(nums[l]);
+                l++; // SHRINK window(l) 
+            }
+            totalcount += (r - l +1); //CALCULATE ans
+        }
+        return totalcount;
+    }
