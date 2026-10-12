@@ -7,28 +7,32 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T11:55:53.986Z
+ * Synced: 2026-10-12T12:00:16.090Z
  */
 
 class Solution {
     public static int smallestSubWithSum(int x, int[] arr) {
         int n = arr.length;
-        int left = 0,sum = 0;
+        int left = 0;
+        int currSum = 0;
         int minLen = Integer.MAX_VALUE;
 
-        // Right pointer window ko expand karega
+        // Right pointer 'i' for loop se control hoga
         for (int right = 0; right < n; right++) {
-            sum += arr[right];
+            // 1. Expand: Current element add karo
+            currSum += arr[right];
 
-            // Left pointer window ko shrink karega jab tak condition valid hai
-            while (sum > x) {
+            // 2. Shrink: Jab tak sum > x hai, left pointer ko badhao
+            while (currSum > x) {
+                // Update min length
                 minLen = Math.min(minLen, right - left + 1);
-                sum -= arr[left];
+
+                // Left element remove karo aur left badhao
+                currSum -= arr[left];
                 left++;
             }
         }
 
-        // Agar minLen change nahi hua, toh 0 return karo
         return (minLen == Integer.MAX_VALUE) ? 0 : minLen;
     }
 }
