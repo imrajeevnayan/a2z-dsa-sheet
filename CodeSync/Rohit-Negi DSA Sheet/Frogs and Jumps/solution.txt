@@ -7,32 +7,9 @@
  * Topics: Expected Complexities, Company Tags PayPal, Company Tags, PayPal, Topic Tags, Arrays, sieve, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T06:23:03.913Z
+ * Synced: 2026-10-12T08:49:21.813Z
  */
 
-class Solution {
-    int unvisitedLeaves(int arr[], int k) {
-        boolean[] vis = new boolean[k + 1];
-        
-        Set<Integer> set = new  HashSet<>();
-
-        // Duplicates remove karo
-        for (int s : arr) set.add(s);
-
-        // Multiples mark karo
-        for (int s : set) {
-            if (s > k) continue;
-            for (int i = s; i <= k; i += s) {
-                vis[i] = true;
-            }
-        }
-
-        // Unvisited count karo
-        int cnt = 0;
-        for (int i = 1; i <= k; i++) {
-            if (!vis[i]) cnt++;
-        }
-
-        return cnt;
-    }
-}
+Input: arr[] = [3, 2, 4], k = 4
+Output: 1
+Explanation: Frog with strength 3 visits leaf 3. Frog with strength 2 visits leaves 2, 4. Frog with strength 4 visits leaf 4. Leaf 1 is never visited by any frog.
