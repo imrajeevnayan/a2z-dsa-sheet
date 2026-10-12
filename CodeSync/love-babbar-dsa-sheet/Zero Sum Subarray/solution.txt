@@ -7,9 +7,36 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:06:31.083Z
+ * Synced: 2026-10-12T12:07:47.095Z
  */
 
-Input: arr[] = [4, 2, -3, 1, 6]
-Output: true
-Explanation: 2, -3, 1 is the subarray with a sum of 0.
+import java.util.HashSet;
+
+class Solution {
+    public boolean subArrayExists(int arr[]) {
+        HashSet<Integer> prefixSums = new HashSet<>();
+        int currSum = 0;
+
+        // Important: 0 ko pehle se add karo taaki agar shuruwat mein hi sum 0 ho jaye toh pakda ja sake
+        // Example: [1, -1] -> Prefix sums: 1, 0. Jab 0 aayega, wo set mein already hai? 
+        // Nahi, isliye hum check karenge ki currSum==0 OR set contains currSum.
+        // Better approach: Add 0 initially to handle subarray starting from index 0.
+        prefixSums.add(0);
+
+        for (int num : arr) {
+            currSum += num;
+
+            // Check karo:
+            // 1. Kya ye sum pehle kabhi aaya tha? (Matlab beech ka sum 0 hai)
+            // 2. Note: Humne 0 pehle se add kiya hai, toh agar currSum 0 hua toh wo bhi catch ho jayega.
+            if (prefixSums.contains(currSum)) {
+                return true;
+            }
+
+            // Current sum ko set mein daal do future checks ke liye
+            prefixSums.add(currSum);
+        }
+
+        return false;
+    }
+}
