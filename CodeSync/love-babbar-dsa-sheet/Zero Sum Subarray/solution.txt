@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:15:13.543Z
+ * Synced: 2026-10-12T12:15:24.618Z
  */
 
 class Solution {
@@ -15,10 +15,7 @@ class Solution {
         HashSet<Integer> set = new HashSet<>();
         int currSum = 0;
 
-        // Important: 0 ko pehle se add karo taaki agar shuruwat mein hi sum 0 ho jaye toh pakda ja sake
-        // Example: [1, -1] -> Prefix sums: 1, 0. Jab 0 aayega, wo set mein already hai? 
-        // Nahi, isliye hum check karenge ki currSum==0 OR set contains currSum.
-        // Better approach: Add 0 initially to handle subarray starting from index 0.
+    
         set.add(0);
 
         for (int num : arr) {
@@ -32,7 +29,7 @@ class Solution {
             }
 
             // Current sum ko set mein daal do future checks ke liye
-            se.add(currSum);
+            set.add(currSum);
         }
 
         return false;
