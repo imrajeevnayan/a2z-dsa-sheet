@@ -176,3 +176,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 137 | [Frogs and Jumps](https://www.geeksforgeeks.org/problems/frogs-and-jumps--170647/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 08:34 pm |
 | 138 | [Check for 4 Sum](https://www.geeksforgeeks.org/problems/four-elements2452/1) | GeeksForGeeks | Easy | 11 Oct 2026 | 08:37 pm |
 | 139 | [Majority Element](https://leetcode.com/problems/majority-element/) | LeetCode | Easy | 11 Oct 2026 | 10:43 pm |
+| 140 | [Smallest Subarray Sum Greater Than x](https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1) | GeeksForGeeks | Easy | 12 Oct 2026 | 05:25 pm |
