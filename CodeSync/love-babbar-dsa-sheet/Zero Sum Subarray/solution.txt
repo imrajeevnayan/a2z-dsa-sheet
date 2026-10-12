@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags PaytmAdobe, Company Tags, Paytm, Adobe, Topic Tags, sliding-window, Hash
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T12:15:10.692Z
+ * Synced: 2026-10-12T12:15:13.543Z
  */
 
 class Solution {
@@ -32,7 +32,7 @@ class Solution {
             }
 
             // Current sum ko set mein daal do future checks ke liye
-            prefixSu.add(currSum);
+            se.add(currSum);
         }
 
         return false;
