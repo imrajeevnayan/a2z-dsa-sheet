@@ -1,37 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: 15. 3Sum
- * URL: https://leetcode.com/problems/3sum/description/
+ * URL: https://leetcode.com/problems/3sum/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T17:50:25.383Z
+ * Synced: 2026-10-12T17:50:28.363Z
  */
 
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums);
+    public int[] twoSum(int[] numbers, int target) {
+        int left = 0, right = numbers.length - 1;
         
-        for (int i = 0; i < nums.length - 2; i++) {
-            // Duplicate skip karo (same number dobara mat lo)
-            if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;
-            }
+        while (left < right) {
+            int sum = numbers[left] + numbers[right];
             
-            // Agar current number positive ho gaya to aage kuch nahi milega
-            if (nums[i] > 0) break;
-            int left = i + 1, right = nums.length - 1;
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                
-                if (sum == 0) {
-                    // Triplet mil gaya
-                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    
-                    // Left ke duplicates skip karo
-                    while (left < right && nums[left] == nums[left + 1]) {
-                        left++;
-                    }
+            if (sum == target) {
+                // 1-based index return karna hai
+                return new int[]{left + 1, right + 1};
+            } else if (sum < target) {
+                left++; // Sum chota hai, bada number chahiye
+            } else {
+                right--; // Sum bada hai, chota number chahiye
+            }
+        }
+        return new int[]{-1, -1};
+    }
+}
