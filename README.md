@@ -184,3 +184,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 145 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | LeetCode | Easy | 12 Oct 2026 | 11:03 pm |
 | 146 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | LeetCode | Medium | 12 Oct 2026 | 11:19 pm |
 | 147 | [3Sum](https://leetcode.com/problems/3sum/) | LeetCode | Medium | 12 Oct 2026 | 11:20 pm |
+| 148 | [Adding Ones](https://www.geeksforgeeks.org/problems/adding-ones3628/1) | GeeksForGeeks | Easy | 13 Oct 2026 | 12:38 am |
