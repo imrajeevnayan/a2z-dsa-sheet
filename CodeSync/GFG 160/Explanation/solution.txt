@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Explanation
+ * URL: https://www.geeksforgeeks.org/problems/adding-ones3628/1
+ * Language: void update(int a[], int n, int updates[], int k) { // Your code goes here for(int i = 0; i < k; i++) a[updates[i]-1]++; for(int i = 1; i < n; i++){ a[i] += a[i - 1]; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Adding Ones
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-12T19:08:18.221Z
+ */
+
+class Solution {
+    public ArrayList<Integer> update(int n, int[] updates) {
+        int[] freq = new int[n + 1];
+
+        // Frequency count karo
+        for (int j : updates) {
+            freq[j]++;
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+        int currentSum = 0;
+
+        // Prefix Sum calculate karo (Left to Right)
+        for (int i = 1; i <= n; i++) {
+            currentSum += freq[i];
+            ans.add(currentSum);
+        }
+
+        return ans;
+    }
+}
