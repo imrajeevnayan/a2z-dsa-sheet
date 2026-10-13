@@ -1,12 +1,12 @@
 {
-  "totalSolved": 146,
+  "totalSolved": 147,
   "currentStreak": 18,
   "maxStreak": 18,
   "lastSyncDate": "2026-10-13",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 57,
-    "medium": 77,
+    "medium": 78,
     "hard": 6,
     "basic": 6
   },
@@ -156,7 +156,8 @@
     "LeetCode_Evaluate_Boolean_Binary_Tree": true,
     "LeetCode_Two_Sum_II_-_Input_Array_Is_Sorted": true,
     "LeetCode_3Sum": true,
-    "GeeksForGeeks_Adding_Ones": true
+    "GeeksForGeeks_Adding_Ones": true,
+    "GeeksForGeeks_Sort_by_Frequency": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -176,7 +177,7 @@
     "2026-10-10": 6,
     "2026-10-11": 11,
     "2026-10-12": 8,
-    "2026-10-13": 1
+    "2026-10-13": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -322,6 +323,7 @@
     "Evaluate Boolean Binary Tree",
     "Two Sum II - Input Array Is Sorted",
     "3Sum",
-    "Adding Ones"
+    "Adding Ones",
+    "Sort by Frequency"
   ]
 }
