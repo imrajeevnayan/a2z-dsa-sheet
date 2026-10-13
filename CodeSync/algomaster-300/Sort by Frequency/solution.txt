@@ -2,29 +2,14 @@
  * Platform: GeeksforGeeks
  * Problem: Sort by Frequency
  * URL: https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1
- * Language: class Solution: def frequencySort(self, s: str) -> str: # Step 1: Count frequency of each character freq = {} for char in s: freq[char] = freq.get(char, 0) + 1 # Step 2: Sort characters by frequency (ascending), then by character sorted_items = sorted(freq.items(), key=lambda item: (item[1], item)) # Step 3: Build the resulting string by repeating each character return "".join(char * count for char, count in sorted_items)
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-02T10:38:06.065Z
+ * Synced: 2026-10-13T17:15:07.247Z
  */
 
-class Solution {
-    public String frequencySort(String s) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (char c : s.toCharArray())map.put(c, map.getOrDefault(c, 0) + 1);
-        PriorityQueue<Character> pq = new PriorityQueue<>(
-            (a, b) -> map.get(b) - map.get(a)
-        );
-        pq.addAll(map.keySet());
-        StringBuilder ans = new StringBuilder();
-        while (!pq.isEmpty()) {
-            char ch = pq.poll();
-            for (int i = 0; i < map.get(ch); i++)
-                ans.append(ch);
-        }
-
-        return ans.toString();
-    }
-}
+Input: s = "geeksforgeeks"
+Output: forggkksseeee
+Explanation: All the characters with minimum frequency will occur first and the one with same frequency will be arranged lexicographically.
