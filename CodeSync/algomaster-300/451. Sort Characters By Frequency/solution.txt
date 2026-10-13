@@ -1,0 +1,31 @@
+/*
+ * Platform: LeetCode
+ * Problem: 451. Sort Characters By Frequency
+ * URL: https://leetcode.com/problems/sort-characters-by-frequency/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-13T16:51:40.341Z
+ */
+
+class Solution {
+    public String frequencySort(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (char c : s.toCharArray())map.put(c, map.getOrDefault(c, 0) + 1);
+        PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
+        pq.addAll(map.keySet());
+
+        StringBuilder sb = new StringBuilder();
+        while (!pq.isEmpty()) {
+            char c = pq.poll();
+            int count = map.get(c);
+            
+            for (int i = 0; i < count; i++) {
+                sb.append(c);
+            } 
+        }
+        return sb.toString();
+    }
+}
