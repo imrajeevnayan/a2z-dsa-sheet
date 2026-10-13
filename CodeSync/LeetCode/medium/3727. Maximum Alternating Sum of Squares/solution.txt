@@ -5,32 +5,33 @@
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-10-13T17:20:42.161Z
+ * Synced: 2026-10-13T17:22:53.043Z
  */
 
-Arrays.sort(nums);
-        int n = nums.length;
-        long sum = 0;
-        boolean isPositive = true; // Pehla term positive hoga
+Arrays.sort(absNums);
         
+        long sum = 0;
         int left = 0;
         int right = n - 1;
+        boolean isPositive = true;
         
+        // Step 3: Alternate between largest and smallest
         while (left <= right) {
             if (isPositive) {
-                // Largest available number lo
-                sum += (long) nums[right] * nums[right];
+                // Largest available square add karo
+                sum += (long) absNums[right] * absNums[right];
                 right--;
-            } else {
-                // Smallest available number lo
-                sum -= (long) nums[left] * nums[left];
-                left++;
-            }
-            isPositive = !isPositive; // Sign flip karo
         }
         
-        return sum;
-    }
-}
+        // Step 2: Sort karo taaki smallest aur largest easily mil sakein
+        int[] absNums = new int[n];
+        for (int i = 0; i < n; i++) {
+            absNums[i] = Math.abs(nums[i]);
+        int n = nums.length;
+        // Step 1: Absolute values le lo kyunki square negative ko positive bana deta hai
+    public long maxAlternatingSum(int[] nums) {
+class Solution {
+
+            } else {
