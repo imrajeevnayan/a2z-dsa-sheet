@@ -1,28 +1,50 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
+ * URL: https://leetcode.com/discuss/post/124658/design-url-shortening-service-like-tinyu-047o/
+ * Language: India
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T10:27:41.210Z
+ * Synced: 2026-10-13T06:26:16.584Z
  */
 
-class Solution {
-    public int longestOnes(int[] nums, int k) {
-        int left = 0, zeros = 0, ans = 0;
-
-        for (int right = 0; right < nums.length; right++) {
-            if (nums[right] == 0) zeros++;
-
-            while (zeros > k) {
-                if (nums[left] == 0) zeros--;
-                left++;
-            }
-            ans = Math.max(ans, right - left + 1);
-        }
-        return ans;
+string idToShortURL(long int n)
+{
+    // Map to store 62 possible characters
+    char map[] = "abcdefghijklmnopqrstuvwxyzABCDEF"
+                 "GHIJKLMNOPQRSTUVWXYZ0123456789";
+  
+    string shorturl;
+  
+    // Convert given integer id to a base 62 number
+    while (n)
+    {
+        shorturl.push_back(map[n%62]);
+        n = n/62;
     }
+  
+    // Reverse shortURL to complete base conversion
+    reverse(shorturl.begin(), shorturl.end());
+  
+    return shorturl;
+}
+  
+// Function to get integer ID back from a short url
+long int shortURLtoID(string shortURL)
+{
+    long int id = 0; // initialize result
+  
+    // A simple base conversion logic
+    for (int i=0; i < shortURL.length(); i++)
+    {
+        if ('a' <= shortURL[i] && shortURL[i] <= 'z')
+          id = id*62 + shortURL[i] - 'a';
+        if ('A' <= shortURL[i] && shortURL[i] <= 'Z')
+          id = id*62 + shortURL[i] - 'A' + 26;
+        if ('0' <= shortURL[i] && shortURL[i] <= '9')
+          id = id*62 + shortURL[i] - '0' + 52;
+    }
+    return id;
 }
