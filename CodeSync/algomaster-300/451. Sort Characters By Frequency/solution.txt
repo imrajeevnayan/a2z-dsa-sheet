@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 451. Sort Characters By Frequency
- * URL: https://leetcode.com/problems/sort-characters-by-frequency/
+ * URL: https://leetcode.com/problems/sort-characters-by-frequency/submissions/2171405199/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-10-13T16:57:44.191Z
+ * Memory: 46.60 MB
+ * Synced: 2026-10-13T16:57:56.455Z
  */
 
-// Jo character zyada baar aaya hai, wo upar rahega
-        PriorityQueue<Character> pq = new PriorityQueue<>(
-            (a, b) -> map.get(b) - map.get(a)
-        );
+);
         
         // Saare unique characters ko heap mein daal do
         pq.addAll(map.keySet());
@@ -24,14 +21,13 @@
         while (!pq.isEmpty()) {
             char c = pq.poll(); // Sabse zyada frequency wala character nikalo
             int freq = map.get(c);
-        // Step 2: Max-Heap banao (Frequency ke basis par sort hoga)
-        }
-        
-        for (char c : s.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
             
             // Us character ko 'freq' times append karo
-        HashMap<Character, Integer> map = new HashMap<>();
-        // Step 1: Frequency Map banao
-    public String frequencySort(String s) {
-class Solution {
+            for (int i = 0; i < freq; i++) {
+                sb.append(c);
+            }
+        }
+        
+        return sb.toString();
+    }
+}
