@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3727. Maximum Alternating Sum of Squares
+ * URL: https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/?envType=daily-question&envId=2026-10-13
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-13T17:18:27.273Z
+ */
+
+class Solution {
+    public long maxAlternatingSum(int[] nums) {
+        
+    }
+}
