@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 3727. Maximum Alternating Sum of Squares
- * URL: https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/?envType=daily-question&envId=2026-10-13
+ * URL: https://leetcode.com/problems/maximum-alternating-sum-of-squares/?envType=daily-question&envId=2026-10-13
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-13T17:18:27.273Z
+ * Synced: 2026-10-13T17:20:42.161Z
  */
 
-class Solution {
-    public long maxAlternatingSum(int[] nums) {
+Arrays.sort(nums);
+        int n = nums.length;
+        long sum = 0;
+        boolean isPositive = true; // Pehla term positive hoga
         
+        int left = 0;
+        int right = n - 1;
+        
+        while (left <= right) {
+            if (isPositive) {
+                // Largest available number lo
+                sum += (long) nums[right] * nums[right];
+                right--;
+            } else {
+                // Smallest available number lo
+                sum -= (long) nums[left] * nums[left];
+                left++;
+            }
+            isPositive = !isPositive; // Sign flip karo
+        }
+        
+        return sum;
     }
 }
