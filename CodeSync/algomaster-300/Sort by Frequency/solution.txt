@@ -2,14 +2,47 @@
  * Platform: GeeksforGeeks
  * Problem: Sort by Frequency
  * URL: https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1
- * Language: Java (21)
+ * Language: class Solution: def frequencySort(self, s: str) -> str: # Step 1: Count frequency of each character freq = {} for char in s: freq[char] = freq.get(char, 0) + 1 # Step 2: Sort characters by frequency (ascending), then by character sorted_items = sorted(freq.items(), key=lambda item: (item[1], item)) # Step 3: Build the resulting string by repeating each character return "".join(char * count for char, count in sorted_items)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Strings, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-13T17:15:07.247Z
+ * Synced: 2026-10-13T17:16:41.943Z
  */
 
-Input: s = "geeksforgeeks"
-Output: forggkksseeee
-Explanation: All the characters with minimum frequency will occur first and the one with same frequency will be arranged lexicographically.
+import java.util.*;
+
+class Solution {
+    public String frequencySort(String s) {
+        // Step 1: Frequency count karo HashMap mein
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        // Step 2: Max-Heap banao (Zyada frequency wala upar rahega)
+        PriorityQueue<Character> pq = new PriorityQueue<>((a, b) -> {
+            int freqDiff = map.get(b) - map.get(a);
+            // Agar frequency same ho, toh character ke ASCII value ke basis par sort karo (optional but good practice)
+            if (freqDiff != 0) return freqDiff;
+            return a - b; 
+        });
+
+        pq.addAll(map.keySet());
+
+        // Step 3: String build karo
+        StringBuilder sb = new StringBuilder();
+
+        while (!pq.isEmpty()) {
+            char c = pq.poll();
+            int freq = map.get(c);
+
+            // Character ko 'freq' times append karo
+            for (int i = 0; i < freq; i++) {
+                sb.append(c);
+            }
+        }
+
+        return sb.toString();
+    }
+}
