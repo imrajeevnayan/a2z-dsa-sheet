@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Wave Array
+ * URL: https://www.interviewbit.com/problems/wave-array/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Upcoming Masterclass: Build a Career in DevOps, Cloud Computing & Cyber Security Register Now ->, Description, Discussion, Submissions, Hints
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-13T16:48:43.101Z
+ */
+
+public class Solution {
+    public int[] wave(int[] A) {
+    }
+}
