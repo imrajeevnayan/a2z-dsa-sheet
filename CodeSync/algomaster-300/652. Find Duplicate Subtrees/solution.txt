@@ -1,32 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 652. Find Duplicate Subtrees
- * URL: https://leetcode.com/problems/find-duplicate-subtrees/description/
+ * URL: https://leetcode.com/problems/find-duplicate-subtrees/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:44:15.709Z
+ * Synced: 2026-10-14T11:47:01.829Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+return result;
+    }
+
+    private String serialize(TreeNode node) {
+        if (node == null) return "#";
+
+        // Post-order: Left -> Right -> Root
+        String left = serialize(node.left);
+        String right = serialize(node.right);
         
+        // Unique key create karo
+        String key = left + "," + right + "," + node.val;
+
+        // Frequency update karo
+        map.put(key, map.getOrDefault(key, 0) + 1);
+
+        // Agar frequency exactly 2 hai, toh ye duplicate hai
+        // (3rd baar aane par hum add nahi karenge taaki duplicate entry na ho)
+        if (map.get(key) == 2) {
+            result.add(node);
+        }
+
+        return key;
     }
 }
