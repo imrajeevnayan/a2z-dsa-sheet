@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+ * URL: https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T16:16:48.256Z
+ */
+
+Input: tree = [7,4,3,null,null,6,19], target = 3
+Output: 3
+Explanation: In all examples the original and cloned trees are shown. The target node is a green node from the original tree. The answer is the yellow node from the cloned tree.
