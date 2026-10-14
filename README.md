@@ -200,3 +200,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 161 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | LeetCode | Easy | 14 Oct 2026 | 09:58 pm |
 | 162 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | LeetCode | Medium | 14 Oct 2026 | 10:10 pm |
 | 163 | [Same Tree](https://leetcode.com/problems/same-tree/) | LeetCode | Easy | 14 Oct 2026 | 10:37 pm |
+| 164 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 11:23 pm |
