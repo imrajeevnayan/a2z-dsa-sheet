@@ -1,14 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 104. Maximum Depth of Binary Tree
- * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
- * Language: Text
+ * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:42:49.690Z
+ * Synced: 2026-10-14T16:43:31.595Z
  */
 
-Input: root = [3,9,20,null,null,15,7]
-Output: 3
+*
+class Solution {
+    public int maxDepth(TreeNode root) {
+        // Base case: Agar node null hai, toh depth 0 hai
+        if (root == null) {
+            return 0;
+        }
+        
+        // Left aur Right subtree ki depth recursively nikalo
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+
+        
+        // Jo bada ho, usme 1 add karo (current node ke liye)
+        return Math.max(leftDepth, rightDepth) + 1;
+    }
+}
