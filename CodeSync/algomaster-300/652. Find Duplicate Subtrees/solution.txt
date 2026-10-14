@@ -7,11 +7,10 @@
  * Topics: Hash Table, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:47:01.829Z
+ * Synced: 2026-10-14T11:47:23.351Z
  */
 
-return result;
-    }
+}
 
     private String serialize(TreeNode node) {
         if (node == null) return "#";
@@ -26,12 +25,14 @@ return result;
         // Frequency update karo
         map.put(key, map.getOrDefault(key, 0) + 1);
 
+        serialize(root);
+        return result;
+
+    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+    // Map to store serialization string and its count
+    HashMap<String, Integer> map = new HashMap<>();
+    List<TreeNode> result = new ArrayList<>();
+class Solution {
         // Agar frequency exactly 2 hai, toh ye duplicate hai
         // (3rd baar aane par hum add nahi karenge taaki duplicate entry na ho)
         if (map.get(key) == 2) {
-            result.add(node);
-        }
-
-        return key;
-    }
-}
