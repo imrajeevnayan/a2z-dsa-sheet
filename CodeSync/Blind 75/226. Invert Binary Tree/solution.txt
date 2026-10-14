@@ -1,26 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 226. Invert Binary Tree
- * URL: https://leetcode.com/problems/invert-binary-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * URL: https://leetcode.com/problems/invert-binary-tree/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T17:49:55.916Z
+ * Synced: 2026-10-14T17:50:38.573Z
  */
 
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-        if(root==null) return null;
-
-        //swap left and right
-        TreeNode temp=root.left;
-        root.left=root.right;
-        root.right=temp;
-        invertTree(root.left);
-        invertTree(root.right);
-        return root;
+        // Base case: Agar node null hai, toh kuch nahi karna
+        if (root == null) {
+            return null;
+        }
         
-    }
-}
+        // Left aur Right subtree ko recursively invert karo
+        TreeNode left = invertTree(root.left);
+        TreeNode right = invertTree(root.right);
+/**
