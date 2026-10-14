@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T17:52:41.154Z
+ * Synced: 2026-10-14T17:52:53.415Z
  */
 
 public int diameterOfBinaryTree(TreeNode root) {
@@ -16,12 +16,8 @@ public int diameterOfBinaryTree(TreeNode root) {
     }
     
     private int calculateHeight(TreeNode node) {
-        // Base case: Null node ki height -1 ya 0? 
-class Solution {
     int maxDiameter = 0; // Global variable to track max diameter
-
-        // Agar hum edges count kar rahe hain, toh null ki height 0 maan sakte hain 
-        // aur leaf node ki height 1. But standard is:
+class Solution {
         if (node == null) return 0;
         
         // Left aur Right subtree ki height nikalo
@@ -34,3 +30,5 @@ class Solution {
         
         // Apne parent ko apni height batao (Max of children + 1)
         return Math.max(leftH, rightH) + 1;
+    }
+}
