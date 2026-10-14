@@ -7,31 +7,30 @@
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:26:22.629Z
+ * Synced: 2026-10-14T11:26:34.955Z
  */
 
-// No, because we checked sum <= 9*k.
-        
-        // If remainingSum is still > 0, it means we couldn't distribute it all? 
-            digits[i] = d;
+digits[i] = d;
             remainingSum -= d;
         }
-        // Step 1: Find the number of digits in num
         int k = String.valueOf(num).length();
         
         if (sum < 0 || sum > 9 * k) {
             return "-1"; // Impossible case
         }
         
-        // Step 3: Greedily assign largest digits to maximize sum of squares
         int[] digits = new int[k];
         int remainingSum = sum;
         
         for (int i = 0; i < k; i++) {
             // Assign largest possible digit (max 9)
             int d = Math.min(9, remainingSum);
-class Solution {
-    public String maxSumOfSquares(int num, int sum) {
-        // But wait, if sum is small, e.g., sum=1, k=3. Digits: [1, 0, 0]. Sum squares = 1.
-        
         // Calculate Sum of Squares
+        long sumSquares = 0;
+        StringBuilder sb = new StringBuilder();
+        for (int d : digits) {
+            sumSquares += (long) d * d;
+            sb.append(d);
+        }
+        
+        // Return the string representation of the number formed?
