@@ -192,3 +192,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 153 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | LeetCode | Medium | 14 Oct 2026 | 05:17 pm |
 | 154 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | LeetCode | Easy | 14 Oct 2026 | 05:27 pm |
 | 155 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 05:28 pm |
+| 156 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | LeetCode | Medium | 14 Oct 2026 | 05:34 pm |
