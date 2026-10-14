@@ -7,26 +7,19 @@
  * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:27:55.223Z
+ * Synced: 2026-10-14T16:28:13.197Z
  */
 
-*         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    Set<Integer> seen = new HashSet<>();
-
+Set<Integer> seen = new HashSet<>();
     public boolean findTarget(TreeNode root, int k) {
         if (root == null) return false;
         
         // Check karo ki complement (k - val) pehle se exist karta hai?
+class Solution {
         if (seen.contains(k - root.val)) {
             return true;
         }
-        
+
         // Current value ko set mein add karo
         seen.add(root.val);
         
