@@ -7,25 +7,10 @@
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:26:34.955Z
+ * Synced: 2026-10-14T11:26:42.268Z
  */
 
-digits[i] = d;
-            remainingSum -= d;
-        }
-        int k = String.valueOf(num).length();
-        
-        if (sum < 0 || sum > 9 * k) {
-            return "-1"; // Impossible case
-        }
-        
-        int[] digits = new int[k];
-        int remainingSum = sum;
-        
-        for (int i = 0; i < k; i++) {
-            // Assign largest possible digit (max 9)
-            int d = Math.min(9, remainingSum);
-        // Calculate Sum of Squares
+// Calculate Sum of Squares
         long sumSquares = 0;
         StringBuilder sb = new StringBuilder();
         for (int d : digits) {
@@ -33,4 +18,14 @@ digits[i] = d;
             sb.append(d);
         }
         
-        // Return the string representation of the number formed?
+        
+        // Looking at similar problems, often they ask for the maximum sum value.
+        return String.valueOf(sumSquares);
+    }
+}
+        for (int i = 0; i < k; i++) {
+            // Assign largest possible digit (max 9)
+            int d = Math.min(9, remainingSum);
+            digits[i] = d;
+            remainingSum -= d;
+        }
