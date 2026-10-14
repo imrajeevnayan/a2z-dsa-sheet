@@ -1,0 +1,51 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Roll Characters of String
+ * URL: https://www.geeksforgeeks.org/problems/roll-the-characters-of-a-string2127/1
+ * Language: string findRollOut(string& s, vector<int>& roll) { // code here int n = s.size(); int m = roll.size(); vector<int>hash(n + 1, 0); for (int i = 0; i<m; ++i) { hash[0]++; hash[roll[i]]--; } int cnt = 0; for (int i = 0; i<n; ++i) { cnt += hash[i]; char ch = ((s[i]-'a' + cnt)%26) + 'a'; s[i] = ch; } return s; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Airtel, Company Tags, Airtel, Topic Tags, Arrays, Strings, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T11:03:49.865Z
+ */
+
+class Solution {
+    public String findRollOut(String s, int[] roll) {
+        int n = s.length();
+        int[] freq = new int[n + 1]; // Difference array
+
+        // Step 1: Mark the ranges using Difference Array technique
+        for (int k : roll) {
+            // First k characters means indices 0 to k-1
+            if (k > 0) {
+                freq[0]++;
+                if (k < n) {
+                    freq[k]--;
+                }
+            }
+        }
+
+        // Step 2: Calculate Prefix Sum to get total shifts for each index
+        StringBuilder sb = new StringBuilder();
+        int currentShift = 0;
+
+        for (int i = 0; i < n; i++) {
+            currentShift += freq[i];
+
+            // Original character
+            char c = s.charAt(i);
+
+            // Calculate new character with wrapping
+            // (c - 'a' + shift) % 26 gives the new position
+            int newPos = (c - 'a' + currentShift) % 26;
+
+            // Handle negative modulo if any (though shift is positive here)
+            if (newPos < 0) newPos += 26;
+
+            sb.append((char)('a' + newPos));
+        }
+
+        return sb.toString();
+    }
+}
