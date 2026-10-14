@@ -7,30 +7,27 @@
  * Topics: Math, Greedy
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-14T11:27:51.363Z
+ * Synced: 2026-10-14T11:29:00.456Z
  */
 
-// Remaining positions will be 'remainingDigits - 1'.
-            // Constraint: 0 <= (remainingSum - d) <= 9 * (remainingDigits - 1)
-            
-            for (int d = 9; d >= 0; d--) {
+for (int d = 9; d >= 0; d--) {
                 if (d > remainingSum) continue; // Can't place a digit larger than remaining sum
                 
-            // The digit we place here is 'd'.
-            // Remaining sum will be 'remainingSum - d'.
-class Solution {
-    public String maxSumOfSquares(int num, int sum) {
-        // Check if it's possible to form such a number
-        // Max possible sum with 'num' digits is 9 * num
-        if (sum > 9 * num || sum < 0) {
-            return "";
+        for (int i = 0; i < num; i++) {
+            
+                int nextRemainingSum = remainingSum - d;
+                int nextRemainingDigits = remainingDigits - 1;
+                
+                // Check if the rest of the sum can be formed by remaining digits
+                if (nextRemainingSum <= 9 * nextRemainingDigits) {
+                    sb.append(d);
+                    remainingSum -= d;
+                    remainingDigits--;
+                    break; // Move to next position
+                }
+            }
         }
         
-        StringBuilder sb = new StringBuilder();
-        int remainingSum = sum;
-        int remainingDigits = num;
-        
-        for (int i = 0; i < num; i++) {
-            // Try to place the largest possible digit (from 9 down to 0)
-            // We want the largest digit to maximize the number itself (for tie-breaking)
-            // and also because larger digits contribute more to sum of squares.
+        return sb.toString();
+    }
+}
