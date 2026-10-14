@@ -1,11 +1,11 @@
 {
-  "totalSolved": 155,
+  "totalSolved": 156,
   "currentStreak": 19,
   "maxStreak": 19,
   "lastSyncDate": "2026-10-14",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
-    "easy": 59,
+    "easy": 60,
     "medium": 84,
     "hard": 6,
     "basic": 6
@@ -165,7 +165,8 @@
     "LeetCode_Binary_Tree_Postorder_Traversal": true,
     "LeetCode_Univalued_Binary_Tree": true,
     "LeetCode_Maximum_Product_of_Splitted_Binary_Tree": true,
-    "GeeksForGeeks_k_Largest_Elements": true
+    "GeeksForGeeks_k_Largest_Elements": true,
+    "LeetCode_Balanced_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -186,7 +187,7 @@
     "2026-10-11": 11,
     "2026-10-12": 8,
     "2026-10-13": 3,
-    "2026-10-14": 7
+    "2026-10-14": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -341,6 +342,7 @@
     "Binary Tree Postorder Traversal",
     "Univalued Binary Tree",
     "Maximum Product of Splitted Binary Tree",
-    "k Largest Elements"
+    "k Largest Elements",
+    "Balanced Binary Tree"
   ]
 }

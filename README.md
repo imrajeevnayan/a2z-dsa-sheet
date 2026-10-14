@@ -194,3 +194,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 155 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 05:28 pm |
 | 156 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | LeetCode | Medium | 14 Oct 2026 | 05:34 pm |
 | 157 | [k Largest Elements](https://www.geeksforgeeks.org/problems/k-largest-elements4206/1) | GeeksForGeeks | Medium | 14 Oct 2026 | 05:37 pm |
+| 158 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 09:45 pm |
