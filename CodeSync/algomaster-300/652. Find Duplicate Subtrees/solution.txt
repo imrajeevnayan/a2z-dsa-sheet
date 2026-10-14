@@ -2,13 +2,31 @@
  * Platform: LeetCode
  * Problem: 652. Find Duplicate Subtrees
  * URL: https://leetcode.com/problems/find-duplicate-subtrees/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:44:12.825Z
+ * Synced: 2026-10-14T11:44:15.709Z
  */
 
-Input: root = [1,2,3,4,null,2,4,null,null,4]
-Output: [[2,4],[4]]
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+        
+    }
+}
