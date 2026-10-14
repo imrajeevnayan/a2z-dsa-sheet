@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 145. Binary Tree Postorder Traversal
- * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+ * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-14T11:56:39.181Z
+ * Synced: 2026-10-14T11:56:47.281Z
  */
 
 class Solution {
@@ -17,9 +17,4 @@ class Solution {
         return res;
     }
     static void postorder(TreeNode root,List<Integer>res){
-        if(root==null)return ;
-        postorder(root.left,res);
-        postorder(root.right,res);
-        res.add(root.val);
-    }
 }
