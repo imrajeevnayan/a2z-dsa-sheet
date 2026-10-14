@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3723. Maximize Sum of Squares of Digits
+ * URL: https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/?envType=daily-question&envId=2026-10-14
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Math, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T11:21:20.931Z
+ */
+
+class Solution {
+    public String maxSumOfSquares(int num, int sum) {
+        
+    }
+}
