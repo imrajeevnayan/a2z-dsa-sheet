@@ -1,32 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: 965. Univalued Binary Tree
- * URL: https://leetcode.com/problems/univalued-binary-tree/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/univalued-binary-tree/description/
+ * Language: Text
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-12T17:36:56.687Z
+ * Synced: 2026-10-14T11:57:47.468Z
  */
 
-class Solution {
-    public boolean isUnivalTree(TreeNode root) {
-        if (root == null) return true;
-        
-        // Root ka value reference ke liye store karo
-        return check(root, root.val);
-    }
-    
-    private boolean check(TreeNode node, int val) {
-        // Base case: Agar node null hai, toh wo valid hai
-        if (node == null) return true;
-        
-        // Agar current node ka value match nahi kar raha, toh false return karo
-        if (node.val != val) return false;
-        
-        // Left aur Right subtree mein recursively check karo
-        // Dono side true honi chahiye tabhi final answer true hoga
-        return check(node.left, val) && check(node.right, val);
-    }
-}
+Input: root = [1,1,1,1,1,null,1]
+Output: true
