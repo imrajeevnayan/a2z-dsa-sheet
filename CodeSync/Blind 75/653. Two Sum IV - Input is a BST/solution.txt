@@ -2,13 +2,20 @@
  * Platform: LeetCode
  * Problem: 653. Two Sum IV - Input is a BST
  * URL: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:25:32.582Z
+ * Synced: 2026-10-14T16:25:34.937Z
  */
 
-Input: root = [5,3,6,2,4,null,7], k = 9
-Output: true
+class Solution {
+    Set<Integer>set=new HashSet<>();
+    public boolean findTarget(TreeNode root, int k) {
+        if(root==null)return false;
+        if(set.contains(k-root.val))return true;
+        set.add(root.val);
+        return findTarget(root.left, k) || findTarget(root.right,  k) ;
+    }
+}
