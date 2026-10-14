@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 4015. Weighted Sum of a Tree
- * URL: https://leetcode.com/problems/weighted-sum-of-a-tree/description/
+ * URL: https://leetcode.com/problems/weighted-sum-of-a-tree/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Tree, Depth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:13:01.816Z
+ * Synced: 2026-10-14T16:13:55.239Z
  */
 
-class Solution {
-    public long weightedSum(int[] parent, int[] nums) {
+}
+        }
         
+        // Step 2: BFS traversal se depth ke saath sum calculate karo
+        long totalSum = 0;
+        Queue<int[]> queue = new LinkedList<>(); // {node, depth}
+        queue.offer(new int[]{root, 0});
+        
+        while (!queue.isEmpty()) {
+            int[] current = queue.poll();
+            int node = current[0];
+            int depth = current[1];
+            
+            // Weighted value add karo
+            totalSum += (long) nums[node] * depth;
+            
+            // Bachon ko queue mein daalo with depth + 1
+            for (int child : children.get(node)) {
+                queue.offer(new int[]{child, depth + 1});
+            }
+        }
+        
+        return totalSum;
     }
 }
