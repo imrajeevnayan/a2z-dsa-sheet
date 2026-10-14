@@ -1,14 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 102. Binary Tree Level Order Traversal
- * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
- * Language: Text
+ * URL: https://leetcode.com/problems/binary-tree-level-order-traversal/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-14T16:39:23.243Z
+ * Synced: 2026-10-14T16:40:49.549Z
  */
 
-Input: root = [3,9,20,null,null,15,7]
-Output: [[3],[9,20],[15,7]]
+int levelSize = queue.size(); // Current level ke nodes ki count
+            List<Integer> currentLevel = new ArrayList<>();
+            
+            // Sirf current level ke nodes ko process karo
+            for (int i = 0; i < levelSize; i++) {
+                TreeNode node = queue.poll();
+                currentLevel.add(node.val);
+                
+                // Bachon ko queue mein daalo for next level
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
+                if (node.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+            
+            // Poora level add karo result mein
+            result.add(currentLevel);
+        }
+        
+        return result;
+    }
+}
