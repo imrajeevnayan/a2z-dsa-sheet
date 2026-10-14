@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 606. Construct String from Binary Tree
+ * URL: https://leetcode.com/problems/construct-string-from-binary-tree/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T11:58:33.592Z
+ */
+
+Input: root = [1,2,3,4]
+Output: "1(2(4))(3)"
+Explanation: Originally, it needs to be "1(2(4)())(3()())", but you need to omit all the empty parenthesis pairs. And it will be "1(2(4))(3)".
