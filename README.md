@@ -197,3 +197,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 158 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 09:45 pm |
 | 159 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | LeetCode | Medium | 14 Oct 2026 | 09:50 pm |
 | 160 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | LeetCode | Easy | 14 Oct 2026 | 09:55 pm |
+| 161 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | LeetCode | Easy | 14 Oct 2026 | 09:58 pm |
