@@ -1,11 +1,11 @@
 {
-  "totalSolved": 152,
+  "totalSolved": 153,
   "currentStreak": 19,
   "maxStreak": 19,
   "lastSyncDate": "2026-10-14",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
-    "easy": 58,
+    "easy": 59,
     "medium": 82,
     "hard": 6,
     "basic": 6
@@ -162,7 +162,8 @@
     "GeeksForGeeks_Roll_Characters_of_String": true,
     "LeetCode_Maximize_Sum_of_Squares_of_Digits": true,
     "LeetCode_Find_Duplicate_Subtrees": true,
-    "LeetCode_Binary_Tree_Postorder_Traversal": true
+    "LeetCode_Binary_Tree_Postorder_Traversal": true,
+    "LeetCode_Univalued_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -183,7 +184,7 @@
     "2026-10-11": 11,
     "2026-10-12": 8,
     "2026-10-13": 3,
-    "2026-10-14": 4
+    "2026-10-14": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -335,6 +336,7 @@
     "Roll Characters of String",
     "Maximize Sum of Squares of Digits",
     "Find Duplicate Subtrees",
-    "Binary Tree Postorder Traversal"
+    "Binary Tree Postorder Traversal",
+    "Univalued Binary Tree"
   ]
 }

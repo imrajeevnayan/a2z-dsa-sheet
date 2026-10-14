@@ -191,3 +191,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 152 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | LeetCode | Medium | 14 Oct 2026 | 04:59 pm |
 | 153 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | LeetCode | Medium | 14 Oct 2026 | 05:17 pm |
 | 154 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | LeetCode | Easy | 14 Oct 2026 | 05:27 pm |
+| 155 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | LeetCode | Easy | 14 Oct 2026 | 05:28 pm |
