@@ -1,29 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 543. Diameter of Binary Tree
- * URL: https://leetcode.com/problems/diameter-of-binary-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * URL: https://leetcode.com/problems/diameter-of-binary-tree/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T17:51:43.580Z
+ * Synced: 2026-10-14T17:52:41.154Z
  */
 
+public int diameterOfBinaryTree(TreeNode root) {
+        calculateHeight(root);
+        return maxDiameter;
+    }
+    
+    private int calculateHeight(TreeNode node) {
+        // Base case: Null node ki height -1 ya 0? 
 class Solution {
-    int diameter = 0;
-    public int diameterOfBinaryTree(TreeNode root) {
-        height(root);
-        return diameter;
-    }
-    int height(TreeNode root) {
-        if (root == null) return 0;
-        int left = height(root.left);
-        int right = height(root.right);
+    int maxDiameter = 0; // Global variable to track max diameter
 
-        // Current node ke through diameter
-        diameter = Math.max(diameter, left + right);
-        // Height return karo
-        return 1 + Math.max(left, right);
-    }
-}
+        // Agar hum edges count kar rahe hain, toh null ki height 0 maan sakte hain 
+        // aur leaf node ki height 1. But standard is:
+        if (node == null) return 0;
+        
+        // Left aur Right subtree ki height nikalo
+        int leftH = calculateHeight(node.left);
+        int rightH = calculateHeight(node.right);
+        
+        // Current node par diameter check karo (Left Height + Right Height)
+        // Note: Edges count karne ke liye hum sirf heights add karte hain.
+        maxDiameter = Math.max(maxDiameter, leftH + rightH);
+        
+        // Apne parent ko apni height batao (Max of children + 1)
+        return Math.max(leftH, rightH) + 1;
