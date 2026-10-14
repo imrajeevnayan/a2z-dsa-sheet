@@ -199,3 +199,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 160 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | LeetCode | Easy | 14 Oct 2026 | 09:55 pm |
 | 161 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | LeetCode | Easy | 14 Oct 2026 | 09:58 pm |
 | 162 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | LeetCode | Medium | 14 Oct 2026 | 10:10 pm |
+| 163 | [Same Tree](https://leetcode.com/problems/same-tree/) | LeetCode | Easy | 14 Oct 2026 | 10:37 pm |
