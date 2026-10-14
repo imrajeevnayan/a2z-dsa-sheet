@@ -2,12 +2,16 @@
  * Platform: LeetCode
  * Problem: 4015. Weighted Sum of a Tree
  * URL: https://leetcode.com/problems/weighted-sum-of-a-tree/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Tree, Depth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:12:59.500Z
+ * Synced: 2026-10-14T16:13:01.816Z
  */
 
-parent
+class Solution {
+    public long weightedSum(int[] parent, int[] nums) {
+        
+    }
+}
