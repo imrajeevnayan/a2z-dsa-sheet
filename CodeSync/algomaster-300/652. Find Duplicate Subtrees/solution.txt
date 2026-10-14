@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 652. Find Duplicate Subtrees
+ * URL: https://leetcode.com/problems/find-duplicate-subtrees/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Hash Table, Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T11:44:12.825Z
+ */
+
+Input: root = [1,2,3,4,null,2,4,null,null,4]
+Output: [[2,4],[4]]
