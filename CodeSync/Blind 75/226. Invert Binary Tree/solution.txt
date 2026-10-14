@@ -7,17 +7,24 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T17:50:38.573Z
+ * Synced: 2026-10-14T17:50:44.948Z
  */
 
-class Solution {
-    public TreeNode invertTree(TreeNode root) {
+public TreeNode invertTree(TreeNode root) {
         // Base case: Agar node null hai, toh kuch nahi karna
         if (root == null) {
-            return null;
-        }
+return null;
+        
         
         // Left aur Right subtree ko recursively invert karo
         TreeNode left = invertTree(root.left);
         TreeNode right = invertTree(root.right);
-/**
+class Solution {
+        
+        // Swap karo: Left mein right daalo, Right mein left daalo
+        root.left = right;
+        root.right = left;
+        
+        return root;
+    }
+}
