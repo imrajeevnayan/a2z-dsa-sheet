@@ -188,3 +188,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 149 | [Sort by Frequency](https://www.geeksforgeeks.org/problems/sort-string-according-to-increasing-frequency/1) | GeeksForGeeks | Medium | 13 Oct 2026 | 10:47 pm |
 | 150 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | LeetCode | Medium | 13 Oct 2026 | 10:53 pm |
 | 151 | [Roll Characters of String](https://www.geeksforgeeks.org/problems/roll-the-characters-of-a-string2127/1) | GeeksForGeeks | Medium | 14 Oct 2026 | 04:33 pm |
+| 152 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | LeetCode | Medium | 14 Oct 2026 | 04:59 pm |
