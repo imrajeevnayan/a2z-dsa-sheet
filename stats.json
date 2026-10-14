@@ -1,12 +1,12 @@
 {
-  "totalSolved": 159,
+  "totalSolved": 160,
   "currentStreak": 19,
   "maxStreak": 19,
   "lastSyncDate": "2026-10-14",
-  "todayCount": 11,
+  "todayCount": 12,
   "difficultyCounts": {
     "easy": 62,
-    "medium": 85,
+    "medium": 86,
     "hard": 6,
     "basic": 6
   },
@@ -169,7 +169,8 @@
     "LeetCode_Balanced_Binary_Tree": true,
     "LeetCode_Sum_of_Nodes_with_Even-Valued_Grandparent": true,
     "LeetCode_Binary_Tree_Preorder_Traversal": true,
-    "LeetCode_Two_Sum_IV_-_Input_is_a_BST": true
+    "LeetCode_Two_Sum_IV_-_Input_is_a_BST": true,
+    "LeetCode_Binary_Tree_Level_Order_Traversal": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -190,7 +191,7 @@
     "2026-10-11": 11,
     "2026-10-12": 8,
     "2026-10-13": 3,
-    "2026-10-14": 11
+    "2026-10-14": 12
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -349,6 +350,7 @@
     "Balanced Binary Tree",
     "Sum of Nodes with Even-Valued Grandparent",
     "Binary Tree Preorder Traversal",
-    "Two Sum IV - Input is a BST"
+    "Two Sum IV - Input is a BST",
+    "Binary Tree Level Order Traversal"
   ]
 }
