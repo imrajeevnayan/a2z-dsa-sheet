@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 104. Maximum Depth of Binary Tree
- * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+ * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
  * Language: Text
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:20:40.458Z
+ * Synced: 2026-10-14T16:42:49.690Z
  */
 
 Input: root = [3,9,20,null,null,15,7]
