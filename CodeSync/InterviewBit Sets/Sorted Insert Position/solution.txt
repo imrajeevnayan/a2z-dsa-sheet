@@ -4,16 +4,13 @@
  * URL: https://www.interviewbit.com/problems/sorted-insert-position/
  * Language: Text
  * Difficulty: Easy
- * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 42.2%
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, Capacity To Ship Packages Within B Days Medium
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:02:00.563Z
+ * Synced: 2026-10-14T16:02:39.204Z
  */
 
-public class Solution {
-    public int searchInsert(ArrayList<Integer> a, int b) {
-        int low = 0;
-        int high = a.size() - 1;
+int high = a.size() - 1;
         int ans = a.size(); // Default: Agar sab chote hain, toh end mein insert hoga
         
         while (low <= high) {
@@ -25,10 +22,10 @@ public class Solution {
                 high = mid - 1; // Ab aur chota dhundo left side mein
             } 
             low = mid + 1; // Right side mein dhundo
-
         }
-        
         return ans;
     }
             else 
 }
+    public int searchInsert(ArrayList<Integer> a, int b) {
+        int low = 0;
