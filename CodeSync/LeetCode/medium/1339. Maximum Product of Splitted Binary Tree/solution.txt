@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1339. Maximum Product of Splitted Binary Tree
+ * URL: https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T11:58:51.869Z
+ */
+
+Input: root = [1,2,3,4,5,6]
+Output: 110
+Explanation: Remove the red edge and get 2 binary trees with sum 11 and 10. Their product is 110 (11*10)
