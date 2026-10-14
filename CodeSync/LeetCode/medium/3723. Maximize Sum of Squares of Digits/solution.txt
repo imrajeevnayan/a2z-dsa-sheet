@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 3723. Maximize Sum of Squares of Digits
- * URL: https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/?envType=daily-question&envId=2026-10-14
+ * URL: https://leetcode.com/problems/maximize-sum-of-squares-of-digits/?envType=daily-question&envId=2026-10-14
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T11:21:20.931Z
+ * Synced: 2026-10-14T11:26:06.664Z
  */
 
-class Solution {
-    public String maxSumOfSquares(int num, int sum) {
+// No, because we checked sum <= 9*k.
+        // But wait, if sum is small, e.g., sum=1, k=3. Digits: [1, 0, 0]. Sum squares = 1.
         
+        // Calculate Sum of Squares
+        long sumSquares = 0;
+        StringBuilder sb = new StringBuilder();
+        for (int d : digits) {
+            sumSquares += (long) d * d;
+            sb.append(d);
+        }
+        
+        // Return the string representation of the number formed? 
+        // Or just the sum? The return type is String.
+        // Usually these problems ask for the number itself or the sum.
+        // Given the name "maxSumOfSquares", it might want the sum as string.
+        // But if it wants the number, sb.toString() is correct.
+        
+        // Let's assume it returns the sum as string based on typical GFG/LeetCode patterns for "Sum" questions.
+        // However, if it asks for the number, return sb.toString().
+        
+        // Looking at similar problems, often they ask for the maximum sum value.
+        return String.valueOf(sumSquares);
     }
 }
