@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 110. Balanced Binary Tree
+ * URL: https://leetcode.com/problems/balanced-binary-tree/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T16:14:25.021Z
+ */
+
+Input: root = [3,9,20,null,null,15,7]
+Output: true
