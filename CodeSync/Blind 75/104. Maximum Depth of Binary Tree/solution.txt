@@ -7,21 +7,18 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:43:31.595Z
+ * Synced: 2026-10-14T16:43:40.762Z
  */
 
-*
-class Solution {
-    public int maxDepth(TreeNode root) {
+public int maxDepth(TreeNode root) {
         // Base case: Agar node null hai, toh depth 0 hai
-        if (root == null) {
-            return 0;
-        }
+        if (root == null) { return 0;
+        
         
         // Left aur Right subtree ki depth recursively nikalo
         int leftDepth = maxDepth(root.left);
         int rightDepth = maxDepth(root.right);
-
+class Solution {
         
         // Jo bada ho, usme 1 add karo (current node ke liye)
         return Math.max(leftDepth, rightDepth) + 1;
