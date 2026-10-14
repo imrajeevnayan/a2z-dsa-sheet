@@ -1,12 +1,12 @@
 {
-  "totalSolved": 156,
+  "totalSolved": 157,
   "currentStreak": 19,
   "maxStreak": 19,
   "lastSyncDate": "2026-10-14",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 60,
-    "medium": 84,
+    "medium": 85,
     "hard": 6,
     "basic": 6
   },
@@ -166,7 +166,8 @@
     "LeetCode_Univalued_Binary_Tree": true,
     "LeetCode_Maximum_Product_of_Splitted_Binary_Tree": true,
     "GeeksForGeeks_k_Largest_Elements": true,
-    "LeetCode_Balanced_Binary_Tree": true
+    "LeetCode_Balanced_Binary_Tree": true,
+    "LeetCode_Sum_of_Nodes_with_Even-Valued_Grandparent": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -187,7 +188,7 @@
     "2026-10-11": 11,
     "2026-10-12": 8,
     "2026-10-13": 3,
-    "2026-10-14": 8
+    "2026-10-14": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -343,6 +344,7 @@
     "Univalued Binary Tree",
     "Maximum Product of Splitted Binary Tree",
     "k Largest Elements",
-    "Balanced Binary Tree"
+    "Balanced Binary Tree",
+    "Sum of Nodes with Even-Valued Grandparent"
   ]
 }
