@@ -7,16 +7,18 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:19:18.600Z
+ * Synced: 2026-10-14T16:19:36.538Z
  */
 
 return dfs(root, null, null);
     }
-    
     private int dfs(TreeNode node, TreeNode parent, TreeNode grandparent) {
         if (node == null) return 0;
-        
+
         int sum = 0;
+    public int sumEvenGrandparent(TreeNode root) {
+        // Root ke liye parent aur grandparent null honge
+class Solution {
         
         // Agar grandparent exists karta hai aur uski value even hai
         if (grandparent != null && grandparent.val % 2 == 0) {
@@ -33,4 +35,3 @@ return dfs(root, null, null);
         
         return sum;
     }
-}
