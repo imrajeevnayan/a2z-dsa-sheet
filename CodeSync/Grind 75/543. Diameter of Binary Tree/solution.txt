@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 543. Diameter of Binary Tree
+ * URL: https://leetcode.com/problems/diameter-of-binary-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T17:51:41.472Z
+ */
+
+Input: root = [1,2,3,4,5]
+Output: 3
+Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
