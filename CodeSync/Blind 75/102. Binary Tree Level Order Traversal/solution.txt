@@ -7,30 +7,31 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-14T16:40:49.549Z
+ * Synced: 2026-10-14T16:40:52.657Z
  */
 
-int levelSize = queue.size(); // Current level ke nodes ki count
-            List<Integer> currentLevel = new ArrayList<>();
-            
-            // Sirf current level ke nodes ko process karo
-            for (int i = 0; i < levelSize; i++) {
-                TreeNode node = queue.poll();
-                currentLevel.add(node.val);
-                
-                // Bachon ko queue mein daalo for next level
-                if (node.left != null) {
-                    queue.offer(node.left);
-                }
-                if (node.right != null) {
-                    queue.offer(node.right);
-                }
-            }
-            
-            // Poora level add karo result mein
-            result.add(currentLevel);
-        }
+// Queue banao BFS ke liye
+        if (root == null) return result;
         
-        return result;
-    }
-}
+        
+        // Edge case: Agar tree empty hai
+        List<List<Integer>> result = new ArrayList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+class Solution {
+ */
+ * }
+ *     }
+ *         this.right = right;
+ *         this.left = left;
+ *         this.val = val;
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode() {}
+ *     TreeNode right;
+import java.util.*;
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
