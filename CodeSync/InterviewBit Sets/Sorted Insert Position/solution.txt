@@ -7,7 +7,7 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, Median of Array 87 Minutes Medium Asked in:, 42.2%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T16:01:35.596Z
+ * Synced: 2026-10-14T16:01:44.242Z
  */
 
 public class Solution {
@@ -20,14 +20,15 @@ public class Solution {
             int mid = low + (high - low) / 2;
             
             if (a.get(mid) == b) return mid; // Exact match mil gaya
-            }else if (a.get(mid) > b) {
+            else if (a.get(mid) > b) {
                 ans = mid; // Ye potential position hai, store karo
                 high = mid - 1; // Ab aur chota dhundo left side mein
-            } else {
+            } else 
                 low = mid + 1; // Right side mein dhundo
-            }
+            
         }
         
         return ans;
     }
+    
 }
