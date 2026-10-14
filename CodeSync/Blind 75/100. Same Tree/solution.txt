@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 100. Same Tree
+ * URL: https://leetcode.com/problems/same-tree/description/?spm=a2ty_o01.29997173.0.0.2292c921fXSBHT
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-14T17:07:23.267Z
+ */
+
+Input: p = [1,2,3], q = [1,2,3]
+Output: true
