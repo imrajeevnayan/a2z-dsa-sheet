@@ -7,10 +7,32 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 40.1%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T14:28:57.156Z
+ * Synced: 2026-10-15T14:29:59.259Z
  */
 
-public class Solution {
-    public int setIntersection(int[][] A) {
+// Check how many of our selected numbers are in this current interval
+            boolean hasLeft = (left >= start);
+            boolean hasRight = (right >= start);
+            
+            if (hasLeft && hasRight) {
+                // Already 2 elements present, do nothing
+                continue;
+            } else if (hasRight) {
+                // Only 1 element present (right), need one more
+                // Pick the largest possible new element: end - 1? No, just end if not already picked?
+                // Actually, we update our tracked points to the end of current interval
+                left = right; 
+                right = end;
+                count++;
+            } else {
+                // 0 elements present, need two new ones
+                // Pick the last two: end - 1 and end
+                left = end - 1;
+                right = end;
+                count += 2;
+            }
+        }
+        
+        return count;
     }
 }
