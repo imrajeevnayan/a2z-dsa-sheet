@@ -1,12 +1,12 @@
 {
-  "totalSolved": 163,
+  "totalSolved": 164,
   "currentStreak": 20,
   "maxStreak": 20,
   "lastSyncDate": "2026-10-15",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 65,
-    "medium": 86,
+    "medium": 87,
     "hard": 6,
     "basic": 6
   },
@@ -173,7 +173,8 @@
     "LeetCode_Binary_Tree_Level_Order_Traversal": true,
     "LeetCode_Same_Tree": true,
     "LeetCode_Diameter_of_Binary_Tree": true,
-    "LeetCode_Maximum_Average_Subarray_I": true
+    "LeetCode_Maximum_Average_Subarray_I": true,
+    "LeetCode_Minimum_Size_Subarray_Sum": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -195,7 +196,7 @@
     "2026-10-12": 8,
     "2026-10-13": 3,
     "2026-10-14": 14,
-    "2026-10-15": 1
+    "2026-10-15": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -358,6 +359,7 @@
     "Binary Tree Level Order Traversal",
     "Same Tree",
     "Diameter of Binary Tree",
-    "Maximum Average Subarray I"
+    "Maximum Average Subarray I",
+    "Minimum Size Subarray Sum"
   ]
 }
