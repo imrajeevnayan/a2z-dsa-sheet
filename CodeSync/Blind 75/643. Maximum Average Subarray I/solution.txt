@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: 643. Maximum Average Subarray I
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/description/?spm=a2ty_o01.29997173.0.0.2292c921cwtrvM
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T16:51:46.723Z
+ */
+
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+        int left=0,currSum=0,ans=Integer.MIN_VALUE; 
+        for(int right=0;right<nums.length;right++){
+            currSum+=nums[right];
+            if(right-left+1>k){
+                currSum-=nums[left];
+                left++;
+            }
+            if(right-left+1==k){
+                ans=Math.max(ans,currSum);
+            }
+        }
+        return (double)ans/k;
+    }
+}
