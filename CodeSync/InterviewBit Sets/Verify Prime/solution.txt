@@ -7,8 +7,10 @@
  * Topics: Programming, Math, Description, Discussion, Submissions, Hints, Excel Column Number 23 Minutes Easy Asked in:, Next Similar Number 55 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T14:32:57.438Z
+ * Synced: 2026-10-15T14:32:58.138Z
  */
 
-Input : 7
-Output : True
+public class Solution {
+    public int isPrime(int A) {
+    }
+}
