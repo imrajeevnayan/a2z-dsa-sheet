@@ -7,12 +7,12 @@
  * Topics: Array, Hash Table, Binary Indexed Tree, Segment Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T07:43:13.871Z
+ * Synced: 2026-10-15T07:43:16.373Z
  */
 
 public int sumCounts(List<Integer> nums) {
         int n = nums.size();
-        long totalSum = 0; // Long use ka overflow se bachne ke liye
+        long totalSum = 0; // Long use kiya overflow se bachne ke liye
         
         // Har starting index i ke liye
         for (int i = 0; i < n; i++) {
