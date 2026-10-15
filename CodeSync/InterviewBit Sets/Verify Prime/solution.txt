@@ -7,10 +7,25 @@
  * Topics: Programming, Math, Description, Discussion, Submissions, Hints, Excel Column Number 23 Minutes Easy Asked in:, Next Similar Number 55 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T14:32:58.138Z
+ * Synced: 2026-10-15T14:34:37.293Z
  */
 
-public class Solution {
-    public int isPrime(int A) {
+return 1;
+        }
+        
+        // Agar 2 ya 3 se divisible hai, toh prime nahi hai
+        if (A % 2 == 0 || A % 3 == 0) {
+            return 0;
+        }
+        
+        // Sirf odd numbers ko check karo, starting from 5
+        // Step size 6 ka use karo (optimization: all primes > 3 are of form 6k +/- 1)
+        for (int i = 5; i * i <= A; i += 6) {
+            if (A % i == 0 || A % (i + 2) == 0) {
+                return 0;
+            }
+        }
+        
+        return 1;
     }
 }
