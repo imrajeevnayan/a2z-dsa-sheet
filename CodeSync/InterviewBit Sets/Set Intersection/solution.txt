@@ -7,33 +7,33 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 40.1%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T14:30:01.633Z
+ * Synced: 2026-10-15T14:30:04.594Z
  */
 
 // Check how many of our selected numbers are in this current interval
             boolean hasLeft = (left >= start);
             boolean hasRight = (right >= start);
             
-            if (hasLeft && hasRight) {
-                // Already 2 elements present, do nothing
             
             int end = A[i][1];
         for (int i = 1; i < A.length; i++) {
             int start = A[i][0];
         
         int count = 2;
-        int right = A[0][1];
-        int left = A[0][1] - 1;
-        // We track the last two selected numbers
-        // Initialize with the last two elements of the first interval
-        
-        });
-            }
-                return Integer.compare(b[0], a[0]);
+            if (hasLeft && hasRight) {
+                // Already 2 elements present, do nothing
+                continue;
+            } else if (hasRight) {
+                // Only 1 element present (right), need one more
+                // Pick the largest possible new element: end - 1? No, just end if not already picked?
+                // Actually, we update our tracked points to the end of current interval
+                left = right; 
+                right = end;
+                count++;
             } else {
-                return Integer.compare(a[1], b[1]);
-            if (a[1] != b[1]) {
-        Arrays.sort(A, (a, b) -> {
-        // Step 1: Sort by End time ascending. If same end, sort by Start time descending.
-    public int setIntersection(int[][] A) {
-public class Solution {
+                // 0 elements present, need two new ones
+                // Pick the last two: end - 1 and end
+                left = end - 1;
+                right = end;
+                count += 2;
+            }
