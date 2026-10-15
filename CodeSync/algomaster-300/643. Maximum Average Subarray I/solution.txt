@@ -1,0 +1,31 @@
+/*
+ * Platform: LeetCode
+ * Problem: 643. Maximum Average Subarray I
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/?spm=a2ty_o01.29997173.0.0.2292c921cwtrvM
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Sliding Window
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-10-15T18:01:18.737Z
+ */
+
+// Pehli window ka sum
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        
+        double maxSum = sum;
+        
+        // Slide karo
+        for (int i = k; i < nums.length; i++) {
+            sum += nums[i] - nums[i - k]; // Add new, remove old
+            maxSum = Math.max(maxSum, sum); // Max update
+        }
+        
+        return maxSum / k;
+    }
+}
+        double sum = 0;
+    public double findMaxAverage(int[] nums, int k) {
+class Solution {
