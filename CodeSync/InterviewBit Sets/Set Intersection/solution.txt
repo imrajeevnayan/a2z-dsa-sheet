@@ -1,0 +1,13 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Set Intersection
+ * URL: https://www.interviewbit.com/problems/set-intersection/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 40.1%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T14:28:56.343Z
+ */
+
+A = [[1, 3], [1, 4], [2, 5], [3, 5]]
