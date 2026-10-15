@@ -7,7 +7,7 @@
  * Topics: Programming, Math, Description, Discussion, Submissions, Hints, Excel Column Number 23 Minutes Easy Asked in:, Next Similar Number 55 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T14:35:23.696Z
+ * Synced: 2026-10-15T14:35:25.942Z
  */
 
 }
@@ -26,10 +26,9 @@
             return 0;
         if (A % 2 == 0 || A % 3 == 0) {
         // Agar 2 ya 3 se divisible hai, toh prime nahi hai
+
         
-        
-return 1;
-        if (A <= 3) {
+        if (A <= 3) return 1;
         // 2 aur 3 prime hote hain
     
         if (A <= 1) return 0;
