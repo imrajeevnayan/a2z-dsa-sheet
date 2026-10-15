@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: Intuition
+ * URL: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/solutions/8573254/not-only-massive-downvotes-but-also-ongo-8l3k/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T07:42:27.173Z
+ */
+
+class Solution {
