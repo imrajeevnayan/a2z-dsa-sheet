@@ -1,0 +1,39 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Set Intersection
+ * URL: https://www.interviewbit.com/problems/set-intersection/
+ * Language: Java
+ * Difficulty: Medium
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 40.1%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T14:30:02.756Z
+ */
+
+// Check how many of our selected numbers are in this current interval
+            boolean hasLeft = (left >= start);
+            boolean hasRight = (right >= start);
+            
+            
+            int end = A[i][1];
+        for (int i = 1; i < A.length; i++) {
+            int start = A[i][0];
+        
+        int count = 2;
+        int right = A[0][1];
+        int left = A[0][1] - 1;
+        // We track the last two selected numbers
+        // Initialize with the last two elements of the first interval
+        
+        });
+            }
+                return Integer.compare(b[0], a[0]);
+            } else {
+                return Integer.compare(a[1], b[1]);
+            if (a[1] != b[1]) {
+        Arrays.sort(A, (a, b) -> {
+        // Step 1: Sort by End time ascending. If same end, sort by Start time descending.
+    public int setIntersection(int[][] A) {
+public class Solution {
+
+import java.util.Arrays;
