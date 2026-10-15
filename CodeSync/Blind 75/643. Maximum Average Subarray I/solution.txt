@@ -6,30 +6,29 @@
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-15T16:54:42.477Z
+ * Memory: 68.95 MB
+ * Synced: 2026-10-15T16:55:32.093Z
  */
 
-double sum = 0;
+double maxSum = Integer.MIN_VALUE; // Shuru mein sabse chota value
         
-        // Step 1: Pehli window (0 to k-1) ka sum nikalo
-        for (int i = 0; i < k; i++) {
-            sum += nums[i];
-        }
-        double maxSum = sum;
-        
-        // Step 2: Window ko slide karo (Right side se add, Left side se remove)
-        for (int i = k; i < nums.length; i++) {
-            sum += nums[i];       // Naya element add karo
-            sum -= nums[i - k];   // Purana element (window ke bahar wala) hata do
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i]; // Element add karo
             
-            // Max sum update karo
-            if (sum > maxSum) {
-                maxSum = sum;
+            // Jab window size K ho jaye
+            if (i >= k - 1) {
+                // Max sum update karo
+                if (sum > maxSum) {
+                    maxSum = sum;
+                }
+                // Left element ko hata do taaki window slide kare
+                sum -= nums[i - k + 1];
             }
         }
         
-        // Step 3: Average return karo
         return maxSum / k;
     }
 }
+        double sum = 0;
+    public double findMaxAverage(int[] nums, int k) {
+class Solution {
