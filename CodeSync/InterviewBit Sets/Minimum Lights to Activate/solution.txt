@@ -1,0 +1,13 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Minimum Lights to Activate
+ * URL: https://www.interviewbit.com/problems/minimum-lights-to-activate/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Upcoming Masterclass: Build a Career in DevOps, Cloud Computing & Cyber Security Register Now ->, Description, Discussion, Submissions, Hints
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T14:28:37.182Z
+ */
+
+Return the minimum number of lights to be turned ON to light the whole corridor or -1 if the whole corridor cannot be lighted.
