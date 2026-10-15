@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 2913. Subarrays Distinct Element Sum of Squares I
- * URL: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/?envType=daily-question&envId=2026-10-15
+ * URL: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/?envType=daily-question&envId=2026-10-15
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Hash Table, Binary Indexed Tree, Segment Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T07:42:18.298Z
+ * Synced: 2026-10-15T07:43:13.871Z
  */
 
-class Solution {
-    public int sumCounts(List<Integer> nums) {
+public int sumCounts(List<Integer> nums) {
+        int n = nums.size();
+        long totalSum = 0; // Long use ka overflow se bachne ke liye
         
+        // Har starting index i ke liye
+        for (int i = 0; i < n; i++) {
+            Set<Integer> distinctSet = new HashSet<>();
+            
+            // Ending index j ko aage badhao
+            for (int j = i; j < n; j++) {
+                distinctSet.add(nums.get(j));
+                
+                // Current subarray [i...j] mein distinct elements ki count
+                int k = distinctSet.size();
+                
+                // Square add karo
+                totalSum += (long) k * k;
+            }
+        }
+        
+        return (int) totalSum;
     }
+class Solution {
 }
