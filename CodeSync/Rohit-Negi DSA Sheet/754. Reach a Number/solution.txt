@@ -5,29 +5,32 @@
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Math, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T16:00:20.767Z
+ * Synced: 2026-10-16T16:01:34.938Z
  */
 
-class Solution {
-    public int reachNumber(int target) {
-        // 1. Handle symmetry: work with positive target
-        target = Math.abs(target);
+// Parity Check:
+        // Agar difference even hai, toh hum kuch steps flip karke exact target pe pahunch sakte hain
+        if (diff % 2 == 0) {
+            return (int) k;
+        } 
         
-        int sum = 0;
-        int steps = 0;
+        // Agar difference odd hai:
+        // Hume extra steps lene padenge jab tak difference even na ho jaye
+        // Note: Har naye step se parity change hoti hai.
+        // Agar k odd hai, toh next step (k+1) even hoga -> diff odd + even = odd (still odd)
+        // Toh hume ek aur step lena padega (k+2) -> diff odd + even + odd = even
         
-        // 2. Keep adding steps until we meet two conditions:
-        //    a) sum >= target (we've reached or passed it)
-        //    b) (sum - target) is even (we can flip some moves to adjust)
-        while (true) {
-            if (sum >= target && (sum - target) % 2 == 0) {
-                return steps;
-            }
-            
-            steps++;
-            sum += steps;
+        // Simple rule:
+        // If k is even, next step (k+1) is odd. Odd diff + Odd step = Even diff. So ans = k + 1
+        // If k is odd, next step (k+1) is even. Odd diff + Even step = Odd diff. 
+        // Then step (k+2) is odd. Odd diff + Odd step = Even diff. So ans = k + 2
+        
+        if (k % 2 == 0) {
+            return (int) (k + 1);
+        } else {
+            return (int) (k + 2);
         }
     }
 }
