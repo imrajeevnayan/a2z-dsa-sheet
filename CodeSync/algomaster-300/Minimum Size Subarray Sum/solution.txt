@@ -1,29 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Size Subarray Sum
- * URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=sliding-window
- * Language: Sliding Window
- * Difficulty: Medium
- * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
- * Memory: 69.09 MB
- * Synced: 2026-09-14T15:01:08.441Z
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2173279252/?spm=a2ty_o01.29997173.0.0.2292c921cwtrvM
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1 ms
+ * Memory: 68.44 MB
+ * Synced: 2026-10-16T04:50:51.014Z
  */
 
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int left = 0, sum = 0, ans = Integer.MAX_VALUE;
-
+        int left = 0;
+        int sum = 0;
+        int minLen = Integer.MAX_VALUE; // Sabse bada value se start karo
+        
         for (int right = 0; right < nums.length; right++) {
-            sum += nums[right];
-
+            sum += nums[right]; // Right side se add karo
+            
+            // Jab tak sum target se bada hai, left side se hatao
             while (sum >= target) {
-                ans = Math.min(ans, right - left + 1);
-
-                sum -= nums[left];
-                left++;
+                minLen = Math.min(minLen, right - left + 1); // Chota 
+                length store karo
+                sum -= nums[left]; // Left element nikalo
+                left++; // Window shrink karo
             }
         }
-        return ans == Integer.MAX_VALUE ? 0 : ans;
+        
+        // Agar minLen same hai, toh koi answer nahi mila
+        return (minLen == Integer.MAX_VALUE) ? 0 : minLen;
     }
 }
