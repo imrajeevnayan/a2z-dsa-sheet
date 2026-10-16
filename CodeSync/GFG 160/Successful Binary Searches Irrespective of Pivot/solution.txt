@@ -2,14 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Successful Binary Searches Irrespective of Pivot
  * URL: https://www.geeksforgeeks.org/problems/count-always-found/1
- * Language: Text
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Topic Tags Related Articles, Topic Tags, constructive algo, Arrays, Related Articles, New Binary Search
+ * Topics: Expected Complexities, Topic Tags, constructive algo, Arrays, Related Articles, New Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T09:00:47.029Z
+ * Synced: 2026-10-16T09:00:48.796Z
  */
 
-Input: arr[] = [3, 7, 9, 8, 15]
-Output: 3
-Explanation: 3, 7, and 15 (indices 0, 1, 4) are always found: every possible pivot comparison happens to steer the search toward them, no matter the order. 9 and 8 are not: e.g. if the first pivot picked is 8, searching for 9 gets pushed right and index 2 is lost forever; if the first pivot is 9, searching for 8 gets pushed left and index 3 is lost forever.
+class Solution {
+    public int countAlwaysFound(int[] arr) {
+        // code here
+        
+    }
+}
