@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔍 Efficient Element Counting: Solving "Less Than or Equal To" Problem in Two Arrays
+ * URL: https://www.geeksforgeeks.org/problems/counting-elements-in-two-arrays/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Searching, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T17:51:57.466Z
+ */
+
+class Solution {
+    public static ArrayList<Integer> countLessEq(int a[], int b[]) {
+
+        Arrays.sort(b);
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int x : a) {
+            ans.add(upperBound(b, x));
+        }
+
+        return ans;
+    }
+
+    // returns count of elements <= target
+    private static int upperBound(int[] arr, int target) {
+        int low = 0, high = arr.length - 1;
+        int ans = arr.length;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] > target) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+}
