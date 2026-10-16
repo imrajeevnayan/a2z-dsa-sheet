@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 327. Count of Range Sum
+ * URL: https://leetcode.com/problems/count-of-range-sum/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T16:27:01.340Z
+ */
+
+Input: nums = [-2,5,-1], lower = -2, upper = 2
+Output: 3
+Explanation: The three ranges are: [0,0], [2,2], and [0,2] and their respective sums are: -2, -1, 2.
