@@ -1,0 +1,13 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Median of Array
+ * URL: https://www.interviewbit.com/problems/median-of-array/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Binary Search, Upcoming Masterclass: Build a Career in DevOps, Cloud Computing & Cyber Security Register Now ->, Description, Discussion, Submissions, Hints
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T12:45:22.261Z
+ */
+
+Output goes here... Test/Submit
