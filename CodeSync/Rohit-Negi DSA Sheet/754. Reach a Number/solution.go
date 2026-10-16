@@ -7,7 +7,7 @@
  * Topics: Math, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T09:56:15.915Z
+ * Synced: 2026-10-16T15:05:08.894Z
  */
 
 Input: target = 2
