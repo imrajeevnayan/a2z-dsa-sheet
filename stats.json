@@ -1,12 +1,12 @@
 {
-  "totalSolved": 170,
+  "totalSolved": 171,
   "currentStreak": 21,
   "maxStreak": 21,
   "lastSyncDate": "2026-10-16",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 66,
-    "medium": 91,
+    "medium": 92,
     "hard": 7,
     "basic": 6
   },
@@ -180,7 +180,8 @@
     "GeeksForGeeks_Successful_Binary_Searches_Irrespective_of_Pivot": true,
     "GeeksForGeeks_Implement_Lower_Bound": true,
     "GeeksForGeeks_Ceil_in_Sorted_Array": true,
-    "LeetCode_Reach_a_Number": true
+    "LeetCode_Reach_a_Number": true,
+    "LeetCode_Search_a_2D_Matrix_II": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -203,7 +204,7 @@
     "2026-10-13": 3,
     "2026-10-14": 14,
     "2026-10-15": 2,
-    "2026-10-16": 6
+    "2026-10-16": 7
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -373,6 +374,7 @@
     "Successful Binary Searches Irrespective of Pivot",
     "Implement Lower Bound",
     "Ceil in Sorted Array",
-    "Reach a Number"
+    "Reach a Number",
+    "Search a 2D Matrix II"
   ]
 }
