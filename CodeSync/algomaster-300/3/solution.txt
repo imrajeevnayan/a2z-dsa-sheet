@@ -1,24 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 3
- * URL: https://leetcode.com/problems/group-anagrams/description/?utm=codolio
+ * URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/2173279252/?spm=a2ty_o01.29997173.0.0.2292c921cwtrvM
  * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T12:55:28.415Z
+ * Synced: 2026-10-16T04:03:36.951Z
  */
 
-class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-      HashMap<String,List<String>>ans=new HashMap<>();
-        for(String s:strs){
-            char c[]=s.toCharArray();
-            Arrays.sort(c);
-            String key=String.valueOf(c);
-            ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
-        }
-        return new ArrayList<>(ans.values());
-    }
-}
+1class Solution {
+2    public int minSubArrayLen(int target, int[] nums) {
+3        int left = 0;
+4        int sum = 0;
+5        int minLen = Integer.MAX_VALUE; // Sabse bada value se start karo
+6        
+7        for (int right = 0; right < nums.length; right++) {
+8            sum += nums[right]; // Right side se add karo
+9            
+10            // Jab tak sum target se bada hai, left side se hatao
+11            while (sum >= target) {
+12                minLen = Math.min(minLen, right - left + 1); // Chota length store karo
+13                sum -= nums[left]; // Left element nikalo
+14                left++; // Window shrink karo
+15            }
+16        }
+17        
+18        // Agar minLen same hai, toh koi answer nahi mila
+19        return (minLen == Integer.MAX_VALUE) ? 0 : minLen;
+20    }
+21}
