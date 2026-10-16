@@ -7,13 +7,39 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Searching, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T17:53:07.339Z
+ * Synced: 2026-10-16T17:53:07.955Z
  */
 
-Input: a[] = [4, 8, 7, 5, 1], b[] = [4, 48, 3, 0, 1, 1, 5]
-Output: [5, 6, 6, 6, 3]
-Explanation: 
-For a[0] = 4, there are 5 elements in b (4, 3, 0, 1, 1) that are ≤ 4.
-For a[1] = 8 and a[2] = 7, there are 6 elements in b that are ≤ 8 and ≤ 7.
-For a[3] = 5, there are 6 elements in b that are ≤ 5.
-For a[4] = 1, there are 3 elements in b (0, 1, 1) that are ≤ 1.
+class Solution {
+    public static ArrayList<Integer> countLessEq(int a[], int b[]) {
+
+        Arrays.sort(b);
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int x : a) {
+            ans.add(upperBound(b, x));
+        }
+
+        return ans;
+    }
+
+    // returns count of elements <= target
+    private static int upperBound(int[] arr, int target) {
+        int low = 0, high = arr.length - 1;
+        int ans = arr.length;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] > target) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+}
