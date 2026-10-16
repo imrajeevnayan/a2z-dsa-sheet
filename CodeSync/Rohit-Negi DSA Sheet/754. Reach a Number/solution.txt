@@ -6,33 +6,28 @@
  * Difficulty: Medium
  * Topics: Math, Binary Search
  * Runtime: 0 ms
- * Memory: 41.58 MB
- * Synced: 2026-10-16T16:02:31.719Z
+ * Memory: N/A
+ * Synced: 2026-10-16T16:14:34.470Z
  */
 
-return (int) k;
-        } 
-        
-        // Agar difference odd hai:
-        // Hume extra steps lene padenge jab tak difference even na ho jaye
-        // Note: Har naye step se parity change hoti hai.
-        // Agar k odd hai, toh next step (k+1) even hoga -> diff odd + even = odd (still odd)
-        // Toh hume ek aur step lena padega (k+2) -> diff odd + even + odd = even
-        
-        if (diff % 2 == 0) {
-        // Agar difference even hai, toh hum kuch steps flip karke exact target pe pahunch sakte hain
-        // Parity Check:
+if (diff % 2 == 0) {
 
         long diff = sum - target;
         long sum = k * (k + 1) / 2;
-        // Ab 'k' wo minimum steps hai jahan humne target ko cross kiya ya touch kiya
-
-        }
-            }
-                low = mid + 1; // Sum abhi chota hai, bada k
-            } else {
-                high = mid - 1; // Ab chote values check karte hain taaki minimum mile
-                k = mid;       // Ye ek potential answer hai
+            return (int) k; // Even hai, toh perfect hai
+        } 
+        
+        // Odd hai, toh next steps check karo
+        // Rule: Agar k even hai toh +1 step, agar k odd hai toh +2 steps
+        return (k % 2 == 0) ? (int)(k + 1) : (int)(k + 2);
+    }
+}
             if (sum >= target) {
+                k = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
 
-            long sum = mid * (mid + 1) / 2;
+        // 2. Parity Check
