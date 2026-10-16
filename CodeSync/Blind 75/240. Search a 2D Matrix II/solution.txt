@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 240. Search a 2D Matrix II
- * URL: https://leetcode.com/problems/search-a-2d-matrix-ii/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/2173975474/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Array, Binary Search, Divide and Conquer, Matrix
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-16T16:15:26.057Z
+ * Runtime: 0 ms
+ * Memory: 48.09 MB
+ * Synced: 2026-10-16T16:26:46.872Z
  */
 
-class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        
+// Start from Top-Right corner
+        int row = 0;
+        int col = cols - 1;
+
+        // Jab tak hum matrix ke bounds mein hain
+        while (row < rows && col >= 0) {
+            int current = matrix[row][col];
+
+            if (current == target) {
+                return true; // Target mil gaya
+            } else if (current > target) {
+                col--; // Current bada hai, toh left jao (chote numbers ki taraf)
+            } else {
+                row++; // Current chota hai, toh neeche jao (bade numbers ki taraf)
+            }
+        }
+
+        return false; // Target nahi mila
     }
 }
+        int cols = matrix[0].length;
