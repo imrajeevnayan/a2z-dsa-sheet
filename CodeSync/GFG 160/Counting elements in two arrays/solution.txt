@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Counting elements in two arrays
+ * URL: https://www.geeksforgeeks.org/problems/counting-elements-in-two-arrays/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Searching, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T17:53:07.339Z
+ */
+
+Input: a[] = [4, 8, 7, 5, 1], b[] = [4, 48, 3, 0, 1, 1, 5]
+Output: [5, 6, 6, 6, 3]
+Explanation: 
+For a[0] = 4, there are 5 elements in b (4, 3, 0, 1, 1) that are ≤ 4.
+For a[1] = 8 and a[2] = 7, there are 6 elements in b that are ≤ 8 and ≤ 7.
+For a[3] = 5, there are 6 elements in b that are ≤ 5.
+For a[4] = 1, there are 3 elements in b (0, 1, 1) that are ≤ 1.
