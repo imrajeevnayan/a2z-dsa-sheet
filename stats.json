@@ -1,11 +1,11 @@
 {
-  "totalSolved": 167,
+  "totalSolved": 168,
   "currentStreak": 21,
   "maxStreak": 21,
   "lastSyncDate": "2026-10-16",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 65,
+    "easy": 66,
     "medium": 89,
     "hard": 7,
     "basic": 6
@@ -177,7 +177,8 @@
     "LeetCode_Minimum_Size_Subarray_Sum": true,
     "LeetCode_Find_Minimum_in_Rotated_Sorted_Array_II": true,
     "LeetCode_Find_Minimum_in_Rotated_Sorted_Array": true,
-    "GeeksForGeeks_Successful_Binary_Searches_Irrespective_of_Pivot": true
+    "GeeksForGeeks_Successful_Binary_Searches_Irrespective_of_Pivot": true,
+    "GeeksForGeeks_Implement_Lower_Bound": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -200,7 +201,7 @@
     "2026-10-13": 3,
     "2026-10-14": 14,
     "2026-10-15": 2,
-    "2026-10-16": 3
+    "2026-10-16": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -367,6 +368,7 @@
     "Minimum Size Subarray Sum",
     "Find Minimum in Rotated Sorted Array II",
     "Find Minimum in Rotated Sorted Array",
-    "Successful Binary Searches Irrespective of Pivot"
+    "Successful Binary Searches Irrespective of Pivot",
+    "Implement Lower Bound"
   ]
 }

@@ -206,3 +206,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 167 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | LeetCode | Hard | 16 Oct 2026 | 10:25 am |
 | 168 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | LeetCode | Medium | 16 Oct 2026 | 10:37 am |
 | 169 | [Successful Binary Searches Irrespective of Pivot](https://www.geeksforgeeks.org/problems/count-always-found/1) | GeeksForGeeks | Medium | 16 Oct 2026 | 02:32 pm |
+| 170 | [Implement Lower Bound](https://www.geeksforgeeks.org/problems/implement-lower-bound/1) | GeeksForGeeks | Easy | 16 Oct 2026 | 02:34 pm |
