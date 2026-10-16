@@ -1,38 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 754. Reach a Number
- * URL: https://leetcode.com/problems/reach-a-number/submissions/2173963857/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/reach-a-number/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Math, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-16T16:01:45.758Z
+ * Memory: 41.58 MB
+ * Synced: 2026-10-16T16:01:57.352Z
  */
 
-} else {
-                high = mid - 1; // Ab chote values check karte hain taaki minimum mile
-            if (sum >= target) {
-                k = mid;       // Ye ek potential answer hai
-
-            long sum = mid * (mid + 1) / 2;
-            // Sum of first 'mid' integers: mid * (mid + 1) / 2
-            
-            long mid = low + (high - low) / 2;
-        while (low <= high) {
-        // Binary Search loop: Smallest 'k' dhundna hai jahan sum >= target
-
-        long k = 0; // Ye store karega wo minimum steps jo target ko cross karein
-        long high = target; 
-        long low = 1;
-        // Low = 1, High = target (kyunki worst case mein target steps lagenge)
-                low = mid + 1; // Sum abhi chota hai, bada k
-            }
-        }
-
-
-        // Binary Search range define karte hain
-        if (target == 0) return 0;
+return (int) k;
+        } 
         
-        // Edge case: agar target 0 hai toh 0 steps
-        target = Math.abs(target);
+        // Agar difference odd hai:
+        // Hume extra steps lene padenge jab tak difference even na ho jaye
+        // Note: Har naye step se parity change hoti hai.
+        // Agar k odd hai, toh next step (k+1) even hoga -> diff odd + even = odd (still odd)
+        // Toh hume ek aur step lena padega (k+2) -> diff odd + even + odd = even
+        
+        // Simple rule:
+        // If k is even, next step (k+1) is odd. Odd diff + Odd step = Even diff. So ans = k + 1
+        // If k is odd, next step (k+1) is even. Odd diff + Even step = Odd diff. 
+        // Then step (k+2) is odd. Odd diff + Odd step = Even diff. So ans = k + 2
+        
+        if (k % 2 == 0) {
+            return (int) (k + 1);
+        } else {
+            return (int) (k + 2);
+        }
+    }
+}
