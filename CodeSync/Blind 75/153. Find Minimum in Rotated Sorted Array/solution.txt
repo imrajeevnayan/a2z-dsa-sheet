@@ -1,16 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 153. Find Minimum in Rotated Sorted Array
- * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T05:06:49.605Z
+ * Synced: 2026-10-16T05:12:39.573Z
  */
 
-public int findMin(int[] nums) {
+class Solution {
+    public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;
         int ans = Integer.MAX_VALUE;
