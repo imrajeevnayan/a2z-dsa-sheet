@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 754. Reach a Number
- * URL: https://leetcode.com/problems/reach-a-number/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/reach-a-number/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Medium
  * Topics: Math, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T15:58:03.584Z
+ * Synced: 2026-10-16T16:00:20.767Z
  */
 
 class Solution {
     public int reachNumber(int target) {
+        // 1. Handle symmetry: work with positive target
+        target = Math.abs(target);
         
+        int sum = 0;
+        int steps = 0;
+        
+        // 2. Keep adding steps until we meet two conditions:
+        //    a) sum >= target (we've reached or passed it)
+        //    b) (sum - target) is even (we can flip some moves to adjust)
+        while (true) {
+            if (sum >= target && (sum - target) % 2 == 0) {
+                return steps;
+            }
+            
+            steps++;
+            sum += steps;
+        }
     }
 }
