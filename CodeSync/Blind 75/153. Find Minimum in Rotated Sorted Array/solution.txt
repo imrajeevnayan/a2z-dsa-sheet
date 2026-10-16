@@ -7,11 +7,10 @@
  * Topics: Array, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T05:06:47.724Z
+ * Synced: 2026-10-16T05:06:49.605Z
  */
 
-class Solution {
-    public int findMin(int[] nums) {
+public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;
         int ans = Integer.MAX_VALUE;
