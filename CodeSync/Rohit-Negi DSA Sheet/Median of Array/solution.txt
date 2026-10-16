@@ -7,7 +7,11 @@
  * Topics: Programming, Binary Search, Upcoming Masterclass: Build a Career in DevOps, Cloud Computing & Cyber Security Register Now ->, Description, Discussion, Submissions, Hints
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:45:22.261Z
+ * Synced: 2026-10-16T12:45:24.141Z
  */
 
-Output goes here... Test/Submit
+public class Solution {
+    // DO NOT MODIFY BOTH THE LISTS
+    public double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
+    }
+}
