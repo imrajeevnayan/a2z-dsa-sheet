@@ -7,21 +7,13 @@
  * Topics: Math, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T16:14:34.470Z
+ * Synced: 2026-10-16T16:14:44.473Z
  */
 
 if (diff % 2 == 0) {
 
         long diff = sum - target;
         long sum = k * (k + 1) / 2;
-            return (int) k; // Even hai, toh perfect hai
-        } 
-        
-        // Odd hai, toh next steps check karo
-        // Rule: Agar k even hai toh +1 step, agar k odd hai toh +2 steps
-        return (k % 2 == 0) ? (int)(k + 1) : (int)(k + 2);
-    }
-}
             if (sum >= target) {
                 k = mid;
                 high = mid - 1;
@@ -31,3 +23,13 @@ if (diff % 2 == 0) {
         }
 
         // 2. Parity Check
+
+            long sum = mid * (mid + 1) / 2;
+            return (int) k; // Even hai, toh perfect hai
+        } 
+        
+        // Odd hai, toh next steps check karo
+        // Rule: Agar k even hai toh +1 step, agar k odd hai toh +2 steps
+        return (k % 2 == 0) ? (int)(k + 1) : (int)(k + 2);
+    }
+}
