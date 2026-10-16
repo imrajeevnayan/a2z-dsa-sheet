@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 754. Reach a Number
+ * URL: https://leetcode.com/problems/reach-a-number/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Medium
+ * Topics: Math, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T10:01:18.528Z
+ */
+
+class Solution {
+    public int reachNumber(int target) {
+        
+    }
+}
