@@ -2,13 +2,16 @@
  * Platform: LeetCode
  * Problem: 240. Search a 2D Matrix II
  * URL: https://leetcode.com/problems/search-a-2d-matrix-ii/description/?envType=problem-list-v2&envId=binary-search
- * Language: Text
+ * Language: Binary Search
  * Difficulty: Medium
  * Topics: Array, Binary Search, Divide and Conquer, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T16:15:23.867Z
+ * Synced: 2026-10-16T16:15:26.057Z
  */
 
-Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5
-Output: true
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        
+    }
+}
