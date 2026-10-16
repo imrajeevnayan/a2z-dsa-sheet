@@ -204,3 +204,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 165 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | LeetCode | Easy | 15 Oct 2026 | 10:24 pm |
 | 166 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | LeetCode | Medium | 15 Oct 2026 | 11:32 pm |
 | 167 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | LeetCode | Hard | 16 Oct 2026 | 10:25 am |
+| 168 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | LeetCode | Medium | 16 Oct 2026 | 10:37 am |
