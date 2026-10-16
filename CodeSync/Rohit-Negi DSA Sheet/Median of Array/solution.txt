@@ -7,11 +7,32 @@
  * Topics: Programming, Binary Search, Upcoming Masterclass: Build a Career in DevOps, Cloud Computing & Cyber Security Register Now ->, Description, Discussion, Submissions, Hints
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:45:24.141Z
+ * Synced: 2026-10-16T12:46:54.187Z
  */
 
-public class Solution {
-    // DO NOT MODIFY BOTH THE LISTS
-    public double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
+int leftA = (cutA == 0) ? Integer.MIN_VALUE : A.get(cutA - 1);
+            int rightA = (cutA == m) ? Integer.MAX_VALUE : A.get(cutA);
+
+            int leftB = (cutB == 0) ? Integer.MIN_VALUE : B.get(cutB - 1);
+            int rightB = (cutB == n) ? Integer.MAX_VALUE : B.get(cutB);
+
+            if (leftA <= rightB && leftB <= rightA) {
+
+                if ((m + n) % 2 == 1) {
+                    return Math.max(leftA, leftB);
+                }
+
+                return (Math.max(leftA, leftB)
+                        + Math.min(rightA, rightB)) / 2.0;
+            }
+            else if (leftA > rightB) {
+                high = cutA - 1;
+            }
+            else {
+                low = cutA + 1;
+            }
+        }
+
+        return 0.0;
     }
 }
