@@ -208,3 +208,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 169 | [Successful Binary Searches Irrespective of Pivot](https://www.geeksforgeeks.org/problems/count-always-found/1) | GeeksForGeeks | Medium | 16 Oct 2026 | 02:32 pm |
 | 170 | [Implement Lower Bound](https://www.geeksforgeeks.org/problems/implement-lower-bound/1) | GeeksForGeeks | Easy | 16 Oct 2026 | 02:34 pm |
 | 171 | [Ceil in Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | GeeksForGeeks | Medium | 16 Oct 2026 | 02:36 pm |
+| 172 | [Reach a Number](https://leetcode.com/problems/reach-a-number/) | LeetCode | Medium | 16 Oct 2026 | 09:31 pm |
