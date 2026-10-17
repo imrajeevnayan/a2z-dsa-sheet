@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Sum Pairs in Sorted
+ * URL: https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, two-pointer-algorithm, Arrays, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-17T17:37:49.621Z
+ */
+
+class Solution {
+    int countPairs(int arr[], int target) {
+        //  Code Here
+    }
+}
