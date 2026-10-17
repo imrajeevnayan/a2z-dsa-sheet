@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T09:37:47.660Z
+ * Synced: 2026-10-17T17:35:54.564Z
  */
 
 Input: nums = [0,1,0,3,12]
