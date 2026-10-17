@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Move All Zeroes to the End of an Array
+ * URL: https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1
+ * Language: class Solution: def pushZerosToEnd(self, arr): pos = 0 n = len(arr) for i in range(n): if arr[i] != 0: arr[pos], arr[i] = arr[i], arr[pos] pos+=1
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-17T17:35:33.918Z
+ */
+
+class Solution {
+    void pushZerosToEnd(int[] arr) {
+        int j = 0; // Pointer for next non-zero position
+
+        // Step 1: Saare non-zero elements ko shuruwat mein lao
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                arr[j++] = arr[i];
+            }
+        }
+
+        // Step 2: Baaki bacha hua part zeros se fill karo
+        while (j < arr.length) {
+            arr[j++] = 0;
+        }
+    }
+}
