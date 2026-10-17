@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3551. Minimum Swaps to Sort by Digit Sum
+ * URL: https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/?envType=daily-question&envId=2026-10-17
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-17T17:32:51.486Z
+ */
+
+class Solution {
+    public int minSwaps(int[] nums) {
+        
+    }
+}
