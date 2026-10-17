@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Move All Zeroes to End
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/move-all-zeroes-to-end-of-array0751
+ * URL: https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T08:16:33.790Z
+ * Synced: 2026-10-17T17:35:06.931Z
  */
 
 class Solution {
