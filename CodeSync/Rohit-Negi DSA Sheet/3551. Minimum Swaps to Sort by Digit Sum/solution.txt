@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 3551. Minimum Swaps to Sort by Digit Sum
- * URL: https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/?envType=daily-question&envId=2026-10-17
+ * URL: https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/?envType=daily-question&envId=2026-10-17
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-10-17T17:32:51.486Z
+ * Synced: 2026-10-17T17:34:32.094Z
  */
 
-class Solution {
-    public int minSwaps(int[] nums) {
+return a[2] - b[2];
+        });
         
-    }
-}
+        // Step 3: Find minimum swaps using cycle detection
+        boolean[] visited = new boolean[n];
+        int swaps = 0;
+        
+        for (int i = 0; i < n; i++) {
+            // Agar already visited ya already correct position pe hai
+            if (visited[i] || arr[i][1] == i) {
+            arr[i][1] = i;                  // original index
+            arr[i][2] = nums[i];            // original value
+        }
+        
+        // Step 2: Sort by digitSum, then by value
+        Arrays.sort(arr, (a, b) -> {
+            if (a[0] != b[0]) return a[0] - b[0];
+        
+        // Step 1: Create array of pairs (digitSum, originalIndex, value)
+        int[][] arr = new int[n][3];
+        for (int i = 0; i < n; i++) {
+            arr[i][0] = digitSum(nums[i]); // digit sum
+    public int minSwaps(int[] nums) {
+        int n = nums.length;
+class Solution {
