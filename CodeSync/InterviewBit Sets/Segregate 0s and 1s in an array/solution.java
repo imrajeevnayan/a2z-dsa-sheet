@@ -7,7 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 76.7%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T03:53:57.326Z
+ * Synced: 2026-10-18T03:53:57.700Z
  */
 
-1<=|A|<=1e6
+public class Solution {
+    public int[] solve(int[] A) {
+    }
+}
