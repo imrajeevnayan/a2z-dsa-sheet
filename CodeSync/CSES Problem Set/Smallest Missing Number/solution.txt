@@ -7,9 +7,20 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles, Find The First Missing Number
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T05:52:31.759Z
+ * Synced: 2026-10-18T15:38:08.936Z
  */
 
-Input: n = 5, m = 10, arr[] = [0, 1, 2, 6, 9]
-Output: 3
-Explanation: Smallest missing number is 3.
+class Solution {
+    static int findFirstMissing(int[] arr) {
+        if (arr == null) return 0; 
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] == mid) low = mid + 1;
+            else 
+                high = mid - 1;
+            
+        }
+        return low;
+    }
+}
