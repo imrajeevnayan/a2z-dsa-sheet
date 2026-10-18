@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags AccentureTCSOracleNPCI, Company Tags, Accenture, TCS, Oracle, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:09:49.558Z
+ * Synced: 2026-10-18T17:09:49.242Z
  */
 
-class Solution {
-    public int maxConsecBits(int[] arr) {
-        // code here
-        
-    }
-}
+Input: arr[] = [0, 1, 0, 1, 1, 1, 1]
+Output: 4
+Explanation: The maximum number of consecutive 1’s in the array is 4 from index 3-6.
