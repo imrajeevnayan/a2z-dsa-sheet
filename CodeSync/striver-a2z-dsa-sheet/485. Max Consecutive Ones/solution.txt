@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 485. Max Consecutive Ones
- * URL: https://leetcode.com/problems/max-consecutive-ones/description/
+ * URL: https://leetcode.com/problems/max-consecutive-ones/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:07:47.617Z
+ * Synced: 2026-10-18T17:09:19.448Z
  */
 
 class Solution {
