@@ -217,3 +217,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 178 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | LeetCode | Medium | 18 Oct 2026 | 10:43 am |
 | 179 | [Factorial Zero Count](https://www.geeksforgeeks.org/problems/factorial-zero-count/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:49 am |
 | 180 | [Smallest Missing Number](https://www.geeksforgeeks.org/problems/smallest-missing-number/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:51 am |
+| 181 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | LeetCode | Easy | 18 Oct 2026 | 10:38 pm |
