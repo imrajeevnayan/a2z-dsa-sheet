@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 5 ms
  * Memory: 77.14 MB
- * Synced: 2026-10-18T16:00:33.463Z
+ * Synced: 2026-10-18T16:40:33.733Z
  */
 
 class Solution {
@@ -34,3 +34,4 @@ class Solution {
         
         return maxWater;
     }
+}
