@@ -1,11 +1,11 @@
 {
-  "totalSolved": 176,
+  "totalSolved": 177,
   "currentStreak": 23,
   "maxStreak": 23,
   "lastSyncDate": "2026-10-18",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 68,
+    "easy": 69,
     "medium": 94,
     "hard": 8,
     "basic": 6
@@ -186,7 +186,8 @@
     "GeeksForGeeks_Move_All_Zeroes_to_End": true,
     "LeetCode_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST": true,
     "LeetCode_Valid_Palindrome": true,
-    "LeetCode_Container_With_Most_Water": true
+    "LeetCode_Container_With_Most_Water": true,
+    "GeeksForGeeks_Smallest_Missing_Number": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -211,7 +212,7 @@
     "2026-10-15": 2,
     "2026-10-16": 8,
     "2026-10-17": 1,
-    "2026-10-18": 3
+    "2026-10-18": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -387,6 +388,7 @@
     "Move All Zeroes to End",
     "Number of Ways to Reorder Array to Get Same BST",
     "Valid Palindrome",
-    "Container With Most Water"
+    "Container With Most Water",
+    "Smallest Missing Number"
   ]
 }
