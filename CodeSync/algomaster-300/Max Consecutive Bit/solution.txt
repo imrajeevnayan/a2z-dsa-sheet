@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Consecutive Bit
+ * URL: https://www.geeksforgeeks.org/problems/max-consecutive-one/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccentureTCSOracleNPCI, Company Tags, Accenture, TCS, Oracle, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-18T17:09:49.558Z
+ */
+
+class Solution {
+    public int maxConsecBits(int[] arr) {
+        // code here
+        
+    }
+}
