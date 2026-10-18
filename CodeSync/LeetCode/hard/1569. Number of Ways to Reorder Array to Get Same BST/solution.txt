@@ -2,14 +2,16 @@
  * Platform: LeetCode
  * Problem: 1569. Number of Ways to Reorder Array to Get Same BST
  * URL: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/?envType=daily-question&envId=2026-10-18
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Math, Divide and Conquer, Dynamic Programming, Tree, Union-Find, Binary Search Tree, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T04:00:29.606Z
+ * Synced: 2026-10-18T04:00:32.969Z
  */
 
-Input: nums = [2,1,3]
-Output: 1
-Explanation: We can reorder nums to be [2,3,1] which will yield the same BST. There are no other ways to reorder nums which will yield the same BST.
+class Solution {
+    public int numOfWays(int[] nums) {
+        
+    }
+}
