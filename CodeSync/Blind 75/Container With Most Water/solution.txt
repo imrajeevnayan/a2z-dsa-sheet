@@ -1,36 +1,37 @@
 /*
- * Platform: GeeksforGeeks
+ * Platform: LeetCode
  * Problem: Container With Most Water
- * URL: https://www.geeksforgeeks.org/problems/container-with-most-water0535/1
- * Language: long long maxArea(long long A[], int len) { int lef=0; int rite=len-1; long long final=0; long long watt=0; while(lef<=rite){ watt=min(A[lef],A[rite])*(rite-lef); cout<<watt; final=max(final,watt); cout<<final; A[lef]<A[rite]?lef++:rite--; } return final; }
+ * URL: https://leetcode.com/problems/container-with-most-water/submissions/2175118374/
+ * Language: Problem List
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags FlipkartAmazonGoogle, Company Tags, Flipkart, Amazon, Google, Topic Tags, Arrays
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-17T18:33:47.148Z
+ * Synced: 2026-10-18T05:52:52.041Z
  */
 
-class Solution {
-    public int maxWater(int arr[]) {
-        int left = 0;
-        int right = arr.length - 1;
-        int maxWater = 0;
-
-        while (left < right) {
-            int height = Math.min(arr[left], arr[right]);
-            int width = right - left;
-
-            int water = height * width;
-            maxWater = Math.max(maxWater, water);
-
-            // Chhoti height wale pointer ko move karo
-            if (arr[left] < arr[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
-
-        return maxWater;
-    }
-}
+1class Solution {
+2    public int maxArea(int[] height) {
+3        int left = 0;
+4        int right = height.length - 1;
+5        int maxWater = 0;
+6        
+7        while (left < right) {
+8            // Current width and height
+9            int width = right - left;
+10            int h = Math.min(height[left], height[right]);
+11            
+12            // Calculate area and update max
+13            maxWater = Math.max(maxWater, h * width);
+14            
+15            // Move the pointer with the smaller height
+16            if (height[left] < height[right]) {
+17                left++;
+18            } else {
+19                right--;
+20            }
+21        }
+22        
+23        return maxWater;
+24    }
+25}
