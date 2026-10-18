@@ -216,3 +216,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 177 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | LeetCode | Easy | 18 Oct 2026 | 10:13 am |
 | 178 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | LeetCode | Medium | 18 Oct 2026 | 10:43 am |
 | 179 | [Factorial Zero Count](https://www.geeksforgeeks.org/problems/factorial-zero-count/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:49 am |
+| 180 | [Smallest Missing Number](https://www.geeksforgeeks.org/problems/smallest-missing-number/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:51 am |

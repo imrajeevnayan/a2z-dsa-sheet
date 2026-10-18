@@ -8,7 +8,7 @@
 [View Problem](https://www.geeksforgeeks.org/problems/smallest-missing-number/1)
 
 ## Solved On
-18 Oct 2026 at 10:48 am
+18 Oct 2026 at 10:51 am
 
 <h2><a href="https://www.geeksforgeeks.org/problems/smallest-missing-number/1">Smallest Missing Number</a></h2><h3>Difficulty Level: Easy</h3><hr><p><span style="font-size: 18.6667px;">Given a sorted array <strong>arr[]</strong>, of <strong>n</strong> distinct integers where each integer is in the range from <strong>0</strong> to <strong>m-1</strong> and m &gt; n. Find the <strong>smallest </strong>number that is missing from the array.</span></p>
 <p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
