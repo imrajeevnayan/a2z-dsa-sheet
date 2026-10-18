@@ -7,30 +7,25 @@
  * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T05:13:08.572Z
+ * Synced: 2026-10-18T05:13:08.887Z
  */
 
 class Solution {
-    public boolean isPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
-        
+    public int maxArea(int[] height) {
+        int left = 0, right = height.length - 1;
+        int maxWater = 0;
+
         while (left < right) {
-            // Skip non-alphanumeric characters from left
-            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
+            int currentHeight = Math.min(height[left], height[right]);
+            int width = right - left;
+            maxWater = Math.max(maxWater, currentHeight * width);
+
+            if (height[left] < height[right]) {
                 left++;
-            }
-            
-            // Skip non-alphanumeric characters from right
-            while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
+            } else {
                 right--;
             }
-            
-            // Compare characters (case-insensitive)
-            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
-                return false;
-            }
-            
-            left++;
-            right--;
         }
+        return maxWater;
+    }
+}
