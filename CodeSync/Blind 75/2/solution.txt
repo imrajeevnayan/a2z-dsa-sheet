@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: 2
- * URL: https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=da2ht4id
- * Language: 60 questions to solve (Copy-9xpbvcmc)
- * Difficulty: Medium
- * Topics: Array, Hash Table, String, Sorting
+ * URL: https://leetcode.com/problems/container-with-most-water/submissions/2175118374/
+ * Language: Problem List
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-23T19:14:01.516Z
+ * Synced: 2026-10-18T05:52:48.124Z
  */
 
 class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
+    public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxWater = 0;
         
-    }
-}
+        while (left < right) {
+            // Current width and height
+            int width = right - left;
+            int h = Math.min(height[left], height[right]);
+            
+            // Calculate area and update max
+            maxWater = Math.max(maxWater, h * width);
+            
+            // Move the pointer with the smaller height
