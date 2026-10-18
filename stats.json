@@ -1,13 +1,13 @@
 {
-  "totalSolved": 173,
-  "currentStreak": 22,
-  "maxStreak": 22,
-  "lastSyncDate": "2026-10-17",
+  "totalSolved": 174,
+  "currentStreak": 23,
+  "maxStreak": 23,
+  "lastSyncDate": "2026-10-18",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 67,
     "medium": 93,
-    "hard": 7,
+    "hard": 8,
     "basic": 6
   },
   "syncedProblems": {
@@ -183,7 +183,8 @@
     "LeetCode_Reach_a_Number": true,
     "LeetCode_Search_a_2D_Matrix_II": true,
     "GeeksForGeeks_Counting_elements_in_two_arrays": true,
-    "GeeksForGeeks_Move_All_Zeroes_to_End": true
+    "GeeksForGeeks_Move_All_Zeroes_to_End": true,
+    "LeetCode_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -207,7 +208,8 @@
     "2026-10-14": 14,
     "2026-10-15": 2,
     "2026-10-16": 8,
-    "2026-10-17": 1
+    "2026-10-17": 1,
+    "2026-10-18": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -380,6 +382,7 @@
     "Reach a Number",
     "Search a 2D Matrix II",
     "Counting elements in two arrays",
-    "Move All Zeroes to End"
+    "Move All Zeroes to End",
+    "Number of Ways to Reorder Array to Get Same BST"
   ]
 }
