@@ -213,3 +213,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 174 | [Counting elements in two arrays](https://www.geeksforgeeks.org/problems/counting-elements-in-two-arrays/1) | GeeksForGeeks | Medium | 16 Oct 2026 | 11:21 pm |
 | 175 | [Move All Zeroes to End](https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1) | GeeksForGeeks | Easy | 17 Oct 2026 | 11:05 pm |
 | 176 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | LeetCode | Hard | 18 Oct 2026 | 09:32 am |
+| 177 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | LeetCode | Easy | 18 Oct 2026 | 10:13 am |
