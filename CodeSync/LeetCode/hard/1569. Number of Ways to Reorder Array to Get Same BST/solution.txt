@@ -7,13 +7,10 @@
  * Topics: Array, Math, Divide and Conquer, Dynamic Programming, Tree, Union-Find, Binary Search Tree, Memoization
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T04:01:47.153Z
+ * Synced: 2026-10-18T04:01:55.609Z
  */
 
-List<Integer> right = new ArrayList<>();
-        
-        // Split into left and right subtrees
-        for (int i = 1; i < nums.size(); i++) {
+for (int i = 1; i < nums.size(); i++) {
             if (nums.get(i) < root) {
                 left.add(nums.get(i));
             } else {
