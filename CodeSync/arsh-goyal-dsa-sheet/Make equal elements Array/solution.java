@@ -7,8 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 61.1%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T03:54:41.504Z
+ * Synced: 2026-10-18T03:54:42.091Z
  */
 
-1<=|A|<=1e5
-1<=A[i],x<=1e9
+public class Solution {
+    public int solve(ArrayList<Integer> A, int B) {
+    }
+}
