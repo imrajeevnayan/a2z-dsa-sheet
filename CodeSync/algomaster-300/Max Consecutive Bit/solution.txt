@@ -2,14 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Max Consecutive Bit
  * URL: https://www.geeksforgeeks.org/problems/max-consecutive-one/1
- * Language: Java (21)
+ * Language: class Solution: def maxConsecBits(self, arr): #code here count = 1 maxConsec = 1 if not arr: return 0 for i in range(1, len(arr)): if arr[i] == arr[i-1]: count += 1 else: count = 1 maxConsec = max(count, maxConsec) return maxConsec
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccentureTCSOracleNPCI, Company Tags, Accenture, TCS, Oracle, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:09:49.242Z
+ * Synced: 2026-10-18T17:10:04.563Z
  */
 
-Input: arr[] = [0, 1, 0, 1, 1, 1, 1]
-Output: 4
-Explanation: The maximum number of consecutive 1’s in the array is 4 from index 3-6.
+class Solution {
+    public int maxConsecBits(int[] arr) {
+        // c
+        
+    }
+}
