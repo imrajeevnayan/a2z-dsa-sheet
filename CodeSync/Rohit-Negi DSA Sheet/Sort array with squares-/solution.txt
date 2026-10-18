@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Sort array with squares!
+ * URL: https://www.interviewbit.com/problems/sort-array-with-squares/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, 72.2%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-18T03:57:11.328Z
+ */
+
+public class Solution {
+    public int[] solve(int[] A) {
+    }
+}
