@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: 26. Remove Duplicates from Sorted Array
+ * URL: https://leetcode.com/problems/max-consecutive-ones/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers
+ * Runtime: 0 ms
+ * Memory: 46.71 MB
+ * Synced: 2026-10-18T17:09:17.978Z
+ */
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
+        
+        int i = 0; // Pointer for last unique element
+        
+        for (int j = 1; j < nums.length; j++) {
+            // Agar naya element mila jo previous unique se alag hai
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        
+        // i index tak unique elements hain, toh count = i + 1
+        return i + 1;
+    }
+}
