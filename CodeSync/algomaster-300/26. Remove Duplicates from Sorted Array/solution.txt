@@ -7,19 +7,18 @@
  * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:08:18.506Z
+ * Synced: 2026-10-18T17:08:18.803Z
  */
 
 class Solution {
-    public int findMaxConsecutiveOnes(int[] nums) {
-        int cnt = 0, ans = 0;
-        for (int v : nums) {
-            if (v == 1) ++cnt;
-           else {
-                ans = Math.max(ans, cnt);
-                cnt = 0;
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
             }
         }
-        return Math.max(cnt, ans);
+        return i + 1;
     }
 }
