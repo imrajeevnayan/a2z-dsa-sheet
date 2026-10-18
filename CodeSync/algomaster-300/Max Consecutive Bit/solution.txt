@@ -7,12 +7,24 @@
  * Topics: Expected Complexities, Company Tags AccentureTCSOracleNPCI, Company Tags, Accenture, TCS, Oracle, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:10:04.563Z
+ * Synced: 2026-10-18T17:10:14.214Z
  */
 
 class Solution {
     public int maxConsecBits(int[] arr) {
-        // c
+        int count = 0;
+               int maxCount = 0;
+
+               for (int num : a) {
+                   if (num == 1) {
+                       count++;
+                       maxCount = Math.max(maxCount, count);
+                   } else {
+                       count = 0; // Reset streak
+                   }
+               }
+
+               return maxCount;
         
     }
 }
