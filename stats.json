@@ -187,7 +187,7 @@
     "LeetCode_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST": true,
     "LeetCode_Valid_Palindrome": true,
     "LeetCode_Container_With_Most_Water": true,
-    "GeeksForGeeks_Smallest_Missing_Number": true
+    "GeeksForGeeks_Factorial_Zero_Count": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -389,6 +389,6 @@
     "Number of Ways to Reorder Array to Get Same BST",
     "Valid Palindrome",
     "Container With Most Water",
-    "Smallest Missing Number"
+    "Factorial Zero Count"
   ]
 }
