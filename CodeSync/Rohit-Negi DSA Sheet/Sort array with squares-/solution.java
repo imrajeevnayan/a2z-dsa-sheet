@@ -4,13 +4,27 @@
  * URL: https://www.interviewbit.com/problems/sort-array-with-squares/
  * Language: Java
  * Difficulty: Easy
- * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Solutions Thread in Discussions, All Hints and Problem solving approach
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Pick from both sides! Very Easy, Solutions Thread in Discussions
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T03:56:53.076Z
+ * Synced: 2026-10-18T03:58:57.910Z
  */
 
-public class Solution {
-    public ArrayList<Integer> solve(ArrayList<Integer> A) {
+while (left <= right) {
+            int leftSquare = A.get(left) * A.get(left);
+            int rightSquare = A.get(right) * A.get(right);
+            
+            // Jo square bada hai, ushe result ke current index pe daalo
+            if (leftSquare > rightSquare) {
+                result.set(index, leftSquare);
+                left++;
+            } else {
+                result.set(index, rightSquare);
+                right--;
+            }
+            index--;
+        }
+        
+        return result;
     }
 }
