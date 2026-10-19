@@ -5,9 +5,9 @@
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:39:56.378Z
+ * Synced: 2026-10-19T16:40:11.576Z
  */
 
 // Add current element to map
@@ -22,8 +22,7 @@
                     map.remove(leftVal);
                 }
                 left++;
-            }
-            
+            }        
             // All subarrays ending at 'right' and starting from left to right are valid
             count += (right - left + 1);
         }
@@ -32,7 +31,3 @@
     }
 }
         for (int right = 0; right < nums.length; right++) {
-        
-        long count = 0;
-        int left = 0;
-        TreeMap<Integer, Integer> map = new TreeMap<>();
