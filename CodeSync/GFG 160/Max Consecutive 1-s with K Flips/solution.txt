@@ -7,9 +7,12 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Ola Cabs, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:42:13.127Z
+ * Synced: 2026-10-19T16:42:13.495Z
  */
 
-Input: arr[] = [1, 0, 1], k = 1
-Output: 3
-Explanation: By flipping the zero at index 1, we get the longest subarray from index 0 to 2 containing all 1’s.
+class Solution {
+    public int maxOnes(int arr[], int k) {
+        // code here
+        
+    }
+}
