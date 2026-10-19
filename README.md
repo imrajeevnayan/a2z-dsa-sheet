@@ -219,3 +219,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 180 | [Smallest Missing Number](https://www.geeksforgeeks.org/problems/smallest-missing-number/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:51 am |
 | 181 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | LeetCode | Easy | 18 Oct 2026 | 10:38 pm |
 | 182 | [Max Consecutive Bit](https://www.geeksforgeeks.org/problems/max-consecutive-one/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:44 pm |
+| 183 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | LeetCode | Easy | 19 Oct 2026 | 10:15 am |
