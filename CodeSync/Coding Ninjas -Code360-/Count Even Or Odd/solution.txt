@@ -1,0 +1,51 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count Even Or Odd
+ * URL: https://www.naukri.com/code360/problems/count-even-or-odd_1475033
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-19T05:13:07.104Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    static int[] tree;
+ 
+    static void build(int node, int start, int end, int[] arr) {
+        if (start == end) {
+            tree[node] = (arr[start] % 2 == 0) ? 1 : 0;
+            return;
+        }
+ 
+        int mid = start + (end - start) / 2;
+ 
+        build(2 * node, start, mid, arr);
+        build(2 * node + 1, mid + 1, end, arr);
+ 
+        tree[node] = tree[2 * node] + tree[2 * node + 1];
+    }
+ 
+    static void update(int node, int start, int end, int idx, int val) {
+ 
+        if (start == end) {
+            tree[node] = (val % 2 == 0) ? 1 : 0;
+            return;
+        }
+ 
+        int mid = start + (end - start) / 2;
+ 
+        if (idx <= mid) {
+            update(2 * node, start, mid, idx, val);
+        } else {
+            update(2 * node + 1, mid + 1, end, idx, val);
+        }
+ 
+        tree[node] = tree[2 * node] + tree[2 * node + 1];
+    }
+ 
+    static int query(int node, int start, int end, int l, int r) {
