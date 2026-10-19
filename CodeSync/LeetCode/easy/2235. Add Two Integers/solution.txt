@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2235. Add Two Integers
+ * URL: https://leetcode.com/problems/add-two-integers/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-19T04:45:29.963Z
+ */
+
+Input: num1 = 12, num2 = 5
+Output: 17
+Explanation: num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is returned.
