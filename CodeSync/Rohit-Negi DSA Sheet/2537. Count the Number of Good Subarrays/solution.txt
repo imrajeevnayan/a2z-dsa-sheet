@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 2537. Count the Number of Good Subarrays
- * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/submissions/2176397716/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
  * Memory: 83.67 MB
- * Synced: 2026-10-19T16:30:06.734Z
+ * Synced: 2026-10-19T16:30:58.349Z
  */
 
 // Update frequency
@@ -22,17 +22,16 @@
             currentPairs += freq;
                 // Remove nums[left] from window
                 int leftFreq = freqMap.get(nums[left]);
-                // Pairs removed = (leftFreq - 1) because one occurrence is leaving
-                currentPairs -= (leftFreq - 1);
-                
-                freqMap.put(nums[left], leftFreq - 1);
-                if (freqMap.get(nums[left]) == 0) {
-                    freqMap.remove(nums[left]);
-                }
-                left++;
-            }
-        }
+            // New pairs formed by adding this element = existing frequency
+            
+            int freq = freqMap.getOrDefault(nums[right], 0);
+            // Add nums[right] to window
+        for (int right = 0; right < n; right++) {
+        int n = nums.length;
         
-        return count;
-    }
-}
+        int left = 0;
+        long currentPairs = 0;
+        long count = 0;
+        Map<Integer, Integer> freqMap = new HashMap<>();
+    public long countGood(int[] nums, int k) {
+                // Pairs removed = (leftFreq - 1) because one occurrence is leaving
