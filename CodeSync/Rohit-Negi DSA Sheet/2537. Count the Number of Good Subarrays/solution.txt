@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 2537. Count the Number of Good Subarrays
- * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/submissions/2176397716/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:29:14.020Z
+ * Synced: 2026-10-19T16:29:58.172Z
  */
 
 // Update frequency
@@ -21,17 +21,18 @@
             
             // New pairs formed by adding this element = existing frequency
             currentPairs += freq;
-            
-            // Add nums[right] to window
-            int freq = freqMap.getOrDefault(nums[right], 0);
-        for (int right = 0; right < n; right++) {
-        
-        int n = nums.length;
-        int left = 0;
-        long currentPairs = 0;
                 // Remove nums[left] from window
                 int leftFreq = freqMap.get(nums[left]);
+            
+            int freq = freqMap.getOrDefault(nums[right], 0);
+            // Add nums[right] to window
+        for (int right = 0; right < n; right++) {
+        
+        int left = 0;
+        int n = nums.length;
+        long currentPairs = 0;
+        long count = 0;
+        Map<Integer, Integer> freqMap = new HashMap<>();
+    public long countGood(int[] nums, int k) {
+class Solution {
                 // Pairs removed = (leftFreq - 1) because one occurrence is leaving
-                currentPairs -= (leftFreq - 1);
-                
-                freqMap.put(nums[left], leftFreq - 1);
