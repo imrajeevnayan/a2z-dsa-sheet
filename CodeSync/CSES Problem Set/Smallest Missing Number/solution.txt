@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Related Articles, Find The First Missing Number
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T15:38:08.936Z
+ * Synced: 2026-10-19T09:09:26.871Z
  */
 
 class Solution {
