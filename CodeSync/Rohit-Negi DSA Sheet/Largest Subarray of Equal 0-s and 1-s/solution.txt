@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags PaytmMorgan StanleyAmazonMakeMyTrip, Company Tags, Paytm, Morgan Stanley, Amazon, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T05:18:01.067Z
+ * Synced: 2026-10-19T05:18:00.770Z
  */
 
-class Solution {
-    public int maxLen(int[] arr) {
-        // code here
-        
-    }
-}
+Input: arr[] = [1, 0, 1, 1, 1, 0, 0]
+Output: 6
+Explanation: arr[1...6] is the longest subarray with three 0s and three 1s.
