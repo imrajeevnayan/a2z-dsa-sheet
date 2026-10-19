@@ -1,25 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 395. Longest Substring with At Least K Repeating Characters
- * URL: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/submissions/2176375507/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Hash Table, String, Divide and Conquer, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:03:38.767Z
+ * Synced: 2026-10-19T16:03:52.446Z
  */
 
-// Step 1: Count frequencies of all characters
-        HashMap<Character, Integer>map = new HashMap<>();
-        for (char c : s.toCharArray()) {
+for (char c : s.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
         
         // Step 2: Find a splitter character (freq < k)
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (m.get(c) < k) {
+            if (map.get(c) < k) {
                 // Split the string at this character
                 // Left part: s[0...i-1]
                 // Right part: s[i+1...end]
@@ -29,9 +27,11 @@
             }
         }
         
+        // Step 3: If no splitter found, entire string is valid
+        return s.length();
+        HashMap<Character, Integer>map = new HashMap<>();
+        // Step 1: Count frequencies of all characters
+        
     public int longestSubstring(String s, int k) {
         if (s.length() < k) return 0;
 class Solution {
-        // Step 3: If no splitter found, entire string is valid
-        return s.length();
-    }
