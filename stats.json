@@ -1,12 +1,12 @@
 {
-  "totalSolved": 188,
+  "totalSolved": 189,
   "currentStreak": 24,
   "maxStreak": 24,
   "lastSyncDate": "2026-10-19",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 74,
-    "medium": 100,
+    "medium": 101,
     "hard": 8,
     "basic": 6
   },
@@ -198,7 +198,8 @@
     "LeetCode_Longest_Substring_with_At_Least_K_Repeating_Characters": true,
     "LeetCode_Longest_Nice_Subarray": true,
     "LeetCode_Count_the_Number_of_Good_Subarrays": true,
-    "LeetCode_Continuous_Subarrays": true
+    "LeetCode_Continuous_Subarrays": true,
+    "GeeksForGeeks_Max_Consecutive_1's_with_K_Flips": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -224,7 +225,7 @@
     "2026-10-16": 8,
     "2026-10-17": 1,
     "2026-10-18": 7,
-    "2026-10-19": 8
+    "2026-10-19": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -412,6 +413,7 @@
     "Longest Substring with At Least K Repeating Characters",
     "Longest Nice Subarray",
     "Count the Number of Good Subarrays",
-    "Continuous Subarrays"
+    "Continuous Subarrays",
+    "Max Consecutive 1's with K Flips"
   ]
 }
