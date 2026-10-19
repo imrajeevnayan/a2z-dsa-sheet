@@ -5,9 +5,9 @@
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:18:52.740Z
+ * Synced: 2026-10-19T16:23:11.800Z
  */
 
 class Solution {
@@ -23,7 +23,7 @@ class Solution {
                 bitMask ^= nums[left];
                 left++;
             }
-            
+        
             // Add nums[right] to the bitmask
             bitMask |= nums[right];
             
