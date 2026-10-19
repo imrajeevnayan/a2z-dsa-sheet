@@ -1,12 +1,12 @@
 {
-  "totalSolved": 184,
+  "totalSolved": 185,
   "currentStreak": 24,
   "maxStreak": 24,
   "lastSyncDate": "2026-10-19",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 74,
-    "medium": 96,
+    "medium": 97,
     "hard": 8,
     "basic": 6
   },
@@ -194,7 +194,8 @@
     "LeetCode_Add_Two_Integers": true,
     "LeetCode_Find_Target_Indices_After_Sorting_Array": true,
     "GeeksForGeeks_Count_Indices_That_Escape_Array": true,
-    "GeeksForGeeks_Largest_Subarray_of_Equal_0's_and_1's": true
+    "GeeksForGeeks_Largest_Subarray_of_Equal_0's_and_1's": true,
+    "LeetCode_Longest_Substring_with_At_Least_K_Repeating_Characters": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -220,7 +221,7 @@
     "2026-10-16": 8,
     "2026-10-17": 1,
     "2026-10-18": 7,
-    "2026-10-19": 4
+    "2026-10-19": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -404,6 +405,7 @@
     "Add Two Integers",
     "Find Target Indices After Sorting Array",
     "Count Indices That Escape Array",
-    "Largest Subarray of Equal 0's and 1's"
+    "Largest Subarray of Equal 0's and 1's",
+    "Longest Substring with At Least K Repeating Characters"
   ]
 }

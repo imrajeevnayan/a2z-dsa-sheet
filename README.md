@@ -223,3 +223,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 184 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | LeetCode | Easy | 19 Oct 2026 | 10:17 am |
 | 185 | [Count Indices That Escape Array](https://www.geeksforgeeks.org/problems/good-stones--170647/1) | GeeksForGeeks | Medium | 19 Oct 2026 | 10:22 am |
 | 186 | [Largest Subarray of Equal 0's and 1's](https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1) | GeeksForGeeks | Medium | 19 Oct 2026 | 10:49 am |
+| 187 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | LeetCode | Medium | 19 Oct 2026 | 09:33 pm |
