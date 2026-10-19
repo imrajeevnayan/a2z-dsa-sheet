@@ -1,21 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 2762. Continuous Subarrays
- * URL: https://leetcode.com/problems/continuous-subarrays/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Text
+ * URL: https://leetcode.com/problems/continuous-subarrays/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:38:07.964Z
+ * Synced: 2026-10-19T16:38:51.929Z
  */
 
-Input: nums = [5,4,2,4]
-Output: 8
-Explanation: 
-Continuous subarray of size 1: [5], [4], [2], [4].
-Continuous subarray of size 2: [5,4], [4,2], [2,4].
-Continuous subarray of size 3: [4,2,4].
-There are no subarrys of size 4.
-Total continuous subarrays = 4 + 3 + 1 = 8.
-It can be shown that there are no more continuous subarrays.
+long count = 0;
+        
+        for (int right = 0; right < nums.length; right++) {
+            // Add current element to map
+            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+            
+            // Check if condition is violated: max - min > 2
+            while (map.lastKey() - map.firstKey() > 2) {
+                // Remove nums[left] from map
+                int leftVal = nums[left];
+                map.put(leftVal, map.get(leftVal) - 1);
+                if (map.get(leftVal) == 0) {
+                    map.remove(leftVal);
+                }
+                left++;
+            }
+            
+            // All subarrays ending at 'right' and starting from left to right are valid
+            count += (right - left + 1);
+        }
+        
+        return count;
+    }
+}
