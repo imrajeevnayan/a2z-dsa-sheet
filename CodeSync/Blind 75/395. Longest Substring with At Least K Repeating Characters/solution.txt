@@ -7,11 +7,11 @@
  * Topics: Hash Table, String, Divide and Conquer, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:02:55.416Z
+ * Synced: 2026-10-19T16:03:09.964Z
  */
 
 // Step 1: Count frequencies of all characters
-        HashMap<Character, Integer> freqMap = new HashMap<>();
+        HashMap<Character, Integer> Map = new HashMap<>();
         for (char c : s.toCharArray()) {
             freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
         }
@@ -29,7 +29,9 @@
             }
         }
         
+    public int longestSubstring(String s, int k) {
+        if (s.length() < k) return 0;
+class Solution {
         // Step 3: If no splitter found, entire string is valid
         return s.length();
     }
-}
