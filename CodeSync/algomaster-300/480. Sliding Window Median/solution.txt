@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 480. Sliding Window Median
+ * URL: https://leetcode.com/problems/sliding-window-median/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Sliding Window, Heap (Priority Queue), Treap
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-19T16:14:37.298Z
+ */
+
+class Solution {
+    public double[] medianSlidingWindow(int[] nums, int k) {
+        
+    }
+}
