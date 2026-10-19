@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Consecutive 1's with K Flips
+ * URL: https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Ola Cabs, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-19T16:42:13.127Z
+ */
+
+Input: arr[] = [1, 0, 1], k = 1
+Output: 3
+Explanation: By flipping the zero at index 1, we get the longest subarray from index 0 to 2 containing all 1’s.
