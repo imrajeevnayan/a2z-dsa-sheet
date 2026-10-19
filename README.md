@@ -221,3 +221,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 182 | [Max Consecutive Bit](https://www.geeksforgeeks.org/problems/max-consecutive-one/1) | GeeksForGeeks | Easy | 18 Oct 2026 | 10:44 pm |
 | 183 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | LeetCode | Easy | 19 Oct 2026 | 10:15 am |
 | 184 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | LeetCode | Easy | 19 Oct 2026 | 10:17 am |
+| 185 | [Count Indices That Escape Array](https://www.geeksforgeeks.org/problems/good-stones--170647/1) | GeeksForGeeks | Medium | 19 Oct 2026 | 10:22 am |
