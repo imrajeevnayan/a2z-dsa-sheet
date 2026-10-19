@@ -7,23 +7,18 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:43:54.213Z
+ * Synced: 2026-10-19T16:44:16.577Z
  */
 
-public int longestOnes(int[] nums, int k) {
-         int left = 0;
-        int zeroCount = 0;
-        int maxLen = 0;
-
-        for (int right = 0; right < nums.length; right++) {
+for (int right = 0; right < nums.length; right++) {
             // Agar 0 mila, toh count badhao
-            if (a[right] == 0) {
+            if (nums[right] == 0) {
                 zeroCount++;
             }
 
             // Agar zeros ki count k se zyada ho gayi, toh window shrink karo
             while (zeroCount > k) {
-                if (arr[left] == 0) {
+                if (nums[left] == 0) {
                     zeroCount--;
                 }
                 left++;
@@ -34,4 +29,6 @@ public int longestOnes(int[] nums, int k) {
         }
 
         return maxLen;
-class Solution {
+        
+    }
+}
