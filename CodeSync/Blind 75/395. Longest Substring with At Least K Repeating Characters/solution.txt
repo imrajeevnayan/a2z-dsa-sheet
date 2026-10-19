@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Divide and Conquer, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:03:31.598Z
+ * Synced: 2026-10-19T16:03:38.767Z
  */
 
 // Step 1: Count frequencies of all characters
@@ -19,7 +19,7 @@
         // Step 2: Find a splitter character (freq < k)
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (freqMa.get(c) < k) {
+            if (m.get(c) < k) {
                 // Split the string at this character
                 // Left part: s[0...i-1]
                 // Right part: s[i+1...end]
