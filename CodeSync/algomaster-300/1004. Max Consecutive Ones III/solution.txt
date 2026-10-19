@@ -1,16 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 1004. Max Consecutive Ones III
- * URL: https://leetcode.com/problems/max-consecutive-ones-iii/description/
- * Language: Text
+ * URL: https://leetcode.com/problems/max-consecutive-ones-iii/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-19T16:41:51.988Z
+ * Synced: 2026-10-19T16:43:34.701Z
  */
 
-Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
-Output: 6
-Explanation: [1,1,1,0,0,1,1,1,1,1,1]
-Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+        int left = 0, zeros = 0, ans = 0;
+
+        for (int right = 0; right < nums.length; right++) {
