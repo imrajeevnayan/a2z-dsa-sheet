@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 2762. Continuous Subarrays
- * URL: https://leetcode.com/problems/continuous-subarrays/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/continuous-subarrays/submissions/2176406702/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-19T16:40:11.576Z
+ * Memory: 83.83 MB
+ * Synced: 2026-10-19T16:41:15.386Z
  */
 
 // Add current element to map
@@ -27,7 +27,11 @@
             count += (right - left + 1);
         }
         
+        for (int right = 0; right < nums.length; right++) {
+        
+        long count = 0;
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        int left = 0;
         return count;
     }
 }
-        for (int right = 0; right < nums.length; right++) {
