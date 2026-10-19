@@ -1,0 +1,28 @@
+class Solution {
+    public long continuousSubarrays(int[] nums) {
+        // TreeMap stores: Element -> Frequency
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        int left = 0;
+        long count = 0;
+        
+        for (int right = 0; right < nums.length; right++) {
+            // Add current element to map
+            map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
+            
+            // Check if condition is violated: max - min > 2
+            while (map.lastKey() - map.firstKey() > 2) {
+                // Remove nums[left] from map
+                int leftVal = nums[left];
+                map.put(leftVal, map.get(leftVal) - 1);
+                if (map.get(leftVal) == 0) {
+                    map.remove(leftVal);
+                }
+                left++;
+            }        
+            // All subarrays ending at 'right' and starting from left to right are valid
+            count += (right - left + 1);
+        }
+        
+        return count;
+    }
+}

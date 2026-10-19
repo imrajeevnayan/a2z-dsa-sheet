@@ -226,3 +226,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 187 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | LeetCode | Medium | 19 Oct 2026 | 09:33 pm |
 | 188 | [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | LeetCode | Medium | 19 Oct 2026 | 09:53 pm |
 | 189 | [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/) | LeetCode | Medium | 19 Oct 2026 | 10:00 pm |
+| 190 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | LeetCode | Medium | 19 Oct 2026 | 10:10 pm |
