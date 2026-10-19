@@ -1,51 +1,44 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: K
- * URL: https://www.naukri.com/code360/problems/k-th-largest-number_920438
- * Language: All languages
- * Difficulty: Unknown
+ * URL: https://www.naukri.com/code360/problems/k-th-largest-sum-contiguous-subarray_920398
+ * Language: Java (17)
+ * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 1988 ms
  * Memory: N/A
- * Synced: 2026-09-27T19:42:36.405Z
+ * Synced: 2026-10-19T05:15:10.110Z
  */
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.PriorityQueue;
  
 public class Solution {
  
-    public static int KthLargestNumber(TreeNode<Integer> root, int k) {
+    public static int getKthLargest(ArrayList<Integer> arr, int k) {
+ 
+        int n = arr.size();
  
         PriorityQueue<Integer> pq = new PriorityQueue<>();
  
-        inorder(root, pq, k);
+        for (int i = 0; i < n; i++) {
  
-        // k-th largest exists nahi karta
-        if (pq.size() < k) {
-            return -1;
+            int sum = 0;
+ 
+            for (int j = i; j < n; j++) {
+ 
+                sum += arr.get(j);
+ 
+                if (pq.size() < k) {
+                    pq.offer(sum);
+                } 
+                else if (sum > pq.peek()) {
+                    pq.poll();
+                    pq.offer(sum);
+                }
+            }
         }
  
         return pq.peek();
-    }
- 
-    private static void inorder(
-            TreeNode<Integer> root,
-            PriorityQueue<Integer> pq,
-            int k) {
- 
-        if (root == null) {
-            return;
-        }
- 
-        inorder(root.left, pq, k);
- 
-        pq.offer(root.data);
- 
-        // Sirf k largest elements rakho
-        if (pq.size() > k) {
-            pq.poll();
-        }
- 
-        inorder(root.right, pq, k);
     }
 }
