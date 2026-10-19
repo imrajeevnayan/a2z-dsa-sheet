@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Hash Table, String, Divide and Conquer, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-19T16:03:52.446Z
+ * Memory: 48.10 MB
+ * Synced: 2026-10-19T16:14:23.605Z
  */
 
 for (char c : s.toCharArray()) {
@@ -32,6 +32,6 @@ for (char c : s.toCharArray()) {
         HashMap<Character, Integer>map = new HashMap<>();
         // Step 1: Count frequencies of all characters
         
-    public int longestSubstring(String s, int k) {
         if (s.length() < k) return 0;
-class Solution {
+    }
+}
