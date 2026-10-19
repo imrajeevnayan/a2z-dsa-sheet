@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3
+ * URL: https://leetcode.com/discuss/post/8579689/hackerank-oa-2026-password-strength-vali-so2r/
+ * Language: India
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-19T15:55:51.461Z
+ */
+
+passwords
