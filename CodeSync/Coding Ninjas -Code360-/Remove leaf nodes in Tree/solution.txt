@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove leaf nodes in Tree
+ * URL: https://www.naukri.com/code360/problems/remove-leaf-nodes_36490
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1559 ms
+ * Memory: N/A
+ * Synced: 2026-10-19T05:16:22.389Z
+ */
+
+public class Solution {
+ 
+    public static TreeNode<Integer> removeLeafNodes(TreeNode<Integer> root) {
+ 
+        if (root == null) {
+            return null;
+        }
+ 
+        // Agar root hi leaf hai
+        if (root.children.size() == 0) {
+            return null;
+        }
+ 
+        // Children ko recursively process karo
+        for (int i = root.children.size() - 1; i >= 0; i--) {
+ 
+            TreeNode<Integer> child = root.children.get(i);
+ 
+            if (child.children.size() == 0) {
+                root.children.remove(i);
+            } else {
+                removeLeafNodes(child);
+            }
+        }
+ 
+        return root;
+    }
+}
