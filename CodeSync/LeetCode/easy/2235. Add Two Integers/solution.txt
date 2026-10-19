@@ -7,11 +7,11 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T04:45:37.020Z
+ * Synced: 2026-10-19T04:45:41.407Z
  */
 
 class Solution {
     public int sum(int num1, int num2) {
-        return n
+        return num1+num2\
     }
 }
