@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:29:05.435Z
+ * Synced: 2026-10-19T16:29:14.020Z
  */
 
 // Update frequency
@@ -18,19 +18,20 @@
                 // All subarrays starting from left and ending at right, right+1, ... n-1 are good
                 count += (n - right);
                 
+            
+            // New pairs formed by adding this element = existing frequency
+            currentPairs += freq;
+            
+            // Add nums[right] to window
+            int freq = freqMap.getOrDefault(nums[right], 0);
+        for (int right = 0; right < n; right++) {
+        
+        int n = nums.length;
+        int left = 0;
+        long currentPairs = 0;
                 // Remove nums[left] from window
                 int leftFreq = freqMap.get(nums[left]);
                 // Pairs removed = (leftFreq - 1) because one occurrence is leaving
                 currentPairs -= (leftFreq - 1);
                 
                 freqMap.put(nums[left], leftFreq - 1);
-                if (freqMap.get(nums[left]) == 0) {
-                    freqMap.remove(nums[left]);
-                }
-                left++;
-            }
-        }
-        
-        return count;
-    }
-}
