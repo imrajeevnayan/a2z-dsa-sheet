@@ -1,11 +1,11 @@
 {
-  "totalSolved": 181,
+  "totalSolved": 182,
   "currentStreak": 24,
   "maxStreak": 24,
   "lastSyncDate": "2026-10-19",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 73,
+    "easy": 74,
     "medium": 94,
     "hard": 8,
     "basic": 6
@@ -191,7 +191,8 @@
     "GeeksForGeeks_Smallest_Missing_Number": true,
     "LeetCode_Remove_Duplicates_from_Sorted_Array": true,
     "GeeksForGeeks_Max_Consecutive_Bit": true,
-    "LeetCode_Add_Two_Integers": true
+    "LeetCode_Add_Two_Integers": true,
+    "LeetCode_Find_Target_Indices_After_Sorting_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -217,7 +218,7 @@
     "2026-10-16": 8,
     "2026-10-17": 1,
     "2026-10-18": 7,
-    "2026-10-19": 1
+    "2026-10-19": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -398,6 +399,7 @@
     "Smallest Missing Number",
     "Remove Duplicates from Sorted Array",
     "Max Consecutive Bit",
-    "Add Two Integers"
+    "Add Two Integers",
+    "Find Target Indices After Sorting Array"
   ]
 }
