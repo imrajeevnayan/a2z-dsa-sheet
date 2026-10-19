@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 2235. Add Two Integers
- * URL: https://leetcode.com/problems/add-two-integers/description/
+ * URL: https://leetcode.com/problems/add-two-integers/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T04:45:32.276Z
+ * Synced: 2026-10-19T04:45:37.020Z
  */
 
 class Solution {
     public int sum(int num1, int num2) {
-        
+        return n
     }
 }
