@@ -1,15 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 2537. Count the Number of Good Subarrays
- * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/description/?envType=problem-list-v2&envId=sliding-window
- * Language: Text
+ * URL: https://leetcode.com/problems/count-the-number-of-good-subarrays/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T16:28:08.871Z
+ * Synced: 2026-10-19T16:29:05.435Z
  */
 
-Input: nums = [1,1,1,1,1], k = 10
-Output: 1
-Explanation: The only good subarray is the array nums itself.
+// Update frequency
+            freqMap.put(nums[right], freq + 1);
+            
+            // Shrink window from left until pairs < k
+            while (currentPairs >= k) {
+                // All subarrays starting from left and ending at right, right+1, ... n-1 are good
+                count += (n - right);
+                
+                // Remove nums[left] from window
+                int leftFreq = freqMap.get(nums[left]);
+                // Pairs removed = (leftFreq - 1) because one occurrence is leaving
+                currentPairs -= (leftFreq - 1);
+                
+                freqMap.put(nums[left], leftFreq - 1);
+                if (freqMap.get(nums[left]) == 0) {
+                    freqMap.remove(nums[left]);
+                }
+                left++;
+            }
+        }
+        
+        return count;
+    }
+}
