@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
  * Memory: 83.67 MB
- * Synced: 2026-10-19T16:35:38.441Z
+ * Synced: 2026-10-19T16:36:25.880Z
  */
 
 // Shrink window from left until pairs < k
@@ -16,7 +16,6 @@
                 count += (n - right);
                 
                 // Remove nums[left] from window
-                int leftFreq = freqMap.get(nums[left]);
             
             freqMap.put(nums[right], freq + 1);
             // Update frequency
@@ -27,11 +26,12 @@
             // Add nums[right] to window
             int freq = freqMap.getOrDefault(nums[right], 0);
         for (int right = 0; right < n; right++) {
-        
+
         int n = nums.length;
         int left = 0;
+
+                int leftFreq = freqMap.get(nums[left]);
                 // Pairs removed = (leftFreq - 1) because one occurrence is leaving
                 currentPairs -= (leftFreq - 1);
                 
                 freqMap.put(nums[left], leftFreq - 1);
-                if (freqMap.get(nums[left]) == 0) {
