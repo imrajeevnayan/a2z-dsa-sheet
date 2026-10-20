@@ -1,12 +1,12 @@
 {
-  "totalSolved": 195,
+  "totalSolved": 196,
   "currentStreak": 25,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-20",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 77,
-    "medium": 103,
+    "medium": 104,
     "hard": 9,
     "basic": 6
   },
@@ -205,7 +205,8 @@
     "GeeksForGeeks_Dominant_Pairs": true,
     "GeeksForGeeks_Largest_Pair_Sum": true,
     "GeeksForGeeks_Distinct_Triplets_with_Given_Sum": true,
-    "LeetCode_Subarray_Product_Less_Than_K": true
+    "LeetCode_Subarray_Product_Less_Than_K": true,
+    "GeeksForGeeks_Subarrays_Product_Less_than_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -232,7 +233,7 @@
     "2026-10-17": 1,
     "2026-10-18": 7,
     "2026-10-19": 9,
-    "2026-10-20": 6
+    "2026-10-20": 7
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -427,6 +428,7 @@
     "Dominant Pairs",
     "Largest Pair Sum",
     "Distinct Triplets with Given Sum",
-    "Subarray Product Less Than K"
+    "Subarray Product Less Than K",
+    "Subarrays Product Less than K"
   ]
 }
