@@ -1,0 +1,58 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Dominant Pairs
+ * URL: https://www.geeksforgeeks.org/problems/dominant-pairs/1
+ * Language: class Solution { public: int dominantPairs(vector<int> &arr) { // Code here int N=arr.size(); int n=N/2; vector<int>tmp1, tmp2; for(int i=0; i<n; i++){ tmp1.push_back(arr[i]); } for(int i=n; i<N; i++){ tmp2.push_back(arr[i]); } sort(tmp1.begin(), tmp1.end()); int cnt=0; for(int i=0; i<n; i++){ int j=lower_bound(tmp1.begin(), tmp1.end(), 5*tmp2[i])-tmp1.begin(); cnt+=(n-j); } return cnt; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Sorting, Related Articles, Find The Number Of Dominant Pairs
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-20T04:49:13.512Z
+ */
+
+class Solution {
+    public int dominantPairs(int[] arr) {
+        int n = arr.length;
+        int half = n / 2;
+
+        // Extract halves
+        int[] firstHalf = Arrays.copyOfRange(arr, 0, half);
+        int[] secondHalf = Arrays.copyOfRange(arr, half, n);
+
+        // Sort both in descending order
+        Arrays.sort(firstHalf);
+        reverse(firstHalf);
+
+        Arrays.sort(secondHalf);
+        reverse(secondHalf);
+
+        int count = 0;
+        int i = 0; // Pointer for first half
+        int j = 0; // Pointer for second half
+
+        while (i < half && j < half) {
+            if (firstHalf[i] >= 5L * secondHalf[j]) {
+                // If firstHalf[i] is >= 5 * secondHalf[j], 
+                // it will also be >= 5 * secondHalf[k] for all k > j (since sorted desc)
+                count += (half - j);
+                i++;
+            } else {
+                // Current secondHalf[j] is too large, move to smaller element
+                j++;
+            }
+        }
+
+        return count;
+    }
+
+    private void reverse(int[] arr) {
+        int left = 0, right = arr.length - 1;
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+    }
+}
