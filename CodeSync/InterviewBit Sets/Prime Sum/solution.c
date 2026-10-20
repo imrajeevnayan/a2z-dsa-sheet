@@ -7,11 +7,10 @@
  * Topics: Programming, Math, Description, Discussion, Submissions, Hints, Excel Column Number 23 Minutes Easy Asked in:, Next Similar Number 55 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T04:34:11.252Z
+ * Synced: 2026-10-20T04:34:12.418Z
  */
 
-If [a, b] is one solution with a <= b,
-and [c,d] is another solution with c <= d, then
-
-[a, b] < [c, d] 
-If a < c OR ( a == c AND b < d ).
+public class Solution {
+    public int[] primesum(int A) {
+    }
+}
