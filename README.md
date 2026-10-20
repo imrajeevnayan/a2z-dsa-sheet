@@ -235,3 +235,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 196 | [Distinct Triplets with Given Sum](https://www.geeksforgeeks.org/problems/find-all-distinct-triplets-with-given-sum/1) | GeeksForGeeks | Easy | 20 Oct 2026 | 05:20 pm |
 | 197 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | LeetCode | Medium | 20 Oct 2026 | 05:54 pm |
 | 198 | [Subarrays Product Less than K](https://www.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1) | GeeksForGeeks | Medium | 20 Oct 2026 | 05:55 pm |
+| 199 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | LeetCode | Easy | 20 Oct 2026 | 05:59 pm |
