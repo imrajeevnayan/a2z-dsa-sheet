@@ -1,14 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 349. Intersection of Two Arrays
- * URL: https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=binary-search
- * Language: Text
+ * URL: https://leetcode.com/problems/intersection-of-two-arrays/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T12:37:44.549Z
+ * Synced: 2026-10-20T12:40:27.174Z
  */
 
-Input: nums1 = [1,2,2,1], nums2 = [2,2]
-Output: [2]
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        for (int num : nums1) {
+            set1.add(num);
+        }
+        
+        HashSet<Integer> intersectionSet = new HashSet<>();
+        for (int num : nums2) {
+            if (set1.contains(num)) {
+                intersectionSet.add(num);
+                set1.remove(num); // Optional: Optimizes further checks
+            }
+        }
+        
+        // Convert HashSet to int[]
+        int[] result = new int[intersectionSet.size()];
+        HashSet<Integer> set1 = new HashSet<>();
+        int i = 0;
+        for (int num : intersectionSet) {
+            result[i++] = num;
+        }
+        
+        return result;
+    }
+}
