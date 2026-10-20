@@ -5,31 +5,31 @@
  * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-20T12:40:27.174Z
+ * Runtime: 0 ms
+ * Memory: 44.66 MB
+ * Synced: 2026-10-20T12:41:32.471Z
  */
 
-class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
+public int[] intersection(int[] nums1, int[] nums2) {
+        HashSet<Integer> set = new HashSet<>();
+        // Add all elements of nums1 to set
         for (int num : nums1) {
-            set1.add(num);
+            set.add(num);
         }
         
-        HashSet<Integer> intersectionSet = new HashSet<>();
+        List<Integer> resultList = new ArrayList<>();
+        // Check nums2 elements
         for (int num : nums2) {
-            if (set1.contains(num)) {
-                intersectionSet.add(num);
-                set1.remove(num); // Optional: Optimizes further checks
+            if (set.contains(num)) {
+                resultList.add(num);
+                set.remove(num); // Remove taaki duplicate na aaye
             }
         }
         
-        // Convert HashSet to int[]
-        int[] result = new int[intersectionSet.size()];
-        HashSet<Integer> set1 = new HashSet<>();
-        int i = 0;
-        for (int num : intersectionSet) {
-            result[i++] = num;
+        // Convert List to Array
+        int[] result = new int[resultList.size()];
+        for (int i = 0; i < resultList.size(); i++) {
+            result[i] = resultList.get(i);
         }
         
         return result;
