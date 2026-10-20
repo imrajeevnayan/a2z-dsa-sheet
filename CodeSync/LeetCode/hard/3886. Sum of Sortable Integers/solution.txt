@@ -7,31 +7,31 @@
  * Topics: Array, Math, Sorting, Enumeration
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-20T04:37:15.605Z
+ * Synced: 2026-10-20T04:37:22.594Z
  */
 
-for (int i = 0; i < n; i += k) {
-            // Find index of minimum element in current block [i, i+k-1]
-    }
-    
-    private boolean isSortable(int[] nums, int n, int k) {
-        // Create a copy to simulate rotations
-        int[] arr = Arrays.copyOf(nums, n);
-        
-        return sum;
-            int minIdx = i;
-            for (int j = i + 1; j < i + k; j++) {
+for (int j = i + 1; j < i + k; j++) {
                 if (arr[j] < arr[minIdx]) {
                     minIdx = j;
                 }
             }
             
-            // Rotate the block so that minimum element comes to the start (index i)
+        
+            // Let's try the "Rotate Min to Front" approach first.
+            reverse(arr, i, minIdx - 1);
+            reverse(arr, minIdx, i + k - 1);
+            reverse(arr, i, i + k - 1);
         }
         
-            // We can just create a new rotated view or actually rotate
-            // Let's rotate actually for simplicity since k is small on average? No, k can be large.
-            // Better: Check if the block is a rotation of a sorted sequence.
-            
-            // Actually, simply rotating to put min at start is not enough if there are duplicates.
-            // But let's stick to the logic: If we can form a sorted array, then each block must
+        // Check if entire array is sorted
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+    private void reverse(int[] arr, int left, int right) {
+        while (left < right) {
