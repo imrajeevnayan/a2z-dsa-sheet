@@ -7,20 +7,20 @@
  * Topics: Expected Complexities, Company Tags, Goldman Sachs, Facebook, Walmart, Yatra.com, Amazon, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T12:25:01.117Z
+ * Synced: 2026-10-20T12:25:13.832Z
  */
 
 class Solution {
     public int countSubarray(int[] arr, int k) {
-        if (k <= 1) return 0;
+         if (k <= 1) return 0;
 
                 int left = 0;
                 int product = 1;
                 int count = 0;
 
-                for (int right = 0; right < aaa.length; right++) {
+                for (int right = 0; right < arr.length; right++) {
                     // Expand window
-                    product *= nums[right];
+                    product *= n[right];
 
                     // Shrink window if product becomes >= k
                     while (product >= k) {
