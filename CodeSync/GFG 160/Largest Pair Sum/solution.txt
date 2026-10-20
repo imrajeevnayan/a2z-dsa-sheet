@@ -7,9 +7,26 @@
  * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, Searching, Related Articles, Find The Largest Pair Sum In An Unsorted Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T06:53:38.877Z
+ * Synced: 2026-10-20T06:53:41.184Z
  */
 
-Input: arr[] = [12, 34, 10, 6, 40]
-Output: 74
-Explanation: Sum of 34 and 40 is the largest, i.e, 34 + 40 = 74.
+class Solution {
+    public static int pairsum(int[] arr) {
+
+        int max1 = Math.max(arr[0], arr[1]);
+        int max2 = Math.min(arr[0], arr[1]);
+
+        for (int i = 2; i < arr.length; i++) {
+
+            if (arr[i] > max1) {
+                max2 = max1;
+                max1 = arr[i];
+            } 
+            else if (arr[i] > max2) {
+                max2 = arr[i];
+            }
+        }
+
+        return max1 + max2;
+    }
+}
