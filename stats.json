@@ -1,12 +1,12 @@
 {
-  "totalSolved": 197,
+  "totalSolved": 198,
   "currentStreak": 25,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-20",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 78,
-    "medium": 104,
+    "medium": 105,
     "hard": 9,
     "basic": 6
   },
@@ -207,7 +207,8 @@
     "GeeksForGeeks_Distinct_Triplets_with_Given_Sum": true,
     "LeetCode_Subarray_Product_Less_Than_K": true,
     "GeeksForGeeks_Subarrays_Product_Less_than_K": true,
-    "LeetCode_Special_Array_With_X_Elements_Greater_Than_or_Equal_X": true
+    "LeetCode_Special_Array_With_X_Elements_Greater_Than_or_Equal_X": true,
+    "LeetCode_Compare_Strings_by_Frequency_of_the_Smallest_Character": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -234,7 +235,7 @@
     "2026-10-17": 1,
     "2026-10-18": 7,
     "2026-10-19": 9,
-    "2026-10-20": 8
+    "2026-10-20": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -431,6 +432,7 @@
     "Distinct Triplets with Given Sum",
     "Subarray Product Less Than K",
     "Subarrays Product Less than K",
-    "Special Array With X Elements Greater Than or Equal X"
+    "Special Array With X Elements Greater Than or Equal X",
+    "Compare Strings by Frequency of the Smallest Character"
   ]
 }
