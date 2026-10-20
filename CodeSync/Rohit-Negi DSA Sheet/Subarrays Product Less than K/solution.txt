@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subarrays Product Less than K
+ * URL: https://www.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Goldman Sachs, Facebook, Walmart, Yatra.com, Amazon, Linkedin
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-20T12:24:18.103Z
+ */
+
+Input : k = 10, arr[] = [1, 2, 3, 4]
+Output : 7
+Explanation:
+The contiguous subarrays whose product is less than 10 are [1], [2], [3], [4], [1, 2], [2, 3], and [1, 2, 3]. Therefore, the total number of valid contiguous subarrays is 7.
