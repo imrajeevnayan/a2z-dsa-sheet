@@ -1,11 +1,11 @@
 {
-  "totalSolved": 192,
+  "totalSolved": 193,
   "currentStreak": 25,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-20",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 75,
+    "easy": 76,
     "medium": 102,
     "hard": 9,
     "basic": 6
@@ -202,7 +202,8 @@
     "GeeksForGeeks_Max_Consecutive_1's_with_K_Flips": true,
     "LeetCode_Sum_of_Sortable_Integers": true,
     "GeeksForGeeks_Largest_with_Same_Parity_Adjacent_Swaps": true,
-    "GeeksForGeeks_Dominant_Pairs": true
+    "GeeksForGeeks_Dominant_Pairs": true,
+    "GeeksForGeeks_Largest_Pair_Sum": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -229,7 +230,7 @@
     "2026-10-17": 1,
     "2026-10-18": 7,
     "2026-10-19": 9,
-    "2026-10-20": 3
+    "2026-10-20": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -421,6 +422,7 @@
     "Max Consecutive 1's with K Flips",
     "Sum of Sortable Integers",
     "Largest with Same Parity Adjacent Swaps",
-    "Dominant Pairs"
+    "Dominant Pairs",
+    "Largest Pair Sum"
   ]
 }
