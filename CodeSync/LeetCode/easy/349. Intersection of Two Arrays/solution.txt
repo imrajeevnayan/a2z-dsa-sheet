@@ -7,14 +7,10 @@
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: 0 ms
  * Memory: 44.66 MB
- * Synced: 2026-10-20T12:41:32.471Z
+ * Synced: 2026-10-20T12:41:59.228Z
  */
 
-public int[] intersection(int[] nums1, int[] nums2) {
-        HashSet<Integer> set = new HashSet<>();
-        // Add all elements of nums1 to set
-        for (int num : nums1) {
-            set.add(num);
+set.add(num);
         }
         
         List<Integer> resultList = new ArrayList<>();
@@ -35,3 +31,4 @@ public int[] intersection(int[] nums1, int[] nums2) {
         return result;
     }
 }
+        for (int num : nums1) {
