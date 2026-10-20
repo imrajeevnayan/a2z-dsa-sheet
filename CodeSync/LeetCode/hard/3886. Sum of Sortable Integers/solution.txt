@@ -7,31 +7,31 @@
  * Topics: Array, Math, Sorting, Enumeration
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-20T04:37:22.594Z
+ * Synced: 2026-10-20T04:37:46.810Z
  */
 
-for (int j = i + 1; j < i + k; j++) {
-                if (arr[j] < arr[minIdx]) {
-                    minIdx = j;
-                }
+import java.util.*;
+
+class Solution {
+    public List<Integer> pancakeSort(int[] arr) {
+        List<Integer> result = new ArrayList<>();
+        int n = arr.length;
+        
+        // Hum end se start karenge, har step pe largest element ko fix karenge
+        for (int currSize = n; currSize > 1; currSize--) {
+            // Step 1: Find index of the maximum element in arr[0...currSize-1]
+            int maxIndex = findMaxIndex(arr, currSize);
+            
+            // If max element is already at the end, no need to flip
+            if (maxIndex == currSize - 1) {
+                continue;
             }
             
-        
-            // Let's try the "Rotate Min to Front" approach first.
-            reverse(arr, i, minIdx - 1);
-            reverse(arr, minIdx, i + k - 1);
-            reverse(arr, i, i + k - 1);
-        }
-        
-        // Check if entire array is sorted
-        for (int i = 0; i < n - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                return false;
+            // Step 2: Flip to bring max element to the front (index 0)
+            if (maxIndex != 0) {
+                flip(arr, maxIndex + 1);
+                result.add(maxIndex + 1);
             }
-        }
-        
-        return true;
-    }
-    
-    private void reverse(int[] arr, int left, int right) {
-        while (left < right) {
+            
+            // Step 3: Flip to move max element to its correct position (currSize - 1)
+            flip(arr, currSize);
