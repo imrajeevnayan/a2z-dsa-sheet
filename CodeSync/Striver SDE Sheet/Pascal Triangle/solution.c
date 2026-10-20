@@ -7,26 +7,28 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T04:31:32.568Z
+ * Synced: 2026-10-20T04:33:10.866Z
  */
 
-}
-    }
-        return arr;
-        }
+public class Solution {
+    public int[][] solve(int A) {
 
-                arr[i][j] = arr[i - 1][j - 1] + arr[i - 1][j];
-            }
-            for (int j = 1; j < i; j++) {
-            arr[i][i] = 1;
-
-            arr[i][0] = 1;
-
-            arr[i] = new int[i + 1];
+        int[][] ans = new int[A][];
 
         for (int i = 0; i < A; i++) {
 
-        int[][] arr = new int[A][];
+            ans[i] = new int[i + 1];
 
-    public int[][] solve(int A) {
-public class Solution {
+            for (int j = 0; j <= i; j++) {
+
+                if (j == 0 || j == i) {
+                    ans[i][j] = 1;
+                } else {
+                    ans[i][j] = ans[i - 1][j - 1] + ans[i - 1][j];
+                }
+            }
+        }
+
+        return ans;
+    }
+}
