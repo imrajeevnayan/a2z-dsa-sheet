@@ -1,0 +1,61 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Solution - 0.16 secs
+ * URL: https://www.geeksforgeeks.org/problems/find-all-distinct-triplets-with-given-sum/1
+ * Language: public List<List<Integer>> threeSum(int[] arr, int target) { // Your code here Arrays.sort(arr); int n = arr.length; List<List<Integer>> ans = new ArrayList<>(); int fn = Integer.MAX_VALUE; int sn = Integer.MAX_VALUE; for(int i=0; i<n; i++){ if(arr[i] == fn){ continue; } else{ fn = arr[i]; } for(int j=i+1; j<n; j++){ if(arr[j] == sn){ continue; } else{ sn = arr[j]; } for(int k=j+1; k<n; k++){ int sum = arr[i] + arr[j] + arr[k]; if(sum < target){ continue; } else if(sum == target){ ArrayList<Integer> temp = new ArrayList<>(); temp.add(arr[i]); temp.add(arr[j]); temp.add(arr[k]); ans.add(temp); break; } else{ break; } } } } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Sorting, two-pointer-algorithm, Arrays, Hash, Related Articles, Unique Triplets Sum Given Value
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-20T11:50:51.008Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> threeSum(int[] arr, int target) {
+
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+
+        Arrays.sort(arr);
+        int n = arr.length;
+
+        for (int i = 0; i < n - 2; i++) {
+
+            // Duplicate first element skip
+            if (i > 0 && arr[i] == arr[i - 1])
+                continue;
+
+            int left = i + 1;
+            int right = n - 1;
+
+            while (left < right) {
+
+                int sum = arr[i] + arr[left] + arr[right];
+
+                if (sum == target) {
+
+                    ArrayList<Integer> temp = new ArrayList<>();
+                    temp.add(arr[i]);
+                    temp.add(arr[left]);
+                    temp.add(arr[right]);
+
+                    ans.add(temp);
+
+                    left++;
+                    right--;
+
+                    // Duplicate second element skip
+                    while (left < right && arr[left] == arr[left - 1])
+                        left++;
+
+                    // Duplicate third element skip
+                    while (left < right && arr[right] == arr[right + 1])
+                        right--;
+
+                } 
+                else if (sum < target) {
+                    left++;
+                } 
+                else {
+                    right--;
+                }
+            }
