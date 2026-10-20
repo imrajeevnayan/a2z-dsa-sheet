@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, String, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T12:36:58.496Z
+ * Synced: 2026-10-20T12:36:59.164Z
  */
 
 if (c < minChar) {
@@ -29,9 +29,9 @@ if (c < minChar) {
             if (arr[mid] <= target) {
                 left = mid + 1;
             } else {
-                right = mid;
-            }
-        }
-        return left;
+        int count = 0;
+        for (char c : s.toCharArray()) {
+        char minChar = 'z';
+    // Helper function to calculate f(s)
+    private int f(String s) {
     }
-}
