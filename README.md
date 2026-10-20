@@ -229,3 +229,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 190 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | LeetCode | Medium | 19 Oct 2026 | 10:10 pm |
 | 191 | [Max Consecutive 1's with K Flips](https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/1) | GeeksForGeeks | Medium | 19 Oct 2026 | 10:14 pm |
 | 192 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | LeetCode | Hard | 20 Oct 2026 | 10:07 am |
+| 193 | [Largest with Same Parity Adjacent Swaps](https://www.geeksforgeeks.org/problems/even-swap/1) | GeeksForGeeks | Medium | 20 Oct 2026 | 10:14 am |

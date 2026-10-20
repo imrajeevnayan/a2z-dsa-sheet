@@ -1,0 +1,35 @@
+import java.util.*;
+
+class Solution {
+    // Return type ArrayList<Integer> rakha hai kyunki driver code usi ko assign kar raha hai
+    public ArrayList<Integer> lexicographicallyLargest(int[] arr) {
+        int n = arr.length;
+        ArrayList<Integer> result = new ArrayList<>();
+        int i = 0;
+
+        while (i < n) {
+            int j = i;
+            // Find the end of the current parity group
+            while (j < n - 1 && (arr[j] % 2 == arr[j + 1] % 2)) {
+                j++;
+            }
+
+            // Extract subarray from i to j into a temporary list
+            ArrayList<Integer> temp = new ArrayList<>();
+            for (int k = i; k <= j; k++) {
+                temp.add(arr[k]);
+            }
+
+            // Sort in descending order
+            Collections.sort(temp, Collections.reverseOrder());
+
+            // Add to final result
+            result.addAll(temp);
+
+            // Move to next group
+            i = j + 1;
+        }
+
+        return result;
+    }
+}
