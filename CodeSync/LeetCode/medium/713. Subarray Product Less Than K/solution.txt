@@ -5,21 +5,19 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-20T12:23:42.019Z
+ * Synced: 2026-10-20T12:23:53.679Z
  */
 
-// Expand window
-            product *= nums[right];
-        for (int right = 0; right < nums.length; right++) {
-        
-            // Shrink window if product becomes >= k
-            while (product >= k) {
+while (product >= k) {
                 product /= nums[left];
                 left++;
             }
-            
             // Add number of valid subarrays ending at 'right'
             count += (right - left + 1);
         }
+        
+        return count;
+    }
+}
