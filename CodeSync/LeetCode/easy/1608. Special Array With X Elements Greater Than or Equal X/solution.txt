@@ -7,10 +7,24 @@
  * Topics: Array, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T12:28:37.640Z
+ * Synced: 2026-10-20T12:28:46.087Z
  */
 
-// Traverse from right to left to find x
+}
+            } else {
+                freq[num]++;
+            if (num >= n) {
+                freq[n]++;
+        for (int num : nums) {
+        // Fill frequency array
+        
+        int[] freq = new int[n + 1];
+        // Frequency array of size n+1
+        int n = nums.length;
+    public int specialArray(int[] nums) {
+        }
+        
+        // Traverse from right to left to find x
         int count = 0;
         for (int i = n; i >= 0; i--) {
             count += freq[i];
