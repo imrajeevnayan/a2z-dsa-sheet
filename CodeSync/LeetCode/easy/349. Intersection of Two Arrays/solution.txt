@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Two Pointers, Binary Search, Sorting
  * Runtime: 0 ms
  * Memory: 44.66 MB
- * Synced: 2026-10-20T12:41:59.228Z
+ * Synced: 2026-10-20T12:42:10.785Z
  */
 
 set.add(num);
@@ -30,5 +30,7 @@ set.add(num);
         
         return result;
     }
-}
         for (int num : nums1) {
+        // Add all elements of nums1 to set
+        HashSet<Integer> set = new HashSet<>();
+}
