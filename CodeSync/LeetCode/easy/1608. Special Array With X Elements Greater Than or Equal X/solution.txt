@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1608. Special Array With X Elements Greater Than or Equal X
+ * URL: https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-20T12:27:16.506Z
+ */
+
+Input: nums = [3,5]
+Output: 2
+Explanation: There are 2 values (3 and 5) that are greater than or equal to 2.
