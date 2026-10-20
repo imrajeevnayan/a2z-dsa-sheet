@@ -6,12 +6,11 @@
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-20T12:23:53.679Z
+ * Memory: 48.51 MB
+ * Synced: 2026-10-20T12:24:34.404Z
  */
 
-while (product >= k) {
-                product /= nums[left];
+product /= nums[left];
                 left++;
             }
             // Add number of valid subarrays ending at 'right'
