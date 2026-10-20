@@ -233,3 +233,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 194 | [Dominant Pairs](https://www.geeksforgeeks.org/problems/dominant-pairs/1) | GeeksForGeeks | Easy | 20 Oct 2026 | 10:19 am |
 | 195 | [Largest Pair Sum](https://www.geeksforgeeks.org/problems/pair-sum--120604/1) | GeeksForGeeks | Easy | 20 Oct 2026 | 10:20 am |
 | 196 | [Distinct Triplets with Given Sum](https://www.geeksforgeeks.org/problems/find-all-distinct-triplets-with-given-sum/1) | GeeksForGeeks | Easy | 20 Oct 2026 | 05:20 pm |
+| 197 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | LeetCode | Medium | 20 Oct 2026 | 05:54 pm |
