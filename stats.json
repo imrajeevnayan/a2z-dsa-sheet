@@ -1,13 +1,13 @@
 {
-  "totalSolved": 189,
-  "currentStreak": 24,
-  "maxStreak": 24,
-  "lastSyncDate": "2026-10-19",
-  "todayCount": 9,
+  "totalSolved": 190,
+  "currentStreak": 25,
+  "maxStreak": 25,
+  "lastSyncDate": "2026-10-20",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 74,
     "medium": 101,
-    "hard": 8,
+    "hard": 9,
     "basic": 6
   },
   "syncedProblems": {
@@ -199,7 +199,8 @@
     "LeetCode_Longest_Nice_Subarray": true,
     "LeetCode_Count_the_Number_of_Good_Subarrays": true,
     "LeetCode_Continuous_Subarrays": true,
-    "GeeksForGeeks_Max_Consecutive_1's_with_K_Flips": true
+    "GeeksForGeeks_Max_Consecutive_1's_with_K_Flips": true,
+    "LeetCode_Sum_of_Sortable_Integers": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -225,7 +226,8 @@
     "2026-10-16": 8,
     "2026-10-17": 1,
     "2026-10-18": 7,
-    "2026-10-19": 9
+    "2026-10-19": 9,
+    "2026-10-20": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -414,6 +416,7 @@
     "Longest Nice Subarray",
     "Count the Number of Good Subarrays",
     "Continuous Subarrays",
-    "Max Consecutive 1's with K Flips"
+    "Max Consecutive 1's with K Flips",
+    "Sum of Sortable Integers"
   ]
 }
