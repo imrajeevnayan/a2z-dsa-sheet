@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Largest Pair Sum
+ * URL: https://www.geeksforgeeks.org/problems/pair-sum--120604/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, Searching, Related Articles, Find The Largest Pair Sum In An Unsorted Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-20T06:53:38.877Z
+ */
+
+Input: arr[] = [12, 34, 10, 6, 40]
+Output: 74
+Explanation: Sum of 34 and 40 is the largest, i.e, 34 + 40 = 74.
