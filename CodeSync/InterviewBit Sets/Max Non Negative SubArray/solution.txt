@@ -7,10 +7,37 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-21T16:00:16.920Z
+ * Synced: 2026-10-21T16:01:15.590Z
  */
 
-public class Solution {
-    public int[] maxset(int[] A) {
+for (int i = 0; i <= A.length; i++) {
+
+            if (i < A.length && A[i] >= 0) {
+                currSum += A[i];
+            } else {
+
+                int currLen = i - start;
+                int bestLen = bestEnd - bestStart + 1;
+
+                if (currSum > maxSum ||
+                    (currSum == maxSum && currLen > bestLen)) {
+
+                    maxSum = currSum;
+                    bestStart = start;
+                    bestEnd = i - 1;
+                }
+
+                currSum = 0;
+                start = i + 1;
+            }
+        }
+
+        int[] ans = new int[bestEnd - bestStart + 1];
+
+        for (int i = bestStart; i <= bestEnd; i++) {
+            ans[i - bestStart] = A[i];
+        }
+
+        return ans;
     }
 }
