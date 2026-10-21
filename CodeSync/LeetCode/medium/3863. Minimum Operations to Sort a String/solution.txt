@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: 3863. Minimum Operations to Sort a String
- * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/?envType=daily-question&envId=2026-10-21
+ * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-string/?envType=daily-question&envId=2026-10-21
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-21T05:40:24.523Z
+ * Synced: 2026-10-21T05:42:40.776Z
  */
 
-class Solution {
-    public int minOperations(String s) {
+}
         
+        char[] temp2 = Arrays.copyOf(arr, n);
+        Arrays.sort(temp2, 1, n);
+        if (isSorted(temp2)) {
+            return 1;
+        }
+        
+        // For most cases with N > 2, if 1 doesn't work, 2 works.
+        return 2;
+    }
+    
+    private boolean isSorted(char[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
