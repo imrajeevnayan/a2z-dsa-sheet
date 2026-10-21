@@ -7,27 +7,31 @@
  * Topics: String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-21T05:42:40.776Z
+ * Synced: 2026-10-21T05:45:59.563Z
  */
 
-}
-        
-        char[] temp2 = Arrays.copyOf(arr, n);
-        Arrays.sort(temp2, 1, n);
-        if (isSorted(temp2)) {
-            return 1;
+if (canBeSortedInOneMove(t2, sortedArr)) {
+            return 2;
         }
         
-        // For most cases with N > 2, if 1 doesn't work, 2 works.
-        return 2;
+        // If not 0, 1, or 2, then it's likely 3.
+        return 3;
     }
     
-    private boolean isSorted(char[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                return false;
+    private boolean canBeSortedInOneMove(char[] current, char[] target) {
+        if (Arrays.equals(current, target)) return true;
+        
+        int left = -1, right = -1;
+        for (int i = 0; i < current.length; i++) {
+            if (current[i] != target[i]) {
+                if (left == -1) left = i;
+                right = i;
             }
         }
-        return true;
+        if (left == -1) return true; // Already matched
+        
+        char[] temp = Arrays.copyOf(current, current.length);
+        Arrays.sort(temp, left, right + 1);
+        return Arrays.equals(temp, target);
     }
 }
