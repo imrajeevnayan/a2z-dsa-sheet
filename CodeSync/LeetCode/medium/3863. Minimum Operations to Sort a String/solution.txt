@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3863. Minimum Operations to Sort a String
+ * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-string/description/?envType=daily-question&envId=2026-10-21
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-21T05:40:24.523Z
+ */
+
+class Solution {
+    public int minOperations(String s) {
+        
+    }
+}
