@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 318. Maximum Product of Word Lengths
+ * URL: https://leetcode.com/problems/maximum-product-of-word-lengths/description/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, String, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-22T15:03:05.680Z
+ */
+
+Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
+Output: 16
+Explanation: The two words can be "abcw", "xtfn".
