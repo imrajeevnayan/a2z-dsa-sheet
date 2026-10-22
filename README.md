@@ -240,3 +240,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 201 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | LeetCode | Easy | 20 Oct 2026 | 06:10 pm |
 | 202 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | LeetCode | Medium | 22 Oct 2026 | 08:32 pm |
 | 203 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | LeetCode | Medium | 22 Oct 2026 | 08:34 pm |
+| 204 | [Perfect Numbers](https://www.geeksforgeeks.org/problems/perfect-numbers3207/1?page=6) | GeeksForGeeks | Easy | 22 Oct 2026 | 08:55 pm |
