@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Maximum Sum Triplet
+ * URL: https://www.interviewbit.com/problems/maximum-sum-triplet/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-22T16:42:28.626Z
+ */
+
+public class Solution {
+    public int solve(int[] A) {
+    }
+}
