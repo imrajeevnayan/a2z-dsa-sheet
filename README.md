@@ -238,3 +238,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 199 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | LeetCode | Easy | 20 Oct 2026 | 05:59 pm |
 | 200 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | LeetCode | Medium | 20 Oct 2026 | 06:07 pm |
 | 201 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | LeetCode | Easy | 20 Oct 2026 | 06:10 pm |
+| 202 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | LeetCode | Medium | 22 Oct 2026 | 08:32 pm |
