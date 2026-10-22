@@ -239,3 +239,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 200 | [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | LeetCode | Medium | 20 Oct 2026 | 06:07 pm |
 | 201 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | LeetCode | Easy | 20 Oct 2026 | 06:10 pm |
 | 202 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | LeetCode | Medium | 22 Oct 2026 | 08:32 pm |
+| 203 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | LeetCode | Medium | 22 Oct 2026 | 08:34 pm |

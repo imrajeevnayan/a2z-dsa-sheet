@@ -1,12 +1,12 @@
 {
-  "totalSolved": 200,
+  "totalSolved": 201,
   "currentStreak": 1,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-22",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 79,
-    "medium": 106,
+    "medium": 107,
     "hard": 9,
     "basic": 6
   },
@@ -210,7 +210,8 @@
     "LeetCode_Special_Array_With_X_Elements_Greater_Than_or_Equal_X": true,
     "LeetCode_Compare_Strings_by_Frequency_of_the_Smallest_Character": true,
     "LeetCode_Intersection_of_Two_Arrays": true,
-    "LeetCode_Longest_Happy_String": true
+    "LeetCode_Longest_Happy_String": true,
+    "LeetCode_Maximum_Product_of_Word_Lengths": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -238,7 +239,7 @@
     "2026-10-18": 7,
     "2026-10-19": 9,
     "2026-10-20": 10,
-    "2026-10-22": 1
+    "2026-10-22": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -438,6 +439,7 @@
     "Special Array With X Elements Greater Than or Equal X",
     "Compare Strings by Frequency of the Smallest Character",
     "Intersection of Two Arrays",
-    "Longest Happy String"
+    "Longest Happy String",
+    "Maximum Product of Word Lengths"
   ]
 }
