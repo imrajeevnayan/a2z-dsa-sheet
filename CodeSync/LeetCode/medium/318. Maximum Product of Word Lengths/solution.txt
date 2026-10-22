@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 318. Maximum Product of Word Lengths
- * URL: https://leetcode.com/problems/maximum-product-of-word-lengths/description/?envType=problem-list-v2&envId=da2hb3jj
+ * URL: https://leetcode.com/problems/maximum-product-of-word-lengths/?envType=problem-list-v2&envId=da2hb3jj
  * Language: Strings (Copy-ehkbkaxt)
  * Difficulty: Medium
  * Topics: Array, String, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-22T15:03:08.804Z
+ * Synced: 2026-10-22T15:04:17.463Z
  */
 
-class Solution {
-    public int maxProduct(String[] words) {
+for (char c : words[i].toCharArray()) {
+                // Bit ko set karo: 1 << (character - 'a')
+                mask |= (1 << (c - 'a'));
+            }
+            masks[i] = mask;
+            lengths[i] = words[i].length();
+        }
         
-    }
-}
+        int maxProd = 0;
+        
+        // Step 2: Sabhi pairs ko check karo
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                // Agar AND 0 hai, toh koi common letter nahi hai
+        for (int i = 0; i < n; i++) {
+            int mask = 0;
+        
+        // Step 1: Har word ka bitmask aur length store karo
+        int[] masks = new int[n];
+        int[] lengths = new int[n];
+        int n = words.length;
+    public int maxProduct(String[] words) {
+class Solution {
