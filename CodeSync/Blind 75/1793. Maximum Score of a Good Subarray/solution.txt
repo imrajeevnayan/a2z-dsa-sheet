@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1793. Maximum Score of a Good Subarray
+ * URL: https://leetcode.com/problems/maximum-score-of-a-good-subarray/description/?envType=problem-list-v2&envId=monotonic-stack
+ * Language: Monotonic Stack
+ * Difficulty: Hard
+ * Topics: Array, Two Pointers, Binary Search, Stack, Monotonic Stack, Cartesian Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-22T15:00:21.173Z
+ */
+
+class Solution {
+    public int maximumScore(int[] nums, int k) {
+        
+    }
+}
