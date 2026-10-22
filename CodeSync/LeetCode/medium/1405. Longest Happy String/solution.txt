@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1405. Longest Happy String
+ * URL: https://leetcode.com/problems/longest-happy-string/description/?envType=problem-list-v2&envId=da2hb3jj
+ * Language: Strings (Copy-ehkbkaxt)
+ * Difficulty: Medium
+ * Topics: String, Greedy, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-22T15:00:48.924Z
+ */
+
+class Solution {
+    public String longestDiverseString(int a, int b, int c) {
+        
+    }
+}
