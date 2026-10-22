@@ -7,15 +7,10 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-22T14:58:46.277Z
+ * Synced: 2026-10-22T14:58:48.451Z
  */
 
-class Solution {
-    public int minOperations(int[] nums) {
-        int n = nums.length;
-        if (n == 1) return 0;
-        int zero = 0;
-        for (int i = 0; i < n; i++) {
+for (int i = 0; i < n; i++) {
             if (nums[i] == 0) {
                 zero = i;
                 break;
@@ -42,3 +37,4 @@ class Solution {
         }
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
+}
