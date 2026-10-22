@@ -1,0 +1,44 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Maximum Sum Triplet
+ * URL: https://www.interviewbit.com/problems/maximum-sum-triplet/
+ * Language: Java
+ * Difficulty: Medium
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-22T16:43:10.917Z
+ */
+
+int[] rightMax = new int[n];
+        rightMax[n - 1] = A[n - 1];
+
+        for (int i = n - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(A[i], rightMax[i + 1]);
+        }
+
+        TreeSet<Integer> set = new TreeSet<>();
+        set.add(A[0]);
+
+        long maxSum = 0;
+
+        for (int j = 1; j < n - 1; j++) {
+
+            // Need an element greater than A[j] on right
+            if (rightMax[j + 1] > A[j]) {
+
+                Integer left = set.lower(A[j]);
+
+                if (left != null) {
+                    long sum = (long) left + A[j] + rightMax[j + 1];
+                    maxSum = Math.max(maxSum, sum);
+                }
+            }
+
+
+    public int solve(int[] A) {
+
+        int n = A.length;
+
+public class Solution {
+import java.util.*;
