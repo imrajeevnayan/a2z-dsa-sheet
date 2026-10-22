@@ -5,9 +5,9 @@
  * Language: Master Leetcode (Copy-2hx9d5gg)
  * Difficulty: Medium
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-22T15:08:30.287Z
+ * Synced: 2026-10-22T15:08:38.411Z
  */
 
 if (canEatAll(piles, h, mid)) {
@@ -18,18 +18,20 @@ if (canEatAll(piles, h, mid)) {
             }
         }
         
+            int mid = low + (high - low) / 2;
+            
+        int ans = high;
+        
+        while (low <= high) {
+        }
+        for (int pile : piles) {
+            high = Math.max(high, pile);
+        // Find max pile size for upper bound
+        int high = 0;
+        
         return ans;
     }
     
     private boolean canEatAll(int[] piles, int h, int speed) {
         long hours = 0; // Use long to avoid overflow
         for (int pile : piles) {
-            // Ceil division: (pile + speed - 1) / speed
-            hours += (pile + speed - 1) / speed;
-            
-            // Early exit if already exceeded h
-            if (hours > h) return false;
-        }
-        return true;
-    }
-}
