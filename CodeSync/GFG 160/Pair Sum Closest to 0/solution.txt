@@ -7,8 +7,10 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftSnapdeal, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T17:08:54.750Z
+ * Synced: 2026-10-23T17:09:39.584Z
  */
+
+import java.util.Arrays;
 
 class Solution {
     public static int closestToZero(int arr[]) {
@@ -24,22 +26,23 @@ class Solution {
 
             int sum = arr[left] + arr[right];
 
+            // Better (closer to zero) sum found
             if (Math.abs(sum) < Math.abs(ans)) {
                 ans = sum;
             }
-            // If absolute values are same,
-            // prefer larger sum.
-            else if (Math.abs(sum) == Math.abs(ans)
-                     && sum > ans) {
+            // Same distance from zero -> choose larger sum
+            else if (Math.abs(sum) == Math.abs(ans) && sum > ans) {
                 ans = sum;
             }
 
             if (sum < 0) {
                 left++;
-            } else if (sum > 0) {
+            } 
+            else if (sum > 0) {
                 right--;
-            } else {
-                return 0;
+            } 
+            else {
+                return 0; // Closest possible sum
             }
         }
 
