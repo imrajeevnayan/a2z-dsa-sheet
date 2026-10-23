@@ -1,25 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 239. Sliding Window Maximum
- * URL: https://leetcode.com/problems/sliding-window-maximum/submissions/2179619529/
+ * URL: https://leetcode.com/problems/sliding-window-maximum/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: 0 ms
- * Memory: 151.93 MB
- * Synced: 2026-10-23T11:50:55.146Z
+ * Memory: N/A
+ * Synced: 2026-10-23T11:51:24.945Z
  */
 
-class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
-
-        Deque<Integer> dq = new LinkedList<>();
-        int[] ans = new int[nums.length - k + 1];
-        int idx = 0;
-
-        for (int i = 0; i < nums.length; i++) {
-
-            // remove out of window indices
+// remove out of window indices
             while (!dq.isEmpty() && dq.peekFirst() <= i - k)
                 dq.pollFirst();
 
@@ -33,3 +24,11 @@ class Solution {
             if (i >= k - 1)
                 ans[idx++] = nums[dq.peekFirst()];
         }
+        for (int i = 0; i < nums.length; i++) {
+        int idx = 0;
+
+        int[] ans = new int[nums.length - k + 1];
+
+        Deque<Integer> dq = new LinkedList<>();
+    public int[] maxSlidingWindow(int[] nums, int k) {
+class Solution {
