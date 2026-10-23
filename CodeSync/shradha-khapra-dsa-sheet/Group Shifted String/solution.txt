@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Group Shifted String
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem/problem/pairs-with-difference-k1713
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Strings, Hash, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T11:33:56.761Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<String>> groupShiftedString(String[] arr) {
+        // code here
+        
+    }
+}
