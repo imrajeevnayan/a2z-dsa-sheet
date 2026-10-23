@@ -1,0 +1,52 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Merge 2 Sorted Linked Lists in Reverse Order
+ * URL: https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1
+ * Language: class Solution: def reverse(self, node): head = None while node: if not head: head = Node(node.data) else: n = Node(node.data) n.next = head head = n node = node.next return head def sortedMerge(self,head_1, head_2): # code here head = tail = None adding_head1 = False head1, head2 = head_1, head_2 while head1 and head2: if not head: head = tail = Node(head1.data if head1.data < head2.data else head2.data) else: tail.next = Node(head1.data if head1.data < head2.data else head2.data) tail = tail.next if head1.data < head2.data: head1 = head1.next else: head2 = head2.next head3 = head1 or head2 while head3: tail.next = Node(head3.data) tail = tail.next head3 = head3.next return head def mergeResult(self, node1, node2): #return head of merged lis merged = self.sortedMerge(node1, node2) return self.reverse(merged)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Linked List, Merge Sort, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T17:21:04.520Z
+ */
+
+class Solution {
+    public Node mergeResult(Node head1, Node head2) {
+
+        Node result = null;
+
+        while (head1 != null && head2 != null) {
+
+            Node temp;
+
+            if (head1.data <= head2.data) {
+                temp = head1;
+                head1 = head1.next;
+            } else {
+                temp = head2;
+                head2 = head2.next;
+            }
+
+            temp.next = result;
+            result = temp;
+        }
+
+        while (head1 != null) {
+            Node temp = head1;
+            head1 = head1.next;
+
+            temp.next = result;
+            result = temp;
+        }
+
+        while (head2 != null) {
+            Node temp = head2;
+            head2 = head2.next;
+
+            temp.next = result;
+            result = temp;
+        }
+
+        return result;
+    }
+}
