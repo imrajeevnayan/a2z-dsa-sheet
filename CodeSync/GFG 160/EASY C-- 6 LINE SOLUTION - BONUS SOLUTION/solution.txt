@@ -7,27 +7,21 @@
  * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Mathematics, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:42:33.280Z
+ * Synced: 2026-10-23T11:42:51.528Z
  */
-
-import java.math.BigInteger;
 
 class Solution {
     public String findNth(String n) {
 
-        BigInteger num = new BigInteger(n);
-        BigInteger nine = BigInteger.valueOf(9);
+        long num = Long.parseLong(n);
 
-        StringBuilder ans = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
-        while (num.compareTo(BigInteger.ZERO) > 0) {
-
-            BigInteger[] divRem = num.divideAndRemainder(nine);
-
-            ans.append(divRem[1]);
-            num = divRem[0];
+        while (num > 0) {
+            sb.append(num % 9);
+            num /= 9;
         }
 
-        return ans.reverse().toString();
+        return sb.reverse().toString();
     }
 }
