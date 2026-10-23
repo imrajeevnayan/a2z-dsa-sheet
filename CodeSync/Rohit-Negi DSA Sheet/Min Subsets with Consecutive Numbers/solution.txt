@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:32:06.146Z
+ * Synced: 2026-10-23T11:32:12.323Z
  */
 
 class Solution {
     public int numOfSubset(int[] arr) {
         HashSet<Integer> s=new HashSet<>();
-        for(int n :ar)
+        for(int n :arr)s.add()
     }
 }
