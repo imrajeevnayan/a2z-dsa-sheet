@@ -1,12 +1,12 @@
 {
-  "totalSolved": 204,
+  "totalSolved": 205,
   "currentStreak": 2,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-23",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 80,
-    "medium": 109,
+    "medium": 110,
     "hard": 9,
     "basic": 6
   },
@@ -214,7 +214,8 @@
     "LeetCode_Maximum_Product_of_Word_Lengths": true,
     "GeeksForGeeks_Perfect_Numbers": true,
     "GeeksForGeeks_Nth_Number_without_Digit_9": true,
-    "GeeksForGeeks_Last_Digit_of_a^b": true
+    "GeeksForGeeks_Last_Digit_of_a^b": true,
+    "LeetCode_Product_of_the_Last_K_Numbers": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -243,7 +244,7 @@
     "2026-10-19": 9,
     "2026-10-20": 10,
     "2026-10-22": 3,
-    "2026-10-23": 2
+    "2026-10-23": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -447,6 +448,7 @@
     "Maximum Product of Word Lengths",
     "Perfect Numbers",
     "Nth Number without Digit 9",
-    "Last Digit of a^b"
+    "Last Digit of a^b",
+    "Product of the Last K Numbers"
   ]
 }
