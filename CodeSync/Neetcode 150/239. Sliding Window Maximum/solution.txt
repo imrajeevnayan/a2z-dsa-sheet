@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 239. Sliding Window Maximum
- * URL: https://leetcode.com/problems/sliding-window-maximum/description/
+ * URL: https://leetcode.com/problems/sliding-window-maximum/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:49:04.385Z
+ * Synced: 2026-10-23T11:49:41.734Z
  */
 
-class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
-        
+// Window ke bahar wale index hata do
+            while (!dq.isEmpty() && dq.peekFirst() <= i - k) {
+                dq.pollFirst();
+            }
+
+            // Current element se chhote elements hata do
+            while (!dq.isEmpty() &&
+                   nums[dq.peekLast()] <= nums[i]) {
+                dq.pollLast();
+            }
+
+            // Current index add karo
+            dq.offerLast(i);
+
+            // Window complete hone ke baad answer store karo
+            if (i >= k - 1) {
+                ans[idx++] = nums[dq.peekFirst()];
+            }
+        }
+
+        return ans;
     }
 }
