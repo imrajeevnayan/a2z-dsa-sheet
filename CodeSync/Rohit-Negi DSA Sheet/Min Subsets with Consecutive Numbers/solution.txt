@@ -7,11 +7,11 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:29:29.860Z
+ * Synced: 2026-10-23T11:30:30.037Z
  */
 
 class Solution {
     public int numOfSubset(int[] arr) {
-        // Your code goes here
+        // Your code goes her
     }
 }
