@@ -7,30 +7,29 @@
  * Topics: Array, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:14:49.869Z
+ * Synced: 2026-10-23T11:17:06.056Z
  */
 
-// But we know (nums[originalIdx] & k) == k => (targetVal & k) == k.
-            // So (targetVal & k) != k.
-            // This implies (nums[targetVal] & k) != k.
-            // But nums[targetVal] == targetVal (since it's sorted).
-            // If originalIdx != targetVal, then targetVal is at originalIdx.
-            // If targetVal is not in validIndices, it means index targetVal was not added to validIndices.
-            // But nums[originalIdx] = targetVal. So originalIdx == targetVal?
-            // But we already checked that non-valid indices are sorted.
-            // So if targetVal is not in validIndices, then nums[targetVal] == targetVal.
-            // Not necessarily. The index targetVal might not be in validIndices.
-            // But wait, if index targetVal is NOT in validIndices, then nums[targetVal] != targetVal (unless it's sorted).
-            // Yes, because nums is a permutation of 0..n-1.
-            // If nums[originalIdx] is in validIndices, then (nums[originalIdx] & k) == k.
-            // And since nums is a permutation, the index targetVal must also be in validIndices?
-            // The target position for value targetVal is index targetVal.
-            // Is targetVal in validIndices?
-            int originalIdx = validIndices.get(i);
-            int targetVal = nums[originalIdx];
-        for (int i = 0; i < size; i++) {
-        // Check if every element can reach its target position
-        
-        }
+if (parent[x] != x) {
+                parent[x] = find(parent[x]); // Path compression
             }
-            // Contradiction.
+            return parent[x];
+        }
+        
+        public void union(int x, int y) {
+            int px = find(x);
+            int py = find(y);
+            if (px == py) return;
+            
+            // Union by rank
+            if (rank[px] < rank[py]) {
+                parent[px] = py;
+            } else if (rank[px] > rank[py]) {
+                parent[py] = px;
+            } else {
+                parent[py] = px;
+                rank[px]++;
+            }
+        }
+    }
+}
