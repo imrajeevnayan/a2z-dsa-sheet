@@ -1,12 +1,12 @@
 {
-  "totalSolved": 202,
-  "currentStreak": 1,
+  "totalSolved": 203,
+  "currentStreak": 2,
   "maxStreak": 25,
-  "lastSyncDate": "2026-10-22",
-  "todayCount": 3,
+  "lastSyncDate": "2026-10-23",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 80,
-    "medium": 107,
+    "medium": 108,
     "hard": 9,
     "basic": 6
   },
@@ -212,7 +212,8 @@
     "LeetCode_Intersection_of_Two_Arrays": true,
     "LeetCode_Longest_Happy_String": true,
     "LeetCode_Maximum_Product_of_Word_Lengths": true,
-    "GeeksForGeeks_Perfect_Numbers": true
+    "GeeksForGeeks_Perfect_Numbers": true,
+    "GeeksForGeeks_Nth_Number_without_Digit_9": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -240,7 +241,8 @@
     "2026-10-18": 7,
     "2026-10-19": 9,
     "2026-10-20": 10,
-    "2026-10-22": 3
+    "2026-10-22": 3,
+    "2026-10-23": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -442,6 +444,7 @@
     "Intersection of Two Arrays",
     "Longest Happy String",
     "Maximum Product of Word Lengths",
-    "Perfect Numbers"
+    "Perfect Numbers",
+    "Nth Number without Digit 9"
   ]
 }
