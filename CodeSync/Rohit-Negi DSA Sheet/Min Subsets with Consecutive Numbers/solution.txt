@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:33:00.068Z
+ * Synced: 2026-10-23T11:33:04.779Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
         int count=0;
         //count starting point 
         for(int n :arr){
-            if(!se)
+            if(!s.contai)
         }
     }
 }
