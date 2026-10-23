@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1352. Product of the Last K Numbers
+ * URL: https://leetcode.com/problems/product-of-the-last-k-numbers/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, Math, Design, Data Stream, Prefix Sum
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-10-23T11:48:22.601Z
+ */
+
+if (num == 0) {
+            // zero aaya to sab reset
+            prefix.clear();
+            prefix.add(1);
+        } else {
+            int last = prefix.get(prefix.size() - 1);
+            prefix.add(last * num);
+        }
+    }
+
+    public void add(int num) {
+    }
+
+    public ProductOfNumbers() {
+        prefix = new ArrayList<>();
+        prefix.add(1); // dummy value
+    private List<Integer> prefix;
+
+
+class ProductOfNumbers {
+    public int getProduct(int k) {
