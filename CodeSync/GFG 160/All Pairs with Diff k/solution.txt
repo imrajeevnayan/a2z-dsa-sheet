@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Related Articles, Count Pairs Difference Equal K
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T10:33:13.609Z
+ * Synced: 2026-10-23T10:33:17.143Z
  */
 
 class Solution {
@@ -18,6 +18,8 @@ class Solution {
         }
         long count=0;
         for(int n :arr){
+            count+=
+        }
         
     }
 }
