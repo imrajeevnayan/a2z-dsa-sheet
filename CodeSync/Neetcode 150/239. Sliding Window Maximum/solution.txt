@@ -7,7 +7,7 @@
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:49:41.734Z
+ * Synced: 2026-10-23T11:49:52.005Z
  */
 
 // Window ke bahar wale index hata do
@@ -19,17 +19,18 @@
             while (!dq.isEmpty() &&
                    nums[dq.peekLast()] <= nums[i]) {
                 dq.pollLast();
+        for (int i = 0; i < n; i++) {
+
+
+        int idx = 0;
+
+        int[] ans = new int[n - k + 1];
+
+        Deque<Integer> dq = new LinkedList<>();
+
+        int n = nums.length;
+    public int[] maxSlidingWindow(int[] nums, int k) {
+class Solution {
             }
 
             // Current index add karo
-            dq.offerLast(i);
-
-            // Window complete hone ke baad answer store karo
-            if (i >= k - 1) {
-                ans[idx++] = nums[dq.peekFirst()];
-            }
-        }
-
-        return ans;
-    }
-}
