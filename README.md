@@ -250,3 +250,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 211 | [Pair Sum Closest to 0](https://www.geeksforgeeks.org/problems/two-numbers-with-sum-closest-to-zero1737/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:38 pm |
 | 212 | [Maximum Triplet product](https://www.geeksforgeeks.org/problems/maximum-triplet-product--170647/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:41 pm |
 | 213 | [Two Pairs with Same Sum](https://www.geeksforgeeks.org/problems/satisfy-the-equation5847/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:43 pm |
+| 214 | [Merge 2 Sorted Linked Lists in Reverse Order](https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:51 pm |

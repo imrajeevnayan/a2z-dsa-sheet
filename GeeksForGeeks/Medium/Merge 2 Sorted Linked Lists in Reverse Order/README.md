@@ -1,0 +1,17 @@
+# Merge 2 Sorted Linked Lists in Reverse Order
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1)
+
+## Solved On
+23 Oct 2026 at 10:51 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1">Merge 2 Sorted Linked Lists in Reverse Order</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 18.6667px;">Given the heads of two linked lists <strong>head1 </strong>and <strong>head2</strong>, where both linked lists are sorted in <strong>non-decreasing</strong> order, <strong>merge</strong> them into a single linked list such that the resulting linked list is sorted in <strong>non-increasing</strong> order.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head1 = 1-&gt;3, head2 = 2-&gt;4<br><strong>Output: </strong>4-&gt;3-&gt;2-&gt;1<br><strong>Explanation: </strong>After merging the two lists in non-increasing order, we have new lists as 4-&gt;3-&gt;2-&gt;1.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700073/Web/Other/blobid0_1724395612.png" width="456" height="215"><br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">1</span> = 5<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">-&gt;</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">10</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">-&gt;15</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">-&gt;40,</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> head</span>2 = 2-&gt;3-&gt;20<br><strong>Output: </strong>40-&gt;20-&gt;15-&gt;10-&gt;5-&gt;3-&gt;2<br><strong>Explanation: </strong>After merging the two lists in non-increasing order, we have new lists as 40-&gt;20-&gt;15-&gt;10-&gt;5-&gt;3-&gt;2.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700073/Web/Other/blobid1_1724395627.png" width="505" height="238"></span></pre>
+<p><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Constraints:</strong><br><span style="font-size: 14pt;">1&nbsp;<span style="font-size: 18px;">≤</span>&nbsp;size of the LinkedLists&nbsp;<span style="font-size: 18px;">≤</span>&nbsp;10</span><sup style="font-size: 14pt;">5</sup><br><span style="font-size: 18.6667px;">0&nbsp;<span style="font-size: 18px;">≤</span>&nbsp;node-&gt;data&nbsp;<span style="font-size: 18px;">≤</span>&nbsp;10<sup>6</sup></span><br></span></p>
