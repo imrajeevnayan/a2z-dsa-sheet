@@ -7,10 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T17:13:53.534Z
+ * Synced: 2026-10-23T17:13:59.637Z
  */
 
-int a = p[0];
+int[] p = map.get(sum);
+
+                    int a = p[0];
                     int b = p[1];
                     int c = i;
                     int d = j;
