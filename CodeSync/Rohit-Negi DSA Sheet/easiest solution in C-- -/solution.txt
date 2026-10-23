@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: easiest solution in C++ :-
+ * URL: https://www.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoft, Company Tags, Zoho, Amazon, Microsoft, Topic Tags, Circular Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T17:19:40.587Z
+ */
+
+class Solution {
+    public Node sortedInsert(Node head, int data) {
+
+        Node newNode = new Node(data);
+
+        // Empty list
+        if (head == null) {
+            newNode.next = newNode;
+            return newNode;
+        }
+
+        Node curr = head;
+
+        // Insert before head (new smallest element)
+        if (data <= head.data) {
+
+            while (curr.next != head) {
+                curr = curr.next;
+            }
+
+            curr.next = newNode;
+            newNode.next = head;
+
+            return newNode; // new head
+        }
+
+        // Find insertion position
+        while (curr.next != head && curr.next.data < data) {
+            curr = curr.next;
+        }
+
+        newNode.next = curr.next;
+        curr.next = newNode;
+
+        return head;
+    }
+}
