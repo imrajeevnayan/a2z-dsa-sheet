@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy Solution Using Java
+ * URL: https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/1
+ * Language: class Solution { int findmin(List<Integer> arr){ int min=Integer.MIN_VALUE; for(int i=0;i<arr.size();i++){ if(arr.get(i)<0&&min<arr.get(i)) min=arr.get(i); } return min; } public long findMaxProduct(List<Integer> arr) { // code here long ans=1; boolean flag=false; for(int i=0;i<arr.size();i++){ if(arr.get(i)!=0){ ans*=arr.get(i); ans=ans%1000000007; flag=true; } } if(!flag) return 0; if(ans<0){ ans=ans/findmin(arr); } return ans; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Maximum Product Subset Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T17:06:06.155Z
+ */
+
+int n = arr.length;
+
+        if (n == 1)
+            return arr[0];
+
+        int countNeg = 0;
+        int countZero = 0;
+        int maxNeg = Integer.MIN_VALUE;
+
+        BigInteger product = BigInteger.ONE;
+
+        for (int x : arr) {
+
+            if (x == 0) {
+                countZero++;
+                continue;
+            }
+
+            if (x < 0) {
+                countNeg++;
+                maxNeg = Math.max(maxNeg, x);
+            }
+
+            product = product.multiply(BigInteger.valueOf(x));
+        }
+
+        if (countZero == n)
+            return 0;
+
+        if (countNeg == 1 && countZero + countNeg == n)
+            return 0;
+
+        if ((countNeg & 1) == 1) {
+            product = product.divide(BigInteger.valueOf(maxNeg));
+        }
+
+        BigInteger mod = BigInteger.valueOf(MOD);
+
+        return product.mod(mod).intValue();
+    }
+}
