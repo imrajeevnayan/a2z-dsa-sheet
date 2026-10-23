@@ -248,3 +248,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 209 | [Max Product Subset](https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:36 pm |
 | 210 | [Anagram](https://www.geeksforgeeks.org/problems/anagram-1587115620/1) | GeeksForGeeks | Easy | 23 Oct 2026 | 10:37 pm |
 | 211 | [Pair Sum Closest to 0](https://www.geeksforgeeks.org/problems/two-numbers-with-sum-closest-to-zero1737/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:38 pm |
+| 212 | [Maximum Triplet product](https://www.geeksforgeeks.org/problems/maximum-triplet-product--170647/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:41 pm |
