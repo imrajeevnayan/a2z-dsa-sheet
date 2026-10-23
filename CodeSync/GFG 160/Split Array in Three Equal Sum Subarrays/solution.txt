@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Prefix Sum, Arrays, Related Articles, Split Array Three Equal Sum Subarrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T17:17:47.785Z
+ * Synced: 2026-10-23T11:35:03.651Z
  */
 
 class Solution {
