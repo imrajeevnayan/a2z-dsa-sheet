@@ -7,13 +7,15 @@
  * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Related Articles, Count Pairs Difference Equal K
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T10:18:53.528Z
+ * Synced: 2026-10-23T10:19:00.006Z
  */
 
 class Solution {
     int countPairs(int[] arr, int k) {
         HashMap<Integer,Integer>map=new HashMap <>();
-        for(int  n :aa)
+        for(int  n :arr){
+            
+        }
         
     }
 }
