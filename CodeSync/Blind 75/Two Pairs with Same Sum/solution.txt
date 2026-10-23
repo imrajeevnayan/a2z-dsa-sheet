@@ -7,22 +7,10 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T17:16:29.296Z
+ * Synced: 2026-10-23T17:16:38.118Z
  */
 
-for (int j = i + 1; j < n; j++) {
-
-                int sum = arr[i] + arr[j];
-
-                if (!map.containsKey(sum)) {
-
-                    map.put(sum, new int[]{i, j});
-
-                } else {
-
-                    int[] p = map.get(sum);
-
-                    int a = p[0];
+int a = p[0];
                     int b = p[1];
                     int c = i;
                     int d = j;
@@ -51,4 +39,15 @@ for (int j = i + 1; j < n; j++) {
     }
 
     private boolean isSmaller(List<Integer> a,
-                              List<Integer> b) {
+             List<Integer> b) {
+
+        for (int i = 0; i < 4; i++) {
+
+            if (!a.get(i).equals(b.get(i))) {
+                return a.get(i) < b.get(i);
+            }
+        }
+
+        return false;
+    }
+}
