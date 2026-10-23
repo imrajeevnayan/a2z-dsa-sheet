@@ -1,34 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 239. Sliding Window Maximum
- * URL: https://leetcode.com/problems/sliding-window-maximum/submissions/2179619126/
+ * URL: https://leetcode.com/problems/sliding-window-maximum/submissions/2179619529/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
  * Runtime: 0 ms
- * Memory: 151.76 MB
- * Synced: 2026-10-23T11:50:22.452Z
+ * Memory: 151.93 MB
+ * Synced: 2026-10-23T11:50:55.146Z
  */
 
-// Window ke bahar wale index hata do
-            while (!dq.isEmpty() && dq.peekFirst() <= i - k) {
-                dq.pollFirst();
-            }
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
 
-            // Current element se chhote elements hata do
-            while (!dq.isEmpty() &&   nums[dq.peekLast()] <= nums[i]) {
+        Deque<Integer> dq = new LinkedList<>();
+        int[] ans = new int[nums.length - k + 1];
+        int idx = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            // remove out of window indices
+            while (!dq.isEmpty() && dq.peekFirst() <= i - k)
+                dq.pollFirst();
+
+            // remove smaller elements
+            while (!dq.isEmpty() && nums[dq.peekLast()] <= nums[i])
                 dq.pollLast();
 
-            }
-            // Current index add karo
             dq.offerLast(i);
 
-            // Window complete hone ke baad answer store karo
-            if (i >= k - 1) {
+            // store answer
+            if (i >= k - 1)
                 ans[idx++] = nums[dq.peekFirst()];
-            }
         }
-
-        return ans;
-    }
-}
