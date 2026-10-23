@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:32:36.010Z
+ * Synced: 2026-10-23T11:32:42.364Z
  */
 
 class Solution {
@@ -15,6 +15,7 @@ class Solution {
         HashSet<Integer> s=new HashSet<>();
         for(int n :arr)s.add(n);
         int count=0;
-        //count starting poi
+        //count starting point 
+        for()
     }
 }
