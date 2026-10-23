@@ -7,9 +7,17 @@
  * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Related Articles, Count Pairs Difference Equal K
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T10:10:45.140Z
+ * Synced: 2026-10-23T10:11:42.035Z
  */
 
-Input: arr[] = [1, 4, 1, 4, 5], k = 3
-Output: 4
-Explanation: There are 4 pairs with absolute difference 3, the pairs are {1, 4}, {1, 4}, {4, 1} and {1, 4}.
+class Solution {
+    int countPairs(int[] arr, int k) {
+        // code here
+        
+    }
+}class Solution {
+    int countPairs(int[] arr, int k) {
+        // code here
+        
+    }
+}
