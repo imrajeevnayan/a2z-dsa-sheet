@@ -7,29 +7,30 @@
  * Topics: Array, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:13:59.710Z
+ * Synced: 2026-10-23T11:14:41.302Z
  */
 
-// Initialize answer with all bits set (equivalent to -1 in two's complement for int)
-        // We will AND this with relevant numbers.
-        int ans = -1; 
-        boolean foundMisplaced = false;
+public DSU(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for (int i = 0; i < n; i++) parent[i] = i;
+        }
         
-        for (int i = 0; i < n; i++) {
-            if (nums[i] != i) {
-                foundMisplaced = true;
-                // Include the value currently at this index
-                ans &= nums[i];
-                // Include the value that SHOULD be at this index (which is i)
-                ans &= i;
+        public int find(int x) {
+            if (parent[x] != x) parent[x] = find(parent[x]);
+            return parent[x];
+        }
+        
+        public void union(int x, int y) {
+            int px = find(x), py = find(y);
+            if (px == py) return;
+            if (rank[px] < rank[py]) parent[px] = py;
+            else if (rank[px] > rank[py]) parent[py] = px;
+            else {
+                parent[py] = px;
+                rank[px]++;
             }
         }
-        
-        // If the array is already sorted, problem states return 0
-        if (!foundMisplaced) {
-            return 0;
-        }
-        
-        return ans;
     }
-}
+        
+        int[] rank;
