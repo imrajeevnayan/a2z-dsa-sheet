@@ -1,30 +1,25 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Editor Settings
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/hashing-bonus-problem/problem/pairs-with-difference-k1713
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-23T07:25:58.102Z
+ * Synced: 2026-10-23T10:34:16.477Z
  */
 
 class Solution {
-    public int maxLen(int[] arr) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int sum = 0, maxLen = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 0) arr[i] = -1;
-            sum += arr[i];
-            if (sum == 0)  maxLen = i + 1;
-            if (map.containsKey(sum)) {
-                maxLen = Math.max(maxLen, i - map.get(sum));
-            } else {
-                map.put(sum, i);
-            }
+    int countPairs(int[] arr, int k) {
+        HashMap<Integer,Integer>map=new HashMap <>();
+        for(int  n :arr){
+            map.put(n,map.getOrDefault(n,0)+1);
         }
-
-        return maxLen;
+        long count=0;
+        for(int n :arr){
+            count+=map.getOrDefault(n+k,0);
+        }
+        return (int)count;
     }
 }
