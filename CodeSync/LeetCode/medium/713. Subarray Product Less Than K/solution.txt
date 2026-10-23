@@ -1,22 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 713. Subarray Product Less Than K
- * URL: https://leetcode.com/problems/subarray-product-less-than-k/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Text
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
- * Memory: 48.51 MB
- * Synced: 2026-10-20T12:24:34.404Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T11:46:46.896Z
  */
 
-product /= nums[left];
-                left++;
-            }
-            // Add number of valid subarrays ending at 'right'
-            count += (right - left + 1);
-        }
-        
-        return count;
-    }
-}
+Input: nums = [10,5,2,6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are:
+[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
