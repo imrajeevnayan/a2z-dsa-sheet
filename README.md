@@ -242,3 +242,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 203 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | LeetCode | Medium | 22 Oct 2026 | 08:34 pm |
 | 204 | [Perfect Numbers](https://www.geeksforgeeks.org/problems/perfect-numbers3207/1?page=6) | GeeksForGeeks | Easy | 22 Oct 2026 | 08:55 pm |
 | 205 | [Nth Number without Digit 9](https://www.geeksforgeeks.org/problems/nth-natural-number/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 05:12 pm |
+| 206 | [Last Digit of a^b](https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 05:14 pm |
