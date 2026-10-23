@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Strings, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:33:56.761Z
+ * Synced: 2026-10-23T11:33:56.549Z
  */
 
-class Solution {
-    public ArrayList<ArrayList<String>> groupShiftedString(String[] arr) {
-        // code here
-        
-    }
-}
+Input: arr = ["acd", "dfg", "wyz", "yab", "mop", "bdfh", "a", "x", "moqs"]
+Output: [["acd", "dfg", "wyz", "yab", "mop"], ["bdfh", "moqs"], ["a", "x"]] 
+Explanation: All shifted strings are grouped together.
