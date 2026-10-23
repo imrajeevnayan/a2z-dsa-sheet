@@ -7,10 +7,14 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T17:16:38.118Z
+ * Synced: 2026-10-23T17:16:48.093Z
  */
 
-int a = p[0];
+} else {
+
+                    int[] p = map.get(sum);
+
+                    int a = p[0];
                     int b = p[1];
                     int c = i;
                     int d = j;
@@ -38,16 +42,13 @@ int a = p[0];
         return ans;
     }
 
-    private boolean isSmaller(List<Integer> a,
-             List<Integer> b) {
-
+    private boolean isSmaller(List<Integer> a,  List<Integer> b) {
         for (int i = 0; i < 4; i++) {
 
             if (!a.get(i).equals(b.get(i))) {
                 return a.get(i) < b.get(i);
             }
         }
-
         return false;
     }
 }
