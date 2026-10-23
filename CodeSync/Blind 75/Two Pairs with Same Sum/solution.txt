@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Two Pairs with Same Sum
+ * URL: https://www.geeksforgeeks.org/problems/satisfy-the-equation5847/1
+ * Language: vector<int> satisfyEqn(int A[], int N) { unordered_map<int,vector<int>> mp; for(int i=0;i<N;i++){ if(mp.find(A[i])==mp.end()) mp[A[i]].push_back(i); else if(mp[A[i]].size()<2) mp[A[i]].push_back(i); } for(int i=0;i<N-1;i++){ for(int j=i+1;j<N;j++){ int sum=A[i]+A[j]; int k=0; while(k<N){ if(k==i or k==j) k++; if(k==i or k==j) k++; if(mp.find(sum-A[k])!=mp.end()){ int size=mp[sum-A[k]].size(); int i1=mp[sum-A[k]][0]; int i2; if(size==2) i2=mp[sum-A[k]][1]; if(i1==i or i1==j or i1==k){ if(size==2) return {i,j,min(k,i2),max(k,i2)}; } else{ return {i,j,min(k,i1),max(k,i1)}; } } k++; } } } return {-1,-1,-1,-1}; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T17:13:53.534Z
+ */
+
+int a = p[0];
+                    int b = p[1];
+                    int c = i;
+                    int d = j;
+
+                    // all indices must be distinct
+                    if (a != c && a != d &&
+                        b != c && b != d) {
+
+                        List<Integer> curr =
+                            Arrays.asList(a, b, c, d);
+
+                        if (ans == null ||
+                            isSmaller(curr, ans)) {
+                            ans = curr;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (ans == null) {
+            return Arrays.asList(-1, -1, -1, -1);
+        }
+
+        return ans;
+    }
+
+    private boolean isSmaller(List<Integer> a,
+                              List<Integer> b) {
+
+        for (int i = 0; i < 4; i++) {
+
+            if (!a.get(i).equals(b.get(i))) {
+                return a.get(i) < b.get(i);
+            }
+        }
+
+        return false;
+    }
+}
