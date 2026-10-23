@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum, Maximum Query
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-23T11:49:52.005Z
+ * Synced: 2026-10-23T11:50:03.745Z
  */
 
 // Window ke bahar wale index hata do
@@ -17,7 +17,7 @@
 
             // Current element se chhote elements hata do
             while (!dq.isEmpty() &&
-                   nums[dq.peekLast()] <= nums[i]) {
+nums[dq.peekLast()] <= nums[i]) {
                 dq.pollLast();
         for (int i = 0; i < n; i++) {
 
@@ -29,8 +29,7 @@
         Deque<Integer> dq = new LinkedList<>();
 
         int n = nums.length;
-    public int[] maxSlidingWindow(int[] nums, int k) {
-class Solution {
             }
 
             // Current index add karo
+            dq.offerLast(i);
