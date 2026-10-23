@@ -7,26 +7,32 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Salutes 24 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T16:06:18.483Z
+ * Synced: 2026-10-23T16:07:22.441Z
  */
 
-public String solve(String A) {
+int[] freq = new int[26];
+
+    public String solve(String A) {
 public class Solution {
 
-import java.util.*;
-        LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
-
-        for(char ch : A.toCharArray()) {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        for (int i = 0; i < A.length(); i++) {
+            freq[A.charAt(i) - 'a']++;
         }
 
-        StringBuilder ans = new StringBuilder();
+        boolean[] visited = new boolean[26];
+        StringBuilder sb = new StringBuilder();
 
-        for(char ch : map.keySet()) {
-            ans.append(ch);
-            ans.append(map.get(ch));
+        for (int i = 0; i < A.length(); i++) {
+            char ch = A.charAt(i);
+            int idx = ch - 'a';
+
+            if (!visited[idx]) {
+                sb.append(ch);
+                sb.append(freq[idx]);
+                visited[idx] = true;
+            }
         }
 
-        return ans.toString();
+        return sb.toString();
     }
 }
