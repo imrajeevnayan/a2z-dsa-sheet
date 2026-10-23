@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: EASY C++ 6 LINE SOLUTION + BONUS SOLUTION
+ * URL: https://www.geeksforgeeks.org/problems/nth-natural-number/1
+ * Language: long long findNth(long long n) { long long base = 1, result = 0; while (n > 0) { result += (n % 9) * base; base *= 10; n /= 9; } return result; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Mathematics, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T11:42:33.280Z
+ */
+
+import java.math.BigInteger;
+
+class Solution {
+    public String findNth(String n) {
+
+        BigInteger num = new BigInteger(n);
+        BigInteger nine = BigInteger.valueOf(9);
+
+        StringBuilder ans = new StringBuilder();
+
+        while (num.compareTo(BigInteger.ZERO) > 0) {
+
+            BigInteger[] divRem = num.divideAndRemainder(nine);
+
+            ans.append(divRem[1]);
+            num = divRem[0];
+        }
+
+        return ans.reverse().toString();
+    }
+}
