@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 3644. Maximum K to Sort a Permutation
- * URL: https://leetcode.com/problems/maximum-k-to-sort-a-permutation/description/?envType=daily-question&envId=2026-10-23
+ * URL: https://leetcode.com/problems/maximum-k-to-sort-a-permutation/?envType=daily-question&envId=2026-10-23
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-23T11:11:45.172Z
+ * Synced: 2026-10-23T11:13:59.710Z
  */
 
-class Solution {
-    public int sortPermutation(int[] nums) {
+// Initialize answer with all bits set (equivalent to -1 in two's complement for int)
+        // We will AND this with relevant numbers.
+        int ans = -1; 
+        boolean foundMisplaced = false;
         
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != i) {
+                foundMisplaced = true;
+                // Include the value currently at this index
+                ans &= nums[i];
+                // Include the value that SHOULD be at this index (which is i)
+                ans &= i;
+            }
+        }
+        
+        // If the array is already sorted, problem states return 0
+        if (!foundMisplaced) {
+            return 0;
+        }
+        
+        return ans;
     }
 }
