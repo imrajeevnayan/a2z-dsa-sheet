@@ -245,3 +245,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 206 | [Last Digit of a^b](https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 05:14 pm |
 | 207 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | LeetCode | Medium | 23 Oct 2026 | 05:18 pm |
 | 208 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | LeetCode | Hard | 23 Oct 2026 | 05:20 pm |
+| 209 | [Max Product Subset](https://www.geeksforgeeks.org/problems/maximum-product-subset-of-an-array/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:36 pm |
