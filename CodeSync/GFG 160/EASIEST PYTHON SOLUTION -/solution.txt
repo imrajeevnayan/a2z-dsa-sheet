@@ -1,0 +1,41 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: EASIEST PYTHON SOLUTION !
+ * URL: https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/1
+ * Language: class Solution { public: int getLastDigit(string& a, string& b) { if(b == "0")return 1; int ld = (a.back() - '0'); int nb; if(b.size()>=2){ nb = (b[b.size()-2]-'0')*10 + (b.back()-'0'); } else{ nb = (b.back() - '0'); } if(ld == 0 or ld == 1 or ld == 5 or ld == 6)return ld; if(ld == 2 or ld == 3 or ld == 7 or ld == 8){ int p = (nb - 1 + 4)%4 + 1; return int(pow(ld, p))%10; } if(ld == 4 or ld == 9){ int p = (nb - 1 + 2)%2 + 1; return int(pow(ld, p))%10; } } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Samsung, Company Tags, Samsung, Topic Tags, Mathematics, Related Articles, Find Last Digit Of Ab For Large Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T11:44:47.283Z
+ */
+
+class Solution {
+
+    public int getLastDigit(String a, String b) {
+
+        // a^0 = 1 (including 0^0 for this problem)
+        if (b.equals("0"))
+            return 1;
+
+        int lastDigit = a.charAt(a.length() - 1) - '0';
+
+        // b % 4 nikal lo kyunki cycle max 4 ki hoti hai
+        int mod = 0;
+        for (char ch : b.toCharArray()) {
+            mod = (mod * 10 + (ch - '0')) % 4;
+        }
+
+        if (mod == 0)
+            mod = 4;
+
+        int ans = 1;
+
+        // lastDigit^mod ka last digit nikal lo
+        for (int i = 0; i < mod; i++) {
+            ans = (ans * lastDigit) % 10;
+        }
+
+        return ans;
+    }
+}
