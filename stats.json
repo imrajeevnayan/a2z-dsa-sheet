@@ -1,11 +1,11 @@
 {
-  "totalSolved": 207,
+  "totalSolved": 208,
   "currentStreak": 2,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-23",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 80,
+    "easy": 81,
     "medium": 111,
     "hard": 10,
     "basic": 6
@@ -217,7 +217,8 @@
     "GeeksForGeeks_Last_Digit_of_a^b": true,
     "LeetCode_Product_of_the_Last_K_Numbers": true,
     "LeetCode_Sliding_Window_Maximum": true,
-    "GeeksForGeeks_Max_Product_Subset": true
+    "GeeksForGeeks_Max_Product_Subset": true,
+    "GeeksForGeeks_Anagram": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -246,7 +247,7 @@
     "2026-10-19": 9,
     "2026-10-20": 10,
     "2026-10-22": 3,
-    "2026-10-23": 5
+    "2026-10-23": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -453,6 +454,7 @@
     "Last Digit of a^b",
     "Product of the Last K Numbers",
     "Sliding Window Maximum",
-    "Max Product Subset"
+    "Max Product Subset",
+    "Anagram"
   ]
 }
