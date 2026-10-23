@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3644. Maximum K to Sort a Permutation
+ * URL: https://leetcode.com/problems/maximum-k-to-sort-a-permutation/description/?envType=daily-question&envId=2026-10-23
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Bit Manipulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-23T11:11:45.172Z
+ */
+
+class Solution {
+    public int sortPermutation(int[] nums) {
+        
+    }
+}
