@@ -2,14 +2,16 @@
  * Platform: LeetCode
  * Problem: 2409. Count Days Spent Together
  * URL: https://leetcode.com/problems/count-days-spent-together/description/?envType=daily-question&envId=2026-10-24
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T09:11:27.397Z
+ * Synced: 2026-10-24T09:11:30.908Z
  */
 
-Input: arriveAlice = "08-15", leaveAlice = "08-18", arriveBob = "08-16", leaveBob = "08-19"
-Output: 3
-Explanation: Alice will be in Rome from August 15 to August 18. Bob will be in Rome from August 16 to August 19. They are both in Rome together on August 16th, 17th, and 18th, so the answer is 3.
+class Solution {
+    public int countDaysTogether(String arriveAlice, String leaveAlice, String arriveBob, String leaveBob) {
+        
+    }
+}
