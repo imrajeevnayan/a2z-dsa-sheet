@@ -1,11 +1,11 @@
 {
-  "totalSolved": 218,
+  "totalSolved": 219,
   "currentStreak": 3,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-24",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
-    "easy": 83,
+    "easy": 84,
     "medium": 119,
     "hard": 10,
     "basic": 6
@@ -228,7 +228,8 @@
     "LeetCode_Reverse_Words_With_Same_Vowel_Count": true,
     "LeetCode_Camelcase_Matching": true,
     "LeetCode_Non-overlapping_Intervals": true,
-    "LeetCode_Minimum_Flips_to_Make_a_OR_b_Equal_to_c": true
+    "LeetCode_Minimum_Flips_to_Make_a_OR_b_Equal_to_c": true,
+    "LeetCode_Sum_of_Root_To_Leaf_Binary_Numbers": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -258,7 +259,7 @@
     "2026-10-20": 10,
     "2026-10-22": 3,
     "2026-10-23": 10,
-    "2026-10-24": 6
+    "2026-10-24": 7
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -476,6 +477,7 @@
     "Reverse Words With Same Vowel Count",
     "Camelcase Matching",
     "Non-overlapping Intervals",
-    "Minimum Flips to Make a OR b Equal to c"
+    "Minimum Flips to Make a OR b Equal to c",
+    "Sum of Root To Leaf Binary Numbers"
   ]
 }

@@ -257,3 +257,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 218 | [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/) | LeetCode | Medium | 24 Oct 2026 | 09:52 pm |
 | 219 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | LeetCode | Medium | 24 Oct 2026 | 09:57 pm |
 | 220 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | LeetCode | Medium | 24 Oct 2026 | 09:59 pm |
+| 221 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | LeetCode | Easy | 24 Oct 2026 | 10:01 pm |
