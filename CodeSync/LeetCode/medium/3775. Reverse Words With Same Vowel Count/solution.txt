@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:09:44.672Z
+ * Synced: 2026-10-24T16:09:45.222Z
  */
 
 // 3. Reconstruct the sentence in reverse order for each group
@@ -31,5 +31,7 @@
             }
         }
         return count;
-    }
-}
+        
+            int vCount = countVowels(word);
+            map.computeIfAbsent(vCount, k -> new ArrayDeque<>()).addLast(word);
+        }
