@@ -1,15 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 435. Non-overlapping Intervals
- * URL: https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&envId=leetcode-75
- * Language: Text
+ * URL: https://leetcode.com/problems/non-overlapping-intervals/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Greedy, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-24T16:26:27.744Z
+ * Synced: 2026-10-24T16:27:30.011Z
  */
 
-Input: intervals = [[1,2],[2,3],[3,4],[1,3]]
-Output: 1
-Explanation: [1,3] can be removed and the rest of the intervals are non-overlapping.
+// 1. Sort intervals by their end time
+        Arrays.sort(intervals, (a, b) -> a[1] - b[1]);
+        
+        int count = 0; // Number of intervals to remove
+        int lastEnd = intervals[0][1]; // End time of the first interval
+        
+        // 2. Iterate from the second interval
+        for (int i = 1; i < intervals.length; i++) {
+            int start = intervals[i][0];
+            int end = intervals[i][1];
+            
+            // If current start is less than lastEnd, it overlaps
+            if (start < lastEnd) {
+                count++; // Remove this interval
+            } else {
+                // No overlap, update lastEnd to current interval's end
+                lastEnd = end;
+        
+    public int eraseOverlapIntervals(int[][] intervals) {
+        if (intervals.length == 0) return 0;
+class Solution {
+            }
+        }
