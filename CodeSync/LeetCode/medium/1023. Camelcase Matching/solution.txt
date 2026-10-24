@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 1023. Camelcase Matching
- * URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
+ * URL: https://leetcode.com/problems/camelcase-matching/?envType=problem-list-v2&envId=da2mv5gs
  * Language: Two Pointers (Copy-two-pointers)
  * Difficulty: Medium
  * Topics: Array, Two Pointers, String, Trie, String Matching
- * Runtime: N/A
+ * Runtime: . S
  * Memory: N/A
- * Synced: 2026-10-24T16:20:20.335Z
+ * Synced: 2026-10-24T16:21:40.652Z
  */
 
-class Solution {
-    public List<Boolean> camelMatch(String[] queries, String pattern) {
+int i = 0; // Pointer for query
+        int j = 0; // Pointer for pattern
         
+        while (i < query.length()) {
+            // Agar pattern khatam ho gaya hai ya characters match kar rahe hain
+            if (j < pattern.length() && query.charAt(i) == pattern.charAt(j)) {
+                i++;
+                j++;
+            } 
+            // Agar character match nahi hua, lekin wo lowercase hai
+            else if (Character.isLowerCase(query.charAt(i))) {
+                i++; // Ignore it, move forward in query
+            } 
+            // Agar character match nahi hua aur wo UPPERCASE hai
+            else {
+                return false; // Invalid match
+            }
+        }
+        
+        // Check karo ki pura pattern match hua ya nahi
+        return j == pattern.length();
     }
 }
