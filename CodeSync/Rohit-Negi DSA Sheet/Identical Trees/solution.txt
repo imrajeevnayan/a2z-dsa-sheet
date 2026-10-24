@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoft, Company Tags, Flipkart, Amazon, Microsoft, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:42:49.307Z
+ * Synced: 2026-10-24T16:42:57.490Z
  */
 
 class Solution {
     public boolean isIdentical(Node r1, Node r2) {
-        if (root1 == null && root2 == null) {
+        if (r1 == null && ro2 == null) {
                   return true;
               }
 
