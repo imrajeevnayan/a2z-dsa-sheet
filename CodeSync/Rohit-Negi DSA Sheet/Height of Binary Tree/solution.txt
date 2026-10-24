@@ -2,15 +2,25 @@
  * Platform: GeeksforGeeks
  * Problem: Height of Binary Tree
  * URL: https://www.geeksforgeeks.org/problems/height-of-binary-tree/1
- * Language: Java (21)
+ * Language: /* Definition for Node class Node { public: int data; Node* left; Node* right; Node(int val) { data = val; left = right = nullptr; } }; */ class Solution { public: int height(Node* root) { // code here if(root == NULL) return -1; int leftH = height(root->left); int rightH = height(root->right); return max(leftH, rightH)+1; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:40:32.469Z
+ * Synced: 2026-10-24T16:40:48.805Z
  */
 
-Input: root = [12, 8, 18, 5, 11]
+class Solution {
+    int height(Node node) {
+        // Base Case: Agar node null hai, toh height 0
+        if (node == null)  return 0;
+        
 
-Output: 2
-Explanation: One of the longest path from the root(node 12) goes through node 8 to node 5, which has 2 edges.
+        // Recursively left aur right subtree ki height nikalo
+        int leftHeight = height(node.left);
+        int rightHeight = height(node.right);
+
+        // Current node ki height = 1 + max(left, right)
+        return 1 + Math.max(leftHeight, rightHeight);
+    }
+}
