@@ -1,0 +1,62 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check if Two Trees are Identical
+ * URL: https://www.geeksforgeeks.org/dsa/write-c-code-to-determine-if-two-trees-are-identical/
+ * Language: #include <iostream> using namespace std; class Node { public: int data; Node *left; Node *right; Node(int x) { data = x; left = right = nullptr; } }; bool isIdentical(Node *r1, Node *r2) { // If both nodes are NULL, they are identical if (r1 == nullptr && r2 == nullptr) return true; // If only one node is NULL, they are not identical if (r1 == nullptr || r2 == nullptr) return false; // Check data and compare left and right subtrees return (r1->data == r2->data) && isIdentical(r1->left, r2->left) && isIdentical(r1->right, r2->right); } int main() { // Create first tree Node *r1 = new Node(1); r1->left = new Node(2); r1->right = new Node(3); r1->left->left = new Node(4); // Create second tree Node *r2 = new Node(1); r2->left = new Node(2); r2->right = new Node(3); r2->left->left = new Node(4); cout << boolalpha << isIdentical(r1, r2) << endl; return 0; }
+ * Difficulty: Unknown
+ * Topics: Placement 360 Course Explore, Placement 360 Course, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:41:43.327Z
+ */
+
+#include <iostream>
+using namespace std;
+
+class Node
+{
+  public:
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int x)
+    {
+        data = x;
+        left = right = nullptr;
+    }
+};
+
+bool isIdentical(Node *r1, Node *r2)
+{
+    // If both nodes are NULL, they are identical
+    if (r1 == nullptr && r2 == nullptr)
+        return true;
+
+    // If only one node is NULL, they are not identical
+    if (r1 == nullptr || r2 == nullptr)
+        return false;
+
+    // Check data and compare left and right subtrees
+    return (r1->data == r2->data) && isIdentical(r1->left, r2->left) && isIdentical(r1->right, r2->right);
+}
+
+int main()
+{
+
+    // Create first tree
+    Node *r1 = new Node(1);
+    r1->left = new Node(2);
+    r1->right = new Node(3);
+    r1->left->left = new Node(4);
+
+    // Create second tree
+    Node *r2 = new Node(1);
+    r2->left = new Node(2);
+    r2->right = new Node(3);
+    r2->left->left = new Node(4);
+
+    cout << boolalpha << isIdentical(r1, r2) << endl;
+
+    return 0;
+}
