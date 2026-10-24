@@ -7,17 +7,16 @@
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 43.50 MB
- * Synced: 2026-10-24T16:33:24.539Z
+ * Synced: 2026-10-24T16:33:36.498Z
  */
 
 return dfs(root, 0);
     }
     
     private int dfs(TreeNode node, int currentSum) {
-        if (node == null) {
-            return 0;
-        }
+        if (node == null) return 0;
         
+
         // Update currentSum using simple math
         // Pichla number double karo aur current node ka value add karo
         currentSum = currentSum * 2 + node.val;
