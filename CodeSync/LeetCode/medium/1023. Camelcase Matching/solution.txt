@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1023. Camelcase Matching
+ * URL: https://leetcode.com/problems/camelcase-matching/description/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Two Pointers, String, Trie, String Matching
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:20:18.113Z
+ */
+
+Input: queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FB"
+Output: [true,false,true,true,false]
+Explanation: "FooBar" can be generated like this "F" + "oo" + "B" + "ar".
+"FootBall" can be generated like this "F" + "oot" + "B" + "all".
+"FrameBuffer" can be generated like this "F" + "rame" + "B" + "uffer".
