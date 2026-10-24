@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoft, Company Tags, Flipkart, Amazon, Microsoft, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:43:26.793Z
+ * Synced: 2026-10-24T16:43:33.105Z
  */
 
 class Solution {
@@ -19,9 +19,9 @@ class Solution {
               
 
               // Case 3: Values match karni chahiye AUR subtrees bhi identical hone chahiye
-              return (r1.data == roo2.data) 
-                  && isIdentical(root1.left, root2.left) 
-                  && isIdentical(root1.right, root2.right);
+              return (r1.data == r2.data) 
+                  && isIdentical(r1.left, root2.left) 
+                  && isIdentical(roo1.right, root2.right);
           }
         
     }
