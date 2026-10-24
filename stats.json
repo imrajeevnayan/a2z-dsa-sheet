@@ -1,12 +1,12 @@
 {
-  "totalSolved": 215,
+  "totalSolved": 216,
   "currentStreak": 3,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-24",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 83,
-    "medium": 116,
+    "medium": 117,
     "hard": 10,
     "basic": 6
   },
@@ -225,7 +225,8 @@
     "GeeksForGeeks_Merge_2_Sorted_Linked_Lists_in_Reverse_Order": true,
     "LeetCode_Number_of_Days_Between_Two_Dates": true,
     "LeetCode_Count_Days_Spent_Together": true,
-    "LeetCode_Reverse_Words_With_Same_Vowel_Count": true
+    "LeetCode_Reverse_Words_With_Same_Vowel_Count": true,
+    "LeetCode_Camelcase_Matching": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -255,7 +256,7 @@
     "2026-10-20": 10,
     "2026-10-22": 3,
     "2026-10-23": 10,
-    "2026-10-24": 3
+    "2026-10-24": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -470,6 +471,7 @@
     "Merge 2 Sorted Linked Lists in Reverse Order",
     "Number of Days Between Two Dates",
     "Count Days Spent Together",
-    "Reverse Words With Same Vowel Count"
+    "Reverse Words With Same Vowel Count",
+    "Camelcase Matching"
   ]
 }
