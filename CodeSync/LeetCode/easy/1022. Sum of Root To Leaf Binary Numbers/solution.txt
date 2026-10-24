@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1022. Sum of Root To Leaf Binary Numbers
+ * URL: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:30:49.205Z
+ */
+
+Input: root = [1,0,1,0,1,0,1]
+Output: 22
+Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
