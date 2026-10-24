@@ -1,11 +1,11 @@
 {
-  "totalSolved": 212,
-  "currentStreak": 2,
+  "totalSolved": 213,
+  "currentStreak": 3,
   "maxStreak": 25,
-  "lastSyncDate": "2026-10-23",
-  "todayCount": 10,
+  "lastSyncDate": "2026-10-24",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 81,
+    "easy": 82,
     "medium": 115,
     "hard": 10,
     "basic": 6
@@ -222,7 +222,8 @@
     "GeeksForGeeks_Pair_Sum_Closest_to_0": true,
     "GeeksForGeeks_Maximum_Triplet_product": true,
     "GeeksForGeeks_Two_Pairs_with_Same_Sum": true,
-    "GeeksForGeeks_Merge_2_Sorted_Linked_Lists_in_Reverse_Order": true
+    "GeeksForGeeks_Merge_2_Sorted_Linked_Lists_in_Reverse_Order": true,
+    "LeetCode_Number_of_Days_Between_Two_Dates": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -251,7 +252,8 @@
     "2026-10-19": 9,
     "2026-10-20": 10,
     "2026-10-22": 3,
-    "2026-10-23": 10
+    "2026-10-23": 10,
+    "2026-10-24": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -463,6 +465,7 @@
     "Pair Sum Closest to 0",
     "Maximum Triplet product",
     "Two Pairs with Same Sum",
-    "Merge 2 Sorted Linked Lists in Reverse Order"
+    "Merge 2 Sorted Linked Lists in Reverse Order",
+    "Number of Days Between Two Dates"
   ]
 }

@@ -251,3 +251,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 212 | [Maximum Triplet product](https://www.geeksforgeeks.org/problems/maximum-triplet-product--170647/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:41 pm |
 | 213 | [Two Pairs with Same Sum](https://www.geeksforgeeks.org/problems/satisfy-the-equation5847/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:43 pm |
 | 214 | [Merge 2 Sorted Linked Lists in Reverse Order](https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1) | GeeksForGeeks | Medium | 23 Oct 2026 | 10:51 pm |
+| 215 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | LeetCode | Easy | 24 Oct 2026 | 02:43 pm |
