@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Two Pointers, String, Trie, String Matching
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-24T16:22:13.641Z
+ * Memory: 42.57 MB
+ * Synced: 2026-10-24T16:22:18.123Z
  */
 
 // Agar pattern khatam ho gaya hai ya characters match kar rahe hain
@@ -24,12 +24,13 @@
         int i = 0; // Pointer for query
         int j = 0; // Pointer for pattern
     private boolean isMatch(String query, String pattern) {
-    }
+            // Agar character match nahi hua aur wo UPPERCASE hai
+            else {
+                return false; // Invalid match
+            }
         }
-        return result;
-            result.add(isMatch(query, pattern));
         
-        for (String query : queries) {
-        List<Boolean> result = new ArrayList<>();
-    public List<Boolean> camelMatch(String[] queries, String pattern) {
-class Solution {
+        // Check karo ki pura pattern match hua ya nahi
+        return j == pattern.length();
+    }
+}
