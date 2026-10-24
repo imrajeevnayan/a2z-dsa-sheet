@@ -7,17 +7,17 @@
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:31:34.566Z
+ * Synced: 2026-10-24T16:31:40.149Z
  */
 
-class Solution {
-    public int sumRootToLeaf(TreeNode root) {
+public int sumRootToLeaf(TreeNode root) {
         return dfs(root, 0);
     }
     
     private int dfs(TreeNode node, int currentSum) {
         if (node == null) {
             return 0;
+class Solution {
         }
         
         // Update currentSum: Shift left by 1 and add current node's value
