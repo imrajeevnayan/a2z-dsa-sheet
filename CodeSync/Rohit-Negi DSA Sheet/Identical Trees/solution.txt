@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoft, Company Tags, Flipkart, Amazon, Microsoft, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:43:14.743Z
+ * Synced: 2026-10-24T16:43:20.091Z
  */
 
 class Solution {
@@ -15,9 +15,9 @@ class Solution {
         if (r1 == null && r2 == null) return true;
               
               // Case 2: Ek null hai aur dusra nahi -> Not Identical
-              if (r1 == null || ro2 == null) {
-                  return false;
-              }
+              if (r1 == null || r2 == null) {
+     return false;
+              
 
               // Case 3: Values match karni chahiye AUR subtrees bhi identical hone chahiye
               return (root1.data == root2.data) 
