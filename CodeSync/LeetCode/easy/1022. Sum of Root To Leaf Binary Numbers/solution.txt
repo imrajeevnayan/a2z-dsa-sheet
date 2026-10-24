@@ -5,24 +5,22 @@
  * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-24T16:31:40.149Z
+ * Runtime: 0 ms
+ * Memory: 43.50 MB
+ * Synced: 2026-10-24T16:33:24.539Z
  */
 
-public int sumRootToLeaf(TreeNode root) {
-        return dfs(root, 0);
+return dfs(root, 0);
     }
     
     private int dfs(TreeNode node, int currentSum) {
         if (node == null) {
             return 0;
-class Solution {
         }
         
-        // Update currentSum: Shift left by 1 and add current node's value
-        // Equivalent to: currentSum * 2 + node.val
-        currentSum = (currentSum << 1) | node.val;
+        // Update currentSum using simple math
+        // Pichla number double karo aur current node ka value add karo
+        currentSum = currentSum * 2 + node.val;
         
         // If it's a leaf node, return the current number
         if (node.left == null && node.right == null) {
@@ -33,3 +31,5 @@ class Solution {
         return dfs(node.left, currentSum) + dfs(node.right, currentSum);
     }
 }
+class Solution {
+    public int sumRootToLeaf(TreeNode root) {
