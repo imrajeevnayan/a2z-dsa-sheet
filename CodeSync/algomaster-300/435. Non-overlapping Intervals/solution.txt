@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 435. Non-overlapping Intervals
- * URL: https://leetcode.com/problems/non-overlapping-intervals/description/?envType=problem-list-v2&envId=array
+ * URL: https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&envId=leetcode-75
  * Language: Text
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-04T05:26:30.690Z
+ * Synced: 2026-10-24T16:26:27.744Z
  */
 
 Input: intervals = [[1,2],[2,3],[3,4],[1,3]]
