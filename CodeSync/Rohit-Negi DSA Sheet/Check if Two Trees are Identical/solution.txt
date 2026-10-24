@@ -7,56 +7,256 @@
  * Topics: Placement 360 Course Explore, Placement 360 Course, Explore
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:41:43.327Z
+ * Synced: 2026-10-24T16:41:47.873Z
  */
 
-#include <iostream>
-using namespace std;
-
-class Node
-{
-  public:
+class Node {
     int data;
-    Node *left;
-    Node *right;
-
+    Node left, right;
+​
+    public Node(int item)
+    {
+        data = item;
+        left = right = null;
+    }
+}
+​
+public class GFG {
+    Node root;
+​
+    // Function to check if two trees are identical
+    boolean isIdentical(Node r1, Node r2)
+    {
+        // If both trees are empty, they are identical
+        if (r1 == null && r2 == null)
+            return true;
+        // If only one tree is empty, they are not identical
+        if (r1 == null || r2 == null)
+            return false;
+        // Check data and compare left and right subtrees
+        return (r1.data == r2.data)
+            && isIdentical(r1.left, r2.left)
+            && isIdentical(r1.right, r2.right);
+    }
+​
+    public static void main(String[] args)
+    {
+        GFG tree1 = new GFG();
+        tree1.root = new Node(1);
+        tree1.root.left = new Node(2);
+        tree1.root.right = new Node(3);
+        tree1.root.left.left = new Node(4);
+​
+        GFG tree2 = new GFG();
+        tree2.root = new Node(1);
+        tree2.root.left = new Node(2);
+        tree2.root.right = new Node(3);
+        tree2.root.left.left = new Node(4);
+​
+        if (tree1.isIdentical(tree1.root, tree2.root))
+            System.out.println("Both trees are identical");
+        else
+            System.out.println("Trees are not identical");
+    }
+}
+import java.util.LinkedList;
+import java.util.Queue;
+​
+class Node {
+    int data;
+    Node left, right;
+​
+    public Node(int item)
+    {
+        data = item;
+        left = right = null;
+    }
+}
+​
+public class GFG {
+    Node root;
+​
+    boolean isIdentical(Node r1, Node r2)
+    {
+        Queue<Node> q1 = new LinkedList<Node>();
+        Queue<Node> q2 = new LinkedList<Node>();
+​
+        // Add the roots of both trees
+        q1.add(r1);
+        q2.add(r2);
+​
+        while (!q1.isEmpty() && !q2.isEmpty()) {
+            Node a = q1.peek();
+            Node b = q2.peek();
+​
+            q1.remove();
+            q2.remove();
+​
+            // If both nodes are NULL, continue
+            if (a == null && b == null)
+                continue;
+​
+            // If only one node is NULL, they are not
+            // identical
+            if (a == null || b == null)
+                return false;
+​
+            // If data is different, trees are not identical
+            if (a.data != b.data)
+                return false;
+​
+            // Compare corresponding children
+            q1.add(a.left);
+            q1.add(a.right);
+​
+            q2.add(b.left);
+            q2.add(b.right);
+        }
+​
+        // Both queues should be empty together
+        return q1.isEmpty() && q2.isEmpty();
+    }
+​
+    public static void main(String[] args)
+    {
+        GFG tree1 = new GFG();
+        tree1.root = new Node(1);
+        tree1.root.left = new Node(2);
+        tree1.root.right = new Node(3);
+        tree1.root.left.left = new Node(4);
+​
+        GFG tree2 = new GFG();
+        tree2.root = new Node(1);
+        tree2.root.left = new Node(2);
+        tree2.root.right = new Node(3);
+        tree2.root.left.left = new Node(4);
+​
+        System.out.println(
+            tree1.isIdentical(tree1.root, tree2.root));
+    }
+}
+class Node {
+    int data;
+    Node left;
+    Node right;
+​
     Node(int x)
     {
         data = x;
-        left = right = nullptr;
+        left = right = null;
     }
-};
-
-bool isIdentical(Node *r1, Node *r2)
-{
-    // If both nodes are NULL, they are identical
-    if (r1 == nullptr && r2 == nullptr)
-        return true;
-
-    // If only one node is NULL, they are not identical
-    if (r1 == nullptr || r2 == nullptr)
-        return false;
-
-    // Check data and compare left and right subtrees
-    return (r1->data == r2->data) && isIdentical(r1->left, r2->left) && isIdentical(r1->right, r2->right);
 }
-
-int main()
-{
-
-    // Create first tree
-    Node *r1 = new Node(1);
-    r1->left = new Node(2);
-    r1->right = new Node(3);
-    r1->left->left = new Node(4);
-
-    // Create second tree
-    Node *r2 = new Node(1);
-    r2->left = new Node(2);
-    r2->right = new Node(3);
-    r2->left->left = new Node(4);
-
-    cout << boolalpha << isIdentical(r1, r2) << endl;
-
-    return 0;
+​
+class GFG {
+​
+    // Stores the information of the next node in Morris
+    // preorder traversal
+    static class Result {
+        boolean found;
+        int data;
+        boolean hasLeft;
+        boolean hasRight;
+​
+        Result(boolean found, int data, boolean hasLeft,
+               boolean hasRight)
+        {
+            this.found = found;
+            this.data = data;
+            this.hasLeft = hasLeft;
+            this.hasRight = hasRight;
+        }
+    }
+​
+    // Returns the next node in Morris preorder traversal
+    // and stores its data and child structure
+    static Result getNext(Node[] curr)
+    {
+​
+        while (curr[0] != null) {
+​
+            // If there is no left subtree
+            if (curr[0].left == null) {
+                int data = curr[0].data;
+                boolean hasLeft = false;
+                boolean hasRight = curr[0].right != null;
+​
+                curr[0] = curr[0].right;
+​
+                return new Result(true, data, hasLeft,
+                                  hasRight);
+            }
+​
+            // Find the inorder predecessor
+            Node pred = curr[0].left;
+​
+            while (pred.right != null
+                   && pred.right != curr[0])
+                pred = pred.right;
+​
+            // Create a temporary thread
+            if (pred.right == null) {
+                int data = curr[0].data;
+                boolean hasLeft = true;
+                boolean hasRight = curr[0].right != null;
+​
+                pred.right = curr[0];
+                curr[0] = curr[0].left;
+​
+                return new Result(true, data, hasLeft,
+                                  hasRight);
+            }
+​
+            // Remove the temporary thread
+            pred.right = null;
+            curr[0] = curr[0].right;
+        }
+​
+        return new Result(false, 0, false, false);
+    }
+​
+    static boolean isIdentical(Node r1, Node r2)
+    {
+​
+        Node[] curr1 = { r1 };
+        Node[] curr2 = { r2 };
+​
+        while (true) {
+​
+            Result res1 = getNext(curr1);
+            Result res2 = getNext(curr2);
+​
+            // If both traversals are complete
+            if (!res1.found && !res2.found)
+                return true;
+​
+            // If only one traversal is complete
+            if (res1.found != res2.found)
+                return false;
+​
+            // Compare node data and tree structure
+            if (res1.data != res2.data
+                || res1.hasLeft != res2.hasLeft
+                || res1.hasRight != res2.hasRight)
+                return false;
+        }
+    }
+​
+    public static void main(String[] args)
+    {
+​
+        // Create first tree
+        Node r1 = new Node(1);
+        r1.left = new Node(2);
+        r1.right = new Node(3);
+        r1.left.left = new Node(4);
+​
+        // Create second tree
+        Node r2 = new Node(1);
+        r2.left = new Node(2);
+        r2.right = new Node(3);
+        r2.left.left = new Node(4);
+​
+        // Check whether both trees are identical
+        System.out.println(isIdentical(r1, r2));
+    }
 }
