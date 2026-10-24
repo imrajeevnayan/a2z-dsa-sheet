@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 1318. Minimum Flips to Make a OR b Equal to c
- * URL: https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:28:07.049Z
+ * Synced: 2026-10-24T16:29:01.081Z
  */
 
-class Solution {
-    public int minFlips(int a, int b, int c) {
+int bitA = (a >> i) & 1;
+            int bitB = (b >> i) & 1;
+            int bitC = (c >> i) & 1;
+            
+            if (bitC == 1) {
+                // Agar c ka bit 1 hai, toh a ya b mein se kam se kam ek 1 hona chahiye
+                if (bitA == 0 && bitB == 0) {
+                    flips++; // Kisi ek ko 1 bana do
+                }
+            } else {
+                // Agar c ka bit 0 hai, toh a aur b dono 0 hone chahiye
+                if (bitA == 1) {
+                    flips++; // a ke bit ko 0 karo
+                }
+                if (bitB == 1) {
+                    flips++; // b ke bit ko 0 karo
+                }
+            }
+        }
         
+        return flips;
     }
 }
