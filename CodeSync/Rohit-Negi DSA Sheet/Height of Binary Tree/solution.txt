@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Height of Binary Tree
+ * URL: https://www.geeksforgeeks.org/problems/height-of-binary-tree/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:40:32.801Z
+ */
+
+/* Structure of Binary Tree Node
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int val) {
+        data = val;
+        left = right = null;
+    }
+}*/
+
+class Solution {
+    public int height(Node root) {
+        // code here
+        
+    }
+}
