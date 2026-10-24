@@ -5,33 +5,31 @@
  * Language: Two Pointers (Copy-two-pointers)
  * Difficulty: Medium
  * Topics: Two Pointers, String, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-24T16:09:45.222Z
+ * Synced: 2026-10-24T16:18:51.367Z
  */
 
-// 3. Reconstruct the sentence in reverse order for each group
-        StringBuilder sb = new StringBuilder();
-        for (String word : words) {
-            int vCount = countVowels(word);
-            // Pick the last added word from the same vowel group (LIFO for reverse effect)
-            String replacement = map.get(vCount).removeLast();
-            if (sb.length() > 0) sb.append(" ");
-            sb.append(replacement);
-        }
-        
-        return sb.toString();
-    }
-    
+int count = 0;
+        for (char c : word.toCharArray()) {
     private int countVowels(String word) {
-        int count = 0;
-        for (char c : word.toLowerCase().toCharArray()) {
-            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-                count++;
-            }
-        }
-        return count;
+    
+    }
+        return String.join(" ", words);
+        // 4. Join them back with space
         
-            int vCount = countVowels(word);
-            map.computeIfAbsent(vCount, k -> new ArrayDeque<>()).addLast(word);
         }
+            }
+                words[i] = new StringBuilder(words[i]).reverse().toString();
+                // Reverse the word if vowel count matches
+            if (countVowels(words[i]) == targetVowels) {
+        for (int i = 1; i < words.length; i++) {
+        // 3. Iterate through the rest of the words
+        
+        int targetVowels = countVowels(words[0]);
+        
+        // 2. Find vowel count of the first word
+        // 1. Split the string into words
+        String[] words = s.split(" ");
+class Solution {
+    public String reverseWords(String s) {
