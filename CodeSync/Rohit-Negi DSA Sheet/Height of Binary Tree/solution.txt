@@ -7,23 +7,10 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:40:32.801Z
+ * Synced: 2026-10-24T16:40:32.469Z
  */
 
-/* Structure of Binary Tree Node
-class Node {
-    int data;
-    Node left, right;
+Input: root = [12, 8, 18, 5, 11]
 
-    Node(int val) {
-        data = val;
-        left = right = null;
-    }
-}*/
-
-class Solution {
-    public int height(Node root) {
-        // code here
-        
-    }
-}
+Output: 2
+Explanation: One of the longest path from the root(node 12) goes through node 8 to node 5, which has 2 edges.
