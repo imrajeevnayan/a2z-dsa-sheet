@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Identical Trees
+ * URL: https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoft, Company Tags, Flipkart, Amazon, Microsoft, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:42:10.093Z
+ */
+
+/*
+class Node{
+    int data;
+    Node left, right;
+    Node(int d){
+        data=d;
+        left=right=null;
+    }
+}
+*/
+
+class Solution {
+    public boolean isIdentical(Node r1, Node r2) {
+        // code here
+        
+    }
+}
