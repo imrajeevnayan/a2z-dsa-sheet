@@ -1,15 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 1022. Sum of Root To Leaf Binary Numbers
- * URL: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * URL: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:30:49.205Z
+ * Synced: 2026-10-24T16:31:34.566Z
  */
 
-Input: root = [1,0,1,0,1,0,1]
-Output: 22
-Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+class Solution {
+    public int sumRootToLeaf(TreeNode root) {
+        return dfs(root, 0);
+    }
+    
+    private int dfs(TreeNode node, int currentSum) {
+        if (node == null) {
+            return 0;
+        }
+        
+        // Update currentSum: Shift left by 1 and add current node's value
+        // Equivalent to: currentSum * 2 + node.val
+        currentSum = (currentSum << 1) | node.val;
+        
+        // If it's a leaf node, return the current number
+        if (node.left == null && node.right == null) {
+            return currentSum;
+        }
+        
+        // Recursively calculate sum for left and right subtrees
+        return dfs(node.left, currentSum) + dfs(node.right, currentSum);
+    }
+}
