@@ -1,12 +1,12 @@
 {
-  "totalSolved": 220,
+  "totalSolved": 221,
   "currentStreak": 3,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-24",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 85,
-    "medium": 119,
+    "medium": 120,
     "hard": 10,
     "basic": 6
   },
@@ -230,7 +230,8 @@
     "LeetCode_Non-overlapping_Intervals": true,
     "LeetCode_Minimum_Flips_to_Make_a_OR_b_Equal_to_c": true,
     "LeetCode_Sum_of_Root_To_Leaf_Binary_Numbers": true,
-    "GeeksForGeeks_Two_Sum_-_Pair_with_Given_Sum": true
+    "GeeksForGeeks_Two_Sum_-_Pair_with_Given_Sum": true,
+    "GeeksForGeeks_Height_of_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -260,7 +261,7 @@
     "2026-10-20": 10,
     "2026-10-22": 3,
     "2026-10-23": 10,
-    "2026-10-24": 8
+    "2026-10-24": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -480,6 +481,7 @@
     "Non-overlapping Intervals",
     "Minimum Flips to Make a OR b Equal to c",
     "Sum of Root To Leaf Binary Numbers",
-    "Two Sum - Pair with Given Sum"
+    "Two Sum - Pair with Given Sum",
+    "Height of Binary Tree"
   ]
 }
