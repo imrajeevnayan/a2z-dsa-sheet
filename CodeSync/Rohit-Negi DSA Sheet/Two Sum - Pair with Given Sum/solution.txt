@@ -2,14 +2,32 @@
  * Platform: GeeksforGeeks
  * Problem: Two Sum - Pair with Given Sum
  * URL: https://www.geeksforgeeks.org/problems/key-pair5616/1
- * Language: Java (21)
+ * Language: class Solution { public: bool twoSum(vector<int>& arr, int target) { // code here unordered_set<int>ust; for (const int &data:arr) { if (ust.count(target - data))return true; ust.insert(data); } return false; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:35:30.588Z
+ * Synced: 2026-10-24T16:37:40.472Z
  */
 
-Input: arr[] = [0, -1, 2, -3, 1], target = -2
-Output: true
-Explanation: arr[3] + arr[4] = -3 + 1 = -2
+import java.util.HashSet;
+
+class Solution {
+    boolean twoSum(int arr[], int target) {
+        HashSet<Integer> seen = new HashSet<>();
+
+        for (int num : arr) {
+            int complement = target - num;
+
+            // Agar complement pehle se set mein hai, toh pair mil gaya
+            if (seen.contains(complement)) {
+                return true;
+            }
+
+            // Nahi toh current number ko set mein add karo
+            seen.add(num);
+        }
+
+        return false;
+    }
+}
