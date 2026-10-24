@@ -6,9 +6,6 @@
 # Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, Salutes 24 Minutes Medium Asked in:
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-10-24T08:35:21.921Z
+# Synced: 2026-10-24T08:35:21.117Z
 
-public class Solution {
-    public String multiply(String A, String B) {
-    }
-}
+Output goes here... Test/Submit
