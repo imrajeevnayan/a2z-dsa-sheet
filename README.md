@@ -255,3 +255,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 216 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | LeetCode | Easy | 24 Oct 2026 | 02:45 pm |
 | 217 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | LeetCode | Medium | 24 Oct 2026 | 09:49 pm |
 | 218 | [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/) | LeetCode | Medium | 24 Oct 2026 | 09:52 pm |
+| 219 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | LeetCode | Medium | 24 Oct 2026 | 09:57 pm |
