@@ -1,0 +1,35 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3775. Reverse Words With Same Vowel Count
+ * URL: https://leetcode.com/problems/reverse-words-with-same-vowel-count/?envType=problem-list-v2&envId=da2mv5gs
+ * Language: Two Pointers (Copy-two-pointers)
+ * Difficulty: Medium
+ * Topics: Two Pointers, String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T16:09:44.672Z
+ */
+
+// 3. Reconstruct the sentence in reverse order for each group
+        StringBuilder sb = new StringBuilder();
+        for (String word : words) {
+            int vCount = countVowels(word);
+            // Pick the last added word from the same vowel group (LIFO for reverse effect)
+            String replacement = map.get(vCount).removeLast();
+            if (sb.length() > 0) sb.append(" ");
+            sb.append(replacement);
+        }
+        
+        return sb.toString();
+    }
+    
+    private int countVowels(String word) {
+        int count = 0;
+        for (char c : word.toLowerCase().toCharArray()) {
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                count++;
+            }
+        }
+        return count;
+    }
+}
