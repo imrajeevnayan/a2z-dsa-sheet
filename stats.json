@@ -1,12 +1,12 @@
 {
-  "totalSolved": 217,
+  "totalSolved": 218,
   "currentStreak": 3,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-24",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 83,
-    "medium": 118,
+    "medium": 119,
     "hard": 10,
     "basic": 6
   },
@@ -227,7 +227,8 @@
     "LeetCode_Count_Days_Spent_Together": true,
     "LeetCode_Reverse_Words_With_Same_Vowel_Count": true,
     "LeetCode_Camelcase_Matching": true,
-    "LeetCode_Non-overlapping_Intervals": true
+    "LeetCode_Non-overlapping_Intervals": true,
+    "LeetCode_Minimum_Flips_to_Make_a_OR_b_Equal_to_c": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -257,7 +258,7 @@
     "2026-10-20": 10,
     "2026-10-22": 3,
     "2026-10-23": 10,
-    "2026-10-24": 5
+    "2026-10-24": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -474,6 +475,7 @@
     "Count Days Spent Together",
     "Reverse Words With Same Vowel Count",
     "Camelcase Matching",
-    "Non-overlapping Intervals"
+    "Non-overlapping Intervals",
+    "Minimum Flips to Make a OR b Equal to c"
   ]
 }
