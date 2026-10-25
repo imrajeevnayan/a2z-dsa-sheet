@@ -265,3 +265,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 226 | [Symmetric Tree](https://www.geeksforgeeks.org/problems/symmetric-tree/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 11:44 am |
 | 227 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | LeetCode | Easy | 25 Oct 2026 | 12:18 pm |
 | 228 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | LeetCode | Medium | 25 Oct 2026 | 12:24 pm |
+| 229 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | LeetCode | Medium | 25 Oct 2026 | 12:25 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 226,
+  "totalSolved": 227,
   "currentStreak": 4,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-25",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 88,
-    "medium": 122,
+    "medium": 123,
     "hard": 10,
     "basic": 6
   },
@@ -236,7 +236,8 @@
     "LeetCode_Number_of_Closed_Islands": true,
     "GeeksForGeeks_Symmetric_Tree": true,
     "LeetCode_Combine_Two_Tables": true,
-    "LeetCode_Nth_Highest_Salary": true
+    "LeetCode_Nth_Highest_Salary": true,
+    "LeetCode_Rank_Scores": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -267,7 +268,7 @@
     "2026-10-22": 3,
     "2026-10-23": 10,
     "2026-10-24": 10,
-    "2026-10-25": 4
+    "2026-10-25": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -493,6 +494,7 @@
     "Number of Closed Islands",
     "Symmetric Tree",
     "Combine Two Tables",
-    "Nth Highest Salary"
+    "Nth Highest Salary",
+    "Rank Scores"
   ]
 }
