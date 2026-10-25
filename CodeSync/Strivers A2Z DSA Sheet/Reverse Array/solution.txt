@@ -2,17 +2,26 @@
  * Platform: GeeksforGeeks
  * Problem: Reverse Array
  * URL: https://www.geeksforgeeks.org/problems/reverse-an-array/1
- * Language: Java (21)
+ * Language: class Solution { public void reverseArray(int arr[]) { // code here int i=0, j=arr.length-1; while(i<j){ arr[i]=arr[i]+arr[j]; arr[j]=arr[i]-arr[j]; arr[i]=arr[i]-arr[j]; i++; j--; } } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, TCS, Adobe, Google, Infosys
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T17:52:20.118Z
+ * Synced: 2026-10-25T18:13:29.155Z
  */
 
 class Solution {
     public void reverseArray(int arr[]) {
-        // code here
-        
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            left++;
+            right--;
+        }
     }
 }
