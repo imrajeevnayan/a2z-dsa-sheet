@@ -277,3 +277,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 238 | [Reverse Array in Groups](https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksForGeeks | Basic | 25 Oct 2026 | 11:52 pm |
 | 239 | [Rotate Array](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksForGeeks | Medium | 25 Oct 2026 | 11:59 pm |
 | 240 | [Overlapping Intervals](https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:03 am |
+| 241 | [Max Occured in n Ranges](https://www.geeksforgeeks.org/problems/maximum-occured-integer4602/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:04 am |
