@@ -7,13 +7,13 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T12:10:28.305Z
+ * Synced: 2026-10-25T12:10:31.747Z
  */
 
 class Solution {
     public int calculateScore(int a, int b) {
         int s1=Integer.bitCount(a);
-        int
+        int s2=Int
         
     }
 }
