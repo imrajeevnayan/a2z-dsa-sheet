@@ -7,15 +7,12 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T11:20:11.594Z
+ * Synced: 2026-10-25T11:20:30.357Z
  */
 
 SELECT a. Num as ConsecutiveNums
-FROM
-Logs
-JOIN
-Logs
-ON a. id
+FROM  Logs
+JOIN  LogON a. id
 JOIN
 Logs
 ON a.
@@ -25,4 +22,4 @@ b.id+l AND
 c.id+2 AND
 a. num
 a. num
-c. num
+c. num;
