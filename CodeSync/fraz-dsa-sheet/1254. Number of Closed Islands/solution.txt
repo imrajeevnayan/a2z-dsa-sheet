@@ -2,16 +2,15 @@
  * Platform: LeetCode
  * Problem: 1254. Number of Closed Islands
  * URL: https://leetcode.com/problems/number-of-closed-islands/description/?envType=daily-question&envId=2026-10-25
- * Language: Daily Question
+ * Language: Text
  * Difficulty: Medium
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:10:07.775Z
+ * Synced: 2026-10-25T06:10:05.764Z
  */
 
-class Solution {
-    public int closedIsland(int[][] grid) {
-        
-    }
-}
+Input: grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
+Output: 2
+Explanation: 
+Islands in gray are closed because they are completely surrounded by water (group of 1s).
