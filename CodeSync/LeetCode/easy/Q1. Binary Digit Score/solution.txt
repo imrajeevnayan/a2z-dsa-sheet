@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T12:11:07.065Z
+ * Synced: 2026-10-25T12:11:08.793Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         int s1=Integer.bitCount(a);
         int s2=Integer.bitCount(b);
         if(s1>=s2) return s1*s2;
-        else r
+        else return s1
         
     }
 }
