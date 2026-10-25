@@ -2,27 +2,51 @@
  * Platform: GeeksforGeeks
  * Problem: Rotate Array
  * URL: https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
- * Language: Java (21)
+ * Language: class Solution: def rotateArr(self, arr, d): # code here def rotate(start,end): n = start+end while start <= n//2: arr[start],arr[end] = arr[end],arr[start] start += 1 end -= 1 return arr n = len(arr) d = d % n rotate(0,d-1) rotate(d,n-1) rotate(0,n-1)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, MAQ Software, Codenation, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-04T18:20:25.441Z
+ * Synced: 2026-10-25T18:27:49.074Z
  */
 
 class Solution {
-    static void rev(int []arr,int start,int end){
-        while(start < end){
-            int temp=arr[start];
-            arr[start++]=arr[end];
-            arr[end--]=temp;
-        }
+
+    public void rotateArr(int[] arr, int d) {
+
+        int n = arr.length;
+
+        // Agar d array size se bada ho
+        // to unnecessary rotations avoid karne ke liye
+        d = d % n;
+
+        // Step-1:
+        // Pehle d elements reverse karo
+        reverse(arr, 0, d - 1);
+
+        // Step-2:
+        // Remaining elements reverse karo
+        reverse(arr, d, n - 1);
+
+        // Step-3:
+        // Poora array reverse karo
+        reverse(arr, 0, n - 1);
     }
-    static void rotateArr(int arr[], int d) {
-        int n=arr.length;
-         d=d %n;
-         rev(arr,0,d-1);
-         rev(arr,d,n-1);
-         rev(arr,0,n-1);
+
+    // Array ka particular portion reverse karne wala helper method
+    private void reverse(int[] arr, int left, int right) {
+
+        // Jab tak pointers cross nahi karte
+        while (left < right) {
+
+            // Swap karo
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            // Pointers move karo
+            left++;
+            right--;
+        }
     }
 }
