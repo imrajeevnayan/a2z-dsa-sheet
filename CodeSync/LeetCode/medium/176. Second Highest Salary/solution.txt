@@ -7,10 +7,9 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:49:13.837Z
+ * Synced: 2026-10-25T06:49:14.154Z
  */
 
-SELECT p.firstName,p.lastName,a.city,a.state
-FROM Person p
-LEFT JOIN Address a
-ON p.personId = a.personId;
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary < (SELECT MAX(salary) FROM Employee);
