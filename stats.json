@@ -1,14 +1,14 @@
 {
-  "totalSolved": 235,
+  "totalSolved": 236,
   "currentStreak": 4,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-25",
-  "todayCount": 13,
+  "todayCount": 14,
   "difficultyCounts": {
     "easy": 95,
     "medium": 124,
     "hard": 10,
-    "basic": 6
+    "basic": 7
   },
   "syncedProblems": {
     "GeeksForGeeks_Check_Level_Anagrams_in_Binary_Trees": true,
@@ -245,7 +245,8 @@
     "GeeksForGeeks_Sum_of_Beauty_of_All_Substrings": true,
     "GeeksForGeeks_Second_Largest": true,
     "GeeksForGeeks_Third_Largest": true,
-    "GeeksForGeeks_Reverse_Array": true
+    "GeeksForGeeks_Reverse_Array": true,
+    "GeeksForGeeks_Reverse_Array_in_Groups": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -276,7 +277,7 @@
     "2026-10-22": 3,
     "2026-10-23": 10,
     "2026-10-24": 10,
-    "2026-10-25": 13
+    "2026-10-25": 14
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -511,6 +512,7 @@
     "Sum of Beauty of All Substrings",
     "Second Largest",
     "Third Largest",
-    "Reverse Array"
+    "Reverse Array",
+    "Reverse Array in Groups"
   ]
 }
