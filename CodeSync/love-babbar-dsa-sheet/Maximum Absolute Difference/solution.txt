@@ -7,7 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:51:53.974Z
+ * Synced: 2026-10-25T15:51:54.768Z
  */
 
-Output goes here... Test/Submit
+public class Solution {
+    public int maxArr(int[] A) {
+    }
+}
