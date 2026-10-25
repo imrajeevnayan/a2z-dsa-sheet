@@ -7,23 +7,27 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-17T17:35:33.918Z
+ * Synced: 2026-10-25T19:05:19.552Z
  */
 
 class Solution {
     void pushZerosToEnd(int[] arr) {
-        int j = 0; // Pointer for next non-zero position
 
-        // Step 1: Saare non-zero elements ko shuruwat mein lao
+        int j = 0; // Next non-zero element ki position
+
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != 0) {
-                arr[j++] = arr[i];
-            }
-        }
 
-        // Step 2: Baaki bacha hua part zeros se fill karo
-        while (j < arr.length) {
-            arr[j++] = 0;
+            // Agar current element non-zero hai
+            if (arr[i] != 0) {
+
+                // Swap arr[i] aur arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+
+                // Next position par move karo
+                j++;
+            }
         }
     }
 }
