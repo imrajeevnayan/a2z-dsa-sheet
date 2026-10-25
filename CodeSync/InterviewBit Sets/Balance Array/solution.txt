@@ -7,10 +7,37 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:52:27.208Z
+ * Synced: 2026-10-25T15:53:31.654Z
  */
 
-public class Solution {
-    public int solve(int[] A) {
+oddPrefix[i] = oddPrefix[i - 1];
+
+            if (i % 2 == 0)
+                evenPrefix[i] += A[i];
+            else
+                oddPrefix[i] += A[i];
+        }
+
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            long leftEven = (i > 0) ? evenPrefix[i - 1] : 0;
+            long leftOdd = (i > 0) ? oddPrefix[i - 1] : 0;
+
+            long totalEven = evenPrefix[n - 1];
+            long totalOdd = oddPrefix[n - 1];
+
+            long rightEven = totalEven - evenPrefix[i];
+            long rightOdd = totalOdd - oddPrefix[i];
+
+            long newEvenSum = leftEven + rightOdd;
+            long newOddSum = leftOdd + rightEven;
+
+            if (newEvenSum == newOddSum)
+                count++;
+        }
+
+        return count;
     }
 }
