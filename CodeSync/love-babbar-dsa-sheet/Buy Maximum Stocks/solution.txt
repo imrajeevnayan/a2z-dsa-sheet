@@ -7,47 +7,48 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Buy Maximum Stocks Stocks Can Bought Th Day
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T18:40:48.054Z
+ * Synced: 2026-10-25T18:41:22.418Z
  */
 
-Pair(int price, int maxStocks) {
+int price;
+        int stocks;
+
+        Pair(int price, int stocks) {
             this.price = price;
-            this.maxStocks = maxStocks;
+            this.stocks = stocks;
         }
     }
 
     public static int buyMaximumProducts(int k, int[] price) {
 
-        int n = price.length;
+        PriorityQueue<Pair> pq =
+                new PriorityQueue<>((a, b) -> a.price - b.price);
 
-        List<Pair> list = new ArrayList<>();
-
-        // Day i par maximum i+1 stocks buy kar sakte hain
-        for (int i = 0; i < n; i++) {
-            list.add(new Pair(price[i], i + 1));
+        // Heap me sab days daal do
+        for (int i = 0; i < price.length; i++) {
+            pq.offer(new Pair(price[i], i + 1));
         }
 
-        // Cheapest stock pehle kharidne ke liye sort karo
-        Collections.sort(list, (a, b) -> a.price - b.price);
+        int ans = 0;
 
-        int stocks = 0;
+        while (!pq.isEmpty()) {
 
-        for (Pair p : list) {
+            Pair curr = pq.poll();
 
-            // Agar poore allowed stocks kharid sakte hain
-            if (k >= p.price * p.maxStocks) {
+            int cost = curr.price * curr.stocks;
 
-                k -= p.price * p.maxStocks;
-                stocks += p.maxStocks;
-            }
-            else {
+            // Agar poore stocks kharid sakte hain
+            if (k >= cost) {
+                k -= cost;
+                ans += curr.stocks;
+            } else {
 
-                // Jitne buy kar sakte hain utne kharid lo
-                stocks += k / p.price;
+                // Jitne afford kar sakte hain
+                ans += k / curr.price;
                 break;
             }
         }
 
-        return stocks;
+        return ans;
     }
 }
