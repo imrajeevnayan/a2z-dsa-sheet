@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse Array in Groups
+ * URL: https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Adobe, Company Tags, Adobe, Topic Tags, Arrays, Related Interview Experiences, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:21:29.799Z
+ */
+
+class Solution {
+    public void reverseInGroups(int[] arr, int k) {
+        // code here
+        
+    }
+}
