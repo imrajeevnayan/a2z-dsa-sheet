@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:53:25.415Z
+ * Synced: 2026-10-25T06:53:35.213Z
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
@@ -16,5 +16,5 @@ BEGIN
 RETURN(
 SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC
 LIMIT 1 OFFSET N 
-
+);
 END
