@@ -1,11 +1,11 @@
 {
-  "totalSolved": 234,
+  "totalSolved": 235,
   "currentStreak": 4,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-25",
-  "todayCount": 12,
+  "todayCount": 13,
   "difficultyCounts": {
-    "easy": 94,
+    "easy": 95,
     "medium": 124,
     "hard": 10,
     "basic": 6
@@ -244,7 +244,8 @@
     "LeetCode_Customers_Who_Never_Order": true,
     "GeeksForGeeks_Sum_of_Beauty_of_All_Substrings": true,
     "GeeksForGeeks_Second_Largest": true,
-    "GeeksForGeeks_Third_Largest": true
+    "GeeksForGeeks_Third_Largest": true,
+    "GeeksForGeeks_Reverse_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -275,7 +276,7 @@
     "2026-10-22": 3,
     "2026-10-23": 10,
     "2026-10-24": 10,
-    "2026-10-25": 12
+    "2026-10-25": 13
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -509,6 +510,7 @@
     "Customers Who Never Order",
     "Sum of Beauty of All Substrings",
     "Second Largest",
-    "Third Largest"
+    "Third Largest",
+    "Reverse Array"
   ]
 }
