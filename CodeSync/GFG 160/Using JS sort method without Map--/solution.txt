@@ -7,29 +7,36 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T18:36:44.899Z
+ * Synced: 2026-10-25T18:37:04.322Z
  */
 
 class Solution {
+
+    class Pair {
+        int value;
+        int diff;
+
+        Pair(int value, int diff) {
+            this.value = value;
+            this.diff = diff;
+        }
+    }
+
     public void rearrange(int[] arr, int x) {
 
-        // Integer array banao kyunki Arrays.sort comparator
-        // primitive int[] par kaam nahi karta
-        Integer[] temp = new Integer[arr.length];
+        List<Pair> list = new ArrayList<>();
 
-        // int[] -> Integer[] copy
-        for (int i = 0; i < arr.length; i++) {
-            temp[i] = arr[i];
+        // value aur uska absolute difference store karo
+        for (int num : arr) {
+            list.add(new Pair(num, Math.abs(num - x)));
         }
 
-        // Absolute difference ke basis par sort karo
-        Arrays.sort(temp, (a, b) ->
-            Math.abs(a - x) - Math.abs(b - x)
-        );
+        // Difference ke basis par stable sort
+        Collections.sort(list, (a, b) -> a.diff - b.diff);
 
-        // Sorted values wapas original array me daal do
+        // Wapas original array me bhar do
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = temp[i];
+            arr[i] = list.get(i).value;
         }
     }
 }
