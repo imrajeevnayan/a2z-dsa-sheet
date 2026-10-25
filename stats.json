@@ -1,12 +1,12 @@
 {
-  "totalSolved": 237,
-  "currentStreak": 4,
+  "totalSolved": 238,
+  "currentStreak": 5,
   "maxStreak": 25,
-  "lastSyncDate": "2026-10-25",
-  "todayCount": 15,
+  "lastSyncDate": "2026-10-26",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 95,
-    "medium": 125,
+    "medium": 126,
     "hard": 10,
     "basic": 7
   },
@@ -247,7 +247,8 @@
     "GeeksForGeeks_Third_Largest": true,
     "GeeksForGeeks_Reverse_Array": true,
     "GeeksForGeeks_Reverse_Array_in_Groups": true,
-    "GeeksForGeeks_Rotate_Array": true
+    "GeeksForGeeks_Rotate_Array": true,
+    "GeeksForGeeks_Overlapping_Intervals": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -278,7 +279,8 @@
     "2026-10-22": 3,
     "2026-10-23": 10,
     "2026-10-24": 10,
-    "2026-10-25": 15
+    "2026-10-25": 15,
+    "2026-10-26": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -515,6 +517,7 @@
     "Third Largest",
     "Reverse Array",
     "Reverse Array in Groups",
-    "Rotate Array"
+    "Rotate Array",
+    "Overlapping Intervals"
   ]
 }
