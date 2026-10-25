@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Tree, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:42:28.636Z
+ * Synced: 2026-10-25T19:17:26.296Z
  */
 
 Input: root = [10, 5, 5, 2, N, N, 2] 
