@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Consecutive Adjacent Pairs
+ * URL: https://www.geeksforgeeks.org/problems/pairs-of-adjacent-elements4814/1
+ * Language: int adjacentPairs( vector< int > arr ) { return count_if( arr.cbegin()+1, arr.cend(), []( const int& i ){ return i-1 == *prev( &i ); }); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Count Consecutive Pairs Of Same Elements
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:47:25.248Z
+ */
+
+class Solution {
+    public int adjacentPairs(int[] arr) {
+
+        int count = 0;
+
+        // Last element tak nahi jana,
+        // kyunki hume i aur i+1 compare karna hai
+        for (int i = 0; i < arr.length - 1; i++) {
+
+            // Check karo next element current se exactly 1 bada hai ya nahi
+            if (arr[i + 1] == arr[i] + 1) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
