@@ -267,3 +267,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 228 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | LeetCode | Medium | 25 Oct 2026 | 12:24 pm |
 | 229 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | LeetCode | Medium | 25 Oct 2026 | 12:25 pm |
 | 230 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | LeetCode | Medium | 25 Oct 2026 | 05:06 pm |
+| 231 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | LeetCode | Easy | 25 Oct 2026 | 05:27 pm |
