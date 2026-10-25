@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Q3. Count Magical Substring Pairs I
+ * URL: https://leetcode.com/contest/biweekly-contest-194/problems/count-magical-substring-pairs-i/description/
+ * Language: Biweekly Contest 194
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T19:00:06.858Z
+ */
+
+class Solution {
+    public int countMagicalPairs(String s) {
+        
+    }
+}
