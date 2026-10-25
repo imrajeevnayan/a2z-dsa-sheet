@@ -1,14 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 180. Consecutive Numbers
- * URL: https://leetcode.com/problems/consecutive-numbers/
+ * URL: https://leetcode.com/problems/employees-earning-more-than-their-managers/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 85 ms
  * Memory: N/A
- * Synced: 2026-10-25T11:35:57.600Z
+ * Synced: 2026-10-25T11:56:14.015Z
  */
 
-SELECT a. Num as ConsecutiveNums
-FROM  Logs
+SELECT DISTINCT l1.Num AS ConsecutiveNums
+FROM Logs l1
+JOIN Logs l2 ON l1.Id = l2.Id - 1
+JOIN Logs l3 ON l2.Id = l3.Id - 1
+WHERE l1.Num = l2.Num AND l2.Num = l3.Num;
