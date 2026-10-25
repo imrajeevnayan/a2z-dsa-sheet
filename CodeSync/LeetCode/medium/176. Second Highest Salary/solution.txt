@@ -7,7 +7,7 @@
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:49:14.154Z
+ * Synced: 2026-10-25T06:50:26.359Z
  */
 
 SELECT MAX(salary) AS SecondHighestSalary
