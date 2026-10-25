@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 176. Second Highest Salary
+ * URL: https://leetcode.com/problems/second-highest-salary/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T06:49:13.837Z
+ */
+
+SELECT p.firstName,p.lastName,a.city,a.state
+FROM Person p
+LEFT JOIN Address a
+ON p.personId = a.personId;
