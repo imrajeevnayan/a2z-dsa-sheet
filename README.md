@@ -281,3 +281,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 242 | [Maximum Difference](https://www.geeksforgeeks.org/problems/maximum-difference-1587115620/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:05 am |
 | 243 | [Sort by Absolute Difference](https://www.geeksforgeeks.org/problems/sort-by-absolute-difference-1587115621/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:06 am |
 | 244 | [Count Distinct Substrings](https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:09 am |
+| 245 | [Buy Maximum Stocks](https://www.geeksforgeeks.org/problems/buy-maximum-stocks-if-i-stocks-can-be-bought-on-i-th-day/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:10 am |
