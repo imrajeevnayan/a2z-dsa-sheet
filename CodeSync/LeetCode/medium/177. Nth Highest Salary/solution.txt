@@ -5,16 +5,16 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 116 ms
  * Memory: N/A
- * Synced: 2026-10-25T06:53:35.213Z
+ * Synced: 2026-10-25T06:53:59.166Z
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   SET N = N-1;
-RETURN(
-SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC
-LIMIT 1 OFFSET N 
-);
+ RETURN(
+  SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC
+  LIMIT 1 OFFSET N 
+   );
 END
