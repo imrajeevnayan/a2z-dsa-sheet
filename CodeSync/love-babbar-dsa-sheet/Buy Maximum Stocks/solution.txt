@@ -7,48 +7,48 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Buy Maximum Stocks Stocks Can Bought Th Day
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T18:41:22.418Z
+ * Synced: 2026-10-25T18:42:20.055Z
  */
 
-int price;
-        int stocks;
+import java.util.*;
 
-        Pair(int price, int stocks) {
+class Solution {
+
+    // Price aur us din kitne maximum stocks le sakte hain
+    static class Pair {
+        int price;
+        int maxStocks;
+
+        Pair(int price, int maxStocks) {
             this.price = price;
-            this.stocks = stocks;
+            this.maxStocks = maxStocks;
         }
     }
 
     public static int buyMaximumProducts(int k, int[] price) {
 
-        PriorityQueue<Pair> pq =
-                new PriorityQueue<>((a, b) -> a.price - b.price);
+        int n = price.length;
 
-        // Heap me sab days daal do
-        for (int i = 0; i < price.length; i++) {
-            pq.offer(new Pair(price[i], i + 1));
+        // (price, allowedStocks) store karne ke liye
+        List<Pair> list = new ArrayList<>();
+
+        // Har day ka data store karo
+        for (int i = 0; i < n; i++) {
+
+            // Day i+1 par maximum i+1 stocks buy kar sakte hain
+            list.add(new Pair(price[i], i + 1));
         }
 
-        int ans = 0;
+        // Sabse sasta stock pehle kharidne ke liye sort karo
+        Collections.sort(list, (a, b) -> a.price - b.price);
 
-        while (!pq.isEmpty()) {
+        int totalStocks = 0;
 
-            Pair curr = pq.poll();
+        // Greedily stocks kharido
+        for (Pair curr : list) {
 
-            int cost = curr.price * curr.stocks;
+            // Current day ke saare allowed stocks kharidne ka cost
+            int cost = curr.price * curr.maxStocks;
 
-            // Agar poore stocks kharid sakte hain
+            // Agar budget enough hai
             if (k >= cost) {
-                k -= cost;
-                ans += curr.stocks;
-            } else {
-
-                // Jitne afford kar sakte hain
-                ans += k / curr.price;
-                break;
-            }
-        }
-
-        return ans;
-    }
-}
