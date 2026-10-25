@@ -261,3 +261,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 222 | [Two Sum - Pair with Given Sum](https://www.geeksforgeeks.org/problems/key-pair5616/1) | GeeksForGeeks | Easy | 24 Oct 2026 | 10:06 pm |
 | 223 | [Height of Binary Tree](https://www.geeksforgeeks.org/problems/height-of-binary-tree/1) | GeeksForGeeks | Medium | 24 Oct 2026 | 10:11 pm |
 | 224 | [Identical Trees](https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1) | GeeksForGeeks | Easy | 24 Oct 2026 | 10:13 pm |
+| 225 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | LeetCode | Medium | 25 Oct 2026 | 11:41 am |
