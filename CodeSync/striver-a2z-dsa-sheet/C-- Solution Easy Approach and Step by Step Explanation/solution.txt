@@ -1,0 +1,42 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Solution || Easy Approach and Step by Step Explanation
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Sum Of Beauty Of All Substrings
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T12:18:22.208Z
+ */
+
+class Solution {
+    public int beautySum(String s) {
+        int n = s.length();
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            int[] freq = new int[26];
+
+            for (int j = i; j < n; j++) {
+
+                freq[s.charAt(j) - 'a']++;
+
+                int maxFreq = 0;
+                int minFreq = Integer.MAX_VALUE;
+
+                for (int k = 0; k < 26; k++) {
+                    if (freq[k] > 0) {
+                        maxFreq = Math.max(maxFreq, freq[k]);
+                        minFreq = Math.min(minFreq, freq[k]);
+                    }
+                }
+
+                ans += (maxFreq - minFreq);
+            }
+        }
+
+        return ans;
+    }
+}
