@@ -270,3 +270,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 231 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | LeetCode | Easy | 25 Oct 2026 | 05:27 pm |
 | 232 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | LeetCode | Easy | 25 Oct 2026 | 05:31 pm |
 | 233 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | LeetCode | Easy | 25 Oct 2026 | 05:37 pm |
+| 234 | [Sum of Beauty of All Substrings](https://www.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 05:48 pm |
