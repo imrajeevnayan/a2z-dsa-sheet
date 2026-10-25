@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTrip, Company Tags, Amazon, Microsoft, MakeMyTrip, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:57:50.666Z
+ * Synced: 2026-10-25T17:52:29.629Z
  */
 
 class Solution {
@@ -17,9 +17,8 @@ class Solution {
         int second = Integer.MIN_VALUE;
         int third = Integer.MIN_VALUE;
 
-        if (arr.size() < 3) {
-            return -1;
-        }
+        if (arr.size() < 3)  return -1;
+        
 
         for (int num : arr) {
 
@@ -36,7 +35,6 @@ class Solution {
                 third = num;
             }
         }
-
         return third;
     }
 }
