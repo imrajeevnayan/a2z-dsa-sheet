@@ -1,0 +1,13 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Balance Array
+ * URL: https://www.interviewbit.com/problems/balance-array/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T15:52:26.646Z
+ */
+
+A = [2, 1, 6, 4]
