@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Q2. Maximize Sum After At Most K Digit Rearrangements
+ * URL: https://leetcode.com/contest/weekly-contest-525/problems/maximize-sum-after-at-most-k-digit-rearrangements/description/
+ * Language: Weekly Contest 525
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T12:13:11.126Z
+ */
+
+class Solution {
+    public int calculateScore(int a, int b) {
+        int s1=Integer.bitCount(a);
+        int s2=Integer.bitCount(b);
+        
+        if(s1>=s2) return s1*s2;
+        return s2/s1;
+        
+    }
+}
