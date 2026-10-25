@@ -7,11 +7,10 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:12:08.204Z
+ * Synced: 2026-10-25T06:12:13.195Z
  */
 
 class Solution {
-    // Function to convert a binary tree into its mirror tree.
     void mirror(Node root) {
         // Base Case: Agar node null hai, kuch nahi karna
         if (root == null) {
