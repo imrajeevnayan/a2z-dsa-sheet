@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Using JS sort method without Map()
+ * URL: https://www.geeksforgeeks.org/problems/sort-by-absolute-difference-1587115621/1
+ * Language: /** * @param {number[]} arr * @param {number} x * @return {void} */ class Solution { rearrange(arr, target) { // code here // let map = new Map(); // for (let i = 0; i<arr.length; i++) { // let abs = Math.abs(target - arr[i]); // map.set(arr[i], abs) // } arr.sort((a, b)=> { let abs1= Math.abs(target-a); let abs2= Math.abs(target-b) if (abs1==abs2) { return a - b } return abs1-abs2 }) return arr } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:36:44.899Z
+ */
+
+class Solution {
+    public void rearrange(int[] arr, int x) {
+
+        // Integer array banao kyunki Arrays.sort comparator
+        // primitive int[] par kaam nahi karta
+        Integer[] temp = new Integer[arr.length];
+
+        // int[] -> Integer[] copy
+        for (int i = 0; i < arr.length; i++) {
+            temp[i] = arr[i];
+        }
+
+        // Absolute difference ke basis par sort karo
+        Arrays.sort(temp, (a, b) ->
+            Math.abs(a - x) - Math.abs(b - x)
+        );
+
+        // Sorted values wapas original array me daal do
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = temp[i];
+        }
+    }
+}
