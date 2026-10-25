@@ -1,0 +1,50 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: #define ll long long
+ * URL: https://www.geeksforgeeks.org/problems/count-of-subarrays5922/1
+ * Language: class Solution { long countSubarray(int arr[], int n, int k) { // code here long position =0; long result =0; for(int i =0;i<n;i++){ if(arr[i]>k) position =i+1; result += position; } return result; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Dynamic Programming, Related Articles, Count Subarrays Whose Maximum Element Greater K
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:43:49.172Z
+ */
+
+class Solution {
+    public int countSubarray(int[] arr, int k) {
+
+        long mod = 1000000007L;
+        int n = arr.length;
+
+        // Total possible subarrays
+        long totalSubarrays = (long) n * (n + 1) / 2;
+
+        long validSubarrays = 0;
+
+        int len = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            // Current element k se chhota ya equal hai
+            if (arr[i] <= k) {
+                len++;
+            }
+            else {
+
+                // Current continuous segment ka contribution
+                validSubarrays += (long) len * (len + 1) / 2;
+
+                // Naya segment start hoga
+                len = 0;
+            }
+        }
+
+        // Last segment add karna na bhoolo
+        validSubarrays += (long) len * (len + 1) / 2;
+
+        // Max > k wale subarrays
+        long ans = totalSubarrays - validSubarrays;
+
+        return (int) (ans % mod);
+    }
+}
