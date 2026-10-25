@@ -1,17 +1,76 @@
 /*
  * Platform: LeetCode
  * Problem: Q3. Count Magical Substring Pairs I
- * URL: https://leetcode.com/contest/biweekly-contest-194/problems/count-magical-substring-pairs-i/description/
+ * URL: https://leetcode.com/contest/biweekly-contest-194/problems/count-magical-substring-pairs-i/
  * Language: Biweekly Contest 194
  * Difficulty: Medium
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T19:00:06.858Z
+ * Synced: 2026-10-25T19:01:12.298Z
  */
 
 class Solution {
+
+
     public int countMagicalPairs(String s) {
-        
+
+
+        int n = s.length();
+
+
+        int[][] distinct = new int[n][n];
+
+
+        // Precompute distinct characters for every substring
+        for (int i = 0; i < n; i++) {
+
+
+            int[] freq = new int[26];
+            int cnt = 0;
+
+
+            for (int j = i; j < n; j++) {
+
+
+                int ch = s.charAt(j) - 'a';
+
+
+                if (freq[ch] == 0)
+                    cnt++;
+
+
+                freq[ch]++;
+
+
+                distinct[i][j] = cnt;
+            }
+        }
+
+
+        long ans = 0;
+
+
+        // Fix partition point j
+        for (int j = 0; j < n - 1; j++) {
+
+
+            int[] count = new int[27];
+
+
+            // All left substrings ending at j
+            for (int i = 0; i <= j; i++) {
+                count[distinct[i][j]]++;
+            }
+
+
+            // All right substrings starting at j+1
+            for (int k = j + 1; k < n; k++) {
+                ans += count[distinct[j + 1][k]];
+            }
+        }
+
+
+        return (int) ans;
     }
 }
