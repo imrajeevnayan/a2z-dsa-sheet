@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1254. Number of Closed Islands
+ * URL: https://leetcode.com/problems/number-of-closed-islands/description/?envType=daily-question&envId=2026-10-25
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T06:10:07.775Z
+ */
+
+class Solution {
+    public int closedIsland(int[][] grid) {
+        
+    }
+}
