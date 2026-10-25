@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 183. Customers Who Never Order
+ * URL: https://leetcode.com/problems/customers-who-never-order/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T12:07:15.937Z
+ */
+
+SELECT c.name AS Customers
+FROM Customers c
+LEFT JOIN Orders o ON c.id = o.customerId
+WHERE o.id IS NULL;
