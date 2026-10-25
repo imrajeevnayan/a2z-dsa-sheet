@@ -1,0 +1,19 @@
+/*
+ * Platform: LeetCode
+ * Problem: 177. Nth Highest Salary
+ * URL: https://leetcode.com/problems/nth-highest-salary/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T06:52:09.882Z
+ */
+
+WITH CTE AS
+SELECT salary,
+OVER (ORDER BY Salary DESC) AS DENSERANK
+FROM Employee
+SELECT Salary SecondHighestSa1ary
+FROM CTE
+WHERE DENSERANK =2;
