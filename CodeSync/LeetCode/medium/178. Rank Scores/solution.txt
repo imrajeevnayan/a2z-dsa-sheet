@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 178. Rank Scores
+ * URL: https://leetcode.com/problems/rank-scores/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T06:54:45.538Z
+ */
+
+SELECT score, 
+DENSE_RANK() OVER (ORDER BY score DESC) AS `rank`
+FROM Scores;
