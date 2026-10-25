@@ -1,16 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 1254. Number of Closed Islands
- * URL: https://leetcode.com/problems/number-of-closed-islands/description/?envType=daily-question&envId=2026-10-25
- * Language: Text
+ * URL: https://leetcode.com/problems/number-of-closed-islands/?envType=daily-question&envId=2026-10-25
+ * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:10:05.764Z
+ * Synced: 2026-10-25T06:11:28.929Z
  */
 
-Input: grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
-Output: 2
-Explanation: 
-Islands in gray are closed because they are completely surrounded by water (group of 1s).
+}
+            }
+        }
+        
+        return count;
+    }
+    
+    private void dfs(int[][] grid, int r, int c) {
+        // Base cases: Out of bounds OR already visited/water
+        if (r < 0 || r >= grid.length || c < 0 || c >= grid[0].length || grid[r][c] != 0) {
+            return;
+        }
+        
+        // Mark current land as visited (using -1 to distinguish from water '1')
+        grid[r][c] = -1;
+        
+        // Explore 4 directions
+        dfs(grid, r + 1, c);
+        dfs(grid, r - 1, c);
+        dfs(grid, r, c + 1);
+        dfs(grid, r, c - 1);
+    }
+}
