@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Third Largest
+ * URL: https://www.geeksforgeeks.org/problems/third-largest-element/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTrip, Company Tags, Amazon, Microsoft, MakeMyTrip, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T15:57:08.337Z
+ */
+
+class Solution {
+    public int thirdLargest(List<Integer> arr) {
+        // code here
+        
+    }
+}
