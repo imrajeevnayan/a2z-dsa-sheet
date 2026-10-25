@@ -272,3 +272,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 233 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | LeetCode | Easy | 25 Oct 2026 | 05:37 pm |
 | 234 | [Sum of Beauty of All Substrings](https://www.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 05:48 pm |
 | 235 | [Second Largest](https://www.geeksforgeeks.org/problems/second-largest3735/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 05:50 pm |
+| 236 | [Third Largest](https://www.geeksforgeeks.org/problems/third-largest-element/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 09:28 pm |
