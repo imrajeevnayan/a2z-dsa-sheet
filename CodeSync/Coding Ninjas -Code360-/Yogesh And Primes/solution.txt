@@ -1,0 +1,52 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Yogesh And Primes
+ * URL: https://www.naukri.com/code360/problems/yogesh-and-primes_16331
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: in Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T19:48:17.451Z
+ */
+
+prime[1] = false;
+ 
+        // Sieve
+        for (int i = 2; i * i <= MAX; i++) {
+ 
+            if (prime[i]) {
+ 
+                for (int j = i * i; j <= MAX; j += i) {
+                    prime[j] = false;
+                }
+            }
+        }
+ 
+        // Prefix count of primes
+        int[] prefix = new int[MAX + 1];
+ 
+        for (int i = 1; i <= MAX; i++) {
+            prefix[i] = prefix[i - 1]
+                    + (prime[i] ? 1 : 0);
+        }
+ 
+        StringBuilder ans = new StringBuilder();
+ 
+        while (q-- > 0) {
+ 
+            StringTokenizer st =
+                    new StringTokenizer(br.readLine());
+ 
+            int A = Integer.parseInt(st.nextToken());
+            int B = Integer.parseInt(st.nextToken());
+            int K = Integer.parseInt(st.nextToken());
+ 
+            int target = prefix[A - 1] + K;
+ 
+            // Even upto B enough primes nahi hain
+            if (prefix[B] < target) {
+ 
+                ans.append("-1\n");
+                continue;
+            }
