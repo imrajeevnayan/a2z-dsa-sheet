@@ -1,0 +1,48 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Distinct Substrings
+ * URL: https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1
+ * Language: https://youtu.be/2PAzUZhHUaQ class Solution { public: struct TrieNode{ TrieNode* child[26]; TrieNode(){ for(int c=0;c<26;c++) child[c]=NULL; } }; int countSubs(string& s) { TrieNode* root=new TrieNode(); int n=s.size(),ans=0; for(int i=0;i<n;i++){ TrieNode* curr=root; for(int j=i;j<n;j++){ int req=s[j]-'a'; if(curr->child[req]==NULL){ ans++; curr->child[req]=new TrieNode(); } curr=curr->child[req]; } } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Trie, Advanced Data Structure, Related Articles, Count Number Of Distinct Substring In A String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:39:05.232Z
+ */
+
+class Solution {
+
+    static class TrieNode {
+        TrieNode[] child = new TrieNode[26];
+    }
+
+    public static int countSubs(String s) {
+
+        TrieNode root = new TrieNode();
+
+        int count = 0;
+
+        int n = s.length();
+
+        // Har suffix insert karo
+        for (int i = 0; i < n; i++) {
+
+            TrieNode curr = root;
+
+            for (int j = i; j < n; j++) {
+
+                int index = s.charAt(j) - 'a';
+
+                // New node => New distinct substring
+                if (curr.child[index] == null) {
+                    curr.child[index] = new TrieNode();
+                    count++;
+                }
+
+                curr = curr.child[index];
+            }
+        }
+
+        return count;
+    }
+}
