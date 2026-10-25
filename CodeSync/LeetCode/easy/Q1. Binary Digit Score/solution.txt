@@ -7,12 +7,12 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T12:10:07.208Z
+ * Synced: 2026-10-25T12:10:14.131Z
  */
 
 class Solution {
     public int calculateScore(int a, int b) {
-        
+        int s1=
         
     }
 }
