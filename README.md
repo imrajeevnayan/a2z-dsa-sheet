@@ -275,3 +275,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 236 | [Third Largest](https://www.geeksforgeeks.org/problems/third-largest-element/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 09:28 pm |
 | 237 | [Reverse Array](https://www.geeksforgeeks.org/problems/reverse-an-array/1) | GeeksForGeeks | Easy | 25 Oct 2026 | 11:43 pm |
 | 238 | [Reverse Array in Groups](https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksForGeeks | Basic | 25 Oct 2026 | 11:52 pm |
+| 239 | [Rotate Array](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksForGeeks | Medium | 25 Oct 2026 | 11:59 pm |
