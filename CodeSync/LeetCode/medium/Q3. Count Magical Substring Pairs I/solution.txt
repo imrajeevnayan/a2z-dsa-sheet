@@ -5,23 +5,15 @@
  * Language: Biweekly Contest 194
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-25T19:01:12.298Z
+ * Synced: 2026-10-25T19:01:24.912Z
  */
 
 class Solution {
-
-
     public int countMagicalPairs(String s) {
-
-
         int n = s.length();
-
-
         int[][] distinct = new int[n][n];
-
-
         // Precompute distinct characters for every substring
         for (int i = 0; i < n; i++) {
 
@@ -74,3 +66,9 @@ class Solution {
         return (int) ans;
     }
 }
+"aba"
+"kkk"
+"abcac"
+2
+4
+7
