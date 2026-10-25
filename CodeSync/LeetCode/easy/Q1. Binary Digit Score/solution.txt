@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Q1. Binary Digit Score
+ * URL: https://leetcode.com/contest/weekly-contest-525/problems/binary-digit-score/description/
+ * Language: Weekly Contest 525
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T12:09:18.531Z
+ */
+
+class Solution {
+    public int calculateScore(int a, int b) {
+        
+    }
+}
