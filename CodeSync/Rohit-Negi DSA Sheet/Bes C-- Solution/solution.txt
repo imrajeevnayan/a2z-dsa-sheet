@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Bes C++ Solution
+ * URL: https://www.geeksforgeeks.org/problems/mirror-tree/1
+ * Language: /* class Node { public: int data; Node *left; Node *right; Node(int x) { data = x; left = right = NULL; } }; */ class Solution { public: void mirror(Node* root) { // code here if(root == nullptr){ return; } mirror(root->left); mirror(root->right); swap(root->left, root->right); } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Morgan Stanley, Accolite, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T06:12:08.204Z
+ */
+
+class Solution {
+    // Function to convert a binary tree into its mirror tree.
+    void mirror(Node root) {
+        // Base Case: Agar node null hai, kuch nahi karna
+        if (root == null) {
+            return;
+        }
+
+        // Swap left and right children
+        Node temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        // Recursively mirror the subtrees
+        mirror(root.left);
+        mirror(root.right);
+    }
+}
