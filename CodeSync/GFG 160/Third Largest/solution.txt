@@ -2,17 +2,41 @@
  * Platform: GeeksforGeeks
  * Problem: Third Largest
  * URL: https://www.geeksforgeeks.org/problems/third-largest-element/1
- * Language: Java (21)
+ * Language: class Solution { public int thirdLargest(int[] arr) { // code here int n = arr.Length; if(n<3) return -1; int[] rank = new int[]{-1,-1,-1}; for(int i=0; i<n ; i++){ int x = arr[i]; if(x>rank[0]){ (x,rank[0]) = (rank[0],x); } if(x>rank[1]){ (x,rank[1]) = (rank[1],x); } if(x>rank[2]){ (x,rank[2]) = (rank[2],x); } } return rank[2]; } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftMakeMyTrip, Company Tags, Amazon, Microsoft, MakeMyTrip, Topic Tags, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:57:08.337Z
+ * Synced: 2026-10-25T15:57:50.666Z
  */
 
 class Solution {
     public int thirdLargest(List<Integer> arr) {
-        // code here
-        
+
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        int third = Integer.MIN_VALUE;
+
+        if (arr.size() < 3) {
+            return -1;
+        }
+
+        for (int num : arr) {
+
+            if (num >= first) {
+                third = second;
+                second = first;
+                first = num;
+            }
+            else if (num >= second) {
+                third = second;
+                second = num;
+            }
+            else if (num >= third) {
+                third = num;
+            }
+        }
+
+        return third;
     }
 }
