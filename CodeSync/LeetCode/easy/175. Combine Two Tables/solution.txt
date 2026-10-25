@@ -1,16 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 175. Combine Two Tables
- * URL: https://leetcode.com/problems/combine-two-tables/description/
+ * URL: https://leetcode.com/problems/combine-two-tables/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:47:48.441Z
+ * Synced: 2026-10-25T06:48:30.111Z
  */
 
-SELECT p.firstName,p.lastName,a.city,a.state
-FROM Person p
 LEFT JOIN Address a
 ON p.personId = a.personId;
+class Solution {
+    // Helper function to check if two subtrees are mirrors of each other
+    private boolean isMirror(Node left, Node right) {
+        // Base Case: Dono null hain -> Mirror hai
+        if (left == null && right == null) return true;
+        
+        // Ek null hai ya values match nahi kar rahi -> Mirror nahi hai
+        if (left == null || right == null || left.data != right.data) return false;
+        
+        // Cross Comparison:
+        // 1. Left ka left == Right ka right (Outer)
+        // 2. Left ka right == Right ka left (Inner)
+        return isMirror(left.left, right.right) 
+            && isMirror(left.right, right.left);
+    }
+
+    public boolean isSymmetric(Node root) {
+        if (root == null) return true;
+        return isMirror(root.left, root.right);
+    }
+}
