@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Buy Maximum Stocks
+ * URL: https://www.geeksforgeeks.org/problems/buy-maximum-stocks-if-i-stocks-can-be-bought-on-i-th-day/1
+ * Language: class Solution { public: int buyMaximumProducts(int n, int k, int price[]) { vector<pair<int,int>> store; for(int i=0;i<n;i++){ store.push_back({price[i],i+1}); } sort(store.begin(),store.end()); int total_stocks=0; for(int i=0;i<n;i++){ int curr=store[i].first; int max_allowed=store[i].second; int can_afford=k/curr; int mini=min(can_afford,max_allowed); total_stocks+=mini; k=k-(mini*curr); if(k<curr){ break; } } return total_stocks; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Buy Maximum Stocks Stocks Can Bought Th Day
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:40:48.054Z
+ */
+
+Pair(int price, int maxStocks) {
+            this.price = price;
+            this.maxStocks = maxStocks;
+        }
+    }
+
+    public static int buyMaximumProducts(int k, int[] price) {
+
+        int n = price.length;
+
+        List<Pair> list = new ArrayList<>();
+
+        // Day i par maximum i+1 stocks buy kar sakte hain
+        for (int i = 0; i < n; i++) {
+            list.add(new Pair(price[i], i + 1));
+        }
+
+        // Cheapest stock pehle kharidne ke liye sort karo
+        Collections.sort(list, (a, b) -> a.price - b.price);
+
+        int stocks = 0;
+
+        for (Pair p : list) {
+
+            // Agar poore allowed stocks kharid sakte hain
+            if (k >= p.price * p.maxStocks) {
+
+                k -= p.price * p.maxStocks;
+                stocks += p.maxStocks;
+            }
+            else {
+
+                // Jitne buy kar sakte hain utne kharid lo
+                stocks += k / p.price;
+                break;
+            }
+        }
+
+        return stocks;
+    }
+}
