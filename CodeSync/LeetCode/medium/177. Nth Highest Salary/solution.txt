@@ -1,23 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 177. Nth Highest Salary
- * URL: https://leetcode.com/problems/nth-highest-salary/description/
+ * URL: https://leetcode.com/problems/nth-highest-salary/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Database
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:52:10.183Z
+ * Synced: 2026-10-25T06:52:44.853Z
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
-    RETURN (
-        SELECT salary FROM (
-            SELECT salary, DENSE_RANK() OVER(ORDER BY salary DESC) AS rnk
-            FROM Employee
-        ) ranked
-        WHERE rnk = N
-        LIMIT 1
-    );
+    CREATE FUNCTION getNthHighestsa1ary(N INT) RETURNS I
+SET N = N-1;
+RETURN(
+SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC
+LIMIT 1 OFFSET N
+EN
 END
