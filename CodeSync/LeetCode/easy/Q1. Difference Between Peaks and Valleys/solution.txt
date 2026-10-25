@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Q1. Difference Between Peaks and Valleys
+ * URL: https://leetcode.com/contest/biweekly-contest-194/problems/difference-between-peaks-and-valleys/description/
+ * Language: Biweekly Contest 194
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:56:25.755Z
+ */
+
+class Solution {
+    public int peakValleyDifference(int[] nums) {
+        
+    }
+}
