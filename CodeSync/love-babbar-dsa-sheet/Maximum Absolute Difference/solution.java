@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Maximum Absolute Difference
+ * URL: https://www.interviewbit.com/problems/maximum-absolute-difference/
+ * Language: Java
+ * Difficulty: Medium
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T15:49:59.777Z
+ */
+
+public class Solution {
+    public int maxArr(int[] A) {
+    }
+}
