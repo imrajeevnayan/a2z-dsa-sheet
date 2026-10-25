@@ -4,30 +4,13 @@
  * URL: https://www.geeksforgeeks.org/problems/symmetric-tree/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AmazonMicrosoft, Company Tags, Amazon, Microsoft, Topic Tags, Tree, Related Articles
+ * Topics: Expected Complexities, Company Tags, Amazon, Microsoft, Topic Tags, Tree, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T06:14:49.824Z
+ * Synced: 2026-10-25T10:31:30.044Z
  */
 
-class Solution {
-    private boolean isMirror(Node left, Node right) {
-        
-        // Base Case: Dono null hain -> Mirror hai
-        if (left == null && right == null) return true;
-
-        // Ek null hai ya values match nahi kar rahi -> Mirror nahi hai
-        if (left == null || right == null || left.data != right.data) return false;
-
-        // Cross Comparison:
-        // 1. Left ka left == Right ka right (Outer)
-        // 2. Left ka right == Right ka left (Inner)
-        return isMirror(left.left, right.right) 
-            && isMirror(left.right, right.left);
-    }
-
-    public boolean isSymmetric(Node root) {
-        if (root == null) return true;
-        return isMirror(root.left, root.right);
-    }
-}
+Input: root = [10, 5, 5, 2, N, N, 2] 
+   
+Output: true
+Explanation: As the left and right half of the above tree is mirror image, the tree is symmetric.
