@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Amazon, Microsoft, Samsung, SAP Labs, Linkedin
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-17T17:35:06.931Z
+ * Synced: 2026-10-25T19:04:55.196Z
  */
 
-class Solution {
-    void pushZerosToEnd(int[] arr) {
-        // code here
-        
-    }
-}
+Input: arr[] = [1, 2, 0, 4, 3, 0, 5, 0]
+Output: [1, 2, 4, 3, 5, 0, 0, 0]
+Explanation: The three zeros are moved to the end while the order of the non-zero elements remains unchanged.
