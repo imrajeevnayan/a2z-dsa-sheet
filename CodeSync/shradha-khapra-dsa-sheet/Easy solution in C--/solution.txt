@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy solution in C++
+ * URL: https://www.geeksforgeeks.org/problems/maximum-occured-integer4602/1
+ * Language: int maxOccured(int n, int l[], int r[], int maxx) { map<int,int> mp; for(int i=0; i<n; i++){ for(int j=l[i]; j<=r[i]; j++){ mp[j]++; } } int max =0; int maxCount =0 ; for(auto it: mp){ if(it.second>maxCount){ maxCount = it.second; max = it.first; } } return max; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Mathematics, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-25T18:34:10.670Z
+ */
+
+class Solution {
+    public int maxOccured(List<Integer> L, List<Integer> R) {
+
+        int maxRange = 0;
+
+        // Maximum R find karo
+        for (int x : R) {
+            maxRange = Math.max(maxRange, x);
+        }
+
+        int[] freq = new int[maxRange + 2];
+
+        // Difference array fill karo
+        for (int i = 0; i < L.size(); i++) {
+
+            freq[L.get(i)]++;
+
+            freq[R.get(i) + 1]--;
+        }
+
+        int maxFreq = freq[0];
+        int ans = 0;
+
+        // Prefix sum aur maximum frequency find karo
+        for (int i = 1; i < freq.length; i++) {
+
+            freq[i] += freq[i - 1];
+
+            if (freq[i] > maxFreq) {
+                maxFreq = freq[i];
+                ans = i;
+            }
+        }
+
+        return ans;
+    }
+}
