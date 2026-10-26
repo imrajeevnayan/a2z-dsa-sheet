@@ -7,7 +7,7 @@
  * Topics: Array, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T07:02:27.594Z
+ * Synced: 2026-10-26T07:02:28.131Z
  */
 
 q.offer(destination);
@@ -24,12 +24,12 @@ q.offer(destination);
     private int[] getPosition(int num, int n) {
 
         int row = n - 1 - (num - 1) / n;
-        int col = (num - 1) % n;
+                    if (!visited[destination]) {
+                        visited[destination] = true;
+                    }
 
-        if (((n - 1 - row) & 1) == 1) {
-            col = n - 1 - col;
-        }
 
-        return new int[]{row, col};
-    }
-}
+                    if (board[r][c] != -1) {
+                        destination = board[r][c];
+                    int destination = next;
+                    int c = pos[1];
