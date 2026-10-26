@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-26T07:09:59.982Z
+ * Synced: 2026-10-26T07:10:04.016Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
         for (int i = 0; i < k; i++) {
             sum += nums[i];
         }
-    
         double maxSum = sum;
         
         // Slide karo
@@ -25,7 +24,7 @@ class Solution {
             sum += nums[i] - nums[i - k]; // Add new, remove old
             maxSum = Math.max(maxSum, sum); // Max update
         }
-        
+
         return maxSum / k;
     }
 }
