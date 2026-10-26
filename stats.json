@@ -1,12 +1,12 @@
 {
-  "totalSolved": 246,
+  "totalSolved": 247,
   "currentStreak": 5,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-26",
-  "todayCount": 9,
+  "todayCount": 10,
   "difficultyCounts": {
     "easy": 95,
-    "medium": 134,
+    "medium": 135,
     "hard": 10,
     "basic": 7
   },
@@ -256,7 +256,8 @@
     "GeeksForGeeks_Buy_Maximum_Stocks": true,
     "GeeksForGeeks_Count_of_Subarrays": true,
     "GeeksForGeeks_Transform_Array_In-Place": true,
-    "LeetCode_Count_Islands_With_Total_Value_Divisible_by_K": true
+    "LeetCode_Count_Islands_With_Total_Value_Divisible_by_K": true,
+    "LeetCode_Group_the_People_Given_the_Group_Size_They_Belong_To": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -288,7 +289,7 @@
     "2026-10-23": 10,
     "2026-10-24": 10,
     "2026-10-25": 15,
-    "2026-10-26": 9
+    "2026-10-26": 10
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -534,6 +535,7 @@
     "Buy Maximum Stocks",
     "Count of Subarrays",
     "Transform Array In-Place",
-    "Count Islands With Total Value Divisible by K"
+    "Count Islands With Total Value Divisible by K",
+    "Group the People Given the Group Size They Belong To"
   ]
 }

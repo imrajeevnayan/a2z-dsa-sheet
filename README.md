@@ -285,3 +285,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 246 | [Count of Subarrays](https://www.geeksforgeeks.org/problems/count-of-subarrays5922/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:13 am |
 | 247 | [Transform Array In-Place](https://www.geeksforgeeks.org/problems/rearrange-an-array-with-o1-extra-space3142/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 12:19 am |
 | 248 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | LeetCode | Medium | 26 Oct 2026 | 11:41 am |
+| 249 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | LeetCode | Medium | 26 Oct 2026 | 11:44 am |
