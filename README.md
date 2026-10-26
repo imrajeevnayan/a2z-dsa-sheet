@@ -288,3 +288,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 249 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | LeetCode | Medium | 26 Oct 2026 | 11:44 am |
 | 250 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | LeetCode | Easy | 26 Oct 2026 | 11:46 am |
 | 251 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | LeetCode | Easy | 26 Oct 2026 | 11:47 am |
+| 252 | [Minimize Max Min Diff with Subarray Removal](https://www.geeksforgeeks.org/problems/minimize-the-difference/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 11:53 am |

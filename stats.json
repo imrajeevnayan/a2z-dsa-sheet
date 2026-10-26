@@ -1,12 +1,12 @@
 {
-  "totalSolved": 249,
+  "totalSolved": 250,
   "currentStreak": 5,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-26",
-  "todayCount": 12,
+  "todayCount": 13,
   "difficultyCounts": {
     "easy": 97,
-    "medium": 135,
+    "medium": 136,
     "hard": 10,
     "basic": 7
   },
@@ -259,7 +259,8 @@
     "LeetCode_Count_Islands_With_Total_Value_Divisible_by_K": true,
     "LeetCode_Group_the_People_Given_the_Group_Size_They_Belong_To": true,
     "LeetCode_Find_the_Number_of_Good_Pairs_I": true,
-    "LeetCode_Find_Common_Elements_Between_Two_Arrays": true
+    "LeetCode_Find_Common_Elements_Between_Two_Arrays": true,
+    "GeeksForGeeks_Minimize_Max_Min_Diff_with_Subarray_Removal": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -291,7 +292,7 @@
     "2026-10-23": 10,
     "2026-10-24": 10,
     "2026-10-25": 15,
-    "2026-10-26": 12
+    "2026-10-26": 13
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -540,6 +541,7 @@
     "Count Islands With Total Value Divisible by K",
     "Group the People Given the Group Size They Belong To",
     "Find the Number of Good Pairs I",
-    "Find Common Elements Between Two Arrays"
+    "Find Common Elements Between Two Arrays",
+    "Minimize Max Min Diff with Subarray Removal"
   ]
 }
