@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T06:15:56.679Z
+ * Synced: 2026-10-26T06:16:06.658Z
  */
 
 class Solution {
@@ -16,9 +16,8 @@ class Solution {
 
         for (int num1 : nums1) {
             for (int num2 : nums2) {
-                if (num1 % (num2 * k) == 0) {
-                    count++;
-                }
+                if (num1 % (num2 * k) == 0)  count++;
+        
             }
         }
 
