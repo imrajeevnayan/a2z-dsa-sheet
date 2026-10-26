@@ -1,12 +1,12 @@
 {
-  "totalSolved": 245,
+  "totalSolved": 246,
   "currentStreak": 5,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-26",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 95,
-    "medium": 133,
+    "medium": 134,
     "hard": 10,
     "basic": 7
   },
@@ -255,7 +255,8 @@
     "GeeksForGeeks_Count_Distinct_Substrings": true,
     "GeeksForGeeks_Buy_Maximum_Stocks": true,
     "GeeksForGeeks_Count_of_Subarrays": true,
-    "GeeksForGeeks_Transform_Array_In-Place": true
+    "GeeksForGeeks_Transform_Array_In-Place": true,
+    "LeetCode_Count_Islands_With_Total_Value_Divisible_by_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -287,7 +288,7 @@
     "2026-10-23": 10,
     "2026-10-24": 10,
     "2026-10-25": 15,
-    "2026-10-26": 8
+    "2026-10-26": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -532,6 +533,7 @@
     "Count Distinct Substrings",
     "Buy Maximum Stocks",
     "Count of Subarrays",
-    "Transform Array In-Place"
+    "Transform Array In-Place",
+    "Count Islands With Total Value Divisible by K"
   ]
 }
