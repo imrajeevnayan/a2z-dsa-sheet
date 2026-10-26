@@ -6,29 +6,31 @@
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-26T18:46:44.599Z
+ * Memory: 42.58 MB
+ * Synced: 2026-10-26T18:48:49.042Z
  */
 
-}
-        if (dp[i] != null) {
-            return dp[i];
-
-        }
-            return 0;
-        if (i >= days.length) {
-    private int dfs(int i) {
+this.days = days;
+        this.costs = costs;
+        dp = new Integer[days.length];
 
         return dfs(0);
     }
 
-        dp = new Integer[days.length];
-        this.days = days;
-        this.costs = costs;
+    private int dfs(int i) {
+        if (i >= days.length) {
+            return 0;
+        }
 
-    public int mincostTickets(int[] days, int[] costs) {
-    private int[] costs;
-    private Integer[] dp;
-    private int[] days;
+        if (dp[i] != null) {
+            return dp[i];
+        }
 
-class Solution {
+        // 1-day pass
+        int cost1 = costs[0] + dfs(i + 1);
+
+        // 7-day pass
+        int j = i;
+        while (j < days.length && days[j] < days[i] + 7) {
+            j++;
+        }
