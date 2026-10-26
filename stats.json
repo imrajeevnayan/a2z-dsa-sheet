@@ -1,12 +1,12 @@
 {
-  "totalSolved": 252,
-  "currentStreak": 5,
+  "totalSolved": 253,
+  "currentStreak": 6,
   "maxStreak": 25,
-  "lastSyncDate": "2026-10-26",
-  "todayCount": 15,
+  "lastSyncDate": "2026-10-27",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 97,
-    "medium": 138,
+    "medium": 139,
     "hard": 10,
     "basic": 7
   },
@@ -262,7 +262,8 @@
     "LeetCode_Find_Common_Elements_Between_Two_Arrays": true,
     "GeeksForGeeks_Minimize_Max_Min_Diff_with_Subarray_Removal": true,
     "LeetCode_Snakes_and_Ladders": true,
-    "LeetCode_Decode_Ways": true
+    "LeetCode_Decode_Ways": true,
+    "LeetCode_Minimum_Cost_For_Tickets": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -294,7 +295,8 @@
     "2026-10-23": 10,
     "2026-10-24": 10,
     "2026-10-25": 15,
-    "2026-10-26": 15
+    "2026-10-26": 15,
+    "2026-10-27": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -546,6 +548,7 @@
     "Find Common Elements Between Two Arrays",
     "Minimize Max Min Diff with Subarray Removal",
     "Snakes and Ladders",
-    "Decode Ways"
+    "Decode Ways",
+    "Minimum Cost For Tickets"
   ]
 }

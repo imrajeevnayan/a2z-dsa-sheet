@@ -291,3 +291,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 252 | [Minimize Max Min Diff with Subarray Removal](https://www.geeksforgeeks.org/problems/minimize-the-difference/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 11:53 am |
 | 253 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | LeetCode | Medium | 26 Oct 2026 | 12:33 pm |
 | 254 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | LeetCode | Medium | 26 Oct 2026 | 12:38 pm |
+| 255 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | LeetCode | Medium | 27 Oct 2026 | 12:16 am |
