@@ -287,3 +287,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 248 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | LeetCode | Medium | 26 Oct 2026 | 11:41 am |
 | 249 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | LeetCode | Medium | 26 Oct 2026 | 11:44 am |
 | 250 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | LeetCode | Easy | 26 Oct 2026 | 11:46 am |
+| 251 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | LeetCode | Easy | 26 Oct 2026 | 11:47 am |
