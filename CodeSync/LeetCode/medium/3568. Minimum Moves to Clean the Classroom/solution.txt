@@ -7,29 +7,11 @@
  * Topics: Array, Hash Table, Bit Manipulation, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T06:12:22.929Z
+ * Synced: 2026-10-26T06:12:23.559Z
  */
 
 class Solution {
-
-    private int m, n;
-    private long sum;
-
-    public int countIslands(int[][] grid, int k) {
-        m = grid.length;
-        n = grid[0].length;
-
-        boolean[][] vis = new boolean[m][n];
-        int count = 0;
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-
-                if (grid[i][j] > 0 && !vis[i][j]) {
-                    sum = 0;
-
-                    dfs(grid, i, j, vis);
-
-                    if (sum % k == 0) {
-                        count++;
-                    }
+    public int minMoves(String[] classroom, int energy) {
+        
+    }
+}
