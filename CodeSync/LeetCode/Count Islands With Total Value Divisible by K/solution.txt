@@ -1,57 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Count Islands With Total Value Divisible by K
- * URL: https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/?envType=daily-question&envId=2026-10-26
+ * URL: https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/description/?envType=daily-question&envId=2026-10-26
  * Language: Daily Question
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 25 ms
- * Memory: 111.15 MB
- * Synced: 2026-10-26T06:12:21.392Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-26T06:12:22.100Z
  */
 
-1class Solution {
-2
-3    private int m, n;
-4    private long sum;
-5
-6    public int countIslands(int[][] grid, int k) {
-7        m = grid.length;
-8        n = grid[0].length;
-9
-10        boolean[][] vis = new boolean[m][n];
-11        int count = 0;
-12
-13        for (int i = 0; i < m; i++) {
-14            for (int j = 0; j < n; j++) {
-15
-16                if (grid[i][j] > 0 && !vis[i][j]) {
-17                    sum = 0;
-18
-19                    dfs(grid, i, j, vis);
-20
-21                    if (sum % k == 0) {
-22                        count++;
-23                    }
-24                }
-25            }
-26        }
-27
-28        return count;
-29    }
-30
-31    private void dfs(int[][] grid, int r, int c, boolean[][] vis) {
-32        if (r < 0 || c < 0 || r >= m || c >= n ||
-33            grid[r][c] == 0 || vis[r][c]) {
-34            return;
-35        }
-36
-37        vis[r][c] = true;
-38        sum += grid[r][c];
-39
-40        dfs(grid, r + 1, c, vis);
-41        dfs(grid, r - 1, c, vis);
-42        dfs(grid, r, c + 1, vis);
-43        dfs(grid, r, c - 1, vis);
-44    }
-45}
+class Solution {
+
+    private int m, n;
+    private long sum;
+
+    public int countIslands(int[][] grid, int k) {
+        m = grid.length;
+        n = grid[0].length;
+
+        boolean[][] vis = new boolean[m][n];
+        int count = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (grid[i][j] > 0 && !vis[i][j]) {
+                    sum = 0;
+
+                    dfs(grid, i, j, vis);
+
+                    if (sum % k == 0) {
