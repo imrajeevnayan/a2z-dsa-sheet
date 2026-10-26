@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 3619. Count Islands With Total Value Divisible by K
- * URL: https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/?envType=daily-question&envId=2026-10-26
+ * URL: https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/?envType=daily-question&envId=2026-10-26
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T06:10:39.202Z
+ * Synced: 2026-10-26T06:11:38.341Z
  */
 
-class Solution {
-    public int countIslands(int[][] grid, int k) {
-        
+}
+                }
+            }
+        }
+
+        return count;
+    }
+
+    private void dfs(int[][] grid, int r, int c, boolean[][] vis) {
+        if (r < 0 || c < 0 || r >= m || c >= n ||
+            grid[r][c] == 0 || vis[r][c]) {
+            return;
+        }
+
+        vis[r][c] = true;
+        sum += grid[r][c];
+
+        dfs(grid, r + 1, c, vis);
+        dfs(grid, r - 1, c, vis);
+        dfs(grid, r, c + 1, vis);
+        dfs(grid, r, c - 1, vis);
     }
 }
