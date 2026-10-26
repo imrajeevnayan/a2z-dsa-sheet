@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: 91. Decode Ways
+ * URL: https://leetcode.com/problems/decode-ways/description/?envType=problem-list-v2&envId=w9vfgdm5
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-26T07:03:40.091Z
+ */
+
+"1" -> 'A'
+
+"2" -> 'B'
+
+...
+
+"25" -> 'Y'
+
+"26" -> 'Z'
