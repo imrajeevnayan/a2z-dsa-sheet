@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Moves to Clean the Classroom
+ * URL: https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/?envType=daily-question&envId=2026-10-26
+ * Language: Daily Question
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-26T06:12:45.903Z
+ */
+
+class Solution {
+    public int minMoves(String[] classroom, int energy) {
+        
+    }
+}
