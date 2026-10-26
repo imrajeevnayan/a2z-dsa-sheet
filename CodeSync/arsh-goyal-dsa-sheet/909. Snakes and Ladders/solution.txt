@@ -7,30 +7,29 @@
  * Topics: Array, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T07:02:45.148Z
+ * Synced: 2026-10-26T07:02:51.515Z
  */
 
-}
-                    return moves;
-                if (curr == n * n) {
-
-            for (int s = 0; s < size; s++) {
-                int curr = q.poll();
-            int size = q.size();
-        while (!q.isEmpty()) {
-        int moves = 0;
-
-        visited[1] = true;
-        q.offer(1);
-
-        boolean[] visited = new boolean[n * n + 1];
-                for (int next = curr + 1;
-                     next <= Math.min(curr + 6, n * n);
-                     next++) {
-
-                    int[] pos = getPosition(next, n);
-
-                    int r = pos[0];
-                    int c = pos[1];
+int c = pos[1];
 
                     int destination = next;
+
+                    if (board[r][c] != -1) {
+                        destination = board[r][c];
+                    }
+
+                    if (!visited[destination]) {
+                        visited[destination] = true;
+                        q.offer(destination);
+                    }
+                }
+            }
+            moves++;
+        }
+        return -1;
+    }
+
+    private int[] getPosition(int num, int n) {
+
+        int row = n - 1 - (num - 1) / n;
+        int col = (num - 1) % n;
