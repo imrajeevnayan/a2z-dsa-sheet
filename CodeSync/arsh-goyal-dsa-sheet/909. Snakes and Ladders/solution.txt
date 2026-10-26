@@ -7,29 +7,30 @@
  * Topics: Array, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T07:02:28.131Z
+ * Synced: 2026-10-26T07:02:38.865Z
  */
 
-q.offer(destination);
-                    }
-                }
-            }
+}
+                    return moves;
+                if (curr == n * n) {
 
-            moves++;
-        }
+            for (int s = 0; s < size; s++) {
+                int curr = q.poll();
+            int size = q.size();
 
-        return -1;
-    }
+        while (!q.isEmpty()) {
+        int moves = 0;
 
-    private int[] getPosition(int num, int n) {
+        visited[1] = true;
+        q.offer(1);
 
-        int row = n - 1 - (num - 1) / n;
-                    if (!visited[destination]) {
-                        visited[destination] = true;
-                    }
+        boolean[] visited = new boolean[n * n + 1];
+        Queue<Integer> q = new LinkedList<>();
 
+        int n = board.length;
+    public int snakesAndLadders(int[][] board) {
+class Solution {
 
-                    if (board[r][c] != -1) {
-                        destination = board[r][c];
-                    int destination = next;
-                    int c = pos[1];
+                for (int next = curr + 1;
+                     next <= Math.min(curr + 6, n * n);
+                     next++) {
