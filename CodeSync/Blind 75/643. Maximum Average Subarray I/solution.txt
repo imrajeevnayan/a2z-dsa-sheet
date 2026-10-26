@@ -1,34 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 643. Maximum Average Subarray I
- * URL: https://leetcode.com/problems/maximum-average-subarray-i/?spm=a2ty_o01.29997173.0.0.2292c921cwtrvM
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
- * Memory: 68.95 MB
- * Synced: 2026-10-15T16:55:32.093Z
+ * Memory: N/A
+ * Synced: 2026-10-26T07:09:56.305Z
  */
 
-double maxSum = Integer.MIN_VALUE; // Shuru mein sabse chota value
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+        double sum = 0;
         
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i]; // Element add karo
-            
-            // Jab window size K ho jaye
-            if (i >= k - 1) {
-                // Max sum update karo
-                if (sum > maxSum) {
-                    maxSum = sum;
-                }
-                // Left element ko hata do taaki window slide kare
-                sum -= nums[i - k + 1];
-            }
+        // Pehli window ka sum
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        
+        double maxSum = sum;
+        
+        // Slide karo
+        for (int i = k; i < nums.length; i++) {
+            sum += nums[i] - nums[i - k]; // Add new, remove old
+            maxSum = Math.max(maxSum, sum); // Max update
         }
         
         return maxSum / k;
     }
 }
-        double sum = 0;
-    public double findMaxAverage(int[] nums, int k) {
-class Solution {
