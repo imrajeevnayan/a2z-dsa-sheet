@@ -1,12 +1,12 @@
 {
-  "totalSolved": 251,
+  "totalSolved": 252,
   "currentStreak": 5,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-26",
-  "todayCount": 14,
+  "todayCount": 15,
   "difficultyCounts": {
     "easy": 97,
-    "medium": 137,
+    "medium": 138,
     "hard": 10,
     "basic": 7
   },
@@ -261,7 +261,8 @@
     "LeetCode_Find_the_Number_of_Good_Pairs_I": true,
     "LeetCode_Find_Common_Elements_Between_Two_Arrays": true,
     "GeeksForGeeks_Minimize_Max_Min_Diff_with_Subarray_Removal": true,
-    "LeetCode_Snakes_and_Ladders": true
+    "LeetCode_Snakes_and_Ladders": true,
+    "LeetCode_Decode_Ways": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -293,7 +294,7 @@
     "2026-10-23": 10,
     "2026-10-24": 10,
     "2026-10-25": 15,
-    "2026-10-26": 14
+    "2026-10-26": 15
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -544,6 +545,7 @@
     "Find the Number of Good Pairs I",
     "Find Common Elements Between Two Arrays",
     "Minimize Max Min Diff with Subarray Removal",
-    "Snakes and Ladders"
+    "Snakes and Ladders",
+    "Decode Ways"
   ]
 }

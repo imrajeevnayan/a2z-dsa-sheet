@@ -290,3 +290,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 251 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | LeetCode | Easy | 26 Oct 2026 | 11:47 am |
 | 252 | [Minimize Max Min Diff with Subarray Removal](https://www.geeksforgeeks.org/problems/minimize-the-difference/1) | GeeksForGeeks | Medium | 26 Oct 2026 | 11:53 am |
 | 253 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | LeetCode | Medium | 26 Oct 2026 | 12:33 pm |
+| 254 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | LeetCode | Medium | 26 Oct 2026 | 12:38 pm |
