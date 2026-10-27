@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T16:48:37.916Z
+ * Synced: 2026-10-27T16:48:42.244Z
  */
 
 class Solution {
@@ -23,5 +23,5 @@ class Solution {
             if(suffix==0)suffix=1;
             prefix*=nums[i];
             suffix*=nums[n-1-i];
-            an
+            ans=Math
 }
