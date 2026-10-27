@@ -7,9 +7,17 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T12:58:10.606Z
+ * Synced: 2026-10-27T12:58:10.910Z
  */
 
-Input: arr[] = [2, 3, -8, 7, -1, 2, 3]
-Output: 11
-Explanation: The subarray [7, -1, 2, 3] has the largest sum 11.
+class Solution {
+    int maxSubarraySum(int[] arr) {
+        int maxSum=Integer.MIN_VALUE,curr=0;
+        for(int n :arr){
+            curr+=n;
+            maxSum=Math.max(maxSum,curr);
+            if(curr<0)curr=0;
+        }
+        return maxSum;
+    }
+}
