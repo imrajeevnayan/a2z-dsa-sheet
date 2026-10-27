@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Repeated Removal of Kth
+ * URL: https://www.geeksforgeeks.org/problems/ishaans-internship4400/1
+ * Language: # Python Solution: def getCandidate(n, k): #-- - -- ---- -- >> Soultion 1 result = 1 while result * k <= n: result = result * k return result #--- ---- --- - -- -->> Solution 2 res = 1 while res <= n: res = res*k res = res//k return res #-- -- - -- -- -- -- ->> So0lution 3 count = 0 while n >= k: n = n//k count += 1 res = k**count return res
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Searching, Mathematics, Related Articles, Ishaans Position For Internship Selection
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T13:01:42.371Z
+ */
+
+class Solution {
+    public int getCandidate(int n, int k) {
+
+        int ans = 1;
+
+        while ((long) ans * k <= n) {
+            ans *= k;
+        }
+
+        return ans;
+    }
+}
