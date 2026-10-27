@@ -1,29 +1,27 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/count-always-found/1
- * Language: https://whatsapp.com/channel/0029VbDZgtsHQbRvkQtBNI2U
+ * URL: https://www.geeksforgeeks.org/problems/maximum-weight-transformation-of-a-given-string3551/1
+ * Language: def getMaxWeight(self, s): a, b = 0, 1 for i in range(1, len(s)): need_change = int(s[i] == s[i - 1]) a, b = b, max(b + 1, a + 4 - need_change) return b
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, constructive algo, Arrays, Related Articles, New Binary Search
+ * Topics: Expected Complexities, Topic Tags, Dynamic Programming, Related Articles, Maximum Weight Transformation Of A Given String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T09:01:54.191Z
+ * Synced: 2026-10-27T12:31:30.596Z
  */
 
 class Solution {
-    public int countAlwaysFound(int[] arr) {
-        int n = arr.length;
-        int[] sorted = arr.clone();
-        Arrays.sort(sorted);
+    public int getMaxWeight(String s) {
+        int n = s.length();
 
-        int count = 0;
+        int[] dp = new int[n + 2];
 
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == sorted[i]) {
-                count++;
-            }
+        for (int i = n - 2; i >= 0; i--) {
+            int profit = (s.charAt(i) != s.charAt(i + 1)) ? 2 : 1;
+
+            dp[i] = Math.max( dp[i + 1], profit + dp[i + 2] );
         }
 
-        return count;
+        return n + dp[0];
     }
 }
