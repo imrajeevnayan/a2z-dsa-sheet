@@ -7,31 +7,9 @@
  * Topics: Expected Complexities, Company Tags Paytm, Company Tags, Paytm, Topic Tags, Matrix, Related Articles, Strassens Matrix Multiplication
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T12:39:44.192Z
+ * Synced: 2026-10-27T13:07:06.867Z
  */
 
-class Solution {
-    public ArrayList<ArrayList<Integer>> multiply(int[][] mat1, int[][] mat2) {
-        int n = mat1.length;
-
-        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            ArrayList<Integer> row = new ArrayList<>();
-
-            for (int j = 0; j < n; j++) {
-                int sum = 0;
-
-                for (int k = 0; k < n; k++) {
-                    sum += mat1[i][k] * mat2[k][j];
-                }
-
-                row.add(sum);
-            }
-
-            ans.add(row);
-        }
-
-        return ans;
-    }
-}
+Input: mat1[][] = [[1, 1, 1], [1, 1, 1], [1, 1, 1]], mat2[][] = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+Output: [[3, 3, 3], [3, 3, 3], [3, 3, 3]]
+Explanation: After multiplying mat1 and mat2 we get the resulting matrix equal to [[3, 3, 3], [3, 3, 3], [3, 3, 3]].
