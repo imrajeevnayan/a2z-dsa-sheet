@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T16:47:12.972Z
+ * Synced: 2026-10-27T16:47:17.500Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
         int suffix=1;
         int ans=Integer.MIN_VALUE;
         for(int i=0;i<n;i++){
-            if(pre)
+            if(prefix==0)pr
         }
     }
 }
