@@ -1,11 +1,11 @@
 {
-  "totalSolved": 260,
+  "totalSolved": 261,
   "currentStreak": 6,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-27",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
-    "easy": 98,
+    "easy": 99,
     "medium": 143,
     "hard": 10,
     "basic": 9
@@ -270,7 +270,8 @@
     "GeeksForGeeks_Product_Array_Puzzle": true,
     "GeeksForGeeks_Maximum_Product_Subarray": true,
     "GeeksForGeeks_Kadane's_Algorithm": true,
-    "GeeksForGeeks_Repeated_Removal_of_Kth": true
+    "GeeksForGeeks_Repeated_Removal_of_Kth": true,
+    "GeeksForGeeks_Good_Pairs": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -303,7 +304,7 @@
     "2026-10-24": 10,
     "2026-10-25": 15,
     "2026-10-26": 15,
-    "2026-10-27": 8
+    "2026-10-27": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -563,6 +564,7 @@
     "Product Array Puzzle",
     "Maximum Product Subarray",
     "Kadane's Algorithm",
-    "Repeated Removal of Kth"
+    "Repeated Removal of Kth",
+    "Good Pairs"
   ]
 }
