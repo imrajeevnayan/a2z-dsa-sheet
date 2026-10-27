@@ -296,3 +296,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 257 | [Sort Matrix](https://www.geeksforgeeks.org/problems/sorted-matrix2333/1) | GeeksForGeeks | Basic | 27 Oct 2026 | 06:05 pm |
 | 258 | [Multiply 2 Matrices](https://www.geeksforgeeks.org/problems/multiply-2-matrices4144/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:09 pm |
 | 259 | [Product Array Puzzle](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 06:12 pm |
+| 260 | [Maximum Product Subarray](https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:26 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 257,
+  "totalSolved": 258,
   "currentStreak": 6,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-27",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 98,
-    "medium": 141,
+    "medium": 142,
     "hard": 10,
     "basic": 8
   },
@@ -267,7 +267,8 @@
     "GeeksForGeeks_Maximum_Weight_Transformation_of_String": true,
     "GeeksForGeeks_Sort_Matrix": true,
     "GeeksForGeeks_Multiply_2_Matrices": true,
-    "GeeksForGeeks_Product_Array_Puzzle": true
+    "GeeksForGeeks_Product_Array_Puzzle": true,
+    "GeeksForGeeks_Maximum_Product_Subarray": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -300,7 +301,7 @@
     "2026-10-24": 10,
     "2026-10-25": 15,
     "2026-10-26": 15,
-    "2026-10-27": 5
+    "2026-10-27": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -557,6 +558,7 @@
     "Maximum Weight Transformation of String",
     "Sort Matrix",
     "Multiply 2 Matrices",
-    "Product Array Puzzle"
+    "Product Array Puzzle",
+    "Maximum Product Subarray"
   ]
 }
