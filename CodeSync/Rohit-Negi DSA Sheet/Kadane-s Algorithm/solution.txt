@@ -2,22 +2,31 @@
  * Platform: GeeksforGeeks
  * Problem: Kadane's Algorithm
  * URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
- * Language: Java (21)
+ * Language: class Solution: def maxSubarraySum(self, arr): # Code here - In Python current_sum = 0 max_sum = arr[0] for i in arr: current_sum += i if current_sum > max_sum: max_sum = current_sum if current_sum < 0: current_sum = 0 return max_sum # Time Complexity: O(N) # Space Complexity: O(1) # Explanation In Short # Kadane's Algorithm (Max Subarray Sum) # 1] current_sum: Tracks the sum of the contiguous block you are currently evaluating. # 2] max_sum: Stores the absolute highest sum you've seen so far. # How the loop works: # 1] Add: Add the current array element to current_sum. # 2] Record: If current_sum is larger than your max_sum, update max_sum. # 3] Reset (The Core Logic): If current_sum drops below zero, reset it to 0. # A negative running total will only drag down the numbers that come after it. # Resetting to 0 effectively says, "Throw away this subarray and start a fresh one at the next number."
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T12:58:10.910Z
+ * Synced: 2026-10-27T12:59:55.296Z
  */
 
 class Solution {
     int maxSubarraySum(int[] arr) {
-        int maxSum=Integer.MIN_VALUE,curr=0;
-        for(int n :arr){
-            curr+=n;
-            maxSum=Math.max(maxSum,curr);
-            if(curr<0)curr=0;
+
+        int sum = 0;
+        int ans = Integer.MIN_VALUE;
+
+        for(int x : arr) {
+
+            sum += x;
+
+            ans = Math.max(ans, sum);
+
+            if(sum < 0) {
+                sum = 0;
+            }
         }
-        return maxSum;
+
+        return ans;
     }
 }
