@@ -5,24 +5,32 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-27T16:49:15.840Z
+ * Synced: 2026-10-27T16:53:37.653Z
  */
 
-class Solution {
-    public int[] productExceptSelf(int[] nums) {
-        int n=nums.length;
-        int prefix=1;
-        int suffix=1;
-        int ans=Integer.MIN_VALUE;
-        for(int i=0;i<n;i++){
-            if(prefix==0)prefix=1;
+left[0] = 1;
+        for(int i = 1; i < n; i++) {
+            left[i] = left[i - 1] * nums[i - 1];
         }
+
+        right[n - 1] = 1;
+        for(int i = n - 2; i >= 0; i--) {
+            right[i] = right[i + 1] * nums[i + 1];
+        }
+
+        for(int i = 0; i < n; i++) {
+            res[i] = left[i] * right[i];
+        }
+
+        return res;
+
+        
+        int[] res = new int[n];
+        int[] right = new int[n];
+
+        int[] left = new int[n];
+        int n = nums.length;
     }
-            if(suffix==0)suffix=1;
-            prefix*=nums[i];
-            suffix*=nums[n-1-i];
-            ans=Math.max(ans,Math.max(prefix,suffix));
-        return a
 }
