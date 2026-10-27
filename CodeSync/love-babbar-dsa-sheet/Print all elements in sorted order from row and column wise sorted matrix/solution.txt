@@ -2,15 +2,41 @@
  * Platform: GeeksforGeeks
  * Problem: Print all elements in sorted order from row and column wise sorted matrix
  * URL: https://www.geeksforgeeks.org/problems/sorted-matrix2333/1
- * Language: class Solution: def sortedMatrix(self, N, Mat): arr = sorted(sum(Mat, [])) k = -1 return [[arr[k := k+1] for j in range(N)] for i in range(N)]
+ * Language: Javascript Solution: class Solution { sortedMatrix(mat) { var lensub = mat[0].length; var ret = [], r = []; for (var i = 0; i < mat.length; i++) { for (var j = 0; j < mat.length; j++) { ret.push(mat[i][j]); } } var q = ret.sort((a, b) => a - b); for (var i = 0; i < q.length; i += lensub) { var chunk = q.slice(i, i + lensub); r.push(chunk); } return r; } }
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AmazonFactSet, Company Tags, Amazon, FactSet, Topic Tags, Matrix, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-11T04:11:34.915Z
+ * Synced: 2026-10-27T12:35:04.365Z
  */
 
-// code here
-        
+import java.util.*;
+
+class Solution {
+    public int[][] sortedMatrix(int[][] mat) {
+        int n = mat.length;
+
+        int[] arr = new int[n * n];
+        int k = 0;
+
+        // Store all elements in array
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[k++] = mat[i][j];
+            }
+        }
+
+        // Sort array
+        Arrays.sort(arr);
+
+        // Fill matrix back row-wise
+        k = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                mat[i][j] = arr[k++];
+            }
+        }
+
+        return mat;
     }
-};
+}
