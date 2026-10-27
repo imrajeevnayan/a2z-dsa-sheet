@@ -300,3 +300,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 261 | [Kadane's Algorithm](https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:29 pm |
 | 262 | [Repeated Removal of Kth](https://www.geeksforgeeks.org/problems/ishaans-internship4400/1) | GeeksForGeeks | Basic | 27 Oct 2026 | 06:31 pm |
 | 263 | [Good Pairs](https://www.geeksforgeeks.org/problems/good-pairs4519/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 06:32 pm |
+| 264 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | LeetCode | Medium | 27 Oct 2026 | 10:23 pm |
