@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T16:49:13.349Z
+ * Synced: 2026-10-27T16:49:15.840Z
  */
 
 class Solution {
@@ -24,5 +24,5 @@ class Solution {
             prefix*=nums[i];
             suffix*=nums[n-1-i];
             ans=Math.max(ans,Math.max(prefix,suffix));
-        r
+        return a
 }
