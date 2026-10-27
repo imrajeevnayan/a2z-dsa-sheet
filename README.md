@@ -294,3 +294,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 255 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | LeetCode | Medium | 27 Oct 2026 | 12:16 am |
 | 256 | [Maximum Weight Transformation of String](https://www.geeksforgeeks.org/problems/maximum-weight-transformation-of-a-given-string3551/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:01 pm |
 | 257 | [Sort Matrix](https://www.geeksforgeeks.org/problems/sorted-matrix2333/1) | GeeksForGeeks | Basic | 27 Oct 2026 | 06:05 pm |
+| 258 | [Multiply 2 Matrices](https://www.geeksforgeeks.org/problems/multiply-2-matrices4144/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:09 pm |
