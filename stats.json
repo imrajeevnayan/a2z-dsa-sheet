@@ -1,11 +1,11 @@
 {
-  "totalSolved": 262,
+  "totalSolved": 263,
   "currentStreak": 6,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-27",
-  "todayCount": 10,
+  "todayCount": 11,
   "difficultyCounts": {
-    "easy": 99,
+    "easy": 100,
     "medium": 144,
     "hard": 10,
     "basic": 9
@@ -272,7 +272,8 @@
     "GeeksForGeeks_Kadane's_Algorithm": true,
     "GeeksForGeeks_Repeated_Removal_of_Kth": true,
     "GeeksForGeeks_Good_Pairs": true,
-    "LeetCode_Product_of_Array_Except_Self": true
+    "LeetCode_Product_of_Array_Except_Self": true,
+    "GeeksForGeeks_Adding_One_to_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -305,7 +306,7 @@
     "2026-10-24": 10,
     "2026-10-25": 15,
     "2026-10-26": 15,
-    "2026-10-27": 10
+    "2026-10-27": 11
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -567,6 +568,7 @@
     "Kadane's Algorithm",
     "Repeated Removal of Kth",
     "Good Pairs",
-    "Product of Array Except Self"
+    "Product of Array Except Self",
+    "Adding One to Array"
   ]
 }
