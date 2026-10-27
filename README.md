@@ -292,3 +292,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 253 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | LeetCode | Medium | 26 Oct 2026 | 12:33 pm |
 | 254 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | LeetCode | Medium | 26 Oct 2026 | 12:38 pm |
 | 255 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | LeetCode | Medium | 27 Oct 2026 | 12:16 am |
+| 256 | [Maximum Weight Transformation of String](https://www.geeksforgeeks.org/problems/maximum-weight-transformation-of-a-given-string3551/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:01 pm |

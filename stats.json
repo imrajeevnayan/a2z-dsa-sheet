@@ -1,12 +1,12 @@
 {
-  "totalSolved": 253,
+  "totalSolved": 254,
   "currentStreak": 6,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-27",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 97,
-    "medium": 139,
+    "medium": 140,
     "hard": 10,
     "basic": 7
   },
@@ -263,7 +263,8 @@
     "GeeksForGeeks_Minimize_Max_Min_Diff_with_Subarray_Removal": true,
     "LeetCode_Snakes_and_Ladders": true,
     "LeetCode_Decode_Ways": true,
-    "LeetCode_Minimum_Cost_For_Tickets": true
+    "LeetCode_Minimum_Cost_For_Tickets": true,
+    "GeeksForGeeks_Maximum_Weight_Transformation_of_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -296,7 +297,7 @@
     "2026-10-24": 10,
     "2026-10-25": 15,
     "2026-10-26": 15,
-    "2026-10-27": 1
+    "2026-10-27": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -549,6 +550,7 @@
     "Minimize Max Min Diff with Subarray Removal",
     "Snakes and Ladders",
     "Decode Ways",
-    "Minimum Cost For Tickets"
+    "Minimum Cost For Tickets",
+    "Maximum Weight Transformation of String"
   ]
 }
