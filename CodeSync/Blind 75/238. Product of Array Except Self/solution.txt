@@ -7,12 +7,13 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T16:44:30.261Z
+ * Synced: 2026-10-27T16:44:33.947Z
  */
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n=nums.length;
     }
-        int pre
+        int prefix=1;
+        
 }
