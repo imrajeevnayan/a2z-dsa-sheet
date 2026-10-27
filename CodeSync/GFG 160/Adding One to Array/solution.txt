@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags GoogleMicrosoft, Company Tags, Google, Microsoft, Topic Tags, Arrays, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T18:01:05.824Z
+ * Synced: 2026-10-27T18:01:05.523Z
  */
 
-class Solution {
-    ArrayList<Integer> addOne(int[] arr) {
-        // code here
-        
-    }
-}
+Input: arr[] = [5, 6, 7, 8]
+Output: [5, 6, 7, 9]
+Explanation: 5678 + 1 = 5679
