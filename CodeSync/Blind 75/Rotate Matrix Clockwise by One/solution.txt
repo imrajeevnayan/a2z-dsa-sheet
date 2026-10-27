@@ -1,0 +1,53 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Rotate Matrix Clockwise by One
+ * URL: https://www.geeksforgeeks.org/problems/rotate-matrix-elements-clockwise2336/1
+ * Language: class Solution: def rotateMatrix(self, M, N, Mat): #code here b = 0 t = M-1 l = 0 r = N-1 while b < t and l <r: temp = Mat[b+1][l] for x in range(l, r+1): temp, Mat[b][x] = Mat[b][x], temp b+=1 for y in range(b, t+1): temp, Mat[y][r] = Mat[y][r], temp r-=1 for x in range(r, l-1, -1): temp, Mat[t][x] = Mat[t][x], temp t-=1 for y in range(t, b-1, -1): temp, Mat[y][l] = Mat[y][l], temp l+=1 return Mat
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Matrix, Related Articles, Rotate Matrix Elements
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T12:34:01.982Z
+ */
+
+int len = ring.size();
+
+            // Clockwise rotation by one
+            ArrayList<Integer> rotated = new ArrayList<>(len);
+            rotated.add(ring.get(len - 1));
+
+            for (int i = 0; i < len - 1; i++) {
+                rotated.add(ring.get(i));
+            }
+
+            int idx = 0;
+
+            // Top row
+            for (int j = left; j <= right; j++) {
+                mat[top][j] = rotated.get(idx++);
+            }
+
+            // Right column
+            for (int i = top + 1; i <= bottom; i++) {
+                mat[i][right] = rotated.get(idx++);
+            }
+
+            // Bottom row
+            for (int j = right - 1; j >= left; j--) {
+                mat[bottom][j] = rotated.get(idx++);
+            }
+
+            // Left column
+            for (int i = bottom - 1; i > top; i--) {
+                mat[i][left] = rotated.get(idx++);
+            }
+
+            top++;
+            bottom--;
+            left++;
+            right--;
+        }
+
+        return mat;
+    }
+}
