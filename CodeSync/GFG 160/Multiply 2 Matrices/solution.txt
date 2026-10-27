@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Multiply 2 Matrices
+ * URL: https://www.geeksforgeeks.org/problems/multiply-2-matrices4144/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Paytm, Company Tags, Paytm, Topic Tags, Matrix, Related Articles, Strassens Matrix Multiplication
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T12:36:04.499Z
+ */
+
+class Solution {
+    public ArrayList<ArrayList<Integer>> multiply(int[][] mat1, int[][] mat2) {
+        // code here
+        
+    }
+}
