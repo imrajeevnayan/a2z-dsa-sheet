@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T16:45:50.781Z
+ * Synced: 2026-10-27T16:45:59.865Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
     }
         int prefix=1;
         int suffix=1;
-        int ans[]=new int[n];
+        int ans=Intege
 }
