@@ -295,3 +295,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 256 | [Maximum Weight Transformation of String](https://www.geeksforgeeks.org/problems/maximum-weight-transformation-of-a-given-string3551/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:01 pm |
 | 257 | [Sort Matrix](https://www.geeksforgeeks.org/problems/sorted-matrix2333/1) | GeeksForGeeks | Basic | 27 Oct 2026 | 06:05 pm |
 | 258 | [Multiply 2 Matrices](https://www.geeksforgeeks.org/problems/multiply-2-matrices4144/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:09 pm |
+| 259 | [Product Array Puzzle](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 06:12 pm |
