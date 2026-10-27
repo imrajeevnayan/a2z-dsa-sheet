@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-27T16:53:37.653Z
+ * Memory: 64.57 MB
+ * Synced: 2026-10-27T16:54:13.713Z
  */
 
 left[0] = 1;
@@ -26,11 +26,9 @@ left[0] = 1;
 
         return res;
 
-        
         int[] res = new int[n];
-        int[] right = new int[n];
-
         int[] left = new int[n];
-        int n = nums.length;
+        int[] right = new int[n];
+        
     }
 }
