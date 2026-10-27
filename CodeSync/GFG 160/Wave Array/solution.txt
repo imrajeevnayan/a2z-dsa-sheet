@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, FactSet, Goldman Sachs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-31T19:18:53.735Z
+ * Synced: 2026-10-27T18:50:46.868Z
  */
 
-class Solution {
-    public void sortInWave(int arr[]) {
-        // code here
-        
-    }
-}
+Input: arr[] = [1, 2, 3, 4, 5]
+Output: [2, 1, 4, 3, 5]
+Explanation: Array elements after sorting it in the waveform are 2, 1, 4, 3, 5.
