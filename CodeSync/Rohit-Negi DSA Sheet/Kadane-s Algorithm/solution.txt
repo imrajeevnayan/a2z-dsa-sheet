@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Kadane's Algorithm
+ * URL: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T12:58:10.606Z
+ */
+
+Input: arr[] = [2, 3, -8, 7, -1, 2, 3]
+Output: 11
+Explanation: The subarray [7, -1, 2, 3] has the largest sum 11.
