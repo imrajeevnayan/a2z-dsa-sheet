@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Zoho, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T13:00:09.605Z
+ * Synced: 2026-10-27T13:00:14.744Z
  */
 
 class Solution {
@@ -20,9 +20,7 @@ class Solution {
             sum += x;
             ans = Math.max(ans, sum);
 
-            if(sum < 0) {
-        sum = 0;
-            
+            if(sum < 0) sum = 0;
         }
 
         return ans;
