@@ -1,29 +1,18 @@
 /*
- * Platform: LeetCode
+ * Platform: GeeksforGeeks
  * Problem: Maximum Product Subarray
- * URL: https://leetcode.com/problems/maximum-product-subarray/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 47.18 MB
- * Synced: 2026-09-15T12:12:49.444Z
+ * URL: https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Morgan Stanley, Amazon, Microsoft, OYO Rooms, D-E-Shaw, Google
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T12:55:31.317Z
  */
 
-public class Solution {
-    public int maxProduct(int[] nums) {
-      int min=nums[0],max=nums[0],res=nums[0];
-      for(int i=1;i<nums.length;i++){
-        int  curr=nums[i];
-        if(curr < 0){
-            int temp=max;
-            max=min;
-            min=temp;
-        }  
-        max=Math.max(curr,max*curr);
-        min=Math.min(curr,min*curr);
-       res=Math.max(res,max);
-      }
-      return res;
+class Solution {
+    int maxProduct(int[] arr) {
+        // code here
+        
     }
 }
