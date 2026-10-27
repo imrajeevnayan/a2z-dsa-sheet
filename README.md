@@ -298,3 +298,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 259 | [Product Array Puzzle](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 06:12 pm |
 | 260 | [Maximum Product Subarray](https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:26 pm |
 | 261 | [Kadane's Algorithm](https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1) | GeeksForGeeks | Medium | 27 Oct 2026 | 06:29 pm |
+| 262 | [Repeated Removal of Kth](https://www.geeksforgeeks.org/problems/ishaans-internship4400/1) | GeeksForGeeks | Basic | 27 Oct 2026 | 06:31 pm |
