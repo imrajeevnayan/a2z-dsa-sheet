@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Stock Buy and Sell – Max one Transaction Allowed
+ * URL: https://www.geeksforgeeks.org/problems/buy-stock-2/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Bloomberg, Facebook, Intel, Infosys, Zoho, Morgan Stanley
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-27T18:52:04.340Z
+ */
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        // Code here
+        
+    }
+}
