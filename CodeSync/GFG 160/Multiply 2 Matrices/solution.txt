@@ -7,10 +7,8 @@
  * Topics: Expected Complexities, Company Tags Paytm, Company Tags, Paytm, Topic Tags, Matrix, Related Articles, Strassens Matrix Multiplication
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-27T12:36:26.902Z
+ * Synced: 2026-10-27T12:39:44.192Z
  */
-
-import java.util.*;
 
 class Solution {
     public ArrayList<ArrayList<Integer>> multiply(int[][] mat1, int[][] mat2) {
