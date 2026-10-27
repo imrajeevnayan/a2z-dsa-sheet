@@ -1,36 +1,41 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Python Solution
- * URL: https://www.geeksforgeeks.org/problems/all-distinct-pairs-with-given-sum/1
- * Language: public List<List<Integer>> distinctPairs(int[] arr, int target) { // Your code here List<List<Integer>> ans = new ArrayList<>(); int n = arr.length; if(n<=1){ return ans; } Arrays.sort(arr); int left = 0; int right = n-1; while(left < right){ int sum = arr[left] + arr[right]; if(sum == target){ List<Integer> temp = new ArrayList<>(); temp.add(arr[left]); temp.add(arr[right]); ans.add(temp); int prev_left = arr[left]; int prev_right = arr[right]; while(arr[left] == prev_left){ left++; if(left >= right){ return ans; } } while(arr[right] == prev_right){ right--; if(left >= right){ return ans; } } } else if(sum < target){ left++; } else{ right--; } } return ans; }
+ * URL: https://www.geeksforgeeks.org/problems/good-pairs4519/1
+ * Language: class Solution: def solve(self, arr : list, n : int): # Extra Space freq = {} for ele in arr: freq[ele] = freq.get(ele, 0) + 1 arr = sorted(list(set(arr))) res = 0 freq_sum = 0 prev = arr[0] for ele in arr[1:]: res += freq[ele] * (freq_sum + freq[prev]) freq_sum += freq[prev] prev = ele return res
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles, Print All Pairs With Given Sum
+ * Topics: Expected Complexities, Topic Tags, Searching, Sorting, Related Articles, Count Pairs With Different Values
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-20T11:36:06.689Z
+ * Synced: 2026-10-27T13:02:57.640Z
  */
 
 class Solution {
-    public List<List<Integer>> distinctPairs(int[] arr, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
-        Arrays.sort(arr);
+    public int solve(int[] arr) {
 
-        int l = 0, r = arr.length - 1;
+        int MOD = 1000000007;
+        int MAX = 1000;
 
-        while (l < r) {
-            int sum = arr[l] + arr[r];
+        long[] freq = new long[MAX + 1];
 
-            if (sum == target) {
-                ans.add(Arrays.asList(arr[l], arr[r]));
-
-                int a = arr[l], b = arr[r];
-                while (l < r && arr[l] == a) l++;
-                while (l < r && arr[r] == b) r--;
-            } 
-            else if (sum < target) l++;
-            else r--;
+        for (int x : arr) {
+            freq[x]++;
         }
 
-        return ans;
+        long ans = 0;
+
+        for (int x = 1; x <= MAX; x++) {
+            if (freq[x] == 0) continue;
+
+            long greater = 0;
+
+            for (int y = x + 1; y <= MAX; y++) {
+                greater += freq[y];
+            }
+
+            ans = (ans + freq[x] * greater) % MOD;
+        }
+
+        return (int) ans;
     }
 }
