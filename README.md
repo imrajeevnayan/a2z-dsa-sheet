@@ -302,3 +302,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 263 | [Good Pairs](https://www.geeksforgeeks.org/problems/good-pairs4519/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 06:32 pm |
 | 264 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | LeetCode | Medium | 27 Oct 2026 | 10:23 pm |
 | 265 | [Adding One to Array](https://www.geeksforgeeks.org/problems/adding-one2529/1) | GeeksForGeeks | Easy | 27 Oct 2026 | 11:32 pm |
+| 266 | [Wave Array](https://www.geeksforgeeks.org/problems/wave-array-1587115621/1) | GeeksForGeeks | Medium | 28 Oct 2026 | 12:20 am |
