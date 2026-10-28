@@ -7,7 +7,7 @@
  * Topics: Array, Queue, Sorting, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T06:37:14.237Z
+ * Synced: 2026-10-28T06:37:15.013Z
  */
 
 int n = deck.length;
@@ -25,9 +25,9 @@ int n = deck.length;
 
             if (!q.isEmpty()) {
                 q.offer(q.poll());
-            }
-        }
 
-        return ans;
-    }
-}
+    public int[] deckRevealedIncreasing(int[] deck) {
+        Arrays.sort(deck);
+
+class Solution {
+import java.util.*;
