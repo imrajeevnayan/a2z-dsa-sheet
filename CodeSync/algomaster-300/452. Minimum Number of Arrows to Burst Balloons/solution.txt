@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 452. Minimum Number of Arrows to Burst Balloons
+ * URL: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T02:49:01.947Z
+ */
+
+Input: points = [[10,16],[2,8],[1,6],[7,12]]
+Output: 2
+Explanation: The balloons can be burst by 2 arrows:
+- Shoot an arrow at x = 6, bursting the balloons [2,8] and [1,6].
+- Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
