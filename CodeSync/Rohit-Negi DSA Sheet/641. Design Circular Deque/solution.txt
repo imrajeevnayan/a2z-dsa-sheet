@@ -1,0 +1,35 @@
+/*
+ * Platform: LeetCode
+ * Problem: 641. Design Circular Deque
+ * URL: https://leetcode.com/problems/design-circular-deque/description/?envType=problem-list-v2&envId=queue
+ * Language: Queue
+ * Difficulty: Medium
+ * Topics: Array, Linked List, Design, Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T06:34:18.482Z
+ */
+
+class MyCircularDeque {
+
+    public MyCircularDeque(int k) {
+        
+    }
+    
+    public boolean insertFront(int value) {
+        
+    }
+    
+    public boolean insertLast(int value) {
+        
+    }
+    
+    public boolean deleteFront() {
+        
+    }
+    
+    public boolean deleteLast() {
+        
+    }
+    
+    public int getFront() {
