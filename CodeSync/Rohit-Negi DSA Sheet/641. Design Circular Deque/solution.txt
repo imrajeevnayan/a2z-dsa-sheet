@@ -2,34 +2,28 @@
  * Platform: LeetCode
  * Problem: 641. Design Circular Deque
  * URL: https://leetcode.com/problems/design-circular-deque/description/?envType=problem-list-v2&envId=queue
- * Language: Queue
+ * Language: Text
  * Difficulty: Medium
  * Topics: Array, Linked List, Design, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T06:34:18.482Z
+ * Synced: 2026-10-28T06:34:15.466Z
  */
 
-class MyCircularDeque {
+Input
+["MyCircularDeque", "insertLast", "insertLast", "insertFront", "insertFront", "getRear", "isFull", "deleteLast", "insertFront", "getFront"]
+[[3], [1], [2], [3], [4], [], [], [], [4], []]
+Output
+[null, true, true, true, false, 2, true, true, true, 4]
 
-    public MyCircularDeque(int k) {
-        
-    }
-    
-    public boolean insertFront(int value) {
-        
-    }
-    
-    public boolean insertLast(int value) {
-        
-    }
-    
-    public boolean deleteFront() {
-        
-    }
-    
-    public boolean deleteLast() {
-        
-    }
-    
-    public int getFront() {
+Explanation
+MyCircularDeque myCircularDeque = new MyCircularDeque(3);
+myCircularDeque.insertLast(1);  // return True
+myCircularDeque.insertLast(2);  // return True
+myCircularDeque.insertFront(3); // return True
+myCircularDeque.insertFront(4); // return False, the queue is full.
+myCircularDeque.getRear();      // return 2
+myCircularDeque.isFull();       // return True
+myCircularDeque.deleteLast();   // return True
+myCircularDeque.insertFront(4); // return True
+myCircularDeque.getFront();     // return 4
