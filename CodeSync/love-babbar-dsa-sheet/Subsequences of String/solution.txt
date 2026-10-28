@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Subsequences of String
+ * URL: https://www.naukri.com/code360/problems/subsequences-of-string_985087
+ * Language: Java (17)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T02:46:19.554Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+class Solution {
+    public static ArrayList<String> subsequences(String str) {
+        // Write your code here
+    }
+}
