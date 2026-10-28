@@ -7,7 +7,7 @@
  * Topics: Stack, Design, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T06:39:55.541Z
+ * Synced: 2026-10-28T06:40:04.173Z
  */
 
 for (int i = 0; i < size - 1; i++) {
@@ -21,8 +21,14 @@ for (int i = 0; i < size - 1; i++) {
         return q.peek();
     }
     public boolean empty() {
-        return q.isEmpty();
-    }
-}
 
         int size = q.size();
+        q.offer(x);
+    public void push(int x) {
+
+    }
+        q = new LinkedList<>();
+    public MyStack() {
+
+    Queue<Integer> q;
+        return q.isEmpty();
