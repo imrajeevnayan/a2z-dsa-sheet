@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: 49. Group Anagrams
+ * URL: https://leetcode.com/problems/group-anagrams/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, String, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T06:59:53.355Z
+ */
+
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+     HashMap<String,List<String>>ans=new HashMap<>();
+     for(String s:strs){
+        char ch[]=s.toCharArray();
+        Arrays.sort(ch);
+        String key=String.valueOf(ch);
+        ans.computeIfAbsent(key,k->new ArrayList<>()).add(s);
+     }
+     return new ArrayList<>(ans.values());
+   }
+
+    }
