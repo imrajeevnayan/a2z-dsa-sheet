@@ -1,12 +1,12 @@
 {
-  "totalSolved": 268,
+  "totalSolved": 269,
   "currentStreak": 7,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-28",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 100,
-    "medium": 149,
+    "medium": 150,
     "hard": 10,
     "basic": 9
   },
@@ -278,7 +278,8 @@
     "LeetCode_Minimum_XOR_Path_in_a_Grid": true,
     "LeetCode_Minimum_Number_of_Arrows_to_Burst_Balloons": true,
     "LeetCode_Successful_Pairs_of_Spells_and_Potions": true,
-    "LeetCode_Design_Circular_Deque": true
+    "LeetCode_Design_Circular_Deque": true,
+    "LeetCode_Reveal_Cards_In_Increasing_Order": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -312,7 +313,7 @@
     "2026-10-25": 15,
     "2026-10-26": 15,
     "2026-10-27": 11,
-    "2026-10-28": 5
+    "2026-10-28": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -580,6 +581,7 @@
     "Minimum XOR Path in a Grid",
     "Minimum Number of Arrows to Burst Balloons",
     "Successful Pairs of Spells and Potions",
-    "Design Circular Deque"
+    "Design Circular Deque",
+    "Reveal Cards In Increasing Order"
   ]
 }

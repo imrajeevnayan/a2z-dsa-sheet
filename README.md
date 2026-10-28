@@ -307,3 +307,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 268 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | LeetCode | Medium | 28 Oct 2026 | 08:20 am |
 | 269 | [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | LeetCode | Medium | 28 Oct 2026 | 08:21 am |
 | 270 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | LeetCode | Medium | 28 Oct 2026 | 12:05 pm |
+| 271 | [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | LeetCode | Medium | 28 Oct 2026 | 12:08 pm |
