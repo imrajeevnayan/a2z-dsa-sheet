@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 950. Reveal Cards In Increasing Order
- * URL: https://leetcode.com/problems/reveal-cards-in-increasing-order/?envType=problem-list-v2&envId=queue
+ * URL: https://leetcode.com/problems/reveal-cards-in-increasing-order/submissions/2183686099/?envType=problem-list-v2&envId=queue
  * Language: Queue
  * Difficulty: Medium
  * Topics: Array, Queue, Sorting, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-28T06:37:27.593Z
+ * Runtime: 2 ms
+ * Memory: 45.64 MB
+ * Synced: 2026-10-28T06:38:19.698Z
  */
 
-int n = deck.length;
-        int[] ans = new int[n];
-
-        Queue<Integer> q = new LinkedList<>();
+Queue<Integer> q = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
             q.offer(i);
@@ -25,9 +22,11 @@ int n = deck.length;
 
             if (!q.isEmpty()) {
                 q.offer(q.poll());
-
             }
         }
-        Arrays.sort(deck);
-    public int[] deckRevealedIncreasing(int[] deck) {
-class Solution {
+
+        return ans;
+        int[] ans = new int[n];
+        int n = deck.length;
+    }
+}
