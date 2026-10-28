@@ -2,24 +2,33 @@
  * Platform: LeetCode
  * Problem: 232. Implement Queue using Stacks
  * URL: https://leetcode.com/problems/implement-queue-using-stacks/description/?envType=problem-list-v2&envId=queue
- * Language: Text
+ * Language: Queue
  * Difficulty: Easy
  * Topics: Stack, Design, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T06:41:39.893Z
+ * Synced: 2026-10-28T06:41:42.051Z
  */
 
-Input
-["MyQueue", "push", "push", "peek", "pop", "empty"]
-[[], [1], [2], [], [], []]
-Output
-[null, null, null, 1, 1, false]
+class MyQueue {
 
-Explanation
-MyQueue myQueue = new MyQueue();
-myQueue.push(1); // queue is: [1]
-myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
-myQueue.peek(); // return 1
-myQueue.pop(); // return 1, queue is [2]
-myQueue.empty(); // return false
+    public MyQueue() {
+        
+    }
+    
+    public void push(int x) {
+        
+    }
+    
+    public int pop() {
+        
+    }
+    
+    public int peek() {
+        
+    }
+    
+    public boolean empty() {
+        
+    }
+}
