@@ -1,12 +1,12 @@
 {
-  "totalSolved": 265,
+  "totalSolved": 266,
   "currentStreak": 7,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-28",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 100,
-    "medium": 146,
+    "medium": 147,
     "hard": 10,
     "basic": 9
   },
@@ -275,7 +275,8 @@
     "LeetCode_Product_of_Array_Except_Self": true,
     "GeeksForGeeks_Adding_One_to_Array": true,
     "GeeksForGeeks_Wave_Array": true,
-    "LeetCode_Minimum_XOR_Path_in_a_Grid": true
+    "LeetCode_Minimum_XOR_Path_in_a_Grid": true,
+    "LeetCode_Minimum_Number_of_Arrows_to_Burst_Balloons": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -309,7 +310,7 @@
     "2026-10-25": 15,
     "2026-10-26": 15,
     "2026-10-27": 11,
-    "2026-10-28": 2
+    "2026-10-28": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -574,6 +575,7 @@
     "Product of Array Except Self",
     "Adding One to Array",
     "Wave Array",
-    "Minimum XOR Path in a Grid"
+    "Minimum XOR Path in a Grid",
+    "Minimum Number of Arrows to Burst Balloons"
   ]
 }
