@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 2300. Successful Pairs of Spells and Potions
- * URL: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T02:50:48.619Z
+ * Synced: 2026-10-28T02:51:24.734Z
  */
+
+long required = (success + spells[i] - 1) / spells[i];
+
+            int left = 0, right = m - 1;
+            int idx = m;
+
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+
+                if (potions[mid] >= required) {
 
 class Solution {
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
-        
-    }
-}
+
+        Arrays.sort(potions);
+
+        int n = spells.length;
+        int m = potions.length;
+
+        int[] ans = new int[n];
+
+        for (int i = 0; i < n; i++) {
+                    idx = mid;
