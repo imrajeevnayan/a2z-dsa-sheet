@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Stack, Design, Queue
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-28T06:41:24.380Z
+ * Memory: 42.26 MB
+ * Synced: 2026-10-28T06:43:46.343Z
  */
 
 }
@@ -18,14 +18,6 @@
     }
 
     public int pop() {
-        return q1.poll();
-    }
-
-    public int top() {
-        return q1.peek();
-    }
-
-    public boolean empty() {
             q2.offer(q1.poll());
         while (!q1.isEmpty()) {
 
@@ -34,3 +26,11 @@
 
     }
         q2 = new LinkedList<>();
+        q1 = new LinkedList<>();
+    public MyStack() {
+
+    Queue<Integer> q2;
+    Queue<Integer> q1;
+class MyStack {
+
+        return q1.poll();
