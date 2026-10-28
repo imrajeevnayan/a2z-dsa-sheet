@@ -1,35 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 225. Implement Stack using Queues
- * URL: https://leetcode.com/problems/implement-stack-using-queues/description/?envType=problem-list-v2&envId=queue
+ * URL: https://leetcode.com/problems/implement-stack-using-queues/?envType=problem-list-v2&envId=queue
  * Language: Queue
  * Difficulty: Easy
  * Topics: Stack, Design, Queue
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-28T06:40:33.098Z
+ * Runtime: 1 ms
+ * Memory: 42.30 MB
+ * Synced: 2026-10-28T06:41:16.159Z
  */
 
-}
-    public void push(int x) {
-        q.offer(x);
-        int size = q.size();
+q2.offer(x);
 
-        for (int i = 0; i < size - 1; i++) {
-            q.offer(q.poll());
+        while (!q1.isEmpty()) {
+            q2.offer(q1.poll());
         }
+
+        Queue<Integer> temp = q1;
+        q1 = q2;
+        q2 = temp;
     }
-    public int pop() {
-        return q.poll();
-    }
-    public int top() {
-        return q.peek();
-    }
-    public boolean empty() {
-        return q.isEmpty();
+
+    public void push(int x) {
+        q2 = new LinkedList<>();
     }
     public MyStack() {
-        q = new LinkedList<>();
+        q1 = new LinkedList<>();
+    Queue<Integer> q2;
 
-class MyStack {
-    Queue<Integer> q;
+    Queue<Integer> q1;
+
+    public int pop() {
+        return q1.poll();
+    }
