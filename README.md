@@ -310,3 +310,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 271 | [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | LeetCode | Medium | 28 Oct 2026 | 12:08 pm |
 | 272 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | LeetCode | Easy | 28 Oct 2026 | 12:10 pm |
 | 273 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | LeetCode | Easy | 28 Oct 2026 | 12:13 pm |
+| 274 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LeetCode | Medium | 28 Oct 2026 | 12:30 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 271,
+  "totalSolved": 272,
   "currentStreak": 7,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-28",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 102,
-    "medium": 150,
+    "medium": 151,
     "hard": 10,
     "basic": 9
   },
@@ -281,7 +281,8 @@
     "LeetCode_Design_Circular_Deque": true,
     "LeetCode_Reveal_Cards_In_Increasing_Order": true,
     "LeetCode_Implement_Stack_using_Queues": true,
-    "LeetCode_Implement_Queue_using_Stacks": true
+    "LeetCode_Implement_Queue_using_Stacks": true,
+    "LeetCode_Group_Anagrams": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -315,7 +316,7 @@
     "2026-10-25": 15,
     "2026-10-26": 15,
     "2026-10-27": 11,
-    "2026-10-28": 8
+    "2026-10-28": 9
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -586,6 +587,7 @@
     "Design Circular Deque",
     "Reveal Cards In Increasing Order",
     "Implement Stack using Queues",
-    "Implement Queue using Stacks"
+    "Implement Queue using Stacks",
+    "Group Anagrams"
   ]
 }
