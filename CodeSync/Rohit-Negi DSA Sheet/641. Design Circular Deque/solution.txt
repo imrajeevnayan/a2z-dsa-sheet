@@ -7,24 +7,30 @@
  * Topics: Array, Linked List, Design, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T06:34:34.449Z
+ * Synced: 2026-10-28T06:35:05.152Z
  */
 
 }
-    
-    public boolean isFull() {
-        
+            return false;
+        if (isEmpty()) {
+    public boolean deleteLast() {
     }
-}
 
 
-    
-    public int getFront() {
-        
+        return true;
+            rear = -1;
+        }
+            front = 0;
+
+        if (size == 0) {
+        size--;
+        front = (front + 1) % capacity;
+
+        }
+            return false;
+        if (isEmpty()) {
+    public boolean deleteFront() {
+
     }
-    
-    public int getRear() {
-        
-    }
-    
-    public boolean isEmpty() {
+        return true;
+        size++;
