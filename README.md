@@ -305,3 +305,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 266 | [Wave Array](https://www.geeksforgeeks.org/problems/wave-array-1587115621/1) | GeeksForGeeks | Medium | 28 Oct 2026 | 12:20 am |
 | 267 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | LeetCode | Medium | 28 Oct 2026 | 08:18 am |
 | 268 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | LeetCode | Medium | 28 Oct 2026 | 08:20 am |
+| 269 | [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | LeetCode | Medium | 28 Oct 2026 | 08:21 am |

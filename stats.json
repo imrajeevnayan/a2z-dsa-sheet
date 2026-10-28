@@ -1,12 +1,12 @@
 {
-  "totalSolved": 266,
+  "totalSolved": 267,
   "currentStreak": 7,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-28",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 100,
-    "medium": 147,
+    "medium": 148,
     "hard": 10,
     "basic": 9
   },
@@ -276,7 +276,8 @@
     "GeeksForGeeks_Adding_One_to_Array": true,
     "GeeksForGeeks_Wave_Array": true,
     "LeetCode_Minimum_XOR_Path_in_a_Grid": true,
-    "LeetCode_Minimum_Number_of_Arrows_to_Burst_Balloons": true
+    "LeetCode_Minimum_Number_of_Arrows_to_Burst_Balloons": true,
+    "LeetCode_Successful_Pairs_of_Spells_and_Potions": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -310,7 +311,7 @@
     "2026-10-25": 15,
     "2026-10-26": 15,
     "2026-10-27": 11,
-    "2026-10-28": 3
+    "2026-10-28": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -576,6 +577,7 @@
     "Adding One to Array",
     "Wave Array",
     "Minimum XOR Path in a Grid",
-    "Minimum Number of Arrows to Burst Balloons"
+    "Minimum Number of Arrows to Burst Balloons",
+    "Successful Pairs of Spells and Potions"
   ]
 }
