@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 3882. Minimum XOR Path in a Grid
- * URL: https://leetcode.com/problems/minimum-xor-path-in-a-grid/description/?envType=daily-question&envId=2026-10-28
+ * URL: https://leetcode.com/problems/minimum-xor-path-in-a-grid/?envType=daily-question&envId=2026-10-28
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Bit Manipulation, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T02:47:38.379Z
+ * Synced: 2026-10-28T02:48:33.121Z
  */
 
-class Solution {
-    public int minCost(int[][] grid) {
-        
+if (!dp[i][j][x]) continue;
+
+                    if (i + 1 < m) {
+                        dp[i + 1][j][x ^ grid[i + 1][j]] = true;
+                    }
+
+                    if (j + 1 < n) {
+                        dp[i][j + 1][x ^ grid[i][j + 1]] = true;
+                    }
+                }
+            }
+        }
+
+        for (int x = 0; x < 1024; x++) {
+            if (dp[m - 1][n - 1][x]) {
+                return x;
+            }
+        }
+
+        return 0;
     }
 }
