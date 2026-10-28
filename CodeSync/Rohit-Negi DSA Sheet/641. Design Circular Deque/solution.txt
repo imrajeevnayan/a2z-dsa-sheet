@@ -1,36 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 641. Design Circular Deque
- * URL: https://leetcode.com/problems/design-circular-deque/?envType=problem-list-v2&envId=queue
+ * URL: https://leetcode.com/problems/design-circular-deque/submissions/2183684021/?envType=problem-list-v2&envId=queue
  * Language: Queue
  * Difficulty: Medium
  * Topics: Array, Linked List, Design, Queue
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-28T06:35:05.152Z
+ * Runtime: 0 ms
+ * Memory: 45.62 MB
+ * Synced: 2026-10-28T06:35:36.192Z
  */
 
-}
-            return false;
-        if (isEmpty()) {
-    public boolean deleteLast() {
-    }
+deque[front] = value;
 
-
-        return true;
-            rear = -1;
+        front = (front - 1 + capacity) % capacity;
         }
-            front = 0;
+            return false;
+        if (isFull()) {
+    public boolean insertFront(int value) {
+
+    }
+        size = 0;
+        rear = -1;
+        front = 0;
+        deque = new int[k];
 
         if (size == 0) {
-        size--;
-        front = (front + 1) % capacity;
-
+            rear = front;
         }
-            return false;
-        if (isEmpty()) {
-    public boolean deleteFront() {
 
-    }
-        return true;
         size++;
+        return true;
+    }
+
+    public boolean insertLast(int value) {
+        if (isFull()) {
