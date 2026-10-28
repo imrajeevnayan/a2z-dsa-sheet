@@ -7,30 +7,30 @@
  * Topics: Array, Linked List, Design, Queue
  * Runtime: 0 ms
  * Memory: 45.62 MB
- * Synced: 2026-10-28T06:35:39.170Z
+ * Synced: 2026-10-28T06:35:44.704Z
  */
 
-return false;
-        }
+if (size == 0) {
 
-        rear = (rear - 1 + capacity) % capacity;
         size--;
+        rear = (rear - 1 + capacity) % capacity;
 
-        if (size == 0) {
-            front = 0;
-            rear = -1;
         }
+            return false;
+        if (isEmpty()) {
+    public boolean deleteLast() {
+    }
 
         return true;
-    }
 
-    public int getFront() {
-        if (isEmpty()) {
-            return -1;
         }
+            front = 0;
+            rear = -1;
+        if (size == 0) {
+        size--;
 
-        return deque[front];
-    }
+        front = (front + 1) % capacity;
 
-    public int getRear() {
+        }
+            return false;
         if (isEmpty()) {
