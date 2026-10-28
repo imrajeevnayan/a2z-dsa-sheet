@@ -7,7 +7,7 @@
  * Topics: Stack, Design, Queue
  * Runtime: 0 ms
  * Memory: 42.26 MB
- * Synced: 2026-10-28T06:43:46.343Z
+ * Synced: 2026-10-28T06:44:03.240Z
  */
 
 }
@@ -22,15 +22,14 @@
         while (!q1.isEmpty()) {
 
         q2.offer(x);
-    public void push(int x) {
-
-    }
-        q2 = new LinkedList<>();
-        q1 = new LinkedList<>();
-    public MyStack() {
-
-    Queue<Integer> q2;
-    Queue<Integer> q1;
-class MyStack {
-
         return q1.poll();
+    }
+
+    public int top() {
+        return q1.peek();
+    }
+
+    public boolean empty() {
+        return q1.isEmpty();
+    }
+}
