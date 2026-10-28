@@ -7,15 +7,34 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T02:46:19.554Z
+ * Synced: 2026-10-28T02:46:42.538Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.ArrayList;
+import java.util.*;
+import java.io.*;
  
 class Solution {
+ 
     public static ArrayList<String> subsequences(String str) {
-        // Write your code here
+        ArrayList<String> ans = new ArrayList<>();
+        solve(0, str, "", ans);
+        return ans;
+    }
+ 
+    private static void solve(int idx, String str, String curr,
+                              ArrayList<String> ans) {
+ 
+        if (idx == str.length()) {
+            if (!curr.isEmpty()) {
+                ans.add(curr);
+            }
+            return;
+        }
+ 
+        // Include current character
+        solve(idx + 1, str, curr + str.charAt(idx), ans);
+ 
+        // Exclude current character
+        solve(idx + 1, str, curr, ans);
     }
 }
