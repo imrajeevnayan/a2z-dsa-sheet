@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: 225. Implement Stack using Queues
+ * URL: https://leetcode.com/problems/implement-stack-using-queues/description/?envType=problem-list-v2&envId=queue
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Stack, Design, Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T06:38:51.475Z
+ */
+
+Input
+["MyStack", "push", "push", "top", "pop", "empty"]
+[[], [1], [2], [], [], []]
+Output
+[null, null, null, 2, 2, false]
+
+Explanation
+MyStack myStack = new MyStack();
+myStack.push(1);
+myStack.push(2);
+myStack.top(); // return 2
+myStack.pop(); // return 2
+myStack.empty(); // return False
