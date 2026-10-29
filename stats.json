@@ -1,12 +1,12 @@
 {
-  "totalSolved": 274,
+  "totalSolved": 275,
   "currentStreak": 8,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-29",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 103,
-    "medium": 152,
+    "medium": 153,
     "hard": 10,
     "basic": 9
   },
@@ -284,7 +284,8 @@
     "LeetCode_Implement_Queue_using_Stacks": true,
     "LeetCode_Group_Anagrams": true,
     "LeetCode_Unique_Number_of_Occurrences": true,
-    "LeetCode_Dota2_Senate": true
+    "LeetCode_Dota2_Senate": true,
+    "LeetCode_House_Robber": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -319,7 +320,7 @@
     "2026-10-26": 15,
     "2026-10-27": 11,
     "2026-10-28": 9,
-    "2026-10-29": 2
+    "2026-10-29": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -593,6 +594,7 @@
     "Implement Queue using Stacks",
     "Group Anagrams",
     "Unique Number of Occurrences",
-    "Dota2 Senate"
+    "Dota2 Senate",
+    "House Robber"
   ]
 }
