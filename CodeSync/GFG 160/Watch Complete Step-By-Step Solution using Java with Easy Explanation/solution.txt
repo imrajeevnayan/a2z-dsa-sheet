@@ -1,0 +1,62 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Watch Complete Step-By-Step Solution using Java with Easy Explanation.
+ * URL: https://www.geeksforgeeks.org/problems/additive-sequence/1
+ * Language: public boolean isAdditiveSequence(String n) { // code here int size = n.length(); if (size < 3) return false; for (int i = 1; i <(size > 7?7:size); i++) { for (int j = i + 1; j<(size>7?8:size); j++) { String start = n.substring(0, i); String end = n.substring(i, j); if ((start.length() > 1 && start.startsWith("0")) || (end.length() > 1 && end.startsWith("0"))) { continue; } if (helper(start, end, j, n)) { return true; } } } return false; } private boolean helper(String start, String end, int j, String n) { long num1 = Long.parseLong(start); long num2 = Long.parseLong(end); while (j < n.length()) { String strSum = String.valueOf(num1 + num2); if (!n.startsWith(strSum, j)) { return false; } j += strSum.length(); num1 = num2; num2 = Long.parseLong(strSum); } return true; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Nutanix, Company Tags, Nutanix, Topic Tags, Strings, Recursion, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-29T17:54:44.345Z
+ */
+
+class Solution {
+
+    public boolean isSumString(String s) {
+        int n = s.length();
+
+        for (int i = 1; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+
+                String first = s.substring(0, i);
+                String second = s.substring(i, j);
+
+                if (check(first, second, s.substring(j))) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private boolean check(String a, String b, String remaining) {
+
+        String sum = addStrings(a, b);
+
+        if (!remaining.startsWith(sum)) {
+            return false;
+        }
+
+        if (remaining.length() == sum.length()) {
+            return true;
+        }
+
+        return check(b, sum, remaining.substring(sum.length()));
+    }
+
+    private String addStrings(String a, String b) {
+        StringBuilder sb = new StringBuilder();
+
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
+
+        while (i >= 0 || j >= 0 || carry > 0) {
+            int x = (i >= 0) ? a.charAt(i--) - '0' : 0;
+            int y = (j >= 0) ? b.charAt(j--) - '0' : 0;
+
+            int sum = x + y + carry;
+            sb.append(sum % 10);
+            carry = sum / 10;
+        }
