@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2677. Chunk Array
+ * URL: https://leetcode.com/problems/chunk-array/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-29T17:47:16.799Z
+ */
+
+Input: arr = [1,2,3,4,5], size = 1
+Output: [[1],[2],[3],[4],[5]]
+Explanation: The arr has been split into subarrays each with 1 element.
