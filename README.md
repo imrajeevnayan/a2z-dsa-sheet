@@ -311,3 +311,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 272 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | LeetCode | Easy | 28 Oct 2026 | 12:10 pm |
 | 273 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | LeetCode | Easy | 28 Oct 2026 | 12:13 pm |
 | 274 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LeetCode | Medium | 28 Oct 2026 | 12:30 pm |
+| 275 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | LeetCode | Easy | 29 Oct 2026 | 10:36 am |
