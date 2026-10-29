@@ -2,17 +2,16 @@
  * Platform: LeetCode
  * Problem: 649. Dota2 Senate
  * URL: https://leetcode.com/problems/dota2-senate/description/?envType=study-plan-v2&envId=leetcode-75
- * Language: Text
+ * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: String, Greedy, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-29T05:06:11.412Z
+ * Synced: 2026-10-29T05:06:14.446Z
  */
 
-Input: senate = "RD"
-Output: "Radiant"
-Explanation: 
-The first senator comes from Radiant and he can just ban the next senator's right in round 1. 
-And the second senator can't exercise any rights anymore since his right has been banned. 
-And in round 2, the first senator can just announce the victory since he is the only guy in the senate who can vote.
+class Solution {
+    public String predictPartyVictory(String senate) {
+        
+    }
+}
