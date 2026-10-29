@@ -317,3 +317,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 278 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | LeetCode | Medium | 29 Oct 2026 | 11:18 pm |
 | 279 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | LeetCode | Easy | 29 Oct 2026 | 11:19 pm |
 | 280 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | LeetCode | Medium | 29 Oct 2026 | 11:21 pm |
+| 281 | [Sum All Substrings of Number](https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1) | GeeksForGeeks | Medium | 29 Oct 2026 | 11:23 pm |
