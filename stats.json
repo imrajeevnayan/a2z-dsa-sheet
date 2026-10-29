@@ -1,11 +1,11 @@
 {
-  "totalSolved": 276,
+  "totalSolved": 277,
   "currentStreak": 8,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-29",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
-    "easy": 103,
+    "easy": 104,
     "medium": 154,
     "hard": 10,
     "basic": 9
@@ -286,7 +286,8 @@
     "LeetCode_Unique_Number_of_Occurrences": true,
     "LeetCode_Dota2_Senate": true,
     "LeetCode_House_Robber": true,
-    "LeetCode_Difference_Between_Ones_and_Zeros_in_Row_and_Column": true
+    "LeetCode_Difference_Between_Ones_and_Zeros_in_Row_and_Column": true,
+    "LeetCode_Count_Equal_and_Divisible_Pairs_in_an_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -321,7 +322,7 @@
     "2026-10-26": 15,
     "2026-10-27": 11,
     "2026-10-28": 9,
-    "2026-10-29": 4
+    "2026-10-29": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -597,6 +598,7 @@
     "Unique Number of Occurrences",
     "Dota2 Senate",
     "House Robber",
-    "Difference Between Ones and Zeros in Row and Column"
+    "Difference Between Ones and Zeros in Row and Column",
+    "Count Equal and Divisible Pairs in an Array"
   ]
 }

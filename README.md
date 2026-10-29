@@ -315,3 +315,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 276 | [Dota2 Senate](https://leetcode.com/problems/dota2-senate/) | LeetCode | Medium | 29 Oct 2026 | 10:37 am |
 | 277 | [House Robber](https://leetcode.com/problems/house-robber/) | LeetCode | Medium | 29 Oct 2026 | 10:38 am |
 | 278 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | LeetCode | Medium | 29 Oct 2026 | 11:18 pm |
+| 279 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | LeetCode | Easy | 29 Oct 2026 | 11:19 pm |
