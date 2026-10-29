@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ || Easy || Explained (DP) || O(n) Time ✅✅
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1
+ * Language: class Solution: def sumSubstrings(self,s): su=0 for i in range(len(s)): for j in range(0,len(s)): st=s[j:j+i+1] su+=int(st) if j+i+1==len(s): break return su
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Dynamic Programming, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-29T17:53:43.625Z
+ */
+
+class Solution {
+    public static int sumSubstrings(String s) {
+        int n = s.length();
+
+        long[] dp = new long[n];
+        dp[0] = s.charAt(0) - '0';
+
+        long ans = dp[0];
+
+        for (int i = 1; i < n; i++) {
+            int digit = s.charAt(i) - '0';
+
+            dp[i] = (long) (i + 1) * digit + 10L * dp[i - 1];
+            ans += dp[i];
+        }
+
+        return (int) ans;
+    }
+}
