@@ -1,27 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 198. House Robber
- * URL: https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/house-robber/submissions/2184438933/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-29T05:07:45.170Z
+ * Runtime: 0 ms
+ * Memory: 42.28 MB
+ * Synced: 2026-10-29T05:08:40.821Z
  */
 
-class Solution {
-    public int amount(int[] nums, int i, int[] dp) {
-        // Base Case: Agar index array se bahar chala gaya, toh 0 return karo
-        if (i >= nums.length) return 0;
-        
-        // Memoization Step: Agar pehle se calculate hai, toh direct return karo
-        if (dp[i] != -1) return dp[i];
-        
-        // Choice 1: Current house loot lo, aur agle adjacent ko skip karke i+2 pe jao
-        int take = nums[i] + amount(nums, i + 2, dp);
-        
-        // Choice 2: Current house skip karo, aur seedha next house i+1 pe jao
+// Choice 2: Current house skip karo, aur seedha next house i+1 pe jao
         int skip = amount(nums, i + 1, dp); // '0 +' likhne ki zaroorat nahi hai
         
         // Max value ko dp mein store karo aur return karo
@@ -33,3 +22,13 @@ class Solution {
         if (nums == null || nums.length == 0) return 0;
         
         int[] dp = new int[nums.length];
+        // Choice 1: Current house loot lo, aur agle adjacent ko skip karke i+2 pe jao
+        int take = nums[i] + amount(nums, i + 2, dp);
+        
+        Arrays.fill(dp, -1);
+        
+        // Start from index 0
+        return amount(nums, 0, dp);
+    }
+}
+        if (dp[i] != -1) return dp[i];
