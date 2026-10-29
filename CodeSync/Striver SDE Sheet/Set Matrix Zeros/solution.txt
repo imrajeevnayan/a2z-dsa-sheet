@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Set Matrix Zeros
+ * URL: https://www.interviewbit.com/problems/set-matrix-zeros/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-29T05:15:45.555Z
+ */
+
+public class Solution {
+    public void setZeroes(ArrayList<ArrayList<Integer>> a) {
+    }
+}
