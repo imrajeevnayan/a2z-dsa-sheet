@@ -7,9 +7,38 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-29T05:15:44.695Z
+ * Synced: 2026-10-29T05:16:47.570Z
  */
 
-[   [1, 0, 1],
-    [1, 1, 1], 
-    [1, 1, 1]   ]
+}
+                    a.get(0).set(j, 0);
+                    a.get(i).set(0, 0);
+                if (a.get(i).get(j) == 0) {
+            for (int j = 1; j < n; j++) {
+        for (int i = 1; i < m; i++) {
+        // Mark rows and columns
+
+        }
+            }
+                break;
+                firstCol = true;
+            if (a.get(i).get(0) == 0) {
+        for (int i = 0; i < m; i++) {
+        }
+
+        // Check first column
+                firstRow = true;
+                break;
+            }
+            if (a.get(0).get(j) == 0) {
+        for (int j = 0; j < n; j++) {
+
+        // Check first row
+        boolean firstRow = false;
+        boolean firstCol = false;
+        int n = a.get(0).size();
+
+        int m = a.size();
+    public void setZeroes(ArrayList<ArrayList<Integer>> a) {
+
+            }
