@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 649. Dota2 Senate
- * URL: https://leetcode.com/problems/dota2-senate/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/dota2-senate/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: String, Greedy, Queue
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-29T05:06:14.446Z
+ * Synced: 2026-10-29T05:06:59.508Z
  */
 
+for (int i = 0; i < n; i++) {
+            if (senate.charAt(i) == 'R') {
+                radiant.offer(i);
+            } else {
+                dire.offer(i);
+            }
+        }
+
+        while (!radiant.isEmpty() && !dire.isEmpty()) {
+
+            int r = radiant.poll();
+            int d = dire.poll();
+
+            if (r < d) {
+                radiant.offer(r + n);
+        int n = senate.length();
+
+        Queue<Integer> dire = new LinkedList<>();
+
+
+        Queue<Integer> radiant = new LinkedList<>();
 class Solution {
     public String predictPartyVictory(String senate) {
-        
-    }
-}
