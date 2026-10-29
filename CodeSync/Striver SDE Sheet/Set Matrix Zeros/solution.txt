@@ -7,10 +7,9 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-29T05:15:45.555Z
+ * Synced: 2026-10-29T05:15:44.695Z
  */
 
-public class Solution {
-    public void setZeroes(ArrayList<ArrayList<Integer>> a) {
-    }
-}
+[   [1, 0, 1],
+    [1, 1, 1], 
+    [1, 1, 1]   ]
