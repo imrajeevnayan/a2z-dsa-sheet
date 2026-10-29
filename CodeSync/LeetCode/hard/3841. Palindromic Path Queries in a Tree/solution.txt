@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3841. Palindromic Path Queries in a Tree
+ * URL: https://leetcode.com/problems/palindromic-path-queries-in-a-tree/description/?envType=daily-question&envId=2026-10-29
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, String, Divide and Conquer, Bit Manipulation, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-29T05:04:53.649Z
+ */
+
+class Solution {
+    public List<Boolean> palindromePath(int n, int[][] edges, String s, String[] queries) {
+        
+    }
+}
