@@ -1,12 +1,12 @@
 {
-  "totalSolved": 273,
+  "totalSolved": 274,
   "currentStreak": 8,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-29",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 103,
-    "medium": 151,
+    "medium": 152,
     "hard": 10,
     "basic": 9
   },
@@ -283,7 +283,8 @@
     "LeetCode_Implement_Stack_using_Queues": true,
     "LeetCode_Implement_Queue_using_Stacks": true,
     "LeetCode_Group_Anagrams": true,
-    "LeetCode_Unique_Number_of_Occurrences": true
+    "LeetCode_Unique_Number_of_Occurrences": true,
+    "LeetCode_Dota2_Senate": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -318,7 +319,7 @@
     "2026-10-26": 15,
     "2026-10-27": 11,
     "2026-10-28": 9,
-    "2026-10-29": 1
+    "2026-10-29": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -591,6 +592,7 @@
     "Implement Stack using Queues",
     "Implement Queue using Stacks",
     "Group Anagrams",
-    "Unique Number of Occurrences"
+    "Unique Number of Occurrences",
+    "Dota2 Senate"
   ]
 }
