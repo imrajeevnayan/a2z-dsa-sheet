@@ -7,11 +7,8 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, Hotel Service 51 Minutes Medium Asked in:, Evaluate Expression 32 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:09:40.527Z
+ * Synced: 2026-10-30T17:09:39.791Z
  */
 
-public class Solution {
-    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
-    public int[] slidingMaximum(final int[] A, int B) {
-    }
-}
+The first argument given is the integer array A.
+The second argument given is the integer B.
