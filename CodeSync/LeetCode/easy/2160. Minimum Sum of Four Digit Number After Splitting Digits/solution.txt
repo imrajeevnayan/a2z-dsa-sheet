@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2160. Minimum Sum of Four Digit Number After Splitting Digits
+ * URL: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/?envType=problem-list-v2&envId=sorting
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Math, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-30T11:42:13.030Z
+ */
+
+Input: num = 2932
+Output: 52
+Explanation: Some possible pairs [new1, new2] are [29, 23], [223, 9], etc.
+The minimum sum can be obtained by the pair [29, 23]: 29 + 23 = 52.
