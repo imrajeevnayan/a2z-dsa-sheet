@@ -7,11 +7,10 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Stack, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:37:53.743Z
+ * Synced: 2026-10-30T17:37:58.064Z
  */
 
-class Solution {
-    public int sumSubMins(int[] arr) {
+public int sumSubMins(int[] arr) {
         int n = arr.length;
 
         int[] left = new int[n];
