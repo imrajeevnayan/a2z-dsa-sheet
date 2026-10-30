@@ -4,21 +4,13 @@
  * URL: https://www.interviewbit.com/problems/rotated-sorted-array-search/
  * Language: Text
  * Difficulty: Medium
- * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 36.5%
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, Capacity To Ship Packages Within B Days Medium
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:14:16.538Z
+ * Synced: 2026-10-30T17:14:52.598Z
  */
 
-// Left half is sorted
-            if (A[low] <= A[mid]) {
-
-                if (B >= A[low] && B < A[mid]) {
-                    high = mid - 1;
-                } else {
-                    low = mid + 1;
-                }
-            }
+}
             // Right half is sorted
             else {
 
@@ -28,8 +20,24 @@
                     high = mid - 1;
                 }
             }
-        }
+                }
+                    low = mid + 1;
+                    high = mid - 1;
+                } else {
 
-        return -1;
-    }
-}
+                if (B >= A[low] && B < A[mid]) {
+            // Left half is sorted
+            if (A[low] <= A[mid]) {
+
+            }
+                return mid;
+            if (A[mid] == B) {
+
+            int mid = low + (high - low) / 2;
+        while (low <= high) {
+
+
+        int low = 0;
+        int high = A.length - 1;
+    public int search(final int[] A, int B) {
+        }
