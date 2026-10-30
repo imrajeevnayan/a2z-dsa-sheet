@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3. Longest Substring Without Repeating Characters
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?spm=a2ty_o01.29997173.0.0.17e5c921XgqJgX
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-02T16:23:29.292Z
+ * Synced: 2026-10-30T09:51:29.165Z
  */
 
 class Solution {
