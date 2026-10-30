@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 1637. Widest Vertical Area Between Two Points Containing No Points
- * URL: https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/?envType=problem-list-v2&envId=sorting
+ * URL: https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/?envType=problem-list-v2&envId=sorting
  * Language: Sorting
  * Difficulty: Easy
  * Topics: Array, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T11:41:01.695Z
+ * Synced: 2026-10-30T11:41:31.559Z
  */
 
-class Solution {
+int n = points.length;
+
+        // Sare x-coordinates store karenge
+        int[] x = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            x[i] = points[i][0];
+        }
+
+        // X values ko sort kar do
+        Arrays.sort(x);
+
+        int maxWidth = 0;
+
+        // Consecutive x-values ke gaps check karo
+        for (int i = 1; i < n; i++) {
+            maxWidth = Math.max(maxWidth, x[i] - x[i - 1]);
+        }
     public int maxWidthOfVerticalArea(int[][] points) {
-        
-    }
-}
+class Solution {
+
+        return maxWidth;
