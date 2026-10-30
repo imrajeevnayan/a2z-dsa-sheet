@@ -7,8 +7,29 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 36.5%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:13:32.591Z
+ * Synced: 2026-10-30T17:14:16.538Z
  */
 
-A = [4, 5, 6, 7, 0, 1, 2, 3]
-B = 4
+// Left half is sorted
+            if (A[low] <= A[mid]) {
+
+                if (B >= A[low] && B < A[mid]) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            }
+            // Right half is sorted
+            else {
+
+                if (B > A[mid] && B <= A[high]) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+        }
+
+        return -1;
+    }
+}
