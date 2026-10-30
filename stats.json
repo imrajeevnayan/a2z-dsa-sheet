@@ -1,12 +1,12 @@
 {
-  "totalSolved": 285,
+  "totalSolved": 286,
   "currentStreak": 9,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-30",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 106,
-    "medium": 160,
+    "medium": 161,
     "hard": 10,
     "basic": 9
   },
@@ -295,7 +295,8 @@
     "LeetCode_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points": true,
     "LeetCode_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits": true,
     "LeetCode_Maximum_Number_of_Coins_You_Can_Get": true,
-    "GeeksForGeeks_Sum_of_XORs_of_All_Pairs": true
+    "GeeksForGeeks_Sum_of_XORs_of_All_Pairs": true,
+    "GeeksForGeeks_Sum_of_Subarray_Mminimums": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -331,7 +332,7 @@
     "2026-10-27": 11,
     "2026-10-28": 9,
     "2026-10-29": 8,
-    "2026-10-30": 5
+    "2026-10-30": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -616,6 +617,7 @@
     "Widest Vertical Area Between Two Points Containing No Points",
     "Minimum Sum of Four Digit Number After Splitting Digits",
     "Maximum Number of Coins You Can Get",
-    "Sum of XORs of All Pairs"
+    "Sum of XORs of All Pairs",
+    "Sum of Subarray Mminimums"
   ]
 }
