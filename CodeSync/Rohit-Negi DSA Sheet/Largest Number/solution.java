@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T16:49:50.913Z
+ * Synced: 2026-10-30T16:50:19.811Z
  */
 
 }
@@ -27,3 +27,16 @@
         return sb.toString();
     }
 }
+                return ba.compareTo(ab); // descending order
+                String ba = b + a;
+            public int compare(String a, String b) {
+                String ab = a + b;
+        Arrays.sort(arr, new Comparator<String>() {
+
+        }
+            arr[i] = String.valueOf(A[i]);
+        for (int i = 0; i < A.length; i++) {
+
+        String[] arr = new String[A.length];
+
+    public String largestNumber(final int[] A) {
