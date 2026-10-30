@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2405. Optimal Partition of String
+ * URL: https://leetcode.com/problems/optimal-partition-of-string/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-30T09:52:03.338Z
+ */
+
+Input: s = "abacaba"
+Output: 4
+Explanation:
+Two possible partitions are ("a","ba","cab","a") and ("ab","a","ca","ba").
+It can be shown that 4 is the minimum number of substrings needed.
