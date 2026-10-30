@@ -1,0 +1,51 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maxmimum and Distinct from Two Arrays
+ * URL: https://www.geeksforgeeks.org/problems/maximize-the-array3340/1
+ * Language: class Solution: def maximizeArray(self, arr1, arr2, n): # Function to maximize the array by selecting n largest elements from arr1 and arr2 combined # Step 1: Create indexed lists for both arrays res1 = [(i, arr1[i]) for i in range(n)] res2 = [(i, arr2[i]) for i in range(n)] # Step 2: Sort both lists in descending order based on values res1.sort(reverse=True, key=lambda x: x[1]) res2.sort(reverse=True, key=lambda x: x[1]) # Initialize variables i, j, k = 0, 0, 0 # Indices for res1, res2, and count of selected elements ans1, ans2 = [], [] # Lists to store selected elements from arr1 and arr2 s = set() # Set to keep track of unique values # Step 3: Select n largest unique elements while i < n and j < n and k < n: if res2[j][1] >= res1[i][1]: # If element from res2 is larger or equal res = res2[j] if res[1] not in s: ans2.append(res) s.add(res[1]) k += 1 j += 1 else: # If element from res1 is larger res = res1[i] if res[1] not in s: ans1.append(res) s.add(res[1]) k += 1 i += 1 # Step 4: If we haven't selected n elements yet, continue selecting from remaining elements if k < n: # Select from res2 while j < n and k < n: res = res2[j] if res[1] not in s: ans2.append(res) s.add(res[1]) k += 1 j += 1 # Select from res1 while i < n and k < n: res = res1[i] if res[1] not in s: ans1.append(res) s.add(res[1]) k += 1 i += 1 # Step 5: Combine and sort the results # Sort ans2 and ans1 based on original indices, then extract the values return [i[1] for i in sorted(ans2) + sorted(ans1)]
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Arrays, Heap, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-30T17:41:39.072Z
+ */
+
+class Solution {
+    public List<Integer> maximizeArray(int[] a, int[] b) {
+
+        int n = a.length;
+
+        TreeSet<Integer> set = new TreeSet<Integer>();
+
+        for (int x : a) set.add(x);
+        for (int x : b) set.add(x);
+
+        HashSet<Integer> keep = new HashSet<Integer>();
+
+        Iterator<Integer> it = set.descendingIterator();
+
+        int cnt = 0;
+        while (it.hasNext() && cnt < n) {
+            keep.add(it.next());
+            cnt++;
+        }
+
+        List<Integer> ans = new ArrayList<Integer>();
+
+        for (int x : b) {
+            if (keep.contains(x)) {
+                ans.add(x);
+                keep.remove(x);
+            }
+        }
+
+        for (int x : a) {
+            if (keep.contains(x)) {
+                ans.add(x);
+                keep.remove(x);
+            }
+        }
+
+        return ans;
+    }
+}
