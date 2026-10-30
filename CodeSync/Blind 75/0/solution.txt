@@ -1,28 +1,28 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/valid-parentheses/description/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2185399606/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: String, Stack, Bracket Sequences
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T11:20:59.344Z
+ * Synced: 2026-10-30T11:40:01.823Z
  */
 
-class Solution {
-    public boolean isValid(String s) {
-        Deque<Character> st = new ArrayDeque<>();
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') st.push(c);
-            else {
-                if (st.isEmpty()) return false; 
-                char top = st.pop();
-                if ((c == ')' && top != '(') ||
-                    (c == '}' && top != '{') ||
-                    (c == ']' && top != '[')) return false;
-            }
-        }
-        return st.isEmpty();
-    }
-}
+1class Solution {
+2    public int lengthOfLongestSubstring(String s) {
+3        Set<Character>set=new HashSet<>();
+4        int left=0,ans=0;
+5        for(int right=0;right<s.length();right++){
+6            char ch=s.charAt(right);
+7            while(set.contains(ch)){
+8                set.remove(s.charAt(left));
+9                left++;
+10            }
+11            set.add(ch);
+12            ans=Math.max(ans,right-left+1);
+13        }
+14        return ans;
+15    }
+16}
