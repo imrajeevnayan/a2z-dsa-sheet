@@ -1,12 +1,12 @@
 {
-  "totalSolved": 283,
+  "totalSolved": 284,
   "currentStreak": 9,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-30",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 106,
-    "medium": 158,
+    "medium": 159,
     "hard": 10,
     "basic": 9
   },
@@ -293,7 +293,8 @@
     "GeeksForGeeks_Check_Sum_String": true,
     "LeetCode_Count_Complete_Subarrays_in_an_Array": true,
     "LeetCode_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points": true,
-    "LeetCode_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits": true
+    "LeetCode_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits": true,
+    "LeetCode_Maximum_Number_of_Coins_You_Can_Get": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -329,7 +330,7 @@
     "2026-10-27": 11,
     "2026-10-28": 9,
     "2026-10-29": 8,
-    "2026-10-30": 3
+    "2026-10-30": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -612,6 +613,7 @@
     "Check Sum String",
     "Count Complete Subarrays in an Array",
     "Widest Vertical Area Between Two Points Containing No Points",
-    "Minimum Sum of Four Digit Number After Splitting Digits"
+    "Minimum Sum of Four Digit Number After Splitting Digits",
+    "Maximum Number of Coins You Can Get"
   ]
 }

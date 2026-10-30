@@ -322,3 +322,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 283 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/) | LeetCode | Medium | 30 Oct 2026 | 03:24 pm |
 | 284 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | LeetCode | Easy | 30 Oct 2026 | 05:11 pm |
 | 285 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | LeetCode | Easy | 30 Oct 2026 | 05:13 pm |
+| 286 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | LeetCode | Medium | 30 Oct 2026 | 05:14 pm |
