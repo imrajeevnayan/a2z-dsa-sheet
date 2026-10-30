@@ -323,3 +323,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 284 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | LeetCode | Easy | 30 Oct 2026 | 05:11 pm |
 | 285 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | LeetCode | Easy | 30 Oct 2026 | 05:13 pm |
 | 286 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | LeetCode | Medium | 30 Oct 2026 | 05:14 pm |
+| 287 | [Sum of XORs of All Pairs](https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:06 pm |
