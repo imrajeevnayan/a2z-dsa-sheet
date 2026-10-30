@@ -7,30 +7,24 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-30T09:54:48.026Z
+ * Synced: 2026-10-30T09:54:50.408Z
  */
 
-int ans = 0;
-
-        // Har index se subarray start karo
-        for (int i = 0; i < nums.length; i++) {
-
-            HashSet<Integer> set = new HashSet<>();
+HashSet<Integer> set = new HashSet<>();
 
             for (int j = i; j < nums.length; j++) {
 
                 // Current element add karo
                 set.add(nums[j]);
 
-        int totalDistinct = distinct.size();
-
-        }
-            distinct.add(num);
-
-        for (int num : nums) {
-        HashSet<Integer> distinct = new HashSet<>();
-        // distinct elements count karenge
-
-    public int countCompleteSubarrays(int[] nums) {
-class Solution {
                 // Agar distinct count match ho gaya
+                // to ye complete subarray hai
+                if (set.size() == totalDistinct) {
+                    ans++;
+                }
+            }
+        }
+
+        return ans;
+    }
+}
