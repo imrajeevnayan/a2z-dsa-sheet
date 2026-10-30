@@ -320,3 +320,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 281 | [Sum All Substrings of Number](https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1) | GeeksForGeeks | Medium | 29 Oct 2026 | 11:23 pm |
 | 282 | [Check Sum String](https://www.geeksforgeeks.org/problems/additive-sequence/1) | GeeksForGeeks | Medium | 29 Oct 2026 | 11:24 pm |
 | 283 | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/) | LeetCode | Medium | 30 Oct 2026 | 03:24 pm |
+| 284 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | LeetCode | Easy | 30 Oct 2026 | 05:11 pm |

@@ -1,11 +1,11 @@
 {
-  "totalSolved": 281,
+  "totalSolved": 282,
   "currentStreak": 9,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-30",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 104,
+    "easy": 105,
     "medium": 158,
     "hard": 10,
     "basic": 9
@@ -291,7 +291,8 @@
     "LeetCode_Count_Number_of_Bad_Pairs": true,
     "GeeksForGeeks_Sum_All_Substrings_of_Number": true,
     "GeeksForGeeks_Check_Sum_String": true,
-    "LeetCode_Count_Complete_Subarrays_in_an_Array": true
+    "LeetCode_Count_Complete_Subarrays_in_an_Array": true,
+    "LeetCode_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -327,7 +328,7 @@
     "2026-10-27": 11,
     "2026-10-28": 9,
     "2026-10-29": 8,
-    "2026-10-30": 1
+    "2026-10-30": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -608,6 +609,7 @@
     "Count Number of Bad Pairs",
     "Sum All Substrings of Number",
     "Check Sum String",
-    "Count Complete Subarrays in an Array"
+    "Count Complete Subarrays in an Array",
+    "Widest Vertical Area Between Two Points Containing No Points"
   ]
 }
