@@ -1,0 +1,17 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Rotated Sorted Array Search
+ * URL: https://www.interviewbit.com/problems/rotated-sorted-array-search/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 36.5%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-30T17:13:33.402Z
+ */
+
+public class Solution {
+    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
+    public int search(final int[] A, int B) {
+    }
+}
