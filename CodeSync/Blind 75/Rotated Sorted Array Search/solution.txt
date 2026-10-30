@@ -7,7 +7,7 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, Capacity To Ship Packages Within B Days Medium
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:16:54.404Z
+ * Synced: 2026-10-30T17:17:13.154Z
  */
 
 }
@@ -28,14 +28,13 @@
         }
         return -1;
     }
-}
             if (A[low] <= A[mid]) {
-            // Left half is sorted
+            // Left half is sort
             if (A[mid] == B) return mid;
             
             int mid = low + (high - low) / 2;
 
         while (low <= high) {
-        int low = 0,  high = A.length - 1;
 
-    public int search(final int[] A, int B) {
+        
+}
