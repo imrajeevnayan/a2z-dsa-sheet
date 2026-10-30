@@ -1,21 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 2405. Optimal Partition of String
- * URL: https://leetcode.com/problems/optimal-partition-of-string/
+ * URL: https://leetcode.com/problems/optimal-partition-of-string/submissions/2185400395/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Greedy
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-30T09:53:05.887Z
+ * Synced: 2026-10-30T09:53:12.139Z
  */
 
-// Current substring ke unique characters store karenge
-        HashSet<Character> set = new HashSet<>();
-
-        for (char ch : s.toCharArray()) {
-
-            // Agar character already present hai,
+// Agar character already present hai,
             // to current substring me duplicate aa gaya
             if (set.contains(ch)) {
 
@@ -27,10 +22,13 @@
             }
 
             // Current character ko add karo
-        int partitions = 1;
+        for (char ch : s.toCharArray()) {
+
 
         // Pehli substring count kar rahe hain
-    public int partitionString(String s) {
+        int partitions = 1;
 
-            set.add(ch);
-        }
+        // Current substring ke unique characters store karenge
+        HashSet<Character> set = new HashSet<>();
+    public int partitionString(String s) {
+class Solution {
