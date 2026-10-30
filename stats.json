@@ -1,12 +1,12 @@
 {
-  "totalSolved": 287,
+  "totalSolved": 288,
   "currentStreak": 9,
   "maxStreak": 25,
   "lastSyncDate": "2026-10-30",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 106,
-    "medium": 162,
+    "medium": 163,
     "hard": 10,
     "basic": 9
   },
@@ -297,7 +297,8 @@
     "LeetCode_Maximum_Number_of_Coins_You_Can_Get": true,
     "GeeksForGeeks_Sum_of_XORs_of_All_Pairs": true,
     "GeeksForGeeks_Sum_of_Subarray_Mminimums": true,
-    "GeeksForGeeks_Maxmimum_and_Distinct_from_Two_Arrays": true
+    "GeeksForGeeks_Maxmimum_and_Distinct_from_Two_Arrays": true,
+    "GeeksForGeeks_String_stack": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -333,7 +334,7 @@
     "2026-10-27": 11,
     "2026-10-28": 9,
     "2026-10-29": 8,
-    "2026-10-30": 7
+    "2026-10-30": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -620,6 +621,7 @@
     "Maximum Number of Coins You Can Get",
     "Sum of XORs of All Pairs",
     "Sum of Subarray Mminimums",
-    "Maxmimum and Distinct from Two Arrays"
+    "Maxmimum and Distinct from Two Arrays",
+    "String stack"
   ]
 }

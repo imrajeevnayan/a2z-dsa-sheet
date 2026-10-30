@@ -326,3 +326,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 287 | [Sum of XORs of All Pairs](https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:06 pm |
 | 288 | [Sum of Subarray Mminimums](https://www.geeksforgeeks.org/problems/sum-of-subarray-minimum/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:07 pm |
 | 289 | [Maxmimum and Distinct from Two Arrays](https://www.geeksforgeeks.org/problems/maximize-the-array3340/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:11 pm |
+| 290 | [String stack](https://www.geeksforgeeks.org/problems/string-stack--165812/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:26 pm |
