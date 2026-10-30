@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 2799. Count Complete Subarrays in an Array
- * URL: https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/
+ * URL: https://leetcode.com/problems/count-complete-subarrays-in-an-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-30T09:53:49.952Z
+ * Synced: 2026-10-30T09:54:37.132Z
  */
 
-class Solution {
+int ans = 0;
+
+        // Har index se subarray start karo
+        for (int i = 0; i < nums.length; i++) {
+
+            HashSet<Integer> set = new HashSet<>();
+
+            for (int j = i; j < nums.length; j++) {
+
+                // Current element add karo
+                set.add(nums[j]);
+
+        int totalDistinct = distinct.size();
+
+        }
+            distinct.add(num);
+
+        for (int num : nums) {
+        HashSet<Integer> distinct = new HashSet<>();
+        // Pure array k distinct elements count karenge
+
     public int countCompleteSubarrays(int[] nums) {
-        
-    }
-}
+class Solution {
