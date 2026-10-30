@@ -2,14 +2,16 @@
  * Platform: LeetCode
  * Problem: 1637. Widest Vertical Area Between Two Points Containing No Points
  * URL: https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/?envType=problem-list-v2&envId=sorting
- * Language: Text
+ * Language: Sorting
  * Difficulty: Easy
  * Topics: Array, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T11:40:59.333Z
+ * Synced: 2026-10-30T11:41:01.695Z
  */
 
-Input: points = [[8,7],[9,9],[7,4],[9,7]]
-Output: 1
-Explanation: Both the red and the blue area are optimal.
+class Solution {
+    public int maxWidthOfVerticalArea(int[][] points) {
+        
+    }
+}
