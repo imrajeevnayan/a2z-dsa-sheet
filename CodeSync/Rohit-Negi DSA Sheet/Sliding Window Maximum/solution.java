@@ -7,7 +7,7 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, Hotel Service 51 Minutes Medium Asked in:, Evaluate Expression 32 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:10:24.213Z
+ * Synced: 2026-10-30T17:10:41.477Z
  */
 
 return new int[] { max };
@@ -30,15 +30,14 @@ return new int[] { max };
             int max = A[0];
         // If B > n, return max of whole array
         if (B >= n) {
-
         }
             return new int[0];
         if (n == 0) {
-
         int n = A.length;
 
-    public int[] slidingMaximum(final int[] A, int B) {
-    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
-public class Solution {
-
             // Remove smaller elements from the back
+            while (!dq.isEmpty() && A[dq.peekLast()] <= A[i]) {
+                dq.pollLast();
+            }
+
+            dq.offerLast(i);
