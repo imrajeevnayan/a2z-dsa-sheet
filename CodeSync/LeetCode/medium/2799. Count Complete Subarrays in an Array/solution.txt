@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-30T09:54:37.132Z
+ * Synced: 2026-10-30T09:54:48.026Z
  */
 
 int ans = 0;
@@ -29,7 +29,8 @@ int ans = 0;
 
         for (int num : nums) {
         HashSet<Integer> distinct = new HashSet<>();
-        // Pure array k distinct elements count karenge
+        // distinct elements count karenge
 
     public int countCompleteSubarrays(int[] nums) {
 class Solution {
+                // Agar distinct count match ho gaya
