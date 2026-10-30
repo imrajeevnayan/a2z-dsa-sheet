@@ -7,7 +7,7 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, Capacity To Ship Packages Within B Days Medium
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T17:15:01.548Z
+ * Synced: 2026-10-30T17:15:07.374Z
  */
 
 }
@@ -29,9 +29,8 @@
             // Left half is sorted
             if (A[low] <= A[mid]) {
 
-            }
-                return mid;
-            if (A[mid] == B) {
+            
+            if (A[mid] == B) return mid;
 
             int mid = low + (high - low) / 2;
         while (low <= high) {
@@ -42,3 +41,4 @@
     public int search(final int[] A, int B) {
         return -1;
     }
+}
