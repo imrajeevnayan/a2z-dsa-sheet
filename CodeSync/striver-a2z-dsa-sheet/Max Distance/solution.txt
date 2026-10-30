@@ -7,16 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T16:45:57.659Z
+ * Synced: 2026-10-30T16:46:51.928Z
  */
 
-public int maximumGap(final int[] A) {
-        int n = A.length;
-
-        int[] lMin = new int[n];
-        int[] rMax = new int[n];
-
-        lMin[0] = A[0];
+lMin[0] = A[0];
         for (int i = 1; i < n; i++) {
             lMin[i] = Math.min(lMin[i - 1], A[i]);
         }
@@ -41,3 +35,10 @@ public int maximumGap(final int[] A) {
         return ans;
     }
 }
+
+        int[] lMin = new int[n];
+        int[] rMax = new int[n];
+        int n = A.length;
+
+public class Solution {
+    public int maximumGap(final int[] A) {
