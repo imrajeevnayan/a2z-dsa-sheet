@@ -7,11 +7,37 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-30T16:45:17.527Z
+ * Synced: 2026-10-30T16:45:57.659Z
  */
 
-public class Solution {
-    // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
-    public int maximumGap(final int[] A) {
+public int maximumGap(final int[] A) {
+        int n = A.length;
+
+        int[] lMin = new int[n];
+        int[] rMax = new int[n];
+
+        lMin[0] = A[0];
+        for (int i = 1; i < n; i++) {
+            lMin[i] = Math.min(lMin[i - 1], A[i]);
+        }
+
+        rMax[n - 1] = A[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            rMax[i] = Math.max(rMax[i + 1], A[i]);
+        }
+
+        int i = 0, j = 0;
+        int ans = -1;
+
+        while (i < n && j < n) {
+            if (lMin[i] <= rMax[j]) {
+                ans = Math.max(ans, j - i);
+                j++;
+            } else {
+                i++;
+            }
+        }
+
+        return ans;
     }
 }
