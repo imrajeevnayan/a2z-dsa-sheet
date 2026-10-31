@@ -1,12 +1,12 @@
 {
-  "totalSolved": 294,
+  "totalSolved": 295,
   "currentStreak": 11,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-01",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 167,
+    "medium": 168,
     "hard": 10,
     "basic": 9
   },
@@ -304,7 +304,8 @@
     "GeeksForGeeks_Max_Sum_Subarray_of_Non-Negative": true,
     "GeeksForGeeks_Pairs_with_Positive_Sum": true,
     "LeetCode_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal": true,
-    "LeetCode_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal": true
+    "LeetCode_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal": true,
+    "GeeksForGeeks_Maximum_Subarray_Sum_with_One_Square_Allowed": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -342,7 +343,7 @@
     "2026-10-29": 8,
     "2026-10-30": 8,
     "2026-10-31": 2,
-    "2026-11-01": 4
+    "2026-11-01": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -636,6 +637,7 @@
     "Max Sum Subarray of Non-Negative",
     "Pairs with Positive Sum",
     "Construct Binary Tree from Preorder and Inorder Traversal",
-    "Construct Binary Tree from Inorder and Postorder Traversal"
+    "Construct Binary Tree from Inorder and Postorder Traversal",
+    "Maximum Subarray Sum with One Square Allowed"
   ]
 }
