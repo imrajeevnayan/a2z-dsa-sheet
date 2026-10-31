@@ -7,7 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-31T06:56:14.505Z
+ * Synced: 2026-10-31T06:56:17.729Z
  */
 
-A = [1, 3, 2, 4, 5]
+public class Solution {
+    public int[] subUnsort(int[] A) {
+    }
+}
