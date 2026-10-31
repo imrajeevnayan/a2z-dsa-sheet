@@ -332,3 +332,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 293 | [Max Sum Subarray of Non-Negative](https://www.geeksforgeeks.org/problems/maximum-sub-array5443/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 12:23 am |
 | 294 | [Pairs with Positive Sum](https://www.geeksforgeeks.org/problems/valid-pair-sum--141631/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 12:35 am |
 | 295 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | LeetCode | Medium | 01 Nov 2026 | 12:37 am |
+| 296 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | LeetCode | Medium | 01 Nov 2026 | 12:38 am |
