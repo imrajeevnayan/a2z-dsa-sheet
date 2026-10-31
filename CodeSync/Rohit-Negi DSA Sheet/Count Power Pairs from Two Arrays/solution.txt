@@ -7,22 +7,10 @@
  * Topics: Expected Complexities, Company Tags FactSet, Company Tags, FactSet, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-31T19:01:47.462Z
+ * Synced: 2026-10-31T19:01:52.092Z
  */
 
-class Solution {
-
-    private int upperBound(int[] b, int x) {
-        int low = 0, high = b.length;
-
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-
-            if (b[mid] <= x)
-                low = mid + 1;
-            else
-                high = mid;
-        }
+}
 
         return low;
     }
@@ -53,3 +41,14 @@ class Solution {
     }
 
     public int countPairs(int[] a, int[] b) {
+
+        Arrays.sort(b);
+
+        int[] cnt = new int[5];
+
+        for (int y : b) {
+            if (y < 5)
+                cnt[y]++;
+        }
+
+        long ans = 0;
