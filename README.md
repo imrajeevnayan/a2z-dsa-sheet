@@ -328,3 +328,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 289 | [Maxmimum and Distinct from Two Arrays](https://www.geeksforgeeks.org/problems/maximize-the-array3340/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:11 pm |
 | 290 | [String stack](https://www.geeksforgeeks.org/problems/string-stack--165812/1) | GeeksForGeeks | Medium | 30 Oct 2026 | 11:26 pm |
 | 291 | [First and Last in Unosrted](https://www.geeksforgeeks.org/problems/find-index4752/1) | GeeksForGeeks | Easy | 31 Oct 2026 | 05:26 pm |
+| 292 | [Swap Adjacent in Array](https://www.geeksforgeeks.org/problems/need-some-change/1) | GeeksForGeeks | Easy | 31 Oct 2026 | 05:28 pm |
