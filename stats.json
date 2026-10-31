@@ -1,12 +1,12 @@
 {
-  "totalSolved": 291,
+  "totalSolved": 292,
   "currentStreak": 11,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-01",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 164,
+    "medium": 165,
     "hard": 10,
     "basic": 9
   },
@@ -301,7 +301,8 @@
     "GeeksForGeeks_String_stack": true,
     "GeeksForGeeks_First_and_Last_in_Unosrted": true,
     "GeeksForGeeks_Swap_Adjacent_in_Array": true,
-    "GeeksForGeeks_Max_Sum_Subarray_of_Non-Negative": true
+    "GeeksForGeeks_Max_Sum_Subarray_of_Non-Negative": true,
+    "GeeksForGeeks_Pairs_with_Positive_Sum": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -339,7 +340,7 @@
     "2026-10-29": 8,
     "2026-10-30": 8,
     "2026-10-31": 2,
-    "2026-11-01": 1
+    "2026-11-01": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -630,6 +631,7 @@
     "String stack",
     "First and Last in Unosrted",
     "Swap Adjacent in Array",
-    "Max Sum Subarray of Non-Negative"
+    "Max Sum Subarray of Non-Negative",
+    "Pairs with Positive Sum"
   ]
 }

@@ -330,3 +330,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 291 | [First and Last in Unosrted](https://www.geeksforgeeks.org/problems/find-index4752/1) | GeeksForGeeks | Easy | 31 Oct 2026 | 05:26 pm |
 | 292 | [Swap Adjacent in Array](https://www.geeksforgeeks.org/problems/need-some-change/1) | GeeksForGeeks | Easy | 31 Oct 2026 | 05:28 pm |
 | 293 | [Max Sum Subarray of Non-Negative](https://www.geeksforgeeks.org/problems/maximum-sub-array5443/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 12:23 am |
+| 294 | [Pairs with Positive Sum](https://www.geeksforgeeks.org/problems/valid-pair-sum--141631/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 12:35 am |
