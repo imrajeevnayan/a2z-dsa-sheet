@@ -1,12 +1,12 @@
 {
-  "totalSolved": 292,
+  "totalSolved": 293,
   "currentStreak": 11,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-01",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 165,
+    "medium": 166,
     "hard": 10,
     "basic": 9
   },
@@ -302,7 +302,8 @@
     "GeeksForGeeks_First_and_Last_in_Unosrted": true,
     "GeeksForGeeks_Swap_Adjacent_in_Array": true,
     "GeeksForGeeks_Max_Sum_Subarray_of_Non-Negative": true,
-    "GeeksForGeeks_Pairs_with_Positive_Sum": true
+    "GeeksForGeeks_Pairs_with_Positive_Sum": true,
+    "LeetCode_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -340,7 +341,7 @@
     "2026-10-29": 8,
     "2026-10-30": 8,
     "2026-10-31": 2,
-    "2026-11-01": 2
+    "2026-11-01": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -632,6 +633,7 @@
     "First and Last in Unosrted",
     "Swap Adjacent in Array",
     "Max Sum Subarray of Non-Negative",
-    "Pairs with Positive Sum"
+    "Pairs with Positive Sum",
+    "Construct Binary Tree from Preorder and Inorder Traversal"
   ]
 }
