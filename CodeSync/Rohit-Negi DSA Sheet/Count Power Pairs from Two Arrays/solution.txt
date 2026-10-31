@@ -1,0 +1,55 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Count Power Pairs from Two Arrays
+ * URL: https://www.geeksforgeeks.org/problems/number-of-pairs3422/1
+ * Language: class Solution { int generateIndex(int[] y,int n,int x){ int l=0; int h=n-1; int a=-1; while(l<=h){ int mid=(h+l)/2; if(x<y[mid]){ a=mid; h=mid-1; } else{ l=mid+1; } } return a; } long countPairs(int[] X, int[] Y) { int z=0,o=0,f=0,th=0,t=0,n = Y.length,m = X.length; Arrays.sort(X); Arrays.sort(Y); for(int i=0;i<n;i++){ if(Y[i]==0)z++; if(Y[i]==1)o++; if(Y[i]==4)f++; if(Y[i]==3)th++; if(Y[i]==2)t++; } long ans=0; for(int i=0;i<m;i++){ if(X[i]==0)continue; else if(X[i]==1)ans+=z; else if(X[i]==2){ int p=generateIndex(Y,n,2); if(p!=-1){ ans+=n-p; } ans-=th; ans-=f; ans+=o; ans+=z; } else{ int p=generateIndex(Y,n,X[i]); if(p!=-1){ ans+=n-p; } if(X[i]==3)ans+=t; ans+=o; ans+=z; } } return ans; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FactSet, Company Tags, FactSet, Topic Tags, Arrays, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-31T19:01:47.462Z
+ */
+
+class Solution {
+
+    private int upperBound(int[] b, int x) {
+        int low = 0, high = b.length;
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (b[mid] <= x)
+                low = mid + 1;
+            else
+                high = mid;
+        }
+
+        return low;
+    }
+
+    private long countForX(int x, int[] b, int[] cnt) {
+
+        if (x == 0)
+            return 0;
+
+        if (x == 1)
+            return cnt[0];
+
+        int idx = upperBound(b, x);
+
+        long ans = b.length - idx;
+
+        ans += cnt[0] + cnt[1];
+
+        if (x == 2) {
+            ans -= (cnt[3] + cnt[4]);
+        }
+
+        if (x == 3) {
+            ans += cnt[2];
+        }
+
+        return ans;
+    }
+
+    public int countPairs(int[] a, int[] b) {
