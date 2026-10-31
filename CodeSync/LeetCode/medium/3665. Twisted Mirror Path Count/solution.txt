@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: 3665. Twisted Mirror Path Count
- * URL: https://leetcode.com/problems/twisted-mirror-path-count/description/?envType=daily-question&envId=2026-10-31
+ * URL: https://leetcode.com/problems/twisted-mirror-path-count/?envType=daily-question&envId=2026-10-31
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-31T23:15:57.288Z
+ * Synced: 2026-10-31T23:16:40.118Z
  */
 
-class Solution {
-    public int uniquePaths(int[][] grid) {
-        
+finalRow[r][c][dir] = -1;
+            finalCol[r][c][dir] = -1;
+            inStack[r][c][dir] = false;
+            return;
+        }
+
+        if (inStack[nr][nc][nd]) {
+            finalRow[r][c][dir] = -1;
+            finalCol[r][c][dir] = -1;
+            inStack[r][c][dir] = false;
+            return;
+        }
+
+        if (!vis[nr][nc][nd]) {
+            dfsReflection(nr, nc, nd);
+        }
+
+        finalRow[r][c][dir] = finalRow[nr][nc][nd];
+        finalCol[r][c][dir] = finalCol[nr][nc][nd];
+
+        inStack[r][c][dir] = false;
     }
 }
