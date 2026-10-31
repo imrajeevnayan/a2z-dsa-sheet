@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: 105. Construct Binary Tree from Preorder and Inorder Traversal
+ * URL: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=problem-list-v2&envId=hash-table
+ * Language: Hash Table
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Divide and Conquer, Tree, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-31T19:06:40.791Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        
+    }
+}
