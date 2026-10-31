@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximum Subarray Sum with One Square Allowed
+ * URL: https://www.geeksforgeeks.org/problems/maximum-sum-subarray--143510/1
+ * Language: def maximumSubarray(self, arr: list[int]) -> int: """ code here """ ans = 0 n = len(arr) dp = [[0]*2 for _ in range(n+1)] for i, e in enumerate(arr): dp[i+1][1] = max(dp[i][1] + e, 0) dp[i+1][0] = max(dp[i][0] + e, dp[i][1] + e*e) ans = max(ans, *dp[i+1]) return ans
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Max Sum Subarray With One Square Allowed
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-31T23:26:29.521Z
+ */
+
+class Solution {
+    public int maximumSubarray(int[] arr) {
+
+        long noSquare = arr[0];
+        long withSquare = 1L * arr[0] * arr[0];
+
+        long ans = Math.max(noSquare, withSquare);
+
+        for (int i = 1; i < arr.length; i++) {
+
+            long x = arr[i];
+
+            long newNoSquare = Math.max(x, noSquare + x);
+
+            long newWithSquare = Math.max(
+                    x * x,
+                    Math.max(
+                            noSquare + x * x,
+                            withSquare + x
+                    )
+            );
+
+            noSquare = newNoSquare;
+            withSquare = newWithSquare;
+
+            ans = Math.max(ans, Math.max(noSquare, withSquare));
+        }
+
+        return (int) ans;
+    }
+}
