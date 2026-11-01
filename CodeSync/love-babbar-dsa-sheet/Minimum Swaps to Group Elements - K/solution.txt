@@ -1,0 +1,55 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum Swaps to Group Elements <= K
+ * URL: https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1
+ * Language: // Final function implementation class Solution { public: int f(vector<int>& nums, int &k) { int swaps = 0, cntLess = 0; for(int &num : nums) if(num <= k) cntLess += 1; for(int i=0; i<nums.size() and cntLess; ++i) { if(nums[i] <= k) cntLess -= 1; else swaps += 1, cntLess -= 1; } return swaps; } int minSwap(vector<int>& nums, int k) { // code here int a = f(nums, k); reverse(begin(nums), end(nums)); int b = f(nums, k); return min(a, b); } // 1 10 2 3 20 4 5 };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Prefix Sum, sliding-window, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-01T11:09:24.123Z
+ */
+
+int n = arr.length;
+
+        // Count good elements
+        int good = 0;
+        for (int num : arr) {
+            if (num <= k) {
+                good++;
+            }
+        }
+
+        // Count bad elements in first window
+        int bad = 0;
+        for (int i = 0; i < good; i++) {
+            if (arr[i] > k) {
+                bad++;
+            }
+        }
+
+        int ans = bad;
+
+        // Sliding window
+        int i = 0, j = good;
+        while (j < n) {
+
+            // Remove outgoing element
+            if (arr[i] > k) {
+                bad--;
+            }
+
+            // Add incoming element
+            if (arr[j] > k) {
+                bad++;
+            }
+
+            ans = Math.min(ans, bad);
+
+            i++;
+            j++;
+        }
+
+        return ans;
+    }
+}
