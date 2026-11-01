@@ -7,12 +7,10 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Prefix Sum, sliding-window, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-01T11:09:24.123Z
+ * Synced: 2026-11-01T11:09:24.087Z
  */
 
-int n = arr.length;
-
-        // Count good elements
+// Count good elements
         int good = 0;
         for (int num : arr) {
             if (num <= k) {
