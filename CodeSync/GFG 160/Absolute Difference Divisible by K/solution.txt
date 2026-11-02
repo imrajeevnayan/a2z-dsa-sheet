@@ -7,24 +7,24 @@
  * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Hash, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-02T14:49:45.373Z
+ * Synced: 2026-11-02T14:49:50.653Z
  */
+
+import java.util.*;
 
 class Solution {
     public int countPairs(int[] arr, int k) {
-        HashMap<Integer, Integer> freq = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        long count = 0;
 
         for (int num : arr) {
             int rem = num % k;
-            freq.put(rem, freq.getOrDefault(rem, 0) + 1);
+
+            count += map.getOrDefault(rem, 0);
+
+            map.put(rem, map.getOrDefault(rem, 0) + 1);
         }
 
-        long ans = 0;
-
-        for (int f : freq.values()) {
-            ans += (long) f * (f - 1) / 2;
-        }
-
-        return (int) ans;
+        return (int) count;
     }
 }
