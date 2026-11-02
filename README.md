@@ -339,3 +339,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 300 | [Next element with greater frequency](https://www.geeksforgeeks.org/problems/next-element-with-greater-frequency--170637/1) | GeeksForGeeks | Medium | 02 Nov 2026 | 08:05 pm |
 | 301 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | LeetCode | Medium | 02 Nov 2026 | 08:08 pm |
 | 302 | [Absolute Difference Divisible by K](https://www.geeksforgeeks.org/problems/absolute-difference-divisible-by-k/1) | GeeksForGeeks | Medium | 02 Nov 2026 | 08:19 pm |
+| 303 | [Flatten Linked List](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1?page=7) | GeeksForGeeks | Medium | 02 Nov 2026 | 11:13 pm |
