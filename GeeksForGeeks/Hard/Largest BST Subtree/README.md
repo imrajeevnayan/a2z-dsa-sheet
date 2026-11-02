@@ -1,0 +1,13 @@
+# Largest BST Subtree
+
+## Difficulty: Hard
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/largest-bst/1?page=8)
+
+## Solved On
+02 Nov 2026 at 11:16 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/largest-bst/1?page=8">Largest BST Subtree</a></h2><h3>Difficulty Level: Hard</h3><hr><p><span style="font-size: 14pt;">Given the <strong>root</strong> of a binary tree, find the size of the largest subtree that is also a Binary Search Tree (BST). A subtree is considered a BST if, for every node in the subtree:</span></p><ul><li><span style="font-size: 14pt;">All nodes in its left subtree have values less than the node's value.</span></li><li><span style="font-size: 14pt;">All nodes in its right subtree have values greater than the node's value.</span></li><li><span style="font-size: 14pt;">The subtree contains no duplicate values.</span></li></ul><p><span style="font-size: 14pt;">Return the number of nodes in the largest BST subtree.</span></p><p><span style="font-size: 14pt;"><strong>Note: </strong>The size of a subtree is the total number of nodes it contains.</span></p><p><span style="font-size: 18px;"><strong>Examples :</strong></span></p><pre><span style="font-size: 18px;"><strong>Input</strong>: root = [5, 2, 4, 1, 3]<br></span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932649/Web/Other/blobid2_1785580468.png" width="235" height="160"><br><span style="font-size: 18px;"><strong>Output</strong>: 3</span><br><span style="font-size: 18px;"><strong>Explanation</strong>:</span><span style="font-size: 14pt;">The following sub-tree is a BST of size 3<br></span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932649/Web/Other/blobid1_1785580468.png" width="206" height="146"></pre><pre><span style="font-size: 18px;"><strong>Input</strong>: root = [6, 7, 3, N, 2, 2, 4]<br></span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932649/Web/Other/blobid3_1785580468.png" width="228" height="185"><br><span style="font-size: 14pt;"><strong>Output</strong>: 3</span><br><span style="font-size: 14pt;"><strong>Explanation</strong>: The following sub-tree is a BST of size 3:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/932649/Web/Other/blobid0_1785580468.png" width="189" height="134"><br></span></pre>
