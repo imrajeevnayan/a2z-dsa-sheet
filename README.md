@@ -336,3 +336,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 297 | [Maximum Subarray Sum with One Square Allowed](https://www.geeksforgeeks.org/problems/maximum-sum-subarray--143510/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 04:56 am |
 | 298 | [Minimum Swaps to Group Elements <= K](https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1) | GeeksForGeeks | Medium | 01 Nov 2026 | 04:39 pm |
 | 299 | [Largest Sum Cycle](https://www.geeksforgeeks.org/problems/largest-sum-cycle--170645/1) | GeeksForGeeks | Hard | 02 Nov 2026 | 08:04 pm |
+| 300 | [Next element with greater frequency](https://www.geeksforgeeks.org/problems/next-element-with-greater-frequency--170637/1) | GeeksForGeeks | Medium | 02 Nov 2026 | 08:05 pm |

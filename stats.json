@@ -1,12 +1,12 @@
 {
-  "totalSolved": 297,
+  "totalSolved": 298,
   "currentStreak": 12,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-02",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 169,
+    "medium": 170,
     "hard": 11,
     "basic": 9
   },
@@ -307,7 +307,8 @@
     "LeetCode_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal": true,
     "GeeksForGeeks_Maximum_Subarray_Sum_with_One_Square_Allowed": true,
     "GeeksForGeeks_Minimum_Swaps_to_Group_Elements_<=_K": true,
-    "GeeksForGeeks_Largest_Sum_Cycle": true
+    "GeeksForGeeks_Largest_Sum_Cycle": true,
+    "GeeksForGeeks_Next_element_with_greater_frequency": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -346,7 +347,7 @@
     "2026-10-30": 8,
     "2026-10-31": 2,
     "2026-11-01": 6,
-    "2026-11-02": 1
+    "2026-11-02": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -643,6 +644,7 @@
     "Construct Binary Tree from Inorder and Postorder Traversal",
     "Maximum Subarray Sum with One Square Allowed",
     "Minimum Swaps to Group Elements <= K",
-    "Largest Sum Cycle"
+    "Largest Sum Cycle",
+    "Next element with greater frequency"
   ]
 }
