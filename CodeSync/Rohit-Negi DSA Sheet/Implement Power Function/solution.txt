@@ -4,12 +4,24 @@
  * URL: https://www.interviewbit.com/problems/implement-power-function/
  * Language: Text
  * Difficulty: Easy
- * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 20.3%
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, Capacity To Ship Packages Within B Days Medium
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-02T17:48:01.881Z
+ * Synced: 2026-11-02T17:48:58.583Z
  */
 
-x = 2
-n = 3
-d = 3
+long base = ((long)x % d + d) % d;
+        long ans = 1;
+
+        while (n > 0) {
+            if ((n & 1) == 1) {
+                ans = (ans * base) % d;
+            }
+
+            base = (base * base) % d;
+            n >>= 1;
+        }
+
+        return (int)(ans % d);
+    }
+}
