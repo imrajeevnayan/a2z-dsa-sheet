@@ -1,12 +1,12 @@
 {
-  "totalSolved": 301,
+  "totalSolved": 302,
   "currentStreak": 12,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-02",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 173,
+    "medium": 174,
     "hard": 11,
     "basic": 9
   },
@@ -311,7 +311,8 @@
     "GeeksForGeeks_Next_element_with_greater_frequency": true,
     "LeetCode_Minimum_Moves_to_Equal_Array_Elements_II": true,
     "GeeksForGeeks_Absolute_Difference_Divisible_by_K": true,
-    "GeeksForGeeks_Flatten_Linked_List": true
+    "GeeksForGeeks_Flatten_Linked_List": true,
+    "GeeksForGeeks_Min_Sum_Pair_using_Digits": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -350,7 +351,7 @@
     "2026-10-30": 8,
     "2026-10-31": 2,
     "2026-11-01": 6,
-    "2026-11-02": 5
+    "2026-11-02": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -651,6 +652,7 @@
     "Next element with greater frequency",
     "Minimum Moves to Equal Array Elements II",
     "Absolute Difference Divisible by K",
-    "Flatten Linked List"
+    "Flatten Linked List",
+    "Min Sum Pair using Digits"
   ]
 }
