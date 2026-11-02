@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Implement Power Function
+ * URL: https://www.interviewbit.com/problems/implement-power-function/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 20.3%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-02T17:48:03.827Z
+ */
+
+public class Solution {
+    public int pow(int x, int n, int d) {
+    }
+}
