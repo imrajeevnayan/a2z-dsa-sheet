@@ -7,10 +7,9 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, 20.3%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-02T17:48:03.827Z
+ * Synced: 2026-11-02T17:48:01.881Z
  */
 
-public class Solution {
-    public int pow(int x, int n, int d) {
-    }
-}
+x = 2
+n = 3
+d = 3
