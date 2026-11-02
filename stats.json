@@ -1,12 +1,12 @@
 {
-  "totalSolved": 298,
+  "totalSolved": 299,
   "currentStreak": 12,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-02",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 170,
+    "medium": 171,
     "hard": 11,
     "basic": 9
   },
@@ -308,7 +308,8 @@
     "GeeksForGeeks_Maximum_Subarray_Sum_with_One_Square_Allowed": true,
     "GeeksForGeeks_Minimum_Swaps_to_Group_Elements_<=_K": true,
     "GeeksForGeeks_Largest_Sum_Cycle": true,
-    "GeeksForGeeks_Next_element_with_greater_frequency": true
+    "GeeksForGeeks_Next_element_with_greater_frequency": true,
+    "LeetCode_Minimum_Moves_to_Equal_Array_Elements_II": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -347,7 +348,7 @@
     "2026-10-30": 8,
     "2026-10-31": 2,
     "2026-11-01": 6,
-    "2026-11-02": 2
+    "2026-11-02": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -645,6 +646,7 @@
     "Maximum Subarray Sum with One Square Allowed",
     "Minimum Swaps to Group Elements <= K",
     "Largest Sum Cycle",
-    "Next element with greater frequency"
+    "Next element with greater frequency",
+    "Minimum Moves to Equal Array Elements II"
   ]
 }
