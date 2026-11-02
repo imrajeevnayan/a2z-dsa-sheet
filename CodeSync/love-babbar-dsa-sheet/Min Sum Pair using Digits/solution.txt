@@ -1,0 +1,54 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Min Sum Pair using Digits
+ * URL: https://www.geeksforgeeks.org/problems/minimum-sum4058/1
+ * Language: class Solution { public: void conversion(string &s1, string &s2, vector<int>&arr){ vector<int> cntArr(10,0); for(int i=0; i<arr.size(); i++){ cntArr[arr[i]]++; } bool firstNum=true; for(int i=0; i<cntArr.size(); i++){ while(cntArr[i] > 0 && i>0){ if(firstNum){ s1.push_back(i+'0'); firstNum=false; }else{ s2.push_back(i+'0'); firstNum=true; } cntArr[i]--; } } } void strSum(string &s1, string &s2, string &s3){ int i=s1.length()-1; int j=s2.length()-1; int carry=0; while(i>=0 || j>=0){ int sum =( i>=0?s1[i]-'0':0)+(j>=0?s2[j]-'0':0)+carry; carry = sum/10; s3.push_back(sum%10+'0'); i--; j--; } if(carry){ s3.push_back(carry+'0'); } while(!s3.empty() && s3.back() == '0'){ s3.pop_back(); } reverse(s3.begin(), s3.end()); } string minSum(vector<int> &arr) { // code here string s1=""; string s2=""; string s3=""; conversion(s1,s2,arr); if(s1.length() == 0) s1="0"; if(s2.length() == 0) s2="0"; strSum(s1,s2,s3); return s3.length()>0?s3:"0"; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Arrays, Sorting, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-02T17:45:25.384Z
+ */
+
+while (cnt[digit]-- > 0) {
+                if (turn) {
+                    a.append(digit);
+                } else {
+                    b.append(digit);
+                }
+                turn = !turn;
+            }
+        }
+
+        return addStrings(a.toString(), b.toString());
+    }
+
+    private String addStrings(String s1, String s2) {
+
+        int i = s1.length() - 1;
+        int j = s2.length() - 1;
+        int carry = 0;
+
+        StringBuilder res = new StringBuilder();
+
+        while (i >= 0 || j >= 0 || carry > 0) {
+
+            int sum = carry;
+
+            if (i >= 0) sum += s1.charAt(i--) - '0';
+            if (j >= 0) sum += s2.charAt(j--) - '0';
+
+            res.append(sum % 10);
+            carry = sum / 10;
+        }
+
+        res.reverse();
+
+        int k = 0;
+        while (k < res.length() - 1 && res.charAt(k) == '0') {
+            k++;
+        }
+
+        return res.substring(k);
+    }
+}
