@@ -1,11 +1,11 @@
 {
-  "totalSolved": 303,
+  "totalSolved": 304,
   "currentStreak": 12,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-02",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
-    "easy": 108,
+    "easy": 109,
     "medium": 174,
     "hard": 12,
     "basic": 9
@@ -313,7 +313,8 @@
     "GeeksForGeeks_Absolute_Difference_Divisible_by_K": true,
     "GeeksForGeeks_Flatten_Linked_List": true,
     "GeeksForGeeks_Min_Sum_Pair_using_Digits": true,
-    "GeeksForGeeks_Largest_BST_Subtree": true
+    "GeeksForGeeks_Largest_BST_Subtree": true,
+    "LeetCode_First_Bad_Version": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -352,7 +353,7 @@
     "2026-10-30": 8,
     "2026-10-31": 2,
     "2026-11-01": 6,
-    "2026-11-02": 7
+    "2026-11-02": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -655,6 +656,7 @@
     "Absolute Difference Divisible by K",
     "Flatten Linked List",
     "Min Sum Pair using Digits",
-    "Largest BST Subtree"
+    "Largest BST Subtree",
+    "First Bad Version"
   ]
 }
