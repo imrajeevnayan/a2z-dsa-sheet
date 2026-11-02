@@ -7,7 +7,7 @@
  * Topics: Array, Math, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-02T14:37:36.492Z
+ * Synced: 2026-11-02T14:39:34.838Z
  */
 
 Input: nums = [1,2,3]
