@@ -1,0 +1,24 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Insertion Sort List
+ * URL: https://www.interviewbit.com/problems/insertion-sort-list/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Programming, Linked Lists, Arrays, Description, Discussion, Submissions, Hints, Even Reverse 46 Minutes Medium Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-02T17:51:33.949Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
+public class Solution {
+    public ListNode insertionSortList(ListNode A) {
+    }
+}
