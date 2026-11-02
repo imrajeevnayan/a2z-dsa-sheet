@@ -1,12 +1,12 @@
 {
-  "totalSolved": 299,
+  "totalSolved": 300,
   "currentStreak": 12,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-02",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 108,
-    "medium": 171,
+    "medium": 172,
     "hard": 11,
     "basic": 9
   },
@@ -309,7 +309,8 @@
     "GeeksForGeeks_Minimum_Swaps_to_Group_Elements_<=_K": true,
     "GeeksForGeeks_Largest_Sum_Cycle": true,
     "GeeksForGeeks_Next_element_with_greater_frequency": true,
-    "LeetCode_Minimum_Moves_to_Equal_Array_Elements_II": true
+    "LeetCode_Minimum_Moves_to_Equal_Array_Elements_II": true,
+    "GeeksForGeeks_Absolute_Difference_Divisible_by_K": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -348,7 +349,7 @@
     "2026-10-30": 8,
     "2026-10-31": 2,
     "2026-11-01": 6,
-    "2026-11-02": 3
+    "2026-11-02": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -647,6 +648,7 @@
     "Minimum Swaps to Group Elements <= K",
     "Largest Sum Cycle",
     "Next element with greater frequency",
-    "Minimum Moves to Equal Array Elements II"
+    "Minimum Moves to Equal Array Elements II",
+    "Absolute Difference Divisible by K"
   ]
 }
