@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Absolute Difference Divisible by K
+ * URL: https://www.geeksforgeeks.org/problems/absolute-difference-divisible-by-k/1
+ * Language: class Solution { static long countPairs(int n, int[] arr, int k) { int [] rem = new int[k]; for (int i = 0; i < n; i++) { rem[arr[i]%k] += 1; } int pairs = 0; for (int i = 0; i < k; i++) { pairs += ((rem[i]-1)*(rem[i]))/2; } return pairs; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Hash, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-02T14:49:45.373Z
+ */
+
+class Solution {
+    public int countPairs(int[] arr, int k) {
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        for (int num : arr) {
+            int rem = num % k;
+            freq.put(rem, freq.getOrDefault(rem, 0) + 1);
+        }
+
+        long ans = 0;
+
+        for (int f : freq.values()) {
+            ans += (long) f * (f - 1) / 2;
+        }
+
+        return (int) ans;
+    }
+}
