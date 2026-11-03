@@ -7,7 +7,10 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-03T14:24:43.442Z
+ * Synced: 2026-11-03T14:24:45.412Z
  */
 
-Output goes here... Test/Submit
+public class Solution {
+    public int solve(String[] A) {
+    }
+}
