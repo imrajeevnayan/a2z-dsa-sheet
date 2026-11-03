@@ -347,3 +347,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 308 | [Max Xor Subarray of size K](https://www.geeksforgeeks.org/problems/max-xor-subarray-of-size-k/1) | GeeksForGeeks | Medium | 03 Nov 2026 | 03:35 pm |
 | 309 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | LeetCode | Easy | 03 Nov 2026 | 03:36 pm |
 | 310 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | LeetCode | Easy | 03 Nov 2026 | 08:09 pm |
+| 311 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | LeetCode | Easy | 03 Nov 2026 | 10:01 pm |

@@ -1,11 +1,11 @@
 {
-  "totalSolved": 308,
+  "totalSolved": 309,
   "currentStreak": 13,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-03",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
-    "easy": 111,
+    "easy": 112,
     "medium": 176,
     "hard": 12,
     "basic": 9
@@ -318,7 +318,8 @@
     "GeeksForGeeks_Nuts_and_Bolts_Problem": true,
     "GeeksForGeeks_Max_Xor_Subarray_of_size_K": true,
     "LeetCode_Minimum_Moves_to_Equal_Array_Elements_III": true,
-    "LeetCode_Game_Play_Analysis_I": true
+    "LeetCode_Game_Play_Analysis_I": true,
+    "LeetCode_Calculate_Special_Bonus": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -358,7 +359,7 @@
     "2026-10-31": 2,
     "2026-11-01": 6,
     "2026-11-02": 8,
-    "2026-11-03": 4
+    "2026-11-03": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -666,6 +667,7 @@
     "Nuts and Bolts Problem",
     "Max Xor Subarray of size K",
     "Minimum Moves to Equal Array Elements III",
-    "Game Play Analysis I"
+    "Game Play Analysis I",
+    "Calculate Special Bonus"
   ]
 }
