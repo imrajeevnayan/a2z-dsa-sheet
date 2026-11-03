@@ -1,17 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 3736. Minimum Moves to Equal Array Elements III
- * URL: https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/?envType=daily-question&envId=2026-11-03
+ * URL: https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/?envType=daily-question&envId=2026-11-03
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-03T10:05:52.678Z
+ * Synced: 2026-11-03T10:06:23.741Z
  */
 
-class Solution {
-    public int minMoves(int[] nums) {
+for (int num : nums) {
+            max = Math.max(max, num);
+        }
         
+        int moves = 0;
+        
+        for (int num : nums) {
+            moves += (max - num);
+        }
+        
+        return moves;
     }
 }
