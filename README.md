@@ -345,3 +345,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 306 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | LeetCode | Easy | 02 Nov 2026 | 11:41 pm |
 | 307 | [Nuts and Bolts Problem](https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1) | GeeksForGeeks | Medium | 03 Nov 2026 | 03:17 pm |
 | 308 | [Max Xor Subarray of size K](https://www.geeksforgeeks.org/problems/max-xor-subarray-of-size-k/1) | GeeksForGeeks | Medium | 03 Nov 2026 | 03:35 pm |
+| 309 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | LeetCode | Easy | 03 Nov 2026 | 03:36 pm |
