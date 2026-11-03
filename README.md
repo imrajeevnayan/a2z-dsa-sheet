@@ -343,3 +343,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 304 | [Min Sum Pair using Digits](https://www.geeksforgeeks.org/problems/minimum-sum4058/1?page=8) | GeeksForGeeks | Medium | 02 Nov 2026 | 11:15 pm |
 | 305 | [Largest BST Subtree](https://www.geeksforgeeks.org/problems/largest-bst/1?page=8) | GeeksForGeeks | Hard | 02 Nov 2026 | 11:16 pm |
 | 306 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | LeetCode | Easy | 02 Nov 2026 | 11:41 pm |
+| 307 | [Nuts and Bolts Problem](https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1) | GeeksForGeeks | Medium | 03 Nov 2026 | 03:17 pm |

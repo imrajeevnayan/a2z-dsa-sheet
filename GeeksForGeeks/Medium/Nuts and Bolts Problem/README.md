@@ -1,0 +1,15 @@
+# Nuts and Bolts Problem
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1)
+
+## Solved On
+03 Nov 2026 at 03:17 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1">Nuts and Bolts Problem</a></h2><h3>Difficulty Level: Medium</h3><hr><p data-start="26" data-end="286"><span style="font-size: 14pt;">You are given two arrays representing<strong data-start="64" data-end="74"> nuts[]</strong> and<strong data-start="79" data-end="90"> bolts[] </strong>of equal size, where each element is denoted by a unique character. There exists a one-to-one mapping between nuts and bolts such that a nut matches a bolt if and only if both have the same symbol.</span></p><p><span style="font-size: 14pt;"> </span></p><p data-start="288" data-end="382"><span style="font-size: 14pt;">Rearrange both arrays so that each nut is matched with its corresponding bolt.</span></p><p data-start="288" data-end="382"><span style="font-size: 14pt;"><span style="font-size: 18.6667px;">After matching, both arrays must be sorted according to the following predefined order: <strong>[ '!', '#', '$', '%', '&amp;', '*', '?', '@', '^'].</strong></span><br></span></p><p><span style="font-size: 18px;"><strong>Note:</strong> </span></p><ul><li><span style="font-size: 18px;">The arrays must be modified in-place.</span></li><li><span style="font-size: 18px;">Inputs are generated such that a valid arrangement is always possible.</span></li><li><span style="font-size: 18px;">In the interviews, it is not allowed to compare a nut with another nut or a bolt with another bolt.</span></li></ul><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"> nuts[] = ['@', '%', '$', '#', '^'], bolts[] = ['%', '@', '#', '$', '^']
+</span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;"> ['#', '$', '%', '@', '^'], ['#', '$', '%', '@', '^']<br></span><strong style="font-size: 18px;">Explanation: </strong><span style="font-size: 18px;">According to the predefined order, '#' is followed by '$', '%', '&amp;', '*', '?', '@', and '^'.</span></span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>nuts[] = ['^','&amp;', '%', '@', '#', '*', '$', '?', '!'}, bolts[] = ['?', '#', '@', '%', '&amp;', '*', '$' ,'^', '!']
+<strong>Output:</strong> ['!', '#', '$', '%', '&amp;', '*', '?', '@', '^'], ['!', '#', '$', '%', '&amp;', '*', '?', '@', '^']<br><span style="font-size: 14pt;"><strong>Explanation: </strong></span></span><span style="font-size: 18.6667px;">We'll have to match first '!', then '#', '$', '%', '&amp;', '*', '?', '@', '^' as per the required ordering.</span></pre>
