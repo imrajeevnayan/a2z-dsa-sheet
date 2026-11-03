@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1873. Calculate Special Bonus
+ * URL: https://leetcode.com/problems/calculate-special-bonus/?envType=problem-list-v2&envId=database
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 95 ms
+ * Memory: N/A
+ * Synced: 2026-11-03T16:31:41.426Z
+ */
+
+SELECT
+    employee_id,
+    CASE
+        WHEN employee_id % 2 = 1 AND name NOT LIKE 'M%' THEN salary
+        ELSE 0
+    END AS bonus
+FROM Employees
+ORDER BY employee_id;
