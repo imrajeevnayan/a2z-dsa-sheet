@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Nuts and Bolts.
+ * URL: https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1
+ * Language: void matchPairs(int n, char nuts[], char bolts[]) { // 0 1 2 3 4 5 6 7 8 char order[] = { '!', '#', '$', '%', '&', '*', '?', '@', '^'}; int pos = 0; for(int i = 0; i < 9; i++) { for(int j = 0; j < n; j++) { if(order[i] == bolts[j]) { swap(bolts[j], bolts[pos]); nuts[pos] = bolts[pos++]; } } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Hike, MakeMyTrip, MAQ Software, Adobe, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-03T09:47:51.389Z
+ */
+
+class Solution {
+    public void matchPairs(char[] nuts, char[] bolts) {
+        char[] order = {'!', '#', '$', '%', '&', '*', '?', '@', '^'};
+
+        HashSet<Character> set = new HashSet<>();
+
+        for (char ch : nuts) {
+            set.add(ch);
+        }
+
+        int idx = 0;
+
+        for (char ch : order) {
+            if (set.contains(ch)) {
+                nuts[idx] = ch;
+                bolts[idx] = ch;
+                idx++;
+            }
+        }
+    }
+}
