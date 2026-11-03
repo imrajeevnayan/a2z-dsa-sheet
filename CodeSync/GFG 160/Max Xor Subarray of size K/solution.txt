@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Max Xor Subarray of size K
+ * URL: https://www.geeksforgeeks.org/problems/max-xor-subarray-of-size-k/1
+ * Language: class Solution { public int maxSubarrayXOR(int[] arr, int k) { int n = arr.length; if (k > n) return -1; // invalid case // Compute XOR of first k elements int currXor = 0; for (int i = 0; i < k; i++) { currXor ^= arr[i]; } int maxXor = currXor; // Slide the window for (int i = k; i < n; i++) { // Remove leftmost element and add new element currXor ^= arr[i - k]; // remove currXor ^= arr[i]; // add maxXor = Math.max(maxXor, currXor); } return maxXor; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Bit Magic, sliding-window, Arrays, Related Articles, Find Maximum Xor Value Sub Array Size K
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-03T10:05:03.359Z
+ */
+
+class Solution {
+    public int maxSubarrayXOR(int[] arr, int k) {
+        int n = arr.length;
+
+        int xorVal = 0;
+
+        // XOR of first window
+        for (int i = 0; i < k; i++) {
+            xorVal ^= arr[i];
+        }
+
+        int maxXor = xorVal;
+
+        // Slide the window
+        for (int i = k; i < n; i++) {
+            xorVal ^= arr[i - k];
+            xorVal ^= arr[i];
+
+            maxXor = Math.max(maxXor, xorVal);
+        }
+
+        return maxXor;
+    }
+}
