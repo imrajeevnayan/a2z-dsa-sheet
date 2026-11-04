@@ -1,0 +1,58 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔹 1. Gray → Binary
+ * URL: https://www.geeksforgeeks.org/problems/coin-piles5152/1
+ * Language: class Solution { public: int ub(vector<int>& arr, int num){ int low=0,high=arr.size()-1; while(low<=high){ int mid=(low+high)/2; if(arr[mid]>num)high=mid-1; else low=mid+1; } return low; } int minimumCoins(vector<int>& arr, int k) { // code here int n=arr.size(),ans=INT_MAX; sort(arr.begin(),arr.end()); vector<int> prefix(n+1,0); for(int i=0;i<n;i++){ prefix[i+1]=prefix[i]+arr[i]; } for(int i=0;i<n;i++){ int idx=ub(arr,arr[i]+k); int diff=(prefix[n]-prefix[idx])-((n-idx)*(arr[i]+k)); ans=min(ans,diff+prefix[i]); } return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Arrays, Greedy, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T18:21:04.444Z
+ */
+
+class Solution {
+    public int minimumCoins(int[] arr, int k) {
+        Arrays.sort(arr);
+        int n = arr.length;
+
+        long[] prefix = new long[n + 1];
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + arr[i];
+        }
+
+        long ans = Long.MAX_VALUE;
+
+        for (int i = 0; i < n; i++) {
+
+            int limit = arr[i] + k;
+
+            // First index having value > limit
+            int idx = upperBound(arr, limit);
+
+            long removeLeft = prefix[i];
+
+            long removeRight =
+                    (prefix[n] - prefix[idx])
+                    - (long)(n - idx) * limit;
+
+            ans = Math.min(ans, removeLeft + removeRight);
+        }
+
+        return (int) ans;
+    }
+
+    private int upperBound(int[] arr, int target) {
+        int l = 0, r = arr.length;
+
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+
+            if (arr[mid] <= target)
+                l = mid + 1;
+            else
+                r = mid;
+        }
+
+        return l;
+    }
+}
