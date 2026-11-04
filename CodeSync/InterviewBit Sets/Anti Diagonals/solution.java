@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T05:27:27.862Z
+ * Synced: 2026-11-04T05:28:04.570Z
  */
 
 import java.util.*;
@@ -17,10 +17,10 @@ public class Solution {
 
         int n = A.length;
 
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
 
         for (int d = 0; d < 2 * n - 1; d++) {
-            list.add(new ArrayList<>());
+            list.add(new ArrayList<Integer>());
         }
 
         for (int i = 0; i < n; i++) {
