@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1288. Remove Covered Intervals
+ * URL: https://leetcode.com/problems/remove-covered-intervals/description/?envType=daily-question&envId=2026-11-04
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T13:11:02.535Z
+ */
+
+Input: intervals = [[1,4],[3,6],[2,8]]
+Output: 2
+Explanation: Interval [3,6] is covered by [2,8], therefore it is removed.
