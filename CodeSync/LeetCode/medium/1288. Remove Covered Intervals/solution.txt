@@ -7,9 +7,11 @@
  * Topics: Array, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T13:11:02.535Z
+ * Synced: 2026-11-04T13:11:02.949Z
  */
 
-Input: intervals = [[1,4],[3,6],[2,8]]
-Output: 2
-Explanation: Interval [3,6] is covered by [2,8], therefore it is removed.
+class Solution {
+    public int removeCoveredIntervals(int[][] intervals) {
+        
+    }
+}
