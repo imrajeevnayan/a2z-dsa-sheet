@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonNPCI, Company Tags, Amazon, NPCI, Topic Tags, Mathematics, Bit Magic
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T13:09:54.396Z
+ * Synced: 2026-11-04T17:57:33.406Z
  */
 
 Input: arr[] = [1, 2, 3] 
