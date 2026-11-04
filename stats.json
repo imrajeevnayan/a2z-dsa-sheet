@@ -1,12 +1,12 @@
 {
-  "totalSolved": 313,
+  "totalSolved": 314,
   "currentStreak": 14,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-04",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 112,
-    "medium": 179,
+    "medium": 180,
     "hard": 13,
     "basic": 9
   },
@@ -323,7 +323,8 @@
     "LeetCode_Minimum_Operations_to_Make_Elements_Within_K_Subarrays_Equal": true,
     "GeeksForGeeks_XOR_of_All_Subarray_XORs": true,
     "GeeksForGeeks_Sum_of_Largests_Removed": true,
-    "GeeksForGeeks_Subarray_Sum_K_with_Negatives": true
+    "GeeksForGeeks_Subarray_Sum_K_with_Negatives": true,
+    "GeeksForGeeks_Repeated_Pattern_Removal": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -364,7 +365,7 @@
     "2026-11-01": 6,
     "2026-11-02": 8,
     "2026-11-03": 5,
-    "2026-11-04": 4
+    "2026-11-04": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -677,6 +678,7 @@
     "Minimum Operations to Make Elements Within K Subarrays Equal",
     "XOR of All Subarray XORs",
     "Sum of Largests Removed",
-    "Subarray Sum K with Negatives"
+    "Subarray Sum K with Negatives",
+    "Repeated Pattern Removal"
   ]
 }
