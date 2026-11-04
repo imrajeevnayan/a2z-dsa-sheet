@@ -7,30 +7,36 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T05:27:03.135Z
+ * Synced: 2026-11-04T05:28:54.819Z
  */
 
-Input:
+public class Solution {
+    public int[][] diagonal(int[][] A) {
 
-1 2 3
-4 5 6
-7 8 9
-Return the following:
-[ 
-  [1],
-  [2, 4],
-  [3, 5, 7],
-  [6, 8],
-  [9]
-]
+        int n = A.length;
+        int[][] ans = new int[2 * n - 1][n];
 
+        for (int d = 0; d < 2 * n - 1; d++) {
 
-Input: 
-1 2
-3 4
-Return the following: 
-[
-  [1],
-  [2, 3],
-  [4]
-]
+            int row, col;
+
+            if (d < n) {
+                row = 0;
+                col = d;
+            } else {
+                row = d - n + 1;
+                col = n - 1;
+            }
+
+            int k = 0;
+
+            while (row < n && col >= 0) {
+                ans[d][k++] = A[row][col];
+                row++;
+                col--;
+            }
+        }
+
+        return ans;
+    }
+}
