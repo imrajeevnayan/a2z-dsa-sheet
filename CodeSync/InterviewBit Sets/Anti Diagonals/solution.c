@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T05:28:31.796Z
+ * Synced: 2026-11-04T05:29:20.637Z
  */
 
 public class Solution {
@@ -18,15 +18,8 @@ public class Solution {
 
         for (int d = 0; d < 2 * n - 1; d++) {
 
-            int row, col;
-
-            if (d < n) {
-                row = 0;
-                col = d;
-            } else {
-                row = d - n + 1;
-                col = n - 1;
-            }
+            int row = (d < n) ? 0 : d - n + 1;
+            int col = (d < n) ? d : n - 1;
 
             int len = 0;
             int r = row, c = col;
