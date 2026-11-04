@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3505. Minimum Operations to Make Elements Within K Subarrays Equal
+ * URL: https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/description/?envType=daily-question&envId=2026-11-04
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Math, Dynamic Programming, Sliding Window, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T13:08:45.466Z
+ */
+
+class Solution {
+    public long minOperations(int[] nums, int x, int k) {
+        
+    }
+}
