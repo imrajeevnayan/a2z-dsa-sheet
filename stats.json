@@ -1,12 +1,12 @@
 {
-  "totalSolved": 316,
+  "totalSolved": 317,
   "currentStreak": 14,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-04",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 114,
-    "medium": 180,
+    "medium": 181,
     "hard": 13,
     "basic": 9
   },
@@ -326,7 +326,8 @@
     "GeeksForGeeks_Subarray_Sum_K_with_Negatives": true,
     "GeeksForGeeks_Repeated_Pattern_Removal": true,
     "GeeksForGeeks_Pair_Sum_in_Sorted_Doubly_Linked_List": true,
-    "GeeksForGeeks_Closest_Triplet_Diff_in_Three_Arrays": true
+    "GeeksForGeeks_Closest_Triplet_Diff_in_Three_Arrays": true,
+    "GeeksForGeeks_Coin_Piles": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -367,7 +368,7 @@
     "2026-11-01": 6,
     "2026-11-02": 8,
     "2026-11-03": 5,
-    "2026-11-04": 7
+    "2026-11-04": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -683,6 +684,7 @@
     "Subarray Sum K with Negatives",
     "Repeated Pattern Removal",
     "Pair Sum in Sorted Doubly Linked List",
-    "Closest Triplet Diff in Three Arrays"
+    "Closest Triplet Diff in Three Arrays",
+    "Coin Piles"
   ]
 }

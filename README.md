@@ -355,3 +355,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 316 | [Repeated Pattern Removal](https://www.geeksforgeeks.org/problems/demonitisation0013/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 11:37 pm |
 | 317 | [Pair Sum in Sorted Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | GeeksForGeeks | Easy | 04 Nov 2026 | 11:47 pm |
 | 318 | [Closest Triplet Diff in Three Arrays](https://www.geeksforgeeks.org/problems/closest-triplet3807/1) | GeeksForGeeks | Easy | 04 Nov 2026 | 11:49 pm |
+| 319 | [Coin Piles](https://www.geeksforgeeks.org/problems/coin-piles5152/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 11:51 pm |
