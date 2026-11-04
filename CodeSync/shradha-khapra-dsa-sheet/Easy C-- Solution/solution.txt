@@ -1,18 +1,51 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1
+ * Language: class Solution { public: vector<vector<int>> findPairsWithGivenSum(Node *head, int target) { vector<vector<int>> ans; if (head == NULL) return ans; Node *left = head; Node *right = head; // Find the last node while (right->next != NULL) right = right->next; // Two-pointer approach while (left != right && right->next != left) { int sum = left->data + right->data; if (sum == target) { ans.push_back({left->data, right->data}); left = left->next; right = right->prev; } else if (sum < target) { left = left->next; } else { right = right->prev; } } return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program To Check If Two Strings Are Same Or Not
+ * Topics: Expected Complexities, Topic Tags, Doubly Linked List, two-pointer-algorithm, Related Articles, Find Pairs Given Sum Doubly Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-22T12:44:46.370Z
+ * Synced: 2026-11-04T18:17:46.659Z
  */
 
 class Solution {
-    public static boolean areStringsSame(String s1, String s2) {
-        return s1.equals(s2);
-        
+    public ArrayList<ArrayList<Integer>> givenSumPairs(Node head, int target) {
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+
+        if (head == null) return ans;
+
+        // Find the last node
+        Node right = head;
+        while (right.next != null) {
+            right = right.next;
+        }
+
+        Node left = head;
+
+        while (left != null && right != null &&
+               left != right && right.next != left) {
+
+            int sum = left.data + right.data;
+
+            if (sum == target) {
+                ArrayList<Integer> pair = new ArrayList<>();
+                pair.add(left.data);
+                pair.add(right.data);
+                ans.add(pair);
+
+                left = left.next;
+                right = right.prev;
+            }
+            else if (sum < target) {
+                left = left.next;
+            }
+            else {
+                right = right.prev;
+            }
+        }
+
+        return ans;
     }
 }
