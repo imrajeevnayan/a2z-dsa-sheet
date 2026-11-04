@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Operations to Make Elements Within K Subarrays Equal
+ * URL: https://leetcode.com/problems/remove-covered-intervals/description/?envType=daily-question&envId=2026-11-04
+ * Language: Daily Question
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T13:11:00.965Z
+ */
+
+class Solution {
+
+    static class DualHeap {
+        TreeMap<Integer, Integer> left = new TreeMap<>();
+        TreeMap<Integer, Integer> right = new TreeMap<>();
+
+        long sumLeft = 0;
+        long sumRight = 0;
+
+        int sizeLeft = 0;
+        int sizeRight = 0;
+
+        private void addMap(TreeMap<Integer, Integer> map, int x) {
+            map.put(x, map.getOrDefault(x, 0) + 1);
+        }
+
+        private void removeMap(TreeMap<Integer, Integer> map, int x) {
+            int cnt = map.
