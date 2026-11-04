@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Anti Diagonals
+ * URL: https://www.interviewbit.com/problems/anti-diagonals/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T05:27:04.241Z
+ */
+
+public class Solution {
+    public int[][] diagonal(int[][] A) {
+    }
+}
