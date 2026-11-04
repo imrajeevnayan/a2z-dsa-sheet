@@ -1,26 +1,53 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy Java Solution in O(n) :
- * URL: https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1
- * Language: class Solution { /** * Returns the minimum number of parentheses required * to make the given parentheses string balanced. * * Approach: * - Count unmatched opening parentheses using `openC`. * - When a closing parenthesis is encountered: * - If an unmatched opening parenthesis exists, match it. * - Otherwise, count it as an unmatched closing parenthesis. * - The total unmatched opening and closing parentheses * represent the minimum number of insertions required. * * Time Complexity: O(n) * Space Complexity: O(1) * * @param s String containing only '(' and ')' * @return Minimum number of parentheses needed to balance the string */ public int minParentheses(String s) { int openC = 0; int closeC = 0; for (char ch : s.toCharArray()) { if (ch == '(') { openC++; } else if (openC != 0) { openC--; } else { closeC++; } } return openC + closeC; } }
+ * URL: https://www.geeksforgeeks.org/problems/ascii-range-sum/1
+ * Language: class Solution { public: vector<int> asciirange(string& s) { // code here unordered_map<int,vector<int>> m; vector<int> prefix; int sum=0; for(int i=0;i<s.size();i++){ char ch=s[i]; if(m.find(ch)==m.end())m[ch]={i,-1}; else m[ch][1]=i; sum+=ch; prefix.push_back(sum); } vector<int> ans; for(auto it:m){ char c=it.first; int firstidx=it.second[0]; int lastidx=it.second[1]; if(lastidx!=-1 && lastidx>firstidx+1) ans.push_back(prefix[lastidx-1]-prefix[firstidx]); } return ans; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AmazonMicrosoftTCSAdobeIBM, Company Tags, Amazon, Microsoft, TCS, Adobe, IBM
+ * Topics: Expected Complexities, Topic Tags, Prefix Sum, Hash, Related Articles, Ascii Range Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-24T11:06:09.390Z
+ * Synced: 2026-11-04T18:01:08.098Z
  */
 
 class Solution {
-    public int minParentheses(String s) {
-        int count=0;
-        Stack<Character>st=new Stack<>();
-        for(char c:s.toCharArray()){
-            if(c=='(')st.push(c);
-            else{
-                if(!st.isEmpty()) st.pop();
-                else count++;
+    public ArrayList<Integer> asciirange(String s) {
+        int n = s.length();
+
+        int[] first = new int[26];
+        int[] last = new int[26];
+
+        Arrays.fill(first, -1);
+        Arrays.fill(last, -1);
+
+        for (int i = 0; i < n; i++) {
+            int idx = s.charAt(i) - 'a';
+
+            if (first[idx] == -1) {
+                first[idx] = i;
+            }
+            last[idx] = i;
+        }
+
+        long[] prefix = new long[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + s.charAt(i);
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int i = 0; i < 26; i++) {
+            if (first[i] != -1 && first[i] < last[i]) {
+
+                long sum = prefix[last[i]] - prefix[first[i] + 1];
+
+                if (sum != 0) {
+                    ans.add((int) sum);
+                }
             }
         }
-        return count+st.size();
+
+        return ans;
     }
 }
