@@ -1,11 +1,11 @@
 {
-  "totalSolved": 314,
+  "totalSolved": 315,
   "currentStreak": 14,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-04",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 112,
+    "easy": 113,
     "medium": 180,
     "hard": 13,
     "basic": 9
@@ -324,7 +324,8 @@
     "GeeksForGeeks_XOR_of_All_Subarray_XORs": true,
     "GeeksForGeeks_Sum_of_Largests_Removed": true,
     "GeeksForGeeks_Subarray_Sum_K_with_Negatives": true,
-    "GeeksForGeeks_Repeated_Pattern_Removal": true
+    "GeeksForGeeks_Repeated_Pattern_Removal": true,
+    "GeeksForGeeks_Pair_Sum_in_Sorted_Doubly_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -365,7 +366,7 @@
     "2026-11-01": 6,
     "2026-11-02": 8,
     "2026-11-03": 5,
-    "2026-11-04": 5
+    "2026-11-04": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -679,6 +680,7 @@
     "XOR of All Subarray XORs",
     "Sum of Largests Removed",
     "Subarray Sum K with Negatives",
-    "Repeated Pattern Removal"
+    "Repeated Pattern Removal",
+    "Pair Sum in Sorted Doubly Linked List"
   ]
 }
