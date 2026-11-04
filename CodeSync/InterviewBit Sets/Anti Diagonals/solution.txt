@@ -7,10 +7,30 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T05:27:04.241Z
+ * Synced: 2026-11-04T05:27:03.135Z
  */
 
-public class Solution {
-    public int[][] diagonal(int[][] A) {
-    }
-}
+Input:
+
+1 2 3
+4 5 6
+7 8 9
+Return the following:
+[ 
+  [1],
+  [2, 4],
+  [3, 5, 7],
+  [6, 8],
+  [9]
+]
+
+
+Input: 
+1 2
+3 4
+Return the following: 
+[
+  [1],
+  [2, 3],
+  [4]
+]
