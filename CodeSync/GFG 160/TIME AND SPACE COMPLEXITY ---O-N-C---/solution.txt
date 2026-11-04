@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: TIME AND SPACE COMPLEXITY ===>O(N)C++✅
+ * URL: https://www.geeksforgeeks.org/problems/maximize-the-sum-of-selected-numbers-from-an-array-to-make-it-empty0836/1
+ * Language: int maximizeSum(int a[], int n) { std::unordered_map<int,int> m; for(int i=0;i<n;i++) { m[a[i]]++; } int sum=0; for(int j=n-1;j>=0;j--) { if(m[a[j]]!=0) { sum+=a[j]; m[a[j]]--; if(m[a[j]-1]!=0) { m[a[j]-1]--; } } } return sum; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Map, Greedy, Hash, Related Articles, Python
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T18:00:08.520Z
+ */
+
+class Solution {
+    public int maximizeSum(int[] arr) {
+        int MAX = 20000;
+
+        int[] freq = new int[MAX + 1];
+
+        for (int x : arr) {
+            freq[x]++;
+        }
+
+        for (int i = MAX; i >= 2; i--) {
+            int matched = Math.min(freq[i], freq[i - 1]);
+            freq[i - 1] -= matched;
+        }
+
+        long ans = 0;
+
+        for (int i = 1; i <= MAX; i++) {
+            ans += (long) i * freq[i];
+        }
+
+        return (int) ans;
+    }
+}
