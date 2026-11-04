@@ -349,3 +349,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 310 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | LeetCode | Easy | 03 Nov 2026 | 08:09 pm |
 | 311 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | LeetCode | Easy | 03 Nov 2026 | 10:01 pm |
 | 312 | [Minimum Operations to Make Elements Within K Subarrays Equal](https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/) | LeetCode | Hard | 04 Nov 2026 | 06:40 pm |
+| 313 | [XOR of All Subarray XORs](https://www.geeksforgeeks.org/problems/game-of-xor1541/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 06:41 pm |

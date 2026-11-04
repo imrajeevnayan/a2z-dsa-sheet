@@ -1,12 +1,12 @@
 {
-  "totalSolved": 310,
+  "totalSolved": 311,
   "currentStreak": 14,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-04",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 112,
-    "medium": 176,
+    "medium": 177,
     "hard": 13,
     "basic": 9
   },
@@ -320,7 +320,8 @@
     "LeetCode_Minimum_Moves_to_Equal_Array_Elements_III": true,
     "LeetCode_Game_Play_Analysis_I": true,
     "LeetCode_Calculate_Special_Bonus": true,
-    "LeetCode_Minimum_Operations_to_Make_Elements_Within_K_Subarrays_Equal": true
+    "LeetCode_Minimum_Operations_to_Make_Elements_Within_K_Subarrays_Equal": true,
+    "GeeksForGeeks_XOR_of_All_Subarray_XORs": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -361,7 +362,7 @@
     "2026-11-01": 6,
     "2026-11-02": 8,
     "2026-11-03": 5,
-    "2026-11-04": 1
+    "2026-11-04": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -671,6 +672,7 @@
     "Minimum Moves to Equal Array Elements III",
     "Game Play Analysis I",
     "Calculate Special Bonus",
-    "Minimum Operations to Make Elements Within K Subarrays Equal"
+    "Minimum Operations to Make Elements Within K Subarrays Equal",
+    "XOR of All Subarray XORs"
   ]
 }
