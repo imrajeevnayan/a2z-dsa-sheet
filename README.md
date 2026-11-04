@@ -351,3 +351,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 312 | [Minimum Operations to Make Elements Within K Subarrays Equal](https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/) | LeetCode | Hard | 04 Nov 2026 | 06:40 pm |
 | 313 | [XOR of All Subarray XORs](https://www.geeksforgeeks.org/problems/game-of-xor1541/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 06:41 pm |
 | 314 | [Sum of Largests Removed](https://www.geeksforgeeks.org/problems/maximize-the-sum-of-selected-numbers-from-an-array-to-make-it-empty0836/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 11:30 pm |
+| 315 | [Subarray Sum K with Negatives](https://www.geeksforgeeks.org/problems/hopscotch4857/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 11:34 pm |
