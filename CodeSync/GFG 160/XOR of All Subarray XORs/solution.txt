@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: XOR of All Subarray XORs
+ * URL: https://www.geeksforgeeks.org/problems/game-of-xor1541/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonNPCI, Company Tags, Amazon, NPCI, Topic Tags, Mathematics, Bit Magic
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T13:09:55.132Z
+ */
+
+class Solution {
+    public int subarrayXor(int[] arr) {
+        // code here
+        
+    }
+}
