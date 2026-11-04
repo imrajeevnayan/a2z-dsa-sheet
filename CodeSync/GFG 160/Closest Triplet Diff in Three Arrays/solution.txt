@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Related Interview Experiences, Microsoft Interview Experience Set 149 Campus, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T18:19:04.802Z
+ * Synced: 2026-11-04T18:19:34.744Z
  */
 
 class Solution {
@@ -31,7 +31,6 @@ class Solution {
                 k++;
             }
         }
-
         return ans;
     }
 }
