@@ -1,0 +1,37 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Closest Triplet Diff in Three Arrays
+ * URL: https://www.geeksforgeeks.org/problems/closest-triplet3807/1
+ * Language: #User function Template for python3 class Solution: def findClosest(self, P, Q, R, A, B, C): #code here a = b= c = 0 res = float("INF") while a <P and b < Q and c < R: res = min(res, max(abs(A[a]- B[b]), abs(A[a]- C[c]), abs(B[b]-C[c]))) mn = min(A[a], B[b], C[c]) #print(A[a], B[b], C[c]) if A[a]==mn: a+=1 elif B[b] == mn: b+=1 else: c+=1 return res
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Related Interview Experiences, Microsoft Interview Experience Set 149 Campus, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T18:19:04.802Z
+ */
+
+class Solution {
+    public int findClosest(int[] a, int[] b, int[] c) {
+
+        int i = 0, j = 0, k = 0;
+        int ans = Integer.MAX_VALUE;
+
+        while (i < a.length && j < b.length && k < c.length) {
+
+            int mn = Math.min(a[i], Math.min(b[j], c[k]));
+            int mx = Math.max(a[i], Math.max(b[j], c[k]));
+
+            ans = Math.min(ans, mx - mn);
+
+            if (mn == a[i]) {
+                i++;
+            } else if (mn == b[j]) {
+                j++;
+            } else {
+                k++;
+            }
+        }
+
+        return ans;
+    }
+}
