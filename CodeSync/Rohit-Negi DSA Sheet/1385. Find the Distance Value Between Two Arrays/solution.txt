@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Binary Search, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-11-05T15:24:40.815Z
+ * Synced: 2026-11-05T15:24:52.999Z
  */
 
 class Solution {
@@ -23,10 +23,8 @@ class Solution {
                     break;
                 }
             }
-
-            if (valid) {
-                count++;
-            }
+            if (valid) count++;
+            
         }
 
         return count;
