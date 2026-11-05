@@ -356,3 +356,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 317 | [Pair Sum in Sorted Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | GeeksForGeeks | Easy | 04 Nov 2026 | 11:47 pm |
 | 318 | [Closest Triplet Diff in Three Arrays](https://www.geeksforgeeks.org/problems/closest-triplet3807/1) | GeeksForGeeks | Easy | 04 Nov 2026 | 11:49 pm |
 | 319 | [Coin Piles](https://www.geeksforgeeks.org/problems/coin-piles5152/1) | GeeksForGeeks | Medium | 04 Nov 2026 | 11:51 pm |
+| 320 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | LeetCode | Easy | 05 Nov 2026 | 08:54 pm |
