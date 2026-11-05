@@ -7,10 +7,7 @@
  * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, String Inversion 12 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-05T15:29:43.081Z
+ * Synced: 2026-11-05T15:29:41.680Z
  */
 
-public class Solution {
-    public String countAndSay(int A) {
-    }
-}
+Output goes here... Test/Submit
