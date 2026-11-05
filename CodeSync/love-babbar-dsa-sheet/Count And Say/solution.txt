@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Count And Say
+ * URL: https://www.interviewbit.com/problems/count-and-say/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Strings, Description, Discussion, Submissions, Hints, Amazing Subarrays 26 Minutes Easy Asked in:, String Inversion 12 Minutes Very Easy Asked in:
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-05T15:29:43.081Z
+ */
+
+public class Solution {
+    public String countAndSay(int A) {
+    }
+}
