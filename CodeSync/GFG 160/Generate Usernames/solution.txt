@@ -1,0 +1,50 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Generate Usernames
+ * URL: https://www.geeksforgeeks.org/problems/new-registration-system--150419/1
+ * Language: class Solution { public: vector<string> generateUsernames(vector<string> arr) { // code here unordered_set<string> assigned(arr.begin() , arr.end()); unordered_map<string, int> nameCount; unordered_set<string> seen; vector<string>result; for(const string& s : arr){ if(seen.find(s) == seen.end()){ seen.insert(s); result.push_back(s); if(nameCount.find(s) == nameCount.end()){ nameCount[s] = 0; } } else { int k = nameCount[s]; string newName; do{ k++; newName = s + to_string(k); } while(assigned.find(newName) != assigned.end()); nameCount[s] = k; assigned.insert(newName); result.push_back(newName); } } return result; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Program For Assigning Usernames Using Trie
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T19:22:05.302Z
+ */
+
+class Solution {
+    public ArrayList<String> generateUsernames(String[] arr) {
+
+        HashSet<String> used = new HashSet<>();
+
+        // Initially all usernames are reserved
+        for (String s : arr) {
+            used.add(s);
+        }
+
+        HashSet<String> assigned = new HashSet<>();
+        ArrayList<String> ans = new ArrayList<>();
+
+        for (String name : arr) {
+
+            if (!assigned.contains(name)) {
+                ans.add(name);
+                assigned.add(name);
+            } else {
+
+                int suffix = 1;
+
+                while (used.contains(name + suffix)) {
+                    suffix++;
+                }
+
+                String newName = name + suffix;
+
+                ans.add(newName);
+
+                used.add(newName);
+                assigned.add(newName);
+            }
+        }
+
+        return ans;
+    }
+}
