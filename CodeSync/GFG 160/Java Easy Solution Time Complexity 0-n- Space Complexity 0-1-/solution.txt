@@ -1,0 +1,48 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Easy Solution Time Complexity 0(n) Space Complexity 0(1)
+ * URL: https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1
+ * Language: /* Structure of the node of the DLL class Node { public: int data; Node* prev; Node* next; Node(int val) { data = val; prev = nullptr; next = nullptr; } }; */ class Solution { public: Node* sortedInsert(Node* head, int x) { // Code here Node *dummy = new Node(-1); dummy->next = head; head->prev = dummy; Node *temp = head; Node *tail = nullptr; while (temp != nullptr) { if (temp->next == nullptr)tail = temp; int data = temp->data; Node *prev = temp->prev; Node *next = temp->next; if (data >x) { Node *node = new Node(x); node->next = prev->next; node->prev = prev; prev->next = node; temp->prev = node; break; } temp = next; } if (temp == nullptr) { Node *node = new Node(x); node->next = tail->next; node->prev = tail; tail->next = node; } Node *newHead = dummy->next; if (newHead != nullptr) { newHead->prev = nullptr; dummy->next = nullptr; } return newHead; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Doubly Linked List, Linked List, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T07:04:21.151Z
+ */
+
+class Solution {
+    public Node sortedInsert(Node head, int x) {
+        Node newNode = new Node(x);
+
+        // Case 1: Empty list
+        if (head == null) {
+            return newNode;
+        }
+
+        // Case 2: Insert at beginning
+        if (x <= head.data) {
+            newNode.next = head;
+            head.prev = newNode;
+            return newNode;
+        }
+
+        Node curr = head;
+
+        // Find insertion position
+        while (curr.next != null && curr.next.data < x) {
+            curr = curr.next;
+        }
+
+        // Insert after curr
+        newNode.next = curr.next;
+        newNode.prev = curr;
+
+        if (curr.next != null) {
+            curr.next.prev = newNode;
+        }
+
+        curr.next = newNode;
+
+        return head;
+    }
+}
