@@ -1,27 +1,32 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
- * Language: class Solution { public: long long fact(int n){ long long f = 1; while(n) f *= n--; return f; } int countFriendsPairings(int n) { // code here int ans =0; for(int k = 0; k <= n/2; k++) ans += fact(n) / ((1LL<<k) * fact(k) * fact(n - 2*k)); return ans; } };
+ * URL: https://www.geeksforgeeks.org/problems/bbt-counter4914/1
+ * Language: def countBT(self, h: int) -> int: # code here if h == 1 or h == 0: return 1 M = 1_000_000_000+7 a0, a1 = 1, 1 for _ in range(2, h+1): a1, a0 = ((a1*a0*2)%M + a1*a1%M)%M, a1 return a1
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Modular Arithmetic, Recursion, Related Articles, Friends Pairing Problem
+ * Topics: Expected Complexities, Topic Tags, Mathematics, Tree, Related Articles, Count Balanced Binary Trees Height H
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-07T05:12:45.797Z
+ * Synced: 2026-11-06T06:22:17.994Z
  */
 
 class Solution {
-    public int countFriendsPairings(int n) {
-        if (n <= 1)return 1;
-        
-        int prev2 = 1; // f(0)
-        int prev1 = 1; // f(1)
+    static final long MOD = 1000000007;
 
-        for (int i = 2; i <= n; i++) {
-            int curr = prev1 + (i - 1) * prev2;
+    public int countBT(int h) {
+        if (h == 0 || h == 1) return 1;
+
+        long prev2 = 1; // dp[0]
+        long prev1 = 1; // dp[1]
+
+        for (int i = 2; i <= h; i++) {
+            long curr = (prev1 * prev1) % MOD;
+            curr = (curr + (2 * prev1 % MOD * prev2 % MOD)) % MOD;
+
             prev2 = prev1;
             prev1 = curr;
         }
-        return prev1;
+
+        return (int) prev1;
     }
 }
