@@ -363,3 +363,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 324 | [Linked List to Binary Tree](https://www.geeksforgeeks.org/problems/make-binary-tree/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 01:48 pm |
 | 325 | [Sort Alternate Sorted Linked List](https://www.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 03:27 pm |
 | 326 | [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 07:20 pm |
+| 327 | [Generate Usernames](https://www.geeksforgeeks.org/problems/new-registration-system--150419/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 12:52 am |
