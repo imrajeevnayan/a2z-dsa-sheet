@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Linked List to Binary Tree
+ * URL: https://www.geeksforgeeks.org/problems/make-binary-tree/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Tree, Linked List, Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T08:09:55.214Z
+ */
+
+Input: head[] = [1, 2, 3, 4, 5]
+
+Output: [1, 2, 3, 4, 5]
+Explanation: The tree would look like 
+
+Now, the level order traversal of the above tree is 1 2 3 4 5.
