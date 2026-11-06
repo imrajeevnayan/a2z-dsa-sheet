@@ -2,17 +2,39 @@
  * Platform: GeeksforGeeks
  * Problem: Linked List to Binary Tree
  * URL: https://www.geeksforgeeks.org/problems/make-binary-tree/1
- * Language: Text
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Company Tags Amazon Topic Tags Related Articles, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Tree, Linked List, Queue
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Tree, Linked List, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T08:09:55.214Z
+ * Synced: 2026-11-06T08:09:56.523Z
  */
 
-Input: head[] = [1, 2, 3, 4, 5]
+/* Linked List Node Structure
+class NodeLL {
+    int data;
+    NodeLL next;
 
-Output: [1, 2, 3, 4, 5]
-Explanation: The tree would look like 
+    NodeLL(int x) {
+        data = x;
+        next = null;
+    }
+}
 
-Now, the level order traversal of the above tree is 1 2 3 4 5.
+Binary Tree Node Structure
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int x) {
+        data = x;
+        left = right = null;
+    }
+}
+*/
+class Solution {
+    public Node linkedListToBinaryTree(NodeLL head) {
+        // code here
+        
+    }
+}
