@@ -359,3 +359,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 320 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | LeetCode | Easy | 05 Nov 2026 | 08:54 pm |
 | 321 | [Balanced Binary Tree Counter](https://www.geeksforgeeks.org/problems/bbt-counter4914/1) | GeeksForGeeks | Easy | 06 Nov 2026 | 11:52 am |
 | 322 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | LeetCode | Medium | 06 Nov 2026 | 12:16 pm |
+| 323 | [Sorted Insert in DLL](https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 12:34 pm |
