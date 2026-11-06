@@ -1,0 +1,41 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: N-Digit Numbers with Increasing Digits
+ * URL: https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1
+ * Language: vector<int> solve(int n){ if(n==1){ return {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; } vector<int>tmp=solve(n-1); vector<int>ans; for(auto &it:tmp){ for(int i=1; i<=9; i++){ if(it==0 || (it%10)>=i) continue; ans.push_back(it*10+i); } } return ans; } vector<int> increasingNumbers(int n) { // code here return solve(n); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags ABCO, Company Tags, ABCO, Topic Tags, Recursion, Related Interview Experiences, Abco Interview Experience Set 4
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T13:50:33.176Z
+ */
+
+class Solution {
+
+    public static ArrayList<Integer> increasingNumbers(int n) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        if (n == 1) {
+            for (int i = 0; i <= 9; i++) {
+                ans.add(i);
+            }
+            return ans;
+        }
+
+        if (n > 10) return ans;
+
+        helper(n, 1, "", ans);
+        return ans;
+    }
+
+    static void helper(int n, int start, String curr, ArrayList<Integer> ans) {
+        if (curr.length() == n) {
+            ans.add(Integer.parseInt(curr));
+            return;
+        }
+
+        for (int digit = start; digit <= 9; digit++) {
+            helper(n, digit + 1, curr + digit, ans);
+        }
+    }
+}
