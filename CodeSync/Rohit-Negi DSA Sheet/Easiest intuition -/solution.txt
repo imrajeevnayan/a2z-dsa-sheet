@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Tree, Linked List, Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T08:11:11.100Z
+ * Synced: 2026-11-06T08:18:14.531Z
  */
 
 class Solution {
