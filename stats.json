@@ -1,12 +1,12 @@
 {
-  "totalSolved": 322,
+  "totalSolved": 323,
   "currentStreak": 16,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-06",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 116,
-    "medium": 184,
+    "medium": 185,
     "hard": 13,
     "basic": 9
   },
@@ -332,7 +332,8 @@
     "GeeksForGeeks_Balanced_Binary_Tree_Counter": true,
     "LeetCode_Count_Zero_Request_Servers": true,
     "GeeksForGeeks_Sorted_Insert_in_DLL": true,
-    "GeeksForGeeks_Linked_List_to_Binary_Tree": true
+    "GeeksForGeeks_Linked_List_to_Binary_Tree": true,
+    "GeeksForGeeks_Sort_Alternate_Sorted_Linked_List": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -375,7 +376,7 @@
     "2026-11-03": 5,
     "2026-11-04": 8,
     "2026-11-05": 1,
-    "2026-11-06": 4
+    "2026-11-06": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -697,6 +698,7 @@
     "Balanced Binary Tree Counter",
     "Count Zero Request Servers",
     "Sorted Insert in DLL",
-    "Linked List to Binary Tree"
+    "Linked List to Binary Tree",
+    "Sort Alternate Sorted Linked List"
   ]
 }

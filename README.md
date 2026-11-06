@@ -361,3 +361,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 322 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | LeetCode | Medium | 06 Nov 2026 | 12:16 pm |
 | 323 | [Sorted Insert in DLL](https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 12:34 pm |
 | 324 | [Linked List to Binary Tree](https://www.geeksforgeeks.org/problems/make-binary-tree/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 01:48 pm |
+| 325 | [Sort Alternate Sorted Linked List](https://www.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 03:27 pm |
