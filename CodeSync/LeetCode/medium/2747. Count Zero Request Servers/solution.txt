@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 2747. Count Zero Request Servers
- * URL: https://leetcode.com/problems/count-zero-request-servers/description/?envType=daily-question&envId=2026-11-06
+ * URL: https://leetcode.com/problems/count-zero-request-servers/?envType=daily-question&envId=2026-11-06
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, Sliding Window, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-11-06T06:45:00.960Z
+ * Synced: 2026-11-06T06:45:58.702Z
  */
 
-class Solution {
-    public int[] countServers(int n, int[][] logs, int x, int[] queries) {
-        
+right++;
+            }
+
+            // Remove logs with timestamp < (time - x)
+            while (left < right && logs[left][1] < time - x) {
+                int server = logs[left][0];
+
+                freq[server]--;
+
+                if (freq[server] == 0) {
+                    activeServers--;
+                }
+
+                left++;
+            }
+
+            ans[q[1]] = n - activeServers;
+        }
+
+        return ans;
     }
 }
