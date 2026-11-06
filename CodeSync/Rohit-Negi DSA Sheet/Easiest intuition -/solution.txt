@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easiest intuition :-
+ * URL: https://www.geeksforgeeks.org/problems/make-binary-tree/1
+ * Language: public static Tree convert(Node head, Tree node) { // add code here.} if (head == null) return null; List<Tree> nodes = new ArrayList<>(); Node current = head; while (current != null) { nodes.add(new Tree(current.data)); current = current.next; } for (int i = 0; i < nodes.size(); i++) { if (2 * i + 1 < nodes.size()) { nodes.get(i).left = nodes.get(2 * i + 1); } if (2 * i + 2 < nodes.size()) { nodes.get(i).right = nodes.get(2 * i + 2); } } return nodes.get(0); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Tree, Linked List, Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T08:11:11.100Z
+ */
+
+class Solution {
+    public Node linkedListToBinaryTree(NodeLL head) {
+        if (head == null) return null;
+
+        Node root = new Node(head.data);
+        Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+
+        head = head.next;
+
+        while (head != null) {
+            Node parent = q.poll();
+
+            // Left child
+            Node leftChild = new Node(head.data);
+            parent.left = leftChild;
+            q.offer(leftChild);
+
+            head = head.next;
+
+            // Right child
+            if (head != null) {
+                Node rightChild = new Node(head.data);
+                parent.right = rightChild;
+                q.offer(rightChild);
+
+                head = head.next;
+            }
+        }
+
+        return root;
+    }
+}
