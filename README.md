@@ -362,3 +362,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 323 | [Sorted Insert in DLL](https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 12:34 pm |
 | 324 | [Linked List to Binary Tree](https://www.geeksforgeeks.org/problems/make-binary-tree/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 01:48 pm |
 | 325 | [Sort Alternate Sorted Linked List](https://www.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 03:27 pm |
+| 326 | [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 07:20 pm |
