@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2747. Count Zero Request Servers
+ * URL: https://leetcode.com/problems/count-zero-request-servers/description/?envType=daily-question&envId=2026-11-06
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Sliding Window, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T06:44:57.701Z
+ */
+
+Input: n = 3, logs = [[1,3],[2,6],[1,5]], x = 5, queries = [10,11]
+Output: [1,2]
+Explanation: 
+For queries[0]: The servers with ids 1 and 2 get requests in the duration of [5, 10]. Hence, only server 3 gets zero requests.
+For queries[1]: Only the server with id 2 gets a request in duration of [6,11]. Hence, the servers with ids 1 and 3 are the only servers that do not receive any requests during that time period.
