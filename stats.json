@@ -1,12 +1,12 @@
 {
-  "totalSolved": 321,
+  "totalSolved": 322,
   "currentStreak": 16,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-06",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 116,
-    "medium": 183,
+    "medium": 184,
     "hard": 13,
     "basic": 9
   },
@@ -331,7 +331,8 @@
     "LeetCode_Find_the_Distance_Value_Between_Two_Arrays": true,
     "GeeksForGeeks_Balanced_Binary_Tree_Counter": true,
     "LeetCode_Count_Zero_Request_Servers": true,
-    "GeeksForGeeks_Sorted_Insert_in_DLL": true
+    "GeeksForGeeks_Sorted_Insert_in_DLL": true,
+    "GeeksForGeeks_Linked_List_to_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -374,7 +375,7 @@
     "2026-11-03": 5,
     "2026-11-04": 8,
     "2026-11-05": 1,
-    "2026-11-06": 3
+    "2026-11-06": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -695,6 +696,7 @@
     "Find the Distance Value Between Two Arrays",
     "Balanced Binary Tree Counter",
     "Count Zero Request Servers",
-    "Sorted Insert in DLL"
+    "Sorted Insert in DLL",
+    "Linked List to Binary Tree"
   ]
 }

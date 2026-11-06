@@ -360,3 +360,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 321 | [Balanced Binary Tree Counter](https://www.geeksforgeeks.org/problems/bbt-counter4914/1) | GeeksForGeeks | Easy | 06 Nov 2026 | 11:52 am |
 | 322 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | LeetCode | Medium | 06 Nov 2026 | 12:16 pm |
 | 323 | [Sorted Insert in DLL](https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 12:34 pm |
+| 324 | [Linked List to Binary Tree](https://www.geeksforgeeks.org/problems/make-binary-tree/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 01:48 pm |
