@@ -1,11 +1,11 @@
 {
-  "totalSolved": 318,
-  "currentStreak": 15,
+  "totalSolved": 319,
+  "currentStreak": 16,
   "maxStreak": 25,
-  "lastSyncDate": "2026-11-05",
+  "lastSyncDate": "2026-11-06",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 115,
+    "easy": 116,
     "medium": 181,
     "hard": 13,
     "basic": 9
@@ -328,7 +328,8 @@
     "GeeksForGeeks_Pair_Sum_in_Sorted_Doubly_Linked_List": true,
     "GeeksForGeeks_Closest_Triplet_Diff_in_Three_Arrays": true,
     "GeeksForGeeks_Coin_Piles": true,
-    "LeetCode_Find_the_Distance_Value_Between_Two_Arrays": true
+    "LeetCode_Find_the_Distance_Value_Between_Two_Arrays": true,
+    "GeeksForGeeks_Balanced_Binary_Tree_Counter": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -370,7 +371,8 @@
     "2026-11-02": 8,
     "2026-11-03": 5,
     "2026-11-04": 8,
-    "2026-11-05": 1
+    "2026-11-05": 1,
+    "2026-11-06": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -688,6 +690,7 @@
     "Pair Sum in Sorted Doubly Linked List",
     "Closest Triplet Diff in Three Arrays",
     "Coin Piles",
-    "Find the Distance Value Between Two Arrays"
+    "Find the Distance Value Between Two Arrays",
+    "Balanced Binary Tree Counter"
   ]
 }
