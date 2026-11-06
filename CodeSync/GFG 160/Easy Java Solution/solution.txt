@@ -1,0 +1,62 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy Java Solution
+ * URL: https://www.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1
+ * Language: class Solution { public static Node iterativeReverseList(Node head) { Node curr = head; Node prev = null; while (curr != null) { Node temp = curr.next; curr.next = prev; prev = curr; curr = temp; } return prev; } public Node sort(Node head) { // code here Node descH = head.next; Node ascPtr = head; Node descPtr = head.next; while (descPtr != null && descPtr.next != null) { ascPtr.next = ascPtr.next.next; ascPtr = ascPtr.next; descPtr.next = descPtr.next.next; descPtr = descPtr.next; } ascPtr.next = iterativeReverseList(descH); //Desc list to increasing return head; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Linked List, Sorting, Related Interview Experiences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-06T09:57:54.607Z
+ */
+
+class Solution {
+
+    public Node sort(Node head) {
+        if (head == null || head.next == null)
+            return head;
+
+        // Split into two lists
+        Node a = head;
+        Node b = head.next;
+
+        Node headA = a;
+        Node headB = b;
+
+        while (a != null && b != null) {
+            if (a.next != null)
+                a.next = a.next.next;
+            a = a.next;
+
+            if (b.next != null)
+                b.next = b.next.next;
+            b = b.next;
+        }
+
+        // Reverse second list
+        headB = reverse(headB);
+
+        // Merge two sorted lists
+        return merge(headA, headB);
+    }
+
+    private Node reverse(Node head) {
+        Node prev = null;
+        Node curr = head;
+
+        while (curr != null) {
+            Node next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        return prev;
+    }
+
+    private Node merge(Node a, Node b) {
+        Node dummy = new Node(0);
+        Node tail = dummy;
+
+        while (a != null && b != null) {
+            if (a.data <= b.data) {
