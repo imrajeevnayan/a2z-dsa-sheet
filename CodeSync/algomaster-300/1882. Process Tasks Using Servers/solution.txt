@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1882. Process Tasks Using Servers
+ * URL: https://leetcode.com/problems/process-tasks-using-servers/description/?envType=daily-question&envId=2026-11-07
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-07T03:20:13.390Z
+ */
+
+class Solution {
+    public int[] assignTasks(int[] servers, int[] tasks) {
+        
+    }
+}
