@@ -366,3 +366,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 327 | [Generate Usernames](https://www.geeksforgeeks.org/problems/new-registration-system--150419/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 12:52 am |
 | 328 | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | LeetCode | Medium | 07 Nov 2026 | 08:51 am |
 | 329 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | LeetCode | Easy | 07 Nov 2026 | 01:57 pm |
+| 330 | [Bracket Numbers](https://www.geeksforgeeks.org/problems/print-bracket-number4058/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 08:45 pm |
