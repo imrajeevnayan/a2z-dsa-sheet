@@ -1,40 +1,28 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/winner-of-an-election-where-votes-are-represented-as-candidate-names-1587115621--162858/1
- * Language: Java (21)
+ * URL: https://www.geeksforgeeks.org/problems/delete-array-elements-which-are-smaller-than-next-or-become-smaller3115/1
+ * Language: class Solution { public: vector<int> deleteElement(vector<int>& arr, int k) { // Code Here vector<int> res; stack<int> stk; for(int i=0; i<arr.size(); i++){ while(!stk.empty() && k>0 && stk.top() < arr[i]){ stk.pop(); k--; } stk.push(arr[i]); } while(!stk.empty()){ res.push_back(stk.top()); stk.pop(); } reverse(res.begin(), res.end()); return res; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AdobeAtlassian, Company Tags, Adobe, Atlassian, Topic Tags, Hash, Strings
+ * Topics: Expected Complexities, Topic Tags, Arrays, Stack, CPP, STL, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-08-08T19:12:51.713Z
+ * Synced: 2026-11-07T15:17:43.563Z
  */
 
 class Solution {
-    public List winner(List<String> arr) {
-        HashMap<String, Integer> map = new HashMap<>();
+    public static ArrayList<Integer> deleteElement(int arr[], int k) {
 
-        for (String candidate : arr) {
-            map.put(candidate, map.getOrDefault(candidate, 0) + 1);
-        }
+        Stack<Integer> st = new Stack<>();
 
-        String winner = "";
-        int maxVotes = 0;
-
-        for (String candidate : map.keySet()) {
-            int votes = map.get(candidate);
-
-            if (votes > maxVotes || 
-                (votes == maxVotes && candidate.compareTo(winner) < 0)) {
-                winner = candidate;
-                maxVotes = votes;
+        for (int num : arr) {
+            while (!st.isEmpty() && k > 0 && st.peek() < num) {
+                st.pop();
+                k--;
             }
+            st.push(num);
         }
 
-        List<String> result = new ArrayList<>();
-        result.add(winner);
-        result.add(String.valueOf(maxVotes));
-
-        return result;
+        return new ArrayList<>(st);
     }
 }
