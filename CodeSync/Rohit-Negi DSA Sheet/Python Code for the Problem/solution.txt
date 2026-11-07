@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Code for the Problem
+ * URL: https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1
+ * Language: class Solution: def maxSum(self, arr): arrSum = 0 maxi = 0 if(len(arr) <= 2): return sum(arr) for i in range(0,len(arr)-1): arrSum = arr[i] + arr[i+1] if(maxi < arrSum): maxi = arrSum return maxi
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Stack, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-07T16:18:56.593Z
+ */
+
+class Solution {
+    public int maxSum(int arr[]) {
+        int ans = 0;
+
+        for (int i = 0; i < arr.length - 1; i++) {
+            ans = Math.max(ans, arr[i] + arr[i + 1]);
+        }
+
+        return ans;
+    }
+}
