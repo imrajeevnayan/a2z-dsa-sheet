@@ -368,3 +368,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 329 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | LeetCode | Easy | 07 Nov 2026 | 01:57 pm |
 | 330 | [Bracket Numbers](https://www.geeksforgeeks.org/problems/print-bracket-number4058/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 08:45 pm |
 | 331 | [Delete Smaller Than Next](https://www.geeksforgeeks.org/problems/delete-array-elements-which-are-smaller-than-next-or-become-smaller3115/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 08:47 pm |
+| 332 | [Max Sum of 2 Smallest Across Subarrays](https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1) | GeeksForGeeks | Medium | 07 Nov 2026 | 09:48 pm |

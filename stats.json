@@ -1,12 +1,12 @@
 {
-  "totalSolved": 329,
+  "totalSolved": 330,
   "currentStreak": 17,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-07",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 120,
-    "medium": 187,
+    "medium": 188,
     "hard": 13,
     "basic": 9
   },
@@ -339,7 +339,8 @@
     "LeetCode_Process_Tasks_Using_Servers": true,
     "LeetCode_Best_Time_to_Buy_and_Sell_Stock": true,
     "GeeksForGeeks_Bracket_Numbers": true,
-    "GeeksForGeeks_Delete_Smaller_Than_Next": true
+    "GeeksForGeeks_Delete_Smaller_Than_Next": true,
+    "GeeksForGeeks_Max_Sum_of_2_Smallest_Across_Subarrays": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -383,7 +384,7 @@
     "2026-11-04": 8,
     "2026-11-05": 1,
     "2026-11-06": 6,
-    "2026-11-07": 5
+    "2026-11-07": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -712,6 +713,7 @@
     "Process Tasks Using Servers",
     "Best Time to Buy and Sell Stock",
     "Bracket Numbers",
-    "Delete Smaller Than Next"
+    "Delete Smaller Than Next",
+    "Max Sum of 2 Smallest Across Subarrays"
   ]
 }
