@@ -365,3 +365,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 326 | [N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1) | GeeksForGeeks | Medium | 06 Nov 2026 | 07:20 pm |
 | 327 | [Generate Usernames](https://www.geeksforgeeks.org/problems/new-registration-system--150419/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 12:52 am |
 | 328 | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | LeetCode | Medium | 07 Nov 2026 | 08:51 am |
+| 329 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | LeetCode | Easy | 07 Nov 2026 | 01:57 pm |
