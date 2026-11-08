@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 9. Palindrome Number
+ * URL: https://leetcode.com/problems/palindrome-number/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T03:46:05.680Z
+ */
+
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
