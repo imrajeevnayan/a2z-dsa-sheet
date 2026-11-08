@@ -1,29 +1,32 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/game-of-xor1541/1
- * Language: class Solution: def subarrayXor(self, arr): n = len(arr) _xor = 0 for i in range(n): include = ((i + 1)*(n - i))%2 if include: _xor ^= arr[i] return _xor
+ * URL: https://www.geeksforgeeks.org/problems/find-the-minimum-time0253/1
+ * Language: class Solution { public int minTime(int n, int s1, int s2) { // code here int low = 1, high = Math.min(s1, s2) * n; while (low < high) { int mid = low + (high - low) / 2; if (mid / s1 + mid / s2 >= n) high = mid; else low = mid + 1; } return low; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AmazonNPCI, Company Tags, Amazon, NPCI, Topic Tags, Mathematics, Bit Magic
+ * Topics: Expected Complexities, Company Tags Oracle, Company Tags, Oracle, Topic Tags, Mathematics, Binary Search, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-04T13:11:38.442Z
+ * Synced: 2026-11-08T03:39:19.570Z
  */
 
 class Solution {
-    public int subarrayXor(int[] arr) {
-        int n = arr.length;
+    public int minTime(int n, int s1, int s2) {
+        long low = 0;
+        long high = 1L * Math.min(s1, s2) * n;
 
-        if ((n & 1) == 0) {
-            return 0;
+        while (low < high) {
+            long mid = low + (high - low) / 2;
+
+            long docs = mid / s1 + mid / s2;
+
+            if (docs >= n) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
         }
 
-        int ans = 0;
-
-        for (int i = 0; i < n; i += 2) {
-            ans ^= arr[i];
-        }
-
-        return ans;
+        return (int) low;
     }
 }
