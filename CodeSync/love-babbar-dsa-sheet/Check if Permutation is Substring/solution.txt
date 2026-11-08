@@ -1,0 +1,48 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Check if Permutation is Substring
+ * URL: https://www.geeksforgeeks.org/problems/check-if-permutation-is-substring/1
+ * Language: bool hasSameChars(int hash1[] , int hash2[]) { for(int i = 0 ; i < 26 ; i++) if(hash1[i] != hash2[i]) return false ; return true ; } bool search(string& txt, string& pat) { int t = txt.size() ; int p = pat.size() ; int hash1[26] = {0} ; for(int i = 0 ; i < p ; i++) ++hash1[pat[i] - 'a'] ; for(int i = 0 ; i <= t - p ; i++) { int hash2[26] = {0} ; for(int j = i ; j < i + p ; j++) ++hash2[txt[j] - 'a'] ; if(hasSameChars(hash1 , hash2)) return true ; } return false ; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, sliding-window, Related Articles, Check If Permutation Of Pattern Is Substring
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T19:08:23.396Z
+ */
+
+class Solution {
+    boolean search(String txt, String pat) {
+        int n = txt.length();
+        int m = pat.length();
+
+        if (m > n) return false;
+
+        int[] p = new int[26];
+        int[] w = new int[26];
+
+        // Pattern frequency
+        for (int i = 0; i < m; i++) {
+            p[pat.charAt(i) - 'a']++;
+            w[txt.charAt(i) - 'a']++;
+        }
+
+        if (isEqual(p, w)) return true;
+
+        // Sliding window
+        for (int i = m; i < n; i++) {
+            w[txt.charAt(i) - 'a']++;
+            w[txt.charAt(i - m) - 'a']--;
+
+            if (isEqual(p, w)) return true;
+        }
+
+        return false;
+    }
+
+    private boolean isEqual(int[] a, int[] b) {
+        for (int i = 0; i < 26; i++) {
+            if (a[i] != b[i]) return false;
+        }
+        return true;
+    }
+}
