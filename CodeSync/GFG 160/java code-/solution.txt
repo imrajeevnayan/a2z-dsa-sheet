@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: java code:-
+ * URL: https://www.geeksforgeeks.org/problems/last-coin-in-a-game-of-alternates/1
+ * Language: class Solution { public int coin(int[] arr) { Arrays.sort(arr); return arr[0]; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, two-pointer-algorithm, Arrays, Greedy, Related Articles, Last Coin In A Game Of Alternates
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T03:42:08.712Z
+ */
+
+class Solution {
+    public int coin(int[] arr) {
+        int i = 0, j = arr.length - 1;
+
+        while (i < j) {
+            if (arr[i] >= arr[j]) {
+                i++;
+            } else {
+                j--;
+            }
+        }
+
+        return arr[i];
+    }
+}
