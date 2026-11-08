@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximum Count with Sum Limited to K
+ * URL: https://www.geeksforgeeks.org/problems/maximize-toys0331/1
+ * Language: priority_queue<int,vector<int>,greater<int>>pq; for(int x : arr) pq.push(x); int sum = 0,cnt = 0; while(sum <= K && !pq.empty()){ if(sum+pq.top() <= K){ sum += pq.top(); pq.pop(); cnt++; } else break; } if(pq.size() == arr.size()) return -1; return cnt;
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Greedy, Sorting, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T03:43:14.928Z
+ */
+
+class Solution {
+    public int toyCount(int[] arr, int k) {
+        Arrays.sort(arr);
+
+        int count = 0;
+
+        for (int cost : arr) {
+            if (cost <= k) {
+                k -= cost;
+                count++;
+            } else {
+                break;
+            }
+        }
+
+        return count;
+    }
+}
