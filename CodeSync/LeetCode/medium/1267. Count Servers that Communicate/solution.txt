@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1267. Count Servers that Communicate
+ * URL: https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question&envId=2026-11-08
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T03:44:48.267Z
+ */
+
+Input: grid = [[1,0],[0,1]]
+Output: 0
+Explanation: No servers can communicate with others.
