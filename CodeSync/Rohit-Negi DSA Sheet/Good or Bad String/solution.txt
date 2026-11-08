@@ -1,0 +1,48 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Good or Bad String
+ * URL: https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1
+ * Language: class Solution { static int isGoodorBad(String S) { int vowel = 0; int consonant = 0; for (int i = 0; i < S.length(); i++) { char ch = S.charAt(i); if (ch == '?') { // '?' could be either vowel or consonant vowel++; consonant++; } else if (isVowel(ch)) { vowel++; consonant = 0; } else { consonant++; vowel = 0; } // If either count exceeds the threshold, it's BAD if (vowel > 5 || consonant > 3) { return 0; } } return 1; } static boolean isVowel(char ch) { return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';// code here } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonAdobe, Company Tags, Amazon, Adobe, Topic Tags, Strings, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-08T03:41:14.801Z
+ */
+
+class Solution {
+    boolean isGoodOrBad(String s) {
+        int vMax = 0; // maximum consecutive vowels possible
+        int cMax = 0; // maximum consecutive consonants possible
+
+        for (char ch : s.toCharArray()) {
+
+            if (isVowel(ch)) {
+                vMax++;
+                cMax = 0;
+            }
+            else if (ch == '?') {
+                int newV = vMax + 1;
+                int newC = cMax + 1;
+
+                vMax = newV;
+                cMax = newC;
+            }
+            else {
+                cMax++;
+                vMax = 0;
+            }
+
+            if (vMax > 5 || cMax > 3) {
+                return false; // BAD
+            }
+        }
+
+        return true; // GOOD
+    }
+
+    private boolean isVowel(char ch) {
+        return ch == 'a' || ch == 'e' || ch == 'i'
+            || ch == 'o' || ch == 'u';
+    }
+}
