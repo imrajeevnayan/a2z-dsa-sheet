@@ -1,24 +1,36 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: code in java
- * URL: https://www.geeksforgeeks.org/problems/count-number-of-edges-in-an-undirected-graph/1
- * Language: class Solution { public int countEdges(ArrayList<ArrayList<Integer>> adj) { int v=adj.size(); int sum=0; for(int i=0;i<v;i++) { sum=sum+adj.get(i).size(); } return sum/2; } }
+ * URL: https://www.geeksforgeeks.org/problems/count-the-characters1821/1
+ * Language: class Sol { int getCount(String s, int n) { Map<Character, Integer> map = new HashMap<>(); int count = 0; for (int i=0; i<s.length(); i++) { Character c = s.charAt(i); if (i < s.length()-1 && c == s.charAt(i+1)) { continue; } int charCount = map.getOrDefault(c, 0); charCount++; map.put(c, charCount); } for (int frequency : map.values()) { if (frequency == n) { count++; } } return count; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Graph, Related Articles, Count Number Edges Undirected Graph
+ * Topics: Expected Complexities, Company Tags ZohoAmazon, Company Tags, Zoho, Amazon, Topic Tags, Strings, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T13:30:40.991Z
+ * Synced: 2026-11-08T19:09:38.843Z
  */
 
 class Solution {
-    public int countEdges(ArrayList<ArrayList<Integer>> adj) {
+    int getCount(String s, int k) {
+        int[] groups = new int[26];
 
-        int total = 0;
+        // Count groups
+        groups[s.charAt(0) - 'a']++;
 
-        for (int i = 0; i < adj.size(); i++) {
-            total += adj.get(i).size();
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                groups[s.charAt(i) - 'a']++;
+            }
         }
 
-        return total / 2;
+        int ans = 0;
+
+        for (int cnt : groups) {
+            if (cnt == k) {
+                ans++;
+            }
+        }
+
+        return ans;
     }
 }
