@@ -1,12 +1,12 @@
 {
-  "totalSolved": 333,
+  "totalSolved": 334,
   "currentStreak": 18,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-08",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 122,
-    "medium": 188,
+    "medium": 189,
     "hard": 13,
     "basic": 10
   },
@@ -343,7 +343,8 @@
     "GeeksForGeeks_Max_Sum_of_2_Smallest_Across_Subarrays": true,
     "GeeksForGeeks_Minimum_Time_with_2_Scanners": true,
     "GeeksForGeeks_Good_or_Bad_String": true,
-    "GeeksForGeeks_Maximum_Count_with_Sum_Limited_to_K": true
+    "GeeksForGeeks_Maximum_Count_with_Sum_Limited_to_K": true,
+    "LeetCode_Count_Servers_that_Communicate": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -388,7 +389,7 @@
     "2026-11-05": 1,
     "2026-11-06": 6,
     "2026-11-07": 6,
-    "2026-11-08": 3
+    "2026-11-08": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -721,6 +722,7 @@
     "Max Sum of 2 Smallest Across Subarrays",
     "Minimum Time with 2 Scanners",
     "Good or Bad String",
-    "Maximum Count with Sum Limited to K"
+    "Maximum Count with Sum Limited to K",
+    "Count Servers that Communicate"
   ]
 }
