@@ -373,3 +373,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 334 | [Good or Bad String](https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1) | GeeksForGeeks | Basic | 08 Nov 2026 | 09:11 am |
 | 335 | [Maximum Count with Sum Limited to K](https://www.geeksforgeeks.org/problems/maximize-toys0331/1) | GeeksForGeeks | Easy | 08 Nov 2026 | 09:13 am |
 | 336 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | LeetCode | Medium | 08 Nov 2026 | 09:15 am |
+| 337 | [Check if Permutation is Substring](https://www.geeksforgeeks.org/problems/check-if-permutation-is-substring/1) | GeeksForGeeks | Easy | 09 Nov 2026 | 12:38 am |
