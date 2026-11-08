@@ -1,14 +1,14 @@
 {
-  "totalSolved": 331,
+  "totalSolved": 332,
   "currentStreak": 18,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-08",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 121,
     "medium": 188,
     "hard": 13,
-    "basic": 9
+    "basic": 10
   },
   "syncedProblems": {
     "GeeksForGeeks_Check_Level_Anagrams_in_Binary_Trees": true,
@@ -341,7 +341,8 @@
     "GeeksForGeeks_Bracket_Numbers": true,
     "GeeksForGeeks_Delete_Smaller_Than_Next": true,
     "GeeksForGeeks_Max_Sum_of_2_Smallest_Across_Subarrays": true,
-    "GeeksForGeeks_Minimum_Time_with_2_Scanners": true
+    "GeeksForGeeks_Minimum_Time_with_2_Scanners": true,
+    "GeeksForGeeks_Good_or_Bad_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -386,7 +387,7 @@
     "2026-11-05": 1,
     "2026-11-06": 6,
     "2026-11-07": 6,
-    "2026-11-08": 1
+    "2026-11-08": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -717,6 +718,7 @@
     "Bracket Numbers",
     "Delete Smaller Than Next",
     "Max Sum of 2 Smallest Across Subarrays",
-    "Minimum Time with 2 Scanners"
+    "Minimum Time with 2 Scanners",
+    "Good or Bad String"
   ]
 }

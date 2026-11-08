@@ -370,3 +370,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 331 | [Delete Smaller Than Next](https://www.geeksforgeeks.org/problems/delete-array-elements-which-are-smaller-than-next-or-become-smaller3115/1) | GeeksForGeeks | Easy | 07 Nov 2026 | 08:47 pm |
 | 332 | [Max Sum of 2 Smallest Across Subarrays](https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1) | GeeksForGeeks | Medium | 07 Nov 2026 | 09:48 pm |
 | 333 | [Minimum Time with 2 Scanners](https://www.geeksforgeeks.org/problems/find-the-minimum-time0253/1) | GeeksForGeeks | Easy | 08 Nov 2026 | 09:09 am |
+| 334 | [Good or Bad String](https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1) | GeeksForGeeks | Basic | 08 Nov 2026 | 09:11 am |
