@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1606. Find Servers That Handled Most Number of Requests
+ * URL: https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/?envType=daily-question&envId=2026-11-09
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Array, Heap (Priority Queue), Simulation, Ordered Set
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-09T18:01:59.750Z
+ */
+
+Input: k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] 
+Output: [1] 
+Explanation: 
+All of the servers start out available.
+The first 3 requests are handled by the first 3 servers in order.
+Request 3 comes in. Server 0 is busy, so it's assigned to the next available server, which is 1.
+Request 4 comes in. It cannot be handled since all servers are busy, so it is dropped.
+Servers 0 and 2 handled one request each, while server 1 handled two requests. Hence server 1 is the busiest server.
