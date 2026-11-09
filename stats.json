@@ -1,13 +1,13 @@
 {
-  "totalSolved": 336,
+  "totalSolved": 337,
   "currentStreak": 19,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-09",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 124,
     "medium": 189,
-    "hard": 13,
+    "hard": 14,
     "basic": 10
   },
   "syncedProblems": {
@@ -346,7 +346,8 @@
     "GeeksForGeeks_Maximum_Count_with_Sum_Limited_to_K": true,
     "LeetCode_Count_Servers_that_Communicate": true,
     "GeeksForGeeks_Check_if_Permutation_is_Substring": true,
-    "GeeksForGeeks_Count_Group_Occurrences": true
+    "GeeksForGeeks_Count_Group_Occurrences": true,
+    "LeetCode_Find_Servers_That_Handled_Most_Number_of_Requests": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -392,7 +393,7 @@
     "2026-11-06": 6,
     "2026-11-07": 6,
     "2026-11-08": 4,
-    "2026-11-09": 2
+    "2026-11-09": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -728,6 +729,7 @@
     "Maximum Count with Sum Limited to K",
     "Count Servers that Communicate",
     "Check if Permutation is Substring",
-    "Count Group Occurrences"
+    "Count Group Occurrences",
+    "Find Servers That Handled Most Number of Requests"
   ]
 }

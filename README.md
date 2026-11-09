@@ -375,3 +375,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 336 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | LeetCode | Medium | 08 Nov 2026 | 09:15 am |
 | 337 | [Check if Permutation is Substring](https://www.geeksforgeeks.org/problems/check-if-permutation-is-substring/1) | GeeksForGeeks | Easy | 09 Nov 2026 | 12:38 am |
 | 338 | [Count Group Occurrences](https://www.geeksforgeeks.org/problems/count-the-characters1821/1) | GeeksForGeeks | Easy | 09 Nov 2026 | 12:39 am |
+| 339 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | LeetCode | Hard | 09 Nov 2026 | 11:33 pm |
