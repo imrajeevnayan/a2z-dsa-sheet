@@ -1,51 +1,49 @@
 /*
  * Platform: InterviewBit
  * Problem: Triplets with Sum between given range
- * URL: https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/
+ * URL: https://www.interviewbit.com/problems/374/
  * Language: C
  * Difficulty: Medium
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-03T14:26:10.840Z
+ * Synced: 2026-11-09T16:17:16.471Z
  */
 
-public int solve(String[] A) {
+public class Solution {
+    public int solve(String[] A) {
 
-        double a = Double.parseDouble(A[0]);
-        double b = Double.parseDouble(A[1]);
-        double c = Double.parseDouble(A[2]);
+        double maxA = Double.MIN_VALUE;
+        double maxB = Double.MIN_VALUE;
+        double maxC = Double.MIN_VALUE;
 
-        for (int i = 3; i < A.length; i++) {
+        double minA = Double.MAX_VALUE;
+        double minB = Double.MAX_VALUE;
 
-            double sum = a + b + c;
+        double minAB1 = Double.MAX_VALUE;
+        double minAB2 = Double.MAX_VALUE;
 
-            if (sum > 1.0 && sum < 2.0) {
-                return 1;
-            }
+        double minBC1 = Double.MAX_VALUE;
+        double minBC2 = Double.MAX_VALUE;
 
-            double x = Double.parseDouble(A[i]);
+        for (String s : A) {
+            double x = Double.parseDouble(s);
 
-            if (sum >= 2.0) {
-                // replace the largest
-                if (a >= b && a >= c)
-                    a = x;
-                else if (b >= a && b >= c)
-                    b = x;
-                else
-                    c = x;
-            } else { // sum <= 1
-                // replace the smallest
-                if (a <= b && a <= c)
-                    a = x;
-                else if (b <= a && b <= c)
-                    b = x;
-                else
-                    c = x;
-            }
-        }
+            if (x < 2.0 / 3.0) { // Group A
 
-        double sum = a + b + c;
-        return (sum > 1.0 && sum < 2.0) ? 1 : 0;
-    }
-}
+                if (x > maxA) maxA = x;
+
+                if (x < minA) {
+                    minA = x;
+                }
+
+                if (x <= minAB1) {
+                    minAB2 = minAB1;
+                    minAB1 = x;
+                } else if (x < minAB2) {
+                    minAB2 = x;
+                }
+
+            } else if (x <= 1.0) { // Group B
+
+                if (x > maxB) maxB = x;
