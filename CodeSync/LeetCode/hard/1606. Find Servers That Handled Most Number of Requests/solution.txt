@@ -1,38 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 1606. Find Servers That Handled Most Number of Requests
- * URL: https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/?envType=daily-question&envId=2026-11-09
+ * URL: https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/submissions/2192680443/?envType=daily-question&envId=2026-11-09
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Heap (Priority Queue), Simulation, Ordered Set
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-09T18:02:53.952Z
+ * Runtime: 1 ms
+ * Memory: 100.14 MB
+ * Synced: 2026-11-09T18:03:23.688Z
  */
 
-count[server]++;
-
-            busy.offer(new long[]{
-                    (long) arrival[i] + load[i],
-                    server
-            });
-        }
-
-        int maxHandled = 0;
-
-            available.remove(server);
-            }
-
-            if (server == null) {
-                server = available.first(); // wrap around
-            Integer server = available.ceiling(preferred);
-
-
-            int preferred = i % k;
-
-            }
-                continue;
+continue;
             if (available.isEmpty()) {
             // no server available
 
             }
+                available.add((int) busy.poll()[1]);
+            // free completed servers
+            while (!busy.isEmpty() && busy.peek()[0] <= arrival[i]) {
+
+        for (int i = 0; i < arrival.length; i++) {
+
+
+        int[] count = new int[k];
+            }
+
+            int preferred = i % k;
+
+            Integer server = available.ceiling(preferred);
+
+            if (server == null) {
+                server = available.first(); // wrap around
+            }
+
+            available.remove(server);
+
+            count[server]++;
