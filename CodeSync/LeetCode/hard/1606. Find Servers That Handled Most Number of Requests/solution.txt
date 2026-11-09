@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 1606. Find Servers That Handled Most Number of Requests
- * URL: https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/?envType=daily-question&envId=2026-11-09
+ * URL: https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/?envType=daily-question&envId=2026-11-09
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Heap (Priority Queue), Simulation, Ordered Set
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-09T18:02:02.956Z
+ * Synced: 2026-11-09T18:02:53.952Z
  */
 
-class Solution {
-    public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
-        
-    }
-}
+count[server]++;
+
+            busy.offer(new long[]{
+                    (long) arrival[i] + load[i],
+                    server
+            });
+        }
+
+        int maxHandled = 0;
+
+            available.remove(server);
+            }
+
+            if (server == null) {
+                server = available.first(); // wrap around
+            Integer server = available.ceiling(preferred);
+
+
+            int preferred = i % k;
+
+            }
+                continue;
+            if (available.isEmpty()) {
+            // no server available
+
+            }
