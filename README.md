@@ -376,3 +376,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 337 | [Check if Permutation is Substring](https://www.geeksforgeeks.org/problems/check-if-permutation-is-substring/1) | GeeksForGeeks | Easy | 09 Nov 2026 | 12:38 am |
 | 338 | [Count Group Occurrences](https://www.geeksforgeeks.org/problems/count-the-characters1821/1) | GeeksForGeeks | Easy | 09 Nov 2026 | 12:39 am |
 | 339 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | LeetCode | Hard | 09 Nov 2026 | 11:33 pm |
+| 340 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | LeetCode | Medium | 10 Nov 2026 | 10:14 pm |
