@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3693. Climbing Stairs II
+ * URL: https://leetcode.com/problems/climbing-stairs-ii/description/?envType=daily-question&envId=2026-11-10
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-10T09:03:36.443Z
+ */
+
+class Solution {
+    public int climbStairs(int n, int[] costs) {
+        
+    }
+}
