@@ -1,52 +1,29 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/largest-sum-cycle--170645/1
- * Language: long long largestcycle=-1; void DFS(int node,vector<int>& Edge,bool visited[],bool pathvisited[]) { visited[node]=true; pathvisited[node]=true; if(Edge[node]!=-1) { int adj=Edge[node]; if(!visited[adj]) { DFS(adj,Edge,visited,pathvisited); } else if(pathvisited[adj]) { int curr=adj; long long sum=0; do { sum+=curr; curr=Edge[curr]; }while(curr!=adj); largestcycle=max(largestcycle,sum); } } pathvisited[node]=false; } long long largestSumCycle(int N, vector<int> Edge) { bool visited[N]={0}; bool pathvisited[N]={0}; for(int i=0;i<N;i++) { if(!visited[i]) { DFS(i,Edge,visited,pathvisited); } } return largestcycle; }
+ * URL: https://www.geeksforgeeks.org/problems/first-element-to-occur-k-times5150/1
+ * Language: class Solution { public: int firstElementKTime(vector<int>& arr, int k) { // code here unordered_map<int,int>m; int n = arr.size(); for(int val:arr)if((++m[val])==k)return val; return -1; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags JUSPAY, Company Tags, JUSPAY, Topic Tags, Graph, Backtracking, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-02T14:34:00.711Z
+ * Synced: 2026-11-10T18:21:27.914Z
  */
 
+import java.util.*;
+
 class Solution {
-    public int largestSumCycle(int[] edge) {
-        int n = edge.length;
-        boolean[] visited = new boolean[n];
-        long maxSum = -1;
+    public int firstElementKTime(int[] arr, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < n; i++) {
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
 
-            if (visited[i]) continue;
-
-            HashMap<Integer, Integer> pos = new HashMap<>();
-            int curr = i;
-            int step = 0;
-
-            while (curr != -1 && !visited[curr]) {
-                visited[curr] = true;
-                pos.put(curr, step++);
-                curr = edge[curr];
-            }
-
-            // cycle found inside current traversal
-            if (curr != -1 && pos.containsKey(curr)) {
-                long sum = 0;
-
-                int start = curr;
-                sum += start;
-
-                int node = edge[start];
-                while (node != start) {
-                    sum += node;
-                    node = edge[node];
-                }
-
-                maxSum = Math.max(maxSum, sum);
+            if (map.get(num) == k) {
+                return num;
             }
         }
 
-        return (int) maxSum;
+        return -1;
     }
 }
