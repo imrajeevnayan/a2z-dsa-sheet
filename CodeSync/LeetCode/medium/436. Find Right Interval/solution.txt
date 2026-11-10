@@ -2,14 +2,16 @@
  * Platform: LeetCode
  * Problem: 436. Find Right Interval
  * URL: https://leetcode.com/problems/find-right-interval/description/?envType=problem-list-v2&envId=sorting
- * Language: Text
+ * Language: Sorting
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-10T21:11:54.324Z
+ * Synced: 2026-11-10T21:11:57.911Z
  */
 
-Input: intervals = [[1,2]]
-Output: [-1]
-Explanation: There is only one interval in the collection, so it outputs -1.
+class Solution {
+    public int[] findRightInterval(int[][] intervals) {
+        
+    }
+}
