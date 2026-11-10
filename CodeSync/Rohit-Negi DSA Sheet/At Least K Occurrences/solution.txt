@@ -7,9 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-10T18:21:07.900Z
+ * Synced: 2026-11-10T18:21:08.489Z
  */
 
-Input: arr[] = [1, 7, 4, 3, 4, 8, 7], k = 2
-Output: 4
-Explanation: Both 7 and 4 occur twice. However, 4 reaches its second occurrence before 7, so the answer is 4.
+class Solution {
+    public int firstElementKTime(int[] arr, int k) {
+        // code here
+        
+    }
+}
