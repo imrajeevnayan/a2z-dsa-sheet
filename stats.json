@@ -1,11 +1,11 @@
 {
-  "totalSolved": 338,
+  "totalSolved": 339,
   "currentStreak": 20,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-10",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 124,
+    "easy": 125,
     "medium": 190,
     "hard": 14,
     "basic": 10
@@ -348,7 +348,8 @@
     "GeeksForGeeks_Check_if_Permutation_is_Substring": true,
     "GeeksForGeeks_Count_Group_Occurrences": true,
     "LeetCode_Find_Servers_That_Handled_Most_Number_of_Requests": true,
-    "LeetCode_Climbing_Stairs_II": true
+    "LeetCode_Climbing_Stairs_II": true,
+    "GeeksForGeeks_At_Least_K_Occurrences": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -395,7 +396,7 @@
     "2026-11-07": 6,
     "2026-11-08": 4,
     "2026-11-09": 3,
-    "2026-11-10": 1
+    "2026-11-10": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -733,6 +734,7 @@
     "Check if Permutation is Substring",
     "Count Group Occurrences",
     "Find Servers That Handled Most Number of Requests",
-    "Climbing Stairs II"
+    "Climbing Stairs II",
+    "At Least K Occurrences"
   ]
 }
