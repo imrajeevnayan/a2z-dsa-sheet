@@ -378,3 +378,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 339 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | LeetCode | Hard | 09 Nov 2026 | 11:33 pm |
 | 340 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | LeetCode | Medium | 10 Nov 2026 | 10:14 pm |
 | 341 | [At Least K Occurrences](https://www.geeksforgeeks.org/problems/first-element-to-occur-k-times5150/1) | GeeksForGeeks | Easy | 10 Nov 2026 | 11:51 pm |
+| 342 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | LeetCode | Medium | 11 Nov 2026 | 02:35 am |
