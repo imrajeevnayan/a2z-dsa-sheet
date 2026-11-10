@@ -379,3 +379,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 340 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | LeetCode | Medium | 10 Nov 2026 | 10:14 pm |
 | 341 | [At Least K Occurrences](https://www.geeksforgeeks.org/problems/first-element-to-occur-k-times5150/1) | GeeksForGeeks | Easy | 10 Nov 2026 | 11:51 pm |
 | 342 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | LeetCode | Medium | 11 Nov 2026 | 02:35 am |
+| 343 | [Find Right Interval](https://leetcode.com/problems/find-right-interval/) | LeetCode | Medium | 11 Nov 2026 | 02:42 am |
