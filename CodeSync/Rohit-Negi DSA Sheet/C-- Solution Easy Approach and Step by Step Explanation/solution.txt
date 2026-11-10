@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-10T18:21:27.914Z
+ * Synced: 2026-11-10T18:21:39.859Z
  */
 
 import java.util.*;
@@ -19,9 +19,8 @@ class Solution {
         for (int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
 
-            if (map.get(num) == k) {
-                return num;
-            }
+            if (map.get(num) == k) return num;
+            
         }
 
         return -1;
