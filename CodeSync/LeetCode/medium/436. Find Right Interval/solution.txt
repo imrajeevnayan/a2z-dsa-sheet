@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 436. Find Right Interval
- * URL: https://leetcode.com/problems/find-right-interval/description/?envType=problem-list-v2&envId=sorting
+ * URL: https://leetcode.com/problems/find-right-interval/?envType=problem-list-v2&envId=sorting
  * Language: Sorting
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-10T21:11:57.911Z
+ * Synced: 2026-11-10T21:12:30.651Z
  */
 
-class Solution {
+Arrays.sort(starts, (a, b) -> a[0] - b[0]);
+
+        for (int i = 0; i < n; i++) {
+            int target = intervals[i][1];
+
+            int left = 0, right = n - 1;
+            int ans = -1;
+
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+
+                if (starts[mid][0] >= target) {
+        }
+            starts[i][0] = intervals[i][0]; // start
+            starts[i][1] = i;               // original index
+
+        for (int i = 0; i < n; i++) {
+        int[][] starts = new int[n][2];
+
+        int[] result = new int[n];
+        int n = intervals.length;
     public int[] findRightInterval(int[][] intervals) {
-        
-    }
-}
+class Solution {
+import java.util.*;
+                    ans = starts[mid][1];
