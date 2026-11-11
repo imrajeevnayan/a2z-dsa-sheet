@@ -7,7 +7,7 @@
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T14:45:29.296Z
+ * Synced: 2026-11-11T14:45:33.471Z
  */
 
 class Solution {
@@ -19,9 +19,7 @@ class Solution {
         long ans = Long.MAX_VALUE;
 
         for (long x : candidates) {
-            long cost =  x * costBoth  + (long)Math.max(0L, need1 - x) * cost1
-                 + (long)Math.max(0L, need2 - x) * cost2;
-
+            long cost =  x * costBoth  + (long)Math.max(0L, need1 - x) * cost1  + (long)Math.max(0L, need2 - x) * cost2;
             ans = Math.min(ans, cost);
         }
 
