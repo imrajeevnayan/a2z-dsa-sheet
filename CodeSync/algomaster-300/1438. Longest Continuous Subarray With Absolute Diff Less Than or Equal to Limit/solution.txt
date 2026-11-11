@@ -1,0 +1,39 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+ * URL: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/?envType=problem-list-v2&envId=daafou6r
+ * Language: Sliding Window Problems (Copy-x1lbzfk3)
+ * Difficulty: Medium
+ * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-11T17:19:22.898Z
+ */
+
+while (!minDeque.isEmpty() &&
+                   minDeque.peekLast() > nums[right]) {
+                minDeque.pollLast();
+            }
+
+            maxDeque.offerLast(nums[right]);
+            minDeque.offerLast(nums[right]);
+
+            while (maxDeque.peekFirst() - minDeque.peekFirst() > limit) {
+
+                if (nums[left] == maxDeque.peekFirst()) {
+                    maxDeque.pollFirst();
+                }
+
+                if (nums[left] == minDeque.peekFirst()) {
+                    minDeque.pollFirst();
+                }
+
+                left++;
+            }
+
+            ans = Math.max(ans, right - left + 1);
+        }
+
+        return ans;
+    }
+}
