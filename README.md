@@ -384,3 +384,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 345 | [Minimum Cost to Acquire Required Items](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/) | LeetCode | Medium | 11 Nov 2026 | 11:11 am |
 | 346 | [Any Duplicate Within K Distance](https://www.geeksforgeeks.org/problems/kth-distance3757/1) | GeeksForGeeks | Easy | 11 Nov 2026 | 11:25 am |
 | 347 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | LeetCode | Medium | 11 Nov 2026 | 08:17 pm |
+| 348 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | LeetCode | Medium | 11 Nov 2026 | 09:11 pm |
