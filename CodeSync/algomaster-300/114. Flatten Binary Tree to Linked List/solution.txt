@@ -6,11 +6,12 @@
  * Difficulty: Medium
  * Topics: Linked List, Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-11-11T15:37:45.781Z
+ * Memory: 43.16 MB
+ * Synced: 2026-11-11T15:40:40.489Z
  */
 
-public void flatten(TreeNode root) {
+class Solution {
+    public void flatten(TreeNode root) {
         TreeNode curr = root;
 
         while (curr != null) {
@@ -20,7 +21,6 @@ public void flatten(TreeNode root) {
                 TreeNode prev = curr.left;
 
                 while (prev.right != null) {
-class Solution {
                     prev = prev.right;
                 }
 
