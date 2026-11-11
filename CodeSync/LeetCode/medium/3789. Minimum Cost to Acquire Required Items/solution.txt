@@ -1,21 +1,20 @@
 /*
  * Platform: LeetCode
  * Problem: 3789. Minimum Cost to Acquire Required Items
- * URL: https://leetcode.com/problems/minimum-cost-to-acquire-required-items/description/?envType=daily-question&envId=2026-11-11
+ * URL: https://leetcode.com/problems/minimum-cost-to-acquire-required-items/?envType=daily-question&envId=2026-11-11
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T14:44:46.261Z
+ * Synced: 2026-11-11T14:44:54.830Z
  */
 
 class Solution {
     public long minimumCost(int cost1, int cost2, int costBoth,
                             int need1, int need2) {
 
-        long[] candidates = {
-            0,
+        long[] candidates =  0,
             Math.min(need1, need2),
             Math.max(need1, need2)
         };
