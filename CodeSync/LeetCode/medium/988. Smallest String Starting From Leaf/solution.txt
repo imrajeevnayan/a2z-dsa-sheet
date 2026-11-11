@@ -1,32 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 988. Smallest String Starting From Leaf
- * URL: https://leetcode.com/problems/smallest-string-starting-from-leaf/description/?envType=problem-list-v2&envId=djtxhcwd
+ * URL: https://leetcode.com/problems/smallest-string-starting-from-leaf/?envType=problem-list-v2&envId=djtxhcwd
  * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Medium
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T14:46:30.448Z
+ * Synced: 2026-11-11T14:47:09.006Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public String smallestFromLeaf(TreeNode root) {
-        
+dfs(root, new StringBuilder());
+        return ans;
     }
-}
+
+    private void dfs(TreeNode node, StringBuilder path) {
+        if (node == null) {
+
+    public String smallestFromLeaf(TreeNode root) {
+    private String ans = null;
+class Solution {
+            return;
+        }
+
+        path.append((char) ('a' + node.val));
+
+        if (node.left == null && node.right == null) {
+            String curr = path.reverse().toString();
+            path.reverse(); // restore
+
+            if (ans == null || curr.compareTo(ans) < 0) {
+                ans = curr;
+            }
+        }
+
+        dfs(node.left, path);
+        dfs(node.right, path);
