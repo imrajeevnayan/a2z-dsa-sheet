@@ -7,22 +7,19 @@
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T14:47:09.006Z
+ * Synced: 2026-11-11T14:47:18.282Z
  */
 
 dfs(root, new StringBuilder());
         return ans;
     }
-
     private void dfs(TreeNode node, StringBuilder path) {
-        if (node == null) {
+        if (node == null) return;
 
     public String smallestFromLeaf(TreeNode root) {
     private String ans = null;
 class Solution {
-            return;
-        }
-
+    
         path.append((char) ('a' + node.val));
 
         if (node.left == null && node.right == null) {
@@ -36,3 +33,6 @@ class Solution {
 
         dfs(node.left, path);
         dfs(node.right, path);
+
+        path.deleteCharAt(path.length() - 1); // backtrack
+    }
