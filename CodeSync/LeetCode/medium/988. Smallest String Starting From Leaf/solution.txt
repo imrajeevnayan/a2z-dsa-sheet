@@ -2,13 +2,31 @@
  * Platform: LeetCode
  * Problem: 988. Smallest String Starting From Leaf
  * URL: https://leetcode.com/problems/smallest-string-starting-from-leaf/description/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Text
+ * Language: Tree For Placement (Copy-5chyqxsi)
  * Difficulty: Medium
  * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T14:46:26.904Z
+ * Synced: 2026-11-11T14:46:30.448Z
  */
 
-Input: root = [0,1,2,3,4,3,4]
-Output: "dba"
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public String smallestFromLeaf(TreeNode root) {
+        
+    }
+}
