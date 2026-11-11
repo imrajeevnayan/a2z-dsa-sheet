@@ -7,12 +7,30 @@
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T05:40:47.154Z
+ * Synced: 2026-11-11T05:41:03.654Z
  */
 
 class Solution {
-    public long minimumCost(int cost1, int cost2, int costBoth, int need1, int 
-    need2) {
-        
+    public long minimumCost(int cost1, int cost2, int costBoth,
+                            int need1, int need2) {
+
+        long[] candidates = {
+            0,
+            Math.min(need1, need2),
+            Math.max(need1, need2)
+        };
+
+        long ans = Long.MAX_VALUE;
+
+        for (long x : candidates) {
+            long cost =
+                    x * costBoth
+                    + (long)Math.max(0L, need1 - x) * cost1
+                    + (long)Math.max(0L, need2 - x) * cost2;
+
+            ans = Math.min(ans, cost);
+        }
+
+        return ans;
     }
 }
