@@ -1,0 +1,44 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Longest Subarray Zero Sum
+ * URL: https://www.naukri.com/code360/problems/longest-subset-zero-sum_920321
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 847 ms
+ * Memory: N/A
+ * Synced: 2026-11-11T14:59:36.814Z
+ */
+
+import java.io.*;
+import java.util.*;
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+    public static int LongestSubsetWithZeroSum(ArrayList<Integer> arr) {
+ 
+        HashMap<Integer, Integer> map = new HashMap<>();
+ 
+        int sum = 0;
+        int maxLen = 0;
+ 
+        for (int i = 0; i < arr.size(); i++) {
+ 
+            sum += arr.get(i);
+ 
+            if (sum == 0)  maxLen = i + 1;
+            
+ 
+            if (map.containsKey(sum)) {
+               
+                maxLen = Math.max(maxLen, i - map.get(sum));
+            } 
+            else {
+                map.put(sum, i);
+            }
+        }
+ 
+        return maxLen;
+    }
+}
