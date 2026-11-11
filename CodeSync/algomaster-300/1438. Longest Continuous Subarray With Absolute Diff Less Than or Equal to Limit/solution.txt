@@ -7,11 +7,10 @@
  * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T17:19:22.898Z
+ * Synced: 2026-11-11T17:19:23.184Z
  */
 
-while (!minDeque.isEmpty() &&
-                   minDeque.peekLast() > nums[right]) {
+minDeque.peekLast() > nums[right]) {
                 minDeque.pollLast();
             }
 
