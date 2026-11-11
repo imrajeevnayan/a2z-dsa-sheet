@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3789. Minimum Cost to Acquire Required Items
+ * URL: https://leetcode.com/problems/minimum-cost-to-acquire-required-items/description/?envType=daily-question&envId=2026-11-11
+ * Language: Java
+ * Difficulty: Medium
+ * Topics: Math, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-11T05:40:39.969Z
+ */
+
+class Solution {
+    public long minimumCost(int cost1, int cost2, int costBoth, int need1, int need2) {
+        
+    }
+}
