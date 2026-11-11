@@ -381,3 +381,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 342 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | LeetCode | Medium | 11 Nov 2026 | 02:35 am |
 | 343 | [Find Right Interval](https://leetcode.com/problems/find-right-interval/) | LeetCode | Medium | 11 Nov 2026 | 02:42 am |
 | 344 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | LeetCode | Medium | 11 Nov 2026 | 11:01 am |
+| 345 | [Minimum Cost to Acquire Required Items](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/) | LeetCode | Medium | 11 Nov 2026 | 11:11 am |
