@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 988. Smallest String Starting From Leaf
+ * URL: https://leetcode.com/problems/smallest-string-starting-from-leaf/description/?envType=problem-list-v2&envId=djtxhcwd
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Backtracking, Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-11T14:46:26.904Z
+ */
+
+Input: root = [0,1,2,3,4,3,4]
+Output: "dba"
