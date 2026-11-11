@@ -1,12 +1,12 @@
 {
-  "totalSolved": 346,
+  "totalSolved": 347,
   "currentStreak": 21,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-11",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 126,
-    "medium": 196,
+    "medium": 197,
     "hard": 14,
     "basic": 10
   },
@@ -356,7 +356,8 @@
     "LeetCode_Minimum_Cost_to_Acquire_Required_Items": true,
     "GeeksForGeeks_Any_Duplicate_Within_K_Distance": true,
     "LeetCode_Smallest_String_Starting_From_Leaf": true,
-    "LeetCode_Sum_Root_to_Leaf_Numbers": true
+    "LeetCode_Sum_Root_to_Leaf_Numbers": true,
+    "LeetCode_Replace_the_Substring_for_Balanced_String": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -404,7 +405,7 @@
     "2026-11-08": 4,
     "2026-11-09": 3,
     "2026-11-10": 2,
-    "2026-11-11": 7
+    "2026-11-11": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -750,6 +751,7 @@
     "Minimum Cost to Acquire Required Items",
     "Any Duplicate Within K Distance",
     "Smallest String Starting From Leaf",
-    "Sum Root to Leaf Numbers"
+    "Sum Root to Leaf Numbers",
+    "Replace the Substring for Balanced String"
   ]
 }
