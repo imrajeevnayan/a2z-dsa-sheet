@@ -1,11 +1,11 @@
 {
-  "totalSolved": 343,
+  "totalSolved": 344,
   "currentStreak": 21,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-11",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
-    "easy": 125,
+    "easy": 126,
     "medium": 194,
     "hard": 14,
     "basic": 10
@@ -353,7 +353,8 @@
     "LeetCode_Wiggle_Sort_II": true,
     "LeetCode_Find_Right_Interval": true,
     "LeetCode_Two_City_Scheduling": true,
-    "LeetCode_Minimum_Cost_to_Acquire_Required_Items": true
+    "LeetCode_Minimum_Cost_to_Acquire_Required_Items": true,
+    "GeeksForGeeks_Any_Duplicate_Within_K_Distance": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -401,7 +402,7 @@
     "2026-11-08": 4,
     "2026-11-09": 3,
     "2026-11-10": 2,
-    "2026-11-11": 4
+    "2026-11-11": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -744,6 +745,7 @@
     "Wiggle Sort II",
     "Find Right Interval",
     "Two City Scheduling",
-    "Minimum Cost to Acquire Required Items"
+    "Minimum Cost to Acquire Required Items",
+    "Any Duplicate Within K Distance"
   ]
 }
