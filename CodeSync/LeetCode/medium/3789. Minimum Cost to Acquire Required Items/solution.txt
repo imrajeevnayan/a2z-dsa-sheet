@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3789. Minimum Cost to Acquire Required Items
- * URL: https://leetcode.com/problems/minimum-cost-to-acquire-required-items/?envType=daily-question&envId=2026-11-11
+ * URL: https://leetcode.com/problems/minimum-cost-to-acquire-required-items/description/?envType=daily-question&envId=2026-11-11
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Math, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T05:41:03.654Z
+ * Synced: 2026-11-11T14:44:46.261Z
  */
 
 class Solution {
