@@ -2,14 +2,25 @@
  * Platform: LeetCode
  * Problem: 1234. Replace the Substring for Balanced String
  * URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/?envType=problem-list-v2&envId=daafou6r
- * Language: Text
+ * Language: Sliding Window Problems (Copy-x1lbzfk3)
  * Difficulty: Medium
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T15:58:53.692Z
+ * Synced: 2026-11-11T15:58:56.743Z
  */
 
-Input: s = "QWER"
-Output: 0
-Explanation: s is already balanced.
+class Solution {
+    public int balancedString(String s) {
+        int n=s.length();
+        HashMap<Character,Integer>map=new HashMap<>();
+        for(char ch:s.toCharArray()){
+            map.put(ch,map.getOrDefault(ch,0)+1);
+        }
+        int count=1;
+         for(char ch:map.keySet()){
+            if(map.get(ch)>n/4)count++;
+         }
+         return count;
+    }
+}
