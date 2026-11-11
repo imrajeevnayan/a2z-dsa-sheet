@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 129. Sum Root to Leaf Numbers
- * URL: https://leetcode.com/problems/sum-root-to-leaf-numbers/description/?envType=problem-list-v2&envId=daeijq25
+ * URL: https://leetcode.com/problems/sum-root-to-leaf-numbers/description/?envType=problem-list-v2&envId=tree
  * Language: Java
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-22T15:10:45.369Z
+ * Synced: 2026-11-11T15:40:55.949Z
  */
 
 /**
