@@ -1,12 +1,12 @@
 {
-  "totalSolved": 349,
+  "totalSolved": 350,
   "currentStreak": 22,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-12",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 126,
-    "medium": 198,
+    "medium": 199,
     "hard": 14,
     "basic": 11
   },
@@ -359,7 +359,8 @@
     "LeetCode_Sum_Root_to_Leaf_Numbers": true,
     "LeetCode_Replace_the_Substring_for_Balanced_String": true,
     "LeetCode_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit": true,
-    "GeeksForGeeks_First_Occurence": true
+    "GeeksForGeeks_First_Occurence": true,
+    "GeeksForGeeks_Bottom_View_of_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -408,7 +409,7 @@
     "2026-11-09": 3,
     "2026-11-10": 2,
     "2026-11-11": 9,
-    "2026-11-12": 1
+    "2026-11-12": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -757,6 +758,7 @@
     "Sum Root to Leaf Numbers",
     "Replace the Substring for Balanced String",
     "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
-    "First Occurence"
+    "First Occurence",
+    "Bottom View of Binary Tree"
   ]
 }

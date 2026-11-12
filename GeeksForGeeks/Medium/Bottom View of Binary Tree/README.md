@@ -1,0 +1,13 @@
+# Bottom View of Binary Tree
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
+
+## Solved On
+12 Nov 2026 at 07:28 pm
+
+<h2><a href="https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1">Bottom View of Binary Tree</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 18.6667px;">Given a binary tree, and your task is to return its bottom view.&nbsp;The bottom view of a binary tree is the set of nodes visible when the tree is viewed from the bottom.</span></p><p><span style="font-size: 14pt;"><strong>Note: </strong>If there are multiple bottom-most nodes for a horizontal distance from the root, then the latter one in the level order traversal is considered.</span></p><p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [1, 2, 3, 4, 5, N, 6]<br>    <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912663/Web/Other/blobid2_1759760218.jpg" width="221" height="178"><br><strong>Output: </strong>[4, 2, 5, 3, 6]<br></span><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Explanation: </strong><span style="font-size: 18.6667px;">The Green nodes represent the bottom view of below binary tree.<br>    <img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912663/Web/Other/blobid3_1759760226.jpg" width="222" height="180"></span><span style="font-size: 14pt;"><br></span></span></pre><pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input: </strong><span style="font-size: 14pt;">root = [20, 8, 22, 5, 3, 4, 25, N, N, 10, 14, N, N, 28, N]<br>    <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912663/Web/Other/blobid0_1759760166.jpg" width="233" height="235"><br></span><strong style="font-size: 14pt;">Output: </strong><span style="font-size: 14pt;">[5, 10, 4, 28, 25]<br></span><strong style="font-size: 14pt;">Explanation: </strong><span style="font-size: 18.6667px;">The Green nodes represent the bottom view of below binary tree.<br></span><span style="font-size: 14pt;">    <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912663/Web/Other/blobid1_1759760190.jpg" width="234" height="254"></span></span></pre>
