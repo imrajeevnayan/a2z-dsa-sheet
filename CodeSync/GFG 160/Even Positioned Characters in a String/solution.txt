@@ -1,0 +1,26 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Even Positioned Characters in a String
+ * URL: https://www.geeksforgeeks.org/problems/for-loop-2/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Print Alternate Characters Of A String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-12T11:59:51.686Z
+ */
+
+class Solution {
+    public String getEvenCharacters(String s) {
+
+        // even index wale characters store karne ke liye
+        StringBuilder ans = new StringBuilder();
+
+        // 0, 2, 4, 6... indices par iterate karo
+        for (int i = 0; i < s.length(); i += 2) {
+            ans.append(s.charAt(i));
+        }
+
+        return ans.toString();
+    }
+}
