@@ -1,27 +1,41 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/first-element-to-occur-k-times5150/1
- * Language: class Solution { public: int firstElementKTime(vector<int>& arr, int k) { // code here unordered_map<int,int>m; int n = arr.size(); for(int val:arr)if((++m[val])==k)return val; return -1; } };
+ * URL: https://www.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1
+ * Language: class Solution { public: int mini = INT_MAX; int minDiff(Node *root, int k) { if(root == nullptr) return mini; int diff = abs(root->data - k); mini = min(mini, diff); if(root->data < k) { minDiff(root->right, k); } else if(root->data > k) { minDiff(root->left, k); } return mini; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Arrays, Hash, Related Articles
+ * Topics: Expected Complexities, Company Tags AmazonMAQ Software, Company Tags, Amazon, MAQ Software, Topic Tags, Binary Search Tree, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-10T18:21:43.000Z
+ * Synced: 2026-11-12T11:37:39.572Z
  */
 
-import java.util.*;
-
 class Solution {
-    public int firstElementKTime(int[] arr, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+    public int minDiff(Node root, int k) {
 
-        for (int num : arr) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+        // minimum difference store karega
+        int ans = Integer.MAX_VALUE;
 
-            if (map.get(num) == k) return num;
+        Node curr = root;
+
+        while (curr != null) {
+
+            // current node ke saath difference calculate karo
+            ans = Math.min(ans, Math.abs(curr.data - k));
+
+            // exact match mil gaya
+            if (curr.data == k) {
+                return 0;
+            }
+
+            // BST property use karo
+            if (k < curr.data) {
+                curr = curr.left;   // left subtree me jao
+            } else {
+                curr = curr.right;  // right subtree me jao
+            }
         }
 
-        return -1;
+        return ans;
     }
 }
