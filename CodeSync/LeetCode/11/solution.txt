@@ -1,0 +1,53 @@
+/*
+ * Platform: LeetCode
+ * Problem: 11
+ * URL: https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/submissions/2194568968/?envType=daily-question&envId=2026-11-12
+ * Language: Daily Question
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1 ms
+ * Memory: 43.75 MB
+ * Synced: 2026-11-12T11:36:40.371Z
+ */
+
+1class Solution {
+2    public int longestMonotonicSubarray(int[] nums) {
+3        
+4        // increasing aur decreasing streak ki length
+5        int inc = 1;
+6        int dec = 1;
+7
+8        // minimum answer 1 hoga (single element)
+9        int ans = 1;
+10
+11        // array ko traverse karo
+12        for (int i = 1; i < nums.length; i++) {
+13
+14            // agar current element bada hai
+15            // to increasing streak continue hogi
+16            if (nums[i] > nums[i - 1]) {
+17                inc++;      // increasing count badhao
+18                dec = 1;    // decreasing break ho gayi
+19            }
+20
+21            // agar current element chota hai
+22            // to decreasing streak continue hogi
+23            else if (nums[i] < nums[i - 1]) {
+24                dec++;      // decreasing count badhao
+25                inc = 1;    // increasing break ho gayi
+26            }
+27
+28            // dono equal hain
+29            // to dono streak reset
+30            else {
+31                inc = 1;
+32                dec = 1;
+33            }
+34
+35            // har step par max length update karo
+36            ans = Math.max(ans, Math.max(inc, dec));
+37        }
+38
+39        return ans;
+40    }
+41}
