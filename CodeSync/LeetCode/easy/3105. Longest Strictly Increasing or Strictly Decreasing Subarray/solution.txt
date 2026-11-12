@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
- * URL: https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/?envType=daily-question&envId=2026-11-12
+ * URL: https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/submissions/2194568968/?envType=daily-question&envId=2026-11-12
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array
  * Runtime: 0 ms
- * Memory: 43.84 MB
- * Synced: 2026-11-12T11:36:04.740Z
+ * Memory: 43.75 MB
+ * Synced: 2026-11-12T11:36:17.470Z
  */
 
 if (nums[i] > nums[i - 1]) {
@@ -24,17 +24,17 @@ if (nums[i] > nums[i - 1]) {
             // agar current element bada hai
             // to increasing streak continue hogi
 
-        // array ko traverse karo
-        for (int i = 1; i < nums.length; i++) {
-        int ans = 1;
-
-        int dec = 1;
-
-        // minimum answer 1 hoga (single element)
-        int inc = 1;
 
             // dono equal hain
             // to dono streak reset
             else {
                 inc = 1;
                 dec = 1;
+            }
+
+            // har step par max length update karo
+            ans = Math.max(ans, Math.max(inc, dec));
+        }
+
+        return ans;
+    }
