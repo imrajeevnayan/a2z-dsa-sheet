@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
+ * URL: https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/?envType=daily-question&envId=2026-11-12
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-12T11:34:46.330Z
+ */
+
+class Solution {
+    public int longestMonotonicSubarray(int[] nums) {
+        
+    }
+}
