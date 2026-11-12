@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: 0 ms
  * Memory: 43.84 MB
- * Synced: 2026-11-12T11:35:54.324Z
+ * Synced: 2026-11-12T11:36:04.740Z
  */
 
 if (nums[i] > nums[i - 1]) {
@@ -21,18 +21,20 @@ if (nums[i] > nums[i - 1]) {
                 dec++;      // decreasing count badhao
                 inc = 1;    // increasing break ho gayi
             }
-
-            // dono equal hain
-            // to dono streak reset
-            else {
-                inc = 1;
-                dec = 1;
-            }
-
-            // har step par max length update karo
             // agar current element bada hai
             // to increasing streak continue hogi
 
         // array ko traverse karo
         for (int i = 1; i < nums.length; i++) {
         int ans = 1;
+
+        int dec = 1;
+
+        // minimum answer 1 hoga (single element)
+        int inc = 1;
+
+            // dono equal hain
+            // to dono streak reset
+            else {
+                inc = 1;
+                dec = 1;
