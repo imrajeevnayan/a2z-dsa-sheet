@@ -2,29 +2,28 @@
  * Platform: GeeksforGeeks
  * Problem: Children Sum in a Binary Tree
  * URL: https://www.geeksforgeeks.org/problems/children-sum-parent/1
- * Language: Java (21)
+ * Language: class Solution: def isSumProperty(self, root): if not root or (not root.left and not root.right): return 1 l, r, sum1 = 1, 1, 0 if root.left: l = self.isSumProperty(root.left) sum1 += root.left.data if root.right: r = self.isSumProperty(root.right) sum1 += root.right.data return int(root.data == sum1) and l and r
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags Intuit, Company Tags, Intuit, Topic Tags, Tree, Related Articles, Check For Children Sum Property In A Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-12T14:04:33.093Z
+ * Synced: 2026-11-12T14:06:48.560Z
  */
-
-/* Node Structure
-class Node{
-    int data;
-    Node left, right;
-    Node(int key)
-    {
-        data = key;
-        left = right = null;
-    }
-}
-*/
 
 class Solution {
     public boolean isSumProperty(Node root) {
-        //  code here
-        
+
+        // Empty tree or leaf node
+        if (root == null ||
+            (root.left == null && root.right == null)) {
+            return true;
+        }
+
+        int left = (root.left != null) ? root.left.data : 0;
+        int right = (root.right != null) ? root.right.data : 0;
+
+        return (root.data == left + right)
+                && isSumProperty(root.left)
+                && isSumProperty(root.right);
     }
 }
