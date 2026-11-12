@@ -7,15 +7,14 @@
  * Topics: Expected Complexities, Company Tags Intuit, Company Tags, Intuit, Topic Tags, Tree, Related Articles, Check For Children Sum Property In A Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-12T14:06:48.560Z
+ * Synced: 2026-11-12T14:07:03.660Z
  */
 
 class Solution {
     public boolean isSumProperty(Node root) {
 
         // Empty tree or leaf node
-        if (root == null ||
-            (root.left == null && root.right == null)) {
+        if (root == null ||       (root.left == null && root.right == null)) {
             return true;
         }
 
