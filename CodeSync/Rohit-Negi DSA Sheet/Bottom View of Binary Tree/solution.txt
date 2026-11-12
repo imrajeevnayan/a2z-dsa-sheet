@@ -1,0 +1,59 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Bottom View of Binary Tree
+ * URL: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+ * Language: 20 / \ 8 22 / \ / \ 5 3 4 25 / \ 10 14
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Accolite, Amazon, OYO Rooms, Walmart
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-12T13:58:24.453Z
+ */
+
+class Solution {
+
+    static class Pair {
+        Node node;
+        int hd;
+
+        Pair(Node node, int hd) {
+            this.node = node;
+            this.hd = hd;
+        }
+    }
+
+    public ArrayList<Integer> bottomView(Node root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        if (root == null) return ans;
+
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        Queue<Pair> q = new LinkedList<>();
+
+        q.offer(new Pair(root, 0));
+
+        while (!q.isEmpty()) {
+            Pair curr = q.poll();
+
+            Node node = curr.node;
+            int hd = curr.hd;
+
+            // overwrite to keep bottom-most / latest node
+            map.put(hd, node.data);
+
+            if (node.left != null) {
+                q.offer(new Pair(node.left, hd - 1));
+            }
+
+            if (node.right != null) {
+                q.offer(new Pair(node.right, hd + 1));
+            }
+        }
+
+        for (int val : map.values()) {
+            ans.add(val);
+        }
+
+        return ans;
+    }
+}
