@@ -387,3 +387,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 348 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | LeetCode | Medium | 11 Nov 2026 | 09:11 pm |
 | 349 | [Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/) | LeetCode | Medium | 11 Nov 2026 | 09:29 pm |
 | 350 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | LeetCode | Medium | 11 Nov 2026 | 10:49 pm |
+| 351 | [First Occurence](https://www.geeksforgeeks.org/problems/implement-strstr/1) | GeeksForGeeks | Basic | 12 Nov 2026 | 05:10 pm |
