@@ -7,9 +7,21 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftFacebookQualcomm, Company Tags, Amazon, Microsoft, Facebook, Qualcomm, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-12T11:39:57.731Z
+ * Synced: 2026-11-12T11:39:58.195Z
  */
 
-Input: txt = "GeeksForGeeks", pat = "Fr"
-Output: -1
-Explanation: "Fr" is not present in the string "GeeksForGeeks" as substring.
+class Solution {
+    int firstOccurence(String txt, String pat) {
+        int n = txt.length();
+        int m = pat.length();
+        for (int i = 0; i <= n - m; i++) {
+            int j;
+            for (j = 0; j < m; j++) {
+                if (txt.charAt(i + j) != pat.charAt(j)) break;
+            }
+            if (j == m) return i; // match found
+        }
+
+        return -1; // not found
+    }
+}
