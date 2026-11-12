@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First Occurence
+ * URL: https://www.geeksforgeeks.org/problems/implement-strstr/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftFacebookQualcomm, Company Tags, Amazon, Microsoft, Facebook, Qualcomm, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-12T11:39:57.731Z
+ */
+
+Input: txt = "GeeksForGeeks", pat = "Fr"
+Output: -1
+Explanation: "Fr" is not present in the string "GeeksForGeeks" as substring.
