@@ -1,17 +1,36 @@
 /*
  * Platform: LeetCode
  * Problem: 878. Nth Magical Number
- * URL: https://leetcode.com/problems/nth-magical-number/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/nth-magical-number/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Hard
  * Topics: Math, Binary Search, Least Common Multiple, Inclusion-Exclusion Principle
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-13T17:47:45.472Z
+ * Synced: 2026-11-13T17:48:39.481Z
  */
 
-class Solution {
-    public int nthMagicalNumber(int n, int a, int b) {
-        
+while (low < high) {
+            long mid = low + (high - low) / 2;
+
+            long count = mid / a + mid / b - mid / lcm;
+
+            if (count < n) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+
+        return (int) (low % MOD);
+    }
+
+    private long gcd(long x, long y) {
+        while (y != 0) {
+            long temp = y;
+            y = x % y;
+            x = temp;
+        }
+        return x;
     }
 }
