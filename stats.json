@@ -1,12 +1,12 @@
 {
-  "totalSolved": 352,
+  "totalSolved": 353,
   "currentStreak": 23,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-13",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 126,
-    "medium": 200,
+    "medium": 201,
     "hard": 15,
     "basic": 11
   },
@@ -362,7 +362,8 @@
     "GeeksForGeeks_First_Occurence": true,
     "GeeksForGeeks_Bottom_View_of_Binary_Tree": true,
     "LeetCode_Count_Non-Decreasing_Subarrays_After_K_Operations": true,
-    "GeeksForGeeks_Common_Nodes_in_Two_BSTs": true
+    "GeeksForGeeks_Common_Nodes_in_Two_BSTs": true,
+    "LeetCode_Count_Good_Nodes_in_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -412,7 +413,7 @@
     "2026-11-10": 2,
     "2026-11-11": 9,
     "2026-11-12": 2,
-    "2026-11-13": 2
+    "2026-11-13": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -764,6 +765,7 @@
     "First Occurence",
     "Bottom View of Binary Tree",
     "Count Non-Decreasing Subarrays After K Operations",
-    "Common Nodes in Two BSTs"
+    "Common Nodes in Two BSTs",
+    "Count Good Nodes in Binary Tree"
   ]
 }
