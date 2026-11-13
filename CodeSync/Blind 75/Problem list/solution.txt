@@ -1,47 +1,49 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/encode-the-message_699836
+ * URL: https://www.naukri.com/code360/problems/tower-of-hanoi_981323
  * Language: All languages
  * Difficulty: Hard
- * Topics: Programming Fundamentals Clear all, Programming Fundamentals
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T19:04:21.570Z
+ * Synced: 2026-11-13T19:13:00.845Z
  */
 
-import java.util.*;
-import java.io.*;
+import java.util.ArrayList;
  
 public class Solution {
-    public static String encode(String message) {
-        // Agar string empty hai toh wapas aa jao
-        if (message.length() == 0) {
-            return "";
+ 
+    public static ArrayList<ArrayList<Integer>> towerOfHanoi(int n) {
+ 
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+ 
+        solve(n, 1, 2, 3, result);
+ 
+        return result;
+    }
+ 
+    private static void solve(int n,
+                              int source,
+                              int helper,
+                              int destination,
+                              ArrayList<ArrayList<Integer>> result) {
+ 
+        if (n == 1) {
+            ArrayList<Integer> move = new ArrayList<>();
+            move.add(source);
+            move.add(destination);
+            result.add(move);
+            return;
         }
  
-        StringBuilder result = new StringBuilder();
-        int count = 1;
-        
-        // Loop 0 se n-2 tak chalega taaki hum current aur next ko compare kar sakein
-        for (int i = 0; i < message.length() - 1; i++) {
-            char curr = message.charAt(i);
-            char next = message.charAt(i + 1);
-            
-            if (curr == next) {
-                count++;
-            } else {
-                // Character badal gaya, toh purane wale ko add karo
-                result.append(curr);
-                result.append(count);
-                count = 1; // Count reset karo
-            }
-        }
-        
-        // Last character ko alag se handle karo (kyunki loop usse chhod deta hai)
-        result.append(message.charAt(message.length() - 1));
-        result.append(count);
-        
-        return result.toString();
+        solve(n - 1, source, destination, helper, result);
+ 
+        ArrayList<Integer> move = new ArrayList<>();
+        move.add(source);
+        move.add(destination);
+        result.add(move);
+ 
+        solve(n - 1, helper, source, destination, result);
     }
 }
