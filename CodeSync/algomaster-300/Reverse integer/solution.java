@@ -7,10 +7,7 @@
  * Topics: Programming, Math, Description, Discussion, Submissions, Hints, Excel Column Number 23 Minutes Easy Asked in:, Next Similar Number 55 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-13T14:47:53.424Z
+ * Synced: 2026-11-13T14:47:52.401Z
  */
 
-public class Solution {
-    public int reverse(int A) {
-    }
-}
+x = 123
