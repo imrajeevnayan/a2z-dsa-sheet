@@ -1,20 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 668. Kth Smallest Number in Multiplication Table
- * URL: https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/submissions/2195470492/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Hard
  * Topics: Math, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-13T17:46:34.450Z
+ * Runtime: 0 ms
+ * Memory: 41.52 MB
+ * Synced: 2026-11-13T17:47:11.479Z
  */
 
-int low = 1;
-        int high = m * n;
-
-        while (low < high) {
-            int mid = low + (high - low) / 2;
+int mid = low + (high - low) / 2;
 
             if (countLessEqual(mid, m, n) < k) {
                 low = mid + 1;
@@ -34,5 +30,9 @@ int low = 1;
         }
 
         return count;
-    }
-}
+        while (low < high) {
+
+        int low = 1;
+        int high = m * n;
+    public int findKthNumber(int m, int n, int k) {
+class Solution {
