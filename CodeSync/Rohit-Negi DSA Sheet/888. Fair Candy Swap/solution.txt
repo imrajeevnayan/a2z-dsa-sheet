@@ -2,13 +2,16 @@
  * Platform: LeetCode
  * Problem: 888. Fair Candy Swap
  * URL: https://leetcode.com/problems/fair-candy-swap/description/?envType=problem-list-v2&envId=binary-search
- * Language: Text
+ * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Hash Table, Binary Search, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-13T17:49:51.949Z
+ * Synced: 2026-11-13T17:49:57.109Z
  */
 
-Input: aliceSizes = [1,1], bobSizes = [2,2]
-Output: [1,2]
+class Solution {
+    public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
+        
+    }
+}
