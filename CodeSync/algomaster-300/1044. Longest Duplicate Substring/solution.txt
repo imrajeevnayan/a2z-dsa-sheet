@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1044. Longest Duplicate Substring
- * URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/longest-duplicate-substring/submissions/2195480124/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Hard
  * Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-13T18:00:01.957Z
+ * Synced: 2026-11-13T18:00:41.994Z
  */
 
-class Solution {
-    public String longestDupSubstring(String s) {
-        
+while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            int idx = search(s, mid);
+
+            if (idx != -1) {
+                start = idx;
+                maxLen = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+        return start == -1 ? "" : s.substring(start, start + maxLen);
     }
-}
+
+    private int search(String s, int len) {
+        int n = s.length();
+
+        long mod = (1L << 31) - 1;
+        long base = 26;
+
+        long hash = 0;
+        long power = 1;
