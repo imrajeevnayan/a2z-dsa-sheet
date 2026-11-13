@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3420. Count Non-Decreasing Subarrays After K Operations
+ * URL: https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/description/?envType=daily-question&envId=2026-11-13
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Stack, Segment Tree, Queue, Sliding Window, Monotonic Stack, Monotonic Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-13T15:18:27.534Z
+ */
+
+class Solution {
+    public long countNonDecreasingSubarrays(int[] nums, int k) {
+        
+    }
+}
