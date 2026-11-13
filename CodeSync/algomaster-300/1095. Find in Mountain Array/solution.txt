@@ -1,0 +1,38 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1095. Find in Mountain Array
+ * URL: https://leetcode.com/problems/find-in-mountain-array/?envType=problem-list-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Interactive, Ternary Search
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-11-13T18:53:25.542Z
+ */
+
+}
+        return binarySearch(mountainArr, target, peak + 1, n - 1, false);
+        // 3. Search in descending part
+
+        if (idx != -1) return idx;
+        int idx = binarySearch(mountainArr, target, 0, peak, true);
+        // 2. Search in ascending part
+
+        int peak = l;
+        }
+
+            }
+            } else {
+                r = mid;
+                l = mid + 1;
+            if (mountainArr.get(mid) < mountainArr.get(mid + 1)) {
+
+            int mid = l + (r - l) / 2;
+        while (l < r) {
+
+        int l = 0, r = n - 1;
+        // 1. Find peak
+
+        int n = mountainArr.length();
+    public int findInMountainArray(int target, MountainArray mountainArr) {
+class Solution {
