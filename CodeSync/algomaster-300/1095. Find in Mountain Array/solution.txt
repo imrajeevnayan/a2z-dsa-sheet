@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 1095. Find in Mountain Array
- * URL: https://leetcode.com/problems/find-in-mountain-array/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/find-in-mountain-array/submissions/2195513128/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Hard
  * Topics: Array, Binary Search, Interactive, Ternary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-11-13T18:53:25.542Z
+ * Memory: 46.27 MB
+ * Synced: 2026-11-13T18:54:15.238Z
  */
 
 }
@@ -33,6 +33,8 @@
         int l = 0, r = n - 1;
         // 1. Find peak
 
-        int n = mountainArr.length();
-    public int findInMountainArray(int target, MountainArray mountainArr) {
-class Solution {
+    private int binarySearch(MountainArray arr,
+                             int target,
+                             int left,
+                             int right,
+                             boolean ascending) {
