@@ -1,36 +1,53 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Number of Islands
- * URL: https://leetcode.com/problems/number-of-islands/submissions/2136072094/
- * Language: Problem List
- * Difficulty: Medium
- * Topics: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
- * Runtime: 0 ms
- * Memory: 51.16 MB
- * Synced: 2026-09-09T08:05:22.213Z
+ * URL: https://www.naukri.com/code360/problems/number-of-islands_69353
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-13T19:14:40.900Z
  */
 
-Queue<int[]> queue = new ArrayDeque<>();
-
-                // Starting cell ko queue mein daalo
-                queue.offer(new int[]{r, c});
-
-                // Mark as visited
-                grid[r][c] = '0';
-
-                while (!queue.isEmpty()) {
-
-                    int[] current = queue.poll();
-
-                    int currentRow = current[0];
-                    int currentCol = current[1];
-
-                    // 4 directions check karo
-                    for (int[] direction : directions) {
-
-                        int newRow = currentRow + direction[0];
-                        int newCol = currentCol + direction[1];
-
-                        // Boundary check
-                        if (newRow < 0 || newRow >= rows ||
-                            newCol < 0 || newCol >= cols) {
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    static int n, m;
+    static int[][] grid;
+ 
+    static int[] dr = {-1, 0, 1, 0};
+    static int[] dc = {0, 1, 0, -1};
+ 
+    public static void dfs(int r, int c) {
+ 
+        grid[r][c] = 0; // mark visited
+ 
+        for (int k = 0; k < 4; k++) {
+            int nr = r + dr[k];
+            int nc = c + dc[k];
+ 
+            if (nr >= 0 && nr < n &&
+                nc >= 0 && nc < m &&
+                grid[nr][nc] == 1) {
+ 
+                dfs(nr, nc);
+            }
+        }
+    }
+ 
+    public static void main(String[] args) {
+ 
+        Scanner sc = new Scanner(System.in);
+ 
+        n = sc.nextInt();
+        m = sc.nextInt();
+ 
+        grid = new int[n][m];
+ 
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                grid[i][j] = sc.nextInt();
+            }
+        }
