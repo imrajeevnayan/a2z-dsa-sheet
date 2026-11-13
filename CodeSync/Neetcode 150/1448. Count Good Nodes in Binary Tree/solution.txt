@@ -1,32 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 1448. Count Good Nodes in Binary Tree
- * URL: https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/count-good-nodes-in-binary-tree/submissions/2195383288/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-13T15:41:20.154Z
+ * Runtime: 0 ms
+ * Memory: 56.74 MB
+ * Synced: 2026-11-13T16:02:51.905Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public int goodNodes(TreeNode root) {
-        
+return dfs(root, Integer.MIN_VALUE);
+    }
+
+    private int dfs(TreeNode node, int maxSoFar) {
+        if (node == null) {
+            return 0;
+        }
+
+        int count = 0;
+
+        if (node.val >= maxSoFar) {
+            count = 1;
+        }
+
+        maxSoFar = Math.max(maxSoFar, node.val);
+
+        count += dfs(node.left, maxSoFar);
+        count += dfs(node.right, maxSoFar);
+
+        return count;
     }
 }
