@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 878. Nth Magical Number
+ * URL: https://leetcode.com/problems/nth-magical-number/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Math, Binary Search, Least Common Multiple, Inclusion-Exclusion Principle
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-13T17:47:39.676Z
+ */
+
+Input: n = 1, a = 2, b = 3
+Output: 2
