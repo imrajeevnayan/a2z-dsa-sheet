@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 668. Kth Smallest Number in Multiplication Table
+ * URL: https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Math, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-13T17:45:47.734Z
+ */
+
+Input: m = 3, n = 3, k = 5
+Output: 3
+Explanation: The 5th smallest number is 3.
