@@ -1,0 +1,53 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Running Median
+ * URL: https://www.naukri.com/code360/problems/running-median_625409
+ * Language: Java (17)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 1615 ms
+ * Memory: N/A
+ * Synced: 2026-11-13T19:13:48.655Z
+ */
+
+import java.util.PriorityQueue;
+import java.util.Comparator;
+ 
+public class Solution {
+ 
+    public static void findMedian(int arr[]) {
+ 
+        PriorityQueue<Integer> left =
+                new PriorityQueue<>(Comparator.reverseOrder()); // Max Heap
+ 
+        PriorityQueue<Integer> right =
+                new PriorityQueue<>(); // Min Heap
+ 
+        StringBuilder ans = new StringBuilder();
+ 
+        for (int num : arr) {
+ 
+            // Insert
+            if (left.isEmpty() || num <= left.peek()) {
+                left.offer(num);
+            } else {
+                right.offer(num);
+            }
+ 
+            // Balance heaps
+            if (left.size() > right.size() + 1) {
+                right.offer(left.poll());
+            } else if (right.size() > left.size() + 1) {
+                left.offer(right.poll());
+            }
+ 
+            // Find median
+            int median;
+ 
+            if (left.size() == right.size()) {
+                median = (left.peek() + right.peek()) / 2;
+            } else if (left.size() > right.size()) {
+                median = left.peek();
+            } else {
+                median = right.peek();
+            }
