@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 888. Fair Candy Swap
+ * URL: https://leetcode.com/problems/fair-candy-swap/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Binary Search, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-13T17:49:51.949Z
+ */
+
+Input: aliceSizes = [1,1], bobSizes = [2,2]
+Output: [1,2]
