@@ -392,3 +392,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 353 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | LeetCode | Hard | 13 Nov 2026 | 08:51 pm |
 | 354 | [Common Nodes in Two BSTs](https://www.geeksforgeeks.org/problems/print-common-nodes-in-bst/1) | GeeksForGeeks | Medium | 13 Nov 2026 | 08:52 pm |
 | 355 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | LeetCode | Medium | 13 Nov 2026 | 09:12 pm |
+| 356 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | LeetCode | Medium | 13 Nov 2026 | 09:13 pm |
