@@ -395,3 +395,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 356 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | LeetCode | Medium | 13 Nov 2026 | 09:13 pm |
 | 357 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | LeetCode | Hard | 13 Nov 2026 | 11:16 pm |
 | 358 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | LeetCode | Easy | 13 Nov 2026 | 11:20 pm |
+| 359 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | LeetCode | Hard | 14 Nov 2026 | 12:23 am |

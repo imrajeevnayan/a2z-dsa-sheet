@@ -1,13 +1,13 @@
 {
-  "totalSolved": 356,
-  "currentStreak": 23,
+  "totalSolved": 357,
+  "currentStreak": 24,
   "maxStreak": 25,
-  "lastSyncDate": "2026-11-13",
-  "todayCount": 6,
+  "lastSyncDate": "2026-11-14",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 127,
     "medium": 202,
-    "hard": 16,
+    "hard": 17,
     "basic": 11
   },
   "syncedProblems": {
@@ -366,7 +366,8 @@
     "LeetCode_Count_Good_Nodes_in_Binary_Tree": true,
     "LeetCode_Lowest_Common_Ancestor_of_a_Binary_Tree": true,
     "LeetCode_Kth_Smallest_Number_in_Multiplication_Table": true,
-    "LeetCode_Fair_Candy_Swap": true
+    "LeetCode_Fair_Candy_Swap": true,
+    "LeetCode_Find_in_Mountain_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -416,7 +417,8 @@
     "2026-11-10": 2,
     "2026-11-11": 9,
     "2026-11-12": 2,
-    "2026-11-13": 6
+    "2026-11-13": 6,
+    "2026-11-14": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -772,6 +774,7 @@
     "Count Good Nodes in Binary Tree",
     "Lowest Common Ancestor of a Binary Tree",
     "Kth Smallest Number in Multiplication Table",
-    "Fair Candy Swap"
+    "Fair Candy Swap",
+    "Find in Mountain Array"
   ]
 }
