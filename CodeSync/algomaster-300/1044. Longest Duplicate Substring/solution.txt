@@ -2,13 +2,16 @@
  * Platform: LeetCode
  * Problem: 1044. Longest Duplicate Substring
  * URL: https://leetcode.com/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=binary-search
- * Language: Text
+ * Language: Binary Search
  * Difficulty: Hard
  * Topics: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function, Suffix Automaton, Suffix Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-13T17:59:58.805Z
+ * Synced: 2026-11-13T18:00:01.957Z
  */
 
-Input: s = "banana"
-Output: "ana"
+class Solution {
+    public String longestDupSubstring(String s) {
+        
+    }
+}
