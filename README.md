@@ -389,3 +389,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 350 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | LeetCode | Medium | 11 Nov 2026 | 10:49 pm |
 | 351 | [First Occurence](https://www.geeksforgeeks.org/problems/implement-strstr/1) | GeeksForGeeks | Basic | 12 Nov 2026 | 05:10 pm |
 | 352 | [Bottom View of Binary Tree](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | GeeksForGeeks | Medium | 12 Nov 2026 | 07:28 pm |
+| 353 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | LeetCode | Hard | 13 Nov 2026 | 08:51 pm |
