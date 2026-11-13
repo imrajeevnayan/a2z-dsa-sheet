@@ -5,32 +5,31 @@
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Stack, Segment Tree, Queue, Sliding Window, Monotonic Stack, Monotonic Queue
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-13T15:18:57.374Z
+ * Synced: 2026-11-13T15:20:23.906Z
  */
 
-stack.push(l);
+int pos = j;
 
-            while (cost > k) {
-                cost -= nums[stack.peek()] - nums[r];
-                if (stack.peek() == r) {
-                    stack.pop();
-                    if (!stack.isEmpty()) {
-                        int first = stack.pop();
+                Iterator<int[]> it = segments.iterator();
 
-                        int next = stack.isEmpty() ? r + 1 : stack.peek();
+                while (it.hasNext()) {
+                    int[] seg = it.next();
 
-                        cost -= (long) (next - first) *
-                                (nums[first] - nums[r]);
+                    int l = seg[0];
+                    int r = seg[1];
 
-                        stack.push(first);
+                    if (l <= pos && pos < r) {
+                        cost -= nums[l] - nums[pos];
+                        break;
                     }
                 }
-                r--;
+
+                j--;
             }
 
-            ans += r - l + 1;
+            ans += j - i + 1;
         }
 
         return ans;
