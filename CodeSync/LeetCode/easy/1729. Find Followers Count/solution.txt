@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 1729. Find Followers Count
- * URL: https://leetcode.com/problems/find-followers-count/description/
+ * URL: https://leetcode.com/problems/first-letter-capitalization-ii/
  * Language: Database
  * Difficulty: Easy
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 80 ms
  * Memory: N/A
- * Synced: 2026-11-14T09:31:25.485Z
+ * Synced: 2026-11-14T09:32:39.422Z
  */
 
 select user_id,count(follower_id) as followers_count
