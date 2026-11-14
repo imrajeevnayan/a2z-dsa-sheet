@@ -1,12 +1,12 @@
 {
-  "totalSolved": 358,
+  "totalSolved": 359,
   "currentStreak": 24,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-14",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 128,
-    "medium": 202,
+    "medium": 203,
     "hard": 17,
     "basic": 11
   },
@@ -368,7 +368,8 @@
     "LeetCode_Kth_Smallest_Number_in_Multiplication_Table": true,
     "LeetCode_Fair_Candy_Swap": true,
     "LeetCode_Find_in_Mountain_Array": true,
-    "LeetCode_Minimum_Positive_Sum_Subarray_": true
+    "LeetCode_Minimum_Positive_Sum_Subarray_": true,
+    "GeeksForGeeks_Max_Equal_Sum_in_3_Stacks": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -419,7 +420,7 @@
     "2026-11-11": 9,
     "2026-11-12": 2,
     "2026-11-13": 6,
-    "2026-11-14": 2
+    "2026-11-14": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -777,6 +778,7 @@
     "Kth Smallest Number in Multiplication Table",
     "Fair Candy Swap",
     "Find in Mountain Array",
-    "Minimum Positive Sum Subarray "
+    "Minimum Positive Sum Subarray ",
+    "Max Equal Sum in 3 Stacks"
   ]
 }
