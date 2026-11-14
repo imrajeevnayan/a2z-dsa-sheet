@@ -1,11 +1,11 @@
 {
-  "totalSolved": 361,
+  "totalSolved": 362,
   "currentStreak": 24,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-14",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 129,
+    "easy": 130,
     "medium": 204,
     "hard": 17,
     "basic": 11
@@ -371,7 +371,8 @@
     "LeetCode_Minimum_Positive_Sum_Subarray_": true,
     "GeeksForGeeks_Max_Equal_Sum_in_3_Stacks": true,
     "LeetCode_Palindrome_Number": true,
-    "LeetCode_Capacity_To_Ship_Packages_Within_D_Days": true
+    "LeetCode_Capacity_To_Ship_Packages_Within_D_Days": true,
+    "LeetCode_Find_Followers_Count": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -422,7 +423,7 @@
     "2026-11-11": 9,
     "2026-11-12": 2,
     "2026-11-13": 6,
-    "2026-11-14": 5
+    "2026-11-14": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -783,6 +784,7 @@
     "Minimum Positive Sum Subarray ",
     "Max Equal Sum in 3 Stacks",
     "Palindrome Number",
-    "Capacity To Ship Packages Within D Days"
+    "Capacity To Ship Packages Within D Days",
+    "Find Followers Count"
   ]
 }

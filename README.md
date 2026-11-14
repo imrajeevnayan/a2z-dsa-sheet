@@ -400,3 +400,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 361 | [Max Equal Sum in 3 Stacks](https://www.geeksforgeeks.org/problems/find-maximum-equal-sum-of-three-stacks/1) | GeeksForGeeks | Medium | 14 Nov 2026 | 10:28 am |
 | 362 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | LeetCode | Easy | 14 Nov 2026 | 12:43 pm |
 | 363 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | LeetCode | Medium | 14 Nov 2026 | 12:50 pm |
+| 364 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | LeetCode | Easy | 14 Nov 2026 | 03:01 pm |
