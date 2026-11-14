@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2540. Minimum Common Value
+ * URL: https://leetcode.com/problems/minimum-common-value/description/?envType=problem-list-v2&envId=binary-search
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Two Pointers, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-14T07:16:59.337Z
+ */
+
+Input: nums1 = [1,2,3], nums2 = [2,4]
+Output: 2
+Explanation: The smallest element common to both arrays is 2, so we return 2.
