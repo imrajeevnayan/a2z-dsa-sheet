@@ -403,3 +403,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 364 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | LeetCode | Easy | 14 Nov 2026 | 03:01 pm |
 | 365 | [Find Golden Hour Customers](https://leetcode.com/problems/find-golden-hour-customers/) | LeetCode | Medium | 14 Nov 2026 | 03:03 pm |
 | 366 | [Find Students Who Improved](https://leetcode.com/problems/find-students-who-improved/) | LeetCode | Medium | 14 Nov 2026 | 03:05 pm |
+| 367 | [Sum of All Digit Subsequences](https://www.geeksforgeeks.org/problems/sum-of-all-sub-sequences-of-a-number3437/1) | GeeksForGeeks | Easy | 15 Nov 2026 | 02:08 am |

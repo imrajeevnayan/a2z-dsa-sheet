@@ -1,11 +1,11 @@
 {
-  "totalSolved": 364,
-  "currentStreak": 24,
+  "totalSolved": 365,
+  "currentStreak": 25,
   "maxStreak": 25,
-  "lastSyncDate": "2026-11-14",
-  "todayCount": 8,
+  "lastSyncDate": "2026-11-15",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 130,
+    "easy": 131,
     "medium": 206,
     "hard": 17,
     "basic": 11
@@ -374,7 +374,8 @@
     "LeetCode_Capacity_To_Ship_Packages_Within_D_Days": true,
     "LeetCode_Find_Followers_Count": true,
     "LeetCode_Find_Golden_Hour_Customers": true,
-    "LeetCode_Find_Students_Who_Improved": true
+    "LeetCode_Find_Students_Who_Improved": true,
+    "GeeksForGeeks_Sum_of_All_Digit_Subsequences": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -425,7 +426,8 @@
     "2026-11-11": 9,
     "2026-11-12": 2,
     "2026-11-13": 6,
-    "2026-11-14": 8
+    "2026-11-14": 8,
+    "2026-11-15": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -789,6 +791,7 @@
     "Capacity To Ship Packages Within D Days",
     "Find Followers Count",
     "Find Golden Hour Customers",
-    "Find Students Who Improved"
+    "Find Students Who Improved",
+    "Sum of All Digit Subsequences"
   ]
 }
