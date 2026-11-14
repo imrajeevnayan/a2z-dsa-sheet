@@ -1,12 +1,12 @@
 {
-  "totalSolved": 363,
+  "totalSolved": 364,
   "currentStreak": 24,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-14",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 130,
-    "medium": 205,
+    "medium": 206,
     "hard": 17,
     "basic": 11
   },
@@ -373,7 +373,8 @@
     "LeetCode_Palindrome_Number": true,
     "LeetCode_Capacity_To_Ship_Packages_Within_D_Days": true,
     "LeetCode_Find_Followers_Count": true,
-    "LeetCode_Find_Golden_Hour_Customers": true
+    "LeetCode_Find_Golden_Hour_Customers": true,
+    "LeetCode_Find_Students_Who_Improved": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -424,7 +425,7 @@
     "2026-11-11": 9,
     "2026-11-12": 2,
     "2026-11-13": 6,
-    "2026-11-14": 7
+    "2026-11-14": 8
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -787,6 +788,7 @@
     "Palindrome Number",
     "Capacity To Ship Packages Within D Days",
     "Find Followers Count",
-    "Find Golden Hour Customers"
+    "Find Golden Hour Customers",
+    "Find Students Who Improved"
   ]
 }
