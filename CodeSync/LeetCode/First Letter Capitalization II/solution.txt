@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: First Letter Capitalization II
+ * URL: https://leetcode.com/problems/find-golden-hour-customers/description/
+ * Language: Database
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-14T09:33:17.362Z
+ */
+
+# Write your MySQL query statement below
