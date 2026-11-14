@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Two Pointers, Binary Search
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-14T07:17:34.052Z
+ * Synced: 2026-11-14T07:17:48.862Z
  */
 
 class Solution {
@@ -15,10 +15,10 @@ class Solution {
         int i = 0, j = 0;
 
         while (i < nums1.length && j < nums2.length) {
-            if (nums1[i] == nums2[j]) { return nums1[i];
-            } else if (nums1[i] < nums2[j]) {
-                i++;
-            } else {
+            if (nums1[i] == nums2[j])  return nums1[i];
+            else if (nums1[i] < nums2[j]) {
+i++;
+             else {
                 j++;
             }
         }
