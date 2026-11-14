@@ -2,25 +2,14 @@
  * Platform: LeetCode
  * Problem: 9. Palindrome Number
  * URL: https://leetcode.com/problems/palindrome-number/description/
- * Language: Problem List
+ * Language: Text
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-08T03:46:08.784Z
+ * Synced: 2026-11-14T07:12:50.728Z
  */
 
-class Solution {
-    static int reverse(int n) {
-        int rev = 0;
-        while (n > 0) {
-        rev = rev * 10 + (n % 10);
-            n /= 10;
-        }
-        return rev;
-    }
-    public boolean isPalindrome(int x) {
-        if (x < 0) return false;
-        return x == reverse(x);
-    }
-}
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
