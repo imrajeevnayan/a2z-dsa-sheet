@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3374. First Letter Capitalization II
+ * URL: https://leetcode.com/problems/first-letter-capitalization-ii/description/
+ * Language: Database
+ * Difficulty: Hard
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-14T09:32:41.367Z
+ */
+
+# Write your MySQL query statement below
