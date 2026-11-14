@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 1337. The K Weakest Rows in a Matrix
- * URL: https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/?envType=problem-list-v2&envId=binary-search
+ * URL: https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/?envType=problem-list-v2&envId=binary-search
  * Language: Binary Search
  * Difficulty: Easy
  * Topics: Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-14T07:20:34.675Z
+ * Synced: 2026-11-14T07:21:17.089Z
  */
 
-class Solution {
+int[] ans = new int[k];
+        for (int i = 0; i < k; i++) {
+            ans[i] = rows[i][1];
+        }
+
+        return ans;
+        });
+
+                return a[1] - b[1];
+            }
+            return a[0] - b[0];
+        Arrays.sort(rows, (a, b) -> {
+            if (a[0] == b[0]) {
+
+            rows[i][1] = i;                     // row index
+        }
+        for (int i = 0; i < m; i++) {
+            rows[i][0] = countSoldiers(mat[i]); // soldier count
+
+        int[][] rows = new int[m][2];
+
+        int m = mat.length;
     public int[] kWeakestRows(int[][] mat, int k) {
-        
+class Solution {
     }
-}
