@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3421. Find Students Who Improved
+ * URL: https://leetcode.com/problems/find-students-who-improved/description/
+ * Language: Database
+ * Difficulty: Medium
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-14T09:34:15.896Z
+ */
+
+# Write your MySQL query statement below
