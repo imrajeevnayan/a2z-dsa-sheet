@@ -398,3 +398,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 359 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | LeetCode | Hard | 14 Nov 2026 | 12:23 am |
 | 360 | [Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/) | LeetCode | Easy | 14 Nov 2026 | 10:27 am |
 | 361 | [Max Equal Sum in 3 Stacks](https://www.geeksforgeeks.org/problems/find-maximum-equal-sum-of-three-stacks/1) | GeeksForGeeks | Medium | 14 Nov 2026 | 10:28 am |
+| 362 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | LeetCode | Easy | 14 Nov 2026 | 12:43 pm |
