@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1729. Find Followers Count
+ * URL: https://leetcode.com/problems/find-followers-count/description/
+ * Language: Database
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-14T09:31:25.485Z
+ */
+
+select user_id,count(follower_id) as followers_count
+from Followers
+group by user_id order by 1;
