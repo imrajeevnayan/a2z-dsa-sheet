@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 196. Delete Duplicate Emails
+ * URL: https://leetcode.com/problems/delete-duplicate-emails/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 74 ms
+ * Memory: N/A
+ * Synced: 2026-11-15T07:13:03.799Z
+ */
+
+DELETE p1
+FROM Person p1
+JOIN Person p2
+ON p1.email = p2.email
+AND p1.id > p2.id;
