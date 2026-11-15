@@ -7,7 +7,10 @@
  * Topics: Programming, Bit Manipulation, Description, Discussion, Submissions, Hints, OR equal XOR 19 Minutes Very Easy Asked in:, Maximize matrix XOR 23 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-15T17:13:21.154Z
+ * Synced: 2026-11-15T17:13:21.421Z
  */
 
 public class Solution {
+    public int cntBits(ArrayList<Integer> A) {
+    }
+}
