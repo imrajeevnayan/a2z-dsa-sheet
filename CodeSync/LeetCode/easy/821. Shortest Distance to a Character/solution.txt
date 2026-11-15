@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 821. Shortest Distance to a Character
+ * URL: https://leetcode.com/problems/shortest-distance-to-a-character/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T07:19:37.878Z
+ */
+
+class Solution {
+    public int[] shortestToChar(String s, char c) {
+        
+    }
+}
