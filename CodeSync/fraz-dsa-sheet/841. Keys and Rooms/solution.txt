@@ -2,19 +2,37 @@
  * Platform: LeetCode
  * Problem: 841. Keys and Rooms
  * URL: https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&envId=leetcode-75
- * Language: Text
+ * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-15T05:30:36.129Z
+ * Synced: 2026-11-15T05:30:40.207Z
  */
 
-Input: rooms = [[1],[2],[3],[]]
-Output: true
-Explanation: 
-We visit room 0 and pick up key 1.
-We then visit room 1 and pick up key 2.
-We then visit room 2 and pick up key 3.
-We then visit room 3.
-Since we were able to visit every room, we return true.
+class Solution {
+    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+        int n = rooms.size();
+        boolean[] visited = new boolean[n];
+        Queue<Integer> queue = new ArrayDeque<>();
+        // Start from Room 0
+        visited[0] = true;
+        queue.offer(0);
+
+        while (!queue.isEmpty()) {
+            int currRoom = queue.poll();
+            // Current room ki saari keys
+            for (int key : rooms.get(currRoom)) {
+                // Agar room pehle visit nahi hua
+                if (!visited[key]) {
+                    visited[key] = true;
+                    queue.offer(key);
+                }
+            }
+        }
+        // Check whether all rooms were visited
+        for (boolean visit : visited) {
+            if (!visit) return false;
+        }
+        return true;
+    }
