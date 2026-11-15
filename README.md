@@ -408,3 +408,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 369 | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/) | LeetCode | Medium | 15 Nov 2026 | 10:59 am |
 | 370 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | LeetCode | Easy | 15 Nov 2026 | 12:43 pm |
 | 371 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | LeetCode | Hard | 15 Nov 2026 | 12:49 pm |
+| 372 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | LeetCode | Easy | 15 Nov 2026 | 12:50 pm |

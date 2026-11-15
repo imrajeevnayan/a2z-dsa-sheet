@@ -1,11 +1,11 @@
 {
-  "totalSolved": 369,
+  "totalSolved": 370,
   "currentStreak": 25,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-15",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 132,
+    "easy": 133,
     "medium": 208,
     "hard": 18,
     "basic": 11
@@ -379,7 +379,8 @@
     "LeetCode_Number_of_Sub-arrays_With_Odd_Sum": true,
     "LeetCode_Longest_ZigZag_Path_in_a_Binary_Tree": true,
     "LeetCode_Delete_Duplicate_Emails": true,
-    "LeetCode_Wildcard_Matching": true
+    "LeetCode_Wildcard_Matching": true,
+    "LeetCode_Shortest_Distance_to_a_Character": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -431,7 +432,7 @@
     "2026-11-12": 2,
     "2026-11-13": 6,
     "2026-11-14": 8,
-    "2026-11-15": 5
+    "2026-11-15": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -800,6 +801,7 @@
     "Number of Sub-arrays With Odd Sum",
     "Longest ZigZag Path in a Binary Tree",
     "Delete Duplicate Emails",
-    "Wildcard Matching"
+    "Wildcard Matching",
+    "Shortest Distance to a Character"
   ]
 }
