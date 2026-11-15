@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 44. Wildcard Matching
- * URL: https://leetcode.com/problems/wildcard-matching/
+ * URL: https://leetcode.com/problems/wildcard-matching/submissions/2196471576/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Dynamic Programming, Greedy, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-15T07:18:56.042Z
+ * Synced: 2026-11-15T07:18:58.304Z
  */
 
 // Handle patterns like *, **, ***
@@ -28,7 +28,10 @@
                 }
             }
         }
+        dp[0][0] = true;
 
-        return dp[m][n];
-    }
-}
+        boolean[][] dp = new boolean[m + 1][n + 1];
+        int m = s.length();
+        int n = p.length();
+class Solution {
+    public boolean isMatch(String s, String p) {
