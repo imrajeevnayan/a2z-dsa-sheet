@@ -1,0 +1,13 @@
+/*
+ * Platform: LeetCode
+ * Problem: 1965. Employees With Missing Information
+ * URL: https://leetcode.com/problems/employees-with-missing-information/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T07:13:26.022Z
+ */
+
+# Write your MySQL query statement below
