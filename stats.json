@@ -1,12 +1,12 @@
 {
-  "totalSolved": 366,
+  "totalSolved": 367,
   "currentStreak": 25,
   "maxStreak": 25,
   "lastSyncDate": "2026-11-15",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 131,
-    "medium": 207,
+    "medium": 208,
     "hard": 17,
     "basic": 11
   },
@@ -376,7 +376,8 @@
     "LeetCode_Find_Golden_Hour_Customers": true,
     "LeetCode_Find_Students_Who_Improved": true,
     "GeeksForGeeks_Sum_of_All_Digit_Subsequences": true,
-    "LeetCode_Number_of_Sub-arrays_With_Odd_Sum": true
+    "LeetCode_Number_of_Sub-arrays_With_Odd_Sum": true,
+    "LeetCode_Longest_ZigZag_Path_in_a_Binary_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -428,7 +429,7 @@
     "2026-11-12": 2,
     "2026-11-13": 6,
     "2026-11-14": 8,
-    "2026-11-15": 2
+    "2026-11-15": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -794,6 +795,7 @@
     "Find Golden Hour Customers",
     "Find Students Who Improved",
     "Sum of All Digit Subsequences",
-    "Number of Sub-arrays With Odd Sum"
+    "Number of Sub-arrays With Odd Sum",
+    "Longest ZigZag Path in a Binary Tree"
   ]
 }

@@ -405,3 +405,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 366 | [Find Students Who Improved](https://leetcode.com/problems/find-students-who-improved/) | LeetCode | Medium | 14 Nov 2026 | 03:05 pm |
 | 367 | [Sum of All Digit Subsequences](https://www.geeksforgeeks.org/problems/sum-of-all-sub-sequences-of-a-number3437/1) | GeeksForGeeks | Easy | 15 Nov 2026 | 02:08 am |
 | 368 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | LeetCode | Medium | 15 Nov 2026 | 10:55 am |
+| 369 | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/) | LeetCode | Medium | 15 Nov 2026 | 10:59 am |
