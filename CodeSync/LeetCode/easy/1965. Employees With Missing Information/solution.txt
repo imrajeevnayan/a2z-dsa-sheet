@@ -1,13 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 1965. Employees With Missing Information
- * URL: https://leetcode.com/problems/employees-with-missing-information/description/
+ * URL: https://leetcode.com/problems/employees-with-missing-information/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Database
- * Runtime: N/A
+ * Runtime: 96 ms
  * Memory: N/A
- * Synced: 2026-11-15T07:13:26.022Z
+ * Synced: 2026-11-15T07:13:55.103Z
  */
 
-# Write your MySQL query statement below
+SELECT employee_id
+FROM Employees
+WHERE employee_id NOT IN (
+    SELECT employee_id
+    FROM Salaries
+)
+
+UNION
+
+SELECT employee_id
+FROM Salaries
+WHERE employee_id NOT IN (
+    SELECT employee_id
+    FROM Employees
+)
+
+ORDER BY employee_id;
