@@ -2,16 +2,36 @@
  * Platform: LeetCode
  * Problem: 1524. Number of Sub-arrays With Odd Sum
  * URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/?envType=daily-question&envId=2026-11-15
- * Language: Text
+ * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Math, Dynamic Programming, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-15T05:25:01.642Z
+ * Synced: 2026-11-15T05:25:06.167Z
  */
 
-Input: arr = [1,3,5]
-Output: 4
-Explanation: All subarrays are [[1],[1,3],[1,3,5],[3],[3,5],[5]]
-All sub-arrays sum are [1,4,9,3,8,5].
-Odd sums are [1,9,3,5] so the answer is 4.
+class Solution {
+    public int numOfSubarrays(int[] arr) {
+        int mod = 1_000_000_007;
+
+        long ans = 0;
+        long even = 1; // empty prefix sum = 0
+        long odd = 0;
+
+        int prefix = 0;
+
+        for (int num : arr) {
+            prefix += num;
+
+            if ((prefix & 1) == 0) {
+                ans += odd;
+                even++;
+            } else {
+                ans += even;
+                odd++;
+            }
+        }
+
+        return (int)(ans % mod);
+    }
+}
