@@ -1,0 +1,34 @@
+/*
+ * Platform: LeetCode
+ * Problem: 44. Wildcard Matching
+ * URL: https://leetcode.com/problems/wildcard-matching/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: String, Dynamic Programming, Greedy, Recursion
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-11-15T07:18:56.042Z
+ */
+
+// Handle patterns like *, **, ***
+        for (int j = 1; j <= n; j++) {
+            if (p.charAt(j - 1) == '*') {
+                dp[0][j] = dp[0][j - 1];
+            }
+        }
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                char pc = p.charAt(j - 1);
+
+                if (pc == '*') {
+                    dp[i][j] = dp[i][j - 1] || dp[i - 1][j];
+                } else if (pc == '?' || pc == s.charAt(i - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                }
+            }
+        }
+
+        return dp[m][n];
+    }
+}
