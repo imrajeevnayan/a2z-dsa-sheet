@@ -1,0 +1,38 @@
+/*
+ * Platform: LeetCode
+ * Problem: 547. Number of Provinces
+ * URL: https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Medium
+ * Topics: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T05:29:23.421Z
+ */
+
+class Solution {
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[] visited = new boolean[n];
+        int provinces = 0;
+        for (int i = 0; i < n; i++) {
+            // New connected component found
+            if (!visited[i]) {
+                provinces++;
+                Deque<Integer> stack = new ArrayDeque<>();
+                stack.push(i);
+                visited[i] = true;
+                while (!stack.isEmpty()) {
+                    int curr= stack.pop();
+                    // Check all possible neighbors
+                    for (int j = 0; j < n; j++) {
+
+                        if (isConnected[curr][j] == 1  && !visited[j]) {
+                            visited[j] = true;
+                            stack.push(j);
+                        }
+                    }
+                }
+            }
+        }
+        return provinces;
