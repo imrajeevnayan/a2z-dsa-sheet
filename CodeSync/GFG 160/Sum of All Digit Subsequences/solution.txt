@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of All Digit Subsequences
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-all-sub-sequences-of-a-number3437/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Sum Of All Subsequences Of A Number
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T17:17:15.535Z
+ */
+
+Input: s = "123" 
+Output: 24
+Explanation: The non-empty subsequences are: [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]. The sum of all digits in these subsequences is: 1 + 2 + 3 + (1 + 2) + (1 + 3) + (2 + 3) + (1 + 2 + 3) = 24.
