@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: APPROACH:
+ * URL: https://www.geeksforgeeks.org/problems/k-sum-paths/1
+ * Language: - As you traverse the tree (DFS), maintain the running sum from root to current node. - Use a HashMap to store how many times each prefix sum has occurred. - At each node, check if (runningSum - k) exists in the map. If yes, that means there’s a path ending at this node with sum = k. - Recurse into children, updating the map. - Backtrack (remove current node’s contribution before returning). - Time Complexity: O(n) (each node visited once). - Space Complexity: O(n) for HashMap.
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazonWalmartNPCI, Company Tags, Flipkart, Amazon, Walmart, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T17:18:46.005Z
+ */
+
+class Solution {
+
+    int count = 0;
+    HashMap<Long, Integer> map = new HashMap<>();
+
+    public int countAllPaths(Node root, int k) {
+
+        dfs(root, 0L, k);
+        return count;
+    }
+
+    private void dfs(Node node, long currSum, int k) {
+
+        if (node == null)
+            return;
+
+        currSum += node.data;
+
+        // Path starting from root
+        if (currSum == k)
+            count++;
+
+        // Paths ending at current node
+        count += map.getOrDefault(currSum - k, 0);
+
+        map.put(currSum, map.getOrDefault(currSum, 0) + 1);
+
+        dfs(node.left, currSum, k);
+        dfs(node.right, currSum, k);
+
+        // Backtracking
+        map.put(currSum, map.get(currSum) - 1);
+
+        if (map.get(currSum) == 0)
+            map.remove(currSum);
+    }
+}
