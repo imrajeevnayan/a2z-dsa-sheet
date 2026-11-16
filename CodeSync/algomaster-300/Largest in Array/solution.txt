@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags InfosysOracleWiproMorgan Stanley, Company Tags, Infosys, Oracle, Wipro, Morgan Stanley, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T10:38:11.865Z
+ * Synced: 2026-11-16T10:40:29.540Z
  */
 
 class Solution {
