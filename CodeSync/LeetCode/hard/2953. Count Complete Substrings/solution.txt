@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2953. Count Complete Substrings
+ * URL: https://leetcode.com/problems/count-complete-substrings/description/
+ * Language: Text
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T09:12:01.089Z
+ */
+
+Input: word = "igigee", k = 2
+Output: 3
+Explanation: The complete substrings where each character appears exactly twice and the difference between adjacent characters is at most 2 are: igigee, igigee, igigee.
