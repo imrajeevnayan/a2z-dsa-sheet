@@ -1,0 +1,61 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Kth Smallest in Subarray Queries
+ * URL: https://www.geeksforgeeks.org/problems/easy-query3301/1
+ * Language: class Solution { private: static int const MXN=15000; vector<int> tree[4*MXN+1]; unordered_map<int,int> ranker; unordered_map<int,int> de_ranker; public: vector<int> Rankify(vector<int> &nums){ vector<int> temp=nums; sort(temp.begin(),temp.end()); for(int i=0;i<nums.size();i++){ if(ranker.find(temp[i])==ranker.end()){ ranker[temp[i]]=i; de_ranker[i]=temp[i]; } } for(int i=0;i<nums.size();i++){ temp[i]=ranker[nums[i]]; } return temp; } int De_Rankify(int index){ return de_ranker[index]; } vector<int> MERGE(vector<int> &arr1, vector<int> &arr2){ vector<int> res; int n=arr1.size(); int m=arr2.size(); int i=0; int j=0; while(i<n && j<m){ if(arr1[i]<arr2[j]){ res.push_back(arr1[i++]); } else{ res.push_back(arr2[j++]); } } while(i<n){ res.push_back(arr1[i++]); } while(j<m){ res.push_back(arr2[j++]); } return res; } void buildTree(vector<int> &nums, int start, int end, int parent){ if(start>end){ return; } if(start==end){ tree[parent]={nums[start]}; return; } int mid=(start+end)/2; buildTree(nums,start,mid,2*parent+1); buildTree(nums,mid+1,end,2*parent+2); vector<int> leftChild=tree[2*parent+1]; vector<int> rightChild=tree[2*parent+2]; vector<int> root=MERGE(leftChild,rightChild); tree[parent]=root; } int LessThanEle_InRange(int start, int end, int parent, int qstart, int qend, int element){ if(qstart>end || qend<start){ // no elements return 0; } if(qstart<=start && qend>=end){ // count elements less than element return upper_bound(tree[parent].begin(),tree[parent].end(),element)-tree[parent].begin(); } int mid=(start+end)/2; int left=LessThanEle_InRange(start,mid,2*parent+1,qstart,qend,element); int right=LessThanEle_InRange(mid+1,end,2*parent+2,qstart,qend,element); return left+right; } bool isOK(int element, int k, int n, int l, int r){ int count=LessThanEle_InRange(0,n-1,0,l,r,element); return count>=k; } int QUERY_ANSWER(int l, int r, int k, int n){ int low=0; int high=n-1; int res=-1; while(low<=high){ int mid=(low+high)/2; if(isOK(mid,k,n,l,r)==true){ // if this mid element is the >=kth element, reduce mid res=mid; high=mid-1; } else{ low=mid+1; } } return De_Rankify(res); } vector<int> FindQuery(vector<int> &nums, vector<vector<int>> &Query){ int n=nums.size(); vector<int> temp=Rankify(nums); buildTree(temp,0,n-1,0); vector<int> res; for(auto q: Query){ int ans=QUERY_ANSWER(q[0]-1,q[1]-1,q[2],n); res.push_back(ans); } return res; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Binary Search Tree, Segment-Tree, Advanced Data Structure, Related Articles, Kth Smallest Element In A Subarray
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T17:26:39.118Z
+ */
+
+int mid = (start + end) / 2;
+
+        return countLessEqual(2 * node, start, mid, l, r, val)
+                + countLessEqual(2 * node + 1, mid + 1, end, l, r, val);
+    }
+
+    int upperBound(ArrayList<Integer> list, int x) {
+        int lo = 0, hi = list.size();
+
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+
+            if (list.get(mid) <= x)
+                lo = mid + 1;
+            else
+                hi = mid;
+        }
+
+        return lo;
+    }
+
+    public ArrayList<Integer> findQuery(int[] arr, int[][] queries) {
+
+        this.arr = arr;
+        n = arr.length;
+
+        tree = new ArrayList[4 * n];
+
+        build(1, 0, n - 1);
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int[] q : queries) {
+
+            int l = q[0] - 1;
+            int r = q[1] - 1;
+            int k = q[2];
+
+            int low = 1;
+            int high = n;
+
+            int res = 1;
+
+            while (low <= high) {
+
+                int mid = low + (high - low) / 2;
+
+                int cnt = countLessEqual(
+                        1, 0, n - 1,
