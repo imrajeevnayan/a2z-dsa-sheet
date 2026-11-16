@@ -410,3 +410,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 371 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | LeetCode | Hard | 15 Nov 2026 | 12:49 pm |
 | 372 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | LeetCode | Easy | 15 Nov 2026 | 12:50 pm |
 | 373 | [K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/1) | GeeksForGeeks | Medium | 15 Nov 2026 | 10:48 pm |
+| 374 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | LeetCode | Easy | 16 Nov 2026 | 12:40 pm |
