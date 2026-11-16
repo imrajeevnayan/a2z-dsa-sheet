@@ -2,17 +2,26 @@
  * Platform: GeeksforGeeks
  * Problem: K-th Missing in Natural Numbers
  * URL: https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1
- * Language: Java (21)
+ * Language: class Solution { public: int findKthSmall(vector<int>& arr, int k) { sort(arr.begin(), arr.end()); int ans = k; for(int &n : arr) { if(n <= ans) ans++; } return ans; } };
  * Difficulty: Unknown
  * Topics: Expected Complexities, Topic Tags, Arrays, Sorting, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T07:25:27.724Z
+ * Synced: 2026-11-16T07:26:00.891Z
  */
 
 class Solution {
     public int findKthSmall(int[] arr, int k) {
-        // code here
-        
+        Arrays.sort(arr);
+
+        for (int num : arr) {
+            if (num <= k) {
+  k++;
+            } else {
+                break;
+            }
+        }
+
+        return k;
     }
 }
