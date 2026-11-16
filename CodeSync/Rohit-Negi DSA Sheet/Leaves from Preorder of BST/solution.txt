@@ -1,0 +1,45 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Leaves from Preorder of BST
+ * URL: https://www.geeksforgeeks.org/problems/print-leaf-nodes-from-preorder-traversal-of-bst2657/1
+ * Language: class Node { constructor(value) { this.value = value this.next = null } } class Stack { #first = null #size = 0 push(value) { const node = new Node(value) node.next = this.#first this.#first = node this.#size++ } pop() { if (!this.#first) return null const node = this.#first this.#first = node.next this.#size-- return node.value } peek() { return this.#first?.value } get size() { return this.#size } } class Solution { leafNodes(preorder) { const nge = Array(preorder.length).fill(-1) const stack = new Stack() const leaves = [] for (let i = preorder.length - 1; i >= 0; i--) { while (stack.size > 0 && preorder[stack.peek()] < preorder[i]) stack.pop() if (stack.size > 0) nge[i] = stack.peek() stack.push(i) } const recursive = (start = 0, end = preorder.length - 1) => { if (start > end) return null let index = nge[start] if (index > end) index = -1 let left = null let right = null if (index === -1) { left = recursive(start + 1, end) } else { left = recursive(start + 1, index - 1) right = recursive(index, end) } if (left === null && right === null) leaves.push(preorder[start]) return preorder[start] } recursive() return leaves } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Facebook, Company Tags, Facebook, Topic Tags, Recursion, Stack, Binary Search Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T17:28:30.911Z
+ */
+
+class Solution {
+    public ArrayList<Integer> leafNodes(int[] preorder) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        int n = preorder.length;
+
+        if (n == 1) {
+            ans.add(preorder[0]);
+            return ans;
+        }
+
+        Stack<Integer> st = new Stack<>();
+
+        for (int i = 0; i < n - 1; i++) {
+            boolean flag = false;
+
+            if (preorder[i] > preorder[i + 1]) {
+                st.push(preorder[i]);
+            } else {
+                while (!st.isEmpty() && preorder[i + 1] > st.peek()) {
+                    st.pop();
+                    flag = true;
+                }
+
+                if (flag) {
+                    ans.add(preorder[i]);
+                }
+            }
+        }
+
+        ans.add(preorder[n - 1]);
+        return ans;
+    }
+}
