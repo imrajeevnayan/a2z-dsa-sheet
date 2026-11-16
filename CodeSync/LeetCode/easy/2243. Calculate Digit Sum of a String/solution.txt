@@ -1,17 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 2243. Calculate Digit Sum of a String
- * URL: https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/?envType=daily-question&envId=2026-11-16
+ * URL: https://leetcode.com/problems/calculate-digit-sum-of-a-string/?envType=daily-question&envId=2026-11-16
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T07:08:50.025Z
+ * Synced: 2026-11-16T07:09:52.911Z
  */
 
 class Solution {
     public String digitSum(String s, int k) {
-        
+        while (s.length() > k) {
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < s.length(); i += k) {
+                int sum = 0;
+
+                for (int j = i; j < Math.min(i + k, s.length()); j++) {
+                    sum += s.charAt(j) - '0';
+                }
+                sb.append(sum);
+            }
+
+            s = sb.toString();
+        }
+
+        return s;
     }
 }
