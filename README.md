@@ -421,3 +421,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 382 | [Lowest Common Ancestor in a BST](https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:24 pm |
 | 383 | [Max Sum Leaf to Root Path](https://www.geeksforgeeks.org/problems/maximum-sum-leaf-to-root-path/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:26 pm |
 | 384 | [Kth Smallest in Subarray Queries](https://www.geeksforgeeks.org/problems/easy-query3301/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:56 pm |
+| 385 | [Leaves from Preorder of BST](https://www.geeksforgeeks.org/problems/print-leaf-nodes-from-preorder-traversal-of-bst2657/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:58 pm |
