@@ -4,20 +4,12 @@
  * URL: https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
  * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Data Structures, Related Articles
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Arrays, Related Articles, Maximum And Minimum In An Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-07-14T15:38:41.313Z
+ * Synced: 2026-11-16T10:41:27.781Z
  */
 
-class Solution {
-    public ArrayList<Integer> getMinMax(int[] arr) {
-        int min=Integer.MAX_VALUE;
-        int max=Integer.MIN_VALUE;
-        for(int a:arr){
-            if(a>max)max=a;
-            if(a<min)min=a;
-        }
-        return new ArrayList<>(Arrays.asList(min,max));
-    }
-}
+Input: arr[] = [1, 4, 3, 5, 8, 6]
+Output: [1, 8]
+Explanation: minimum and maximum elements of array are 1 and 8.
