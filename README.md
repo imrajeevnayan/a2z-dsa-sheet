@@ -412,3 +412,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 373 | [K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/1) | GeeksForGeeks | Medium | 15 Nov 2026 | 10:48 pm |
 | 374 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | LeetCode | Easy | 16 Nov 2026 | 12:40 pm |
 | 375 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | LeetCode | Medium | 16 Nov 2026 | 12:44 pm |
+| 376 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | LeetCode | Easy | 16 Nov 2026 | 12:47 pm |
