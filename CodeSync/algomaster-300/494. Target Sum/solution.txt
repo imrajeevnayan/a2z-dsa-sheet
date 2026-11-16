@@ -7,11 +7,10 @@
  * Topics: Array, Dynamic Programming, Backtracking, Knapsack Problem, 0-1 Knapsack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T07:22:47.362Z
+ * Synced: 2026-11-16T07:22:48.770Z
  */
 
-class Solution {
-    public int findTargetSumWays(int[] nums, int target) {
+public int findTargetSumWays(int[] nums, int target) {
         int sum = 0;
         for (int num : nums) {
             sum += num;
