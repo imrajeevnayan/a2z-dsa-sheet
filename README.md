@@ -419,3 +419,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 380 | [Largest in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | GeeksForGeeks | Basic | 16 Nov 2026 | 04:11 pm |
 | 381 | [Rotate Array by One](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) | GeeksForGeeks | Basic | 16 Nov 2026 | 04:28 pm |
 | 382 | [Lowest Common Ancestor in a BST](https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:24 pm |
+| 383 | [Max Sum Leaf to Root Path](https://www.geeksforgeeks.org/problems/maximum-sum-leaf-to-root-path/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 10:26 pm |

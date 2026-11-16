@@ -1,12 +1,12 @@
 {
-  "totalSolved": 380,
+  "totalSolved": 381,
   "currentStreak": 26,
   "maxStreak": 26,
   "lastSyncDate": "2026-11-16",
-  "todayCount": 9,
+  "todayCount": 10,
   "difficultyCounts": {
     "easy": 135,
-    "medium": 214,
+    "medium": 215,
     "hard": 18,
     "basic": 13
   },
@@ -390,7 +390,8 @@
     "GeeksForGeeks_K-th_Missing_in_Natural_Numbers": true,
     "GeeksForGeeks_Largest_in_Array": true,
     "GeeksForGeeks_Rotate_Array_by_One": true,
-    "GeeksForGeeks_Lowest_Common_Ancestor_in_a_BST": true
+    "GeeksForGeeks_Lowest_Common_Ancestor_in_a_BST": true,
+    "GeeksForGeeks_Max_Sum_Leaf_to_Root_Path": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -443,7 +444,7 @@
     "2026-11-13": 6,
     "2026-11-14": 8,
     "2026-11-15": 7,
-    "2026-11-16": 9
+    "2026-11-16": 10
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -823,6 +824,7 @@
     "K-th Missing in Natural Numbers",
     "Largest in Array",
     "Rotate Array by One",
-    "Lowest Common Ancestor in a BST"
+    "Lowest Common Ancestor in a BST",
+    "Max Sum Leaf to Root Path"
   ]
 }
