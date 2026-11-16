@@ -2,15 +2,28 @@
  * Platform: GeeksforGeeks
  * Problem: Is Binary Tree Heap
  * URL: https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1
- * Language: Text
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Company Tags Hike Topic Tags Related Articles, Company Tags Hike, Company Tags, Hike, Topic Tags, Binary Search Tree, Tree, Heap
+ * Topics: Expected Complexities, Company Tags Hike, Company Tags, Hike, Topic Tags, Binary Search Tree, Tree, Heap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T17:31:12.224Z
+ * Synced: 2026-11-16T17:31:13.091Z
  */
 
-Input: root = [97, 46, 37, 12, 3, 7, 31, 6, 9]
- 
-Output: true
-Explanation: The tree is complete and satisfies the max-heap property.
+/*
+class Node {
+    int data;
+    Node left,right;
+    Node(int d){
+        data=d;
+        left=right=null;
+    }
+}
+*/
+
+class Solution {
+    public boolean isHeap(Node root) {
+        // code here
+        
+    }
+}
