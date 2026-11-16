@@ -415,3 +415,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 376 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | LeetCode | Easy | 16 Nov 2026 | 12:47 pm |
 | 377 | [Elimination Game](https://leetcode.com/problems/elimination-game/) | LeetCode | Medium | 16 Nov 2026 | 12:51 pm |
 | 378 | [Target Sum](https://leetcode.com/problems/target-sum/) | LeetCode | Medium | 16 Nov 2026 | 12:53 pm |
+| 379 | [K-th Missing in Natural Numbers](https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 12:56 pm |

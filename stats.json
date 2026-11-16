@@ -1,12 +1,12 @@
 {
-  "totalSolved": 376,
+  "totalSolved": 377,
   "currentStreak": 26,
   "maxStreak": 26,
   "lastSyncDate": "2026-11-16",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 135,
-    "medium": 212,
+    "medium": 213,
     "hard": 18,
     "basic": 11
   },
@@ -386,7 +386,8 @@
     "LeetCode_Find_Triangular_Sum_of_an_Array": true,
     "LeetCode_Min_Max_Game": true,
     "LeetCode_Elimination_Game": true,
-    "LeetCode_Target_Sum": true
+    "LeetCode_Target_Sum": true,
+    "GeeksForGeeks_K-th_Missing_in_Natural_Numbers": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -439,7 +440,7 @@
     "2026-11-13": 6,
     "2026-11-14": 8,
     "2026-11-15": 7,
-    "2026-11-16": 5
+    "2026-11-16": 6
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -815,6 +816,7 @@
     "Find Triangular Sum of an Array",
     "Min Max Game",
     "Elimination Game",
-    "Target Sum"
+    "Target Sum",
+    "K-th Missing in Natural Numbers"
   ]
 }
