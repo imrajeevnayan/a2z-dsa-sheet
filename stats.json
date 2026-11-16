@@ -1,12 +1,12 @@
 {
-  "totalSolved": 372,
+  "totalSolved": 373,
   "currentStreak": 26,
   "maxStreak": 26,
   "lastSyncDate": "2026-11-16",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 134,
-    "medium": 209,
+    "medium": 210,
     "hard": 18,
     "basic": 11
   },
@@ -382,7 +382,8 @@
     "LeetCode_Wildcard_Matching": true,
     "LeetCode_Shortest_Distance_to_a_Character": true,
     "GeeksForGeeks_K_Sum_Paths": true,
-    "LeetCode_Calculate_Digit_Sum_of_a_String": true
+    "LeetCode_Calculate_Digit_Sum_of_a_String": true,
+    "LeetCode_Find_Triangular_Sum_of_an_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -435,7 +436,7 @@
     "2026-11-13": 6,
     "2026-11-14": 8,
     "2026-11-15": 7,
-    "2026-11-16": 1
+    "2026-11-16": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -807,6 +808,7 @@
     "Wildcard Matching",
     "Shortest Distance to a Character",
     "K Sum Paths",
-    "Calculate Digit Sum of a String"
+    "Calculate Digit Sum of a String",
+    "Find Triangular Sum of an Array"
   ]
 }
