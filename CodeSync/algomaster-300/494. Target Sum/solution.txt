@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Backtracking, Knapsack Problem, 0-1 Knapsack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-16T07:23:45.542Z
+ * Runtime: 0 ms
+ * Memory: 42.50 MB
+ * Synced: 2026-11-16T09:17:33.991Z
  */
 
 class Solution {
@@ -26,7 +26,7 @@ class Solution {
             for (int j = sum; j >= num; j--) {
                 dp[j] += dp[j - num];
             }
-        }
+        } 
         return dp[sum];
     }
 }
