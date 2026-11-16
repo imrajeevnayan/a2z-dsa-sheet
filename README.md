@@ -414,3 +414,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 375 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | LeetCode | Medium | 16 Nov 2026 | 12:44 pm |
 | 376 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | LeetCode | Easy | 16 Nov 2026 | 12:47 pm |
 | 377 | [Elimination Game](https://leetcode.com/problems/elimination-game/) | LeetCode | Medium | 16 Nov 2026 | 12:51 pm |
+| 378 | [Target Sum](https://leetcode.com/problems/target-sum/) | LeetCode | Medium | 16 Nov 2026 | 12:53 pm |
