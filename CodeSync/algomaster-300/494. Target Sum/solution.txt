@@ -7,19 +7,17 @@
  * Topics: Array, Dynamic Programming, Backtracking, Knapsack Problem, 0-1 Knapsack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T07:23:25.758Z
+ * Synced: 2026-11-16T07:23:34.564Z
  */
 
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
         int total = 0;
-
-        for (int num : nums)  total += num;
+        for (int num : nums) total += num;
         
 
-        if (Math.abs(target) > total || (total + target) % 2 != 0) {
-            return 0;
-        }
+        if (Math.abs(target) > total || (total + target) % 2 != 0) return 0;
+        
 
         int sum = (total + target) / 2;
 
