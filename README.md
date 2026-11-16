@@ -417,3 +417,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 378 | [Target Sum](https://leetcode.com/problems/target-sum/) | LeetCode | Medium | 16 Nov 2026 | 12:53 pm |
 | 379 | [K-th Missing in Natural Numbers](https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 12:56 pm |
 | 380 | [Largest in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1) | GeeksForGeeks | Basic | 16 Nov 2026 | 04:11 pm |
+| 381 | [Rotate Array by One](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) | GeeksForGeeks | Basic | 16 Nov 2026 | 04:28 pm |
