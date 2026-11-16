@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Is Binary Tree Heap
+ * URL: https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Company Tags Hike Topic Tags Related Articles, Company Tags Hike, Company Tags, Hike, Topic Tags, Binary Search Tree, Tree, Heap
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T17:31:12.224Z
+ */
+
+Input: root = [97, 46, 37, 12, 3, 7, 31, 6, 9]
+ 
+Output: true
+Explanation: The tree is complete and satisfies the max-heap property.
