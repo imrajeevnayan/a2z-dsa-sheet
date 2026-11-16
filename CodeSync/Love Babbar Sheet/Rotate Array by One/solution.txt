@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, implementation, Related Articles, C Program Cyclically Rotate Array One
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T10:58:14.668Z
+ * Synced: 2026-11-16T16:52:11.005Z
  */
 
 Input: arr[] = [1, 2, 3, 4, 5]
