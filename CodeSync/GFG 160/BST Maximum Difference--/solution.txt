@@ -1,0 +1,49 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: BST Maximum Difference✅✅
+ * URL: https://www.geeksforgeeks.org/problems/bst-maximum-difference--170647/1
+ * Language: /*if target exist then it gives root to target sum. Else it returns a value indicating that target doesn't exist.*/ /*The code is very similar to search a node in BST, just the difference is maintaining sum from root to Leaf.*/ function rootToTarget(root,target) { if(root is null) return (not found); if(root == target) return rootValue; if(target>root.data) //move to right return root.data+rootToTarget( right of root ); else //move to left return root.data+rootToTarget( left of root ); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, DFS, Binary Search Tree, Related Articles, Bst Maximum Difference
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T17:30:39.227Z
+ */
+
+class Solution {
+
+    public static int maxDifferenceBST(Node root, int target) {
+
+        Node curr = root;
+        int s1 = 0;
+
+        // Find target and calculate S1
+        while (curr != null && curr.data != target) {
+            s1 += curr.data;
+
+            if (target < curr.data)
+                curr = curr.left;
+            else
+                curr = curr.right;
+        }
+
+        if (curr == null) return -1;
+
+        int s2 = minPath(curr) - curr.data;
+
+        return s1 - s2;
+    }
+
+    static int minPath(Node node) {
+
+        if (node == null)
+            return Integer.MAX_VALUE;
+
+        if (node.left == null && node.right == null)
+            return node.data;
+
+        return node.data +
+                Math.min(minPath(node.left),
+                         minPath(node.right));
+    }
+}
