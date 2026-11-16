@@ -7,31 +7,32 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T09:12:44.791Z
+ * Synced: 2026-11-16T09:13:13.085Z
  */
 
-for (int distinct = 1; distinct <= 26; distinct++) {
-
-        int res = 0;
-    private int count(String s, int k) {
-        int n = s.length();
-    }
-
-
-        return ans;
+if (len > n) {
+                break;
             }
-        }
-                start = end;
-                ans += count(word.substring(start, end), k);
 
-            if (end == n ||
-                Math.abs(word.charAt(end) - word.charAt(end - 1)) > 2) {
+            int[] freq = new int[26];
+            int exactK = 0;
 
-        for (int end = 0; end <= n; end++) {
+            for (int i = 0; i < len; i++) {
+                int idx = s.charAt(i) - 'a';
 
-        int start = 0;
+                if (freq[idx] == k) exactK--;
+                freq[idx]++;
+                if (freq[idx] == k) exactK++;
+            }
 
-        int n = word.length();
-        int ans = 0;
-    public int countCompleteSubstrings(String word, int k) {
-class Solution {
+            if (exactK == distinct) {
+                res++;
+            }
+
+            for (int r = len; r < n; r++) {
+
+                int add = s.charAt(r) - 'a';
+                int remove = s.charAt(r - len) - 'a';
+
+                if (freq[add] == k) exactK--;
+                freq[add]++;
