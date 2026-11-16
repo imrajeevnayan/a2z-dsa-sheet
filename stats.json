@@ -1,12 +1,12 @@
 {
-  "totalSolved": 374,
+  "totalSolved": 375,
   "currentStreak": 26,
   "maxStreak": 26,
   "lastSyncDate": "2026-11-16",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 135,
-    "medium": 210,
+    "medium": 211,
     "hard": 18,
     "basic": 11
   },
@@ -384,7 +384,8 @@
     "GeeksForGeeks_K_Sum_Paths": true,
     "LeetCode_Calculate_Digit_Sum_of_a_String": true,
     "LeetCode_Find_Triangular_Sum_of_an_Array": true,
-    "LeetCode_Min_Max_Game": true
+    "LeetCode_Min_Max_Game": true,
+    "LeetCode_Elimination_Game": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -437,7 +438,7 @@
     "2026-11-13": 6,
     "2026-11-14": 8,
     "2026-11-15": 7,
-    "2026-11-16": 3
+    "2026-11-16": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -811,6 +812,7 @@
     "K Sum Paths",
     "Calculate Digit Sum of a String",
     "Find Triangular Sum of an Array",
-    "Min Max Game"
+    "Min Max Game",
+    "Elimination Game"
   ]
 }
