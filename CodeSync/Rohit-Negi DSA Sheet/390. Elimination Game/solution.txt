@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 390. Elimination Game
+ * URL: https://leetcode.com/problems/elimination-game/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T07:20:51.869Z
+ */
+
+class Solution {
+    public int lastRemaining(int n) {
+        
+    }
+}
