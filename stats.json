@@ -1,14 +1,14 @@
 {
-  "totalSolved": 377,
+  "totalSolved": 378,
   "currentStreak": 26,
   "maxStreak": 26,
   "lastSyncDate": "2026-11-16",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 135,
     "medium": 213,
     "hard": 18,
-    "basic": 11
+    "basic": 12
   },
   "syncedProblems": {
     "GeeksForGeeks_Check_Level_Anagrams_in_Binary_Trees": true,
@@ -387,7 +387,8 @@
     "LeetCode_Min_Max_Game": true,
     "LeetCode_Elimination_Game": true,
     "LeetCode_Target_Sum": true,
-    "GeeksForGeeks_K-th_Missing_in_Natural_Numbers": true
+    "GeeksForGeeks_K-th_Missing_in_Natural_Numbers": true,
+    "GeeksForGeeks_Largest_in_Array": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -440,7 +441,7 @@
     "2026-11-13": 6,
     "2026-11-14": 8,
     "2026-11-15": 7,
-    "2026-11-16": 6
+    "2026-11-16": 7
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -817,6 +818,7 @@
     "Min Max Game",
     "Elimination Game",
     "Target Sum",
-    "K-th Missing in Natural Numbers"
+    "K-th Missing in Natural Numbers",
+    "Largest in Array"
   ]
 }
