@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Lowest Common Ancestor in a BST
+ * URL: https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1
+ * Language: /* class Node { public: int data; Node* left; Node* right; Node(int val) { data = val; left = NULL; right = NULL; } }; */ class Solution { public: void checkIsAncestor(Node*node,int toFind,bool &isFound) { if(!node || isFound ) return ; if(node->data == toFind ) isFound = true; if(node->data < toFind) checkIsAncestor(node->right,toFind,isFound); else checkIsAncestor(node->left,toFind,isFound); } void find(Node*node,Node*&ans,int &n1,int n2,int maxi) { if(!node || ans->data != -1 || n1 == -1) return; if(node->data == n1) { n1 = -1; bool isFound = 0; checkIsAncestor(node,n2,isFound); if(isFound) ans = node; return; } find(node->left,ans,n1,n2,node->data); find(node->right,ans,n1,n2,maxi); if(n1 == -1 && ans->data == -1) { if(n2 == node->data) ans = node; if(n2 > node->data && n2 <maxi) ans = node; } } Node* LCA(Node* root, Node* n1, Node* n2) { // code here int n = n1->data; int m = n2->data; Node *ans = new Node(-1); if(n > m) { n = n2->data; m = n1->data; } find(root,ans,n,m,INT_MAX); return ans; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Flipkart, Accolite, Amazon, Microsoft, Samsung, MAQ Software
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T16:53:21.080Z
+ */
+
+class Solution {
+    public Node findLCA(Node root, Node n1, Node n2) {
+        if (root == null) return null;
+
+        if (n1.data < root.data && n2.data < root.data)
+            return findLCA(root.left, n1, n2);
+
+        if (n1.data > root.data && n2.data > root.data)
+            return findLCA(root.right, n1, n2);
+
+        return root;
+    }
+}
