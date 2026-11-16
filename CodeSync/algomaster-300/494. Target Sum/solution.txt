@@ -1,0 +1,36 @@
+/*
+ * Platform: LeetCode
+ * Problem: 494. Target Sum
+ * URL: https://leetcode.com/problems/target-sum/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Backtracking, Knapsack Problem, 0-1 Knapsack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T07:22:47.362Z
+ */
+
+class Solution {
+    public int findTargetSumWays(int[] nums, int target) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        
+        if ((sum + target) % 2 != 0 || sum < Math.abs(target)) {
+            return 0;
+        }
+        
+        int subsetSum = (sum + target) / 2;
+        
+        int[] dp = new int[subsetSum + 1];
+        dp[0] = 1; // There is one way to get sum 0: choose nothing
+        
+        for (int num : nums) {
+            for (int j = subsetSum; j >= num; j--) {
+                dp[j] += dp[j - num];
+            }
+        }
+        return dp[subsetSum];
+    }
+}
