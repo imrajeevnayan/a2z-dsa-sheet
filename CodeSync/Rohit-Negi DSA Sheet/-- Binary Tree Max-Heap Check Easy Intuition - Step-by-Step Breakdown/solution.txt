@@ -1,0 +1,56 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 🔥 Binary Tree Max-Heap Check: Easy Intuition & Step-by-Step Breakdown
+ * URL: https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1
+ * Language: /* class Node { public: int data; Node *left; Node *right; Node(int val) { data = val; left = right = nullptr; } }; */ // Level order traversal would work here do two things // 1. at each level, if one node doesn't contains its left and right but any node prior or forward contains either ching return false // 2. in the same check if both the child, right and left if either is grater or eqaul roots data return false. class Solution { public: bool isHeap(Node* root) { // code here bool canIsayItIsValid=true; queue<Node *> myQ; myQ.push(root); while(!myQ.empty()){ Node* compare = myQ.front(); myQ.pop(); if((compare->left || compare->right) && !canIsayItIsValid){ return false; } if(compare->left && compare->data < compare->left->data){ return false; } if(!compare->left && compare->right) return false; if(compare->left && !compare->right) canIsayItIsValid= false; if(compare->right && compare->data < compare->right->data){ return false; } if(compare->left == nullptr && compare->right == nullptr){ canIsayItIsValid = false; } if(compare->left){ myQ.push(compare->left); } if(compare->right){ myQ.push(compare->right); } } return true; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Hike, Company Tags, Hike, Topic Tags, Binary Search Tree, Tree, Heap
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T17:31:47.925Z
+ */
+
+class Solution {
+
+    int countNodes(Node root) {
+        if (root == null) return 0;
+
+        return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+
+    boolean isCBT(Node root, int index, int total) {
+        if (root == null) return true;
+
+        if (index >= total) return false;
+
+        return isCBT(root.left, 2 * index + 1, total)
+            && isCBT(root.right, 2 * index + 2, total);
+    }
+
+    boolean isMaxHeap(Node root) {
+        if (root == null) return true;
+
+        // Leaf node
+        if (root.left == null && root.right == null)
+            return true;
+
+        // Only left child
+        if (root.right == null) {
+            return root.data >= root.left.data
+                && isMaxHeap(root.left);
+        }
+
+        // Both children
+        return root.data >= root.left.data
+            && root.data >= root.right.data
+            && isMaxHeap(root.left)
+            && isMaxHeap(root.right);
+    }
+
+    public boolean isHeap(Node root) {
+        int total = countNodes(root);
+
+        return isCBT(root, 0, total)
+            && isMaxHeap(root);
+    }
+}
