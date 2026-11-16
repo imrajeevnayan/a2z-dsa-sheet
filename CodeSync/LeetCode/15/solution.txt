@@ -1,24 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 15
- * URL: https://leetcode.com/discuss/post/7487949/10-easy-pattern-to-start-before-solving-mccrl/
- * Language: India
+ * URL: https://leetcode.com/problems/min-max-game/submissions/2197127208/
+ * Language: Problem List
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-12T19:01:55.817Z
+ * Runtime: 1 ms
+ * Memory: 44.36 MB
+ * Synced: 2026-11-16T07:20:23.493Z
  */
 
-#include <iostream>
-using namespace std;
-
-int main() {
-    int rows = 4, cols = 5;
-    for(int i=0; i<rows; i++) {
-        for(int j=0; j<cols; j++) {
-            cout << "* ";
-        }
-        cout << endl;
-    }
-}
+1class Solution {
+2    public int minMaxGame(int[] nums) {
+3        int n = nums.length;
+4
+5        while (n > 1) {
+6            for (int i = 0; i < n / 2; i++) {
+7                if (i % 2 == 0) {
+8                    nums[i] = Math.min(nums[2 * i], nums[2 * i + 1]);
+9                } else {
+10                    nums[i] = Math.max(nums[2 * i], nums[2 * i + 1]);
+11                }
+12            }
+13            n /= 2;
+14        }
+15
+16        return nums[0];
+17    }
+18}
