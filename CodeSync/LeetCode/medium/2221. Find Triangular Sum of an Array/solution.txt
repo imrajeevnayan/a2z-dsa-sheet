@@ -1,0 +1,16 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2221. Find Triangular Sum of an Array
+ * URL: https://leetcode.com/problems/find-triangular-sum-of-an-array/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Array, Math, Simulation, Combinatorics, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T07:12:29.924Z
+ */
+
+Input: nums = [1,2,3,4,5]
+Output: 8
+Explanation:
+The above diagram depicts the process from which we obtain the triangular sum of the array.
