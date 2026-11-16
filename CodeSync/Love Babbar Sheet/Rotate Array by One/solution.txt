@@ -7,16 +7,9 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, implementation, Related Articles, C Program Cyclically Rotate Array One
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-14T16:56:50.201Z
+ * Synced: 2026-11-16T10:58:14.668Z
  */
 
-class Solution {
-    public void rotate(int[] arr) {
-        if (arr == null || arr.length <= 1) return;
-        int last = arr[arr.length - 1];
-        for (int i = arr.length - 1; i > 0; i--) {
-            arr[i] = arr[i - 1];
-        }
-        arr[0] = last;
-    }
-}
+Input: arr[] = [1, 2, 3, 4, 5]
+Output: [5, 1, 2, 3, 4]
+Explanation: If we rotate arr by one position in clockwise 5 come to the front and remaining those are shifted to the end.
