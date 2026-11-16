@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Morgan Stanley, Company Tags, Morgan Stanley, Topic Tags, Binary Search Tree, Tree, Related Interview Experiences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-16T17:24:19.021Z
+ * Synced: 2026-11-16T17:24:24.734Z
  */
 
 class Solution {
@@ -20,8 +20,7 @@ class Solution {
         if (root == null)   return Integer.MIN_VALUE;
         if (root.left == null && root.right == null)  return root.data;
 
-        return root.data + Math.max(solve(root.left),
-                solve(root.right)
+        return root.data + Math.max( solve(root.left), solve(root.right)
         );
     }
 }
