@@ -7,11 +7,42 @@
  * Topics: Programming, Binary Search, Emergent? Register Now ->, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-17T09:45:48.242Z
+ * Synced: 2026-11-17T09:46:16.048Z
  */
 
-public class Solution {
-    // DO NOT MODIFY THE LIST. IT IS READ ONLY
-    public int findCount(final List<Integer> A, int B) {
+while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            if (A.get(mid) == target) {
+                ans = mid;
+                high = mid - 1; // search left
+            } else if (A.get(mid) < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        
+        return ans;
+    }
+    
+    private int findLast(List<Integer> A, int target) {
+        int low = 0, high = A.size() - 1;
+        int ans = -1;
+        
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            if (A.get(mid) == target) {
+                ans = mid;
+                low = mid + 1; // search right
+            } else if (A.get(mid) < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        
+        return ans;
     }
 }
