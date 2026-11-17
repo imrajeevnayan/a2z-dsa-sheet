@@ -7,26 +7,32 @@
  * Topics: Array, Binary Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-17T05:43:45.398Z
+ * Synced: 2026-11-17T05:43:45.775Z
  */
 
 class Solution {
-    public int findPeakElement(int[] nums) {
-        int start = 0;
-        int end = nums.length - 1;
-        int ans = -1;
+    public int[] findPeakGrid(int[][] mat) {
+        int m = mat.length;
+        int n = mat[0].length;
 
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
+        int left = 0, right = n - 1;
 
-            if (mid < nums.length - 1 && nums[mid] < nums[mid + 1]) {
-                start = mid + 1;
-            } else {
-                ans = mid;
-                end = mid - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            // Find the row with maximum element in the mid column
+            int maxRow = 0;
+            for (int i = 1; i < m; i++) {
+                if (mat[i][mid] > mat[maxRow][mid]) {
+                    maxRow = i;
+                }
             }
-        }
 
-        return ans;
-    }
-}
+            int leftVal = (mid > 0) ? mat[maxRow][mid - 1] : -1;
+            int rightVal = (mid < n - 1) ? mat[maxRow][mid + 1] : -1;
+
+            if (mat[maxRow][mid] > leftVal && mat[maxRow][mid] > rightVal) {
+                return new int[]{maxRow, mid};
+            } else if (leftVal > mat[maxRow][mid]) {
+                right = mid - 1;
+            } else {
