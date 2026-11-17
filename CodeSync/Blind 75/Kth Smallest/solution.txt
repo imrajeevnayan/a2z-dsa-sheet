@@ -2,24 +2,17 @@
  * Platform: GeeksforGeeks
  * Problem: Kth Smallest
  * URL: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
- * Language: class Solution { public: int kthSmallest(vector<int> &arr, int k) { return quickselect(arr, 0, arr.size() - 1, k); } private: int partition(vector<int>& arr, int low, int high) { int pivot = arr[high]; int i = low - 1; for (int j = low; j < high; j++) { if (arr[j] <= pivot) { i++; swap(arr[i], arr[j]); } } swap(arr[i + 1], arr[high]); return i + 1; } int quickselect(vector<int>& arr, int low, int high, int k) { if (low <= high) { int pi = partition(arr, low, high); if (pi == k - 1) { return arr[pi]; } else if (pi > k - 1) { return quickselect(arr, low, pi - 1, k); } else { return quickselect(arr, pi + 1, high, k); } } return -1; } };
+ * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, VMWare, Accolite, Amazon, Microsoft, Snapdeal, Hike
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T13:07:13.529Z
+ * Synced: 2026-11-17T06:20:43.226Z
  */
 
 class Solution {
     public int kthSmallest(int[] arr, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-
-        for (int n : arr) pq.add(n);
-    
-        while (k > 1) {
-            pq.poll();
-            k--;
-        }
-        return pq.poll();
+        // Code here
+        
     }
 }
