@@ -6,12 +6,27 @@
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
- * Memory: 43.42 MB
- * Synced: 2026-11-17T05:41:45.179Z
+ * Memory: 43.72 MB
+ * Synced: 2026-11-17T05:43:03.578Z
  */
 
 class Solution {
     public int findPeakElement(int[] nums) {
-        int low=0,high=nums.length-2,ans=nums.length-1;
-        while(low<=high){
-            int mid=low+(high-low)/2;
+        int start = 0;
+        int end = nums.length - 1;
+        int ans = -1;
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if (mid < nums.length - 1 && nums[mid] < nums[mid + 1]) {
+                start = mid + 1;
+            } else {
+                ans = mid;
+                end = mid - 1;
+            }
+        }
+
+        return ans;
+    }
+}
