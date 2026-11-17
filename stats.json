@@ -1,12 +1,12 @@
 {
-  "totalSolved": 387,
+  "totalSolved": 388,
   "currentStreak": 27,
   "maxStreak": 27,
   "lastSyncDate": "2026-11-17",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 136,
-    "medium": 220,
+    "medium": 221,
     "hard": 18,
     "basic": 13
   },
@@ -397,7 +397,8 @@
     "GeeksForGeeks_BST_Maximum_Difference": true,
     "GeeksForGeeks_Is_Binary_Tree_Heap": true,
     "LeetCode_Find_Peak_Element": true,
-    "GeeksForGeeks_Repeated_Pattern_Check": true
+    "GeeksForGeeks_Repeated_Pattern_Check": true,
+    "GeeksForGeeks_Kth_Smallest": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -451,7 +452,7 @@
     "2026-11-14": 8,
     "2026-11-15": 7,
     "2026-11-16": 14,
-    "2026-11-17": 2
+    "2026-11-17": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -838,6 +839,7 @@
     "BST Maximum Difference",
     "Is Binary Tree Heap",
     "Find Peak Element",
-    "Repeated Pattern Check"
+    "Repeated Pattern Check",
+    "Kth Smallest"
   ]
 }

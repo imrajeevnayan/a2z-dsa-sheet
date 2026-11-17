@@ -426,3 +426,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 387 | [Is Binary Tree Heap](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 11:01 pm |
 | 388 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | LeetCode | Medium | 17 Nov 2026 | 11:11 am |
 | 389 | [Repeated Pattern Check](https://www.geeksforgeeks.org/problems/the-pattern-matcher/1) | GeeksForGeeks | Easy | 17 Nov 2026 | 11:49 am |
+| 390 | [Kth Smallest](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksForGeeks | Medium | 17 Nov 2026 | 11:50 am |
