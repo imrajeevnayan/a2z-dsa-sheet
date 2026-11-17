@@ -7,29 +7,27 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Related Articles, Check String Follows Anbn Pattern Not
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-17T06:19:53.461Z
+ * Synced: 2026-11-17T06:20:07.748Z
  */
 
 class Solution {
     public boolean findPattern(String s) {
         int i = 0;
-        int n = s.length();
 
-        while (i < n) {
+        while (i < s.length()) {
+            int x = 0, y = 0;
 
-            int xCount = 0;
-            while (i < n && s.charAt(i) == 'x') {
-                xCount++;
+            while (i < s.length() && s.charAt(i) == 'x') {
+                x++;
                 i++;
             }
 
-            int yCount = 0;
-            while (i < n && s.charAt(i) == 'y') {
-                yCount++;
+            while (i < s.length() && s.charAt(i) == 'y') {
+                y++;
                 i++;
             }
 
-            if (xCount == 0 || yCount == 0 || xCount != yCount) {
+            if (x != y || x == 0) {
                 return false;
             }
         }
