@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2911. Minimum Changes to Make K Semi-palindromes
+ * URL: https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/description/?envType=daily-question&envId=2026-11-17
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Two Pointers, String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-17T05:47:46.248Z
+ */
+
+class Solution {
+    public int minimumChanges(String s, int k) {
+        
+    }
+}
