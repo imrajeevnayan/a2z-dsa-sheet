@@ -425,3 +425,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 386 | [BST Maximum Difference](https://www.geeksforgeeks.org/problems/bst-maximum-difference--170647/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 11:00 pm |
 | 387 | [Is Binary Tree Heap](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | GeeksForGeeks | Medium | 16 Nov 2026 | 11:01 pm |
 | 388 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | LeetCode | Medium | 17 Nov 2026 | 11:11 am |
+| 389 | [Repeated Pattern Check](https://www.geeksforgeeks.org/problems/the-pattern-matcher/1) | GeeksForGeeks | Easy | 17 Nov 2026 | 11:49 am |
