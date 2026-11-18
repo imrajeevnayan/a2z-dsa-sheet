@@ -7,11 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:37:25.489Z
+ * Synced: 2026-11-18T06:37:30.819Z
  */
 
 package main
-import "fmt
+import(
 
 /*
  * Complete the 'writeToFile' function below.
@@ -44,5 +44,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 
 }
 
+    "f"
+)
 
 func main() {
