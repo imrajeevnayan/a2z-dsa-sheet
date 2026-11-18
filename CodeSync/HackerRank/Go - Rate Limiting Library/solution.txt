@@ -1,0 +1,57 @@
+/*
+ * Platform: HackerRank
+ * Problem: Go - Rate Limiting Library
+ * URL: https://www.hackerrank.com/test-v2/f1mesrkodhe/questions/9t9psineti9
+ * Language: Language:Go
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-18T07:09:38.723Z
+ */
+
+package main
+
+import (
+    "bufio"
+    "fmt"
+    "io"
+    "os"
+    "strconv"
+    "strings"
+    "io/ioutil"
+)
+
+
+/*
+ * Complete the 'rateLimiter' function below.
+ *
+ * The function accepts following parameters:
+ *  1. STRING inputFileName
+ *  2. STRING outputFileName
+ */
+
+func rateLimiter(inputFileName string, outputFileName string) {
+    // implement the logic for rate limiting
+}
+func main() {
+    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+
+    nTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
+    checkError(err)
+    n := int(nTemp)
+    nStr := strconv.Itoa(n) + "\n"
+
+    file, err := os.Create(inputFileName)
+    checkError(err)
+    _, err = os.Create(outputFileName)
+    checkError(err)
+    _, err = file.WriteString(nStr)
+    checkError(err)
+    for i := 0; i < n; i++ {
+        inputString := readLine(reader)
+        _, err = file.WriteString(inputString)
+        checkError(err)
+    }
+    defer file.Close()
+    rateLimiter(inputFileName, outputFileName)
