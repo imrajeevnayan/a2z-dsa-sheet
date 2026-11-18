@@ -7,20 +7,26 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:16:01.378Z
+ * Synced: 2026-11-18T07:16:20.012Z
  */
 
-*  2. STRING outputFileName
- */
+// implement the logic for rate limiting
+}
+    
+    in, err := os.Open(inputFile)
+    if err !=nil{
+        return
+    }
+    
 
 package main
-    "strings"
-    "strconv"
 import (
     "bufio"
     "fmt"
     "io"
     "os"
+    "strconv"
+    "strings"
     "io/ioutil"
 )
 
@@ -33,25 +39,6 @@ import (
  *  2. STRING outputFileName
  */
 
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel 
-chan error) {
-    file ,err :=os.Create(filename)
-    if err!= nil{
-        errChannel <-err
-        doneChannel <-true
-        return
-    }
-    defer file.Close()
-    
-    errChannel <-nil
-    
-    for data := range bytesChannel{
-        _,err:= file.write(data)
-        if err!=nil{
-            errChannel <- err
-            return
-        }
-    }
-    doneChannel <-true
-
-}
+func rateLimiter(inputFileName string, outputFileName string) {
+    de
+func main() {
