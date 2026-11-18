@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:58:21.510Z
+ * Synced: 2026-11-18T06:58:28.359Z
  */
 
 errChannel <-nil
@@ -47,5 +47,5 @@ import(
         }
 
             _,err:=file.Write(data)
-            if err!
+            if err!=&runtime.PanicNilError{}e
 func main() {
