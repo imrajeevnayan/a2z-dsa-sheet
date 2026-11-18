@@ -7,28 +7,28 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:25:16.669Z
+ * Synced: 2026-11-18T07:26:08.637Z
  */
 
-var window []int64
+(outputFileName)
+    checkError(errErr)
+    fmt.Println(string(rateLimiterOutput))
+}
+const inputFileName = "input"
+const outputFileName = "output"
+
+func readLine(reader *bufio.Reader) string {
+    str, _, err := reader.ReadLine()
+    if err == io.EOF {
+        return ""
     }
 
-    if scanner.Scan() {
-        // ignored
-    // Skip first line (number of requests)
-    defer writer.Flush()
-
-    writer := bufio.NewWriter(outputFile)
-    scanner := bufio.NewScanner(inputFile)
-
-    defer outputFile.Close()
-        return
+    return string(str)+"\n"
+    rateLimiterOutput, errErr := ioutil.ReadFile
+    //validate the outputFileName
+    
+    rateLimiter(inputFileName, outputFileName)
+    defer file.Close()
     }
-    if err != nil {
-    outputFile, err := os.Create(outputFileName)
-
-    defer inputFile.Close()
-    }
-        return
-    if err != nil {
-    inputFile, err := os.Open(inputFileName)
+        checkError(err)
+        _, err = file.WriteString(inputString)
