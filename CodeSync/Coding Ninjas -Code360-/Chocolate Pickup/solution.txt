@@ -1,0 +1,54 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Chocolate Pickup
+ * URL: https://www.naukri.com/code360/problems/ninja-and-his-friends_3125885
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2439 ms
+ * Memory: N/A
+ * Synced: 2026-11-18T18:40:40.789Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static int maximumChocolates(int r, int c, int[][] grid) {
+ 
+        int[][][] dp = new int[r][c][c];
+ 
+        for (int[][] layer : dp) {
+            for (int[] row : layer) {
+                Arrays.fill(row, -1);
+            }
+        }
+ 
+        return solve(0, 0, c - 1, grid, r, c, dp);
+    }
+ 
+    private static int solve(int i, int j1, int j2,
+                             int[][] grid, int r, int c,
+                             int[][][] dp) {
+ 
+        if (j1 < 0 || j1 >= c || j2 < 0 || j2 >= c) {
+            return (int)-1e9;
+        }
+ 
+        if (i == r - 1) {
+            if (j1 == j2) {
+                return grid[i][j1];
+            }
+            return grid[i][j1] + grid[i][j2];
+        }
+ 
+        if (dp[i][j1][j2] != -1) {
+            return dp[i][j1][j2];
+        }
+ 
+        int chocolates;
+ 
+        if (j1 == j2) {
+            chocolates = grid[i][j1];
+        } else {
+            chocolates = grid[i][j1] + grid[i][j2];
