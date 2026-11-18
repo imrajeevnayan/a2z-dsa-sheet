@@ -1,33 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: 238. Product of Array Except Self
- * URL: https://leetcode.com/problems/product-of-array-except-self/submissions/2183278297/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: Text
  * Difficulty: Medium
  * Topics: Array, Prefix Sum
- * Runtime: 0 ms
- * Memory: 71.92 MB
- * Synced: 2026-10-27T16:55:10.562Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-18T16:22:27.085Z
  */
 
-for (int i = 1; i < n; i++) {
-            res[i] = res[i - 1] * nums[i - 1];
-        }
-
-        // multiply suffix products
-        int suffix = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            res[i] *= suffix;
-            suffix *= nums[i];
-        }
-
-        return res;
-    }
-}
-        // store prefix products
-
-
-        res[0] = 1;
-        int n = nums.length;
-        int[] res = new int[n];
-    public int[] productExceptSelf(int[] nums) {
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
