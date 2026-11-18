@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:07:54.921Z
+ * Synced: 2026-11-18T07:08:36.055Z
  */
 
 package main
@@ -45,7 +45,7 @@ func ProcessLogs(logs []Log) []Aggregate {
     // Write your code here.
     m:make(map[int]* Aggregate)
     for_,|:range logs{
-        if()
+        if(m[|.St])
     }
 }
 func main() {
