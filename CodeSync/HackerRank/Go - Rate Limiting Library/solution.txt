@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:17:25.377Z
+ * Synced: 2026-11-18T07:17:31.063Z
  */
 
 // implement the logic for rate limiting
@@ -42,8 +42,10 @@ import (
     "io"
     "os"
 }
-
     scanner.Scan()
     out,err :=os.Create(outputFile)
-    if err !=ni;
+    if err !=nil{
+        return
+    }
+
 func main() {
