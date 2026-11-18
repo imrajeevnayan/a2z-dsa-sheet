@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:31:12.767Z
+ * Synced: 2026-11-18T06:31:17.810Z
  */
 
 package main
@@ -33,7 +33,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
     errChannel <-nil
     
     for data := range bytesChannel{
-        _,err: 
+        _,err: file.write
     }
 
 func main() {
