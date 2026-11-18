@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:07:32.925Z
+ * Synced: 2026-11-18T07:07:54.921Z
  */
 
 package main
@@ -43,7 +43,9 @@ type Aggregate struct {
 
 func ProcessLogs(logs []Log) []Aggregate {
     // Write your code here.
-}
     m:make(map[int]* Aggregate)
-    for_,|:range lo
+    for_,|:range logs{
+        if()
+    }
+}
 func main() {
