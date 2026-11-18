@@ -7,11 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:37:04.756Z
+ * Synced: 2026-11-18T06:37:25.489Z
  */
 
 package main
-import os
+import "fmt
 
 /*
  * Complete the 'writeToFile' function below.
