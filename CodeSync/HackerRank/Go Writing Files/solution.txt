@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:47:13.315Z
+ * Synced: 2026-11-18T06:47:21.106Z
  */
 
-"io"
-    "io/ioutil" 
+"io/ioutil" 
     "os" 
     "runtime" 
     "strconv" 
@@ -42,7 +41,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             return
         }
 
-    case doneChannel <-true
+    case<- doneChannel <-
 
 }
 
