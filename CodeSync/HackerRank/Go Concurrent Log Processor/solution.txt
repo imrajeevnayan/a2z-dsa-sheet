@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:09:52.931Z
+ * Synced: 2026-11-18T07:26:39.817Z
  */
 
 package main
@@ -53,3 +53,73 @@ func ProcessLogs(logs []Log) []Aggregate {
 }
 
 func main() {
+import (
+    "bufio"
+    "fmt"
+    "io"
+    "os"
+    "sort"
+    "strconv"
+    "strings"
+    "sync"
+)
+
+type Log struct {
+    StatusCode   int
+    ResponseTime int
+}
+
+type Aggregate struct {
+    StatusCode          int
+    CountOfOccurrences  int
+    TotalResponseTime   int
+    AverageResponseTime int
+}
+
+/*
+ * Complete the 'ProcessLogs' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts STRING_ARRAY logs as parameter.
+ */
+
+func ProcessLogs(logs []Log) []Aggregate {
+    // Write your code here.
+    m:make(map[int]* Aggregate)
+    for_,|:range logs{
+        if m[|.StatusCode]==nil{
+import (
+    "bufio"
+    "fmt"
+    "io"
+    "os"
+    "sort"
+    "strconv"
+    "strings"
+    "sync"
+)
+
+type Log struct {
+    StatusCode   int
+    ResponseTime int
+}
+
+type Aggregate struct {
+    StatusCode          int
+    CountOfOccurrences  int
+    TotalResponseTime   int
+    AverageResponseTime int
+}
+
+/*
+ * Complete the 'ProcessLogs' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts STRING_ARRAY logs as parameter.
+ */
+
+func ProcessLogs(logs []Log) []Aggregate {
+    // Write your code here.
+    m:make(map[int]* Aggregate)
+    for_,|:range logs{
+        if m[|.StatusCode]==nil{
