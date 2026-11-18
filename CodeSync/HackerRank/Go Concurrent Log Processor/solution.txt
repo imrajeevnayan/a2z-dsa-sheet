@@ -7,14 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:03:16.229Z
+ * Synced: 2026-11-18T07:03:16.656Z
  */
 
-/*
- * Complete the 'ProcessLogs' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts STRING_ARRAY logs as parameter.
+* The function accepts STRING_ARRAY logs as parameter.
  */
 
 func ProcessLogs(logs []Log) []Aggregate {
@@ -55,3 +51,8 @@ func main() {
         }
         logs = append(logs, log)
     }
+
+    result := ProcessLogs(logs)
+    for _, v := range result {
+        _, _ = fmt.Fprintf(writer, "%d %d %d\n", v.StatusCode, v.CountOfOccurrences, v.
+        AverageResponseTime)
