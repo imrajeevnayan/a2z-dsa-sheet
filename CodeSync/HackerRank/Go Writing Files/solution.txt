@@ -7,38 +7,41 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:32:04.406Z
+ * Synced: 2026-11-18T06:34:45.271Z
  */
 
-package main
-/*
- * Complete the 'writeToFile' function below.
- *
- * The function accepts following parameters:
- *  1. chan []byte bytesChannel
- *  2. chan bool doneChannel
- *  3. chan error errChannel
- */
-
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
-    file ,err :=os.Create(filename)
-    if err!=nil{
+if err!= nil{
         errChannel <-err
-    }
-
-}
-
+        doneChannel <-true
         return
+    }
     defer file.Close()
+    
     errChannel <-nil
     
     for data := range bytesChannel{
-        _,err: file.write(data)
-    }
+        _,err:= file.write(data)
         if err!=nil{
             errChannel <- err
-        }
-
             return
-    doneChannel <
+        }
+    }
+    doneChannel <-true
+
+}
+
+
+    file ,err :=os.Create(filename)
+func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
+
+ *  2. chan bool doneChannel
+ *  3. chan error errChannel
+ */
+ *
+ * The function accepts following parameters:
+ *  1. chan []byte bytesChannel
+ * Complete the 'writeToFile' function below.
+package main
+/*
+
 func main() {
