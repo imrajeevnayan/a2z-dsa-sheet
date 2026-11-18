@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:09:11.563Z
+ * Synced: 2026-11-18T07:09:16.440Z
  */
 
 package main
@@ -47,7 +47,7 @@ func ProcessLogs(logs []Log) []Aggregate {
     for_,|:range logs{
         if m[|.StatusCode]==nil{
     }
-            m[\]
+            m[|.Staaaaa]
         }
 }
 func main() {
