@@ -7,10 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:27:12.772Z
+ * Synced: 2026-11-18T07:29:08.292Z
  */
 
 package main
+
 
 import (
     "bufio"
@@ -43,83 +44,12 @@ type Aggregate struct {
  */
 
 func ProcessLogs(logs []Log) []Aggregate {
-    // Write your code here.
-    m:make(map[int]* Aggregate)
-    for_,|:range logs{
-        if m[|.StatusCode]==nil{
-            m[|.StatusCode]
-        }
-    }
-}
+    var wg sync.WaitGroup
+    var mu sync.Mutex
 
-func main() {
-    "os"
-    "sort"
-    "strconv"
-    "strings"
-    "sync"
-)
+    stats := make(map[int]*Aggregate)
 
-type Log struct {
-    StatusCode   int
-    ResponseTime int
-}
+    for _, lg := range logs {
+        wg.Add(1)
 
-type Aggregate struct {
-    StatusCode          int
-    CountOfOccurrences  int
-    TotalResponseTime   int
-    AverageResponseTime int
-}
-
-/*
- * Complete the 'ProcessLogs' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts STRING_ARRAY logs as parameter.
- */
-
-func ProcessLogs(logs []Log) []Aggregate {
-    // Write your code here.
-    m:make(map[int]* Aggregate)
-    for_,|:range logs{
-        if m[|.StatusCode]==nil{
-            m[|.StatusCode]
-    "io"
-    "bufio"
-    "fmt"
-    "os"
-    "sort"
-    "strconv"
-    "strings"
-    "sync"
-)
-
-type Log struct {
-    StatusCode   int
-    ResponseTime int
-}
-
-type Aggregate struct {
-    StatusCode          int
-    CountOfOccurrences  int
-    TotalResponseTime   int
-    AverageResponseTime int
-}
-
-/*
- * Complete the 'ProcessLogs' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts STRING_ARRAY logs as parameter.
- */
-
-func ProcessLogs(logs []Log) []Aggregate {
-    // Write your code here.
-    m:make(map[int]* Aggregate)
-    for_,|:range logs{
-        if m[|.StatusCode]==nil{
-            m[|.StatusCode]
-    "io"
-    "bufio"
-    "fmt"
+        go func(log Log) {
