@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:39:01.035Z
+ * Synced: 2026-11-18T06:40:04.203Z
  */
 
 package main
@@ -43,4 +43,5 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 }
 
 
+import("buf")
 func main() {
