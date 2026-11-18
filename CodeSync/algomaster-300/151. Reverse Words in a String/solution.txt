@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 151. Reverse Words in a String
- * URL: https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=problem-list-v2&envId=da2mv5gs
+ * URL: https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75
  * Language: Text
  * Difficulty: Medium
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-24T16:23:31.939Z
+ * Synced: 2026-11-18T16:05:50.528Z
  */
 
 Input: s = "the sky is blue"
