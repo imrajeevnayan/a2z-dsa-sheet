@@ -7,51 +7,28 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:24:59.243Z
+ * Synced: 2026-11-18T07:25:16.669Z
  */
 
-outputFile, err := os.Create(outputFileName)
-    if err != nil {
-        return
+var window []int64
     }
-    defer outputFile.Close()
 
-    scanner := bufio.NewScanner(inputFile)
-    writer := bufio.NewWriter(outputFile)
-    defer writer.Flush()
-
-    // Skip first line (number of requests)
     if scanner.Scan() {
         // ignored
+    // Skip first line (number of requests)
+    defer writer.Flush()
+
+    writer := bufio.NewWriter(outputFile)
+    scanner := bufio.NewScanner(inputFile)
+
+    defer outputFile.Close()
+        return
     }
+    if err != nil {
+    outputFile, err := os.Create(outputFileName)
 
-    var window []int64
-
-    for scanner.Scan() {
-        line := strings.TrimSpace(scanner.Text())
-        if line == "" {
-            continue
     defer inputFile.Close()
     }
         return
     if err != nil {
     inputFile, err := os.Open(inputFileName)
-string) {
-        }
-
-        parts := strings.Split(line, ",")
-        if len(parts) < 2 {
-            continue
-        }
-
-        timestamp, _ := strconv.ParseInt(parts[1], 10, 64)
-
-        for len(window) > 0 && timestamp-window[0] >= 1000 
-        {
-            window = window[1:]
-        }
-
-        if len(window) < 5 {
-            window = append(window, timestamp)
-            writer.WriteString("PASSED\n")
-        } else {
