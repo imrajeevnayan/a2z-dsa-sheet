@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:14:31.860Z
+ * Synced: 2026-11-18T07:14:48.664Z
  */
 
 // implement the logic for rate limiting
@@ -34,9 +34,10 @@ import (
 func rateLimiter(inputFileName string, outputFileName string) {
 }
     
-    in,err : os.Open(inputFile)
+    in, err :=os.Open(inputFile)
     if err !=nil{
-        readLine
+        return
     }
 
+    
 func main() {
