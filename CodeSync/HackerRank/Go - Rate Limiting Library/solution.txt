@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:16:37.426Z
+ * Synced: 2026-11-18T07:16:45.250Z
  */
 
 // implement the logic for rate limiting
@@ -37,10 +37,11 @@ package main
 
 func rateLimiter(inputFileName string, outputFileName string) {
     defer in.Close()
-    scanner :=bufio.NewScanner()
+    scanner :=bufio.NewScanner(in)
 import (
     "io"
     "os"
 }
 
+    scanner.
 func main() {
