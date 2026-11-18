@@ -7,10 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:35:40.747Z
+ * Synced: 2026-11-18T06:37:04.756Z
  */
 
 package main
+import os
 
 /*
  * Complete the 'writeToFile' function below.
