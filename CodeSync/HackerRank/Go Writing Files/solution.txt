@@ -7,17 +7,17 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:53:43.688Z
+ * Synced: 2026-11-18T06:54:01.622Z
  */
 
-for data := rangbytesChannel:
+for data := range bytesChannel{
         _,err:= file.Write(data)
         if err!=nil{
             errChannel <- err
             return
         }
       case <-doneChannel:
-       return
+       ret
    }
         }
 func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
