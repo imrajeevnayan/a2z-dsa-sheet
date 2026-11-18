@@ -1,34 +1,47 @@
 /*
- * Platform: LeetCode
+ * Platform: Coding Ninjas (Code360)
  * Problem: Target Sum
- * URL: https://leetcode.com/problems/target-sum/submissions/2056019588/?envType=problem-list-v2&envId=dwgzxnyj
- * Language: DP for Beginners (Copy-x1k8lxi5)
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming, Backtracking
- * Runtime: 0 ms
- * Memory: 42.92 MB
- * Synced: 2026-07-04T16:34:45.088Z
+ * URL: https://www.naukri.com/code360/problems/target-sum_4127362
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 2873 ms
+ * Memory: N/A
+ * Synced: 2026-11-18T18:44:29.292Z
  */
 
-if ((sum + target) % 2 != 0 || sum < Math.abs(target)) {
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static int targetSum(int n, int target, int[] arr) {
+ 
+        int totalSum = 0;
+ 
+        for (int x : arr) {
+            totalSum += x;
+        }
+ 
+        if (Math.abs(target) > totalSum) {
             return 0;
         }
-        
-        int subsetSum = (sum + target) / 2;
-        
-        int[] dp = new int[subsetSum + 1];
-        dp[0] = 1; // There is one way to get sum 0: choose nothing
-        
-        for (int num : nums) {
-            for (int j = subsetSum; j >= num; j--) {
-                dp[j] += dp[j - num];
+ 
+        if ((totalSum + target) % 2 != 0) {
+            return 0;
+        }
+ 
+        int reqSum = (totalSum + target) / 2;
+ 
+        int[] dp = new int[reqSum + 1];
+        dp[0] = 1;
+ 
+        for (int num : arr) {
+ 
+            for (int s = reqSum; s >= num; s--) {
+                dp[s] += dp[s - num];
             }
         }
-        return dp[subsetSum];
-        
-            sum += num;
-        }
-        for (int num : nums) {
-    public int findTargetSumWays(int[] nums, int target) {
-        int sum = 0;
-class Solution {
+ 
+        return dp[reqSum];
+    }
+}
