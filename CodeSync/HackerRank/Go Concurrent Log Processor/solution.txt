@@ -7,33 +7,8 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:02:44.163Z
+ * Synced: 2026-11-18T07:03:16.229Z
  */
-
-package main
-
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "os"
-    "sort"
-    "strconv"
-    "strings"
-    "sync"
-)
-
-type Log struct {
-    StatusCode   int
-    ResponseTime int
-}
-
-type Aggregate struct {
-    StatusCode          int
-    CountOfOccurrences  int
-    TotalResponseTime   int
-    AverageResponseTime int
-}
 
 /*
  * Complete the 'ProcessLogs' function below.
@@ -47,3 +22,36 @@ func ProcessLogs(logs []Log) []Aggregate {
 }
 
 func main() {
+    reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
+
+    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+    checkError(err)
+
+    defer stdout.Close()
+
+    writer := bufio.NewWriterSize(stdout, 16*1024*1024)
+
+    logsCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
+    checkError(err)
+
+    var logs []Log
+
+    for i := 0; i < int(logsCount); i++ {
+        logsItem := readLine(reader)
+        logParts := strings.Fields(logsItem)
+        if len(logParts) != 2 {
+            continue
+        }
+
+        statusCode, err1 := strconv.Atoi(logParts[0])
+        responseTime, err2 := strconv.Atoi(logParts[1])
+        if err1 != nil || err2 != nil {
+            continue
+        }
+
+        log := Log{
+            StatusCode:   statusCode,
+            ResponseTime: responseTime,
+        }
+        logs = append(logs, log)
+    }
