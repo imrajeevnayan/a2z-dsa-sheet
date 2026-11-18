@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:47:42.070Z
+ * Synced: 2026-11-18T06:48:28.370Z
  */
 
-"strconv" 
-    "strings")
 /*
  * Complete the 'writeToFile' function below.
  *
@@ -37,8 +35,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             errChannel <- err
             return
         }
-
-    case<- doneChannel
+      case<- doneChannel"
 
 }
 
@@ -46,7 +43,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
         select{
-      case data :=<- bytesChannel{
+      case data := <-bytesChannel{
 
     stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
     checkError(err)
@@ -55,3 +52,7 @@ func main() {
    }
 
     defer stdout.Close()
+
+    writer := bufio.NewWriterSize(stdout, 16 * 1024 * 1024)
+
+    inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
