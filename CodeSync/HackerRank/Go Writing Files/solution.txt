@@ -7,52 +7,50 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:01:04.796Z
+ * Synced: 2026-11-18T07:01:57.026Z
  */
 
-var inputArray []string
+inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
 
-    for i := 0; i < int(inputArrayCount); i++ {
-        inputArrayItem := readLine(reader)
-        inputArray = append(inputArray, inputArrayItem)
-    }
+    writer := bufio.NewWriterSize(stdout, 16 * 1024 * 1024)
 
-    bytesChannel, doneChannel, errChannel := make(chan []byte), make (chan bool), make(chan error)
-    var ms runtime.MemStats
-    runtime.ReadMemStats(&ms)
-    allocBefore := ms.Alloc
-    go writeToFile(bytesChannel, doneChannel, errChannel)
-    err = <- errChannel
-    if err != nil {
-        panic(err)
-    }
-    for _, b := range inputArray {
-        bytesChannel <- []byte(b)
-        err := <- errChannel
-        if err != nil {
-            fmt.Fprintf(writer, "Critical error: %s", err.Error())
-            break
-        }
-    }
-    doneChannel <- true
-    runtime.ReadMemStats(&ms)
-    allocAfter := ms.Alloc
-    fmt.Printf("Total memory allocated: %d bytes\n", allocAfter - allocBefore)
-    if allocAfter - allocBefore > 10000 {
-        fmt.Fprintf(writer, "Too much memory allocated, maximum 10000 bytes needed")
-    } else {
-        b, err := ioutil.ReadFile(filename)
-        if err == nil {
-            fmt.Fprintf(writer, "%s\n", string(b))
-        } else {
-            fmt.Fprintf(writer, "Critical error: %s", err.Error())
-        }   
-    }
+    defer stdout.Close()
 
-    writer.Flush()
+    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+    checkError(err)
+    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+
+func main() {
+
 }
+        
+     }
+        }
+            return
+            }
+            case <-doneChannel:
+                return
+                errChannel <-err
+            _,err:=file.Write(data)
+            if err!=nil{
+        select{
+            case data:= <-bytesChannel:
+    errChannel <-nil
+     for{
+    }
+    defer file.Close()
+    
+        errChannel <-err
+        return
+    file ,err :=os.Create(filename)
+    if err!= nil{
+func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
 
-const filename = "output"
-
-func readLine(reader *bufio.Reader) string {
-    str, _, err := reader.ReadLine()
+ */
+ *  3. chan error errChannel
+ *  2. chan bool doneChannel
+ *  1. chan []byte bytesChannel
+ * The function accepts following parameters:
+ *
+ * Complete the 'writeToFile' function below.
+/*
