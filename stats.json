@@ -1,12 +1,12 @@
 {
-  "totalSolved": 391,
+  "totalSolved": 392,
   "currentStreak": 28,
   "maxStreak": 28,
   "lastSyncDate": "2026-11-18",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 138,
-    "medium": 222,
+    "medium": 223,
     "hard": 18,
     "basic": 13
   },
@@ -401,7 +401,8 @@
     "GeeksForGeeks_Kth_Smallest": true,
     "LeetCode_Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful": true,
     "GeeksForGeeks_XOR_of_Number_Range": true,
-    "LeetCode_Reverse_Vowels_of_a_String": true
+    "LeetCode_Reverse_Vowels_of_a_String": true,
+    "LeetCode_Path_Sum_III": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -456,7 +457,7 @@
     "2026-11-15": 7,
     "2026-11-16": 14,
     "2026-11-17": 3,
-    "2026-11-18": 3
+    "2026-11-18": 4
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -847,6 +848,7 @@
     "Kth Smallest",
     "Minimum Number of Changes to Make Binary String Beautiful",
     "XOR of Number Range",
-    "Reverse Vowels of a String"
+    "Reverse Vowels of a String",
+    "Path Sum III"
   ]
 }
