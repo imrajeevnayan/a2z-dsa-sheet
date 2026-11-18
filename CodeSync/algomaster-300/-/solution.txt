@@ -1,36 +1,44 @@
 /*
  * Platform: LeetCode
  * Problem: -
- * URL: https://leetcode.com/problems/substring-matching-pattern/submissions/2169221433/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/path-sum-iii/submissions/2198863915/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T11:47:46.252Z
+ * Synced: 2026-11-18T17:58:18.002Z
  */
 
-class Solution {
-    public boolean hasMatch(String s, String p) {
-        // Pattern ko '*' ke basis par split karo
-        // Example: "ee*e" -> ["ee", "e"]
-        String[] parts = p.split("\\*", -1); 
-        String prefix = parts[0];
-        String suffix = parts[1];
-        
-        int n = s.length();
-        int preLen = prefix.length();
-        int sufLen = suffix.length();
-        
-        // Edge case: Agar prefix aur suffix dono empty hain ("*")
-        // Toh wo har string ka substring hai (empty string always exists)
-        if (preLen == 0 && sufLen == 0) return true;
-        
-        // String 's' ke har possible starting index ko check karo
-        for (int i = 0; i <= n - preLen; i++) {
-            // Check karo ki kya current position par prefix match ho raha hai?
-            if (s.startsWith(prefix, i)) {
-                
-                // Ab check karo ki kya iske baad kahin suffix bhi fit ho sakta hai?
-                // Suffix kabhi bhi aa sakta hai, bas uski length available honi chahiye
-                // Aur wo prefix ke turant baad ya uske baad kisi jagah aa sakta hai
+1class Solution {
+2    public int pathSum(TreeNode root, int targetSum) {
+3        Map<Long, Integer> prefixSum = new HashMap<>();
+4        prefixSum.put(0L, 1);
+5
+6        return dfs(root, 0L, targetSum, prefixSum);
+7    }
+8
+9    private int dfs(TreeNode node, long currSum, int targetSum,
+10                    Map<Long, Integer> prefixSum) {
+11
+12        if (node == null) {
+13            return 0;
+14        }
+15
+16        currSum += node.val;
+17
+18        int count = prefixSum.getOrDefault(currSum - targetSum, 0);
+19
+20        prefixSum.put(currSum,
+21                prefixSum.getOrDefault(currSum, 0) + 1);
+22
+23        count += dfs(node.left, currSum, targetSum, prefixSum);
+24        count += dfs(node.right, currSum, targetSum, prefixSum);
+25
+26        // Backtrack
+27        prefixSum.put(currSum, prefixSum.get(currSum) - 1);
+28
+29        return count;
+30    }
+31}
+32
