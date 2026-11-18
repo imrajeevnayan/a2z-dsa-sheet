@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:02:16.963Z
+ * Synced: 2026-11-18T07:02:18.377Z
  */
 
 inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
@@ -27,9 +27,8 @@ func main() {
      }
         }
             return
-            
             case <-doneChannel:
-                return
+                ret
             _,err:=file.Write(data)
             errChannel <-err
         select{
