@@ -7,7 +7,15 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:13:05.643Z
+ * Synced: 2026-11-18T07:13:18.860Z
+ */
+
+/*
+ * Complete the 'rateLimiter' function below.
+ *
+ * The function accepts following parameters:
+ *  1. STRING inputFileName
+ *  2. STRING outputFileName
  */
 
 package main
@@ -32,48 +40,7 @@ import (
  */
 
 func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel 
-    file ,err :=os.Create(filename)
-    if err!= nil{
 chan error) {
-        errChannel <-err
-        doneChannel <-true
-        return
-    }
-    defer file.Close()
-    
-    errChannel <-nil
-    
-    for data := range bytesChannel{
-        _,err:= file.write(data)
-        if err!=nil{
-            errChannel <- err
-            return
-        }
-    }
-    doneChannel <-true
-
-}
-func main() {
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "os"
-    "strconv"
-    "strings"
-    "io/ioutil"
-)
-
-
-/*
- * Complete the 'rateLimiter' function below.
- *
- * The function accepts following parameters:
- *  1. STRING inputFileName
- *  2. STRING outputFileName
- */
-
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
     file ,err :=os.Create(filename)
     if err!= nil{
         errChannel <-err
@@ -87,44 +54,3 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
     for data := range bytesChannel{
         _,err:= file.write(data)
         if err!=nil{
-            errChannel <- err
-            return
-        }
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
-·‌·‌·‌·‌file ,err :=os.Create(filename)
-·‌·‌·‌·‌if err!= nil{
-·‌·‌·‌·‌·‌·‌·‌·‌errChannel <-err
-·‌·‌·‌·‌·‌·‌·‌·‌doneChannel <-true
-·‌·‌·‌·‌·‌·‌·‌·‌return
-·‌·‌·‌·‌}
-·‌·‌·‌·‌defer file.Close()
-·‌·‌·‌·‌
-·‌·‌·‌·‌errChannel <-nil
-·‌·‌·‌·‌
-·‌·‌·‌·‌for data := range bytesChannel{
-·‌·‌·‌·‌·‌·‌·‌·‌_,err:= file.write(data)
-·‌·‌·‌·‌·‌·‌·‌·‌if err!=nil{
-·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌errChannel <- err
-·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌return
-·‌·‌·‌·‌·‌·‌·‌·‌}
-·‌·‌·‌·‌}
-·‌·‌·‌·‌doneChannel <-true
-
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "os"
-    "strconv"
-    "strings"
-    "io/ioutil"
-)
-
-
-/*
- * Complete the 'rateLimiter' function below.
- *
- * The function accepts following parameters:
- *  1. STRING inputFileName
- *  2. STRING outputFileName
- */
