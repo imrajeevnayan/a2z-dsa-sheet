@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:58:05.866Z
+ * Synced: 2026-11-18T06:58:15.067Z
  */
 
 errChannel <-nil
@@ -46,5 +46,5 @@ import(
             case data:= <-bytesChannel:
         }
 
-            _,err:=
+            _,err:=file.Write(data)
 func main() {
