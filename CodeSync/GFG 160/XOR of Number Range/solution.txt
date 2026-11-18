@@ -7,9 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Bit Magic, Related Articles, Find Xor Of Numbers From The Range L R
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T11:14:22.872Z
+ * Synced: 2026-11-18T11:14:23.352Z
  */
 
-Input: l = 4, r = 8 
-Output: 8 
-Explanation: The XOR of all integers from 4 to 8 is (4 xor 5 xor 6 xor 7 xor 8) = 8.
+class Solution {
+    public int findXOR(int l, int r) {
+        // code here
+        
+    }
+}
