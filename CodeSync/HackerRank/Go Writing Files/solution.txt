@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:47:00.244Z
+ * Synced: 2026-11-18T06:47:11.312Z
  */
 
-"fmt" 
-    "io"
+"io"
     "io/ioutil" 
     "os" 
     "runtime" 
@@ -42,8 +41,8 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             errChannel <- err
             return
         }
-    
-    doneChannel <-true
+
+    caaaaaaaaa doneChannel <-true
 
 }
 
@@ -55,3 +54,5 @@ func main() {
 
     stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
     checkError(err)
+
+    defer stdout.Close()
