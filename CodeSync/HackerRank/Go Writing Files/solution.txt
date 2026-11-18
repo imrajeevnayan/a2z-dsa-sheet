@@ -7,22 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:25:38.708Z
+ * Synced: 2026-11-18T06:25:39.007Z
  */
 
 package main
-
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "io/ioutil"
-    "os"
-    "runtime"
-    "strconv"
-    "strings"
-)
-
 
 /*
  * Complete the 'writeToFile' function below.
@@ -39,18 +27,3 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 
 
 func main() {
-    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
-
-    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
-    checkError(err)
-
-    defer stdout.Close()
-
-    writer := bufio.NewWriterSize(stdout, 16 * 1024 * 1024)
-
-    inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
-    checkError(err)
-
-    var inputArray []string
-
-    for i := 0; i < int(inputArrayCount); i++ {
