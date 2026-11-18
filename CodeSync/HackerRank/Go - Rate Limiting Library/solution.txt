@@ -7,19 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:13:18.860Z
+ * Synced: 2026-11-18T07:13:33.887Z
  */
 
-/*
- * Complete the 'rateLimiter' function below.
- *
- * The function accepts following parameters:
- *  1. STRING inputFileName
- *  2. STRING outputFileName
- */
-
+// implement the logic for rate limiting
 package main
-
 import (
     "bufio"
     "fmt"
@@ -39,18 +31,4 @@ import (
  *  2. STRING outputFileName
  */
 
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel 
-chan error) {
-    file ,err :=os.Create(filename)
-    if err!= nil{
-        errChannel <-err
-        doneChannel <-true
-        return
-    }
-    defer file.Close()
-    
-    errChannel <-nil
-    
-    for data := range bytesChannel{
-        _,err:= file.write(data)
-        if err!=nil{
+func rateLimiter(inputFileName string, outputFileName string) {
