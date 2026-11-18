@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:01:57.026Z
+ * Synced: 2026-11-18T07:02:10.690Z
  */
 
 inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
@@ -30,9 +30,8 @@ func main() {
             }
             case <-doneChannel:
                 return
-                errChannel <-err
             _,err:=file.Write(data)
-            if err!=nil{
+            if err!=nierrChannel <-err
         select{
             case data:= <-bytesChannel:
     errChannel <-nil
@@ -54,3 +53,5 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
  *
  * Complete the 'writeToFile' function below.
 /*
+    
+    checkError(err)
