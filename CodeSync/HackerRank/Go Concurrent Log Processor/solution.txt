@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:05:00.312Z
+ * Synced: 2026-11-18T07:05:06.078Z
  */
 
 package main
@@ -46,5 +46,5 @@ func ProcessLogs(logs []Log) []Aggregate {
     // Write your code here.
 }
 
-    resultMa
+    resultMap: maa
 func main() {
