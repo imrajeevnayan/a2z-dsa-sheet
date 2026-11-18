@@ -7,10 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:53:33.557Z
+ * Synced: 2026-11-18T06:53:43.688Z
  */
 
-for data :=bytesChannel:
+for data := rangbytesChannel:
         _,err:= file.Write(data)
         if err!=nil{
             errChannel <- err
