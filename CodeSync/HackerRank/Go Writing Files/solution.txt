@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:48:28.370Z
+ * Synced: 2026-11-18T06:49:36.193Z
  */
 
 /*
@@ -35,7 +35,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             errChannel <- err
             return
         }
-      case<- doneChannel"
+      case<- doneChannel:
 
 }
 
@@ -47,8 +47,8 @@ func main() {
 
     stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
     checkError(err)
-    return
-      }
+       return
+
    }
 
     defer stdout.Close()
