@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 700. Search in a Binary Search Tree
+ * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Binary Search Tree, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-18T19:22:06.860Z
+ */
+
+Input: root = [4,2,7,1,3], val = 2
+Output: [2,1,3]
