@@ -7,51 +7,45 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:19:03.036Z
+ * Synced: 2026-11-18T07:20:55.239Z
  */
 
-nStr := strconv.Itoa(n) + "\n"
+package main
+import (
+    "bufio"
+    "fmt"
+    "go/scanner"
+    "io"
+    "io/ioutil"
+    "os"
+    "strconv"
+    "strings"
+)
 
-    file, err := os.Create(inputFileName)
-    checkError(err)
-    _, err = os.Create(outputFileName)
-    checkError(err)
-    _, err = file.WriteString(nStr)
-    checkError(err)
-    for i := 0; i < n; i++ {
-        inputString := readLine(reader)
-        _, err = file.WriteString(inputString)
-        checkError(err)
+/*
+ * Complete the 'rateLimiter' function below.
+ *
+ * The function accepts following parameters:
+ *  1. STRING inputFileName
+ *  2. STRING outputFileName
+ */
+
+func rateLimiter(inputFileName string, outputFileName 
+string) {
+    // implement the logic for rate limiting
+    in, err := os.Open(inputFile)
+    if err !=nil{
+        return
     }
-    defer file.Close()
-    rateLimiter(inputFileName, outputFileName)
-    
-    //validate the outputFileName
-    rateLimiterOutput, errErr := ioutil.ReadFile(outputFileName)
-    checkError(errErr)
-    fmt.Println(string(rateLimiterOutput))
-}
-const inputFileName = "input"
-const outputFileName = "output"
-
-func readLine(reader *bufio.Reader) string {
-    str, _, err := reader.ReadLine()
-    if err == io.EOF {
-        return ""
+    defer in.Close()
+    scanner :=bufio.NewScanner(in)
+    scanner.Scan()
+    out,err :=os.Create(outputFile)
+    if err !=nil{
+        return
     }
-
-    return string(str)+"\n"
-}
-
-func checkError(err error) {
-    if err != nil {
-        panic(err)
-    }
-}
-
     
     
     
 }
-
 func main() {
