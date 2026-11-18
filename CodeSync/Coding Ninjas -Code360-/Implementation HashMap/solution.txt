@@ -1,0 +1,46 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Implementation: HashMap
+ * URL: https://www.naukri.com/code360/problems/implementation-hashmap_630343
+ * Language: Java (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-18T18:43:19.266Z
+ */
+
+import java.util.*;
+ 
+public class myHashMap {
+ 
+    private HashMap<String, Integer> map;
+ 
+    public myHashMap() {
+        map = new HashMap<>();
+    }
+ 
+    public void insert(String key, int value) {
+        map.put(key, value);
+    }
+ 
+    public int get(String key) {
+        return map.getOrDefault(key, -1);
+    }
+ 
+    public void remove(String key) {
+        map.remove(key);
+    }
+ 
+    public boolean search(String key) {
+        return map.containsKey(key);
+    }
+ 
+    public int getSize() {
+        return map.size();
+    }
+ 
+    public boolean isEmpty() {
+        return map.isEmpty();
+    }
+}
