@@ -7,49 +7,44 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:03:34.842Z
+ * Synced: 2026-11-18T07:04:48.254Z
  */
 
-for i := 0; i < int(logsCount); i++ {
-        logsItem := readLine(reader)
-        logParts := strings.Fields(logsItem)
-        if len(logParts) != 2 {
-            continue
-        }
+package main
 
-        statusCode, err1 := strconv.Atoi(logParts[0])
-        responseTime, err2 := strconv.Atoi(logParts[1])
-        if err1 != nil || err2 != nil {
-            continue
-        }
+import (
+    "bufio"
+    "fmt"
+    "io"
+    "os"
+    "sort"
+    "strconv"
+    "strings"
+    "sync"
+)
 
-        log := Log{
-            StatusCode:   statusCode,
-            ResponseTime: responseTime,
-        }
-        logs = append(logs, log)
-    }
-
-    result := ProcessLogs(logs)
-    for _, v := range result {
-        _, _ = fmt.Fprintf(writer, "%d %d %d\n", v.StatusCode, v.CountOfOccurrences, v.
-        AverageResponseTime)
-    }
-
-    writer.Flush()
+type Log struct {
+    StatusCode   int
+    ResponseTime int
 }
 
-func readLine(reader *bufio.Reader) string {
-    str, _, err := reader.ReadLine()
-    if err == io.EOF {
-        return ""
-    }
-
-    return strings.TrimRight(string(str), "\r\n")
+type Aggregate struct {
+    StatusCode          int
+    CountOfOccurrences  int
+    TotalResponseTime   int
+    AverageResponseTime int
 }
 
-func checkError(err error) {
-    if err != nil {
-        panic(err)
-    }
+/*
+ * Complete the 'ProcessLogs' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts STRING_ARRAY logs as parameter.
+ */
+
+func ProcessLogs(logs []Log) []Aggregate {
+    // Write your code here.
 }
+
+    re
+func main() {
