@@ -429,3 +429,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 390 | [Kth Smallest](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksForGeeks | Medium | 17 Nov 2026 | 11:50 am |
 | 391 | [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | LeetCode | Medium | 18 Nov 2026 | 04:41 pm |
 | 392 | [XOR of Number Range](https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1) | GeeksForGeeks | Easy | 18 Nov 2026 | 04:44 pm |
+| 393 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | LeetCode | Easy | 18 Nov 2026 | 09:35 pm |
