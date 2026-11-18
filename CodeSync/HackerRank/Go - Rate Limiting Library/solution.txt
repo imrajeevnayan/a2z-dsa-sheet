@@ -7,22 +7,31 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:17:31.063Z
+ * Synced: 2026-11-18T07:18:57.667Z
  */
 
-// implement the logic for rate limiting
-    
+func rateLimiter(inputFileName string, outputFileName string) {
+    // implement the logic for rate limiting
     in, err := os.Open(inputFile)
     if err !=nil{
         return
     }
-    
-package main
+    defer in.Close()
+    scanner :=bufio.NewScanner(in)
+    scanner.Scan()
+    out,err :=os.Create(outputFile)
+    if err !=nil{
+        return
+    }
+    package main
 
+import (
     "bufio"
     "fmt"
     "go/scanner"
+    "io"
     "io/ioutil"
+    "os"
     "strconv"
     "strings"
 )
@@ -36,16 +45,13 @@ package main
  */
 
 func rateLimiter(inputFileName string, outputFileName string) {
-    defer in.Close()
-    scanner :=bufio.NewScanner(in)
-import (
-    "io"
-    "os"
-}
-    scanner.Scan()
-    out,err :=os.Create(outputFile)
+    // implement the logic for rate limiting
+    in, err := os.Open(inputFile)
     if err !=nil{
         return
     }
-
-func main() {
+    defer in.Close()
+    scanner :=bufio.NewScanner(in)
+    scanner.Scan()
+    out,err :=os.Create(outputFile)
+    if err !=nil{
