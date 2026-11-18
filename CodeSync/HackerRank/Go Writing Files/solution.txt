@@ -7,28 +7,51 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:44:48.355Z
+ * Synced: 2026-11-18T06:46:23.977Z
  */
 
-*  3. chan error errChannel
+package main
+import( 
+    "bufio" 
+    "fmt" 
+    "io"
+    "io/ioutil" 
+    "os" 
+    "runtime" 
+    "strconv" 
+    "strings")
+/*
+ * Complete the 'writeToFile' function below.
+ *
+ * The function accepts following parameters:
+ *  1. chan []byte bytesChannel
+ *  2. chan bool doneChannel
+ *  3. chan error errChannel
  */
 
 func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
     file ,err :=os.Create(filename)
     if err!= nil{
- *  2. chan bool doneChannel
- * The function accepts following parameters:
- *  1. chan []byte bytesChannel
- *
- * Complete the 'writeToFile' function below.
-/*
-    "strings")
-    "strconv" 
-    "os" 
-    "runtime" 
-    "io/ioutil" 
-    "fmt" 
-    "bufio" 
-import( 
-package main
-    "io"
+        errChannel <-err
+        return
+    }
+    defer file.Close()
+    
+    errChannel <-nil
+    
+    for{
+        _,err:= file.Write(data)
+        if err!=nil{
+            errChannel <- err
+            return
+        }
+    }
+    doneChannel <-true
+
+}
+
+
+func main() {
+    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+        se
+    } data := range bytesChannel{
