@@ -7,28 +7,51 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:26:08.637Z
+ * Synced: 2026-11-18T07:28:32.747Z
  */
 
-(outputFileName)
-    checkError(errErr)
-    fmt.Println(string(rateLimiterOutput))
-}
-const inputFileName = "input"
-const outputFileName = "output"
+package main
+import (
+    "bufio"
+    "fmt"
+    "io"
+    "os"
+    "strconv"
+    "strings"
+    "io/ioutil"
+)
 
-func readLine(reader *bufio.Reader) string {
-    str, _, err := reader.ReadLine()
-    if err == io.EOF {
-        return ""
-    }
 
-    return string(str)+"\n"
-    rateLimiterOutput, errErr := ioutil.ReadFile
-    //validate the outputFileName
-    
-    rateLimiter(inputFileName, outputFileName)
-    defer file.Close()
+/*
+ * Complete the 'rateLimiter' function below.
+ *
+ * The function accepts following parameters:
+ *  1. STRING inputFileName
+ *  2. STRING outputFileName
+ */
+
+func rateLimiter(inputFileName string, outputFileName 
+string) {
+    inputFile, err := os.Open(inputFileName)
+    if err != nil {
+        return
     }
-        checkError(err)
-        _, err = file.WriteString(inputString)
+    defer inputFile.Close()
+
+    outputFile, err := os.Create(outputFileName)
+    if err != nil {
+        return
+    }
+    defer outputFile.Close()
+
+    scanner := bufio.NewScanner(inputFile)
+    writer := bufio.NewWriter(outputFile)
+    defer writer.Flush()
+
+    // Skip first line
+    scanner.Scan()
+
+    clientRequests := make(map[string][]int64)
+
+    for scanner.Scan() {
+        line := strings.TrimSpace(scanner.Text())
