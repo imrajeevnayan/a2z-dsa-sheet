@@ -7,14 +7,13 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:10:22.160Z
+ * Synced: 2026-11-18T07:12:17.460Z
  */
 
-}
-func main() {
-    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
 
-    nTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
+    nTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 
+    64)
     checkError(err)
     n := int(nTemp)
     nStr := strconv.Itoa(n) + "\n"
@@ -55,3 +54,4 @@ func checkError(err error) {
         panic(err)
     }
 }
+func main() {
