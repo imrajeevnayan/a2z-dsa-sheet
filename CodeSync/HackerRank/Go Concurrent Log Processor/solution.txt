@@ -7,25 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:03:27.044Z
+ * Synced: 2026-11-18T07:03:34.842Z
  */
 
-func main() {
-    reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
-
-    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
-    checkError(err)
-
-    defer stdout.Close()
-
-    writer := bufio.NewWriterSize(stdout, 16*1024*1024)
-
-    logsCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
-    checkError(err)
-
-    var logs []Log
-
-    for i := 0; i < int(logsCount); i++ {
+for i := 0; i < int(logsCount); i++ {
         logsItem := readLine(reader)
         logParts := strings.Fields(logsItem)
         if len(logParts) != 2 {
@@ -52,4 +37,19 @@ func main() {
     }
 
     writer.Flush()
+}
+
+func readLine(reader *bufio.Reader) string {
+    str, _, err := reader.ReadLine()
+    if err == io.EOF {
+        return ""
+    }
+
+    return strings.TrimRight(string(str), "\r\n")
+}
+
+func checkError(err error) {
+    if err != nil {
+        panic(err)
+    }
 }
