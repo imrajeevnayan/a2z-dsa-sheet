@@ -7,15 +7,8 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:03:16.656Z
+ * Synced: 2026-11-18T07:03:27.044Z
  */
-
-* The function accepts STRING_ARRAY logs as parameter.
- */
-
-func ProcessLogs(logs []Log) []Aggregate {
-    // Write your code here.
-}
 
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
@@ -56,3 +49,7 @@ func main() {
     for _, v := range result {
         _, _ = fmt.Fprintf(writer, "%d %d %d\n", v.StatusCode, v.CountOfOccurrences, v.
         AverageResponseTime)
+    }
+
+    writer.Flush()
+}
