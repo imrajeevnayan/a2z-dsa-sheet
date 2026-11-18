@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:46:33.724Z
+ * Synced: 2026-11-18T06:46:42.775Z
  */
 
 package main
@@ -54,4 +54,4 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
         select{
-      cdata := range bytesChannel{
+      case data :=bytesChannel{
