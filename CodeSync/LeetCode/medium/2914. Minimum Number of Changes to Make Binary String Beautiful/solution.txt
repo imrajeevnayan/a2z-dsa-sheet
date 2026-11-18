@@ -2,16 +2,16 @@
  * Platform: LeetCode
  * Problem: 2914. Minimum Number of Changes to Make Binary String Beautiful
  * URL: https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/?envType=daily-question&envId=2026-11-18
- * Language: Daily Question
+ * Language: Text
  * Difficulty: Medium
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T11:10:34.044Z
+ * Synced: 2026-11-18T18:45:03.016Z
  */
 
-class Solution {
-    public int minChanges(String s) {
-        
-    }
-}
+Input: s = "1001"
+Output: 2
+Explanation: We change s[1] to 1 and s[3] to 0 to get string "1100".
+It can be seen that the string "1100" is beautiful because we can partition it into "11|00".
+It can be proven that 2 is the minimum number of changes needed to make the string beautiful.
