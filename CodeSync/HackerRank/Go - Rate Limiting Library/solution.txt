@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:13:34.131Z
+ * Synced: 2026-11-18T07:13:58.902Z
  */
 
 // implement the logic for rate limiting
@@ -32,26 +32,8 @@ import (
  */
 
 func rateLimiter(inputFileName string, outputFileName string) {
-    package main
+}
 
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "os"
-    "strconv"
-    "strings"
-    "io/ioutil"
-)
-
-
-/*
- * Complete the 'rateLimiter' function below.
- *
- * The function accepts following parameters:
- *  1. STRING inputFileName
- *  2. STRING outputFileName
- */
-
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel 
-chan error) {
+    
+    in,
+func main() {
