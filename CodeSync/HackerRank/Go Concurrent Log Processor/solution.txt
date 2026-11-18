@@ -7,10 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:09:21.701Z
+ * Synced: 2026-11-18T07:09:52.931Z
  */
 
 package main
+
 import (
     "bufio"
     "fmt"
@@ -46,8 +47,9 @@ func ProcessLogs(logs []Log) []Aggregate {
     m:make(map[int]* Aggregate)
     for_,|:range logs{
         if m[|.StatusCode]==nil{
-    }
-            m[|.StatusC]
+            m[|.StatusCode]
         }
+    }
 }
+
 func main() {
