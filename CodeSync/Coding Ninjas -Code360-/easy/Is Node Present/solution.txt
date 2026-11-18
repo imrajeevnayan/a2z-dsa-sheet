@@ -1,0 +1,37 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Is Node Present?
+ * URL: https://www.naukri.com/code360/problems/code-find-a-node_5682
+ * Language: Java (17)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-18T18:43:38.867Z
+ */
+
+/*
+    
+    Following is the structure used to represent the Binary Tree Node
+ 
+    class BinaryTreeNode<T> {
+        T data;
+        BinaryTreeNode<T> left;
+        BinaryTreeNode<T> right;
+ 
+        public BinaryTreeNode(T data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
+ 
+*/
+ 
+public class Solution {
+ 
+    public static boolean isNodePresent(BinaryTreeNode<Integer> root, int x) {
+        //Your code goes here
+    }
+ 
+}
