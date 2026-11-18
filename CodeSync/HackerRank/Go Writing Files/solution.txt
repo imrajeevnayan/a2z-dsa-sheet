@@ -7,15 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:58:57.288Z
+ * Synced: 2026-11-18T06:59:07.016Z
  */
 
-errChannel <-nil
-     for{
-        
-}
- *  3. chan error errChannel
- */
+*/
 
 func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
     file ,err :=os.Create(filename)
@@ -24,32 +19,16 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
         return
     }
     defer file.Close()
-
-    "strconv" 
-    "strings")
-/*
- * Complete the 'writeToFile' function below.
- *
- * The function accepts following parameters:
- *  1. chan []byte bytesChannel
- *  2. chan bool doneChannel
-    "bufio" 
-    "fmt" 
-    "io"
-    "io/ioutil" 
-    "os" 
-    "runtime" 
-package main
-import( 
+    
+    errChannel <-nil
+     for{
         select{
-     }
             case data:= <-bytesChannel:
-        }
             _,err:=file.Write(data)
             if err!=nil{
                 errChannel <-err
-            }
-
                 return
-            case <-
-func main() {
+            }
+            case <-doneChannel
+            return
+        }
