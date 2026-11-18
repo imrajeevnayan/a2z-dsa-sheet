@@ -7,21 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:59:07.016Z
+ * Synced: 2026-11-18T07:00:54.305Z
  */
 
-*/
-
-func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
-    file ,err :=os.Create(filename)
-    if err!= nil{
-        errChannel <-err
-        return
-    }
-    defer file.Close()
-    
-    errChannel <-nil
-     for{
+for{
         select{
             case data:= <-bytesChannel:
             _,err:=file.Write(data)
@@ -29,6 +18,41 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
                 errChannel <-err
                 return
             }
-            case <-doneChannel
+            case <-doneChannel:
             return
         }
+     }
+        
+}
+
+
+func main() {
+    reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+
+    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+    checkError(err)
+
+    defer stdout.Close()
+
+    writer := bufio.NewWriterSize(stdout, 16 * 1024 * 1024)
+
+    inputArrayCount, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
+    checkError(err)
+
+    var inputArray []string
+
+    for i := 0; i < int(inputArrayCount); i++ {
+        inputArrayItem := readLine(reader)
+        inputArray = append(inputArray, inputArrayItem)
+    }
+
+    bytesChannel, doneChannel, errChannel := make(chan []byte), make (chan bool), make(chan error)
+    var ms runtime.MemStats
+    runtime.ReadMemStats(&ms)
+    allocBefore := ms.Alloc
+    go writeToFile(bytesChannel, doneChannel, errChannel)
+    err = <- errChannel
+    if err != nil {
+        panic(err)
+    }
+    for _, b := range inputArray {
