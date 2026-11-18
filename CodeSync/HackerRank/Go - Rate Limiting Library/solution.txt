@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T07:16:53.001Z
+ * Synced: 2026-11-18T07:16:57.085Z
  */
 
 // implement the logic for rate limiting
@@ -44,5 +44,5 @@ import (
 }
 
     scanner.Scan()
-    out,
+    out,err :=0
 func main() {
