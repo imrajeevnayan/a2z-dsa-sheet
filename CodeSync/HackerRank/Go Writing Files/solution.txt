@@ -7,21 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:51:47.570Z
+ * Synced: 2026-11-18T06:53:25.414Z
  */
 
-file ,err :=os.Create(filename)
-    if err!= nil{
-        errChannel <-err
-        return
-    }
-    defer file.Close()
-    
-    errChannel <-nil
-    
-    for{
-        select{
-      case data := <-bytesChannel:
+for
+      ca data := <-bytesChannel:
         _,err:= file.Write(data)
         if err!=nil{
             errChannel <- err
@@ -31,4 +21,23 @@ file ,err :=os.Create(filename)
        return
    }
         }
+func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel chan error) {
+    file ,err :=os.Create(filename)
+    if err!= nil{
+        errChannel <-err
+        return
+    }
+    defer file.Close()
+    
+    errChannel <-nil
+    
 }
+
+
+func main() {
+ *  3. chan error errChannel
+ */
+
+package main
+ *  1. chan []byte bytesChannel
+ *  2. chan bool doneChannel
