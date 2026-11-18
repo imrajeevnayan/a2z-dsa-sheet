@@ -7,12 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:38:55.361Z
+ * Synced: 2026-11-18T06:39:01.035Z
  */
 
 package main
-import(
-
 /*
  * Complete the 'writeToFile' function below.
  *
@@ -40,12 +38,6 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             return
         }
     }
-    "fmt"
-    "os"
-    "runtime"
-    "strings"
-    "strconc"
-)
     doneChannel <-true
 
 }
