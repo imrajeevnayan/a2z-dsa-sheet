@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:57:53.457Z
+ * Synced: 2026-11-18T06:57:58.390Z
  */
 
 errChannel <-nil
@@ -43,7 +43,7 @@ package main
 import( 
         select{
      }
-            case data:= 
+            case data:= <-bytesChannel:
         }
 
 func main() {
