@@ -7,13 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:46:42.775Z
+ * Synced: 2026-11-18T06:47:00.244Z
  */
 
-package main
-import( 
-    "bufio" 
-    "fmt" 
+"fmt" 
     "io"
     "io/ioutil" 
     "os" 
@@ -45,7 +42,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
             errChannel <- err
             return
         }
-    }
+    
     doneChannel <-true
 
 }
@@ -54,4 +51,7 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
         select{
-      case data :=bytesChannel{
+      case data :=<- bytesChannel{
+
+    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+    checkError(err)
