@@ -1,11 +1,11 @@
 {
-  "totalSolved": 393,
+  "totalSolved": 394,
   "currentStreak": 29,
   "maxStreak": 29,
   "lastSyncDate": "2026-11-19",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 138,
+    "easy": 139,
     "medium": 224,
     "hard": 18,
     "basic": 13
@@ -403,7 +403,8 @@
     "GeeksForGeeks_XOR_of_Number_Range": true,
     "LeetCode_Reverse_Vowels_of_a_String": true,
     "LeetCode_Path_Sum_III": true,
-    "GeeksForGeeks_Sort_in_Specific_Order": true
+    "GeeksForGeeks_Sort_in_Specific_Order": true,
+    "LeetCode_Search_in_a_Binary_Search_Tree": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -459,7 +460,7 @@
     "2026-11-16": 14,
     "2026-11-17": 3,
     "2026-11-18": 4,
-    "2026-11-19": 1
+    "2026-11-19": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -852,6 +853,7 @@
     "XOR of Number Range",
     "Reverse Vowels of a String",
     "Path Sum III",
-    "Sort in Specific Order"
+    "Sort in Specific Order",
+    "Search in a Binary Search Tree"
   ]
 }

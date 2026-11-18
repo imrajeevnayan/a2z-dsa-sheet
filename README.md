@@ -432,3 +432,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 393 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | LeetCode | Easy | 18 Nov 2026 | 09:35 pm |
 | 394 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | LeetCode | Medium | 18 Nov 2026 | 11:08 pm |
 | 395 | [Sort in Specific Order](https://www.geeksforgeeks.org/problems/sort-in-specific-order2422/1) | GeeksForGeeks | Medium | 19 Nov 2026 | 12:16 am |
+| 396 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | LeetCode | Easy | 19 Nov 2026 | 12:52 am |
