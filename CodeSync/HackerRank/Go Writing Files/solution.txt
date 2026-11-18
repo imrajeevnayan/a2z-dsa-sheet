@@ -7,13 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:47:37.704Z
+ * Synced: 2026-11-18T06:47:42.070Z
  */
 
-"io/ioutil" 
-    "os" 
-    "runtime" 
-    "strconv" 
+"strconv" 
     "strings")
 /*
  * Complete the 'writeToFile' function below.
@@ -55,4 +52,6 @@ func main() {
     checkError(err)
     return
       }
-        =}
+   }
+
+    defer stdout.Close()
