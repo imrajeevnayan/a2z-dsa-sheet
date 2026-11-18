@@ -7,29 +7,14 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T06:54:19.664Z
+ * Synced: 2026-11-18T06:57:25.686Z
  */
 
-package main
-
-import (
-    "bufio"
-    "fmt"
-    "io"
-    "io/ioutil"
-    "os"
-    "runtime"
-    "runtime/trace"
-    "strconv"
-    "strings"
-)
-
-/*
- * Complete the 'writeToFile' function below.
- *
- * The function accepts following parameters:
- *  1. chan []byte bytesChannel
- *  2. chan bool doneChannel
+errChannel <-nil
+    
+    
+        
+}
  *  3. chan error errChannel
  */
 
@@ -40,16 +25,22 @@ func writeToFile(bytesChannel chan []byte, doneChannel chan bool, errChannel cha
         return
     }
     defer file.Close()
-    
-    errChannel <-nil
-    
-    for data := range bytesChannel{
-        _,err:= file.Write(data)
-        if err!=nil{
-            errChannel <- err
-            return
-        }
-    }
-   doneChannel <trace
-        
-}
+
+
+func main() {
+    "strconv" 
+    "strings")
+/*
+ * Complete the 'writeToFile' function below.
+ *
+ * The function accepts following parameters:
+ *  1. chan []byte bytesChannel
+ *  2. chan bool doneChannel
+    "bufio" 
+    "fmt" 
+    "io"
+    "io/ioutil" 
+    "os" 
+    "runtime" 
+package main
+import(
