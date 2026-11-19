@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA Solution -
+ * URL: https://www.geeksforgeeks.org/problems/min-number-of-flips3210/1
+ * Language: class Solution { public int minFlips(String s) { // Code here //Since there are only 2 possibilities - 1010101010 ,0101010101 //0101010101 int count1 = 0; boolean flag1 = false; int i = 0; while(i<s.length()){ if(flag1 == false && s.charAt(i) != '0'){ count1++; } else if(flag1 == true && s.charAt(i) != '1'){ count1++; } flag1 = !flag1; i++; } //1010101010 int count2 = 0; boolean flag2 = true; int j = 0; while(j<s.length()){ if(flag2 == true && s.charAt(j) != '1'){ count2++; } else if(flag2 == false && s.charAt(j) != '0'){ count2++; } flag2 = !flag2; j++; } return Math.min(count1,count2); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Strings, Binary Representation, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-19T18:39:01.112Z
+ */
+
+class Solution {
+    public int minFlips(String s) {
+        int pattern1 = 0; // starts with '0'
+        int pattern2 = 0; // starts with '1'
+
+        for (int i = 0; i < s.length(); i++) {
+            char expected1 = (i % 2 == 0) ? '0' : '1';
+            char expected2 = (i % 2 == 0) ? '1' : '0';
+
+            if (s.charAt(i) != expected1) {
+                pattern1++;
+            }
+
+            if (s.charAt(i) != expected2) {
+                pattern2++;
+            }
+        }
+
+        return Math.min(pattern1, pattern2);
+    }
+}
