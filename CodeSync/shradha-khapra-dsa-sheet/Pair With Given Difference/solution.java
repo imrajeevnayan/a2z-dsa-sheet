@@ -7,10 +7,8 @@
  * Topics: Programming, Two Pointers, Description, Discussion, Submissions, Hints, Counting Subarrays! 52 Minutes Medium Asked in:, 23.2%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-19T18:59:46.821Z
+ * Synced: 2026-11-19T18:59:45.745Z
  */
 
-public class Solution {
-    public int solve(ArrayList<Integer> A, int B) {
-    }
-}
+A = [5, 10, 3, 2, 50, 80]
+ B = 78
