@@ -1,27 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 1
- * URL: https://leetcode.com/problems/binary-tree-maximum-path-sum/submissions/2150859767/
+ * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/submissions/2198926133/?envType=study-plan-v2&envId=leetcode-75
  * Language: Java
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T14:49:25.067Z
+ * Synced: 2026-11-19T05:03:13.784Z
  */
 
 class Solution {
-    int maxSum = Integer.MIN_VALUE;
-    public int maxPathSum(TreeNode root) {
-        dfs(root);
-        return maxSum;
+    public TreeNode searchBST(TreeNode root, int val) {
+
+        if (root == null) return null;
+            if (root.val == val) return root;
+        
+        // Chhoti value left subtree mein hogi
+        if (val < root.val) {
+            return searchBST(root.left, val);
+        }
+        // Badi value right subtree mein hogi
+        return searchBST(root.right, val);
     }
-    private int dfs(TreeNode node) {
-        if (node == null) return 0;
-
-        // Left aur Right se gain lao (negative ho toh 0 le lo)
-        int leftGain = Math.max(dfs(node.left), 0);
-        int rightGain = Math.max(dfs(node.right), 0);
-
-        // Current node ko peak maankar total sum calculate karo
-        // Ye global answer ko update karne ke
+}
