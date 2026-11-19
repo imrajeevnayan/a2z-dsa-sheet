@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2567. Minimum Score by Changing Two Elements
+ * URL: https://leetcode.com/problems/minimum-score-by-changing-two-elements/description/?envType=daily-question&envId=2026-11-19
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-19T18:27:59.300Z
+ */
+
+class Solution {
+    public int minimizeSum(int[] nums) {
+        
+    }
+}
