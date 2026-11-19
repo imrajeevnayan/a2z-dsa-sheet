@@ -7,13 +7,12 @@
  * Topics: Array, Two Pointers, String, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-19T18:29:46.191Z
+ * Synced: 2026-11-19T18:29:49.590Z
  */
 
 if (isSubsequence(s, word)) {
 
-                if (word.length() > ans.length()
-                        || (word.length() == ans.length()
+                if (word.length() > ans.length()  || (word.length() == ans.length()
                         && word.compareTo(ans) < 0)) {
                     ans = word;
                 }
@@ -36,3 +35,4 @@ if (isSubsequence(s, word)) {
     public String findLongestWord(String s, List<String> dictionary) {
 
 class Solution {
+            i++;
