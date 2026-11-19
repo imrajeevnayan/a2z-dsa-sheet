@@ -1,26 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Search in a Binary Search Tree
- * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/submissions/2144102364/?envType=problem-list-v2&envId=djtxhcwd
- * Language: Tree For Placement (Copy-5chyqxsi)
- * Difficulty: Easy
- * Topics: Tree, Binary Search Tree, Binary Tree
+ * URL: https://leetcode.com/problems/search-in-a-binary-search-tree/submissions/2198926133/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: 0 ms
- * Memory: 46.57 MB
- * Synced: 2026-09-16T20:32:19.723Z
+ * Memory: 46.30 MB
+ * Synced: 2026-11-19T05:03:18.776Z
  */
 
-class Solution {
-    public TreeNode searchBST(TreeNode root, int val) {
-
-        if (root == null) return null;
-            if (root.val == val) return root;
-        
-        // Chhoti value left subtree mein hogi
-        if (val < root.val) {
-            return searchBST(root.left, val);
-        }
-        // Badi value right subtree mein hogi
-        return searchBST(root.right, val);
-    }
-}
+1class Solution {
+2    public TreeNode searchBST(TreeNode root, int val) {
+3
+4        if (root == null) return null;
+5            if (root.val == val) return root;
+6        
+7        // Chhoti value left subtree mein hogi
+8        if (val < root.val) {
+9            return searchBST(root.left, val);
+10        }
+11        // Badi value right subtree mein hogi
+12        return searchBST(root.right, val);
+13    }
+14}
