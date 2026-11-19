@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: 2567. Minimum Score by Changing Two Elements
- * URL: https://leetcode.com/problems/minimum-score-by-changing-two-elements/description/?envType=daily-question&envId=2026-11-19
+ * URL: https://leetcode.com/problems/minimum-score-by-changing-two-elements/?envType=daily-question&envId=2026-11-19
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-11-19T18:27:59.300Z
+ * Synced: 2026-11-19T18:28:51.389Z
  */
 
 class Solution {
     public int minimizeSum(int[] nums) {
+        int n = nums.length;
+        if (n <= 3) return 0;
         
+        Arrays.sort(nums);
+
+        int option1 = nums[n - 3] - nums[0]; // remove 2 largest
+        int option2 = nums[n - 1] - nums[2]; // remove 2 smallest
+        int option3 = nums[n - 2] - nums[1]; // remove 1 smallest, 1 largest
+
+        return Math.min(option1, Math.min(option2, option3));
     }
 }
