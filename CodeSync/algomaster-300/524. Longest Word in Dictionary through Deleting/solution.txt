@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 524. Longest Word in Dictionary through Deleting
- * URL: https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/
+ * URL: https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, String, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-19T18:29:12.275Z
+ * Synced: 2026-11-19T18:29:46.191Z
  */
 
-class Solution {
-    public String findLongestWord(String s, List<String> dictionary) {
-        
+if (isSubsequence(s, word)) {
+
+                if (word.length() > ans.length()
+                        || (word.length() == ans.length()
+                        && word.compareTo(ans) < 0)) {
+                    ans = word;
+                }
+            }
+        }
+
+        return ans;
     }
-}
+
+    private boolean isSubsequence(String s, String word) {
+        int i = 0, j = 0;
+
+        while (i < s.length() && j < word.length()) {
+            if (s.charAt(i) == word.charAt(j)) {
+                j++;
+            }
+        for (String word : dictionary) {
+        String ans = "";
+
+    public String findLongestWord(String s, List<String> dictionary) {
+
+class Solution {
