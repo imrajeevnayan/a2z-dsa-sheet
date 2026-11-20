@@ -1,13 +1,40 @@
 /*
  * Platform: LeetCode
  * Problem: 3
- * URL: https://leetcode.com/discuss/post/8579689/hackerank-oa-2026-password-strength-vali-so2r/
+ * URL: https://leetcode.com/submissions/detail/2199687192/
  * Language: India
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-19T15:55:51.461Z
+ * Runtime: 3 ms
+ * Memory: 43.96 MB
+ * Synced: 2026-11-20T03:11:17.666Z
  */
 
-passwords
+1class Solution {
+2    public boolean isPalindrome(String s) {
+3        int left = 0;
+4        int right = s.length() - 1;
+5        
+6        while (left < right) {
+7            // Skip non-alphanumeric characters from left
+8            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
+9                left++;
+10            }
+11            
+12            // Skip non-alphanumeric characters from right
+13            while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
+14                right--;
+15            }
+16            
+17            // Compare characters (case-insensitive)
+18            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
+19                return false;
+20            }
+21            
+22            left++;
+23            right--;
+24        }
+25        
+26        return true;
+27    }
+28}
