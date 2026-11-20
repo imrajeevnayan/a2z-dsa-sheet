@@ -1,35 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: 125. Valid Palindrome
- * URL: https://leetcode.com/problems/valid-palindrome/
- * Language: Problem List
+ * URL: https://leetcode.com/problems/valid-palindrome/description/
+ * Language: Text
  * Difficulty: Easy
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T04:43:25.241Z
+ * Synced: 2026-11-20T02:30:45.319Z
  */
 
-while (left < right) {
-            // Skip non-alphanumeric characters from left
-            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
-                left++;
-            }
-            
-            // Skip non-alphanumeric characters from right
-            while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
-                right--;
-            }
-            
-            // Compare characters (case-insensitive)
-            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
-                return false;
-            }
-            
-            left++;
-            right--;
-        }
-        
-        return true;
-    }
-}
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
