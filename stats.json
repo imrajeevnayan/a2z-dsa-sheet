@@ -1,13 +1,13 @@
 {
-  "totalSolved": 396,
+  "totalSolved": 397,
   "currentStreak": 30,
   "maxStreak": 30,
   "lastSyncDate": "2026-11-20",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 140,
     "medium": 225,
-    "hard": 18,
+    "hard": 19,
     "basic": 13
   },
   "syncedProblems": {
@@ -406,7 +406,8 @@
     "GeeksForGeeks_Sort_in_Specific_Order": true,
     "LeetCode_Search_in_a_Binary_Search_Tree": true,
     "LeetCode_Longest_Word_in_Dictionary_through_Deleting": true,
-    "GeeksForGeeks_Min_Flips_for_Alternate": true
+    "GeeksForGeeks_Min_Flips_for_Alternate": true,
+    "LeetCode_Maximize_Consecutive_Elements_in_an_Array_After_Modification": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -463,7 +464,7 @@
     "2026-11-17": 3,
     "2026-11-18": 4,
     "2026-11-19": 3,
-    "2026-11-20": 1
+    "2026-11-20": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -859,6 +860,7 @@
     "Sort in Specific Order",
     "Search in a Binary Search Tree",
     "Longest Word in Dictionary through Deleting",
-    "Min Flips for Alternate"
+    "Min Flips for Alternate",
+    "Maximize Consecutive Elements in an Array After Modification"
   ]
 }
