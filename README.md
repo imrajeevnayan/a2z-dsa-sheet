@@ -438,3 +438,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 399 | [Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/) | LeetCode | Hard | 20 Nov 2026 | 07:40 am |
 | 400 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | LeetCode | Medium | 21 Nov 2026 | 10:45 am |
 | 401 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/) | LeetCode | Medium | 21 Nov 2026 | 10:48 am |
+| 402 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | LeetCode | Easy | 21 Nov 2026 | 10:18 pm |
