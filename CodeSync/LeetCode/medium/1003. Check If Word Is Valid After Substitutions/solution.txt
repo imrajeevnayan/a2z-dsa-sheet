@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-21T16:49:19.936Z
+ * Synced: 2026-11-21T16:49:50.827Z
  */
 
 class Solution {
@@ -21,9 +21,8 @@ class Solution {
                 char b = stack.pop();
                 char a = stack.pop();
 
-                if (a != 'a' || b != 'b') {
-                    return false;
-                }
+                if (a != 'a' || b != 'b') {return false;
+                
             } else {
                 stack.push(ch);
             }
