@@ -439,3 +439,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 400 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | LeetCode | Medium | 21 Nov 2026 | 10:45 am |
 | 401 | [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/) | LeetCode | Medium | 21 Nov 2026 | 10:48 am |
 | 402 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | LeetCode | Easy | 21 Nov 2026 | 10:18 pm |
+| 403 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | LeetCode | Medium | 21 Nov 2026 | 10:20 pm |
