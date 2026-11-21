@@ -441,3 +441,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 402 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | LeetCode | Easy | 21 Nov 2026 | 10:18 pm |
 | 403 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | LeetCode | Medium | 21 Nov 2026 | 10:20 pm |
 | 404 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | LeetCode | Medium | 21 Nov 2026 | 10:21 pm |
+| 405 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | LeetCode | Medium | 21 Nov 2026 | 10:23 pm |
