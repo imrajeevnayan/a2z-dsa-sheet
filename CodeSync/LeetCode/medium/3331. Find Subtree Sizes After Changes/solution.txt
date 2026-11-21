@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3331. Find Subtree Sizes After Changes
+ * URL: https://leetcode.com/problems/find-subtree-sizes-after-changes/description/?envType=daily-question&envId=2026-11-21
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, String, Tree, Depth-First Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-21T05:14:37.628Z
+ */
+
+class Solution {
+    public int[] findSubtreeSizes(int[] parent, String s) {
+        
+    }
+}
