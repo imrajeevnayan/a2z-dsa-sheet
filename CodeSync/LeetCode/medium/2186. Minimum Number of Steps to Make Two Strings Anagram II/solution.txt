@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2186. Minimum Number of Steps to Make Two Strings Anagram II
+ * URL: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-21T16:50:35.223Z
+ */
+
+Input: s = "leetcode", t = "coats"
+Output: 7
+Explanation: 
+- In 2 steps, we can append the letters in "as" onto s = "leetcode", forming s = "leetcodeas".
+- In 5 steps, we can append the letters in "leede" onto t = "coats", forming t = "coatsleede".
+"leetcodeas" and "coatsleede" are now anagrams of each other.
+We used a total of 2 + 5 = 7 steps.
+It can be shown that there is no way to make them anagrams of each other with less than 7 steps.
