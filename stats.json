@@ -1,12 +1,12 @@
 {
-  "totalSolved": 401,
+  "totalSolved": 402,
   "currentStreak": 31,
   "maxStreak": 31,
   "lastSyncDate": "2026-11-21",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 141,
-    "medium": 228,
+    "medium": 229,
     "hard": 19,
     "basic": 13
   },
@@ -411,7 +411,8 @@
     "LeetCode_Find_Subtree_Sizes_After_Changes": true,
     "LeetCode_Find_Longest_Special_Substring_That_Occurs_Thrice_I": true,
     "LeetCode_Valid_Parentheses": true,
-    "LeetCode_Check_If_Word_Is_Valid_After_Substitutions": true
+    "LeetCode_Check_If_Word_Is_Valid_After_Substitutions": true,
+    "LeetCode_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram_II": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -469,7 +470,7 @@
     "2026-11-18": 4,
     "2026-11-19": 3,
     "2026-11-20": 2,
-    "2026-11-21": 4
+    "2026-11-21": 5
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -870,6 +871,7 @@
     "Find Subtree Sizes After Changes",
     "Find Longest Special Substring That Occurs Thrice I",
     "Valid Parentheses",
-    "Check If Word Is Valid After Substitutions"
+    "Check If Word Is Valid After Substitutions",
+    "Minimum Number of Steps to Make Two Strings Anagram II"
   ]
 }
