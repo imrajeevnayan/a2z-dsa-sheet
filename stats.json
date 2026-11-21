@@ -1,12 +1,12 @@
 {
-  "totalSolved": 398,
+  "totalSolved": 399,
   "currentStreak": 31,
   "maxStreak": 31,
   "lastSyncDate": "2026-11-21",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 140,
-    "medium": 226,
+    "medium": 227,
     "hard": 19,
     "basic": 13
   },
@@ -408,7 +408,8 @@
     "LeetCode_Longest_Word_in_Dictionary_through_Deleting": true,
     "GeeksForGeeks_Min_Flips_for_Alternate": true,
     "LeetCode_Maximize_Consecutive_Elements_in_an_Array_After_Modification": true,
-    "LeetCode_Find_Subtree_Sizes_After_Changes": true
+    "LeetCode_Find_Subtree_Sizes_After_Changes": true,
+    "LeetCode_Find_Longest_Special_Substring_That_Occurs_Thrice_I": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -466,7 +467,7 @@
     "2026-11-18": 4,
     "2026-11-19": 3,
     "2026-11-20": 2,
-    "2026-11-21": 1
+    "2026-11-21": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -864,6 +865,7 @@
     "Longest Word in Dictionary through Deleting",
     "Min Flips for Alternate",
     "Maximize Consecutive Elements in an Array After Modification",
-    "Find Subtree Sizes After Changes"
+    "Find Subtree Sizes After Changes",
+    "Find Longest Special Substring That Occurs Thrice I"
   ]
 }
