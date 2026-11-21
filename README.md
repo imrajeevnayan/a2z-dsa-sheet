@@ -436,3 +436,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 397 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | LeetCode | Medium | 19 Nov 2026 | 11:59 pm |
 | 398 | [Min Flips for Alternate](https://www.geeksforgeeks.org/problems/min-number-of-flips3210/1) | GeeksForGeeks | Easy | 20 Nov 2026 | 12:09 am |
 | 399 | [Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/) | LeetCode | Hard | 20 Nov 2026 | 07:40 am |
+| 400 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | LeetCode | Medium | 21 Nov 2026 | 10:45 am |
