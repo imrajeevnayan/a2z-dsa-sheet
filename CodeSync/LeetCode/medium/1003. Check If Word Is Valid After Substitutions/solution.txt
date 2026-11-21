@@ -1,17 +1,34 @@
 /*
  * Platform: LeetCode
  * Problem: 1003. Check If Word Is Valid After Substitutions
- * URL: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/description/
+ * URL: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-21T16:48:52.286Z
+ * Synced: 2026-11-21T16:49:19.936Z
  */
 
 class Solution {
     public boolean isValid(String s) {
-        
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+            if (ch == 'c') {
+                if (stack.size() < 2) return false;
+
+                char b = stack.pop();
+                char a = stack.pop();
+
+                if (a != 'a' || b != 'b') {
+                    return false;
+                }
+            } else {
+                stack.push(ch);
+            }
+        }
+
+        return stack.isEmpty();
     }
 }
