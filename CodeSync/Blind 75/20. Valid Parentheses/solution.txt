@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 20. Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/
+ * URL: https://leetcode.com/problems/valid-parentheses/submissions/2200710713/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-21T16:47:38.432Z
+ * Runtime: 0 ms
+ * Memory: 42.88 MB
+ * Synced: 2026-11-21T16:55:50.833Z
  */
 
 // Kyunki har bracket ka pair hona zaroori hai.
@@ -33,5 +33,3 @@
     }
 }
         // Agar length odd hai, toh valid hona impossible hai.
-    public boolean isValid(String s) {
-class Solution {
