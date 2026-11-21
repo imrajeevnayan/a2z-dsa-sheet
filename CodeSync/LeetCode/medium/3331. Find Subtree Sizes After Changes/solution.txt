@@ -1,16 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: 3331. Find Subtree Sizes After Changes
- * URL: https://leetcode.com/problems/find-subtree-sizes-after-changes/submissions/2200341346/?envType=daily-question&envId=2026-11-21
+ * URL: https://leetcode.com/problems/find-subtree-sizes-after-changes/description/?envType=daily-question&envId=2026-11-21
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Tree, Depth-First Search
- * Runtime: 0 ms
- * Memory: 294.46 MB
- * Synced: 2026-11-21T05:16:15.348Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-21T11:41:14.903Z
  */
 
-newTree = new ArrayList[n];
+import java.util.*;
+
+class Solution {
+
+    List<Integer>[] tree;
+    List<Integer>[] newTree;
+    int[] newParent;
+    String s;
+
+    public int[] findSubtreeSizes(int[] parent, String s) {
+        int n = parent.length;
+        this.s = s;
+
+        tree = new ArrayList[n];
+        newTree = new ArrayList[n];
 
         for (int i = 0; i < n; i++) {
             tree[i] = new ArrayList<>();
@@ -22,18 +36,3 @@ newTree = new ArrayList[n];
         }
 
         newParent = parent.clone();
-
-        int[] last = new int[26];
-        Arrays.fill(last, -1);
-
-        buildNewParents(0, last, parent);
-
-        for (int i = 1; i < n; i++) {
-            newTree[newParent[i]].add(i);
-        }
-
-        int[] ans = new int[n];
-        dfsSize(0, ans);
-
-        return ans;
-    }
