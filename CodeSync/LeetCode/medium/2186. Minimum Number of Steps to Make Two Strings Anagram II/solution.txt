@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-21T16:51:11.233Z
+ * Synced: 2026-11-21T16:51:17.950Z
  */
 
 class Solution {
@@ -15,10 +15,9 @@ class Solution {
         int[] freq = new int[26];
 
         for (char ch : s.toCharArray())  freq[ch - 'a']++;
-        
+    
 
-        for (char ch : t.toCharArray()) {
-            freq[ch - 'a']--;
+        for (char ch : t.toCharArray()) freq[ch - 'a']--;
         
 
         int steps = 0;
