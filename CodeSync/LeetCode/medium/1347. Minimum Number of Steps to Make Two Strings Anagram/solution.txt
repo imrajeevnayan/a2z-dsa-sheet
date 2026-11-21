@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-21T16:52:54.703Z
+ * Synced: 2026-11-21T16:53:28.430Z
  */
 
 class Solution {
@@ -21,9 +21,8 @@ class Solution {
         int steps = 0;
 
         for (int x : count) {
-            if (x > 0) {
-                steps += x;
-            }
+            if (x > 0) {steps += x;
+            
         }
         return steps;
     }
