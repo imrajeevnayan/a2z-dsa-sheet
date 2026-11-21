@@ -1,38 +1,39 @@
 /*
  * Platform: LeetCode
  * Problem: 3331. Find Subtree Sizes After Changes
- * URL: https://leetcode.com/problems/find-subtree-sizes-after-changes/?envType=daily-question&envId=2026-11-21
+ * URL: https://leetcode.com/problems/find-subtree-sizes-after-changes/submissions/2200341346/?envType=daily-question&envId=2026-11-21
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Tree, Depth-First Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-21T05:15:07.891Z
+ * Runtime: 0 ms
+ * Memory: 294.46 MB
+ * Synced: 2026-11-21T05:16:15.348Z
  */
 
-for (int v : tree[u]) {
-            int ch = s.charAt(v) - 'a';
+newTree = new ArrayList[n];
 
-            if (last[ch] != -1) {
-                newParent[v] = last[ch];
-            } else {
-                newParent[v] = parent[v];
-            }
-
-            buildNewParents(v, last, parent);
+        for (int i = 0; i < n; i++) {
+            tree[i] = new ArrayList<>();
+            newTree[i] = new ArrayList<>();
         }
 
-        last[c] = prev;
-    }
-
-    private int dfsSize(int u, int[] ans) {
-        int size = 1;
-
-        for (int v : newTree[u]) {
-            size += dfsSize(v, ans);
+        for (int i = 1; i < n; i++) {
+            tree[parent[i]].add(i);
         }
 
-        ans[u] = size;
-        return size;
+        newParent = parent.clone();
+
+        int[] last = new int[26];
+        Arrays.fill(last, -1);
+
+        buildNewParents(0, last, parent);
+
+        for (int i = 1; i < n; i++) {
+            newTree[newParent[i]].add(i);
+        }
+
+        int[] ans = new int[n];
+        dfsSize(0, ans);
+
+        return ans;
     }
-}
