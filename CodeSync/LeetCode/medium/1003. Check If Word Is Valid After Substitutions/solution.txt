@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-21T16:50:04.660Z
+ * Synced: 2026-11-21T16:50:10.857Z
  */
 
 class Solution {
@@ -24,11 +24,8 @@ class Solution {
                 if (a != 'a' || b != 'b') return false;
                 
             } 
-             stack.push(ch);
-            
         }
-
         return stack.isEmpty();
     }
-            else 
+            else  stack.push(ch); 
 }
