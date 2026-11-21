@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-14T07:12:50.728Z
+ * Synced: 2026-11-21T16:40:29.180Z
  */
 
 Input: x = 121
