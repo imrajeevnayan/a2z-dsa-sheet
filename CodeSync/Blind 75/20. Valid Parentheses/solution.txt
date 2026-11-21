@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: 20. Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/description/
+ * URL: https://leetcode.com/problems/valid-parentheses/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-21T16:46:54.167Z
+ * Synced: 2026-11-21T16:47:38.432Z
  */
 
-class Solution {
-    public boolean isValid(String s) {
-        // Agar length odd hai, toh valid hona impossible hai.
-        // Kyunki har bracket ka pair hona zaroori hai.
+// Kyunki har bracket ka pair hona zaroori hai.
         if (s.length() % 2 != 0) return false;
         Stack<Character> stack = new Stack<>();
 
@@ -35,3 +32,6 @@ class Solution {
         return stack.isEmpty();
     }
 }
+        // Agar length odd hai, toh valid hona impossible hai.
+    public boolean isValid(String s) {
+class Solution {
