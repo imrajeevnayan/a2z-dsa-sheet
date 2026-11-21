@@ -1,32 +1,33 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/bbt-counter4914/1
- * Language: def countBT(self, h: int) -> int: # code here if h == 1 or h == 0: return 1 M = 1_000_000_000+7 a0, a1 = 1, 1 for _ in range(2, h+1): a1, a0 = ((a1*a0*2)%M + a1*a1%M)%M, a1 return a1
+ * URL: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
+ * Language: Java (21)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Mathematics, Tree, Related Articles, Count Balanced Binary Trees Height H
+ * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Goldman Sachs, Google, Facebook, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T06:22:17.994Z
+ * Synced: 2026-11-21T11:39:27.440Z
  */
 
 class Solution {
-    static final long MOD = 1000000007;
+    public int smallestSubWithSum(int[] arr, int x) {
+        int n = arr.length;
+        int minLen = Integer.MAX_VALUE;
 
-    public int countBT(int h) {
-        if (h == 0 || h == 1) return 1;
+        int start = 0;
+        long sum = 0;
 
-        long prev2 = 1; // dp[0]
-        long prev1 = 1; // dp[1]
+        for (int end = 0; end < n; end++) {
+            sum += arr[end];
 
-        for (int i = 2; i <= h; i++) {
-            long curr = (prev1 * prev1) % MOD;
-            curr = (curr + (2 * prev1 % MOD * prev2 % MOD)) % MOD;
-
-            prev2 = prev1;
-            prev1 = curr;
+            while (sum > x) {
+                minLen = Math.min(minLen, end - start + 1);
+                sum -= arr[start];
+                start++;
+            }
         }
 
-        return (int) prev1;
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
 }
