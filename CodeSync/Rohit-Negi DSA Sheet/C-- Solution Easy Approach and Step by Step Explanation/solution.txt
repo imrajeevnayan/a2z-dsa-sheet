@@ -1,41 +1,39 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1
- * Language: class Solution { public: int mini = INT_MAX; int minDiff(Node *root, int k) { if(root == nullptr) return mini; int diff = abs(root->data - k); mini = min(mini, diff); if(root->data < k) { minDiff(root->right, k); } else if(root->data > k) { minDiff(root->left, k); } return mini; } };
+ * URL: https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1
+ * Language: class Solution { public int longestSubarrayDivK(int[] arr, int k) { Map<Integer, Integer> mp = new HashMap<>(); long sum = 0; int maxLen = 0; mp.put(0, -1); for (int i = 0; i < arr.length; i++) { sum += arr[i]; int rem = (int) (((sum % k) + k) % k); if (mp.containsKey(rem)) { maxLen = Math.max(maxLen, i - mp.get(rem)); } else { mp.put(rem, i); } } return maxLen; } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags AmazonMAQ Software, Company Tags, Amazon, MAQ Software, Topic Tags, Binary Search Tree, Tree
+ * Topics: Expected Complexities, Company Tags MicrosoftSnapdeal, Company Tags, Microsoft, Snapdeal, Topic Tags, Prefix Sum, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-12T11:37:39.572Z
+ * Synced: 2026-11-22T07:22:46.470Z
  */
 
+import java.util.*;
+
 class Solution {
-    public int minDiff(Node root, int k) {
+    public int longestSubarrayDivK(int[] arr, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        // minimum difference store karega
-        int ans = Integer.MAX_VALUE;
+        int sum = 0;
+        int maxLen = 0;
 
-        Node curr = root;
+        // remainder 0 at index -1
+        map.put(0, -1);
 
-        while (curr != null) {
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
 
-            // current node ke saath difference calculate karo
-            ans = Math.min(ans, Math.abs(curr.data - k));
+            int rem = ((sum % k) + k) % k;
 
-            // exact match mil gaya
-            if (curr.data == k) {
-                return 0;
-            }
-
-            // BST property use karo
-            if (k < curr.data) {
-                curr = curr.left;   // left subtree me jao
+            if (map.containsKey(rem)) {
+                maxLen = Math.max(maxLen, i - map.get(rem));
             } else {
-                curr = curr.right;  // right subtree me jao
+                map.put(rem, i);
             }
         }
 
-        return ans;
+        return maxLen;
     }
 }
