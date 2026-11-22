@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Character at Position in Infinite String
+ * URL: https://www.geeksforgeeks.org/problems/the-infinite-string1049/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags National Instruments, Company Tags, National Instruments, Topic Tags, Mathematics, Strings, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-22T18:37:47.457Z
+ */
+
+class Solution {
+    public char posInfinite(String s, int pos) {
+        long n = s.length();
+
+        ArrayList<Long> len = new ArrayList<>();
+        len.add(n);
+
+        int step = 1;
+        while (len.get(len.size() - 1) < pos) {
+            long prev = len.get(len.size() - 1);
+            len.add(2L * prev + step);
+            step++;
+        }
+
+        long p = pos;
+
+        for (int i = len.size() - 1; i > 0; i--) {
+            long prevLen = len.get(i - 1);
+            int dollars = i; // step number
+
+            if (p <= prevLen) {
+                continue;
+            }
+
+            if (p <= prevLen + dollars) {
+                return '$';
+            }
+
+            long k = p - (prevLen + dollars);
+            p = prevLen - k + 1;
+        }
+
+        return s.charAt((int) p - 1);
+    }
+}
