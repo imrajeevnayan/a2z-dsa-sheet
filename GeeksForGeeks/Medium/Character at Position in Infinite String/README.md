@@ -1,0 +1,21 @@
+# Character at Position in Infinite String
+
+## Difficulty: Medium
+
+## Platform: GeeksForGeeks
+
+## Problem Link
+[View Problem](https://www.geeksforgeeks.org/problems/the-infinite-string1049/1)
+
+## Solved On
+23 Nov 2026 at 12:07 am
+
+<h2><a href="https://www.geeksforgeeks.org/problems/the-infinite-string1049/1">Character at Position in Infinite String</a></h2><h3>Difficulty Level: Medium</h3><hr><p><span style="font-size: 14pt;">Given a string <strong>s</strong> and an integer <strong>pos</strong>, an infinite string is constructed by repeatedly applying the following operation. </span><span style="font-size: 14pt;">In the i-th step, append i consecutive $ characters, followed by the reverse of the current string, to the current string.</span></p><p class="PDq2pG_selectionAnchorContainer" data-start="113" data-end="457"><span style="font-size: 18.6667px;">Formally, if the current string is s, update it as:</span></p><ul><li class="PDq2pG_selectionAnchorContainer" data-start="113" data-end="457"><span style="font-size: 18.6667px;">s = s + ('$' repeated i times) + reverse(s)</span></li></ul><p><span style="font-size: 14pt;">The initial string is the given s, and the process continues indefinitely. </span></p><p><span style="font-size: 14pt;">Find and return the character at the pos(</span><span style="font-size: 18.6667px;">1-based indexing</span><span style="font-size: 14pt;">) in the resulting infinite string.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><strong>Input:</strong> s = "12345", pos = 3
+<strong>Output: </strong>3
+<strong>Explanation:</strong> In "12345...", the character at pos 3 is 3.
+</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>s = "12345", pos = 10
+<strong>Output:&nbsp;</strong>2
+<strong>Explanation:</strong> In "12345$54321...", </span><span style="font-size: 18px;">the character at pos 10</span><span style="font-size: 18px;"> is 2.
+</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>s = "abc", pos = 7
+<strong>Output: </strong>a
+<strong>Explanation:</strong> In "abc$cba...", </span><span style="font-size: 18px;">the character at pos </span><span style="font-size: 18px;">7 is a.</span></pre>

@@ -444,3 +444,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 405 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | LeetCode | Medium | 21 Nov 2026 | 10:23 pm |
 | 406 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | LeetCode | Easy | 22 Nov 2026 | 12:01 pm |
 | 407 | [Longest Subarray Sum Divisible by K](https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1) | GeeksForGeeks | Medium | 22 Nov 2026 | 12:53 pm |
+| 408 | [Character at Position in Infinite String](https://www.geeksforgeeks.org/problems/the-infinite-string1049/1) | GeeksForGeeks | Medium | 23 Nov 2026 | 12:07 am |
