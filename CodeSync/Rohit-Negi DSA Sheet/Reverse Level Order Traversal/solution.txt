@@ -5,9 +5,9 @@
  * Language: All languages
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 5638 ms
+ * Runtime: 5560 ms
  * Memory: N/A
- * Synced: 2026-11-22T05:26:18.945Z
+ * Synced: 2026-11-22T05:32:45.747Z
  */
 
 import java.util.ArrayList;
