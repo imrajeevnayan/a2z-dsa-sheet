@@ -7,7 +7,10 @@
  * Topics: Programming, Binary Search, Description, Discussion, Submissions, Hints, First Index 20 Minutes Very Easy Asked in:, Request X Chocolates 38 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-22T09:37:02.455Z
+ * Synced: 2026-11-22T09:37:03.571Z
  */
 
-Output goes here... Test/Submit
+public class Solution {
+    public int sqrt(int A) {
+    }
+}
