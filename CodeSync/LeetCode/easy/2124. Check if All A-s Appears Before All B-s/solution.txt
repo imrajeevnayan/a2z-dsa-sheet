@@ -5,14 +5,23 @@
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-22T06:30:48.974Z
+ * Runtime: 0 ms
+ * Memory: 42.31 MB
+ * Synced: 2026-11-22T06:31:11.716Z
  */
 
 class Solution {
     public boolean checkString(String s) {
-        return s.lastIndexOf('a') < s.indexOf('b')
-         || s.indexOf('b') == -1;
+        boolean foundB = false;
+
+        for (char ch : s.toCharArray()) {
+            if (ch == 'b') {
+ foundB = true;
+            } else if (foundB) { // found 'a' after a 'b'
+                return false;
+            }
+        }
+
+        return true;
     }
 }
