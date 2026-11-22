@@ -1,42 +1,22 @@
 class Solution {
     public int longestSubarrayDivK(int[] arr, int k) {
-        int n = arr.length;
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        // Har remainder ka first occurrence store karenge
-        int[] first = new int[k];
-
-        // -1 ka matlab hai ki remainder abhi tak nahi mila
-        java.util.Arrays.fill(first, -1);
-
-        // Array start hone se pehle prefix sum = 0
-        // Isliye remainder 0 ki position 0 maanenge
-        first[0] = 0;
-
-        long prefixSum = 0;
+        int sum = 0;
         int maxLen = 0;
 
-        for (int i = 0; i < n; i++) {
-            // Current element ko prefix sum mein add karo
-            prefixSum += arr[i];
+        // remainder 0 at index -1
+        map.put(0, -1);
 
-            // Prefix sum ka remainder nikalo
-            int rem = (int) (prefixSum % k);
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
 
-            // Java mein negative number ka remainder negative aa sakta hai
-            // Isliye usko positive range [0, k-1] mein convert karo
-            if (rem < 0) {
-                rem += k;
-            }
+            int rem = ((sum % k) + k) % k;
 
-            // Agar same remainder pehle aa chuka hai,
-            // to beech ka subarray sum k se divisible hoga
-            if (first[rem] != -1) {
-                // Current position - first occurrence = subarray length
-                maxLen = Math.max(maxLen, (i + 1) - first[rem]);
+            if (map.containsKey(rem)) {
+                maxLen = Math.max(maxLen, i - map.get(rem));
             } else {
-                // Sirf first occurrence store karo,
-                // kyunki usse maximum length milegi
-                first[rem] = i + 1;
+                map.put(rem, i);
             }
         }
 
