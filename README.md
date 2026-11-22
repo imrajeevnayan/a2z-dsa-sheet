@@ -442,3 +442,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 403 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | LeetCode | Medium | 21 Nov 2026 | 10:20 pm |
 | 404 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | LeetCode | Medium | 21 Nov 2026 | 10:21 pm |
 | 405 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | LeetCode | Medium | 21 Nov 2026 | 10:23 pm |
+| 406 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | LeetCode | Easy | 22 Nov 2026 | 12:01 pm |
