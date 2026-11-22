@@ -1,17 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: 2124. Check if All A's Appears Before All B's
- * URL: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/description/?envType=daily-question&envId=2026-11-22
+ * URL: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/?envType=daily-question&envId=2026-11-22
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-22T06:30:17.130Z
+ * Synced: 2026-11-22T06:30:48.974Z
  */
 
 class Solution {
     public boolean checkString(String s) {
-        
+        return s.lastIndexOf('a') < s.indexOf('b')
+         || s.indexOf('b') == -1;
     }
 }
