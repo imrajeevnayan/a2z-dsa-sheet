@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2124. Check if All A's Appears Before All B's
+ * URL: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/description/?envType=daily-question&envId=2026-11-22
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-22T06:30:14.509Z
+ */
+
+Input: s = "aaabbb"
+Output: true
+Explanation:
+The 'a's are at indices 0, 1, and 2, while the 'b's are at indices 3, 4, and 5.
+Hence, every 'a' appears before every 'b' and we return true.
