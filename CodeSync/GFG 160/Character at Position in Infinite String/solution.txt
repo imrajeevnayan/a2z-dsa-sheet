@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags National Instruments, Company Tags, National Instruments, Topic Tags, Mathematics, Strings, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-22T18:49:55.525Z
+ * Synced: 2026-11-23T08:00:37.783Z
  */
 
 class Solution {
