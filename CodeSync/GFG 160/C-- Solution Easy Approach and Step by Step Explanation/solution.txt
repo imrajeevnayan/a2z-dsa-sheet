@@ -7,33 +7,55 @@
  * Topics: Expected Complexities, Topic Tags, Hash, Sorting, Map, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-24T10:37:39.724Z
+ * Synced: 2026-11-24T10:38:40.275Z
  */
 
 class Solution {
     public ArrayList<Integer> findPairs(int[] arr) {
+
         HashMap<Integer, int[]> map = new HashMap<>();
+        ArrayList<Integer> ans = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
+
                 int sum = arr[i] + arr[j];
 
-                if (map.containsKey(sum)) {
-                    int[] pair = map.get(sum);
+                if (!map.containsKey(sum)) {
+                    map.put(sum, new int[]{i, j});
+                } else {
+                    int[] p = map.get(sum);
 
-                    ArrayList<Integer> ans = new ArrayList<>();
-                    ans.add(pair[0]);
-                    ans.add(pair[1]);
-                    ans.add(arr[i]);
-                    ans.add(arr[j]);
+                    int a = p[0];
+                    int b = p[1];
+                    int c = i;
+                    int d = j;
 
-                    return ans;
+                    // all indices must be distinct
+                    if (a != c && a != d && b != c && b != d) {
+
+                        ArrayList<Integer> curr = new ArrayList<>();
+                        curr.add(a);
+                        curr.add(b);
+                        curr.add(c);
+                        curr.add(d);
+
+                        if (ans.isEmpty() || isSmaller(curr, ans)) {
+                            ans = curr;
+                        }
+                    }
                 }
-
-                map.put(sum, new int[]{arr[i], arr[j]});
             }
         }
 
-        return new ArrayList<>();
+        if (ans.isEmpty()) {
+            ans.add(-1);
+            ans.add(-1);
+            ans.add(-1);
+            ans.add(-1);
+        }
+
+        return ans;
     }
-}
+
+    private boolean isSmaller(ArrayList<Integer> a, ArrayList<Integer> b) {
