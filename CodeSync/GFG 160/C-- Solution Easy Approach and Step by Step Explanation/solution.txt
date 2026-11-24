@@ -1,27 +1,39 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: C++ Solution || Easy Approach and Step by Step Explanation
- * URL: https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
- * Language: class Solution { public: int findXOR(int l, int r) { // code here int ans1=0; for(int b=0;b<31 && (1LL<<b)<=l-1;b++){ int cyc=(1LL<<(b+1)); int full_cyc=( (l-1)/cyc); int remaind=(l-1)%cyc; int maxi=max(0LL, remaind-(1LL<<b) +1 ); int cur= full_cyc*(1LL<<b)+maxi; if( cur&1){ ans1=ans1 | (1LL<<b); } } int ans2=0; for(int b=0; b<31 && (1LL<<b) <=r ; b++ ){ int cyc=(1LL<<(b+1)); int full_cyc= r/cyc; int remaind = (r%cyc); int maxi=max(0LL, remaind - (1LL<<b) +1 ); int cur= (full_cyc)*(1LL<<b) + maxi; if(cur&1){ ans2 = ans2 | (1LL<<b); } } return ans1^ans2; } };
+ * URL: https://www.geeksforgeeks.org/problems/satisfy-the-equation5847/1
+ * Language: class Solution { public ArrayList<Integer> findPairs(int[] arr) { HashMap<Integer, int[]> map = new HashMap<>(); int[] ans = {-1, -1, -1, -1}; for (int i = 0; i < arr.length; i++) { for (int j = i + 1; j < arr.length; j++) { int sum = arr[i] + arr[j]; if (map.containsKey(sum)) { int[] p = map.get(sum); if (p[0] != i && p[0] != j && p[1] != i && p[1] != j) { if (ans[0] == -1 || p[0] < ans[0] || (p[0] == ans[0] && p[1] < ans[1]) || (p[0] == ans[0] && p[1] == ans[1] && i < ans[2]) || (p[0] == ans[0] && p[1] == ans[1] && i == ans[2] && j < ans[3])) { ans[0] = p[0]; ans[1] = p[1]; ans[2] = i; ans[3] = j; } } } if (!map.containsKey(sum)) { map.put(sum, new int[] {i, j}); } } } return new ArrayList<>(List.of(ans[0], ans[1], ans[2], ans[3])); } }
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Bit Magic, Related Articles, Find Xor Of Numbers From The Range L R
+ * Topics: Expected Complexities, Topic Tags, Hash, Sorting, Map, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-18T11:14:43.290Z
+ * Synced: 2026-11-24T10:37:39.724Z
  */
 
 class Solution {
+    public ArrayList<Integer> findPairs(int[] arr) {
+        HashMap<Integer, int[]> map = new HashMap<>();
 
-    private int xorTillN(int n) {
-        switch (n % 4) {
-            case 0: return n;
-            case 1: return 1;
-            case 2: return n + 1;
-            default: return 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                int sum = arr[i] + arr[j];
+
+                if (map.containsKey(sum)) {
+                    int[] pair = map.get(sum);
+
+                    ArrayList<Integer> ans = new ArrayList<>();
+                    ans.add(pair[0]);
+                    ans.add(pair[1]);
+                    ans.add(arr[i]);
+                    ans.add(arr[j]);
+
+                    return ans;
+                }
+
+                map.put(sum, new int[]{arr[i], arr[j]});
+            }
         }
-    }
 
-    public int findXOR(int l, int r) {
-        return xorTillN(r) ^ xorTillN(l - 1);
+        return new ArrayList<>();
     }
 }
