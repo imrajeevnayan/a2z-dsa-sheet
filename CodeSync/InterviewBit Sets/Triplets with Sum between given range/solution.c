@@ -7,43 +7,45 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Even Product! 26 Minutes Very Easy Asked in:, Positive Negative 11 Minutes Very Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-24T15:24:19.073Z
+ * Synced: 2026-11-24T15:25:36.692Z
  */
 
-double a = Double.parseDouble(A.get(0));
-        double b = Double.parseDouble(A.get(1));
-        double c = Double.parseDouble(A.get(2));
+public int solve(String[] A) {
 
-        for (int i = 3; i < A.size(); i++) {
+        double x = Double.parseDouble(A[0]);
+        double y = Double.parseDouble(A[1]);
+        double z = Double.parseDouble(A[2]);
 
-            double sum = a + b + c;
+        for (int i = 3; i < A.length; i++) {
+
+            double sum = x + y + z;
 
             if (sum > 1.0 && sum < 2.0)
                 return 1;
 
-            double num = Double.parseDouble(A.get(i));
+            double num = Double.parseDouble(A[i]);
 
             if (sum >= 2.0) {
 
-                if (a >= b && a >= c)
-                    a = num;
-                else if (b >= a && b >= c)
-                    b = num;
+                if (x >= y && x >= z)
+                    x = num;
+                else if (y >= x && y >= z)
+                    y = num;
                 else
-                    c = num;
+                    z = num;
 
-            } else { // sum <= 1
+            } else {
 
-                if (a <= b && a <= c)
-                    a = num;
-                else if (b <= a && b <= c)
-                    b = num;
+                if (x <= y && x <= z)
+                    x = num;
+                else if (y <= x && y <= z)
+                    y = num;
                 else
-                    c = num;
+                    z = num;
             }
         }
 
-        double sum = a + b + c;
+        double sum = x + y + z;
 
         return (sum > 1.0 && sum < 2.0) ? 1 : 0;
     }
