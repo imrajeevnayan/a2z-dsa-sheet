@@ -445,3 +445,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 406 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | LeetCode | Easy | 22 Nov 2026 | 12:01 pm |
 | 407 | [Longest Subarray Sum Divisible by K](https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1) | GeeksForGeeks | Medium | 22 Nov 2026 | 12:53 pm |
 | 408 | [Character at Position in Infinite String](https://www.geeksforgeeks.org/problems/the-infinite-string1049/1) | GeeksForGeeks | Medium | 23 Nov 2026 | 12:07 am |
+| 409 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | LeetCode | Easy | 24 Nov 2026 | 04:11 pm |
