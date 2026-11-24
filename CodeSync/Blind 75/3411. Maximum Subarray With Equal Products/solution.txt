@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3411. Maximum Subarray With Equal Products
+ * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=daily-question&envId=2026-11-24
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Math, Sliding Window, Enumeration, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-24T10:40:40.879Z
+ */
+
+class Solution {
+    public int maxLength(int[] nums) {
+        
+    }
+}
