@@ -1,17 +1,37 @@
 /*
  * Platform: LeetCode
  * Problem: 3411. Maximum Subarray With Equal Products
- * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=daily-question&envId=2026-11-24
+ * URL: https://leetcode.com/problems/maximum-subarray-with-equal-products/?envType=daily-question&envId=2026-11-24
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, Math, Sliding Window, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-24T10:40:40.879Z
+ * Synced: 2026-11-24T10:41:12.482Z
  */
 
-class Solution {
-    public int maxLength(int[] nums) {
-        
+g = (j == i) ? nums[j] : gcd(g, nums[j]);
+                l = (j == i) ? nums[j] : lcm(l, nums[j]);
+
+                if (prod == g * l) {
+                    ans = Math.max(ans, j - i + 1);
+                }
+            }
+        }
+
+        return ans;
+    }
+
+    private long gcd(long a, long b) {
+        while (b != 0) {
+            long t = a % b;
+            a = b;
+            b = t;
+        }
+        return a;
+    }
+
+    private long lcm(long a, long b) {
+        return a / gcd(a, b) * b;
     }
 }
