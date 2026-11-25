@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:52:11.631Z
+ * Synced: 2026-11-25T10:52:23.920Z
  */
 
 class Solution {
@@ -22,5 +22,6 @@ class Solution {
                 set.remove(s.charAt(left));
             }
     }
-                l
+                left++;
+            
 }
