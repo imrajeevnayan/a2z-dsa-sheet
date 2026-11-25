@@ -7,12 +7,14 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:54:49.070Z
+ * Synced: 2026-11-25T10:54:55.003Z
  */
 
 class Solution {
     public boolean isPalindrome(int x) {
-    }
         return x==reverse(x);
-    static int revee
+    static int reverse(x){
+        
+    }
+    }
 }
