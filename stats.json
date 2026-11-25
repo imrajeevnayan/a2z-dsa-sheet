@@ -1,13 +1,13 @@
 {
-  "totalSolved": 407,
-  "currentStreak": 34,
-  "maxStreak": 34,
-  "lastSyncDate": "2026-11-24",
+  "totalSolved": 408,
+  "currentStreak": 35,
+  "maxStreak": 35,
+  "lastSyncDate": "2026-11-25",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 143,
     "medium": 232,
-    "hard": 19,
+    "hard": 20,
     "basic": 13
   },
   "syncedProblems": {
@@ -417,7 +417,8 @@
     "LeetCode_Check_if_All_A's_Appears_Before_All_B's": true,
     "GeeksForGeeks_Longest_Subarray_Sum_Divisible_by_K": true,
     "GeeksForGeeks_Character_at_Position_in_Infinite_String": true,
-    "LeetCode_Maximum_Subarray_With_Equal_Products": true
+    "LeetCode_Maximum_Subarray_With_Equal_Products": true,
+    "LeetCode_Smallest_Unique_Subarray": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -478,7 +479,8 @@
     "2026-11-21": 6,
     "2026-11-22": 2,
     "2026-11-23": 1,
-    "2026-11-24": 1
+    "2026-11-24": 1,
+    "2026-11-25": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -885,6 +887,7 @@
     "Check if All A's Appears Before All B's",
     "Longest Subarray Sum Divisible by K",
     "Character at Position in Infinite String",
-    "Maximum Subarray With Equal Products"
+    "Maximum Subarray With Equal Products",
+    "Smallest Unique Subarray"
   ]
 }
