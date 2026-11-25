@@ -1,25 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Two Sum
- * URL: https://leetcode.com/problems/two-sum/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Array, Hash Table
- * Runtime: 0 ms
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-23T05:51:55.797Z
+ * Synced: 2026-11-25T10:48:09.525Z
  */
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-       HashMap<Integer,Integer>map=new HashMap<>();
-       for(int i=0;i<nums.length;i++) {
-        int rem=target-nums[i];
-        if(map.containsKey(rem)){
-            return new int[]{i,map.get(rem)};
+        HashMap<Integer,Integer>map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int rem=target-nums[i];
+            if(map.containsKey(rem))return new int[]{map.get(rem),i};
+            else map.put(nums[i],i);
         }
-        map.put(nums[i],i);
-       }
-       return new int[]{-1,-1};
+        return new int[]{-1,-1};
     }
 }
