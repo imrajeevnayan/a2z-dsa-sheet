@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:49:05.753Z
+ * Synced: 2026-11-25T10:49:12.287Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         
     }
         Set<Character>set=new HashSet<>();
-        for(char c:s.toCh)
+        for(char c:s.toCharA)
 }
