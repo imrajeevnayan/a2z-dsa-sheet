@@ -1,17 +1,38 @@
 /*
  * Platform: LeetCode
  * Problem: 3934. Smallest Unique Subarray
- * URL: https://leetcode.com/problems/smallest-unique-subarray/description/?envType=daily-question&envId=2026-11-25
+ * URL: https://leetcode.com/problems/smallest-unique-subarray/?envType=daily-question&envId=2026-11-25
  * Language: Daily Question
  * Difficulty: Hard
  * Topics: Array, Hash Table, Binary Search, Rolling Hash, Suffix Array, Hash Function
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:41:42.431Z
+ * Synced: 2026-11-25T10:42:46.638Z
  */
 
-class Solution {
-    public int smallestUniqueSubarray(int[] nums) {
-        
+}
+
+        for (int i = 0; i + len <= n; i++) {
+            long key = getHash(i, i + len - 1);
+            if (freq.get(key) == 1) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private long getHash(int l, int r) {
+        int len = r - l + 1;
+
+        long h1 = (pref1[r + 1]
+                - (pref1[l] * pow1[len]) % MOD1
+                + MOD1) % MOD1;
+
+        long h2 = (pref2[r + 1]
+                - (pref2[l] * pow2[len]) % MOD2
+                + MOD2) % MOD2;
+
+        return (h1 << 32) ^ h2;
     }
 }
