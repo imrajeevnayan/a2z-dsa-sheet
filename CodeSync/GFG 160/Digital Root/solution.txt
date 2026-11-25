@@ -7,19 +7,12 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Facebook, FiberLink, Adobe, FactSet, Amazon
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:46:24.809Z
+ * Synced: 2026-11-25T15:47:00.806Z
  */
 
 class Solution {
     public int digitalRoot(int n) {
-        if (n < 10) return n;
-        // Calculate sum of digits
-        int sum = 0;
-        int temp = n;
-        while (temp > 0) {
-            sum += temp % 10;
-            temp /= 10;
-        }
-        return digitalRoot(sum);
+        // code her
+        
     }
-}
+};
