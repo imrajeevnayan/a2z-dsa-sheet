@@ -7,9 +7,13 @@
  * Topics: Expected Complexities, Topic Tags, Prefix Sum, Arrays, Related Articles, Split Array Three Equal Sum Subarrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:46:19.046Z
+ * Synced: 2026-11-25T15:48:59.768Z
  */
 
-Input:  arr[] = [1, 3, 4, 0, 4]
-Output: true
-Explanation: [1, 2] is valid pair as sum of subarray arr[0..1] is equal to sum of subarray arr[2..3] and also to sum of subarray arr[4..4]. The sum is 4, so driver code prints true.
+class Solution {
+
+    public List<Integer> findSplit(int[] arr) {
+        // Return an array of possible answer, driver code will judge and return true or
+        // false based on
+    }
+}
