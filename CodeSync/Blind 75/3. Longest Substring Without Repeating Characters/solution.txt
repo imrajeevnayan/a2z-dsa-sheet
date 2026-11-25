@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:53:10.752Z
+ * Synced: 2026-11-25T10:53:16.852Z
  */
 
 class Solution {
@@ -24,5 +24,6 @@ class Solution {
     }
                 left++;
             set.add(ch);
-            ans=Math.max(ans,right-left+)
+            ans=Math.max(ans,right-left+1);
+        reut
 }
