@@ -7,17 +7,19 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:56:25.894Z
+ * Synced: 2026-11-25T10:56:36.031Z
  */
 
 class Solution {
     static int reverse(x){
         int rev=0;
-        while(x>)
+        while(x> 0){
     }
     public boolean isPalindrome(int x) {
         if(x<0) return false;
         if(x >0 && x< 10) return true;
         return x==reverse(x);
+            rev
+        }
     }
 }
