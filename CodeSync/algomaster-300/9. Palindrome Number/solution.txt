@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:55:50.800Z
+ * Synced: 2026-11-25T10:55:55.396Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
     }
     public boolean isPalindrome(int x) {
         if(x<0) return false;
-        if(x >0 && x< 1)
+        if(x >0 && x< 10) return t
         return x==reverse(x);
     }
 }
