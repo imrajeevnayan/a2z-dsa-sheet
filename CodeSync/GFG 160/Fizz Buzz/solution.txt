@@ -7,11 +7,11 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:49:58.114Z
+ * Synced: 2026-11-25T15:50:01.911Z
  */
 
 class Solution {
     public static ArrayList<String> fizzBuzz(int n) {
-        Array
+        ArrayList<S
     }
 }
