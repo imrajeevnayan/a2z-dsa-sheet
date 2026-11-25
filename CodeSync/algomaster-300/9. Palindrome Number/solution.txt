@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:57:02.295Z
+ * Synced: 2026-11-25T10:57:09.359Z
  */
 
 class Solution {
@@ -22,5 +22,6 @@ class Solution {
             rev=rev*10 +(x %10);
         }
     }
-            x/
+            x/=10;
+        re
 }
