@@ -1,26 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: 9. Palindrome Number
- * URL: https://leetcode.com/problems/palindrome-number/description/
+ * URL: https://leetcode.com/problems/palindrome-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:53:45.312Z
+ * Synced: 2026-11-25T10:54:19.164Z
  */
 
 class Solution {
-    static int reverse(int n) {
-        int rev = 0;
-        while (n > 0) {
-        rev = rev * 10 + (n % 10);
-            n /= 10;
-        }
-        return rev;
-    }
     public boolean isPalindrome(int x) {
-        if (x < 0) return false;
-        return x == reverse(x);
+        
     }
+        r
 }
