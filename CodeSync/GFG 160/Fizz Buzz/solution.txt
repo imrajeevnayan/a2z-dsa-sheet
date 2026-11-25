@@ -7,14 +7,14 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:51:26.649Z
+ * Synced: 2026-11-25T15:51:27.849Z
  */
 
 class Solution {
     public static ArrayList<String> fizzBuzz(int n) {
         ArrayList<String> res=new ArrayList<>();
         for(int i=1 ;i<=n;i++){
-            if(i % 3 ==0 && i % 5)
+            if(i % 3 ==0 && i % 5=)
         }
     }
 }
