@@ -1,16 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 15. 3Sum
- * URL: https://leetcode.com/problems/3sum/
+ * URL: https://leetcode.com/problems/3sum/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-18T17:16:14.470Z
+ * Synced: 2026-11-25T10:58:13.900Z
  */
 
-while (left < right) {
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> result = new ArrayList<>();
+        int n = nums.length;
+        
+        for (int i = 0; i < n - 2; i++) {
+            // Duplicate skip for first element
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            
+            int left = i + 1;
+            int right = n - 1;
+            
+            while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 
                 if (sum == 0) {
@@ -20,17 +33,6 @@ while (left < right) {
                     while (left < right && nums[left] == nums[left + 1]) left++;
                     while (left < right && nums[right] == nums[right - 1]) right--;
                     
-            int right = n - 1;
-            int left = i + 1;
-            // Duplicate skip for first element
-            if (i > 0 && nums[i] == nums[i - 1]) continue;
-            
-        
-        for (int i = 0; i < n - 2; i++) {
-        int n = nums.length;
-        List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums);
-    public List<List<Integer>> threeSum(int[] nums) {
-class Solution {
                     left++;
                     right--;
+                } else if (sum < 0) {
