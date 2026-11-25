@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:49:49.665Z
+ * Synced: 2026-11-25T10:49:58.831Z
  */
 
 class Solution {
@@ -15,6 +15,6 @@ class Solution {
         
     }
         Set<Character>set=new HashSet<>();
-        for(char c:s.toCharArray())
-        int left=0,ans=Intege
+        for(
+        int left=0,ans=0;
 }
