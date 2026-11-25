@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 3. Longest Substring Without Repeating Characters
- * URL: https://leetcode.com/problems/valid-parentheses/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-21T16:46:52.736Z
+ * Synced: 2026-11-25T10:48:10.600Z
  */
 
 class Solution {
