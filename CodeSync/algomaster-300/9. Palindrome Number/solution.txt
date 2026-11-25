@@ -7,7 +7,7 @@
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:56:36.031Z
+ * Synced: 2026-11-25T10:56:45.846Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
         if(x<0) return false;
         if(x >0 && x< 10) return true;
         return x==reverse(x);
-            rev
+            rev=rev*1
         }
     }
 }
