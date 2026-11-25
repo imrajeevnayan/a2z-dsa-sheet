@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T10:51:56.936Z
+ * Synced: 2026-11-25T10:52:05.726Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ class Solution {
         }
         
             while(set.contains(ch)){
-                set.remove(s.charaaa)
+                set.remove(s.charAt(l))
             }
     }
 }
