@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: 9. Palindrome Number
+ * URL: https://leetcode.com/problems/3sum/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: 0 ms
+ * Memory: 45.55 MB
+ * Synced: 2026-11-25T10:58:12.107Z
+ */
+
+121
+-121
+10
+true
+false
+false
+true
+false
+false
