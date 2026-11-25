@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3934. Smallest Unique Subarray
+ * URL: https://leetcode.com/problems/smallest-unique-subarray/description/?envType=daily-question&envId=2026-11-25
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Hash Table, Binary Search, Rolling Hash, Suffix Array, Hash Function
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-25T10:41:42.431Z
+ */
+
+class Solution {
+    public int smallestUniqueSubarray(int[] nums) {
+        
+    }
+}
