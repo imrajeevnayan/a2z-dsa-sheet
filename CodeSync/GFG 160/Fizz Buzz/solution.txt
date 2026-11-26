@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Strings, Arrays, Related Articles, Fizz Buzz Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:53:00.220Z
+ * Synced: 2026-11-25T15:53:04.517Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
             if(i % 3 ==0 && i % 5==0) res.add("FizzBuzz");
             else if(i % 3==0) res.add("Fizz");
             else if( i % 5==0) res.add("Buzz");
-            else
+            else res.aaa
         }
     }
 }
