@@ -448,3 +448,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 409 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | LeetCode | Easy | 24 Nov 2026 | 04:11 pm |
 | 410 | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | LeetCode | Hard | 25 Nov 2026 | 04:12 pm |
 | 411 | [Two Sum](https://leetcode.com/problems/two-sum/) | LeetCode | Easy | 25 Nov 2026 | 04:17 pm |
+| 412 | [Range Vowel Count Queries](https://www.geeksforgeeks.org/problems/range-vowel-count-queries-static/1) | GeeksForGeeks | Medium | 26 Nov 2026 | 12:29 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 409,
-  "currentStreak": 35,
-  "maxStreak": 35,
-  "lastSyncDate": "2026-11-25",
-  "todayCount": 2,
+  "totalSolved": 410,
+  "currentStreak": 36,
+  "maxStreak": 36,
+  "lastSyncDate": "2026-11-26",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 144,
-    "medium": 232,
+    "medium": 233,
     "hard": 20,
     "basic": 13
   },
@@ -419,7 +419,8 @@
     "GeeksForGeeks_Character_at_Position_in_Infinite_String": true,
     "LeetCode_Maximum_Subarray_With_Equal_Products": true,
     "LeetCode_Smallest_Unique_Subarray": true,
-    "LeetCode_Two_Sum": true
+    "LeetCode_Two_Sum": true,
+    "GeeksForGeeks_Range_Vowel_Count_Queries": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -481,7 +482,8 @@
     "2026-11-22": 2,
     "2026-11-23": 1,
     "2026-11-24": 1,
-    "2026-11-25": 2
+    "2026-11-25": 2,
+    "2026-11-26": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -890,6 +892,7 @@
     "Character at Position in Infinite String",
     "Maximum Subarray With Equal Products",
     "Smallest Unique Subarray",
-    "Two Sum"
+    "Two Sum",
+    "Range Vowel Count Queries"
   ]
 }
