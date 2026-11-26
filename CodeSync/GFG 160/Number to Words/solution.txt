@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Number to Words
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems
+ * Language: Java (21)
+ * Difficulty: Easy
+ * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftOracle, Company Tags, Zoho, Amazon, Microsoft, Oracle, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-25T15:54:07.294Z
+ */
+
+class Solution {
+    public String convertToWords(int n) {
+        // code here
+        
+    }
+}
