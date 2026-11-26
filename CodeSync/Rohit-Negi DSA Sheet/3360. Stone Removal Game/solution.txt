@@ -7,7 +7,7 @@
  * Topics: Math, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-26T18:10:29.569Z
+ * Synced: 2026-11-26T18:10:37.057Z
  */
 
 class Solution {
@@ -21,9 +21,7 @@ class Solution {
             aliceTurn = !aliceTurn;
         }
 
-        // aliceTurn indicates whose turn it is now.
-        // If it's Alice's turn and she can't move -> Alice loses.
-        // Otherwise Bob can't move -> Alice wins.
+
         return !aliceTurn;
     }
 }
