@@ -1,11 +1,11 @@
 {
-  "totalSolved": 410,
+  "totalSolved": 411,
   "currentStreak": 36,
   "maxStreak": 36,
   "lastSyncDate": "2026-11-26",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 144,
+    "easy": 145,
     "medium": 233,
     "hard": 20,
     "basic": 13
@@ -420,7 +420,8 @@
     "LeetCode_Maximum_Subarray_With_Equal_Products": true,
     "LeetCode_Smallest_Unique_Subarray": true,
     "LeetCode_Two_Sum": true,
-    "GeeksForGeeks_Range_Vowel_Count_Queries": true
+    "GeeksForGeeks_Range_Vowel_Count_Queries": true,
+    "LeetCode_Stone_Removal_Game": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -483,7 +484,7 @@
     "2026-11-23": 1,
     "2026-11-24": 1,
     "2026-11-25": 2,
-    "2026-11-26": 1
+    "2026-11-26": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -893,6 +894,7 @@
     "Maximum Subarray With Equal Products",
     "Smallest Unique Subarray",
     "Two Sum",
-    "Range Vowel Count Queries"
+    "Range Vowel Count Queries",
+    "Stone Removal Game"
   ]
 }
