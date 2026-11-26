@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Design Car Class
+ * URL: https://www.geeksforgeeks.org/problems/design-a-car-class--145844/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, CPP, Java, python, JavaScript, C#, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-26T18:13:17.920Z
+ */
+
+class Car {
+    // Define the properties brand, model and year
+    String brand;
+    String model;
+    int year;
+
+    // Constructor
+    public Car(String b, String m, int y) {
+        // Initialize brand, model, and year
+        brand = b;
+        model = m;
+        year = y;
+    }
+
+    // Method to display details
+    public void displayDetails() {
+        System.out.println("Car Details:");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Year: " + year);
+    }
+}
+
+class Solution {
+    public void fun(String brand, String model, int year) {
+
+        // Create Car class and call displayDetails() method
+        Car car = new Car(brand, model, year);
+        car.displayDetails();
+    }
+}
