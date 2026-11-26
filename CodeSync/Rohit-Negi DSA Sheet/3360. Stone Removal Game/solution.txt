@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3360. Stone Removal Game
+ * URL: https://leetcode.com/problems/stone-removal-game/description/?envType=daily-question&envId=2026-11-26
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Math, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-26T18:10:04.059Z
+ */
+
+class Solution {
+    public boolean canAliceWin(int n) {
+        
+    }
+}
