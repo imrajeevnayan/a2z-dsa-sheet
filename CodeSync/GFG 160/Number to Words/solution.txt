@@ -7,10 +7,15 @@
  * Topics: Expected Complexities, Company Tags ZohoAmazonMicrosoftOracle, Company Tags, Zoho, Amazon, Microsoft, Oracle, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:54:07.294Z
+ * Synced: 2026-11-25T15:54:41.321Z
  */
 
 class Solution {
+    public String convertToWords(int n) {
+        // code here
+        
+    }
+}class Solution {
     public String convertToWords(int n) {
         // code here
         
