@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: PascalCase Pattern Matching
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems
+ * Language: Java (21)
+ * Difficulty: Easy
+ * Topics: Expected Complexities, Company Tags Ola Cabs, Company Tags, Ola Cabs, Topic Tags, Strings, Trie, Advanced Data Structure
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-25T15:53:58.701Z
+ */
+
+class Solution {
+    public List<String> pascalCase(String[] arr, String pat) {
+        // code here
+        
+    }
+}
