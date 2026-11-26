@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: bakchodi ka mood aaj
+ * URL: https://www.geeksforgeeks.org/problems/vector-fill/1
+ * Language: #include <algorithm> #include <vector> using namespace std; vector<int> vFill(vector<int>& arr) { fill(arr.begin(), arr.end(), 0); return arr; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Arrays, Related Articles, Array Fill
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-26T18:14:16.822Z
+ */
+
+import java.util.Arrays;
+
+class Solution {
+    public void fillArray(int[] arr, int k) {
+        Arrays.fill(arr, k);
+    }
+}
