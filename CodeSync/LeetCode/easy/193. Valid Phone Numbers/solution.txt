@@ -2,14 +2,12 @@
  * Platform: LeetCode
  * Problem: 193. Valid Phone Numbers
  * URL: https://leetcode.com/problems/valid-phone-numbers/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Shell
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-26T18:22:53.240Z
+ * Synced: 2026-11-26T18:22:55.808Z
  */
 
-987-123-4567
-123 456 7890
-(123) 456-7890
+# Read from the file file.txt and output all valid phone numbers to stdout.
