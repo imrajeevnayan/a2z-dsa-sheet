@@ -1,17 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: 3360. Stone Removal Game
- * URL: https://leetcode.com/problems/stone-removal-game/description/?envType=daily-question&envId=2026-11-26
+ * URL: https://leetcode.com/problems/stone-removal-game/?envType=daily-question&envId=2026-11-26
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Math, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-26T18:10:04.059Z
+ * Synced: 2026-11-26T18:10:29.569Z
  */
 
 class Solution {
     public boolean canAliceWin(int n) {
-        
+        int remove = 10;
+        boolean aliceTurn = true;
+
+        while (n >= remove) {
+            n -= remove;
+            remove--;
+            aliceTurn = !aliceTurn;
+        }
+
+        // aliceTurn indicates whose turn it is now.
+        // If it's Alice's turn and she can't move -> Alice loses.
+        // Otherwise Bob can't move -> Alice wins.
+        return !aliceTurn;
     }
 }
