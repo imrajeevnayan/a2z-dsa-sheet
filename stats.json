@@ -1,11 +1,11 @@
 {
-  "totalSolved": 411,
+  "totalSolved": 412,
   "currentStreak": 36,
   "maxStreak": 36,
   "lastSyncDate": "2026-11-26",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
-    "easy": 145,
+    "easy": 146,
     "medium": 233,
     "hard": 20,
     "basic": 13
@@ -421,7 +421,8 @@
     "LeetCode_Smallest_Unique_Subarray": true,
     "LeetCode_Two_Sum": true,
     "GeeksForGeeks_Range_Vowel_Count_Queries": true,
-    "LeetCode_Stone_Removal_Game": true
+    "LeetCode_Stone_Removal_Game": true,
+    "GeeksForGeeks_Design_Car_Class": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -484,7 +485,7 @@
     "2026-11-23": 1,
     "2026-11-24": 1,
     "2026-11-25": 2,
-    "2026-11-26": 2
+    "2026-11-26": 3
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -895,6 +896,7 @@
     "Smallest Unique Subarray",
     "Two Sum",
     "Range Vowel Count Queries",
-    "Stone Removal Game"
+    "Stone Removal Game",
+    "Design Car Class"
   ]
 }
