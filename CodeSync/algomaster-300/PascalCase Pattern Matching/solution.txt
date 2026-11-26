@@ -7,12 +7,9 @@
  * Topics: Expected Complexities, Company Tags Ola Cabs, Company Tags, Ola Cabs, Topic Tags, Strings, Trie, Advanced Data Structure
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-25T15:53:58.701Z
+ * Synced: 2026-11-25T15:53:58.488Z
  */
 
-class Solution {
-    public List<String> pascalCase(String[] arr, String pat) {
-        // code here
-        
-    }
-}
+Input: arr[] = ["WelcomeGeek", "WelcomeToGeeksForGeeks", "GeeksForGeeks"], pat = "WTG"
+Output: ["WelcomeToGeeksForGeeks"]
+Explanation: Since only "WelcomeToGeeksForGeeks" matches the pattern, it is the only answer.
