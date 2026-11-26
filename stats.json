@@ -5,10 +5,10 @@
   "lastSyncDate": "2026-11-26",
   "todayCount": 3,
   "difficultyCounts": {
-    "easy": 146,
+    "easy": 145,
     "medium": 233,
     "hard": 20,
-    "basic": 13
+    "basic": 14
   },
   "syncedProblems": {
     "GeeksForGeeks_Check_Level_Anagrams_in_Binary_Trees": true,
@@ -422,7 +422,7 @@
     "LeetCode_Two_Sum": true,
     "GeeksForGeeks_Range_Vowel_Count_Queries": true,
     "LeetCode_Stone_Removal_Game": true,
-    "GeeksForGeeks_Design_Car_Class": true
+    "GeeksForGeeks_Array_fill": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -897,6 +897,6 @@
     "Two Sum",
     "Range Vowel Count Queries",
     "Stone Removal Game",
-    "Design Car Class"
+    "Array fill"
   ]
 }
