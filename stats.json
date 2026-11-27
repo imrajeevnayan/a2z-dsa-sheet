@@ -1,11 +1,11 @@
 {
-  "totalSolved": 413,
-  "currentStreak": 36,
+  "totalSolved": 414,
+  "currentStreak": 1,
   "maxStreak": 36,
-  "lastSyncDate": "2026-11-26",
-  "todayCount": 4,
+  "lastSyncDate": "2026-11-28",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 146,
+    "easy": 147,
     "medium": 233,
     "hard": 20,
     "basic": 14
@@ -423,7 +423,8 @@
     "GeeksForGeeks_Range_Vowel_Count_Queries": true,
     "LeetCode_Stone_Removal_Game": true,
     "GeeksForGeeks_Array_fill": true,
-    "LeetCode_Valid_Phone_Numbers": true
+    "LeetCode_Valid_Phone_Numbers": true,
+    "GeeksForGeeks_Path_Exists_Between_Two_Vertices": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -486,7 +487,8 @@
     "2026-11-23": 1,
     "2026-11-24": 1,
     "2026-11-25": 2,
-    "2026-11-26": 4
+    "2026-11-26": 4,
+    "2026-11-28": 1
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -899,6 +901,7 @@
     "Range Vowel Count Queries",
     "Stone Removal Game",
     "Array fill",
-    "Valid Phone Numbers"
+    "Valid Phone Numbers",
+    "Path Exists Between Two Vertices"
   ]
 }

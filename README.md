@@ -452,3 +452,4 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | 413 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | LeetCode | Easy | 26 Nov 2026 | 11:40 pm |
 | 414 | [Array fill](https://www.geeksforgeeks.org/problems/vector-fill/1?selectedLang=java) | GeeksForGeeks | Basic | 26 Nov 2026 | 11:44 pm |
 | 415 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | LeetCode | Easy | 26 Nov 2026 | 11:53 pm |
+| 416 | [Path Exists Between Two Vertices](https://www.geeksforgeeks.org/problems/path-exists/1) | GeeksForGeeks | Easy | 28 Nov 2026 | 12:39 am |
