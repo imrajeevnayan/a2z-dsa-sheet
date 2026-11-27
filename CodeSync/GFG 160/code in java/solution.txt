@@ -1,36 +1,40 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: code in java
- * URL: https://www.geeksforgeeks.org/problems/count-the-characters1821/1
- * Language: class Sol { int getCount(String s, int n) { Map<Character, Integer> map = new HashMap<>(); int count = 0; for (int i=0; i<s.length(); i++) { Character c = s.charAt(i); if (i < s.length()-1 && c == s.charAt(i+1)) { continue; } int charCount = map.getOrDefault(c, 0); charCount++; map.put(c, charCount); } for (int frequency : map.values()) { if (frequency == n) { count++; } } return count; } }
+ * URL: https://www.geeksforgeeks.org/problems/path-exists/1
+ * Language: class Solution { public: bool checkPath(vector<vector<int>> &adj, int u, int v) { int n = adj.size(); vector<bool> visited(n, false); stack<int> st; st.push(u); visited[u] = true; while (!st.empty()) { int node = st.top(); st.pop(); if (node == v) return true; for (int neighbor : adj[node]) { if (!visited[neighbor]) { visited[neighbor] = true; st.push(neighbor); } } } return false; } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags ZohoAmazon, Company Tags, Zoho, Amazon, Topic Tags, Strings, Related Interview Experiences
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, BFS, Graph, DFS
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-08T19:09:38.843Z
+ * Synced: 2026-11-27T19:09:12.520Z
  */
 
 class Solution {
-    int getCount(String s, int k) {
-        int[] groups = new int[26];
+    public boolean checkPath(ArrayList<ArrayList<Integer>> adj, int u, int v) {
 
-        // Count groups
-        groups[s.charAt(0) - 'a']++;
+        int n = adj.size();
+        boolean[] visited = new boolean[n];
 
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i) != s.charAt(i - 1)) {
-                groups[s.charAt(i) - 'a']++;
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(u);
+        visited[u] = true;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+
+            if (node == v) {
+                return true;
+            }
+
+            for (int neighbor : adj.get(node)) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    q.offer(neighbor);
+                }
             }
         }
 
-        int ans = 0;
-
-        for (int cnt : groups) {
-            if (cnt == k) {
-                ans++;
-            }
-        }
-
-        return ans;
+        return false;
     }
 }
