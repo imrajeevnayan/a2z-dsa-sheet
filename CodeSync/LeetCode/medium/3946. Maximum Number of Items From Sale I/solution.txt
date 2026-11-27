@@ -1,0 +1,38 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3946. Maximum Number of Items From Sale I
+ * URL: https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/?envType=daily-question&envId=2026-11-27
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-27T19:08:00.810Z
+ */
+
+class Solution {
+    public int maximumSaleItems(int[][] items, int budget) {
+        int n = items.length;
+        int[] f = new int[budget + 1];
+        int minPrice = Integer.MAX_VALUE;
+
+        for (int[] item : items) {
+            int factor = item[0];
+            int price = item[1];
+            minPrice = Math.min(minPrice, price);
+
+            // Count how many items we get for free (including itself) when buying this item
+            int cnt = 0;
+            for (int[] jItem : items) {
+                if (jItem[0] % factor == 0) {
+                    cnt++;
+                }
+            }
+
+            // 0-1 Knapsack style: buying the first copy of this item
+            for (int j = budget; j >= price; j--) {
+                f[j] = Math.max(f[j], f[j - price] + cnt);
+            }
+        }
+
+        // After buying some "first copies", use remaining budget to buy as many cheapest items as possible
