@@ -1,0 +1,40 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Path Exists Between Two Vertices
+ * URL: https://www.geeksforgeeks.org/problems/path-exists/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, BFS, Graph, DFS
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-28T09:27:27.025Z
+ */
+
+class Solution {
+    public boolean checkPath(ArrayList<ArrayList<Integer>> adj, int u, int v) {
+
+        int n = adj.size();
+        boolean[] visited = new boolean[n];
+
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(u);
+        visited[u] = true;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+
+            if (node == v) {
+                return true;
+            }
+
+            for (int neighbor : adj.get(node)) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    q.offer(neighbor);
+                }
+            }
+        }
+
+        return false;
+    }
+}
