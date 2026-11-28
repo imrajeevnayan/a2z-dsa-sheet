@@ -1,0 +1,37 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3947. Maximum Number of Items From Sale II
+ * URL: https://leetcode.com/problems/maximum-number-of-items-from-sale-ii/description/?envType=daily-question&envId=2026-11-28
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-28T09:26:30.847Z
+ */
+
+class Solution {
+    public int maximumSaleItems(int[][] items, int budget) {
+        int n = items.length;
+        
+        int cheapest = Integer.MAX_VALUE;
+        int maxFactor = Integer.MIN_VALUE;
+        
+        for (int[] item : items) {
+            cheapest = Math.min(cheapest, item[1]);
+            maxFactor = Math.max(maxFactor, item[0]);
+        }
+        
+        int[] freq = new int[maxFactor + 1];
+        
+        for (int[] item : items) {
+            freq[item[0]]++;
+        }
+        
+        for (int i = 1; i <= maxFactor; i++) {
+            if (freq[i] > 0) {
+                for (int multiple = 2 * i; multiple <= maxFactor; multiple += i) {
+                    freq[i] += freq[multiple];
+                }
+            }
+        }
