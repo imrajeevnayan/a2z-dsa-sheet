@@ -1,12 +1,12 @@
 {
-  "totalSolved": 414,
+  "totalSolved": 415,
   "currentStreak": 1,
   "maxStreak": 36,
   "lastSyncDate": "2026-11-28",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 147,
-    "medium": 233,
+    "medium": 234,
     "hard": 20,
     "basic": 14
   },
@@ -424,7 +424,8 @@
     "LeetCode_Stone_Removal_Game": true,
     "GeeksForGeeks_Array_fill": true,
     "LeetCode_Valid_Phone_Numbers": true,
-    "GeeksForGeeks_Path_Exists_Between_Two_Vertices": true
+    "GeeksForGeeks_Path_Exists_Between_Two_Vertices": true,
+    "LeetCode_Maximum_Number_of_Items_From_Sale_II": true
   },
   "activityHistory": {
     "2026-09-26": 1,
@@ -488,7 +489,7 @@
     "2026-11-24": 1,
     "2026-11-25": 2,
     "2026-11-26": 4,
-    "2026-11-28": 1
+    "2026-11-28": 2
   },
   "todayProblems": [
     "Check Level Anagrams in Binary Trees",
@@ -902,6 +903,7 @@
     "Stone Removal Game",
     "Array fill",
     "Valid Phone Numbers",
-    "Path Exists Between Two Vertices"
+    "Path Exists Between Two Vertices",
+    "Maximum Number of Items From Sale II"
   ]
 }
